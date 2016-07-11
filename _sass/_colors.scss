@@ -1,0 +1,22 @@
+
+
+.color-chip {
+	width: 20%;
+	display: block;
+	box-sizing: border-box;
+	padding: 3em 2em;
+	margin-left: 0;
+	text-align: center;
+	float: left;
+	&:hover {
+	    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+	    z-index: 10;
+	}
+	span {
+		display: block;
+		font-size: 1em;
+		margin-bottom: 1em;
+		color: #ffffff;
+	}
+}
+

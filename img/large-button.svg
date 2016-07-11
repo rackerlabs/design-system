@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1173 248" style="enable-background:new 0 0 1173 248;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#BCBCBC;}
+	.st1{fill:#212121;}
+	.st2{fill:#FFFFFF;stroke:#BCBCBC;stroke-miterlimit:10;}
+	.st3{fill:#3073BA;}
+	.st4{fill:none;}
+	.st5{fill:#FFFFFF;}
+	.st6{font-family:'Roboto-Medium';}
+	.st7{font-size:15px;}
+	.st8{fill:none;stroke:#3073BA;stroke-miterlimit:10;}
+	.st9{fill:#5588C6;}
+	.st10{fill:none;stroke:#5588C6;stroke-miterlimit:10;}
+	.st11{fill:#154A9F;}
+	.st12{fill:#BEDDF4;stroke:#154A9F;stroke-miterlimit:10;}
+	.st13{fill:#FFFFFF;stroke:#BDBDBD;stroke-miterlimit:10;}
+	.st14{fill:#BDBDBD;}
+	.st15{fill:#D8D9D8;}
+	.st16{fill:none;stroke:#BDBDBD;stroke-miterlimit:10;}
+	.st17{fill:#9C9C9D;}
+	.st18{font-family:'Roboto-Regular';}
+	.st19{font-size:10px;}
+	.st20{fill:none;stroke:#B954A0;stroke-miterlimit:10;}
+	.st21{fill:#B954A0;}
+	.st22{font-size:9px;}
+	.st23{fill:#3073BA;stroke:#3073BA;stroke-miterlimit:10;}
+	.st24{fill:#5588C6;stroke:#5588C6;stroke-miterlimit:10;}
+	.st25{fill:#154A9F;stroke:#154A9F;stroke-miterlimit:10;}
+	.st26{font-size:16px;}
+	.st27{fill:none;stroke:#BCBCBC;stroke-miterlimit:10;}
+	.st28{opacity:0.87;}
+	.st29{opacity:0.87;fill:#333333;}
+	.st30{fill:#767677;}
+</style>
+<g>
+	<text transform="matrix(1 0 0 1 729.7781 842.4263)" class="st0 st6" style="font-size:11px;">Rob Med 11PX</text>
+	<g>
+		<text transform="matrix(1 0 0 1 96.9846 -104.3511)" class="st1" style="font-family:'Roboto-Light'; font-size:49px;">Buttons</text>
+	</g>
+	<path class="st2" d="M326.5,1045.5h-220c-1.1,0-2-0.9-2-2v-24c0-1.1,0.9-2,2-2h220c1.1,0,2,0.9,2,2v24
+		C328.5,1044.6,327.6,1045.5,326.5,1045.5z"/>
+	<text transform="matrix(1 0 0 1 112.7761 1036.4941)" class="st0" style="font-family:'Roboto-Italic'; font-size:13px;">Example placer text</text>
+	<path class="st2" d="M622.5,1043.5H351.4c-1.1,0-2-0.9-2-2v-24.1c0-1.1,0.9-2,2-2h271.1c1.1,0,2,0.9,2,2v24.1
+		C624.5,1042.6,623.6,1043.5,622.5,1043.5z"/>
+	<text transform="matrix(1 0 0 1 357.7761 1034.4941)" class="st0" style="font-family:'Roboto-Italic'; font-size:13px;">No file selected</text>
+	<path class="st3" d="M333.2,62.4H190c-1.1,0-2-0.9-2-2v-36c0-1.1,0.9-2,2-2h143.3c1.1,0,2,0.9,2,2v36
+		C335.2,61.5,334.3,62.4,333.2,62.4z"/>
+	<rect x="176" y="36.7" class="st4" width="170.3" height="13"/>
+	<text transform="matrix(1 0 0 1 199.7832 47.9924)" class="st5 st6 st7">primary action</text>
+	<path class="st8" d="M564.1,62.3H379.6c-1.2,0-2.1-1-2.1-2.1V24.7c0-1.2,1-2.1,2.1-2.1h184.5c1.2,0,2.1,1,2.1,2.1v35.4
+		C566.2,61.3,565.3,62.3,564.1,62.3z"/>
+	<rect x="382.8" y="36.7" class="st4" width="170.3" height="13"/>
+	<text transform="matrix(1 0 0 1 395.7075 47.9924)" class="st3 st6 st7">secondary action</text>
+	<path class="st9" d="M333.2,116.7H190c-1.1,0-2-0.9-2-2v-36c0-1.1,0.9-2,2-2h143.3c1.1,0,2,0.9,2,2v36
+		C335.2,115.8,334.3,116.7,333.2,116.7z"/>
+	<rect x="176" y="91" class="st4" width="170.3" height="13"/>
+	<text transform="matrix(1 0 0 1 199.7832 102.25)" class="st5 st6 st7">primary action</text>
+	<path class="st10" d="M564.1,116.5H379.6c-1.2,0-2.1-1-2.1-2.1V79c0-1.2,1-2.1,2.1-2.1h184.5c1.2,0,2.1,1,2.1,2.1v35.4
+		C566.2,115.6,565.3,116.5,564.1,116.5z"/>
+	<rect x="382.8" y="91" class="st4" width="170.3" height="13"/>
+	<text transform="matrix(1 0 0 1 395.7075 102.25)" class="st9 st6 st7">secondary action</text>
+	<path class="st11" d="M333.2,170.9H190c-1.1,0-2-0.9-2-2v-36c0-1.1,0.9-2,2-2h143.3c1.1,0,2,0.9,2,2v36
+		C335.2,170,334.3,170.9,333.2,170.9z"/>
+	<rect x="176" y="145.3" class="st4" width="170.3" height="13"/>
+	<text transform="matrix(1 0 0 1 199.7832 156.5076)" class="st5 st6 st7">primary action</text>
+	<path class="st12" d="M564.1,170.8H379.6c-1.2,0-2.1-1-2.1-2.1v-35.4c0-1.2,1-2.1,2.1-2.1h184.5c1.2,0,2.1,1,2.1,2.1v35.4
+		C566.2,169.8,565.3,170.8,564.1,170.8z"/>
+	<g>
+		<rect x="382.8" y="145.3" class="st4" width="170.3" height="13"/>
+		<text transform="matrix(1 0 0 1 395.7075 156.5076)" class="st11 st6 st7">secondary action</text>
+	</g>
+	<path class="st13" d="M564.1,222.1H379.6c-1.2,0-2.1-1-2.1-2.1v-35.4c0-1.2,1-2.1,2.1-2.1h184.5c1.2,0,2.1,1,2.1,2.1V220
+		C566.2,221.1,565.3,222.1,564.1,222.1z"/>
+	<g>
+		<rect x="382.8" y="196.6" class="st4" width="170.3" height="13"/>
+		<text transform="matrix(1 0 0 1 395.7075 207.8154)" class="st14 st6 st7">secondary action</text>
+	</g>
+	<path class="st3" d="M273.5,430.1h-88.8c-1.1,0-2-0.9-2-2v-24c0-1.1,0.9-2,2-2h88.8c1.1,0,2,0.9,2,2v24
+		C275.5,429.2,274.6,430.1,273.5,430.1z"/>
+	<path class="st9" d="M273.5,468.9h-88.8c-1.1,0-2-0.9-2-2v-24c0-1.1,0.9-2,2-2h88.8c1.1,0,2,0.9,2,2v24
+		C275.5,468,274.6,468.9,273.5,468.9z"/>
+	<rect x="193.9" y="450.3" class="st4" width="66.2" height="13"/>
+	<text transform="matrix(1 0 0 1 201.0991 459.2637)" class="st5 st6" style="font-size:12px;">primary</text>
+	<path class="st11" d="M273.5,507.8h-88.8c-1.1,0-2-0.9-2-2v-24c0-1.1,0.9-2,2-2h88.8c1.1,0,2,0.9,2,2v24
+		C275.5,506.9,274.6,507.8,273.5,507.8z"/>
+	<rect x="193.9" y="489.2" class="st4" width="66.2" height="13"/>
+	<text transform="matrix(1 0 0 1 201.0991 498.1559)" class="st5 st6" style="font-size:12px;">primary</text>
+	<path class="st15" d="M273.5,546.8h-88.8c-1.1,0-2-0.9-2-2v-24c0-1.1,0.9-2,2-2h88.8c1.1,0,2,0.9,2,2v24
+		C275.5,545.9,274.6,546.8,273.5,546.8z"/>
+	<rect x="193.9" y="528.1" class="st4" width="66.2" height="13"/>
+	<text transform="matrix(1 0 0 1 201.0991 537.0902)" class="st5 st6" style="font-size:12px;">primary</text>
+	<path class="st8" d="M416,430.1H315.6c-1.1,0-2-0.9-2-2v-24c0-1.1,0.9-2,2-2H416c1.1,0,2,0.9,2,2v24
+		C418,429.2,417.1,430.1,416,430.1z"/>
+	<g>
+		<rect x="321.8" y="411.4" class="st4" width="89.2" height="13"/>
+		<text transform="matrix(1 0 0 1 331.7519 420.4265)" class="st3 st6" style="font-size:12px;">secondary</text>
+	</g>
+	<path class="st10" d="M416,470.1H315.6c-1.1,0-2-0.9-2-2v-24c0-1.1,0.9-2,2-2H416c1.1,0,2,0.9,2,2v24
+		C418,469.2,417.1,470.1,416,470.1z"/>
+	<g>
+		<rect x="321.8" y="451.4" class="st4" width="86.1" height="13"/>
+		<text transform="matrix(1 0 0 1 330.1943 460.432)" class="st9 st6" style="font-size:12px;">secondary</text>
+	</g>
+	<path class="st12" d="M416,509.1H315.6c-1.1,0-2-0.9-2-2v-24c0-1.1,0.9-2,2-2H416c1.1,0,2,0.9,2,2v24
+		C418,508.2,417.1,509.1,416,509.1z"/>
+	<g>
+		<rect x="321.8" y="490.4" class="st4" width="89.2" height="13"/>
+		<text transform="matrix(1 0 0 1 331.7519 499.4375)" class="st11 st6" style="font-size:12px;">secondary</text>
+	</g>
+	<path class="st13" d="M416,546H315.6c-1.1,0-2-0.9-2-2v-24c0-1.1,0.9-2,2-2H416c1.1,0,2,0.9,2,2v24C418,545.1,417.1,546,416,546z"
+		/>
+	<g>
+		<rect x="321.8" y="527.3" class="st4" width="89.2" height="13"/>
+		<text transform="matrix(1 0 0 1 331.7519 536.3348)" class="st14 st6" style="font-size:12px;">secondary</text>
+	</g>
+	<path class="st3" d="M259,734.3h-74.2c-1.1,0-2-0.9-2-2v-16.9c0-1.1,0.9-2,2-2H259c1.1,0,2,0.9,2,2v16.9
+		C261,733.4,260.1,734.3,259,734.3z"/>
+	<rect x="193.9" y="719.1" class="st4" width="55.6" height="13"/>
+	<text transform="matrix(1 0 0 1 197.9428 727.3954)" class="st5 st6" style="font-size:11px;">Primary</text>
+	<path class="st9" d="M259,763.8h-74.3c-1.1,0-2-0.9-2-2v-16c0-1.1,0.9-2,2-2H259c1.1,0,2,0.9,2,2v16
+		C261,762.9,260.1,763.8,259,763.8z"/>
+	<rect x="193.9" y="749.2" class="st4" width="55.6" height="13"/>
+	<text transform="matrix(1 0 0 1 197.9428 757.4014)" class="st5 st6" style="font-size:11px;">Primary</text>
+	<path class="st11" d="M259,793.8h-74.3c-1.1,0-2-0.9-2-2v-16c0-1.1,0.9-2,2-2H259c1.1,0,2,0.9,2,2v16
+		C261,792.9,260.1,793.8,259,793.8z"/>
+	<rect x="193.9" y="779.2" class="st4" width="55.6" height="13"/>
+	<text transform="matrix(1 0 0 1 197.9428 787.4065)" class="st5 st6" style="font-size:11px;">Primary</text>
+	<path class="st8" d="M392.6,735.3h-80.6c-1.1,0-2-0.9-2-2v-16c0-1.1,0.9-2,2-2h80.6c1.1,0,2,0.9,2,2v16
+		C394.6,734.4,393.7,735.3,392.6,735.3z"/>
+	<g>
+		<rect x="313.6" y="720.7" class="st4" width="77.9" height="13"/>
+		<text transform="matrix(1 0 0 1 320.7229 728.9009)" class="st3 st6" style="font-size:11px;">Secondary</text>
+	</g>
+	<path class="st10" d="M392.6,765.3h-80.6c-1.1,0-2-0.9-2-2v-16c0-1.1,0.9-2,2-2h80.6c1.1,0,2,0.9,2,2v16
+		C394.6,764.4,393.7,765.3,392.6,765.3z"/>
+	<g>
+		<rect x="313.6" y="750.7" class="st4" width="77.9" height="13"/>
+		<text transform="matrix(1 0 0 1 320.7229 758.9069)" class="st9 st6" style="font-size:11px;">Secondary</text>
+	</g>
+	<path class="st12" d="M392.6,795.3h-80.6c-1.1,0-2-0.9-2-2v-16c0-1.1,0.9-2,2-2h80.6c1.1,0,2,0.9,2,2v16
+		C394.6,794.4,393.7,795.3,392.6,795.3z"/>
+	<g>
+		<rect x="313.6" y="780.7" class="st4" width="77.9" height="13"/>
+		<text transform="matrix(1 0 0 1 320.7229 788.912)" class="st11 st6" style="font-size:11px;">Secondary</text>
+	</g>
+	<path class="st15" d="M259,824.8h-74.3c-1.1,0-2-0.9-2-2v-16c0-1.1,0.9-2,2-2H259c1.1,0,2,0.9,2,2v16
+		C261,823.9,260.1,824.8,259,824.8z"/>
+	<rect x="193.9" y="810.2" class="st4" width="55.6" height="13"/>
+	<text transform="matrix(1 0 0 1 197.9428 818.4065)" class="st5 st6" style="font-size:11px;">Primary</text>
+	<path class="st16" d="M392.6,826.3h-80.6c-1.1,0-2-0.9-2-2v-16c0-1.1,0.9-2,2-2h80.6c1.1,0,2,0.9,2,2v16
+		C394.6,825.4,393.7,826.3,392.6,826.3z"/>
+	<g>
+		<rect x="313.6" y="811.7" class="st4" width="77.9" height="13"/>
+		<text transform="matrix(1 0 0 1 320.7229 819.912)" class="st14 st6" style="font-size:11px;">Secondary</text>
+	</g>
+	<text transform="matrix(1 0 0 1 102.4995 46.9924)" class="st17 st18 st19">Default</text>
+	<text transform="matrix(1 0 0 1 102.4995 420.103)" class="st17 st18 st19">Default</text>
+	<text transform="matrix(1 0 0 1 102.4995 729.1216)" class="st17 st18 st19">Default</text>
+	<text transform="matrix(1 0 0 1 102.4995 97.4883)" class="st17 st18 st19">Hover</text>
+	<text transform="matrix(1 0 0 1 102.4995 464.4082)" class="st17 st18 st19">Hover</text>
+	<text transform="matrix(1 0 0 1 102.4995 755.5391)" class="st17 st18 st19">Hover</text>
+	<text transform="matrix(1 0 0 1 102.4995 151.7458)" class="st17 st18 st19">Press</text>
+	<text transform="matrix(1 0 0 1 102.4995 497.9253)" class="st17 st18 st19">Press</text>
+	<text transform="matrix(1 0 0 1 102.4995 789.1328)" class="st17 st18 st19">Press</text>
+	<path class="st15" d="M333.2,222.2H190c-1.1,0-2-0.9-2-2v-36c0-1.1,0.9-2,2-2h143.3c1.1,0,2,0.9,2,2v36
+		C335.2,221.4,334.3,222.2,333.2,222.2z"/>
+	<rect x="176" y="196.6" class="st4" width="170.3" height="13"/>
+	<text transform="matrix(1 0 0 1 199.7832 207.8154)" class="st5 st6 st7">primary action</text>
+	<text transform="matrix(1 0 0 1 102.4995 203.0537)" class="st17 st18 st19">Disabled</text>
+	<text transform="matrix(1 0 0 1 102.4995 535.3372)" class="st17 st18 st19">Disabled</text>
+	<text transform="matrix(1 0 0 1 102.4995 820.1331)" class="st17 st18 st19">Disabled</text>
+	<path id="XMLID_52_" class="st2" d="M873,204.5H689.5c-1.1,0-2-0.9-2-2v-46.9c0-1.1,0.9-2,2-2H873c1.1,0,2,0.9,2,2v46.9
+		C875,203.6,874.1,204.5,873,204.5z"/>
+	<text transform="matrix(1 0 0 1 602.4993 178.6562)" class="st17 st18 st19">Button Spec</text>
+	<text transform="matrix(1 0 0 1 604.0002 495.9148)" class="st17 st18 st19">Button Spec</text>
+	<g>
+		<line class="st20" x1="779.5" y1="185" x2="779.5" y2="204"/>
+		<line class="st20" x1="777" y1="184.5" x2="782" y2="184.5"/>
+		<line class="st20" x1="777" y1="203.5" x2="782" y2="203.5"/>
+	</g>
+	<g>
+		<line class="st20" x1="836" y1="177.5" x2="875" y2="177.5"/>
+		<line class="st20" x1="836.5" y1="180" x2="836.5" y2="175"/>
+		<line class="st20" x1="874.5" y1="180" x2="874.5" y2="175"/>
+	</g>
+	<g>
+		<line class="st20" x1="688" y1="177.5" x2="727" y2="177.5"/>
+		<line class="st20" x1="688.5" y1="180" x2="688.5" y2="175"/>
+		<line class="st20" x1="726.5" y1="180" x2="726.5" y2="175"/>
+	</g>
+	<g>
+		<line class="st20" x1="779.5" y1="155" x2="779.5" y2="173"/>
+		<line class="st20" x1="777" y1="154.5" x2="782" y2="154.5"/>
+		<line class="st20" x1="777" y1="172.5" x2="782" y2="172.5"/>
+	</g>
+	<g>
+		<line class="st20" x1="883.5" y1="154" x2="883.5" y2="205"/>
+		<line class="st20" x1="881" y1="153.5" x2="887" y2="153.5"/>
+		<line class="st20" x1="881" y1="204.5" x2="887" y2="204.5"/>
+	</g>
+	<text transform="matrix(1 0 0 1 783.1907 166.5)" class="st21 st18 st22">12px</text>
+	<text transform="matrix(1 0 0 1 848.9407 172.5886)" class="st21 st18 st22">14px</text>
+	<g>
+		<text transform="matrix(1 0 0 1 887.3577 179.6702)" class="st21 st18 st22">40px</text>
+	</g>
+	<text transform="matrix(1 0 0 1 697.428 172.5886)" class="st21 st18 st22">14px</text>
+	<text transform="matrix(1 0 0 1 783.1907 198)" class="st21 st18 st22">12px</text>
+	<text transform="matrix(1 0 0 1 603.4993 838.333)" class="st17 st18 st19">Button Spec</text>
+	<path class="st23" d="M620.7,1043.5h-89.2v-28h89.2c2.1,0,3.8,1.7,3.8,3.8v20.4C624.5,1041.8,622.8,1043.5,620.7,1043.5z"/>
+	<g>
+		<text transform="matrix(1 0 0 1 562.9844 1033.6528)" class="st5 st6" style="font-size:12px;">Attach</text>
+	</g>
+	<path class="st5" d="M548.1,1023.2c0.9,0.1,1.7,0.4,2.3,1c1.7,1.7,3.4,3.4,5.2,5.2c0.3,0.3,0.1,0.5-0.1,0.7
+		c-0.3,0.3-0.4,0.3-0.7,0.1c-1.7-1.7-3.3-3.3-5-5c-0.6-0.6-1.4-0.9-2.3-0.7c-1.5,0.4-2.1,2.2-1.1,3.4c0.1,0.1,0.2,0.2,0.3,0.4
+		c2.1,2.1,4.3,4.3,6.4,6.4c0.2,0.2,0.4,0.4,0.6,0.5c0.6,0.3,1.2,0.2,1.6-0.2c0.4-0.4,0.5-1.1,0.2-1.6c-0.1-0.2-0.3-0.4-0.5-0.6
+		c-1.6-1.6-3.2-3.2-4.8-4.8c-0.1-0.1-0.3-0.3-0.5-0.3c-0.2,0-0.5,0-0.6,0.2c-0.1,0.1-0.1,0.4,0,0.6c0,0.1,0.2,0.3,0.3,0.4
+		c1.1,1.1,2.1,2.1,3.2,3.2c0.3,0.3,0.3,0.4,0,0.7c-0.3,0.3-0.4,0.4-0.7,0c-1.1-1.1-2.2-2.2-3.3-3.3c-0.5-0.5-0.7-1-0.6-1.7
+		c0.2-1.2,1.7-1.7,2.7-1c0.1,0.1,0.2,0.1,0.2,0.2c1.6,1.6,3.3,3.3,4.9,4.9c0.6,0.6,0.9,1.3,0.9,2.1c0,1.8-1.8,2.8-3.5,2
+		c-0.3-0.2-0.6-0.4-0.9-0.6c-2.2-2.2-4.4-4.4-6.6-6.6c-1.6-1.7-1.2-4.3,0.9-5.3C547.1,1023.4,547.6,1023.3,548.1,1023.2z"/>
+	<path class="st2" d="M622.5,1092.5H351.4c-1.1,0-2-0.9-2-2v-24.1c0-1.1,0.9-2,2-2h271.1c1.1,0,2,0.9,2,2v24.1
+		C624.5,1091.6,623.6,1092.5,622.5,1092.5z"/>
+	<text transform="matrix(1 0 0 1 357.7761 1083.4941)" class="st0" style="font-family:'Roboto-Italic'; font-size:13px;">No file selected</text>
+	<path class="st24" d="M620.7,1092.5h-89.2v-28h89.2c2.1,0,3.8,1.7,3.8,3.8v20.4C624.5,1090.8,622.8,1092.5,620.7,1092.5z"/>
+	<g>
+		<text transform="matrix(1 0 0 1 562.9844 1082.6528)" class="st5 st6" style="font-size:12px;">ATTACH</text>
+	</g>
+	<path class="st5" d="M548.1,1072.2c0.9,0.1,1.7,0.4,2.3,1c1.7,1.7,3.4,3.4,5.2,5.2c0.3,0.3,0.1,0.5-0.1,0.7
+		c-0.3,0.3-0.4,0.3-0.7,0.1c-1.7-1.7-3.3-3.3-5-5c-0.6-0.6-1.4-0.9-2.3-0.7c-1.5,0.4-2.1,2.2-1.1,3.4c0.1,0.1,0.2,0.2,0.3,0.4
+		c2.1,2.1,4.3,4.3,6.4,6.4c0.2,0.2,0.4,0.4,0.6,0.5c0.6,0.3,1.2,0.2,1.6-0.2c0.4-0.4,0.5-1.1,0.2-1.6c-0.1-0.2-0.3-0.4-0.5-0.6
+		c-1.6-1.6-3.2-3.2-4.8-4.8c-0.1-0.1-0.3-0.3-0.5-0.3c-0.2,0-0.5,0-0.6,0.2c-0.1,0.1-0.1,0.4,0,0.6c0,0.1,0.2,0.3,0.3,0.4
+		c1.1,1.1,2.1,2.1,3.2,3.2c0.3,0.3,0.3,0.4,0,0.7c-0.3,0.3-0.4,0.4-0.7,0c-1.1-1.1-2.2-2.2-3.3-3.3c-0.5-0.5-0.7-1-0.6-1.7
+		c0.2-1.2,1.7-1.7,2.7-1c0.1,0.1,0.2,0.1,0.2,0.2c1.6,1.6,3.3,3.3,4.9,4.9c0.6,0.6,0.9,1.3,0.9,2.1c0,1.8-1.8,2.8-3.5,2
+		c-0.3-0.2-0.6-0.4-0.9-0.6c-2.2-2.2-4.4-4.4-6.6-6.6c-1.6-1.7-1.2-4.3,0.9-5.3C547.1,1072.4,547.6,1072.3,548.1,1072.2z"/>
+	<path class="st2" d="M622.5,1141.5H351.4c-1.1,0-2-0.9-2-2v-24.1c0-1.1,0.9-2,2-2h271.1c1.1,0,2,0.9,2,2v24.1
+		C624.5,1140.6,623.6,1141.5,622.5,1141.5z"/>
+	<text transform="matrix(1 0 0 1 357.7761 1132.4941)" class="st0" style="font-family:'Roboto-Italic'; font-size:13px;">No file selected</text>
+	<path class="st25" d="M620.7,1141.5h-89.2v-28h89.2c2.1,0,3.8,1.7,3.8,3.8v20.4C624.5,1139.8,622.8,1141.5,620.7,1141.5z"/>
+	<text transform="matrix(1 0 0 1 562.9844 1131.6528)" class="st5 st6" style="font-size:12px;">ATTACH</text>
+	<path class="st5" d="M548.1,1121.2c0.9,0.1,1.7,0.4,2.3,1c1.7,1.7,3.4,3.4,5.2,5.2c0.3,0.3,0.1,0.5-0.1,0.7
+		c-0.3,0.3-0.4,0.3-0.7,0.1c-1.7-1.7-3.3-3.3-5-5c-0.6-0.6-1.4-0.9-2.3-0.7c-1.5,0.4-2.1,2.2-1.1,3.4c0.1,0.1,0.2,0.2,0.3,0.4
+		c2.1,2.1,4.3,4.3,6.4,6.4c0.2,0.2,0.4,0.4,0.6,0.5c0.6,0.3,1.2,0.2,1.6-0.2c0.4-0.4,0.5-1.1,0.2-1.6c-0.1-0.2-0.3-0.4-0.5-0.6
+		c-1.6-1.6-3.2-3.2-4.8-4.8c-0.1-0.1-0.3-0.3-0.5-0.3c-0.2,0-0.5,0-0.6,0.2c-0.1,0.1-0.1,0.4,0,0.6c0,0.1,0.2,0.3,0.3,0.4
+		c1.1,1.1,2.1,2.1,3.2,3.2c0.3,0.3,0.3,0.4,0,0.7c-0.3,0.3-0.4,0.4-0.7,0c-1.1-1.1-2.2-2.2-3.3-3.3c-0.5-0.5-0.7-1-0.6-1.7
+		c0.2-1.2,1.7-1.7,2.7-1c0.1,0.1,0.2,0.1,0.2,0.2c1.6,1.6,3.3,3.3,4.9,4.9c0.6,0.6,0.9,1.3,0.9,2.1c0,1.8-1.8,2.8-3.5,2
+		c-0.3-0.2-0.6-0.4-0.9-0.6c-2.2-2.2-4.4-4.4-6.6-6.6c-1.6-1.7-1.2-4.3,0.9-5.3C547.1,1121.4,547.6,1121.3,548.1,1121.2z"/>
+	<path id="XMLID_51_" class="st23" d="M324.5,1045.5h-59v-28h59c2.2,0,4,1.8,4,4v20C328.5,1043.7,326.7,1045.5,324.5,1045.5z"/>
+	<g>
+		<text transform="matrix(1 0 0 1 273.9841 1036.4055)" class="st5 st6" style="font-size:12px;">Action</text>
+	</g>
+	<path class="st2" d="M326.5,1092.5h-220c-1.1,0-2-0.9-2-2v-24c0-1.1,0.9-2,2-2h220c1.1,0,2,0.9,2,2v24
+		C328.5,1091.6,327.6,1092.5,326.5,1092.5z"/>
+	<text transform="matrix(1 0 0 1 112.7761 1083.4941)" class="st0" style="font-family:'Roboto-Italic'; font-size:13px;">Example placer text</text>
+	<path id="XMLID_50_" class="st24" d="M324.5,1092.5h-59v-28h59c2.2,0,4,1.8,4,4v20C328.5,1090.7,326.7,1092.5,324.5,1092.5z"/>
+	<g>
+		<text transform="matrix(1 0 0 1 275.0842 1083.6055)" class="st5 st6" style="font-size:12px;">Action</text>
+	</g>
+	<path class="st2" d="M326.5,1137.4h-220c-1.1,0-2-0.9-2-2v-24c0-1.1,0.9-2,2-2h220c1.1,0,2,0.9,2,2v24
+		C328.5,1136.5,327.6,1137.4,326.5,1137.4z"/>
+	<text transform="matrix(1 0 0 1 112.7761 1128.3669)" class="st0" style="font-family:'Roboto-Italic'; font-size:13px;">Example placer text</text>
+	<path id="XMLID_49_" class="st25" d="M324.5,1137.4h-59v-28h59c2.2,0,4,1.8,4,4v20C328.5,1135.6,326.7,1137.4,324.5,1137.4z"/>
+	<g>
+		<text transform="matrix(1 0 0 1 274.9841 1128.4783)" class="st5 st6" style="font-size:12px;">Action</text>
+	</g>
+	<text transform="matrix(1 0 0 1 725.7454 183.725)" class="st0 st6 st26">ROB MED 16PX</text>
+	<path id="XMLID_47_" class="st2" d="M840.4,537.1H715.2c-1.1,0-2-0.9-2-2v-24.1c0-1.1,0.9-2,2-2h125.3c1.1,0,2,0.9,2,2v24.1
+		C842.4,536.2,841.5,537.1,840.4,537.1z"/>
+	<g>
+		<line class="st20" x1="779.5" y1="529.1" x2="779.5" y2="537.1"/>
+		<line class="st20" x1="777" y1="529.7" x2="782" y2="529.7"/>
+		<line class="st20" x1="777" y1="536.5" x2="782" y2="536.5"/>
+	</g>
+	<g>
+		<line class="st20" x1="829" y1="524.5" x2="841" y2="524.5"/>
+		<line class="st20" x1="829.5" y1="527" x2="829.5" y2="522"/>
+		<line class="st20" x1="841.5" y1="527" x2="841.5" y2="522"/>
+	</g>
+	<g>
+		<line class="st20" x1="713.6" y1="524.5" x2="725.6" y2="524.5"/>
+		<line class="st20" x1="714.1" y1="527" x2="714.1" y2="522"/>
+		<line class="st20" x1="726.1" y1="527" x2="726.1" y2="522"/>
+	</g>
+	<g>
+		<line class="st20" x1="779.5" y1="510" x2="779.5" y2="518"/>
+		<line class="st20" x1="777" y1="509.5" x2="782" y2="509.5"/>
+		<line class="st20" x1="777" y1="517.5" x2="782" y2="517.5"/>
+	</g>
+	<g>
+		<line class="st20" x1="847.5" y1="510" x2="847.5" y2="537"/>
+		<line class="st20" x1="845" y1="509.5" x2="851" y2="509.5"/>
+		<line class="st20" x1="845" y1="536.5" x2="851" y2="536.5"/>
+	</g>
+	<text transform="matrix(1 0 0 1 772.2185 503.4141)" class="st21 st18 st22">8px</text>
+	<text transform="matrix(1 0 0 1 828.1072 548.3081)" class="st21 st18 st22">12px</text>
+	<g>
+		<text transform="matrix(1 0 0 1 853.3577 527.0002)" class="st21 st18 st22">28px</text>
+	</g>
+	<text transform="matrix(1 0 0 1 709.7915 549.0886)" class="st21 st18 st22">12px</text>
+	<text transform="matrix(1 0 0 1 777.0508 546.0039)" class="st21 st18 st22">8px</text>
+	<text transform="matrix(1 0 0 1 725.219 528.7167)" class="st0 st6 st7">ROB MED 12PX</text>
+	<path id="XMLID_46_" class="st27" d="M813,847.5h-90.5c-1.1,0-2-0.9-2-2V832c0-1.1,0.9-2,2-2H813c1.1,0,2,0.9,2,2v13.5
+		C815,846.6,814.1,847.5,813,847.5z"/>
+	<g>
+		<line class="st20" x1="721" y1="837.5" x2="730" y2="837.5"/>
+		<line class="st20" x1="721.5" y1="840" x2="721.5" y2="835"/>
+		<line class="st20" x1="729.5" y1="840" x2="729.5" y2="835"/>
+	</g>
+	<g>
+		<line class="st20" x1="806" y1="837.5" x2="815" y2="837.5"/>
+		<line class="st20" x1="806.5" y1="840" x2="806.5" y2="835"/>
+		<line class="st20" x1="814.5" y1="840" x2="814.5" y2="835"/>
+	</g>
+	<g>
+		<line class="st20" x1="767.5" y1="830" x2="767.5" y2="836"/>
+		<line class="st20" x1="765" y1="830.5" x2="770" y2="830.5"/>
+		<line class="st20" x1="765" y1="835.5" x2="770" y2="835.5"/>
+	</g>
+	<g>
+		<line class="st20" x1="819.3" y1="830.4" x2="819.3" y2="847.7"/>
+		<line class="st20" x1="816.8" y1="829.8" x2="822.8" y2="829.8"/>
+		<line class="st20" x1="816.8" y1="847.1" x2="822.8" y2="847.1"/>
+	</g>
+	<text transform="matrix(1 0 0 1 760.468 828.167)" class="st21 st18 st22">5px</text>
+	<g>
+		<line class="st20" x1="767.5" y1="842" x2="767.5" y2="848"/>
+		<line class="st20" x1="765" y1="842.5" x2="770" y2="842.5"/>
+		<line class="st20" x1="765" y1="847.5" x2="770" y2="847.5"/>
+	</g>
+	<text transform="matrix(1 0 0 1 760.218 855.5127)" class="st21 st18 st22">5px</text>
+	<text transform="matrix(1 0 0 1 796.6917 858)" class="st21 st18 st22">10px</text>
+	<g>
+		<text transform="matrix(1 0 0 1 825.6909 842.5)" class="st21 st18 st22">21px</text>
+	</g>
+	<text transform="matrix(1 0 0 1 715.6914 858)" class="st21 st18 st22">10px</text>
+	<g id="XMLID_41_" class="st28">
+		<text transform="matrix(1 0 0 1 100.5432 -34.7457)" class="st29 st6" style="font-size:21px;">Large Button</text>
+	</g>
+	<g id="XMLID_39_" class="st28">
+		<text transform="matrix(1 0 0 1 102.5432 345.9998)" class="st29 st6" style="font-size:21px;">Standard Button</text>
+	</g>
+	<g id="XMLID_11_" class="st28">
+		<text transform="matrix(1 0 0 1 98.5432 664.8109)" class="st29 st6" style="font-size:21px;">Small Button</text>
+	</g>
+	<g id="XMLID_8_" class="st28">
+		<text transform="matrix(1 0 0 1 103.5432 973.4998)" class="st29 st6" style="font-size:21px;">Button - Fields</text>
+	</g>
+	<g>
+		<rect x="602" y="22.4" class="st4" width="474" height="84.3"/>
+		<text transform="matrix(1 0 0 1 602.0001 33.6728)"><tspan x="0" y="0" class="st30 st18 st7">Large Button Rules:  16px, Text in all caps.  Colors limited to XXX, XXX, </tspan><tspan x="0" y="20" class="st30 st18 st7">XXX, XXX</tspan></text>
+	</g>
+	<g>
+		<rect x="604" y="713.9" class="st4" width="471" height="56.1"/>
+		<text transform="matrix(1 0 0 1 604.0001 725.1083)"><tspan x="0" y="0" class="st30 st18 st7">Small Button Rules:  11px, Text in all caps.  Colors limited to XXX, XXX, </tspan><tspan x="0" y="20" class="st30 st18 st7">XXX, XXX</tspan></text>
+	</g>
+	<g>
+		<rect x="603" y="401.9" class="st4" width="471" height="83.6"/>
+		<text transform="matrix(1 0 0 1 603.0001 413.1788)"><tspan x="0" y="0" class="st30 st18 st7">Standard Button Rules:  12px, Text in all caps.  Colors limited to XXX, </tspan><tspan x="0" y="20" class="st30 st18 st7">XXX, XXX, XXX</tspan></text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 201.4275 420.103)" class="st5 st6" style="font-size:12px;">PRIMARY</text>
+	</g>
+</g>
+</svg>

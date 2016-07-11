@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Rackspace Design System</title>
+  <meta name="description" content="This is a living UI style guide for the getcarina.com control panel v2.0. Here you will find a listing of the components  present within the user interface as well as guidelines for implementation.
+">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
+  <script src="https://use.fontawesome.com/b2b7b479bf.js"></script>
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="http://style.getcarina.com/">
+  <link rel="alternate" type="application/rss+xml" title="Rackspace Design System" href="http://style.getcarina.com/feed.xml">
+  <link rel="stylesheet" type="text/css" href="/css/font.css">
+</head>
+
+
+  <body>
+
+    <nav>
+  <header class="site-header">
+
+    <a href="/index.html"><img src="/img/carinaui-logo-blue.svg" class="logo"></a>
+
+  </header>
+  <ul>
+    <li><a a href="/Overview">Overview</a>
+      <ul  class="inactive"   class>
+        
+      </ul>
+    </li>
+    <li><a href="/communication">Communication</a>
+      <ul  class="inactive"  class>
+        
+          <li><a class="nested" href="/communication/communication-tooltips" >Tooltips</a></li>
+        
+          <li><a class="nested" href="/communication/communication-status-indicator" >Status Indicator</a></li>
+        
+          <li><a class="nested" href="/communication/communication-progress" >Progress Bar</a></li>
+        
+          <li><a class="nested" href="/communication/communication-notification-bar" >Notification Bar</a></li>
+        
+          <li><a class="nested" href="/communication/communication-monitoring-status" >Pill Status</a></li>
+        
+          <li><a class="nested" href="/communication/communication-loading-indicator" >Loading State</a></li>
+        
+          <li><a class="nested" href="/communication/communication-help-rail" >Help Rail</a></li>
+        
+          <li><a class="nested" href="/communication/communication-first-use" >First Use</a></li>
+        
+          <li><a class="nested" href="/communication/communication-beacon" >Beacon</a></li>
+        
+          <li><a class="nested" href="/communication/communication-toast-notification" >Toast Alert</a></li>
+        
+      </ul>
+    </li>
+    <li><a href="/data">Content & Data</a>
+      <ul  class="inactive"  class>
+        
+          <li><a class="nested" href="/data/data-tables" >Tables</a></li>
+        
+          <li><a class="nested" href="/data/data-statistic" >Statistic</a></li>
+        
+          <li><a class="nested" href="/data/data-popovers" >Pop Overs</a></li>
+        
+          <li><a class="nested" href="/data/data-pie-chart" >Pie Chart</a></li>
+        
+          <li><a class="nested" href="/data/data-line-chart" >Line Chart</a></li>
+        
+          <li><a class="nested" href="/data/data-grid-list" >Grid List</a></li>
+        
+          <li><a class="nested" href="/data/data-dialogues" >Dialogues</a></li>
+        
+          <li><a class="nested" href="/data/data-cards" >Cards</a></li>
+        
+          <li><a class="nested" href="/data/data-bar-chart" >Bar Chart</a></li>
+        
+      </ul>
+    </li>
+    <li><a href="/forms-controls">Forms & Controls</a>
+      <ul  class="inactive" >
+        
+          <li><a class="nested" href="/forms-controls/forms-time-picker" >Time Picker</a></li>
+        
+          <li><a class="nested" href="/forms-controls/forms-text-field" >Text Fields</a></li>
+        
+          <li><a class="nested" href="/forms-controls/forms-switch" >Switch</a></li>
+        
+          <li><a class="nested" href="/forms-controls/forms-steppers" >Steppers</a></li>
+        
+          <li><a class="nested" href="/forms-controls/forms-radio-buttons" >Radio Buttons</a></li>
+        
+          <li><a class="nested" href="/forms-controls/forms-forms" >Forms</a></li>
+        
+          <li><a class="nested" href="/forms-controls/forms-dropdown" >Dropdown</a></li>
+        
+          <li><a class="nested" href="/forms-controls/forms-date-picker" >Date Picker</a></li>
+        
+          <li><a class="nested" href="/forms-controls/forms-chips" >Chips</a></li>
+        
+          <li><a class="nested" href="/forms-controls/forms-check-box" >Check Box</a></li>
+        
+          <li><a class="nested" href="/forms-controls/forms-expansion-panel" >Expansion Panel</a></li>
+        
+      </ul>
+    </li>
+    <li><a href="/navigation">Navigation</a>
+      <ul  class="inactive"   >
+        
+          <li><a class="nested" href="/navigation/navigation-tabs" >Tabs</a></li>
+        
+          <li><a class="nested" href="/navigation/navigation-sub-navigation" >Sub Nav</a></li>
+        
+          <li><a class="nested" href="/navigation/navigation-primary" >Primary Nav</a></li>
+        
+          <li><a class="nested" href="/navigation/navigation-pagination" >Pagination</a></li>
+        
+          <li><a class="nested" href="/navigation/navigation-footer" >Footer</a></li>
+        
+          <li><a class="nested" href="/navigation/navigation-eyebrow" >Eyebrow</a></li>
+        
+          <li><a class="nested" href="/navigation/navigation-drop-down" >Dropdown Menu</a></li>
+        
+          <li><a class="nested" href="/navigation/navigation-bread-crumbs" >Bread Crumbs</a></li>
+        
+      </ul>
+    </li>
+    <li><a href="/visuals">Visuals</a>
+      <ul  class="inactive"   >
+        
+          <li><a class="nested" href="/visuals/visuals-typography" >Typography</a></li>
+        
+          <li><a class="nested" href="/visuals/visuals-shapes" >Shapes</a></li>
+        
+          <li><a class="nested" href="/visuals/visuals-icons" >Icons</a></li>
+        
+          <li><a class="nested" href="/visuals/visuals-colors" >Colors</a></li>
+        
+          <li><a class="nested" href="/visuals/visuals-buttons" >Buttons</a></li>
+        
+      </ul>
+    </li>
+    <li ><a a href="/Resources">Resources</a>
+      <ul  class="inactive"  >
+        
+      </ul>
+    </li>
+  </ul>
+  <!-- <p class="copyright">© Rackspace 2016 | <a href="#">Terms of use</a></p> -->
+</nav>
+
+
+<!--        -->
+
+    <div class="page-wrapper">
+      <div class="page-heading">
+        <span>RACKSPACE DESIGN SYSTEM</span>
+        
+      </div>
+      <div class="page-content">
+          <div class="rs-row">
+    <div class="span-4">
+      <img src="/img/icon1.svg">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus varius tincidunt neque vitae posuere.</p>
+      <button>Get Files</button>
+    </div >
+    <div class="span-4">
+      <img src="/img/icon2.svg">
+      <p>Vestibulum posuere est massa, ut maximus libero mollis vel. Curabitur luctus convallis elit a consectetur.</p>
+      <button>Get Files</button>
+    </div>
+    <div class="span-4">
+      <img src="/img/icon3.svg">
+      <p>Pellentesque vitae pulvinar leo. Nam et elit arcu. Phasellus quis laoreet dolor, mollis vestibulum lorem.</p>
+      <button>Get Files</button>
+    </div>
+  </div>
+
+
+
+
+<!--
+  <ul class="post-list">
+    
+    
+      <li>
+        <span class="post-meta">May 17, 2016</span>
+
+        <h2>
+          <a class="post-link" href="/visuals/visuals-typography.mdown">Typography</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">May 17, 2016</span>
+
+        <h2>
+          <a class="post-link" href="/visuals/visuals-shapes.mdown">Shapes</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">May 17, 2016</span>
+
+        <h2>
+          <a class="post-link" href="/visuals/visuals-icons.mdown">Icons</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">May 17, 2016</span>
+
+        <h2>
+          <a class="post-link" href="/visuals/visuals-colors.mdown">Colors</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">May 17, 2016</span>
+
+        <h2>
+          <a class="post-link" href="/visuals/visuals-buttons.mdown">Buttons</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">May 17, 2016</span>
+
+        <h2>
+          <a class="post-link" href="/navigation/navigation-tabs.mdown">Tabs</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">May 17, 2016</span>
+
+        <h2>
+          <a class="post-link" href="/navigation/navigation-sub-navigation.mdown">Sub Nav</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">May 17, 2016</span>
+
+        <h2>
+          <a class="post-link" href="/navigation/navigation-primary.mdown">Primary Nav</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">May 17, 2016</span>
+
+        <h2>
+          <a class="post-link" href="/navigation/navigation-pagination.mdown">Pagination</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">May 17, 2016</span>
+
+        <h2>
+          <a class="post-link" href="/navigation/navigation-footer.mdown">Footer</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">May 17, 2016</span>
+
+        <h2>
+          <a class="post-link" href="/navigation/navigation-eyebrow.mdown">Eyebrow</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">May 17, 2016</span>
+
+        <h2>
+          <a class="post-link" href="/navigation/navigation-drop-down.mdown">Dropdown Menu</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">May 17, 2016</span>
+
+        <h2>
+          <a class="post-link" href="/navigation/navigation-bread-crumbs.mdown">Bread Crumbs</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">May 17, 2016</span>
+
+        <h2>
+          <a class="post-link" href="/forms-controls/forms-time-picker.mdown">Time Picker</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">May 17, 2016</span>
+
+        <h2>
+          <a class="post-link" href="/forms-controls/forms-text-field.mdown">Text Fields</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">May 17, 2016</span>
+
+        <h2>
+          <a class="post-link" href="/forms-controls/forms-switch.mdown">Switch</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">May 17, 2016</span>
+
+        <h2>
+          <a class="post-link" href="/forms-controls/forms-steppers.mdown">Steppers</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">May 17, 2016</span>
+
+        <h2>
+          <a class="post-link" href="/forms-controls/forms-radio-buttons.mdown">Radio Buttons</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">May 17, 2016</span>
+
+        <h2>
+          <a class="post-link" href="/forms-controls/forms-forms.mdown">Forms</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">May 17, 2016</span>
+
+        <h2>
+          <a class="post-link" href="/forms-controls/forms-dropdown.mdown">Dropdown</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">May 17, 2016</span>
+
+        <h2>
+          <a class="post-link" href="/forms-controls/forms-date-picker.mdown">Date Picker</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">May 17, 2016</span>
+
+        <h2>
+          <a class="post-link" href="/forms-controls/forms-chips.mdown">Chips</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">May 17, 2016</span>
+
+        <h2>
+          <a class="post-link" href="/forms-controls/forms-check-box.mdown">Check Box</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">May 17, 2016</span>
+
+        <h2>
+          <a class="post-link" href="/forms-controls/forms-expansion-panel.mdown">Expansion Panel</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">May 17, 2016</span>
+
+        <h2>
+          <a class="post-link" href="/discovery/discovery-search.mdown">Global Search</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">May 17, 2016</span>
+
+        <h2>
+          <a class="post-link" href="/discovery/discovery-page-filter.mdown">Page Filter</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">May 17, 2016</span>
+
+        <h2>
+          <a class="post-link" href="/discovery/discovery-facets.mdown">Facets</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">May 17, 2016</span>
+
+        <h2>
+          <a class="post-link" href="/data/data-tables.mdown">Tables</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">May 17, 2016</span>
+
+        <h2>
+          <a class="post-link" href="/data/data-statistic.mdown">Statistic</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">May 17, 2016</span>
+
+        <h2>
+          <a class="post-link" href="/data/data-popovers.mdown">Pop Overs</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">May 17, 2016</span>
+
+        <h2>
+          <a class="post-link" href="/data/data-pie-chart.mdown">Pie Chart</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">May 17, 2016</span>
+
+        <h2>
+          <a class="post-link" href="/data/data-line-chart.mdown">Line Chart</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">May 17, 2016</span>
+
+        <h2>
+          <a class="post-link" href="/data/data-grid-list.mdown">Grid List</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">May 17, 2016</span>
+
+        <h2>
+          <a class="post-link" href="/data/data-dialogues.mdown">Dialogues</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">May 17, 2016</span>
+
+        <h2>
+          <a class="post-link" href="/data/data-cards.mdown">Cards</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">May 17, 2016</span>
+
+        <h2>
+          <a class="post-link" href="/data/data-bar-chart.mdown">Bar Chart</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">May 17, 2016</span>
+
+        <h2>
+          <a class="post-link" href="/components/components-template.mdown">Template</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">May 17, 2016</span>
+
+        <h2>
+          <a class="post-link" href="/components/components-messages.mdown">Messages</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">May 17, 2016</span>
+
+        <h2>
+          <a class="post-link" href="/communication/communication-tooltips.mdown">Tooltips</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">May 17, 2016</span>
+
+        <h2>
+          <a class="post-link" href="/communication/communication-status-indicator.mdown">Status Indicator</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">May 17, 2016</span>
+
+        <h2>
+          <a class="post-link" href="/communication/communication-progress.mdown">Progress Bar</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">May 17, 2016</span>
+
+        <h2>
+          <a class="post-link" href="/communication/communication-notification-bar.mdown">Notification Bar</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">May 17, 2016</span>
+
+        <h2>
+          <a class="post-link" href="/communication/communication-monitoring-status.mdown">Pill Status</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">May 17, 2016</span>
+
+        <h2>
+          <a class="post-link" href="/communication/communication-loading-indicator.mdown">Loading State</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">May 17, 2016</span>
+
+        <h2>
+          <a class="post-link" href="/communication/communication-help-rail.mdown">Help Rail</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">May 17, 2016</span>
+
+        <h2>
+          <a class="post-link" href="/communication/communication-first-use.mdown">First Use</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">May 17, 2016</span>
+
+        <h2>
+          <a class="post-link" href="/communication/communication-beacon.mdown">Beacon</a>
+        </h2>
+      </li>
+    
+      <li>
+        <span class="post-meta">May 17, 2016</span>
+
+        <h2>
+          <a class="post-link" href="/communication/communication-toast-notification.mdown">Toast Alert</a>
+        </h2>
+      </li>
+    
+  </ul>
+-->
+
+      </div>
+      <div class="page-navigation">
+	  
+	  
+</div>
+
+
+
+      <footer class="site-footer">
+        <span>Made with love</span>
+        <span>by RED for Rackers</span>
+        <p>Learn more about projects created by RED on <a href="http://design.rax.io">DESIGN.RAX.IO</a></p>
+</footer>
+
+    </div>
+    <script   src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
+  </body>
+
+</html>
