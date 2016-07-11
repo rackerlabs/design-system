@@ -1,0 +1,22 @@
+---
+title: Forms
+layout: categories
+---
+
+
+
+	{% for page in site.pages %}
+    {% if page.category == Forms %}
+	<div class="rs-row preview-post">
+        <div class="span-4">
+        {% if page.preview-image %}
+        	<img class="preview-image" src='{{site.baseurl}}/img/{{page.preview-image}}'>
+        {% endif %}
+        </div>
+        <div class="span-7 offset-1 preview-content">
+        	<h3><a href="{{post.url}}">{{page.title}}</a></h3>
+        </div>
+    </div>
+    {% endif %}
+    {% endfor %}
+

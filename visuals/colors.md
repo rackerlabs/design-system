@@ -1,6 +1,6 @@
 ---
 title: Colors
-layout: default
+layout: component
 author: Evan Nabors
 usage: A description here. asdoifnasdoifnasdoifasndoifasdhoifaoisdfjoais asdf oasdf oasdfoasd ofaosdfoasdfoasdof aosdfoa sdofaso dfoas dfoasdfo asdof aosdf
 category: Visuals
