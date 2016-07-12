@@ -16,6 +16,7 @@ url: "http://style.getcarina.com" # the base hostname & protocol for your site
 twitter_username: technabors
 github_username:  technabors
 permalink: /:categories/:slug
+navigation: ['Overview', 'Communication', 'Discovery', 'Data', 'Containers', 'Forms', 'Navigation', 'Visuals', 'Resources']
 
 
 # Build settings
