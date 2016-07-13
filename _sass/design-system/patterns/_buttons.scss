@@ -1,0 +1,161 @@
+// Remove inner padding and border in Firefox 3+.
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+.ds-btn, .ds-btn-med, .ds-btn-sm, .ds-btn-sec, .ds-btn-med-sec, .ds-btn-sm-sec{
+  padding: 0 14px;
+  margin: 0 10px 10px 0;
+  color: $grey0;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  text-decoration: none;
+  text-transform:uppercase;
+  line-height: 44px;
+  text-align: center;
+  vertical-align: middle;
+  background: $action700;
+  border: 1px solid $action700;
+  cursor: pointer;
+  white-space: nowrap;
+  border-radius: 2px;
+
+  &:hover,
+  &:focus,
+  &.hover {
+    background: $action500;
+    border: 1px solid $action500;
+    outline:none;
+  }
+
+  &:active,
+  &.active {
+    background: $action900;
+    border: 1px solid $action900;
+    outline:none;
+  }
+
+  &[disabled],
+  &.disabled {
+    color: $grey800;
+    background: $grey400;
+    border-color: $grey400;
+    cursor: default;
+    box-shadow: none;
+    cursor:not-allowed;
+  }
+
+}
+
+.ds-btn-med, .ds-btn-med-sec{
+  padding: 0 10px;
+  font-size: $font-size-3;
+  line-height: 28px;
+}
+
+.ds-btn-sm, .ds-btn-sm-sec{
+  padding: 0 8px;
+  font-size: $font-size-1;
+  line-height: 21px;
+}
+
+.ds-btn-sec, .ds-btn-med-sec, .ds-btn-sm-sec{
+  background:transparent;
+  color:$action700;
+
+  &:hover,
+  &:focus,
+  &.hover {
+    color:$grey0;
+    background: $action500;
+    border: 1px solid $action500;
+    outline:none;
+  }
+
+  &:active,
+  &.active {
+    color:$grey0;
+    background: $action900;
+    border: 1px solid $action900;
+    outline:none;
+  }
+}
+
+a {
+  color: $action700;
+  text-decoration:none;
+  cursor:pointer;
+
+  &:hover,
+  &.hover {
+    color: $action500;
+    text-decoration:underline;
+    }
+
+  &:visited,
+  &.visited,
+  &:active,
+  &.active {
+    color: $action900;
+  }
+
+  &.disabled {
+    color: $grey700;
+    cursor:not-allowed;
+  }
+}
+
+.rs-btn-primary {
+  
+}
+
+.rs-btn-login {
+ 
+}
+
+.rs-btn-link {
+  
+}
+
+.rs-cog {
+ 
+}
+
+.rs-plus {
+}
+
+.rs-delete {
+ 
+}
+
+.rs-caret {
+ 
+}
+
+.rs-btn-action {
+  
+}
+
+.rs-btn-group {
+
+}
+
+.rs-processing-indicator {
+ 
+}
+
+.rs-edit {
+  
+}
+
+.rs-controls .rs-edit,
+.rs-controls-static .rs-edit,
+.rs-detail-value .rs-edit {
+ 
+}
+
+.rs-close {
+  
+}

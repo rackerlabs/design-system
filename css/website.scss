@@ -41,22 +41,23 @@ $on-laptop:        800px;
 //     }
 // }
 @mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
+  @media screen and (max-width: $device) {
+    @content;
+  }
 }
 
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "base",
-        "mixins",
-        "layout",
-        "syntax-highlighting",
-        "component-page",
-        "buttons",
-        "grid",
-        "page-navigation",
-        "colors"
+"website/base",
+"website/mixins",
+"website/fonts",
+"website/layout",
+"website/syntax-highlighting",
+"website/component-page",
+"website/buttons",
+"website/grid",
+"website/page-navigation",
+"website/colors"
 ;

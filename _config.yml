@@ -20,6 +20,13 @@ permalink: /:categories/:slug
 navigation: ['Overview', 'Communication', 'Discovery', 'Data', 'Containers', 'Forms', 'Navigation', 'Visuals', 'Resources']
 
 
+# PATHING FOR WEBSITE AND DESIGN-SYSTEM
+websiteAssets: '/assets/website/'
+designSystemAssets: '/assets/design-system/'
+
+
 # Build settings
-markdown: kramdown
+markdown: redcarpet
 highlighter: rouge
+gems:
+- jekyll-compass

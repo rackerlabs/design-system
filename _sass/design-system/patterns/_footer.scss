@@ -1,0 +1,74 @@
+.rs-footer,
+.rs-nav-footer {
+  color: $grey400;
+  font-size: 13px;
+  background: $grey600;
+
+  a {
+    color: $grey300;
+  }
+
+  .rs-nav {
+    float: left;
+    padding: 7px 0;
+  }
+
+  .rs-nav.rs-pull-right {
+    float: right;
+  }
+
+  .rs-nav-item {
+    float: left;
+  }
+
+  .rs-nav-item + .rs-nav-item {
+    padding: 0 0 0 10px;
+  }
+
+  .rs-nav-item + .rs-nav-item:before {
+    padding-right: 10px;
+    content: "\2022";
+  }
+
+  .rs-nav-item a {
+    display: inline;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  .rs-link {
+    display: inline-block;
+    margin: 0;
+    float: left;
+    padding: 7px 0;
+  }
+
+  .rs-link.rs-pull-right {
+    float: right;
+  }
+
+  .rs-links {
+    float: left;
+    padding: 7px 0;
+    margin: 0;
+    list-style: none;
+  }
+
+  .rs-links > li {
+    float: left;
+    & + li {
+      padding: 0 0 0 10px;
+
+      &:before {
+        padding-right: 10px;
+        content: "\2022";
+      }
+    }
+  }
+
+  .rs-container .rs-links > li > a {
+    display: inline;
+  }
+}

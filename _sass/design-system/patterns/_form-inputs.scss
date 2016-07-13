@@ -1,0 +1,117 @@
+
+input[type="text"],input[type="password"],input[type="email"],input[type="search"],input[type="url"],textarea{
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  border: 1px solid $grey500;
+  border-radius: 2px;
+  padding:0 14px;
+  height:40px;
+  width: $cols4;
+  margin:0;
+
+  &:focus,
+  &.focus {
+    outline: none;
+    border: 1px solid $action500;
+  }
+
+  &[readonly],
+  &[disabled] {
+  	cursor:not-allowed;
+    color: $grey800;
+    background-color: $grey50;
+    border: 1px solid $grey300;
+  }
+
+  &.textInputError{
+  	border: 2px solid $red;
+  }
+}
+
+textarea{
+  padding:10px 14px;
+  line-height:24px;
+}
+
+.subtext.countdown{
+  text-align:right;
+  width:430px;
+  margin-top:0;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  color: $grey600;
+  font-style: italic;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: $grey600;
+  opacity:  1;
+  font-style: italic;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: $grey600;
+  opacity:  1;
+  font-style: italic;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: $grey600;
+  font-style: italic;
+}
+
+#inputPrefix{
+	padding-right:5px;
+}
+
+#inputSuffix{
+	padding-left:5px;
+}
+
+.iconAppendPre, .iconAppendPreSuf{
+  position: relative;
+  width:430px;
+}
+
+.iconAppendPre input{
+  width:374px;
+  padding: 0 14px 0 40px;
+}
+
+.iconAppendPreSuf input{
+  width:348px;
+  padding: 0 40px;
+}
+
+.iconPrefix, .iconSuffix{
+  color:$grey600;
+  position: absolute;
+  top:13px;
+}
+
+.iconPrefix{
+  left:15px;
+}
+
+.iconSuffix{
+  right:15px;
+  cursor:pointer;
+
+  &:hover{
+    color:$action500;
+  }
+
+  &:active{
+    color:$action900;
+  }
+
+}
+
+.completedFormGroupIcon, .errorFormGroupIcon{
+  color:$green;
+  font-size:$font-size-5;
+  padding-left:13px;
+  vertical-align:middle;
+}
+
+.errorFormGroupIcon{
+  color:$red;
+}
