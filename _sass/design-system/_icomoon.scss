@@ -1,10 +1,12 @@
+$fontPath: '../assets/design-system/fonts/';
+
 @font-face {
     font-family: 'icomoon';
-    src:    url('../fonts/icomoon.eot?jbaxdc');
-    src:    url('../fonts/icomoon.eot?jbaxdc#iefix') format('embedded-opentype'),
-        url('../fonts/icomoon.ttf?jbaxdc') format('truetype'),
-        url('../fonts/icomoon.woff?jbaxdc') format('woff'),
-        url('../fonts/icomoon.svg?jbaxdc#icomoon') format('svg');
+    src:    url($fontPath + 'icomoon.eot?jbaxdc');
+    src:    url($fontPath + 'icomoon.eot?jbaxdc#iefix') format('embedded-opentype'),
+            url($fontPath + 'icomoon.ttf?jbaxdc') format('truetype'),
+            url($fontPath + 'icomoon.woff?jbaxdc') format('woff'),
+            url($fontPath + 'icomoon.svg?jbaxdc#icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
 }
