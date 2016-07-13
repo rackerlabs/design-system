@@ -1,6 +1,6 @@
 ---
 title: Loading State
-layout: component
+layout: website/component
 author: Evan Nabors
-category: Communication
+category: website/Communication
 ---

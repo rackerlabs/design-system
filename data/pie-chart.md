@@ -1,6 +1,6 @@
 ---
 title: Pie Chart
-layout: component
+layout: website/component
 author: Evan Nabors
 category: Data
 ---

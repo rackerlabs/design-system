@@ -1,6 +1,6 @@
 ---
 title: Date Picker
-layout: default
+layout: website/default
 author: Evan Nabors
 category: Forms
 preview-image: date-picker.svg

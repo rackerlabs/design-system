@@ -1,6 +1,6 @@
 ---
 title: Radio Buttons
-layout: default
+layout: website/default
 author: Evan Nabors
 category: Forms
 ---

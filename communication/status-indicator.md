@@ -1,6 +1,6 @@
 ---
 title: Status Indicator
-layout: component
+layout: website/component
 author: Evan Nabors
 category: Communication
 ---

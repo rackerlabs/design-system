@@ -1,6 +1,6 @@
 ---
 title: Colors
-layout: component
+layout: website/component
 author: Evan Nabors
 usage: A description here. asdoifnasdoifnasdoifasndoifasdhoifaoisdfjoais asdf oasdf oasdfoasd ofaosdfoasdfoasdof aosdfoa sdofaso dfoas dfoasdfo asdof aosdf
 category: Visuals

@@ -1,6 +1,6 @@
 ---
 title: Help Rail
-layout: component
+layout: website/component
 author: Evan Nabors
 category: Communication
 ---

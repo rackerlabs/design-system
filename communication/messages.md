@@ -2,6 +2,7 @@
 title: Messages
 author: Evan Nabors
 category: Communication
+layout: website/component
 ---
 
 

@@ -1,6 +1,6 @@
 ---
 title: Cards
-layout: component
+layout: website/component
 author: Evan Nabors
 category: Containers
 ---

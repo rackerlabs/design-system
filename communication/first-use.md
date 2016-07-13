@@ -1,6 +1,6 @@
 ---
 title: First Use
-layout: component
+layout: website/component
 author: Evan Nabors
 category: Communication
 ---

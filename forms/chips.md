@@ -1,6 +1,6 @@
 ---
 title: Chips
-layout: default
+layout: website/default
 author: Evan Nabors
 category: Forms
 ---

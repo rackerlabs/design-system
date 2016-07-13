@@ -1,6 +1,6 @@
 ---
 title: Facets
-layout: component
+layout: website/component
 author: Evan Nabors
 category: Discovery
 ---
