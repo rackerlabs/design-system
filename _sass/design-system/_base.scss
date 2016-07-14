@@ -16,37 +16,27 @@ strong {
 }
 
 p {
+  font-size:$base-font-size;
+  line-height: $base-line-height;
 }
 
 .displayXL{
   font-weight:100;
-  line-height:52px;
-  font-size:$font-size-7;
-}
-
-.displayXL{
-  font-weight:100;
-  line-height:$line-height-XL;
   font-size:$font-size-7;
 }
 
 .displayLG{
   font-weight:400;
-  line-height:$line-height-LG;
   font-size:$font-size-6;
-}
-
-h1, h2, h3, h4{
-  line-height:$line-height-header;
-}
-
-h2, h3{
-  font-weight:500;
 }
 
 h1{
   font-weight:300;
   font-size:$font-size-5;
+}
+
+h2, h3{
+  font-weight:500;
 }
 
 h2{
@@ -78,7 +68,6 @@ h4{
 .subtext{
   font-weight:400;
   font-size:$font-size-2;
-  line-height: $base-line-height;
   color:$grey700;
 }
 
@@ -90,7 +79,7 @@ h4{
 
 .statusTag{
   font-weight:400;
-  font-size:$font-size-1;
+  font-size:$font-size-2;
   letter-spacing: 1px;
 }
 
@@ -101,7 +90,6 @@ h4{
 
 .formLabel{
   font-size: $font-size-3;
-  padding-bottom:10px;
 }
 
 .subtext.error{

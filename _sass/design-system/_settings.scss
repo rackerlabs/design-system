@@ -101,7 +101,7 @@ $textcolorlight:#ffffff;
 $base-font-family: 'Roboto', sans-serif;
 $alt-font-family: 'Roboto', sans-serif;
 $base-font-size: 16px;
-$base-line-height: 20px;
+$base-line-height: 24px;
 $font-size-1:11px;
 $font-size-2:12px;
 $font-size-3:14px;
@@ -109,9 +109,14 @@ $font-size-4:18px;
 $font-size-5:24px;
 $font-size-6:30px;
 $font-size-7:49px;
-$line-height-XL:52px;
-$line-height-LG:52px;
-$line-height-header:52px;
+
+// Padding
+$paddingXS:4px;
+$paddingS:8px;
+$paddingM:4px;
+$paddingL:8px;
+$paddingXL:4px;
+$paddingXXL:8px;
 
 // The Grid
 $cols4:400px;
