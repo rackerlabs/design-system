@@ -100,23 +100,24 @@ $textcolorlight:#ffffff;
 
 $base-font-family: 'Roboto', sans-serif;
 $alt-font-family: 'Roboto', sans-serif;
-$base-font-size: 16px;
-$base-line-height: 24px;
-$font-size-1:11px;
-$font-size-2:12px;
-$font-size-3:14px;
-$font-size-4:18px;
-$font-size-5:24px;
-$font-size-6:30px;
-$font-size-7:49px;
+$base-font-size: 1em;
+$base-line-height: normal;
+$heading-line-height: 1;
+$font-size-1:.668em;
+$font-size-2:.75em;
+$font-size-3:.875em;
+$font-size-4:1.125em;
+$font-size-5:1.5em;
+$font-size-6:2em;
+$font-size-7:3em;
 
 // Padding
 $paddingXS:4px;
 $paddingS:8px;
-$paddingM:4px;
-$paddingL:8px;
-$paddingXL:4px;
-$paddingXXL:8px;
+$paddingM:12px;
+$paddingL:20px;
+$paddingXL:24px;
+$paddingXXL:32px;
 
 // The Grid
 $cols4:400px;
