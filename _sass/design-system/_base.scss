@@ -20,34 +20,38 @@ p {
   line-height: $base-line-height;
 }
 
-.displayXL{
+h1, h2, h3, h4, h5, h6{
+  line-height: $base-line-height;  
+}
+
+h1{
   font-weight:100;
   font-size:$font-size-7;
 }
 
-.displayLG{
+h2{
   font-weight:400;
   font-size:$font-size-6;
 }
 
-h1{
+h3{
   font-weight:300;
   font-size:$font-size-5;
 }
 
-h2, h3{
+h4, h5{
   font-weight:500;
 }
 
-h2{
+h4{
   font-size:$font-size-4;
 }
 
-h3{
+h5{
   font-size: $base-font-size;
 }
 
-h4{
+h6{
   font-weight:700;
   font-size:$font-size-3;
 }
