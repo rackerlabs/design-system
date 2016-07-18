@@ -9,7 +9,7 @@ layout: website/default
             	<img class="preview-image" {% if component.preview-image %} src='{{site.baseurl}}{{site.websiteAssets}}/img/{{component.preview-image}}' {% else %} src='{{site.baseurl}}{{site.websiteAssets}}/img/place-holder.svg' {% endif %}>
             </div>
             <div class="span-8 offset-1 preview-content">
-            	<h3><a href="{{component.url}}">{{component.title}}</a></h3>
+            	<h3><a href="{{site.baseurl}}{{component.url}}.html">{{component.title}}</a></h3>
             	<p>{{component.usage}}</p>
                 <ul class="confidence-rating">
                     <p style="font-size: 16px; line-height: 1; padding-right: 10px;">Adherence:</p>
