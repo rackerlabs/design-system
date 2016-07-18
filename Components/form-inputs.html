@@ -1,0 +1,160 @@
+---
+title: Text Inputs
+layout: website/default
+author: Elizabeth Grothues
+category: Components
+---
+
+<script type="application/javascript" src="{{site.baseURL}}/js/jquery.min.js"></script>
+<script type="application/javascript" src="{{site.baseURL}}/js/elements.js"></script>
+
+<h2>Text Field</h2>
+<div class="form-section-container">
+	<h3 class="form-section-head">Enabled</h3>
+	<div class="formGroup">
+		<div class="formLabel"><span class="requiredInput">*</span> Required field</div>
+		<div class="formComponant">
+			<input type="text" name="account" placeholder="This is placeholder text.">
+		</div>
+	</div>
+	<div class="formGroup">
+		<div class="formLabel">Field with subtext</div>
+		<div class="formComponant textField">
+			<input type="text" name="account">
+		</div>
+		<p class="form-subtext">This is some subtext.</p>
+	</div>
+	<div class="formGroup">
+		<div class="formLabel">Prefix or suffix</div>
+		<div class="formComponant">
+			<span id="inputPrefix">$</span><input id="setWidth" type="text" name="account"><span id="inputSuffix">GB</span>
+		</div>
+	</div>
+	<div class="formGroup">
+		<div class="formLabel">With icon right</div>
+		<div class="formComponant iconAppendPre resizeInput">
+			<span class="iconPrefix"><i class="icon-search"></i></span>
+			<input type="text" name="account" placeholder="Search">
+		</div>
+	</div>
+	<div class="formGroup">
+		<div class="formLabel">With icon left and right</div>
+		<div class="formComponant iconAppendPreSuf resizeInput">
+			<span class="iconPrefix"><i class="icon-search"></i></span>
+			<input type="text" name="account" value="My search terms">
+			<span class="iconSuffix"><i class="icon-clear"></i></span>
+		</div>
+	</div>
+	<div class="formGroup">
+		<div class="formLabel"><span class="requiredInput">*</span> Password</div>
+		<div class="formComponant">
+			<input type="password" name="account" value="Testingpassword">
+		</div>
+	</div>
+</div>
+
+<div class="form-section-container">
+	<h3 class="form-section-head">Type Ahead</h3>
+	<div class="formGroup">
+		<div class="formLabel">Type ahead</div>
+		<div class="formComponant">
+			<input type="text" name="account" >
+		</div>
+	</div>
+</div>
+
+<div class="form-section-container">
+	<h3 class="form-section-head">Disabled</h3>
+	<div class="formGroup">
+		<div class="formLabel">Disabled with value</div>
+		<div class="formComponant">
+			<input type="text" name="account" value="Value text" disabled>
+		</div>
+	</div>
+	<div class="formGroup">
+		<div class="formLabel">Disabled with placeholder text</div>
+		<div class="formComponant">
+			<input type="text" name="account" placeholder="Placeholder text" disabled>
+		</div>
+	</div>
+</div>
+
+<div class="form-section-container">
+	<h3 class="form-section-head">Completed</h3>
+	<div class="formGroup">
+		<div class="formLabel">Complete form field</div>
+		<div class="formComponant">
+			<input type="text" name="account" value="Value text">
+			<i class="icon-success completedFormGroupIcon"></i>
+		</div>
+	</div>
+</div>
+
+<div class="form-section-container">
+	<h3 class="form-section-head">Error</h3>
+	<div class="formGroup">
+		<div class="formLabel">Error with value</div>
+		<div class="formComponant">
+			<input type="text" name="account" value="Value text" class="textInputError">
+			<p class="form-subtext error">There is an error with the response to this question.</p>
+		</div>
+	</div>
+
+	<div class="formGroup">
+		<div class="formLabel"><span class="requiredInput">*</span> Error with placeholder text</div>
+		<div class="formComponant">
+			<input type="text" name="account" placeholder="Required" class="textInputError">
+			<p class="form-subtext error">There is an error with the response to this question.</p>
+		</div>
+	</div>
+
+	<div class="formGroup">
+		<div class="formLabel">Error with icon</div>
+		<div class="formComponant">
+			<input type="text" name="account" value="Value text" class="textInputError">
+			<i class="icon-error errorFormGroupIcon"></i>
+			<p class="form-subtext error">There is an error with the response to this question.</p>
+		</div>
+	</div>
+<div>
+
+<br><br>
+<h2>Textarea</h2>
+<div class="form-section-container">
+	<h3 class="form-section-head">Enabled</h3>
+	<div class="formGroup">
+		<div class="formLabel">My textarea</div>
+		<div class="formComponant">
+			<textarea name="account" placeholder="This is placeholder text."></textarea>
+		</div>
+	</div>
+
+	<div class="formGroup">
+		<div class="formLabel">The final countdown</div>
+		<div class="formComponant">
+			<textarea type="text" name="account" maxlength="50" id="textarea"></textarea>
+		</div>
+		<p class="form-subtext countdown" id="textarea_feedback">This is some subtext.</p>
+	</div>
+</div>
+
+<div class="form-section-container">
+	<h3 class="form-section-head">Disabled</h3>
+	<div class="formGroup">
+		<div class="formLabel">My textarea disabled</div>
+		<div class="formComponant">
+			<textarea name="account" disabled>When I see birches bend to left and right across the lines of straighter darker trees, I like to think some boy's been swinging them. But swinging doesn't bend them down to stay as ice-storms do.</textarea>
+		</div>
+	</div>
+</div>
+
+<div class="form-section-container">
+	<h3 class="form-section-head">Error</h3>
+	<div class="formGroup">
+		<div class="formLabel">My textarea with an error</div>
+		<div class="formComponant">
+			<textarea name="account" class="textInputError">Often you must have seen them loaded with ice a sunny winter morning after a rain. They click upon themselves as the breeze rises, and turn many-colored as the stir cracks and crazes their enamel.</textarea>
+			<p class="form-subtext error">There is an error with the response to this question.</p>
+		</div>
+	</div> 
+</div>

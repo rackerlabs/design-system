@@ -1,0 +1,17 @@
+.rs-tooltip {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: $zindexTooltip;
+
+  @include animate-visibility;
+}
+
+.rs-tooltip-inner {
+  max-width: 440px;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border: 1px solid #bbb;
+
+  box-shadow: 0 0 9px 1px rgba(0, 0, 0, 0.15);
+}

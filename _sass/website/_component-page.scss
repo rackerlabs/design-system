@@ -1,0 +1,86 @@
+
+
+.author {
+	font-size: $base-font-size;
+	text-transform: uppercase;
+	margin-top: 1em;
+	margin-bottom: 0;
+	color: #ffffff;
+	letter-spacing: 0.05em;
+}
+.modified {
+	font-weight: 300;
+	font-size: $base-font-size * 0.9;
+	margin-top: 1em;
+	margin-bottom: 0;
+	color: #ffffff;
+	span {
+	font-style: italic;
+	}
+}
+
+p {
+	font-size: 1.1em;
+	color: #404040;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+
+.sectionhead {
+	margin-top: 60px;
+    &:before {
+
+    }
+    &:first-of-type {
+    	margin-top: 0px;
+        &:before {
+        display: none;
+        }
+    }
+}
+
+h3 {
+	font-size: 1.953em;
+}
+
+h4 {
+	font-size: 1.25em;
+	font-weight: 600;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+}
+
+h5 {
+	font-size: 1.25em;
+}
+
+
+ol {
+	list-style-type: disc;
+}
+
+ul {
+	list-style-type: circle;
+}
+
+/**
+* Font Teaser Page Styles
+*/
+.font-tease {
+	p {
+		display: block;
+		font-size: 48px;
+		margin-bottom: 0;
+		color: #64B967;
+	}
+	span {
+		display: block;
+		font-size: 120px;
+		line-height: 0.75em;
+		color: #C26AAC;
+		&::first-letter {
+			color: #ffffff;
+			text-shadow: -1px 0 #C26AAC, 0 1px #C26AAC, 1px 0 #C26AAC, 0 -1px #C26AAC;
+		}
+	}
+}

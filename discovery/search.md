@@ -1,6 +1,6 @@
 ---
 title: Global Search
-layout: component
+layout: website/component
 author: Evan Nabors
 category: Discovery
 ---

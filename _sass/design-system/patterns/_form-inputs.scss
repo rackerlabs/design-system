@@ -1,0 +1,161 @@
+//DON'T DELETE EAG 7-18-2016
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INPUT AND SUBTEXT BASIC FORMATTING 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+input[type="text"],input[type="password"],input[type="email"],input[type="search"],input[type="url"],textarea{
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  border: 1px solid $grey500;
+  border-radius: 2px;
+  padding:0 $paddingS;
+  height:30px;
+
+  //needs to align to grid
+  width: 412px;
+  margin:0;
+
+  &:focus,
+  &.focus {
+    outline: none;
+    border: 1px solid $action500;
+  }
+
+  &[readonly],
+  &[disabled] {
+  	cursor:not-allowed;
+    color: $grey800;
+    background-color: $grey50;
+    border: 1px solid $grey300;
+  }
+
+  &.textInputError{
+  	border: 2px solid $red;
+  }
+}
+
+textarea{
+  padding:$paddingXS $paddingS;
+  vertical-align: top;
+}
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+COUNTDOWN FORMATTING
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+//countdown initiated in elements.js
+//need to set the width to whatever the width of the textarea is in js or else it won't move when the text area is resized or aligned to the grid
+
+.form-subtext.countdown{
+  text-align:right;
+  width:430px;
+  margin-top:0;
+}
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+STYLE PLACEHOLDER TEXT
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  color: $grey600;
+  font-weight: 300;
+  font-style:italic;
+  letter-spacing:.05em;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  color: $grey600;
+  opacity:  1;
+  font-weight: 300;
+  font-style:italic;
+  letter-spacing:.05em;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+  color: $grey600;
+  opacity:  1;
+  font-weight: 300;
+  font-style:italic;
+  letter-spacing:.05em;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: $grey600;
+  font-weight: 300;
+  font-style:italic;
+  letter-spacing:.05em;
+}
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+TEXT PREFIXES AND SUFFIXES ALIGNED - SIZED IN ELEMENTS JS FILE
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+//Will need to fix elements.js to align to grid
+
+#inputPrefix{
+	padding-right:$paddingS;
+}
+
+#inputSuffix{
+	padding-left:$paddingS;
+}
+
+.iconAppendPre, .iconAppendPreSuf{
+  position: relative;
+  width:430px;
+}
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ICONS IN MARGIN AFTER INPUT
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+.iconAppendPre input{
+  //needs to be adjusted to align with grid
+  width:387px;
+  padding: 0 $paddingS 0 33px;
+}
+
+.iconAppendPreSuf input{
+  //needs to be adjusted to align with grid
+  width:362px;
+  padding: 0 33px;
+}
+
+.iconPrefix, .iconSuffix{
+  color:$grey600;
+  position: absolute;
+  top:6px;
+}
+
+.iconPrefix i, .iconSuffix i{
+  padding:0;
+}
+
+.iconPrefix{
+  left:9px;
+}
+
+.iconSuffix{
+  right:9px;
+  cursor:pointer;
+
+  &:hover{
+    color:$red500;
+  }
+
+  &:active{
+    color:$red700;
+  }
+}
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+ICONS IN MARGIN AFTER INPUT
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+.completedFormGroupIcon, .errorFormGroupIcon{
+  color:$green;
+  font-size:$base-font-size;
+  padding-left:$paddingXS;
+  vertical-align:middle;
+}
+
+.errorFormGroupIcon{
+  color:$red;
+}
