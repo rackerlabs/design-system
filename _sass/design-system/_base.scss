@@ -1,3 +1,5 @@
+//DON'T DELETE EAG 7-18-2016
+
 body {
   color: $grey950;
   font-family: $base-font-family;
@@ -20,10 +22,6 @@ p {
   font-size:$base-font-size;
   line-height: $base-line-height;
   padding: 0 0 $paddingM 0;
-}
-
-p:last-child {
-  padding:0;
 }
 
 .display-font, h1, h2, h3, h4, h5, h6{
@@ -74,7 +72,7 @@ h3{
 
 }
 
-.subtext{
+.subtext, .form-subtext{
   font-weight:400;
   font-size:$font-size-2;
   color:$grey700;
@@ -90,8 +88,13 @@ h3{
   font-weight: 900;
 }
 
+.form-section-head{
+  padding-bottom: $paddingL;
+}
+
 .formLabel{
   font-size: $font-size-3;
+  padding-bottom: $paddingXS;
 }
 
 .subtext.error{
@@ -103,123 +106,17 @@ h3{
   text-transform: uppercase;
 }
 
-/*FORM CONTAINERS*/
+/*FORM SPECIFIC*/
+
+.form-subtext{
+  padding:$paddingS 0 0 0;
+}
 
 .formComponant, .formGroup{
   display:block;
   width:100%;
 }
 
-.formGroupP{
-  padding-top:50px;
-}
-
-.formGroupP2{
-  padding-top:40px;
-}
-
-ol, ul {
-  margin: 0 0 20px 25px;
-  padding: 0;
-}
-
-ol ol,
-ol ul,
-ul ol,
-ul ul {
-  margin-bottom: 0;
-}
-
-ol {
-  list-style: decimal;
-}
-
-ul {
-  list-style: square;
-}
-
-dl {
-  margin: 0 0 20px;
-}
-
-dd {
-  margin: 0 0 0 25px;
-}
-
-hr {
-  margin: 0 0 $base-line-height;
-  border: 0;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #fff;
-}
-
-code {
-    overflow: auto;
-    padding: 0 5px 1px;
-    background: #f1f1f1;
-    margin: 0 2px;
-    white-space: nowrap;
-    word-wrap: normal;
-    font-size: 12px;
-    border-radius: 3px;
-  }
-
-  pre code {
-    margin: 0;
-    padding: 0;
-    background-color: transparent;
-    border: none;
-    word-wrap: normal;
-    white-space: pre;
-  }
-
-  pre {
-    display:block;
-    overflow: auto;
-    background: #f1f1f1;
-    padding: 5px 10px;
-    white-space: pre;
-    word-wrap: normal;
-    border-radius: 3px;
-  }
-
-// Typography Classes
-
-.rs-page-title {
-  @extend h2;
-}
-
-.rs-sidebar {
-  h3 {
-    margin: 0 0 20px;
-  }
-
-  h4 {
-    margin-bottom: 3px;
-  }
-
-  p {
-    color: #666;
-  }
-
-  hr {
-    margin: 20px 0;
-  }
-
-  ul {
-    margin: 0 0 10px 25px;
-    padding: 0;
-  }
-
-  li {
-    margin-bottom: 5px;
-  }
-
-  pre, code {
-    background: $white;
-  }
-
-  pre code {
-    background-color: transparent;
-  }
+.formGroup{
+  padding-bottom:$paddingXL;
 }

@@ -1,11 +1,12 @@
+//DON'T DELETE EAG 7-18-2016
 
 input[type="text"],input[type="password"],input[type="email"],input[type="search"],input[type="url"],textarea{
   font-family: $base-font-family;
   font-size: $base-font-size;
   border: 1px solid $grey500;
   border-radius: 2px;
-  padding:0 14px;
-  height:40px;
+  padding:0 $paddingS;
+  height:30px;
   width: $cols4;
   margin:0;
 
