@@ -26,23 +26,10 @@ p {
     line-height: 1.5em;
 }
 
-h3, h4, h5, h6 {
-	color: #424242;
-}
-
-h2 {
-	font-size: 2.441em;
-	color: $brand-color;
-	margin-top: $spacing-unit * 2;
+.sectionhead {
+	margin-top: 60px;
     &:before {
-        position: relative;
-        top: -$spacing-unit;
-        left: -7%;
-        width: 114%;
-        height: $spacing-unit;
-        background: #FAFAFA;
-        content: '';
-        display: block
+
     }
     &:first-of-type {
     	margin-top: 0px;

@@ -16,44 +16,48 @@ strong {
 }
 
 p {
+  font-weight:400;
   font-size:$base-font-size;
   line-height: $base-line-height;
+  padding: 0 0 $paddingM 0;
 }
 
-h1, h2, h3, h4, h5, h6{
-  line-height: $base-line-height;  
+p:last-child {
+  padding:0;
 }
 
-h1{
+.display-font, h1, h2, h3, h4, h5, h6{
+  line-height: $heading-line-height; 
+  text-transform: none; 
+  letter-spacing: 0;
+  color: $grey950;
+  margin:0;
+  padding:0;
+}
+
+.display-font{
   font-weight:100;
   font-size:$font-size-7;
 }
 
-h2{
-  font-weight:400;
-  font-size:$font-size-6;
-}
-
-h3{
+h1{
   font-weight:300;
   font-size:$font-size-5;
 }
 
-h4, h5{
-  font-weight:500;
+h1.header-alt{
+  font-weight:400;
 }
 
-h4{
+h2{
+  font-weight:400;
   font-size:$font-size-4;
+  padding: 0 0 $paddingM 0;
 }
 
-h5{
-  font-size: $base-font-size;
-}
-
-h6{
-  font-weight:700;
-  font-size:$font-size-3;
+h3{
+  font-weight:500;
+  font-size:$base-font-size;
 }
 
 .body1{
@@ -75,16 +79,9 @@ h6{
   color:$grey700;
 }
 
-.tableHead{
-  font-weight:500;
-  font-size:$base-font-size;
-  line-height: $base-line-height;
-}
-
 .statusTag{
   font-weight:400;
-  font-size:$font-size-2;
-  letter-spacing: 1px;
+  font-size:$font-size-1;
 }
 
 .requiredInput{
