@@ -5,10 +5,12 @@ author: Elizabeth Grothues
 category: Components
 ---
 
+<script type="application/javascript" src="{{site.baseURL}}/js/jquery.min.js"></script>
+<script type="application/javascript" src="{{site.baseURL}}/js/elements.js"></script>
 
 <h2>Text Field</h2>
-<br>
-<h3 class="form-section-head">Enabled</h3>
+<div class="form-section-container">
+	<h3 class="form-section-head">Enabled</h3>
 	<div class="formGroup">
 		<div class="formLabel"><span class="requiredInput">*</span> Required field</div>
 		<div class="formComponant">
@@ -43,12 +45,26 @@ category: Components
 			<span class="iconSuffix"><i class="icon-clear"></i></span>
 		</div>
 	</div>
+	<div class="formGroup">
+		<div class="formLabel"><span class="requiredInput">*</span> Password</div>
+		<div class="formComponant">
+			<input type="password" name="account" value="Testingpassword">
+		</div>
+	</div>
+</div>
 
-<br>
-<br>
-<h3>Type Ahead</h3>
-<br>
-<h3>Disabled</h3>
+<div class="form-section-container">
+	<h3 class="form-section-head">Type Ahead</h3>
+	<div class="formGroup">
+		<div class="formLabel">Type ahead</div>
+		<div class="formComponant">
+			<input type="text" name="account" >
+		</div>
+	</div>
+</div>
+
+<div class="form-section-container">
+	<h3 class="form-section-head">Disabled</h3>
 	<div class="formGroup">
 		<div class="formLabel">Disabled with value</div>
 		<div class="formComponant">
@@ -61,9 +77,10 @@ category: Components
 			<input type="text" name="account" placeholder="Placeholder text" disabled>
 		</div>
 	</div>
+</div>
 
-<br>
-<h3>Completed</h3>
+<div class="form-section-container">
+	<h3 class="form-section-head">Completed</h3>
 	<div class="formGroup">
 		<div class="formLabel">Complete form field</div>
 		<div class="formComponant">
@@ -71,9 +88,10 @@ category: Components
 			<i class="icon-success completedFormGroupIcon"></i>
 		</div>
 	</div>
+</div>
 
-<br>
-<h3>Error</h3>
+<div class="form-section-container">
+	<h3 class="form-section-head">Error</h3>
 	<div class="formGroup">
 		<div class="formLabel">Error with value</div>
 		<div class="formComponant">
@@ -98,10 +116,12 @@ category: Components
 			<p class="form-subtext error">There is an error with the response to this question.</p>
 		</div>
 	</div>
+<div>
 
+<br><br>
 <h2>Textarea</h2>
-<br>
-<h3>Enabled</h3>
+<div class="form-section-container">
+	<h3 class="form-section-head">Enabled</h3>
 	<div class="formGroup">
 		<div class="formLabel">My textarea</div>
 		<div class="formComponant">
@@ -116,16 +136,20 @@ category: Components
 		</div>
 		<p class="form-subtext countdown" id="textarea_feedback">This is some subtext.</p>
 	</div>
+</div>
 
-<h2>Disabled</h2>
+<div class="form-section-container">
+	<h3 class="form-section-head">Disabled</h3>
 	<div class="formGroup">
 		<div class="formLabel">My textarea disabled</div>
 		<div class="formComponant">
 			<textarea name="account" disabled>When I see birches bend to left and right across the lines of straighter darker trees, I like to think some boy's been swinging them. But swinging doesn't bend them down to stay as ice-storms do.</textarea>
 		</div>
 	</div>
+</div>
 
-<h2>Error</h2>
+<div class="form-section-container">
+	<h3 class="form-section-head">Error</h3>
 	<div class="formGroup">
 		<div class="formLabel">My textarea with an error</div>
 		<div class="formComponant">
@@ -133,3 +157,4 @@ category: Components
 			<p class="form-subtext error">There is an error with the response to this question.</p>
 		</div>
 	</div> 
+</div>
