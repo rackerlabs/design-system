@@ -1,6 +1,6 @@
 
 
-.color-chip {
+.color-chip, .color-chip-alert {
 	width: 20%;
 	display: block;
 	box-sizing: border-box;
@@ -13,3 +13,15 @@
 	}
 }
 
+.color-chip-alert{
+	width:25%;
+}
+
+.primary-color-chip{
+	width:100%;
+	border-bottom:4px solid #fff;
+}
+
+.color-chip-light{
+	color:#fff;
+}
