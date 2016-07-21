@@ -2,7 +2,9 @@
 CHECKBOXES AND RADIO BUTTONS
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 .subtext.optiongroup{
+  display:block;
   margin-left:26px;
+  margin-top:5px;
 }
 
 label.selector, label.selectorDisabled{
@@ -10,7 +12,7 @@ label.selector, label.selectorDisabled{
 }
 
 .selectorItem{
-  margin-bottom:10px;
+  margin-bottom:18px;
 }
 
 .selectorItem.last{
