@@ -2,7 +2,9 @@
 CHECKBOXES AND RADIO BUTTONS
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 .subtext.optiongroup{
+  display:block;
   margin-left:26px;
+  margin-top:5px;
 }
 
 label.selector, label.selectorDisabled{
@@ -10,7 +12,7 @@ label.selector, label.selectorDisabled{
 }
 
 .selectorItem{
-  margin-bottom:10px;
+  margin-bottom:18px;
 }
 
 .selectorItem.last{
@@ -111,7 +113,7 @@ label.altSelector, label.altSelectorDis, label.altSelectorErr{
   border-left:0;
   color:$action700;
   margin:0px;
-  width:50px;
+  padding:0 20px;
   text-align:center;
   float:left;
 }
@@ -147,16 +149,12 @@ input.altSelector[type=checkbox] + label:active,  input.altSelector[type=checkbo
   color:$grey0;
 }
 
-label.altSelector.Lg{
-  width:120px;
-}
 
 /*DISABLED STYLES*/
 
 label.altSelectorDis{
   cursor:not-allowed;
   color:$grey700;
-  width:120px;
 }
 
 input.altSelectorDis[type=checkbox]:checked + label,  input.altSelectorDis[type=radio]:checked + label{
@@ -178,7 +176,6 @@ input.altSelectorDis[type=checkbox]:checked + label:focus, input.altSelectorDis[
 
 label.altSelectorErr{
   color:$red;
-  width:120px;
 }
 
 input.altSelectorErr[type=checkbox]:checked + label,  input.altSelectorErr[type=radio]:checked + label{
