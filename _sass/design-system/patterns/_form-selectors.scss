@@ -4,7 +4,7 @@ CHECKBOXES AND RADIO BUTTONS
 .subtext.optiongroup{
   display:block;
   margin-left:26px;
-  margin-top:5px;
+  margin-top:1px;
 }
 
 label.selector, label.selectorDisabled{
@@ -12,7 +12,7 @@ label.selector, label.selectorDisabled{
 }
 
 .selectorItem{
-  margin-bottom:18px;
+  margin-bottom:$paddingXS;
 }
 
 .selectorItem.last{
