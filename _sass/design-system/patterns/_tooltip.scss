@@ -15,3 +15,69 @@
 
   box-shadow: 0 0 9px 1px rgba(0, 0, 0, 0.15);
 }
+
+.ds-beacon, .ds-beacon-cyan{
+  position:absolute;
+  top:50%;
+  left:50%;
+  background-color:#fff; 
+  height:15px;
+  width:15px;
+  opacity:.5;
+  border-radius:50%;
+  box-shadow:0px 0px 2px 2px $grey500;
+  -webkit-transform:translateX(-50%) translateY(-50%);
+}
+
+.ds-beacon-cyan{
+  top:50%;
+  left:60%;
+  box-shadow:0px 0px 2px 2px $cyan500;
+}
+
+.ds-beacon:before, .ds-beacon-cyan:before{
+  position:absolute;
+  content:"";
+  height:13px;
+  width:13px;
+  left:0;
+  top:0;
+  background-color:transparent;
+  border: 1px solid #fff;
+  border-radius:50%;
+  box-shadow:0px 0px 1px 1px $grey900;
+  -webkit-animation:active 2s infinite linear;
+  animation:active 2s infinite linear;
+}
+
+@-webkit-keyframes active{
+  0%{
+    -webkit-transform:scale(.2);
+    opacity:1;
+  }
+  70%{
+    -webkit-transform:scale(2.5);
+    opacity:0;
+  }
+  100%{
+    opacity:0;
+  }
+}
+
+@keyframes active{
+  0%{
+    transform:scale(.2);
+    opacity:1;
+  }
+  70%{
+    transform:scale(2.5);
+    opacity:0;
+  }
+  100%{
+    opacity:0;
+  }
+}
+
+.ds-beacon-cyan:before{
+  box-shadow:0px 0px 1px 1px $cyan900;
+}
