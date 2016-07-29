@@ -1,3 +1,7 @@
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+VISIBLE TOOLTIP
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
 .rs-tooltip {
   position: absolute;
   top: 0;
@@ -9,12 +13,21 @@
 
 .rs-tooltip-inner {
   max-width: 440px;
-  padding: 10px;
-  background-color: #f5f5f5;
-  border: 1px solid #bbb;
+  padding: $paddingS;
+  background-color: $grey700;
+  color:$grey0;
+  border: none;
+  border-radius:$paddingS;
 
-  box-shadow: 0 0 9px 1px rgba(0, 0, 0, 0.15);
 }
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+HElP ICON
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+BEACON
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
 .ds-beacon, .ds-beacon-cyan{
   position:absolute;
