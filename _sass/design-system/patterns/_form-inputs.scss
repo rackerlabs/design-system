@@ -60,21 +60,18 @@ STYLE PLACEHOLDER TEXT
   color: $grey600;
   font-weight: 300;
   font-style:italic;
-  letter-spacing:.05em;
 }
 :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
   color: $grey600;
   opacity:  1;
   font-weight: 300;
   font-style:italic;
-  letter-spacing:.05em;
 }
 ::-moz-placeholder { /* Mozilla Firefox 19+ */
   color: $grey600;
   opacity:  1;
   font-weight: 300;
   font-style:italic;
-  letter-spacing:.05em;
 }
 
 :-ms-input-placeholder { /* Internet Explorer 10-11 */

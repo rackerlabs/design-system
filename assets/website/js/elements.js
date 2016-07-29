@@ -14,8 +14,8 @@ $(document).ready(function() {
     });
 
     //size of text field with prefix or suffix
-    var prefix_width = $('#inputPrefix').width();
-    var suffix_width = $('#inputSuffix').width();
+    var prefix_width = $('#inputPrefix').width()+5;
+    var suffix_width = $('#inputSuffix').width()+5;
     var subtract_width = prefix_width + suffix_width;
 
     $('#setWidth').width(400-subtract_width);
@@ -71,5 +71,10 @@ $(document).ready(function() {
         });
 
     });
+
+    var tooltip;
+
+    tooltip = new canon.Tooltip();
+    tooltip.attach($('#tooltip-demo'));
 
 });
