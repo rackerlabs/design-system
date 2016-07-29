@@ -1,8 +1,49 @@
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    top: 150%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.icon-help{
+  width:16px;
+  height:16px;
+}
+
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 VISIBLE TOOLTIP
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
-.rs-tooltip {
+.ds-tooltip {
   position: absolute;
   top: 0;
   left: 0;
@@ -11,19 +52,38 @@ VISIBLE TOOLTIP
   @include animate-visibility;
 }
 
-.rs-tooltip-inner {
+.ds-tooltip-inner {
   max-width: 440px;
-  padding: $paddingS;
+  padding: $paddingS $paddingM;
   background-color: $grey700;
+  font-size:$font-size-3;
   color:$grey0;
   border: none;
   border-radius:$paddingS;
 
 }
 
+.ds-tooltip-inner::after {
+    content: " ";
+    position: absolute;
+    bottom:100%; /* At the top of the tooltip */
+    left: $paddingXL;
+    margin-left: -8px;
+    border-width: 8px;
+    border-style: solid;
+    border-color:  transparent transparent $grey700 transparent;
+}
+
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 HElP ICON
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+.ds-icon-help{
+  height:20px;
+  width:20px;
+  background-color:red;
+  cursor:pointer;
+}
 
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 BEACON
@@ -33,7 +93,7 @@ BEACON
   position:absolute;
   top:50%;
   left:50%;
-  background-color:#fff; 
+  background-color:$grey0; 
   height:15px;
   width:15px;
   opacity:.5;
@@ -45,7 +105,8 @@ BEACON
 .ds-beacon-cyan{
   top:50%;
   left:60%;
-  box-shadow:0px 0px 2px 2px $cyan500;
+  background-color:$cyan500; 
+  box-shadow:0px 0px 2px 2px $cyan700;
 }
 
 .ds-beacon:before, .ds-beacon-cyan:before{
