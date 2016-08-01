@@ -26,17 +26,15 @@ p {
     line-height: 1.5em;
 }
 
-.sectionhead {
-	margin-top: 60px;
-    &:before {
+.ws-section-head {
+	padding:40px 0 24px 0;
+	border-top:1px solid #e0e0e0;
+	margin-top:40px;
+}
 
-    }
-    &:first-of-type {
-    	margin-top: 0px;
-        &:before {
-        display: none;
-        }
-    }
+.ws-section-head:first-child{
+	border-top:none;
+	margin-top:0;
 }
 
 h3 {

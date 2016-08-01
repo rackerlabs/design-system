@@ -13,18 +13,11 @@ category: Components
 
 </style>
 
-<div class="tooltip">Hover over me
-  <span class="ds-tooltip-inner">Use of remote servers hosted on the Internet to store, manage, and process data, rather than a local server or a personal computer</span>
-</div>
-
 <h1>Tooltip</h1>
-<p>Cloud Computing<i class="icon-help"></i></p>
-<div style="padding: 40px">
-  <div class="ds-tooltip visible">
-    <div class="ds-tooltip-inner">
-      <i class="icon-help"></i>
-    </div>
-  </div>
+<p>Cloud Computing<i class="icon-help ds-tooltip"></i></p>
+
+<div class="ds-tooltip">Hover over me
+  <span class="tooltiptext">Tooltip text</span>
 </div>
 
 <h1>Beacon</h1>
@@ -37,9 +30,17 @@ category: Components
   <li>Avoid using the beacon for warnings or alerts.</li>
   <li>Don't obsure text with a beacon.</li>
 </ul>
-<div class="ds-beacon-con"><span class="ds-beacon"></span></div>
-<h2>Color Variations</h2>
-<h3>Primary Theme Color</h3>
-<div class="ds-beacon-con"><span class="ds-beacon-cyan"></span></div>
-<h3>Complamentary to Theme Color</h3>
-<div class="ds-beacon-con"><span class="ds-beacon-orange"></span></div>
+<div class="ws-beacons">
+  <div class="ws-beacon-con">
+    <h3>Grey:</h3>
+    <div class="ds-beacon-con"><span class="ds-beacon"></span></div>
+  </div>
+  <div class="ws-beacon-con">
+    <h3>Match Theme Color:</h3>
+    <div class="ds-beacon-con"><span class="ds-beacon-cyan"></span></div>
+  </div>
+  <div class="ws-beacon-con">
+    <h3>Complementary:</h3>
+    <div class="ds-beacon-con"><span class="ds-beacon-orange"></span></div>
+  </div>
+</div>

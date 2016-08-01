@@ -1,10 +1,10 @@
-.tooltip {
+.ds-tooltip {
     position: relative;
     display: inline-block;
-    border-bottom: 1px dotted black;
+    cursor:pointer;
 }
 
-.tooltip .tooltiptext {
+.ds-tooltip .tooltiptext {
     visibility: hidden;
     width: 120px;
     background-color: black;
@@ -19,7 +19,7 @@
     margin-left: -60px;
 }
 
-.tooltip .tooltiptext::after {
+.ds-tooltip .tooltiptext::after {
     content: "";
     position: absolute;
     bottom: 100%;
@@ -30,7 +30,7 @@
     border-color: transparent transparent black transparent;
 }
 
-.tooltip:hover .tooltiptext {
+.ds-tooltip:hover .tooltiptext {
     visibility: visible;
 }
 
@@ -42,15 +42,6 @@
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 VISIBLE TOOLTIP
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
-
-.ds-tooltip {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: $zindexTooltip;
-
-  @include animate-visibility;
-}
 
 .ds-tooltip-inner {
   max-width: 440px;
@@ -84,6 +75,20 @@ HElP ICON
   vertical-align:-1px;
   margin-left: $paddingM;
   }
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+WEBSITE BEACON DISPLAY
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.ws-beacons{
+  position:relative;
+  display:block;
+}
+
+.ws-beacon-con{
+  width:33%;
+  display:block;
+  float:left;
+}
+
 
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 BEACON
@@ -106,6 +111,7 @@ BEACON
   border-radius:50%;
   box-shadow:0px 0px 2px 2px $grey500;
   -webkit-transform:translateX(-50%) translateY(-50%);
+  cursor:pointer;
 }
 
 .ds-beacon-cyan{
