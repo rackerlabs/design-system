@@ -2,45 +2,48 @@
 TOOLTIP
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
-.ds-tooltip {
-    position: relative;
-    cursor:pointer;
-    max-width: 440px;
+.ds-tooltip-source {
+  cursor: pointer;
 }
 
-.ds-tooltip .ds-tooltiptext {
-    font-family:$base-font-family;
-    visibility: hidden;
-    padding: $paddingS $paddingM;
+.ds-tooltip {
     position: absolute;
-    z-index: 1;
-    top: 32px;
-    left: -8px;
+    max-width: 440px;
+    
+    &.invisible {
+      visibility: hidden;
+    }
+
+    &.visible {
+      visibility: visible;
+    }
+}
+
+.ds-tooltip-inner {
+    font-family:$base-font-family;
+    padding: $paddingS $paddingM;
+    z-index: $zindexTooltip;
     background-color: $grey800;
-    color:$grey0;
+    color: $grey0;
     border: none;
     border-radius:$paddingS;
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
     -o-font-smoothing: antialiased;
+
+    &:after {
+      content: "";
+      position: absolute;
+      bottom: 100%;
+      left: 28px;
+      margin-left: -8px;
+      border-width: 8px;
+      border-style: solid;
+      border-color: transparent transparent $grey800 transparent;
+    }
 }
 
-.ds-tooltip .ds-tooltiptext::after {
-    content: "";
-    position: absolute;
-    bottom: 100%;
-    left: 28px;
-    margin-left: -8px;
-    border-width: 8px;
-    border-style: solid;
-    border-color: transparent transparent $grey800 transparent;
-}
-
-.ds-tooltip:hover .ds-tooltiptext {
-    visibility: visible;
-}
-
-.icon-help{
+.icon-help {
   color:$cyan700;
   font-size:16px;
   vertical-align:-1px;
