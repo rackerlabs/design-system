@@ -1,42 +1,50 @@
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+TOOLTIP
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
 .ds-tooltip {
     position: relative;
-    display: inline-block;
     cursor:pointer;
+    max-width: 440px;
 }
 
-.ds-tooltip .tooltiptext {
+.ds-tooltip .ds-tooltiptext {
+    font-family:$base-font-family;
     visibility: hidden;
-    width: 120px;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
+    padding: $paddingS $paddingM;
     position: absolute;
     z-index: 1;
-    top: 150%;
-    left: 50%;
-    margin-left: -60px;
+    top: 32px;
+    left: -8px;
+    background-color: $grey800;
+    color:$grey0;
+    border: none;
+    border-radius:$paddingS;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
 }
 
-.ds-tooltip .tooltiptext::after {
+.ds-tooltip .ds-tooltiptext::after {
     content: "";
     position: absolute;
     bottom: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
+    left: 28px;
+    margin-left: -8px;
+    border-width: 8px;
     border-style: solid;
-    border-color: transparent transparent black transparent;
+    border-color: transparent transparent $grey800 transparent;
 }
 
-.ds-tooltip:hover .tooltiptext {
+.ds-tooltip:hover .ds-tooltiptext {
     visibility: visible;
 }
 
 .icon-help{
-  width:16px;
-  height:16px;
+  color:$cyan700;
+  font-size:16px;
+  vertical-align:-1px;
+  margin-left: $paddingM;
 }
 
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -66,36 +74,11 @@ VISIBLE TOOLTIP
 }
 
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-HElP ICON
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
-
-.icon-help{
-  color:$cyan700;
-  font-size:16px;
-  vertical-align:-1px;
-  margin-left: $paddingM;
-  }
-/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-WEBSITE BEACON DISPLAY
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
-.ws-beacons{
-  position:relative;
-  display:block;
-}
-
-.ws-beacon-con{
-  width:33%;
-  display:block;
-  float:left;
-}
-
-
-/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 BEACON
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 .ds-beacon-con{
   position:relative;
-  display:block;
+  display:inline-block;
   height:20px;
   margin: $paddingM 0 $paddingL 0;
 }
