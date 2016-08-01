@@ -38,19 +38,20 @@ p {
 	padding-top:0;
 }
 
-h3 {
-	font-size: 1.953em;
+.ws-section-con p{
+	padding-bottom:32px;
 }
 
-h4 {
-	font-size: 1.25em;
-	font-weight: 600;
-	letter-spacing: 0.05em;
-	text-transform: uppercase;
+.ws-section-con .form-subtext{
+	padding-bottom:0;
 }
 
-h5 {
-	font-size: 1.25em;
+.ws-section-con h3{
+	padding:32px 0 12px;
+}
+
+.ws-section-con h3:first-of-type{
+	padding-top:0;
 }
 
 
