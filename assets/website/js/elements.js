@@ -72,9 +72,4 @@ $(document).ready(function() {
 
     });
 
-    var tooltip;
-
-    tooltip = new canon.Tooltip();
-    tooltip.attach($('#tooltip-demo'));
-
 });
