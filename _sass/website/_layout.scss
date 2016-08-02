@@ -151,17 +151,16 @@ nav {
     background-color: #f9f9f9;
 
     .page-heading {
-        font-size: 3.815rem;
-        color: #f4f4f4;
-        padding: $spacing-unit $spacing-unit;
-        padding-left: $spacing-unit * 2;
-        background: $brand-color;
-        font-weight: 200;
+        font-size: 3em;
+        font-weight:100;
+        color: #424242;
+        background-color:white;
+        padding: 40px 28px;
     }
 
     .page-content {
         background-color: #ffffff;
-        padding: $spacing-unit * 2;
+        padding: 0 28px 40px 28px;
         overflowY: scroll;
         box-sizing: border-box;
     }

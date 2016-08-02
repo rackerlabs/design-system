@@ -26,32 +26,32 @@ p {
     line-height: 1.5em;
 }
 
-.sectionhead {
-	margin-top: 60px;
-    &:before {
-
-    }
-    &:first-of-type {
-    	margin-top: 0px;
-        &:before {
-        display: none;
-        }
-    }
+.ws-section-head {
+	padding:40px 0 24px 0;
+	border-top:1px solid #e0e0e0;
+	margin-top:40px;
 }
 
-h3 {
-	font-size: 1.953em;
+.ws-section-head:first-child{
+	border-top:none;
+	margin-top:0;
+	padding-top:0;
 }
 
-h4 {
-	font-size: 1.25em;
-	font-weight: 600;
-	letter-spacing: 0.05em;
-	text-transform: uppercase;
+.ws-section-con p{
+	padding-bottom:32px;
 }
 
-h5 {
-	font-size: 1.25em;
+.ws-section-con .form-subtext{
+	padding-bottom:0;
+}
+
+.ws-section-con h3{
+	padding:32px 0 12px;
+}
+
+.ws-section-con h3:first-of-type{
+	padding-top:0;
 }
 
 
@@ -61,6 +61,11 @@ ol {
 
 ul {
 	list-style-type: circle;
+}
+
+.ws-doc-list{
+	list-style-type: disc;
+	padding-left:24px;
 }
 
 /**

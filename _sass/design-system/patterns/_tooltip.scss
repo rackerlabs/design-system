@@ -1,119 +1,95 @@
-.tooltip {
-    position: relative;
-    display: inline-block;
-    border-bottom: 1px dotted black;
-}
-
-.tooltip .tooltiptext {
-    visibility: hidden;
-    width: 120px;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-    position: absolute;
-    z-index: 1;
-    top: 150%;
-    left: 50%;
-    margin-left: -60px;
-}
-
-.tooltip .tooltiptext::after {
-    content: "";
-    position: absolute;
-    bottom: 100%;
-    left: 50%;
-    margin-left: -5px;
-    border-width: 5px;
-    border-style: solid;
-    border-color: transparent transparent black transparent;
-}
-
-.tooltip:hover .tooltiptext {
-    visibility: visible;
-}
-
-.icon-help{
-  width:16px;
-  height:16px;
-}
-
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-VISIBLE TOOLTIP
+TOOLTIP
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
-.ds-tooltip {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: $zindexTooltip;
+.ds-tooltip-source {
+  cursor: pointer;
+}
 
-  @include animate-visibility;
+.ds-tooltip {
+    position: absolute;
+    max-width: 440px;
+    
+    &.invisible {
+      visibility: hidden;
+    }
+
+    &.visible {
+      visibility: visible;
+    }
 }
 
 .ds-tooltip-inner {
-  max-width: 440px;
-  padding: $paddingS $paddingM;
-  background-color: $grey700;
-  font-size:$font-size-3;
-  color:$grey0;
-  border: none;
-  border-radius:$paddingS;
+    font-family:$base-font-family;
+    padding: $paddingS $paddingM;
+    z-index: $zindexTooltip;
+    background-color: $grey800;
+    color: $grey0;
+    border: none;
+    border-radius:$paddingS;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
 
+    &:after {
+      content: "";
+      position: absolute;
+      bottom: 100%;
+      left: 28px;
+      margin-left: -8px;
+      border-width: 8px;
+      border-style: solid;
+      border-color: transparent transparent $grey800 transparent;
+    }
 }
 
-.ds-tooltip-inner::after {
-    content: " ";
-    position: absolute;
-    bottom:100%; /* At the top of the tooltip */
-    left: $paddingXL;
-    margin-left: -8px;
-    border-width: 8px;
-    border-style: solid;
-    border-color:  transparent transparent $grey700 transparent;
-}
-
-/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-HElP ICON
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
-
-.ds-icon-help{
-  height:20px;
-  width:20px;
-  background-color:red;
+.icon-help {
+  color:$cyan700;
+  font-size:16px;
+  vertical-align:-1px;
+  margin-left: $paddingM;
   cursor:pointer;
 }
 
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 BEACON
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.ds-beacon-con{
+  position:relative;
+  display:inline-block;
+  height:20px;
+  margin: $paddingM 0 $paddingL 0;
+}
 
-.ds-beacon, .ds-beacon-cyan{
+.ds-beacon, .ds-beacon-cyan, .ds-beacon-orange{
   position:absolute;
-  top:50%;
-  left:50%;
+  top:10px;
+  left:10px;
   background-color:$grey0; 
-  height:15px;
-  width:15px;
-  opacity:.5;
+  height:16px;
+  width:16px;
+  opacity:.6;
   border-radius:50%;
   box-shadow:0px 0px 2px 2px $grey500;
   -webkit-transform:translateX(-50%) translateY(-50%);
+  cursor:pointer;
 }
 
 .ds-beacon-cyan{
-  top:50%;
-  left:60%;
-  background-color:$cyan500; 
-  box-shadow:0px 0px 2px 2px $cyan700;
+  background-color:$cyan100; 
+  box-shadow:0px 0px 2px 2px $cyan500;
 }
 
-.ds-beacon:before, .ds-beacon-cyan:before{
+.ds-beacon-orange{
+  background-color:$orange100; 
+  box-shadow:0px 0px 2px 2px $orange500;
+}
+
+.ds-beacon:before, .ds-beacon-cyan:before, .ds-beacon-orange:before{
   position:absolute;
   content:"";
-  height:13px;
-  width:13px;
+  height:14px;
+  width:14px;
   left:0;
   top:0;
   background-color:transparent;
@@ -154,4 +130,8 @@ BEACON
 
 .ds-beacon-cyan:before{
   box-shadow:0px 0px 1px 1px $cyan900;
+}
+
+.ds-beacon-orange:before{
+  box-shadow:0px 0px 1px 1px $orange900;
 }
