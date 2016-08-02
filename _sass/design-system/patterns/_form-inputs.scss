@@ -11,10 +11,12 @@ input[type="text"],input[type="password"],input[type="email"],input[type="search
   border-radius: 2px;
   padding:0 $paddingS;
   height:30px;
-
-  //needs to align to grid
-  width: 412px;
+  width: 100%;
+  max-width: 6*$fluidGridColumnWidth;
   margin:0;
+  @include max-screen($small){
+      max-width:none;
+    }
 
   &:focus,
   &.focus {
@@ -48,8 +50,13 @@ COUNTDOWN FORMATTING
 
 .form-subtext.countdown{
   text-align:right;
-  width:430px;
   margin-top:0;
+  width: 100%;
+  max-width: 6*$fluidGridColumnWidth;
+  margin:0;
+  @include max-screen($small){
+      max-width:none;
+    }
 }
 
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -96,28 +103,20 @@ TEXT PREFIXES AND SUFFIXES ALIGNED - SIZED IN ELEMENTS JS FILE
 
 .iconAppendPre, .iconAppendPreSuf{
   position: relative;
-  width:430px;
+  @include max-screen($small){
+    }
 }
 
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ICONS IN MARGIN AFTER INPUT
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
-.iconAppendPre input{
-  //needs to be adjusted to align with grid
-  width:387px;
-  padding: 0 $paddingS 0 33px;
-}
-
-.iconAppendPreSuf input{
-  //needs to be adjusted to align with grid
-  width:362px;
-  padding: 0 33px;
+.iconAppendPre input, .iconAppendPreSuf input{
+  text-indent:32px;
 }
 
 .iconPrefix, .iconSuffix{
   color:$grey600;
-  position: absolute;
   top:6px;
 }
 
@@ -127,11 +126,12 @@ ICONS IN MARGIN AFTER INPUT
 
 .iconPrefix{
   left:9px;
+  position:absolute;
 }
 
 .iconSuffix{
-  right:9px;
   cursor:pointer;
+  padding-left:4px;
 
   &:hover{
     color:$red500;
