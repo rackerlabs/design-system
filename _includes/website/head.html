@@ -6,11 +6,15 @@
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+<<<<<<< HEAD
   <script src="{{ '/assets/website/js/jquery.min.js' | prepend: site.baseurl }}"></script>
   <script src="{{ '/assets/website/js/tooltip.js' | prepend: site.baseurl }}"></script>
   <script src="{{ '/assets/website/js/elements.js' | prepend: site.baseurl }}"></script>
+=======
+>>>>>>> master
   <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
   <script src="https://use.fontawesome.com/b2b7b479bf.js"></script>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">
   <link rel="stylesheet" href="{{ '/css/DS_icon_font.css' | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ '/css/website.css' | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ '/css/design-system.css' | prepend: site.baseurl }}">
