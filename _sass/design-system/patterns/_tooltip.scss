@@ -1,95 +1,119 @@
-/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-TOOLTIP
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
-
-.ds-tooltip-source {
-  cursor: pointer;
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
 }
 
-.ds-tooltip {
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
     position: absolute;
-    max-width: 440px;
-    
-    &.invisible {
-      visibility: hidden;
-    }
+    z-index: 1;
+    top: 150%;
+    left: 50%;
+    margin-left: -60px;
+}
 
-    &.visible {
-      visibility: visible;
-    }
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.icon-help{
+  width:16px;
+  height:16px;
+}
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+VISIBLE TOOLTIP
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+.ds-tooltip {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: $zindexTooltip;
+
+  @include animate-visibility;
 }
 
 .ds-tooltip-inner {
-    font-family:$base-font-family;
-    padding: $paddingS $paddingM;
-    z-index: $zindexTooltip;
-    background-color: $grey800;
-    color: $grey0;
-    border: none;
-    border-radius:$paddingS;
-    -webkit-font-smoothing: antialiased;
-    -moz-font-smoothing: antialiased;
-    -o-font-smoothing: antialiased;
+  max-width: 440px;
+  padding: $paddingS $paddingM;
+  background-color: $grey700;
+  font-size:$font-size-3;
+  color:$grey0;
+  border: none;
+  border-radius:$paddingS;
 
-    &:after {
-      content: "";
-      position: absolute;
-      bottom: 100%;
-      left: 28px;
-      margin-left: -8px;
-      border-width: 8px;
-      border-style: solid;
-      border-color: transparent transparent $grey800 transparent;
-    }
 }
 
-.icon-help {
-  color:$cyan700;
-  font-size:16px;
-  vertical-align:-1px;
-  margin-left: $paddingM;
+.ds-tooltip-inner::after {
+    content: " ";
+    position: absolute;
+    bottom:100%; /* At the top of the tooltip */
+    left: $paddingXL;
+    margin-left: -8px;
+    border-width: 8px;
+    border-style: solid;
+    border-color:  transparent transparent $grey700 transparent;
+}
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+HElP ICON
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+.ds-icon-help{
+  height:20px;
+  width:20px;
+  background-color:red;
   cursor:pointer;
 }
 
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 BEACON
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
-.ds-beacon-con{
-  position:relative;
-  display:inline-block;
-  height:20px;
-  margin: $paddingM 0 $paddingL 0;
-}
 
-.ds-beacon, .ds-beacon-cyan, .ds-beacon-orange{
+.ds-beacon, .ds-beacon-cyan{
   position:absolute;
-  top:10px;
-  left:10px;
+  top:50%;
+  left:50%;
   background-color:$grey0; 
-  height:16px;
-  width:16px;
-  opacity:.6;
+  height:15px;
+  width:15px;
+  opacity:.5;
   border-radius:50%;
   box-shadow:0px 0px 2px 2px $grey500;
   -webkit-transform:translateX(-50%) translateY(-50%);
-  cursor:pointer;
 }
 
 .ds-beacon-cyan{
-  background-color:$cyan100; 
-  box-shadow:0px 0px 2px 2px $cyan500;
+  top:50%;
+  left:60%;
+  background-color:$cyan500; 
+  box-shadow:0px 0px 2px 2px $cyan700;
 }
 
-.ds-beacon-orange{
-  background-color:$orange100; 
-  box-shadow:0px 0px 2px 2px $orange500;
-}
-
-.ds-beacon:before, .ds-beacon-cyan:before, .ds-beacon-orange:before{
+.ds-beacon:before, .ds-beacon-cyan:before{
   position:absolute;
   content:"";
-  height:14px;
-  width:14px;
+  height:13px;
+  width:13px;
   left:0;
   top:0;
   background-color:transparent;
@@ -130,8 +154,4 @@ BEACON
 
 .ds-beacon-cyan:before{
   box-shadow:0px 0px 1px 1px $cyan900;
-}
-
-.ds-beacon-orange:before{
-  box-shadow:0px 0px 1px 1px $orange900;
 }

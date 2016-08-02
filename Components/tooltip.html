@@ -3,66 +3,43 @@ title: In-Context Help
 layout: website/default
 category: Components
 ---
-<h1 class="ws-section-head">Tooltip</h1>
-<p>Use the tooltip when you want to convey brief snippets of information, to explain an element a bit more, or to display truncated text.</p>
 
-<ul class="ws-doc-list">
-  <li>Activates when hovered on with mouse.</li>
-  <li>The tooltip disappears when mouse hovers away, or when clicked in the icon. Tooltip does not reactivate on click.</li>
-  <li>Tooltip should only be used on icon images, text, and table rows; use when see fit.</li>
-  <li>Max width for the tooltip is 440px.</li>
-</ul>
+<style type="text/css" scoped>
 
-<p>Cloud Computing<i class="icon-help ds-tooltip-source" title="The practice of using a network of remote servers hosted on the Internet to store, manage, and process data, rather than a local server or a personal computer."></i></p>
+.ds-tooltip {
+  top: auto;
+  left: auto;
+}
 
-<h1 class="ws-section-head">Beacon</h1>
+</style>
+
+<div class="tooltip">Hover over me
+  <span class="ds-tooltip-inner">Use of remote servers hosted on the Internet to store, manage, and process data, rather than a local server or a personal computer</span>
+</div>
+
+<h1>Tooltip</h1>
+<p>Cloud Computing</p>
+<div style="padding: 40px">
+  <div class="ds-tooltip visible">
+    <div class="ds-tooltip-inner">
+      <i class="icon-help"></i>
+    </div>
+  </div>
+</div>
+
+<h1>Beacon</h1>
 <p>The beacon can be used to identify the location of new functionality or important features for first-time user.</p>
-<ul class="ws-doc-list">
+<h3>Best Practices:</h3>
+<ul>
   <li>Place the beacon to the right or left of navigation items, labels or section headers.</li>
   <li>Use one beacon at a time.</li>
   <li>Remove the bacon once it has been viewed.</li>
   <li>Avoid using the beacon for warnings or alerts.</li>
   <li>Don't obsure text with a beacon.</li>
 </ul>
-<div class="ws-beacons">
-  <div class="ws-beacon-con">
-    <p>Grey:</p>
-    <div class="ds-beacon-con"><span class="ds-beacon ds-tooltip-source" title="This is new!"></span></div>
-  </div>
-  <div class="ws-beacon-con">
-    <p>Theme match:</p>
-    <div class="ds-beacon-con"><span class="ds-beacon-cyan ds-tooltip-source" title="This is new!"></span></div>
-  </div>
-  <div class="ws-beacon-con">
-    <p>Theme complement:</p>
-    <div class="ds-beacon-con"><span class="ds-beacon-orange ds-tooltip-source" title="This is new!"></span></div>
-  </div>
-</div>
-
-<style type = "text/css" scoped>
-.ws-beacons{
-  height: 100px;
-}
-
-.ws-beacon-con{
-  /* Firefox */
-  width: -moz-calc(33.3333% - 28px);
-  /* WebKit */
-  width: -webkit-calc(33.3333% - 28px);
-  /* Opera */
-  width: -o-calc(33.3333% - 28px);
-  /* Standard */
-  width: calc(33.3333% - 28px);
-  display:block;
-  float:left;
-  border-left: 1px solid #e0e0e0;
-  padding-left: 40px;
-}
-
-.ws-beacon-con:first-child{
-  border-left:none;
-  padding-left: 0px;
-}
-
-
-</style>
+<span class="ds-beacon"></span><span class="ds-beacon"></span>
+<h2>Color Variations</h2>
+<h3>Primary Theme Color</h3>
+<span class="ds-beacon"></span><span class="ds-beacon"></span>
+<h3>Complamentary to Theme Color</h3>
+<span class="ds-beacon"></span><span class="ds-beacon"></span>
