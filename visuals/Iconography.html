@@ -182,11 +182,28 @@ category: Visuals
 </div>
 
 <style type="text/css">
-  .ws-icon-chip-text:first-child {
+	.ws-icon-chip{
+		padding-bottom: 32px;
+	}
+
+	.ws-icon-chip-icon{
+		color:#757575;
+		font-size: 32px;
+		text-align: center;
+	}
+
+	.ws-icon-chip-icon, .ws-icon-chip-text{
+		display: block;
+	}
+
+  .ws-icon-chip-text {
     border-top: 1px solid #e0e0e0;
+    padding:8px 0 0 0;
   }
 
-  .ws-icon-chip-text:first-child {
+  .ws-icon-chip-text:last-of-type {
+  	padding: 0 0 8px 0;
+  	border-top: 0;
     border-bottom: 1px solid #e0e0e0;
   }
 
