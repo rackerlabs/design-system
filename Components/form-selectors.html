@@ -8,15 +8,14 @@ category: Components
 <h1>Radio Buttons</h1>
 <p>Use when selecting a <b>single item</b> from a set if it&#8217;s important for the user to see all options at once. If viewing items side-by-side isn&#8217;t important, consider a selector, which uses less space.</p>
 <h2>Enabled</h2>
-<fieldset class="icheck">
-    <legend><span class="requiredInput">*</span> Select your options </legend>
-    <input type="radio" name="radio-1" id="radio-1">
-    <label for="radio-1">Option 1</label>
-    <input type="radio" name="radio-1" id="radio-2">
-    <label for="radio-2">Option 2</label>
-    <input type="radio" name="radio-1" id="radio-3">
-    <label for="radio-3">Option 3</label>  
-</fieldset>
+	<div class="formGroup doc">
+		<div class="formLabel group"><span class="requiredInput">*</span> Select your options</div>
+		<div class="formComponant">
+			<div class="selectorItem"><input type="radio" name="access1" value="MyRackspace" checked><label for="c1" class="selector">Option 1<br><span class="subtext optiongroup">Here is some additional help text to explain this option.</span></label></div>
+			<div class="selectorItem"><input type="radio" name="access1" value="MyRackspace" ><label for="c1" class="selector">Option 2</label></div>
+			<div class="selectorItem last"><input type="radio" name="access1" value="MyRackspace" ><label for="c1" class="selector">Option 3</label></div>
+		</div>
+	</div>
 
 <h2>Disabled</h2>
 	<div class="formGroup doc">
@@ -28,27 +27,16 @@ category: Components
 		</div>
 	</div>
 
-<h2>Disabled</h2>
-<fieldset class="formGroup icheck">
-    <legend><span class="requiredInput">*</span> Select your options </legend>
-    <input type="radio" name="radio-2" id="radio-1" disabled="disabled" checked class="selectorDisabled">
-    <label for="radio-1" class="selectorDisabled">Option 1</label>
-    <input type="radio" name="radio-2" id="radio-2" disabled="disabled" class="selectorDisabled">
-    <label for="radio-2" class="selectorDisabled">Option 2</label>
-    <input type="radio" name="radio-2" id="radio-3" disabled="disabled" class="selectorDisabled">
-    <label for="radio-3">Option 3</label>  
-</fieldset>
-
 <h2>Error</h2>
-<fieldset class="icheck selectorError">
-    <legend><span class="requiredInput">*</span> Select your options </legend>
-    <input type="radio" name="radio-3" id="radio-1">
-    <label for="radio-1">Option 1</label>
-    <input type="radio" name="radio-3" id="radio-2">
-    <label for="radio-2">Option 2</label>
-    <input type="radio" name="radio-3" id="radio-3">
-    <label for="radio-3">Option 3</label>  
-</fieldset>
+	<div class="formGroup doc">
+		<div class="formLabel group"><span class="requiredInput">*</span> Select your options</div>
+		<div class="formComponant">
+			<div class="selectorItem"><input type="radio" name="access3" value="MyRackspace" class="selectorError" checked><label for="c1" ></span>Option 1</label></div>
+			<div class="selectorItem"><input type="radio" name="access3" value="MyRackspace" class="selectorError"><label for="c1">Option 2</label></div>
+			<div class="selectorItem"><input type="radio" name="access3" value="MyRackspace" class="selectorError"><label for="c1">Option 3</label></div>
+		</div>
+		<p class="subtext error">There is an error with the response to this question.</p>
+	</div>
 
 <h1 style="padding-top:20px; margin-top:60px; border-top:1px solid #d8d8d8;">Radio Button Button-Group Alternate</h1>
 <h2>Enabled</h2>
@@ -166,10 +154,8 @@ category: Components
 	<div class="formGroup">
 		<div class="formLabel"><span class="requiredInput">*</span> Contact</div>
 		<div class="formComponant">
-			<form action="#">
-			  <fieldset>
-			    <select name="contact" id="contact">
-			      	<option value="" selected disabled>Make a selection</option>
+			<div class="Selector">
+				<select name="Contact">
 					<option value="Carmen">Carmen Broomes</option>
 					<option value="Lane">Lane Fielder</option>
 					<option value="Elizabeth">Elizabeth Grothues</option>
@@ -178,9 +164,8 @@ category: Components
 					<option value="Tommy">Tommy Shook</option>
 					<option value="Ty">Ty Taylor</option>
 					<option value="Eric">Eric Weidner</option>
-			    </select>
-			  </fieldset>
-			</form>
+				</select>
+			</div>
 		</div>
 	</div>
 

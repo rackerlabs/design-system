@@ -1,7 +1,6 @@
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 CHECKBOXES AND RADIO BUTTONS
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
-
 .subtext.optiongroup{
   display:block;
   margin-left:26px;
@@ -400,6 +399,17 @@ $select-height: 40px;
   vertical-align:middle;
   padding:0 14px;
 
+  &:after {
+    content:"";
+    width: 0;
+    height: 0;
+    border: 7px solid transparent;
+    border-color: $select-color transparent transparent transparent;
+    position: absolute;
+    top: 16px;
+    right: 10px;
+  }
+
   &:focus,
   &.focus {
     outline: none;
@@ -453,65 +463,4 @@ $select-height: 40px;
       display: none;
     }
   }
-}
-
-/* iCheck plugin flat skin, black
------------------------------------ */
-.icheckbox,
-.iradio {
-    display: inline-block;
-    *display: inline;
-    vertical-align: middle;
-    margin: 0;
-    padding: 0;
-    width: 20px;
-    height: 20px;
-    background: url(flat.png) no-repeat;
-    border: none;
-    cursor: pointer;
-    float: left;
-    clear: both;
-}
-
-.icheck label {
-  float: left;
-  margin-left: 16px;
-}
-
-.icheckbox {
-    background-position: 0 0;
-}
-    .icheckbox.checked {
-        background-position: -22px 0;
-    }
-    .icheckbox.disabled {
-        background-position: -44px 0;
-        cursor: default;
-    }
-    .icheckbox.checked.disabled {
-        background-position: -66px 0;
-    }
-
-.iradio {
-    background-position: -88px 0;
-}
-    .iradio.checked {
-        background-position: -110px 0;
-    }
-    .iradio.disabled {
-        background-position: -132px 0;
-        cursor: default;
-    }
-    .iradio.checked.disabled {
-        background-position: -154px 0;
-    }
-
-/* HiDPI support */
-@media (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi), (min-resolution: 1.25dppx) {
-    .icheckbox,
-    .iradio {
-        background-image: url(flat@2x.png);
-        -webkit-background-size: 176px 22px;
-        background-size: 176px 22px;
-    }
 }
