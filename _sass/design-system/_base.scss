@@ -1,7 +1,7 @@
 //DON'T DELETE EAG 7-18-2016
 
 body {
-  color: $grey900;
+  color: $grey950;
   font-family: $base-font-family;
   font-size: $base-font-size;
   line-height: $base-line-height;
@@ -50,11 +50,13 @@ h1.header-alt{
 h2{
   font-weight:400;
   font-size:$font-size-4;
+  padding: 0 0 $paddingM 0;
 }
 
 h3{
   font-weight:500;
   font-size:$base-font-size;
+  padding: 0 0 $paddingXS 0;
 }
 
 .body1{
@@ -110,15 +112,15 @@ h3{
   padding:$paddingS 0 0 0;
 }
 
+.form-section-container{
+  padding-top:$paddingXL;
+}
+
 .formComponant, .formGroup{
   display:block;
   width:100%;
 }
 
 .formGroup{
-  padding-bottom:$paddingXXL;
-}
-
-.formGroup:last-child{
-  padding-bottom:0;
+  padding-bottom:$paddingXL;
 }
