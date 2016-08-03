@@ -1,7 +1,6 @@
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 CHECKBOXES AND RADIO BUTTONS
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
-
 .subtext.optiongroup{
   display:block;
   margin-left:26px;
@@ -399,6 +398,17 @@ $select-height: 40px;
   line-height:40px;
   vertical-align:middle;
   padding:0 14px;
+
+  &:after {
+    content:"";
+    width: 0;
+    height: 0;
+    border: 7px solid transparent;
+    border-color: $select-color transparent transparent transparent;
+    position: absolute;
+    top: 16px;
+    right: 10px;
+  }
 
   &:focus,
   &.focus {
