@@ -13,6 +13,8 @@ $gridGutterWidth: 20px;
 $gridRowWidth: ($gridColumns * $gridColumnWidth) + ($gridGutterWidth * ($gridColumns - 1));
 $fluidGridColumnWidth: percentage($gridColumnWidth/$gridRowWidth);
 $fluidGridGutterWidth: percentage($gridGutterWidth/$gridRowWidth);
+$gridColumnWidth5: ($gridRowWidth - ($gridGutterWidth * 4)) / 5;
+$fluidGridColumnWidth5: ($gridColumnWidth5/$gridRowWidth) * 100%;
 
 @include grid-fluid($fluidGridColumnWidth, $fluidGridGutterWidth);
 
@@ -66,4 +68,12 @@ body.rs-responsive {
       margin-left: 0;
     }
   }
+}
+
+.rs-row .span-1of5 {
+  width: $fluidGridColumnWidth5;
+}
+
+.rs-row-collapse .span-1of5 {
+  width: 20%;
 }
