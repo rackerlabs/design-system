@@ -9,10 +9,6 @@
     <div class="page-wrapper">
       <div class="page-heading">
         <span>{{page.title | upcase}}</span>
-        {% if page.author%}
-        <p class="author">Prepared by: {{page.author}}</p>
-        <p class="modified"> Last Modified: <span>{{ page.date | date: '%B %d, %Y' }}</span></p>
-        {% endif %}
       </div>
       <div class="page-content">
         {{content}}
