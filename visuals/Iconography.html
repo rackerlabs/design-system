@@ -6,16 +6,26 @@ category: Visuals
 
 
 <h1 class="ws-section-head">Icon Font</h1>
-<div class="rs-row">
-  {%for icon_hash in site.data.icons%}
-    {%assign icon=icon_hash[1]%}
-      <div class="ws-icon-chip span-2">
-      	<span class="ws-icon-chip-icon"><i class="{{icon.class}}"></i></span>
-      	<span class="ws-icon-chip-text">{{icon.name}}</span>
-      	<span class="ws-icon-chip-text">{{icon.id}}</span>
-      </div>
-  {%endfor%}
-</div>
+	{% assign iconCount = 1 %}
+	{%for icon_hash in site.data.icons%}
+		{%assign icon=icon_hash[1]%}
+		{% if iconCount == 1 %}
+			<div class="rs-row ws-icon-row">		
+		{% endif %}
+				<div class="span-1"></div>
+				<div class="ws-icon-chip span-2">
+				  	<span class="ws-icon-chip-icon"><i class="{{icon.class}}"></i></span>
+				  	<span class="ws-icon-chip-text">{{icon.name}}</span>
+				  	<span class="ws-icon-chip-text">{{icon.id}}</span>
+				</div>
+				<div class="span-1"></div>
+		{% iconCount = iconCount | plus: 1%}
+		{% if iconCount == 3 %}
+			</div>
+			{% assign iconCount = 1 %}
+		{% endif %}
+	{%endfor%}
+
 
 
 <style type="text/css">
