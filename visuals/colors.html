@@ -6,7 +6,7 @@ category: Visuals
 
 <h1 class="ws-section-head">Primary Colors</h1>
 <p>Primary colors should be used sparingly for primary and secondary actions, alerts or data visualizations. Avoid adding color to "spice things up" as this will detract from blah blah blah.
-<div class="rs-row-collapse">
+<div class="rs-row">
   {%for color_hash in site.data.colors%}
     {%assign color=color_hash[1]%}
     <div class="span-1of5">
@@ -147,7 +147,7 @@ category: Visuals
   }
 
   .ws-color-name{
-
+    font-weight: 500;
   }
 
   .ws-smaller-color-type{
@@ -159,6 +159,10 @@ category: Visuals
   }
 
   .rs-row-collapse .span-1of5 {
+    width: 20%;
+  }
+
+  .rs-row .span-1of5 {
     width: 20%;
   }
 </style>
