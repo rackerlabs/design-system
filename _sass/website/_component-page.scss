@@ -69,6 +69,40 @@ ul {
 }
 
 /**
+* Component Status Tag
+*/
+$grey300: #e0e0e0;
+$purple:#3b44a9;
+$green:#4caf51;
+$paddingXS:4px;
+$paddingS:8px;
+$paddingM:12px;
+$paddingL:20px;
+$paddingXL:28px;
+$paddingXXL:32px;
+
+.status {
+	background-color: $grey300;
+    padding: $paddingXS $paddingS;
+    border-radius: 12px;
+    font-size: 10px;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    color: #fff;
+    vertical-align: middle;
+    white-space: nowrap;
+    margin-left: 2em;
+}
+
+.prototype {
+	background-color: $purple;
+}
+
+.dev-ready {
+	background-color: $green;
+}
+
+/**
 * Font Teaser Page Styles
 */
 .font-tease {
