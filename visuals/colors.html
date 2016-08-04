@@ -5,7 +5,7 @@ category: Visuals
 ---
 
 <h1 class="ws-section-head">Primary Colors</h1>
-<p>Primary colors should be used sparingly for primary and secondary actions, alerts or data visualizations. Avoid adding color to "spice things up" as this will detract from blah blah blah.
+<p class="ws-first-p">Primary colors should be used sparingly for primary and secondary actions, alerts or data visualizations. Avoid adding color to "spice things up" as this will detract from blah blah blah.
 <div class="rs-row">
   {%for color_hash in site.data.colors%}
     {%assign color=color_hash[1]%}
@@ -27,7 +27,7 @@ category: Visuals
 </div>
 
 <h1 class="ws-section-head">Alert Colors</h1>
-<p>Primary colors should be used sparingly for primary and secondary actions, alerts or data visualizations. Avoid adding color to "spice things up" as this will detract from blah blah blah.
+<p class="ws-first-p">Primary colors should be used sparingly for primary and secondary actions, alerts or data visualizations. Avoid adding color to "spice things up" as this will detract from blah blah blah.
 <div class="rs-row">
   {%for color_hash in site.data.colors-alert%}
     {%assign color2=color_hash[1]%}
@@ -49,7 +49,7 @@ category: Visuals
 </div>
 
 <h1 class="ws-section-head">Greyscale</h1>
-<p>These colors are used largely for background blocks and large content areas. Be sure to use enough contrast between adjacent colors.</p>
+<p class="ws-first-p">These colors are used largely for background blocks and large content areas. Be sure to use enough contrast between adjacent colors.</p>
 
 <div class="rs-row-collapse">
   <div class="span-4 color-chip" style="background-color: #FFFFFF; color: #757575;">
@@ -124,7 +124,6 @@ category: Visuals
     bottom: 8px;
     left: 8px;
   }
-
 
   .ws-top-swatch div:first-of-type{
     top: 8px;

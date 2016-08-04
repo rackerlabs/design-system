@@ -6,6 +6,7 @@ category: Visuals
 
 
 <h1 class="ws-section-head">Icon Font</h1>
+<p class="ws-first-p">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
 	{% assign iconCount = 1 %}
 	{%for icon_hash in site.data.icons%}
 		{%assign icon=icon_hash[1]%}
@@ -30,11 +31,12 @@ category: Visuals
 
 <style type="text/css">
 	.ws-icon-row{
-		padding-bottom: 32px;
+		padding-bottom: 40px;
 	}
 
 	.ws-icon-row:last-child{
 		padding-bottom: 0px;
+		background-color: red;
 	}
 
 	.ws-icon-chip{
