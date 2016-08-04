@@ -19,8 +19,8 @@ category: Visuals
 				  	<span class="ws-icon-chip-text">{{icon.id}}</span>
 				</div>
 				<div class="span-1"></div>
-		{% iconCount = iconCount | plus: 1%}
-		{% if iconCount == 3 %}
+		{% assign iconCount = iconCount | plus: 1%}
+		{% if iconCount == 4 %}
 			</div>
 			{% assign iconCount = 1 %}
 		{% endif %}
@@ -29,8 +29,15 @@ category: Visuals
 
 
 <style type="text/css">
-	.ws-icon-chip{
+	.ws-icon-row{
 		padding-bottom: 32px;
+	}
+
+	.ws-icon-row:last-child{
+		padding-bottom: 0px;
+	}
+
+	.ws-icon-chip{
 	}
 
 	.ws-icon-chip-icon{
