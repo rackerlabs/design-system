@@ -19,27 +19,54 @@ TOOLTIP
     }
 }
 
+.arrow_box:after {
+  border-color: rgba(255, 255, 255, 0);
+  border-bottom-color: #fff;
+  border-width: 8px;
+  margin-left: -8px;
+}
+.arrow_box:before {
+  border-color: rgba(0, 0, 0, 0);
+  border-bottom-color: #000;
+  border-width: 9px;
+  margin-left: -9px;
+}
+
 .ds-tooltip-inner {
     font-family:$base-font-family;
     padding: $paddingS $paddingM;
     z-index: $zindexTooltip;
-    background-color: $grey800;
-    color: $grey0;
-    border: none;
-    border-radius:$paddingS;
-    -webkit-font-smoothing: antialiased;
-    -moz-font-smoothing: antialiased;
-    -o-font-smoothing: antialiased;
+    background-color: $grey25;
+    border:1px solid $grey300;
+    border-radius:2px;
 
-    &:after {
-      content: "";
-      position: absolute;
+    &:after,  
+    &:before{
       bottom: 100%;
+      bottom: -webkit-calc(100% - 1px);
+      bottom: -moz-calc(100% - 1px);
+      bottom: calc(100% - 1px);
       left: 28px;
-      margin-left: -8px;
+      border: solid transparent;
+      content: " ";
+      height: 0;
+      width: 0;
+      position: absolute;
+      pointer-events: none;
+    }
+
+    &:after{
+      border-color: rgba(255, 255, 255, 0);
+      border-bottom-color: $grey25;
       border-width: 8px;
-      border-style: solid;
-      border-color: transparent transparent $grey800 transparent;
+      margin-left: -8px;
+    }
+
+    &:before{
+      border-color: rgba(255, 255, 255, 0);
+      border-bottom-color: $grey300;
+      border-width: 9px;
+      margin-left: -9px;
     }
 }
 
