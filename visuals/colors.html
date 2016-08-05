@@ -1,333 +1,161 @@
 ---
-title: Color
+title: Color Palette
 layout: website/default
-author: Elizabeth Grothues
 category: Visuals
 ---
 
-
-<h2>Alert Colors</h2>
-
-<h3>Red</h3>
-<div class="rs-row color-page">
-  <div class="span-12 color-chip primary-color-chip color-chip-light" style="background-color: #F44336;">
-    <span>Red - Primary</span>
-    <span>#F44336</span>
-  </div>
-</div>
-<div class="rs-row-collapse">
-  <div class="span-3 color-chip-alert" style="background-color: #ffcdd2;">
-    <span>Red - 100</span>
-    <span>#ffcdd2</span>
-  </div>
-  <div class="span-3 color-chip-alert color-chip-light" style="background-color: #F44336;">
-    <span>Red - 500</span>
-    <span>#F44336</span>
-  </div>
-  <div class="span-3 color-chip-alert color-chip-light" style="background-color: #d32F2F;">
-    <span>Red - 700</span>
-    <span>#d32F2F</span>
-  </div>
-  <div class="span-3 color-chip-alert color-chip-light" style="background-color: #eb4d5c;">
-    <span>Red - Accent</span>
-    <span>#eb4d5c</span>
-  </div>
-</div>
-
-<br>
-
-<h3>Gold</h3>
+<h1 class="ws-section-head">Primary Colors</h1>
+<p>Primary colors should be used sparingly for primary and secondary actions, alerts or data visualizations. Avoid adding color to "spice things up" as this will detract from blah blah blah.
 <div class="rs-row">
-  <div class="span-12 color-chip primary-color-chip" style="background-color: #FFEB3B;">
-    <span>Gold - Primary</span>
-    <span>#FFEB3B</span>
-  </div>
+  {%for color_hash in site.data.colors%}
+    {%assign color=color_hash[1]%}
+    <div class="span-1of5">
+      {%for value_hash in color.colors%}
+      {%assign value=value_hash[1]%}
+      <div class="ws-{{value.class}}-swatch" style="background-color:{{value.value}}">
+        {%if forloop.first == true%}
+        <div class="ws-color-name">{{color.name}}</div>
+        {%endif%}
+        <div class="ws-{{value.type}}-type">
+          {{value.number}}<br>
+          <span class="ws-smaller-color-type">{{value.value}}</span>
+        </div>
+      </div>
+      {%endfor%}
+    </div>
+  {%endfor%}
 </div>
+
+<h1 class="ws-section-head">Alert Colors</h1>
+<p>Primary colors should be used sparingly for primary and secondary actions, alerts or data visualizations. Avoid adding color to "spice things up" as this will detract from blah blah blah.
 <div class="rs-row-collapse">
-  <div class="span-3 color-chip-alert" style="background-color: #FFF9C4;">
-    <span>Gold - 100</span>
-    <span>#FFF9C4</span>
-  </div>
-  <div class="span-3 color-chip-alert" style="background-color: #FFEB3B;">
-    <span>Gold - 500</span>
-    <span>#FFEB3B</span>
-  </div>
-  <div class="span-3 color-chip-alert" style="background-color: #FBC02D;">
-    <span>Gold - 700</span>
-    <span>#FBC02D</span>
-  </div>
-  <div class="span-3 color-chip-alert" style="background-color: #FFD600;">
-    <span>Gold - Accent</span>
-    <span>#FFD600</span>
-  </div>
+  {%for color_hash in site.data.colors-alert%}
+    {%assign color2=color_hash[1]%}
+    <div class="span-1of5">
+      {%for value_hash in color2.colors%}
+      {%assign value2=value_hash[1]%}
+      <div class="ws-{{value2.class}}-swatch" style="background-color:{{value2.value}}">
+        {%if forloop.first == true%}
+        <div class="ws-color-name">{{color2.name}}</div>
+        {%endif%}
+        <div class="ws-{{value2.type}}-type">
+          {{value2.number}}<br>
+          <span class="ws-smaller-color-type">{{value2.value}}</span>
+        </div>
+      </div>
+      {%endfor%}
+    </div>
+  {%endfor%}
 </div>
 
-<br>
-
-<h3>Green</h3>
-<div class="rs-row">
-  <div class="span-12 color-chip primary-color-chip color-chip-light" style="background-color: #4caf51;">
-    <span>Green - Primary</span>
-    <span>#4caf51</span>
-  </div>
-</div>
-<div class="rs-row-collapse">
-  <div class="span-3 color-chip-alert" style="background-color: #c8e6c9;">
-    <span>Green - 100</span>
-    <span>#c8e6c9</span>
-  </div>
-  <div class="span-3 color-chip-alert color-chip-light" style="background-color: #4caf51;">
-    <span>Green - 500</span>
-    <span>#4caf51</span>
-  </div>
-  <div class="span-3 color-chip-alert color-chip-light" style="background-color: #2e7d32;">
-    <span>Green - 700</span>
-    <span>#2e7d32</span>
-  </div>
-  <div class="span-3 color-chip-alert color-chip-light" style="background-color: #43b947;">
-    <span>Green - Accent</span>
-    <span>#43b947</span>
-  </div>
-</div>
-
-<br>
-<br>
-<br>
-
-<h2>Action Color Options and Other Colors</h2>
-<h3>Blue</h3>
-<div class="rs-row">
-  <div class="span-12 color-chip primary-color-chip color-chip-light" style="background-color: #0d74d1;">
-    <span>Blue - Primary</span>
-    <span>#0d74d1</span>
-  </div>
-</div>
-<div class="rs-row-collapse">
-  <div class="span-1of5 color-chip" style="background-color: #bbdefb;">
-    <span>Blue - 100</span>
-    <span>#bbdefb</span>
-  </div>
-  <div class="span-1of5 color-chip color-chip-light" style="background-color: #3391ff;">
-    <span>Blue - 500</span>
-    <span>#3391ff</span>
-  </div>
-  <div class="span-1of5 color-chip color-chip-light" style="background-color: #0d74d1;">
-    <span>Blue - 700</span>
-    <span>#0d74d1</span>
-  </div>
-  <div class="span-1of5 color-chip color-chip-light" style="background-color: #0d47a1;">
-    <span>Blue - 900</span>
-    <span>#0d47a1</span>
-  </div>
-  <div class="span-1of5 color-chip color-chip-light" style="background-color: #00bdff;">
-    <span>Blue - Accent</span>
-    <span>#00bdff</span>
-  </div>
-</div>
-
-<br>
-
-<h3>Cyan</h3>
-<div class="rs-row">
-  <div class="span-12 color-chip primary-color-chip color-chip-light" style="background-color: #16B9D4;">
-    <span>Cyan - Primary</span>
-    <span>#16B9D4</span>
-  </div>
-</div>
-<div class="rs-row-collapse">
-  <div class="span-1of5 color-chip" style="background-color: #B2EBF2;">
-    <span>Cyan - 100</span>
-    <span>#e4f9f9</span>
-  </div>
-  <div class="span-1of5 color-chip color-chip-light" style="background-color: #16B9D4;">
-    <span>Cyan - 500</span>
-    <span>#16B9D4</span>
-  </div>
-  <div class="span-1of5 color-chip color-chip-light" style="background-color: #0E94A6;">
-    <span>Cyan - 700</span>
-    <span>#0E94A6</span>
-  </div>
-  <div class="span-1of5 color-chip color-chip-light" style="background-color: #0C7C84;">
-    <span>Cyan - 900</span>
-    <span>#0C7C84</span>
-  </div>
-  <div class="span-1of5 color-chip" style="background-color: #18FFFF;">
-    <span>Cyan - Accent</span>
-    <span>#18FFFF</span>
-  </div>
-</div>
-
-<br>
-
-<h3>Purple</h3>
-<div class="rs-row">
-  <div class="span-12 color-chip primary-color-chip color-chip-light" style="background-color: #3b44a9;">
-    <span>Purple - Primary</span>
-    <span>#3b44a9</span>
-  </div>
-</div>
-<div class="rs-row-collapse">
-  <div class="span-1of5 color-chip color-chip-light" style="background-color: #4a5acc;">
-    <span>Purple - 100</span>
-    <span>#4a5acc</span>
-  </div>
-  <div class="span-1of5 color-chip color-chip-light" style="background-color: #3b44a9;">
-    <span>Purple - 500</span>
-    <span>#3b44a9</span>
-  </div>
-  <div class="span-1of5 color-chip color-chip-light" style="background-color: #2E3187;">
-    <span>Purple - 700</span>
-    <span>#2E3187</span>
-  </div>
-  <div class="span-1of5 color-chip color-chip-light" style="background-color: #232968;">
-    <span>Purple - 900</span>
-    <span>#232968</span>
-  </div>
-  <div class="span-1of5 color-chip color-chip-light" style="background-color: #5a74f2;">
-    <span>Purple - Accent</span>
-    <span>#5a74f2</span>
-  </div>
-</div>
-
-<br>
-
-<h3>Magenta</h3>
-<div class="rs-row">
-  <div class="span-12 color-chip primary-color-chip color-chip-light" style="background-color: #EC407A;">
-    <span>Magenta - Primary</span>
-    <span>#EC407A</span>
-  </div>
-</div>
-<div class="rs-row-collapse">
-  <div class="span-1of5 color-chip" style="background-color: #F8BBD0;">
-    <span>Magenta - 100</span>
-    <span>#F8BBD0</span>
-  </div>
-  <div class="span-1of5 color-chip color-chip-light" style="background-color: #EC407A;">
-    <span>Magenta - 500</span>
-    <span>#EC407A</span>
-  </div>
-  <div class="span-1of5 color-chip color-chip-light" style="background-color: #C2185B;">
-    <span>Magenta - 700</span>
-    <span>#C2185B</span>
-  </div>
-  <div class="span-1of5 color-chip color-chip-light" style="background-color: #A5134E;">
-    <span>Magenta - 900</span>
-    <span>#A5134E</span>
-  </div>
-  <div class="span-1of5 color-chip color-chip-light" style="background-color: #FF4081;">
-    <span>Magenta - Accent</span>
-    <span>#FF4081</span>
-  </div>
-</div>
-
-<br>
-
-<h3>Orange</h3>
-<div class="rs-row">
-  <div class="span-12 color-chip primary-color-chip color-chip-light" style="background-color: #f57c00;">
-    <span>Orange - Primary</span>
-    <span>#f57c00</span>
-  </div>
-</div>
-<div class="rs-row-collapse">
-  <div class="span-1of5 color-chip" style="background-color: #fdd179;">
-    <span>Orange - 100</span>
-    <span>#fdd179</span>
-  </div>
-  <div class="span-1of5 color-chip color-chip-light" style="background-color: #f57c00;">
-    <span>Orange - 500</span>
-    <span>#f57c00</span>
-  </div>
-  <div class="span-1of5 color-chip color-chip-light" style="background-color: #DD6105;">
-    <span>Orange - 700</span>
-    <span>#DD6105</span>
-  </div>
-  <div class="span-1of5 color-chip color-chip-light" style="background-color: #C15206;">
-    <span>Orange - 900</span>
-    <span>#C15206</span>
-  </div>
-  <div class="span-1of5 color-chip color-chip-light" style="background-color: #FF6D00;">
-    <span>Orange - Accent</span>
-    <span>#FF6D00</span>
-  </div>
-</div>
-
-<br>
-<br>
-<br>
-
-<h2>Greyscale</h2>
+<h1 class="ws-section-head">Greyscale</h1>
+<p>These colors are used largely for background blocks and large content areas. Be sure to use enough contrast between adjacent colors.</p>
 
 <div class="rs-row-collapse">
-  <div class="span-1of5 color-chip" style="background-color: #FFFFFF;">
-    <span>Grey - 0</span>
-    <span>#FFFFFF</span>
+  <div class="span-4 color-chip" style="background-color: #FFFFFF; color: #757575;">
+    <span>Grey 700 on Grey 0</span>
+    <span>4.6 : 1</span>
   </div>
-  <div class="span-1of5 color-chip" style="background-color: #FAFAFA;">
-    <span>Grey - 25</span>
-    <span>#FAFAFA</span>
+  <div class="span-4 color-chip" style="background-color: #FAFAFA; color:#616161;">
+    <span>Grey 800 on Grey 25</span>
+    <span>5.9 : 1</span>
   </div>
-  <div class="span-1of5 color-chip" style="background-color: #f5f5f5;">
-    <span>Grey - 50</span>
-    <span>#f5f5f5</span>
+  <div class="span-4 color-chip" style="background-color: #f5f5f5;color:#616161;">
+    <span>Grey 800 on Grey 50</span>
+    <span>5.7 : 1</span>
   </div>
-  <div class="span-1of5 color-chip" style="background-color: #EEEEEE;">
-    <span>Grey - 100</span>
-    <span>#EEEEEE;</span>
+  <div class="span-4 color-chip" style="background-color: #EEEEEE; color:#616161;">
+    <span>Grey 800 on Grey 100</span>
+    <span>5.3 : 1</span>
   </div>
-  <div class="span-1of5 color-chip" style="background-color: #e7e7e7;">
-    <span>Grey - 200</span>
-    <span>#e7e7e7</span>
+  <div class="span-4 color-chip" style="background-color: #e7e7e7; color:#616161;">
+    <span>Grey 800 on Grey 200</span>
+    <span>5.0 : 1</span>
   </div>
-</div>
-<div class="rs-row-collapse">
-  <div class="span-1of5 color-chip" style="background-color: #e0e0e0;">
-    <span>Grey - 300</span>
-    <span>#e0e0e0</span>
+  <div class="span-4 color-chip" style="background-color: #e0e0e0; color:#616161;">
+    <span>Grey 800 on Grey 300</span>
+    <span>4.7 : 1</span>
   </div>
-  <div class="span-1of5 color-chip" style="background-color: #d8d8d8;">
-    <span>Grey - 400</span>
-    <span>#d8d8d8</span>
+  <div class="span-4 color-chip" style="background-color: #d8d8d8; color:#424242;">
+    <span>Grey 900 on Grey 400</span>
+    <span>7.1 : 1</span>
   </div>
-  <div class="span-1of5 color-chip" style="background-color: #BDBDBD;">
-    <span>Grey - 500</span>
-    <span>#BDBDBD</span>
+  <div class="span-4 color-chip" style="background-color: #BDBDBD; color:#424242;">
+    <span>Grey 900 on Grey 500</span>
+    <span>5.4 : 1</span>
   </div>
-  <div class="span-1of5 color-chip" style="background-color: #9E9E9E;">
-    <span>Grey - 600</span>
-    <span>#9E9E9E</span>
+  <div class="span-4 color-chip" style="background-color: #9E9E9E; color:#333333;">
+    <span>Grey 950 on Grey 600</span>
+    <span>4.7 : 1</span>
   </div>
-  <div class="span-1of5 color-chip color-chip-light" style="background-color: #757575;">
-    <span>Grey - 700</span>
-    <span>#757575</span>
+  <div class="span-4 color-chip" style="background-color: #757575; color: #000000;">
+    <span>Grey 1000 on Grey 700</span>
+    <span>4.6 : 1</span>
   </div>
-</div>
-<div class="rs-row-collapse">
-  <div class="span-1of5 color-chip color-chip-light" style="background-color: #616161;">
-    <span>Grey - 800</span>
-    <span>#616161</span>
+  <div class="span-4 color-chip" style="background-color: #616161; color: #e0e0e0;">
+    <span>Grey 300 on Grey 800</span>
+    <span>4.7 : 1</span>
   </div>
-  <div class="span-1of5 color-chip color-chip-light" style="background-color: #424242;">
-    <span>Grey - 900</span>
-    <span>#424242</span>
+  <div class="span-4 color-chip" style="background-color: #424242; color: #bdbdbd;">
+    <span>Grey 500 on Grey 900</span>
+    <span>5.4 : 1</span>
   </div>
-  <div class="span-1of5 color-chip color-chip-light" style="background-color: #333333;">
-    <span>Grey - 950</span>
-    <span>#333333</span>
+  <div class="span-4 color-chip" style="background-color: #333333; color: #9e9e9e;">
+    <span>Grey 600 on Grey 950</span>
+    <span>4.7 : 1</span>
   </div>
-  <div class="span-1of5 color-chip color-chip-light" style="background-color: #212121;">
-    <span>Grey - 975</span>
-    <span>#212121</span>
+  <div class="span-4 color-chip" style="background-color: #212121; color: #9e9e9e;">
+    <span>Grey 600 on Grey 975</span>
+    <span>6.0 : 1</span>
   </div>
-  <div class="span-1of5 color-chip color-chip-light" style="background-color: #000000;">
-    <span>Grey - 1000</span>
-    <span>#000000</span>
+  <div class="span-4 color-chip" style="background-color: #000000; color: #757575;">
+    <span>Grey 700 on Grey 1000</span>
+    <span>4.6 : 1</span>
   </div>
 </div>
 
 <style type="text/css">
-  .rs-row-collapse .span-1of5 {
-    width: 20%;
+  .ws-top-swatch{
+    height: 140px;
+    position: relative;
   }
+
+  .ws-top-swatch div{
+    position: absolute;
+    bottom: 8px;
+    left: 8px;
+  }
+
+  .ws-top-swatch div:first-of-type{
+    top: 8px;
+  }
+
+  .ws-lesser-swatch{
+    padding: 8px 0;
+
+  }
+
+  .ws-lesser-swatch div{
+    padding-left: 8px;
+  }
+
+  .ws-light-type, .ws-color-name{
+    color:#fff;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+  }
+
+  .ws-color-name{
+    font-weight: 500;
+  }
+
+  .ws-smaller-color-type{
+    font-size: 14px;
+  }
+
+  .ws-dark-type{
+    color:#616161;
+  }
+
 </style>

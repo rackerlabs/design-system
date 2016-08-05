@@ -6,8 +6,6 @@ input::-moz-focus-inner {
 }
 
 .ds-btn, .ds-btn-med, .ds-btn-sm, .ds-btn-sec, .ds-btn-med-sec, .ds-btn-sm-sec{
-  padding: 0 14px;
-  margin: 0 10px 10px 0;
   color: $grey0;
   font-family: $base-font-family;
   font-size: $base-font-size;
@@ -47,6 +45,12 @@ input::-moz-focus-inner {
     cursor:not-allowed;
   }
 
+  &.default{
+    background: $action700;
+    border: 1px solid $action700;
+    outline:none;
+  }
+
 }
 
 .ds-btn-med, .ds-btn-med-sec{
@@ -81,6 +85,13 @@ input::-moz-focus-inner {
     border: 1px solid $action900;
     outline:none;
   }
+
+    &.default{
+    background: $grey0;
+    border: 1px solid $action700;
+    color:$action700;
+    outline:none;
+  }
 }
 
 a {
@@ -94,11 +105,10 @@ a {
     text-decoration:underline;
     }
 
-  &:visited,
-  &.visited,
   &:active,
   &.active {
     color: $action900;
+    text-decoration:underline;
   }
 
   &.disabled {

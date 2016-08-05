@@ -1,0 +1,115 @@
+ 1:
+  name: "Cyan"
+  colors:
+   A:
+    number: 900
+    value: "#0C7C84"
+    class: "top"
+    type: "light"
+   B:
+    number: 700
+    value: "#0E94A6"
+    class: "lesser"
+    type: "light"
+   C:
+    number: 500
+    value: "#16B9D4"
+    class: "lesser"
+    type: "light"
+   D:
+    number: 100
+    value: "#B5E2EB"
+    class: "lesser"
+    type: "dark"
+ 2:
+  name: "Blue"
+  colors:
+   A:
+    number: 900
+    value: "#0D47A1"
+    class: "top"
+    type: "light"
+   B:
+    number: 700
+    value: "#0D74D1"
+    class: "lesser"
+    type: "light"
+   C:
+    number: 500
+    value: "#3391FF"
+    class: "lesser"
+    type: "light"
+   D:
+    number: 100
+    value: "#BBDEFB"
+    class: "lesser"
+    type: "dark"
+ 3:
+  name: "Magenta"
+  colors:
+   A:
+    number: 900
+    value: "#A5134E"
+    class: "top"
+    type: "light"
+   B:
+    number: 700
+    value: "#C2185B"
+    class: "lesser"
+    type: "light"
+   C:
+    number: 500
+    value: "#EC407A"
+    class: "lesser"
+    type: "light"
+   D:
+    number: 100
+    value: "#F8BBD0"
+    class: "lesser"
+    type: "dark"
+ 4:
+  name: "Purple"
+  colors:
+   A:
+    number: 900
+    value: "#232968"
+    class: "top"
+    type: "light"
+   B:
+    number: 700
+    value: "#2E3187"
+    class: "lesser"
+    type: "light"
+   C:
+    number: 500
+    value: "#3B44A9"
+    class: "lesser"
+    type: "light"
+   D:
+    number: 100
+    value: "#4A5ACC"
+    class: "lesser"
+    type: "light"
+ 5:
+  name: "Orange"
+  colors:
+   A:
+    number: 900
+    value: "#C15206"
+    class: "top"
+    type: "light"
+   B:
+    number: 700
+    value: "#DD6105"
+    class: "lesser"
+    type: "light"
+   C:
+    number: 500
+    value: "#F57C00"
+    class: "lesser"
+    type: "light"
+   D:
+    number: 100
+    value: "#FDD179"
+    class: "lesser"
+    type: "dark"
