@@ -19,22 +19,9 @@ TOOLTIP
     }
 }
 
-.arrow_box:after {
-  border-color: rgba(255, 255, 255, 0);
-  border-bottom-color: #fff;
-  border-width: 8px;
-  margin-left: -8px;
-}
-.arrow_box:before {
-  border-color: rgba(0, 0, 0, 0);
-  border-bottom-color: #000;
-  border-width: 9px;
-  margin-left: -9px;
-}
-
 .ds-tooltip-inner {
     font-family:$base-font-family;
-    padding: $paddingS $paddingM;
+    padding: 24px;
     z-index: $zindexTooltip;
     background-color: $grey25;
     border:1px solid $grey300;
@@ -46,7 +33,7 @@ TOOLTIP
       bottom: -webkit-calc(100% - 1px);
       bottom: -moz-calc(100% - 1px);
       bottom: calc(100% - 1px);
-      left: 28px;
+      left: 26px;
       border: solid transparent;
       content: " ";
       height: 0;
@@ -100,31 +87,35 @@ BEACON
   box-shadow:0px 0px 2px 2px $grey500;
   -webkit-transform:translateX(-50%) translateY(-50%);
   cursor:pointer;
+
+  &:before{
+    position:absolute;
+    content:"";
+    height:14px;
+    width:14px;
+    left:0;
+    top:0;
+    background-color:transparent;
+    border: 1px solid #fff;
+    border-radius:50%;
+    box-shadow:0px 0px 1px 1px $grey900;
+    -webkit-animation:active 2s infinite linear;
+    animation:active 2s infinite linear;
+  }
 }
 
 .ds-beacon-cyan{
-  background-color:$cyan100; 
-  box-shadow:0px 0px 2px 2px $cyan500;
+  box-shadow:0px 0px 2px 2px $cyan900;
+  &:before{
+    box-shadow:0px 0px 1px 1px $cyan900;
+  }
 }
 
 .ds-beacon-orange{
-  background-color:$orange100; 
-  box-shadow:0px 0px 2px 2px $orange500;
-}
-
-.ds-beacon:before, .ds-beacon-cyan:before, .ds-beacon-orange:before{
-  position:absolute;
-  content:"";
-  height:14px;
-  width:14px;
-  left:0;
-  top:0;
-  background-color:transparent;
-  border: 1px solid #fff;
-  border-radius:50%;
-  box-shadow:0px 0px 1px 1px $grey900;
-  -webkit-animation:active 2s infinite linear;
-  animation:active 2s infinite linear;
+  box-shadow:0px 0px 2px 2px $orange900;
+  &:before{
+    box-shadow:0px 0px 1px 1px $orange900;
+  }
 }
 
 @-webkit-keyframes active{
@@ -155,10 +146,44 @@ BEACON
   }
 }
 
-.ds-beacon-cyan:before{
-  box-shadow:0px 0px 1px 1px $cyan900;
+.ds-tooltip-h3{
+  margin:0;
+  padding:0;
+  margin-bottom:24px;
+
 }
 
-.ds-beacon-orange:before{
-  box-shadow:0px 0px 1px 1px $orange900;
+.ds-tooltip-p{
+  margin:0;
+  padding:0;
+}
+
+.ds-btn-group-tooltip{
+  margin:0;
+  padding:0;
+  text-align:right;
+  margin-top:24px;
+}
+
+.ds-btn-group-tooltip .ds-btn-sm-sec{
+  margin-left:$paddingM;
+}
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+HACKS - EVENTUALLY FIX THIS OR REMOVE
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.temp-beacon .ds-tooltip-inner{
+  top: 100%;
+  top: -webkit-calc(100% - 1px);
+  top: -moz-calc(100% - 1px);
+  top: calc(100% - 1px);
+  left: 26px;
+}
+
+.temp-beacon-last .ds-tooltip-inner{
+  top: 100%;
+  top: -webkit-calc(100% - 1px);
+  top: -moz-calc(100% - 1px);
+  top: calc(100% - 1px);
+  right: 26px;
 }
