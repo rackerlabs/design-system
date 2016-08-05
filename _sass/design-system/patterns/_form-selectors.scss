@@ -465,7 +465,7 @@ $select-height: 40px;
   }
 }
 
-/* iCheck plugin flat skin, black
+/* iCheck plugin
 ----------------------------------- */
 .icheckbox,
 .iradio {
@@ -474,13 +474,19 @@ $select-height: 40px;
     vertical-align: middle;
     margin: 0;
     padding: 0;
-    width: 20px;
-    height: 20px;
-    background: url(flat.png) no-repeat;
     border: none;
     cursor: pointer;
     float: left;
     clear: both;
+    font-family: 'DS_icon_font' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .icheck label {
@@ -488,40 +494,49 @@ $select-height: 40px;
   margin-left: 16px;
 }
 
-.icheckbox {
-    background-position: 0 0;
+.icheck label.selector, .icheck label.selectorDisabled {
+  line-height: inherit;
 }
-    .icheckbox.checked {
-        background-position: -22px 0;
+
+.icheckbox:before {
+    content: "\e906";
+}
+    .icheckbox.checked:before {
+        content: "\e905";
     }
-    .icheckbox.disabled {
-        background-position: -44px 0;
-        cursor: default;
+    .icheckbox.disabled:before {
+        content: "\e906";
     }
-    .icheckbox.checked.disabled {
-        background-position: -66px 0;
+    .icheckbox.checked.disabled:before {
+        content: "\e905";
     }
 
-.iradio {
-    background-position: -88px 0;
+.iradio:before {
+    content: "\e913";
 }
-    .iradio.checked {
-        background-position: -110px 0;
+    .iradio.checked:before {
+        content: "\e912";
     }
-    .iradio.disabled {
-        background-position: -132px 0;
-        cursor: default;
+    .iradio.disabled:before {
+        content: "\e913";
     }
-    .iradio.checked.disabled {
-        background-position: -154px 0;
+    .iradio.checked.disabled:before {
+        content: "\e912";
     }
 
-/* HiDPI support */
-@media (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi), (min-resolution: 1.25dppx) {
-    .icheckbox,
-    .iradio {
-        background-image: url(flat@2x.png);
-        -webkit-background-size: 176px 22px;
-        background-size: 176px 22px;
-    }
+.checked:before {
+  color: $cyan;
 }
+
+.disabled, .disabled:before, .checked.disabled, .checked.disabled:before {
+  color:$grey700;
+}
+
+.error .iradio:before, .error .icheckbox:before, .error .checked:before {
+  color: $red;
+}
+
+.icheck .focus {
+  outline: 2px solid $blue100;
+}
+
