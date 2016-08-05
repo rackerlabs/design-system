@@ -1,24 +1,185 @@
+$grey0: #ffffff;
+$grey25: #fafafa;
+$grey50: #f5f5f5;
+$grey100: #eeeeee;
+$grey200: #e7e7e7;
+$grey300: #e0e0e0;
+$grey400: #d8d8d8;
+$grey500: #bdbdbd;
+$grey600: #9e9e9e;
+$grey700: #757575;
+$grey800: #616161;
+$grey900: #424242;
+$grey950: #333333;
+$grey975: #212121;
+$grey1000: #000000;
+
+$blue:#0d74d1;
+$blue100:#bbdefb;
+$blue500:#3391ff;
+$blue700:#0d74d1;
+$blue900:#0d47a1;
+$blueAccent:#00bdff;
+
+$cyan:#16b9df;
+$cyan100:#e4f9f9;
+$cyan500:#16b9d4;
+$cyan700:#0e94a6;
+$cyan900:#0c7481;
+$cyanAccent:#18ffff;
+
+$purple:#3b44a9;
+$purple100:#4a5acc;
+$purple500:#3b44a9;
+$purple700:#2e3187;
+$purple900:#232968;
+$purpleAccent:#5a74f2;
+
+$magenta:#ec407a;
+$magenta100:#f8bbd0;
+$magenta500:#ec407a;
+$magenta700:#c2185b;
+$magenta900:#a5134e;
+$magentaAccent:#ff4081;
+
+$orange:#f57c00;
+$orange100:#fdd179;
+$orange500:#f57c00;
+$orange700:#dd6105;
+$orange900:#c15206;
+$orangeAccent:#ff6d00;
+
+$red:#f44336;
+$red100:#ffcdd2;
+$red500:#f44336;
+$red700:#d32f2f;
+$redAccent:#ec515f;
+
+$gold:#ffeb3b;
+$gold100:#fff9c4;
+$gold500:#ffeb3b;
+$gold700:#fbc02d;
+$goldAccent:#ffd600;
+
+$green:#4caf51;
+$green100:#c8e6c9;
+$green500:#4caf51;
+$green700:#2e7d32;
+$greenAccent:#43b947;
+
+$textcolordark:#333333;
+$textcolorlight:#ffffff;
+
+
+// Base
+
+$base-font-family: "Roboto", Helvetica, Arial, sans-serif;
+$alt-font-family: "Roboto", Helvetica, Arial, sans-serif;
+$base-font-size: 1em;
+$base-line-height: 1.5;
+$heading-line-height: 1;
+$font-size-1:.75em;//12px
+$font-size-2:.813em;//13
+$font-size-3:.875em;//14
+$font-size-4:1.25em;//20
+$font-size-5:1.5em;//24
+$font-size-6:2em;//32
+$font-size-7:3em;//48
+
+// Padding
+$paddingXS:4px;
+$paddingS:8px;
+$paddingM:12px;
+$paddingL:20px;
+$paddingXL:28px;
+$paddingXXL:32px;
+
+// The Grid
+$cols4:400px;
+
+// Defaults
+// default col total
+$total-columns: 12;
+// width of each column
+$column-width: 75px;
+// space between columns
+$gutter-width: 0px;
+// space on the right and left of the grid
+$grid-padding: 20px;
+// alternative layout breakpoints
+
+// Adds mixin support for IE8
+$legacy-support-for-ie  : false;
+$legacy-support-for-ie8 : true;
+
+// Container Type
+$container-style: fluid;
+
+// Breakpoints
+$small: 767px;
+$small-padding: 20px;
+$medium: 1030px;
+$medium-padding: 30px;
+$large: 1600px;
+$large-padding: 40px;
+$xlarge: 1920px;
+$xlarge-padding: 60px;
+
+
+// Layout
+
+$app-nav-primary-height: 74px;
+$app-nav-secondary-height: 35px;
+$app-nav-utility-height: 40px;
+$app-header-height: $app-nav-primary-height + $app-nav-utility-height;
+$app-footer-height: 35px;
+$nav-branding-width: 132px;
+
+// Patterns
+
+$nav-primary-link: #888;
+$nav-primary-link-hover: $grey600;
+$nav-primary-link-active: $red;
+
+// Z-index
+$zindexModal: 1230;
+$zindexModalOverlay: 1220;
+$zindexTooltip: 1210;
+$zindexMenu: 1200;
+$zindexNavUtility: 1120;
+$zindexNavPrimary: 1110;
+$zindexNavSecondary: 1100;
+$zindexPopovers: 1000;
+
 /**
  * Site header
  */
 .site-header {
     display: block;
-    background-color: #fafafa;
-    height: 8em;
-    max-width: 17em;
-    img {
-        padding: 3em 2.5em;
-        width: 10em;
+    background-color: $grey1000;
+    padding: 6px 32px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    a {
+        float: left;
+        width: 240px;
+        img {
+            width: 8em;
+        }
+        div {
+            float: left;
+        }
     }
 }
 
 
 nav {
+    position: fixed;
+    top: 40px;
     float: left;
     line-height: 1.5em;
-    position: fixed;
-    top: 0em;
-    max-width: 17em;
     width: 17em;
     height: 100%;
     overflow-x: hidden;
@@ -28,28 +189,15 @@ nav {
     moz-box-shadow: 0px 5px 6px 1px rgba(102,102,102,.25);
     box-shadow: 0px 5px 6px 1px rgba(102,102,102,.25);
     z-index: 2;
-    background-color: #fafafa;
+    background-color: $grey975;
+    padding-top: 40px;
     .inactive {
-    display: none;
+        display: none;
     }
     .active {
-    display:block;
+        display:block;
         li {
-        
         }
-    }
-    .copyright {
-        position: absolute;
-        bottom: 1em;
-        width: 17em;
-        width: 17em;
-        padding: 1.1em 2.5em;
-        color: $grey-color;
-        font-size: 0.75em;
-        text-align:center;
-        margin: auto;
-        z-index: 2;
-        margin-bottom: 1em;
     }
     ul {
         list-style-type: none;
@@ -57,53 +205,50 @@ nav {
 
         li {
             ul {
-                -moz-box-shadow:    inset  0  8px 8px -8px rgba(102,102,102,.25), 
-                                    inset  0 -8px 8px -8px rgba(102,102,102,.25);
-                -webkit-box-shadow: inset  0  8px 8px -8px rgba(102,102,102,.25), 
-                                    inset  0 -8px 8px -8px rgba(102,102,102,.25);
-                 box-shadow:        inset  0  8px 8px -8px rgba(102,102,102,.25), 
-                                    inset  0 -8px 8px -8px rgba(102,102,102,.25);
                 a {
-                    padding: 1.25em 3.8em; 
-                    line-height: 0.5em;
                     .active {
-                        background-color: lighten($brand-color, 40%);
                         transition: all 1s ease;
                     }
                 }
             }
             a {
                 .active {
-                    background-color: lighten($brand-color, 40%);
+                    background-color: $grey800;
                 }
-                color: $brand-color;
+                color: $grey400 !important;
                 position: relative;
                 display: block;
-                padding: 1.1em 2.5em;
+                padding: 8px 32px;
                 letter-spacing: 0.05em;
                 &:hover {
                     cursor: pointer;
                 }
                 &:hover {
-                    background-color: lighten($brand-color, 50%);
+                    background-color: $grey800;
                     text-decoration: none;
-                    color: $brand-color;
                 }
                 &:not(.nested) {
                     &:after {
-                        content: "\f0da";
-                        font-family: FontAwesome;
+                        content: "\e900";
+                        font-family: 'DS_icon_font' !important;
+                        speak: none;
                         font-style: normal;
                         font-weight: normal;
+                        font-variant: normal;
+                        text-transform: none;
+                        line-height: 1;
+                        -webkit-font-smoothing: antialiased;
+                        -moz-osx-font-smoothing: grayscale;
                         text-decoration: inherit;
-                        color: lighten($grey-color, 30%);
+                        color: $grey400;
                         font-size: $base-font-size;
                         padding-right: 2em;
                         position: absolute;
-                        top: 16px;
+                        top: 33%;
                         right: 0;
+                        font-size: 12px;
                         .active {
-                            content: "\f0d7";
+                            content: "\e903";
                         }
                     }
                 }
@@ -140,6 +285,10 @@ nav {
     }
 }
 
+body {
+    background: #fff !important;
+}
+
 
 /**
  * Post page content
@@ -148,18 +297,16 @@ nav {
     position: relative;
     float: right;
     width: calc(100% - 17em);
-    background-color: #f9f9f9;
+    top: 40px;
 
     .page-heading {
         font-size: 3em;
         font-weight:100;
         color: #424242;
-        background-color:white;
         padding: 40px 28px;
     }
 
     .page-content {
-        background-color: #ffffff;
         padding: 0 28px 40px 28px;
         overflowY: scroll;
         box-sizing: border-box;
@@ -191,17 +338,18 @@ nav {
  * Footer content
  */
 .site-footer {
-    margin-top: $spacing-unit * 2;
-    padding: ($spacing-unit * 1) ($spacing-unit * 2);
-    background-color: #95a5a6;
+    clear: both;
+    padding: 8px;
+    background-color: $grey1000;
     text-align: center;
     color: #ffffff;
+    font-size: .75em;
+    line-height: 1;
     p {
-        font-size: 0.84em;
+        font-size: 10px;
         margin: 0;
-        font-decoration: italic;
-        padding-top: $spacing-unit / 5;
         color: #ffffff;
+        padding: 4px 0;
     }
     span {
         &:first-of-type {
