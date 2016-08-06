@@ -2,7 +2,7 @@ var attachTipTimer;
 var removeTipTimer;
 var hideTipTimeout = 1500;
 var toolTipPointerHeight = 8;
-var tooltipPointerWidth = 15;
+var tooltipPointerWidth = 14;
 var toolTipPointerSpace = 20;
 
 var removeTooltips = function() {
@@ -44,7 +44,7 @@ var attachTooltip = function(params) {
 			}
 
 			if(newLeft + tooltipWidth > screenWidth) {
-				newLeft = params.left - tooltipWidth + toolTipPointerSpace + (tooltipPointerWidth/2) + (params.jqObj.width()/2);
+				newLeft = params.left - tooltipWidth + toolTipPointerSpace + (tooltipPointerWidth/2) + (params.jqObj.width()/2) - 2;
 				tooltipArrowClass += '-right';
 			} else {
 				tooltipArrowClass += '-left';
