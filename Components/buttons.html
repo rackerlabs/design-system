@@ -7,49 +7,116 @@ category: Components
 
 <!-- DEFAULT BUTTONS -->
 <!-- Button Tag -->
-<h1 >Primary Buttons</h1>
-<div class="ds-btn-group">
-  <button class="ds-btn">Default Large</button>
-  <button class="ds-btn active">Active Large</button>
-  <button class="ds-btn disabled">Disabled Large</button>
-  <button class="ds-btn hover">Hover Large</button>
+<h1 class="ws-section-head">Primary Buttons</h1>
+<p class="ws-first-p">Use the primary action button to prompt the user to take action. In most instances, use the standard size button. Use the compact buttons with space constraints such as within a table. Large buttons should be used in mobile designs to accommodate the ideal touch target size. Use one primary button per page.</p>
+<div class="ws-btn-group-size">
+  <div class="ws-btn-group">
+    <button class="ds-btn">Button Text</button>
+    <span class="subtext">Large</span>
+  </div>
+  <div class="ws-btn-group">
+    <button class="ds-btn-med">Button Text</button>
+    <span class="subtext">Standard</span>
+  </div>
+  <div class="ws-btn-group">
+    <button class="ds-btn-sm">Button Text</button>
+    <span class="subtext">Compact</span>
+  </div>
 </div>
-<div class="ds-btn-group">
-  <button class="ds-btn-med">Default Medium</button>
-  <button class="ds-btn-med active">Active Medium</button>
-  <button class="ds-btn-med disabled">Disabled Medium</button>
-  <button class="ds-btn-med hover">Hover Medium</button>
+<h3 class="ws-btn-h3">Actions</h3>
+<div class="ws-btn-group-actions">
+  <div class="ws-btn-group">
+    <button class="ds-btn-med default">Button Text</button>
+    <span class="subtext">Default (700)</span>
+  </div>
+  <div class="ws-btn-group">
+    <button class="ds-btn-med hover">Button Text</button>
+    <span class="subtext">Hover (500)</span>
+  </div>
+  <div class="ws-btn-group">
+    <button class="ds-btn-med active">Button Text</button>
+    <span class="subtext">Pressed (900)</span>
+  </div>
+  <div class="ws-btn-group">
+    <button class="ds-btn-med disabled">Button Text</button>
+    <span class="subtext">Disabled (300)</span>
+  </div>  
 </div>
-<div class="ds-btn-group">
-  <button class="ds-btn-sm">Default Small</button>
-  <button class="ds-btn-sm active">Active Small</button>
-  <button class="ds-btn-sm disabled">Disabled Small</button>
-  <button class="ds-btn-sm hover">Hover Small</button>
+
+<h1 class="ws-section-head">Secondary Buttons</h1>
+<p class="ws-first-p">The secondary button can be used in conjuction with the primary button or when there are multiple buttons on the same screen. The same sizing rules apply to both secondary and primary buttons.</p>
+<div class="ws-btn-group-size">
+  <div class="ws-btn-group">
+    <button class="ds-btn-sec">Button Text</button>
+    <span class="subtext">Large</span>
+  </div>
+  <div class="ws-btn-group">
+    <button class="ds-btn-med-sec">Button Text</button>
+    <span class="subtext">Standard</span>
+  </div>
+  <div class="ws-btn-group">
+    <button class="ds-btn-sm-sec">Button Text</button>
+    <span class="subtext">Compact</span>
+  </div>
 </div>
-<h1 style="padding-top:40px">Secondary Buttons</h1>
-<div class="ds-btn-group">
-  <button class="ds-btn-sec">Default Large</button>
-  <button class="ds-btn active">Active Large</button>
-  <button class="ds-btn disabled">Disabled Large</button>
-  <button class="ds-btn hover">Hover Large</button>
+<h3 class="ws-btn-h3">Actions</h3>
+<div class="ws-btn-group-actions">
+  <div class="ws-btn-group">
+    <button class="ds-btn-med-sec default">Button Text</button>
+    <span class="subtext">Default (700)</span>
+  </div>
+  <div class="ws-btn-group">
+    <button class="ds-btn-med hover">Button Text</button>
+    <span class="subtext">Hover (500)</span>
+  </div>
+  <div class="ws-btn-group">
+    <button class="ds-btn-med active">Button Text</button>
+    <span class="subtext">Pressed (900)</span>
+  </div>
+  <div class="ws-btn-group">
+    <button class="ds-btn-med disabled">Button Text</button>
+    <span class="subtext">Disabled (300)</span>
+  </div>
 </div>
-<div class="ds-btn-group">
-  <button class="ds-btn-med-sec">Default Medium</button>
-  <button class="ds-btn-med active">Active Medium</button>
-  <button class="ds-btn-med disabled">Disabled Medium</button>
-  <button class="ds-btn-med hover">Hover Medium</button>
-</div>
-<div class="ds-btn-group">
-  <button class="ds-btn-sm-sec">Default Small</button>
-  <button class="ds-btn-sm active">Active Small</button>
-  <button class="ds-btn-sm disabled">Disabled Small</button>
-  <button class="ds-btn-sm hover">Hover Small</button>
-</div>
+
 <!-- Anchor Tag -->
-<h1 style="padding-top:40px">Links</h1>
-<div class="ds-btn-group">
+<h1 class="ws-section-head">Links and Tertiary Buttons</h1>
+<p class="ws-first-p">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+<div class="ws-btn-group">
   <a >Default</a>
-  <a class="visited">Visited</a>
-  <a class="disabled">Disabled</a>
   <a class="hover">Hover</a>
+  <a class="active">Pressed</a>
+  <a class="disabled">Disabled</a>
 </div>
+
+<style type = "text/css" scoped>
+  .ws-btn-group-size{
+  }
+
+  .ws-btn-group{
+    display: inline-block;
+    vertical-align: bottom;
+  }
+
+  .ws-btn-group .subtext{
+    display: block;
+    text-align: center;
+    padding-top: 8px;
+  }
+
+  .ws-btn-group-size .ws-btn-group, .ws-btn-group a{
+    padding-right: 40px;
+  }
+
+  .ws-btn-group-actions .ws-btn-group{
+    padding-right: 24px;
+  }
+
+  .ws-btn-group button{
+    margin: 0;
+  }
+
+  .ws-btn-h3{
+    padding: 32px 0 24px 0; 
+  }
+</style>
