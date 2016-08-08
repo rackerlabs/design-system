@@ -94,3 +94,58 @@ ul {
 		}
 	}
 }
+/**
+* Component Status Tag
+*/
+$grey300: #e0e0e0;
+$purple:#3b44a9;
+$green:#4caf51;
+$paddingXS:4px;
+$paddingS:8px;
+$paddingM:12px;
+$paddingL:20px;
+$paddingXL:28px;
+$paddingXXL:32px;
+
+.status {
+	background-color: $grey300;
+    padding: $paddingXS $paddingS;
+    border-radius: 12px;
+    font-size: 10px;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    color: #fff;
+    vertical-align: middle;
+    white-space: nowrap;
+    margin-left: 2em;
+}
+
+.prototype {
+	background-color: $purple;
+}
+
+.dev-ready {
+	background-color: $green;
+}
+
+/**
+* Font Teaser Page Styles
+*/
+.font-tease {
+	p {
+		display: block;
+		font-size: 48px;
+		margin-bottom: 0;
+		color: #64B967;
+	}
+	span {
+		display: block;
+		font-size: 120px;
+		line-height: 0.75em;
+		color: #C26AAC;
+		&::first-letter {
+			color: #ffffff;
+			text-shadow: -1px 0 #C26AAC, 0 1px #C26AAC, 1px 0 #C26AAC, 0 -1px #C26AAC;
+		}
+	}
+}
