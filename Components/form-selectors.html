@@ -5,8 +5,9 @@ author: Elizabeth Grothues
 category: Components
 ---
 
-<h1>Radio Buttons</h1>
+<h1>Radio Buttons<span class="status prototype">Prototype: In Progress</span></h1>
 <p>Use when selecting a <b>single item</b> from a set if it&#8217;s important for the user to see all options at once. If viewing items side-by-side isn&#8217;t important, consider a selector, which uses less space.</p>
+
 <h2>Enabled</h2>
 <fieldset class="icheck">
     <legend><span class="requiredInput">*</span> Select your options </legend>
@@ -19,28 +20,18 @@ category: Components
 </fieldset>
 
 <h2>Disabled</h2>
-	<div class="formGroup doc">
-		<div class="formLabel group"><span class="requiredInput">*</span> Select your options</div>
-		<div class="formComponant">
-			<div class="selectorItem"><input type="radio" name="access2" value="MyRackspace" disabled="disabled" checked class="selectorDisabled"><label for="c1" class="selectorDisabled">Option 1</label></div>
-			<div class="selectorItem"><input type="radio" name="access2" value="MyRackspace" disabled="disabled" class="selectorDisabled"><label for="c1" class="selectorDisabled">Option 2</label></div>
-			<div class="selectorItem last"><input type="radio" name="access2" value="MyRackspace" disabled="disabled" class="selectorDisabled"><label for="c1" class="selectorDisabled">Option 3</label></div>
-		</div>
-	</div>
-
-<h2>Disabled</h2>
-<fieldset class="formGroup icheck">
+<fieldset class="icheck">
     <legend><span class="requiredInput">*</span> Select your options </legend>
-    <input type="radio" name="radio-2" id="radio-1" disabled="disabled" checked class="selectorDisabled">
+    <input type="radio" name="radio-2" id="radio-1" disabled="disabled" checked>
     <label for="radio-1" class="selectorDisabled">Option 1</label>
-    <input type="radio" name="radio-2" id="radio-2" disabled="disabled" class="selectorDisabled">
+    <input type="radio" name="radio-2" id="radio-2" disabled="disabled">
     <label for="radio-2" class="selectorDisabled">Option 2</label>
-    <input type="radio" name="radio-2" id="radio-3" disabled="disabled" class="selectorDisabled">
-    <label for="radio-3">Option 3</label>  
+    <input type="radio" name="radio-2" id="radio-3" disabled="disabled">
+    <label for="radio-3" class="selectorDisabled">Option 3</label>  
 </fieldset>
 
 <h2>Error</h2>
-<fieldset class="icheck selectorError">
+<fieldset class="icheck error">
     <legend><span class="requiredInput">*</span> Select your options </legend>
     <input type="radio" name="radio-3" id="radio-1">
     <label for="radio-1">Option 1</label>
@@ -49,8 +40,9 @@ category: Components
     <input type="radio" name="radio-3" id="radio-3">
     <label for="radio-3">Option 3</label>  
 </fieldset>
+<p class="subtext error">There is an error with the response to this question.</p>
 
-<h1 style="padding-top:20px; margin-top:60px; border-top:1px solid #d8d8d8;">Radio Button Button-Group Alternate</h1>
+<h1 style="padding-top:20px; margin-top:60px; border-top:1px solid #d8d8d8;">Radio Button Button-Group Alternate<span class="status prototype">Prototype: In Progress</span></h1>
 <h2>Enabled</h2>
 	<div class="formGroup doc">
 		<div class="formLabel group"><span class="requiredInput">*</span> Select a maintenance day</div>
@@ -90,39 +82,42 @@ category: Components
 		<span class="subtext error">There is an error with the response to this question.</span>
 	</div>
 
-<h1 style="padding-top:20px; margin-top:60px; border-top:1px solid #d8d8d8;">Checkboxes</h1>
+<h1 style="padding-top:20px; margin-top:60px; border-top:1px solid #d8d8d8;">Checkboxes<span class="status prototype">Prototype: In Progress</span></h1>
 <h2>Enabled</h2>
-	<div class="formGroup doc">
-		<div class="formLabel group"><span class="requiredInput">*</span> Select your options</div>
-		<div class="formComponant">
-			<div class="selectorItem"><input type="checkbox" name="access" value="MyRackspace" checked><label for="c1" class="selector">Option 1<br><span class="subtext optiongroup">Here is some additional help text to explain this option.</span></label></div>
-			<div class="selectorItem"><input type="checkbox" name="access" value="MyRackspace" ><label for="c1" class="selector">Option 2</label></div>
-			<div class="selectorItem last"><input type="checkbox" name="access" value="MyRackspace" ><label for="c1" class="selector">Option 3</label></div>
-		</div>
-	</div>
+	<fieldset class="icheck">
+	    <legend><span class="requiredInput">*</span> Select your options </legend>
+	    <input type="checkbox" name="checkbox-1" id="checkbox-1">
+	    <label for="checkbox-1">Option 1</label>
+	    <input type="checkbox" name="checkbox-1" id="checkbox-2">
+	    <label for="checkbox-2">Option 2</label>
+	    <input type="checkbox" name="checkbox-1" id="checkbox-3">
+	    <label for="checkbox-3">Option 3</label>  
+	</fieldset>
 
 <h2>Disabled</h2>
-	<div class="formGroup doc">
-		<div class="formLabel group"><span class="requiredInput">*</span> Select your options</div>
-		<div class="formComponant">
-			<div class="selectorItem"><input type="checkbox" name="access" value="MyRackspace" disabled="disabled" checked class="selectorDisabled"><label for="c1" class="selectorDisabled">Option 1</label></div>
-			<div class="selectorItem"><input type="checkbox" name="access" value="MyRackspace" disabled="disabled" checked class="selectorDisabled"><label for="c1" class="selectorDisabled">Option 2</label></div>
-			<div class="selectorItem"><input type="checkbox" name="access" value="MyRackspace" disabled="disabled" class="selectorDisabled"><label for="c1" class="selectorDisabled">Option 3</label></div>
-		</div>
-	</div>
+	<fieldset class="icheck">
+	    <legend><span class="requiredInput">*</span> Select your options </legend>
+	    <input type="checkbox" name="checkbox-3" id="checkbox-1" disabled="disabled" checked>
+	    <label for="checkbox-1" class="disabled">Option 1</label>
+	    <input type="checkbox" name="checkbox-3" id="checkbox-2" disabled="disabled">
+	    <label for="checkbox-2" class="disabled">Option 2</label>
+	    <input type="checkbox" name="checkbox-3" id="checkbox-3" disabled="disabled">
+	    <label for="checkbox-3" class="disabled">Option 3</label>  
+	</fieldset>
 
 <h2>Error</h2>
-	<div class="formGroup doc">
-		<div class="formLabel group"><span class="requiredInput">*</span> Select your options</div>
-		<div class="formComponant">
-			<div class="selectorItem"><input type="checkbox" name="access" value="MyRackspace" class="selectorError" checked><label for="c1" ></span>Option 1</label></div>
-			<div class="selectorItem"><input type="checkbox" name="access" value="MyRackspace" class="selectorError"><label for="c1">Option 2</label></div>
-			<div class="selectorItem"><input type="checkbox" name="access" value="MyRackspace" class="selectorError"><label for="c1">Option 3</label></div>
-		</div>
-		<p class="subtext error">There is an error with the response to this question.</p>
-	</div>
+	<fieldset class="icheck error">
+	    <legend><span class="requiredInput">*</span> Select your options </legend>
+	    <input type="checkbox" name="checkbox-4" id="checkbox-1">
+	    <label for="checkbox-1">Option 1</label>
+	    <input type="checkbox" name="checkbox-4" id="checkbox-2">
+	    <label for="checkbox-2">Option 2</label>
+	    <input type="checkbox" name="checkbox-4" id="checkbox-3">
+	    <label for="checkbox-3">Option 3</label>  
+	</fieldset>
+	<p class="subtext error">There is an error with the response to this question.</p>
 
-<h1 style="padding-top:20px; margin-top:60px; border-top:1px solid #d8d8d8;">Checkbox Button-Group Alternate</h1>
+<h1 style="padding-top:20px; margin-top:60px; border-top:1px solid #d8d8d8;">Checkbox Button-Group Alternate<span class="status prototype">Prototype: In Progress</span></h1>
 <h2>Enabled</h2>
 	<div class="formGroup doc">
 		<div class="formLabel group"><span class="requiredInput">*</span> Select potential maintenance days</div>
@@ -162,7 +157,7 @@ category: Components
 		<span class="subtext error">There is an error with the response to this question.</span>
 	</div>
 
-<h1 style="padding-top:20px; margin-top:60px; border-top:1px solid #d8d8d8;">Simple Selector</h1>
+<h1 style="padding-top:20px; margin-top:60px; border-top:1px solid #d8d8d8;">Simple Selector<span class="status prototype">Prototype: In Progress</span></h1>
 	<div class="formGroup">
 		<div class="formLabel"><span class="requiredInput">*</span> Contact</div>
 		<div class="formComponant">
@@ -184,7 +179,7 @@ category: Components
 		</div>
 	</div>
 
-<h1 style="padding-top:20px; margin-top:60px; border-top:1px solid #d8d8d8;">Toggle</h1>
+<h1 style="padding-top:20px; margin-top:60px; border-top:1px solid #d8d8d8;">Toggle<span class="status prototype">Prototype: In Progress</span></h1>
 <h2>Enabled</h2>
 	<div class="formGroup doc">
 		<div class="formComponant altSelectorFormComponent">
@@ -209,7 +204,7 @@ category: Components
 		</div>
 	</div>
 
-<h1 style="padding-top:20px; margin-top:60px; border-top:1px solid #d8d8d8;">Switch</h1> 
+<h1 style="padding-top:20px; margin-top:60px; border-top:1px solid #d8d8d8;">Switch<span class="status prototype">Prototype: In Progress</span></h1> 
 <h2>Enabled</h2>
 	<div class="formGroup switch">
 		<div class="formLabel switch">Without text</div>
