@@ -199,7 +199,7 @@ input.altSelectorErr[type=checkbox] + label:active,  input.altSelectorErr[type=c
 }
 
 input.altSelectorErr[type=checkbox] + label:active,  input.altSelectorErr[type=checkbox]:checked + label:active, input.altSelectorErr[type=radio] + label:active, input.altSelectorErr[type=radio]:checked + label:active{
-  background-color:$red700;
+  background-color:$red900;
   color:$grey0;
 }
 

@@ -6,7 +6,8 @@ category: Components
 ---
 <h1 class="ws-section-head">Text Field<span class="status prototype">Prototype: In Progress</span></h1>
 <div class="ws-section-con">
-	<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.</p>
+	<p style="padding-bottom:12px">Text fields are generally found in forms. The type of text field determines which characters are allowed within it. For example, a user shouldn't be able to enter a letter into a phone number field. When the user is entering a name or proper noun, the first letter should automatically be capitalized when typed.</p>
+	<p>If the content is longer than the width of the text field, automatically scroll the content left as the user continues to type. Consider using a text area if this is expected to happen frequently in a specific text field.</p>
 	<h3>Enabled</h3>
 	<div class="formGroup">
 		<div class="formLabel"><span class="requiredInput">*</span> Required field</div>
@@ -24,7 +25,7 @@ category: Components
 	<div class="formGroup">
 		<div class="formLabel">Prefix or suffix</div>
 		<div class="formComponant">
-			<span id="inputPrefix">$</span><input type="text" name="account"><span id="inputSuffix">GB</span>
+			<span id="inputPrefix">$</span><input type="text" name="account" id="setWidth"><span id="inputSuffix">GB</span>
 		</div>
 	</div>
 	<div class="formGroup">
@@ -101,7 +102,6 @@ category: Components
 
 <h1 class="ws-section-head">Textarea<span class="status prototype">Prototype: In Progress</span></h1>
 <div class="ws-section-con">
-	<p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.</p>
 	<h3>Enabled</h3>
 	<div class="formGroup">
 		<div class="formLabel">My textarea</div>
