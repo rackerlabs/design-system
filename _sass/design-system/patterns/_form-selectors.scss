@@ -135,7 +135,7 @@ input.altSelector[type=checkbox]:checked + label,  input.altSelector[type=radio]
 }
 
 input.altSelector[type=checkbox] + label:hover,  input.altSelector[type=radio] + label:hover,  input.altSelector[type=checkbox] + label:focus, input.altSelector[type=radio] + label:focus{
-  background-color:$action100;
+  background-color:$cyan50;
   color:$action900;
 }
 
