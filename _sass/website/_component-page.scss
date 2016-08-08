@@ -111,13 +111,14 @@ $paddingXXL:32px;
 	background-color: $grey300;
     padding: $paddingXS $paddingS;
     border-radius: 12px;
-    font-size: 10px;
-    letter-spacing: .5px;
-    text-transform: uppercase;
+    font-weight:400;
+  	font-size:12px;
+  	letter-spacing:0.5px;
     color: #fff;
-    vertical-align: middle;
+    vertical-align: 4px;
     white-space: nowrap;
     margin-left: 2em;
+    display:inline-block;
 }
 
 .prototype {
