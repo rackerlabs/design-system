@@ -47,6 +47,12 @@ input::-moz-focus-inner {
     cursor:not-allowed;
   }
 
+  &.default{
+    background: $action700;
+    border: 1px solid $action700;
+    outline:none;
+  }
+
 }
 
 .ds-btn-med, .ds-btn-med-sec{
@@ -81,6 +87,13 @@ input::-moz-focus-inner {
     border: 1px solid $action900;
     outline:none;
   }
+
+    &.default{
+    background: $grey0;
+    border: 1px solid $action700;
+    color:$action700;
+    outline:none;
+  }
 }
 
 a {
@@ -99,6 +112,7 @@ a {
   &:active,
   &.active {
     color: $action900;
+    text-decoration:underline;
   }
 
   &.disabled {

@@ -9,7 +9,11 @@ TOOLTIP
 .ds-tooltip {
     position: absolute;
     max-width: 440px;
-    
+    z-index: $zindexTooltip;
+    border: 1px solid $grey300;
+    background-color: $grey25;
+    border-radius:2px;
+
     &.invisible {
       visibility: hidden;
     }
@@ -19,31 +23,66 @@ TOOLTIP
     }
 }
 
-.ds-tooltip-inner {
-    font-family:$base-font-family;
-    padding: $paddingS $paddingM;
-    z-index: $zindexTooltip;
-    background-color: $grey800;
-    color: $grey0;
-    border: none;
-    border-radius:$paddingS;
-    -webkit-font-smoothing: antialiased;
-    -moz-font-smoothing: antialiased;
-    -o-font-smoothing: antialiased;
-
-    &:after {
-      content: "";
-      position: absolute;
-      bottom: 100%;
-      left: 28px;
-      margin-left: -8px;
-      border-width: 8px;
-      border-style: solid;
-      border-color: transparent transparent $grey800 transparent;
-    }
+.ds-tooltip-arrow {
+  border: solid transparent;
+  height: 10px;
+  width: 10px;
+  transform: rotate(45deg);
+  position: absolute;
+  background-color: $grey25;
+  position: absolute;
+  border: 1px solid $grey300;
 }
 
-.icon-help {
+.ds-tooltip-arrow-top-left {
+  top: -6px;
+  left: 20px;
+}
+
+.ds-tooltip-arrow-top-right {
+  top: -6px;
+  right: 20px;
+}
+
+.ds-tooltip-arrow-right-top {
+  right: -6px;
+  top: 20px;
+}
+
+.ds-tooltip-arrow-right-bottom {
+  right: -6px;
+  bottom: 20px;
+}
+
+.ds-tooltip-arrow-bottom-right {
+  bottom: -6px;
+  right: 20px;
+}
+
+.ds-tooltip-arrow-bottom-left {
+  bottom: -6px;
+  left: 20px;
+}
+
+.ds-tooltip-arrow-left-bottom {
+  left: -6px;
+  bottom: 20px;
+}
+
+.ds-tooltip-arrow-left-top {
+  left: -6px;
+  top: 20px;
+}
+
+.ds-tooltip-inner {
+    font-family:$base-font-family;
+    padding: 24px;
+    background-color: $grey25;
+    position: relative;
+    border-radius:2px;
+}
+
+.ds-icon-help {
   color:$cyan700;
   font-size:16px;
   vertical-align:-1px;
@@ -73,31 +112,35 @@ BEACON
   box-shadow:0px 0px 2px 2px $grey500;
   -webkit-transform:translateX(-50%) translateY(-50%);
   cursor:pointer;
+
+  &:before{
+    position:absolute;
+    content:"";
+    height:14px;
+    width:14px;
+    left:0;
+    top:0;
+    background-color:transparent;
+    border: 1px solid #fff;
+    border-radius:50%;
+    box-shadow:0px 0px 1px 1px $grey900;
+    -webkit-animation:active 2s infinite linear;
+    animation:active 2s infinite linear;
+  }
 }
 
 .ds-beacon-cyan{
-  background-color:$cyan100; 
-  box-shadow:0px 0px 2px 2px $cyan500;
+  box-shadow:0px 0px 2px 2px $cyan900;
+  &:before{
+    box-shadow:0px 0px 1px 1px $cyan900;
+  }
 }
 
 .ds-beacon-orange{
-  background-color:$orange100; 
-  box-shadow:0px 0px 2px 2px $orange500;
-}
-
-.ds-beacon:before, .ds-beacon-cyan:before, .ds-beacon-orange:before{
-  position:absolute;
-  content:"";
-  height:14px;
-  width:14px;
-  left:0;
-  top:0;
-  background-color:transparent;
-  border: 1px solid #fff;
-  border-radius:50%;
-  box-shadow:0px 0px 1px 1px $grey900;
-  -webkit-animation:active 2s infinite linear;
-  animation:active 2s infinite linear;
+  box-shadow:0px 0px 2px 2px $orange900;
+  &:before{
+    box-shadow:0px 0px 1px 1px $orange900;
+  }
 }
 
 @-webkit-keyframes active{
@@ -128,10 +171,44 @@ BEACON
   }
 }
 
-.ds-beacon-cyan:before{
-  box-shadow:0px 0px 1px 1px $cyan900;
+.ds-tooltip-h3{
+  margin:0;
+  padding:0;
+  margin-bottom:24px;
+
 }
 
-.ds-beacon-orange:before{
-  box-shadow:0px 0px 1px 1px $orange900;
+.ds-tooltip-p{
+  margin:0;
+  padding:0;
+}
+
+.ds-btn-group-tooltip{
+  margin:0;
+  padding:0;
+  text-align:right;
+  margin-top:24px;
+}
+
+.ds-btn-group-tooltip .ds-btn-sm-sec{
+  margin-left:$paddingM;
+}
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+HACKS - EVENTUALLY FIX THIS OR REMOVE
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.temp-beacon .ds-tooltip-inner{
+  top: 100%;
+  top: -webkit-calc(100% - 1px);
+  top: -moz-calc(100% - 1px);
+  top: calc(100% - 1px);
+  left: 26px;
+}
+
+.temp-beacon-last .ds-tooltip-inner{
+  top: 100%;
+  top: -webkit-calc(100% - 1px);
+  top: -moz-calc(100% - 1px);
+  top: calc(100% - 1px);
+  right: 26px;
 }
