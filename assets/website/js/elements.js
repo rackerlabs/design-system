@@ -7,9 +7,9 @@ $(document).ready(function() {
         var text_length = $('#textarea').val().length;
         var text_remaining = text_max - text_length;
         if(text_remaining<10){
-        	$('#textarea_feedback').html('<span style="color:#F44336">' + text_remaining + '</span> characters remaining');
+        	$('#textarea_feedback').html('<span style="color:#F44336">' + text_remaining + '</span>/'+text_max+' characters remaining');
         }else{
-        	$('#textarea_feedback').html(text_remaining + ' characters remaining');
+        	$('#textarea_feedback').html(text_remaining + '/'+text_max+' characters remaining');
         }
     });
 
@@ -17,7 +17,6 @@ $(document).ready(function() {
     var prefix_width = $('#inputPrefix').width()+5;
     var suffix_width = $('#inputSuffix').width()+5;
     var subtract_width = prefix_width + suffix_width;
-
     $('#setWidth').width(400-subtract_width);
 
     $('#contact').selectmenu();
