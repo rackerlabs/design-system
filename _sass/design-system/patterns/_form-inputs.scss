@@ -11,12 +11,13 @@ input[type="text"],input[type="password"],input[type="email"],input[type="search
   border-radius: 2px;
   padding:0 $paddingS;
   height:30px;
-  width: 100%;
-  max-width: 6*$fluidGridColumnWidth;
+  width:400px;
+  //width: 100%;
+  //max-width: 6*$fluidGridColumnWidth;
   margin:0;
-  @include max-screen($small){
+  /*@include max-screen($small){
       max-width:none;
-    }
+    }*/
 
   &:focus,
   &.focus {
@@ -33,13 +34,21 @@ input[type="text"],input[type="password"],input[type="email"],input[type="search
   }
 
   &.textInputError{
-  	border: 2px solid $red;
+  	border: 2px solid $red700;
+  }
+
+  &.textInputError:focus{
+    border: 2px solid $action500;
   }
 }
 
 textarea{
   padding:$paddingXS $paddingS;
   vertical-align: top;
+}
+
+.form-subtext.error{
+  color:$red700;
 }
 
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -51,12 +60,13 @@ COUNTDOWN FORMATTING
 .form-subtext.countdown{
   text-align:right;
   margin-top:0;
-  width: 100%;
-  max-width: 6*$fluidGridColumnWidth;
+  width:418px;
+  //width: 100%;
+  //max-width: 6*$fluidGridColumnWidth;
   margin:0;
-  @include max-screen($small){
+  /*@include max-screen($small){
       max-width:none;
-    }
+    }*/
 }
 
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -134,11 +144,11 @@ ICONS IN MARGIN AFTER INPUT
   padding-left:4px;
 
   &:hover{
-    color:$red500;
+    color:$red700;
   }
 
   &:active{
-    color:$red700;
+    color:$red900;
   }
 }
 
@@ -154,5 +164,5 @@ ICONS IN MARGIN AFTER INPUT
 }
 
 .errorFormGroupIcon{
-  color:$red;
+  color:$red700;
 }

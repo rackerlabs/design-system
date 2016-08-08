@@ -123,4 +123,6 @@
 .icon-warning:before {
   content: "\e920";
 }
-
+.icon-check-mark:before {
+  content: "\e921";
+}

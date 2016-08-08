@@ -199,7 +199,7 @@ input.altSelectorErr[type=checkbox] + label:active,  input.altSelectorErr[type=c
 }
 
 input.altSelectorErr[type=checkbox] + label:active,  input.altSelectorErr[type=checkbox]:checked + label:active, input.altSelectorErr[type=radio] + label:active, input.altSelectorErr[type=radio]:checked + label:active{
-  background-color:$red700;
+  background-color:$red900;
   color:$grey0;
 }
 
@@ -465,7 +465,7 @@ $select-height: 40px;
   }
 }
 
-/* iCheck plugin flat skin, black
+/* iCheck plugin
 ----------------------------------- */
 .icheckbox,
 .iradio {
@@ -474,13 +474,19 @@ $select-height: 40px;
     vertical-align: middle;
     margin: 0;
     padding: 0;
-    width: 20px;
-    height: 20px;
-    background: url(flat.png) no-repeat;
     border: none;
     cursor: pointer;
     float: left;
     clear: both;
+    font-family: 'DS_icon_font' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .icheck label {
@@ -488,40 +494,117 @@ $select-height: 40px;
   margin-left: 16px;
 }
 
-.icheckbox {
-    background-position: 0 0;
+.icheck label.selector, .icheck label.selectorDisabled {
+  line-height: inherit;
 }
-    .icheckbox.checked {
-        background-position: -22px 0;
-    }
-    .icheckbox.disabled {
-        background-position: -44px 0;
-        cursor: default;
-    }
-    .icheckbox.checked.disabled {
-        background-position: -66px 0;
-    }
 
-.iradio {
-    background-position: -88px 0;
+.icheckbox:before {
+    content: "\e906";
 }
-    .iradio.checked {
-        background-position: -110px 0;
-    }
-    .iradio.disabled {
-        background-position: -132px 0;
-        cursor: default;
-    }
-    .iradio.checked.disabled {
-        background-position: -154px 0;
-    }
 
-/* HiDPI support */
-@media (-o-min-device-pixel-ratio: 5/4), (-webkit-min-device-pixel-ratio: 1.25), (min-resolution: 120dpi), (min-resolution: 1.25dppx) {
-    .icheckbox,
-    .iradio {
-        background-image: url(flat@2x.png);
-        -webkit-background-size: 176px 22px;
-        background-size: 176px 22px;
-    }
+.icheckbox.checked:before {
+    content: "\e905";
+}
+
+.icheckbox.disabled:before {
+    content: "\e906";
+}
+
+.icheckbox.checked.disabled:before {
+    content: "\e905";
+}
+
+.iradio:before {
+    content: "\e913";
+}
+
+.iradio.checked:before {
+    content: "\e912";
+}
+
+.iradio.disabled:before {
+    content: "\e913";
+}
+
+.iradio.checked.disabled:before {
+    content: "\e912";
+}
+
+.checked:before {
+  color: $cyan;
+}
+
+.disabled, .disabled:before, .checked.disabled, .checked.disabled:before {
+  color:$grey700;
+}
+
+.error .iradio:before, .error .icheckbox:before, .error .checked:before {
+  color: $red;
+}
+
+.icheck .focus {
+  outline: 2px solid $blue100;
+}
+
+.ui-selectmenu-button.ui-button, .ui-widget-content {
+  color: $grey800;
+}
+
+.ui-corner-all {
+  border-radius: 2px !important;
+}
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active,
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus, .ui-button:hover, .ui-button:focus, .ui-button:focus {
+  background: white;
+  border: 1px solid $grey500;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
+  background: $grey600;
+  border: 1px solid $grey600;
+}
+
+.ui-button .ui-icon, .ui-state-hover .ui-icon, .ui-state-focus .ui-icon, .ui-button:hover .ui-icon, .ui-button:focus .ui-icon, .ui-state-default .ui-icon {
+  background-image: none;
+  font-family: 'DS_icon_font' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-indent: 0;
+}
+
+.ui-icon-triangle-1-s:before {
+    color: $grey600;
+    content: "\e900";
+}
+
+.ui-widget.ui-widget-content {
+  background: $grey25;
+}
+
+.ui-menu .ui-menu-item-wrapper {
+  padding: 3px 1em 3px 1em;
+}
+
+.ui-state-active:before {
+    font-family: 'DS_icon_font' !important;
+    speak: none;
+    font-size: .75em;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #fff;
+    content: "\e921";
+    display: inline-block;
+    margin-right: .75em;
 }
