@@ -21,6 +21,24 @@ $(document).ready(function() {
 
     $('#contact').selectmenu();
 
+    $( function() {
+    var page = $( "#page" );
+ 
+    $( ".toolbar" ).controlgroup();
+    $( "#dropdown-btn" ).on( "selectmenuchange", function() {
+      page.css({ "dropdown-btn": $( this ).val() });
+    })
+    $( basicControls.concat( valueControls ).join( ", " ) ).on( "click change selectmenuchange",
+      function() {
+        document.execCommand(
+          this.id,
+          false,
+          $( this ).val()
+        );
+      } );
+
+    } );
+
     $('.icheck input').iCheck({
         checkboxClass: 'icheckbox',
         radioClass: 'iradio'

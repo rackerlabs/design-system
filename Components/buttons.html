@@ -43,6 +43,19 @@ category: Components
   </div>  
 </div>
 <h3 class="ws-btn-h3">Dropdown Button</h3>
+<div class="ws-btn-group-dropdown">
+  <div class="ws-btn-group">
+    <div class="toolbar">
+      <select id="dropdown-btn">
+        <option selected disabled>Button Text</option>
+        <option value="A">Example A</option>
+        <option value="B">Example B</option>
+        <option value="C">Example C</option>
+        <option value="D">Example D</option>
+      </select>
+    </div>
+  </div>
+</div>
 
 <h1 class="ws-section-head">Secondary Buttons<span class="status prototype">Prototype: In Progress</span></h1>
 <p class="ws-first-p">The secondary button can be used in conjuction with the primary button or when there are multiple buttons on the same screen. The same sizing rules apply to both secondary and primary buttons.</p>
@@ -80,6 +93,19 @@ category: Components
   </div>
 </div>
 <h3 class="ws-btn-h3">Dropdown Button</h3>
+<div class="ws-btn-group-dropdown">
+  <div class="ws-btn-group">
+    <div class="toolbar">
+      <select id="dropdown-btn-sec">
+        <option selected disabled>Button Text</option>
+        <option value="A">Example A</option>
+        <option value="B">Example B</option>
+        <option value="C">Example C</option>
+        <option value="D">Example D</option>
+      </select>
+    </div>
+  </div>
+</div>
 
 <!-- Anchor Tag -->
 <h1 class="ws-section-head">Links and Tertiary Buttons<span class="status prototype">Prototype: In Progress</span></h1>
@@ -121,4 +147,72 @@ category: Components
   .ws-btn-h3{
     padding: 32px 0 24px 0; 
   }
+
+  .ui-controlgroup-item {
+    text-transform: uppercase;
+    vertical-align: middle;
+    background: #0e94a6;
+    border: 1px solid #0e94a6;
+    padding: 0 10px;
+    font-size: 0.875em;
+    line-height: 28px;
+    outline: none;
+    width: auto !important;
+  }
+
+  .ui-selectmenu-button.ui-button, .ui-selectmenu-button-closed {
+    color: #fff;
+  }
+
+  .ui-selectmenu-icon.ui-icon {
+    font-size: .75em;
+    margin-top: 8px;
+    width: auto;
+    height: auto;
+  }
+
+  .ui-controlgroup-item .ui-icon-triangle-1-s:before {
+    color: #fff;
+    content: "\e919";
+  }
+
+  .ui-selectmenu-button:hover, .ui-selectmenu-button-open {
+    background: #fff;
+    border: 1px solid #0e94a6;
+    color: #0e94a6 !important;
+  }
+
+  .ui-selectmenu-button:hover .ui-icon-triangle-1-s:before, .ui-selectmenu-button-open .ui-icon-triangle-1-s:before{
+    color: #0e94a6;
+  }
+
+  .ui-menu .ui-menu-item-wrapper {
+    padding: 3px 14px;
+  }
+
+  #dropdown-btn-menu .ui-state-active:before, #dropdown-btn-sec-menu .ui-state-active:before {
+    display: none;
+  }
+
+  #dropdown-btn-sec-button {
+    background: #fff;
+  }
+
+  #dropdown-btn-sec-button.ui-selectmenu-button.ui-button, #dropdown-btn-sec-button.ui-selectmenu-button-closed {
+    color: #0e94a6;
+  }
+
+  #dropdown-btn-sec-button.ui-controlgroup-item .ui-icon-triangle-1-s:before {
+    color: #0e94a6;
+  }
+
+  #dropdown-btn-sec-button.ui-selectmenu-button.ui-button:hover, #dropdown-btn-sec-button.ui-selectmenu-button-open {
+    background: #0e94a6;
+    color: #fff !important;
+  }
+
+  #dropdown-btn-sec-button.ui-selectmenu-button:hover .ui-icon-triangle-1-s:before, #dropdown-btn-sec-button.ui-selectmenu-button-open .ui-icon-triangle-1-s:before{
+    color: #fff;
+  }
+
 </style>
