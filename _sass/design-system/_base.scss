@@ -92,8 +92,9 @@ h3{
   padding-bottom: $paddingL;
 }
 
-.formLabel{
+.formLabel, fieldset.icheck legend{
   font-size: $font-size-3;
+  font-weight: normal;
   padding-bottom: $paddingXS;
 }
 
@@ -116,11 +117,11 @@ h3{
   padding-top:$paddingXL;
 }
 
-.formComponant, .formGroup{
+.formComponant, .formGroup, fieldset{
   display:block;
   width:100%;
 }
 
-.formGroup{
+.formGroup, fieldset{
   padding-bottom:$paddingXL;
 }
