@@ -119,3 +119,89 @@ a {
   }
 }
 
+.ws-btn-group {
+
+  .ui-selectmenu-icon.ui-icon {
+    font-size: 10px;
+    margin-top: 8px;
+    width: auto;
+    height: auto;
+  }
+
+  .ui-controlgroup-item .ui-icon-triangle-1-s:before {
+    color: #fff;
+    content: "\e919";
+  }
+
+}
+
+.ui-menu .ui-menu-item-wrapper {
+  padding: 3px 14px;
+}
+
+#dropdown-btn-menu .ui-state-active:before, #dropdown-btn-sec-menu .ui-state-active:before {
+  display: none;
+}
+
+.ws-btn-group-dropdown {
+
+  .ui-controlgroup-item {
+      text-transform: uppercase;
+      vertical-align: middle;
+      background: #0e94a6;
+      border: 1px solid #0e94a6;
+      padding: 0 12px;
+      font-size: 0.875em;
+      line-height: 28px;
+      outline: none;
+      width: auto !important;
+    }
+
+    .ui-selectmenu-button.ui-button, .ui-selectmenu-button-closed {
+      color: #fff;
+    }
+    
+    .ui-selectmenu-button:hover, .ui-selectmenu-button-open {
+      background: #fff;
+      border: 1px solid #0e94a6;
+      color: #0e94a6 !important;
+    }
+
+    .ui-selectmenu-button:hover .ui-icon-triangle-1-s:before, .ui-selectmenu-button-open .ui-icon-triangle-1-s:before{
+      color: #0e94a6;
+    }
+
+  }
+
+  .ws-btn-group-dropdown-sec {
+    .ui-controlgroup-item {
+      text-transform: uppercase;
+      vertical-align: middle;
+      background: #fff;
+      border: 1px solid #0e94a6;
+      padding: 0 12px;
+      font-size: 0.875em;
+      line-height: 28px;
+      outline: none;
+      width: auto !important;
+    }
+    
+
+  }
+
+  #dropdown-btn-sec-button.ui-selectmenu-button.ui-button, #dropdown-btn-sec-button.ui-selectmenu-button-closed {
+    color: #0e94a6;
+  }
+
+  #dropdown-btn-sec-button.ui-controlgroup-item .ui-icon-triangle-1-s:before {
+    color: #0e94a6;
+  }
+
+  #dropdown-btn-sec-button.ui-selectmenu-button.ui-button:hover, #dropdown-btn-sec-button.ui-selectmenu-button-open {
+    background: #0e94a6;
+    color: #fff !important;
+  }
+
+  #dropdown-btn-sec-button.ui-selectmenu-button:hover .ui-icon-triangle-1-s:before, #dropdown-btn-sec-button.ui-selectmenu-button-open .ui-icon-triangle-1-s:before{
+    color: #fff;
+  }
