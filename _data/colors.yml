@@ -18,6 +18,11 @@
     type: "light"
    D:
     number: 100
+    value: "#B6E3EB"
+    class: "lesser"
+    type: "dark"
+   E:
+    number: 50
     value: "#E4F9F9"
     class: "lesser"
     type: "dark"
