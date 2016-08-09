@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_4" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 96 96" style="enable-background:new 0 0 96 96;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FAFAFA;}
+	.st1{fill:#E0E1E0;}
+	.st2{fill:#0F95A7;}
+	.st3{fill:none;}
+	.st4{fill:#434343;}
+	.st5{font-family:'Roboto-Regular';}
+	.st6{font-size:10px;}
+	.st7{font-family:'Roboto-Medium';}
+	.st8{font-size:12px;}
+</style>
+<g>
+	<polygon class="st0" points="1,95 1,24 21.2,24 26.6,18.5 31.9,24 95,24 95,95 	"/>
+	<path class="st1" d="M26.6,19.2l4.8,5.2l0.3,0.6h0.4H94v10.3v13.1V95H1V25h20h0.4l0.3-0.6L26.6,19.2 M26.6,18.3L21,24H0v72h95V48.4
+		V35.3V24H32.1L26.6,18.3L26.6,18.3z"/>
+</g>
+<g>
+	<path class="st2" d="M26.1,17.1c-4.4,0-8-3.6-8-8s3.6-8,8-8s8,3.6,8,8S30.6,17.1,26.1,17.1z M26.3,3.7c-1.7,0-3,0.7-3.9,2.2
+		c-0.1,0.1-0.1,0.3,0.1,0.4l1.4,1c0.1,0,0.1,0.1,0.2,0.1c0.1,0,0.2,0,0.3-0.1c0.5-0.6,0.7-0.8,0.9-1c0.2-0.1,0.5-0.2,0.9-0.2
+		c0.7,0,1.3,0.4,1.3,0.9c0,0.5-0.3,0.8-0.9,1.1c-0.7,0.3-1.8,1.2-1.8,2.2v0.4c0,0.2,0.1,0.3,0.3,0.3h2c0.2,0,0.3-0.1,0.3-0.3
+		c0-0.2,0.3-0.8,0.8-1c0.8-0.4,1.9-1.1,1.9-2.6C30.1,5.2,28.1,3.7,26.3,3.7z M27.5,12.1c0-0.2-0.1-0.3-0.3-0.3h-2
+		c-0.2,0-0.3,0.1-0.3,0.3v2c0,0.2,0.1,0.3,0.3,0.3h2c0.2,0,0.3-0.1,0.3-0.3V12.1z"/>
+</g>
+<rect x="8.8" y="55.6" class="st3" width="88.9" height="37.1"/>
+<text transform="matrix(1 0 0 1 8.7656 63.198)"><tspan x="0" y="0" class="st4 st5 st6">Actives when </tspan><tspan x="0" y="12" class="st4 st5 st6">hovered on with </tspan><tspan x="0" y="24" class="st4 st5 st6">mouse.</tspan></text>
+<text transform="matrix(1 0 0 1 8.7651 44.3906)" class="st4 st7 st8">Tooltip</text>
+</svg>
