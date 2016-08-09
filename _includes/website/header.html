@@ -10,11 +10,12 @@
         <ul {% if page.url contains foldername %} class="active" {% else %} class="inactive"  {% endif %} class>
           {% for page in site.pages %}
             {% if page.category == navItem | downcase %}
-            <li><a class="nested" href="{{site.baseurl}}{{page.url}}.html" {% if page.url contains {{page.title | downcase}} %} class="active"{% endif %}>{{page.title}}</a></li>
+            <li><a href="{{site.baseurl}}{{page.url}}.html" {% if page.url contains {{page.title | downcase}} %} class="active"{% endif %}>{{page.title}}</a></li>
             {% endif %}
           {% endfor %}
         </ul>
       </li>
     {% endfor %}
+
   </ul>
 </nav>

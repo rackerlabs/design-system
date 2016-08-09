@@ -204,13 +204,6 @@ nav {
         margin: 0 0;
 
         li {
-            ul {
-                a {
-                    .active {
-                        transition: all 1s ease;
-                    }
-                }
-            }
             a {
                 .active {
                     background-color: $grey800;
@@ -227,29 +220,37 @@ nav {
                     background-color: $grey800;
                     text-decoration: none;
                 }
-                &:not(.nested) {
+                &:after {
+                    content: "\e900";
+                    font-family: 'DS_icon_font' !important;
+                    speak: none;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-variant: normal;
+                    text-transform: none;
+                    line-height: 1;
+                    -webkit-font-smoothing: antialiased;
+                    -moz-osx-font-smoothing: grayscale;
+                    text-decoration: inherit;
+                    color: $grey400;
+                    font-size: $base-font-size;
+                    padding-right: 2em;
+                    position: absolute;
+                    top: 33%;
+                    right: 0;
+                    font-size: 12px;
+                    .active {
+                        content: "\e903";
+                    }
+                }
+            }
+            ul {
+                a {
+                    .active {
+                        transition: all 1s ease;
+                    }
                     &:after {
-                        content: "\e900";
-                        font-family: 'DS_icon_font' !important;
-                        speak: none;
-                        font-style: normal;
-                        font-weight: normal;
-                        font-variant: normal;
-                        text-transform: none;
-                        line-height: 1;
-                        -webkit-font-smoothing: antialiased;
-                        -moz-osx-font-smoothing: grayscale;
-                        text-decoration: inherit;
-                        color: $grey400;
-                        font-size: $base-font-size;
-                        padding-right: 2em;
-                        position: absolute;
-                        top: 33%;
-                        right: 0;
-                        font-size: 12px;
-                        .active {
-                            content: "\e903";
-                        }
+                        content: none;
                     }
                 }
             }
