@@ -8,10 +8,13 @@ layout: website/default
                 <div class="rs-row ws-overview-pg-row">
             {% endif %}
                     <div class="span-4">
-                    	<img class="ws-preview-image" {% if component.preview-image %} src='{{site.baseurl}}{{site.websiteAssets}}/img/{{component.preview-image}}' {% else %} src='{{site.baseurl}}{{site.websiteAssets}}/img/place-holder.svg' {% endif %}>
-                        <h1 class="ws-h1-component-page"><a href="{{site.baseurl}}{{component.url}}.html">{{component.title}}</a></h1>
-                        <p class="temp-remove-padding">{{component.usage}}</p>
+                        <div class="ws-sum-con">
+                        	<img class="ws-preview-image" {% if component.preview-image %} src='{{site.baseurl}}{{site.websiteAssets}}/img/{{component.preview-image}}' {% else %} src='{{site.baseurl}}{{site.websiteAssets}}/img/place-holder.svg' {% endif %}>
+                            <h1 class="ws-h1-component-page"><a href="{{site.baseurl}}{{component.url}}.html">{{component.title}}</a></h1>
+                            <p class="temp-remove-padding">{{component.usage}}</p>
+                        </div>
                     </div>
+            {% assign iconCount = iconCount | plus: 1%}
             {% if iconCount == 4 %}
                 </div>
                 {% assign iconCount = 1 %}
@@ -21,20 +24,29 @@ layout: website/default
 
 <style type = "text/css" scoped>
     .ws-overview-pg-row{
-        padding-bottom: 40px;
+        padding-bottom: 60px;
     }
 
     .ws-overview-pg-row:last-of-type{
-        padding-bottom: 0px;
+        padding-bottom: 60px;
+    }
+
+    .ws-sum-con{
+        padding: 0 20px;
     }
 
     .ws-preview-image{
-        width: 100%;
-        background-color:yellow;
+        display: inline-block;
+        text-align: center;
+        width: 40%;
+        height: 40%;
+        padding-left: 30%;
     }
 
     .ws-h1-component-page{
         padding: 20px 0px 12px 0;
+        font-weight: 400;
+        text-align: center;
     }
 
     .temp-remove-padding{

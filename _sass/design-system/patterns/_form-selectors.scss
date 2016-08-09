@@ -1,89 +1,4 @@
-/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-CHECKBOXES AND RADIO BUTTONS
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
-.subtext.optiongroup{
-  display:block;
-  margin-left:26px;
-  margin-top:1px;
-}
 
-label.selector, label.selectorDisabled{
-  line-height:16px;
-}
-
-.selectorItem{
-  margin-bottom:$paddingXS;
-}
-
-.selectorItem.last{
-  margin-bottom:0;
-}
-
-input[type=checkbox], input[type=radio] { 
-  /* to hide the checkbox itself */
-  opacity:0; 
-  cursor:pointer;
-  }
-
-/*RERENCING CUSTOM ICON FONT*/
-
-input[type=checkbox] + label:before, input[type=radio] + label:before {
-  font-family: icomoon;
-  display: inline-block;
-}
-
-/*CHECKBOX ICONS*/
-
-input[type=checkbox] + label:before { 
-  /* unchecked icon */
-  content: "\e902"; 
-}
-
-input[type=checkbox]:checked + label:before { 
-  /* checked icon */
-  content: "\e903"; 
-  color:$action500;
-  } 
-
-/*RADIO BUTTON ICONS*/
-
-input[type=radio] + label:before { 
-  /* unchecked icon */
-  content: "\e901";
-}
-
-input[type=radio]:checked + label:before { 
-  /* checked icon */
-  content: "\e900"; 
-  color:$action500;
-  } 
-
-/*DEFUALT COLOR AND ICON SPACING*/
-
-input[type=checkbox] + label:before, input[type=radio] + label:before { 
-  margin:-1px 10px 0 -14px; 
-  color:$grey500;
-  }
-
-/*ERROR COLORS*/
-
-input.selectorError[type=radio]:checked + label:before, input.selectorError[type=radio] + label:before, input.selectorError[type=checkbox]:checked + label:before, input.selectorError[type=checkbox] + label:before{
-  color:$red;
-}
-
-/*DISABLED GREYS AND CURSOR*/
-
-input.selectorDisabled[type=radio]:checked + label:before, input.selectorDisabled[type=radio] + label:before, input.selectorDisabled[type=checkbox]:checked + label:before, input.selectorDisabled[type=checkbox] + label:before{
-  color:$grey500;
-}
-
-input.selectorDisabled[type=radio], input.selectorDisabled[type=checkbox]{
-  cursor:not-allowed;
-}
-
-label.selectorDisabled{
-  color:$grey700;
-}
 
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 CHECKBOX AND RADIO BUTTON ALTERNATES
@@ -465,14 +380,37 @@ $select-height: 40px;
   }
 }
 
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+CHECKBOXES AND RADIO BUTTONS
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.subtext.optiongroup{
+  display:block;
+  margin-left:26px;
+  margin-top:1px;
+}
+
+label.selector, label.selectorDisabled{
+  line-height:16px;
+}
+
+.selectorItem{
+  margin-bottom:$paddingXS;
+}
+
+.selectorItem.last{
+  margin-bottom:0;
+}
+
+
 /* iCheck plugin
 ----------------------------------- */
 .icheckbox,
 .iradio {
     display: inline-block;
     *display: inline;
-    vertical-align: middle;
+    vertical-align: 2px;
     margin: 0;
+    margin-top:3px;
     padding: 0;
     border: none;
     cursor: pointer;
@@ -487,11 +425,12 @@ $select-height: 40px;
     line-height: 1;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    color:$grey500;
 }
 
 .icheck label {
   float: left;
-  margin-left: 16px;
+  margin-left: $paddingS;
 }
 
 .icheck label.selector, .icheck label.selectorDisabled {
@@ -508,10 +447,12 @@ $select-height: 40px;
 
 .icheckbox.disabled:before {
     content: "\e906";
+    cursor:not-allowed;
 }
 
 .icheckbox.checked.disabled:before {
     content: "\e905";
+    cursor:not-allowed;
 }
 
 .iradio:before {
@@ -524,18 +465,25 @@ $select-height: 40px;
 
 .iradio.disabled:before {
     content: "\e913";
+    cursor:not-allowed;
 }
 
 .iradio.checked.disabled:before {
     content: "\e912";
+    cursor:not-allowed;
 }
 
 .checked:before {
-  color: $cyan;
+  color: $action500;
 }
 
-.disabled, .disabled:before, .checked.disabled, .checked.disabled:before {
+.disabled{
   color:$grey700;
+}
+
+.disabled:before, .checked.disabled, .checked.disabled:before {
+  color:$grey500;
+  cursor:not-allowed;
 }
 
 .error .iradio:before, .error .icheckbox:before, .error .checked:before {
