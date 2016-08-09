@@ -5,7 +5,7 @@ input::-moz-focus-inner {
   padding: 0;
 }
 
-.ds-btn, .ds-btn-med, .ds-btn-sm, .ds-btn-sec, .ds-btn-med-sec, .ds-btn-sm-sec{
+.ds-btn, .ds-btn-med, .ds-btn-sm, .ds-btn-sec, .ds-btn-med-sec, .ds-btn-sm-sec, .ui-controlgroup-item{
   color: $grey0;
   font-family: $base-font-family;
   font-size: $base-font-size;
@@ -123,7 +123,7 @@ a {
 
   .ui-selectmenu-icon.ui-icon {
     font-size: 10px;
-    margin-top: 8px;
+    margin-top: 9px;
     width: auto;
     height: auto;
   }
@@ -136,7 +136,7 @@ a {
 }
 
 .ui-menu .ui-menu-item-wrapper {
-  padding: 3px 14px;
+  padding: 4px 16px;
 }
 
 #dropdown-btn-menu .ui-state-active:before, #dropdown-btn-sec-menu .ui-state-active:before {
@@ -160,8 +160,14 @@ a {
     .ui-selectmenu-button.ui-button, .ui-selectmenu-button-closed {
       color: #fff;
     }
-    
-    .ui-selectmenu-button:hover, .ui-selectmenu-button-open {
+
+    .ui-selectmenu-button:hover {
+      background: #fff;
+      border: 1px solid #0e94a6;
+      color: #0e94a6 !important;
+    }
+
+    .ui-selectmenu-button-open {
       background: #fff;
       border: 1px solid #0e94a6;
       color: #0e94a6 !important;
