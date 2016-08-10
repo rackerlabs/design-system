@@ -19,26 +19,20 @@ $(document).ready(function() {
     var subtract_width = prefix_width + suffix_width;
     $('#setWidth').width(400-subtract_width);
 
+    //dropdown selector
     $('#contact').selectmenu();
 
-    $( function() {
+    //dropdown buttons
     var page = $( "#page" );
  
-    $( ".toolbar" ).controlgroup();
+    $( ".dropdown-btn" ).controlgroup();
     $( "#dropdown-btn" ).on( "selectmenuchange", function() {
       page.css({ "dropdown-btn": $( this ).val() });
-    })
-    $( basicControls.concat( valueControls ).join( ", " ) ).on( "click change selectmenuchange",
-      function() {
-        document.execCommand(
-          this.id,
-          false,
-          $( this ).val()
-        );
-      } );
+    });
+    $('#dropdown-btn-button').addClass('ds-btn');
+    $('#dropdown-btn-sec-button').addClass('ds-btn-sec');
 
-    } );
-
+    //selectors keyboard accesibility
     $('.icheck input').iCheck({
         checkboxClass: 'icheckbox',
         radioClass: 'iradio'
