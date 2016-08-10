@@ -83,12 +83,18 @@ TOOLTIP
 }
 
 .ds-icon-help {
+  display:inline-block;
+  width:14px;
+  height:14px;
+  text-align:center;
   color:$cyan700;
-  font-size:16px;
   vertical-align:-1px;
   margin-left: $paddingM;
   cursor:pointer;
-}
+  background-color: $cyan700;
+  -webkit-mask-image: url("/assets/design-system/img/help.svg");
+  mask-image: url("/assets/design-system/img/help.svg");
+  }
 
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 BEACON

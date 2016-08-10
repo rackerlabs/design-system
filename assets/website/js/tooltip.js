@@ -71,7 +71,24 @@ $(document).ready(function() {
 		$(this).attr('data-title',$(this).attr('title')).removeAttr('title');
 	});
 
-	$('body').on('mouseenter','.icon-help, .ds-tooltip-source',function(event) {
+	//delete the tooltip if you click anywhere
+	$('body').on( 'click', function(e) {
+		clearTimeout(attachTipTimer);
+		removeTipTimer = setTimeout(function(){removeTooltips();}, 0);
+	});
+
+	//oh but don't delete the tooltip if you click on one of these classes
+	$('body').on('click','.icon-help, .ds-tooltip-source, .ds-tooltip, .ds-tooltip-p, .ds-tooltip-h3, .ds-btn-group-tooltip', function(event) {
+		event.stopPropagation();
+	});
+
+	//but still delete it if it's one of the buttons in the tooltip itself
+	$('body').on( 'click', '.ds-tooltip-btn',function(e) {
+		clearTimeout(attachTipTimer);
+		removeTipTimer = setTimeout(function(){removeTooltips();}, 0);
+	});
+
+	$('body').on('click','.icon-help, .ds-tooltip-source',function(event) {
 		removeTooltips();
 		clearTimeout(removeTipTimer);
 		clearTimeout(attachTipTimer);
@@ -89,5 +106,6 @@ $(document).ready(function() {
 		clearTimeout(attachTipTimer);
 		removeTipTimer = setTimeout(function(){removeTooltips();}, hideTipTimeout);
 	});
+
 
 });
