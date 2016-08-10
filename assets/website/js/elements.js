@@ -29,8 +29,8 @@ $(document).ready(function() {
     $( "#dropdown-btn" ).on( "selectmenuchange", function() {
       page.css({ "dropdown-btn": $( this ).val() });
     });
-    $('#dropdown-btn-button').addClass('ds-btn');
-    $('#dropdown-btn-sec-button').addClass('ds-btn-sec');
+    $('#dropdown-btn-button').addClass('ds-btn-med');
+    $('#dropdown-btn-sec-button').addClass('ds-btn-med-sec');
 
     //selectors keyboard accesibility
     $('.icheck input').iCheck({
