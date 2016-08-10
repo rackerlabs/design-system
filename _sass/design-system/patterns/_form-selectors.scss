@@ -494,37 +494,19 @@ label.selector, label.selectorDisabled{
   outline: 2px solid $blue100;
 }
 
-.ui-corner-all {
-  border-radius: 2px;
-}
-
-.ui-button .ui-icon, .ui-state-hover .ui-icon, .ui-state-focus .ui-icon, .ui-button:hover .ui-icon, .ui-button:focus .ui-icon, .ui-state-default .ui-icon, .ui-state-active:before {
-  background-image: none;
-  font-family: 'DS_icon_font' !important;
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-indent: 0;
-  font-size: 10px;
-}
-
 .ui-menu {
+  background: $grey25;
+  border: 1px solid $grey500;
   .ui-menu-item-wrapper {
     padding: 4px 1em;
+    &:hover {
+      background: $grey600;
+    }
   }
 }
 
 .ui-selectmenu-menu .ui-state-disabled {
   display: none;
-}
-
-.ui-widget.ui-widget-content {
-  background: $grey25;
 }
 
 .ui-state-active:before {
@@ -533,19 +515,11 @@ label.selector, label.selectorDisabled{
   margin-right: 1em;
 }
 
-.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
-  background: $grey600;
-  border: 1px solid $grey600;
-}
-
 #contact-button {
 
-  .ui-selectmenu-button-closed {
+  &.ui-selectmenu-button.ui-button {
     background: white;
     border: 1px solid $grey500;
-  }
-
-  .ui-widget-content {
     color: $grey800;
   }
 

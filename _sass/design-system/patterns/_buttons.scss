@@ -120,6 +120,11 @@ a {
   }
 }
 
+.ds-btn-med.ui-selectmenu-button-open, .ds-btn-med-sec.ui-selectmenu-button-open {
+    background: $action900;
+    border: 1px solid $action900;
+}
+
 #dropdown-btn-button, #dropdown-btn-sec-button {
 
   &.ui-button {
