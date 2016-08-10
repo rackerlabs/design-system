@@ -1,25 +1,55 @@
 ---
 layout: website/default
 ---
-
+    {% assign iconCount = 1 %}
 	{% for component in site.pages %}
         {% if component.category == page.title %}
-    	<div class="rs-row preview-post">
-            <div class="span-3">
-            	<img class="preview-image" {% if component.preview-image %} src='{{site.baseurl}}{{site.websiteAssets}}/img/{{component.preview-image}}' {% else %} src='{{site.baseurl}}{{site.websiteAssets}}/img/place-holder.svg' {% endif %}>
-            </div>
-            <div class="span-8 offset-1 preview-content">
-            	<h3><a href="{{site.baseurl}}{{component.url}}.html">{{component.title}}</a></h3>
-            	<p>{{component.usage}}</p>
-                <ul class="confidence-rating">
-                    <p style="font-size: 16px; line-height: 1; padding-right: 10px;">Adherence:</p>
-                    {% assign var = 1 %}
-                    {% for num in (1...5) %}
-                        <li {% if var <= component.confidence %} class="active" {% endif %} ></li>
-                        {% assign var = var | plus: 1 %}
-                    {% endfor %}
-                </ul>
-            </div>
-        </div>
+    	   {% if iconCount == 1 %}
+                <div class="rs-row ws-overview-pg-row">
+            {% endif %}
+                    <div class="span-4">
+                        <div class="ws-sum-con">
+                        	<img class="ws-preview-image" {% if component.preview-image %} src='{{site.baseurl}}{{site.websiteAssets}}/img/{{component.preview-image}}' {% else %} src='{{site.baseurl}}{{site.websiteAssets}}/img/place-holder.svg' {% endif %}>
+                            <h1 class="ws-h1-component-page"><a href="{{site.baseurl}}{{component.url}}.html">{{component.title}}</a></h1>
+                            <p class="temp-remove-padding">{{component.usage}}</p>
+                        </div>
+                    </div>
+            {% assign iconCount = iconCount | plus: 1%}
+            {% if iconCount == 4 %}
+                </div>
+                {% assign iconCount = 1 %}
+            {% endif %}
         {% endif %}
     {% endfor %}
+
+<style type = "text/css" scoped>
+    .ws-overview-pg-row{
+        padding-bottom: 60px;
+    }
+
+    .ws-overview-pg-row:last-of-type{
+        padding-bottom: 60px;
+    }
+
+    .ws-sum-con{
+        padding: 0 20px;
+    }
+
+    .ws-preview-image{
+        display: inline-block;
+        text-align: center;
+        width: 40%;
+        height: 40%;
+        padding-left: 30%;
+    }
+
+    .ws-h1-component-page{
+        padding: 20px 0px 12px 0;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .temp-remove-padding{
+        padding: 0;
+    }
+</style>
