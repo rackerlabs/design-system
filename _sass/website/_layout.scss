@@ -240,26 +240,18 @@ nav {
                         }
                     }                                                                  
                 }
-                &.active {
+                &.active, &:hover {
+                    background: $grey800;
                     color: $grey400;
                     text-decoration: none;
-                }
-                &:hover {
-                    color: $grey400;
-                    text-decoration:none;
                 }
             }
             ul {
                 li {
                     a {
                         font-weight: 400;
-                        padding-left: 32px;
+                        padding-left: 64px;
                         text-transform: none;
-                    }
-                    a:hover, a.active {
-                        background-color: $grey800;
-                        color: $grey400;
-                        
                     }
                 }
             }
