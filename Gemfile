@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'bundler'
 gem 'compass'
 gem 'jekyll-compass'
 gem 'normalize-scss'
