@@ -59,16 +59,6 @@ p {
 	padding-bottom:32px;
 }
 
-.ws-todo-bar{
-	background-color:$purple500;
-	color:white;
-	-webkit-font-smoothing: antialiased;
-    -moz-font-smoothing: antialiased;
-    -o-font-smoothing: antialiased;
-    padding:$paddingS $paddingM;
-    border-radius: 2px;
-}
-
  .formGroup.ws-formGroup-last{
  	padding-bottom:0;
  }
@@ -135,7 +125,7 @@ $paddingXXL:32px;
 }
 
 .prototype {
-	background-color: $purple500;
+	background-color: $purple;
 }
 
 .dev-ready {

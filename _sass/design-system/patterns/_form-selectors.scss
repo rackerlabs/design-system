@@ -494,65 +494,44 @@ label.selector, label.selectorDisabled{
   outline: 2px solid $blue100;
 }
 
-.ui-selectmenu-button.ui-button, .ui-widget-content {
-  color: $grey800;
-}
-
-.ui-corner-all {
-  border-radius: 2px !important;
-}
-
-.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active,
-.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus, .ui-button:hover, .ui-button:focus, .ui-button:focus {
-  background: white;
-  border: 1px solid $grey500;
-}
-
-.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
-  background: $grey600;
-  border: 1px solid $grey600;
-}
-
-.ui-button .ui-icon, .ui-state-hover .ui-icon, .ui-state-focus .ui-icon, .ui-button:hover .ui-icon, .ui-button:focus .ui-icon, .ui-state-default .ui-icon {
-  background-image: none;
-  font-family: 'DS_icon_font' !important;
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-indent: 0;
-}
-
-.ui-icon-triangle-1-s:before {
-    color: $grey600;
-    content: "\e900";
-}
-
-.ui-widget.ui-widget-content {
+.ui-menu {
   background: $grey25;
+  border: 1px solid $grey500;
+  color: $grey600;
+  .ui-menu-item-wrapper {
+    padding: 4px 1em;
+    &:hover {
+      background: $grey600;
+      color: #fff;
+    }
+  }
 }
 
-.ui-menu .ui-menu-item-wrapper {
-  padding: 3px 1em 3px 1em;
+.ui-selectmenu-menu .ui-state-disabled {
+  display: none;
 }
 
 .ui-state-active:before {
-    font-family: 'DS_icon_font' !important;
-    speak: none;
-    font-size: .75em;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    color: #fff;
-    content: "\e921";
-    display: inline-block;
-    margin-right: .75em;
+  color: #fff;
+  content: "\e921";
+  margin-right: 1em;
+}
+
+#contact-button {
+
+  &.ui-selectmenu-button.ui-button {
+    background: white;
+    border: 1px solid $grey500;
+    color: $grey800;
+  }
+
+  .ui-selectmenu-icon.ui-icon {
+    margin: 4px 0 0 0;
+  }
+
+  .ui-icon-triangle-1-s:before {
+    color: $grey600;
+    content: "\e900";
+  }
+
 }
