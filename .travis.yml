@@ -1,7 +1,6 @@
-language: php
-
-php:
-- 5.5
+language: ruby
+rvm:
+- 2.1
 
 sudo: false
 
@@ -15,7 +14,7 @@ env:
 
 install:
 - export PATH=$PATH:$HOME/.bin
-- _script/bootstrap
+- script/cibuild
 
 addons:
   apt:
@@ -23,13 +22,9 @@ addons:
     - sshpass
 
 before_script:
-- gem install jekyll
-- gem install bundler
-- bundle install
-- bundle exec jekyll build --config _prod-config.yml
+- chmod +x ./script/cibuild
 
-script:
-- phpunit test.php
+script: ./script/cibuild
 
 after_success:
 - mv _site design-system
