@@ -21,7 +21,7 @@ before_script:
 - bundle install
 - chmod +x ./script/cibuild
 
-script: ./script/cibuild
+script: bundle exec jekyll build --config _prod-config.yml
 
 after_success:
 - mv _site design-system
