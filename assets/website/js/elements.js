@@ -17,7 +17,7 @@ $(document).ready(function() {
     var prefix_width = $('#inputPrefix').width()+5;
     var suffix_width = $('#inputSuffix').width()+5;
     var subtract_width = prefix_width + suffix_width;
-    $('#setWidth').width(400-subtract_width);
+    $('#setWidth').width(395-subtract_width);
 
     //dropdown selector
     $('#contact').selectmenu();
