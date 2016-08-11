@@ -83,25 +83,12 @@ TOOLTIP
 }
 
 .ds-icon-help {
-  font-size:16px;
-  width:16px;
-  display:inline-block;
-  text-align:center;
   color:$cyan700;
+  font-size:16px;
   vertical-align:-1px;
   margin-left: $paddingM;
   cursor:pointer;
-
-  &:hover{
-  color:$cyan500;
-  }
-
-  &:active{
-  color:$cyan900;
-  }
-
-  }
-
+}
 
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 BEACON
