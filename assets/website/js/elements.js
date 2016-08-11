@@ -30,7 +30,40 @@ $(document).ready(function() {
       page.css({ "dropdown-btn": $( this ).val() });
     });
     $('#dropdown-btn-button').addClass('ds-btn-med');
+   
+    $( "#dropdown-btn-combo" ).selectmenu({
+      classes: {
+        "ui-selectmenu-button": "ui-button-icon-only demo-splitbutton-select ds-btn-med"
+      },
+      position: { my: "right top", at: "right bottom" },
+      change: function(){
+        $( ".output" ).append( "<li>" + this.value + "</li>" );
+      }
+    });
+    $( ".controlgroup" ).controlgroup();
+    $( "button" ).click(function() {
+      $( ".output" ).append( "<li>...</li>" );
+    });
+
+    $( ".dropdown-btn" ).controlgroup();
+    $( "#dropdown-btn-sec" ).on( "selectmenuchange", function() {
+      page.css({ "dropdown-btn": $( this ).val() });
+    });
     $('#dropdown-btn-sec-button').addClass('ds-btn-med-sec');
+   
+    $( "#dropdown-btn-combo-sec" ).selectmenu({
+      classes: {
+        "ui-selectmenu-button": "ui-button-icon-only demo-splitbutton-select ds-btn-med"
+      },
+      position: { my: "right top", at: "right bottom" },
+      change: function(){
+        $( ".output" ).append( "<li>" + this.value + "</li>" );
+      }
+    });
+    $( ".controlgroup" ).controlgroup();
+    $( "button" ).click(function() {
+      $( ".output" ).append( "<li>...</li>" );
+    });
 
     //selectors keyboard accesibility
     $('.icheck input').iCheck({

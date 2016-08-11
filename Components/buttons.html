@@ -56,6 +56,17 @@ preview-image: components-buttons.svg
       </select>
     </div>
   </div>
+  <div class="ws-btn-group">
+    <div class="controlgroup">
+      <button class="ds-btn-med">Button Text</button>
+      <select id="dropdown-btn-combo">
+        <option value="A">Example A</option>
+        <option value="B">Example B</option>
+        <option value="C">Example C</option>
+        <option value="D">Example D</option>
+      </select>
+    </div>
+  </div>
 </div>
 
 <h1 class="ws-section-head">Secondary Buttons<span class="status prototype">In Progress</span></h1>
@@ -94,11 +105,22 @@ preview-image: components-buttons.svg
   </div>
 </div>
 <h3 class="ws-btn-h3">Dropdown Button</h3>
-<div class="ws-btn-group-dropdown-sec">
+<div class="ws-btn-group-dropdown">
   <div class="ws-btn-group">
     <div class="dropdown-btn">
       <select id="dropdown-btn-sec">
         <option selected disabled>Button Text</option>
+        <option value="A">Example A</option>
+        <option value="B">Example B</option>
+        <option value="C">Example C</option>
+        <option value="D">Example D</option>
+      </select>
+    </div>
+  </div>
+  <div class="ws-btn-group">
+    <div class="controlgroup">
+      <button class="ds-btn-med-sec">Button Text</button>
+      <select id="dropdown-btn-combo-sec">
         <option value="A">Example A</option>
         <option value="B">Example B</option>
         <option value="C">Example C</option>
@@ -138,6 +160,10 @@ preview-image: components-buttons.svg
   }
 
   .ws-btn-group-actions .ws-btn-group{
+    padding-right: 24px;
+  }
+
+  .ws-btn-group-dropdown .ws-btn-group{
     padding-right: 24px;
   }
 
