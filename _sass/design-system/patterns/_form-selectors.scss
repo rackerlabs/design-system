@@ -497,10 +497,12 @@ label.selector, label.selectorDisabled{
 .ui-menu {
   background: $grey25;
   border: 1px solid $grey500;
+  color: $grey600;
   .ui-menu-item-wrapper {
     padding: 4px 1em;
     &:hover {
       background: $grey600;
+      color: #fff;
     }
   }
 }
