@@ -71,27 +71,16 @@ $(document).ready(function() {
 		$(this).attr('data-title',$(this).attr('title')).removeAttr('title');
 	});
 
-	//delete the tooltip if you click anywhere
-	$('body').on( 'click', function(e) {
-		console.log("delete");
-		clearTimeout(attachTipTimer);
-		removeTipTimer = setTimeout(function(){removeTooltips();}, 0);
-		
-	});
-
-	//oh but don't delete the tooltip if you click on one of these classes
-	$('body').on('click','.icon-help, .ds-tooltip-source, .ds-tooltip, .ds-tooltip-p, .ds-tooltip-h3, .ds-btn-group-tooltip', function(event) {
-		console.log("nevermind");
-		event.stopPropagation();
-		
-	});
-
-	//but still delete it if it's one of the buttons in the tooltip itself
-	$('body').on( 'click', '.ds-tooltip-btn',function(e) {
-		console.log("no seriously, delete");
-		clearTimeout(attachTipTimer);
-		removeTipTimer = setTimeout(function(){removeTooltips();}, 0);
-	});
+	
+	$('body').on('click', function(e) {
+		console.log(e);
+        var tooltip = $(".ds-tooltip");
+        if (!tooltip.is(e.target) && tooltip.has(e.target).length === 0 && !$(e.target).hasClass('ds-tooltip-source')) {
+          tooltip.remove();
+          clearTimeout(removeTipTimer);
+                clearTimeout(attachTipTimer);
+        }
+    });
 
 	$('body').on('click','.icon-help, .ds-tooltip-source',function(event) {
 		removeTooltips();
