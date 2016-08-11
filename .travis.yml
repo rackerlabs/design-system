@@ -18,6 +18,7 @@ addons:
     - sshpass
 
 before_script:
+- bundle install
 - chmod +x ./script/cibuild
 
 script: ./script/cibuild
