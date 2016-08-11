@@ -19,7 +19,6 @@ addons:
 
 before_script:
 - bundle install
-- chmod +x ./script/cibuild
 
 script: bundle exec jekyll build --config _prod-config.yml
 
