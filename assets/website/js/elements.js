@@ -30,6 +30,7 @@ $(document).ready(function() {
       page.css({ "dropdown-btn": $( this ).val() });
     });
     $('#dropdown-btn-button').addClass('ds-btn-med');
+
    
     $( "#dropdown-btn-combo" ).selectmenu({
       classes: {
@@ -53,7 +54,7 @@ $(document).ready(function() {
    
     $( "#dropdown-btn-combo-sec" ).selectmenu({
       classes: {
-        "ui-selectmenu-button": "ui-button-icon-only demo-splitbutton-select ds-btn-med"
+        "ui-selectmenu-button": "ui-button-icon-only demo-splitbutton-select ds-btn-med-sec"
       },
       position: { my: "right top", at: "right bottom" },
       change: function(){
