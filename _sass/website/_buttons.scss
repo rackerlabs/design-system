@@ -1,0 +1,17 @@
+
+
+button {
+	font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 1em;
+    min-width: 3em;
+    background-color: $brand-color;
+    color: #ffffff;
+    padding: 0.75em 1.25em;
+    border: none;
+    &:hover {
+    	background-color: darken($brand-color, 10%);
+        cursor: pointer;
+    }
+}
+
