@@ -30,6 +30,9 @@ after_success:
 - test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "staging" && export SSHPASS=$DEPLOY_PASS
 - test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "staging" && sshpass -e scp -o StrictHostKeyChecking=no package.tgz $DEPLOY_USER@$DEPLOY_STAGING_HOST:$DEPLOY_PATH
 - test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "staging" && sshpass -e ssh $DEPLOY_USER@$DEPLOY_STAGING_HOST $DEPLOY_PATH/deploy-design-system.sh
+- test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "master" && export SSHPASS=$DEPLOY_PASS
+- test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "master" && sshpass -e scp -o StrictHostKeyChecking=no package.tgz $DEPLOY_USER@$DEPLOY_PROD_HOST:$DEPLOY_PATH
+- test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "master" && sshpass -e ssh $DEPLOY_USER@$DEPLOY_PROD_HOST $DEPLOY_PATH/deploy-design-system.sh
 notifications:
   slack:
     secure: pnmMkbxQt0rbioJRwL64lGEoryRqWDH0If4oCssVAP6+k+5h3CDMCeINpfkFhG3Oqro0pKVQnFjiXhDGTInFGX2cTjNm6khyOb0E4q1uRbEBJ2P4xWrfnLcjwq8JTszB1P78yXB/NkuWK2ZmTXWjFYw0FtLOgklvNzjARzxGQEzBn6LrcTmWGy/fxq2E0GdGNQ6xPFJt0Eof9+6Z7aoFUGpobZWHneqrR0yGSPO/CLLxB88jWOuMQLwrgGg3Ua/u/HLgNpdq6h5RhVh25PGZa+MB9pdXRRqbR5FuTIA5uxmG0lAemlcynonPDOvh1bUGKh0z0bhUJC54Nufe+pib2s2ySll+R/rHYdqp6qJ9p6VuMjwezdMq8OAmFKPzsA5isVj1MTW4qxja5zfsIWeRE558kHSvlTxu0MwUqdfM8CuBppUfJZ7QQ1lGpaeLsfJfHxbJbvUi6XeNnf+ffoYsCTKKfxA0JzcReLC5cq25nqMxC/dEEH4RY3VC519tdjjZDc+fYA8e2pO6QUbdXsUnnwOXBleKt1n556c7MWguAcaCwnifJrSFHC8GVPX4L61Ta75ul8TcuNQIMkY5DAgsUYg5+OnWfM2bu1p8kiGc8TthVtezJe5AfXxoLQBZQQdtX/uovCVZiUjaafpmapNGcMwhHIDmbPWwM7JdQgs8eH4=
