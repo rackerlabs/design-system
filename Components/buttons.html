@@ -2,9 +2,11 @@
 title: Buttons
 layout: website/default
 category: Components
-usage: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+usage: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium
 preview-image: components-buttons.svg
 ---
+
+<p class="ws-todo-bar"><b>TODO:</b> Update focus states for improved keyboard accesibility</p>
 
 <!-- DEFAULT BUTTONS -->
 <!-- Button Tag -->
@@ -105,7 +107,30 @@ preview-image: components-buttons.svg
   </div>
 </div>
 <h3 class="ws-btn-h3">Dropdown Button</h3>
-<<<<<<< HEAD
+<div class="ws-btn-group-dropdown">
+  <div class="ws-btn-group">
+    <div class="dropdown-btn">
+      <select id="dropdown-btn-sec">
+        <option selected disabled>Button Text</option>
+        <option value="A">Example A</option>
+        <option value="B">Example B</option>
+        <option value="C">Example C</option>
+        <option value="D">Example D</option>
+      </select>
+    </div>
+  </div>
+  <div class="ws-btn-group">
+    <div class="controlgroup">
+      <button class="ds-btn-med-sec">Button Text</button>
+      <select id="dropdown-btn-combo-sec">
+        <option value="A">Example A</option>
+        <option value="B">Example B</option>
+        <option value="C">Example C</option>
+        <option value="D">Example D</option>
+      </select>
+    </div>
+  </div>
+</div>
 
 <!-- Anchor Tag -->
 <h1 class="ws-section-head">Tertiary Buttons<span class="status prototype">In Progress</span></h1>
@@ -137,42 +162,13 @@ preview-image: components-buttons.svg
   <div class="ws-btn-group">
     <button class="active ds-btn-med-tert">Button Text</button>
     <span class="subtext">Pressed (900)</span>
-=======
->>>>>>> master
-<div class="ws-btn-group-dropdown">
-  <div class="ws-btn-group">
-    <div class="dropdown-btn">
-      <select id="dropdown-btn-sec">
-        <option selected disabled>Button Text</option>
-        <option value="A">Example A</option>
-        <option value="B">Example B</option>
-        <option value="C">Example C</option>
-        <option value="D">Example D</option>
-      </select>
-    </div>
   </div>
   <div class="ws-btn-group">
-    <div class="controlgroup">
-      <button class="ds-btn-med-sec">Button Text</button>
-      <select id="dropdown-btn-combo-sec">
-        <option value="A">Example A</option>
-        <option value="B">Example B</option>
-        <option value="C">Example C</option>
-        <option value="D">Example D</option>
-      </select>
-    </div>
-  </div>
+    <button class="disabled ds-btn-med-tert">Button Text</button>
+    <span class="subtext">Disabled (700)</span>
+  </div>  
 </div>
 
-<!-- Anchor Tag -->
-<h1 class="ws-section-head">Links and Tertiary Buttons<span class="status prototype">In Progress</span></h1>
-<p class="ws-first-p">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
-<div class="ws-btn-group">
-  <a >Default</a>
-  <a class="hover">Hover</a>
-  <a class="active">Pressed</a>
-  <a class="disabled">Disabled</a>
-</div>
 
 <style type = "text/css" scoped>
   .ws-btn-group-size{
