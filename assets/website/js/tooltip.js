@@ -71,7 +71,18 @@ $(document).ready(function() {
 		$(this).attr('data-title',$(this).attr('title')).removeAttr('title');
 	});
 
-	$('body').on('mouseenter','.icon-help, .ds-tooltip-source',function(event) {
+	
+	$('body').on('click', function(e) {
+		console.log(e);
+        var tooltip = $(".ds-tooltip");
+        if (!tooltip.is(e.target) && tooltip.has(e.target).length === 0 && !$(e.target).hasClass('ds-tooltip-source')) {
+          tooltip.remove();
+          clearTimeout(removeTipTimer);
+                clearTimeout(attachTipTimer);
+        }
+    });
+
+	$('body').on('click','.icon-help, .ds-tooltip-source',function(event) {
 		removeTooltips();
 		clearTimeout(removeTipTimer);
 		clearTimeout(attachTipTimer);
@@ -89,5 +100,6 @@ $(document).ready(function() {
 		clearTimeout(attachTipTimer);
 		removeTipTimer = setTimeout(function(){removeTooltips();}, hideTipTimeout);
 	});
+
 
 });

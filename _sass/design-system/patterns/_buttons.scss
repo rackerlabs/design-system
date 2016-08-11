@@ -5,7 +5,7 @@ input::-moz-focus-inner {
   padding: 0;
 }
 
-.ds-btn, .ds-btn-med, .ds-btn-sm, .ds-btn-sec, .ds-btn-med-sec, .ds-btn-sm-sec{
+.ds-btn, .ds-btn-med, .ds-btn-sm, .ds-btn-sec, .ds-btn-med-sec, .ds-btn-sm-sec, .ds-btn-tert, .ds-btn-med-tert, .ds-btn-sm-tert{
   color: $grey0;
   font-family: $base-font-family;
   font-size: $base-font-size;
@@ -54,19 +54,19 @@ input::-moz-focus-inner {
 
 }
 
-.ds-btn-med, .ds-btn-med-sec{
+.ds-btn-med, .ds-btn-med-sec, .ds-btn-med-tert{
   padding: 0 10px;
   font-size: $font-size-3;
   line-height: 28px;
 }
 
-.ds-btn-sm, .ds-btn-sm-sec{
+.ds-btn-sm, .ds-btn-sm-sec, .ds-btn-sm-tert{
   padding: 0 8px;
   font-size: $font-size-1;
   line-height: 21px;
 }
 
-.ds-btn-sec, .ds-btn-med-sec, .ds-btn-sm-sec{
+.ds-btn-sec, .ds-btn-med-sec, .ds-btn-sm-sec, .ds-btn-tert, .ds-btn-med-tert, .ds-btn-sm-tert{
   background:transparent;
   color:$action700;
 
@@ -88,9 +88,43 @@ input::-moz-focus-inner {
   }
 
     &.default{
-    background: $grey0;
+    background: transparent;
     border: 1px solid $action700;
     color:$action700;
+    outline:none;
+  }
+}
+
+.ds-btn-tert, .ds-btn-med-tert, .ds-btn-sm-tert{
+  border:none;
+
+  &:hover,
+  &:focus,
+  &.hover {
+    background: transparent;
+    color:$action500;
+    border:none;
+  }
+
+  &:active,
+  &.active {
+    background: transparent;
+    color:$action900;
+    border:none;
+  }
+
+  &.default{
+    background: transparent;
+    border: none;
+    color:$action700;
+    outline:none;
+  }
+
+  &[disabled],
+  &.disabled {
+    background: transparent;
+    border: none;
+    color:$grey700;
     outline:none;
   }
 }
@@ -118,4 +152,3 @@ a {
     text-decoration:underline;
   }
 }
-

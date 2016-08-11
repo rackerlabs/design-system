@@ -2,9 +2,11 @@
 title: Buttons
 layout: website/default
 category: Components
-usage: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+usage: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium
 preview-image: components-buttons.svg
 ---
+
+<p class="ws-todo-bar"><b>TODO:</b> Update focus states for improved keyboard accesibility</p>
 
 <!-- DEFAULT BUTTONS -->
 <!-- Button Tag -->
@@ -83,14 +85,42 @@ preview-image: components-buttons.svg
 <h3 class="ws-btn-h3">Dropdown Button</h3>
 
 <!-- Anchor Tag -->
-<h1 class="ws-section-head">Links and Tertiary Buttons<span class="status prototype">In Progress</span></h1>
-<p class="ws-first-p">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
-<div class="ws-btn-group">
-  <a >Default</a>
-  <a class="hover">Hover</a>
-  <a class="active">Pressed</a>
-  <a class="disabled">Disabled</a>
+<h1 class="ws-section-head">Tertiary Buttons<span class="status prototype">In Progress</span></h1>
+<p class="ws-first-p">Tertiary buttons can be used in conjuction with the primary button or with a primary and secondary button. Tertiary buttons should be used to deemphasize the action in comparison with the actions of primary or secondary buttons.  For example, use a tertiary button for "cancel" and a primary button to emphasize "submit".</p>
+<div class="ws-btn-group-size">
+  <div class="ws-btn-group">
+    <button class="ds-btn-tert" style="line-height: 28px;">Button Text</button>
+    <span class="subtext">Large</span>
+  </div>
+  <div class="ws-btn-group">
+    <button class="ds-btn-med-tert" style="line-height: 28px;">Button Text</button>
+    <span class="subtext">Standard</span>
+  </div>
+  <div class="ws-btn-group">
+    <button class="ds-btn-sm-tert" style="line-height: 28px;">Button Text</button>
+    <span class="subtext">Compact</span>
+  </div>
 </div>
+<h3 class="ws-btn-h3">Actions</h3>
+<div class="ws-btn-group-actions">
+  <div class="ws-btn-group">
+    <button class="ds-btn-med-tert">Button Text</button>
+    <span class="subtext">Default (700)</span>
+  </div>
+  <div class="ws-btn-group">
+    <button class="hover ds-btn-med-tert">Button Text</button>
+    <span class="subtext">Hover (500)</span>
+  </div>
+  <div class="ws-btn-group">
+    <button class="active ds-btn-med-tert">Button Text</button>
+    <span class="subtext">Pressed (900)</span>
+  </div>
+  <div class="ws-btn-group">
+    <button class="disabled ds-btn-med-tert">Button Text</button>
+    <span class="subtext">Disabled (700)</span>
+  </div>  
+</div>
+
 
 <style type = "text/css" scoped>
   .ws-btn-group-size{
