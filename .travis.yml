@@ -19,6 +19,7 @@ addons:
     - sshpass
 
 before_script:
+- gem install jekyll
 - gem install bundler
 - bundle install
 - bundle exec jekyll build --config _prod-config.yml
