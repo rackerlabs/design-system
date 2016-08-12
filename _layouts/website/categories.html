@@ -1,13 +1,14 @@
 ---
 layout: website/default
 ---
+<table class="temp-overview-table">
     {% assign iconCount = 1 %}
 	{% for component in site.pages %}
         {% if component.category == page.title %}
     	   {% if iconCount == 1 %}
-                <div class="rs-row ws-overview-pg-row">
+                <tr class="temp-overview-tr">
             {% endif %}
-                    <div class="span-4">
+                    <td class="temp-overview-td">
                         <a class="ws-no-underline"href="{{site.baseurl}}{{component.url}}.html">
                             <div class="ws-sum-con">
                                 <h1 class="ws-h1-component-page">{{component.title}}</h1>
@@ -16,32 +17,38 @@ layout: website/default
                                 <p class="temp-remove-padding">{{component.usage}}</p>
                             </div>
                         </a>
-                    </div>
+                    </td>
             {% assign iconCount = iconCount | plus: 1%}
             {% if iconCount == 4 %}
-                </div>
+                </tr>
                 {% assign iconCount = 1 %}
             {% endif %}
         {% endif %}
     {% endfor %}
+</table>
 
 <style type = "text/css" scoped>
 
-    .ws-overview-pg-row{
-        padding-bottom: 60px;
+    .temp-overview-table{
+        border-collapse: separate;
+        border-spacing: 20px;
+        table-layout: fixed;
     }
 
-    .ws-overview-pg-row:last-of-type{
-        padding-bottom: 60px;
+    .temp-overview-td{
+        border: 1px solid #d8d8d8;
+        padding: 0;
+    }
+
+    .temp-overview-td:hover{
+        background-color: #E4F9F9;
     }
 
     .ws-sum-con{
-        border: 1px solid #d8d8d8;
         padding: 20px;
     }
 
     .ws-sum-con:hover{
-        background-color: #E4F9F9;
     }
 
     .ws-preview-image{
@@ -63,5 +70,3 @@ layout: website/default
         text-decoration: none;
     }
 </style>
-
-</a>
