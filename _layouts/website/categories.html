@@ -1,72 +1,55 @@
 ---
 layout: website/default
 ---
-<table class="temp-overview-table">
     {% assign iconCount = 1 %}
 	{% for component in site.pages %}
         {% if component.category == page.title %}
     	   {% if iconCount == 1 %}
-                <tr class="temp-overview-tr">
+                <div class="rs-row ws-overview-pg-row">
             {% endif %}
-                    <td class="temp-overview-td">
-                        <a class="ws-no-underline"href="{{site.baseurl}}{{component.url}}.html">
-                            <div class="ws-sum-con">
-                                <h1 class="ws-h1-component-page">{{component.title}}</h1>
-                            	<img class="ws-preview-image" {% if component.preview-image %} src='{{site.baseurl}}{{site.websiteAssets}}/img/{{component.preview-image}}' {% else %} src='{{site.baseurl}}{{site.websiteAssets}}/img/place-holder.svg' {% endif %}>
-                                
-                                <p class="temp-remove-padding">{{component.usage}}</p>
-                            </div>
-                        </a>
-                    </td>
+                    <div class="span-4">
+                        <div class="ws-sum-con">
+                        	<img class="ws-preview-image" {% if component.preview-image %} src='{{site.baseurl}}{{site.websiteAssets}}/img/{{component.preview-image}}' {% else %} src='{{site.baseurl}}{{site.websiteAssets}}/img/place-holder.svg' {% endif %}>
+                            <h1 class="ws-h1-component-page"><a href="{{site.baseurl}}{{component.url}}.html">{{component.title}}</a></h1>
+                            <p class="temp-remove-padding">{{component.usage}}</p>
+                        </div>
+                    </div>
             {% assign iconCount = iconCount | plus: 1%}
             {% if iconCount == 4 %}
-                </tr>
+                </div>
                 {% assign iconCount = 1 %}
             {% endif %}
         {% endif %}
     {% endfor %}
-</table>
 
 <style type = "text/css" scoped>
-
-    .temp-overview-table{
-        border-collapse: separate;
-        border-spacing: 20px;
-        table-layout: fixed;
+    .ws-overview-pg-row{
+        padding-bottom: 60px;
     }
 
-    .temp-overview-td{
-        border: 1px solid #d8d8d8;
-        padding: 0;
-    }
-
-    .temp-overview-td:hover{
-        background-color: #E4F9F9;
+    .ws-overview-pg-row:last-of-type{
+        padding-bottom: 60px;
     }
 
     .ws-sum-con{
-        padding: 20px;
-    }
-
-    .ws-sum-con:hover{
+        padding: 0 20px;
     }
 
     .ws-preview-image{
         display: inline-block;
         text-align: center;
-        margin: 20px 0;
+        width: 40%;
+        height: 40%;
+        padding-left: 30%;
     }
 
     .ws-h1-component-page{
+        padding: 20px 0px 12px 0;
         font-weight: 400;
-        text-decoration: none;
+        text-align: center;
     }
 
     .temp-remove-padding{
         padding: 0;
-    }
-
-    .ws-no-underline, .ws-no-underline:hover, .ws-no-underline:active{
-        text-decoration: none;
     }
 </style>
