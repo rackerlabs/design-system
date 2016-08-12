@@ -8,11 +8,14 @@ layout: website/default
                 <div class="rs-row ws-overview-pg-row">
             {% endif %}
                     <div class="span-4">
-                        <div class="ws-sum-con">
-                        	<img class="ws-preview-image" {% if component.preview-image %} src='{{site.baseurl}}{{site.websiteAssets}}/img/{{component.preview-image}}' {% else %} src='{{site.baseurl}}{{site.websiteAssets}}/img/place-holder.svg' {% endif %}>
-                            <h1 class="ws-h1-component-page"><a href="{{site.baseurl}}{{component.url}}.html">{{component.title}}</a></h1>
-                            <p class="temp-remove-padding">{{component.usage}}</p>
-                        </div>
+                        <a class="ws-no-underline"href="{{site.baseurl}}{{component.url}}.html">
+                            <div class="ws-sum-con">
+                                <h1 class="ws-h1-component-page">{{component.title}}</h1>
+                            	<img class="ws-preview-image" {% if component.preview-image %} src='{{site.baseurl}}{{site.websiteAssets}}/img/{{component.preview-image}}' {% else %} src='{{site.baseurl}}{{site.websiteAssets}}/img/place-holder.svg' {% endif %}>
+                                
+                                <p class="temp-remove-padding">{{component.usage}}</p>
+                            </div>
+                        </a>
                     </div>
             {% assign iconCount = iconCount | plus: 1%}
             {% if iconCount == 4 %}
@@ -23,6 +26,7 @@ layout: website/default
     {% endfor %}
 
 <style type = "text/css" scoped>
+
     .ws-overview-pg-row{
         padding-bottom: 60px;
     }
@@ -32,24 +36,32 @@ layout: website/default
     }
 
     .ws-sum-con{
-        padding: 0 20px;
+        border: 1px solid #d8d8d8;
+        padding: 20px;
+    }
+
+    .ws-sum-con:hover{
+        background-color: #E4F9F9;
     }
 
     .ws-preview-image{
         display: inline-block;
         text-align: center;
-        width: 40%;
-        height: 40%;
-        padding-left: 30%;
+        margin: 20px 0;
     }
 
     .ws-h1-component-page{
-        padding: 20px 0px 12px 0;
         font-weight: 400;
-        text-align: center;
+        text-decoration: none;
     }
 
     .temp-remove-padding{
         padding: 0;
     }
+
+    .ws-no-underline, .ws-no-underline:hover, .ws-no-underline:active{
+        text-decoration: none;
+    }
 </style>
+
+</a>
