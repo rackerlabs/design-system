@@ -9,9 +9,12 @@
     <li><a href="/" {% if currentpage == "/" %} class="active" {% else %} {% endif %}>Upcoming</a></li>
     
     {% for navItem in site.navigation %}
-      {% assign foldername = navItem | downcase%}
-      <li {% if page.layout contains categories %} class="parent"{% endif %}{% if page.url contains foldername %} class="parent active"{% endif %}>
-        <a href="{{site.baseurl}}/{{navItem | downcase}}" {% if page.url contains foldername %} class="active" {% endif %}>{{navItem}}</a>
+      {% assign foldername = navItem | downcase %}      
+      {% assign parentname = foldername | append: "/" | prepend: "/" %}
+      {% assign pagetype = page.layout %}
+      
+      <li {% if pagetype contains categories %} class="parent"{% endif %}>      
+        <a href="{{site.baseurl}}/{{navItem | downcase}}" {% if currentpage == parentname %} class="active" {% endif %}>{{navItem}}</a>
         
         <ul {% if page.url contains foldername %} class="active" {% else %} class="inactive"  {% endif %}>
           {% for page in site.pages %}
