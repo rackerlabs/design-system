@@ -1,18 +1,24 @@
 <header class="site-header">
-    <a href="{{site.baseurl}}/index.html"><img src="{{site.baseurl}}{{site.websiteAssets}}/img/rs-logo.svg" class="logo"></a>
+    <div class="logo"><img src="{{site.baseurl}}{{site.websiteAssets}}/img/rs-logo.svg" class="logo"></div>
     <div class="nameplate">Helix</div>
 </header>
-<nav>  
+<nav>   
   <ul>
+    
     {% assign currentpage = page.url %}
+    <li><a href="/" {% if currentpage == "/" %} class="active" {% else %} {% endif %}>Upcoming</a></li>
+    
     {% for navItem in site.navigation %}
-      {% assign foldername = navItem | downcase%}
-      <li><a href="{{site.baseurl}}/{{navItem | downcase}}" {% if page.url contains foldername %} class="active parent" {% else %} class="parent" {% endif %}>{{navItem}}</a>
+      {% assign foldername = navItem | downcase %}      
+      {% assign parentname = foldername | append: "/" | prepend: "/" %}
+      {% assign pagetype = page.layout %}
+      
+      <li {% if pagetype contains categories %} class="parent"{% endif %}>      
+        <a href="{{site.baseurl}}/{{navItem | downcase}}" {% if currentpage == parentname %} class="active" {% endif %}>{{navItem}}</a>
         
         <ul {% if page.url contains foldername %} class="active" {% else %} class="inactive"  {% endif %}>
           {% for page in site.pages %}
             {% if page.category == navItem | downcase %}
-            {% assign slugname = page.title | downcase | join %}
             <li><a href="{{site.baseurl}}{{page.url}}.html" {% if currentpage contains page.url %} class="active" {% else %} {% endif %}>{{page.title}}</a></li>
             {% endif %}
           {% endfor %}
