@@ -205,6 +205,34 @@ nav {
         margin: 0 0;
 
         li {
+            position: relative;
+            &.parent {
+                &:after {
+                    content: "\e900";
+                    font-family: 'DS_icon_font' !important;
+                    speak: none;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-variant: normal;
+                    text-transform: none;
+                    line-height: 1;
+                    -webkit-font-smoothing: antialiased;
+                    -moz-osx-font-smoothing: grayscale;
+                    text-decoration: inherit;
+                    color: $grey400;
+                    font-size: $base-font-size;
+                    padding-right: 2em;
+                    position: absolute;
+                    top: 12px;
+                    right: 0;
+                    font-size: 12px;
+                }
+                &.active {
+                    &:after {
+                        content: "\e903";
+                    }
+                }                                                                  
+            }
             a {
                 color: $grey400;
                 position: relative;
@@ -213,33 +241,6 @@ nav {
                 letter-spacing: 0.05em;
                 text-decoration: none;
                 text-transform: uppercase;
-                &.parent {
-                    &:after {
-                        content: "\e900";
-                        font-family: 'DS_icon_font' !important;
-                        speak: none;
-                        font-style: normal;
-                        font-weight: normal;
-                        font-variant: normal;
-                        text-transform: none;
-                        line-height: 1;
-                        -webkit-font-smoothing: antialiased;
-                        -moz-osx-font-smoothing: grayscale;
-                        text-decoration: inherit;
-                        color: $grey400;
-                        font-size: $base-font-size;
-                        padding-right: 2em;
-                        position: absolute;
-                        top: 33%;
-                        right: 0;
-                        font-size: 12px;
-                    }
-                    &.active {
-                        &:after {
-                            content: "\e903";
-                        }
-                    }                                                                  
-                }
                 &.active, &:hover {
                     background: $grey800;
                     color: $grey400;
