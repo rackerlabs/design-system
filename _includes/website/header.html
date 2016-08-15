@@ -17,7 +17,7 @@
         <ul {% if page.url contains foldername %} class="active" {% else %} class="inactive"  {% endif %}>
           {% for page in site.pages %}
             {% if page.category == navItem | downcase %}
-            <li><a href="{{site.baseurl}}{{page.url}}.html" {% if currenturl contains page.url %} class="active" {% else %} {% endif %}>{{page.title}}</a></li>
+            <li><a href="{{site.baseurl}}{{page.url}}.html" {% if currentpage contains page.url %} class="active" {% else %} {% endif %}>{{page.title}}</a></li>
             {% endif %}
           {% endfor %}
         </ul>
