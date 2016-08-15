@@ -161,12 +161,13 @@ $zindexPopovers: 1000;
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 1;
-    a {
+    z-index: 100;
+    .logo {
         float: left;
         width: 240px;
         img {
-            width: 8em;
+            height: 32px;
+            width: auto;
         }
     }
     .nameplate {
@@ -185,7 +186,7 @@ nav {
     width: 17em;
     height: 100%;
     overflow-x: hidden;
-    overflow-y: scroll;
+    overflow-y: auto;
     margin-bottom: 2em;
     -webkit-box-shadow: 0px 5px 6px 1px rgba(102,102,102,.25);
     moz-box-shadow: 0px 5px 6px 1px rgba(102,102,102,.25);
@@ -204,6 +205,34 @@ nav {
         margin: 0 0;
 
         li {
+            position: relative;
+            &.parent {
+                &:after {
+                    content: "\e900";
+                    font-family: 'DS_icon_font' !important;
+                    speak: none;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-variant: normal;
+                    text-transform: none;
+                    line-height: 1;
+                    -webkit-font-smoothing: antialiased;
+                    -moz-osx-font-smoothing: grayscale;
+                    text-decoration: inherit;
+                    color: $grey400;
+                    font-size: $base-font-size;
+                    padding-right: 2em;
+                    position: absolute;
+                    top: 12px;
+                    right: 0;
+                    font-size: 12px;
+                }
+                &.active {
+                    &:after {
+                        content: "\e903";
+                    }
+                }                                                                  
+            }
             a {
                 color: $grey400;
                 position: relative;
@@ -212,9 +241,8 @@ nav {
                 letter-spacing: 0.05em;
                 text-decoration: none;
                 text-transform: uppercase;
-                &.parent {
-                    &:after {
-                        content: "\e900";
+                &.active, &:hover {
+                    background: $grey800;
                         font-family: 'DS_icon_font' !important;
                         speak: none;
                         font-style: normal;
@@ -249,10 +277,10 @@ nav {
                 }
             }
             ul {
-                margin-left: 32px;
                 li {
                     a {
                         font-weight: 400;
+                        padding-left: 64px;
                         text-transform: none;
                     }
                     a:hover, a.active {
