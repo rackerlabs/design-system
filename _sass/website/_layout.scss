@@ -8,13 +8,12 @@
     position: fixed;
     top: 0;
     width: 100%;
-    z-index: 100;
-    .logo {
+    z-index: 1;
+    a {
         float: left;
         width: 240px;
         img {
-            height: 32px;
-            width: auto;
+            width: 8em;
         }
     }
     .nameplate {
@@ -32,11 +31,11 @@ nav {
     width: 17em;
     height: 100%;
     overflow-x: hidden;
-    overflow-y: auto;
+    overflow-y: scroll;
     margin-bottom: 2em;
-    -webkit-box-shadow: 4px 0px 8px 0px rgba(184,184,184,1);
-    -moz-box-shadow: 4px 0px 8px 0px rgba(184,184,184,1);
-    box-shadow: 4px 0px 8px 0px rgba(184,184,184,1);
+    -webkit-box-shadow: 0px 5px 6px 1px rgba(102,102,102,.25);
+    moz-box-shadow: 0px 5px 6px 1px rgba(102,102,102,.25);
+    box-shadow: 0px 5px 6px 1px rgba(102,102,102,.25);
     z-index: 2;
     background-color: $grey975;
     padding-top: 40px;
@@ -51,34 +50,6 @@ nav {
         margin: 0;
         padding: 0;
         li {
-            position: relative;
-            &.parent {
-                &:after {
-                    content: "\e900";
-                    font-family: 'DS_icon_font' !important;
-                    speak: none;
-                    font-style: normal;
-                    font-weight: normal;
-                    font-variant: normal;
-                    text-transform: none;
-                    line-height: 1;
-                    -webkit-font-smoothing: antialiased;
-                    -moz-osx-font-smoothing: grayscale;
-                    text-decoration: inherit;
-                    color: $grey400;
-                    font-size: $base-font-size;
-                    padding-right: 2em;
-                    position: absolute;
-                    top: 12px;
-                    right: 0;
-                    font-size: 12px;
-                }
-                &.active {
-                    &:after {
-                        content: "\e903";
-                    }
-                }                                                                  
-            }
             a {
                 color: $grey400;
                 position: relative;
@@ -87,18 +58,53 @@ nav {
                 letter-spacing: 0.05em;
                 text-decoration: none;
                 text-transform: uppercase;
-                &.active, &:hover {
-                    background: $grey800;
+                &.parent {
+                    &:after {
+                        content: "\e900";
+                        font-family: 'DS_icon_font' !important;
+                        speak: none;
+                        font-style: normal;
+                        font-weight: normal;
+                        font-variant: normal;
+                        text-transform: none;
+                        line-height: 1;
+                        -webkit-font-smoothing: antialiased;
+                        -moz-osx-font-smoothing: grayscale;
+                        text-decoration: inherit;
+                        color: $grey400;
+                        font-size: $base-font-size;
+                        padding-right: 2em;
+                        position: absolute;
+                        top: 33%;
+                        right: 0;
+                        font-size: 12px;
+                    }
+                    &.active {
+                        &:after {
+                            content: "\e903";
+                        }
+                    }                                                                  
+                }
+                &.active {
                     color: $grey400;
                     text-decoration: none;
                 }
+                &:hover {
+                    color: $grey400;
+                    text-decoration:none;
+                }
             }
             ul {
+                margin-left: 32px;
                 li {
                     a {
                         font-weight: 400;
-                        padding-left: 64px;
                         text-transform: none;
+                    }
+                    a:hover, a.active {
+                        background-color: $grey800;
+                        color: $grey400;
+                        
                     }
                 }
             }
