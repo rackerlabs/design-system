@@ -1,33 +1,39 @@
 ---
 layout: website/default
 ---
-<table class="temp-overview-table">
-    {% assign iconCount = 1 %}
-	{% for component in site.pages %}
-        {% if component.category == page.title %}
-    	   {% if iconCount == 1 %}
-                <tr class="temp-overview-tr">
+<div class="temp-table-con">
+    <table class="temp-overview-table" >
+        {% assign iconCount = 1 %}
+    	{% for component in site.pages %}
+            {% if component.category == page.title %}
+        	   {% if iconCount == 1 %}
+                    <tr class="temp-overview-tr">
+                {% endif %}
+                        <td class="temp-overview-td">
+                            <a class="ws-no-underline"href="{{site.baseurl}}{{component.url}}.html">
+                                <div class="ws-sum-con">
+                                    <h1 class="ws-h1-component-page">{{component.title}}</h1>
+                                	<img class="ws-preview-image" {% if component.preview-image %} src='{{site.baseurl}}{{site.websiteAssets}}/img/{{component.preview-image}}' {% else %} src='{{site.baseurl}}{{site.websiteAssets}}/img/place-holder.svg' {% endif %}>
+                                    
+                                    <p class="temp-remove-padding">{{component.usage}}</p>
+                                </div>
+                            </a>
+                        </td>
+                {% assign iconCount = iconCount | plus: 1%}
+                {% if iconCount == 4 %}
+                    </tr>
+                    {% assign iconCount = 1 %}
+                {% endif %}
             {% endif %}
-                    <td class="temp-overview-td">
-                        <a class="ws-no-underline"href="{{site.baseurl}}{{component.url}}.html">
-                            <div class="ws-sum-con">
-                                <h1 class="ws-h1-component-page">{{component.title}}</h1>
-                            	<img class="ws-preview-image" {% if component.preview-image %} src='{{site.baseurl}}{{site.websiteAssets}}/img/{{component.preview-image}}' {% else %} src='{{site.baseurl}}{{site.websiteAssets}}/img/place-holder.svg' {% endif %}>
-                                
-                                <p class="temp-remove-padding">{{component.usage}}</p>
-                            </div>
-                        </a>
-                    </td>
-            {% assign iconCount = iconCount | plus: 1%}
-            {% if iconCount == 4 %}
-                </tr>
-                {% assign iconCount = 1 %}
-            {% endif %}
-        {% endif %}
-    {% endfor %}
-</table>
+        {% endfor %}
+    </table>
+</div>
 
 <style type = "text/css" scoped>
+
+    .temp-table-con{
+        margin: -20px;
+    }
 
     .temp-overview-table{
         border-collapse: separate;
@@ -38,10 +44,13 @@ layout: website/default
     .temp-overview-td{
         border: 1px solid #d8d8d8;
         padding: 0;
+        border-radius: 2px;
+        transition: all .4s ease;
     }
 
     .temp-overview-td:hover{
-        background-color: #E4F9F9;
+        background-color: #f5f5f5;
+        border: 1px solid #16b9d4;
     }
 
     .ws-sum-con{
