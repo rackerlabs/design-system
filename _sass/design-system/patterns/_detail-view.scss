@@ -16,7 +16,7 @@
 
 .rs-detail-section-title {
   margin-right: 10px;
-  font-family: $alt-font-family;
+  //font-family: $alt-font-family;
   font-size: 22px;
   font-weight: 600;
 }
@@ -77,7 +77,7 @@
 .rs-collapsible-section.expanded {
   > .rs-detail-section-header {
     > .rs-caret {
-      @include sprite($section-toggle-expanded);
+      //@include sprite();
     }
   }
 
@@ -85,7 +85,7 @@
   > .rs-detail-section-header:hover,
   > .rs-detail-section-header:focus {
     > .rs-caret {
-      @include sprite($section-toggle-expanded-hover);
+      //@include sprite(-hover);
     }
   }
 }
@@ -93,7 +93,7 @@
 .rs-collapsible-section.collapsed {
   > .rs-detail-section-header {
     > .rs-caret {
-      @include sprite($section-toggle-collapsed);
+      //@include sprite($section-toggle-collapsed);
     }
   }
 
@@ -101,7 +101,7 @@
   > .rs-detail-section-header:hover,
   > .rs-detail-section-header:focus {
     > .rs-caret {
-      @include sprite($section-toggle-collapsed-hover);
+      //@include sprite($section-toggle-collapsed-hover);
     }
   }
 }
@@ -111,7 +111,6 @@
     > .rs-caret {
       width: 16px;
       height: 16px;
-      background: image-url('loading-indicator.gif');
     }
   }
 }
@@ -123,7 +122,7 @@
 
 .rs-detail-header-title,
 .rs-detail-header-subtitle {
-  font-family: $alt-font-family;
+  //font-family: $alt-font-family;
 }
 
 .rs-detail-header-title {
@@ -140,7 +139,7 @@
 }
 
 .rs-detail-header-actions {
-  @extend %rs-pull-right;
+  //@extend %rs-pull-right;
 }
 
 // Create Sections
@@ -176,7 +175,7 @@
 .rs-detail-item {
   margin: 0 0 10px;
 
-  @include micro-clearfix;
+  //@include micro-clearfix;
 }
 
 .rs-detail-key {
@@ -191,32 +190,32 @@
     width: $key-width;
   }
   .rs-detail-value {
-    margin-left: $key-width + $value-margin-left;
+    //margin-left: $key-width + $value-margin-left;
   }
 }
 
-@include set-detail-key-values();
+//@include set-detail-key-values();
 
 .rs-detail-xsmall {
-  @include set-detail-key-values(60px);
+  //@include set-detail-key-values(60px);
 }
 
 .rs-detail-small {
-  @include set-detail-key-values(80px);
+  //@include set-detail-key-values(80px);
 }
 
 .rs-detail-medium {
-  @include set-detail-key-values(100px);
+  //@include set-detail-key-values(100px);
 }
 
 .rs-detail-large {
-  @include set-detail-key-values(120px);
+  //@include set-detail-key-values(120px);
 }
 
 .rs-detail-xlarge {
-  @include set-detail-key-values(150px);
+  //@include set-detail-key-values(150px);
 }
 
 .rs-detail-xxlarge {
-  @include set-detail-key-values(180px);
+  //@include set-detail-key-values(180px);
 }
