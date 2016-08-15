@@ -6,7 +6,7 @@
   <ul>
     
     {% assign currenturl = page.url %}
-    <li><a href="/" {% if currentpage == "/" %} class="active" {% else %} {% endif %}>Upcoming</a></li>
+    <li><a href="/" {% if currenturl == "/" %} class="active" {% else %} {% endif %}>Upcoming</a></li>
     
     {% for navItem in site.navigation %}
       {% assign foldername = navItem | downcase %}      
@@ -14,7 +14,7 @@
       <li {% if foldername == "resources" %}{% else %} class="parent"{% endif %}>      
         <a href="{{site.baseurl}}/{{navItem | downcase}}" {% if currenturl == parenturl %} class="active" {% endif %}>{{navItem}}</a>
         
-        <ul {% if page.url contains foldername %} class="active" {% else %} class="inactive"  {% endif %}>
+        <ul {% if currenturl contains foldername %} class="active" {% else %} class="inactive"  {% endif %}>
           {% for page in site.pages %}
             {% if page.category == navItem | downcase %}
             <li><a href="{{site.baseurl}}{{page.url}}.html" {% if currenturl contains page.url %} class="active" {% else %} {% endif %}>{{page.title}}</a></li>
