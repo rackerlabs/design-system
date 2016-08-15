@@ -155,6 +155,9 @@ $zindexPopovers: 1000;
  * Site header
  */
 .site-header {
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
     display: block;
     background-color: $grey1000;
     padding: 4px 32px;
@@ -166,14 +169,21 @@ $zindexPopovers: 1000;
         float: left;
         width: 240px;
         img {
-            height: 32px;
+            padding:3px 0;
+            height: 26px;
             width: auto;
         }
     }
     .nameplate {
-            color: 9e9e9e;
+            color: #9e9e9e;
             float: left;
-            font-size: 1.25em;
+            font-size: 16px;
+            line-height:32px;
+            font-weight:400;
+        }
+    .nameplate span{
+            font-weight:600;
+            color: #d8d8d8;
         }
 }
 
@@ -194,6 +204,10 @@ nav {
     z-index: 2;
     background-color: $grey975;
     padding-top: 40px;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-weight:600;
     .inactive {
         display: none;
     }
@@ -212,7 +226,7 @@ nav {
                     font-family: 'DS_icon_font' !important;
                     speak: none;
                     font-style: normal;
-                    font-weight: normal;
+                    font-weight: 500;
                     font-variant: normal;
                     text-transform: none;
                     line-height: 1;
@@ -234,16 +248,21 @@ nav {
                 }                                                                  
             }
             a {
-                color: $grey400;
+                color: $grey200;
                 position: relative;
                 display: block;
                 padding: 8px 32px;
                 letter-spacing: 0.05em;
                 text-decoration: none;
                 text-transform: uppercase;
-                &.active, &:hover {
+                &.active{
+                    background: $grey900;
+                    color: $grey200;
+                    text-decoration: none;
+                }
+                &:hover {
                     background: $grey800;
-                    color: $grey400;
+                    color: $grey200;
                     text-decoration: none;
                 }
             }
@@ -254,9 +273,13 @@ nav {
                         padding-left: 64px;
                         text-transform: none;
                     }
-                    a:hover, a.active {
+                    a:hover{
                         background-color: $grey800;
-                        color: $grey400;                       
+                        color: $grey200;                       
+                    }
+                    a.active {
+                        background-color: $grey900;
+                        color: $grey200;                       
                     }
                 }
             }
