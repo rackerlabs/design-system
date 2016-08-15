@@ -243,37 +243,8 @@ nav {
                 text-transform: uppercase;
                 &.active, &:hover {
                     background: $grey800;
-                        font-family: 'DS_icon_font' !important;
-                        speak: none;
-                        font-style: normal;
-                        font-weight: normal;
-                        font-variant: normal;
-                        text-transform: none;
-                        line-height: 1;
-                        -webkit-font-smoothing: antialiased;
-                        -moz-osx-font-smoothing: grayscale;
-                        text-decoration: inherit;
-                        color: $grey400;
-                        font-size: $base-font-size;
-                        padding-right: 2em;
-                        position: absolute;
-                        top: 33%;
-                        right: 0;
-                        font-size: 12px;
-                    }
-                    &.active {
-                        &:after {
-                            content: "\e903";
-                        }
-                    }                                                                  
-                }
-                &.active {
                     color: $grey400;
                     text-decoration: none;
-                }
-                &:hover {
-                    color: $grey400;
-                    text-decoration:none;
                 }
             }
             ul {
@@ -285,8 +256,7 @@ nav {
                     }
                     a:hover, a.active {
                         background-color: $grey800;
-                        color: $grey400;
-                        
+                        color: $grey400;                       
                     }
                 }
             }
