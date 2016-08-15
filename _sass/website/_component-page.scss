@@ -107,18 +107,6 @@ ul {
 		}
 	}
 }
-/**
-* Component Status Tag
-*/
-$grey300: #e0e0e0;
-$purple:#3b44a9;
-$green:#4caf51;
-$paddingXS:4px;
-$paddingS:8px;
-$paddingM:12px;
-$paddingL:20px;
-$paddingXL:28px;
-$paddingXXL:32px;
 
 .status {
 	background-color: $grey300;
@@ -163,3 +151,33 @@ $paddingXXL:32px;
 		}
 	}
 }
+
+.color-chip, .color-chip-alert {
+ 	width: 20%;
+ 	display: block;
+ 	box-sizing: border-box;
+ 	margin-left: 0;
+ 	text-align: center;
+ 	float: left;
+ 	padding: 24px 0;
+ 	span {
+ 		display: block;
+ 	}
+ }
+ 
+ .color-chip span:last-of-type{
+ 	font-size:14px;
+ }
+ 
+ .color-chip-alert{
+ 	width:25%;
+ }
+ 
+ .primary-color-chip{
+ 	width:100%;
+ 	border-bottom:4px solid #fff;
+ }
+ 
+ .color-chip-light{
+ 	color:#fff;
+ }
