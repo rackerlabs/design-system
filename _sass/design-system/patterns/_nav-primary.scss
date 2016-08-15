@@ -30,7 +30,7 @@
     position: absolute;
     top: 13px;
     right: 12px;
-    @include sprite-position($caret-primary, 16px);
+    //@include sprite-position($caret-primary, 16px);
 
     &:before {
       content: "";
@@ -87,7 +87,7 @@
     &.rs-dropdown.hover,
     &.rs-dropdown.active {
       .rs-caret {
-        @include sprite-position($caret-primary-active, 16px);
+        //@include sprite-position($caret-primary-active, 16px);
       }
     }
 

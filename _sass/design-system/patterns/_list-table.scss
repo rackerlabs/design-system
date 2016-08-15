@@ -190,21 +190,21 @@ td {
 }
 
 .rs-table-sort-asc > .rs-table-sort-indicator {
-  @include sprite($sort-ascending);
+  //@include sprite($sort-ascending);
 }
 
 .rs-table-sort-asc.hover > .rs-table-sort-indicator,
 .rs-table-sort-asc:hover > .rs-table-sort-indicator {
-  @include sprite($sort-ascending-hover);
+  //@include sprite($sort-ascending-hover);
 }
 
 .rs-table-sort-desc > .rs-table-sort-indicator {
-  @include sprite($sort-descending);
+  //@include sprite($sort-descending);
 }
 
 .rs-table-sort-desc.hover > .rs-table-sort-indicator,
 .rs-table-sort-desc:hover > .rs-table-sort-indicator {
-  @include sprite($sort-descending-hover);
+  //@include sprite($sort-descending-hover);
 }
 
 /* Base Table Overlay */
@@ -224,7 +224,7 @@ td {
 }
 
 .rs-table-overlay-title, .rs-table-overlay-subtitle {
-  font-family: $alt-font-family;
+  //font-family: $alt-font-family;
 }
 
 .rs-table-overlay-title {
@@ -252,7 +252,7 @@ td {
 .rs-table-overlay-loading .rs-table-overlay-message {
   color: $grey500;
   &:before {
-    background: image-url('clouding@2x.gif') center center no-repeat;
+    //background: image-url('clouding@2x.gif') center center no-repeat;
     background-size: auto 20px;
     content: "";
     display: block;
