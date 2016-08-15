@@ -28,7 +28,7 @@ textarea {
 }
 
 .rs-input-mini {
-  @extend .rs-input-xsmall
+  //@extend .rs-input-xsmall
 }
 
 .rs-input-small {
@@ -212,8 +212,8 @@ textarea {
   }
 
   .rs-validation-indicator {
-    @include icon;
-    @include sprite($ok-circle);
+    //@include icon;
+    //@include sprite($ok-circle);
   }
 }
 
@@ -265,7 +265,7 @@ textarea {
   }
 
   .rs-validation-indicator {
-    @include icon(13px, 12px);
-    @include sprite($exclamation-sign);
+    //@include icon(13px, 12px);
+    //@include sprite($exclamation-sign);
   }
 }

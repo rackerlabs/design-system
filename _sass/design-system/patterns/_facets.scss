@@ -72,13 +72,13 @@
 }
 
 .rs-facet-toggle-arrow {
-  @include icon;
-  @include sprite($arrow-blue-right);
+  //@include icon;
+  //@include sprite($arrow-blue-right);
 }
 
 .rs-facet-section.expanded .rs-facet-section-toggle .rs-facet-toggle-arrow {
-  @include icon;
-  @include sprite($arrow-blue-up);
+  //@include icon;
+  //@include sprite($arrow-blue-up);
 }
 
 .rs-facet-item {
@@ -152,15 +152,15 @@
   }
 
   .rs-status-ok {
-    @include sprite($status-green);
+    //@include sprite($status-green);
   }
 
   .rs-status-warning {
-    @include sprite($status-yellow);
+    //@include sprite($status-yellow);
   }
 
   .rs-status-error {
-    @include sprite($status-red);
+    //@include sprite($status-red);
   }
 
 }

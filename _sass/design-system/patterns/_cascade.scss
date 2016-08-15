@@ -81,7 +81,7 @@ $cascade-header-height: 20px;
     }
 
     .rs-cascade-arrow {
-      @include sprite($arrow-right-c0c0c0);
+      //@include sprite($arrow-right-c0c0c0);
     }
   }
   &.disabled,
@@ -110,7 +110,7 @@ $cascade-header-height: 20px;
     }
 
     .rs-cascade-arrow {
-      @include sprite($arrow-right-fff);
+      //@include sprite($arrow-right-fff);
     }
   }
 }
@@ -128,9 +128,9 @@ $cascade-header-height: 20px;
 
 .rs-cascade-arrow {
   margin-top: 3px;
-  @extend .rs-pull-right;
-  @include icon;
-  @include sprite($arrow-right-ccc);
+  //@extend .rs-pull-right;
+  //@include icon;
+  //@include sprite($arrow-right-ccc);
 }
 
 .rs-cascade-message {
@@ -150,7 +150,7 @@ $cascade-header-height: 20px;
 .rs-cascade-short {
   height: $cascade-short-height;
   .rs-cascade-column-content {
-    height: $cascade-short-height - $cascade-header-height - 1;
+    //height: $cascade-short-height - $cascade-header-height - 1;
   }
 }
 

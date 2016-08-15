@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 96 96" style="enable-background:new 0 0 96 96;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FAFAFA;stroke:#E0E1E0;stroke-miterlimit:10;}
+	.st1{clip-path:url(#SVGID_2_);}
+	.st2{clip-path:url(#SVGID_4_);fill:#0D94A6;}
+	.st3{clip-path:url(#SVGID_4_);fill:#FFFFFF;}
+	.st4{clip-path:url(#SVGID_4_);fill:#BDBDBD;}
+	.st5{fill:#0F95A7;}
+	.st6{fill:#BDBDBD;}
+	.st7{fill:#FFFFFF;}
+	.st8{font-family:'Roboto-Medium';}
+	.st9{font-size:10.058px;}
+	.st10{fill:#F5F5F5;stroke:#BCBCBC;stroke-width:0.8078;stroke-miterlimit:10;}
+	.st11{fill:#989798;}
+	.st12{fill:#2F73BA;}
+	.st13{fill:#616262;}
+	.st14{font-family:'Roboto-Regular';}
+	.st15{font-size:12.9198px;}
+</style>
+<rect x="50.5" y="24.5" class="st0" width="44" height="40"/>
+<g id="toggle">
+	<g>
+		<defs>
+			<rect id="SVGID_1_" x="0" y="46" width="42" height="18.8"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+		</clipPath>
+		<g class="st1">
+			<defs>
+				<rect id="SVGID_3_" x="0" y="46" width="42" height="18.8"/>
+			</defs>
+			<clipPath id="SVGID_4_">
+				<use xlink:href="#SVGID_3_"  style="overflow:visible;"/>
+			</clipPath>
+			<path class="st2" d="M42,55.4c0,5.1-3.9,9.4-8.6,9.4H8.7c-4.8,0-8.6-4.2-8.6-9.4S3.9,46,8.7,46h24.7C38.1,46,42,50.2,42,55.4"/>
+			<path class="st3" d="M9.4,64.5c-5,0-9-4.1-9-9s4.1-9,9-9s9,4.1,9,9S14.4,64.5,9.4,64.5"/>
+			<path class="st4" d="M9.4,46.7c4.8,0,8.7,3.9,8.7,8.7s-3.9,8.7-8.7,8.7s-8.7-3.9-8.7-8.7S4.6,46.7,9.4,46.7 M9.4,46.1
+				c-5.2,0-9.4,4.2-9.4,9.4s4.2,9.4,9.4,9.4s9.4-4.2,9.4-9.4S14.6,46.1,9.4,46.1"/>
+		</g>
+	</g>
+</g>
+<g>
+	<path class="st5" d="M33.8,0c-4.4,0-8,3.6-8,8s3.6,8,8,8s8-3.6,8-8S38.2,0,33.8,0z M33.8,10.8C32.3,10.8,31,9.6,31,8
+		c0-1.5,1.2-2.8,2.8-2.8c1.6,0,2.8,1.2,2.8,2.8C36.6,9.5,35.3,10.8,33.8,10.8z"/>
+</g>
+<path class="st5" d="M39.8,23.3h-12c-1.1,0-2,0.9-2,2v12c0,1.1,0.9,2,2,2h12c1.1,0,2-0.9,2-2v-12C41.8,24.2,40.9,23.3,39.8,23.3z
+	 M37.6,29.4l-4,5c-0.2,0.2-0.5,0.4-0.8,0.4c-0.2,0-0.5-0.1-0.7-0.3l-2-2c-0.2-0.2-0.3-0.4-0.3-0.7c0-0.2,0.1-0.5,0.3-0.7
+	c0.2-0.2,0.4-0.3,0.7-0.3s0.5,0.1,0.7,0.3l1.2,1.2l3.3-4.1c0.2-0.3,0.5-0.4,0.8-0.4c0.2,0,0.4,0.1,0.6,0.2c0.3,0.2,0.4,0.5,0.4,0.8
+	C37.8,29,37.7,29.2,37.6,29.4z"/>
+<g>
+	<g>
+		<g>
+			<path class="st6" d="M94.1,73.3c0.5,0,0.8,0.4,0.8,0.8v20.1c0,0.5-0.4,0.8-0.8,0.8H1.9c-0.5,0-0.8-0.4-0.8-0.8V74.1
+				c0-0.5,0.4-0.8,0.8-0.8H94.1 M94.1,72.5H1.9c-0.9,0-1.7,0.8-1.7,1.7v20.1c0,0.9,0.8,1.7,1.7,1.7h92.2c0.9,0,1.7-0.8,1.7-1.7V74.1
+				C95.8,73.2,95,72.5,94.1,72.5L94.1,72.5z"/>
+		</g>
+	</g>
+	<g>
+		<path class="st5" d="M48.8,95.9H1.9c-0.9,0-1.7-0.8-1.7-1.7V74.1c0-0.9,0.8-1.7,1.7-1.7h46.9V95.9z"/>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 12.5142 87.553)" class="st7 st8 st9">This</text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 59.1309 87.553)" class="st5 st8 st9">That</text>
+	</g>
+</g>
+<g>
+	<path class="st6" d="M8,1c3.9,0,7,3.1,7,7s-3.1,7-7,7s-7-3.1-7-7S4.1,1,8,1 M8,0C3.6,0,0,3.6,0,8s3.6,8,8,8s8-3.6,8-8S12.4,0,8,0
+		L8,0z"/>
+</g>
+<path class="st6" d="M14,24.3c0.6,0,1,0.4,1,1v12c0,0.6-0.4,1-1,1H2c-0.6,0-1-0.4-1-1v-12c0-0.6,0.4-1,1-1H14 M14,23.3H2
+	c-1.1,0-2,0.9-2,2v12c0,1.1,0.9,2,2,2h12c1.1,0,2-0.9,2-2v-12C16,24.2,15.1,23.3,14,23.3L14,23.3z"/>
+<path class="st10" d="M93.4,24.7H52.3c-0.9,0-1.6-0.7-1.6-1.6v-21c0-0.9,0.7-1.6,1.6-1.6h41.2c0.9,0,1.6,0.7,1.6,1.6v21
+	C95.1,24,94.3,24.7,93.4,24.7z"/>
+<path class="st11" d="M74.9,11l-1.2,0c-0.1,0-0.1,0-0.2,0.1c0,0,0,0.1-0.1,0.1c0,0.1,0,0.2,0.1,0.3l2.2,2.2c0.1,0.1,0.3,0.1,0.4,0
+	l2.2-2.2c0.1-0.1,0.1-0.2,0.1-0.3c0,0,0-0.1-0.1-0.1c0,0-0.1-0.1-0.2-0.1h-1.2L74.9,11z"/>
+<rect x="50" y="26" class="st12" width="45" height="16"/>
+<text transform="matrix(1.0007 0 0 1 59.8882 16.7068)"><tspan x="0" y="0" class="st13 st14 st15">1</tspan><tspan x="0" y="21" class="st7 st14 st15">2</tspan><tspan x="0" y="42" class="st13 st14 st15">3</tspan></text>
+</svg>
