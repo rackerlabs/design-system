@@ -1,6 +1,4 @@
 $(document).ready(function() {
-  console.log("working");
-
     //count down on text area characters
     var text_max = 50;
     $('#textarea_feedback').html(text_max + ' characters remaining');
@@ -73,15 +71,5 @@ $(document).ready(function() {
         checkboxClass: 'icheckbox',
         radioClass: 'iradio'
     });
-
-    //overview div height
-    /*var maxheight = 0;
-
-    $('.ws-sum-con').each(function () {
-        maxheight = ($(this).height() > maxheight ? $(this).height() : maxheight);
-    });
-
-    $('.ws-sum-con').height(maxheight);*/
-
 
 });
