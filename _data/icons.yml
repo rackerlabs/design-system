@@ -2,123 +2,157 @@
   name: "Arrow Down"
   class: "icon-arrow-down"
   id: "e900"
+  group: "utility"
  2:
   name: "Arrow Left"
   class: "icon-arrow-left"
   id: "e901"
+  group: "utility"
  3:
   name: "Arrow Right"
   class: "icon-arrow-right"
   id: "e902"
+  group: "utility"
  4:
   name: "Arrow Up"
   class: "icon-arrow-up"
   id: "e903"
+  group: "utility"
  5:
   name: "Calendar"
   class: "icon-calendar"
   id: "e904"
+  group: "utility"
  6:
   name: "Check Mark"
   class: "icon-check-mark"
   id: "e921"
+  group: "validation"
+  color: "#4CAF51"
  7:
   name: "Close"
   class: "icon-close"
   id: "e907"
+  group: "utility"
  8:
   name: "Copy"
   class: "icon-copy"
   id: "e908"
+  group: "utility"
  9:
   name: "Delete"
   class: "icon-delete"
   id: "e909"
+  group: "utility"
  10:
   name: "Download"
   class: "icon-download"
   id: "e90a"
+  group: "utility"
  11:
   name: "Edit"
   class: "icon-edit"
   id: "e90b"
+  group: "utility"
  12:
   name: "Error"
   class: "icon-error"
   id: "e922"
+  group: "validation"
+  color: "red"
  13:
   name: "Export"
   class: "icon-export"
   id: "e90c"
+  group: "utility"
  14:
   name: "External Link"
   class: "icon-external-link"
   id: "e90d"
+  group: "utility"
  15:
   name: "Filter"
   class: "icon-filter"
   id: "e90e"
+  group: "utility"
  16:
   name: "Help"
   class: "icon-help"
   id: "e90f"
+  group: "utility"
  17:
   name: "Monitoring"
   class: "icon-monitoring"
   id: "e910"
+  group: "object"
  18:
   name: "Notes"
   class: "icon-notes"
   id: "e911"
+  group: "object"
  19:
   name: "Reload"
   class: "icon-reload"
   id: "e912"
+  group: "utility"
  20:
   name: "Remove Circle"
   class: "icon-remove-circle"
   id: "e915"
+  group: "utility"
  21:
   name: "Remove"
   class: "icon-remove"
   id: "e916"
+  group: "utility"
  22:
   name: "Search"
   class: "icon-search"
   id: "e917"
+  group: "utility"
  23:
   name: "Servers"
   class: "icon-servers"
   id: "e918"
+  group: "object"
  24:
   name: "Sort Down"
   class: "icon-sort-down"
   id: "e919"
+  group: "utility"
  25:
   name: "Sort Up"
   class: "icon-sort-up"
   id: "e91a"
+  group: "utility"
  26:
   name: "Sort"
   class: "icon-sort"
   id: "e91b"
+  group: "utility"
  27:
   name: "Support"
   class: "icon-support"
   id: "e91c"
+  group: "object"
  28:
   name: "Tag"
   class: "icon-tag"
   id: "e91d"
+  group: "utility"
  29:
   name: "Ticket"
   class: "icon-ticket"
   id: "e91e"
+  group: "object"
  30:
   name: "User"
   class: "icon-user"
   id: "e91f"
+  group: "object"
  31:
   name: "Warning"
   class: "icon-warning"
   id: "e920"
+  group: "validation"
+  color: "#FBC02D"
