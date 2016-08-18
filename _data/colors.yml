@@ -49,6 +49,11 @@
     value: "#BBDEFB"
     class: "lesser"
     type: "dark"
+   E:
+    number: 50
+    value: "#E1EEF9"
+    class: "lesser"
+    type: "dark"
  3:
   name: "Magenta"
   colors:
@@ -72,6 +77,11 @@
     value: "#F8BBD0"
     class: "lesser"
     type: "dark"
+   E:
+    number: 50
+    value: "#FCE0EB"
+    class: "lesser"
+    type: "dark"
  4:
   name: "Purple"
   colors:
@@ -92,9 +102,14 @@
     type: "light"
    D:
     number: 100
-    value: "#4A5ACC"
+    value: "#6676BC"
     class: "lesser"
     type: "light"
+   E:
+    number: 50
+    value: "#ADB7DD"
+    class: "lesser"
+    type: "dark"
  5:
   name: "Orange"
   colors:
@@ -116,5 +131,10 @@
    D:
     number: 100
     value: "#FDD179"
+    class: "lesser"
+    type: "dark"
+   E:
+    number: 50
+    value: "#F8E1BB"
     class: "lesser"
     type: "dark"

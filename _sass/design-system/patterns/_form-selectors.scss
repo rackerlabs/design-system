@@ -90,21 +90,21 @@ input.altSelectorDis[type=checkbox]:checked + label:focus, input.altSelectorDis[
 /*ERROR STYLES*/
 
 label.altSelectorErr{
-  color:$red;
+  color:$red900;
 }
 
 input.altSelectorErr[type=checkbox]:checked + label,  input.altSelectorErr[type=radio]:checked + label{
-  background-color:$red;
+  background-color:$red900;
   color:$grey0;
 }
 
 input.altSelectorErr[type=checkbox] + label:focus, input.altSelectorErr[type=radio] + label:focus, input.altSelectorErr[type=checkbox] + label:hover, input.altSelectorErr[type=radio] + label:hover{
   background-color:$red100;
-  color:$red;
+  color:$red900;
 }
 
 input.altSelectorErr[type=checkbox]:checked + label:focus, input.altSelectorErr[type=checkbox]:checked + label:focus, input.altSelectorErr[type=checkbox]:checked + label:hover, input.altSelectorErr[type=radio]:checked + label:hover{
-  background-color:$redAccent;
+  background-color:$red700;
   color:$grey0;
 }
 
@@ -114,7 +114,7 @@ input.altSelectorErr[type=checkbox] + label:active,  input.altSelectorErr[type=c
 }
 
 input.altSelectorErr[type=checkbox] + label:active,  input.altSelectorErr[type=checkbox]:checked + label:active, input.altSelectorErr[type=radio] + label:active, input.altSelectorErr[type=radio]:checked + label:active{
-  background-color:$red900;
+  background-color:$redAccent;
   color:$grey0;
 }
 
@@ -350,7 +350,7 @@ $select-height: 40px;
   }
 
   &.textInputError{
-    border: 2px solid $red;
+    border: 2px solid $red900;
   }
 }
 
@@ -474,7 +474,7 @@ label.selector, label.selectorDisabled{
 }
 
 .checked:before {
-  color: $action500;
+  color: $action700;
 }
 
 .disabled{
@@ -487,7 +487,7 @@ label.selector, label.selectorDisabled{
 }
 
 .error .iradio:before, .error .icheckbox:before, .error .checked:before {
-  color: $red;
+  color: $red900;
 }
 
 .icheck .focus {

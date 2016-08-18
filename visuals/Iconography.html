@@ -7,16 +7,17 @@ preview-image: visuals-icons.svg
 ---
 
 
-<h1 class="ws-section-head">Icon Font<span class="status prototype">In Progress</span></h1>
-<p>Icons should be used sparingly and with purpose. Icons can draw attention, help with way-finding or overcome space constraints. Universally understood icons work well. If you think your icon needs a text label to be identifiable, then a text label is probably all you need. </p>
+<h1 class="ws-section-head">Utility Icons<span class="status prototype">In Progress</span></h1>
+<p class="ws-first-p">Utility icons can be used in place of text to perform an action. They are based on commonly used, established metaphors. If it takes the text to explain what an icon does, leave out the icon and only use the text. Utility icons should be colored like links or match the color of body text dependent on the background color. </p>
 
-<p class="ws-first-p">If you think there is need for an additional icon to be added to the list please submit your request to the Helix Team.</p>
+<div>
 	{% assign iconCount = 1 %}
 	{%for icon_hash in site.data.icons%}
 		{%assign icon=icon_hash[1]%}
-		{% if iconCount == 1 %}
+		{% if icon.group == "utility" %}
+			{% if iconCount == 1 %}
 			<div class="rs-row ws-icon-row">		
-		{% endif %}
+			{% endif %}
 				<div class="span-1"></div>
 				<div class="ws-icon-chip span-2">
 				  	<span class="ws-icon-chip-icon"><i class="{{icon.class}}"></i></span>
@@ -24,21 +25,97 @@ preview-image: visuals-icons.svg
 				  	<span class="ws-icon-chip-text">{{icon.id}}</span>
 				</div>
 				<div class="span-1"></div>
-		{% assign iconCount = iconCount | plus: 1%}
-		{% if iconCount == 4 %}
-			</div>
-			{% assign iconCount = 1 %}
+				{% assign iconCount = iconCount | plus: 1%}
+				{% if iconCount == 4 %}
+					</div>
+					{%assign closeDiv = true%}
+					{% assign iconCount = 1 %}
+				{% else %}
+					{%assign closeDiv = false%}
+				{% endif %}
 		{% endif %}
 	{%endfor%}
+	{%if closeDiv == false%}
+			</div>
+	{% endif %}
+</div>
 
+<h1 class="ws-section-head">Object Icons<span class="status prototype">In Progress</span></h1>
+<p class="ws-first-p">Object icons should be used sparingly and consistently across Rackspace products. Their purpose is to provide a visual differentiator between items in a list or symbolize types of content.</p>
 
+<div>
+	{% assign iconCount = 1 %}
+	{%for icon_hash in site.data.icons%}
+		{%assign icon=icon_hash[1]%}
+		{% if icon.group == "object" %}
+			{% if iconCount == 1 %}
+			<div class="rs-row ws-icon-row">		
+			{% endif %}
+				<div class="span-1"></div>
+				<div class="ws-icon-chip span-2">
+				  	<span class="ws-icon-chip-icon"><i class="{{icon.class}}"></i></span>
+				  	<span class="ws-icon-chip-text">{{icon.name}}</span>
+				  	<span class="ws-icon-chip-text">{{icon.id}}</span>
+				</div>
+				<div class="span-1"></div>
+				{% assign iconCount = iconCount | plus: 1%}
+				{% if iconCount == 4 %}
+					</div>
+					{%assign closeDiv = true%}
+					{% assign iconCount = 1 %}
+				{% else %}
+					{%assign closeDiv = false%}
+				{% endif %}
+		{% endif %}
+	{%endfor%}
+	{%if closeDiv == false%}
+			</div>
+	{% endif %}
+</div>
+
+<h1 class="ws-section-head">Validation Icons<span class="status prototype">In Progress</span></h1>
+<p class="ws-first-p">Validation icons can be used to provide checks, errors, and warnings in forms.  They also can be used to draw users' attention to statuses or messages. Use the colors blow to draw the users' attention. Otherwise use the icons in black, gray, or white, corresponding to the color of the body text of the background.</p>
+
+<div>
+	{% assign iconCount = 1 %}
+	{%for icon_hash in site.data.icons%}
+		{%assign icon=icon_hash[1]%}
+		{% if icon.group == "validation" %}
+			{% if iconCount == 1 %}
+			<div class="rs-row ws-icon-row">		
+			{% endif %}
+				<div class="span-1"></div>
+				<div class="ws-icon-chip span-2">
+				  	<span class="ws-icon-chip-icon" style="color:{{icon.color}}"><i class="{{icon.class}}"></i></span>
+				  	<span class="ws-icon-chip-text">{{icon.name}}</span>
+				  	<span class="ws-icon-chip-text">{{icon.id}}</span>
+				</div>
+				<div class="span-1"></div>
+				{% assign iconCount = iconCount | plus: 1%}
+				{% if iconCount == 4 %}
+					</div>
+					{%assign closeDiv = true%}
+					{% assign iconCount = 1 %}
+				{% else %}
+					{%assign closeDiv = false%}
+				{% endif %}
+		{% endif %}
+	{%endfor%}
+	{%if closeDiv == false%}
+			</div>
+	{% endif %}
+</div>
+
+<h1 class="ws-section-head"> New Requests</h1>
+<!--<p class="ws-first-p" style="padding:40px 0 0 0;">-->
+<p style="padding-bottom:0px;"> If you need an additional icon, please submit your request to the <a href="mailto:helix.designsystem@rackspace.com?subject=Icon Request">Helix Team</a>.</p>
 
 <style type="text/css">
 	.ws-icon-row{
-		padding-bottom: 40px;
+		padding: 0 0 40px 0;
 	}
 
-	.ws-icon-row:last-child{
+	.ws-icon-row:last-of-type{
 		padding-bottom: 0px;
 	}
 
