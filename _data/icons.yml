@@ -28,7 +28,7 @@
   class: "icon-check-mark"
   id: "e921"
   group: "validation"
-  color: "#4CAF51"
+  color: "#2e7d32"
  7:
   name: "Close"
   class: "icon-close"
@@ -59,7 +59,7 @@
   class: "icon-error"
   id: "e922"
   group: "validation"
-  color: "red"
+  color: "#d32f2f"
  13:
   name: "Export"
   class: "icon-export"
