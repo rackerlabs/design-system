@@ -34,7 +34,7 @@ input[type="text"],input[type="password"],input[type="email"],input[type="search
   }
 
   &.textInputError{
-  	border: 2px solid $red700;
+  	border: 2px solid $red900;
   }
 
   &.textInputError:focus{
@@ -48,7 +48,7 @@ textarea{
 }
 
 .form-subtext.error{
-  color:$red700;
+  color:$red900;
 }
 
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -165,5 +165,5 @@ ICONS IN MARGIN AFTER INPUT
 }
 
 .errorFormGroupIcon{
-  color:$red700;
+  color:$red900;
 }
