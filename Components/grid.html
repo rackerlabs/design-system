@@ -7,136 +7,113 @@ preview-image: components-grid.svg
 ---
 
 
-<h1 class="ws-section-head"><strike>Responsive</strike> Fluid 12 Column Grid<span class="status prototype">In Progress</span></h1>
-<p class="ws-todo-bar" style="margin-bottom:24px;"><b>TODO:</b> Turn our fluid grid into a fully responsive grid</p>
-<p class="ws-first-p">Implementation of the <strike>responsive</strike> fluid grid system is flexible and makes it simple to adjust the grid to custom needs. By default, the grid consists of 12 columns <strike>which will stack responsively for tablet and mobile screens.</strike></p>
+<h1 class="ws-section-head">Responsive 12 Column Grid<span class="status prototype">In Progress</span></h1>
+<p class="ws-first-p">Implementation of the responsive fluid grid system is flexible and makes it simple to adjust the grid to custom needs. By default, the grid consists of 12 columns which will stack responsively for tablet and mobile screens.</p>
 
 <h3 class="ws-grid-h3">Options</h3>
-<div class="rs-row">
-  <div class="span-6">
-    <div class="ws-grid-ex-left">
-      <img src="../assets/img/side-nav.svg"  class="ws-grid-img">
-      <span class="subtext">Left Navigation</span>
-    </div>
+
+<div class="row">
+  <div class="col-md-6">
+    <img src="../assets/img/side-nav.svg"  class="ws-grid-img">
+    <span class="subtext">Left Navigation</span>
   </div>
-  <div class="span-6">
-    <div class="ws-grid-ex-right">
-      <img src="../assets/img/top-nav.svg"  class="ws-grid-img">
-      <span class="subtext">Top Navigation</span>
-    </div>
+  <div class="col-md-6">
+    <img src="../assets/img/top-nav.svg"  class="ws-grid-img">
+    <span class="subtext">Top Navigation</span>
   </div>
 </div>
 
 <h3 class="ws-grid-h3">In Practice</h3>
-<div class="rs-row ws-grid-page-row">
-  <div class="span-12 grid-bg">
-    <div class="gutter-bg">Option 1
-      <span>1/1</span></div>
+
+<div class="device">
+  <h4>Single Column</h4>
+  <div class="row">
+    <div class="col-xs-12 col-xs-12 col-md-12">
+      <div class="grid-bg">1/1</div>
+    </div>
+  </div>
+
+  <h4>Two Columns</h4>
+  <div class="row">
+    <div class="col-md-6">
+      <div class="grid-bg">1/2</div>
+    </div>
+    <div class="col-md-6">
+      <div class="grid-bg">1/2</div>
+    </div>
+  </div>
+
+  <h4>Three Columns</h4>
+  <div class="row">
+    <div class="col-xs-12 col-md-4">
+      <div class="grid-bg">1/3</div>
+    </div>
+    <div class="col-xs-12 col-md-4">
+      <div class="grid-bg">1/3</div>
+    </div>
+    <div class="col-xs-12 col-md-4">
+      <div class="grid-bg">1/3</div>
+    </div>
+  </div>
+
+  <h4>Four Columns</h4>
+  <div class="row">
+    <div class="col-xs-12 col-md-3">
+      <div class="grid-bg">1/4</div>
+    </div>
+    <div class="col-xs-12 col-md-3">
+      <div class="grid-bg">1/4</div>
+    </div>
+    <div class="col-xs-12 col-md-3">
+      <div class="grid-bg">1/4</div>
+    </div>
+    <div class="col-xs-12 col-md-3">
+      <div class="grid-bg">1/4</div>
+    </div>
+  </div>
+
+  <h4>Mixed Columns</h4>
+  <div class="row">
+    <div class="col-xs-12 col-md-8">
+      <div class="grid-bg">2/3</div>
+    </div>
+    <div class="col-xs-12 col-md-4">
+      <div class="grid-bg">1/3</div>
+    </div>
   </div>
 </div>
-
-<div class="rs-row ws-grid-page-row">
-  <div class="span-6 grid-bg">
-    <div class="gutter-bg">Option 2
-      <span>1/2</span></div>
-  </div>
-  <div class="span-6 grid-bg">
-    <div class="gutter-bg">Option 2
-      <span>1/2</span></div>
-  </div>
-</div>
-
-<div class="rs-row ws-grid-page-row">
-  <div class="span-4 grid-bg">
-    <div class="gutter-bg">Option 3
-      <span>1/3</span></div>
-  </div>
-  <div class="span-4 grid-bg">
-    <div class="gutter-bg">Option 3
-      <span>1/3</span></div>
-  </div>
-  <div class="span-4 grid-bg">
-    <div class="gutter-bg">Option 3
-      <span>1/3</span></div>
-  </div>
-</div>
-
-<div class="rs-row ws-grid-page-row">
-  <div class="span-3 grid-bg">
-    <div class="gutter-bg">Option 4
-      <span>1/4</span></div>
-  </div>
-  <div class="span-3 grid-bg">
-    <div class="gutter-bg">Option 4
-      <span>1/4</span></div>
-  </div>
-  <div class="span-3 grid-bg">
-    <div class="gutter-bg">Option 4
-      <span>1/4</span></div>
-  </div>
-  <div class="span-3 grid-bg">
-    <div class="gutter-bg">Option 4
-      <span>1/4</span></div>
-  </div>
-</div>
-
-<div class="rs-row ws-grid-page-row">
-  <div class="span-9 grid-bg">
-    <div class="gutter-bg">Option 5
-      <span>2/3</span></div>
-  </div>
-  <div class="span-3 grid-bg">
-    <div class="gutter-bg">Option 5
-      <span>1/3</span></div>
-  </div>
-</div>
-
 
 <style type="text/css">
   .ws-grid-h3{
     padding: 32px 0;
   }
 
-  .ws-grid-ex-left{
-    margin-right: 20px;
-  }
-
-  .ws-grid-ex-right{
-    margin-left: 20px;
-  }
-
-  .ws-grid-ex-left span, .ws-grid-ex-right span{
-    display: block;
-    text-align: center;
-    padding-top: 8px;
-  }
-
   .ws-grid-h3:first-of-type{
     padding: 0 0 32px 0;
   }
-
   .ws-grid-img-lbl{
     text-align: center;
   }
-
   .grid-bg {
     background: #B6E3EB;
     display: block;
+    font-size: 14px;
     text-align: center;
     padding: 40px 0;
-
   }
-
-  .ws-grid-page-row{
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
     margin-bottom: 20px;
   }
 
-  .ws-grid-page-row:last-of-type{
-    margin-bottom: 0;
+  .device {
+    background: #f5f5f5;
+    border: 1px solid #616161;
+    padding: 20px 20px 0 20px;
   }
 
-  .grid-bg span{
-    font-size: 14px;
-    display: block;
+  h4 {
+    font-weight: normal;
+    margin-bottom: 4px;
   }
+
 </style>
