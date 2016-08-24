@@ -6,7 +6,7 @@
   <ul>
 
     {% assign currenturl = page.url %}
-    <li><a href="http://design.rax.io/design-system/" {% if currenturl == "/" %} class="active" {% else %} {% endif %}>Upcoming</a></li>
+    <li><a href="{{site.baseurl}}/" {% if currenturl == "/" %} class="active" {% else %} {% endif %}>Upcoming</a></li>
 
     {% for navItem in site.navigation %}
       {% assign foldername = navItem | downcase %}
