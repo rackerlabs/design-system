@@ -23,17 +23,19 @@ $(document).ready(function() {
 
     //dropdown selector
     $('#contact').selectmenu();
+    $('#contact2').selectmenu();
+    $('#contact3').selectmenu();
 
     //dropdown buttons
     var page = $( "#page" );
- 
+
     $( ".dropdown-btn" ).controlgroup();
     $( "#dropdown-btn" ).on( "selectmenuchange", function() {
       page.css({ "dropdown-btn": $( this ).val() });
     });
     $('#dropdown-btn-button').addClass('ds-btn-med');
 
-   
+
     $( "#dropdown-btn-combo" ).selectmenu({
       classes: {
         "ui-selectmenu-button": "ui-button-icon-only demo-splitbutton-select ds-btn-med"
@@ -53,7 +55,7 @@ $(document).ready(function() {
       page.css({ "dropdown-btn": $( this ).val() });
     });
     $('#dropdown-btn-sec-button').addClass('ds-btn-med-sec');
-   
+
     $( "#dropdown-btn-combo-sec" ).selectmenu({
       classes: {
         "ui-selectmenu-button": "ui-button-icon-only demo-splitbutton-select ds-btn-med-sec"

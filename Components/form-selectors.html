@@ -21,7 +21,7 @@ preview-image: components-selectors.svg
 		    <input type="radio" name="radio1" id="radio-2">
 		    <label for="radio-2">Option 2</label>
 		    <input type="radio" name="radio1" id="radio-3">
-		    <label for="radio-3">Option 3</label>  
+		    <label for="radio-3">Option 3</label>
 		</fieldset>
 	</div>
 
@@ -34,7 +34,7 @@ preview-image: components-selectors.svg
 		    <input type="radio" name="radio2" id="radio-2a" disabled="disabled">
 		    <label for="radio-2a" class="selectorDisabled">Option 2</label>
 		    <input type="radio" name="radio2" id="radio-3a" disabled="disabled">
-		    <label for="radio-3a" class="selectorDisabled">Option 3</label>  
+		    <label for="radio-3a" class="selectorDisabled">Option 3</label>
 		</fieldset>
 	</div>
 
@@ -47,7 +47,7 @@ preview-image: components-selectors.svg
 		    <input type="radio" name="radio3" id="radio-2b">
 		    <label for="radio-2b">Option 2</label>
 		    <input type="radio" name="radio3" id="radio-3b">
-		    <label for="radio-3b">Option 3</label>  
+		    <label for="radio-3b">Option 3</label>
 		</fieldset>
 		<p class="subtext error">There is an error with the response to this question.</p>
 	</div>
@@ -108,7 +108,7 @@ preview-image: components-selectors.svg
 		    <input type="checkbox" name="checkbox1" id="checkbox-2" checked>
 		    <label for="checkbox-2">Option 2</label>
 		    <input type="checkbox" name="checkbox1" id="checkbox-3" checked>
-		    <label for="checkbox-3">Option 3</label>  
+		    <label for="checkbox-3">Option 3</label>
 		</fieldset>
 	</div>
 
@@ -121,7 +121,7 @@ preview-image: components-selectors.svg
 		    <input type="checkbox" name="checkbox3" id="checkbox-2a" disabled="disabled">
 		    <label for="checkbox-2a" class="disabled">Option 2</label>
 		    <input type="checkbox" name="checkbox3" id="checkbox-3a" disabled="disabled">
-		    <label for="checkbox-3a" class="disabled">Option 3</label>  
+		    <label for="checkbox-3a" class="disabled">Option 3</label>
 		</fieldset>
 	</div>
 
@@ -134,7 +134,7 @@ preview-image: components-selectors.svg
 		    <input type="checkbox" name="checkbox4" id="checkbox-2b">
 		    <label for="checkbox-2b">Option 2</label>
 		    <input type="checkbox" name="checkbox4" id="checkbox-3b" checked>
-		    <label for="checkbox-3b">Option 3</label>  
+		    <label for="checkbox-3b">Option 3</label>
 		</fieldset>
 		<p class="subtext error">There is an error with the response to this question.</p>
 	</div>
@@ -167,7 +167,7 @@ preview-image: components-selectors.svg
 				<input type="checkbox" name="payment" id="check" value="MyRackspace" class="altSelectorDis"><label class="altSelectorDis">Check</label>
 			</div>
 		</div>
-		
+
 	<h3>Error</h3>
 		<div class="formGroup doc ws-formGroup-last">
 			<div class="formLabel group"><span class="requiredInput">*</span> Select potential maintenance windows</div>
@@ -188,14 +188,39 @@ preview-image: components-selectors.svg
 <div class="ws-section-con">
 	<p>Use the simple selector when choosing from a limited number options. If more than 10-12 options need to displayed, use the complex selector, which contains a search. Always use the complex selector for devices. Be mindful of the length of each option. Addional context can't be given on an option-by-option basis. If this is needed, consider radio buttons or checkboxes with subtext. Alphabetize options unless there is a strong use case for an alternative organization.</p>
 	<h3>Single Select</h3>
-		<div class="formGroup ws-formGroup-last">
-			<div class="formLabel"><span class="requiredInput">*</span> Contact</div>
-			<div class="formComponant">
-				<form action="#">
-				  <fieldset>
-				    <select name="contact" id="contact">
-				      	<option value="" selected disabled>Make a selection</option>
-				      	<option value="Bart">Bart Renner</option>
+	<div class="formGroup ws-formGroup-last">
+		<div class="formLabel"><span class="requiredInput">*</span> Contact</div>
+		<div class="formComponant">
+			<form action="#">
+			  <fieldset>
+			    <select name="contact" id="contact">
+			      	<option value="" selected disabled>Make a selection</option>
+			      	<option value="Bart">Bart Renner</option>
+					<option value="Carmen">Carmen Broomes</option>
+					<option value="Elizabeth">Elizabeth Grothues</option>
+					<option value="Eric">Eric Weidner</option>
+					<option value="Lane">Lane Fielder</option>
+					<option value="Mikey">Mikey Hougland</option>
+					<option value="Tommy">Tommy Shook</option>
+					<option value="Ty">Ty Taylor</option>
+			    </select>
+			  </fieldset>
+			</form>
+		</div>
+	</div>
+	<h3>Multiple Select</h3>
+
+	<h3>Type Ahead Select</h3>
+
+	<h3>Disabled</h3>
+	<div class="formGroup ws-formGroup-last">
+		<div class="formLabel"><span class="requiredInput">*</span> Contact</div>
+		<div class="formComponant">
+			<form action="#">
+			  <fieldset>
+			    <select name="contact2" id="contact" class="disabled">
+		      	<option value="" selected disabled>Make a selection</option>
+		      	<option value="Bart">Bart Renner</option>
 						<option value="Carmen">Carmen Broomes</option>
 						<option value="Elizabeth">Elizabeth Grothues</option>
 						<option value="Eric">Eric Weidner</option>
@@ -203,15 +228,32 @@ preview-image: components-selectors.svg
 						<option value="Mikey">Mikey Hougland</option>
 						<option value="Tommy">Tommy Shook</option>
 						<option value="Ty">Ty Taylor</option>
-				    </select>
-				  </fieldset>
-				</form>
-			</div>
+			    </select>
+			  </fieldset>
+			</form>
 		</div>
-	<h3>Multiple Select</h3>
-	<h3>Type Ahead Select</h3>
-	<h3>Disabled</h3>
+	</div>
 	<h3>Error</h3>
+	<div class="formGroup ws-formGroup-last">
+		<div class="formLabel"><span class="requiredInput">*</span> Contact</div>
+		<div class="formComponant">
+			<form action="#">
+			  <fieldset>
+			    <select name="contact3" id="contact">
+			      	<option value="" selected disabled>Make a selection</option>
+			      	<option value="Bart">Bart Renner</option>
+					<option value="Carmen">Carmen Broomes</option>
+					<option value="Elizabeth">Elizabeth Grothues</option>
+					<option value="Eric">Eric Weidner</option>
+					<option value="Lane">Lane Fielder</option>
+					<option value="Mikey">Mikey Hougland</option>
+					<option value="Tommy">Tommy Shook</option>
+					<option value="Ty">Ty Taylor</option>
+			    </select>
+			  </fieldset>
+			</form>
+		</div>
+	</div>
 </div>
 
 <h1 class="ws-section-head">Toggle<span class="status prototype">In Progress</span></h1>
@@ -309,7 +351,7 @@ preview-image: components-selectors.svg
 		    		<input name="checkbox" type="checkbox" checked/>
 		    		<div class="slider round"></div>
 		    		<span class="on-off" data-check-on="On" data-check-off="Off"></span>
-		  		</label>	
+		  		</label>
 		  	</div>
 		  	<i class="icon-error errorFormGroupIcon" style="padding-left:12px;"></i>
 		  	<div class="switchErrorText">

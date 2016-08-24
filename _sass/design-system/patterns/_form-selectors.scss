@@ -10,19 +10,19 @@ CHECKBOX AND RADIO BUTTON ALTERNATES
 
 /*ROMOVING ICONS*/
 
-input.altSelector[type=checkbox] + label:before,  input.altSelector[type=checkbox]:checked + label:before, input.altSelector[type=radio] + label:before, input.altSelector[type=radio]:checked + label:before, input.altSelectorDis[type=checkbox] + label:before,  input.altSelectorDis[type=checkbox]:checked + label:before, input.altSelectorDis[type=radio] + label:before, input.altSelectorDis[type=radio]:checked + label:before, input.altSelectorErr[type=checkbox] + label:before,  input.altSelectorErr[type=checkbox]:checked + label:before, input.altSelectorErr[type=radio] + label:before, input.altSelectorErr[type=radio]:checked + label:before{ 
-  content: ""; 
+input.altSelector[type=checkbox] + label:before,  input.altSelector[type=checkbox]:checked + label:before, input.altSelector[type=radio] + label:before, input.altSelector[type=radio]:checked + label:before, input.altSelectorDis[type=checkbox] + label:before,  input.altSelectorDis[type=checkbox]:checked + label:before, input.altSelectorDis[type=radio] + label:before, input.altSelectorDis[type=radio]:checked + label:before, input.altSelectorErr[type=checkbox] + label:before,  input.altSelectorErr[type=checkbox]:checked + label:before, input.altSelectorErr[type=radio] + label:before, input.altSelectorErr[type=radio]:checked + label:before{
+  content: "";
 }
 
-input.altSelector[type=checkbox], input.altSelector[type=radio], input.altSelectorDis[type=checkbox], input.altSelectorDis[type=radio],input.altSelectorErr[type=checkbox], input.altSelectorErr[type=radio]{ 
-  display:none; 
+input.altSelector[type=checkbox], input.altSelector[type=radio], input.altSelectorDis[type=checkbox], input.altSelectorDis[type=radio],input.altSelectorErr[type=checkbox], input.altSelectorErr[type=radio]{
+  display:none;
   }
 
 /*DEFAULT STYLES*/
 
-label.altSelector, label.altSelectorDis, label.altSelectorErr{ 
+label.altSelector, label.altSelectorDis, label.altSelectorErr{
   display:block;
-  cursor:pointer; 
+  cursor:pointer;
   line-height:28px;
   border:1px solid $grey500;
   border-left:0;
@@ -221,7 +221,7 @@ input:checked + .slider {
 
 input:checked + .slider.error{
   background-color: $red;
-} 
+}
 
 /* SLIDING DISTANCE */
 
@@ -282,7 +282,7 @@ $background: #e74c3c;
 $select-color: #fff;
 $select-background: #c0392b;
 $select-width: 220px;
-$select-height: 40px; 
+$select-height: 40px;
 
 .select-hidden {
   display: none;
@@ -303,7 +303,7 @@ $select-height: 40px;
 }
 
 .select-styled {
-  position: absolute; 
+  position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
@@ -355,7 +355,7 @@ $select-height: 40px;
 }
 
 .select-options {
-  display: none; 
+  display: none;
   position: absolute;
   top: 100%;
   right: 0;
@@ -490,8 +490,8 @@ label.selector, label.selectorDisabled{
   color: $red900;
 }
 
-.icheck .focus {
-  outline: 2px solid $blue100;
+.icheckbox.focus, .iradio.focus {
+  color: $action500;
 }
 
 .ui-menu {
@@ -523,6 +523,21 @@ label.selector, label.selectorDisabled{
     background: white;
     border: 1px solid $grey500;
     color: $grey800;
+    &[readonly],
+    &[disabled] {
+    	cursor:not-allowed;
+      color: $grey800;
+      background-color: $grey50;
+      border: 1px solid $grey300;
+    }
+
+    &.textInputError{
+    	border: 2px solid $red900;
+    }
+
+    &.textInputError:focus{
+      border: 2px solid $action500;
+    }
   }
 
   .ui-selectmenu-icon.ui-icon {
