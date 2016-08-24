@@ -9,6 +9,10 @@ var riverLength = [ 6992, 4371, 2948, 2140, 3380,
                     6418, 2230, 290, 5550, 2840, 
                     2615, 4880, 4472, 3058, 3730 ];
 
+var riverNameLabels5 = [ "Amazon", "Congo", "Ganges", "Orinoco", "Madeira"];
+
+var riverLength5 = [ 6992, 4371, 2948, 2140, 3380];
+
 var rainFallLabels = [ "January", "February", "March", "April", "May", "June"];
 
 var rainFallCharlotte = [ 3.43, 3.31, 4.02, 3.03, 3.19, 3.74];
@@ -19,6 +23,18 @@ var rainFallSeattle = [ 5.55, 3.46, 3.7, 2.68, 1.93, 1.54];
 
 var rainFallSanFrancisco = [4.49, 4.45, 3.27, 1.46, 0.71, 0.16];
 
+var nileLabels = [1940, 1941, 1942, 1943, 1944, 1945, 1946, 1947, 1948, 1949,
+                    1950, 1951, 1952, 1953, 1954, 1955, 1956, 1957, 1958, 1959,
+                    1960, 1961, 1962, 1963, 1964, 1965, 1966, 1967, 1968, 1969];
+
+var nileData = [676, 649, 846, 812, 742, 801, 1040, 860, 874, 848, 890,
+                744, 749, 838, 1050, 918, 986, 797, 923, 975, 815,
+                1020,  906,  901, 1170,  912,  746,  919,  718,  714];
+
+var nileAvg = [919.35, 919.35, 919.35, 919.35, 919.35, 919.35, 919.35, 919.35, 919.35, 919.35,
+                919.35, 919.35, 919.35, 919.35, 919.35, 919.35, 919.35, 919.35, 919.35, 919.35,
+                919.35, 919.35, 919.35, 919.35, 919.35, 919.35, 919.35, 919.35, 919.35, 919.35];
+
 /*--------------------------------------------------------------
 demoBarChart
 --------------------------------------------------------------*/
@@ -28,21 +44,30 @@ var demoBarChart = new Chart(ctx0, {
     data: {
         labels: riverNameLabels15,
         datasets: [{
-            label: '# of Votes',
+            label: 'Length (km)',
             data: riverLength,
         }]
     },
     options: {
         legend: {
-            display: false,
-        },
-        scales: {
-            yAxes: [{
-                ticks: {
-                    beginAtZero:true
-                }
-            }]
-        }
+            display: true
+          },
+            scales: {
+                xAxes: [{
+                    display: true,
+                  scaleLabel: {
+                    display: true,
+                    labelString: 'Month'
+                  }
+                }],
+                yAxes: [{
+                    display: true,
+                  scaleLabel: {
+                    display: true,
+                    labelString: 'Value'
+                  }
+                }]
+            }
     }
 });
 
@@ -68,7 +93,9 @@ var demoBarChartb = new Chart(ctx0b, {
                 ticks: {
                     beginAtZero:true
                 }
+
             }]
+
         }
     }
 });
@@ -122,10 +149,10 @@ var ctx2 = document.getElementById("demoLineChart");
 var demoLineChart = new Chart(ctx2, {
     type: 'line',
     data: {
-        labels: riverNameLabels15,
+        labels: nileLabels,
         datasets: [{
             label: '# of Votes',
-            data: riverLength,
+            data: nileData,
             borderWidth: 1,
             fill: false,
             lineTension: 0,
@@ -184,14 +211,43 @@ var demoLineChartb = new Chart(ctx2b, {
     }
 });
 
+var ctx2d = document.getElementById("demoLineChartd");
+var demoLineChartd = new Chart(ctx2d, {
+    type: 'line',
+    data: {
+        labels: nileLabels,
+        datasets: [
+            {label: 'Annual Flow',
+            data: nileData,
+            borderWidth: 1,
+            fill: false,
+            lineTension: 0,},
+            { label: '100-Year Average',
+            data: nileAvg,
+            borderWidth: 1,
+            fill: false,
+            lineTension: 0,},
+        ]
+    },
+    options: {
+        scales: {
+            yAxes: [{
+                ticks: {
+                    beginAtZero:true
+                }
+            }]
+        }
+    }
+});
+
 var ctx2c = document.getElementById("demoLineChartC");
 var demoLineChart = new Chart(ctx2c, {
     type: 'line',
     data: {
-        labels: riverNameLabels15,
+        labels: nileLabels,
         datasets: [{
             label: '# of Votes',
-            data: riverLength,
+            data: nileData,
             borderWidth: 1,
         }]
     },
@@ -216,10 +272,10 @@ var ctx3 = document.getElementById("demoPieChart");
 var demoPieChart = new Chart(ctx3, {
     type: 'pie',
     data: {
-        labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
+        labels: ["Africa", "Eurasia", "North America", "South America"],
         datasets: [{
-            label: '# of Votes',
-            data: [12, 19, 3, 5, 2, 3],
+            label: 'Rivers',
+            data: [13, 50, 17, 55],
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
                 'rgba(54, 162, 235, 0.2)',
@@ -248,10 +304,10 @@ var ctx4 = document.getElementById("demoDoughnutChart");
 var demoDoughnutChart = new Chart(ctx4, {
     type: 'doughnut',
     data: {
-        labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
+        labels: ["Africa", "Eurasia", "North America", "South America"],
         datasets: [{
-            label: '# of Votes',
-            data: [12, 19, 3, 5, 2, 3],
+            label: 'Rivers',
+            data: [13, 50, 17, 55],
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
                 'rgba(54, 162, 235, 0.2)',
@@ -280,10 +336,10 @@ var ctx5 = document.getElementById("demoPolarAreaChart");
 var demoPolarAreaChart = new Chart(ctx5, {
     type: 'polarArea',
     data: {
-        labels: ["Red", "Blue", "Yellow", "Green", "Purple", "Orange"],
+        labels: riverNameLabels5,
         datasets: [{
-            label: '# of Votes',
-            data: [12, 19, 3, 5, 2, 3],
+            label: 'Length (km)',
+            data: riverLength5,
             backgroundColor: [
                 'rgba(255, 99, 132, 0.2)',
                 'rgba(54, 162, 235, 0.2)',
@@ -312,25 +368,34 @@ var ctx6 = document.getElementById("demoRadarChart");
 var demoRadarChart = new Chart(ctx6, {
     type: 'radar',
     data: {
-        labels: ["Eating", "Drinking", "Sleeping", "Designing", "Coding", "Cycling", "Running"],
+        labels: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
         datasets: [{
-            label: "My First dataset",
+            label: "Seattle",
             backgroundColor: "rgba(179,181,198,0.2)",
             borderColor: "rgba(179,181,198,1)",
             pointBackgroundColor: "rgba(179,181,198,1)",
             pointBorderColor: "#fff",
             pointHoverBackgroundColor: "#fff",
             pointHoverBorderColor: "rgba(179,181,198,1)",
-            data: [65, 59, 90, 81, 56, 55, 40]},
+            data: [5.55, 3.46, 3.7, 2.68, 1.93, 1.54, 0.67, 0.87, 1.42, 3.46, 6.54, 5.31]},
         {
-            label: "My Second dataset",
+            label: "San Antonio",
             backgroundColor: "rgba(255,99,132,0.2)",
             borderColor: "rgba(255,99,132,1)",
             pointBackgroundColor: "rgba(255,99,132,1)",
             pointBorderColor: "#fff",
             pointHoverBackgroundColor: "#fff",
             pointHoverBorderColor: "rgba(255,99,132,1)",
-            data: [28, 48, 40, 19, 96, 27, 100]
-        }],
+            data: [1.65, 1.73, 1.89, 2.6, 4.72, 4.29, 2.05, 2.56, 2.99, 3.86, 2.6, 1.97]},
+        {
+            label: "Charlotte",
+            backgroundColor: "green",
+            borderColor: "green",
+            pointBackgroundColor: "rgba(255,99,132,1)",
+            pointBorderColor: "#fff",
+            pointHoverBackgroundColor: "#fff",
+            pointHoverBorderColor: "rgba(255,99,132,1)",
+            data: [3.43, 3.31, 4.02, 3.03, 3.19, 3.74, 3.66, 4.21, 3.23, 3.39, 3.15, 3.27]},
+        ],
     },
 });
