@@ -29,7 +29,7 @@ after_success:
 - test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "staging" && sshpass -e scp -o StrictHostKeyChecking=no package.tgz $DEPLOY_USER@$DEPLOY_STAGING_HOST:$DEPLOY_PATH
 - test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "staging" && sshpass -e ssh $DEPLOY_USER@$DEPLOY_STAGING_HOST $DEPLOY_PATH/deploy-design-system.sh
 - test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "master" && export SSHPASS=$DEPLOY_PASS
-- test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "master" && sshpass -p 22 -e scp -o StrictHostKeyChecking=no package.tgz $DEPLOY_USER@$DEPLOY_PROD_HOST:$DEPLOY_PATH
+- test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "master" && sshpass -e scp -o StrictHostKeyChecking=no package.tgz $DEPLOY_USER@$DEPLOY_PROD_HOST:$DEPLOY_PATH
 - test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "master" && sshpass -e ssh $DEPLOY_USER@$DEPLOY_PROD_HOST $DEPLOY_PATH/deploy-design-system.sh
 
 notifications:
