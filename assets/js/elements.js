@@ -22,9 +22,10 @@ $(document).ready(function() {
     $('#setWidth').width(395-subtract_width);
 
     //dropdown selector
-    $('#contact').selectmenu();
+    $('#contact1').selectmenu();
     $('#contact2').selectmenu();
     $('#contact3').selectmenu();
+    $('#contact3-button').addClass('textInputError');
 
     //dropdown buttons
     var page = $( "#page" );
