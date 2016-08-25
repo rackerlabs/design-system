@@ -1,19 +1,19 @@
 <header class="site-header">
-    <div class="logo"><img src="{{site.websiteAssets}}img/rs-logo.svg" class="logo"></div>
+    <div class="logo"><img src="{{site.baseurl}}{{site.websiteAssets}}img/rs-logo.svg" class="logo"></div>
     <div class="nameplate"><span>Helix</span>&nbsp;Design System</div>
 </header>
-<nav>   
+<nav>
   <ul>
-    
+
     {% assign currenturl = page.url %}
-    <li><a href="/" {% if currenturl == "/" %} class="active" {% else %} {% endif %}>Upcoming</a></li>
-    
+    <li><a href="{{site.baseurl}}/" {% if currenturl == "/" %} class="active" {% else %} {% endif %}>Upcoming</a></li>
+
     {% for navItem in site.navigation %}
-      {% assign foldername = navItem | downcase %}      
+      {% assign foldername = navItem | downcase %}
       {% assign parenturl = foldername | append: "/" | prepend: "/" %}
-      <li {% if foldername == "resources" %}{% else %} class="parent"{% endif %}>      
+      <li {% if foldername == "resources" %}{% else %} class="parent"{% endif %}>
         <a href="{{site.baseurl}}/{{navItem | downcase}}" {% if currenturl == parenturl %} class="active" {% endif %}>{{navItem}}</a>
-        
+
         <ul {% if currenturl contains foldername %} class="active" {% else %} class="inactive"  {% endif %}>
           {% for page in site.pages %}
             {% if page.category == navItem | downcase %}

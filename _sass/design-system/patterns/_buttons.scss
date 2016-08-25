@@ -175,7 +175,7 @@ a {
 
 }
 
-.ui-corner-left, .ui-corner-left:hover {
+.ui-corner-left, .ui-corner-left:hover, .ui-corner-left:active, .ui-corner-left:focus {
   border-radius: 2px 0 0 2px;
   border-right: 0;
 }
