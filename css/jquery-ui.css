@@ -869,7 +869,7 @@ body .ui-tooltip {
 .ui-icon {
 }
 
-.ui-button .ui-icon, .ui-state-hover .ui-icon, .ui-state-focus .ui-icon, .ui-button:hover .ui-icon, .ui-button:focus .ui-icon, .ui-state-default .ui-icon, .ui-state-active:before {
+.ui-button .ui-icon, .ui-state-hover .ui-icon, .ui-state-focus .ui-icon, .ui-button:hover .ui-icon, .ui-button:focus .ui-icon, .ui-state-default .ui-icon, .ui-state-active:before, .ui-menu .ui-menu-item-wrapper:before {
   background-image: none;
   font-family: 'DS_icon_font' !important;
   speak: none;

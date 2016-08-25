@@ -509,9 +509,20 @@ label.selector, label.selectorDisabled{
   color: $grey600;
   .ui-menu-item-wrapper {
     padding: 4px 1em;
+    &:before {
+      color: #fff;
+      content:"";
+      display: inline-block;
+      margin-right: 1em;
+      width: 1em;
+    }
     &:hover {
       background: $grey600;
       color: #fff;
+    }
+    &.ui-state-active:before {
+      content: "\e921";
+      width: auto;
     }
   }
 }
@@ -520,11 +531,7 @@ label.selector, label.selectorDisabled{
   display: none;
 }
 
-.ui-state-active:before {
-  color: #fff;
-  content: "\e921";
-  margin-right: 1em;
-}
+
 
 #contact1-button, #contact2-button, #contact3-button {
 
@@ -544,9 +551,6 @@ label.selector, label.selectorDisabled{
     	border: 2px solid $red900;
     }
 
-    &.textInputError:focus{
-      //border: 2px solid $action500;
-    }
   }
 
   .ui-selectmenu-icon.ui-icon {
