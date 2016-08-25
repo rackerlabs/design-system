@@ -5,6 +5,7 @@ category: Components
 usage: The Helix 12-column grid provides structure for website content.
 preview-image: components-grid.svg
 ---
+<canvas id="weeksChart" width="651" height="100"></canvas>
 <h1 class="ws-section-head">Chart Basics<span class="status prototype">In Progress</span></h1>
 <p class="ws-first-p">When considering using a data visualization in your project, always value <b>substance over flash</b>. The most important thing is making sure it is easy to interpret the data and glean insights. Charts can also present accessiblity chanlenges designers must address. Remember to keep in mind color blind users, keyboard accessibility, and users with screen readers.</p>
 <p>Best practices include:</p>
@@ -23,7 +24,7 @@ preview-image: components-grid.svg
 
 
 <h1 class="ws-section-head">Bar Chart<span class="status prototype">In Progress</span></h1>
-<p>Use: <b>comparison between items</b> or <b>comparison thoughout time</b></p>
+<p>Use: <b>comparison between items</b> or <b>comparison thoughout time</b> and <b>identify outliers</b></p>
 <p >Bar charts can help the user quickly identify high and low values in data sets. You can compare items against each other, such as in the first example. In the second example, the same item is compared overtime. A line chart could also be used in this scenario and works better if you are showing more than 12 data points. Bar charts work best if large differences between bars are expected. Subtle fluctuations will be harder to identify in a bar chart than in a line chart.</p>
 
 <p class="ws-first-p">Bar in charts with a single data set should be the same color, and there is no need to show a legend.</p>
@@ -71,14 +72,6 @@ preview-image: components-grid.svg
 <div class="rs-row-collapse">
 	<div class="span-1"></div>
 	<div class="span-10">
-		<h2 class="ds-chart-header">Length of World's Largest Rivers Defined by Discharge</h2>
-		<canvas id="demoLineChart" width="12" height="5"></canvas>
-	</div>
-	<div class="span-1"></div>
-</div>
-<div class="rs-row-collapse">
-	<div class="span-1"></div>
-	<div class="span-10">
 		<h2 class="ds-chart-header">Average Monthy Rainfall</h2>
 		<canvas id="demoLineChartb" width="12" height="5"></canvas>
 	</div>
@@ -106,13 +99,9 @@ preview-image: components-grid.svg
 
 
 <h1 class="ws-section-head">Pie and Doughnut Charts<span class="status prototype">In Progress</span></h1>
-<p class="ws-first-p">Pie and doughnut charts are probably the most commonly used chart there are. They are divided into segments, the arc of each segment shows the proportional value of each piece of data.
-
-They are excellent at showing the relational proportions between data.
-
-Pie and doughnut charts are effectively the same class in Chart.js, but have one different default value - their cutoutPercentage. This equates what percentage of the inner should be cut out. This defaults to 0 for pie charts, and 50 for doughnuts.
-
-They are also registered under two aliases in the Chart core. Other than their different default value, and different alias, they are exactly the same.</p>
+<p class="ws-todo-bar" style="margin-bottom:24px;"><b>TODO:</b> Move the legend to the left.</p>
+<p>Pie and doughnut charts show composition and are the only Helix charts that show an item's share of the total. Limit the number of slices to seven or less. If there are more categories than that, group all but the largest six into an other category. Always show legends with a pie chart.</p>
+<p  class="ws-first-p">An additional feature of a doughnut charts is that it can be combined with a statistic shown in the center whitesapece.</p>
 <div class="rs-row-collapse">
 	<div class="span-1"></div>
 	<div class="span-4">
@@ -131,26 +120,26 @@ They are also registered under two aliases in the Chart core. Other than their d
 
 
 <h1 class="ws-section-head">Polar Area Chart<span class="status prototype">In Progress</span></h1>
-<p class="ws-first-p">
-Polar area charts are similar to pie charts, but each segment has the same angle - the radius of the segment differs depending on the value.
-
-This type of chart is often useful when we want to show a comparison data similar to a pie chart, but also show a scale of values for context.
-
-	As a random fact, <a href="https://www.agnesscott.edu/lriddle/women/nightpiechart.htm">Florance Nightingale</a> first used this chart show dealths by preventable and mitigatable diseases.</p>
+<p>Use: <b>identify outliers</b> and <b>display cyclical data</b></p>
+<p>Polar area charts have similarities to both bar and pie charts. Unlike pie charts, they do not show an item's share of the total. Instead each wedge has an equal angle. Instead, the wedges extend from the center to show deviations in the data the way bars extend from the x-axis in the above bar chart examples. Polar area charts are best at showing cyclical data.</p>
+<p class="ws-first-p">Since polar area charts are less common compared to bar and pie charts, gleaning insights from them can increase <a href="https://www.nngroup.com/articles/minimize-cognitive-load/">cognitive load</a>. Depending on your data, consider showing a bar chart or pie chart instead.</p>
+	
 <div class="rs-row-collapse">
 	<div class="span-2"></div>
 	<div class="span-6">
-		<h2 class="ds-chart-header">Length of World's Largest Rivers Defined by Discharge</h2>
+		<h2 class="ds-chart-header">San Antonio's Rainfall</h2>
 		<canvas id="demoPolarAreaChart" width="1" height="1"></canvas>
 	</div>
 	<div class="span-2"></div>
 </div>
 
 <h1 class="ws-section-head">Radar Chart<span class="status prototype">In Progress</span></h1>
-<p>Use: <b>identify outliers</b> or <b>layer up to three data sets</b></p>
-<p class="ws-first-p">Radar charts are a way of comparing multiple quantitative variables. This makes them useful for seeing which variables have similar values or if there are any outliers amongst each variable. Radar Charts are also useful for seeing which variables are scoring high or low within a dataset, making them ideal for displaying performance.
+<p>Use: <b>identify outliers</b> and <b>layer two data sets</b></p>
+<p class="ws-first-p">Before using a radar chart, consider using a Radar charts are a way of comparing multiple quantitative variables. This makes them useful for seeing which variables have similar values or if there are any outliers amongst each variable. Radar Charts are also useful for seeing which variables are scoring high or low within a dataset, making them ideal for displaying performance.
 
-Do not overlay more than three d</p>
+Do not overlay more than three d
+
+<p class="ws-first-p">A radar chart can have no more than 12 axises. The same scale must apply to all axises. Only two data set can be shown at a time.</p>
 <div class="rs-row-collapse">
 	<div class="span-2"></div>
 	<div class="span-6">

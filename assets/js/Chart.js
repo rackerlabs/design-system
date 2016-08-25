@@ -1855,7 +1855,8 @@ module.exports = function(Chart) {
 
 				// grid line settings
 				gridLines: {
-					offsetGridLines: true
+					offsetGridLines: true,
+					display: false
 				}
 			}],
 			yAxes: [{
@@ -5791,9 +5792,9 @@ module.exports = function() {
 			},
 			onClick: null,
 			defaultColor: 'rgba(0,0,0,0.1)',
-			defaultFontColor: '#666',
-			defaultFontFamily: "'Helvetica Neue', 'Helvetica', 'Arial', sans-serif",
-			defaultFontSize: 12,
+			defaultFontColor: '#757575',
+			defaultFontFamily: "'Roboto', Helvetica, Arial, sans-serif",
+			defaultFontSize: 14,
 			defaultFontStyle: 'normal',
 			showLines: true,
 
@@ -7754,26 +7755,26 @@ module.exports = function(Chart) {
 		enabled: true,
 		custom: null,
 		mode: 'single',
-		backgroundColor: "rgba(0,0,0,0.8)",
+		backgroundColor: "#fff",
 		titleFontStyle: "bold",
 		titleSpacing: 2,
-		titleMarginBottom: 6,
+		titleMarginBottom: 8,
 		titleFontColor: "#fff",
 		titleAlign: "left",
 		bodySpacing: 2,
-		bodyFontColor: "#fff",
+		bodyFontColor: "#333",
 		bodyAlign: "left",
 		footerFontStyle: "bold",
 		footerSpacing: 2,
-		footerMarginTop: 6,
+		footerMarginTop: 8,
 		footerFontColor: "#fff",
 		footerAlign: "left",
-		yPadding: 6,
-		xPadding: 6,
+		yPadding: 8,
+		xPadding: 8,
 		yAlign : 'center',
 		xAlign : 'center',
-		caretSize: 5,
-		cornerRadius: 6,
+		caretSize: 14,
+		cornerRadius: 0,
 		multiKeyBackground: '#fff',
 		callbacks: {
 			// Args are: (tooltipItems, data)
