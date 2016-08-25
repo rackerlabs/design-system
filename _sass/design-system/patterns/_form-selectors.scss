@@ -563,3 +563,41 @@ label.selector, label.selectorDisabled{
   }
 
 }
+
+.custom-combobox {
+  background: white;
+  border: 1px solid $grey500;
+  color: $grey800;
+  display: inline-block;
+  position: relative;
+  .custom-combobox-toggle {
+    border: none;
+    padding: 0;
+    position: absolute;
+    right: 0;
+    top: 12px;
+  }
+  .ui-icon {
+    display: block;
+  }
+  .ui-icon-triangle-1-s:before {
+    color: $grey600;
+    content: "\e900";
+  }
+  input {
+    border: none;
+  }
+}
+
+#ui-id-1 {
+  .ui-menu-item-wrapper {
+    padding: 4px 10px;
+    &:before {
+      display: none;
+      visibility: hidden;
+    }
+  }
+  .ui-menu-wrapper:before, .ui-state-active:before {
+    display: none;
+  }
+}
