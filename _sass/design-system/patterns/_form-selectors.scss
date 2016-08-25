@@ -490,8 +490,17 @@ label.selector, label.selectorDisabled{
   color: $red900;
 }
 
-.icheckbox.focus, .iradio.focus {
+.icheckbox.focus:after, .iradio.focus:after {
+  content: "\e913";
+  font-size: 18px;
   color: $action500;
+  position: absolute;
+  left: -1px;
+  top: -1px;
+}
+
+.icheckbox.focus:after {
+  content: "\e906";
 }
 
 .ui-menu {
@@ -517,7 +526,7 @@ label.selector, label.selectorDisabled{
   margin-right: 1em;
 }
 
-#contact-button {
+#contact1-button, #contact2-button, #contact3-button {
 
   &.ui-selectmenu-button.ui-button {
     background: white;
@@ -536,7 +545,7 @@ label.selector, label.selectorDisabled{
     }
 
     &.textInputError:focus{
-      border: 2px solid $action500;
+      //border: 2px solid $action500;
     }
   }
 
