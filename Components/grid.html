@@ -25,9 +25,8 @@ preview-image: components-grid.svg
 
 <h3 class="ws-grid-h3">In Practice</h3>
 
-<div class="device">
+<div id="device">
 
-<div id="test-width"></div>
   <h4>Single Column</h4>
   <div class="row">
     <div class="col-xs-12 col-xs-12 col-md-12">
@@ -107,7 +106,7 @@ preview-image: components-grid.svg
     margin-bottom: 20px;
   }
 
-  .device {
+  #device {
     background: #f5f5f5;
     border: 1px solid #616161;
     padding: 20px 20px 0 20px;
@@ -120,6 +119,18 @@ preview-image: components-grid.svg
 
   .mobile:before {
     content: "Mobile Device"
+  }
+
+  .desktop:before {
+    content: "Desktop"
+  }
+
+  .hide {
+    width: auto;
+  }
+
+  .expand {
+    width: 100%;
   }
 
 </style>
