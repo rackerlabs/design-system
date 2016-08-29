@@ -59,14 +59,18 @@ var demoBarChart = new Chart(ctx0, {
                     display: true,
                   scaleLabel: {
                     display: true,
-                    labelString: 'River'
+                    labelString: 'River',
+                    fontSize: 14,
+                    fontColor: "#333",
                   }
                 }],
                 yAxes: [{
                     display: true,
                   scaleLabel: {
                     display: true,
-                    labelString: 'Length (km)'
+                    labelString: 'Length (km)', 
+                    fontSize: 14,
+                    fontColor: "#333",
                   }
                 }]
             }
@@ -101,7 +105,9 @@ var demoBarChartb = new Chart(ctx0b, {
                 },
                 scaleLabel: {
                     display: true,
-                    labelString: 'Rainfall (in)'
+                    labelString: 'Rainfall (in)',
+                    fontSize: 14,
+                    fontColor: "#333",
                   }
             }]
 
@@ -118,36 +124,53 @@ var demoBubbleChart = new Chart(ctx1, {
     type: 'bubble',
     data: {
         datasets: [
-        {label: 'Amazon',data: [{x: 4345, y: 7050000, r: 30}]},
-        {label: 'Congo',data: [{x: 2716, y: 4014500, r: 6}]},
-        {label: 'Ganges',data: [{x: 1832, y: 1635000, r: 5}]},
-        {label: 'Orinoco',data: [{x: 1330, y: 880000, r: 5}]},
-        {label: 'Madeira',data: [{x: 2100, y: 1420000, r: 4}]},
-        {label: 'Yangtze',data: [{x: 3988, y: 1808500, r: 4}]},
-        {label: 'Negro',data: [{x: 1390, y: 691000, r: 4}]},
-        {label: 'Río de la Plata',data: [{x: 180, y: 3100000, r: 3}]},
-        {label: 'Yenisei',data: [{x: 3449, y: 2580000, r: 3}]},
-        {label: 'Brahmaputra',data: [{x: 1765, y: 536600, r: 3}]},
-        {label: 'Japurá',data: [{x: 1625, y: 267730, r: 3}]},
-        {label: 'Paraná',data: [{x: 3050, y: 2582672, r: 2}]},
-        {label: 'Lena',data: [{x: 2647, y: 2490000, r: 2}]},
-        {label: 'Saint Lawrence',data: [{x: 1900, y: 1030000, r: 2}]},
-        {label: 'Mississippi',data: [{x: 2320, y: 3202230, r: 2}]},
+        {label: 'Amazon',data: [{x: 4345, y: 7050000, r: 30}], backgroundColor:"rgba(14, 148, 166, .6)", hoverBackgroundColor: "rgba(14, 148, 166, .8)",},
+        {label: 'Orinoco',data: [{x: 1330, y: 880000, r: 5}], backgroundColor:"rgba(14, 148, 166, .6)", hoverBackgroundColor: "rgba(14, 148, 166, .8)",},
+        {label: 'Madeira',data: [{x: 2100, y: 1420000, r: 4}], backgroundColor:"rgba(14, 148, 166, .6)", hoverBackgroundColor: "rgba(14, 148, 166, .8)",},
+        {label: 'Negro',data: [{x: 1390, y: 691000, r: 4}], backgroundColor:"rgba(14, 148, 166, .6)", hoverBackgroundColor: "rgba(14, 148, 166, .8)",},
+        {label: 'Río de la Plata',data: [{x: 180, y: 3100000, r: 3}], backgroundColor:"rgba(14, 148, 166, .6)", hoverBackgroundColor: "rgba(14, 148, 166, .8)",},
+        {label: 'Japurá',data: [{x: 1625, y: 267730, r: 3}], backgroundColor:"rgba(14, 148, 166, .6)", hoverBackgroundColor: "rgba(14, 148, 166, .8)",},
+        {label: 'Paraná',data: [{x: 3050, y: 2582672, r: 2}], backgroundColor:"rgba(14, 148, 166, .6)", hoverBackgroundColor: "rgba(14, 148, 166, .8)",},
+
+        {label: 'Congo',data: [{x: 2716, y: 4014500, r: 6}], backgroundColor:"rgba(255, 235, 59, .6)", hoverBackgroundColor: "rgba(255, 235, 59, .8)",},
+        
+        {label: 'Yangtze',data: [{x: 3988, y: 1808500, r: 4}], backgroundColor:"rgba(221, 97, 5, .6)", hoverBackgroundColor: "rgba(221, 97, 5, .8)",},
+        {label: 'Yenisei',data: [{x: 3449, y: 2580000, r: 3}], backgroundColor:"rgba(221, 97, 5, .6)", hoverBackgroundColor: "rgba(221, 97, 5, .8)",},
+        {label: 'Brahmaputra',data: [{x: 1765, y: 536600, r: 3}], backgroundColor:"rgba(221, 97, 5, .6)", hoverBackgroundColor: "rgba(221, 97, 5, .8)",},
+        {label: 'Lena',data: [{x: 2647, y: 2490000, r: 2}], backgroundColor:"rgba(221, 97, 5, .6)", hoverBackgroundColor: "rgba(221, 97, 5, .8)",},
+        {label: 'Ganges',data: [{x: 1832, y: 1635000, r: 5}], backgroundColor:"rgba(221, 97, 5, .6)", hoverBackgroundColor: "rgba(221, 97, 5, .8)",},
+
+        {label: 'Saint Lawrence',data: [{x: 1900, y: 1030000, r: 2}], backgroundColor:"rgba(46, 49, 135, .6)", hoverBackgroundColor: "rgba(46, 49, 135, .8)",},
+        {label: 'Mississippi',data: [{x: 2320, y: 3202230, r: 2}], backgroundColor:"rgba(46, 49, 135, .6)", hoverBackgroundColor: "rgba(46, 49, 135, .8)",},
         ]
     },
     options: {
         legend: {
             display: true,
+            position: 'right',
         },
         tooltip: {
         },
         scales: {
-            yAxes: [{
-                ticks: {
-                    beginAtZero:true
-                }
-            }]
-        }
+                xAxes: [{
+                    display: true,
+                  scaleLabel: {
+                    display: true,
+                    labelString: 'Length (km)',
+                    fontSize: 14,
+                    fontColor: "#333",
+                  }
+                }],
+                yAxes: [{
+                    display: true,
+                  scaleLabel: {
+                    display: true,
+                    labelString: 'Drainage Area (km^2)', 
+                    fontSize: 14,
+                    fontColor: "#333",
+                  }
+                }]
+            }
     }
 });
 
@@ -259,20 +282,20 @@ var demoPieChart = new Chart(ctx3, {
             label: 'Rivers',
             data: [13, 50, 17, 55],
             backgroundColor: [
-                'rgba(255, 99, 132, 0.2)',
-                'rgba(54, 162, 235, 0.2)',
-                'rgba(255, 206, 86, 0.2)',
-                'rgba(75, 192, 192, 0.2)',
-                'rgba(153, 102, 255, 0.2)',
-                'rgba(255, 159, 64, 0.2)'
+                '#232968',
+                '#0E94A6',
+                '#3391FF',
+                '#6676BC',
+                '#B6E3EB',
+                '#E1EEF9'
             ],
             borderColor: [
-                'rgba(255,99,132,1)',
-                'rgba(54, 162, 235, 1)',
-                'rgba(255, 206, 86, 1)',
-                'rgba(75, 192, 192, 1)',
-                'rgba(153, 102, 255, 1)',
-                'rgba(255, 159, 64, 1)'
+                '#232968',
+                '#0E94A6',
+                '#3391FF',
+                '#6676BC',
+                '#B6E3EB',
+                '#E1EEF9'
             ],
             borderWidth: 1
         }]

@@ -5794,7 +5794,7 @@ module.exports = function() {
 			defaultColor: 'rgba(0,0,0,0.1)',
 			defaultFontColor: '#757575',
 			defaultFontFamily: "'Roboto', Helvetica, Arial, sans-serif",
-			defaultFontSize: 14,
+			defaultFontSize: 12,
 			defaultFontStyle: 'normal',
 			showLines: true,
 
@@ -6159,7 +6159,7 @@ module.exports = function(Chart) {
 	Chart.defaults.global.legend = {
 
 		display: true,
-		position: 'top',
+		position: 'bottom',
 		fullWidth: true, // marks that this box should take the full width of the canvas (pushing down other boxes)
 		reverse: false,
 
@@ -7759,10 +7759,12 @@ module.exports = function(Chart) {
 		titleFontStyle: "bold",
 		titleSpacing: 2,
 		titleMarginBottom: 8,
-		titleFontColor: "#fff",
+		titleFontColor: "#333",
+		titleFontSize: 14,
 		titleAlign: "left",
 		bodySpacing: 2,
 		bodyFontColor: "#333",
+		bodyFontSize:14,
 		bodyAlign: "left",
 		footerFontStyle: "bold",
 		footerSpacing: 2,
@@ -7773,8 +7775,8 @@ module.exports = function(Chart) {
 		xPadding: 8,
 		yAlign : 'center',
 		xAlign : 'center',
-		caretSize: 14,
-		cornerRadius: 0,
+		caretSize: 8,
+		cornerRadius: 2,
 		multiKeyBackground: '#fff',
 		callbacks: {
 			// Args are: (tooltipItems, data)
