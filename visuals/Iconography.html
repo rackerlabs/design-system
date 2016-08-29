@@ -9,34 +9,20 @@ preview-image: visuals-icons.svg
 
 <h1 class="ws-section-head">Utility Icons<span class="status prototype">In Progress</span></h1>
 <p class="ws-first-p">Utility icons can be used in place of text to perform an action. They are based on commonly used, established metaphors. If it takes the text to explain what an icon does, leave out the icon and only use the text. Utility icons should be colored like links or match the color of body text dependent on the background color. </p>
-
-<div>
+<div class="row ws-icon-row">
 	{% assign iconCount = 1 %}
 	{%for icon_hash in site.data.icons%}
 		{%assign icon=icon_hash[1]%}
 		{% if icon.group == "utility" %}
-			{% if iconCount == 1 %}
-			<div class="rs-row ws-icon-row">		
-			{% endif %}
-				<div class="span-1"></div>
-				<div class="ws-icon-chip span-2">
+				<div class="ws-icon-chip col-xs-12 col-sm-6 col-md-3 col-lg-2">
 				  	<span class="ws-icon-chip-icon"><i class="{{icon.class}}"></i></span>
 				  	<span class="ws-icon-chip-text">{{icon.name}}</span>
 				  	<span class="ws-icon-chip-text">{{icon.id}}</span>
 				</div>
-				<div class="span-1"></div>
 				{% assign iconCount = iconCount | plus: 1%}
-				{% if iconCount == 4 %}
-					</div>
-					{%assign closeDiv = true%}
-					{% assign iconCount = 1 %}
-				{% else %}
-					{%assign closeDiv = false%}
-				{% endif %}
 		{% endif %}
 	{%endfor%}
 	{%if closeDiv == false%}
-			</div>
 	{% endif %}
 </div>
 
@@ -49,15 +35,15 @@ preview-image: visuals-icons.svg
 		{%assign icon=icon_hash[1]%}
 		{% if icon.group == "object" %}
 			{% if iconCount == 1 %}
-			<div class="rs-row ws-icon-row">		
+			<div class="row ws-icon-row">
 			{% endif %}
-				<div class="span-1"></div>
-				<div class="ws-icon-chip span-2">
+				<div class="col-md-1"></div>
+				<div class="ws-icon-chip col-md-2">
 				  	<span class="ws-icon-chip-icon"><i class="{{icon.class}}"></i></span>
 				  	<span class="ws-icon-chip-text">{{icon.name}}</span>
 				  	<span class="ws-icon-chip-text">{{icon.id}}</span>
 				</div>
-				<div class="span-1"></div>
+				<div class="col-md-1"></div>
 				{% assign iconCount = iconCount | plus: 1%}
 				{% if iconCount == 4 %}
 					</div>
@@ -82,15 +68,15 @@ preview-image: visuals-icons.svg
 		{%assign icon=icon_hash[1]%}
 		{% if icon.group == "validation" %}
 			{% if iconCount == 1 %}
-			<div class="rs-row ws-icon-row">		
+			<div class="row ws-icon-row">
 			{% endif %}
-				<div class="span-1"></div>
-				<div class="ws-icon-chip span-2">
+				<div class="col-md-1"></div>
+				<div class="ws-icon-chip col-md-2">
 				  	<span class="ws-icon-chip-icon" style="color:{{icon.color}}"><i class="{{icon.class}}"></i></span>
 				  	<span class="ws-icon-chip-text">{{icon.name}}</span>
 				  	<span class="ws-icon-chip-text">{{icon.id}}</span>
 				</div>
-				<div class="span-1"></div>
+				<div class="col-md-1"></div>
 				{% assign iconCount = iconCount | plus: 1%}
 				{% if iconCount == 4 %}
 					</div>
@@ -111,15 +97,13 @@ preview-image: visuals-icons.svg
 <p style="padding-bottom:0px;"> If you need an additional icon, please submit your request to the <a href="mailto:helix.designsystem@rackspace.com?subject=Icon Request">Helix Team</a>.</p>
 
 <style type="text/css">
-	.ws-icon-row{
-		padding: 0 0 40px 0;
-	}
 
 	.ws-icon-row:last-of-type{
 		padding-bottom: 0px;
 	}
 
 	.ws-icon-chip{
+		margin-bottom: 40px;
 	}
 
 	.ws-icon-chip-icon{
