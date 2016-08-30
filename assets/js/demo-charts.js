@@ -36,6 +36,13 @@ var nileAvg = [919.35, 919.35, 919.35, 919.35, 919.35, 919.35, 919.35, 919.35, 9
                 919.35, 919.35, 919.35, 919.35, 919.35, 919.35, 919.35, 919.35, 919.35, 919.35,
                 919.35, 919.35, 919.35, 919.35, 919.35, 919.35, 919.35, 919.35, 919.35, 919.35];
 
+var nileLabels10 = [1940, 1941, 1942, 1943, 1944, 1945, 1946, 1947, 1948, 1949];
+
+var nileAvg10 = [919.35, 919.35, 919.35, 919.35, 919.35, 919.35, 919.35, 919.35, 919.35, 919.35, 919.35, 919.35];
+
+var nileData10 = [676, 649, 846, 812, 742, 801, 1040, 860, 874, 848];
+
+
 /*--------------------------------------------------------------
 demoBarChart
 --------------------------------------------------------------*/
@@ -60,7 +67,7 @@ var demoBarChart = new Chart(ctx0, {
                   scaleLabel: {
                     display: true,
                     labelString: 'River',
-                    fontSize: 14,
+                    fontSize: 16,
                     fontColor: "#333",
                   }
                 }],
@@ -69,7 +76,7 @@ var demoBarChart = new Chart(ctx0, {
                   scaleLabel: {
                     display: true,
                     labelString: 'Length (km)', 
-                    fontSize: 14,
+                    fontSize: 16,
                     fontColor: "#333",
                   }
                 }]
@@ -85,16 +92,20 @@ var demoBarChartb = new Chart(ctx0b, {
         datasets: [
             {label: 'Charlotte',
             data: rainFallCharlotte,
-            backgroundColor: '#0C7C84',},
+            backgroundColor: '#0E94A6',
+            borderColor: '#0E94A6',},
             { label: 'San Antonio',
             data: rainFallSanAntonio,
-            backgroundColor: '#EC407A',},
+            backgroundColor: '#d8d8d8',
+            borderColor: '#d8d8d8',},
             { label: 'San Francisco',
             data: rainFallSanFrancisco,
-            backgroundColor: '#6676BC',},
+            backgroundColor: '#6676BC',
+            borderColor: '#6676BC',},
             { label: 'Seattle',
             data: rainFallSeattle,
-            backgroundColor: '#DD6105',},
+            backgroundColor: '#757575',
+            borderColor: '#757575',},
         ]
     },
     options: {
@@ -106,12 +117,61 @@ var demoBarChartb = new Chart(ctx0b, {
                 scaleLabel: {
                     display: true,
                     labelString: 'Rainfall (in)',
-                    fontSize: 14,
+                    fontSize: 16,
                     fontColor: "#333",
                   }
             }]
 
         }
+    }
+});
+
+/*--------------------------------------------------------------
+demoLineBarChart
+--------------------------------------------------------------*/
+var ctx0c = document.getElementById("demoLineBarChart");
+var demoBarChart = new Chart(ctx0c, {
+    type: 'bar',
+    data: {
+        labels: nileLabels10,
+        datasets: [
+            { label: 'Annual Flow',
+            backgroundColor: '#bdbdbd',
+            borderColor: '#bdbdbd',
+            data: nileData10,
+            pointRadius:0,
+            pointHitRadius:0,
+            pointHoverBorderWidth:0,},
+            {label: '100-Year Average',
+            type:'line',
+            fill:false,
+            borderWidth:2,
+            borderColor:'#DD6105',
+            backgroundColor:'#fff',
+            pointRadius:0,
+            pointHitRadius:0,
+            pointHoverBorderWidth:0,
+            data: nileAvg10,},
+            
+        ]
+    },
+    options: {
+        legend: {
+          },
+            scales: {
+                xAxes: [{
+                    display: true,
+                }],
+                yAxes: [{
+                    display: true,
+                  scaleLabel: {
+                    display: true,
+                    labelString: 'Billion Cubic Meters', 
+                    fontSize: 16,
+                    fontColor: "#333",
+                  }
+                }]
+            }
     }
 });
 
@@ -166,7 +226,7 @@ var demoBubbleChart = new Chart(ctx1, {
                   scaleLabel: {
                     display: true,
                     labelString: 'Drainage Area (km^2)', 
-                    fontSize: 14,
+                    fontSize: 16,
                     fontColor: "#333",
                   }
                 }]
@@ -185,33 +245,85 @@ var demoLineChartb = new Chart(ctx2b, {
         datasets: [
             {label: 'Charlotte',
             data: rainFallCharlotte,
-            borderWidth: 1,
             fill: false,
-            lineTension: 0,},
-            { label: 'San Antonio',
+            lineTension: 0,
+            borderWidth:3,
+            pointBorderWidth:.5,
+            pointRadius:4,
+            pointHoverRadius:4,
+            pointHitRadius:4, 
+            pointHoverBorderWidth:1,
+            borderDash:[10,5],
+            borderColor: "#0E94A6",
+            pointBackgroundColor: "#0E94A6",
+            pointHoverBorderColor: "#0E94A6",
+            pointBorderColor: "#fff",
+            pointHoverBackgroundColor: "#fff",
+            backgroundColor:"#fff",},
+            {label: 'San Antonio',
             data: rainFallSanAntonio,
-            borderWidth: 1,
             fill: false,
-            lineTension: 0,},
+            lineTension: 0,
+            borderWidth:3,
+            pointBorderWidth:.5,
+            pointRadius:4,
+            pointHoverRadius:4,
+            pointHitRadius:4, 
+            pointHoverBorderWidth:1,
+            borderColor: "#bdbdbd",
+            pointBackgroundColor: "#bdbdbd",
+            pointHoverBorderColor: "#bdbdbd",
+            pointBorderColor: "#fff",
+            pointHoverBackgroundColor: "#fff",
+            backgroundColor:"#fff",},
             { label: 'San Francisco',
             data: rainFallSanFrancisco,
-            borderWidth: 1,
             fill: false,
-            lineTension: 0,},
+            lineTension: 0,
+            borderWidth:3,
+            pointBorderWidth:.5,
+            pointRadius:4,
+            pointHoverRadius:4,
+            pointHitRadius:4, 
+            pointHoverBorderWidth:1,
+            borderColor: "#3B44A9",
+            pointBackgroundColor: "#3B44A9",
+            pointHoverBorderColor: "#3B44A9",
+            pointBorderColor: "#fff",
+            pointHoverBackgroundColor: "#fff",
+            backgroundColor:"#fff",},
             { label: 'Seattle',
             data: rainFallSeattle,
-            borderWidth: 1,
             fill: false,
-            lineTension: 0,},
+            lineTension: 0,
+            borderWidth:3,
+            pointBorderWidth:.5,
+            pointRadius:4,
+            pointHoverRadius:4,
+            pointHitRadius:4, 
+            pointHoverBorderWidth:1,
+            borderColor: "#FBC02D",
+            pointBackgroundColor: "#FBC02D",
+            pointHoverBorderColor: "#FBC02D",
+            pointBorderColor: "#fff",
+            pointHoverBackgroundColor: "#fff",
+            backgroundColor:"#fff",},
         ]
     },
     options: {
+        legend: {
+            display: true,
+        },
         scales: {
             yAxes: [{
-                ticks: {
-                    beginAtZero:true
-                }
-            }]
+                    display: true,
+                  scaleLabel: {
+                    display: true,
+                    labelString: 'Monthly Average Rainfall (in)', 
+                    fontSize: 16,
+                    fontColor: "#333",
+                  }
+            }],
         }
     }
 });
@@ -222,23 +334,57 @@ var demoLineChartd = new Chart(ctx2d, {
     data: {
         labels: nileLabels,
         datasets: [
-            {label: 'Annual Flow',
+            { label: 'Annual Flow',
             data: nileData,
-            borderWidth: 1,
             fill: false,
-            lineTension: 0,},
-            { label: '100-Year Average',
+            lineTension: 0,
+            borderWidth:3,
+            pointBorderWidth:.5,
+            pointRadius:4,
+            pointHoverRadius:4,
+            pointHitRadius:4, 
+            pointHoverBorderWidth:1,
+            borderColor: "#0E94A6",
+            pointBackgroundColor: "#0E94A6",
+            pointHoverBorderColor: "#0E94A6",
+            pointBorderColor: "#fff",
+            pointHoverBackgroundColor: "#fff",
+            backgroundColor:"#fff",},
+            {label: '100-Year Average',
             data: nileAvg,
-            borderWidth: 1,
             fill: false,
-            lineTension: 0,},
+            lineTension: 0,
+            borderWidth:3,
+            pointBorderWidth:.5,
+            pointRadius:0,
+            pointHoverRadius:0,
+            pointHitRadius:0, 
+            pointHoverBorderWidth:1,
+            borderColor: "#F57C00",
+            pointBackgroundColor: "#F57C00",
+            pointHoverBorderColor: "#F57C00",
+            pointBorderColor: "#fff",
+            pointHoverBackgroundColor: "#fff",
+            backgroundColor:"#fff",},
         ]
     },
     options: {
+        legend: {
+            display: true,
+        },
         scales: {
             yAxes: [{
+                    display: true,
+                  scaleLabel: {
+                    display: true,
+                    labelString: 'Billion Cubic Meters', 
+                    fontSize: 16,
+                    fontColor: "#333",
+                  }
+            }],
+            xAxes: [{
                 ticks: {
-                    beginAtZero:true
+                    autoSkip: true,
                 }
             }]
         }
@@ -251,9 +397,20 @@ var demoLineChart = new Chart(ctx2c, {
     data: {
         labels: nileLabels,
         datasets: [{
-            label: '# of Votes',
+            label: 'Discarge (m^3/s)',
             data: nileData,
-            borderWidth: 1,
+            backgroundColor:'rgba(14, 148, 166, 0.2)',
+            borderWidth:3,
+            pointBorderWidth:.5,
+            pointRadius:4,
+            pointHoverRadius:4,
+            pointHitRadius:4, 
+            pointHoverBorderWidth:1,
+            borderColor: "#0E94A6",
+            pointBackgroundColor: "#0E94A6",
+            pointHoverBorderColor: "#0E94A6",
+            pointBorderColor: "#fff",
+            pointHoverBackgroundColor: "#fff",
         }]
     },
     options: {
@@ -261,11 +418,17 @@ var demoLineChart = new Chart(ctx2c, {
             display: false,
         },
         scales: {
+
             yAxes: [{
-                ticks: {
-                    beginAtZero:true
-                }
-            }]
+                    display: true,
+                  scaleLabel: {
+                    display: true,
+                    labelString: 'Billion Cubic Meters', 
+                    fontSize: 16,
+                    fontColor: "#333",
+                  }
+                }]
+
         }
     }
 });
@@ -273,34 +436,6 @@ var demoLineChart = new Chart(ctx2c, {
 /*--------------------------------------------------------------
 demoPieChart
 --------------------------------------------------------------*/
-var ctx3 = document.getElementById("demoPieChart");
-var demoPieChart = new Chart(ctx3, {
-    type: 'pie',
-    data: {
-        labels: ["Africa", "Eurasia", "North America", "South America"],
-        datasets: [{
-            label: 'Rivers',
-            data: [13, 50, 17, 55],
-            backgroundColor: [
-                '#232968',
-                '#0E94A6',
-                '#3391FF',
-                '#6676BC',
-                '#B6E3EB',
-                '#E1EEF9'
-            ],
-            borderColor: [
-                '#232968',
-                '#0E94A6',
-                '#3391FF',
-                '#6676BC',
-                '#B6E3EB',
-                '#E1EEF9'
-            ],
-            borderWidth: 1
-        }]
-    },
-});
 
 /*--------------------------------------------------------------
 demoDoughnutChart
@@ -314,23 +449,25 @@ var demoDoughnutChart = new Chart(ctx4, {
             label: 'Rivers',
             data: [13, 50, 17, 55],
             backgroundColor: [
-                'rgba(255, 99, 132, 0.2)',
-                'rgba(54, 162, 235, 0.2)',
-                'rgba(255, 206, 86, 0.2)',
-                'rgba(75, 192, 192, 0.2)',
-                'rgba(153, 102, 255, 0.2)',
-                'rgba(255, 159, 64, 0.2)'
+                '#0E94A6',
+                '#bdbdbd',
+                '#3B44A9',
+                '#FBC02D',
             ],
             borderColor: [
-                'rgba(255,99,132,1)',
-                'rgba(54, 162, 235, 1)',
-                'rgba(255, 206, 86, 1)',
-                'rgba(75, 192, 192, 1)',
-                'rgba(153, 102, 255, 1)',
-                'rgba(255, 159, 64, 1)'
+                '#0E94A6',
+                '#bdbdbd',
+                '#3B44A9',
+                '#FBC02D',
             ],
             borderWidth: 1
         }]
+    },
+    options: {
+        legend: {
+            display: true,
+            position: 'right',
+        },
     },
 });
 
@@ -345,12 +482,16 @@ var demoPolarAreaChart = new Chart(ctx5, {
         datasets: [{
             label: 'Average Rainfall (in)',
             data: [1.65, 1.73, 1.89, 2.6, 4.72, 4.29, 2.05, 2.56, 2.99, 3.86, 2.6, 1.97],
-            backgroundColor: [
-            ],
-            borderColor: [
-            ],
-            borderWidth: 1
+            backgroundColor: ["#424242","#bdbdbd", "#16B9D4", "#0C7C84", "#0E94A6", "#FFEB3B", "#FBC02D", "#FFF9C4", "#6676BC", "#232968", "#3B44A9", "#757575"],
+            borderColor:"#fff",
+            borderWidth: .5,
         }]
+    },
+    options: {
+        legend: {
+            display: true,
+            position: 'right',
+        },
     },
 });
 
@@ -364,22 +505,40 @@ var demoRadarChart = new Chart(ctx6, {
         labels: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
         datasets: [{
             label: "Seattle",
-            backgroundColor: "rgba(179,181,198,0.2)",
-            borderColor: "rgba(179,181,198,1)",
-            pointBackgroundColor: "rgba(179,181,198,1)",
+            backgroundColor: "rgba(14, 148, 166, 0.2)",
+            borderColor: "#0E94A6",
+            borderWidth:2,
+            pointBorderWidth:.5,
+            pointRadius:3,
+            pointHoverRadius:3,
+            pointHitRadius:3, 
+            pointHoverBorderWidth:1,
+            pointBackgroundColor: "#0E94A6",
             pointBorderColor: "#fff",
             pointHoverBackgroundColor: "#fff",
-            pointHoverBorderColor: "rgba(179,181,198,1)",
+            pointHoverBorderColor: "#0E94A6",
             data: [5.55, 3.46, 3.7, 2.68, 1.93, 1.54, 0.67, 0.87, 1.42, 3.46, 6.54, 5.31]},
         {
             label: "San Antonio",
-            backgroundColor: "rgba(255,99,132,0.2)",
-            borderColor: "rgba(255,99,132,1)",
-            pointBackgroundColor: "rgba(255,99,132,1)",
+            backgroundColor: "rgba(189, 189, 189, 0.2)",
+            borderWidth:2,
+            pointBorderWidth:.5,
+            pointRadius:3,
+            pointHoverRadius:3,
+            pointHitRadius:3, 
+            pointHoverBorderWidth:1,
+            borderColor: "#bdbdbd",
+            pointBackgroundColor: "#bdbdbd",
+            pointHoverBorderColor: "#bdbdbd",
             pointBorderColor: "#fff",
             pointHoverBackgroundColor: "#fff",
-            pointHoverBorderColor: "rgba(255,99,132,1)",
             data: [1.65, 1.73, 1.89, 2.6, 4.72, 4.29, 2.05, 2.56, 2.99, 3.86, 2.6, 1.97]},
         ],
+    },
+    options: {
+        legend: {
+            display: true,
+            position: 'right',
+        },
     },
 });

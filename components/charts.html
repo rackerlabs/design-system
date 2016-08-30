@@ -5,66 +5,131 @@ category: Components
 usage: The Helix 12-column grid provides structure for website content.
 preview-image: components-grid.svg
 ---
+
+<p class="ws-todo-bar" style="margin-bottom:12px;"><b>TODO:</b> Make sure the threshold/average line extends the entire width of the x axis. Remove line points on hover. Show a tooltip with the threshold/average when any part of the line is hovered over.</p>
+<p class="ws-todo-bar" style="margin-bottom:12px;"><b>TODO:</b> Correctly format numbers at or above 1,000 by including commas.</p>
+<p class="ws-todo-bar" style="margin-bottom:12px;"><b>TODO:</b> Make legends look clickable. It is not discoverable that data can be filtered by clicking on a legend label.</p>
+<p class="ws-todo-bar" style="margin-bottom:12px;"><b>TODO:</b> Improve spacing and styling around right aligned legends.</p>
+<p class="ws-todo-bar" style="margin-bottom:12px;"><b>TODO:</b> X-axis labels are cutting off decending letters.</p>
+<p class="ws-todo-bar" style="margin-bottom:12px;"><b>TODO:</b> Add a tooltip stroke.</p>
+<p class="ws-todo-bar" style="margin-bottom:12px;"><b>TODO:</b> Find a way to <a href="https://github.com/chartjs/Chart.js/issues/12">skip labels and ticks</a> on x axis.</p>
 <h1 class="ws-section-head">Chart Basics<span class="status prototype">In Progress</span></h1>
 <p class="ws-first-p">When considering using a data visualization in your project, always value <b>substance over flash</b>. The most important thing is making sure it is easy to interpret the data and glean insights. Charts can also present accessiblity chanlenges designers must address. Remember to keep in mind color blind users, keyboard accessibility, and users with screen readers.</p>
-<p>Best practices include:</p>
+
+<h3>Best Practices</h3>
 <ul>
-	<li><b>Labeling</b> the chart and axises. Don't make the user guess what data points mean. The only case an axis label isn't needed is when the x-axis shows time.</li>
-	<li>Using a <b>legand</b> when differences in color and pattern convey information in charts.</li>
-	<li>Verifying chart <b>colors can be differentiated</b> by colorblind users. When possible, <b>use patterns</b> in addition to color to differentiate data.</li>
-	<li>Displaying a <b>threshold or average line</b> with the information is available. This give the user quick context as to whether they are doing better or worse than expected.</li>
-	<li>Verifying the information in the charts is also available to someone using a <b>screen reader</b>.</li>
-	<li>Never fully relying on hover tooltips to convey information.</li>
+	<li><b>Title</b> the chart and <b>label</b> axises. The only exception to labeling axises is when the x-axis shows time. Don't make the user guess what data points mean.</li>
+	<li>Always use a <b>legand</b> when color is used to convey meaning in a chart.</li>
+	<li>Display a <b>threshold or average line</b> when the information is available. This gives the user quick context as to whether the data point requires special attention and additional investigation.</li>
+	<li>Verify the information in the charts is also available to someone using a <b>screen reader</b>.</li>
+	<li>Never fully rely on hover tooltips to convey information.</li>
 </ul>
 
+<h3>Use of Color</h3>
+<div class="row no-gutter">
+	<div class="col-md-1">
+		<div class="ws-chart-color-chip" style="background-color:#424242"></div>
+		<div class="ws-chart-color-chip" style="background-color:#424242"></div>
+	</div>
+	<div class="col-md-1">
+		<div class="ws-chart-color-chip" style="background-color:#757575"></div>
+		<div class="ws-chart-color-chip" style="background-color:#757575"></div>
+	</div>
+	<div class="col-md-1">
+		<div class="ws-chart-color-chip" style="background-color:#BDBDBD"></div>
+		<div class="ws-chart-color-chip" style="background-color:#BDBDBD"></div>
+	</div>
+	<div class="col-md-1">
+		<div class="ws-chart-color-chip" style="background-color:#0E94A6"></div>
+		<div class="ws-chart-color-chip" style="background-color:rgb(52,52,52)"></div>
+	</div>
+	<div class="col-md-1">
+		<div class="ws-chart-color-chip" style="background-color:#16B9D4"></div>
+		<div class="ws-chart-color-chip" style="background-color:rgb(142,154,210)"></div>
+	</div>
+	<div class="col-md-1">
+		<div class="ws-chart-color-chip" style="background-color:#B6E3EB"></div>
+		<div class="ws-chart-color-chip" style="background-color:rgb(209,213,233)"></div>
+	</div>
+	<div class="col-md-1">
+		<div class="ws-chart-color-chip" style="background-color:#232968"></div>
+		<div class="ws-chart-color-chip" style="background-color:rgb(13,36,95)"></div>
+	</div>
+	<div class="col-md-1">
+		<div class="ws-chart-color-chip" style="background-color:#3B44A9"></div>
+		<div class="ws-chart-color-chip" style="background-color:rgb(22,62,162)"></div>
+	</div>
+	<div class="col-md-1">
+		<div class="ws-chart-color-chip" style="background-color:#6676BC"></div>
+		<div class="ws-chart-color-chip" style="background-color:rgb(90,109, 182)"></div>
+	</div>
+	<div class="col-md-1">
+		<div class="ws-chart-color-chip" style="background-color:#C15206"></div>
+		<div class="ws-chart-color-chip" style="background-color:rgb(122, 111, 0)"></div>
+	</div>
+	<div class="col-md-1">
+		<div class="ws-chart-color-chip" style="background-color:#F57C00"></div>
+		<div class="ws-chart-color-chip" style="background-color:rgb(170, 154, 0)"></div>
+	</div>
+	<div class="col-md-1">
+		<div class="ws-chart-color-chip" style="background-color:#FFEB3B"></div>
+		<div class="ws-chart-color-chip" style="background-color:rgb(255,237,53)"></div>
+	</div>
+</div>
 <h1 class="ws-section-head">Statistic<span class="status prototype">In Progress</span></h1>
-<p class="ws-first-p"><b>Before considering any data visualization</b>, consider showing a simple statistic. If you can tell the user what they want to know without interpret a chart, that is preferred.</p>
+<p class="ws-first-p"><b>Before considering any data visualization</b>, consider showing a simple statistic. If you can tell the user what they want to know without forcing chart interpretation, that is preferred.</p>
 
 
 
 <h1 class="ws-section-head">Bar Chart<span class="status prototype">In Progress</span></h1>
-<p>Use: <b>comparison between items</b> or <b>comparison thoughout time</b> and <b>identify outliers</b></p>
-<p >Bar charts can help the user quickly identify high and low values in data sets. You can compare items against each other, such as in the first example. In the second example, the same item is compared overtime. A line chart could also be used in this scenario and works better if you are showing more than 12 data points. Bar charts work best if large differences between bars are expected. Subtle fluctuations will be harder to identify in a bar chart than in a line chart.</p>
-
-<p class="ws-first-p">Bar in charts with a single data set should be the same color, and there is no need to show a legend.</p>
-
-<div class="rs-row-collapse">
-	<div class="span-1"></div>
-	<div class="span-10">
-		<h2 class="ds-chart-header">Length of World's Largest Rivers Defined by Discharge</h2>
-		<canvas id="demoBarChart" width="12" height="5"></canvas>
+<p><b>Use to compare items against each other or throughout time and identify outliers.</b></p>
+<p>Bar charts showing a single dataset should use a single color, and there is no need to show a legend.</p>
+<p>When comparing throughout time, bar charts and line charts can sometimes be used interchangably. <b>Use a line chart if:</b></p> 
+<ul class="ws-first-p">
+	<li>The bar chart showing one dataset would have more than 15 bars or multi-dataset bar chart will have more than 24 bars.</li>
+	<li>Small or barely distiguishable differences are expected between bar heights. Small differences will be easier to identify in a line chart.</li>
+</ul>
+<div class="ws-chart-ex-con">
+	<div class="row ws-chart-row">
+		<div class="col-md-12">
+			<h2 class="ds-chart-header">Length of World's Largest Rivers Defined by Discharge</h2>
+			<canvas id="demoBarChart" width="12" height="5"></canvas>
+		</div>
 	</div>
-	<div class="span-1"></div>
+
+	<div class="row ws-chart-row">
+		<div class="col-md-12">
+			<h2 class="ds-chart-header">Nile River Yearly Discharge<span class="status prototype">In Progress</span></h2>
+			<canvas id="demoLineBarChart" width="12" height="5"></canvas>
+		</div>
+	</div>
+</div>
+<h3>Multiple Datasets</h3>
+<p>Bar charts can also compare up to four datasets against eachother over time. Distinguish between datasets with color and show a legend. Assure the same y-axis unit applies to each dataset. Datasets should also have similar orders of magitude. For example, changes in the annual discharge of a local creek will be unnoticable if displayed on the same chart as the Nile River's annual discarge.</p>
+<div class="ws-chart-ex-con">
+	<div class="row ws-chart-row">
+		<div class="col-md-12">
+			<h2 class="ds-chart-header">Monthly Rainfall</h2>
+			<canvas id="demoBarChartb" width="12" height="5"></canvas>
+		</div>
+	</div>
 </div>
 
-<h3>Multiple Data Sets</h3>
-<p>Up to four data sets can be compared overtime using a bar chart. Each data set should be a unique color, and a legand must be displayed. Clicking on a data set label in the legend toggles between showing and hiding that information in the chart.</p>
-<p class="ws-first-p">In order to show multiple data sets on the same bar chart, the same y-axis must be represent the same variable. If the y-axis variables are different, show the information in separate charts.Creating multiple y-axises can make charts misleading and cause confusion.</p>
-<div class="rs-row-collapse">
-	<div class="span-1"></div>
-	<div class="span-10">
-		<h2 class="ds-chart-header">Monthly Rainfall</h2>
-		<canvas id="demoBarChartb" width="12" height="5"></canvas>
-	</div>
-	<div class="span-1"></div>
-</div>
+
+
 
 <h1 class="ws-section-head">Bubble Chart<span class="status prototype">In Progress</span></h1>
-<p class="ws-todo-bar" style="margin-bottom:12px;"><b>TODO:</b> Indicate what bubble radius represents in the legend.</p>
+<p class="ws-todo-bar" style="margin-bottom:12px;"><b>TODO:</b> Fix legend. Indicate what bubble radius represents.  Show continent groups instead of individual rivers.</p>
 <p class="ws-todo-bar" style="margin-bottom:12px;"><b>TODO:</b> Change the display of the data in the tooltip.</p>
-<p class="ws-todo-bar" style="margin-bottom:24px;"><b>TODO:</b> Show continent groups in legend instead of individual rivers..</p>
 
-
-<p>Use: <b>show relationship</b> or <b>show three variables</b></p>
+<p><b>Use to show relationship between variables or show more than two variables at once.</b></p>
 <p>A bubble chart displays three variables of data at a time. It can show the correlation between the x- and y-axis variables. A third variable determines the size of the bubble. Be conscientious of the number of bubbles and the size of the chart. Too many bubbles on too small of a chart can create a useless visualization.</p>
 <p class="ws-first-p">A legend doesn't necessarily need to be shown with this chart. However, it can be used to filter what bubbles are displayed and therefore helpful in some circumstances. Make sure to include a custom scale indicating what bubble diameter indicates.</p>
-<div class="rs-row-collapse">
-	<div class="span-1"></div>
-	<div class="span-10">
+<div class="row">
+	<div class="col-md-12">
 		<h2 class="ds-chart-header">The World's Largest Rivers</h2>
 		<canvas id="demoBubbleChart" width="12" height="5"></canvas>
 	</div>
-	<div class="span-1"></div>
 </div>
 
 
@@ -72,69 +137,57 @@ preview-image: components-grid.svg
 <h1 class="ws-section-head">Line Chart<span class="status prototype">In Progress</span></h1>
 <p>Use: <b>trends over time</b></p>
 
-<p class="ws-first-p">Much of the guidence around bar charts also applies to line charts. Line charts with a single line do not need a legend. Up to six lines can be displayed on a single chart with a legend. Lines must be throroughly differentiated with color or pattern. The same y-axis variable must apply to all lines on the chart.</p>
-<div class="rs-row-collapse">
-	<div class="span-1"></div>
-	<div class="span-10">
+<p class="ws-first-p">Much of the guidence around bar charts also applies to line charts. Line charts with a single line do not need a legend. Up to six lines can be displayed on a single chart with a legend. Lines must be throroughly differentiated with color or pattern. The same y-axis unit must apply to all lines on the chart.</p>
+<div class="row">
+	<div class="col-md-12">
 		<h2 class="ds-chart-header">Average Monthy Rainfall</h2>
 		<canvas id="demoLineChartb" width="12" height="5"></canvas>
 	</div>
-	<div class="span-1"></div>
 </div>
-<div class="rs-row-collapse">
-	<div class="span-1"></div>
-	<div class="span-10">
+<div class="row">
+	<div class="col-md-12">
 		<h2 class="ds-chart-header">Nile River Yearly Discharge</h2>
 		<canvas id="demoLineChartd" width="12" height="5"></canvas>
 	</div>
-	<div class="span-1"></div>
 </div>
 <h3 class="ws-charts-h3">Variations</h3>
 <p class="ws-first-p">Chart.js allows for customization. The tension on the lines can be changed to make the lines more rounded. The area beneath the line can also be filled; however, this affect should only be used if there is one line on the chart.</p>
-<div class="rs-row-collapse">
-	<div class="span-1"></div>
-	<div class="span-10">
+<div class="row">
+	<div class="col-md-12">
 		<h2 class="ds-chart-header">Nile River Yearly Discharge</h2>
 		<canvas id="demoLineChartC" width="12" height="5"></canvas>
 	</div>
-	<div class="span-1"></div>
 </div>
 
 
 
-<h1 class="ws-section-head">Pie and Doughnut Charts<span class="status prototype">In Progress</span></h1>
+<h1 class="ws-section-head">Doughnut Charts<span class="status prototype">In Progress</span></h1>
 <p class="ws-todo-bar" style="margin-bottom:24px;"><b>TODO:</b> Move the legend to the left.</p>
 <p>Pie and doughnut charts show composition and are the only Helix charts that show an item's share of the total. Limit the number of slices to seven or less. If there are more categories than that, group all but the largest six into an other category. Always show legends with a pie chart.</p>
 <p  class="ws-first-p">An additional feature of a doughnut charts is that it can be combined with a statistic shown in the center whitesapece.</p>
-<div class="rs-row-collapse">
-	<div class="span-1"></div>
-	<div class="span-4">
+<div class="row">
+	<div class="col-md-2"></div>
+	<div class="col-md-8">
 		<h2 class="ds-chart-header">Large* Rivers per Continent</h2>
-		<canvas id="demoPieChart" width="400" height="400"></canvas>
+		<canvas id="demoDoughnutChart" width="11" height="7"></canvas>
 		<p class="subtext">*In this context, large rivers discharge more than 2,000 cubic meters of water per second.</p>
 	</div>
-	<div class="span-2"></div>
-	<div class="span-4">
-		<h2 class="ds-chart-header">Large* Rivers per Continent</h2>
-		<canvas id="demoDoughnutChart" width="400" height="400"></canvas>
-		<p class="subtext">*In this context, large rivers discharge more than 2,000 cubic meters of water per second.</p>
-	</div>
-	<div class="span-1"></div>
+	<div class="col-md-2"></div>
 </div>
 
 
 <h1 class="ws-section-head">Polar Area Chart<span class="status prototype">In Progress</span></h1>
-<p>Use: <b>identify outliers</b> and <b>display cyclical data</b></p>
-<p>Polar area charts have similarities to both bar and pie charts. Unlike pie charts, they do not show an item's share of the total. Instead each wedge has an equal angle. Instead, the wedges extend from the center to show deviations in the data the way bars extend from the x-axis in the above bar chart examples. Polar area charts are best at showing cyclical data.</p>
+<p><b>Use to identify outliers and display cyclical data.</b></p>
+<p>Polar area charts have similarities to both bar and pie charts. Unlike pie charts, they do not show an item's share of the total. Instead each wedge has an equal angle. The wedges extend from the center to show deviations in the data the way bars extend from the x-axis in the above bar chart examples. Polar area charts are best at showing cyclical data.</p>
 <p class="ws-first-p">Since polar area charts are less common compared to bar and pie charts, gleaning insights from them can increase <a href="https://www.nngroup.com/articles/minimize-cognitive-load/">cognitive load</a>. Depending on your data, consider showing a bar chart or pie chart instead.</p>
 	
-<div class="rs-row-collapse">
-	<div class="span-2"></div>
-	<div class="span-6">
-		<h2 class="ds-chart-header">San Antonio's Rainfall</h2>
-		<canvas id="demoPolarAreaChart" width="1" height="1"></canvas>
+<div class="row">
+	<div class="col-md-2"></div>
+	<div class="col-md-6">
+		<h2 class="ds-chart-header">San Antonio's Average Monthly Rainfall</h2>
+		<canvas id="demoPolarAreaChart" width="13" height="9"></canvas>
 	</div>
-	<div class="span-2"></div>
+	<div class="col-md-2"></div>
 </div>
 
 <h1 class="ws-section-head">Radar Chart<span class="status prototype">In Progress</span></h1>
@@ -144,13 +197,13 @@ preview-image: components-grid.svg
 Do not overlay more than three d
 
 <p class="ws-first-p">A radar chart can have no more than 12 axises. The same scale must apply to all axises. Only two data set can be shown at a time.</p>
-<div class="rs-row-collapse">
-	<div class="span-2"></div>
-	<div class="span-6">
+<div class="row">
+	<div class="col-md-2"></div>
+	<div class="col-md-6">
 		<h2 class="ds-chart-header">Monthly Average Rainfall</h2>
-		<canvas id="demoRadarChart" width="1" height="1"></canvas>
+		<canvas id="demoRadarChart" width="13" height="9"></canvas>
 	</div>
-	<div class="span-2"></div>
+	<div class="col-md-2"></div>
 </div>
 
 
@@ -161,3 +214,10 @@ Do not overlay more than three d
 </style>
 
 <script src="/assets/js/demo-charts.js"></script>
+
+<style type = "text/css" scoped>
+.ws-chart-color-chip{
+	width: 100%;
+	height: 40px;
+}
+</style>
