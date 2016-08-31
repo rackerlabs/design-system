@@ -26,42 +26,56 @@ preview-image: components-grid.svg
 </ul>
 
 <h3>Use of Color</h3>
+<p class="ws-first-p">Color should be only be used intentially to differentiate between data in charts. When using color different colors in a chart, always show a legend. <b>Avoid using more than seven colors</b> in a single chart. It will become to difficult for users to distinguish between them.</p>
+<p><a href="http://www.colourblindawareness.org/colour-blindness/types-of-colour-blindness/">Color blindness</a> affects 8% of men and 0.5% of women worldwide. </p>
 <div class="row no-gutter">
 	<div class="col-md-1">
 		<div class="ws-chart-color-chip" style="background-color:#424242"></div>
+		<p class="subtext">Grey 900</p>
 	</div>
 	<div class="col-md-1">
 		<div class="ws-chart-color-chip" style="background-color:#757575"></div>
+		<p class="subtext">Grey 700</p>
 	</div>
 	<div class="col-md-1">
 		<div class="ws-chart-color-chip" style="background-color:#BDBDBD"></div>
+		<p class="subtext">Grey 500</p>
 	</div>
 	<div class="col-md-1">
-		<div class="ws-chart-color-chip" id="ws-chart-cyan700" style="background-color:#0E94A6"></div>
+		<div class="ws-chart-color-chip" id="ws-chart-cyan700"></div>
+		<p class="subtext">Cyan 700</p>
 	</div>
 	<div class="col-md-1">
-		<div class="ws-chart-color-chip" id="ws-chart-cyan500" style="background-color:#16B9D4"></div>
+		<div class="ws-chart-color-chip" id="ws-chart-cyan500" ></div>
+		<p class="subtext">Cyan 500</p>
 	</div>
 	<div class="col-md-1">
-		<div class="ws-chart-color-chip" id="ws-chart-cyan100" style="background-color:#B6E3EB"></div>
+		<div class="ws-chart-color-chip" id="ws-chart-cyan100"></div>
+		<p class="subtext">Cyan 100</p>
 	</div>
 	<div class="col-md-1">
-		<div class="ws-chart-color-chip" id="ws-chart-purple900" style="background-color:#232968"></div>
+		<div class="ws-chart-color-chip" id="ws-chart-purple900"></div>
+		<p class="subtext">Purple 900</p>
 	</div>
 	<div class="col-md-1">
-		<div class="ws-chart-color-chip" id="ws-chart-purple500" style="background-color:#3B44A9"></div>
+		<div class="ws-chart-color-chip" id="ws-chart-purple500"></div>
+		<p class="subtext">Purple 500</p>
 	</div>
 	<div class="col-md-1">
-		<div class="ws-chart-color-chip" id="ws-chart-purple100" style="background-color:#6676BC"></div>
+		<div class="ws-chart-color-chip" id="ws-chart-purple100"></div>
+		<p class="subtext">Purple 100</p>
 	</div>
 	<div class="col-md-1">
-		<div class="ws-chart-color-chip" id="ws-chart-orange900" style="background-color:#C15206"></div>
+		<div class="ws-chart-color-chip" id="ws-chart-orange900"></div>
+		<p class="subtext">Orange 100</p>
 	</div>
 	<div class="col-md-1">
 		<div class="ws-chart-color-chip" id="ws-chart-orange500"></div>
+		<p class="subtext">Orange 500</p>
 	</div>
 	<div class="col-md-1">
-		<div class="ws-chart-color-chip" id="ws-chart-yellow700" style="background-color:#FFEB3B"></div>
+		<div class="ws-chart-color-chip" id="ws-chart-yellow700"></div>
+		<p class="subtext">Yellow 700</p>
 	</div>
 </div>
 <h1 class="ws-section-head">Statistic<span class="status prototype">In Progress</span></h1>
@@ -209,6 +223,202 @@ Do not overlay more than three d
 	height: 40px;
 }
 
+#ws-chart-cyan700{
+	animation:         cyan700 5s infinite; /* CSS3 */
+	-moz-animation:    cyan700 5s infinite; /* Firefox */
+	-webkit-animation: cyan700 5s infinite; /* Webkit */
+}
+
+@keyframes cyan700 { /* CSS3 */
+	0%   { background-color: #0E94A6; }
+	20%  { background-color: rgb(113,121,161); }
+	50%  { background-color: rgb(113,121,161); }
+	70% { background-color: #0E94A6; }
+	100% { background-color: #0E94A6; }
+}
+@-moz-keyframes cyan700 { /* Firefox */
+	0%   { background-color: #0E94A6; }
+	20%  { background-color: rgb(113,121,161); }
+	50%  { background-color: rgb(113,121,161); }
+	70% { background-color: #0E94A6; }
+	100% { background-color: #0E94A6; }
+}
+@-webkit-keyframes cyan700 { /* Webkit */
+	0%   { background-color: #0E94A6; }
+	20%  { background-color: rgb(113,121,161); }
+	50%  { background-color: rgb(113,121,161); }
+	70% { background-color: #0E94A6; }
+	100% { background-color: #0E94A6; }
+}
+
+#ws-chart-cyan500{
+	animation:         cyan500 5s infinite; /* CSS3 */
+	-moz-animation:    cyan500 5s infinite; /* Firefox */
+	-webkit-animation: cyan500 5s infinite; /* Webkit */
+}
+
+@keyframes cyan500 { /* CSS3 */
+	0%   { background-color: #16B9D4; }
+	20%  { background-color: rgb(142,154,210); }
+	50%  { background-color: rgb(142,154,210); }
+	70% { background-color: #16B9D4; }
+	100% { background-color: #16B9D4; }
+}
+@-moz-keyframes cyan500 { /* Firefox */
+	0%   { background-color: #16B9D4; }
+	20%  { background-color: rgb(142,154,210); }
+	50%  { background-color: rgb(142,154,210); }
+	70% { background-color: #16B9D4; }
+	100% { background-color: #16B9D4; }
+}
+@-webkit-keyframes cyan500 { /* Webkit */
+	0%   { background-color: #16B9D4; }
+	20%  { background-color: rgb(142,154,210); }
+	50%  { background-color: rgb(142,154,210); }
+	70% { background-color: #16B9D4; }
+	100% { background-color: #16B9D4; }
+}
+
+#ws-chart-cyan100{
+	animation:         cyan100 5s infinite; /* CSS3 */
+	-moz-animation:    cyan100 5s infinite; /* Firefox */
+	-webkit-animation: cyan100 5s infinite; /* Webkit */
+}
+
+@keyframes cyan100 { /* CSS3 */
+	0%   { background-color: #B6E3EB; }
+	20%  { background-color: rgb(209,213,233); }
+	50%  { background-color: rgb(209,213,233); }
+	70% { background-color: #B6E3EB; }
+	100% { background-color: #B6E3EB; }
+}
+@-moz-keyframes cyan100 { /* Firefox */
+	0%   { background-color: #B6E3EB; }
+	20%  { background-color: rgb(209,213,233); }
+	50%  { background-color: rgb(209,213,233); }
+	70% { background-color: #B6E3EB; }
+	100% { background-color: #B6E3EB; }
+}
+@-webkit-keyframes cyan100 { /* Webkit */
+	0%   { background-color: #B6E3EB; }
+	20%  { background-color: rgb(209,213,233); }
+	50%  { background-color: rgb(209,213,233); }
+	70% { background-color: #B6E3EB; }
+	100% { background-color: #B6E3EB; }
+}
+
+#ws-chart-purple900{
+	animation:         purple900 5s infinite; /* CSS3 */
+	-moz-animation:    purple900 5s infinite; /* Firefox */
+	-webkit-animation: purple900 5s infinite; /* Webkit */
+}
+
+@keyframes purple900 { /* CSS3 */
+	0%   { background-color: #232968; }
+	20%  { background-color: rgb(13,36,95); }
+	50%  { background-color: rgb(13,36,95); }
+	70% { background-color: #232968; }
+	100% { background-color: #232968; }
+}
+@-moz-keyframes purple900 { /* Firefox */
+	0%   { background-color: #232968; }
+	20%  { background-color: rgb(13,36,95); }
+	50%  { background-color: rgb(13,36,95); }
+	70% { background-color: #232968; }
+	100% { background-color: #232968; }
+}
+@-webkit-keyframes purple900 { /* Webkit */
+	0%   { background-color: #232968; }
+	20%  { background-color: rgb(13,36,95); }
+	50%  { background-color: rgb(13,36,95); }
+	70% { background-color: #232968; }
+	100% { background-color: #232968; }
+}
+
+#ws-chart-purple500{
+	animation:         purple500 5s infinite; /* CSS3 */
+	-moz-animation:    purple500 5s infinite; /* Firefox */
+	-webkit-animation: purple500 5s infinite; /* Webkit */
+}
+
+@keyframes purple500 { /* CSS3 */
+	0%   { background-color: #3B44A9; }
+	20%  { background-color: rgb(22,62,162); }
+	50%  { background-color: rgb(22,62,162); }
+	70% { background-color: #3B44A9; }
+	100% { background-color: #3B44A9; }
+}
+@-moz-keyframes purple500 { /* Firefox */
+	0%   { background-color: #3B44A9; }
+	20%  { background-color: rgb(22,62,162); }
+	50%  { background-color: rgb(22,62,162); }
+	70% { background-color: #3B44A9; }
+	100% { background-color: #3B44A9; }
+}
+@-webkit-keyframes purple500 { /* Webkit */
+	0%   { background-color: #3B44A9; }
+	20%  { background-color: rgb(22,62,162); }
+	50%  { background-color: rgb(22,62,162); }
+	70% { background-color: #3B44A9; }
+	100% { background-color: #3B44A9; }
+}
+
+#ws-chart-purple100{
+	animation:         purple100 5s infinite; /* CSS3 */
+	-moz-animation:    purple100 5s infinite; /* Firefox */
+	-webkit-animation: purple100 5s infinite; /* Webkit */
+}
+
+@keyframes purple100 { /* CSS3 */
+	0%   { background-color: #6676BC; }
+	20%  { background-color: rgb(90,109,182); }
+	50%  { background-color: rgb(90,109,182); }
+	70% { background-color: #6676BC; }
+	100% { background-color: #6676BC; }
+}
+@-moz-keyframes purple100 { /* Firefox */
+	0%   { background-color: #6676BC; }
+	20%  { background-color: rgb(90,109,182); }
+	50%  { background-color: rgb(90,109,182); }
+	70% { background-color: #6676BC; }
+	100% { background-color: #6676BC; }
+}
+@-webkit-keyframes purple100 { /* Webkit */
+	0%   { background-color: #6676BC; }
+	20%  { background-color: rgb(90,109,182); }
+	50%  { background-color: rgb(90,109,182); }
+	70% { background-color: #6676BC; }
+	100% { background-color: #6676BC; }
+}
+
+#ws-chart-orange900{
+	animation:         orange900 5s infinite; /* CSS3 */
+	-moz-animation:    orange900 5s infinite; /* Firefox */
+	-webkit-animation: orange900 5s infinite; /* Webkit */
+}
+
+@keyframes orange900 { /* CSS3 */
+	0%   { background-color: #C15206; }
+	20%  { background-color: rgb(122,111,0); }
+	50%  { background-color: rgb(122,111,0); }
+	70% { background-color: #C15206; }
+	100% { background-color: #C15206; }
+}
+@-moz-keyframes orange900 { /* Firefox */
+	0%   { background-color: #C15206; }
+	20%  { background-color: rgb(122,111,0); }
+	50%  { background-color: rgb(122,111,0); }
+	70% { background-color: #C15206; }
+	100% { background-color: #C15206; }
+}
+@-webkit-keyframes orange900 { /* Webkit */
+	0%   { background-color: #C15206; }
+	20%  { background-color: rgb(122,111,0); }
+	50%  { background-color: rgb(122,111,0); }
+	70% { background-color: #C15206; }
+	100% { background-color: #C15206; }
+}
+
 #ws-chart-orange500{
 	animation:         orange500 5s infinite; /* CSS3 */
 	-moz-animation:    orange500 5s infinite; /* Firefox */
@@ -217,17 +427,51 @@ Do not overlay more than three d
 
 @keyframes orange500 { /* CSS3 */
 	0%   { background-color: #F57C00; }
-	50%  { background-color: yellow; }
+	20%  { background-color: rgb(170,154,0); }
+	50%  { background-color: rgb(170,154,0); }
+	70% { background-color: #F57C00; }
 	100% { background-color: #F57C00; }
 }
 @-moz-keyframes orange500 { /* Firefox */
 	0%   { background-color: #F57C00; }
-	50%  { background-color: yellow; }
+	20%  { background-color: rgb(170,154,0); }
+	50%  { background-color: rgb(170,154,0); }
+	70% { background-color: #F57C00; }
 	100% { background-color: #F57C00; }
 }
 @-webkit-keyframes orange500 { /* Webkit */
 	0%   { background-color: #F57C00; }
-	50%  { background-color: yellow; }
+	20%  { background-color: rgb(170,154,0); }
+	50%  { background-color: rgb(170,154,0); }
+	70% { background-color: #F57C00; }
 	100% { background-color: #F57C00; }
+}
+
+#ws-chart-yellow700{
+	animation:         yellow700 5s infinite; /* CSS3 */
+	-moz-animation:    yellow700 5s infinite; /* Firefox */
+	-webkit-animation: yellow700 5s infinite; /* Webkit */
+}
+
+@keyframes yellow700 { /* CSS3 */
+	0%   { background-color: #FFEB3B; }
+	20%  { background-color: rgb(255,237,53); }
+	50%  { background-color: rgb(255,237,53); }
+	70% { background-color: #FFEB3B; }
+	100% { background-color: #FFEB3B; }
+}
+@-moz-keyframes yellow700 { /* Firefox */
+	0%   { background-color: #FFEB3B; }
+	20%  { background-color: rgb(255,237,53); }
+	50%  { background-color: rgb(255,237,53); }
+	70% { background-color: #FFEB3B; }
+	100% { background-color: #FFEB3B; }
+}
+@-webkit-keyframes yellow700 { /* Webkit */
+	0%   { background-color: #FFEB3B; }
+	20%  { background-color: rgb(255,237,53); }
+	50%  { background-color: rgb(255,237,53); }
+	70% { background-color: #FFEB3B; }
+	100% { background-color: #FFEB3B; }
 }
 </style>
