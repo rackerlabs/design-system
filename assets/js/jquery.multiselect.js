@@ -77,8 +77,8 @@
             $(instance.element).addClass('jqmsLoaded');
 
             // add option container
-            $(instance.element).after('<div class="ms-options-wrap"><button>None Selected</button><div class="ms-options"><ul></ul></div></div>');
-            var placeholder = $(instance.element).next('.ms-options-wrap').find('> button:first-child');
+            $(instance.element).after('<div class="ms-options-wrap"><div id="ms-button" class="ui-selectmenu-button ui-button" role="combobox" tabindex="0"><span class="ui-selectmenu-icon ui-icon ui-icon-triangle-1-s"></span><span class="ui-selectmenu-text">None Selected</span></div><div class="ms-options ui-selectmenu-menu ui-front"><ul class="ui-menu ui-corner-bottom ui-widget ui-widget-content"></ul></div></div>');
+            var placeholder = $(instance.element).next('.ms-options-wrap').find('> #ms-button > .ui-selectmenu-text');
             var optionsWrap = $(instance.element).next('.ms-options-wrap').find('> .ms-options');
             var optionsList = optionsWrap.find('> ul');
             var hasOptGroup = $(instance.element).find('optgroup').length ? true : false;
@@ -160,7 +160,7 @@
                     }
                     maxHeight = maxHeight < instance.options.minHeight ? instance.options.minHeight : maxHeight;
 
-                    optionsWrap.css( 'maxHeight', maxHeight );
+                    //optionsWrap.css( 'maxHeight', maxHeight );
                 }
             }).click(function( event ){ event.preventDefault(); });
 
@@ -369,7 +369,7 @@
 
             for( var key in options ) {
                 var thisOption = options[ key ];
-                var container  = $('<li></li>');
+                var container  = $('<li class="ui-menu-item"></li>');
 
                 // optgroup
                 if( thisOption.hasOwnProperty('options') ) {
@@ -382,7 +382,7 @@
                     if( instance.options.selectGroup ) {
                         container.append('<a href="#" class="ms-selectall">Select all</a>')
                     }
-                    
+
                     container.append('<ul></ul>');
 
                     for( var gKey in thisOption.options ) {
@@ -408,11 +408,6 @@
                 if( $(this).css('display').match(/block$/) ) {
                     var checkboxWidth = $(this).outerWidth();
                         checkboxWidth = checkboxWidth ? checkboxWidth : 15;
-
-                    $(this).closest('label').css(
-                        'padding-left',
-                        (parseInt( $(this).closest('label').css('padding-left') ) * 2) + checkboxWidth
-                    );
 
                     $(this).closest('.ms-reflow').removeClass('ms-reflow');
                 }
@@ -443,7 +438,7 @@
         // update selected placeholder text
         _updatePlaceholderText: function(){
             var instance    = this;
-            var placeholder = $(instance.element).next('.ms-options-wrap').find('> button:first-child');
+            var placeholder = $(instance.element).next('.ms-options-wrap').find('> #ms-button > .ui-selectmenu-text');
             var optionsWrap = $(instance.element).next('.ms-options-wrap').find('> .ms-options');
             var select      = optionsWrap.parent().prev();
 
@@ -498,7 +493,7 @@
                 container.find( 'input[type="checkbox"]' ).prop( 'checked', true );
             }
 
-            var label = $('<label></label>').attr( 'for', 'ms-opt-'+ msCounter );
+            var label = $('<label class="ui-menu-item-wrapper" role="option" tabindex="1"></label>').attr( 'for', 'ms-opt-'+ msCounter );
             container.wrapInner( label );
 
 
