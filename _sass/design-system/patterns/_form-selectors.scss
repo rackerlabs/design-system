@@ -503,10 +503,12 @@ label.selector, label.selectorDisabled{
   content: "\e906";
 }
 
+
+
 .ui-menu {
   background: $grey25;
   border: 1px solid $grey500;
-  color: $grey600;
+  color: $grey700;
   .ui-menu-item-wrapper {
     padding: 4px 1em;
     &:before {
@@ -517,7 +519,7 @@ label.selector, label.selectorDisabled{
       width: 1em;
     }
     &:hover {
-      background: $grey600;
+      background: $grey700;
       color: #fff;
     }
     &.ui-state-active:before {
@@ -527,13 +529,40 @@ label.selector, label.selectorDisabled{
   }
 }
 
+.ui-menu li.selected {
+  label.ui-menu-item-wrapper {
+    &:before {
+      color: $grey700;
+      content: "\e921";
+      width: auto;
+    }
+    &:hover {
+      &:before {
+        color: #fff;
+      }
+    }
+    &:focus, &:active {
+      outline: none;
+    }
+  }
+}
+
+.ui-menu li {
+  label.ui-menu-item-wrapper {
+    &:focus, &:active {
+      outline: none;
+    }
+  }
+}
+
+
 .ui-selectmenu-menu .ui-state-disabled {
   display: none;
 }
 
 
 
-#contact1-button, #contact2-button, #contact3-button {
+#contact1-button, #contact2-button, #contact3-button, #ms-button {
 
   &.ui-selectmenu-button.ui-button {
     background: white;
@@ -562,6 +591,22 @@ label.selector, label.selectorDisabled{
     content: "\e900";
   }
 
+}
+
+.ms-options {
+    top: 33px;
+    width: 224px;
+    z-index: 2000;
+}
+label.ui-menu-item-wrapper {
+  display: block;
+  &:hover {
+    cursor: pointer;
+  }
+  input {
+    display: none;
+    visibility: hidden;
+  }
 }
 
 .custom-combobox {

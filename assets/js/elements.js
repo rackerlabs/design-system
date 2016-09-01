@@ -94,6 +94,10 @@ $(document).ready(function() {
     $('#contact2').selectmenu();
     $('#contact3').selectmenu();
     $('#contact3-button').addClass('textInputError');
+    $('#contact-multi').multiselect({
+        columns: 1,
+        placeholder: 'Select Contacts'
+    });
 
     //dropdown selector w/ typeahead
       $.widget( "custom.combobox", {
