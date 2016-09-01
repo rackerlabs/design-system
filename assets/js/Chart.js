@@ -7,6 +7,14 @@
  * Released under the MIT license
  * https://github.com/chartjs/Chart.js/blob/master/LICENSE.md
  */
+
+ /*!
+ Changes have been made to this file:
+ *Chart.defaults.global settings
+ *The way list items in the polar radar legend are drawn (text appeared inside span tag previously)
+ *cutoutPercentage: 70, for doughnut charts
+ */
+
 (function(f){if(typeof exports==="object"&&typeof module!=="undefined"){module.exports=f()}else if(typeof define==="function"&&define.amd){define([],f)}else{var g;if(typeof window!=="undefined"){g=window}else if(typeof global!=="undefined"){g=global}else if(typeof self!=="undefined"){g=self}else{g=this}g.Chart = f()}})(function(){var define,module,exports;return (function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);var f=new Error("Cannot find module '"+o+"'");throw f.code="MODULE_NOT_FOUND",f}var l=n[o]={exports:{}};t[o][0].call(l.exports,function(e){var n=t[o][1][e];return s(n?n:e)},l,l.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){
 
 },{}],2:[function(require,module,exports){
@@ -2621,7 +2629,7 @@ module.exports = function(Chart) {
 		},
 
 		//The percentage of the chart that we cut out of the middle.
-		cutoutPercentage: 80,
+		cutoutPercentage: 70,
 
 		//The rotation of the chart, where the first data arc begins.
 		rotation: Math.PI * -0.5,
@@ -3193,11 +3201,11 @@ module.exports = function(Chart) {
 
 			if (datasets.length) {
 				for (var i = 0; i < datasets[0].data.length; ++i) {
-					text.push('<li><span style="background-color:' + datasets[0].backgroundColor[i] + '">');
+					text.push('<li><span style="background-color:' + datasets[0].backgroundColor[i] + '"></span>');
 					if (labels[i]) {
 						text.push(labels[i]);
 					}
-					text.push('</span></li>');
+					text.push('</li>');
 				}
 			}
 
@@ -7756,7 +7764,7 @@ module.exports = function(Chart) {
 		custom: null,
 		mode: 'single',
 		backgroundColor: "#fff",
-		titleFontStyle: "bold",
+		titleFontStyle: 500,
 		titleSpacing: 2,
 		titleMarginBottom: 8,
 		titleFontColor: "#333",

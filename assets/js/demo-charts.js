@@ -6,9 +6,15 @@ var riverNameLabels15 = [ "Amazon", "Congo", "Ganges", "Orinoco", "Madeira",
                         "Yangtze", "Negro", "Río del la Plata", "Yenisei", "Brahmaputra", 
                         "Japurá", "Paraná", "Lena", "Saint Lawrence", "Mississippi"];
 
+var riverNameLabels12 = [ "Amazon", "Congo", "Ganges", "Orinoco", "Madeira",
+                        "Yangtze", "Negro", "Río del la Plata", "Yenisei", "Brahmaputra"];
+
 var riverLength = [ 6992, 4371, 2948, 2140, 3380, 
                     6418, 2230, 290, 5550, 2840, 
                     2615, 4880, 4472, 3058, 3730 ];
+
+var riverLength12 = [ 6992, 4371, 2948, 2140, 3380, 
+                    6418, 2230, 290, 5550, 2840, ];
 
 var riverNameLabels5 = [ "Amazon", "Congo", "Ganges", "Orinoco", "Madeira"];
 
@@ -50,10 +56,10 @@ var ctx0 = document.getElementById("demoBarChart");
 var demoBarChart = new Chart(ctx0, {
     type: 'bar',
     data: {
-        labels: riverNameLabels15,
+        labels: riverNameLabels12,
         datasets: [{
             label: 'Length (km)',
-            data: riverLength,
+            data: riverLength12,
             backgroundColor: '#0E94A6',
         }]
     },
@@ -67,7 +73,7 @@ var demoBarChart = new Chart(ctx0, {
                   scaleLabel: {
                     display: true,
                     labelString: 'River',
-                    fontSize: 16,
+                    fontSize: 14,
                     fontColor: "#333",
                   }
                 }],
@@ -76,7 +82,7 @@ var demoBarChart = new Chart(ctx0, {
                   scaleLabel: {
                     display: true,
                     labelString: 'Length (km)', 
-                    fontSize: 16,
+                    fontSize: 14,
                     fontColor: "#333",
                   }
                 }]
@@ -109,6 +115,14 @@ var demoBarChartb = new Chart(ctx0b, {
         ]
     },
     options: {
+        legend: {
+            display: true,
+            labels: {
+                padding:32,
+                fontSize: 14,
+                fontColor: "#333"
+            }
+          },
         scales: {
             yAxes: [{
                 ticks: {
@@ -117,7 +131,7 @@ var demoBarChartb = new Chart(ctx0b, {
                 scaleLabel: {
                     display: true,
                     labelString: 'Rainfall (in)',
-                    fontSize: 16,
+                    fontSize: 14,
                     fontColor: "#333",
                   }
             }]
@@ -145,7 +159,14 @@ var demoBarChart = new Chart(ctx0c, {
             {label: '100-Year Average',
             type:'line',
             fill:false,
-            borderWidth:2,
+            lineTension: 0,
+            borderWidth:3,
+            pointBorderWidth:.5,
+            pointRadius:0,
+            pointHoverRadius:0,
+            pointHitRadius:0, 
+            pointHoverBorderWidth:1,
+            borderColor: "#F57C00",
             borderColor:'#DD6105',
             backgroundColor:'#fff',
             pointRadius:0,
@@ -157,6 +178,12 @@ var demoBarChart = new Chart(ctx0c, {
     },
     options: {
         legend: {
+            display: true,
+            labels: {
+                padding:32,
+                fontSize: 14,
+                fontColor: "#333"
+            }
           },
             scales: {
                 xAxes: [{
@@ -167,7 +194,7 @@ var demoBarChart = new Chart(ctx0c, {
                   scaleLabel: {
                     display: true,
                     labelString: 'Billion Cubic Meters', 
-                    fontSize: 16,
+                    fontSize: 14,
                     fontColor: "#333",
                   }
                 }]
@@ -226,7 +253,7 @@ var demoBubbleChart = new Chart(ctx1, {
                   scaleLabel: {
                     display: true,
                     labelString: 'Drainage Area (km^2)', 
-                    fontSize: 16,
+                    fontSize: 14,
                     fontColor: "#333",
                   }
                 }]
@@ -313,14 +340,19 @@ var demoLineChartb = new Chart(ctx2b, {
     options: {
         legend: {
             display: true,
-        },
+            labels: {
+                padding:32,
+                fontSize: 14,
+                fontColor: "#333"
+            }
+          },
         scales: {
             yAxes: [{
                     display: true,
                   scaleLabel: {
                     display: true,
                     labelString: 'Monthly Average Rainfall (in)', 
-                    fontSize: 16,
+                    fontSize: 14,
                     fontColor: "#333",
                   }
             }],
@@ -371,14 +403,19 @@ var demoLineChartd = new Chart(ctx2d, {
     options: {
         legend: {
             display: true,
-        },
+            labels: {
+                padding:32,
+                fontSize: 14,
+                fontColor: "#333"
+            }
+          },
         scales: {
             yAxes: [{
                     display: true,
                   scaleLabel: {
                     display: true,
                     labelString: 'Billion Cubic Meters', 
-                    fontSize: 16,
+                    fontSize: 14,
                     fontColor: "#333",
                   }
             }],
@@ -424,7 +461,7 @@ var demoLineChart = new Chart(ctx2c, {
                   scaleLabel: {
                     display: true,
                     labelString: 'Billion Cubic Meters', 
-                    fontSize: 16,
+                    fontSize: 14,
                     fontColor: "#333",
                   }
                 }]
@@ -465,12 +502,12 @@ var demoDoughnutChart = new Chart(ctx4, {
     },
     options: {
         legend: {
-            display: true,
-            position: 'right',
+            display: false,
         },
     },
 });
 
+document.getElementById('demoDoughnutChartLegend').innerHTML = demoDoughnutChart.generateLegend();
 /*--------------------------------------------------------------
 demoPolarAreaChart
 --------------------------------------------------------------*/
@@ -489,12 +526,12 @@ var demoPolarAreaChart = new Chart(ctx5, {
     },
     options: {
         legend: {
-            display: true,
-            position: 'right',
+            display: false,
         },
     },
 });
 
+document.getElementById('demoPolarAreaLegend').innerHTML = demoPolarAreaChart.generateLegend();
 /*--------------------------------------------------------------
 demoRadarChart
 --------------------------------------------------------------*/
@@ -507,11 +544,11 @@ var demoRadarChart = new Chart(ctx6, {
             label: "Seattle",
             backgroundColor: "rgba(14, 148, 166, 0.2)",
             borderColor: "#0E94A6",
-            borderWidth:2,
+            borderWidth:3,
             pointBorderWidth:.5,
-            pointRadius:3,
-            pointHoverRadius:3,
-            pointHitRadius:3, 
+            pointRadius:4,
+            pointHoverRadius:4,
+            pointHitRadius:4, 
             pointHoverBorderWidth:1,
             pointBackgroundColor: "#0E94A6",
             pointBorderColor: "#fff",
@@ -521,11 +558,11 @@ var demoRadarChart = new Chart(ctx6, {
         {
             label: "San Antonio",
             backgroundColor: "rgba(189, 189, 189, 0.2)",
-            borderWidth:2,
+            borderWidth:3,
             pointBorderWidth:.5,
-            pointRadius:3,
-            pointHoverRadius:3,
-            pointHitRadius:3, 
+            pointRadius:4,
+            pointHoverRadius:4,
+            pointHitRadius:4, 
             pointHoverBorderWidth:1,
             borderColor: "#bdbdbd",
             pointBackgroundColor: "#bdbdbd",
@@ -537,8 +574,10 @@ var demoRadarChart = new Chart(ctx6, {
     },
     options: {
         legend: {
-            display: true,
-            position: 'right',
+            display: false,
         },
     },
 });
+
+document.getElementById('demoRadarLegend').innerHTML = demoRadarChart.generateLegend();
+
