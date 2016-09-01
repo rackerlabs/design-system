@@ -1,3 +1,13 @@
+/*--------------------------------------------------------------
+set stat percent bar heights
+--------------------------------------------------------------*/
+document.addEventListener("DOMContentLoaded", function(event) { 
+    var textHeight = document.getElementById("ds-stat-con0").clientHeight;
+    document.getElementById("ds-stat-percent-bar0").style.height = textHeight + "px";
+    document.getElementById("ds-stat-percent-bar-inner0").style.height = "71%";
+});
+
+
 
 /*--------------------------------------------------------------
 data sets
@@ -466,6 +476,74 @@ var demoLineChart = new Chart(ctx2c, {
                   }
                 }]
 
+        }
+    }
+});
+
+var ctx2e = document.getElementById("demoSparkline");
+var demoSparkline = new Chart(ctx2e, {
+    type: 'line',
+    data: {
+        labels: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+        datasets: [
+            { label: 'San Antonio',
+            data: [1.65, 1.73, 1.89, 2.6, 4.72, 4.29, 2.05, 2.56, 2.99, 3.86, 2.6, 1.97],
+            fill: false,
+            lineTension: 0,
+            borderWidth:3,
+            pointRadius:0,
+            pointHoverRadius:0,
+            pointHitRadius:0, 
+            pointHoverBorderWidth:0,
+            borderColor: "#0E94A6",
+            backgroundColor:"#fff",},
+        ]
+    },
+    options: {
+        legend: {
+            display: false,
+          },
+        scales: {
+            yAxes: [{
+                display: false,
+            }],
+            xAxes: [{
+                display: false,
+            }]
+        }
+    }
+});
+
+var ctx2e2 = document.getElementById("demoSparkline2");
+var demoSparkline2 = new Chart(ctx2e2, {
+    type: 'line',
+    data: {
+        labels: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+        datasets: [
+            { label: 'Seattle',
+            data: [5.55, 3.46, 3.7, 2.68, 1.93, 1.54, 0.67, 0.87, 1.42, 3.46, 6.54, 5.31],
+            fill: false,
+            lineTension: 0,
+            borderWidth:3,
+            pointRadius:0,
+            pointHoverRadius:0,
+            pointHitRadius:0, 
+            pointHoverBorderWidth:0,
+            borderColor: "#0E94A6",
+            backgroundColor:"#fff",},
+        ]
+    },
+    options: {
+        legend: {
+            display: false,
+          },
+        scales: {
+            yAxes: [{
+                display: false,
+            }],
+            xAxes: [{
+                display: false,
+            }]
         }
     }
 });

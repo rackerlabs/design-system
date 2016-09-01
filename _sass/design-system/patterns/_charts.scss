@@ -1,3 +1,32 @@
+.ds-centered-stat{
+	width:100%;
+	text-align:center;
+}
+
+.ds-stat-with-percent-bar{
+}
+
+.ds-stat-percent-bar{
+	background-color:$grey300;
+	width:16px;
+	height:100;
+	margin-right:8px;
+	float:left;
+	position: relative;
+}
+
+.ds-stat-percent-bar-inner{
+	width:100%;
+	background-color:$cyan700;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.ds-stat-con p{
+	padding-bottom:0;
+}
+
 .ds-chart-header{
 	padding-bottom: $paddingXL;
 }

@@ -100,9 +100,43 @@ preview-image: components-grid.svg
 
 
 <h1 class="ws-section-head">Statistic<span class="status prototype">In Progress</span></h1>
-<p class="ws-first-p"><b>Before considering any data visualization</b>, consider showing a simple statistic. If you can tell the user what they want to know without forcing chart interpretation, that is preferred.</p>
+<p><b>Before considering any data visualization</b>, consider showing a simple statistic. If you can tell the user what they want to know without forcing chart interpretation, that is preferred. 
+<p>Use a combination of styles listed in the typography section to create your statistic. Select font weight and size according the amount of space available to display the statistic and its desired prominence.</p>
+<p class="ws-first-p">Small visualizations may be combined with statistics if there is enough context. A sparkline can give the user a quick visual queue as to whether the number is trending up or down.</p>
 
-
+<h2>Medina Lake 2015</h2>
+<div class="row">
+	<div class="col-md-4">
+		<div class="ds-stat-with-percent-bar">
+			<div class="ds-stat-percent-bar" id="ds-stat-percent-bar0"><div class="ds-stat-percent-bar-inner" id="ds-stat-percent-bar-inner0"></div></div>
+			<div class="ds-stat-con" id="ds-stat-con0">
+				<div class="display-font">71.2%</div>
+				<p>Capcity</p>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-4">
+		<div class="display-font">1,051 ft</div>
+		<p>Mean Water Level</p>
+	</div>
+	<div class="col-md-4">
+		<div class="display-font">4,978 acres</div>
+		<p>Surface Area</p>
+	</div>
+</div>
+<h2 style="padding-top:40px;">Average Annual Rainfall</h2>
+<div class="row">
+	<div class="col-md-3">
+		<h3>San Antonio</h3>
+		<div class="display-font">32.91 in</div>
+		<canvas id="demoSparkline" width="4" height="1"></canvas>
+	</div>
+	<div class="col-md-3 col-md-offset-1">
+		<h3>Seattle</h3>
+		<div class="display-font">37.13 in</div>
+		<canvas id="demoSparkline2" width="4" height="1"></canvas>
+	</div>
+</div>
 
 <h1 class="ws-section-head">Bar Chart<span class="status prototype">In Progress</span></h1>
 <p><b>Use to compare items against each other or throughout time and identify outliers.</b></p>
