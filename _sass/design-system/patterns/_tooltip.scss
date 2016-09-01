@@ -117,7 +117,7 @@ BEACON
   position:absolute;
   top:10px;
   left:10px;
-  background-color:$grey0; 
+  background-color:$grey0;
   height:16px;
   width:16px;
   opacity:.6;
@@ -129,8 +129,8 @@ BEACON
   &:before{
     position:absolute;
     content:"";
-    height:14px;
-    width:14px;
+    height:16px;
+    width:16px;
     left:0;
     top:0;
     background-color:transparent;
