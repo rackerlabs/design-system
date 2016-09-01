@@ -1,7 +1,7 @@
 //DON'T DELETE EAG 7-18-2016
 
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-INPUT AND SUBTEXT BASIC FORMATTING 
+INPUT AND SUBTEXT BASIC FORMATTING
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
 input[type="text"],input[type="password"],input[type="email"],input[type="search"],input[type="url"],textarea{
@@ -166,4 +166,15 @@ ICONS IN MARGIN AFTER INPUT
 
 .errorFormGroupIcon{
   color:$red900;
+}
+
+fieldset {
+  legend {
+    font-size:16px;
+    font-weight:normal;
+    margin-bottom:12px;
+  }
+  input[type="text"], input[type="password"], input[type="email"], input[type="search"], input[type="url"], textarea {
+    margin-bottom: 12px;
+  }
 }
