@@ -95,8 +95,8 @@ $(document).ready(function() {
     $('#contact3').selectmenu();
     $('#contact3-button').addClass('textInputError');
     $('#contact-multi').multiselect({
-        columns: 1,
-        placeholder: 'Select Contacts'
+        placeholder: 'Select Contacts',
+        selectAll: true
     });
 
     //dropdown selector w/ typeahead

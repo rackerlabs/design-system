@@ -529,7 +529,7 @@ label.selector, label.selectorDisabled{
   }
 }
 
-.ui-menu li.selected {
+.ui-menu .selected {
   label.ui-menu-item-wrapper {
     &:before {
       color: $grey700;
@@ -545,6 +545,14 @@ label.selector, label.selectorDisabled{
       outline: none;
     }
   }
+}
+
+.ms-selectall:after {
+  content: "Select All";
+}
+
+.selected .ms-selectall:after {
+  content: "Select None";
 }
 
 .ui-menu li {
@@ -594,7 +602,7 @@ label.selector, label.selectorDisabled{
 }
 
 .ms-options {
-    top: 33px;
+    top: 34px;
     width: 224px;
     z-index: 2000;
 }

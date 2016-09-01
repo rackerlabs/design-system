@@ -217,7 +217,7 @@
 
             // add global select all options
             if( instance.options.selectAll ) {
-                optionsList.before('<a href="#" class="ms-selectall global">Select all</a>');
+                optionsList.prepend('<span class="ui-menu-item ms-reflow ms-selectall-wrapper"><label class="ui-menu-item-wrapper ms-selectall global"></label></span>');
             }
 
             // handle select all option
@@ -246,6 +246,11 @@
                         optgroup.find('li.selected input[type="checkbox"]').trigger('click');
                     }
                 }
+
+            });
+
+            $( ".ms-selectall" ).click(function() {
+              $( ".ms-selectall-wrapper" ).toggleClass( "selected" );
             });
 
             // add options to wrapper
