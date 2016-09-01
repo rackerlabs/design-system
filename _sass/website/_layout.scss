@@ -16,8 +16,8 @@
         float: left;
         width: 240px;
         img {
-            padding:3px 0;
-            height: 26px;
+            padding:4px 0;
+            height: 32px;
             width: auto;
         }
     }
@@ -92,7 +92,7 @@ nav {
                     &:after {
                         content: "\e903";
                     }
-                }                                                                  
+                }
             }
             a {
                 color: $grey200;
@@ -122,11 +122,11 @@ nav {
                     }
                     a:hover{
                         background-color: $grey800;
-                        color: $grey200;                       
+                        color: $grey200;
                     }
                     a.active {
                         background-color: $grey900;
-                        color: $grey200;                       
+                        color: $grey200;
                     }
                 }
             }
@@ -248,7 +248,7 @@ body {
 
 /**
  * Font glyph styles
- */ 
+ */
 i {
     padding-right: 10px;
 }
@@ -269,7 +269,7 @@ i {
 
 /**
  * Notification Styles
- */ 
+ */
 
 
 .inform {
@@ -349,7 +349,7 @@ i {
  * Resource List styles
  */
 
-.resource-list { 
+.resource-list {
     li {
         a {
             margin-left: 1em;
@@ -400,5 +400,5 @@ i {
     width: 60px;
     right: 30px;
     bottom: 30px;
-    background-color: $brand-color; 
+    background-color: $brand-color;
 }
