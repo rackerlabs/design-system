@@ -508,7 +508,7 @@ label.selector, label.selectorDisabled{
 .ui-menu {
   background: $grey25;
   border: 1px solid $grey500;
-  color: $grey600;
+  color: $grey700;
   .ui-menu-item-wrapper {
     padding: 4px 1em;
     &:before {
@@ -519,7 +519,7 @@ label.selector, label.selectorDisabled{
       width: 1em;
     }
     &:hover {
-      background: $grey600;
+      background: $grey700;
       color: #fff;
     }
     &.ui-state-active:before {
@@ -532,7 +532,7 @@ label.selector, label.selectorDisabled{
 .ui-menu li.selected {
   label.ui-menu-item-wrapper {
     &:before {
-      color: $grey600;
+      color: $grey700;
       content: "\e921";
       width: auto;
     }
