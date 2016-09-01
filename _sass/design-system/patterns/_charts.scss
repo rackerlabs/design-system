@@ -1,0 +1,85 @@
+.ds-centered-stat{
+	width:100%;
+	text-align:center;
+}
+
+.ds-stat-with-percent-bar{
+}
+
+.ds-stat-percent-bar{
+	background-color:$grey300;
+	width:16px;
+	height:100;
+	margin-right:8px;
+	float:left;
+	position: relative;
+}
+
+.ds-stat-percent-bar-inner{
+	width:100%;
+	background-color:$cyan700;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.ds-stat-con p{
+	padding-bottom:0;
+}
+
+.ds-chart-header{
+	padding-bottom: $paddingXL;
+}
+
+.ds-right-legend ul{
+	margin: 0;
+  	padding: 0;
+}
+
+.ds-right-legend li{
+	font-size:14px;
+	list-style: none;
+	padding-bottom:12px;
+}
+
+.ds-right-legend li:last-of-type{
+	padding-bottom:0px;
+}
+
+.ds-right-legend li span{
+	display: inline-block;
+	vertical-align:middle;
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+
+.ds-right-legend li span{
+	display: inline-block;
+	vertical-align:middle;
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+.ds-right-legend.many li{
+	padding-bottom:6px;
+}
+
+.ds-right-legend.many li:last-of-type{
+	padding-bottom:0px;
+}
+
+.ds-right-legend.many li span{
+	height: 12px;
+}
+
+.ds-chart-subtext{
+	display: inline-block;
+	margin-top: 28px;
+}
+
+.ds-custom-chart-con{
+	display : flex;
+  	align-items : center;
+}
+
