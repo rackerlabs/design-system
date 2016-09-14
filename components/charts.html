@@ -215,33 +215,32 @@ preview-image: components-grid.svg
 <p><b>Use to show composition.</b></p>
 <p>Doughnut charts are the only Helix charts that show an item's share of the total. Limit the number of slices to seven or less. If there are more categories than seven, group all but the largest six into an "other" category. Always show legends with a doughnut chart.</p>
 <p  class="ws-first-p">Doughnut charts can be combined with a statistic shown in the center whitespace.</p>
+<h2 class="ds-chart-header">Large* Rivers per Continent</h2>
 <div class="row">
-	<div class="col-md-6">
-		<h2 class="ds-chart-header">Large* Rivers per Continent</h2>
-		<div class="ds-custom-chart-con row">
-			<div class="ds-custom-chart col-md-8">
-				<canvas id="demoDoughnutChart" width="1" height="1"></canvas>
-			</div>
-			<div class="ds-custom-legend-con col-md-4">
-				<div id="demoDoughnutChartLegend" class="ds-right-legend"></div>
-			</div>			
+	<div class="col-md-4" id="get-my-width-lg">
+		<canvas id="demoDoughnutChart" width="1" height="1"></canvas>
+		<div class="ds-per-doughnut-center" id="get-my-height-lg">
+			<p class="ds-per-doughnut-head">Tucson</p>
+			<h2 class="ds-per-doughnut-per">85%</h2>
 		</div>
-		<p class="subtext ds-chart-subtext">*Rivers that discharge more than 2,000 cubic meters of water per second.</p>
 	</div>
+	<div class="ds-custom-legend-con col-md-2">
+		<div id="demoDoughnutChartLegend" class="ds-right-legend"></div>
+	</div>			
 </div>
+<p class="subtext ds-chart-subtext">*Rivers that discharge more than 2,000 cubic meters of water per second.</p>
+
 <h3 class="ws-charts-h3">Small Display with Percents</h3>
 <div class="row">
 	<div class="col-md-3">
 		<h2 class="ds-chart-header">Sunny Daytime Hours</h2>
 		<div class="row">
-			<div class="col-md-6">
+			<div class="col-md-6" id="get-my-width-sm">
 				<div class="ds-per-doughnut-con">
 					<canvas id="perDough1" width="1" height="1"></canvas>
-					<div class="ds-per-doughnut-center">
-						<div class="ds-per-doughnut-center-flexbox">
+					<div class="ds-per-doughnut-center" id="get-my-height-sm">
 						<p class="ds-per-doughnut-head">Tucson</p>
 						<h2 class="ds-per-doughnut-per">85%</h2>
-						</div>
 					</div>
 				</div>
 
@@ -296,8 +295,17 @@ preview-image: components-grid.svg
 	</div>
 </div>
 <h3 class="ws-charts-h3">Small Display</h3>
-<h3 class="ws-charts-h3">Other Variations</h3>
-<p class="ws-first-p">Chart.js allows for customization. The tension on the lines can be changed to make the lines more rounded. This is not recommended in most cases. The area beneath the line can also be filled; however, this affect should only be used if there is one line on the chart to avoid visual clutter.</p>
+<p class="ws-first-p">When charts aren't </p>
+<div class="row">
+	<div class="col-md-4">
+		<h3 class="ds-chart-header">Nile River Yearly Discharge</h3>
+		<canvas id="demoLineChartf" width="5" height="3"></canvas>
+	</div>
+</div>
+<h3 class="ws-charts-h3">Strong Emphasis on Trend</h3>
+<p>Chart.js allows for customization. The tension on the lines can be changed to make them more smooth. This is recommended when the data is estimated or the trend is more important than the individual data points. Points can also be deephasized in these scenarios.</p>
+
+ <p class="ws-first-p">The area beneath the line can also be filled; however, this affect should only be used if there is one line on the chart to avoid visual clutter.</p>
 <div class="row">
 	<div class="col-md-12">
 		<h2 class="ds-chart-header">Nile River Yearly Discharge</h2>
@@ -328,13 +336,88 @@ preview-image: components-grid.svg
 
 <h1 class="ws-section-head">Radar Chart<span class="status prototype">In Progress</span></h1>
 <p><b>Use to identify outliers and compare two data sets.</b></p>
-<p >Before using a radar chart, consider using a line chart or multi-column bar chart. Both options can compare multiple data sets and are more familiar to users. When data sets are overlaid in a radar chart, it can be easy to identify similarities and differences in the variables. For example, the below chart reveals San Antonio gets most of it's rain in the late spring; whereas, more rain falls in Seattle during the winter.</p>
+<p >Before using a radar chart, consider using a line chart or multi-column bar chart. Both options can compare multiple data sets and are more familiar to users. When data sets are overlaid in a radar chart, it can be easy to identify similarities and differences in the variables. For example, the below chart reveals San Antonio gets most of it's rain in the late spring; whereas, more rain falls in Seattle during the winter.
+Area fills the web and a quick comparison of those shapes</p>
 <p class="ws-first-p">A radar chart can have no more than 12 axes. The same units must apply to all axes. Only two data sets can be shown at a time.</p>
 <div class="row">
 	<div class="col-md-4">
-		<h2 class="ds-chart-header">Monthly Average Rainfall</h2>
+		<h2 class="ds-chart-header">Monthly Average Rainfall (inches)</h2>
 		<canvas id="demoRadarChart" width="1" height="1"></canvas>
 	</div>
 </div>
 <h3 class="ws-charts-h3">Abstracted Radar Charts</h3>
+<p>Radar charts can be abstracted and break some of the essential rules established for data visualizations. Area fills the web and a quick comparison of those shapes. Do not show ticks or connecting lines on the axis since the values of each axis are different. the idea here is to get a sense of the components streghths adn weaknesses not individual bullet points.
+	unlike other impressions can't be clicked into. 
+In the below example, the data has been converted to percents of the largest amount. The largest option for RAM is 15 GB. The value therefore displayed in general purpose is and in storage or Memory is 1. Good is .33. Better .66 and best 1. actual data must be shown below the chart. an abstracted radar should never be shown without the actual data.
+
+</p>
+<p>Customers love these. “This helps so that I can accurately depict which system to utilize.”
+ 
+“This middle image tells me which sever is better for my I/O”</p>
+<h2 class="ds-chart-header">Server Flavors</h2>
+<div class="row">
+	<div class="col-md-3">
+		<h3>General Purpose</h3>
+		<canvas id="abstractRadar1" width="1" height="1"></canvas>
+		<ul class="body2 ws-demo-radar-details">
+			<li><span>CPU</span>1</li>
+			<li><span>RAM</span>1 GB</li>
+			<li><span>Disk I/O</span>Better</li>
+			<li><span>Network</span>200 Mb/S</li>
+			<li><span>System Disk</span>20GB</li>
+		</ul>
+	</div>
+	<div class="col-md-3">
+		<h3>Compute</h3>
+		<canvas id="abstractRadar2" width="1" height="1"></canvas>
+		<ul class="body2 ws-demo-radar-details">
+			<li><span>CPU</span>2</li>
+			<li><span>RAM</span>3.75 GB</li>
+			<li><span>Disk I/O</span>Better</li>
+			<li><span>Network</span>312 Mb/S</li>
+			<li><span>System Disk</span>50GB</li>
+		</ul>
+	</div>
+	<div class="col-md-3">
+		<h3>Memory</h3>
+		<canvas id="abstractRadar3" width="1" height="1"></canvas>
+		<ul class="body2 ws-demo-radar-details">
+			<li><span>CPU</span>2</li>
+			<li><span>RAM</span>15 GB</li>
+			<li><span>Disk I/O</span>Good</li>
+			<li><span>Network</span>625 Mb/S</li>
+			<li><span>System Disk</span>50GB</li>
+		</ul>
+	</div>
+	<div class="col-md-3">
+		<h3>Storage</h3>
+		<canvas id="abstractRadar4" width="1" height="1"></canvas>
+		<ul class="body2 ws-demo-radar-details">
+			<li><span>CPU</span>4</li>
+			<li><span>RAM</span>15 GB</li>
+			<li><span>Disk I/O</span>Better</li>
+			<li><span>Network</span>1.3 Gb/S</li>
+			<li><span>System Disk</span>40GB</li>
+		</ul>
+	</div>
+</div>
+
+<style type = "text/css" scoped>
+.ws-demo-radar-details{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.ws-demo-radar-details li{
+	padding-bottom: 4px;
+}
+
+.ws-demo-radar-details span{
+	display: inline-block;
+	width: 92px;
+	color:#757575;
+}
+</style>
+
 <script src="{{site.baseurl}}/assets/js/demo-charts.js"></script>

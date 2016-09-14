@@ -1,10 +1,49 @@
 /*--------------------------------------------------------------
+Someone smarter than me, please replace this with media queries <3
+1. Use media queries in stead of JS
+2. Adjust font size with media queries so it looks good responsively
+3. Get the center text to display below the doughnuts if it is too long for the center of the circle
+
+All I'm doing here is 
+--------------------------------------------------------------*/
+$(window).resize(function(){
+    centerText();
+});
+
+function centerText(){
+    //get width of small and large canvas column con
+    var lgColWidth = $("#get-my-width-lg").width();
+    var smColWidth = $("#get-my-width-sm").width();
+
+    console.log(lgColWidth);
+
+    //get height of text small and large
+    var lgTxtHeight = $("#get-my-height-lg").height();
+    var smTxtHeight = $("#get-my-height-sm").height();
+
+    console.log(lgTxtHeight);
+
+    //top = col width/2 - text height/2
+    var lgOffset = lgColWidth/2 - lgTxtHeight/2;
+    var smOffset = smColWidth/2 - smTxtHeight/2;
+
+    console.log(smOffset);
+    console.log(lgOffset);
+
+    //set offset
+    $(".ds-per-doughnut-center").css('top', smOffset + "px");
+}
+
+
+/*--------------------------------------------------------------
 set stat percent bar heights
 --------------------------------------------------------------*/
 document.addEventListener("DOMContentLoaded", function(event) { 
     var textHeight = document.getElementById("ds-stat-con0").clientHeight;
     document.getElementById("ds-stat-percent-bar0").style.height = textHeight + "px";
     document.getElementById("ds-stat-percent-bar-inner0").style.height = "71%";
+
+    centerText();
 });
 
 
@@ -470,7 +509,6 @@ var demoLineChartd = new Chart(ctx2d, {
             }],
             xAxes: [{
                 ticks: {
-                    autoSkip: true,
                 }
             }]
         }
@@ -548,6 +586,75 @@ var demoSparkline = new Chart(ctx2e, {
             }],
             xAxes: [{
                 display: false,
+            }]
+        }
+    }
+});
+
+var ctx2f = document.getElementById("demoLineChartf");
+var demoLineChartf = new Chart(ctx2f, {
+    type: 'line',
+    data: {
+        labels: nileLabels10,
+        datasets: [
+            { label: 'Annual Flow',
+            data: nileData10,
+            fill: false,
+            lineTension: 0,
+            borderWidth:2,
+            pointBorderWidth:2,
+            pointRadius:2.5,
+            pointHoverRadius:2.5,
+            pointHitRadius:2.5, 
+            pointHoverBorderWidth:2,
+            borderColor: "#0D74D1",
+            pointBackgroundColor: "#fff",
+            pointHoverBorderColor: "#0D74D1",
+            pointBorderColor: "#0D74D1",
+            pointHoverBackgroundColor: "#0D74D1",
+            backgroundColor:"#fff",},
+            {label: '100-Year Average',
+            data: nileAvg,
+            fill: false,
+            lineTension: 0,
+            borderWidth:2,
+            pointBorderWidth:0,
+            pointRadius:0,
+            pointHoverRadius:0,
+            pointHitRadius:0, 
+            pointHoverBorderWidth:0,
+            borderDash:[16,16],
+            borderColor: "#F57C00",
+            pointBackgroundColor: "#F57C00",
+            pointHoverBorderColor: "#F57C00",
+            pointBorderColor: "#F57C00",
+            pointHoverBackgroundColor: "#F57C00",
+            backgroundColor:"#fff",},
+        ]
+    },
+    options: {
+        legend: {
+            display: false,
+            labels: {
+                padding:32,
+                fontSize: 12,
+                fontColor: "#333"
+            }
+          },
+        scales: {
+            yAxes: [{
+                    display: true,
+                  scaleLabel: {
+                    display: true,
+                    labelString: 'Billion Cubic Meters', 
+                    fontSize: 12,
+                    fontColor: "#333",
+                  }
+            }],
+            xAxes: [{
+                ticks: {
+                    fontSize: 12,
+                }
             }]
         }
     }
@@ -761,31 +868,31 @@ var demoRadarChart = new Chart(ctx6, {
             label: "Seattle",
             backgroundColor: "rgba(14, 148, 166, 0.2)",
             borderColor: "#0E94A6",
-            borderWidth:3,
-            pointBorderWidth:.5,
-            pointRadius:4,
-            pointHoverRadius:4,
-            pointHitRadius:4, 
-            pointHoverBorderWidth:1,
-            pointBackgroundColor: "#0E94A6",
-            pointBorderColor: "#fff",
-            pointHoverBackgroundColor: "#fff",
+            borderWidth:2,
+            pointBorderWidth:2,
+            pointRadius:2.5,
+            pointHoverRadius:2.5,
+            pointHitRadius:2.5, 
+            pointHoverBorderWidth:2,
+            pointBackgroundColor: "#fff",
+            pointBorderColor: "#0E94A6",
+            pointHoverBackgroundColor: "#0E94A6",
             pointHoverBorderColor: "#0E94A6",
             data: [5.55, 3.46, 3.7, 2.68, 1.93, 1.54, 0.67, 0.87, 1.42, 3.46, 6.54, 5.31]},
         {
             label: "San Antonio",
             backgroundColor: "rgba(189, 189, 189, 0.2)",
-            borderWidth:3,
-            pointBorderWidth:.5,
-            pointRadius:4,
-            pointHoverRadius:4,
-            pointHitRadius:4, 
-            pointHoverBorderWidth:1,
+            borderWidth:2,
+            pointBorderWidth:2,
+            pointRadius:2.5,
+            pointHoverRadius:2.5,
+            pointHitRadius:2.5, 
+            pointHoverBorderWidth:2,
             borderColor: "#bdbdbd",
-            pointBackgroundColor: "#bdbdbd",
+            pointBackgroundColor: "#fff",
             pointHoverBorderColor: "#bdbdbd",
-            pointBorderColor: "#fff",
-            pointHoverBackgroundColor: "#fff",
+            pointBorderColor: "#bdbdbd",
+            pointHoverBackgroundColor: "#bdbdbd",
             data: [1.65, 1.73, 1.89, 2.6, 4.72, 4.29, 2.05, 2.56, 2.99, 3.86, 2.6, 1.97]},
         ],
     },
@@ -793,6 +900,256 @@ var demoRadarChart = new Chart(ctx6, {
         legend: {
             display: true,
         },
+    },
+});
+
+var ctx6a = document.getElementById("abstractRadar1");
+var abstractRadar1 = new Chart(ctx6a, {
+    type: 'radar',
+    data: {
+        labels: ["CPU", "RAM", "Disk I/O", "Network", "Disk"],
+        datasets: [{
+            label: "General Purpose",
+            backgroundColor: "rgba(14, 148, 166, 0.2)",
+            borderColor: "#0E94A6",
+            borderWidth:2,
+            pointBorderWidth:0,
+            pointRadius:0,
+            pointHoverRadius:0,
+            pointHitRadius:0, 
+            pointHoverBorderWidth:0,
+            tension:1,
+            pointBackgroundColor: "#fff",
+            pointBorderColor: "#0E94A6",
+            pointHoverBackgroundColor: "#0E94A6",
+            pointHoverBorderColor: "#0E94A6",
+            data: [.25, .07, .66,.15,1],
+        }],
+    },
+    options: {
+        legend: {
+            display: false,
+        },
+        scale: {
+            gridLines:{
+                color:"#fff",
+            },
+            ticks:{
+                display:false,
+            },
+        },
+        tooltips:{
+            enabled: false,
+        }
+    },
+});
+
+var ctx6a = document.getElementById("abstractRadar1");
+var abstractRadar1 = new Chart(ctx6a, {
+    type: 'radar',
+    data: {
+        labels: ["CPU", "RAM", "Disk I/O", "Network", "Disk"],
+        datasets: [{
+            label: "General Purpose",
+            backgroundColor: "rgba(14, 148, 166, 0.2)",
+            borderColor: "#0E94A6",
+            borderWidth:2,
+            pointBorderWidth:0,
+            pointRadius:0,
+            pointHoverRadius:0,
+            pointHitRadius:0, 
+            pointHoverBorderWidth:0,
+            tension:1,
+            pointBackgroundColor: "#fff",
+            pointBorderColor: "#0E94A6",
+            pointHoverBackgroundColor: "#0E94A6",
+            pointHoverBorderColor: "#0E94A6",
+            data: [.25, .07, .66,.15,1],
+        }],
+    },
+    options: {
+        legend: {
+            display: false,
+        },
+        scale: {
+            gridLines:{
+                color:"#fff",
+            },
+            ticks:{
+                display:false,
+            },
+        },
+        tooltips:{
+            enabled: false,
+        }
+    },
+});
+
+var ctx6a = document.getElementById("abstractRadar1");
+var abstractRadar1 = new Chart(ctx6a, {
+    type: 'radar',
+    data: {
+        labels: ["CPU", "RAM", "Disk I/O", "Network", "Disk"],
+        datasets: [{
+            label: "General Purpose",
+            backgroundColor: "rgba(14, 148, 166, 0.2)",
+            borderColor: "#0E94A6",
+            borderWidth:2,
+            pointBorderWidth:0,
+            pointRadius:0,
+            pointHoverRadius:0,
+            pointHitRadius:0, 
+            pointHoverBorderWidth:0,
+            tension:.3,
+            pointBackgroundColor: "#fff",
+            pointBorderColor: "#0E94A6",
+            pointHoverBackgroundColor: "#0E94A6",
+            pointHoverBorderColor: "#0E94A6",
+            data: [.25, .07, .66,.15,1],
+        }],
+    },
+    options: {
+        legend: {
+            display: false,
+        },
+        scale: {
+            gridLines:{
+                color:"#fff",
+            },
+            ticks:{
+                display:false,
+                beginAtZero: true,
+            },
+        },
+        tooltips:{
+            enabled: false,
+        }
+    },
+});
+
+var ctx6b = document.getElementById("abstractRadar2");
+var abstractRadar2 = new Chart(ctx6b, {
+    type: 'radar',
+    data: {
+        labels: ["CPU", "RAM", "Disk I/O", "Network", "Disk"],
+        datasets: [{
+            label: "General Purpose",
+            backgroundColor: "rgba(14, 148, 166, 0.2)",
+            borderColor: "#0E94A6",
+            borderWidth:2,
+            pointBorderWidth:0,
+            pointRadius:0,
+            pointHoverRadius:0,
+            pointHitRadius:0, 
+            pointHoverBorderWidth:0,
+            tension:.3,
+            pointBackgroundColor: "#fff",
+            pointBorderColor: "#0E94A6",
+            pointHoverBackgroundColor: "#0E94A6",
+            pointHoverBorderColor: "#0E94A6",
+            data: [.5, .25, .66,.25,1],
+        }],
+    },
+    options: {
+        legend: {
+            display: false,
+        },
+        scale: {
+            gridLines:{
+                color:"#fff",
+            },
+            ticks:{
+                display:false,
+                beginAtZero: true,
+            },
+        },
+        tooltips:{
+            enabled: false,
+        }
+    },
+});
+
+var ctx6c = document.getElementById("abstractRadar3");
+var abstractRadar3 = new Chart(ctx6c, {
+    type: 'radar',
+    data: {
+        labels: ["CPU", "RAM", "Disk I/O", "Network", "Disk"],
+        datasets: [{
+            label: "General Purpose",
+            backgroundColor: "rgba(14, 148, 166, 0.2)",
+            borderColor: "#0E94A6",
+            borderWidth:2,
+            pointBorderWidth:0,
+            pointRadius:0,
+            pointHoverRadius:0,
+            pointHitRadius:0, 
+            pointHoverBorderWidth:0,
+            tension:.3,
+            pointBackgroundColor: "#fff",
+            pointBorderColor: "#0E94A6",
+            pointHoverBackgroundColor: "#0E94A6",
+            pointHoverBorderColor: "#0E94A6",
+            data: [.5, 1, .33,.5,.1],
+        }],
+    },
+    options: {
+        legend: {
+            display: false,
+        },
+        scale: {
+            gridLines:{
+                color:"#fff",
+            },
+            ticks:{
+                display:false,
+                beginAtZero: true,
+            },
+        },
+        tooltips:{
+            enabled: false,
+        }
+    },
+});
+
+var ctx6d = document.getElementById("abstractRadar4");
+var abstractRadar4 = new Chart(ctx6d, {
+    type: 'radar',
+    data: {
+        labels: ["CPU", "RAM", "Disk I/O", "Network", "Disk"],
+        datasets: [{
+            label: "General Purpose",
+            backgroundColor: "rgba(14, 148, 166, 0.2)",
+            borderColor: "#0E94A6",
+            borderWidth:2,
+            pointBorderWidth:0,
+            pointRadius:0,
+            pointHoverRadius:0,
+            pointHitRadius:0, 
+            pointHoverBorderWidth:0,
+            tension:.3,
+            pointBackgroundColor: "#fff",
+            pointBorderColor: "#0E94A6",
+            pointHoverBackgroundColor: "#0E94A6",
+            pointHoverBorderColor: "#0E94A6",
+            data: [1, 1, .66,1,.8],
+        }],
+    },
+    options: {
+        legend: {
+            display: false,
+        },
+        scale: {
+            gridLines:{
+                color:"#fff",
+            },
+            ticks:{
+                display:false,
+                beginAtZero: true,
+            },
+        },
+        tooltips:{
+            enabled: false,
+        }
     },
 });
 
