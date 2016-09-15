@@ -26,6 +26,9 @@ p {
 }
 
 .display-font, h1, h2, h3, h4, h5, h6{
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  font-weight:400;
   line-height: $heading-line-height; 
   text-transform: none; 
   letter-spacing: 0;
@@ -41,15 +44,14 @@ p {
 
 h1{
   font-weight:300;
-  font-size:$font-size-5;
+  font-size:$font-size-6;
 }
 
 h1.header-alt{
-  font-weight:400;
+font-weight:400;
 }
 
 h2{
-  font-weight:400;
   font-size:$font-size-4;
   padding: 0 0 $paddingM 0;
 }

@@ -182,7 +182,7 @@ var demoBarChartb = new Chart(ctx0b, {
                     labelString: 'Rainfall (in)',
                     fontSize: 14,
                     fontColor: "#333",
-                  }
+                  },
             }]
 
         }
@@ -221,7 +221,10 @@ var demoBarChart = new Chart(ctx0d, {
                     labelString: 'River', 
                     fontSize: 14,
                     fontColor: "#333",
-                  }
+                  },
+                  gridLines : {
+                    display : false
+                    },
                 }]
             }
     }
@@ -649,12 +652,16 @@ var demoLineChartf = new Chart(ctx2f, {
                     labelString: 'Billion Cubic Meters', 
                     fontSize: 12,
                     fontColor: "#333",
-                  }
+                  },
+                  gridLines : {
+                    display : false
+                    }
             }],
             xAxes: [{
                 ticks: {
                     fontSize: 12,
-                }
+                },
+                
             }]
         }
     }
@@ -899,89 +906,12 @@ var demoRadarChart = new Chart(ctx6, {
     options: {
         legend: {
             display: true,
-        },
-    },
-});
-
-var ctx6a = document.getElementById("abstractRadar1");
-var abstractRadar1 = new Chart(ctx6a, {
-    type: 'radar',
-    data: {
-        labels: ["CPU", "RAM", "Disk I/O", "Network", "Disk"],
-        datasets: [{
-            label: "General Purpose",
-            backgroundColor: "rgba(14, 148, 166, 0.2)",
-            borderColor: "#0E94A6",
-            borderWidth:2,
-            pointBorderWidth:0,
-            pointRadius:0,
-            pointHoverRadius:0,
-            pointHitRadius:0, 
-            pointHoverBorderWidth:0,
-            tension:1,
-            pointBackgroundColor: "#fff",
-            pointBorderColor: "#0E94A6",
-            pointHoverBackgroundColor: "#0E94A6",
-            pointHoverBorderColor: "#0E94A6",
-            data: [.25, .07, .66,.15,1],
-        }],
-    },
-    options: {
-        legend: {
-            display: false,
-        },
-        scale: {
-            gridLines:{
-                color:"#fff",
-            },
-            ticks:{
-                display:false,
+            labels: {
+                padding:32,
+                fontSize: 14,
+                fontColor: "#333"
             },
         },
-        tooltips:{
-            enabled: false,
-        }
-    },
-});
-
-var ctx6a = document.getElementById("abstractRadar1");
-var abstractRadar1 = new Chart(ctx6a, {
-    type: 'radar',
-    data: {
-        labels: ["CPU", "RAM", "Disk I/O", "Network", "Disk"],
-        datasets: [{
-            label: "General Purpose",
-            backgroundColor: "rgba(14, 148, 166, 0.2)",
-            borderColor: "#0E94A6",
-            borderWidth:2,
-            pointBorderWidth:0,
-            pointRadius:0,
-            pointHoverRadius:0,
-            pointHitRadius:0, 
-            pointHoverBorderWidth:0,
-            tension:1,
-            pointBackgroundColor: "#fff",
-            pointBorderColor: "#0E94A6",
-            pointHoverBackgroundColor: "#0E94A6",
-            pointHoverBorderColor: "#0E94A6",
-            data: [.25, .07, .66,.15,1],
-        }],
-    },
-    options: {
-        legend: {
-            display: false,
-        },
-        scale: {
-            gridLines:{
-                color:"#fff",
-            },
-            ticks:{
-                display:false,
-            },
-        },
-        tooltips:{
-            enabled: false,
-        }
     },
 });
 
@@ -1014,7 +944,7 @@ var abstractRadar1 = new Chart(ctx6a, {
         },
         scale: {
             gridLines:{
-                color:"#fff",
+                color:"#f5f5f5",
             },
             ticks:{
                 display:false,
@@ -1056,7 +986,7 @@ var abstractRadar2 = new Chart(ctx6b, {
         },
         scale: {
             gridLines:{
-                color:"#fff",
+                color:"#f5f5f5",
             },
             ticks:{
                 display:false,
@@ -1098,7 +1028,7 @@ var abstractRadar3 = new Chart(ctx6c, {
         },
         scale: {
             gridLines:{
-                color:"#fff",
+                color:"#f5f5f5",
             },
             ticks:{
                 display:false,
@@ -1140,7 +1070,7 @@ var abstractRadar4 = new Chart(ctx6d, {
         },
         scale: {
             gridLines:{
-                color:"#fff",
+                color:"#f5f5f5",
             },
             ticks:{
                 display:false,

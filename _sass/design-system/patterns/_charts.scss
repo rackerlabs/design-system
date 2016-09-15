@@ -1,31 +1,44 @@
-.ds-centered-stat{
-	width:100%;
+.ui.statistics, .ui.statistics>.statistic, .ui.statistic{
+	margin:0;
+	padding:0;
+}
+
+.statistic .label, .statistic .value, .ui.statistic>.value, .ui.statistics .statistic>.value, .ui.statistic>.label, .ui.statistics .statistic>.label{
+	font-family: $base-font-family;
+	font-weight:100;
+  	font-size:$font-size-7;
+	line-height: $heading-line-height; 
+	text-transform: none; 
+	letter-spacing: 0;
+	color: $grey950;
+	margin:0;
+	padding:0;
 	text-align:center;
 }
 
-.ds-stat-with-percent-bar{
+.statistic .label, .ui.statistic>.label, .ui.statistics .statistic>.label{
+	font-size:$base-font-size;
+	font-weight:400;
+	padding-top:4px;
 }
 
-.ds-stat-percent-bar{
-	background-color:$grey300;
-	width:16px;
-	height:100;
-	margin-right:8px;
-	float:left;
-	position: relative;
+.statistic .label.top, .ui.statistic>.label.top, .ui.statistics .statistic>.label.top{
+	padding:0 0 4px 0;
 }
 
-.ds-stat-percent-bar-inner{
-	width:100%;
-	background-color:$cyan700;
-	position: absolute;
-	bottom: 0;
-	left: 0;
+.small.statistic .value, .ui.small.horizontal.statistic>.value, .ui.small.horizontal.statistics .statistic>.value, .ui.small.statistic>.value, .ui.small.statistics .statistic>.value, .ui.horizontal.statistics .small.statistic>.value{
+	font-weight:300;
+  	font-size:$font-size-6;
 }
 
-.ds-stat-con p{
-	padding-bottom:0;
+.large.statistic .value, .ui.large.horizontal.statistic>.value, .ui.large.horizontal.statistics .statistic>.value, .ui.large.statistic>.value, .ui.large.statistics .statistic>.value{
+  	font-size:$font-size-8;
 }
+
+
+
+
+
 
 .ds-chart-header{
 	padding-bottom: $paddingXL;
