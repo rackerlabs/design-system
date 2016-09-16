@@ -230,6 +230,104 @@ var demoBarChart = new Chart(ctx0d, {
     }
 });
 
+var ctx0f = document.getElementById("demoBarImpression");
+var demoBarImpression = new Chart(ctx0f, {
+    type: 'bar',
+    data: {
+        labels: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+        datasets: [
+            { label: 'San Antonio',
+            data: [1.65, 1.73, 1.89, 2.6, 4.72, 4.29, 2.05, 2.56, 2.99, 3.86, 2.6, 1.97],
+            fill: false,
+            lineTension: 0,
+            borderWidth:3,
+            pointRadius:0,
+            pointHoverRadius:0,
+            pointHitRadius:0, 
+            pointHoverBorderWidth:0,
+            borderColor: "#0E94A6",
+            backgroundColor:"#0E94A6",},
+        ]
+    },
+    options: {
+        legend: {
+            display: false,
+          },
+        tooltips:{
+            enabled: false,
+        },
+        scales: {
+            yAxes: [{
+                display: false,
+            }],
+            xAxes: [{
+                display: false,
+            }]
+        }
+    }
+});
+
+function Label(short, long) {
+  this.short = short;
+  this.long = long
+}
+Label.prototype.toString = function() {
+  return this.short;
+}
+
+var ctx0g = document.getElementById("demoBarImpression2");
+var demoBarImpression2 = new Chart(ctx0g, {
+    type: 'bar',
+    data: {
+        labels: [ 
+          new Label("J", "JAN"), 
+          new Label("F", "FEB"), 
+          new Label("M", "MAR"),
+          new Label("A", "APR"),
+          new Label("M", "MAY"),
+          new Label("J", "JUN"),
+          new Label("J", "JUL"),
+          new Label("A", "AUG"),
+          new Label("S", "SEP"),
+          new Label("O", "OCT"),
+          new Label("N", "NOV"),
+          new Label("D", "DEC"),
+        ],
+        datasets: [
+            { label: 'San Antonio',
+            data: [1.65, 1.73, 1.89, 2.6, 4.72, 4.29, 2.05, 2.56, 2.99, 3.86, 2.6, 1.97],
+            fill: false,
+            lineTension: 0,
+            borderWidth:3,
+            pointRadius:0,
+            pointHoverRadius:0,
+            pointHitRadius:0, 
+            pointHoverBorderWidth:0,
+            borderColor: "#0E94A6",
+            backgroundColor:"#0E94A6",},
+        ]
+    },
+    options: {
+        legend: {
+            display: false,
+          },
+        tooltips:{
+            enabled: false,
+        },
+        scales: {
+            yAxes: [{
+                display: false,
+            }],
+            xAxes: [{
+                display: true,
+            }]
+        }
+    }
+});
+
+
+
+
 /*--------------------------------------------------------------
 demoLineBarChart
 --------------------------------------------------------------*/
@@ -291,6 +389,7 @@ var demoBarChart = new Chart(ctx0c, {
             }
     }
 });
+
 
 /*--------------------------------------------------------------
 demoBubbleChart
@@ -944,7 +1043,7 @@ var abstractRadar1 = new Chart(ctx6a, {
         },
         scale: {
             gridLines:{
-                color:"#f5f5f5",
+                color:"#fff",
             },
             ticks:{
                 display:false,
@@ -986,7 +1085,7 @@ var abstractRadar2 = new Chart(ctx6b, {
         },
         scale: {
             gridLines:{
-                color:"#f5f5f5",
+                color:"#fff",
             },
             ticks:{
                 display:false,
@@ -1028,7 +1127,7 @@ var abstractRadar3 = new Chart(ctx6c, {
         },
         scale: {
             gridLines:{
-                color:"#f5f5f5",
+                color:"#fff",
             },
             ticks:{
                 display:false,
@@ -1070,7 +1169,7 @@ var abstractRadar4 = new Chart(ctx6d, {
         },
         scale: {
             gridLines:{
-                color:"#f5f5f5",
+                color:"#fff",
             },
             ticks:{
                 display:false,

@@ -219,12 +219,99 @@ preview-image: components-grid.svg
 
 
 <h1 class="ws-section-head">Impressions<span class="status prototype">In Progress</span></h1>
+
+<h3 class="ws-charts-h3">Sparklines</h3>
+
+<div class="row">
+	<div class="col-md-3">
+		<div class="ui card">
+			<div class="content">
+				<div class="statistic left">
+				    <div class="value">32.91 in</div>
+				  	<div class="label">San Antonio Avg. Percipitation</div>
+				  	<canvas id="demoSparkline2" width="6" height="1"></canvas>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<table class="ui table">
+	<thead>
+	    <tr>
+	    	<th>City</th>
+	    	<th>Avg. Temperature</th>
+	    	<th>Warmest Month</th>
+	    	<th>Coldest Month</th>
+	    	<th>Days with Sunshine</th>
+	    	<th>Avg. Precipitiation</th>
+	    	<th>Monthly Avg. Rainfall</th>
+		</tr>
+	</thead>
+  	<tbody>
+  		<tr>
+  			<td><a>San Antonio</a></td>
+  			<td>68.7&#8457;</td>
+  			<td>August</td>
+  			<td>January</td>
+  			<td>300</td>
+  			<td>32.91 inch</td>
+  			<td><canvas id="demoSparkline" width="6" height="1"></canvas></td>
+  		</tr>
+	</tbody>
+</table>
+
+<h3 class="ws-charts-h3">Bar Impressions</h3>
+<div class="row">
+	<div class="col-md-6">
+		<div class="ui card">
+			<div class="content">
+				<h2 class="ds-chart-header">San Antonio Percipitation</h2>
+				<div class="row">
+					<div class="col-md-8">
+						<canvas id="demoBarImpression2" width="6" height="1"></canvas>
+					</div>
+					<div class="col-md-4">
+						<div class="statistic left">
+						    <div class="value">32.91 in</div>
+						  	<div class="label">Average Annual Total</div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+</div>
+<table class="ui table">
+	<thead>
+	    <tr>
+	    	<th>City</th>
+	    	<th>Avg. Temperature</th>
+	    	<th>Days with Sunshine</th>
+	    	<th>Avg. Precipitiation</th>
+	    	<th>Monthly Avg. Rainfall</th>
+		</tr>
+	</thead>
+  	<tbody>
+  		<tr>
+  			<td><a>San Antonio</a></td>
+  			<td>68.7&#8457;</td>
+  			<td>300</td>
+  			<td>32.91 in</td>
+  			<td><canvas id="demoBarImpression" width="8" height="1"></canvas></td>
+  		</tr>
+	</tbody>
+</table>
+
+<h3 class="ws-charts-h3">Percent Complete</h3>
+
+<h3 class="ws-charts-h3">Bar Impressions</h3>
 <h2 style="padding-top:40px;">Average Annual Rainfall</h2>
 <div class="row">
 	<div class="col-md-3">
 		<h3>San Antonio</h3>
 		<div class="display-font">32.91 in</div>
-		<canvas id="demoSparkline" width="4" height="1"></canvas>
+		
 	</div>
 	<div class="col-md-3 col-md-offset-1">
 		<h3>Seattle</h3>
@@ -232,7 +319,78 @@ preview-image: components-grid.svg
 		<canvas id="demoSparkline2" width="4" height="1"></canvas>
 	</div>
 </div>
+<h3 class="ws-charts-h3">Radar Impressions</h3>
+<p>Radar charts can be abstracted and break some of the essential rules established for data visualizations. Area fills the web and a quick comparison of those shapes. Do not show ticks or connecting lines on the axis since the values of each axis are different. the idea here is to get a sense of the components streghths adn weaknesses not individual bullet points.
+	unlike other impressions can't be clicked into. 
+In the below example, the data has been converted to percents of the largest amount. The largest option for RAM is 15 GB. The value therefore displayed in general purpose is and in storage or Memory is 1. Good is .33. Better .66 and best 1. actual data must be shown below the chart. an abstracted radar should never be shown without the actual data.
 
+</p>
+<p>Customers love these. “This helps so that I can accurately depict which system to utilize.”
+ 
+“This middle image tells me which sever is better for my I/O”</p>
+<h2 class="ds-chart-header">Server Flavors</h2>
+<div class="row">
+	<div class="col-md-3">
+		<div class="ui card">
+			<div class="content">
+				<canvas id="abstractRadar1" width="1" height="1" class="ws-card-top"></canvas>
+				<p>General Purpose</p>
+				<ul class="body2 ws-demo-radar-details">
+					<li><span>CPU</span>1</li>
+					<li><span>RAM</span>1 GB</li>
+					<li><span>Disk I/O</span>Better</li>
+					<li><span>Network</span>200 Mb/S</li>
+					<li><span>System Disk</span>20GB</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-3">
+		<div class="ui card">
+			<div class="content">
+				<canvas id="abstractRadar2" width="1" height="1" class="ws-card-top"></canvas>
+				<p>Compute</p>
+				<ul class="body2 ws-demo-radar-details">
+					<li><span>CPU</span>2</li>
+					<li><span>RAM</span>3.75 GB</li>
+					<li><span>Disk I/O</span>Better</li>
+					<li><span>Network</span>312 Mb/S</li>
+					<li><span>System Disk</span>50GB</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-3">
+		<div class="ui card">
+			<div class="content">
+			<canvas id="abstractRadar3" width="1" height="1" class="ws-card-top"></canvas>
+				<p>Memory</p>
+				<ul class="body2 ws-demo-radar-details">
+					<li><span>CPU</span>2</li>
+					<li><span>RAM</span>15 GB</li>
+					<li><span>Disk I/O</span>Good</li>
+					<li><span>Network</span>625 Mb/S</li>
+					<li><span>System Disk</span>50GB</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-3">
+		<div class="ui card ds-card">
+			<div class="content">
+				<canvas id="abstractRadar4" width="1" height="1" class="ws-card-top"></canvas>
+				<p>Storage</p>
+				<ul class="body2 ws-demo-radar-details">
+					<li><span>CPU</span>4</li>
+					<li><span>RAM</span>15 GB</li>
+					<li><span>Disk I/O</span>Better</li>
+					<li><span>Network</span>1.3 Gb/S</li>
+					<li><span>System Disk</span>40GB</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
 
 <h1 class="ws-section-head">Bar Chart<span class="status prototype">In Progress</span></h1>
 <p><b>Use to compare items against each other or throughout time and identify outliers.</b></p>
@@ -433,78 +591,6 @@ Area fills the web and a quick comparison of those shapes</p>
 		<canvas id="demoRadarChart" width="1" height="1"></canvas>
 	</div>
 </div>
-<h3 class="ws-charts-h3">Abstracted Radar Charts</h3>
-<p>Radar charts can be abstracted and break some of the essential rules established for data visualizations. Area fills the web and a quick comparison of those shapes. Do not show ticks or connecting lines on the axis since the values of each axis are different. the idea here is to get a sense of the components streghths adn weaknesses not individual bullet points.
-	unlike other impressions can't be clicked into. 
-In the below example, the data has been converted to percents of the largest amount. The largest option for RAM is 15 GB. The value therefore displayed in general purpose is and in storage or Memory is 1. Good is .33. Better .66 and best 1. actual data must be shown below the chart. an abstracted radar should never be shown without the actual data.
-
-</p>
-<p>Customers love these. “This helps so that I can accurately depict which system to utilize.”
- 
-“This middle image tells me which sever is better for my I/O”</p>
-<h2 class="ds-chart-header">Server Flavors</h2>
-<div class="row">
-	<div class="col-md-3">
-		<div class="ui card">
-			<canvas id="abstractRadar1" width="1" height="1" class="ws-card-top"></canvas>
-			<div class="content">
-				<p>General Purpose</p>
-				<ul class="body2 ws-demo-radar-details">
-					<li><span>CPU</span>1</li>
-					<li><span>RAM</span>1 GB</li>
-					<li><span>Disk I/O</span>Better</li>
-					<li><span>Network</span>200 Mb/S</li>
-					<li><span>System Disk</span>20GB</li>
-				</ul>
-			</div>
-		</div>
-	</div>
-	<div class="col-md-3">
-		<div class="ui card">
-			<canvas id="abstractRadar2" width="1" height="1" class="ws-card-top"></canvas>
-			<div class="content">
-				<p>Compute</p>
-				<ul class="body2 ws-demo-radar-details">
-					<li><span>CPU</span>2</li>
-					<li><span>RAM</span>3.75 GB</li>
-					<li><span>Disk I/O</span>Better</li>
-					<li><span>Network</span>312 Mb/S</li>
-					<li><span>System Disk</span>50GB</li>
-				</ul>
-			</div>
-		</div>
-	</div>
-	<div class="col-md-3">
-		<div class="ui card">
-			<canvas id="abstractRadar3" width="1" height="1" class="ws-card-top"></canvas>
-			<div class="content">
-				<p>Memory</p>
-				<ul class="body2 ws-demo-radar-details">
-					<li><span>CPU</span>2</li>
-					<li><span>RAM</span>15 GB</li>
-					<li><span>Disk I/O</span>Good</li>
-					<li><span>Network</span>625 Mb/S</li>
-					<li><span>System Disk</span>50GB</li>
-				</ul>
-			</div>
-		</div>
-	</div>
-	<div class="col-md-3">
-		<div class="ui card ds-card">
-			<canvas id="abstractRadar4" width="1" height="1" class="ws-card-top"></canvas>
-			<div class="content">
-				<p>Storage</p>
-				<ul class="body2 ws-demo-radar-details">
-					<li><span>CPU</span>4</li>
-					<li><span>RAM</span>15 GB</li>
-					<li><span>Disk I/O</span>Better</li>
-					<li><span>Network</span>1.3 Gb/S</li>
-					<li><span>System Disk</span>40GB</li>
-				</ul>
-			</div>
-		</div>
-	</div>
-</div>
 
 <style type = "text/css" scoped>
 .ws-stat-doc-con{
@@ -533,8 +619,6 @@ In the below example, the data has been converted to percents of the largest amo
 }
 
 .ws-card-top{
-	background-color: #f5f5f5;
-	padding: 12px;
 }
 </style>
 

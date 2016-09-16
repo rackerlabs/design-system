@@ -1,3 +1,5 @@
+/*Statistic Classes*/
+
 .ui.statistics, .ui.statistics>.statistic, .ui.statistic{
 	margin:0;
 	padding:0;
@@ -14,6 +16,10 @@
 	margin:0;
 	padding:0;
 	text-align:center;
+}
+
+.statistic.left .label, .statistic.left .value, .ui.statistic.left>.value, .ui.statistics .statistic.left>.value, .ui.statistic.left>.label, .ui.statistics .statistic.left>.label{
+	text-align:left;
 }
 
 .statistic .label, .ui.statistic>.label, .ui.statistics .statistic>.label{
@@ -37,13 +43,16 @@
 
 
 
-
-
+/*Chart header spacing*/
 
 .ds-chart-header{
 	padding-bottom: $paddingXL;
 	line-height:1.25em;
 }
+
+
+
+/*Custom right legend*/
 
 .ds-right-legend ul{
 	margin: 0;
