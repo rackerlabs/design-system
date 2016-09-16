@@ -23,7 +23,6 @@ exclude: ['Gemfile', 'Gemfile.lock','README.md','vendor']
 
 # PATHING FOR WEBSITE AND DESIGN-SYSTEM
 websiteAssets: '/assets/website/'
-designSystemAssets: '/assets/design-system/'
 
 
 # Build settings
