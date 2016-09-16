@@ -5,26 +5,12 @@
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-
   <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
   <link rel="stylesheet" href="{{ '/css/jquery-ui.css' | prepend: site.baseurl }}">
   <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/semantic_ui/dist/semantic.min.css">
   <link rel="stylesheet" href="{{ '/css/DS_icon_font.css' | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ '/css/website.css' | prepend: site.baseurl }}">
   <link rel="stylesheet" href="{{ '/css/design-system.css' | prepend: site.baseurl }}">
-
-  <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
-  <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
-  <script src="{{site.baseurl}}/assets/js/Chart.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
-  <script src="{{site.baseurl}}/assets/js/moment-with-locales.js"></script>
-  <script src="{{site.baseurl}}/semantic_ui/dist/semantic.min.js"></script>
-  <script src="https://use.fontawesome.com/b2b7b479bf.js"></script>
-  <script src="{{site.baseurl}}/assets/js/icheck.min.js"></script>
-  <script src="{{site.baseurl}}/assets/js/tooltip.js"></script>
-  <script src="{{site.baseurl}}/assets/js/elements.js"></script>
-  {% if page.name == 'charts.html' %}<script src="{{site.baseurl}}/assets/js/demo-charts.js"></script>{%endif%}
-
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 </head>
