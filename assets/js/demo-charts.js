@@ -4,9 +4,13 @@ Someone smarter than me, please replace this with media queries <3
 2. Adjust font size with media queries so it looks good responsively
 3. Get the center text to display below the doughnuts if it is too long for the center of the circle
 
-All I'm doing here is 
+All I'm doing here is centering it
 --------------------------------------------------------------*/
 $(window).resize(function(){
+    centerText();
+});
+
+$( document ).ready(function() {
     centerText();
 });
 
@@ -33,18 +37,6 @@ function centerText(){
     //set offset
     $(".ds-per-doughnut-center").css('top', smOffset + "px");
 }
-
-
-/*--------------------------------------------------------------
-set stat percent bar heights
---------------------------------------------------------------*/
-document.addEventListener("DOMContentLoaded", function(event) { 
-    var textHeight = document.getElementById("ds-stat-con0").clientHeight;
-    document.getElementById("ds-stat-percent-bar0").style.height = textHeight + "px";
-    document.getElementById("ds-stat-percent-bar-inner0").style.height = "71%";
-
-    centerText();
-});
 
 
 
@@ -250,6 +242,47 @@ var demoBarImpression = new Chart(ctx0f, {
         ]
     },
     options: {
+        responsive: false,
+        maintainAspectRatio: true,
+        legend: {
+            display: false,
+          },
+        tooltips:{
+            enabled: false,
+        },
+        scales: {
+            yAxes: [{
+                display: false,
+            }],
+            xAxes: [{
+                display: false,
+            }]
+        }
+    }
+});
+
+var ctx0h = document.getElementById("demoBarImpression3");
+var demoBarImpression3 = new Chart(ctx0h, {
+    type: 'bar',
+    data: {
+        labels: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+        datasets: [
+            { label: 'Seattle',
+            data: [5.55, 3.46, 3.7, 2.68, 1.93, 1.54, 0.67, 0.87, 1.42, 3.46, 6.54, 5.31],
+            fill: false,
+            lineTension: 0,
+            borderWidth:3,
+            pointRadius:0,
+            pointHoverRadius:0,
+            pointHitRadius:0, 
+            pointHoverBorderWidth:0,
+            borderColor: "#0E94A6",
+            backgroundColor:"#0E94A6",},
+        ]
+    },
+    options: {
+        responsive: false,
+        maintainAspectRatio: true,
         legend: {
             display: false,
           },
@@ -669,7 +702,7 @@ var demoSparkline = new Chart(ctx2e, {
             data: [1.65, 1.73, 1.89, 2.6, 4.72, 4.29, 2.05, 2.56, 2.99, 3.86, 2.6, 1.97],
             fill: false,
             lineTension: 0,
-            borderWidth:3,
+            borderWidth:2,
             pointRadius:0,
             pointHoverRadius:0,
             pointHitRadius:0, 
@@ -679,6 +712,8 @@ var demoSparkline = new Chart(ctx2e, {
         ]
     },
     options: {
+        responsive: false,
+        maintainAspectRatio: true,
         legend: {
             display: false,
           },
@@ -789,6 +824,45 @@ var demoSparkline2 = new Chart(ctx2e2, {
         legend: {
             display: false,
           },
+        scales: {
+            yAxes: [{
+                display: false,
+            }],
+            xAxes: [{
+                display: false,
+            }]
+        }
+    }
+});
+
+var ctx2e3 = document.getElementById("demoSparkline3");
+var demoSparkline3 = new Chart(ctx2e3, {
+    type: 'line',
+    data: {
+        labels: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+        datasets: [
+            { label: 'Seattle',
+            data: [5.55, 3.46, 3.7, 2.68, 1.93, 1.54, 0.67, 0.87, 1.42, 3.46, 6.54, 5.31],
+            fill: false,
+            lineTension: 0,
+            borderWidth:2,
+            pointRadius:0,
+            pointHoverRadius:0,
+            pointHitRadius:0, 
+            pointHoverBorderWidth:0,
+            borderColor: "#0E94A6",
+            backgroundColor:"#fff",},
+        ]
+    },
+    options: {
+        responsive: false,
+        maintainAspectRatio: true,
+        legend: {
+            display: false,
+          },
+        tooltips:{
+            enabled: false,
+        },
         scales: {
             yAxes: [{
                 display: false,

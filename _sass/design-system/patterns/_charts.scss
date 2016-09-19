@@ -108,6 +108,11 @@
 
 .ds-per-doughnut-con{
 	position:relative;
+	margin-top:20px;
+}
+
+.ds-per-doughnut-con:first-of-type{
+	margin-top:0px;
 }
 
 .ds-per-doughnut-center{
@@ -115,16 +120,4 @@
 	z-index:100;
 	width:100%;
 	text-align:center;
-}
-
-.ds-per-doughnut-head{
-	text-align: center;
-	font-size:14px;
-	padding: 0 0 4px 0;
-}
-
-.ds-per-doughnut-per{
-	text-align:center;
-	padding:0;
-	margin:0;
 }
