@@ -113,8 +113,6 @@ TEXT PREFIXES AND SUFFIXES ALIGNED - SIZED IN ELEMENTS JS FILE
 
 .iconAppendPre, .iconAppendPreSuf{
   position: relative;
-  @include max-screen($small){
-    }
 }
 
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
