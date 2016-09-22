@@ -134,34 +134,6 @@ nav {
     }
 }
 
-
-
-/**
- * Preview content styles
- */
-.preview-post {
-    padding: $spacing-unit 0 $spacing-unit 0;
-    border-bottom: 1px solid $grey-color-light;
-    &:last-of-type {
-        border-bottom: none;
-    }
-    .preview-content {
-        padding-top: $spacing-unit;
-        p {
-            font-size: 1.25em;
-            line-height: 1.75em;
-            color: $grey-color;
-            font-weight: 300;
-        }
-        a {
-            &:hover {
-                text-decoration: none;
-                color: darken($brand-color, 10%);
-            }
-        }
-    }
-}
-
 /**
  * Post page content
  */
