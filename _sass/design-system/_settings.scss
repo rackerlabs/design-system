@@ -1,29 +1,7 @@
 //DON'T DELETE EAG 7-18-2016
 
-// Path Settings
-$canon-font-path: '../fonts/' !default;
-$canon-image-path: '../images/' !default;
 
 // Color Palette
-
-// MISSING COLORS
-$white: green;
-$grey150: green;
-$grey250: green;
-$grey175: green;
-$green50: green;
-$yellow50: green;
-$red50: green;
-$red400: green;
-$blue5: green;
-$blue10: green;
-$blue20: green;
-$blue50: green;
-$blue400: green;
-$yellow: green;
-
-
-
 
 $grey0: #ffffff;
 $grey25: #fafafa;
@@ -126,52 +104,6 @@ $paddingL:20px;
 $paddingXL:28px;
 $paddingXXL:32px;
 
-// The Grid
-$cols4:400px;
-
-// Defaults
-// default col total
-$total-columns: 12;
-// width of each column
-$column-width: 75px;
-// space between columns
-$gutter-width: 0px;
-// space on the right and left of the grid
-$grid-padding: 20px;
-// alternative layout breakpoints
-
-// Adds mixin support for IE8
-$legacy-support-for-ie  : false;
-$legacy-support-for-ie8 : true;
-
-// Container Type
-$container-style: fluid;
-
-// Breakpoints
-$small: 767px;
-$small-padding: 20px;
-$medium: 1030px;
-$medium-padding: 30px;
-$large: 1600px;
-$large-padding: 40px;
-$xlarge: 1920px;
-$xlarge-padding: 60px;
-
-
-// Layout
-
-$app-nav-primary-height: 74px;
-$app-nav-secondary-height: 35px;
-$app-nav-utility-height: 40px;
-$app-header-height: $app-nav-primary-height + $app-nav-utility-height;
-$app-footer-height: 35px;
-$nav-branding-width: 132px;
-
-// Patterns
-
-$nav-primary-link: #888;
-$nav-primary-link-hover: $grey600;
-$nav-primary-link-active: $red;
 
 // Z-index
 $zindexModal: 1230;
