@@ -216,6 +216,10 @@ ul {
     margin-bottom: 40px;
   }
 
+	.col-xs-12.col-md-4.color-chip {
+		margin-bottom: 0;
+	}
+
   @media (min-width: 960px) {
     #primary-colors .col-xs-12, #alert-colors .col-xs-12 {
       margin-bottom: 0;
