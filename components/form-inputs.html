@@ -8,134 +8,131 @@ preview-image: components-fields.svg
 
 <article>
   <h1>Text Field<span class="status prototype">In Progress</span></h1>
-  <div class="ws-section-con">
-    <p style="padding-bottom:12px">Text fields are generally found in forms. The type of text field determines which characters are allowed within it. For example, a user shouldn't be able to enter a letter into a phone number field. When the user is entering a name or proper noun, the first letter should automatically be capitalized when typed.</p>
-    <p>If the content is longer than the width of the text field, automatically scroll the content left as the user continues to type. Consider using a text area if this is expected to happen frequently in a specific text field.</p>
-    <h3>Enabled</h3>
-    <div class="formGroup">
-      <div class="formLabel"><span class="requiredInput">*</span> Required field</div>
-      <div class="formComponant">
-        <input type="text" name="account" placeholder="This is placeholder text.">
-      </div>
+  <p>Text fields are generally found in forms. The type of text field determines which characters are allowed within it. For example, a user shouldn't be able to enter a letter into a phone number field. When the user is entering a name or proper noun, the first letter should automatically be capitalized when typed.</p>
+  <p>If the content is longer than the width of the text field, automatically scroll the content left as the user continues to type. Consider using a text area if this is expected to happen frequently in a specific text field.</p>
+  <h3>Enabled</h3>
+  <div class="formGroup">
+    <div class="formLabel"><span class="requiredInput">*</span> Required field</div>
+    <div class="formComponant">
+      <input type="text" name="account" placeholder="This is placeholder text.">
     </div>
-    <div class="formGroup">
-      <div class="formLabel">Field with subtext</div>
-      <div class="formComponant textField">
-        <input type="text" name="account">
-      </div>
-      <p class="form-subtext">This is some subtext.</p>
+  </div>
+  <div class="formGroup">
+    <div class="formLabel">Field with subtext</div>
+    <div class="formComponant textField">
+      <input type="text" name="account">
     </div>
-    <div class="formGroup">
-      <div class="formLabel">Prefix or suffix</div>
-      <div class="formComponant">
-        <span id="inputPrefix">$</span><input type="text" name="account" id="setWidth"><span id="inputSuffix">GB</span>
-      </div>
+    <p class="form-subtext">This is some subtext.</p>
+  </div>
+  <div class="formGroup">
+    <div class="formLabel">Prefix or suffix</div>
+    <div class="formComponant">
+      <span id="inputPrefix">$</span><input type="text" name="account" id="setWidth"><span id="inputSuffix">GB</span>
     </div>
-    <div class="formGroup">
-      <div class="formLabel">With icon right</div>
-      <div class="formComponant iconAppendPre resizeInput">
-        <span class="iconPrefix"><i class="icon-search"></i></span>
-        <input type="text" name="account" placeholder="Search">
-      </div>
+  </div>
+  <div class="formGroup">
+    <div class="formLabel">With icon right</div>
+    <div class="formComponant iconAppendPre resizeInput">
+      <span class="iconPrefix"><i class="icon-search"></i></span>
+      <input type="text" name="account" placeholder="Search">
     </div>
-    <div class="formGroup">
-      <div class="formLabel">With icon left and right</div>
-      <div class="formComponant iconAppendPreSuf resizeInput">
-        <span class="iconPrefix"><i class="icon-search"></i></span>
-        <input type="text" name="account" value="My search terms">
-        <span class="iconSuffix"><i class="icon-clear"></i></span>
-      </div>
+  </div>
+  <div class="formGroup">
+    <div class="formLabel">With icon left and right</div>
+    <div class="formComponant iconAppendPreSuf resizeInput">
+      <span class="iconPrefix"><i class="icon-search"></i></span>
+      <input type="text" name="account" value="My search terms">
+      <span class="iconSuffix"><i class="icon-clear"></i></span>
     </div>
-    <div class="formGroup">
-      <div class="formLabel"><span class="requiredInput">*</span> Password</div>
-      <div class="formComponant">
-        <input type="password" name="account" value="Testingpassword">
-      </div>
+  </div>
+  <div class="formGroup">
+    <div class="formLabel"><span class="requiredInput">*</span> Password</div>
+    <div class="formComponant">
+      <input type="password" name="account" value="Testingpassword">
     </div>
+  </div>
 
-    <h3>Typeahead</h3>
-    <div class="formGroup">
-      <div class="formLabel">Contact</div>
-      <div class="formComponant">
-        <div class="ui-widget">
-          <input id="tags" type="text">
-        </div>
+  <h3>Typeahead</h3>
+  <div class="formGroup">
+    <div class="formLabel">Contact</div>
+    <div class="formComponant">
+      <div class="ui-widget">
+        <input id="tags" type="text">
       </div>
     </div>
+  </div>
 
-    <h3>Typeahead Multiple Values</h3>
-    <div class="formGroup">
-      <div class="formLabel">Contact</div>
-      <div class="formComponant">
-        <div class="ui-widget">
-          <input id="tags-multi" type="text">
-        </div>
+  <h3>Typeahead Multiple Values</h3>
+  <div class="formGroup">
+    <div class="formLabel">Contact</div>
+    <div class="formComponant">
+      <div class="ui-widget">
+        <input id="tags-multi" type="text">
       </div>
     </div>
+  </div>
 
-    <h3>Disabled</h3>
-    <div class="formGroup">
-      <div class="formLabel">Disabled with value</div>
-      <div class="formComponant">
-        <input type="text" name="account" value="Value text" disabled>
-      </div>
+  <h3>Disabled</h3>
+  <div class="formGroup">
+    <div class="formLabel">Disabled with value</div>
+    <div class="formComponant">
+      <input type="text" name="account" value="Value text" disabled>
     </div>
-    <div class="formGroup">
-      <div class="formLabel">Disabled with placeholder text</div>
-      <div class="formComponant">
-        <input type="text" name="account" placeholder="Placeholder text" disabled>
-      </div>
+  </div>
+  <div class="formGroup">
+    <div class="formLabel">Disabled with placeholder text</div>
+    <div class="formComponant">
+      <input type="text" name="account" placeholder="Placeholder text" disabled>
     </div>
+  </div>
 
-    <h3>Completed</h3>
-    <div class="formGroup">
-      <div class="formLabel">Complete form field</div>
-      <div class="formComponant">
-        <input type="text" name="account" value="Value text">
-        <i class="icon-check-mark completedFormGroupIcon"></i>
-      </div>
+  <h3>Completed</h3>
+  <div class="formGroup">
+    <div class="formLabel">Complete form field</div>
+    <div class="formComponant">
+      <input type="text" name="account" value="Value text">
+      <i class="icon-check-mark completedFormGroupIcon"></i>
     </div>
+  </div>
 
-    <h3>Error</h3>
-    <div class="formGroup">
-      <div class="formLabel">Error with value</div>
-      <div class="formComponant">
-        <input type="text" name="account" value="Value text" class="textInputError">
-        <p class="form-subtext error">There is an error with the response to this question.</p>
-      </div>
+  <h3>Error</h3>
+  <div class="formGroup">
+    <div class="formLabel">Error with value</div>
+    <div class="formComponant">
+      <input type="text" name="account" value="Value text" class="textInputError">
+      <p class="form-subtext error">There is an error with the response to this question.</p>
     </div>
+  </div>
 
-    <div class="formGroup">
-      <div class="formLabel"><span class="requiredInput">*</span> Error with placeholder text</div>
-      <div class="formComponant">
-        <input type="text" name="account" placeholder="Required" class="textInputError">
-        <p class="form-subtext error">There is an error with the response to this question.</p>
-      </div>
+  <div class="formGroup">
+    <div class="formLabel"><span class="requiredInput">*</span> Error with placeholder text</div>
+    <div class="formComponant">
+      <input type="text" name="account" placeholder="Required" class="textInputError">
+      <p class="form-subtext error">There is an error with the response to this question.</p>
     </div>
+  </div>
 
-    <div class="formGroup">
-      <div class="formLabel">Error with icon</div>
-      <div class="formComponant">
-        <input type="text" name="account" value="Value text" class="textInputError">
-        <i class="icon-error errorFormGroupIcon"></i>
-        <p class="form-subtext error">There is an error with the response to this question.</p>
-      </div>
+  <div class="formGroup">
+    <div class="formLabel">Error with icon</div>
+    <div class="formComponant">
+      <input type="text" name="account" value="Value text" class="textInputError">
+      <i class="icon-error errorFormGroupIcon"></i>
+      <p class="form-subtext error">There is an error with the response to this question.</p>
     </div>
   </div>
 </article>
 
 <article>
   <h1>Textarea<span class="status prototype">In Progress</span></h1>
-  <div class="ws-section-con">
-    <h3>Enabled</h3>
-    <div class="formGroup">
-      <div class="formLabel">My textarea</div>
-      <div class="formComponant">
-        <textarea name="account" placeholder="This is placeholder text."></textarea>
-      </div>
+  <h3>Enabled</h3>
+  <div class="formGroup">
+    <div class="formLabel">My textarea</div>
+    <div class="formComponant">
+      <textarea name="account" placeholder="This is placeholder text."></textarea>
     </div>
+  </div>
 
-    <div class="formGroup">
+  <div class="formGroup">
       <div class="formLabel">The final countdown</div>
       <div class="formComponant">
         <textarea type="text" name="account" maxlength="50" id="textarea"></textarea>
@@ -143,22 +140,22 @@ preview-image: components-fields.svg
       <p class="form-subtext countdown" id="textarea_feedback">This is some subtext.</p>
     </div>
 
-    <h3>Disabled</h3>
-    <div class="formGroup">
-      <div class="formLabel">My textarea disabled</div>
-      <div class="formComponant">
-        <textarea name="account" disabled>When I see birches bend to left and right across the lines of straighter darker trees, I like to think some boy's been swinging them. But swinging doesn't bend them down to stay as ice-storms do.</textarea>
-      </div>
+  <h3>Disabled</h3>
+  <div class="formGroup">
+    <div class="formLabel">My textarea disabled</div>
+    <div class="formComponant">
+      <textarea name="account" disabled>When I see birches bend to left and right across the lines of straighter darker trees, I like to think some boy's been swinging them. But swinging doesn't bend them down to stay as ice-storms do.</textarea>
     </div>
+  </div>
 
-    <h3>Error</h3>
-    <div class="formGroup">
-      <div class="formLabel">My textarea with an error</div>
-      <div class="formComponant">
-        <textarea name="account" class="textInputError">Often you must have seen them loaded with ice a sunny winter morning after a rain. They click upon themselves as the breeze rises, and turn many-colored as the stir cracks and crazes their enamel.</textarea>
-        <p class="form-subtext error">There is an error with the response to this question.</p>
-      </div>
+  <h3>Error</h3>
+  <div class="formGroup">
+    <div class="formLabel">My textarea with an error</div>
+    <div class="formComponant">
+      <textarea name="account" class="textInputError">Often you must have seen them loaded with ice a sunny winter morning after a rain. They click upon themselves as the breeze rises, and turn many-colored as the stir cracks and crazes their enamel.</textarea>
+      <p class="form-subtext error">There is an error with the response to this question.</p>
     </div>
+  </div>
 </article>
 
 <article>
