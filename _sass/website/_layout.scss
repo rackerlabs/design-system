@@ -159,6 +159,11 @@ article {
 	padding-top: 40px;
 }
 
+article:first-of-type {
+	border-top: none;
+	padding-top: 0;
+}
+
 .ws-todo-bar{
 	background-color:$purple500;
 	border-radius:2px;
