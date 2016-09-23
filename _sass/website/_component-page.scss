@@ -1,3 +1,7 @@
+/**
+ * Content styles
+ */
+
 .display-font {
 	margin-bottom: 40px !important; //remove when typography margins are finalized
 }
@@ -11,24 +15,24 @@ h1 {
 	margin-bottom: 24px !important; //remove when typography margins are finalized
 }
 
-.ws-section-con p{
+p {
 	padding-bottom:32px;
 }
 
-.ws-section-con .form-subtext{
+.form-subtext {
 	padding-bottom:0;
 }
 
-.ws-section-con h3{
+h3 {
 	padding:32px 0 12px;
 }
 
-.ws-section-con h3:first-of-type{
-	padding-top:0;
+ol {
+	list-style-type: disc;
 }
 
-.ws-first-p{
-	padding-bottom:32px;
+ul {
+	list-style-type: circle;
 }
 
 .ws-todo-bar{
@@ -40,24 +44,6 @@ h1 {
     -o-font-smoothing: antialiased;
     border-radius:2px;
 }
-
- .formGroup.ws-formGroup-last{
- 	padding-bottom:0;
- }
-
-ol {
-	list-style-type: disc;
-}
-
-ul {
-	list-style-type: circle;
-}
-
-.ws-doc-list{
-	list-style-type: disc;
-	margin:0;
-}
-
 
 .status {
 	background-color: $grey300;
@@ -81,36 +67,9 @@ ul {
 	background-color: $green;
 }
 
-
-.color-chip, .color-chip-alert {
- 	width: 20%;
- 	display: block;
- 	box-sizing: border-box;
- 	margin-left: 0;
- 	text-align: center;
- 	float: left;
- 	padding: 24px 0;
- 	span {
- 		display: block;
- 	}
- }
-
- .color-chip span:last-of-type{
- 	font-size:14px;
- }
-
- .color-chip-alert{
- 	width:25%;
- }
-
- .primary-color-chip{
- 	width:100%;
- 	border-bottom:4px solid #fff;
- }
-
- .color-chip-light{
- 	color:#fff;
- }
+/**
+ * Page specific styles
+ */
 
 /* Upcoming */
 
@@ -140,13 +99,6 @@ ul {
 }
 
 /* Colors */
-
-
-
-
-  article p {
-    padding-bottom: 32px;
-  }
 
   .ws-top-swatch{
     height: 140px;
@@ -198,6 +150,36 @@ ul {
 	.col-xs-12.col-md-4.color-chip {
 		margin-bottom: 0;
 	}
+
+	.color-chip, .color-chip-alert {
+	 	width: 20%;
+	 	display: block;
+	 	box-sizing: border-box;
+	 	margin-left: 0;
+	 	text-align: center;
+	 	float: left;
+	 	padding: 24px 0;
+	 	span {
+	 		display: block;
+	 	}
+	 }
+
+	 .color-chip span:last-of-type{
+	 	font-size:14px;
+	 }
+
+	 .color-chip-alert{
+	 	width:25%;
+	 }
+
+	 .primary-color-chip{
+	 	width:100%;
+	 	border-bottom:4px solid #fff;
+	 }
+
+	 .color-chip-light{
+	 	color:#fff;
+	 }
 
   @media (min-width: 960px) {
     #primary-colors .col-xs-12, #alert-colors .col-xs-12 {
@@ -305,10 +287,6 @@ ul {
 
 .tempP{
   float: left;
-}
-
-.ws-type-page-last-p{
-  padding-bottom: 32px;
 }
 
 /* Buttons */
