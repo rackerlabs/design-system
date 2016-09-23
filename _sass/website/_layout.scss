@@ -150,6 +150,55 @@ nav {
 }
 
 /**
+ * Content styles
+ */
+
+article {
+	border-top: 1px solid #e0e0e0;
+	margin-top: 40px;
+	padding-top: 40px;
+}
+
+.ws-todo-bar{
+	background-color:$purple500;
+	border-radius:2px;
+	color:white;
+	padding:$paddingXS $paddingS !important;
+	-webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+	a {
+		color:#FBC02D;
+		font-weight: 500;
+	}
+	a:hover, a:active{
+		color: #FFEB3B;
+	}
+}
+
+.status {
+	background-color: $grey300;
+  padding: $paddingXS $paddingS;
+  border-radius: 12px;
+  font-weight:400;
+	font-size:12px;
+	letter-spacing:0.5px;
+  color: #fff;
+  vertical-align: 4px;
+  white-space: nowrap;
+  margin-left: 2em;
+  display:inline-block;
+}
+
+.prototype {
+	background-color: $purple;
+}
+
+.dev-ready {
+	background-color: $green;
+}
+
+/**
  * Post page content
  */
 
