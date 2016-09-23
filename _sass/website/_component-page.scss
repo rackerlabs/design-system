@@ -2,43 +2,10 @@
  * Content styles
  */
 
-.display-font {
-	margin-bottom: 40px !important; //remove when typography margins are finalized
-}
-
 article {
 	border-top: 1px solid #e0e0e0;
 	margin-top: 40px;
 	padding-top: 40px;
-}
-
-h1 {
-	margin-bottom: 24px !important; //remove when typography margins are finalized
-}
-
-h3 {
-	padding:32px 0 12px;
-}
-
-h4 {
-	font-weight: normal;
-	margin-bottom: 4px;
-}
-
-p {
-	padding-bottom: 32px;
-}
-
-.form-subtext {
-	padding-bottom:0;
-}
-
-ul {
-	list-style-type: disc;
-}
-
-.page-content ol li {
-	margin-left: 24px;
 }
 
 .ws-todo-bar{
