@@ -1,153 +1,79 @@
-//DON'T DELETE EAG 7-18-2016
+html, body {
+  font-size: $base-font-size;
+  font-weight: 400;
+  line-height: $base-line-height;
+}
+
+html, body, .display-font, h1, h2, h3, h4, h5, h6 {
+  color: $grey900;
+  font-family: $base-font-family;
+}
+
+.display-font, h1, h2, h3, h4, h5, h6 {
+  line-height: $heading-line-height;
+}
 
 .display-font {
-	margin-bottom: 40px !important; //remove when typography margins are finalized
+  font-size: $font-size-7;
+  font-weight: 100;
+  margin-bottom: 40px;
 }
 
 h1 {
-	margin-bottom: 24px !important; //remove when typography margins are finalized
+  font-size: $font-size-5;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+
+h1.header-alt {
+  font-weight: 200;
+}
+
+h2 {
+  font-size: $font-size-4;
+  font-weight: 400;
+  margin-bottom: $paddingM;
 }
 
 h3 {
-	padding:32px 0 12px;
+  font-size: $base-font-size;
+  font-weight: 500;
+  margin-bottom: $paddingXS;
 }
 
 h4 {
-	font-weight: normal;
+	font-weight: 400;
 	margin-bottom: 4px;
 }
 
-p {
-	padding-bottom: 32px;
+p, .body1 {
+  font-size: $base-font-size;
+  font-weight: 400;
+	margin-bottom: 32px;
 }
 
-.form-subtext {
-	padding-bottom:0;
+.body2 {
+  font-size: $font-size-3;
+  font-weight: 400;
+  line-height: $base-line-height;
+}
+
+.statusTag {
+  font-size: $font-size-1;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+.subtext, .form-subtext {
+  font-weight: 400;
+  font-size: $font-size-2;
+  color: $grey700;
 }
 
 ul {
 	list-style-type: disc;
 }
 
-.page-content ol li {
+ol li {
 	margin-left: 24px;
-}
-
-html, body {
-  color: $grey950;
-  font-family: $base-font-family;
-  font-size: $base-font-size;
-  line-height: $base-line-height;
-}
-
-p {
-  font-weight:400;
-  font-size:$base-font-size;
-  line-height: $base-line-height;
-  padding: 0 0 $paddingM 0;
-  margin:0;
-}
-
-.display-font, h1, h2, h3, h4, h5, h6{
-  line-height: $heading-line-height;
-  text-transform: none;
-  letter-spacing: 0;
-  color: $grey950;
-  margin:0;
-  padding:0;
-}
-
-.display-font{
-  font-weight:100;
-  font-size:$font-size-7;
-}
-
-h1{
-  font-weight:300;
-  font-size:$font-size-5;
-}
-
-h1.header-alt{
-  font-weight:400;
-}
-
-h2{
-  font-weight:400;
-  font-size:$font-size-4;
-  padding: 0 0 $paddingM 0;
-}
-
-h3{
-  font-weight:500;
-  font-size:$base-font-size;
-  padding: 0 0 $paddingXS 0;
-}
-
-.body1{
-  font-weight:400;
-  font-size:$base-font-size;
-  line-height: $base-line-height;
-}
-
-.body2{
-  font-weight:400;
-  font-size: $font-size-3;
-  line-height: $base-line-height;
-
-}
-
-.subtext, .form-subtext{
-  font-weight:400;
-  font-size:$font-size-2;
-  color:$grey700;
-}
-
-.statusTag{
-  font-size:$font-size-1;
-  font-weight:400;
-  letter-spacing:0.5px;
-}
-
-.requiredInput{
-  color:$red900;
-  font-weight: 900;
-}
-
-.form-section-head{
-  padding-bottom: $paddingL;
-}
-
-.formLabel, fieldset.icheck legend{
-  font-size: $font-size-3;
-  font-weight: normal;
-  padding-bottom: $paddingXS;
-}
-
-.subtext.error{
-  color:$red900;
-  padding:$paddingS 0 0 0;
-}
-
-.smCaps{
-  font-size: smaller;
-  text-transform: uppercase;
-}
-
-/*FORM SPECIFIC*/
-
-.form-subtext{
-  padding:$paddingS 0 0 0;
-}
-
-.form-section-container{
-  padding-top:$paddingXL;
-}
-
-.formComponant, .formGroup, fieldset{
-  display:block;
-  width:100%;
-}
-
-.formGroup, fieldset{
-  padding-bottom:$paddingXL;
 }
