@@ -2,17 +2,13 @@
 	margin-bottom: 40px !important; //remove when typography margins are finalized
 }
 
-.ws-section-head {
+article {
 	padding:40px 0 24px 0;
 	border-top:1px solid #e0e0e0;
-	margin-top:40px;
-	font-weight:400;
 }
 
-.ws-section-head:first-child{
-	border-top:none;
-	margin-top:0;
-	padding-top:0;
+h1 {
+	margin-bottom: 24px !important; //remove when typography margins are finalized
 }
 
 .ws-section-con p{
@@ -146,21 +142,7 @@ ul {
 /* Colors */
 
 
-  article {
-    border-bottom: 1px solid #e0e0e0;
-    margin-bottom: 40px;
-    padding-bottom: 40px;
-  }
 
-  article:last-of-type {
-  	border-top:none;
-  	margin-bottom:0;
-  	padding-bottom:0;
-  }
-
-  article h1 {
-    padding-bottom: 24px;
-  }
 
   article p {
     padding-bottom: 32px;
