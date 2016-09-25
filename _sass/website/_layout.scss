@@ -1,3 +1,7 @@
+body {
+  background-color: $grey25;
+}
+
 /**
  * Site header
  */
@@ -141,9 +145,8 @@ nav {
     position: relative;
     float: right;
     width: calc(100% - 17em);
-    top: 80px;
+    top: 0;
     .page-content {
-        padding: 0 28px 40px 28px;
         overflowY: scroll;
         box-sizing: border-box;
     }
@@ -154,14 +157,20 @@ nav {
  */
 
 article {
-	border-top: 1px solid #e0e0e0;
-	margin-top: 40px;
-	padding-top: 40px;
+	padding: 80px 28px;
 }
 
-article:first-of-type {
-	border-top: none;
-	padding-top: 0;
+article:nth-child(odd) {
+  background-color: $grey100;
+}
+
+article.page-header {
+  background-color: $grey25;
+  padding-bottom: 0;
+}
+
+article:nth-child(2) {
+  padding-top: 0;
 }
 
 .ws-todo-bar{
