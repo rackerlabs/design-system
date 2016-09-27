@@ -1,7 +1,7 @@
 /*--------------------------------------------------------------
 Someone smarter than me, please replace this with media queries <3
 1. Use media queries in stead of JS
-2. Adjust font size with media queries so it looks good responsively
+2. Adjust font size using different statistic sizes with media queries so it looks good responsively
 3. Get the center text to display below the doughnuts if it is too long for the center of the circle
 
 All I'm doing here is centering it
@@ -12,6 +12,10 @@ $(window).resize(function(){
 
 $( document ).ready(function() {
     centerText();
+
+    //progress bar impression
+    var textHeight = $("#ds-stat-con0").height();
+    $(".ds-per-imp-con").css('height', textHeight + "px");
 });
 
 function centerText(){
@@ -31,11 +35,12 @@ function centerText(){
     var lgOffset = lgColWidth/2 - lgTxtHeight/2;
     var smOffset = smColWidth/2 - smTxtHeight/2;
 
-    console.log(smOffset);
-    console.log(lgOffset);
 
     //set offset
     $(".ds-per-doughnut-center").css('top', smOffset + "px");
+    $(".ds-per-doughnut-center").width(smColWidth + "px");
+    $(".ds-per-doughnut-center-lg").css('top', lgOffset + "px");
+    $(".ds-per-doughnut-center-lg").width(lgColWidth + "px");
 }
 
 

@@ -1,4 +1,11 @@
+.temp-dark-bg{
+		color:#FBC02D;
+		font-weight: 500;
+	}
 
+	.temp-dark-bg:hover, .temp-dark-bg:active{
+		color: #FFEB3B;
+	}
 
 .author {
 	font-size: $base-font-size;

@@ -6,13 +6,11 @@ usage: The Helix 12-column grid provides structure for website content.
 preview-image: components-grid.svg
 ---
 
-<p class="ws-todo-bar" style="margin-bottom:12px;"><b>TODO:</b> Make sure the threshold/average line extends the entire width of the x axis. Remove line points on hover. Show a tooltip with the threshold/average when any part of the line is hovered over.</p>
-<p class="ws-todo-bar" style="margin-bottom:12px;"><b>TODO:</b> Correctly format numbers at or above 1,000 by including commas.</p>
-<p class="ws-todo-bar" style="margin-bottom:12px;"><b>TODO:</b> Make legends look clickable when they are. It is not discoverable that data can be filtered by clicking on a legend label.</p>
-<p class="ws-todo-bar" style="margin-bottom:12px;"><b>TODO:</b> Make custom right legends clickable like default legends.</p>
-<p class="ws-todo-bar" style="margin-bottom:12px;"><b>TODO:</b> X-axis labels are cutting off decending letters.</p>
-<p class="ws-todo-bar" style="margin-bottom:12px;"><b>TODO:</b> Add a tooltip stroke.</p>
-<p class="ws-todo-bar" style="margin-bottom:12px;"><b>TODO:</b> Find a way to <a href="https://github.com/chartjs/Chart.js/issues/12">skip labels and ticks</a> on x axis.</p>
+<p class="ws-todo-bar" style="margin-bottom:12px;"><b>TODO:</b> Correctly format numbers at or above 1,000 in tooltips and on axes by including commas. <a href="https://jira.rax.io/browse/RED-582" target="_blank" class="temp-dark-bg">VIEW JIRA</a></p>
+<p class="ws-todo-bar" style="margin-bottom:12px;"><b>TODO:</b> Make legends look clickable when they are. It is not discoverable that data can be filtered by clicking on a legend label. <a href="https://jira.rax.io/browse/RED-583" target="_blank" class="temp-dark-bg">VIEW JIRA</a></p>
+
+<p class="ws-todo-bar" style="margin-bottom:12px;"><b>TODO:</b> Add a <a href="https://github.com/chartjs/Chart.js/pull/3221" target="_blank" class="temp-dark-bg">tooltip stroke</a>. <a href="https://jira.rax.io/browse/RED-585" target="_blank" class="temp-dark-bg">VIEW JIRA</a></p>
+
 
 <h1 class="ws-section-head">Chart Basics<span class="status prototype">In Progress</span></h1>
 <p>When considering a data visualization for your project, always value <b>substance over flash</b>. The most important thing is making sure users can easily interpret data and glean insights. Charts can present accessibility challenges designers must address. Remember to keep in mind colorblind users, keyboard accessibility, and users with screen readers. <b>Best practices include:</b></p>
@@ -109,6 +107,9 @@ preview-image: components-grid.svg
 
 
 <h1 class="ws-section-head">Statistic<span class="status prototype">In Progress</span></h1>
+
+<p class="ws-todo-bar" style="margin-bottom:24px;"><b>TODO:</b> Create additional breakpoints for statistics to prevent weird word wrapping. <a href="https://jira.rax.io/browse/RED-577" target="_blank" class="temp-dark-bg">VIEW JIRA</a></p>
+
 <p class="ws-first-p"><b>Before considering any data visualization</b>, consider showing a simple statistic. If you can tell the user what they want to know without forcing chart interpretation, that is preferred.</p>
 <div class="ws-stat-doc-con">
 	<h2 class="ds-chart-header">Medina Lake as of Sept. 15, 2016</h2>
@@ -179,6 +180,12 @@ preview-image: components-grid.svg
 			<div class="small statistic">
 			    <div class="value">2 em</div>
 			  	<div class="label">Small Value Size</div>
+			</div>
+		</div>
+		<div class="col-md-3">
+			<div class="mini statistic">
+			    <div class="value">1 em</div>
+			  	<div class="label">Mini Value Size</div>
 			</div>
 		</div>
 	</div>
@@ -318,31 +325,42 @@ preview-image: components-grid.svg
 
 
 <h3 class="ws-charts-h3">Percent Complete</h3>
+<p class="ws-todo-bar" style="margin-bottom:24px;"><b>TODO:</b> Animate Percent Complete Impression Bars. <a href="https://jira.rax.io/browse/RED-576" target="_blank" class="temp-dark-bg">VIEW JIRA</a></p>
+<p class="ws-first-p"><b>Before considering any data visualization</b>, consider showing a simple statistic. If you can tell the user what they want to know without forcing chart interpretation, that is preferred.</p>
 <h2 class="ds-chart-header">Medina Lake Percent Full</h2>
 <div class="row">
 	<div class="col-md-3">
-		<div>
-			<div></div>
+		<div class="ds-per-imp-con">
+			<div class="ds-per-imp-inner" style="height:97%"></div>
 		</div>
-		<div class="statistic">
+		<div class="statistic left" id="ds-stat-con0">
 		    <div class="value">97%</div>
 		  	<div class="label">Today</div>
 		</div>
 	</div>
 	<div class="col-md-3">
-		<div class="statistic">
+		<div class="ds-per-imp-con">
+			<div class="ds-per-imp-inner" style="height:100%"></div>
+		</div>
+		<div class="statistic left">
 		    <div class="value">100%</div>
 		  	<div class="label">June 19, 2016</div>
 		</div>
 	</div>
 	<div class="col-md-3">
-		<div class="statistic">
+		<div class="ds-per-imp-con">
+			<div class="ds-per-imp-inner" style="height:63%"></div>
+		</div>
+		<div class="statistic left">
 		    <div class="value">63%</div>
 		  	<div class="label">March 19, 2016</div>
 		</div>
 	</div>
 	<div class="col-md-3">
-		<div class="statistic">
+		<div class="ds-per-imp-con">
+			<div class="ds-per-imp-inner" style="height:68%"></div>
+		</div>
+		<div class="statistic left">
 		    <div class="value">68%</div>
 		  	<div class="label">September 19, 2016</div>
 		</div>
@@ -424,6 +442,7 @@ In the below example, the data has been converted to percents of the largest amo
 </div>
 
 <h1 class="ws-section-head">Bar Chart<span class="status prototype">In Progress</span></h1>
+<p class="ws-todo-bar" style="margin-bottom:24px;"><b>TODO:</b> Improve implementation of a threshold line. Make sure the threshold/average line extends the entire width of the x axis. Show a tooltip with the threshold/average when any part of the line is hovered over. <a href="https://jira.rax.io/browse/RED-578" target="_blank" class="temp-dark-bg">VIEW JIRA</a></p>
 <p><b>Use to compare items against each other or throughout time and identify outliers.</b></p>
 <p>Bar charts showing a single data set should use a single color, and there is no need to show a legend. When comparing throughout time, bar charts and line charts can sometimes be used interchangeably. <b>Use a line chart if:</b></p> 
 <ul class="ws-doc-list ws-first-p">
@@ -456,6 +475,7 @@ In the below example, the data has been converted to percents of the largest amo
 	</div>
 </div>
 <h3 class="ws-charts-h3">Horizontal Bar Charts</h3>
+<p class="ws-todo-bar" style="margin-bottom:24px;"><b>TODO:</b> Fix how descending letters are cut off in X-axis labels. <a href="https://jira.rax.io/browse/RED-579" target="_blank" class="temp-dark-bg">VIEW JIRA</a></p>
 <p class="ws-first-p">Long labels are easier to read on a horizontal bar chart.</p>
 <div class="ws-chart-ex-con">
 	<div class="row ws-chart-row">
@@ -485,20 +505,21 @@ In the below example, the data has been converted to percents of the largest amo
 </div>-->
 
 <h1 class="ws-section-head">Doughnut Charts<span class="status prototype">In Progress</span></h1>
-<p class="ws-todo-bar" style="margin-bottom:24px;"><b>TODO:</b> Show an iteration with a statistic in the middle.</p>
+<p class="ws-todo-bar" style="margin-bottom:12px;"><b>TODO:</b> Make custom right legends clickable like default legends. <a href="https://jira.rax.io/browse/RED-588" target="_blank" class="temp-dark-bg">VIEW JIRA</a></p>
+<p class="ws-todo-bar" style="margin-bottom:24px;"><b>TODO:</b> Center and resize statistic in doughnut carts with media queries.<a href="https://jira.rax.io/browse/RED-589" target="_blank" class="temp-dark-bg">VIEW JIRA</a></p>
 <p><b>Use to show composition.</b></p>
 <p>Doughnut charts are the only Helix charts that show an item's share of the total. Limit the number of slices to seven or less. If there are more categories than seven, group all but the largest six into an "other" category. Always show legends with a doughnut chart.</p>
 <p  class="ws-first-p">Doughnut charts can be combined with a statistic shown in the center whitespace.</p>
 <h2 class="ds-chart-header">Large* Rivers per Continent</h2>
-<div class="row">
-	<div class="col-md-4" id="get-my-width-lg">
+<div class="row">		
+	<div class="ds-per-doughnut-con col-md-4" id="get-my-width-lg">
 		<canvas id="demoDoughnutChart" width="1" height="1"></canvas>
-		<div class="ds-per-doughnut-center" id="get-my-height-lg">
-			<p class="ds-per-doughnut-head">Tucson</p>
-			<h2 class="ds-per-doughnut-per">85%</h2>
+		<div class="ui statistic ds-per-doughnut-center-lg" id="get-my-height-lg">
+			<div class="label">Africa</div>
+			<div class="value">13 Rivers</div>
 		</div>
 	</div>
-	<div class="ds-custom-legend-con col-md-2">
+	<div class="ds-custom-legend-con col-md-3">
 		<div id="demoDoughnutChartLegend" class="ds-right-legend"></div>
 	</div>			
 </div>
@@ -508,31 +529,31 @@ In the below example, the data has been converted to percents of the largest amo
 <p  class="ws-first-p"></p>
 <h2 class="ds-chart-header">Sunny Daytime Hours</h2>
 <div class="row">		
-	<div class="ds-per-doughnut-con col-md-2">
+	<div class="ds-per-doughnut-con col-md-1" id="get-my-width-sm">
 		<canvas id="perDough1" width="1" height="1"></canvas>
-		<div class="ui small statistic ds-per-doughnut-center" id="get-my-height-sm">
-			<p class="label">Tucson</p>
-			<h2 class="value">85%</h2>
+		<div class="ui mini statistic ds-per-doughnut-center" id="get-my-height-sm">
+			<div class="label">Tucson</div>
+			<div class="value">85%</div>
 		</div>
 	</div>
 
-	<div class="ds-per-doughnut-con col-md-2">
+	<div class="ds-per-doughnut-con col-md-1">
 		<canvas id="perDough2" width="1" height="1"></canvas>
-		<div class="ui small statistic ds-per-doughnut-center">
+		<div class="ui mini statistic ds-per-doughnut-center">
 			<div class="label">Syracuse</div>
 		    <div class="value">46%</div>
 	  	</div>
 	</div>
-	<div class="ds-per-doughnut-con col-md-2">
+	<div class="ds-per-doughnut-con col-md-1">
 		<canvas id="perDough3" width="1" height="1"></canvas>
-		<div class="ui small statistic ds-per-doughnut-center">
+		<div class="ui mini statistic ds-per-doughnut-center">
 			<div class="label">Dallas</div>
 		    <div class="value">61%</div>
 	  	</div>
 	</div>
-	<div class="ds-per-doughnut-con col-md-2">
+	<div class="ds-per-doughnut-con col-md-1">
 		<canvas id="perDough4" width="1" height="1"></canvas>
-		<div class="ui small statistic ds-per-doughnut-center">
+		<div class="ui mini statistic ds-per-doughnut-center">
 			<div class="label">Seattle</div>
 		    <div class="value">47%</div>
 	  	</div>
@@ -540,6 +561,10 @@ In the below example, the data has been converted to percents of the largest amo
 </div>
 
 <h1 class="ws-section-head">Line Chart<span class="status prototype">In Progress</span></h1>
+
+<p class="ws-todo-bar" style="margin-bottom:12px;"><b>TODO:</b> Find a way to <a href="https://github.com/chartjs/Chart.js/issues/12" target="_blank" class="temp-dark-bg">skip labels and ticks</a> on x axis to make line charts less cluttered when needed. <a href="https://jira.rax.io/browse/RED-580" target="_blank" class="temp-dark-bg">VIEW JIRA</a></p>
+<p class="ws-todo-bar" style="margin-bottom:24px;"><b>TODO:</b> Show line chart legend items as a line instead of a rectangle. <a href="https://jira.rax.io/browse/RED-586" target="_blank" class="temp-dark-bg">VIEW JIRA</a></p>
+
 <p><b>Use to show trends over time.</b></p>
 
 <p>Line charts with a single line do not need a legend. However, a line chart can be used to show up to six lines. With multiple lines, a legend must be used. The same y-axis unit must apply to all lines on the chart.</p>
@@ -559,6 +584,7 @@ In the below example, the data has been converted to percents of the largest amo
 	</div>
 </div>
 <h3 class="ws-charts-h3">Small Display</h3>
+<p class="ws-todo-bar" style="margin-bottom:24px;"><b>TODO:</b> Change point radius and line width based on chart size. <a href="https://jira.rax.io/browse/RED-581" target="_blank" class="temp-dark-bg">VIEW JIRA</a></p>
 <p class="ws-first-p">The line width and point radius can be halved when the chart doesn't span all 12 columns. Do not introduce other line widths to preserve consistency. Be cautious when using the smaller point size because the smaller tooltip target may make it more difficult for some users to hover over the appropriate location and reveal tooltips.</p>
 <div class="row">
 	<div class="col-md-6">
