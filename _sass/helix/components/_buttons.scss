@@ -27,7 +27,8 @@ input::-moz-focus-inner {
   }
 
   &:active,
-  &.active {
+  &.active,
+  &.active.button {
     background: $action900;
     border: 1px solid $action900;
     color: #fff;
@@ -44,7 +45,8 @@ input::-moz-focus-inner {
     opacity: 1 !important;
   }
 
-  &.default{
+  &.default,
+  &.default:hover {
     background: $action700;
     border: 1px solid $action700;
     outline:none;
@@ -75,14 +77,16 @@ input::-moz-focus-inner {
     }
 
     &:active,
-    &.active {
+    &.active,
+    &.active:hover {
       color:$grey0;
       background: $action900;
       border: 1px solid $action900;
       outline:none;
     }
 
-      &.default{
+    &.default,
+    &.default:hover {
       background: transparent;
       border: 1px solid $action700;
       color:$action700;
@@ -94,25 +98,21 @@ input::-moz-focus-inner {
     border: 1px solid $grey900;
     color:$grey900;
 
-    &:hover,
-    &:focus,
-    &.hover {
-
-    }
-
     &:active,
-    &.active {
-
+    &.active,
+    &.active:hover {
+      color:$grey0;
+      background: $action900;
+      border: 1px solid $action900;
+      outline:none;
     }
 
-    &.default{
-
+    &.default,
+    &.default:hover {
+      border: 1px solid $grey900;
+      color:$grey900;
     }
 
-    &[disabled],
-    &.disabled {
-      
-    }
   }
 
 }
