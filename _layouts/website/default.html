@@ -7,8 +7,10 @@
 
     {% include website/header.html %}
     <div class="page-wrapper">
-      <div class="page-content container-fluid">
-        <div class="display-font">{{page.title}}</div>
+      <div class="page-content">
+        <article class="page-header">
+          <div class="display-font">{{page.title}}</div>
+        </article>
         {{content}}
       </div>
     </div>
