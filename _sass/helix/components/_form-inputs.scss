@@ -167,6 +167,9 @@ ICONS IN MARGIN AFTER INPUT
 }
 
 fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
   legend {
     font-size:16px;
     font-weight:normal;
@@ -175,4 +178,43 @@ fieldset {
   input[type="text"], input[type="password"], input[type="email"], input[type="search"], input[type="url"], textarea {
     margin-bottom: 12px;
   }
+}
+
+.requiredInput{
+  color:$red900;
+  font-weight: 900;
+}
+
+.form-section-head{
+  padding-bottom: $paddingL;
+}
+
+.formLabel, fieldset.icheck legend{
+  font-size: $font-size-3;
+  font-weight: normal;
+  padding-bottom: $paddingXS;
+}
+
+.subtext.error{
+  color:$red900;
+  padding:$paddingS 0 0 0;
+}
+
+/*FORM SPECIFIC*/
+
+.form-subtext{
+  padding:$paddingS 0 0 0;
+}
+
+.form-section-container{
+  padding-top:$paddingXL;
+}
+
+.formComponant, .formGroup, fieldset{
+  display:block;
+  width:100%;
+}
+
+.formGroup, fieldset{
+  padding-bottom:$paddingXL;
 }

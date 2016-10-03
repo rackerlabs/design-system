@@ -5,10 +5,11 @@ category: Components
 usage: Helix controls allow users to select options in a variety of ways including radio buttons, checkboxes, switches and more.
 preview-image: components-selectors.svg
 ---
+
 <p class="ws-todo-bar"><b>TODO:</b> Update focus states, expand on inline validation, and improve keyboard accesibility</p>
 
-<h1 class="ws-section-head">Radio Buttons<span class="status prototype">In Progress</span></h1>
-<div class="ws-section-con">
+<article>
+  <h1>Radio Buttons<span class="status prototype">In Progress</span></h1>
   <p>Use when selecting a <b>single item</b> from a set it&#8217;s important for the user to see all options at once. If viewing items side-by-side isn&#8217;t important, consider a selector, which uses less space.</p>
 
   <h3>Enabled</h3>
@@ -51,38 +52,38 @@ preview-image: components-selectors.svg
     </fieldset>
     <p class="subtext error">There is an error with the response to this question.</p>
   </div>
-</div>
+</article>
 
-<h1 class="ws-section-head">Radio Button Button-Group Alternate<span class="status prototype">In Progress</span></h1>
-<div class="ws-section-con">
+<article>
+  <h1>Radio Button Button-Group Alternate<span class="status prototype">In Progress</span></h1>
   <p>Use when selecting a <b>single item</b> from a set if it&#8217;s important for the user to see all options at once. This alternate can be used instead of regular radio buttons if the options are <b>simple</b>, limited in number and individual length.</p>
   <h3>Enabled</h3>
-    <div class="formGroup doc">
-      <div class="formLabel group"><span class="requiredInput">*</span> Select a maintenance day</div>
-      <div class="formComponant altSelectorFormComponent">
-        <input type="radio" name="days" id="mon1" value="MyRackspace" class="altSelector" checked><label for="mon1" class="altSelector">Mon</label>
-        <input type="radio" name="days" id="tue1" value="MyRackspace" class="altSelector"><label for="tue1" class="altSelector">Tue</label>
-        <input type="radio" name="days" id="wed1" value="MyRackspace" class="altSelector"><label for="wed1" class="altSelector">Wed</label>
-        <input type="radio" name="days" id="thu1" value="MyRackspace" class="altSelector"><label for="thu1" class="altSelector">Thu</label>
-        <input type="radio" name="days" id="fri1" value="MyRackspace" class="altSelector"><label for="fri1" class="altSelector">Fri</label>
-        <input type="radio" name="days" id="sat1" value="MyRackspace" class="altSelector"><label for="sat1" class="altSelector">Sat</label>
-        <input type="radio" name="days" id="sun1" value="MyRackspace" class="altSelector "><label for="sun1" class="altSelector">Sun</label>
-      </div>
-      <span class="subtext">Here is some additional help text to explain these choices.</span>
+  <div class="formGroup doc">
+    <div class="formLabel group"><span class="requiredInput">*</span> Select a maintenance day</div>
+    <div class="formComponant altSelectorFormComponent">
+      <input type="radio" name="days" id="mon1" value="MyRackspace" class="altSelector" checked><label for="mon1" class="altSelector">Mon</label>
+      <input type="radio" name="days" id="tue1" value="MyRackspace" class="altSelector"><label for="tue1" class="altSelector">Tue</label>
+      <input type="radio" name="days" id="wed1" value="MyRackspace" class="altSelector"><label for="wed1" class="altSelector">Wed</label>
+      <input type="radio" name="days" id="thu1" value="MyRackspace" class="altSelector"><label for="thu1" class="altSelector">Thu</label>
+      <input type="radio" name="days" id="fri1" value="MyRackspace" class="altSelector"><label for="fri1" class="altSelector">Fri</label>
+      <input type="radio" name="days" id="sat1" value="MyRackspace" class="altSelector"><label for="sat1" class="altSelector">Sat</label>
+      <input type="radio" name="days" id="sun1" value="MyRackspace" class="altSelector "><label for="sun1" class="altSelector">Sun</label>
     </div>
+    <span class="subtext">Here is some additional help text to explain these choices.</span>
+  </div>
 
   <h3>Disabled</h3>
-    <div class="formGroup doc">
-      <div class="formLabel group"><span class="requiredInput">*</span> Select a payment type</div>
-      <div class="formComponant altSelectorFormComponent">
-        <input type="radio" name="payment1" id="credit1" value="MyRackspace" class="altSelectorDis" checked><label  class="altSelectorDis">Credit / Debit</label>
-        <input type="radio" name="payment1" id="cash1" value="MyRackspace" class="altSelectorDis"><label class="altSelectorDis">Cash</label>
-        <input type="radio" name="payment1" id="check1" value="MyRackspace" class="altSelectorDis"><label class="altSelectorDis">Check</label>
-      </div>
+  <div class="formGroup doc">
+    <div class="formLabel group"><span class="requiredInput">*</span> Select a payment type</div>
+    <div class="formComponant altSelectorFormComponent">
+      <input type="radio" name="payment1" id="credit1" value="MyRackspace" class="altSelectorDis" checked><label  class="altSelectorDis">Credit / Debit</label>
+      <input type="radio" name="payment1" id="cash1" value="MyRackspace" class="altSelectorDis"><label class="altSelectorDis">Cash</label>
+      <input type="radio" name="payment1" id="check1" value="MyRackspace" class="altSelectorDis"><label class="altSelectorDis">Check</label>
     </div>
+  </div>
 
   <h3>Error</h3>
-    <div class="formGroup doc ws-formGroup-last">
+  <div class="formGroup doc ws-formGroup-last">
       <div class="formLabel group"><span class="requiredInput">*</span> Select a maintenance window</div>
       <div class="formComponant altSelectorFormComponent">
         <input type="radio" name="times1" id="12a1" value="MyRackspace" class="altSelectorErr" checked><label for="12a1" class="altSelectorErr">12<span class="smCaps"> AM</span> - 4<span class="smCaps"> AM</span></label>
@@ -94,10 +95,10 @@ preview-image: components-selectors.svg
       </div>
       <span class="subtext error">There is an error with the response to this question.</span>
     </div>
-</div>
+</article>
 
-<h1 class="ws-section-head">Checkboxes<span class="status prototype">In Progress</span></h1>
-<div class="ws-section-con">
+<article>
+  <h1>Checkboxes<span class="status prototype">In Progress</span></h1>
   <p>Use when selecting <b>multiple items</b> from a set if it&#8217;s important for the user to see all options at once. If viewing items side-by-side isn&#8217;t important, consider a selector, which uses less space.</p>
   <h3>Enabled</h3>
   <div class="formGroup doc">
@@ -110,40 +111,40 @@ preview-image: components-selectors.svg
         <input type="checkbox" name="checkbox1" id="checkbox-3" checked>
         <label for="checkbox-3">Option 3</label>
     </fieldset>
-  </div>
 
-  <h3>Disabled</h3>
-  <div class="formGroup doc">
-    <fieldset class="icheck">
-        <legend><span class="requiredInput">*</span> Select your options </legend>
-        <input type="checkbox" name="checkbox3" id="checkbox-1a" disabled="disabled" checked>
-        <label for="checkbox-1a" class="disabled">Option 1</label>
-        <input type="checkbox" name="checkbox3" id="checkbox-2a" disabled="disabled">
-        <label for="checkbox-2a" class="disabled">Option 2</label>
-        <input type="checkbox" name="checkbox3" id="checkbox-3a" disabled="disabled">
-        <label for="checkbox-3a" class="disabled">Option 3</label>
-    </fieldset>
-  </div>
+    <h3>Disabled</h3>
+    <div class="formGroup doc">
+      <fieldset class="icheck">
+          <legend><span class="requiredInput">*</span> Select your options </legend>
+          <input type="checkbox" name="checkbox3" id="checkbox-1a" disabled="disabled" checked>
+          <label for="checkbox-1a" class="disabled">Option 1</label>
+          <input type="checkbox" name="checkbox3" id="checkbox-2a" disabled="disabled">
+          <label for="checkbox-2a" class="disabled">Option 2</label>
+          <input type="checkbox" name="checkbox3" id="checkbox-3a" disabled="disabled">
+          <label for="checkbox-3a" class="disabled">Option 3</label>
+      </fieldset>
+    </div>
 
-  <h3>Error</h3>
-  <div class="formGroup doc ws-formGroup-last">
-    <fieldset class="icheck error">
-        <legend><span class="requiredInput">*</span> Select your options </legend>
-        <input type="checkbox" name="checkbox4" id="checkbox-1b" checked>
-        <label for="checkbox-1b">Option 1</label>
-        <input type="checkbox" name="checkbox4" id="checkbox-2b">
-        <label for="checkbox-2b">Option 2</label>
-        <input type="checkbox" name="checkbox4" id="checkbox-3b" checked>
-        <label for="checkbox-3b">Option 3</label>
-    </fieldset>
-    <p class="subtext error">There is an error with the response to this question.</p>
+    <h3>Error</h3>
+    <div class="formGroup doc ws-formGroup-last">
+      <fieldset class="icheck error">
+          <legend><span class="requiredInput">*</span> Select your options </legend>
+          <input type="checkbox" name="checkbox4" id="checkbox-1b" checked>
+          <label for="checkbox-1b">Option 1</label>
+          <input type="checkbox" name="checkbox4" id="checkbox-2b">
+          <label for="checkbox-2b">Option 2</label>
+          <input type="checkbox" name="checkbox4" id="checkbox-3b" checked>
+          <label for="checkbox-3b">Option 3</label>
+      </fieldset>
+      <p class="subtext error">There is an error with the response to this question.</p>
+    </div>
   </div>
-</div>
+</article>
 
-<h1 class="ws-section-head">Checkbox Button-Group Alternate<span class="status prototype">In Progress</span></h1>
-<div class="ws-section-con">
-  <p>Use when selecting <b>multiple items</b> from a set if it&#8217;s important for the user to see all options at once. This alternate can be used instead of regular check boxes if the options are <b>simple</b>, limited in number and individual length.</p>
-  <h3>Enabled</h3>
+<article>
+  <h1>Checkbox Button-Group Alternate<span class="status prototype">In Progress</span></h1>
+    <p>Use when selecting <b>multiple items</b> from a set if it&#8217;s important for the user to see all options at once. This alternate can be used instead of regular check boxes if the options are <b>simple</b>, limited in number and individual length.</p>
+    <h3>Enabled</h3>
     <div class="formGroup doc">
       <div class="formLabel group"><span class="requiredInput">*</span> Select potential maintenance days</div>
       <div class="formComponant altSelectorFormComponent">
@@ -158,7 +159,7 @@ preview-image: components-selectors.svg
       <span class="subtext">Here is some additional help text to explain these choices.</span>
     </div>
 
-  <h3>Disabled</h3>
+    <h3>Disabled</h3>
     <div class="formGroup doc">
       <div class="formLabel group"><span class="requiredInput">*</span> Select payment types</div>
       <div class="formComponant altSelectorFormComponent">
@@ -168,7 +169,7 @@ preview-image: components-selectors.svg
       </div>
     </div>
 
-  <h3>Error</h3>
+    <h3>Error</h3>
     <div class="formGroup doc ws-formGroup-last">
       <div class="formLabel group"><span class="requiredInput">*</span> Select potential maintenance windows</div>
       <div class="formComponant altSelectorFormComponent">
@@ -181,11 +182,11 @@ preview-image: components-selectors.svg
       </div>
       <span class="subtext error">There is an error with the response to this question.</span>
     </div>
-</div>
+</article>
 
-<h1 class="ws-section-head">Simple Selector<span class="status prototype">In Progress</span></h1>
-<p class="ws-todo-bar" style="margin-bottom:24px"><b>TODO:</b> Update style and add additional examples</p>
-<div class="ws-section-con">
+<article>
+  <h1>Simple Selector<span class="status prototype">In Progress</span></h1>
+  <p class="ws-todo-bar" style="margin-bottom:24px"><b>TODO:</b> Update style and add additional examples</p>
   <p>Use the simple selector when choosing from a limited number options. If more than 10-12 options need to displayed, use the complex selector, which contains a search. Always use the complex selector for devices. Be mindful of the length of each option. Addional context can't be given on an option-by-option basis. If this is needed, consider radio buttons or checkboxes with subtext. Alphabetize options unless there is a strong use case for an alternative organization.</p>
   <h3>Single Select</h3>
   <div class="formGroup ws-formGroup-last">
@@ -260,13 +261,13 @@ preview-image: components-selectors.svg
       </form>
     </div>
   </div>
-</div>
+</article>
 
-<h1 class="ws-section-head">Toggle<span class="status prototype">In Progress</span></h1>
-<div class="ws-section-con">
+<article>
+  <h1>Toggle<span class="status prototype">In Progress</span></h1>
   <p>Toggles should be used instead of switches for desktop design. If you need to toggle between more than two options, see the <b>radio button button-group alternate</b> design. Toggles should also be used on mobile devices instead of a switch if specific labels are needed on the selector.</p>
   <h3>Enabled</h3>
-    <div class="formGroup doc">
+  <div class="formGroup doc">
       <div class="formComponant altSelectorFormComponent">
         <input type="radio" name="account" id="cloud" value="MyRackspace" class="altSelector" checked><label for="cloud" class="altSelector Lg" tabindex="0">Cloud</label>
         <input type="radio" name="account" id="dedicated" value="MyRackspace" class="altSelector" checked><label for="dedicated" class="altSelector Lg" tabindex="0">Dedicated</label>
@@ -274,7 +275,7 @@ preview-image: components-selectors.svg
     </div>
 
   <h3>Disabled</h3>
-    <div class="formGroup doc">
+  <div class="formGroup doc">
       <div class="formComponant altSelectorFormComponent">
         <input type="radio" name="account1" id="cloud1" value="MyRackspace" class="altSelectorDis" checked><label class="altSelectorDis" tabindex="0">Cloud</label>
         <input type="radio" name="account1" id="dedicated1" value="MyRackspace" class="altSelectorDis" checked><label class="altSelectorDis" tabindex="0">Dedicated</label>
@@ -282,18 +283,18 @@ preview-image: components-selectors.svg
     </div>
 
   <h3>Error</h3>
-    <div class="formGroup doc ws-formGroup-last">
+  <div class="formGroup doc ws-formGroup-last">
       <div class="formComponant altSelectorFormComponent">
         <input type="radio" name="account2" id="cloud2" value="MyRackspace" class="altSelectorErr" checked><label for="cloud2" class="altSelectorErr" tabindex="0">Cloud</label>
         <input type="radio" name="account2" id="dedicated2" value="MyRackspace" class="altSelectorErr" checked><label for="dedicated2" class="altSelectorErr" tabindex="0">Dedicated</label>
       </div>
     </div>
-</div>
+</article>
 
-<h1 class="ws-section-head">Switch<span class="status prototype">In Progress</span></h1>
-<div class="ws-section-con">
-  <p>The switch should only be used in <b>mobile</b> designs. Enabling preferences or settings is a prime use case for this component. The switch can be used with or without text, depending on the context provided in the switch label. If more complex text is needed in the swith than yes/no or on/off, use a <b>toggle</b>.</p>
-  <h3>Enabled</h3>
+<article>
+  <h1>Switch<span class="status prototype">In Progress</span></h1>
+    <p>The switch should only be used in <b>mobile</b> designs. Enabling preferences or settings is a prime use case for this component. The switch can be used with or without text, depending on the context provided in the switch label. If more complex text is needed in the swith than yes/no or on/off, use a <b>toggle</b>.</p>
+    <h3>Enabled</h3>
     <div class="formGroup switch">
       <div class="formLabel switch">Without text</div>
       <div class="formComponant switch">
@@ -326,7 +327,7 @@ preview-image: components-selectors.svg
         </div>
     </div>
 
-  <h3>Disabled</h3>
+    <h3>Disabled</h3>
     <div class="formGroup switch">
       <div class="formLabel switch">With text (on/off)</div>
       <div class="formComponant switch">
@@ -349,7 +350,7 @@ preview-image: components-selectors.svg
         </div>
     </div>
 
-  <h3>Error</h3>
+    <h3>Error</h3>
     <div class="formGroup switch ws-formGroup-last">
       <div class="formLabel switch">With text (on/off)</div>
       <div class="formComponant switch">
@@ -364,4 +365,4 @@ preview-image: components-selectors.svg
           <p class="subtext error">There is an error with the response to this question.</p>
         </div>
     </div>
-</div>
+</article>

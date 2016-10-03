@@ -135,21 +135,13 @@ nav {
 }
 
 /**
- * Post page content
+ * Page layout
  */
 .page-wrapper {
     position: relative;
     float: right;
     width: calc(100% - 17em);
-    top: 40px;
-
-    .page-heading {
-        font-size: 3em;
-        font-weight:100;
-        color: #424242;
-        padding: 40px 28px;
-    }
-
+    top: 80px;
     .page-content {
         padding: 0 28px 40px 28px;
         overflowY: scroll;
@@ -158,54 +150,97 @@ nav {
 }
 
 /**
- * Post page content
+ * Content styles
  */
 
-.temp-table-con{
+article {
+	border-top: 1px solid #e0e0e0;
+	margin-top: 40px;
+	padding-top: 40px;
+}
+
+article:first-of-type {
+	border-top: none;
+	padding-top: 0;
+}
+
+.ws-todo-bar{
+	background-color:$purple500;
+	border-radius:2px;
+	color:white;
+	padding:$paddingXS $paddingS !important;
+	-webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+	a {
+		color:#FBC02D;
+		font-weight: 500;
+	}
+	a:hover, a:active{
+		color: #FFEB3B;
+	}
+}
+
+.status {
+	background-color: $grey300;
+  padding: $paddingXS $paddingS;
+  border-radius: 12px;
+  font-weight:400;
+	font-size:12px;
+	letter-spacing:0.5px;
+  color: #fff;
+  vertical-align: 4px;
+  white-space: nowrap;
+  margin-left: 2em;
+  display:inline-block;
+}
+
+.prototype {
+	background-color: $purple;
+}
+
+.dev-ready {
+	background-color: $green;
+}
+
+/**
+ * Categories layout
+ */
+
+.categories {
     margin: -20px;
-}
-
-.temp-overview-table{
-    border-collapse: separate;
-    border-spacing: 20px;
-    table-layout: fixed;
-}
-
-.temp-overview-td{
-    border: 1px solid #e0e0e0;
-    padding: 0;
-    border-radius: 2px;
-    transition: all .4s ease;
-    width: 33.3333%;
-}
-
-.temp-overview-td:hover{
-    background-color: #eeeeee;
+    table{
+        border-collapse: separate;
+        border-spacing: 20px;
+        table-layout: fixed;
+        td{
+            border: 1px solid #e0e0e0;
+            padding: 0;
+            border-radius: 2px;
+            transition: all .4s ease;
+            width: 33.3333%;
+            &:hover{
+                background-color: #eeeeee;
+            }
+            h1 {
+                font-weight: 400;
+                margin: 0;
+                text-decoration: none;
+            }
+            img{
+                display: inline-block;
+                text-align: center;
+                margin: 20px 0;
+                max-width: 100%;
+            }
+            a {
+                color: $grey950;
+                text-decoration: none;
+            }
+        }
+    }
 }
 
 .ws-sum-con{
     padding: 20px;
-}
-
-.ws-sum-con:hover{
-}
-
-.ws-preview-image{
-    display: inline-block;
-    text-align: center;
-    margin: 20px 0;
-    max-width: 100%;
-}
-
-.ws-h1-component-page{
-    font-weight: 400;
-    text-decoration: none;
-}
-
-.temp-remove-padding{
-    padding: 0;
-}
-
-.ws-no-underline, .ws-no-underline:hover, .ws-no-underline:active{
-    text-decoration: none;
 }
