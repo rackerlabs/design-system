@@ -5,9 +5,10 @@ category: Components
 usage: Helix provides a variety of text inputs to allow users to enter information into a page.
 preview-image: components-fields.svg
 ---
-<h1 class="ws-section-head">Text Field<span class="status prototype">In Progress</span></h1>
-<div class="ws-section-con">
-  <p style="padding-bottom:12px">Text fields are generally found in forms. The type of text field determines which characters are allowed within it. For example, a user shouldn't be able to enter a letter into a phone number field. When the user is entering a name or proper noun, the first letter should automatically be capitalized when typed.</p>
+
+<article>
+  <h1>Text Field<span class="status prototype">In Progress</span></h1>
+  <p>Text fields are generally found in forms. The type of text field determines which characters are allowed within it. For example, a user shouldn't be able to enter a letter into a phone number field. When the user is entering a name or proper noun, the first letter should automatically be capitalized when typed.</p>
   <p>If the content is longer than the width of the text field, automatically scroll the content left as the user continues to type. Consider using a text area if this is expected to happen frequently in a specific text field.</p>
   <h3>Enabled</h3>
   <div class="formGroup">
@@ -119,10 +120,10 @@ preview-image: components-fields.svg
       <p class="form-subtext error">There is an error with the response to this question.</p>
     </div>
   </div>
-</div>
+</article>
 
-<h1 class="ws-section-head">Textarea<span class="status prototype">In Progress</span></h1>
-<div class="ws-section-con">
+<article>
+  <h1>Textarea<span class="status prototype">In Progress</span></h1>
   <h3>Enabled</h3>
   <div class="formGroup">
     <div class="formLabel">My textarea</div>
@@ -132,12 +133,12 @@ preview-image: components-fields.svg
   </div>
 
   <div class="formGroup">
-    <div class="formLabel">The final countdown</div>
-    <div class="formComponant">
-      <textarea type="text" name="account" maxlength="50" id="textarea"></textarea>
+      <div class="formLabel">The final countdown</div>
+      <div class="formComponant">
+        <textarea type="text" name="account" maxlength="50" id="textarea"></textarea>
+      </div>
+      <p class="form-subtext countdown" id="textarea_feedback">This is some subtext.</p>
     </div>
-    <p class="form-subtext countdown" id="textarea_feedback">This is some subtext.</p>
-  </div>
 
   <h3>Disabled</h3>
   <div class="formGroup">
@@ -155,8 +156,10 @@ preview-image: components-fields.svg
       <p class="form-subtext error">There is an error with the response to this question.</p>
     </div>
   </div>
+</article>
 
-  <h1 class="ws-section-head">Fieldset<span class="status prototype">In Progress</span></h1>
+<article>
+  <h1>Fieldset<span class="status prototype">In Progress</span></h1>
   <fieldset>
     <legend>Multiple Fields</legend>
     <div class="formLabel">Field One</div>
@@ -166,5 +169,4 @@ preview-image: components-fields.svg
     <div class="formLabel">Field Three</div>
     <input type="text" name="fieldset3">
   </fieldset>
-
-</div>
+</article>

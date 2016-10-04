@@ -6,7 +6,7 @@ usage: The Helix color palette consists of deep modern hues juxtaposed with simp
 preview-image: visuals-color.svg
 ---
 <article id="primary-colors">
-  <h1 class="header-alt">Primary Colors <span class="status prototype">In Progress</span></h1>
+  <h1>Primary Colors <span class="status prototype">In Progress</span></h1>
   <p>Primary colors should be used sparingly for primary and secondary actions, alerts or data visualizations. Avoid adding color to "spice things up" as this will distract the user from his or her workflow.</p>
   <div class="row">
     {%for color_hash in site.data.colors%}
@@ -30,7 +30,7 @@ preview-image: visuals-color.svg
 </article>
 
 <article id="alert-colors">
-  <h1 class="header-alt">Alert Colors <span class="status dev-ready">Complete</span></h1>
+  <h1>Alert Colors <span class="status dev-ready">Complete</span></h1>
   <p>Secondary colors are used for content-specific needs, such as alerts and illustrations. They should never overpower the primary colors.</p>
   <div class="row">
     {%for color_hash in site.data.colors-alert%}
@@ -54,7 +54,7 @@ preview-image: visuals-color.svg
 </article>
 
 <article>
-  <h1 class="header-alt">Greyscale <span class="status dev-ready">Complete</span></h1>
+  <h1>Greyscale <span class="status dev-ready">Complete</span></h1>
   <p>These colors are used largely for background blocks and large content areas. Be sure to use enough contrast between adjacent colors.</p>
 
   <div class="row">
@@ -120,80 +120,3 @@ preview-image: visuals-color.svg
     </div>
   </div>
 </article>
-
-<style type="text/css">
-
-  article {
-    border-bottom: 1px solid #e0e0e0;
-    margin-bottom: 40px;
-    padding-bottom: 40px;
-  }
-
-  article:last-of-type {
-  	border-top:none;
-  	margin-bottom:0;
-  	padding-bottom:0;
-  }
-
-  article h1 {
-    padding-bottom: 24px;
-  }
-
-  article p {
-    padding-bottom: 32px;
-  }
-
-  .ws-top-swatch{
-    height: 140px;
-    position: relative;
-  }
-
-  .ws-top-swatch div{
-    position: absolute;
-    bottom: 8px;
-    left: 8px;
-  }
-
-  .ws-top-swatch div:first-of-type{
-    top: 8px;
-  }
-
-  .ws-lesser-swatch{
-    padding: 8px 0;
-
-  }
-
-  .ws-lesser-swatch div{
-    padding-left: 8px;
-  }
-
-  .ws-light-type, .ws-color-name{
-    color:#fff;
-    -webkit-font-smoothing: antialiased;
-    -moz-font-smoothing: antialiased;
-    -o-font-smoothing: antialiased;
-  }
-
-  .ws-color-name{
-    font-weight: 500;
-  }
-
-  .ws-smaller-color-type{
-    font-size: 14px;
-  }
-
-  .ws-dark-type{
-    color:#616161;
-  }
-
-  #primary-colors .col-xs-12, #alert-colors .col-xs-12 {
-    margin-bottom: 40px;
-  }
-
-  @media (min-width: 960px) {
-    #primary-colors .col-xs-12, #alert-colors .col-xs-12 {
-      margin-bottom: 0;
-    }
-  }
-
-</style>

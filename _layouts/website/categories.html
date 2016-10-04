@@ -1,21 +1,21 @@
 ---
 layout: website/default
 ---
-<div class="temp-table-con">
-    <table class="temp-overview-table" >
+<article class="categories">
+    <table>
         {% assign iconCount = 1 %}
     	{% for component in site.pages %}
             {% if component.category == page.title %}
         	   {% if iconCount == 1 %}
-                    <tr class="temp-overview-tr">
+                    <tr>
                 {% endif %}
-                        <td class="temp-overview-td">
-                            <a class="ws-no-underline"href="{{site.baseurl}}{{component.url}}.html">
+                        <td>
+                            <a href="{{site.baseurl}}{{component.url}}.html">
                                 <div class="ws-sum-con">
-                                    <h1 class="ws-h1-component-page">{{component.title}}</h1>
+                                  <h1>{{component.title}}</h1>
                                 	<img class="ws-preview-image" {% if component.preview-image %} src='{{site.baseurl}}/assets/img/{{component.preview-image}}' {% else %} src='{{site.baseurl}}{{site.websiteAssets}}/img/place-holder.svg' {% endif %}>
 
-                                    <p class="temp-remove-padding">{{component.usage}}</p>
+                                    <p>{{component.usage}}</p>
                                 </div>
                             </a>
                         </td>
@@ -27,55 +27,4 @@ layout: website/default
             {% endif %}
         {% endfor %}
     </table>
-</div>
-
-<style type = "text/css" scoped>
-
-    .temp-table-con{
-        margin: -20px;
-    }
-
-    .temp-overview-table{
-        border-collapse: separate;
-        border-spacing: 20px;
-        table-layout: fixed;
-    }
-
-    .temp-overview-td{
-        border: 1px solid #e0e0e0;
-        padding: 0;
-        border-radius: 2px;
-        transition: all .4s ease;
-    }
-
-    .temp-overview-td:hover{
-        background-color: #eeeeee;
-    }
-
-    .ws-sum-con{
-        padding: 20px;
-    }
-
-    .ws-sum-con:hover{
-    }
-
-    .ws-preview-image{
-        display: inline-block;
-        text-align: center;
-        margin: 20px 0;
-        max-width: 100%;
-    }
-
-    .ws-h1-component-page{
-        font-weight: 400;
-        text-decoration: none;
-    }
-
-    .temp-remove-padding{
-        padding: 0;
-    }
-
-    .ws-no-underline, .ws-no-underline:hover, .ws-no-underline:active{
-        text-decoration: none;
-    }
-</style>
+</article>
