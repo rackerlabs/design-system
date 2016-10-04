@@ -1,0 +1,117 @@
+//DON'T DELETE EAG 7-18-2016
+
+
+// Color Palette
+
+$grey0: #ffffff;
+$grey25: #fafafa;
+$grey50: #f5f5f5;
+$grey100: #eeeeee;
+$grey200: #e7e7e7;
+$grey300: #e0e0e0;
+$grey400: #d8d8d8;
+$grey500: #bdbdbd;
+$grey600: #9e9e9e;
+$grey700: #757575;
+$grey800: #616161;
+$grey900: #424242;
+$grey950: #333333;
+$grey975: #212121;
+$grey1000: #000000;
+
+$blue:#0d74d1;
+$blue50:#E1EEF9;
+$blue100:#bbdefb;
+$blue500:#3391ff;
+$blue700:#0d74d1;
+$blue900:#0d47a1;
+$blueAccent:#00bdff;
+
+$cyan:#16b9df;
+$cyan50:#e4f9f9;
+$cyan100:#B6E3EB;
+$cyan500:#16b9d4;
+$cyan700:#0e94a6;
+$cyan900:#0c7481;
+$cyanAccent:#18ffff;
+
+$purple:#3b44a9;
+$purple50:#ADB7DD;
+$purple100:#6676BC;
+$purple500:#3b44a9;
+$purple700:#2e3187;
+$purple900:#232968;
+$purpleAccent:#5a74f2;
+
+$magenta:#ec407a;
+$magenta50:#FCE0EB;
+$magenta100:#f8bbd0;
+$magenta500:#ec407a;
+$magenta700:#c2185b;
+$magenta900:#a5134e;
+$magentaAccent:#ff4081;
+
+$orange:#f57c00;
+$orange50:#F8E1BB;
+$orange100:#fdd179;
+$orange500:#f57c00;
+$orange700:#dd6105;
+$orange900:#c15206;
+$orangeAccent:#ff6d00;
+
+$red:#f44336;
+$red100:#ffcdd2;
+$red700:#f44336;
+$red900:#d32f2f;
+$redAccent:#ec515f;
+
+$gold:#ffeb3b;
+$gold100:#fff9c4;
+$gold700:#ffeb3b;
+$gold900:#fbc02d;
+$goldAccent:#ffd600;
+
+$green:#4caf51;
+$green100:#c8e6c9;
+$green700:#4caf51;
+$green900:#2e7d32;
+$greenAccent:#43b947;
+
+$textcolordark:#333333;
+$textcolorlight:#ffffff;
+
+
+// Base
+
+$base-font-family: "Roboto", Helvetica, Arial, sans-serif;
+$alt-font-family: "Roboto", Helvetica, Arial, sans-serif;
+$base-font-size: 1em;
+$base-line-height: 1.5;
+$heading-line-height: 1;
+$font-size-1:.75em;//12px
+$font-size-2:.813em;//13
+$font-size-3:.875em;//14
+$font-size-4:1.25em;//20
+$font-size-5:1.5em;//24
+$font-size-6:2em;//32
+$font-size-7:3em;//48
+$font-size-8:4.5em;//72
+
+// Padding
+$paddingXS:4px;
+$paddingS:8px;
+$paddingM:12px;
+$paddingL:20px;
+$paddingXL:28px;
+$paddingXXL:32px;
+
+
+// Z-index
+$zindexModal: 1230;
+$zindexModalOverlay: 1220;
+$zindexTooltip: 1210;
+$zindexMenu: 1200;
+$zindexNavUtility: 1120;
+$zindexNavPrimary: 1110;
+$zindexNavSecondary: 1100;
+$zindexPopovers: 1000;

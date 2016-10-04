@@ -1,0 +1,203 @@
+// Remove inner padding and border in Firefox 3+.
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+.ui.button {
+  color: $grey0;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  font-weight: 400;
+  text-transform:uppercase;
+  margin: 0;
+  padding: 16px;
+  background: $action700;
+  border: 1px solid $action700;
+  white-space: nowrap;
+  border-radius: 2px;
+
+  &:hover,
+  &:focus,
+  &.hover {
+    background: $action500;
+    border: 1px solid $action500;
+    color: #fff;
+  }
+
+  &:active,
+  &.active,
+  &.active.button {
+    background: $action900;
+    border: 1px solid $action900;
+    color: #fff;
+  }
+
+  &[disabled],
+  &.disabled {
+    color: $grey800;
+    background: $grey400;
+    border-color: $grey400;
+    cursor: default;
+    box-shadow: none;
+    cursor:not-allowed;
+    opacity: 1 !important;
+  }
+
+  &.default,
+  &.default:hover {
+    background: $action700;
+    border: 1px solid $action700;
+    outline:none;
+  }
+
+  &.ds-btn-med, &.ds-btn-med-sec, &.ds-btn-med-tert{
+    padding: 8px 10px;
+    font-size: $font-size-3;
+  }
+
+  &.ds-btn-sm, &.ds-btn-sm-sec, &.ds-btn-sm-tert{
+    padding: 4px 8px;
+    font-size: $font-size-1;
+    line-height: 21px;
+  }
+
+  &.ds-btn-sec, &.ds-btn-med-sec, &.ds-btn-sm-sec, &.ds-btn-tert, &.ds-btn-med-tert, &.ds-btn-sm-tert{
+    background:transparent;
+    color:$action700;
+
+    &:hover,
+    &:focus,
+    &.hover {
+      color:$grey0;
+      background: $action500;
+      border: 1px solid $action500;
+      outline:none;
+    }
+
+    &:active,
+    &.active,
+    &.active:hover {
+      color:$grey0;
+      background: $action900;
+      border: 1px solid $action900;
+      outline:none;
+    }
+
+    &.default,
+    &.default:hover {
+      background: transparent;
+      border: 1px solid $action700;
+      color:$action700;
+      outline:none;
+    }
+  }
+
+  &.ds-btn-tert, &.ds-btn-med-tert, &.ds-btn-sm-tert{
+    border: 1px solid $grey900;
+    color:$grey900;
+
+    &:active,
+    &.active,
+    &.active:hover {
+      color:$grey0;
+      background: $action900;
+      border: 1px solid $action900;
+      outline:none;
+    }
+
+    &.default,
+    &.default:hover {
+      border: 1px solid $grey900;
+      color:$grey900;
+    }
+
+  }
+
+}
+
+
+
+a {
+  color: $action700;
+  text-decoration:none;
+  cursor:pointer;
+
+  &:hover,
+  &.hover {
+    color: $action500;
+    text-decoration:underline;
+    }
+
+  &:active,
+  &.active {
+    color: $action900;
+    text-decoration:underline;
+  }
+
+  &.disabled {
+    color: $grey700;
+    cursor:not-allowed;
+    text-decoration:underline;
+  }
+}
+
+.ds-btn-med.ui-selectmenu-button-open, .ds-btn-med-sec.ui-selectmenu-button-open, {
+    background: $action900;
+    border: 1px solid $action900;
+}
+
+#dropdown-btn-button, #dropdown-btn-sec-button, #dropdown-btn-combo-button, #dropdown-btn-combo-sec-button {
+
+  &.ui-button {
+    width: auto;
+  }
+
+  .ui-selectmenu-icon.ui-icon {
+    margin: 10px 0 0 16px;
+  }
+
+  .ui-icon-triangle-1-s:before {
+    content: "\e919";
+  }
+
+}
+
+.ui-corner-left, .ui-corner-left:hover, .ui-corner-left:active, .ui-corner-left:focus {
+  border-radius: 2px 0 0 2px;
+  border-right: 0;
+}
+
+.ui-corner-right, .ui-corner-right:hover, .ds-btn-med.ui-selectmenu-button-open.ui-corner-tr {
+  border-radius: 0 2px 2px 0;
+  border-left: 1px solid $action900;
+}
+
+#dropdown-btn-combo-button, #dropdown-btn-combo-sec-button {
+
+  .ui-selectmenu-icon.ui-icon {
+    margin: 10px 0 0 0;
+  }
+  .ui-selectmenu-text {
+    margin: 0;
+  }
+
+}
+
+#dropdown-btn-menu, #dropdown-btn-sec-menu, #dropdown-btn-combo-menu, #dropdown-btn-combo-sec-menu {
+
+  &.ui-menu {
+    .ui-menu-item-wrapper {
+      padding: 4px 10px;
+      &:before {
+        display: none;
+        visibility: hidden;
+      }
+    }
+    .ui-menu-wrapper:before, .ui-state-active:before {
+      display: none;
+    }
+  }
+
+}
