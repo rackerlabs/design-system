@@ -8,11 +8,12 @@ All I'm doing here is centering it
 --------------------------------------------------------------*/
 $(window).resize(function(){
     centerText();
+    centerLegend();
 });
 
 $( document ).ready(function() {
     centerText();
-
+    centerLegend();
     //progress bar impression
     var textHeight = $("#ds-stat-con0").height();
     $(".ds-per-imp-con").css('height', textHeight + "px");
@@ -41,6 +42,14 @@ function centerText(){
     $(".ds-per-doughnut-center").width(smColWidth + "px");
     $(".ds-per-doughnut-center-lg").css('top', lgOffset + "px");
     $(".ds-per-doughnut-center-lg").width(lgColWidth + "px");
+}
+
+function centerLegend(){
+    console.log("start");
+    var doughnutHeight = $("#get-my-width-lg").height();
+    var legendHeight = $("#demoDoughnutChartLegend").height();
+    var legendOffset = (doughnutHeight - legendHeight)/2;
+    $("#demoDoughnutChartLegend").css('margin-top', legendOffset+'px');
 }
 
 
@@ -1087,7 +1096,12 @@ var demoRadarChart = new Chart(ctx6, {
             labels: {
                 padding:32,
                 fontSize: 14,
-                fontColor: "#333"
+                fontColor: "#333",
+            },
+        },
+        scale: {
+            ticks: {
+                backdropColor: 'rgba(250, 250, 250, 0.6)',
             },
         },
     },
