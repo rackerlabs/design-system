@@ -225,3 +225,27 @@ HACKS - EVENTUALLY FIX THIS OR REMOVE
   top: calc(100% - 1px);
   right: 26px;
 }
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+HELP LINK
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.ds-help-link{
+  border-bottom:1px dotted $cyan700;
+  color:$cyan700;
+  margin:0;
+  padding:0;
+}
+
+.ds-help-link:hover{
+  border-bottom:1px dotted $cyan500;
+  color:$cyan500;
+}
+
+.ds-help-link:active{
+  border-bottom:1px dotted $cyan900;
+  color:$cyan900;
+}
+
+.ds-help-link i{
+  padding-left:8px;
+}

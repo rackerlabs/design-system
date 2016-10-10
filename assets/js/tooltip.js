@@ -85,6 +85,20 @@ $(document).ready(function() {
 		attachTooltip(tooltip);
 	});
 
+	$('body').on('mouseover','.ds-help-link',function(event) {
+		removeTooltips();
+		clearTimeout(removeTipTimer);
+		clearTimeout(attachTipTimer);
+		var tooltip = new Object();
+		tooltip.contents = $(this).attr('data-title');
+		tooltip.delay = $(this).attr('data-delay');
+		tooltip.left = Math.round($(this).offset().left);
+		tooltip.top = Math.round($(this).offset().top);
+		tooltip.container = $('body');
+		tooltip.jqObj = $(this);
+		attachTooltip(tooltip);
+	});
+
 	$('body').on('click', function(e) {
 		console.log(e);
 		var tooltip = $(".ds-tooltip");
