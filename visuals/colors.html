@@ -35,7 +35,7 @@ preview-image: visuals-color.svg
   <div class="row">
     {%for color_hash in site.data.colors-alert%}
       {%assign color2=color_hash[1]%}
-      <div class="col-xs-12 col-md-4">
+      <div class="col-xs-12 col-sm-4 col-md-2">
         {%for value_hash in color2.colors%}
         {%assign value2=value_hash[1]%}
         <div class="ws-{{value2.class}}-swatch" style="background-color:{{value2.value}}">

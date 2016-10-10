@@ -66,12 +66,24 @@
 	float:left;
 }
 
+.ds-per-imp-con-h{
+	height:12px;
+	width:100%;
+	margin:8px 0 0 0;
+	background-color:$grey300;
+}
+
 .ds-per-imp-inner{
 	width:100%;
 	background-color:$cyan700;
 	position: absolute;
 	bottom: 0;
 	left: 0;
+}
+
+.ds-per-imp-inner-h{
+	background-color:$cyan700;
+	height:100%;
 }
 
 
