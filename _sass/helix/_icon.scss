@@ -1,0 +1,320 @@
+/*!
+ * # Semantic UI 2.2.4 - Icon
+ * http://github.com/semantic-org/semantic-ui/
+ *
+ */
+
+
+/*******************************
+             Icon
+*******************************/
+
+@font-face {
+  font-family: 'DS_icon_font';
+  src:  url('/assets/fonts/DS_icon_font.eot?2yqe8x');
+  src:  url('/assets/fonts/DS_icon_font.eot?2yqe8x#iefix') format('embedded-opentype'),
+    url('/assets/fonts/DS_icon_font.ttf?2yqe8x') format('truetype'),
+    url('/assets/fonts/DS_icon_font.woff?2yqe8x') format('woff'),
+    url('/assets/fonts/DS_icon_font.svg?2yqe8x#DS_icon_font') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+i.icon {
+  font-family: 'DS_icon_font';
+  margin: 0;
+  width: 1.18em;
+  height: 1em;
+
+}
+
+.check.circle.icon:before, .icon-check-circle:before {
+  content: "\e925";
+}
+.caret.down.icon:before, .icon-dropdown-arrow:before {
+  content: "\e927";
+}
+.setting.icon:before, .icon-action-cog:before {
+  content: "\e923";
+}
+.plus.icon:before, .icon-add:before {
+  content: "\e924";
+}
+.info.circle.icon:before, .icon-info:before {
+  content: "\e926";
+}
+.minus.circle.icon:before, .icon-remove-circle:before {
+  content: "\e915";
+}
+.arrow.down.icon:before, .icon-arrow-down:before {
+  content: "\e900";
+}
+.arrow.left.icon:before, .icon-arrow-left:before {
+  content: "\e901";
+}
+.arrow.right.icon:before, .icon-arrow-right:before {
+  content: "\e902";
+}
+.arrow.up.icon:before, .icon-arrow-up:before {
+  content: "\e903";
+}
+.calendar.icon:before, .icon-calendar:before {
+  content: "\e904";
+}
+.check.square.icon:before, .icon-check-box-selected:before {
+  content: "\e905";
+}
+.square.outline.icon:before, .icon-check-box:before {
+  content: "\e906";
+}
+.remove.icon:before, .icon-close:before {
+  content: "\e907";
+}
+.copy.icon:before, .icon-copy:before {
+  content: "\e908";
+}
+.trash.icon:before, .icon-delete:before {
+  content: "\e909";
+}
+.download.icon:before, .icon-download:before {
+  content: "\e90a";
+}
+.edit.icon:before, .icon-edit:before {
+  content: "\e90b";
+}
+.export.icon:before, .icon-export:before {
+  content: "\e90c";
+}
+.external.icon:before, .external.square.icon:before, .icon-external-link:before {
+  content: "\e90d";
+}
+.filter.icon:before, .icon-filter:before {
+  content: "\e90e";
+}
+.help.circle.icon:before, .icon-help:before {
+  content: "\e90f";
+}
+.line.chart.icon:before, .icon-monitoring:before {
+  content: "\e910";
+}
+.write.icon:before, .icon-notes:before {
+  content: "\e911";
+}
+.selected.radio.icon:before, .icon-radio-selected:before {
+  content: "\e912";
+}
+.radio.icon:before, .icon-radio:before {
+  content: "\e913";
+}
+.reload.icon:before, .icon-reload:before {
+  content: "\e914";
+}
+.minus.remove:before, .icon-remove:before {
+  content: "\e916";
+}
+.search.icon:before, .icon-search:before {
+  content: "\e917";
+}
+.server.icon:before, .icon-servers:before {
+  content: "\e918";
+}
+.sort.descending.icon:before, .icon-sort-down:before {
+  content: "\e919";
+}
+.sort.ascending.icon:before, .icon-sort-up:before {
+  content: "\e91a";
+}
+.sort.icon:before, .icon-sort:before {
+  content: "\e91b";
+}
+.lifering.icon:before, .icon-support:before {
+  content: "\e91c";
+}
+.tag.icon:before, .icon-tag:before {
+  content: "\e91d";
+}
+.ticket.icon:before, .icon-ticket:before {
+  content: "\e91e";
+}
+.user.icon:before, .icon-user:before {
+  content: "\e91f";
+}
+.warning.sign.icon:before, .icon-warning:before {
+  content: "\e920";
+}
+.checkmark.icon:before, .icon-check-mark:before {
+  content: "\e921";
+}
+.warning.circle.icon:before, .icon-error:before {
+  content: "\e922";
+}
+
+/* TODO: Incorporate icon mixin */
+
+$icons: (
+    check-circle: "\e925",
+    caret-down: "\e927",
+    setting: "\e923",
+    plus: "\e924",
+    info-circle: "\e926",
+    minus-circle: "\e915",
+    arrow-down: "\e900",
+    arrow-left: "\e901",
+    arrow-right: "\e902",
+    arrow-up: "\e903",
+    calendar: "\e904",
+    check-square: "\e905",
+    square-outline: "\e906",
+    remove: "\e907",
+    copy: "\e908",
+    trash: "\e909",
+    download: "\e90a",
+    edit: "\e90b",
+    export: "\e90c",
+    external: "\e90d",
+    filter: "\e90e",
+    help-circle: "\e90f",
+    line-chart: "\e910",
+    write: "\e911",
+    selected-radio: "\e912",
+    radio: "\e913",
+    reload: "\e914",
+    minus-remove: "\e916",
+    search: "\e917",
+    server: "\e918",
+    sort-descending: "\e919",
+    sort-ascending: "\e91a",
+    sort: "\e91b",
+    lifering: "\e91c",
+    tag: "\e91d",
+    ticket: "\e91e",
+    user: "\e91f",
+    warning-sign: "\e920",
+    checkmark: "\e921",
+    warning-circle: "\e922"
+);
+
+@mixin icon($icon) {
+  content: map-get($icons, $icon);
+}
+
+.check.circle.icon:before, .icon-check-circle:before {
+  @include icon(check-circle);
+}
+.caret.down.icon:before, .icon-dropdown-arrow:before {
+  @include icon(caret-down);
+}
+.setting.icon:before, .icon-action-cog:before {
+  @include icon(setting);
+}
+.plus.icon:before, .icon-add:before {
+  @include icon(plus);
+}
+.info.circle.icon:before, .icon-info:before {
+  @include icon(info-circle);
+}
+.minus.circle.icon:before, .icon-remove-circle:before {
+  @include icon(minus-circle);
+}
+.arrow.down.icon:before, .icon-arrow-down:before {
+  @include icon(arrow-down);
+}
+.arrow.left.icon:before, .icon-arrow-left:before {
+  @include icon(arrow-left);
+}
+.arrow.right.icon:before, .icon-arrow-right:before {
+  @include icon(arrow-right);
+}
+.arrow.up.icon:before, .icon-arrow-up:before {
+  @include icon(arrow-up);
+}
+.calendar.icon:before, .icon-calendar:before {
+  @include icon(calendar);
+}
+.check.square.icon:before, .icon-check-box-selected:before {
+  @include icon(check-square);
+}
+.square.outline.icon:before, .icon-check-box:before {
+  @include icon(square-outline);
+}
+.remove.icon:before, .icon-close:before {
+  @include icon(remove);
+}
+.copy.icon:before, .icon-copy:before {
+  @include icon(copy);
+}
+.trash.icon:before, .icon-delete:before {
+  @include icon(trash);
+}
+.download.icon:before, .icon-download:before {
+  @include icon(download);
+}
+.edit.icon:before, .icon-edit:before {
+  @include icon(edit);
+}
+.export.icon:before, .icon-export:before {
+  @include icon(export);
+}
+.external.icon:before, .external.square.icon:before, .icon-external-link:before {
+  @include icon(external);
+}
+.filter.icon:before, .icon-filter:before {
+  @include icon(filter);
+}
+.help.circle.icon:before, .icon-help:before {
+  @include icon(help-circle);
+}
+.line.chart.icon:before, .icon-monitoring:before {
+  @include icon(line-chart);
+}
+.write.icon:before, .icon-notes:before {
+  @include icon(write);
+}
+.selected.radio.icon:before, .icon-radio-selected:before {
+  @include icon(selected-radio);
+}
+.radio.icon:before, .icon-radio:before {
+  @include icon(radio);
+}
+.reload.icon:before, .icon-reload:before {
+  @include icon(reload);
+}
+.minus.remove:before, .icon-remove:before {
+  @include icon(minus-remove);
+}
+.search.icon:before, .icon-search:before {
+  @include icon(search);
+}
+.server.icon:before, .icon-servers:before {
+  @include icon(server);
+}
+.sort.descending.icon:before, .icon-sort-down:before {
+  @include icon(sort-descending);
+}
+.sort.ascending.icon:before, .icon-sort-up:before {
+  @include icon(sort-ascending);
+}
+.sort.icon:before, .icon-sort:before {
+  @include icon(sort);
+}
+.lifering.icon:before, .icon-support:before {
+  @include icon(lifering);
+}
+.tag.icon:before, .icon-tag:before {
+  @include icon(tag);
+}
+.ticket.icon:before, .icon-ticket:before {
+  @include icon(ticket);
+}
+.user.icon:before, .icon-user:before {
+  @include icon(user);
+}
+.warning.sign.icon:before, .icon-warning:before {
+  @include icon(warning-sign);
+}
+.checkmark.icon:before, .icon-check-mark:before {
+  @include icon(checkmark);
+}
+.warning.circle.icon:before, .icon-error:before {
+  @include icon(warning-circle);
+}
