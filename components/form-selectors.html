@@ -11,6 +11,7 @@ preview-image: components-selectors.svg
 </article>
 
 <article>
+  <a class="anchor" name="radio"></a>
   <h1>Radio Buttons<span class="status prototype">In Progress</span></h1>
   <p>Use when selecting a <b>single item</b> from a set it&#8217;s important for the user to see all options at once. If viewing items side-by-side isn&#8217;t important, consider a selector, which uses less space.</p>
 
@@ -57,7 +58,8 @@ preview-image: components-selectors.svg
 </article>
 
 <article>
-  <h1>Radio Button Button-Group Alternate<span class="status prototype">In Progress</span></h1>
+  <a class="anchor" name="radio-button-group"></a>
+  <h1>Radio Button Group<span class="status prototype">In Progress</span></h1>
   <p>Use when selecting a <b>single item</b> from a set if it&#8217;s important for the user to see all options at once. This alternate can be used instead of regular radio buttons if the options are <b>simple</b>, limited in number and individual length.</p>
   <h3>Enabled</h3>
   <div class="formGroup doc">
@@ -100,6 +102,7 @@ preview-image: components-selectors.svg
 </article>
 
 <article>
+  <a class="anchor" name="checkbox"></a>
   <h1>Checkboxes<span class="status prototype">In Progress</span></h1>
   <p>Use when selecting <b>multiple items</b> from a set if it&#8217;s important for the user to see all options at once. If viewing items side-by-side isn&#8217;t important, consider a selector, which uses less space.</p>
   <h3>Enabled</h3>
@@ -144,49 +147,51 @@ preview-image: components-selectors.svg
 </article>
 
 <article>
-  <h1>Checkbox Button-Group Alternate<span class="status prototype">In Progress</span></h1>
-    <p>Use when selecting <b>multiple items</b> from a set if it&#8217;s important for the user to see all options at once. This alternate can be used instead of regular check boxes if the options are <b>simple</b>, limited in number and individual length.</p>
-    <h3>Enabled</h3>
-    <div class="formGroup doc">
-      <div class="formLabel group"><span class="requiredInput">*</span> Select potential maintenance days</div>
-      <div class="formComponant altSelectorFormComponent">
-        <input type="checkbox" name="mon" id="mon" value="MyRackspace" class="altSelector" checked><label for="mon" class="altSelector">Mon</label>
-        <input type="checkbox" name="tue" id="tue" value="MyRackspace" class="altSelector" checked><label for="tue" class="altSelector">Tue</label>
-        <input type="checkbox" name="wed" id="wed" value="MyRackspace" class="altSelector"><label for="wed" class="altSelector">Wed</label>
-        <input type="checkbox" name="thu" id="thu" value="MyRackspace" class="altSelector"><label for="thu" class="altSelector">Thu</label>
-        <input type="checkbox" name="fri" id="fri" value="MyRackspace" class="altSelector"><label for="fri" class="altSelector">Fri</label>
-        <input type="checkbox" name="sat" id="sat" value="MyRackspace" class="altSelector"><label for="sat" class="altSelector">Sat</label>
-        <input type="checkbox" name="sun" id="sun" value="MyRackspace" class="altSelector "><label for="sun" class="altSelector">Sun</label>
-      </div>
-      <span class="subtext">Here is some additional help text to explain these choices.</span>
+  <a class="anchor" name="checkbox-button-group"></a>
+  <h1>Checkbox Button Group<span class="status prototype">In Progress</span></h1>
+  <p>Use when selecting <b>multiple items</b> from a set if it&#8217;s important for the user to see all options at once. This alternate can be used instead of regular check boxes if the options are <b>simple</b>, limited in number and individual length.</p>
+  <h3>Enabled</h3>
+  <div class="formGroup doc">
+    <div class="formLabel group"><span class="requiredInput">*</span> Select potential maintenance days</div>
+    <div class="formComponant altSelectorFormComponent">
+      <input type="checkbox" name="mon" id="mon" value="MyRackspace" class="altSelector" checked><label for="mon" class="altSelector">Mon</label>
+      <input type="checkbox" name="tue" id="tue" value="MyRackspace" class="altSelector" checked><label for="tue" class="altSelector">Tue</label>
+      <input type="checkbox" name="wed" id="wed" value="MyRackspace" class="altSelector"><label for="wed" class="altSelector">Wed</label>
+      <input type="checkbox" name="thu" id="thu" value="MyRackspace" class="altSelector"><label for="thu" class="altSelector">Thu</label>
+      <input type="checkbox" name="fri" id="fri" value="MyRackspace" class="altSelector"><label for="fri" class="altSelector">Fri</label>
+      <input type="checkbox" name="sat" id="sat" value="MyRackspace" class="altSelector"><label for="sat" class="altSelector">Sat</label>
+      <input type="checkbox" name="sun" id="sun" value="MyRackspace" class="altSelector "><label for="sun" class="altSelector">Sun</label>
     </div>
+    <span class="subtext">Here is some additional help text to explain these choices.</span>
+  </div>
 
-    <h3>Disabled</h3>
-    <div class="formGroup doc">
-      <div class="formLabel group"><span class="requiredInput">*</span> Select payment types</div>
-      <div class="formComponant altSelectorFormComponent">
-        <input type="checkbox" name="payment" id="credit" value="MyRackspace" class="altSelectorDis" checked><label class="altSelectorDis">Credit / Debit</label>
-        <input type="checkbox" name="payment" id="cash" value="MyRackspace" class="altSelectorDis" checked><label  class="altSelectorDis">Cash</label>
-        <input type="checkbox" name="payment" id="check" value="MyRackspace" class="altSelectorDis"><label class="altSelectorDis">Check</label>
-      </div>
+  <h3>Disabled</h3>
+  <div class="formGroup doc">
+    <div class="formLabel group"><span class="requiredInput">*</span> Select payment types</div>
+    <div class="formComponant altSelectorFormComponent">
+      <input type="checkbox" name="payment" id="credit" value="MyRackspace" class="altSelectorDis" checked><label class="altSelectorDis">Credit / Debit</label>
+      <input type="checkbox" name="payment" id="cash" value="MyRackspace" class="altSelectorDis" checked><label  class="altSelectorDis">Cash</label>
+      <input type="checkbox" name="payment" id="check" value="MyRackspace" class="altSelectorDis"><label class="altSelectorDis">Check</label>
     </div>
+  </div>
 
-    <h3>Error</h3>
-    <div class="formGroup doc ws-formGroup-last">
-      <div class="formLabel group"><span class="requiredInput">*</span> Select potential maintenance windows</div>
-      <div class="formComponant altSelectorFormComponent">
-        <input type="checkbox" name="times" id="12a" value="MyRackspace" class="altSelectorErr" checked><label for="12a" class="altSelectorErr">12<span class="smCaps"> AM</span> - 4<span class="smCaps"> AM</span></label>
-        <input type="checkbox" name="times" id="4a" value="MyRackspace" class="altSelectorErr" checked><label for="4a" class="altSelectorErr">4<span class="smCaps"> AM</span> - 8<span class="smCaps"> AM</span></label>
-        <input type="checkbox" name="times" id="8a" value="MyRackspace" class="altSelectorErr"><label for="8a" class="altSelectorErr">8<span class="smCaps"> AM</span> - 12<span class="smCaps"> PM</span></label>
-        <input type="checkbox" name="times" id="12p" value="MyRackspace" class="altSelectorErr"><label for="12p" class="altSelectorErr">12<span class="smCaps"> PM</span> - 4<span class="smCaps"> PM</span></label>
-        <input type="checkbox" name="times" id="4p" value="MyRackspace" class="altSelectorErr"><label for="4p" class="altSelectorErr">4<span class="smCaps"> PM</span> - 8<span class="smCaps"> PM</span></label>
-        <input type="checkbox" name="times" id="8p" value="MyRackspace" class="altSelectorErr"><label for="8p" class="altSelectorErr">8<span class="smCaps"> PM</span> - 12<span class="smCaps"> AM</span></label>
-      </div>
-      <span class="subtext error">There is an error with the response to this question.</span>
+  <h3>Error</h3>
+  <div class="formGroup doc ws-formGroup-last">
+    <div class="formLabel group"><span class="requiredInput">*</span> Select potential maintenance windows</div>
+    <div class="formComponant altSelectorFormComponent">
+      <input type="checkbox" name="times" id="12a" value="MyRackspace" class="altSelectorErr" checked><label for="12a" class="altSelectorErr">12<span class="smCaps"> AM</span> - 4<span class="smCaps"> AM</span></label>
+      <input type="checkbox" name="times" id="4a" value="MyRackspace" class="altSelectorErr" checked><label for="4a" class="altSelectorErr">4<span class="smCaps"> AM</span> - 8<span class="smCaps"> AM</span></label>
+      <input type="checkbox" name="times" id="8a" value="MyRackspace" class="altSelectorErr"><label for="8a" class="altSelectorErr">8<span class="smCaps"> AM</span> - 12<span class="smCaps"> PM</span></label>
+      <input type="checkbox" name="times" id="12p" value="MyRackspace" class="altSelectorErr"><label for="12p" class="altSelectorErr">12<span class="smCaps"> PM</span> - 4<span class="smCaps"> PM</span></label>
+      <input type="checkbox" name="times" id="4p" value="MyRackspace" class="altSelectorErr"><label for="4p" class="altSelectorErr">4<span class="smCaps"> PM</span> - 8<span class="smCaps"> PM</span></label>
+      <input type="checkbox" name="times" id="8p" value="MyRackspace" class="altSelectorErr"><label for="8p" class="altSelectorErr">8<span class="smCaps"> PM</span> - 12<span class="smCaps"> AM</span></label>
     </div>
+    <span class="subtext error">There is an error with the response to this question.</span>
+  </div>
 </article>
 
 <article>
+  <a class="anchor" name="simple-selector"></a>
   <h1>Simple Selector<span class="status prototype">In Progress</span></h1>
   <p class="ws-todo-bar" style="margin-bottom:24px"><b>TODO:</b> Update style and add additional examples</p>
   <p>Use the simple selector when choosing from a limited number options. If more than 10-12 options need to displayed, use the complex selector, which contains a search. Always use the complex selector for devices. Be mindful of the length of each option. Addional context can't be given on an option-by-option basis. If this is needed, consider radio buttons or checkboxes with subtext. Alphabetize options unless there is a strong use case for an alternative organization.</p>
@@ -266,6 +271,7 @@ preview-image: components-selectors.svg
 </article>
 
 <article>
+  <a name="toggle"></a>
   <h1>Toggle<span class="status prototype">In Progress</span></h1>
   <p>Toggles should be used instead of switches for desktop design. If you need to toggle between more than two options, see the <b>radio button button-group alternate</b> design. Toggles should also be used on mobile devices instead of a switch if specific labels are needed on the selector.</p>
   <h3>Enabled</h3>
@@ -294,77 +300,78 @@ preview-image: components-selectors.svg
 </article>
 
 <article>
+  <a class="anchor" name="switch"></a>
   <h1>Switch<span class="status prototype">In Progress</span></h1>
-    <p>The switch should only be used in <b>mobile</b> designs. Enabling preferences or settings is a prime use case for this component. The switch can be used with or without text, depending on the context provided in the switch label. If more complex text is needed in the swith than yes/no or on/off, use a <b>toggle</b>.</p>
-    <h3>Enabled</h3>
-    <div class="formGroup switch">
-      <div class="formLabel switch">Without text</div>
-      <div class="formComponant switch">
-        <label class="switch">
-            <input name="checkbox" type="checkbox" />
-            <div class="slider round"></div>
-          </label>
-        </div>
-    </div>
+  <p>The switch should only be used in <b>mobile</b> designs. Enabling preferences or settings is a prime use case for this component. The switch can be used with or without text, depending on the context provided in the switch label. If more complex text is needed in the swith than yes/no or on/off, use a <b>toggle</b>.</p>
+  <h3>Enabled</h3>
+  <div class="formGroup switch">
+    <div class="formLabel switch">Without text</div>
+    <div class="formComponant switch">
+      <label class="switch">
+          <input name="checkbox" type="checkbox" />
+          <div class="slider round"></div>
+        </label>
+      </div>
+  </div>
 
-    <div class="formGroup switch">
-      <div class="formLabel switch">With text (on/off)</div>
-      <div class="formComponant switch">
-        <label class="switch">
-            <input name="checkbox" type="checkbox" checked/>
-            <div class="slider round"></div>
-            <span class="on-off" data-check-on="On" data-check-off="Off"></span>
-          </label>
-        </div>
-    </div>
+  <div class="formGroup switch">
+    <div class="formLabel switch">With text (on/off)</div>
+    <div class="formComponant switch">
+      <label class="switch">
+          <input name="checkbox" type="checkbox" checked/>
+          <div class="slider round"></div>
+          <span class="on-off" data-check-on="On" data-check-off="Off"></span>
+        </label>
+      </div>
+  </div>
 
-    <div class="formGroup switch">
-      <div class="formLabel switch">With text (yes/no)</div>
-      <div class="formComponant switch">
-        <label class="switch">
-            <input name="checkbox" type="checkbox" />
-            <div class="slider round"></div>
-            <span class="yes-no" data-check-yes="Yes" data-check-no="No"></span>
-          </label>
-        </div>
-    </div>
+  <div class="formGroup switch">
+    <div class="formLabel switch">With text (yes/no)</div>
+    <div class="formComponant switch">
+      <label class="switch">
+          <input name="checkbox" type="checkbox" />
+          <div class="slider round"></div>
+          <span class="yes-no" data-check-yes="Yes" data-check-no="No"></span>
+        </label>
+      </div>
+  </div>
 
-    <h3>Disabled</h3>
-    <div class="formGroup switch">
-      <div class="formLabel switch">With text (on/off)</div>
-      <div class="formComponant switch">
-        <label class="switch disabled">
-            <input name="checkbox" type="checkbox" checked disabled="disabled"/>
-            <div class="slider round disabled"></div>
-            <span class="on-off" data-check-on="On" data-check-off="Off"></span>
-          </label>
-        </div>
-    </div>
+  <h3>Disabled</h3>
+  <div class="formGroup switch">
+    <div class="formLabel switch">With text (on/off)</div>
+    <div class="formComponant switch">
+      <label class="switch disabled">
+          <input name="checkbox" type="checkbox" checked disabled="disabled"/>
+          <div class="slider round disabled"></div>
+          <span class="on-off" data-check-on="On" data-check-off="Off"></span>
+        </label>
+      </div>
+  </div>
 
-    <div class="formGroup switch">
-      <div class="formLabel switch">With text (yes/no)</div>
-      <div class="formComponant switch">
-        <label class="switch disabled">
-            <input name="checkbox" type="checkbox" disabled="disabled"/>
-            <div class="slider round disabled"></div>
-            <span class="yes-no" data-check-yes="Yes" data-check-no="No"></span>
-          </label>
-        </div>
-    </div>
+  <div class="formGroup switch">
+    <div class="formLabel switch">With text (yes/no)</div>
+    <div class="formComponant switch">
+      <label class="switch disabled">
+          <input name="checkbox" type="checkbox" disabled="disabled"/>
+          <div class="slider round disabled"></div>
+          <span class="yes-no" data-check-yes="Yes" data-check-no="No"></span>
+        </label>
+      </div>
+  </div>
 
-    <h3>Error</h3>
-    <div class="formGroup switch ws-formGroup-last">
-      <div class="formLabel switch">With text (on/off)</div>
-      <div class="formComponant switch">
-        <label class="switch">
-            <input name="checkbox" type="checkbox" checked/>
-            <div class="slider round"></div>
-            <span class="on-off" data-check-on="On" data-check-off="Off"></span>
-          </label>
-        </div>
-        <i class="icon-error errorFormGroupIcon" style="padding-left:12px;"></i>
-        <div class="switchErrorText">
-          <p class="subtext error">There is an error with the response to this question.</p>
-        </div>
+  <h3>Error</h3>
+  <div class="formGroup switch ws-formGroup-last">
+    <div class="formLabel switch">With text (on/off)</div>
+    <div class="formComponant switch">
+      <label class="switch">
+          <input name="checkbox" type="checkbox" checked/>
+          <div class="slider round"></div>
+          <span class="on-off" data-check-on="On" data-check-off="Off"></span>
+        </label>
+      </div>
+      <i class="icon-error errorFormGroupIcon" style="padding-left:12px;"></i>
+      <div class="switchErrorText">
+        <p class="subtext error">There is an error with the response to this question.</p>
+      </div>
     </div>
 </article>
