@@ -35,7 +35,7 @@
   group: "utility"
  8:
   name: "Check Circle"
-  class: "icon-check-mark"
+  class: "icon-check-circle"
   id: "e925"
   group: "utility"
  9:
