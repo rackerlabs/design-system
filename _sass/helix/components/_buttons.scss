@@ -117,32 +117,6 @@ input::-moz-focus-inner {
 
 }
 
-
-
-a {
-  color: $action700;
-  text-decoration:none;
-  cursor:pointer;
-
-  &:hover,
-  &.hover {
-    color: $action500;
-    text-decoration:underline;
-    }
-
-  &:active,
-  &.active {
-    color: $action900;
-    text-decoration:underline;
-  }
-
-  &.disabled {
-    color: $grey700;
-    cursor:not-allowed;
-    text-decoration:underline;
-  }
-}
-
 .ds-btn-med.ui-selectmenu-button-open, .ds-btn-med-sec.ui-selectmenu-button-open, {
     background: $action900;
     border: 1px solid $action900;
