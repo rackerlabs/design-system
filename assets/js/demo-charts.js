@@ -116,6 +116,8 @@ var demoBarChart = new Chart(ctx0, {
             label: 'Length (km)',
             data: riverLength12,
             backgroundColor: '#0E94A6',
+            hoverBackgroundColor:'#0E94A6',
+            hoverBorderColor:'#0E94A6',
         }]
     },
     options: {
@@ -153,20 +155,32 @@ var demoBarChartb = new Chart(ctx0b, {
         datasets: [
             {label: 'Charlotte',
             data: rainFallCharlotte,
-            backgroundColor: '#0E94A6',
-            borderColor: '#0E94A6',},
+            backgroundColor: '#A5134E',
+            borderColor: '#A5134E',
+            hoverBackgroundColor:'#A5134E',
+            hoverBorderColor:'#A5134E',
+            },
             { label: 'San Antonio',
             data: rainFallSanAntonio,
-            backgroundColor: '#d8d8d8',
-            borderColor: '#d8d8d8',},
+            backgroundColor: '#0D74D1',
+            borderColor: '#0D74D1',
+            hoverBackgroundColor:'#0D74D1',
+            hoverBorderColor:'#0D74D1',
+            },
             { label: 'San Francisco',
             data: rainFallSanFrancisco,
-            backgroundColor: '#6676BC',
-            borderColor: '#6676BC',},
+            backgroundColor: '#F57C00',
+            borderColor: '#F57C00',
+            hoverBackgroundColor:'#F57C00',
+            hoverBorderColor:'#F57C00',
+            },
             { label: 'Seattle',
             data: rainFallSeattle,
-            backgroundColor: '#757575',
-            borderColor: '#757575',},
+            backgroundColor: '#16B9D4',
+            borderColor: '#16B9D4',
+            hoverBackgroundColor:'#16B9D4',
+            hoverBorderColor:'#16B9D4',
+            },
         ]
     },
     options: {
@@ -204,6 +218,8 @@ var demoBarChart = new Chart(ctx0d, {
             label: 'Length (km)',
             data: riverLength12,
             backgroundColor: '#0E94A6',
+            hoverBackgroundColor:'#0E94A6',
+            hoverBorderColor:'#0E94A6',
         }]
     },
     options: {
@@ -252,7 +268,10 @@ var demoBarImpression = new Chart(ctx0f, {
             pointHitRadius:0, 
             pointHoverBorderWidth:0,
             borderColor: "#0E94A6",
-            backgroundColor:"#0E94A6",},
+            backgroundColor:"#0E94A6",
+            hoverBackgroundColor:'#0E94A6',
+            hoverBorderColor:'#0E94A6',
+        },
         ]
     },
     options: {
@@ -387,6 +406,8 @@ var demoBarChart = new Chart(ctx0c, {
             { label: 'Annual Flow',
             backgroundColor: '#bdbdbd',
             borderColor: '#bdbdbd',
+            hoverBackgroundColor:'#bdbdbd',
+            hoverBorderColor:'#bdbdbd',
             data: nileData10,
             pointRadius:0,
             pointHitRadius:0,
@@ -401,7 +422,6 @@ var demoBarChart = new Chart(ctx0c, {
             pointHoverRadius:0,
             pointHitRadius:0, 
             pointHoverBorderWidth:1,
-            borderColor: "#F57C00",
             borderColor:'#DD6105',
             backgroundColor:'#fff',
             pointRadius:0,
@@ -801,9 +821,7 @@ var demoLineChartf = new Chart(ctx2f, {
                     fontSize: 12,
                     fontColor: "#333",
                   },
-                  gridLines : {
-                    display : false
-                    }
+                 
             }],
             xAxes: [{
                 ticks: {
@@ -904,16 +922,28 @@ var demoDoughnutChart = new Chart(ctx4, {
             label: 'Rivers',
             data: [13, 50, 17, 55],
             backgroundColor: [
-                '#0E94A6',
-                '#bdbdbd',
-                '#3B44A9',
-                '#FBC02D',
+                '#A5134E',
+                '#0D74D1',
+                '#16B9D4',
+                '#F57C00',
             ],
             borderColor: [
-                '#0E94A6',
-                '#bdbdbd',
-                '#3B44A9',
-                '#FBC02D',
+                '#A5134E',
+                '#0D74D1',
+                '#16B9D4',
+                '#F57C00',
+            ],
+            hoverBackgroundColor: [
+                '#A5134E',
+                '#0D74D1',
+                '#16B9D4',
+                '#F57C00',
+            ],
+            hoverBorderColor: [
+                '#A5134E',
+                '#0D74D1',
+                '#16B9D4',
+                '#F57C00',
             ],
             borderWidth: 1
         }]
