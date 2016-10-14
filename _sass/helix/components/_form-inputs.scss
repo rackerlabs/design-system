@@ -45,6 +45,7 @@ input[type="text"],input[type="password"],input[type="email"],input[type="search
 textarea{
   padding:$paddingXS $paddingS;
   vertical-align: top;
+  height: auto;
 }
 
 .form-subtext.error{
