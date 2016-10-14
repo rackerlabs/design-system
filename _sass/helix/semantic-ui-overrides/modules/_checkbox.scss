@@ -1,0 +1,177 @@
+/*******************************
+           Checkbox
+*******************************/
+
+.ui.checkbox {
+  min-height: 16px;
+  font-size: inherit;
+  line-height: 1.2;
+  min-width: 16px;
+}
+
+/* HTML Checkbox */
+.ui.checkbox input[type="checkbox"],
+.ui.checkbox input[type="radio"] {
+  //width: 16px;
+  //height: 16px;
+}
+
+/* Label */
+.ui.checkbox .box,
+.ui.checkbox label,
+.ui.checkbox + label,
+.ui.checkbox input:active ~ label,
+.ui.checkbox input:focus ~ label,
+.ui.checkbox.radio .box,
+.ui.checkbox.radio label,
+.ui.checkbox.radio + label,
+.ui.checkbox.radio input:active ~ label,
+.ui.checkbox.radio input:focus ~ label {
+  cursor: auto;
+  position: relative;
+  display: block;
+  padding-left: 24px;
+  font-size: 1em;
+  color: inherit;
+}
+
+/* Button */
+.ui.checkbox .box:before,
+.ui.checkbox label:before,
+.ui.checkbox .box:after,
+.ui.checkbox label:after {
+  width: 18px !important;
+  height: 18px !important;
+  line-height: 1.25 !important;
+  border: none;
+  color:$grey500;
+  font-size: 16px;
+  background-color: transparent;
+  font-family: 'DS_icon_font';
+  text-align: center;
+}
+.ui.checkbox .box:hover::before,
+.ui.checkbox label:hover::before,
+.ui.checkbox .box:active::before,
+.ui.checkbox label:active::before,
+.ui.checkbox input:focus ~ .box:before,
+.ui.checkbox input:focus ~ label:before,
+.ui.radio.checkbox input:checked ~ .box:before,
+.ui.radio.checkbox input:checked ~ label:before,
+.ui.radio.checkbox input:checked ~ .box:after,
+.ui.radio.checkbox input:checked ~ label:after,
+.ui.radio.checkbox input:focus:checked ~ .box:before,
+.ui.radio.checkbox input:focus:checked ~ label:before,
+.ui.radio.checkbox input:focus:checked ~ .box:after,
+.ui.radio.checkbox input:focus:checked ~ label:after,
+.ui.checkbox input:checked ~ .box:before,
+.ui.checkbox input:checked ~ label:before,
+.ui.checkbox input:not([type=radio]):indeterminate ~ .box:before,
+.ui.checkbox input:not([type=radio]):indeterminate ~ label:before,
+.ui.checkbox input:not([type=radio]):indeterminate:focus ~ .box:before,
+.ui.checkbox input:not([type=radio]):indeterminate:focus ~ label:before,
+.ui.checkbox input:checked:focus ~ .box:before,
+.ui.checkbox input:checked:focus ~ label:before,
+.ui.radio.checkbox input:focus ~ .box:before,
+.ui.radio.checkbox input:focus ~ label:before,
+.ui.radio.checkbox input:focus ~ .box:after,
+.ui.radio.checkbox input:focus ~ label:after {
+  background-color: transparent;
+}
+
+/* Checkbox */
+.ui.checkbox .box:before,
+.ui.checkbox label:before {
+  content: '\e906';
+}
+/* Checkmark */
+.ui.checkbox label:after,
+.ui.checkbox .box:after {
+  content: '\e905' !important;
+}
+/* Radio */
+.ui.radio.checkbox .box:before,
+.ui.radio.checkbox label:before {
+  content: '\e913';
+}
+/* Radio Selected */
+.ui.radio.checkbox .box:after,
+.ui.radio.checkbox label:after {
+  content: '\e912' !important;
+  -webkit-transform: scale(1);
+      -ms-transform: scale(1);
+          transform: scale(1);
+}
+
+
+/*--------------
+      Hover
+---------------*/
+
+
+
+/*--------------
+      Down
+---------------*/
+
+.ui.checkbox .box:active::after,
+.ui.checkbox label:active::after {
+  color: $action700;
+}
+
+/*--------------
+     Focus
+---------------*/
+
+.ui.checkbox input:focus ~ .box:after,
+.ui.checkbox input:focus ~ label:after {
+  color: $action500;
+}
+
+/*--------------
+     Active
+---------------*/
+
+.ui.checkbox input:checked ~ .box:after,
+.ui.checkbox input:checked ~ label:after {
+  color: $action700;
+}
+
+/*--------------
+  Indeterminate
+---------------*/
+
+.ui.checkbox input:not([type=radio]):indeterminate ~ .box:after,
+.ui.checkbox input:not([type=radio]):indeterminate ~ label:after,
+.ui.radio.checkbox input:indeterminate ~ .box:after,
+.ui.radio.checkbox input:indeterminate ~ label:after {
+  opacity: 0;
+}
+
+/*--------------
+  Active Focus
+---------------*/
+
+.ui.checkbox input:not([type=radio]):indeterminate:focus ~ .box:after,
+.ui.checkbox input:not([type=radio]):indeterminate:focus ~ label:after,
+.ui.checkbox input:checked:focus ~ .box:after,
+.ui.checkbox input:checked:focus ~ label:after {
+  color: $action500;
+}
+
+/*--------------
+     Disabled
+---------------*/
+
+.ui.disabled.checkbox .box:after,
+.ui.disabled.checkbox label,
+.ui.checkbox input[disabled] ~ .box:after,
+.ui.checkbox input[disabled] ~ label {
+  opacity: 1;
+  cursor: not-allowed;
+  color: inherit;
+}
+.ui.checkbox input[disabled]:checked ~ .box:after,
+.ui.checkbox input[disabled]:checked ~ label:after {
+  color:$grey400;
+}
