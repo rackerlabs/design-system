@@ -45,6 +45,7 @@ input[type="text"],input[type="password"],input[type="email"],input[type="search
 textarea{
   padding:$paddingXS $paddingS;
   vertical-align: top;
+  height: auto;
 }
 
 .form-subtext.error{
@@ -130,6 +131,8 @@ ICONS IN MARGIN AFTER INPUT
 
 .iconPrefix i, .iconSuffix i{
   padding:0;
+  font-family: 'DS_icon_font';
+  font-style: normal;
 }
 
 .iconPrefix{
@@ -160,6 +163,8 @@ ICONS IN MARGIN AFTER INPUT
   padding-left:$paddingXS;
   vertical-align:middle;
   display: inline-block;
+  font-family: 'DS_icon_font';
+  font-style: normal;
 }
 
 .errorFormGroupIcon{

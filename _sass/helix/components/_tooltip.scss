@@ -91,6 +91,8 @@ TOOLTIP
   vertical-align:-1px;
   margin-left: $paddingM;
   cursor:pointer;
+  font-family: 'DS_icon_font';
+  font-style: normal;
 
   &:hover{
   color:$cyan500;
@@ -248,4 +250,6 @@ HELP LINK
 
 .ds-help-link i{
   padding-left:8px;
+  font-family: 'DS_icon_font';
+  font-style: normal;
 }
