@@ -165,6 +165,7 @@ preview-image: components-fields.svg
 </article>
 
 <article>
+  <a class="anchor" name="textarea"></a>
   <h1>Textarea<span class="status prototype">In Progress</span></h1>
   <div class="ui segments">
     <div class="ui segment">
@@ -174,14 +175,12 @@ preview-image: components-fields.svg
           <label>Textarea with placeholder text</label>
           <textarea placeholder="This is placeholder text"></textarea>
         </div>
-      </div>
-    </div>
-    <div class="ui segment">
-      <div class="ui form">
         <div class="field">
           <label>The final countdown</label>
           <textarea maxlength="50" id="textarea"></textarea>
-          <p class="form-subtext countdown" id="textarea_feedback">This is some subtext.</p>
+          <div class="ui message subtext right">
+            <p id="textarea_feedback">50 characters remaining</p>
+          </div>
         </div>
       </div>
     </div>
