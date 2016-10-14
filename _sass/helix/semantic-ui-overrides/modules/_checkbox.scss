@@ -9,13 +9,6 @@
   min-width: 16px;
 }
 
-/* HTML Checkbox */
-.ui.checkbox input[type="checkbox"],
-.ui.checkbox input[type="radio"] {
-  //width: 16px;
-  //height: 16px;
-}
-
 /* Label */
 .ui.checkbox .box,
 .ui.checkbox label,
@@ -66,6 +59,10 @@
 .ui.radio.checkbox input:focus:checked ~ label:after,
 .ui.checkbox input:checked ~ .box:before,
 .ui.checkbox input:checked ~ label:before,
+.ui.checkbox input:indeterminate ~ .box:before,
+.ui.checkbox input:indeterminate ~ label:before,
+.ui.checkbox input:indeterminate:focus ~ .box:before,
+.ui.checkbox input:indeterminate:focus ~ label:before,
 .ui.checkbox input:not([type=radio]):indeterminate ~ .box:before,
 .ui.checkbox input:not([type=radio]):indeterminate ~ label:before,
 .ui.checkbox input:not([type=radio]):indeterminate:focus ~ .box:before,
@@ -145,7 +142,13 @@
 .ui.checkbox input:not([type=radio]):indeterminate ~ label:after,
 .ui.radio.checkbox input:indeterminate ~ .box:after,
 .ui.radio.checkbox input:indeterminate ~ label:after {
-  opacity: 0;
+  background-color: transparent;
+  font-size: 1em;
+}
+
+.field.error.checked .ui.checkbox input:indeterminate~.box:after,
+.field.error.checked .ui.checkbox input:indeterminate~label:after {
+  opacity: 1;
 }
 
 /*--------------
