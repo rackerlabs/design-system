@@ -1,0 +1,108 @@
+/*******************************
+             Page
+*******************************/
+
+@if $import-google-fonts {
+  @import url($font-url);
+}
+
+html {
+  font-size: $base-font-size;
+}
+body {
+  background: $grey25;
+  font-family: $font-family;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+  color: $grey900;
+  font-weight: 400;
+}
+
+/*******************************
+             Headers
+*******************************/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.display-font {
+  color: $grey900;
+  font-family: $font-family;
+  line-height: $heading-line-height;
+  margin: 0;
+  font-weight: inherit;
+}
+.display-font {
+  font-size: $font-size-7;
+  font-weight: 100;
+  margin-bottom: 40px;
+}
+h1 {
+  font-size: $font-size-5;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+h1.header-alt {
+  font-weight: 200;
+}
+h2 {
+  font-size: $font-size-4;
+  font-weight: 400;
+  margin-bottom: $paddingM;
+}
+h3 {
+  font-size: $base-font-size;
+  font-weight: 500;
+  margin-bottom: $paddingXS;
+}
+h4 {
+	font-weight: 400;
+	margin-bottom: 4px;
+}
+
+/*******************************
+             Text
+*******************************/
+
+p {
+  margin: 0em 0em 2em;
+  line-height: inherit;
+}
+p:first-child {
+  margin-top: 0em;
+}
+p:last-child {
+  margin-bottom: 0em;
+}
+.body2 {
+  font-size: $font-size-3;
+  font-weight: 400;
+  line-height: $base-line-height;
+}
+
+/*-------------------
+        Links
+--------------------*/
+
+a {
+  color: $action700;
+  text-decoration: none;
+  cursor: pointer;
+  &:hover,
+  &.hover {
+    color: $action500;
+    text-decoration: underline;
+  }
+  &:active,
+  &.active {
+    color: $action900;
+    text-decoration: underline;
+  }
+  &.disabled {
+    color: $grey700;
+    cursor: not-allowed;
+    text-decoration: underline;
+  }
+}

@@ -1,0 +1,377 @@
+/*******************************
+            Dropdown
+*******************************/
+
+.ui.dropdown {
+  background: $grey25;
+  border: 1px solid $grey500;
+  color: $grey600;
+  -webkit-transition: box-shadow 0.1s ease, width 0.1s ease;
+  transition: box-shadow 0.1s ease, width 0.1s ease;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/*--------------
+      Menu
+---------------*/
+
+.ui.dropdown .menu {
+  background: $grey25;
+  font-size: 1em;
+  text-align: left;
+  box-shadow: 0px 2px 3px 0px rgba(34, 36, 38, 0.15);
+  border: 1px solid rgba(34, 36, 38, 0.15);
+  border-radius: 0.28571429rem;
+}
+
+/*--------------
+ Dropdown Icon
+---------------*/
+
+.ui.dropdown > .dropdown.icon {
+  position: relative;
+  width: auto;
+  font-size: 0.85714286em;
+  margin: 0em 0em 0em 1em;
+}
+.ui.dropdown .menu > .item .dropdown.icon {
+  width: auto;
+  float: right;
+  margin: 0em 0em 0em 1em;
+}
+.ui.dropdown .menu > .item .dropdown.icon + .text {
+  margin-right: 1em;
+}
+
+/*--------------
+    Menu Item
+---------------*/
+
+.ui.dropdown .menu > .item {
+  text-align: left;
+  border-top: none;
+  line-height: 1em;
+  color: rgba(0, 0, 0, 0.87);
+  padding: 0.78571429rem 1.14285714rem !important;
+  font-size: 1rem;
+}
+
+/*--------------
+    Selection
+---------------*/
+
+/* Displays like a select box */
+.ui.selection.dropdown {
+  line-height: 1em;
+  min-width: 14em;
+  min-height: 32px;
+  padding: 0.25em 1em 0.25em 1em;
+  border-radius: 2px;
+  -webkit-transition: box-shadow 0.1s ease, width 0.1s ease;
+  transition: box-shadow 0.1s ease, width 0.1s ease;
+
+  background: $grey25;
+  border: 1px solid $grey500;
+  color: $grey600;
+}
+select.ui.dropdown {
+  height: 38px;
+  padding: 0.5em;
+  border: 1px solid $grey500;
+}
+.ui.selection.dropdown > .search.icon,
+.ui.selection.dropdown > .delete.icon,
+.ui.selection.dropdown > .dropdown.icon {
+  line-height: 1.2142em;
+  top: 0.78571429em;
+  right: 1em;
+  margin: -0.78571429em;
+  padding: 0.78571429em;
+  opacity: 0.8;
+}
+
+/*  Selection Menu */
+.ui.selection.dropdown .menu {
+  margin: 0px -1px;
+  min-width: calc(100% +  2px );
+  width: calc(100% +  2px );
+  border-radius: 0em 0em 0.28571429rem 0.28571429rem;
+  box-shadow: 0px 2px 3px 0px rgba(34, 36, 38, 0.15);
+}
+
+/*--------------
+    Message
+---------------*/
+
+.ui.selection.dropdown .menu > .message {
+  padding: 0.78571429rem 1.14285714rem;
+}
+
+/* Menu Item */
+.ui.selection.dropdown .menu > .item {
+  border-top: 1px solid #FAFAFA;
+  padding: 0.78571429rem 1.14285714rem !important;
+}
+
+/* Hover */
+.ui.selection.dropdown:hover {
+  border: 1px solid $action500;
+}
+
+/* Active */
+.ui.selection.active.dropdown {
+  border: 1px solid $action700;
+  box-shadow: 0px 2px 3px 0px rgba(34, 36, 38, 0.15);
+}
+.ui.selection.active.dropdown .menu {
+  border-color: #96C8DA;
+  box-shadow: 0px 2px 3px 0px rgba(34, 36, 38, 0.15);
+}
+
+/* Focus */
+.ui.selection.dropdown:focus {
+  border: 1px solid $action500;
+  box-shadow: none;
+}
+.ui.selection.dropdown:focus .menu {
+  border-color: #96C8DA;
+  box-shadow: 0px 2px 3px 0px rgba(34, 36, 38, 0.15);
+}
+
+/* Visible */
+.ui.selection.visible.dropdown > .text:not(.default) {
+  font-weight: normal;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+/* Visible Hover */
+.ui.selection.active.dropdown:hover {
+  border-color: #96C8DA;
+  box-shadow: 0px 2px 3px 0px rgba(34, 36, 38, 0.15);
+}
+.ui.selection.active.dropdown:hover .menu {
+  border-color: #96C8DA;
+  box-shadow: 0px 2px 3px 0px rgba(34, 36, 38, 0.15);
+}
+
+/* Connecting Border */
+.ui.active.selection.dropdown {
+  border-bottom-left-radius: 0em !important;
+  border-bottom-right-radius: 0em !important;
+}
+
+/* Empty Connecting Border */
+.ui.active.empty.selection.dropdown {
+  border-radius: 0.28571429rem !important;
+  box-shadow: none !important;
+}
+.ui.active.empty.selection.dropdown .menu {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/*--------------
+   Searchable
+---------------*/
+
+/* Search Dropdown */
+.ui.search.dropdown > input.search {
+  background: none transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  padding: inherit;
+}
+
+/* Search Selection */
+.ui.search.selection.dropdown > input.search {
+  line-height: 1.2142em;
+  padding: 0.67861429em 2.1em 0.67861429em 1em;
+}
+
+/* Used to size multi select input to character width */
+.ui.search.selection.dropdown > span.sizer {
+  line-height: 1.2142em;
+  padding: 0.67861429em 2.1em 0.67861429em 1em;
+}
+
+/* Filtered Text */
+.ui.active.search.dropdown input.search:focus + .text .icon,
+.ui.active.search.dropdown input.search:focus + .text .flag {
+  opacity: 0.45;
+}
+.ui.active.search.dropdown input.search:focus + .text {
+  color: rgba(115, 115, 115, 0.87) !important;
+}
+
+/*--------------
+    Multiple
+---------------*/
+
+/* Multiple Selection */
+.ui.multiple.dropdown {
+  padding: 0.22620476em 2.1em 0.22620476em 0.35714286em;
+}
+
+/* Selection Label */
+.ui.multiple.dropdown > .label {
+  font-size: 1em;
+  padding: 0.35714286em 0.78571429em;
+  margin: 0.14285714rem 0.28571429rem 0.14285714rem 0em;
+  box-shadow: 0px 0px 0px 1px rgba(34, 36, 38, 0.15) inset;
+}
+
+/* Text */
+.ui.multiple.dropdown > .text {
+  margin: 0.45240952em 0em 0.45240952em 0.64285714em;
+  line-height: 1.21428571em;
+}
+.ui.multiple.dropdown > .label ~ input.search {
+  margin-left: 0.14285714em !important;
+}
+
+/*-----------------
+  Multiple Search
+-----------------*/
+
+/* Prompt Text */
+.ui.multiple.search.dropdown > .text {
+  padding: inherit;
+  margin: 0.45240952em 0em 0.45240952em 0.64285714em;
+  line-height: 1.21428571em;
+}
+
+/* Search */
+.ui.multiple.search.dropdown > input.search {
+  position: static;
+  padding: 0;
+  max-width: 100%;
+  margin: 0.45240952em 0em 0.45240952em 0.64285714em;
+  width: 2.2em;
+  line-height: 1.21428571em;
+}
+
+/*******************************
+            States
+*******************************/
+
+/*--------------------
+        Active
+----------------------*/
+
+/* Menu Item Active */
+.ui.dropdown .menu .active.item {
+  background: transparent;
+  font-weight: inherit;
+  color: rgba(0, 0, 0, 0.95);
+}
+
+/*--------------------
+        Hover
+----------------------*/
+
+/* Menu Item Hover */
+.ui.dropdown .menu > .item:hover {
+  background: rgba(0, 0, 0, 0.05);
+  color: rgba(0, 0, 0, 0.95);
+}
+
+/*--------------------
+     Default Text
+----------------------*/
+
+.ui.dropdown:not(.button) > .default.text,
+.ui.default.dropdown:not(.button) > .text {
+  color: rgba(191, 191, 191, 0.87);
+}
+.ui.dropdown:not(.button) > input:focus + .default.text,
+.ui.default.dropdown:not(.button) > input:focus + .text {
+  color: rgba(115, 115, 115, 0.87);
+}
+
+/*--------------------
+    Keyboard Select
+----------------------*/
+
+/* Selected Item */
+.ui.dropdown.selected,
+.ui.dropdown .menu .selected.item {
+  background: rgba(0, 0, 0, 0.03);
+  color: rgba(0, 0, 0, 0.95);
+}
+
+/*--------------------
+        Error
+----------------------*/
+
+.ui.dropdown.error,
+.ui.dropdown.error > .text,
+.ui.dropdown.error > .default.text {
+  color: #9F3A38;
+}
+.ui.selection.dropdown.error {
+  background: #FFF6F6;
+  border: 2px solid $red900;
+}
+.ui.selection.dropdown.error:hover {
+  border-color: #E0B4B4;
+}
+.ui.dropdown.error > .menu,
+.ui.dropdown.error > .menu .menu {
+  border-color: #E0B4B4;
+}
+.ui.dropdown.error > .menu > .item {
+  color: #9F3A38;
+}
+.ui.multiple.selection.error.dropdown > .label {
+  border-color: #E0B4B4;
+}
+
+/* Item Hover */
+.ui.dropdown.error > .menu > .item:hover {
+  background-color: #FFF2F2;
+}
+
+/* Item Active */
+.ui.dropdown.error > .menu .active.item {
+  background-color: #FDCFCF;
+}
+
+/*--------------------
+        Disabled
+----------------------*/
+
+/* Disabled */
+.ui.disabled.dropdown,
+.ui.dropdown .menu > .disabled.item {
+  opacity: 1;
+  cursor:not-allowed;
+  color: $grey800;
+  background-color: $grey50;
+  border: 1px solid $grey300;
+}
+
+/*******************************
+         Theme Overrides
+*******************************/
+
+/* Dropdown Carets */
+
+.ui.dropdown > .dropdown.icon {
+  font-family: 'Dropdown';
+  line-height: 1;
+  height: 1em;
+  width: 1.23em;
+}
+.ui.dropdown > .dropdown.icon:before {
+  content: '\f0d7';
+}
+
+/* Sub Menu */
+.ui.dropdown .menu .item .dropdown.icon:before {
+  content: '\f0da' /*rtl:'\f0d9'*/;
+}
+.ui.dropdown .item .left.dropdown.icon:before,
+.ui.dropdown .left.menu .item .dropdown.icon:before {
+  content: "\f0d9" /*rtl:"\f0da"*/;
+}
