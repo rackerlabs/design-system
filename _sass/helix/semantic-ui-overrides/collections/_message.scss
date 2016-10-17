@@ -22,8 +22,9 @@
 
 /* Subtext */
 .ui.message.subtext {
-  font-size: $font-size-2;
-  color: #757575;
+  font-size: 13px; // Revisit $font-sizes, odd pixel rounding
+  line-height: 1;
+  color: $grey700;
 }
 .ui.checkbox .ui.message.subtext {
   padding-left: 24px;
