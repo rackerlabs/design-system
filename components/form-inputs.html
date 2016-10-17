@@ -87,10 +87,13 @@ preview-image: components-fields.svg
   <div class="ui segments">
     <div class="ui segment">
       <h3>Completed</h3>
-      <div class="ui form">
+      <div class="ui form success">
         <div class="field">
           <label>Complete form field</label>
           <input type="text" value="Value text">
+          <div class="ui success message icon">
+            <i class="check circle icon"></i>
+          </div>
         </div>
       </div>
     </div>
@@ -112,6 +115,9 @@ preview-image: components-fields.svg
           <input type="text" placeholder="Required">
           <div class="ui error message">
             <p>There is an error with the response to this question.</p>
+          </div>
+          <div class="ui error message icon">
+            <i class="warning circle icon"></i>
           </div>
         </div>
         <div class="field error">

@@ -6,15 +6,26 @@
   color: inherit;
 }
 .ui.input input {
-  line-height: inherit;
-  padding:0 $paddingS;
+  line-height: 22px;
+  padding: $paddingXS $paddingS;
   border: 1px solid $grey500;
   color: inherit;
   border-radius: 2px;
-  -webkit-transition: box-shadow 0.1s ease, border-color 0.1s ease;
-  transition: box-shadow 0.1s ease, border-color 0.1s ease;
   box-shadow: none;
-  max-width: 400px;
+  max-width: 432px;
+  width: -webkit-calc(100% - 32px);
+  width: -moz-calc(100% - 32px);
+  width: calc(100% - 32px);
+}
+
+.ui.form .field {
+  .ui.left.icon.input,
+  .ui.right.labeled.input {
+    max-width: 432px;
+    width: -webkit-calc(100% - 32px);
+    width: -moz-calc(100% - 32px);
+    width: calc(100% - 32px);
+  }
 }
 
 /*--------------------
@@ -23,18 +34,15 @@
 
 .ui.input input::-webkit-input-placeholder { /* WebKit, Blink, Edge */
   color: $grey600;
-  font-weight: 100;
-  font-style:italic;
+  font-style: italic;
 }
 .ui.input input::-moz-placeholder { /* Mozilla Firefox 19+ */
   color: $grey600;
   opacity:  1;
-  font-weight: 100;
   font-style:italic;
 }
 .ui.input input:-ms-input-placeholder { /* Internet Explorer 10-11 */
   color: $grey600;
-  font-weight: 100;
   font-style:italic;
   letter-spacing:.05em;
 }
@@ -127,15 +135,15 @@
 ---------------------*/
 
 .ui.icon.input > i.icon {
-  width: 2.67142857em;
+  width: 1em;
   opacity: 1;
   color: $grey600;
-  border-radius: 0em 0.28571429rem 0.28571429rem 0em;
+  border-radius: 0;
   -webkit-transition: opacity 0.3s ease;
   transition: opacity 0.3s ease;
 }
 .ui.icon.input input {
-  padding-right: 2.67142857em !important;
+  padding-right: $paddingS;
 }
 .ui.icon.input > i.icon:before,
 .ui.icon.input > i.icon:after {
@@ -154,16 +162,16 @@
 /* Left Icon Input */
 .ui[class*="left icon"].input > i.icon {
   right: auto;
-  left: 1px;
-  border-radius: 0.28571429rem 0em 0em 0.28571429rem;
+  left: 8px;
+  border-radius: 0;
 }
 .ui[class*="left icon"].input > i.circular.icon {
   right: auto;
   left: 0.5em;
 }
 .ui[class*="left icon"].input > input {
-  padding-left: 2.67142857em !important;
-  padding-right: 1em !important;
+  padding-left: 32px !important;
+  padding-right: $paddingS !important;
 }
 
 /* Focus */
@@ -175,6 +183,9 @@
         Labeled
 ---------------------*/
 
+.ui.label {
+  background-color: transparent;
+}
 
 /* Adjacent Label */
 .ui.labeled.input > .label {
@@ -191,33 +202,42 @@
 }
 
 /* Regular Label on Left */
-.ui.labeled.input:not([class*="corner labeled"]) .label:first-child {
-  border-top-right-radius: 0px;
-  border-bottom-right-radius: 0px;
+.ui.labeled.input:not([class*="corner labeled"]) .label {
   background-color: transparent;
   border: none;
+  color: $grey900;
+  padding: $paddingS $paddingS $paddingS 0;
+  font-weight: inherit;
+}
+.ui.labeled.input:not([class*="corner labeled"]) .label:last-child {
+  padding: $paddingS 0 $paddingS $paddingS;
 }
 .ui.labeled.input:not([class*="corner labeled"]) .label:first-child + input {
-  border-top-left-radius: 0px;
-  border-bottom-left-radius: 0px;
-  border-left-color: transparent;
+  background-color: #fff;
+  border: 1px solid $grey500 !important;
+  border-radius: 2px;
+  color: $grey900;
+  line-height: inherit;
+  padding: $paddingXS $paddingS;
 }
 .ui.labeled.input:not([class*="corner labeled"]) .label:first-child + input:focus {
-  border-left-color: #85B7D9;
+  border: 1px solid $action500 !important;
 }
+
+/* Probably won't need the rest of the overrides in this file */
 
 /* Regular Label on Right */
 .ui[class*="right labeled"].input input {
-  border-top-right-radius: 0px !important;
-  border-bottom-right-radius: 0px !important;
-  border-right-color: transparent !important;
+  //border-top-right-radius: 2px !important;
+  //border-bottom-right-radius: 2px !important;
+  //border-right-color: transparent !important;
 }
 .ui[class*="right labeled"].input input + .label {
-  border-top-left-radius: 0px;
-  border-bottom-left-radius: 0px;
+  //border-top-left-radius: 2px;
+  //border-bottom-left-radius: 2px;
 }
 .ui[class*="right labeled"].input input:focus {
-  border-right-color: #85B7D9 !important;
+  //border: 1px solid $action500;
 }
 
 /* Corner Label */
