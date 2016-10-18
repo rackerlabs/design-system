@@ -18,21 +18,13 @@ preview-image: components-fields.svg
           <label>Required field</label>
           <input type="text" placeholder="This is placeholder text">
         </div>
-      </div>
-    </div>
-    <div class="ui segment">
-      <div class="ui form">
         <div class="field">
           <label>Field with subtext</label>
           <input type="text" placeholder="This is placeholder text">
+          <div class="ui message subtext">
+            <p>This is some subtext.</p>
+          </div>
         </div>
-        <div class="ui message subtext">
-          <p>This is some subtext.</p>
-        </div>
-      </div>
-    </div>
-    <div class="ui segment">
-      <div class="ui form">
         <div class="field">
           <label>Prefix or suffix</label>
           <div class="ui right labeled input">
@@ -41,10 +33,6 @@ preview-image: components-fields.svg
             <div class="ui basic label">.00</div>
           </div>
         </div>
-      </div>
-    </div>
-    <div class="ui segment">
-      <div class="ui form">
         <div class="field">
           <label>With icon left</label>
           <div class="ui left icon input">
@@ -52,11 +40,6 @@ preview-image: components-fields.svg
             <i class="search icon"></i>
           </div>
         </div>
-      </div>
-    </div>
-
-    <div class="ui segment">
-      <div class="ui form">
         <div class="field required">
           <label>Password</label>
           <input type="password" value="password">
@@ -65,33 +48,25 @@ preview-image: components-fields.svg
     </div>
   </div>
 
-  <div class="ui segments">
-    <div class="ui segment">
-      <h3>Type Ahead</h3>
-      <div class="formGroup">
-        <div class="formLabel">Contact</div>
-        <div class="formComponant">
-          <div class="ui-widget">
-            <input id="tags" type="text">
+<!-- Submitting Type Ahead as a separate story
+        <div class="formGroup">
+          <div class="formLabel">Type Ahead</div>
+          <div class="formComponant">
+            <div class="ui-widget">
+              <input id="tags" type="text">
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
 
-  <div class="ui segments">
-    <div class="ui segment">
-      <h3>Type Ahead Multiple Values</h3>
-      <div class="formGroup">
-        <div class="formLabel">Contact</div>
-        <div class="formComponant">
-          <div class="ui-widget">
-            <input id="tags-multi" type="text">
+        <div class="formGroup">
+          <div class="formLabel">Type Ahead Multiple Values</div>
+          <div class="formComponant">
+            <div class="ui-widget">
+              <input id="tags-multi" type="text">
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
+-->
 
   <div class="ui segments">
     <div class="ui segment">
@@ -101,10 +76,6 @@ preview-image: components-fields.svg
           <label>Disabled with value</label>
           <input type="text" value="Value text" disabled>
         </div>
-      </div>
-    </div>
-    <div class="ui segment">
-      <div class="ui form">
         <div class="disabled field">
           <label>Disabled with placeholder text</label>
           <input type="text" placeholder="Placeholder text" disabled="disabled">
@@ -116,10 +87,13 @@ preview-image: components-fields.svg
   <div class="ui segments">
     <div class="ui segment">
       <h3>Completed</h3>
-      <div class="ui form">
+      <div class="ui form success">
         <div class="field">
           <label>Complete form field</label>
           <input type="text" value="Value text">
+          <div class="ui success message icon">
+            <i class="check circle icon"></i>
+          </div>
         </div>
       </div>
     </div>
@@ -136,21 +110,16 @@ preview-image: components-fields.svg
             <p>There is an error with the response to this question.</p>
           </div>
         </div>
-      </div>
-    </div>
-    <div class="ui segment">
-      <div class="ui form error">
         <div class="field required error">
           <label>Error with placeholder text</label>
           <input type="text" placeholder="Required">
           <div class="ui error message">
             <p>There is an error with the response to this question.</p>
           </div>
+          <div class="ui error message icon">
+            <i class="warning circle icon"></i>
+          </div>
         </div>
-      </div>
-    </div>
-    <div class="ui segment">
-      <div class="ui form error">
         <div class="field error">
           <label>Error with icon</label>
           <input type="text" value="Value text">
@@ -214,6 +183,7 @@ preview-image: components-fields.svg
   </div>
 
 </article>
+<!-- Eliminating until we have a more detailed form layout
 
 <article>
   <h1>Fieldset<span class="status prototype">In Progress</span></h1>
@@ -235,4 +205,4 @@ preview-image: components-fields.svg
       </div>
     </div>
   </div>
-</article>
+</article> -->

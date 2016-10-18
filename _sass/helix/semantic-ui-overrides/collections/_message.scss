@@ -11,15 +11,42 @@
   border-radius: 2px;
   box-shadow: none;
 }
-
 .ui.message p {
   opacity: 1;
   margin: 0;
 
 }
-
 .ui.message.right {
   text-align: right;
+}
+
+/* Subtext */
+.ui.message.subtext {
+  font-size: 13px; // Revisit $font-sizes, odd pixel rounding
+  line-height: 1;
+  color: $grey700;
+}
+.ui.checkbox .ui.message.subtext {
+  padding-left: 24px;
+}
+
+/* Validation */
+.ui.form .message.icon {
+  position: absolute;
+  right: 0;
+  top: 38px;
+  background-color: transparent;
+  box-shadow: none;
+  line-height: 1;
+  width: 1em;
+}
+.ui.message.icon>.icon:not(.close) {
+  font-size: 16px;
+  margin: 0;
+  opacity: 1;
+  width: 18px;
+  height: 18px;
+  text-align: center;
 }
 
 /* Error */
@@ -28,15 +55,12 @@
   color: $red900;
   background-color: transparent;
   font-size: $font-size-3;
-  padding-top: 4px;
+  p {
+    padding-top: 4px;
+  }
 }
 
-.ui.message.subtext {
-  font-size: 13px; // Revisit $font-sizes, odd pixel rounding
-  line-height: 1;
-  color: #757575;
-}
-
-.ui.checkbox .ui.message.subtext {
-  padding-left: 24px;
+/* Success */
+.ui.success.message {
+  color: $green;
 }

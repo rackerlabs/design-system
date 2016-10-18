@@ -3,7 +3,7 @@
 *******************************/
 
 .ui.form {
-  max-width: 50%;
+  max-width: 464px;
 }
 
 /*--------------------
@@ -11,7 +11,7 @@
 ---------------------*/
 
 .ui.form > p {
-  margin: 0em;
+  margin: 0;
 }
 
 /*--------------------
@@ -19,7 +19,7 @@
 ---------------------*/
 
 .ui.form .field {
-  margin: 0em 0em 12px;
+  margin: 0em 0em 20px;
 }
 
 /*--------------------
@@ -27,7 +27,7 @@
 ---------------------*/
 
 .ui.form .field > label {
-  margin: 0 0 4px 0;
+  margin: 0 0 8px 0;
   color: inherit;
   font-size: 0.875em;
   font-weight: inherit;
@@ -49,13 +49,18 @@
 .ui.form input[type="text"],
 .ui.form input[type="file"],
 .ui.form input[type="url"] {
-  margin: 0em;
+  margin: 0;
   line-height: 22px;
   padding: $paddingXS $paddingS;
-  border: 1px solid #bdbdbd;
+  border: 1px solid $grey500;
   color: inherit;
   border-radius: 2px;
   font-family: inherit;
+  box-shadow: none;
+  max-width: 532px;
+  width: -webkit-calc(100% - 32px);
+  width: -moz-calc(100% - 32px);
+  width: calc(100% - 32px);
 }
 
 /* Text Area */
@@ -76,7 +81,7 @@
   display: block;
   height: auto;
   width: 100%;
-  background: #FFFFFF;
+  background: #fff;
   border: 1px solid #bdbdbd;
   border-radius: 2px;
   box-shadow: none;
@@ -123,54 +128,48 @@
 
 /* browsers require these rules separate */
 .ui.form ::-webkit-input-placeholder {
-  color: inherit;
-  font-weight: 100;
+  color: $grey600;
   font-style: italic;
 }
 .ui.form :-ms-input-placeholder {
-  color: inherit;
-  font-weight: 100;
+  color: $grey600;
   font-style: italic;
 }
 .ui.form ::-moz-placeholder {
-  color: inherit;
-  font-weight: 100;
+  color: $grey600;
   font-style: italic;
 }
 .ui.form :focus::-webkit-input-placeholder {
-  color: inherit;
-  font-weight: 100;
+  color: $grey600;
   font-style: italic;
 }
 .ui.form :focus:-ms-input-placeholder {
-  color: inherit;
-  font-weight: 100;
+  color: $grey600;
   font-style: italic;
 }
 .ui.form :focus::-moz-placeholder {
-  color: inherit;
-  font-weight: 100;
+  color: $grey600;
   font-style: italic;
 }
 
 /* Error Placeholder */
 .ui.form .error ::-webkit-input-placeholder {
-  color: inherit;
+  color: $grey600;
 }
 .ui.form .error :-ms-input-placeholder {
-  color: inherit;
+  color: $grey600;
 }
 .ui.form .error ::-moz-placeholder {
-  color: inherit;
+  color: $grey600;
 }
 .ui.form .error :focus::-webkit-input-placeholder {
-  color: inherit;
+  color: $grey600;
 }
 .ui.form .error :focus:-ms-input-placeholder {
-  color: inherit;
+  color: $grey600;
 }
 .ui.form .error :focus::-moz-placeholder {
-  color: inherit;
+  color: $grey600;
 }
 
 /*--------------------
@@ -196,7 +195,7 @@
   box-shadow: none;
 }
 .ui.form textarea:focus {
-  color: rgba(0, 0, 0, 0.95);
+  color: inherit;
   border-color: $action500;
   border-radius: 2px;
   background: #FFFFFF;
@@ -265,7 +264,7 @@
 .ui.form .field.error input[type="file"]:focus,
 .ui.form .field.error input[type="url"]:focus {
   background: #fff;
-  border-color: inherit;
+  border: 2px solid $red900;
   color: inherit;
 }
 
@@ -395,11 +394,11 @@
 /* Grouped Vertically */
 .ui.form .grouped.fields {
   display: block;
-  margin: 0em 0em 4px;
+  margin: 0em 0em 20px;
 }
 
 .ui.form .grouped.fields > label {
-  margin: 0 0 4px 0;
+  margin: 0 0 8px 0;
   color: inherit;
   font-size: $font-size-3;
   font-weight: inherit;
