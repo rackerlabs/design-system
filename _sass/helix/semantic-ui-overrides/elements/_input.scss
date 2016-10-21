@@ -13,18 +13,18 @@
   border-radius: 2px;
   box-shadow: none;
   max-width: 432px;
-  width: -webkit-calc(100% - 32px);
-  width: -moz-calc(100% - 32px);
-  width: calc(100% - 32px);
+  width: -webkit-calc(100% - 24px);
+  width: -moz-calc(100% - 24px);
+  width: calc(100% - 24px);
 }
 
 .ui.form .field {
   .ui.left.icon.input,
   .ui.right.labeled.input {
     max-width: 432px;
-    width: -webkit-calc(100% - 32px);
-    width: -moz-calc(100% - 32px);
-    width: calc(100% - 32px);
+    width: -webkit-calc(100% - 24px);
+    width: -moz-calc(100% - 24px);
+    width: calc(100% - 24px);
   }
 }
 

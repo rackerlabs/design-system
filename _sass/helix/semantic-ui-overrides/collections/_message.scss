@@ -3,18 +3,21 @@
 *******************************/
 
 .ui.message {
-  margin: 0;
-  background-color: transparent;
-  padding: 0;
-  line-height: inherit;
-  color: inherit;
-  border-radius: 2px;
-  box-shadow: none;
-}
-.ui.message p {
-  opacity: 1;
-  margin: 0;
-
+  &.subtext, &.error, &.icon {
+    margin: 0;
+    background-color: transparent;
+    padding: 0;
+    line-height: inherit;
+    color: inherit;
+    border-radius: 2px;
+    box-shadow: none;
+    font-size: $font-size-3;
+    p {
+      opacity: 1;
+      margin: 0;
+      padding-top: 4px;
+    }
+  }
 }
 .ui.message.right {
   text-align: right;
@@ -22,12 +25,14 @@
 
 /* Subtext */
 .ui.message.subtext {
-  font-size: 13px; // Revisit $font-sizes, odd pixel rounding
-  line-height: 1;
   color: $grey700;
 }
 .ui.checkbox .ui.message.subtext {
+  line-height: 1;
   padding-left: 24px;
+  p {
+    padding-top: 0;
+  }
 }
 
 /* Validation */
@@ -35,8 +40,6 @@
   position: absolute;
   right: 0;
   top: 38px;
-  background-color: transparent;
-  box-shadow: none;
   line-height: 1;
   width: 1em;
 }
@@ -51,13 +54,7 @@
 
 /* Error */
 .ui.error.message {
-  box-shadow: none;
   color: $red900;
-  background-color: transparent;
-  font-size: $font-size-3;
-  p {
-    padding-top: 4px;
-  }
 }
 
 /* Success */
