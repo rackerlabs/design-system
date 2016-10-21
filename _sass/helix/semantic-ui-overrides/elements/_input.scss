@@ -99,6 +99,22 @@
 }
 
 /*--------------------
+        Autofill
+---------------------*/
+
+.ui.form .field.field input:-webkit-autofill {
+  border-color: $action700 !important;
+  box-shadow: 0 0 0 100px #fff inset !important;
+  color: $grey900 !important;
+}
+
+.ui.form .field.field input:-webkit-autofill:focus {
+  border-color: $action500 !important;
+  box-shadow: 0 0 0 100px #fff inset !important;
+  color: $grey900 !important;
+}
+
+/*--------------------
         Error
 ---------------------*/
 
