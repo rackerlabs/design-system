@@ -4,7 +4,7 @@ semantic.ready = function() {
 
   // selector cache
   var
-    $buttons = $('.ui.buttons .button'),
+    $buttons = $('.ui.buttons.single .button'),
     $button  = $('.ui.button').not($buttons),
     // alias
     handler = {
@@ -24,25 +24,9 @@ semantic.ready = function() {
     .on('click', handler.activate)
   ;
 
-  var
-    $buttonsmulti = $('.ui.buttons.multi .button.multi'),
-    $buttonmulti  = $('.ui.button.multi').not($buttons).not($button).not($buttonsmulti),
-    // alias
-    handler = {
-
-      activate: function() {
-        $(this)
-          .addClass('active')
-        ;
-      }
-
-    }
-  ;
-
-  $buttonsmulti
-    .on('click', handler.activate)
-  ;
-
+    $( ".ui.buttons.multi .button" ).click(function() {
+    $( this ).toggleClass( "active" );
+  });
 };
 
 
