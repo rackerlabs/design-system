@@ -259,3 +259,89 @@ a.anchor {
 .ws-sum-con{
     padding: 20px;
 }
+
+/* Overview formatting */
+
+.overview {
+  .display-font {
+    text-align: center;
+  }
+  p, .visuals {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 730px;
+    text-align: center;
+  }
+  .column {
+    float: left;
+    margin-right: 65px;
+    margin-top: 8px;
+    width: 200px;
+    &:last-of-type {
+      margin-right: 0;
+    }
+    img {
+      height: 65px;
+      margin-bottom: 12px;
+      width: auto;
+    }
+  }
+  .cta {
+    padding-bottom: 40px;
+  }
+  .arrow {
+    text-align: center;
+    img {
+      height: auto;
+      width: 32px;
+    }
+  }
+  .ui.form {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 730px;
+    p {
+      text-align: left;
+    }
+  }
+  .two-col-form {
+    float: left;
+    margin-bottom: 40px;
+    margin-right: 40px;
+    width: 345px;
+    &:nth-child(even) {
+      margin-right: 0;
+    }
+
+  }
+  .overview-button {
+    clear: both;
+    padding-top: 40px;
+    text-align: center;
+  }
+  .ui.form .ui.icon.message {
+    background: $grey50;
+    border: 1px solid $grey300;
+    border-radius: 2px;
+    clear: both;
+    margin: 40px auto 0 auto;
+    max-width: 730px;
+    width: 100%;
+    padding: 12px 20px;
+    position: relative;
+    .icon, .content {
+      display: inline-block;
+    }
+    p {
+      color: $grey900;
+    }
+    i.icon.check.circle {
+      color: $green;
+      font-size: 24px;
+      line-height: 24px;
+      width: 26px;
+      height: 26px;
+      margin-right: 16px;
+    }
+  }
+}

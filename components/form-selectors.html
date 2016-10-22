@@ -96,7 +96,7 @@ preview-image: components-selectors.svg
           </div>
         </div>
         <div class="ui error message">
-          <p>A selection is required</p>
+          <p>There is an error with the response to this question.</p>
         </div>
       </div>
     </div>
@@ -112,40 +112,54 @@ preview-image: components-selectors.svg
   <div class="ui segments">
     <div class="ui segment">
       <h3>Enabled</h3>
-      <legend>Select potential maintenance days</legend>
-      <div class="ui basic buttons">
-        <button class="ui button">Mon</button>
-        <button class="ui button">Tues</button>
-        <button class="ui button">Wed</button>
-        <button class="ui button">Thurs</button>
-        <button class="ui button">Fri</button>
-        <button class="ui button">Sat</button>
-        <button class="ui button">Sun</button>
-      </div>
-      <p class="subtext" style="margin-top:8px;">Here is some additional help text to explain these choices.</p>
+        <div class="ui form">
+          <div class="field">
+            <label>Select potential maintenance days</label>
+            <div class="ui buttons single">
+              <button class="ui button ds-btn-med-sec active">Mon</button>
+              <button class="ui button ds-btn-med-sec">Tues</button>
+              <button class="ui button ds-btn-med-sec">Wed</button>
+              <button class="ui button ds-btn-med-sec">Thurs</button>
+              <button class="ui button ds-btn-med-sec">Fri</button>
+              <button class="ui button ds-btn-med-sec">Sat</button>
+              <button class="ui button ds-btn-med-sec">Sun</button>
+            </div>
+            <div class="ui message subtext">
+              <p>Here is some additional help text to explain these choices.</p>
+            </div>
+          </div>
+        </div>
     </div>
     <div class="ui segment">
       <h3>Disabled</h3>
-      <legend>Select payment type</legend>
-      <div class="ui basic buttons">
-        <button class="ui button disabled">Credit / Debit</button>
-        <button class="ui button disabled">Cash</button>
-        <button class="ui button disabled">Check</button>
+      <div class="ui form">
+        <div class="field">
+          <label>Select payment type</label>
+          <div class="ui buttons single">
+            <button class="ui button ds-btn-med-sec disabled active">Credit / Debit</button>
+            <button class="ui button ds-btn-med-sec disabled">Cash</button>
+            <button class="ui button ds-btn-med-sec disabled">Check</button>
+          </div>
+        </div>
       </div>
     </div>
     <div class="ui segment">
       <h3>Error</h3>
-      <legend class="required">Select potential maintenance windows</legend>
-      <div class="ui basic buttons error">
-        <button class="ui button">12<span class="smCaps"> AM</span> - 4<span class="smCaps"> AM</button>
-        <button class="ui button">4<span class="smCaps"> AM</span> - 8<span class="smCaps"> AM</button>
-        <button class="ui button">8<span class="smCaps"> AM</span> - 12<span class="smCaps"> PM</button>
-        <button class="ui button">12<span class="smCaps"> PM</span> - 4<span class="smCaps"> PM</button>
-        <button class="ui button">4<span class="smCaps"> PM</span> - 8<span class="smCaps"> PM</button>
-        <button class="ui button">8<span class="smCaps"> PM</span> - 12<span class="smCaps"> AM</button>
-      </div>
-      <div class="ui error message">
-        <p>A selection is required</p>
+      <div class="ui form error">
+        <div class="field error">
+          <label class="required">Select potential maintenance windows</label>
+          <div class="ui buttons single">
+            <button class="ui button ds-btn-med-sec">12<span class="smCaps"> AM</span> &ndash; 4<span class="smCaps"> AM</button>
+            <button class="ui button ds-btn-med-sec error active">4<span class="smCaps"> AM</span> &ndash; 8<span class="smCaps"> AM</button>
+            <button class="ui button ds-btn-med-sec">8<span class="smCaps"> AM</span> &ndash; 12<span class="smCaps"> PM</button>
+            <button class="ui button ds-btn-med-sec">12<span class="smCaps"> PM</span> &ndash; 4<span class="smCaps"> PM</button>
+            <button class="ui button ds-btn-med-sec">4<span class="smCaps"> PM</span> &ndash; 8<span class="smCaps"> PM</button>
+            <button class="ui button ds-btn-med-sec">8<span class="smCaps"> PM</span> &ndash; 12<span class="smCaps"> AM</button>
+          </div>
+          <div class="ui error message">
+            <p>There is an error with the response to this question.</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -238,7 +252,7 @@ preview-image: components-selectors.svg
           </div>
         </div>
         <div class="ui error message">
-          <p>A selection is required</p>
+          <p>There is an error with the response to this question.</p>
         </div>
       </div>
     </div>
@@ -249,7 +263,62 @@ preview-image: components-selectors.svg
   <a class="anchor" name="checkbox-button-group"></a>
   <h1>Checkbox Button Group<span class="status prototype">In Progress</span></h1>
   <p>Use when selecting <b>multiple items</b> from a set if it&#8217;s important for the user to see all options at once. This alternate can be used instead of regular check boxes if the options are <b>simple</b>, limited in number and individual length.</p>
-
+  <div class="ui segments">
+    <div class="ui segment">
+      <h3>Enabled</h3>
+      <div class="ui form">
+        <div class="field">
+          <label>Select potential maintenance days</label>
+          <div class="ui buttons multi">
+            <button class="ui button multi ds-btn-med-sec active">Mon</button>
+            <button class="ui button multi ds-btn-med-sec active">Tues</button>
+            <button class="ui button multi ds-btn-med-sec">Wed</button>
+            <button class="ui button multi ds-btn-med-sec">Thurs</button>
+            <button class="ui button multi ds-btn-med-sec">Fri</button>
+            <button class="ui button multi ds-btn-med-sec">Sat</button>
+            <button class="ui button multi ds-btn-med-sec">Sun</button>
+          </div>
+          <div class="ui message subtext">
+            <p>Here is some additional help text to explain these choices.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="ui segment">
+      <h3>Disabled</h3>
+      <div class="ui form">
+        <div class="ui field">
+          <div class="field">
+            <label>Select payment type</label>
+            <div class="ui buttons multi">
+              <button class="ui button ds-btn-med-sec active disabled">Credit / Debit</button>
+              <button class="ui button ds-btn-med-sec active disabled">Cash</button>
+              <button class="ui button ds-btn-med-sec disabled">Check</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="ui segment">
+      <h3>Error</h3>
+      <div class="ui form error">
+        <div class="field error">
+          <label class="required">Select potential maintenance windows</label>
+          <div class="ui buttons multi">
+            <button class="ui button ds-btn-med-sec active error">12<span class="smCaps"> AM</span> &ndash; 4<span class="smCaps"> AM</button>
+            <button class="ui button ds-btn-med-sec active">4<span class="smCaps"> AM</span> &ndash; 8<span class="smCaps"> AM</button>
+            <button class="ui button ds-btn-med-sec">8<span class="smCaps"> AM</span> &ndash; 12<span class="smCaps"> PM</button>
+            <button class="ui button ds-btn-med-sec">12<span class="smCaps"> PM</span> &ndash; 4<span class="smCaps"> PM</button>
+            <button class="ui button ds-btn-med-sec">4<span class="smCaps"> PM</span> &ndash; 8<span class="smCaps"> PM</button>
+            <button class="ui button ds-btn-med-sec">8<span class="smCaps"> PM</span> &ndash; 12<span class="smCaps"> AM</button>
+          </div>
+          <div class="ui error message">
+            <p>There is an error with the response to this question.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </article>
 
 <article>
@@ -436,23 +505,38 @@ preview-image: components-selectors.svg
   <div class="ui segments">
     <div class="ui segment">
       <h3>Enabled</h3>
-      <div class="ui buttons">
-        <button class="ui button">Cloud</button>
-        <button class="ui positive button">Dedicated</button>
+      <div class="ui form">
+        <div class="field">
+          <div class="ui buttons single">
+            <button class="ui button ds-btn-med-sec">Cloud</button>
+            <button class="ui button ds-btn-med-sec active">Dedicated</button>
+          </div>
+        </div>
       </div>
     </div>
     <div class="ui segment">
       <h3>Disabled</h3>
-      <div class="ui buttons">
-        <button class="ui button disabled">Cloud</button>
-        <button class="ui positive button disabled">Dedicated</button>
+      <div class="ui form">
+        <div class="field">
+          <div class="ui buttons single">
+            <button class="ui button ds-btn-med-sec active disabled">Cloud</button>
+            <button class="ui button ds-btn-med-sec disabled">Dedicated</button>
+          </div>
+        </div>
       </div>
     </div>
     <div class="ui segment">
       <h3>Error</h3>
-      <div class="ui buttons">
-        <button class="ui button">Cloud</button>
-        <button class="ui positive button">Dedicated</button>
+      <div class="ui form error">
+        <div class="field error">
+          <div class="ui buttons single">
+            <button class="ui button ds-btn-med-sec">Cloud</button>
+            <button class="ui button ds-btn-med-sec error active">Dedicated</button>
+          </div>
+          <div class="ui error message">
+            <p>There is an error with the response to this question.</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>

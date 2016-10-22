@@ -6,7 +6,7 @@
   <ul>
 
     {% assign currenturl = page.url %}
-    <li><a href="{{site.baseurl}}/" {% if currenturl == "/" %} class="active" {% else %} {% endif %}>Upcoming</a></li>
+    <li><a href="{{site.baseurl}}/" {% if currenturl == "/" %} class="active" {% else %} {% endif %}>Home</a></li>
 
     {% for navItem in site.navigation %}
       {% assign foldername = navItem | downcase %}
@@ -23,6 +23,8 @@
         </ul>
       </li>
     {% endfor %}
+
+    <li><a href="{{site.baseurl}}/upcoming" {% if currenturl == "/upcoming" %} class="active" {% else %} {% endif %}>Upcoming</a></li>
 
   </ul>
 </nav>
