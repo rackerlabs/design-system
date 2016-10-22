@@ -6,7 +6,7 @@ usage: The Helix color palette consists of deep modern hues juxtaposed with simp
 preview-image: visuals-color.svg
 ---
 <article id="primary-colors">
-  <h1 class="header-alt">Primary Colors <span class="status prototype">In Progress</span></h1>
+  <h1>Primary Colors <span class="status prototype">In Progress</span></h1>
   <p>Primary colors should be used sparingly for primary and secondary actions, alerts or data visualizations. Avoid adding color to "spice things up" as this will distract the user from his or her workflow.</p>
   <div class="row">
     {%for color_hash in site.data.colors%}
@@ -30,12 +30,12 @@ preview-image: visuals-color.svg
 </article>
 
 <article id="alert-colors">
-  <h1 class="header-alt">Alert Colors <span class="status dev-ready">Complete</span></h1>
+  <h1>Alert Colors <span class="status dev-ready">Complete</span></h1>
   <p>Secondary colors are used for content-specific needs, such as alerts and illustrations. They should never overpower the primary colors.</p>
   <div class="row">
     {%for color_hash in site.data.colors-alert%}
       {%assign color2=color_hash[1]%}
-      <div class="col-xs-12 col-md-4">
+      <div class="col-xs-12 col-sm-4 col-md-2">
         {%for value_hash in color2.colors%}
         {%assign value2=value_hash[1]%}
         <div class="ws-{{value2.class}}-swatch" style="background-color:{{value2.value}}">
@@ -54,7 +54,7 @@ preview-image: visuals-color.svg
 </article>
 
 <article>
-  <h1 class="header-alt">Greyscale <span class="status dev-ready">Complete</span></h1>
+  <h1>Greyscale <span class="status dev-ready">Complete</span></h1>
   <p>These colors are used largely for background blocks and large content areas. Be sure to use enough contrast between adjacent colors.</p>
 
   <div class="row">

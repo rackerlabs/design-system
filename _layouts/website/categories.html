@@ -1,21 +1,21 @@
 ---
 layout: website/default
 ---
-<div class="temp-table-con">
-    <table class="temp-overview-table" >
+<article class="categories">
+    <table>
         {% assign iconCount = 1 %}
     	{% for component in site.pages %}
             {% if component.category == page.title %}
         	   {% if iconCount == 1 %}
-                    <tr class="temp-overview-tr">
+                    <tr>
                 {% endif %}
-                        <td class="temp-overview-td">
-                            <a class="ws-no-underline"href="{{site.baseurl}}{{component.url}}.html">
+                        <td>
+                            <a href="{{site.baseurl}}{{component.url}}.html">
                                 <div class="ws-sum-con">
-                                    <h1 class="ws-h1-component-page">{{component.title}}</h1>
+                                  <h1>{{component.title}}</h1>
                                 	<img class="ws-preview-image" {% if component.preview-image %} src='{{site.baseurl}}/assets/img/{{component.preview-image}}' {% else %} src='{{site.baseurl}}{{site.websiteAssets}}/img/place-holder.svg' {% endif %}>
 
-                                    <p class="temp-remove-padding">{{component.usage}}</p>
+                                    <p>{{component.usage}}</p>
                                 </div>
                             </a>
                         </td>
@@ -27,4 +27,4 @@ layout: website/default
             {% endif %}
         {% endfor %}
     </table>
-</div>
+</article>

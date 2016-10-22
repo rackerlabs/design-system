@@ -1,0 +1,163 @@
+/*Statistic Classes*/
+
+.ui.statistics, .ui.statistics>.statistic, .ui.statistic{
+	margin:0;
+	padding:0;
+}
+
+.statistic .label, .statistic .value, .ui.statistic>.value, .ui.statistics .statistic>.value, .ui.statistic>.label, .ui.statistics .statistic>.label{
+	font-family: $base-font-family;
+	font-weight:100;
+  	font-size:$font-size-7;
+	line-height: $heading-line-height; 
+	text-transform: none; 
+	letter-spacing: 0;
+	color: $grey950;
+	margin:0;
+	padding:0;
+	text-align:center;
+}
+
+.statistic.left .label, .statistic.left .value, .ui.statistic.left>.value, .ui.statistics .statistic.left>.value, .ui.statistic.left>.label, .ui.statistics .statistic.left>.label{
+	text-align:left;
+}
+
+.statistic .label, .ui.statistic>.label, .ui.statistics .statistic>.label{
+	font-size:$base-font-size;
+	font-weight:400;
+	padding-top:4px;
+}
+
+.statistic .label.top, .ui.statistic>.label.top, .ui.statistics .statistic>.label.top{
+	padding:0 0 4px 0;
+}
+
+.mini.statistic .value, .ui.mini.horizontal.statistic>.value, .ui.mini.horizontal.statistics .statistic>.value, .ui.mini.statistic>.value, .ui.mini.statistics .statistic>.value, .ui.horizontal.statistics .mini.statistic>.value{
+	font-size:$base-font-size;
+	font-weight:500;
+}
+
+.mini.statistic .label, .ui.mini.horizontal.statistic>.label, .ui.mini.horizontal.statistics .statistic>.label, .ui.mini.statistic>.label, .ui.mini.statistics .statistic>.label, .ui.horizontal.statistics .mini.statistic>.label{
+	font-weight:400;
+	padding-top:4px;
+	font-size:$font-size-3;
+}
+
+.small.statistic .value, .ui.small.horizontal.statistic>.value, .ui.small.horizontal.statistics .statistic>.value, .ui.small.statistic>.value, .ui.small.statistics .statistic>.value, .ui.horizontal.statistics .small.statistic>.value{
+	font-weight:300;
+  	font-size:$font-size-6;
+}
+
+.large.statistic .value, .ui.large.horizontal.statistic>.value, .ui.large.horizontal.statistics .statistic>.value, .ui.large.statistic>.value, .ui.large.statistics .statistic>.value{
+  	font-size:$font-size-8;
+}
+
+
+
+
+/*Percent Impression*/
+
+.ds-per-imp-con{
+	height:10px;
+	width:12px;
+	margin:0 8px 0 0;
+	background-color:$grey300;
+	position: relative;
+	float:left;
+}
+
+.ds-per-imp-con-h{
+	height:12px;
+	width:100%;
+	margin:8px 0 0 0;
+	background-color:$grey300;
+}
+
+.ds-per-imp-inner{
+	width:100%;
+	background-color:$cyan700;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.ds-per-imp-inner-h{
+	background-color:$cyan700;
+	height:100%;
+}
+
+
+
+/*Chart header spacing*/
+
+.ds-chart-header{
+	padding-bottom: $paddingXL;
+	line-height:1.25em;
+}
+
+
+
+/*Custom right legend*/
+
+.ds-right-legend ul{
+	margin: 0;
+  	padding: 0;
+}
+
+.ds-right-legend li{
+	font-size:14px;
+	list-style: none;
+	padding-bottom:12px;
+}
+
+.ds-right-legend li:last-of-type{
+	padding-bottom:0px;
+}
+
+.ds-right-legend li span{
+	display: inline-block;
+	vertical-align:middle;
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+
+.ds-right-legend li span{
+	display: inline-block;
+	vertical-align:middle;
+    width: 44px;
+    height: 18px;
+    margin-right: 8px;
+}
+.ds-right-legend.many li{
+	padding-bottom:6px;
+}
+
+.ds-right-legend.many li:last-of-type{
+	padding-bottom:0px;
+}
+
+.ds-right-legend.many li span{
+	height: 12px;
+}
+
+.ds-chart-subtext{
+	display: inline-block;
+	margin-top: 28px;
+}
+
+.ds-custom-chart-con{
+	display : flex;
+  	align-items : center;
+}
+
+.ds-per-doughnut-con{
+	position:relative;
+}
+
+.ds-per-doughnut-center, .ds-per-doughnut-center-lg{
+	position:absolute;
+	z-index:100;
+	width:100%;
+	text-align:center;
+}

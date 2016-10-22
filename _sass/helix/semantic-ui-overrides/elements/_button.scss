@@ -1,0 +1,160 @@
+/*******************************
+            Button
+*******************************/
+
+.ui.button {
+  color: $grey0;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  font-weight: 400;
+  text-transform:uppercase;
+  margin: 0;
+  padding: 16px;
+  background: $action700;
+  border: 1px solid $action700;
+  white-space: nowrap;
+  border-radius: 2px;
+
+  &:hover,
+  &:focus,
+  &.hover {
+    background: $action500;
+    border: 1px solid $action500;
+    color: #fff;
+  }
+
+  &:active,
+  &.active,
+  &.active.button {
+    background: $action900;
+    border: 1px solid $action900;
+    color: #fff;
+  }
+
+  &[disabled],
+  &.disabled {
+    color: $grey800;
+    background: $grey400;
+    border-color: $grey400;
+    cursor: default;
+    box-shadow: none;
+    cursor:not-allowed;
+    opacity: 1 !important;
+  }
+
+  &.default,
+  &.default:hover {
+    background: $action700;
+    border: 1px solid $action700;
+    outline:none;
+  }
+
+  &.ds-btn-med, &.ds-btn-med-sec, &.ds-btn-med-tert{
+    padding: 8px 10px;
+    font-size: $font-size-3;
+  }
+
+  &.ds-btn-sm, &.ds-btn-sm-sec, &.ds-btn-sm-tert{
+    padding: 4px 8px;
+    font-size: $font-size-1;
+    line-height: 21px;
+  }
+
+  &.ds-btn-sec, &.ds-btn-med-sec, &.ds-btn-sm-sec, &.ds-btn-tert, &.ds-btn-med-tert, &.ds-btn-sm-tert{
+    background:transparent;
+    color:$action700;
+
+    &:hover,
+    &:focus,
+    &.hover {
+      color:$grey0;
+      background: $action500;
+      border: 1px solid $action500;
+      outline:none;
+    }
+
+    &:active,
+    &.active,
+    &.active:hover {
+      color:$grey0;
+      background: $action900;
+      border: 1px solid $action900;
+      outline:none;
+    }
+
+    &.default,
+    &.default:hover {
+      background: transparent;
+      border: 1px solid $action700;
+      color:$action700;
+      outline:none;
+    }
+  }
+
+  &.ds-btn-tert, &.ds-btn-med-tert, &.ds-btn-sm-tert{
+    border: 1px solid $grey900;
+    color:$grey900;
+
+    &:active,
+    &.active,
+    &.active:hover {
+      color:$grey0;
+      background: $action900;
+      border: 1px solid $action900;
+      outline:none;
+    }
+
+    &.default,
+    &.default:hover {
+      border: 1px solid $grey900;
+      color:$grey900;
+    }
+
+  }
+
+}
+
+/*******************************
+            Groups
+*******************************/
+
+.ui.buttons:not(.basic):not(.inverted) {
+  font-size: inherit;
+  margin: 0;
+  .button, .button:hover {
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+    &:first-child {
+      border-radius: 2px 0 0 2px;
+      border-left: 1px solid $action700;
+    }
+    &:last-child {
+      border-radius: 0 2px 2px 0;
+      border-right: 1px solid $action700;
+    }
+  }
+  .button.disabled {
+    background-color: transparent;
+    border-color: $grey500;
+    color: $grey700;
+    opacity: 1 !important;
+    &.active {
+      background-color: $grey400;
+      color: $grey800;
+    }
+  }
+  .button.error, .button.error.active {
+    border-color: $red900;
+    box-shadow: inset -2px -1px 0px 0px rgba(211,47,47,1), inset 2px 1px 0px 0px rgba(211,47,47,1);
+    &:first-child {
+      border-left: 2px solid $red900;
+
+      box-shadow: inset -2px -1px 0px 0px rgba(211,47,47,1), inset 0 1px 0px 0px rgba(211,47,47,1);
+    }
+    &:last-child {
+      border-right: 2px solid $red900;
+      box-shadow: inset 0px -1px 0px 0px rgba(211,47,47,1), inset 2px 1px 0px 0px rgba(211,47,47,1);
+    }
+  }
+}

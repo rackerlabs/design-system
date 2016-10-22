@@ -1,3 +1,7 @@
+body {
+  background-color: $grey25;
+}
+
 /**
  * Site header
  */
@@ -135,77 +139,209 @@ nav {
 }
 
 /**
- * Post page content
+ * Page layout
  */
 .page-wrapper {
     position: relative;
     float: right;
     width: calc(100% - 17em);
-    top: 40px;
-
-    .page-heading {
-        font-size: 3em;
-        font-weight:100;
-        color: #424242;
-        padding: 40px 28px;
-    }
-
+    top: 0;
     .page-content {
-        padding: 0 28px 40px 28px;
         overflowY: scroll;
         box-sizing: border-box;
     }
 }
 
 /**
- * Post page content
+ * Content styles
  */
 
-.temp-table-con{
+article {
+	padding: 80px 28px;
+  position: relative;
+}
+
+article:nth-child(odd) {
+  background-color: $grey100;
+}
+
+article.page-header {
+  background-color: $grey25;
+  padding-bottom: 0;
+}
+
+article:nth-child(2) {
+  padding-top: 0;
+}
+
+a.anchor {
+  position: absolute;
+  top: 0;
+}
+
+.ws-todo-bar{
+	background-color:$purple500;
+	border-radius:2px;
+	color:white;
+	padding:$paddingXS $paddingS !important;
+	-webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+	a {
+		color:#FBC02D;
+		font-weight: 500;
+	}
+	a:hover, a:active{
+		color: #FFEB3B;
+	}
+}
+
+.status {
+	background-color: $grey300;
+  padding: $paddingXS $paddingS;
+  border-radius: 12px;
+  font-weight:400;
+	font-size:12px;
+	letter-spacing:0.5px;
+  color: #fff;
+  vertical-align: 4px;
+  white-space: nowrap;
+  margin-left: 2em;
+  display:inline-block;
+}
+
+.prototype {
+	background-color: $purple;
+}
+
+.dev-ready {
+	background-color: $green;
+}
+
+/**
+ * Categories layout
+ */
+
+.categories {
     margin: -20px;
-}
-
-.temp-overview-table{
-    border-collapse: separate;
-    border-spacing: 20px;
-    table-layout: fixed;
-}
-
-.temp-overview-td{
-    border: 1px solid #e0e0e0;
-    padding: 0;
-    border-radius: 2px;
-    transition: all .4s ease;
-    width: 33.3333%;
-}
-
-.temp-overview-td:hover{
-    background-color: #eeeeee;
+    table{
+        border-collapse: separate;
+        border-spacing: 20px;
+        table-layout: fixed;
+        td{
+            border: 1px solid #e0e0e0;
+            padding: 0;
+            border-radius: 2px;
+            transition: all .4s ease;
+            width: 33.3333%;
+            &:hover{
+                background-color: #eeeeee;
+            }
+            h1 {
+                font-weight: 400;
+                margin: 0;
+                text-decoration: none;
+            }
+            img{
+                display: inline-block;
+                text-align: center;
+                margin: 20px 0;
+                max-width: 100%;
+            }
+            a {
+                color: $grey950;
+                text-decoration: none;
+            }
+        }
+    }
 }
 
 .ws-sum-con{
     padding: 20px;
 }
 
-.ws-sum-con:hover{
-}
+/* Overview formatting */
 
-.ws-preview-image{
-    display: inline-block;
+.overview {
+  .display-font {
     text-align: center;
-    margin: 20px 0;
-    max-width: 100%;
-}
+  }
+  p, .visuals {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 730px;
+    text-align: center;
+  }
+  .column {
+    float: left;
+    margin-right: 65px;
+    margin-top: 8px;
+    width: 200px;
+    &:last-of-type {
+      margin-right: 0;
+    }
+    img {
+      height: 65px;
+      margin-bottom: 12px;
+      width: auto;
+    }
+  }
+  .cta {
+    padding-bottom: 40px;
+  }
+  .arrow {
+    text-align: center;
+    img {
+      height: auto;
+      width: 32px;
+    }
+  }
+  .ui.form {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 730px;
+    p {
+      text-align: left;
+    }
+  }
+  .two-col-form {
+    float: left;
+    margin-bottom: 40px;
+    margin-right: 40px;
+    width: 345px;
+    &:nth-child(even) {
+      margin-right: 0;
+    }
 
-.ws-h1-component-page{
-    font-weight: 400;
-    text-decoration: none;
-}
-
-.temp-remove-padding{
-    padding: 0;
-}
-
-.ws-no-underline, .ws-no-underline:hover, .ws-no-underline:active{
-    text-decoration: none;
+  }
+  .overview-button {
+    clear: both;
+    padding-top: 40px;
+    text-align: center;
+  }
+  .ui.form .ui.icon.message {
+    background: $grey50;
+    border: 1px solid $grey300;
+    border-radius: 2px;
+    clear: both;
+    margin: 40px auto 0 auto;
+    max-width: 730px;
+    width: 100%;
+    padding: 12px 20px;
+    position: relative;
+    .icon, .content {
+      display: inline-block;
+    }
+    p {
+      color: $grey900;
+    }
+    i.icon.check.circle {
+      color: $green;
+      font-size: 24px;
+      line-height: 24px;
+      width: 26px;
+      height: 26px;
+      margin-right: 16px;
+    }
+  }
 }

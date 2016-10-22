@@ -6,165 +6,178 @@ usage: Use primary, secondary and tertiary button types to signal important acti
 preview-image: components-buttons.svg
 ---
 
-<p class="ws-todo-bar"><b>TODO:</b> Update focus states for improved keyboard accesibility</p>
+<article>
+  <p class="ws-todo-bar"><b>TODO:</b> Update focus states for improved keyboard accesibility</p>
+</article>
 
-<!-- DEFAULT BUTTONS -->
-<!-- Button Tag -->
-<h1 class="ws-section-head">Primary Buttons<span class="status prototype">In Progress</span></h1>
-<p class="ws-first-p">Use the primary action button to prompt the user to take action. In most instances, use the standard size button. Use the compact buttons with space constraints such as within a table. Large buttons should be used in mobile designs to accommodate the ideal touch target size. Use one primary button per page.</p>
-<div class="ws-btn-group-size">
-  <div class="ws-btn-group">
-    <button class="ds-btn">Button Text</button>
-    <span class="subtext">Large</span>
-  </div>
-  <div class="ws-btn-group">
-    <button class="ds-btn-med">Button Text</button>
-    <span class="subtext">Standard</span>
-  </div>
-  <div class="ws-btn-group">
-    <button class="ds-btn-sm">Button Text</button>
-    <span class="subtext">Compact</span>
-  </div>
-</div>
-<h3 class="ws-btn-h3">Actions</h3>
-<div class="ws-btn-group-actions">
-  <div class="ws-btn-group">
-    <button class="ds-btn-med default">Button Text</button>
-    <span class="subtext">Default (700)</span>
-  </div>
-  <div class="ws-btn-group">
-    <button class="ds-btn-med hover">Button Text</button>
-    <span class="subtext">Hover (500)</span>
-  </div>
-  <div class="ws-btn-group">
-    <button class="ds-btn-med active">Button Text</button>
-    <span class="subtext">Pressed (900)</span>
-  </div>
-  <div class="ws-btn-group">
-    <button class="ds-btn-med disabled">Button Text</button>
-    <span class="subtext">Disabled (300)</span>
-  </div>
-</div>
-<h3 class="ws-btn-h3">Dropdown Button</h3>
-<div class="ws-btn-group-dropdown">
-  <div class="ws-btn-group">
-    <div class="dropdown-btn">
-      <select id="dropdown-btn">
-        <option selected disabled>Button Text</option>
-        <option value="A">Example A</option>
-        <option value="B">Example B</option>
-        <option value="C">Example C</option>
-        <option value="D">Example D</option>
-      </select>
+<article>
+  <h1>Primary Buttons<span class="status prototype">In Progress</span></h1>
+  <p>Use the primary action button to prompt the user to take action. In most instances, use the standard size button. Use the compact buttons with space constraints such as within a table. Large buttons should be used in mobile designs to accommodate the ideal touch target size. Use one primary button per page.</p>
+  <div class="ws-btn-group-size">
+    <div class="ws-btn-group">
+      <button class="ui button ds-btn">Button Text</button>
+      <span class="subtext">Large</span>
+    </div>
+    <div class="ws-btn-group">
+      <button class="ui button ds-btn-med">Button Text</button>
+      <span class="subtext">Standard</span>
+    </div>
+    <div class="ws-btn-group">
+      <button class="ui button ds-btn-sm">Button Text</button>
+      <span class="subtext">Compact</span>
     </div>
   </div>
-  <div class="ws-btn-group">
-    <div class="controlgroup">
-      <button class="ds-btn-med">Button Text</button>
-      <select id="dropdown-btn-combo">
-        <option value="A">Example A</option>
-        <option value="B">Example B</option>
-        <option value="C">Example C</option>
-        <option value="D">Example D</option>
-      </select>
+  <h3 class="ws-btn-h3">Actions</h3>
+  <div class="ws-btn-group-actions">
+    <div class="ws-btn-group">
+      <button class="ui button ds-btn-med default">Button Text</button>
+      <span class="subtext">Default (700)</span>
+    </div>
+    <div class="ws-btn-group">
+      <button class="ui button ds-btn-med hover">Button Text</button>
+      <span class="subtext">Hover (500)</span>
+    </div>
+    <div class="ws-btn-group">
+      <button class="ui button ds-btn-med active">Button Text</button>
+      <span class="subtext">Pressed (900)</span>
+    </div>
+    <div class="ws-btn-group">
+      <button class="ui button ds-btn-med disabled">Button Text</button>
+      <span class="subtext">Disabled (300)</span>
     </div>
   </div>
-</div>
+  <!--<h3 class="ws-btn-h3">Dropdown Button</h3>
+  <div class="ws-btn-group-dropdown">
+    <div class="ws-btn-group">
+      <div class="ui compact menu">
+        <div class="ui simple dropdown item">
+          Button Text
+          <i class="dropdown icon"></i>
+          <div class="menu">
+            <div class="item">Choice 1</div>
+            <div class="item">Choice 2</div>
+            <div class="item">Choice 3</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="ws-btn-group">
+      <div class="ui buttons">
+        <div class="ui button">Button Text</div>
+        <div class="ui floating dropdown icon button">
+          <i class="dropdown icon"></i>
+          <div class="menu">
+            <div class="item">Choice 1</div>
+            <div class="item">Choice 2</div>
+            <div class="item">Choice 3</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>-->
+</article>
 
-<h1 class="ws-section-head">Secondary Buttons<span class="status prototype">In Progress</span></h1>
-<p class="ws-first-p">The secondary button can be used in conjuction with the primary button or when there are multiple buttons on the same screen. The same sizing rules apply to both secondary and primary buttons.</p>
-<div class="ws-btn-group-size">
-  <div class="ws-btn-group">
-    <button class="ds-btn-sec">Button Text</button>
-    <span class="subtext">Large</span>
-  </div>
-  <div class="ws-btn-group">
-    <button class="ds-btn-med-sec">Button Text</button>
-    <span class="subtext">Standard</span>
-  </div>
-  <div class="ws-btn-group">
-    <button class="ds-btn-sm-sec">Button Text</button>
-    <span class="subtext">Compact</span>
-  </div>
-</div>
-<h3 class="ws-btn-h3">Actions</h3>
-<div class="ws-btn-group-actions">
-  <div class="ws-btn-group">
-    <button class="ds-btn-med-sec default">Button Text</button>
-    <span class="subtext">Default (700)</span>
-  </div>
-  <div class="ws-btn-group">
-    <button class="ds-btn-med hover">Button Text</button>
-    <span class="subtext">Hover (500)</span>
-  </div>
-  <div class="ws-btn-group">
-    <button class="ds-btn-med active">Button Text</button>
-    <span class="subtext">Pressed (900)</span>
-  </div>
-  <div class="ws-btn-group">
-    <button class="ds-btn-med disabled">Button Text</button>
-    <span class="subtext">Disabled (300)</span>
-  </div>
-</div>
-<h3 class="ws-btn-h3">Dropdown Button</h3>
-<div class="ws-btn-group-dropdown">
-  <div class="ws-btn-group">
-    <div class="dropdown-btn">
-      <select id="dropdown-btn-sec">
-        <option selected disabled>Button Text</option>
-        <option value="A">Example A</option>
-        <option value="B">Example B</option>
-        <option value="C">Example C</option>
-        <option value="D">Example D</option>
-      </select>
+<article>
+  <h1>Secondary Buttons<span class="status prototype">In Progress</span></h1>
+  <p>The secondary button can be used in conjuction with the primary button or when there are multiple buttons on the same screen. The same sizing rules apply to both secondary and primary buttons.</p>
+  <div class="ws-btn-group-size">
+    <div class="ws-btn-group">
+      <button class="ui button ds-btn-sec">Button Text</button>
+      <span class="subtext">Large</span>
+    </div>
+    <div class="ws-btn-group">
+      <button class="ui button ds-btn-med-sec">Button Text</button>
+      <span class="subtext">Standard</span>
+    </div>
+    <div class="ws-btn-group">
+      <button class="ui button ds-btn-sm-sec">Button Text</button>
+      <span class="subtext">Compact</span>
     </div>
   </div>
-  <div class="ws-btn-group">
-    <div class="controlgroup">
-      <button class="ds-btn-med-sec">Button Text</button>
-      <select id="dropdown-btn-combo-sec">
-        <option value="A">Example A</option>
-        <option value="B">Example B</option>
-        <option value="C">Example C</option>
-        <option value="D">Example D</option>
-      </select>
+  <h3 class="ws-btn-h3">Actions</h3>
+  <div class="ws-btn-group-actions">
+    <div class="ws-btn-group">
+      <button class="ui button ds-btn-med-sec default">Button Text</button>
+      <span class="subtext">Default (700)</span>
+    </div>
+    <div class="ws-btn-group">
+      <button class="ui button ds-btn-med hover">Button Text</button>
+      <span class="subtext">Hover (500)</span>
+    </div>
+    <div class="ws-btn-group">
+      <button class="ui button ds-btn-med active">Button Text</button>
+      <span class="subtext">Pressed (900)</span>
+    </div>
+    <div class="ws-btn-group">
+      <button class="ui button ds-btn-med disabled">Button Text</button>
+      <span class="subtext">Disabled (300)</span>
     </div>
   </div>
-</div>
+  <!--<h3 class="ws-btn-h3">Dropdown Button</h3>
+  <div class="ws-btn-group-dropdown">
+    <div class="ws-btn-group">
+      <div class="ui compact menu">
+        <div class="ui simple dropdown item">
+          Button Text
+          <i class="dropdown icon"></i>
+          <div class="menu">
+            <div class="item">Choice 1</div>
+            <div class="item">Choice 2</div>
+            <div class="item">Choice 3</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="ws-btn-group">
+      <div class="ui buttons">
+        <div class="ui button">Button Text</div>
+        <div class="ui floating dropdown icon button">
+          <i class="dropdown icon"></i>
+          <div class="menu">
+            <div class="item">Choice 1</div>
+            <div class="item">Choice 2</div>
+            <div class="item">Choice 3</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>-->
+</article>
 
-<!-- Anchor Tag -->
-<h1 class="ws-section-head">Tertiary Buttons<span class="status prototype">In Progress</span></h1>
-<p class="ws-first-p">Tertiary buttons can be used in conjuction with the primary button or with a primary and secondary button. Tertiary buttons should be used to deemphasize the action in comparison with the actions of primary or secondary buttons.  For example, use a tertiary button for "cancel" and a primary button to emphasize "submit".</p>
-<div class="ws-btn-group-size">
-  <div class="ws-btn-group">
-    <button class="ds-btn-tert" style="line-height: 28px;">Button Text</button>
-    <span class="subtext">Large</span>
+<article>
+  <h1>Tertiary Buttons<span class="status prototype">In Progress</span></h1>
+  <p>Tertiary buttons can be used in conjuction with the primary button or with a primary and secondary button. Tertiary buttons should be used to deemphasize the action in comparison with the actions of primary or secondary buttons.  For example, use a tertiary button for "cancel" and a primary button to emphasize "submit".</p>
+  <div class="ws-btn-group-size">
+    <div class="ws-btn-group">
+      <button class="ui button ds-btn-tert">Button Text</button>
+      <span class="subtext">Large</span>
+    </div>
+    <div class="ws-btn-group">
+      <button class="ui button ds-btn-med-tert">Button Text</button>
+      <span class="subtext">Standard</span>
+    </div>
+    <div class="ws-btn-group">
+      <button class="ui button ds-btn-sm-tert">Button Text</button>
+      <span class="subtext">Compact</span>
+    </div>
   </div>
-  <div class="ws-btn-group">
-    <button class="ds-btn-med-tert" style="line-height: 28px;">Button Text</button>
-    <span class="subtext">Standard</span>
+  <h3 class="ws-btn-h3">Actions</h3>
+  <div class="ws-btn-group-actions">
+    <div class="ws-btn-group">
+      <button class="ui button ds-btn-med-tert default">Button Text</button>
+      <span class="subtext">Default (700)</span>
+    </div>
+    <div class="ws-btn-group">
+      <button class="ui button hover ds-btn-med-tert">Button Text</button>
+      <span class="subtext">Hover (500)</span>
+    </div>
+    <div class="ws-btn-group">
+      <button class="ui button active ds-btn-med-tert">Button Text</button>
+      <span class="subtext">Pressed (900)</span>
+    </div>
+    <div class="ws-btn-group">
+      <button class="ui button disabled ds-btn-med-tert">Button Text</button>
+      <span class="subtext">Disabled (700)</span>
+    </div>
   </div>
-  <div class="ws-btn-group">
-    <button class="ds-btn-sm-tert" style="line-height: 28px;">Button Text</button>
-    <span class="subtext">Compact</span>
-  </div>
-</div>
-<h3 class="ws-btn-h3">Actions</h3>
-<div class="ws-btn-group-actions">
-  <div class="ws-btn-group">
-    <button class="ds-btn-med-tert">Button Text</button>
-    <span class="subtext">Default (700)</span>
-  </div>
-  <div class="ws-btn-group">
-    <button class="hover ds-btn-med-tert">Button Text</button>
-    <span class="subtext">Hover (500)</span>
-  </div>
-  <div class="ws-btn-group">
-    <button class="active ds-btn-med-tert">Button Text</button>
-    <span class="subtext">Pressed (900)</span>
-  </div>
-  <div class="ws-btn-group">
-    <button class="disabled ds-btn-med-tert">Button Text</button>
-    <span class="subtext">Disabled (700)</span>
-  </div>
-</div>
+</article>

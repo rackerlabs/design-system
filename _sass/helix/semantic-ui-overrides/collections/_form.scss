@@ -1,0 +1,416 @@
+/*******************************
+            Elements
+*******************************/
+
+.ui.form {
+  max-width: 464px;
+}
+
+/*--------------------
+        Content
+---------------------*/
+
+.ui.form > p {
+  margin: 0;
+}
+
+/*--------------------
+        Field
+---------------------*/
+
+.ui.form .field {
+  margin: 0em 0em 20px;
+}
+
+/*--------------------
+        Labels
+---------------------*/
+
+.ui.form .field > label {
+  margin: 0 0 8px 0;
+  color: inherit;
+  font-size: 0.875em;
+  font-weight: inherit;
+}
+
+/*--------------------
+    Standard Inputs
+---------------------*/
+
+.ui.form input:not([type]),
+.ui.form input[type="date"],
+.ui.form input[type="datetime-local"],
+.ui.form input[type="email"],
+.ui.form input[type="number"],
+.ui.form input[type="password"],
+.ui.form input[type="search"],
+.ui.form input[type="tel"],
+.ui.form input[type="time"],
+.ui.form input[type="text"],
+.ui.form input[type="file"],
+.ui.form input[type="url"] {
+  margin: 0;
+  line-height: 22px;
+  padding: $paddingXS $paddingS;
+  border: 1px solid $grey500;
+  color: inherit;
+  border-radius: 2px;
+  font-family: inherit;
+  box-shadow: none;
+  max-width: 532px;
+  width: -webkit-calc(100% - 24px);
+  width: -moz-calc(100% - 24px);
+  width: calc(100% - 24px);
+}
+
+/* Text Area */
+.ui.form textarea {
+  padding: $paddingXS $paddingS;
+  border: 1px solid #bdbdbd;
+  color: inherit;
+  border-radius: 2px;
+  line-height: 22px;
+  font-family: inherit;
+}
+
+/*--------------------
+     Basic Select
+---------------------*/
+
+.ui.form select {
+  display: block;
+  height: auto;
+  width: 100%;
+  background: #fff;
+  border: 1px solid #bdbdbd;
+  border-radius: 2px;
+  box-shadow: none;
+  padding: 0.62em 1em;
+  color: inherit;
+}
+
+/*--------------------
+       Dropdown
+---------------------*/
+
+/* Block */
+.ui.form .field > .selection.dropdown {
+  width: 100%;
+}
+.ui.form .field > .selection.dropdown > .dropdown.icon {
+  float: right;
+}
+
+/* Inline */
+.ui.form .inline.fields .field > .selection.dropdown,
+.ui.form .inline.field > .selection.dropdown {
+  width: auto;
+}
+.ui.form .inline.fields .field > .selection.dropdown > .dropdown.icon,
+.ui.form .inline.field > .selection.dropdown > .dropdown.icon {
+  float: none;
+}
+
+/*******************************
+            States
+*******************************/
+
+
+/*--------------------
+      Autofilled
+---------------------*/
+
+
+/*--------------------
+      Placeholder
+---------------------*/
+
+
+/* browsers require these rules separate */
+.ui.form ::-webkit-input-placeholder {
+  color: $grey600;
+  font-style: italic;
+}
+.ui.form :-ms-input-placeholder {
+  color: $grey600;
+  font-style: italic;
+}
+.ui.form ::-moz-placeholder {
+  color: $grey600;
+  font-style: italic;
+}
+.ui.form :focus::-webkit-input-placeholder {
+  color: $grey600;
+  font-style: italic;
+}
+.ui.form :focus:-ms-input-placeholder {
+  color: $grey600;
+  font-style: italic;
+}
+.ui.form :focus::-moz-placeholder {
+  color: $grey600;
+  font-style: italic;
+}
+
+/* Error Placeholder */
+.ui.form .error ::-webkit-input-placeholder {
+  color: $grey600;
+}
+.ui.form .error :-ms-input-placeholder {
+  color: $grey600;
+}
+.ui.form .error ::-moz-placeholder {
+  color: $grey600;
+}
+.ui.form .error :focus::-webkit-input-placeholder {
+  color: $grey600;
+}
+.ui.form .error :focus:-ms-input-placeholder {
+  color: $grey600;
+}
+.ui.form .error :focus::-moz-placeholder {
+  color: $grey600;
+}
+
+/*--------------------
+        Focus
+---------------------*/
+
+.ui.form input:not([type]):focus,
+.ui.form input[type="date"]:focus,
+.ui.form input[type="datetime-local"]:focus,
+.ui.form input[type="email"]:focus,
+.ui.form input[type="number"]:focus,
+.ui.form input[type="password"]:focus,
+.ui.form input[type="search"]:focus,
+.ui.form input[type="tel"]:focus,
+.ui.form input[type="time"]:focus,
+.ui.form input[type="text"]:focus,
+.ui.form input[type="file"]:focus,
+.ui.form input[type="url"]:focus {
+  color: inherit;
+  border-color: $action500;
+  border-radius: 2px;
+  background: #FFFFFF;
+  box-shadow: none;
+}
+.ui.form textarea:focus {
+  color: inherit;
+  border-color: $action500;
+  border-radius: 2px;
+  background: #FFFFFF;
+  box-shadow: none;
+}
+
+
+
+/*--------------------
+        Error
+---------------------*/
+
+/* On Field(s) */
+.ui.form .fields.error .field label,
+.ui.form .field.error label,
+.ui.form .fields.error .field .input,
+.ui.form .field.error .input {
+  color: inherit;
+}
+
+.ui.form .fields.error .field textarea,
+.ui.form .fields.error .field select,
+.ui.form .fields.error .field input:not([type]),
+.ui.form .fields.error .field input[type="date"],
+.ui.form .fields.error .field input[type="datetime-local"],
+.ui.form .fields.error .field input[type="email"],
+.ui.form .fields.error .field input[type="number"],
+.ui.form .fields.error .field input[type="password"],
+.ui.form .fields.error .field input[type="search"],
+.ui.form .fields.error .field input[type="tel"],
+.ui.form .fields.error .field input[type="time"],
+.ui.form .fields.error .field input[type="text"],
+.ui.form .fields.error .field input[type="file"],
+.ui.form .fields.error .field input[type="url"],
+.ui.form .field.error textarea,
+.ui.form .field.error select,
+.ui.form .field.error input:not([type]),
+.ui.form .field.error input[type="date"],
+.ui.form .field.error input[type="datetime-local"],
+.ui.form .field.error input[type="email"],
+.ui.form .field.error input[type="number"],
+.ui.form .field.error input[type="password"],
+.ui.form .field.error input[type="search"],
+.ui.form .field.error input[type="tel"],
+.ui.form .field.error input[type="time"],
+.ui.form .field.error input[type="text"],
+.ui.form .field.error input[type="file"],
+.ui.form .field.error input[type="url"] {
+  background: #fff;
+  border: 2px solid $red900;
+  color: inherit;
+  border-radius: 2px;
+}
+.ui.form .field.error textarea:focus,
+.ui.form .field.error select:focus,
+.ui.form .field.error input:not([type]):focus,
+.ui.form .field.error input[type="date"]:focus,
+.ui.form .field.error input[type="datetime-local"]:focus,
+.ui.form .field.error input[type="email"]:focus,
+.ui.form .field.error input[type="number"]:focus,
+.ui.form .field.error input[type="password"]:focus,
+.ui.form .field.error input[type="search"]:focus,
+.ui.form .field.error input[type="tel"]:focus,
+.ui.form .field.error input[type="time"]:focus,
+.ui.form .field.error input[type="text"]:focus,
+.ui.form .field.error input[type="file"]:focus,
+.ui.form .field.error input[type="url"]:focus {
+  background: #fff;
+  border: 2px solid $red900;
+  color: inherit;
+}
+
+/*------------------
+    Dropdown Error
+--------------------*/
+
+.ui.form .fields.error .field .ui.dropdown,
+.ui.form .fields.error .field .ui.dropdown .item,
+.ui.form .field.error .ui.dropdown,
+.ui.form .field.error .ui.dropdown .text,
+.ui.form .field.error .ui.dropdown .item {
+  background: #fff;
+  color: inherit;
+}
+.ui.form .fields.error .field .ui.dropdown,
+.ui.form .field.error .ui.dropdown {
+  border: 2px solid $red900 !important;
+}
+.ui.form .fields.error .field .ui.dropdown:hover,
+.ui.form .field.error .ui.dropdown:hover {
+  border: 2px solid $red900 !important;
+}
+.ui.form .fields.error .field .ui.dropdown:hover .menu,
+.ui.form .field.error .ui.dropdown:hover .menu {
+  border: 2px solid $red900 !important;
+}
+.ui.form .fields.error .field .ui.multiple.selection.dropdown > .label,
+.ui.form .field.error .ui.multiple.selection.dropdown > .label {
+  background-color: inherit;
+  color: inherit;
+}
+
+/* Hover */
+.ui.form .fields.error .field .ui.dropdown .menu .item:hover,
+.ui.form .field.error .ui.dropdown .menu .item:hover {
+  background-color: inherit;
+}
+
+/* Selected */
+.ui.form .fields.error .field .ui.dropdown .menu .selected.item,
+.ui.form .field.error .ui.dropdown .menu .selected.item {
+  background-color: inherit;
+}
+
+/* Active */
+.ui.form .fields.error .field .ui.dropdown .menu .active.item,
+.ui.form .field.error .ui.dropdown .menu .active.item {
+  background-color: inherit !important;
+}
+
+/*--------------------
+    Checkbox Error
+---------------------*/
+
+.ui.form .fields.error .field .checkbox:not(.toggle):not(.slider) label,
+.ui.form .field.error .checkbox:not(.toggle):not(.slider) label,
+.ui.form .fields.error .field .checkbox:not(.toggle):not(.slider) .box,
+.ui.form .field.error .checkbox:not(.toggle):not(.slider) .box {
+  color: inherit;
+}
+.ui.form .fields.error .field .checkbox:not(.toggle):not(.slider) label:before,
+.ui.form .field.error .checkbox:not(.toggle):not(.slider) label:before,
+.ui.form .fields.error .field .checkbox:not(.toggle):not(.slider) .box:before,
+.ui.form .field.error .checkbox:not(.toggle):not(.slider) .box:before {
+  background-color: transparent;
+  color: $red900;
+}
+.ui.form .fields.error .field .checkbox label:after,
+.ui.form .field.error .checkbox label:after,
+.ui.form .fields.error .field .checkbox .box:after,
+.ui.form .field.error .checkbox .box:after {
+  color: $red900;
+}
+
+/*--------------------
+       Disabled
+---------------------*/
+
+.ui.form .disabled.fields .field,
+.ui.form .disabled.field,
+.ui.form .field :disabled,
+.ui.form .field.disabled > label,
+.ui.form .fields.disabled > label {
+  opacity: 1;
+  color: $grey800;
+  cursor: not-allowed;
+}
+
+.ui.form .disabled.field input,
+.ui.form .disabled.field textarea {
+  background-color: $grey50 !important;
+  border: 1px solid $grey300 !important;
+}
+
+/*******************************
+         Element Types
+*******************************/
+
+
+/*--------------------
+     Required Field
+---------------------*/
+
+.ui.form .required.fields:not(.grouped) > .field > label:after,
+.ui.form .required.fields.grouped > label:after,
+.ui.form .required.field > label:after,
+.ui.form .required.fields:not(.grouped) > .field > .checkbox:after,
+.ui.form .required.field > .checkbox:after {
+  content: '';
+}
+.ui.form .required.field>.checkbox:before,
+.ui.form .required.field>label:before,
+.ui.form .required.fields.grouped>label:before,
+.ui.form .required.fields:not(.grouped)>.field>.checkbox:before,
+.ui.form .required.fields:not(.grouped)>.field>label:before, legend.required:before {
+  margin: -.2em 4px 0 0;
+  content: '*';
+  color: $red900;
+}
+
+/*--------------------
+     Field Groups
+---------------------*/
+
+
+/* Grouped Vertically */
+.ui.form .grouped.fields {
+  display: block;
+  margin: 0em 0em 20px;
+}
+
+.ui.form .grouped.fields > label {
+  margin: 0 0 8px 0;
+  color: inherit;
+  font-size: $font-size-3;
+  font-weight: inherit;
+  display: block;
+}
+.ui.form .grouped.fields .field,
+.ui.form .grouped.inline.fields .field {
+  display: block;
+  margin: 0.5em 0em;
+  padding: 0em;
+}
+
+.ui.form .grouped.fields .field, .ui.form .grouped.inline.fields .field {
+  margin: 0 0 4px 0;
+}

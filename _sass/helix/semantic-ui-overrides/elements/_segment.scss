@@ -1,0 +1,28 @@
+/*******************************
+            Segment
+*******************************/
+
+.ui.segment {
+  background: transparent;
+  box-shadow: none;
+  margin: 0;
+  padding: 0;
+  border-radius: 0;
+  border: none;
+  h3 {
+    margin-bottom: 12px;
+  }
+}
+
+/* Group */
+.ui.segments {
+  margin: 1rem 0em;
+  border: none;
+  box-shadow: none;
+  border-radius: 0;
+}
+/* Nested Segment */
+.ui.segments>.segment {
+  border: none;
+  padding: 0 0 2em 0;
+}
