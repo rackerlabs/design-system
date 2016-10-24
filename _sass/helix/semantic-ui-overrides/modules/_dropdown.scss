@@ -28,11 +28,10 @@
   width: auto;
   font-size: 10px;
   margin: 0em 0em 0em 1em;
-}
-.ui.dropdown > .dropdown.icon {
   font-family: 'DS_icon_font';
   height: 1em;
   width: 1.23em;
+  color: $grey600;
 }
 .ui.dropdown > .dropdown.icon:before {
   content: '\e900';
@@ -64,15 +63,15 @@
 .ui.selection.dropdown {
   min-width: 14em;
   min-height: 32px;
-  padding: 0.5em 1em 0.25em 1em;
+  padding: .5em 1em 0 1em;
   border-radius: 2px;
   background: #fff;
   border: 1px solid $grey500;
   color: $grey800;
 }
 select.ui.dropdown {
-  height: 38px;
-  padding: 0.5em;
+  height: 32px;
+  padding: .5em 1em 0 1em;
   border: 1px solid $grey500;
 }
 .ui.selection.dropdown > .search.icon,
@@ -184,7 +183,7 @@ select.ui.dropdown {
 /* Search Selection */
 .ui.search.selection.dropdown > input.search {
   line-height: 1em;
-  padding: .5em 1em;
+  padding: .5em 1em 0 1em;
 }
 
 /* Used to size multi select input to character width */
@@ -208,7 +207,8 @@ select.ui.dropdown {
 
 /* Multiple Selection */
 .ui.multiple.dropdown {
-  padding: inherit;
+  line-height: 1em;
+  padding: .5em 1em 0 1em;
 }
 
 /* Selection Label */
@@ -221,8 +221,6 @@ select.ui.dropdown {
 /* Text */
 .ui.multiple.dropdown > .text {
   margin: 0;
-  line-height: 1em;
-  padding: .5em 1em;
   color: $grey800;
 }
 .ui.multiple.dropdown > .label ~ input.search {
@@ -237,16 +235,18 @@ select.ui.dropdown {
 .ui.multiple.search.dropdown > .text {
   margin: 0;
   line-height: 1em;
-  padding: .5em 1em;
+  padding: .5em 1em 0 1em;
+}
+.ui.multiple.search.dropdown > .text {
   color: $grey800;
 }
 
 /* Search */
 .ui.multiple.search.dropdown > input.search {
   padding: 0;
-  margin: 0.45240952em 0em 0.45240952em 0.64285714em;
+  margin: 0;
   width: 2.2em;
-  line-height: 1.21428571em;
+  line-height: 1em;
 }
 
 /*******************************
