@@ -278,11 +278,20 @@
 .ui.form .field.error .ui.dropdown .text,
 .ui.form .field.error .ui.dropdown .item {
   background: #fff;
-  color: inherit;
+  color: $grey800;
+}
+.ui.form .field.error .ui.dropdown .item {
+  color: $grey600;
 }
 .ui.form .fields.error .field .ui.dropdown,
 .ui.form .field.error .ui.dropdown {
   border: 2px solid $red900 !important;
+  &.active {
+    border-bottom: 1px solid $grey500 !important;
+    &:hover {
+      border-bottom: 1px solid $grey500 !important;
+    }
+  }
 }
 .ui.form .fields.error .field .ui.dropdown:hover,
 .ui.form .field.error .ui.dropdown:hover {
@@ -291,6 +300,7 @@
 .ui.form .fields.error .field .ui.dropdown:hover .menu,
 .ui.form .field.error .ui.dropdown:hover .menu {
   border: 2px solid $red900 !important;
+  border-top: 0 !important;
 }
 .ui.form .fields.error .field .ui.multiple.selection.dropdown > .label,
 .ui.form .field.error .ui.multiple.selection.dropdown > .label {
@@ -301,19 +311,22 @@
 /* Hover */
 .ui.form .fields.error .field .ui.dropdown .menu .item:hover,
 .ui.form .field.error .ui.dropdown .menu .item:hover {
-  background-color: inherit;
+  background-color: $grey600;
+  color: #FFF;
 }
 
 /* Selected */
 .ui.form .fields.error .field .ui.dropdown .menu .selected.item,
 .ui.form .field.error .ui.dropdown .menu .selected.item {
-  background-color: inherit;
+  background-color: $grey600 !important;
+  color: #FFF;
 }
 
 /* Active */
 .ui.form .fields.error .field .ui.dropdown .menu .active.item,
 .ui.form .field.error .ui.dropdown .menu .active.item {
-  background-color: inherit !important;
+  background-color: $grey600;
+  color: #FFF;
 }
 
 /*--------------------
