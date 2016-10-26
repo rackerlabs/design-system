@@ -13,7 +13,7 @@
 ---------------*/
 
 .ui.dropdown .menu {
-  background: $grey25;
+  background: #fff;
   box-shadow: none;
   border: 1px solid $grey500;
   border-radius: 2px;
@@ -26,12 +26,12 @@
 .ui.dropdown > .dropdown.icon {
   position: relative;
   width: auto;
-  font-size: 10px;
+  font-size: 8px;
   margin: 0em 0em 0em 1em;
   font-family: 'DS_icon_font';
   height: 1em;
   width: 1.23em;
-  color: $grey600;
+  color: $grey700;
 }
 .ui.dropdown > .dropdown.icon:before {
   content: '\e900';
@@ -50,7 +50,7 @@
 .ui.dropdown .menu > .item {
   border-top: none;
   line-height: 1em;
-  color: $grey600;
+  color: $grey700;
   padding: 8px 1em !important;
   font-size: 1em;
 }
@@ -63,7 +63,7 @@
 .ui.selection.dropdown {
   min-width: 14em;
   min-height: 32px;
-  padding: .5em 1em 0 1em;
+  padding: 7px 1em 7px 1em;
   border-radius: 2px;
   background: #fff;
   border: 1px solid $grey500;
@@ -71,17 +71,17 @@
 }
 select.ui.dropdown {
   height: 32px;
-  padding: .5em 1em 0 1em;
+  padding: 7px 1em 7px 1em;
   border: 1px solid $grey500;
 }
 .ui.selection.dropdown > .search.icon,
 .ui.selection.dropdown > .delete.icon,
 .ui.selection.dropdown > .dropdown.icon {
-  line-height: 1.2142em;
-  top: 0.78571429em;
+  line-height: 1em;
+  top: 12px;
   right: 1em;
-  margin: -0.78571429em;
-  padding: 0.78571429em;
+  margin: 0;
+  padding: 0;
   opacity: 1;
 }
 
@@ -116,7 +116,7 @@ select.ui.dropdown {
 /* Active */
 .ui.selection.active.dropdown {
   border: 1px solid $action700;
-  border-bottom: 1px solid $grey600 !important;
+  border-bottom: 1px solid $grey700 !important;
   box-shadow: none;
 }
 .ui.selection.active.dropdown .menu {
@@ -127,7 +127,7 @@ select.ui.dropdown {
 /* Focus */
 .ui.selection.dropdown:focus {
   border: 1px solid $action500;
-  border-bottom: 1px solid $grey600;
+  border-bottom: 1px solid $grey700;
   box-shadow: none;
 }
 .ui.selection.dropdown:focus .menu {
@@ -144,7 +144,7 @@ select.ui.dropdown {
 /* Visible Hover */
 .ui.selection.active.dropdown:hover {
   border-color: $action500;
-  border-bottom: 1px solid $grey600;
+  border-bottom: 1px solid $grey700;
   box-shadow: none;
 }
 .ui.selection.active.dropdown:hover .menu {
@@ -178,12 +178,13 @@ select.ui.dropdown {
 
 .ui.search.dropdown>.text {
   color: $grey800;
+  line-height: 1;
 }
 
 /* Search Selection */
 .ui.search.selection.dropdown > input.search {
   line-height: 1em;
-  padding: .5em 1em 0 1em;
+  padding: 7px 1em 7px 1em;
 }
 
 /* Used to size multi select input to character width */
@@ -208,7 +209,7 @@ select.ui.dropdown {
 /* Multiple Selection */
 .ui.multiple.dropdown {
   line-height: 1em;
-  padding: .5em 1em 0 1em;
+  padding: 7px 1em 7px 1em;
 }
 
 /* Selection Label */
@@ -231,11 +232,14 @@ select.ui.dropdown {
   Multiple Search
 -----------------*/
 
+.ui.multiple.search.dropdown {
+  padding: 7px 1em 5px 1em;
+}
+
 /* Prompt Text */
 .ui.multiple.search.dropdown > .text {
   margin: 0;
   line-height: 1em;
-  padding: .5em 1em 0 1em;
 }
 .ui.multiple.search.dropdown > .text {
   color: $grey800;
@@ -279,7 +283,7 @@ select.ui.dropdown {
     width: 10px;
   }
   &:hover {
-    background: $grey600;
+    background: $grey700;
     color: #fff;
     text-indent: 0;
     &:before {
@@ -308,7 +312,7 @@ select.ui.dropdown {
 /* Selected Item */
 .ui.dropdown.selected,
 .ui.dropdown .menu .selected.item {
-  background-color: $grey600;
+  background-color: $grey700;
   color: #FFF;
   text-indent: 0;
   &:before {
@@ -345,7 +349,7 @@ select.ui.dropdown {
 
 /* Item Hover */
 .ui.dropdown.error > .menu > .item:hover {
-  background: $grey600;
+  background: $grey700;
   color: #fff;
 }
 
@@ -369,5 +373,5 @@ select.ui.dropdown {
 
 .ui.disabled.dropdown:not(.button) > .default.text,
 .ui.disabled.default.dropdown:not(.button) > .text {
-  color: $grey600;
+  color: $grey700;
 }
