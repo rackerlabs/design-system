@@ -134,6 +134,9 @@
       border-right: 1px solid $action900;
     }
   }
+  .button.active, .button:active, .button:focus {
+    background-color: $action900;
+  }
   .button.disabled {
     background-color: transparent;
     border-color: $grey500;
@@ -143,6 +146,10 @@
       background-color: $grey400;
       color: $grey800;
     }
+  }
+  .button:hover {
+    background-color: $action100;
+    color: $action900;
   }
   .button.error, .button.error.active {
     border-color: $red900;
@@ -156,5 +163,12 @@
       border-right: 2px solid $red900;
       box-shadow: inset 0px -1px 0px 0px rgba(211,47,47,1), inset 2px 1px 0px 0px rgba(211,47,47,1);
     }
+  }
+}
+
+.ui.buttons.single:not(.basic):not(.inverted) {
+  .button.active:hover {
+    background-color: $action900;
+    color: #fff;
   }
 }
