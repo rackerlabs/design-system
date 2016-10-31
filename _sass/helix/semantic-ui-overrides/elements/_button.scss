@@ -2,7 +2,7 @@
             Button
 *******************************/
 
-.ui.button {
+.ui.button, .ui.button:focus {
   color: $grey0;
   font-family: $base-font-family;
   font-size: $base-font-size;
@@ -16,7 +16,6 @@
   border-radius: 2px;
 
   &:hover,
-  &:focus,
   &.hover {
     background: $action500;
     border: 1px solid $action500;
@@ -65,7 +64,6 @@
     color:$action900;
 
     &:hover,
-    &:focus,
     &.hover {
       color:$grey0;
       background: $action500;
@@ -134,7 +132,7 @@
       border-right: 1px solid $action900;
     }
   }
-  .button.active, .button:active, .button:focus {
+  .button.active, .button:active {
     background-color: $action900;
   }
   .button.disabled {
