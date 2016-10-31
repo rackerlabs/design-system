@@ -265,10 +265,11 @@ a.anchor {
 .overview {
   background-image: url('/assets/img/helix-header.svg');
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 1790px auto;
+  background-position: top center;
   .page-header {
     background-color: transparent;
-    padding-top: 240px;
+    padding-top: 360px;
   }
   .display-font {
     text-align: center;
