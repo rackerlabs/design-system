@@ -87,7 +87,7 @@ p:last-child {
 --------------------*/
 
 a {
-  color: $action700;
+  color: $action900;
   text-decoration: none;
   cursor: pointer;
   &:hover,
@@ -97,7 +97,7 @@ a {
   }
   &:active,
   &.active {
-    color: $action900;
+    color: $action700;
     text-decoration: underline;
   }
   &.disabled {
