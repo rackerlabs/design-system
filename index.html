@@ -34,7 +34,7 @@ layout: website/overview
 	<form id="gform" method="POST" class="pure-form pure-form-stacked" action="https://script.google.com/macros/s/AKfycbyHk04KN4jTf9njGXmPA5LSSxW4NVtENB4dhYfdCXpQWxOhjw2J/exec">
 
 		<div class="ui form">
-			<div class="two-col-form">
+			<div class="two fields">
 				<div class="field">
 					<label>Name</label>
 					<input type="text" name="Name">
@@ -46,6 +46,8 @@ layout: website/overview
 						<p>A valid email address is required</p>
 					</div>
 				</div>
+			</div>
+			<div class="two fields">
 				<div class="field">
 					<label>Role</label>
 					<input type="text" name="Role">
@@ -55,16 +57,24 @@ layout: website/overview
 		      <input type="text" name="Availability">
 		    </div>
 			</div>
-			<div class="two-col-form">
-				<div class="grouped fields">
-					<label>I can help with...</label>
+			<div class="grouped fields" style="margin: 40px 0">
+				<label>I can help with...</label>
+				<div class="two fields">
 	        <div class="field">
 	          <div class="ui checkbox">
 							<input type="checkbox" name="Help" id="documentation" value="Writing documentation">
 							<label>Writing Documentation - Design / Code</label>
 	          </div>
 	        </div>
-	        <div class="field">
+					<div class="field">
+						<div class="ui checkbox">
+							<input type="checkbox" name="Help" id="codereview" value="Reviewing Code">
+							<label>Reviewing Code</label>
+						</div>
+					</div>
+				</div>
+				<div class="two fields">
+					<div class="field">
 	          <div class="ui checkbox">
 							<input type="checkbox" name="Help" id="designdev" value="Developing New Patterns and Components">
 							<label>Developing New Patterns &amp; Components <br><small>(Research, Design, and / or Validation)</small></label>
@@ -72,20 +82,16 @@ layout: website/overview
 	        </div>
 					<div class="field">
 						<div class="ui checkbox">
-							<input type="checkbox" name="Help" id="code" value="Contributing Code">
-							<label>Contributing Code</label>
-						</div>
-					</div>
-					<div class="field">
-						<div class="ui checkbox">
-							<input type="checkbox" name="Help" id="codereview" value="Reviewing Code">
-							<label>Reviewing Code</label>
-						</div>
-					</div>
-					<div class="field">
-						<div class="ui checkbox">
 							<input type="checkbox" name="Help" id="business" value="Business Value">
 							<label>Exploring Use Case and Business Value</label>
+						</div>
+					</div>
+				</div>
+				<div class="two fields">
+					<div class="field">
+						<div class="ui checkbox">
+							<input type="checkbox" name="Help" id="code" value="Contributing Code">
+							<label>Contributing Code</label>
 						</div>
 					</div>
 					<div class="field">
@@ -95,10 +101,10 @@ layout: website/overview
 						</div>
 					</div>
 				</div>
-				<div class="field">
-					<label>I’d like to help in some other way</label>
-					<textarea name="Other" id="helpcomments" rows="8"></textarea>
-				</div>
+			</div>
+			<div class="field">
+				<label>I’d like to help in some other way</label>
+				<textarea name="Other" id="helpcomments" rows="4"></textarea>
 			</div>
 
 			<div class="overview-button" id="submit">
