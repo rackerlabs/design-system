@@ -1,0 +1,169 @@
+---
+title: Voice & Tone
+layout: website/default
+category: Style
+usage: Teaser Text
+preview-image:
+---
+
+<article>
+  <p class="update">Thinking date &amp; time should go on a separate data formats page.</p>
+  <p class="update">
+    <a href="https://jira.rax.io/browse/RED-632" target="_blank">JIRA</a><br>
+    Comment from EAG:<br>
+    Talked to Laura Clymer about this. She gave me these links:<br>
+    <a href="http://rackerlabs.github.io/docs-rackspace/style-guide/a-l-style-guidelines.html#dates" target="_blank">http://rackerlabs.github.io/docs-rackspace/style-guide/a-l-style-guidelines.html#dates</a><br>
+    <a href="http://rackerlabs.github.io/docs-rackspace/style-guide/m-z-style-guidelines.html#time" target="_blank">http://rackerlabs.github.io/docs-rackspace/style-guide/m-z-style-guidelines.html#time</a><br>
+    I'll be working with Kelly Holcomb to fill in the blanks
+  </p>
+  <p class="update">MH:<br>I copied content directly from the above links. Is this changing? If not, how should we organize examples?</p>
+  <h1>Date <span class="status prototype">In Progress</span></h1>
+  <p>Dates are displayed differently in different countries, so you must use a date format that is explicit and consistent and that global customers cannot misinterpret.</p>
+  <p>Unless space is limited, always show dates in the following format: month day, year. Always spell out the month.</p>
+
+  <table class="ui very basic collapsing celled table">
+    <thead>
+      <tr>
+        <th>Use</th>
+        <th>Avoid</th>
+      </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>
+        November 12, 2010
+      </td>
+      <td>
+        12 Nov 2010
+      </td>
+    </tr>
+    <tr>
+      <td>
+      </td>
+      <td>
+        2010-Nov-12
+      </td>
+    </tr>
+    <tr>
+      <td>
+      </td>
+      <td>
+        12/11/10
+      </td>
+    </tr>
+    <tr>
+      <td>
+      </td>
+      <td>
+        11/12/10
+      </td>
+    </tr>
+    <tr>
+      <td>
+      </td>
+      <td>
+        10-11-12
+      </td>
+    </tr>
+  </tbody>
+  </table>
+
+
+  <h3>Note</h3>
+  <p>Do not use ordinal numbers for dates. For example, do not use January 1st; use January 1 instead.</p>
+  <p>When the month, day, and year are embedded in a sentence, use a comma before and after the year. When only the month and year are embedded in a sentence, omit the commas unless the syntax would ordinarily require a comma following the year.</p>
+
+  <h3>Example</h3>
+  <p>Any sites that are using MySQL 4 after November 1, 2011, will be automatically migrated to MySQL 5.</p>
+  <p>The Alert Logic Security Research Team used 12 months of security event data captured from July 2010 through June 2011.</p>
+  <p>As of September 2013, a subset of customer accounts were not being billed for actual usage in comparison to their preselected SQL Server storage allocations.</p>
+
+  <h3>Note</h3>
+  <p>Use an all-numeric date only in the following situations: - Space is limited, as in a table or figure. - You need to show a literal representation of the date as it is displayed in the software.</p>
+  <p>Because all-numeric dates are interpreted differently in different countries, explain the format of a numeric date, and use a consistent format throughout the documentation. If possible, use the ISO 8601 format, which is yyyy-mm-dd (for example, 2012-11-10 for November 10, 2012).</p>
+
+  <h3>Example</h3>
+  <p>The value that is shown for 8/19/10 represents the average number of extents from data collections beginning August 19, 2010.</p>
+
+</article>
+
+<article>
+  <h1>Time <span class="status prototype">In Progress</span></h1>
+  <p>You can show time by using either the 12-hour or 24-hour clock. The preferred format for international audiences, and the format used in most computer systems, is the 24-hour clock. Use the 24-hour clock when possible. If the technology or interface that you are documenting shows or uses the 12-hour clock, then be consistent with the interface.</p>
+  <h3>24-hour clock</h3>
+  <p>When you use the 24-hour clock to show time, use the following guidelines:</p>
+  <ul>
+    <li>Separate the hours, minutes, and seconds by using a colon.</li>
+    <li>Show the hours, minutes, and second with two digits each, even if the leading digit is 0.</li>
+    <li>If you need to show a time zone, use Coordinated Universal Time (UTC), and indicate the time-zone offset from UTC.</li>
+  </ul>
+
+  <table class="ui very basic collapsing celled table">
+    <thead>
+      <tr>
+        <th>Examples</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>08:29:37</td>
+      </tr>
+      <tr>
+        <td>18:30:59</td>
+      </tr>
+      <tr>
+        <td>18:00:00 to 20:30:00</td>
+      </tr>
+      <tr>
+        <td>10:30:00 (UTC -6) (refers to CT)</td>
+      </tr>
+      <tr>
+        <td>12:00:00 (noon)</td>
+      </tr>
+      <tr>
+        <td>
+          00:00:00 (midnight)
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>12-hour clock</h3>
+  <p>When you use the 12-hour clock to show time, use the following guidelines:</p>
+  <ul>
+    <li>Separate the hours and minutes by using a colon. If the minutes are 00, you do not need to show them unless you are showing a span of time that includes a time with minutes.</li>
+    <li>Use lowercase letters for abbreviations of ante meridiem (a.m.) and post meridiem (p.m.). Separate these abbreviation from the time with a space. Use periods in the abbreviations.</li>
+    <li>When specifying time zones, show both the spelled-out name and the abbreviation. Show the name in lowercase letters; use uppercase letters and no periods for the abbreviation.</li>
+    <li>Avoid references to standard and daylight saving time because the appropriate designation changes frequently. However, if you need to include such a reference, insert S (for standard) or D (for daylight) as the second character in the abbreviation.</li>
+    <li>When referring to 12 a.m., use 12 midnight or just midnight. When referring to 12 p.m., use 12 noon or just noon.</li>
+  </ul>
+
+  <table class="ui very basic collapsing celled table">
+    <thead>
+      <tr>
+        <th>Examples</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>10:29 a.m.</td>
+      </tr>
+      <tr>
+        <td>6 p.m.</td>
+      </tr>
+      <tr>
+        <td>6:00 p.m. to 8:30 p.m.</td>
+      </tr>
+      <tr>
+        <td>10:30 a.m. central time (CT)</td>
+      </tr>
+      <tr>
+        <td>1:30 p.m. central standard time (CST)</td>
+      </tr>
+      <tr>
+        <td>midnight</td>
+      </tr>
+    </tbody>
+  </table>
+
+</article>
