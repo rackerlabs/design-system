@@ -196,6 +196,23 @@ a.anchor {
 	}
 }
 
+.update{
+	background-color:$purple100;
+	border-radius:2px;
+	color:white;
+	padding:$paddingXS $paddingS !important;
+	-webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+	a {
+		color:#FBC02D;
+		font-weight: 500;
+	}
+	a:hover, a:active{
+		color: #FFEB3B;
+	}
+}
+
 .status {
 	background-color: $grey300;
   padding: $paddingXS $paddingS;
