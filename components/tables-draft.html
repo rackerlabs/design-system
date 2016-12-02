@@ -1,0 +1,163 @@
+(H2) Header Row
+Every table must have a header row, and every column must have a header row label.
+
+
+Best Practices
+Use Roboto 16px Med All Caps to differentiate the header row from the body row
+Always include units in a column label if applicable (unless units differ row by row). Units appear after text label in parentheses. Eg. “SIZE (GB)”
+ If bulk selection is possible be sure to include the bulk select check box in the header row. See the selectors section below for implementation details and best practices.
+
+
+(H3) Structured Table
+Use a structured table header when multiple columns fit under a single category. The columns affected should always be placed as far to the right side of the table as possible.
+
+
+ (H2) Sorting
+The ability to reorder table rows makes it easier for users to find the data they are want.
+
+
+Best Practices
+Auto sort according to primary user goals/tasks. (If you’re not sure what the key goals/tasks are, reach out to your PM or the RED team who’ll be able to help you identify task flows through research, analytics, or SME interviews)
+Make sure that any row that is sortable has the sort hover states
+It’s helpful to include an information icon with a tooltip that explains the sorting function on sortable rows
+
+
+(H2) Body Row
+Roboto 16px Reg for reading clarity
+Always offer checkbox if user needs to select or manipulate data
+Include an action cog if user can trigger 2 or more actions on the record from the row
+Justification within each cell is content specific
+Text should be left justified
+Icons, “--” (null/undefined), and “n/a” (not applicable) should be center justified
+Numbers should be right justified
+Only use units in row if they differ row by row and cannot be standardized. Units in body rows appear without parentheses
+Truncated text should appear in a tooltip available on hover (in full if possible)
+
+
+(H2) Row Hover State
+Hover on row only if row is expandable
+
+
+(H2) Expandable Row
+Expandable rows are great for giving users the ability to dig for more data without having to navigate to a different page. When a row expands, the parent row becomes a header for the expanded content area.
+
+
+Best practices
+All rows should be closed by default
+The expanded area inherits the styling of the parent row (i.e. bound/unbound, and zebra stripe color)
+There can only be one expandable content area per row
+Expand can be triggered in three ways
+Clicking anywhere in the row that is not a link
+Clicking the down pointing carat icon
+Clicking an badge count icon (e.g. open alert count in the MyCloud Server List table)
+Collapse can be triggered in 2 ways
+Clicking anywhere in the parent row
+Clicking directly on the collapse icon (either in parent row or at bottom of the expanded area if there is one)
+Rows remain expanded until collapsed by user
+Be sure you include a collapse icon in the bottom right corner of the expanded area in addition to the collapse icon in the parent row
+Viewport remains unchanged with expansion and collapse
+
+
+(H2) Filtering
+Filtering is critical for users to quickly find exactly the data they need.
+Search vs preset
+
+
+(H3) Search
+Search bar should always be floated left above the top controls.
+
+
+(H3) Facets
+See facets
+
+
+(H3) Alternate Preset Filters
+
+
+(H2) Download
+Download is a critical function for users of data tables.
+Download icon is right justified, above the header row
+If your table has action buttons, the download icon should be vertically aligned with them and placed as far to the right as possible
+If your table has a search bar, the download icon should be vertically aligned with and placed just to the left of it
+If you have multiple file types available, only display one download icon. When clicked, trigger a dropdown list that users can select their preferred file type
+
+
+(H2) Action Buttons
+(H3)Top placement
+Best practices
+If you must present more than three bulk action options, use a primary or secondary dropdown button. Make sure you group like actions in the dropdown and avoid grouping unlike options.
+Do not only have action buttons below the table
+If you have action buttons below the table, make sure they are the same options as what’s presented above the table header
+If you use action buttons below the table, make sure you include selector text feedback and links (see selectors section below for specific layout rules)
+
+
+(H3) Bottom placement
+
+
+(H2) Selectors
+
+
+(H3) In Header
+None Selected
+empty checkbox
+Clicking empty check box selects all records
+Indeterminate (1 or more but not all records are selected)
+Dash in check box; text feedback “[#] selected.”. Link text “Select all [#].”
+Clicking indeterminate checkbox deselects all
+Clicking “Select all [#].” Text link selects all records
+All Selected
+Check in check box; text feedback beside action “All [#] selected.”.
+Clicking full checkbox deselects all
+(H3) In Row
+Unselected
+Empty checkbox
+Selected
+Check in check box
+Row in selected state
+
+
+(H2) Cog
+The Row Cog is a useful, if problematic component. One the one hand it allows power users to quickly initiate a number of create/edit workflows on an item in a list without drilling into that item’s detail page. On the other, it hides available actions behind an icon, forcing users to explore the cog just to find out what actions are available.
+
+
+Best practices
+Avoid using a cog if possible
+Only use a cog if you have 3 or more actions that can be performed on that record
+Keep the actions list to 7 or fewer actions
+Make sure you group like actions in the dropdown and avoid grouping unlike options.
+
+
+(H2) Pagination/Lazy Loading/Load More Button
+
+
+Best Practices:
+Always list the scope of records visible. e.g.:
+A date range “September 25, 2016- September 26, 2016”
+A record count range “1-25 of 800”
+If you have a definite page count, make sure you display the total page count, what page user is currently on, and allow the ability to move by single page or jump multiple pages to the last/first page
+Give users a way to change the page size (number of records that are displayed) when possible
+In the URL, embed filters applied, page number and page size so results are sharable via URL. If you are using a marker based system, include the top result in the viewport’s unique id
+Make sure lazy load works for both scrolling up and down so that if a user navigates via URL to a data set that is in the middle of a lazy loaded data set
+
+
+
+
+(H2) Table Styles
+There are three table styles to choose from, Unbound, Bound, and Zebra Striping.
+
+
+(H3) Unbound Rows
+Use unbound rows when you don’t need to differentiate the table from other content on the page. Unbound rows remove unnecessary visual clutter.
+
+
+Best Practices
+The unbound table should be the only (or primary) content on the page or page section
+Use unbound styling if the table will appear in a compact content area with strict horizontal constraints. You don’t need the bounding lines for clarity and you can save the pixels (e.g. on a mobile device or in a panel)
+
+
+(H3) Bounded Rows
+Use bounded rows to visually separate your table from the surrounding content. This is particularly helpful if your table is not the primary content on the page. E.g. a data table in an expanded content area, a table paired with a data visualization, or if the table appears as one step in a larger create/edit workflow.
+
+
+(h3) Zebra Striping
+Zebra stripes help users scan across a row without losing their place. Though best practice for table design is to keep your column count below 7 columns, when you must display 7+ columns, zebra striping will help users maintain row orientation. Notice that the horizontal lines that separate each row are gone if you use zebra striping.
