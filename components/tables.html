@@ -1,18 +1,17 @@
 ---
 title: Tables
 layout: website/default
-category: Components
+//category: Components
 usage: Teaser Text
 preview-image:
 ---
 
 <article>
-  <p class="update-mh">Working on content entry and image pairing from Bart's documentation.</p>
   <p>At Rackspace, we present data in a table on nearly every page in our control panels. Tables are highly valuable, but always run the risk of putting too high a cognitive load on users. Our goal with tables should always be to decrease cognitive load so users can get the data they need quickly and easily. With such pervasive use, it’s important that we make sure our tables are efficient, powerful, and user-friendly.</p>
 </article>
 
 <article>
-  <a class="structure" name="structure"></a>
+  <a class="anchor" name="structure"></a>
   <h1>Structure<span class="status prototype">In Progress</span></h1>
   <p>A data table contains a header row at the top that lists column names, followed by rows for data.</p>
 
@@ -40,7 +39,297 @@ preview-image:
 
 </article>
 
+<article>
+  <a class="anchor" name="header-row"></a>
+  <h1>Header Row<span class="status prototype">In Progress</span></h1>
+  <p>Every table must have a header row, and every column must have a header row label.</p>
 
+  <div class="ui segments">
+    <div class="ui segment">
+      <h3>Best Practices:</h3>
+      <ul>
+        <li>Use Roboto 16px Med All Caps to differentiate the header row from the body row</li>
+        <li>Always include units in a column label if applicable (unless units differ row by row). Units appear after text label in parentheses. Eg. “SIZE (GB)”</li>
+        <li>If bulk selection is possible be sure to include the bulk select check box in the header row. See the selectors section below for implementation details and best practices.</li>
+      </ul>
+    </div>
+  </div>
+
+</article>
+
+<article>
+  <a class="anchor" name="structured-table"></a>
+  <h1>Structured Table<span class="status prototype">In Progress</span></h1>
+  <p>Use a structured table header when multiple columns fit under a single category. The columns affected should always be placed as far to the right side of the table as possible.</p>
+
+</article>
+
+<article>
+  <a class="anchor" name="sorting"></a>
+  <h1>Sorting<span class="status prototype">In Progress</span></h1>
+  <p>The ability to reorder table rows makes it easier for users to find the data they are want.</p>
+
+  <div class="ui segments">
+    <div class="ui segment">
+      <h3>Best Practices:</h3>
+      <ul>
+        <li>Auto sort according to primary user goals/tasks. (If you’re not sure what the key goals/tasks are, reach out to your PM or the RED team who’ll be able to help you identify task flows through research, analytics, or SME interviews)</li>
+        <li>Make sure that any row that is sortable has the sort hover states</li>
+        <li>It’s helpful to include an information icon with a tooltip that explains the sorting function on sortable rows</li>
+      </ul>
+    </div>
+  </div>
+
+</article>
+
+<article>
+  <a class="anchor" name="body-row"></a>
+  <h1>Body Row<span class="status prototype">In Progress</span></h1>
+
+  <div class="ui segments">
+    <div class="ui segment">
+      <h3>Best Practices:</h3>
+      <ul>
+        <li>Roboto 16px Reg for reading clarity</li>
+        <li>Always offer checkbox if user needs to select or manipulate data</li>
+        <li>Include an action cog if user can trigger 2 or more actions on the record from the row</li>
+        <li>Justification within each cell is content specific</li>
+        <li>Text should be left justified</li>
+        <li>Icons, “--” (null/undefined), and “n/a” (not applicable) should be center justified</li>
+        <li>Numbers should be right justified</li>
+        <li>Only use units in row if they differ row by row and cannot be standardized. Units in body rows appear without parentheses</li>
+        <li>Truncated text should appear in a tooltip available on hover (in full if possible)</li>
+      </ul>
+    </div>
+  </div>
+
+</article>
+
+<article>
+  <a class="anchor" name="row-hover-state"></a>
+  <h1>Row Hover State<span class="status prototype">In Progress</span></h1>
+  <p>Hover on row only if row is expandable</p>
+
+  <div class="ui segments">
+    <div class="ui segment">
+
+    </div>
+  </div>
+
+</article>
+
+<article>
+  <a class="anchor" name="expandable-row"></a>
+  <h1>Expandable Row<span class="status prototype">In Progress</span></h1>
+  <p>Expandable rows are great for giving users the ability to dig for more data without having to navigate to a different page. When a row expands, the parent row becomes a header for the expanded content area.</p>
+
+  <div class="ui segments">
+    <div class="ui segment">
+      <h3>Best Practices:</h3>
+      <ul>
+        <li>All rows should be closed by default</li>
+        <li>The expanded area inherits the styling of the parent row (i.e. bound/unbound, and zebra stripe color)</li>
+        <li>There can only be one expandable content area per row</li>
+        <li>Expand can be triggered in three ways:
+          <ul>
+            <li>Clicking anywhere in the row that is not a link</li>
+            <li>Clicking the down pointing carat icon</li>
+            <li>Clicking an badge count icon (e.g. open alert count in the MyCloud Server List table)</li>
+          </ul>
+        </li>
+        <li>Collapse can be triggered in 2 ways:
+          <ul>
+            <li>Clicking anywhere in the parent row</li>
+            <li>Clicking directly on the collapse icon (either in parent row or at bottom of the expanded area if there is one)</li>
+          </ul>
+        </li>
+        <li>Rows remain expanded until collapsed by user</li>
+        <li>Be sure you include a collapse icon in the bottom right corner of the expanded area in addition to the collapse icon in the parent row</li>
+        <li>Viewport remains unchanged with expansion and collapse</li>
+      </ul>
+    </div>
+  </div>
+
+</article>
+
+<article>
+  <a class="anchor" name="filtering"></a>
+  <h1>Filtering<span class="status prototype">In Progress</span></h1>
+  <p>Filtering is critical for users to quickly find exactly the data they need.
+  Search vs preset</p>
+
+  <div class="ui segments">
+    <div class="ui segment">
+
+    </div>
+  </div>
+
+</article>
+
+<article>
+  <a class="anchor" name="search"></a>
+  <h1>Search<span class="status prototype">In Progress</span></h1>
+  <p>Search bar should always be floated left above the top controls.</p>
+
+  <div class="ui segments">
+    <div class="ui segment">
+
+    </div>
+  </div>
+
+</article>
+
+<article>
+  <a class="anchor" name="facets"></a>
+  <h1>Facets<span class="status prototype">In Progress</span></h1>
+  <p>See facets</p>
+
+  <div class="ui segments">
+    <div class="ui segment">
+
+    </div>
+  </div>
+
+</article>
+
+<article>
+  <a class="anchor" name="alternate-preset-filters"></a>
+  <h1>Alternate Preset Filters<span class="status prototype">In Progress</span></h1>
+
+  <div class="ui segments">
+    <div class="ui segment">
+
+    </div>
+  </div>
+
+</article>
+
+<article>
+  <a class="anchor" name="download"></a>
+  <h1>Download<span class="status prototype">In Progress</span></h1>
+  <p>Download is a critical function for users of data tables.</p>
+  <p>Download icon is right justified, above the header row
+  If your table has action buttons, the download icon should be vertically aligned with them and placed as far to the right as possible
+  If your table has a search bar, the download icon should be vertically aligned with and placed just to the left of it
+  If you have multiple file types available, only display one download icon. When clicked, trigger a dropdown list that users can select their preferred file type</p>
+  <div class="ui segments">
+    <div class="ui segment">
+
+    </div>
+  </div>
+
+</article>
+
+<article>
+  <a class="anchor" name="action-buttons"></a>
+  <h1>Action Buttons<span class="status prototype">In Progress</span></h1>
+
+  <div class="ui segments">
+    <div class="ui segment">
+      (H3)Top placement
+      Best practices
+      If you must present more than three bulk action options, use a primary or secondary dropdown button. Make sure you group like actions in the dropdown and avoid grouping unlike options.
+      Do not only have action buttons below the table
+      If you have action buttons below the table, make sure they are the same options as what’s presented above the table header
+      If you use action buttons below the table, make sure you include selector text feedback and links (see selectors section below for specific layout rules)
+
+
+      (H3) Bottom placement
+    </div>
+  </div>
+
+</article>
+
+<article>
+  <a class="anchor" name="selectors"></a>
+  <h1>Selectors<span class="status prototype">In Progress</span></h1>
+
+  <div class="ui segments">
+    <div class="ui segment">
+      (H3) In Header
+      None Selected
+      empty checkbox
+      Clicking empty check box selects all records
+      Indeterminate (1 or more but not all records are selected)
+      Dash in check box; text feedback “[#] selected.”. Link text “Select all [#].”
+      Clicking indeterminate checkbox deselects all
+      Clicking “Select all [#].” Text link selects all records
+      All Selected
+      Check in check box; text feedback beside action “All [#] selected.”.
+      Clicking full checkbox deselects all
+      (H3) In Row
+      Unselected
+      Empty checkbox
+      Selected
+      Check in check box
+      Row in selected state
+    </div>
+  </div>
+
+</article>
+
+<article>
+  <a class="anchor" name="cog"></a>
+  <h1>Cog<span class="status prototype">In Progress</span></h1>
+  <p>The Row Cog is a useful, if problematic component. One the one hand it allows power users to quickly initiate a number of create/edit workflows on an item in a list without drilling into that item’s detail page. On the other, it hides available actions behind an icon, forcing users to explore the cog just to find out what actions are available.</p>
+  <div class="ui segments">
+    <div class="ui segment">
+      Best practices
+      Avoid using a cog if possible
+      Only use a cog if you have 3 or more actions that can be performed on that record
+      Keep the actions list to 7 or fewer actions
+      Make sure you group like actions in the dropdown and avoid grouping unlike options.
+    </div>
+  </div>
+
+</article>
+
+<article>
+  <a class="anchor" name="pagination"></a>
+  <h1>Pagination/Lazy Loading/Load More Button<span class="status prototype">In Progress</span></h1>
+
+  <div class="ui segments">
+    <div class="ui segment">
+      Best Practices:
+      Always list the scope of records visible. e.g.:
+      A date range “September 25, 2016- September 26, 2016”
+      A record count range “1-25 of 800”
+      If you have a definite page count, make sure you display the total page count, what page user is currently on, and allow the ability to move by single page or jump multiple pages to the last/first page
+      Give users a way to change the page size (number of records that are displayed) when possible
+      In the URL, embed filters applied, page number and page size so results are sharable via URL. If you are using a marker based system, include the top result in the viewport’s unique id
+      Make sure lazy load works for both scrolling up and down so that if a user navigates via URL to a data set that is in the middle of a lazy loaded data set
+    </div>
+  </div>
+
+</article>
+
+<article>
+  <a class="anchor" name="table-styles"></a>
+  <h1>Table Styles<span class="status prototype">In Progress</span></h1>
+  <p>There are three table styles to choose from, Unbound, Bound, and Zebra Striping.</p>
+
+  <div class="ui segments">
+    <div class="ui segment">
+      (H3) Unbound Rows
+      Use unbound rows when you don’t need to differentiate the table from other content on the page. Unbound rows remove unnecessary visual clutter.
+
+
+      Best Practices
+      The unbound table should be the only (or primary) content on the page or page section
+      Use unbound styling if the table will appear in a compact content area with strict horizontal constraints. You don’t need the bounding lines for clarity and you can save the pixels (e.g. on a mobile device or in a panel)
+
+
+      (H3) Bounded Rows
+      Use bounded rows to visually separate your table from the surrounding content. This is particularly helpful if your table is not the primary content on the page. E.g. a data table in an expanded content area, a table paired with a data visualization, or if the table appears as one step in a larger create/edit workflow.
+
+
+      (h3) Zebra Striping
+      Zebra stripes help users scan across a row without losing their place. Though best practice for table design is to keep your column count below 7 columns, when you must display 7+ columns, zebra striping will help users maintain row orientation. Notice that the horizontal lines that separate each row are gone if you use zebra striping.
+
+    </div>
+  </div>
+
+</article>
 
 <!--(h3) Totalling
 Documentation for totalling?
