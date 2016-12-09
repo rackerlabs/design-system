@@ -12,7 +12,7 @@
       {% assign foldername = navItem | downcase %}
       {% assign parenturl = foldername | append: "/" | prepend: "/" %}
       <li class="parent">
-        <!--<a href="#" {% if currenturl == parenturl %} class="active" {% endif %}--> <a href="#" class="open" id="button">{{navItem}}</a>
+        <a href="#" {% if currenturl == parenturl %} class="active open" {% else %} class="open"{% endif %} id="button">{{navItem}}</a>
 
         <ul {% if currenturl contains foldername %} class="box active" {% else %} class="box inactive"  {% endif %} id="effect">
           {% for page in site.pages %}
@@ -25,7 +25,7 @@
     {% endfor %}
 
     <li><a href="{{site.baseurl}}/resources" {% if currenturl == "/resources" %} class="active" {% else %} {% endif %}>Resources</a></li>
-    <li><a href="{{site.baseurl}}/upcoming" {% if currenturl == "/upcoming" %} class="active" {% else %} {% endif %}>Upcoming</a></li>
+    <!--<li><a href="{{site.baseurl}}/upcoming" {% if currenturl == "/upcoming" %} class="active" {% else %} {% endif %}>Upcoming</a></li>-->
 
   </ul>
 </nav>
