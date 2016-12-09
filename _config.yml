@@ -19,7 +19,7 @@ url: "http://design.rax.io/design-system" # the base hostname & protocol for you
 twitter_username: rackspace
 github_username:  rackerlabs
 permalink: /:categories/:slug
-navigation: ['Style', 'Layout', 'Components', 'Resources']
+navigation: ['Style', 'Layout', 'Components']
 exclude: ['Gemfile', 'Gemfile.lock','README.md']
 
 
