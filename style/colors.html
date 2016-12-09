@@ -6,8 +6,10 @@ usage: The Helix color palette consists of deep modern hues juxtaposed with simp
 preview-image: style/preview-color.svg
 ---
 <article id="primary-colors">
+  <p>The use of color establishes cohesion across Rackspace products. Our color palette has been selected to enhance usability while adhering to accessibility criteria. Guidelines for color usage are outlined for <a href="/style/typography.html">typography</a> and individual components. Avoid adding color to "spice things up" as this will distract the user from his or her workflow.</p>
+
   <h1>Primary Colors <span class="status prototype">In Progress</span></h1>
-  <p>Primary colors should be used sparingly for primary and secondary actions, alerts or data visualizations. Avoid adding color to "spice things up" as this will distract the user from his or her workflow.</p>
+  <p>Primary colors should be used sparingly for primary and secondary actions, alerts or data visualizations.</p>
   <div class="row">
     {%for color_hash in site.data.colors%}
       {%assign color=color_hash[1]%}
@@ -55,7 +57,8 @@ preview-image: style/preview-color.svg
 
 <article>
   <h1>Greyscale <span class="status dev-ready">Complete</span></h1>
-  <p>These colors are used largely for background blocks and large content areas. Be sure to use enough contrast between adjacent colors.</p>
+  <p>These colors are used largely for background blocks to define content areas. Be sure to use enough contrast between adjacent colors.</p>
+
   <div class="row">
     <div class="col-xs-12 col-md-4 color-chip" style="background-color: #FFFFFF; color: #757575;">
       <span>Grey 700 on Grey 0</span>
