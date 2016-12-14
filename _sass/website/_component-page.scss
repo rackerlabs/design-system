@@ -104,7 +104,6 @@
 
 .ws-icon-chip-icon{
 	color:#757575;
-	font-size: 32px;
 	text-align: center;
 }
 
@@ -294,4 +293,89 @@
 .ws-beacon-con:first-child{
   border-left:none;
   padding-left: 0px;
+}
+
+/*******************************
+        Examples Table
+*******************************/
+
+
+.ui.basic.table {
+  width: 100%;
+  background-color: $grey25;
+  margin: 1em 0em;
+  border: 0;
+  box-shadow: none;
+  border-radius: 0;
+  text-align: left;
+  color: #616161;
+  border-collapse: separate;
+  border-spacing: 0px;
+  line-height: 1.5;
+}
+.ui.table:first-child {
+  margin-top: 0em;
+}
+.ui.table:last-child {
+  margin-bottom: 0em;
+}
+
+.ui[class*="very basic"].table:not(.sortable):not(.striped) thead tr:first-child th {
+  padding-top: 28px;
+}
+
+.ui[class*="very basic"].table:not(.sortable):not(.striped) td:first-child, .ui[class*="very basic"].table:not(.sortable):not(.striped) th:first-child {
+  padding-left: 20px;
+}
+
+/* Table Content */
+.ui.table th,
+.ui.table td {
+  -webkit-transition: background 0.1s ease, color 0.1s ease;
+  transition: background 0.1s ease, color 0.1s ease;
+}
+
+/* Headers */
+.ui.table thead {
+  box-shadow: none;
+}
+.ui.table thead th {
+  cursor: auto;
+  background: #FFF;
+  text-align: inherit;
+  text-transform: uppercase;
+  color: #616161;
+  padding: 28px 20px 12px 20px;
+  vertical-align: inherit;
+  font-size: 14px;
+  font-weight: 500;
+  border-bottom: 1px solid #e1e1e1;
+  border-left: none;
+  line-height: 1;
+}
+.ui.table thead tr > th:first-child {
+  border-left: none;
+}
+.ui.table thead tr:first-child > th:first-child {
+  border-radius: 0;
+}
+.ui.table thead tr:first-child > th:last-child {
+  border-radius: 0;
+}
+.ui.table thead tr:first-child > th:only-child {
+  border-radius: 0;
+}
+
+/* Table Row */
+.ui.table tr td {
+  border-top: 1px solid #e1e1e1;
+}
+.ui.table tr:first-child td {
+  border-top: none;
+}
+
+/* Table Cells */
+.ui.table td {
+  padding: 20px;
+  text-align: inherit;
 }
