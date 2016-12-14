@@ -301,7 +301,6 @@
 
 
 .ui.basic.table {
-  width: 100%;
   background-color: $grey25;
   margin: 1em 0em;
   border: 0;
@@ -326,6 +325,10 @@
 
 .ui[class*="very basic"].table:not(.sortable):not(.striped) td:first-child, .ui[class*="very basic"].table:not(.sortable):not(.striped) th:first-child {
   padding-left: 20px;
+}
+
+.ui[class*="very basic"].table:not(.sortable):not(.striped) td:last-child, .ui[class*="very basic"].table:not(.sortable):not(.striped) th:last-child {
+  padding-right: 20px;
 }
 
 /* Table Content */
