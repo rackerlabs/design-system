@@ -157,12 +157,11 @@ nav {
  */
 
 article {
-	padding: 80px 28px;
+	padding: 32px 28px;
   position: relative;
 }
 
 article:nth-child(odd) {
-  background-color: $grey100;
 }
 
 article.page-header {
