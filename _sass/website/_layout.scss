@@ -157,17 +157,14 @@ nav {
  */
 
 article {
-	padding: 80px 28px;
+	padding: 32px 20px;
   position: relative;
-}
-
-article:nth-child(odd) {
-  background-color: $grey100;
 }
 
 article.page-header {
   background-color: $grey25;
   padding-bottom: 0;
+  padding-top: 80px;
 }
 
 article:nth-child(2) {
@@ -250,6 +247,12 @@ a.anchor {
 
 .dev-ready {
 	background-color: $green;
+}
+
+video {
+  width: 900px;
+  height: auto;
+  max-width: 100%;
 }
 
 /**

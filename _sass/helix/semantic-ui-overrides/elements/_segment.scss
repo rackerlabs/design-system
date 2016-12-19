@@ -2,7 +2,7 @@
             Segment
 *******************************/
 
-.ui.segment {
+.ui.segment, .ui.horizontal.segment {
   background: transparent;
   box-shadow: none;
   margin: 0;
@@ -15,14 +15,15 @@
 }
 
 /* Group */
-.ui.segments {
+.ui.segments, .ui.horizontal.segments {
   margin: 1rem 0em;
   border: none;
+  background-color: transparent;
   box-shadow: none;
   border-radius: 0;
 }
 /* Nested Segment */
-.ui.segments>.segment {
+.ui.segments>.segment, .ui.horizontal.segments>.segment {
   border: none;
   padding: 0 0 2em 0;
 }
