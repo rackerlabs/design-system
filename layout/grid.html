@@ -8,11 +8,12 @@ preview-image: components/preview-grid.svg
 
 <article>
   <h1>Responsive 12 Column Grid<span class="status prototype">In Progress</span></h1>
-  <p>Implementation of the responsive fluid grid system is flexible and makes it simple to adjust the grid to custom needs. By default, the grid consists of 12 columns which will stack responsively for tablet and mobile screens. Gutter width: 20px (10px on each side of a column). Specified breakpoints TBD.</p>
+  <p>Implementation of the responsive fluid grid system is flexible and makes it simple to adjust the grid to custom needs. By default, the grid consists of 12 columns which will stack responsively for tablet and mobile screens. The foundation of the Helix grid is Bootstrap; columns and gutter sizes have been adjusted to optimize the layout of content across multiple devices.</p>
 
-  <h3 class="ws-grid-h3">Options</h3>
+  <h2>Usage</h2>
+  <p>The grid is intended to be applied to the content area of the page, excluding site navigation.</p>
 
-  <div class="row">
+  <div class="row" style="margin-bottom:3em;">
     <div class="col-md-6">
       <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/side-nav.svg"  class="ws-grid-img">
       <span class="subtext">Left Navigation</span>
@@ -23,7 +24,64 @@ preview-image: components/preview-grid.svg
     </div>
   </div>
 
-  <h3 class="ws-grid-h3">In Practice</h3>
+  <h2>Specs</h2>
+  <table class="ui striped table" style="margin-bottom:3em;">
+    <thead>
+      <tr>
+        <th></th>
+        <th>
+          Extra small<br>
+          <small>&lt;576px</small>
+        </th>
+        <th>
+          Small<br>
+          <small>≥576px</small>
+        </th>
+        <th>
+          Medium<br>
+          <small>≥768px</small>
+        </th>
+        <th>
+          Large<br>
+          <small>≥992px</small>
+        </th>
+        <th>
+          Extra large<br>
+          <small>≥1200px</small>
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Max container width</th>
+        <td>None (auto)</td>
+        <td>540px</td>
+        <td>720px</td>
+        <td>960px</td>
+        <td>1140px</td>
+      </tr>
+      <tr>
+        <td>Class prefix</th>
+        <td><code>.col-xs-</code></td>
+        <td><code>.col-sm-</code></td>
+        <td><code>.col-md-</code></td>
+        <td><code>.col-lg-</code></td>
+        <td><code>.col-xl-</code></td>
+      </tr>
+      <tr>
+        <td># of columns</th>
+        <td colspan="5">12</td>
+      </tr>
+      <tr>
+        <td>Gutter width</th>
+        <td colspan="5">20px (10px on each side of a column)</td>
+      </tr>
+    </tbody>
+  </table>
+  <h2>Demo</h2>
+  <p>Resize your browser to see how columns scale and stack on smaller devices.</p>
+
+</article>
 
   <div id="device">
 
@@ -83,4 +141,3 @@ preview-image: components/preview-grid.svg
       </div>
     </div>
   </div>
-</article>

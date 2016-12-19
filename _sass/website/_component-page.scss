@@ -248,8 +248,8 @@
 }
 
 #device {
-	background: #f5f5f5;
-	border: 1px solid #616161;
+	//background: #f5f5f5;
+	//border: 1px solid #616161;
 	padding: 20px 20px 0 20px;
 }
 
@@ -300,7 +300,7 @@
 *******************************/
 
 
-.ui.basic.table {
+.ui.basic.table, .ui.table {
   background-color: $grey25;
   margin: 1em 0em;
   border: 0;
@@ -344,7 +344,7 @@
 }
 .ui.table thead th {
   cursor: auto;
-  background: #FFF;
+  background: transparent;
   text-align: inherit;
   text-transform: uppercase;
   color: #616161;
@@ -375,6 +375,17 @@
 }
 .ui.table tr:first-child td {
   border-top: none;
+}
+.ui.striped.table tbody tr:nth-child(2n), .ui.striped.table>tr:nth-child(2n) {
+  background-color: #eee;
+}
+.ui.striped.table td {
+  border-top: none;
+}
+.ui.striped.table tbody {
+  border-right: 1px solid #e1e1e1;
+  border-left: 1px solid #e1e1e1;
+  border-bottom: 1px solid #e1e1e1;
 }
 
 /* Table Cells */
