@@ -37,7 +37,7 @@ h5,
 .display-font {
   font-size: $font-size-7;
   font-weight: 100;
-  margin-bottom: 40px;
+  margin-bottom: 32px;
 }
 h1 {
   font-size: $font-size-5;
@@ -45,17 +45,18 @@ h1 {
   margin-bottom: 24px;
 }
 h1.header-alt {
-  font-weight: 200;
+  font-weight: 100;
+  margin-bottom: 24px;
 }
 h2 {
   font-size: $font-size-4;
   font-weight: 400;
-  margin-bottom: $paddingM;
+  margin-bottom: 12px;
 }
 h3 {
   font-size: $base-font-size;
   font-weight: 500;
-  margin-bottom: $paddingXS;
+  margin-bottom: 12px;
 }
 h4 {
 	font-weight: 400;
@@ -67,19 +68,14 @@ h4 {
 *******************************/
 
 p {
-  margin: 0em 0em 2em;
+  margin: 0 0 24px;
   line-height: inherit;
-}
-p:first-child {
-  margin-top: 0em;
 }
 p:last-child {
   margin-bottom: 0em;
 }
 .body2 {
   font-size: $font-size-3;
-  font-weight: 400;
-  line-height: $base-line-height;
 }
 
 /*-------------------
