@@ -1,6 +1,6 @@
 var attachTipTimer;
 var removeTipTimer;
-var hideTipTimeout = 1500;
+var hideTipTimeout = 500;
 var toolTipPointerHeight = 8;
 var tooltipPointerWidth = 14;
 var toolTipPointerSpace = 20;
