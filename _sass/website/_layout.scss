@@ -38,7 +38,6 @@ body {
         }
 }
 
-
 nav {
     position: fixed;
     top: 40px;
@@ -159,6 +158,10 @@ nav {
 article {
 	padding: 32px 20px;
   position: relative;
+}
+
+.container article {
+	padding: 32px 0;
 }
 
 article.page-header {
