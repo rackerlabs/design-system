@@ -258,6 +258,36 @@ video {
   max-width: 100%;
 }
 
+.type-demo {
+  background-color: #fff;
+  border: 1px solid $grey300;
+  min-height: 190px;
+  padding: 20px;
+  div {
+    float: left;
+    width: 50%;
+  }
+  .specs {
+    border-left: 1px solid $grey300;
+    dl {
+      font-size: 14px;
+      margin-left: 20px;
+      margin-top: 0;
+      dt, dd {
+        float: left;
+      }
+      dt {
+        color: $grey700;
+        clear: both;
+      }
+      dd {
+        color: $grey900;
+        margin-left: 6px;
+      }
+    }
+  }
+}
+
 /**
  * Categories layout
  */
