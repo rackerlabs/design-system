@@ -154,9 +154,8 @@ nav {
 /**
  * Content styles
  */
-
 article {
-	padding: 32px 20px;
+	padding: 32px 10px;
   position: relative;
 }
 
@@ -256,6 +255,30 @@ video {
   width: 900px;
   height: auto;
   max-width: 100%;
+}
+
+figure {
+  margin: 0 0 24px 0;
+  background-color: aqua;
+}
+
+figcaption {
+  color: $grey700;
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+figure .image {
+  display: inline-block;
+  padding: 40px;
+}
+
+figure .bg-light {
+  background-color: #fff;
+}
+
+figure .border {
+  border: 1px solid $grey300;
 }
 
 .type-demo {
@@ -426,5 +449,12 @@ video {
       height: 26px;
       margin-right: 16px;
     }
+  }
+}
+
+
+@media (min-width: 1280px) {
+  .container-fluid {
+    max-width: 1168px;
   }
 }
