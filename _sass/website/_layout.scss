@@ -41,19 +41,18 @@ body {
 nav {
     position: fixed;
     top: 40px;
-    float: left;
+    left: 0;
+    bottom: 0;
     line-height: 1.5em;
     width: 17em;
-    height: 100%;
     overflow-x: hidden;
     overflow-y: auto;
-    margin-bottom: 2em;
     -webkit-box-shadow: 0px 5px 6px 1px rgba(102,102,102,.25);
     moz-box-shadow: 0px 5px 6px 1px rgba(102,102,102,.25);
     box-shadow: 0px 5px 6px 1px rgba(102,102,102,.25);
     z-index: 2;
     background-color: $grey975;
-    padding-top: 40px;
+    padding: 2.5em 0 1em 0;
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
     -o-font-smoothing: antialiased;
