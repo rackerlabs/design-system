@@ -1,0 +1,64 @@
+---
+title: Bucket Selector
+layout: website/default
+//category: Components
+usage: Teaser Text
+preview-image: null
+published: true
+---
+
+<article>
+  <p>Bucket Selector is helpful when you are selecting multiple objects from large option sets within a larger workflow. The bucket area (located below the table) operates as a holding area where users can view all their selections, regardless of the table content. This allows users to search and/or filter the table to locate items to select without losing visibility into what they have selected.</p>
+</article>
+
+<article>
+  <a class="anchor" name="device-picker"></a>
+  <h1>Bucket Selector<span class="status prototype">In Progress</span></h1>
+  <h3>Uncollapsed Current Selection</h3>
+  <p>This area is for use when a user needs to verify their current selection and quickly make edits to it.</p>
+  <ul>
+    <li>When uncollapsed shows user the items that have been currently selected from within the table.</li>
+    <li>Current Selection area is collapsed on default.</li>
+  </ul>
+  <h3>Multiple Selections</h3>
+  <p>State of device picker when multiple items have been selected from within the table.</p>
+  <ul>
+    <li>Current selection uncollapse and collapsed shows number of devices selected</li>
+    <li>Allows user to deselect all current selections</li>
+    <li>Allows user to verify current selections as well as remove individual selections</li>
+    <li>On-hover these tags will display the full device ID</li>
+    <li>Default state for current selection area when no items are selected is a disabled ‘deselect all’ link</li>
+    <li>Area becomes scrollable as more items are added</li>
+    <li>Current selection should display full device nickname for customers and device ID for Rackers</li>
+    <li>On-hover these tags should display in a tooltip the full device ID for customers and the device nickname for Rackers</li>
+  </ul>
+  <h3>Default State</h3>
+  <p>Use when selecting and searching for multiple items from a large dataset and displaying those selections for user-verification. <br>-For Rackers this is done by device ID<br>
+-For Customers this is done by the device nickname</p>
+<ul>
+    <li>Sort should be availble for other table columns</li>
+    <li>Default sort should be the first column within the table</li>
+<br>-For Rackers this is done by device ID</li>
+<br>-For Customers this is done by the device nickname</li>
+    <li>Current Selection area is collapsed on default</li>
+    <li>Default selection for table is 10 items with options to select 25 and 50</li>
+    <li>Displays number of items as well as number currently viewing</li>
+    <li>Select all check box selects everything from the current page.</li>
+  </ul>
+  <p>Considerations: Shown here the device picker component is specifically being used to help the user search, sort, display, and select devices related to their current workflow. This component can scale and be used for a variety of use cases though.</p>
+
+    <div class="ui segments">
+      <div class="ui segment">
+        <h3>Default</h3>
+        <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/device-picker.svg">
+      </div>
+    </div>
+
+    <div class="ui segments">
+      <div class="ui segment">
+        <h3>Default</h3>
+        <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/device-picker-selected.svg">
+      </div>
+    </div>
+
+</article>
