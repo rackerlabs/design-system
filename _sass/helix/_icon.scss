@@ -1,149 +1,157 @@
-/*!
- * # Semantic UI 2.2.4 - Icon
- * http://github.com/semantic-org/semantic-ui/
- *
- */
-
-
-/*******************************
-             Icon
-*******************************/
-
 @font-face {
   font-family: 'DS_icon_font';
-  src:  url('../assets/fonts/DS_icon_font.eot?ef6pdt');
-  src:  url('../assets/fonts/DS_icon_font.eot?ef6pdt#iefix') format('embedded-opentype'),
-    url('../assets/fonts/DS_icon_font.ttf?ef6pdt') format('truetype'),
-    url('../assets/fonts/DS_icon_font.woff?ef6pdt') format('woff'),
-    url('../assets/fonts/DS_icon_font.svg?ef6pdt#DS_icon_font') format('svg');
+  src:  url('../assets/fonts/DS_icon_font.eot?lrboqv');
+  src:  url('../assets/fonts/DS_icon_font.eot?lrboqv#iefix') format('embedded-opentype'),
+    url('../assets/fonts/DS_icon_font.ttf?lrboqv') format('truetype'),
+    url('../assets/fonts/DS_icon_font.woff?lrboqv') format('woff'),
+    url('../assets/fonts/DS_icon_font.svg?lrboqv#DS_icon_font') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
-.ws-icon-chip-icon i, i.icon {
-  font-family: 'DS_icon_font';
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'DS_icon_font' !important;
+  speak: none;
   font-style: normal;
-  margin: 0;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
 
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-.check.circle.icon:before, .icon-check-circle:before {
+.icon-disabled:before {
+  content: "\e928";
+  color: $grey500;
+}
+.icon-email:before {
+  content: "\e929";
+}
+.icon-check-circle:before {
   content: "\e925";
 }
-.caret.down.icon:before, .icon-dropdown-arrow:before {
+.icon-dropdown-arrow:before {
   content: "\e927";
 }
-.setting.icon:before, .icon-action-cog:before {
+.icon-action-cog:before {
   content: "\e923";
 }
-.plus.icon:before, .icon-add:before {
+.icon-add:before {
   content: "\e924";
 }
-.info.circle.icon:before, .icon-info:before {
+.icon-info:before {
   content: "\e926";
 }
-.minus.circle.icon:before, .icon-remove-circle:before {
+.icon-remove-circle:before {
   content: "\e915";
 }
-.arrow.down.icon:before, .icon-arrow-down:before {
+.icon-arrow-down:before {
   content: "\e900";
 }
-.arrow.left.icon:before, .icon-arrow-left:before {
+.icon-arrow-left:before {
   content: "\e901";
 }
-.arrow.right.icon:before, .icon-arrow-right:before {
+.icon-arrow-right:before {
   content: "\e902";
 }
-.arrow.up.icon:before, .icon-arrow-up:before {
+.icon-arrow-up:before {
   content: "\e903";
 }
-.calendar.icon:before, .icon-calendar:before {
+.icon-calendar:before {
   content: "\e904";
 }
-.check.square.icon:before, .icon-check-box-selected:before {
+.icon-check-box-selected:before {
   content: "\e905";
 }
-.square.outline.icon:before, .icon-check-box:before {
+.icon-check-box:before {
   content: "\e906";
 }
-.remove.icon:before, .icon-close:before {
+.icon-close:before {
   content: "\e907";
 }
-.copy.icon:before, .icon-copy:before {
+.icon-copy:before {
   content: "\e908";
 }
-.trash.icon:before, .icon-delete:before {
+.icon-delete:before {
   content: "\e909";
 }
-.download.icon:before, .icon-download:before {
+.icon-download:before {
   content: "\e90a";
 }
-.edit.icon:before, .icon-edit:before {
+.icon-edit:before {
   content: "\e90b";
 }
-.export.icon:before, .icon-export:before {
+.icon-export:before {
   content: "\e90c";
 }
-.external.icon:before, .external.square.icon:before, .icon-external-link:before {
+.icon-external-link:before {
   content: "\e90d";
 }
-.filter.icon:before, .icon-filter:before {
+.icon-filter:before {
   content: "\e90e";
 }
-.help.circle.icon:before, .icon-help:before {
+.icon-help:before {
   content: "\e90f";
 }
-.line.chart.icon:before, .icon-monitoring:before {
+.icon-monitoring:before {
   content: "\e910";
 }
-.write.icon:before, .icon-notes:before {
+.icon-notes:before {
   content: "\e911";
 }
-.selected.radio.icon:before, .icon-radio-selected:before {
+.icon-radio-selected:before {
   content: "\e912";
 }
-.radio.icon:before, .icon-radio:before {
+.icon-radio:before {
   content: "\e913";
 }
-.reload.icon:before, .icon-reload:before {
+.icon-reload:before {
   content: "\e914";
 }
-.minus.remove:before, .icon-remove:before {
+.icon-remove:before {
   content: "\e916";
 }
-.search.icon:before, .icon-search:before {
+.icon-search:before {
   content: "\e917";
 }
-.server.icon:before, .icon-servers:before {
+.icon-servers:before {
   content: "\e918";
 }
-.sort.descending.icon:before, .icon-sort-down:before {
+.icon-sort-down:before {
   content: "\e919";
 }
-.sort.ascending.icon:before, .icon-sort-up:before {
+.icon-sort-up:before {
   content: "\e91a";
 }
-.sort.icon:before, .icon-sort:before {
+.icon-sort:before {
   content: "\e91b";
 }
-.lifering.icon:before, .icon-support:before {
+.icon-support:before {
   content: "\e91c";
 }
-.tag.icon:before, .icon-tag:before {
+.icon-tag:before {
   content: "\e91d";
 }
-.ticket.icon:before, .icon-ticket:before {
+.icon-ticket:before {
   content: "\e91e";
 }
-.user.icon:before, .icon-user:before {
+.icon-user:before {
   content: "\e91f";
 }
-.warning.sign.icon:before, .icon-warning:before {
+.icon-warning:before {
   content: "\e920";
+  color: $gold900;
 }
-.checkmark.icon:before, .icon-check-mark:before {
+.icon-check-mark:before {
+  color: $green700;
   content: "\e921";
 }
-.warning.circle.icon:before, .icon-error:before {
+.icon-error:before {
   content: "\e922";
+  color: $red900;
 }
+
