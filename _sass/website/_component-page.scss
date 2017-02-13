@@ -99,12 +99,13 @@
 }
 
 .ws-icon-chip{
-	margin-bottom: 40px;
+	margin-bottom: 40px !important;
 }
 
 .ws-icon-chip-icon{
 	color:#757575;
 	text-align: center;
+  padding-bottom: 8px;
 }
 
 .ws-icon-chip-icon, .ws-icon-chip-text{
@@ -114,12 +115,14 @@
 .ws-icon-chip-text {
 	border-top: 1px solid #e0e0e0;
 	padding:8px 0 0 0;
+  font-size: 0.875em;
+  color: $grey600;
+  text-align: center;
 }
 
 .ws-icon-chip-text:last-of-type {
 	padding: 0 0 8px 0;
 	border-top: 0;
-	border-bottom: 1px solid #e0e0e0;
 }
 
 /* Typography */

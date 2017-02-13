@@ -10,14 +10,14 @@ preview-image: style/preview-icons.svg
 	<h1>Utility Icons<span class="status prototype">In Progress</span></h1>
 	<p>Utility icons can be used in place of text to perform an action. They are based on commonly used, established metaphors. If it takes the text to explain what an icon does, leave out the icon and only use the text. Utility icons should be colored like links or match the color of body text dependent on the background color. </p>
 
-	<div class="row ws-icon-row">
+	<div class="row ws-icon-row" style="margin-top:64px;">
 		{% assign iconCount = 1 %}
 		{%for icon_hash in site.data.icons%}
 			{%assign icon=icon_hash[1]%}
 			{% if icon.group == "utility" %}
 					<div class="ws-icon-chip col-xs-12 col-sm-6 col-md-3 col-lg-2">
 					  	<span class="ws-icon-chip-icon"><i class="{{icon.class}}"></i></span>
-					  	<span class="ws-icon-chip-text">{{icon.name}}</span>
+					  	<span class="ws-icon-chip-text">{{icon.class}}</span>
 					  	<span class="ws-icon-chip-text">{{icon.id}}</span>
 					</div>
 					{% assign iconCount = iconCount | plus: 1%}
@@ -32,7 +32,7 @@ preview-image: style/preview-icons.svg
 	<h1>Object Icons<span class="status prototype">In Progress</span></h1>
 	<p>Object icons should be used sparingly and consistently across Rackspace products. Their purpose is to provide a visual differentiator between items in a list or symbolize types of content.</p>
 
-	<div>
+	<div style="margin-top:64px;">
 		{% assign iconCount = 1 %}
 		{%for icon_hash in site.data.icons%}
 			{%assign icon=icon_hash[1]%}
@@ -43,7 +43,7 @@ preview-image: style/preview-icons.svg
 					<div class="col-md-1"></div>
 					<div class="ws-icon-chip col-md-2">
 					  	<span class="ws-icon-chip-icon"><i class="{{icon.class}}"></i></span>
-					  	<span class="ws-icon-chip-text">{{icon.name}}</span>
+					  	<span class="ws-icon-chip-text">{{icon.class}}</span>
 					  	<span class="ws-icon-chip-text">{{icon.id}}</span>
 					</div>
 					<div class="col-md-1"></div>
@@ -67,7 +67,7 @@ preview-image: style/preview-icons.svg
 	<h1>Validation Icons<span class="status prototype">In Progress</span></h1>
 	<p>Validation icons can be used to provide checks, errors, and warnings in forms.  They also can be used to draw users' attention to statuses or messages. Use the colors blow to draw the users' attention. Otherwise use the icons in black, gray, or white, corresponding to the color of the body text of the background.</p>
 
-	<div>
+	<div style="margin-top:64px;">
 		{% assign iconCount = 1 %}
 		{%for icon_hash in site.data.icons%}
 			{%assign icon=icon_hash[1]%}
@@ -78,7 +78,7 @@ preview-image: style/preview-icons.svg
 					<div class="col-md-1"></div>
 					<div class="ws-icon-chip col-md-2">
 					  	<span class="ws-icon-chip-icon" style="color:{{icon.color}}"><i class="{{icon.class}}"></i></span>
-					  	<span class="ws-icon-chip-text">{{icon.name}}</span>
+					  	<span class="ws-icon-chip-text">{{icon.class}}</span>
 					  	<span class="ws-icon-chip-text">{{icon.id}}</span>
 					</div>
 					<div class="col-md-1"></div>
