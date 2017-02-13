@@ -12,6 +12,7 @@ body {
     display: block;
     background-color: $grey1000;
     padding: 4px 32px;
+    height: $appHeaderHeight;
     position: fixed;
     top: 0;
     width: 100%;
@@ -40,7 +41,7 @@ body {
 
 nav {
     position: fixed;
-    top: 40px;
+    top: $appHeaderHeight;
     left: 0;
     bottom: 0;
     line-height: 1.5em;
@@ -144,6 +145,7 @@ nav {
     float: right;
     width: calc(100% - 17em);
     top: 0;
+    padding-top: $appHeaderHeight;
     .page-content {
         overflowY: scroll;
         box-sizing: border-box;
@@ -250,6 +252,25 @@ a.anchor {
 	background-color: $green;
 }
 
+.align-center {
+  margin: 0 auto;
+}
+
+.demo-list {
+  li {
+    max-width: 480px;
+    margin-bottom: 1em;
+  }
+}
+
+.demo-icon {
+  display: block;
+}
+
+.demo-section-description {
+  margin-bottom: 32px;
+}
+
 video {
   width: 900px;
   height: auto;
@@ -264,6 +285,33 @@ figcaption {
   color: $grey700;
   font-size: 12px;
   margin: 4px 0 0 40px;
+}
+
+hr {
+  margin: 2em 0;
+  border: none;
+  border-top: 1px $grey300 solid;
+}
+
+code {
+  padding: 1em;
+  background-color: $grey50;
+  border: 1px solid $grey200;
+  display: block;
+  overflow-x: auto;
+  white-space: nowrap;
+  margin: 0.875em 0 1.5em 0;
+  border-radius: 0.25em;
+  color: $purple500;
+}
+
+section {
+  border-bottom: 1px $grey300 solid;
+  padding: 3em 0;
+
+  &:last-child {
+    border-bottom: none;
+  }
 }
 
 .image {
