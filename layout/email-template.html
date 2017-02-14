@@ -27,21 +27,14 @@ preview-image:
     <div class="col-md-8">
       <figure>
         <div class="image">
-          <img style="padding-top:0px;" src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/email-templates/Email Detail.svg">
+          <img style="padding-top:0px;" src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/email-templates/EmailTemplate.svg">
         </div>
       </figure>
-            <figcaption>Examples of what a billing email using these guidlines.</figcaption>
+            
 
 
     </div>
   </div>
-
-    <figure>
-      <div class="image">
-        <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/email-templates/Email Detail - Spec.svg">
-      </div>
-    </figure>
-          <figcaption>Typography and image specifications.</figcaption>
 
   </article>
 
@@ -52,7 +45,15 @@ preview-image:
   <h1>When to Use</h1>
   <p>These templates should be used for external communications to customers related to control panels when notifications and tickets.</p>
 </article>
-
+<article>
+  <h1>Typography and Image Guides</h1>
+    <figure>
+      <div class="image">
+        <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/email-templates/Email Detail - Spec.svg">
+      </div>
+    </figure>
+    <figcaption>Typography and image specifications.</figcaption>
+</article>
 
 <article>
   <a class="anchor" name="structure"></a>
@@ -133,6 +134,7 @@ preview-image:
       <p>
         Link to the mobile app is include to increase discoverability of our native apps. Should be included to the right of sub-heading.
       </p>
+      <p>In the first line, the word notifications or ticket should change based on the message type. It should match the content in the header of the email.</p>
 
       </div>
 
@@ -149,39 +151,51 @@ preview-image:
 
   <article>
 
-    <div class="ui segment">
-      <h2>Action Items<span class="status prototype">In Progress</span></h2>
-      <p>
-
-      </p>
-      <ul>
-        <li><strong>Required</strong> - required actions consist of tickets that are waiting for a response or when the customer needs to take action in order to resolve an issue.</li>
-        <li><strong>Recommended</strong> - recommended actions, if there is maintenance or downtime that will effect customers service but there are actions the customer can take in order to avoid any service impact. These would also fall under the category of <strong>Workarounds</strong> and can include things like code, step by step instructions, or references to knowledgebase articles. </li>
-        <li><strong>Code Blocks</strong> - used to show customers what Rackers are seeing on their side.</li>
-      </ul>
+    <div class="ui segment row">
+      <div class="col-md-4">
+        
+        <h2>Call Outs</h2>
+        <p>
+        When there is some action the user needs to take it should be prominately displayed and stand out from the rest of the email content. This will allow the user to quickly scan for pertinent information. 
+        </p>
+        <ul>
+          <li><strong>Required Action</strong> - required actions consist of tickets that are waiting for a response or when the customer needs to take action in order to resolve an issue. This could range from copy and pasting code to following a list of instructions in a Knowledge Base article. These <strong>required actions</strong> do not include <i>pending customer</i> tickets. For this action see Alerts below for use cases and styles.</li>
+          <li><strong>Recommended Action</strong> - recommended actions, if there is maintenance or downtime that will effect customers service but there are actions the customer can take in order to avoid any service impact. These would also fall under the category of <strong>Workarounds</strong> and can include things like code, step by step instructions, or references to Knowledge Base articles. </li> 
+          <li><strong>Comments</strong> - typically these will only be used in the event that a user does not have acccess to their control panel. The comment allows users to view comments from Rackers so there is no issue in communication regarding tickets or services. Future vision for these emails is to  include all content in email communications so comment section will no longer be necessary. Style is the same as <strong>Workarounds</strong>.</li>
+          
+        </ul>
+      </div>
+      <div class="col-md-8">
+        <figure>
+            <div class="image">
+              <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/email-templates/Comment with CodeBlock.svg">
+              <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/email-templates/Comment with CodeBlock copy.svg">
+            </div>
+          </figure>
+      </div>
     </div>
+    <ul>
+      <li><strong>Code Blocks</strong> - show user code in a human readable format. Either as part of a work around, or just to display code content.</li>
+    </ul>
+          <figure>
+            <div class="image">
+            <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/email-templates/Code Block .svg">
+            </div>
+          </figure>
   </article>
 
   <article>
-  <div class="row">
+  <div class="ui segment row">
 
-    <div class="col-md-4">
-      <h2>Status<span class="status prototype">In Progress</span></h2>
+      <h2>Status</h2>
       <p>
         Statuses are used to give a quick view to the user on the current state of a ticket, server, bill, etc. These can be written in plan text or displayed using alert components. Refer to visual references below for specific examples.
       </p>
       <p><strong>Maintenance Status</strong> – used to let customers know when the maintenance has being scheduled, canceled, or completed.</p>
-      
-    </div>
-    <div class="col-md-8">
-      <figure>
-          <div class="image">
-            <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/email-templates/Urgent Alert.svg">
-          </div>
-        </figure>
-    </div>
-  </div>
+      <br>
+   </div>
   <div class="row">
+  <div class="col-md-4">
       <p><strong>Alert Status</strong> - Alert statuses are used to gain the users attention when there is action required on the customers part or when sending urgent impacting notifications.  </p>
       <ul>
         <li>Ticket Status:
@@ -206,7 +220,15 @@ preview-image:
           </ul>
         </li>
       </ul>
-      </div>
+       </div>
+    <div class="col-md-8">
+      <figure>
+          <div class="image">
+            <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/email-templates/Urgent Alert.svg">
+          </div>
+        </figure>
+    </div>
+  </div>
    <figure>
       <div class="image">
         <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/email-templates/Alert Specs.svg">
@@ -225,7 +247,7 @@ preview-image:
     <div class="col-md-8">
       <figure>
           <div class="image">
-            <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/email-templates/Button.svg">
+            <img style="max-width: 350px;" src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/email-templates/Button.svg">
           </div>
         </figure>
     </div>
@@ -234,6 +256,7 @@ preview-image:
           <div class="image">
             <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/email-templates/Buttons.svg">
           </div>
+          <figcaption>Variation of button content. Message should always be clear and concise.</figcaption>
         </figure>
   </article>
 
@@ -278,7 +301,7 @@ preview-image:
     <div class="col-md-8">
       <figure>
           <div class="image">
-            <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/email-templates/Mobile LInks.svg">
+            <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/email-templates/Footer.svg">
           </div>
         </figure>
     </div>
@@ -288,7 +311,7 @@ preview-image:
   <article>
     <h2>Links</h2>
     <p>
-      Do not display actual URL. All links should be hyperlinked text and follow formatting rules of <a href="http://design.rax.io/design-system/style/typography.html">Helix typography styles</a>. Go to Rackspace documentation guidelines for more detailed information on how to use <a href="http://rackerlabs.github.io/docs-rackspace/style-guide/a-l-style-guidelines.html#links-and-cross-references">links and cross references</a>.
+      Do not display actual URL. All links should be hyperlinked text and follow formatting rules of <a href="http://design.rax.io/design-system/style/typography.html">Helix typography styles</a>, unless specified on this page. Go to Rackspace documentation guidelines for more detailed information on how to use <a href="http://rackerlabs.github.io/docs-rackspace/style-guide/a-l-style-guidelines.html#links-and-cross-references">links and cross references</a> within email content.
     </p>
 
     <div class="ui segment">
@@ -356,4 +379,13 @@ preview-image:
       </ul>
     </div>
   </div>
+</article>
+<article>
+  <h1>Visual Examples</h1>
+      <figure>
+      <div class="image">
+        <img style="padding-top:0px;" src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/email-templates/Email Detail.svg">
+      </div>
+    </figure>
+    <figcaption>Example of a billing email using these guidlines.</figcaption>
 </article>
