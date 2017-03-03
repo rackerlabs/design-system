@@ -6,13 +6,13 @@ console.log(a.hasClass('active'));
 open.click(function(e){
     e.preventDefault();
     var $this = $(this),
-        speed = 500;
-    if($this.hasClass('active') === true) {
+        speed = 250;
+    if($this.hasClass('active')) {
         $this.removeClass('active').next('.box').slideUp(speed);
-    } else if(a.hasClass('active') === false) {
+    } else if(!a.hasClass('active')) {
         $this.addClass('active').next('.box').slideDown(speed);
     } else {
         a.removeClass('active').next('.box').slideUp(speed);
-        $this.addClass('active').next('.box').delay(speed).slideDown(speed);
+        $this.addClass('active').next('.box').slideDown(speed);
     }
 });
