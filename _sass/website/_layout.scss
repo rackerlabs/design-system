@@ -5,6 +5,8 @@ body {
 /**
  * Site header
  */
+
+/* Deprecated with removal of Eyebrow
 .site-header {
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
@@ -16,15 +18,6 @@ body {
     top: 0;
     width: 100%;
     z-index: 100;
-    .logo {
-        float: left;
-        width: 240px;
-        img {
-            padding:4px 0;
-            height: 32px;
-            width: auto;
-        }
-    }
     .nameplate {
             color: #9e9e9e;
             float: left;
@@ -36,11 +29,25 @@ body {
             font-weight:600;
             color: #d8d8d8;
         }
+} */
+
+.logo {
+    display: block;
+    width: 100%;
+    img {
+        padding:4px 0;
+        height: 48px;
+        width: auto;
+        margin: auto;
+        position: relative;
+        top: -19px;
+        left: -6px;
+    }
 }
 
 nav {
     position: fixed;
-    top: 40px;
+    top: 0px;
     left: 0;
     bottom: 0;
     line-height: 1.5em;
