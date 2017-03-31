@@ -1,5 +1,6 @@
 body {
   background-color: $grey25;
+  line-height: $base-line-height;
 }
 
 /**
@@ -378,9 +379,10 @@ figcaption {
     margin-right: auto;
     max-width: 730px;
     text-align: center;
+    line-height: $base-line-height;
   }
   h2 {
-    line-height: 1.25;
+    line-height: $base-line-height;
     margin-bottom: 28px;
   }
   .column {
