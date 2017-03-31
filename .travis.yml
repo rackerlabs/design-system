@@ -15,7 +15,10 @@ addons:
     - sshpass
 before_script:
 - bundle install
-script: bundle exec jekyll build --config _prod-config.yml
+script: 
+  - if [ $TRAVIS_BRANCH = 'staging' ]; then bundle exec jekyll build --config _staging-config.yml; fi
+  - if [ $TRAVIS_BRANCH = 'master' ]; then bundle exec jekyll build --config _prod-config.yml; fi
+
 after_success:
 - mv _site design-system
 - tar -czf package.tgz design-system
