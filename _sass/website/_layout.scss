@@ -1,5 +1,6 @@
 body {
   background-color: $grey25;
+  line-height: $base-line-height;
 }
 
 /**
@@ -172,7 +173,7 @@ article {
 article.page-header {
   background-color: $grey25;
   padding-bottom: 0;
-  padding-top: 80px;
+  padding-top: 48px;
 }
 
 article:nth-child(2) {
@@ -378,9 +379,10 @@ figcaption {
     margin-right: auto;
     max-width: 730px;
     text-align: center;
+    line-height: $base-line-height;
   }
   h2 {
-    line-height: 1.25;
+    line-height: $base-line-height;
     margin-bottom: 28px;
   }
   .column {
