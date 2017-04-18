@@ -1,5 +1,6 @@
 body {
   background-color: $grey25;
+  line-height: $base-line-height;
 }
 
 /**
@@ -172,7 +173,7 @@ article {
 article.page-header {
   background-color: $grey25;
   padding-bottom: 0;
-  padding-top: 80px;
+  padding-top: 48px;
 }
 
 article:nth-child(2) {
@@ -271,6 +272,13 @@ figcaption {
   color: $grey700;
   font-size: 12px;
   margin: 4px 0 0 40px;
+}
+
+pre {
+  padding: 8px 12px;
+  background: $grey100;
+  color: $grey950;
+  border-radius: 2px;
 }
 
 .image {
@@ -378,9 +386,10 @@ figcaption {
     margin-right: auto;
     max-width: 730px;
     text-align: center;
+    line-height: $base-line-height;
   }
   h2 {
-    line-height: 1.25;
+    line-height: $base-line-height;
     margin-bottom: 28px;
   }
   .column {
