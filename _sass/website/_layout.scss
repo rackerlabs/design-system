@@ -274,6 +274,13 @@ figcaption {
   margin: 4px 0 0 40px;
 }
 
+pre {
+  padding: 8px 12px;
+  background: $grey100;
+  color: $grey950;
+  border-radius: 2px;
+}
+
 .image {
   text-align: center;
   width: 100%;

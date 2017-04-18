@@ -40,15 +40,13 @@ preview-image: style/preview-icons.svg
 				{% if iconCount == 1 %}
 				<div class="row ws-icon-row">
 				{% endif %}
-					<div class="col-md-1"></div>
 					<div class="ws-icon-chip col-md-2">
 					  	<span class="ws-icon-chip-icon"><i class="{{icon.class}}"></i></span>
 					  	<span class="ws-icon-chip-text">{{icon.class}}</span>
 					  	<span class="ws-icon-chip-text">{{icon.id}}</span>
 					</div>
-					<div class="col-md-1"></div>
-					{% assign iconCount = iconCount | plus: 1%}
-					{% if iconCount == 4 %}
+					{% assign iconCount = iconCount | plus: 1 %}
+					{% if iconCount == 7 %}
 						</div>
 						{%assign closeDiv = true%}
 						{% assign iconCount = 1 %}
@@ -75,16 +73,14 @@ preview-image: style/preview-icons.svg
 				{% if iconCount == 1 %}
 				<div class="row ws-icon-row">
 				{% endif %}
-					<div class="col-md-1"></div>
 					<div class="ws-icon-chip col-md-2">
 					  	<span class="ws-icon-chip-icon" style="color:{{icon.color}}"><i class="{{icon.class}}"></i></span>
 					  	<span class="ws-icon-chip-text">{{icon.class}}</span>
 					  	<span class="ws-icon-chip-text">{{icon.id}}</span>
 					</div>
-					<div class="col-md-1"></div>
 					{% assign iconCount = iconCount | plus: 1%}
-					{% if iconCount == 4 %}
-						</div>
+					{% if iconCount == 7 %}
+				</div>
 						{%assign closeDiv = true%}
 						{% assign iconCount = 1 %}
 					{% else %}
@@ -96,6 +92,12 @@ preview-image: style/preview-icons.svg
 				</div>
 		{% endif %}
 	</div>
+</article>
+
+<article>
+	<h1>Download Current Release</h1>
+	<p>The latest version of the icon font can be downloaded for use within your project at the following CDN link:</p>
+	<pre>http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/fonts/DS_icon_font.zip</pre>
 </article>
 
 <article>
