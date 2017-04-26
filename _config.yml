@@ -9,9 +9,9 @@
 title: Rackspace Design System
 email: design-system@rackspace.com
 description: > # this means to ignore newlines until "baseurl:"
-  This is a UI style guide for the getcarina.com control panel v2.0. Here you will find a listing of the components available within the new
-  design system. Once specifications are created for each component we will work with our developer partners to
-  generate associated code for use and reuse across racksapce products.
+  Designed out of the best parts of Encore 2.0, Canon, and other Rackspace interfaces, Helix is an initial step toward a 
+  shared set of UX/UI components that designers and developers can use to deliver high quality, cohesive experiences for 
+  customers and Rackers alike.
 baseurl: "" # the subpath of your site, e.g. /blog
 baseurl_production: "/design-system"
 cdn_url: "http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com"
