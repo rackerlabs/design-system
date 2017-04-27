@@ -164,6 +164,21 @@ nav {
 article {
 	padding: 32px 10px;
   position: relative;
+  &:first-child {
+    border-bottom: none;
+  }
+  /* border-bottom: 1px solid #e0e0e0; this will be uncommented once the rest of the content is edited to use less article tags on a page, the border-bottom segmentation works best when articles have multiple rows and plenty of content */
+  ul {
+    font-size: 0.87em;
+    -webkit-margin-before: 0;
+    margin-before: 0;
+    padding-start: 20px;
+    -webkit-padding-start: 20px;
+    li {
+      padding-bottom: 0.6em;
+      line-height: 1.678em;
+    }
+  }
 }
 
 .container article {
@@ -271,7 +286,13 @@ figure {
 figcaption {
   color: $grey700;
   font-size: 12px;
-  margin: 4px 0 0 40px;
+  margin: 8px 0 0 8px;
+  line-height: 1.678em
+}
+
+p {
+  font-size: .94em;
+  max-width: 34em;
 }
 
 pre {
@@ -289,6 +310,7 @@ pre {
   }
   &.border {
     border: 1px solid $grey300;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.16);
   }
   img {
     padding: 40px;
