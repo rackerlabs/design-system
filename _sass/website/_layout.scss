@@ -290,6 +290,10 @@ figcaption {
   line-height: 1.678em
 }
 
+h2 {
+  line-height: 1.3em;
+}
+
 p {
   font-size: .94em;
   max-width: 34em;
@@ -314,6 +318,7 @@ pre {
   }
   img {
     padding: 40px;
+    max-width: 100%;
   }
 }
 
