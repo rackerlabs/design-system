@@ -1,0 +1,11 @@
+---
+layout: website/default
+---
+
+{% for pg in site.pages %}
+{% if pg.parent == page.title %}
+  
+  {{ pg.content }}
+
+{% endif %}
+{% endfor %}
