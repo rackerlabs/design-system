@@ -1,0 +1,53 @@
+/* ==========================================================================
+   Tables
+   ========================================================================== */
+/**
+ * Remove most spacing between table cells.
+ */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; 
+  border:1px solid #e0e0e0;
+  th {
+  	padding: 1.25em;
+  	border-bottom: 2px solid #0C7C84;
+  	text-align: left;
+  }
+  tr {
+  	vertical-align:top;
+  	td {
+  	padding: 1.25em; 
+  	border-bottom: 1px solid #e0e0e0;
+  	span {
+  		&.component {
+		  padding: $paddingXS $paddingS;
+		  border-radius: 12px;
+		  font-weight:400;
+			font-size:12px;
+		  line-height: 12px;
+			letter-spacing:0.5px;
+		  color: #fff;
+		  vertical-align: 4px;
+		  white-space: nowrap;
+		  top: 3px; 
+		  position: relative;
+		}
+
+		.prototype {
+			background-color: $purple;
+		}
+
+		.dev-ready {
+			background-color: $green;
+		}
+
+  	}
+  	}
+  }
+}
+
+.striped  {
+	tr:nth-child(even) {
+	  	background: #F2F2F2;
+	}
+}

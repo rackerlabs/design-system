@@ -1,0 +1,123 @@
+---
+title: Component Status
+layout: website/default
+---
+
+<article>
+	<p>Listing of components in the language and their current status. Lorem Ipsum.</p>
+<!--
+	<h2>Option 1</h2>
+    <table class="striped">
+    <thead>
+      <tr>
+        <th style="width: 33%">Component</th>
+        <th style="width: 33%">Version Added</th>
+        <th style="width: 33%">Status</th>
+      </tr>
+    </thead>
+    <tbody>
+	    {% for page in site.pages %}
+	        {% if page.category %}
+	            <tr>
+	            	<td><a href="{{site.baseurl}}{{page.url}}.html">{{page.title}}</a></td>
+	            	<td>1.0</td>
+	            	<td>
+	            	{% if page.status %}
+		            	{% if page.status == "pending" %}
+		            		<span class="component prototype">In Progress</span>
+		            	{% elsif page.status == "complete" %}
+		            		<span class="component dev-ready">Complete</span>
+		            	{% elsif page.status == "deprecated" %}
+		            		<span class="component deprecated">Deprectated</span>
+		            	{% endif %}
+		            {% else %}
+		            	<span class="component prototype">In Progress</span>
+	            	{% endif %}
+	            	</td>
+	            </tr>
+	        {% endif %}
+	    {% endfor %}
+    </tbody>
+    </table>
+<br>
+<br>
+
+    <h2>Option 2</h2>
+
+    <div class="row" style="max-width: 40em;">
+		<div class="col-md-3"><i class="icon-disabled"></i><p>Unavailable</p></div>
+		<div class="col-md-3"><i class="icon-warning"></i><p>In-Progress</p></div>
+		<div class="col-md-3"><i class="icon-check-mark"></i><p>Complete</p></div>
+		<div class="col-md-3"><i class="icon-error"></i><p>Deprecated</p></div>
+	</div>-->
+	<h2>Component Status</h2>
+	<table class="striped" style="width: 38em">
+    <thead>
+      <tr>
+        <th style="width: 33%">Component</th>
+        <th style="width: 33%">Version Added</th>
+        <th style="width: 33%">Status</th>
+      </tr>
+    </thead>
+    <tbody>
+	    {% for page in site.pages %}
+	        {% if page.category %}
+	            <tr>
+	            	<td><a href="{{site.baseurl}}{{page.url}}.html">{{page.title}}</a></td>
+	            	<td>1.0</td>
+	            	<td>
+	            	{% if page.status %}
+		            	{% if page.status == "pending" %}
+		            		<i class="icon-warning"></i>
+		            	{% elsif page.status == "complete" %}
+		            		<i class="icon-check-mark"></i>
+		            	{% elsif page.status == "deprecated" %}
+		            		<i class="icon-error"></i>
+		            	{% endif %}
+		            {% else %}
+		            	<i class="icon-disabled"></i>
+	            	{% endif %}
+	            	</td>
+	            </tr>
+	        {% endif %}
+	    {% endfor %}
+    </tbody>
+    </table>
+
+</article>
+
+<article>
+	<h2>Icon Descriptions</h2>
+	<table class="striped" style="width: 38em">
+    <thead>
+      <tr>
+        <th style="width: 25%">Icon</th>
+        <th style="width: 25%">Status</th>
+        <th style="width: 50%">Explanation</th>
+      </tr>
+    </thead>
+    <tbody>
+	    <tr>
+	    	<td><i class="icon-disabled"></i></td>
+	    	<td><p>Unavailable</p></td>
+	    	<td><p>Currently no finalized interaction definications and design specifications exist for this component. Designs should be treated with low confidence.</p></td>
+	    </tr>
+	    <tr>
+	    	<td><i class="icon-warning"></i></td>
+	    	<td><p><p>In-Progress</p></p></td>
+	    	<td><p>Specifications are solid for a given component but slight adjustments are expected in the future. Designs should be treated with medium confidence.</p></td>
+	    </tr>
+	    <tr>
+	    	<td><i class="icon-check-mark"></i></td>
+	    	<td><p>Complete</p></td>
+	    	<td><p>Current interaction definitions and design specfication on the site are finalized and signed off by design. Designs should be treated with high confidence.</p></td>
+	    </tr>
+	    <tr>
+	    	<td><i class="icon-error"></i></td>
+	    	<td><p>Deprecated</p></td>
+	    	<td><p>Specifications listed on the site are accurate, but apply to a deprecated version of this component. Designs should no longer be implemented.</p></td>
+	    </tr>
+    </tbody>
+    </table>
+
+</article>
