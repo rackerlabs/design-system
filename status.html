@@ -53,19 +53,20 @@ layout: website/default
 	<h2>Component Status</h2>
 	<table class="striped component-table">
     <thead>
-      <tr>
-        <th class="1-3">Component</th>
-        <th class="1-3">Version Added</th>
-        <th class="1-3">Status</th>
+      <tr class="compressed">
+        <th class="th-1-2">Component</th>
+        <!-- Removing this line until we have a strategy around versioning as this is a future item<th class="th-1-3">Version Added</th> -->
+        <th class="th-1-2">Status</th>
       </tr>
     </thead>
     <tbody>
 	    {% for page in site.pages %}
 	        {% if page.category %}
-	            <tr>
-	            	<td><a href="{{site.baseurl}}{{page.url}}.html">{{page.title}}</a></td>
-	            	<td>1.0</td>
-	            	<td>
+	            <tr class="compressed">
+	            	<td class="compressed"><a href="{{site.baseurl}}{{page.url}}.html">{{page.title}}</a></td>
+	            	<!-- Removing this line until we have a strategy around versioning as this is a future item
+	            	<td class="compressed">1.0</td> -->
+	            	<td class="compressed">
 	            	{% if page.status %}
 		            	{% if page.status == "pending" %}
 		            		<i class="icon-warning"></i>
@@ -90,32 +91,32 @@ layout: website/default
 	<h2>Icon Descriptions</h2>
 	<table class="striped component-table">
     <thead>
-      <tr>
-        <th class="1-4">Icon</th>
-        <th class="1-4">Status</th>
-        <th class="1-2">Explanation</th>
+      <tr class="compressed">
+        <th class="th-1-4">Icon</th>
+        <th class="th-1-4">Status</th>
+        <th class="th-1-2">Explanation</th>
       </tr>
     </thead>
     <tbody>
-	    <tr>
-	    	<td><i class="icon-disabled"></i></td>
-	    	<td><p>Unavailable</p></td>
-	    	<td><p>Currently no finalized interaction definications and design specifications exist for this component. Designs should be treated with low confidence.</p></td>
+	    <tr class="large">
+	    	<td class="compressed"><i class="icon-disabled"></i></td>
+	    	<td class="compressed"><p>Unavailable</p></td>
+	    	<td class="compressed"><p>Currently no finalized interaction definitions and design specifications exist for this component. Designs should be treated with low confidence.</p></td>
 	    </tr>
-	    <tr>
-	    	<td><i class="icon-warning"></i></td>
-	    	<td><p>In-Progress</p></td>
-	    	<td><p>Specifications are solid for a given component but slight adjustments are expected in the future. Designs should be treated with medium confidence.</p></td>
+	    <tr class="large">
+	    	<td class="compressed"><i class="icon-warning"></i></td>
+	    	<td class="compressed"><p>In-Progress</p></td>
+	    	<td class="compressed"><p>Specifications are solid for a given component but slight adjustments are expected in the future. Designs should be treated with medium confidence.</p></td>
 	    </tr>
-	    <tr>
-	    	<td><i class="icon-check-mark"></i></td>
-	    	<td><p>Complete</p></td>
-	    	<td><p>Current interaction definitions and design specfication on the site are finalized and signed off by design. Designs should be treated with high confidence.</p></td>
+	    <tr class="large">
+	    	<td class="compressed"><i class="icon-check-mark"></i></td>
+	    	<td class="compressed"><p>Complete</p></td>
+	    	<td class="compressed"><p>Current interaction definitions and design specfication on the site are finalized and signed off by design. Designs should be treated with high confidence.</p></td>
 	    </tr>
-	    <tr>
-	    	<td><i class="icon-error"></i></td>
-	    	<td><p>Deprecated</p></td>
-	    	<td><p>Specifications listed on the site are accurate, but apply to a deprecated version of this component. Designs should no longer be implemented.</p></td>
+	    <tr class="large">
+	    	<td class="compressed"><i class="icon-error"></i></td>
+	    	<td class="compressed"><p>Deprecated</p></td>
+	    	<td class="compressed"><p>Specifications listed on the site are accurate, but apply to a deprecated version of this component. Designs should no longer be implemented.</p></td>
 	    </tr>
     </tbody>
     </table>
