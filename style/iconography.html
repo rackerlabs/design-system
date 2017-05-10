@@ -3,13 +3,21 @@ title: Iconography
 layout: website/default
 category: Style
 usage: Helix icons are easily identifiable simple shapes that visually represent abstract subject matter.
-preview-image: style/preview-icons.svg
+resource: true
 ---
+
+<article>
+	<h1>Download Current Release</h1>
+	<p>The latest version of the icon font can be downloaded for use within your project at the following CDN link:</p>
+	<pre>http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/fonts/DS_icon_font.zip</pre>
+
+	<h2>New Requests</h1>
+	<p> If you need an additional icon, please submit your request to the <a href="mailto:helix.designsystem@rackspace.com?subject=Icon Request">Helix Team</a>.</p>
+</article>
 
 <article id="utility">
 	<h1>Utility Icons<span class="status prototype">In Progress</span></h1>
-	<p>Utility icons can be used in place of text to perform an action. They are based on commonly used, established metaphors. If it takes the text to explain what an icon does, leave out the icon and only use the text. Utility icons should be colored like links or match the color of body text dependent on the background color. </p>
-
+	<p>Utility icons are used in place of text to perform an action. They are based on commonly used, established metaphors. Utility icons share the color style of links or match the color of body text dependent on the background color. </p>
 	<div class="row ws-icon-row" style="margin-top:64px;">
 		{% assign iconCount = 1 %}
 		{%for icon_hash in site.data.icons%}
@@ -92,15 +100,4 @@ preview-image: style/preview-icons.svg
 				</div>
 		{% endif %}
 	</div>
-</article>
-
-<article>
-	<h1>Download Current Release</h1>
-	<p>The latest version of the icon font can be downloaded for use within your project at the following CDN link:</p>
-	<pre>http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/fonts/DS_icon_font.zip</pre>
-</article>
-
-<article>
-	<h1>New Requests</h1>
-	<p style="padding-bottom:0px;"> If you need an additional icon, please submit your request to the <a href="mailto:helix.designsystem@rackspace.com?subject=Icon Request">Helix Team</a>.</p>
 </article>

@@ -1,5 +1,5 @@
 <nav>
-  <div class="logo"><img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/overview/helix-logo-2.svg" class="logo"></div>
+  <div class="logo"><a href="{{site.baseurl}}/"><img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/overview/helix-logo-2.svg" class="logo"" class="logo"></a></div>
   <ul>
 
     {% assign currenturl = page.url %}
@@ -13,7 +13,7 @@
 
         <ul {% if currenturl contains foldername %} class="box active" {% else %} class="box inactive"  {% endif %} id="effect">
           {% for page in site.pages %}
-            {% if page.category == navItem | downcase %}
+            {% if page.category == navItem and page.resource == true %}
             <li><a href="{{site.baseurl}}{{page.url}}.html" {% if currenturl contains page.url %} class="active" {% else %} {% endif %}>{{page.title}}</a></li>
             {% endif %}
           {% endfor %}
@@ -23,6 +23,8 @@
 
     <li><a href="{{site.baseurl}}/resources" {% if currenturl == "/resources" %} class="active" {% else %} {% endif %}>Resources</a></li>
     <li><a href="{{site.baseurl}}/contribute" {% if currenturl == "/contribute" %} class="active" {% else %} {% endif %}>Contribute</a></li>
+    <!-- This adds the status page to the nav, it is commented out until we better define the use-case
+    <li><a href="{{site.baseurl}}/status.html" {% if currenturl == "/contribute" %} class="active" {% else %} {% endif %}>Status</a></li> -->
 
     <!--<li><a href="{{site.baseurl}}/upcoming" {% if currenturl == "/upcoming" %} class="active" {% else %} {% endif %}>Upcoming</a></li>-->
 
