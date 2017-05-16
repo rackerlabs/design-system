@@ -34,20 +34,26 @@ body {
 
 .logo {
     display: block;
-    width: 100%;
+    width: 17em;
+    height: 60px;
+    background: #000000;
+    position: relative;
+    top: 0px;
+    left: 0px;
     img {
-        padding:4px 0;
-        height: 58px;
+        height: 30px;
         width: auto;
-        margin: auto;
         position: relative;
-        top: -19px;
-        left: -6px;
+        top: 15px;
+        left: 2em;
     }
 }
 
 nav {
     position: fixed;
+    .primary-nav {
+      padding: 1.5em 0 1em 0;
+    }
     top: 0px;
     left: 0;
     bottom: 0;
@@ -60,7 +66,6 @@ nav {
     box-shadow: 0px 5px 6px 1px rgba(102,102,102,.25);
     z-index: 2;
     background-color: $grey975;
-    padding: 2.5em 0 1em 0;
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
     -o-font-smoothing: antialiased;
