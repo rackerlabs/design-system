@@ -26,8 +26,7 @@ h1,
 h2,
 h3,
 h4,
-h5,
-.display-font {
+h5 {
   color: $grey900;
   font-family: $font-family;
   line-height: $heading-line-height;
@@ -38,6 +37,7 @@ h5,
   font-size: $font-size-7;
   font-weight: 100;
   margin-bottom: 32px;
+  color: #ffffff;
 }
 h1 {
   font-size: $font-size-5;

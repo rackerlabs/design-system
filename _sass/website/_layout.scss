@@ -163,6 +163,10 @@ nav {
     }
 }
 
+.header-wrapper {
+    width: 100%;
+}
+
 /**
  * Content styles
  */
@@ -191,9 +195,11 @@ article {
 }
 
 article.page-header {
-  background-color: $grey25;
-  padding-bottom: 0;
-  padding-top: 48px;
+  padding-bottom: 1em;
+  padding-top: 2.5em;
+  &.display-font {
+    color: #ffffff;
+  }
 }
 
 article:nth-child(2) {
@@ -416,6 +422,7 @@ pre {
   }
   .display-font {
     text-align: center;
+    color: #434343;
   }
   p, h2, .visuals {
     margin-left: auto;
