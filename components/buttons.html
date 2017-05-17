@@ -10,213 +10,211 @@ resource: true
 
 
 <article>
-  <h1>Primary Buttons</h1>
-  <p>Use the primary action button to prompt the user to take action. In most instances, use the standard size button. Use the compact buttons with space constraints such as within a table. Large buttons should be used in mobile designs to accommodate the ideal touch target size. Use one primary button per page.</p>
-  <div class="ws-btn-group-size">
-    <div class="ws-btn-group">
-      <button class="ui button ds-btn">Button Text</button>
-      <span class="subtext">Large</span>
-    </div>
-    <div class="ws-btn-group">
-      <button class="ui button ds-btn-med">Button Text</button>
-      <span class="subtext">Standard</span>
-    </div>
-    <div class="ws-btn-group">
-      <button class="ui button ds-btn-sm">Button Text</button>
-      <span class="subtext">Compact</span>
-    </div>
-  </div>
-  <h3 class="ws-btn-h3">Actions</h3>
-  <div class="ws-btn-group-actions">
-    <div class="ws-btn-group">
-      <button class="ui button ds-btn-med default">Button Text</button>
-      <span class="subtext">Default (900)</span>
-    </div>
-    <div class="ws-btn-group">
-      <button class="ui button ds-btn-med hover">Button Text</button>
-      <span class="subtext">Hover (500)</span>
-    </div>
-    <div class="ws-btn-group">
-      <button class="ui button ds-btn-med active">Button Text</button>
-      <span class="subtext">Pressed (700)</span>
-    </div>
-    <div class="ws-btn-group">
-      <button class="ui button ds-btn-med disabled">Button Text</button>
-      <span class="subtext">Disabled (300)</span>
-    </div>
-  </div>
-  <!--<h3 class="ws-btn-h3">Dropdown Button</h3>
-  <div class="ws-btn-group-dropdown">
-    <div class="ws-btn-group">
-      <div class="ui compact menu">
-        <div class="ui simple dropdown item">
-          Button Text
-          <i class="dropdown icon"></i>
-          <div class="menu">
-            <div class="item">Choice 1</div>
-            <div class="item">Choice 2</div>
-            <div class="item">Choice 3</div>
-          </div>
+  <h1>Buttons</h1>
+  <p>Buttons provide the mechanism for users to perform actions within a Helix themed UI. Each button has a wieght - (Primary, Secondary, and Teritiary), a size - (Regular, Large, Compact), as well as a type - (Simple, Dropdown)</p>
+  <div class="row">
+    <div class="col-md-12">
+      <figure>
+        <div class="image bg-light border">
+          <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/Buttons/buttons-types.svg">
         </div>
-      </div>
-    </div>
-    <div class="ws-btn-group">
-      <div class="ui buttons">
-        <div class="ui button">Button Text</div>
-        <div class="ui floating dropdown icon button">
-          <i class="dropdown icon"></i>
-          <div class="menu">
-            <div class="item">Choice 1</div>
-            <div class="item">Choice 2</div>
-            <div class="item">Choice 3</div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>-->
-
-  <h3 class="ws-btn-h3">Dropdown Button</h3>
-  <div class="ws-btn-group-dropdown">
-    <div class="ws-btn-group" style="vertical-align: top;">
-      <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/buttons-primary-dropdown.svg">
-    </div>
-    <div class="ws-btn-group" style="vertical-align: top;">
-      <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/buttons-primary-dropdown-open.svg">
-    </div>
-  </div>
-
-  <h3 class="ws-btn-h3">Loading Button</h3>
-  <div class="ws-btn-group-dropdown">
-    <div class="ws-btn-group" style="vertical-align: top;">
-      <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/buttons-primary-loading-det.svg">
-    </div>
-    <div class="ws-btn-group" style="vertical-align: top;">
-      <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/buttons-primary-loading-spin.svg">
+        <figcaption>The three types of buttons defined in the Helix design language</figcaption>
+      </figure>
     </div>
   </div>
 </article>
 
 <article>
-  <h1>Secondary Buttons<span class="status prototype">In Progress</span></h1>
-  <p>The secondary button can be used in conjuction with the primary button or when there are multiple buttons on the same screen. The same sizing rules apply to both secondary and primary buttons.</p>
-  <div class="ws-btn-group-size">
-    <div class="ws-btn-group">
-      <button class="ui button ds-btn-sec">Button Text</button>
-      <span class="subtext">Large</span>
+  <div class="row">
+    <div class="col-md-4">
+      <a class="anchor" name="top-nav"></a>
+      <h2>Primary Buttons</h2>
+      <ul>
+        <li>Use the primary action button to prompt the user to take action.</li>
+        <li>In most instances, use the standard size button. Use the compact buttons with space constraints such as within a table.</li>
+        <li>Large buttons should be used in mobile designs to accommodate the ideal touch target size</li>
+        <li>Use one primary button per page.</li>
+      </ul>
     </div>
-    <div class="ws-btn-group">
-      <button class="ui button ds-btn-med-sec">Button Text</button>
-      <span class="subtext">Standard</span>
-    </div>
-    <div class="ws-btn-group">
-      <button class="ui button ds-btn-sm-sec">Button Text</button>
-      <span class="subtext">Compact</span>
-    </div>
-  </div>
-  <h3 class="ws-btn-h3">Actions</h3>
-  <div class="ws-btn-group-actions">
-    <div class="ws-btn-group">
-      <button class="ui button ds-btn-med-sec default">Button Text</button>
-      <span class="subtext">Default (900)</span>
-    </div>
-    <div class="ws-btn-group">
-      <button class="ui button ds-btn-med hover">Button Text</button>
-      <span class="subtext">Hover (500)</span>
-    </div>
-    <div class="ws-btn-group">
-      <button class="ui button ds-btn-med active">Button Text</button>
-      <span class="subtext">Pressed (700)</span>
-    </div>
-    <div class="ws-btn-group">
-      <button class="ui button ds-btn-med disabled">Button Text</button>
-      <span class="subtext">Disabled (300)</span>
-    </div>
-  </div>
-
-  <h3 class="ws-btn-h3">Dropdown Button</h3>
-  <div class="ws-btn-group-dropdown">
-    <div class="ws-btn-group" style="vertical-align: top;">
-      <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/buttons-secondary-dropdown.svg">
-    </div>
-    <div class="ws-btn-group" style="vertical-align: top;">
-      <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/buttons-secondary-dropdown-open.svg">
-    </div>
-  </div>
-
-  <h3 class="ws-btn-h3">Loading Button</h3>
-  <div class="ws-btn-group-dropdown">
-    <div class="ws-btn-group" style="vertical-align: top;">
-      <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/buttons-secondary-loading-det.svg">
-    </div>
-    <div class="ws-btn-group" style="vertical-align: top;">
-      <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/buttons-secondary-loading-spin.svg">
-    </div>
-  </div>
-  <!--<h3 class="ws-btn-h3">Dropdown Button</h3>
-  <div class="ws-btn-group-dropdown">
-    <div class="ws-btn-group">
-      <div class="ui compact menu">
-        <div class="ui simple dropdown item">
-          Button Text
-          <i class="dropdown icon"></i>
-          <div class="menu">
-            <div class="item">Choice 1</div>
-            <div class="item">Choice 2</div>
-            <div class="item">Choice 3</div>
-          </div>
+    <div class="col-md-7 col-md-offset-1">
+      <figure>
+        <div class="image bg-light border">
+          <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/Buttons/buttons-primary-sizes.svg">
         </div>
-      </div>
-    </div>
-    <div class="ws-btn-group">
-      <div class="ui buttons">
-        <div class="ui button">Button Text</div>
-        <div class="ui floating dropdown icon button">
-          <i class="dropdown icon"></i>
-          <div class="menu">
-            <div class="item">Choice 1</div>
-            <div class="item">Choice 2</div>
-            <div class="item">Choice 3</div>
-          </div>
+        <figcaption>Primary button sizes</figcaption>
+      </figure>
+      <figure>
+        <div class="image bg-light border">
+          <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/Buttons/buttons-primary-actions.svg">
         </div>
-      </div>
+        <figcaption>Primary button states</figcaption>
+      </figure>
+  </div>
+</article>
+<article>
+  <div class="row">
+    <h2>Secondary Buttons</h2>
+    <div class="col-md-4">
+      <ul>
+        <li>The secondary button can be used in conjuction with the primary button or when there are multiple buttons on the same screen.</li>
+        <li>The same sizing rules apply to both secondary and primary buttons.</li>
+      </ul>
     </div>
-  </div>-->
+    <div class="col-md-7 col-md-offset-1">
+      <figure>
+        <div class="image bg-light border">
+          <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/Buttons/buttons-secondary-sizes.svg">
+        </div>
+        <figcaption>Secondary button sizes</figcaption>
+      </figure>
+      <figure>
+        <div class="image bg-light border">
+          <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/Buttons/buttons-secondary-actions.svg">
+        </div>
+        <figcaption>Secondary button states</figcaption>
+      </figure>
+  </div>
+</article>
+<article>
+  <div class="row">
+  <h2>Tertiary Buttons</h2>
+    <div class="col-md-4">
+      <ul>
+        <li>Tertiary buttons can be used in conjuction with the primary button or with a primary and secondary button.</li>
+        <li>Tertiary buttons should be used to deemphasize the action in comparison with the actions of primary or secondary buttons.</li>
+        <li>or example, use a tertiary button for "cancel" and a primary button to emphasize "submit"</li>
+      </ul>
+    </div>
+    <div class="col-md-7 col-md-offset-1">
+      <figure>
+        <div class="image bg-light border">
+          <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/Buttons/buttons-tertiary-sizes.svg">
+        </div>
+        <figcaption>Tertiary button sizes</figcaption>
+      </figure>
+      <figure>
+        <div class="image bg-light border">
+          <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/Buttons/buttons-tertiary-actions.svg">
+        </div>
+        <figcaption>Tertiary button states</figcaption>
+      </figure>
+  </div>
 </article>
 
 <article>
-  <h1>Tertiary Buttons<span class="status prototype">In Progress</span></h1>
-  <p>Tertiary buttons can be used in conjuction with the primary button or with a primary and secondary button. Tertiary buttons should be used to deemphasize the action in comparison with the actions of primary or secondary buttons.  For example, use a tertiary button for "cancel" and a primary button to emphasize "submit".</p>
-  <div class="ws-btn-group-size">
-    <div class="ws-btn-group">
-      <button class="ui button ds-btn-tert">Button Text</button>
-      <span class="subtext">Large</span>
+  <div class="row">
+  <h2>Dropdowns</h2>
+  <p>Dropdowns inject additional actions into a primary, secondary, or tertiary button.</p>
+    <div class="col-md-4">
+      <a class="anchor" name="top-nav"></a>
+      <ul>
+        <li>Inherits and extends any of the three button weights</li>
+        <li>Follows the same styles and states as the button weight which it extends</li>
+        <li>Attempt to limit to a maximium of 8 items. If more than 8 items are needed, consider splitting a subset of actions into another location on the page.</li>
+      </ul>
     </div>
-    <div class="ws-btn-group">
-      <button class="ui button ds-btn-med-tert">Button Text</button>
-      <span class="subtext">Standard</span>
+    <div class="col-md-7 col-md-offset-1">
+      <figure>
+        <div class="image bg-light border">
+          <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/Buttons/buttons-dropdowns-actions.svg">
+        </div>
+        <figcaption>Dropdown buttons</figcaption>
+      </figure>
+  </div>
+</article>
+
+<article>
+  <div class="row">
+  <h2>Processing state (Loading)</h2>
+  <p>When any button that submits an asynchronus api call is pressed the “processing” class/state is applied to the button. This state triggers the loading animation to be applied to the button.</p>
+    <div class="col-md-4">
+      <a class="anchor" name="top-nav"></a>
+      <ul>
+        <li>Details on loading animation spectifics can be found on the <a href="{{site.baseurl}}/components/loading.html">loading page</a></li>
+      </ul>
     </div>
-    <div class="ws-btn-group">
-      <button class="ui button ds-btn-sm-tert">Button Text</button>
-      <span class="subtext">Compact</span>
+    <div class="col-md-7 col-md-offset-1">
+      <figure>
+        <div class="image bg-light border">
+          <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/Buttons/buttons-loading.svg">
+        </div>
+        <figcaption>Processing state across button weights</figcaption>
+      </figure>
+  </div>
+</article>
+<article>
+<article>
+  <div class="row">
+  <h2>Button Specs</h2>
+  <p>List of associated css values used across the three button sizes.</p>
+    <div class="col-md-4">
+      <h3>Standard Button Specs</h3>
+      <ul>
+        <li><code>font-family:roboto-medium</code></li>
+        <li><code>font-size:14px</code></li>
+        <li><code>text-transform:uppercase</code></li>
+        <li><code>border-radius:2px</code></li>
+      </ul>
+    </div>
+    <div class="col-md-7 col-md-offset-1">
+      <figure>
+        <div class="image bg-light border">
+          <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/Buttons/buttons-specs-regular.svg">
+        </div>
+        <figcaption>Regualar button redlines</figcaption>
+      </figure>
+    </div>
+        <div class="col-md-4">
+      <h3>Large Button Specs</h3>
+      <ul>
+        <li><code>font-family:roboto-medium</code></li>
+        <li><code>font-size:16px</code></li>
+        <li><code>text-transform:uppercase</code></li>
+        <li><code>border-radius:2px</code></li>
+      </ul>
+    </div>
+    <div class="col-md-7 col-md-offset-1">
+      <figure>
+        <div class="image bg-light border">
+          <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/Buttons/buttons-specs-large.svg">
+        </div>
+        <figcaption>Large button redlines</figcaption>
+      </figure>
+    </div>
+        <div class="col-md-4">
+      <h3>Compact Button Specs</h3>
+      <ul>
+        <li><code>font-family:roboto-medium</code></li>
+        <li><code>font-size:10px</code></li>
+        <li><code>text-transform:uppercase</code></li>
+        <li><code>border-radius:2px</code></li>
+      </ul>
+    </div>
+    <div class="col-md-7 col-md-offset-1">
+      <figure>
+        <div class="image bg-light border">
+          <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/Buttons/buttons-specs-compact.svg">
+        </div>
+        <figcaption>Compact button redlines</figcaption>
+      </figure>
     </div>
   </div>
-  <h3 class="ws-btn-h3">Actions</h3>
-  <div class="ws-btn-group-actions">
-    <div class="ws-btn-group">
-      <button class="ui button ds-btn-med-tert default">Button Text</button>
-      <span class="subtext">Default (900)</span>
+</article>
+<article>
+  <div class="row">
+  <h2>Guidance</h2>
+    <div class="col-md-8">
+      <a class="anchor"></a>
+      <ul>
+        <li>Generally, use primary buttons for actions that go to the next step and use secondary buttons for actions that happen on the current page.</li>
+        <li>Style the button most users should click in a way that distinguishes from other buttons on the page. Try using the “large button” or the most visually distinct fill color.</li>
+        <li>Make sure buttons should look clickable—use color variations to distinguish static, hover and active states.
+Avoid using too many buttons on a page.</li>
+        <li>Avoid using too many buttons on a page.</li>
+        <li>Use sentence case for button labels.</li>
+        <li>Button labels should be as short as possible with “trigger words” that your users will recognize to clearly explain what will happen when the button is clicked (for example, “download,” “view” or “sign up”).</li>
+        <li>Make the first word of the button’s label a verb. For example, instead of “Complaint Filing” label the button “File a complaint.”</li>
+        <li>Only use icons inside buttons when absolutely necessary.  If your icon requires a text description then it may not be a good icon.</li>
+      </ul>
     </div>
-    <div class="ws-btn-group">
-      <button class="ui button hover ds-btn-med-tert">Button Text</button>
-      <span class="subtext">Hover (500)</span>
-    </div>
-    <div class="ws-btn-group">
-      <button class="ui button active ds-btn-med-tert">Button Text</button>
-      <span class="subtext">Pressed (700)</span>
-    </div>
-    <div class="ws-btn-group">
-      <button class="ui button disabled ds-btn-med-tert">Button Text</button>
-      <span class="subtext">Disabled (700)</span>
-    </div>
-  </div>
 </article>
