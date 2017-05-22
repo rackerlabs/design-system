@@ -371,38 +371,41 @@ pre {
  * Categories layout
  */
 
-.categories {
-    margin: -20px;
-    table{
-        border-collapse: separate;
-        border-spacing: 20px;
-        table-layout: fixed;
-        td{
-            border: 1px solid #e0e0e0;
-            padding: 0;
-            border-radius: 2px;
-            transition: all .4s ease;
-            width: 33.3333%;
-            &:hover{
-                background-color: #eeeeee;
-            }
-            h1 {
-                font-weight: 400;
-                margin: 0;
-                text-decoration: none;
-            }
-            img{
-                display: inline-block;
-                text-align: center;
-                margin: 20px 0;
-                max-width: 100%;
-            }
-            a {
-                color: $grey950;
-                text-decoration: none;
-            }
-        }
+.category-card {
+  border-spacing: 20px;
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  padding: 1em;
+  border-radius: 2px;
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  border: 1px solid $grey300;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.16);
+  &:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08), 0 5px 10px rgba(0,0,0,0.16);
+  }
+  h1 {
+    font-weight: 400;
+    margin: 0;
+    text-decoration: none;
+  }
+  img{
+    display: inline-block;
+    text-align: center;
+    margin: 20px 0;
+    width: 100%;
+    max-width: 100%;
+    max-height: 100px;
+  }
+  a {
+    color: $grey950;
+    text-decoration: none;
+    &:hover {
+      &h1 {
+        text-decoration: none !important;
+      }
+      text-decoration: none !important;
     }
+  }
 }
 
 .ws-sum-con{
