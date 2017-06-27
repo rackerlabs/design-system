@@ -7,19 +7,25 @@ preview-image:
 resource: true
 ---
 
+
 <article>
 
   <h1>Global Layer</h1>
-  <p>The global layer refers to overarching application level patterns that will be found on any Helix-UI design. These include three core components - Eyebrow (aka Utility Nav), the Global dashboard, and Off canvas panels. In order to better understand the global layer we suggest trying the following <a href="http://design.rax.io/mockups/designs/Helix/global-layer/prototypes/v-0.5/">demo prototype.</a></p>
+  <p>The global layer refers to application layer that enables the user to access globally available features like Support Tickets, Notifications, Billing, etc within any Helix-UI design. These include three core components - Eyebrow (aka Utility Nav), the Global dashboard, and Off canvas panels. Each of these elements are part of the Pilot Navigation header API. In order to better understand the global layer we suggest trying the following <a href="http://design.rax.io/mockups/designs/Helix/global-layer/prototypes/v-0.5/">demo prototype.</a></p>
 
-  <h2>When to Use</h2>
-  <p>The Global layer should be included on all applications using the Helix-UI language. This global layer provides the base configuration of a Helix application and allows for the use of platform services that extend across multiple product lines such as Ticketing or Notifications.</p>
+  <ul class="anchor-list" id="anchor-list">
+
+  </ul>
+
+  <h2 id="when">When to Use</h2>
+  <p>The Global layer should be included on all applications using the Helix-UI language. This global layer provides the base configuration of a Helix application. A helix application can consider implementing their own Global layer  (as a meaningful interaction model) or, ideally integrate with <a href="https://one.rackspace.com/pages/viewpage.action?pageId=185744979">Pilot</a> to automatically get platform interactivity
+   and allow for the use of platform services that extend across multiple product lines such as Ticketing or Notifications.</p>
 </article>
 
 
 <article>
 
-  <h2>Eyebrow (aka Utility Nav)</h2>
+  <h2 id="eyebrow">Eyebrow (aka Utility Nav)</h2>
   <p>The eyebrow is more commonly referred to as the utility navigation within the application frame because it provides for easy switching between product lines and platform level services. Platform level services are any services that exist across multiple product lines. Ex: Account Settings, Notifications, Ticketing, etc. </p>
 
   <div class="row">
@@ -86,7 +92,7 @@ resource: true
 </article>
 
 <article>
- <h2>Off Canvas</h2>
+ <h2 id="off-canvas">Off Canvas</h2>
   <p>Offcanvas panels are panels that serve from the global layer. Panels can either be offcanvas left or right dependent upon the type of content being displayed and are triggered via interacting with the global eyebrow. Each panel has three states: Hidden, Toggled, Extended</p>
   <div class="row">
     <div class="col-md-4">
@@ -153,7 +159,7 @@ resource: true
  <article>
   <div class="row">
     <div class="col-md-4" id="global">
-  		<h3>Global Dashboard</h3>
+  		<h2 id="global">Global Dashboard</h2>
   		<p>The Global Dashboard is an special offcanvas element that is toggled via the Global DB button (Rackspace logo), the left most element on the Global eyebrow. When toggled the dashboard will extend over the product and workflow layers.</p>
   	</div>
     <div class="col-md-7 col-md-offset-1">
