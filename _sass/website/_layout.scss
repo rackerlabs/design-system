@@ -332,7 +332,7 @@ pre {
     box-shadow: 0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.16);
   }
   img {
-    padding: 40px;
+    padding: 16px;
     max-width: 100%;
   }
 }
@@ -367,6 +367,29 @@ pre {
   }
 }
 
+
+/** 
+ * Dynamic Anchor List Styles // Andrew Can you look into why these styles are not being taken by the dynamic anchor-list section?
+ */
+
+#anchor-list {
+  list-style-type: none;
+  text-tranform: uppercase;
+  ul {
+    padding-left: 0px;
+    li {
+      text-tranform: uppercase;
+      font-size: 1em;
+      color: #0093A6;
+      a {
+        text-tranform: uppercase;
+        font-size: 1em;
+        color: #0093A6;
+      }
+    }
+  }
+}
+ 
 /**
  * Categories layout
  */
