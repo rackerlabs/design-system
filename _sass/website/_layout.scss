@@ -34,20 +34,26 @@ body {
 
 .logo {
     display: block;
-    width: 100%;
+    width: 17em;
+    height: 60px;
+    background: #000000;
+    position: relative;
+    top: 0px;
+    left: 0px;
     img {
-        padding:4px 0;
-        height: 58px;
+        height: 30px;
         width: auto;
-        margin: auto;
         position: relative;
-        top: -19px;
-        left: -6px;
+        top: 15px;
+        left: 2em;
     }
 }
 
 nav {
     position: fixed;
+    .primary-nav {
+      padding: 1.5em 0 1em 0;
+    }
     top: 0px;
     left: 0;
     bottom: 0;
@@ -60,7 +66,6 @@ nav {
     box-shadow: 0px 5px 6px 1px rgba(102,102,102,.25);
     z-index: 2;
     background-color: $grey975;
-    padding: 2.5em 0 1em 0;
     -webkit-font-smoothing: antialiased;
     -moz-font-smoothing: antialiased;
     -o-font-smoothing: antialiased;
@@ -158,6 +163,10 @@ nav {
     }
 }
 
+.header-wrapper {
+    width: 100%;
+}
+
 /**
  * Content styles
  */
@@ -186,9 +195,11 @@ article {
 }
 
 article.page-header {
-  background-color: $grey25;
-  padding-bottom: 0;
-  padding-top: 48px;
+  padding-bottom: 1em;
+  padding-top: 2.5em;
+  &.display-font {
+    color: #ffffff;
+  }
 }
 
 article:nth-child(2) {
@@ -321,7 +332,7 @@ pre {
     box-shadow: 0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.16);
   }
   img {
-    padding: 40px;
+    padding: 16px;
     max-width: 100%;
   }
 }
@@ -356,42 +367,68 @@ pre {
   }
 }
 
+
+/** 
+ * Dynamic Anchor List Styles // Andrew Can you look into why these styles are not being taken by the dynamic anchor-list section?
+ */
+
+#anchor-list {
+  list-style-type: none;
+  text-tranform: uppercase;
+  ul {
+    padding-left: 0px;
+    li {
+      text-tranform: uppercase;
+      font-size: 1em;
+      color: #0093A6;
+      a {
+        text-tranform: uppercase;
+        font-size: 1em;
+        color: #0093A6;
+      }
+    }
+  }
+}
+ 
 /**
  * Categories layout
  */
 
-.categories {
-    margin: -20px;
-    table{
-        border-collapse: separate;
-        border-spacing: 20px;
-        table-layout: fixed;
-        td{
-            border: 1px solid #e0e0e0;
-            padding: 0;
-            border-radius: 2px;
-            transition: all .4s ease;
-            width: 33.3333%;
-            &:hover{
-                background-color: #eeeeee;
-            }
-            h1 {
-                font-weight: 400;
-                margin: 0;
-                text-decoration: none;
-            }
-            img{
-                display: inline-block;
-                text-align: center;
-                margin: 20px 0;
-                max-width: 100%;
-            }
-            a {
-                color: $grey950;
-                text-decoration: none;
-            }
-        }
+.category-card {
+  border-spacing: 20px;
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  padding: 1em;
+  border-radius: 2px;
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  border: 1px solid $grey300;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.16);
+  &:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08), 0 5px 10px rgba(0,0,0,0.16);
+  }
+  h1 {
+    font-weight: 400;
+    margin: 0;
+    text-decoration: none;
+  }
+  img{
+    display: inline-block;
+    text-align: center;
+    margin: 20px 0;
+    width: 100%;
+    max-width: 100%;
+    max-height: 100px;
+  }
+  a {
+    color: $grey950;
+    text-decoration: none;
+    &:hover {
+      &h1 {
+        text-decoration: none !important;
+      }
+      text-decoration: none !important;
     }
+  }
 }
 
 .ws-sum-con{
@@ -411,6 +448,7 @@ pre {
   }
   .display-font {
     text-align: center;
+    color: #434343;
   }
   p, h2, .visuals {
     margin-left: auto;
