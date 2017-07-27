@@ -18,11 +18,97 @@ resource: true
   <h1>Primary Navigation<span class="status dev-ready">Complete</span></h1>
   <p>The primary navigation is used for the main sections of the application or for dropdown categories that organize sections into higher level groups.</p>
 
+  <div class="row" id="side-nav">
+    <div class="col-md-4">
+      <h2>Left Navigation</h2>
+      <p>The Left Navigation component is used on all web applications that desire to implement a highly compliant version of the Helix Design Language.</p>
+      <ul>
+        <li>Can extend to fit any navigation IA via scrolling when the list of navigational items exceeds the screen view-height.</li>
+        <li>Preferred implementation includes only primary and secondary navigational links.</li>
+          <ul>Note: A less preferred implementation that includes <a href="{{page.url}}#tertiary"> tertiary navigational</a> elements is also provided.</ul>
+      </ul>
+    </div>
+    <div class="col-md-7 col-md-offset-1">
+      <figure>
+        <div class="image bg-light border">
+          <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/navigation-left.svg">
+        </div>
+      </figure>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-4">
+      <h2>Left Navigation Color and Typeface</h2>
+      <ul>
+        <li>Font: Roboto Regular 16px / 1em</li>
+        <li>Color: Gray 400 #D8D8D8</li>
+        <li>Text Transform: Uppercase</li>
+      </ul>
+    </div>
+    <div class="col-md-7 col-md-offset-1">
+      <figure>
+        <div class="image bg-light border">
+          <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/navigation-left-color-type.svg">
+        </div>
+      </figure>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-4">
+      <h2>Left Navigation Spacing</h2>
+      <ul>
+        <li>First primary navigational element begins 60px from top of containing div.</li>
+      </ul>
+    </div>
+    <div class="col-md-7 col-md-offset-1">
+      <figure>
+        <div class="image bg-light border">
+          <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/navigation-left-spacing-horizontal.svg">
+        </div>
+        <figcaption>Containing div spacing specs</figcaption>
+      </figure>
+    </div>
+    <div class="col-md-4">
+      <ul>
+        <li>16px / 1em top and bottom padding for navigational elements</li>
+      </ul>
+    </div>
+    <div class="col-md-7 col-md-offset-1">
+      <figure>
+        <div class="image bg-light border">
+          <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/navigation-left-spacing-vertical.svg">
+        </div>
+        <figcaption>Vertical spacing between navigational items</figcaption>
+      </figure>
+    </div>
+    <div class="col-md-4">
+      <h3 id="tertiary">Left Navigation - Tertiary Version</h3>
+      <p>This variation is used when a UI requires tertiary navigaitonal element due to the size of the IA for the site. In <b>most cases</b> it is preferrable to compress or sort the IA so that only primary and secondary links appear in the left navigation element.</p>
+    </div>
+    <div class="col-md-7 col-md-offset-1">
+      <figure>
+        <div class="image bg-light border">
+          <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/navigation-left-tertiary.svg">
+        </div>
+        <figcaption>Tertiary navigation example using the MyRack application IA</figcaption>
+      </figure>
+      <figure>
+        <div class="image bg-light border">
+          <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/navigation-left-tertiary-specs.svg">
+        </div>
+        <figcaption>Tertiary navigation example with specs</figcaption>
+      </figure>
+    </div>
+  </div>
+
+
   <div class="row">
     <div class="col-md-4">
       <a class="anchor" name="top-nav"></a>
       <h2>Top Navigation</h2>
-      <p>The primary navigation is used for the main sections of the application or for dropdown categories that organize sections into higher level groups.</p>
+      <p>Top navigation is used on all web applications that desire to implement the Helix Design Language but without strict compliance. This navigation variation exists to allow for flexible implementations, however the preferred navigation for highly compliant Helix applications is the <a href="{{page.url}}#side-nav">left navigation</a>.</p>
     </div>
     <div class="col-md-7 col-md-offset-1">
       <figure>
@@ -37,10 +123,12 @@ resource: true
     <div class="col-md-4">
       <a class="anchor" name="top-nav"></a>
       <h2>Top Navigation Color and Typeface</h2>
-      <p>Roboto Bold 16px
-      <br>Gray 200 #e7e7e7
-      <br>Letter-spacing: 0.05em
-      <br>All Caps</p>
+      <ul>
+        <li>font: Roboto Bold 16px / 1em</li>
+        <li>font-color: Gray 200 #e7e7e7</li>
+        <li>ketter-spacing: 0.05em</li>
+        <li>text-transform: Uppercase</li>
+      </ul>
     </div>
     <div class="col-md-7 col-md-offset-1">
       <figure>
@@ -54,21 +142,36 @@ resource: true
   <div class="row">
     <div class="col-md-4">
       <h2>Top Nav Spacing</h2>
-      <p>Horizontal spacing includes 20px left margin
-      <br>Each menu item button has 20px left and right padding
-      <br>Each menu item button has 20px padding in between</p>
+      <ul>
+        <li>Horizontal spacing includes 20px left margin</li>
+        <li>Each menu item button has 20px left and right padding</li>
+          <ul>
+            <li>Note: Dropdown padding left begins at the left-border of the parent primary navigational item and padding right begins after the longest textual element in the dropdown element. </li>
+          </ul>
+        <li>Dropdowns should strive to be limited to between 3 — 7 elements for ease of consumption and parsability by our users.</li>
+      </ul>
     </div>
     <div class="col-md-7 col-md-offset-1">
       <figure>
         <div class="image bg-light border">
           <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/navigation-top-spacing-vertical.svg">
         </div>
+        <figcaption>Vertical padding for primary navigational items</figcaption>
       </figure>
+    </div>
+    <div class="col-md-4">
+      <ul>
+        <li>Navigational bar extends across 100% of view width</li>
+        <li>Navigation is wrapped inside navigational bar with 20px / 1.25em padding on either side</li>
+        <li>Padding is applied to each Primary nav item with no space between</li>
+      </ul>
+    </div>
+    <div class="col-md-7 col-md-offset-1">
       <figure>
         <div class="image bg-light border">
           <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/navigation-top-spacing-horizontal.svg">
         </div>
-        <figcaption>Note: There is 1.25em padding between each menu item.</figcaption>
+        <figcaption>Horizontal padding specs for primary navigational items</figcaption>
       </figure>
     </div>
   </div>
@@ -76,17 +179,25 @@ resource: true
   <div class="row">
     <div class="col-md-4">
       <a class="anchor" name="top-nav"></a>
-      <h2>Top Navigation Drop Down Menu Color and Typeface</h2>
-      <p>Drop down menus should be at least the same width as the parent menu item.  Even if that leaves extra space to the right. However, drop down menus can be wider than the parent menu item.</p>
-      <p>Roboto Bold 16px
-      <br>Gray 200 #e7e7e7
-      <br>Title Case</p>
+      <h2>Top Navigation Drop-down Menu Color and Typeface</h2>
+      <p>Drop-down menus display secondary navigational elements below their primary navigational element</p>
+      <ul>
+        <li>Dropdowns should strive to be between 3 — 7 elements for ease of consumption and parsability.
+          <ul>
+            <li>Note: This is not a hard rule to be followed without exception. However, dropdowns that contains more than 6 elements should be closely looked at from an IA lens to see if the elements could be rearranged into two seperate primary groups</li>
+          </ul>
+        </li>
+        <li>font: Roboto Bold 16px</li>
+        <li>font-color: Gray 200 #e7e7e7</li>
+        <li>text-transform: Title Case</li>
+      </ul>
     </div>
     <div class="col-md-7 col-md-offset-1">
       <figure>
         <div class="image bg-light border">
           <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/navigation-dropdown-color-type.svg">
         </div>
+        <figcaption>Dropdown font specs</figcaption>
       </figure>
     </div>
   </div>
@@ -94,7 +205,14 @@ resource: true
   <div class="row">
     <div class="col-md-4">
       <h2>Top Navigation Drop Down Spacing</h2>
-      <p>Drop down menus should be at least the same width as the parent menu item.  Even if that leaves extra space to the right. However, drop down menus can be wider than the parent menu item.</p>
+      <ul>
+        <li>Drop down menus should be <b>at least</b> the same width as the parent menu item.  Even if that leaves extra space to the right.
+          <ul>
+            <li>Note: Drop-down menus whose secondary items have large character counts can be wider than the parent menu item. This is ok.</li>
+          </ul>
+        </li>
+        <li>Dropdown padding left begins at the left-border of the parent primary navigational item and padding right begins after the longest textual element in the dropdown element. </li>
+      </ul>
     </div>
     <div class="col-md-3 col-md-offset-1">
       <figure>
@@ -112,63 +230,113 @@ resource: true
     </div>
   </div>
 
-  <div class="row">
-    <div class="col-md-4">
-      <a class="anchor" name="top-nav"></a>
-      <h2>Left Navigation</h2>
-    </div>
-    <div class="col-md-7 col-md-offset-1">
-      <figure>
-        <div class="image bg-light border">
-          <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/navigation-left.svg">
-        </div>
-      </figure>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="col-md-4">
-      <h2>Left Navigation Color and Typeface</h2>
-      <p>Roboto Regular 16px
-      <br>Gray 400 #D8D8D8
-      <br>Title Case</p>
-    </div>
-    <div class="col-md-7 col-md-offset-1">
-      <figure>
-        <div class="image bg-light border">
-          <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/navigation-left-color-type.svg">
-        </div>
-      </figure>
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="col-md-4">
-      <h2>Left Navigation Spacing</h2>
-    </div>
-    <div class="col-md-7 col-md-offset-1">
-      <figure>
-        <div class="image bg-light border">
-          <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/navigation-left-spacing-vertical.svg">
-        </div>
-      </figure>
-      <figure>
-        <div class="image bg-light border">
-          <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/navigation-left-spacing-horizontal.svg">
-        </div>
-      </figure>
-    </div>
-  </div>
-
 </article>
 
-<article>
-
-  <a class="anchor" name="eyebrow"></a>
+<article id="eyebrow">
+ 
   <h1>Eyebrow <span class="status prototype">In Progress</span></h1>
-
-  <h2>Helix</h2>
-  <figure>
+  <p>The eyebrow sits as the top most menu bar across all breakpoints within the Application Frame of a Helix interface. It provides access to platform level services as well as aggregate information across a users accounts at Rackspace. The eyebrow pattern is often referred to internally by the project name `Pilot Nav` or the function is serves `Utility Nav`.</p>
+  <div class="row">
+    <div class="col-md-4">
+      <h2>Breakpoints</h2>
+        <p>The eyebrow is the top most menu bar within a helix UI. Visual functionality expands and retracts based on the current user viewport. </p>
+    </div> 
+    <div class="col-md-offset-1 col-md-7">
+      <figure>
+        <div class="image bg-light border">
+          <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/eyebrow-states.svg">
+        </div>
+        <figcaption>Eyebrow Breakpoints</figcaption>
+      </figure>
+    </div>
+  </div>
+  <h3>Eyebrow (left side)</h3>
+  <p>The left side of the eyebrow is comprised of the platform dashboard button and product switcher dropdowns. The item currently displayed in the content area + navigation section is reflected via the selected state beneath it.</p>
+  <div class="row">
+     <div class="col-md-4">
+      <a class="anchor" name="top-nav"></a>
+        <ul>
+          <li>The Rackspace® logo serves as a button to trigger the <a href="#global">global dashboard </a></li>
+          <li>Product name to the left of the logo serves as wayfinding to show the currently selected product.</li>
+        </ul>
+    </div>
+    <div class="col-md-7 col-md-offset-1">
+      <figure>
+        <div class="image bg-light border">
+          <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/global-layer/eyebrow-left.svg">
+        </div>
+        <figcaption>Eyebrow (leftside) construction specs</figcaption>
+      </figure>
+    </div>
+    <h4>Eyebrow (left side) Dropdowns</h4>
+    <p>A dropdown is presented when the user switches product lines.</p>
+    <div class="row">
+      <div class="col-md-4">
+        <ul>
+          <li>Switching product lines is triggered via clicking the Product Button and displays a dropdown element for selection</li>
+          <li>Leftside dropdowns provide links to product lines and NEVER include a secondary CTA</li>
+          <li>Leftside dropdowns do not have a defined disabled state. Only menu items to which the currently logged in user has access will appear</li>
+        </ul>
+    </div>
+    <div class="col-md-7 col-md-offset-1">
+      <figure>
+        <div class="image bg-light border">
+          <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/eye-left-drop.svg">
+        </div>
+        <figcaption>Eyebrow (leftside) dropdown specs</figcaption>
+      </figure>
+    </div>
+  </div>
+  <h3>Eyebrow (right side)</h3>
+  <p>The right side of the eyebrow menu is comprised of the user name section and platform level services button groups</p>
+  <div class="row">
+     <div class="col-md-4">
+        <ul>
+          <li>Platform level services are any services that exist across multiple product lines. Ex: Account Settings, Notifications, Ticketing, etc.</li>
+          <li>The user name section and each service button group is seperated by a section divider</li>
+          <li>Service groups</li>
+            <ul>
+              <li>User Settings</li>
+              <li>Account Management</li>
+                <ul>
+                  <li>Account</li>
+                  <li>Billing</li>
+                </ul>
+              <li>Support Management</li>
+                <ul>
+                  <li>Messages / Notification</li>
+                  <li>Tickets</li>
+                  <li>Support</li>
+                </ul>
+            </ul>
+        </ul>
+    </div>
+    <div class="col-md-7 col-md-offset-1">
+      <figure>
+        <div class="image bg-light border">
+          <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/global-layer/eyebrow-right.svg">
+        </div>
+        <figcaption>Eyebrow (rightside) construction specs</figcaption>
+      </figure>
+    </div>
+  <h4>Eyebrow (right side) Dropdowns</h4>
+  <div class="row">
+     <div class="col-md-4">
+        <ul>
+          <li>Items within the right-side of the eyebrow produce either a dropdown or display an off-canvas panel onClick</li>
+          <li>Dropdowns are applied where off-canvas elements are not required or have not yet been implemented</li>
+        </ul>
+    </div>
+    <div class="col-md-7 col-md-offset-1">
+      <figure>
+        <div class="image bg-light border">
+          <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/eye-right-drop.svg">
+        </div>
+        <figcaption>Eyebrow (rightside) dropdown specs</figcaption>
+      </figure>
+    </div>
+  </div>
+  <!--<figure>
     <div class="image bg-light border">
       <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/navigation-eyebrow.svg">
     </div>
@@ -179,7 +347,7 @@ resource: true
     <div class="image bg-light border">
       <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/navigation-eyebrow-encore.svg">
     </div>
-  </figure>
+  </figure>-->
 
 </article>
 

@@ -11,7 +11,7 @@ resource: true
 <article>
 
   <h1>Global Layer</h1>
-  <p>The global layer refers to application layer that enables the user to access globally available features like Support Tickets, Notifications, Billing, etc within any Helix-UI design. These include three core components - Eyebrow (aka Utility Nav), the Global dashboard, and Off canvas panels. Each of these elements are part of the Pilot Navigation header API. In order to better understand the global layer we suggest trying the following <a href="http://design.rax.io/mockups/designs/Helix/global-layer/prototypes/v-0.5/">demo prototype.</a></p>
+  <p>The global layer refers to application layer that enables the user to access globally available features like Support Tickets, Notifications, Billing, etc within any Helix-UI design. These include three core components - Eyebrow (aka Utility Nav), the Global dashboard, and Off canvas panels. Each of these elements are part of the Pilot Navigation header API. In order to better understand the global layer we suggest trying the following <a href="http://design.rax.io/mockups/designs/Helix/global-layer/prototypes/v-0.5/prototype">demo prototype.</a></p>
 
   <ul class="anchor-list" id="anchor-list">
 
@@ -26,22 +26,36 @@ resource: true
 <article>
 
   <h2 id="eyebrow">Eyebrow (aka Utility Nav)</h2>
-  <p>The eyebrow is more commonly referred to as the Pilot API Nav Header within the application frame because it provides for easy switching between product lines and platform level services. Platform level services are any services that exist across multiple product lines. Ex: Account Settings, Notifications, Ticketing, etc. </p>
+  <p>The eyebrow is more commonly referred to as the Pilot API Nav Header within the application frame because it provides for easy switching between product lines and platform level services. Platform level services are any services that exist across multiple product lines. Ex: Account Settings, Notifications, Ticketing, etc. For details specs please see the <a href="{{site.baseurl}}/layout/navigation#eyebrow">navigation page</a></p>
 
   <div class="row">
   	 <div class="col-md-4">
       <a class="anchor" name="top-nav"></a>
         <ul>
           <li>Extends across the top of the entire Helix-UI and is always visible</li>
-          <li>Contains links to platform level services and the <a href="#global">global dashboard</a></li>
+          <li>Contains links to platform level services, account management, product picker and the <a href="#global">global dashboard</a></li>
+          <li>Composed of 5 breakpoints that adapt to the users device and window size</a></li>
+          <ul>
+            <li> > 90em (Wall)
+            <li>  > 75em — < 90em (Desktop)</li>
+            <li> > 64em — < 75em (Laptop)</li>
+            <li> > 40em — < 64em (Palm)</li>
+            <li> < 40em (Wrist)</li>
+          </ul>
         </ul>
     </div>
     <div class="col-md-7 col-md-offset-1">
       <figure>
         <div class="image bg-light border">
-          <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/global-layer/eyebrow-1.svg">
+          <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/eyebrow.svg">
         </div>
-        <figcaption>Eyebrow construction specs</figcaption>
+        <figcaption>Eyebrow zones</figcaption>
+      </figure>
+      <figure>
+        <div class="image bg-light border">
+          <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/eyebrow-states.svg">
+        </div>
+        <figcaption>Eyebrow breakpoints</figcaption>
       </figure>
     </div>
   </div>
@@ -58,9 +72,9 @@ resource: true
     <div class="col-md-7 col-md-offset-1">
       <figure>
         <div class="image bg-light border">
-          <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/global-layer/eyebrow-left.svg">
+          <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/eye-left.svg">
         </div>
-        <figcaption>Eyebrow (leftside) construction specs</figcaption>
+        <figcaption>Eyebrow (leftside) zones</figcaption>
       </figure>
     </div>
   </div>
@@ -83,9 +97,9 @@ resource: true
     <div class="col-md-7 col-md-offset-1">
       <figure>
         <div class="image bg-light border">
-          <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/global-layer/eyebrow-right.svg">
+          <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/eye-right.svg">
         </div>
-        <figcaption>Eyebrow (rightside) construction specs</figcaption>
+        <figcaption>Eyebrow (rightside) zones</figcaption>
       </figure>
     </div>
   </div>
@@ -94,9 +108,9 @@ resource: true
 <article>
  <h2 id="off-canvas">Off Canvas</h2>
   <p>Offcanvas panels are panels that serve from the global layer. Panels can either be offcanvas left or right dependent upon the type of content being displayed and are triggered via interacting with the global eyebrow. Each panel has three states: Hidden, Toggled, Extended</p>
-  <div class="row">
+  <!--  <div class="row">
     <div class="col-md-4">
-    <h3>Offcanvas (left)</h3>
+  <h3>Offcanvas (left)</h3>
   	<p>The offcanvas left panel in the global layer is used to hide and show the <a href="#global">global dashboard.</a></p>
     	<ul>
           <li>Slide out animation, <code>0.5s ease-in-out</code></li>
@@ -123,7 +137,7 @@ resource: true
         <figcaption><a href="#global">Global Dashboard</a> left panel example</figcaption>
       </figure>
     </div>
-  </div>
+  </div> -->
   <div class="row">
     <div class="col-md-4">
     <h3>Offcanvas (right)</h3>
@@ -140,12 +154,12 @@ resource: true
         </div>
         <figcaption>Offcanvas panel right - toggled</figcaption>
       </figure>
-      <figure>
+      <!-- <figure>
         <div class="image bg-light border">
           <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/global-layer/offcanvas-right-extended.svg" style="width:472px; height:auto;">
         </div>
         <figcaption>Offcanvas panel right - extended</figcaption>
-      </figure>
+      </figure> -->
       <figure>
         <div class="image bg-light border">
           <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/global-layer/offcanvas-right-example.svg" style="width:472px; height:auto;">
@@ -169,17 +183,17 @@ resource: true
         </div>
         <figcaption>Global Dashboard - Hidden</figcaption>
       </figure>
-      <figure>
+      <!-- <figure>
         <div class="image bg-light border">
           <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/global-layer/globaldash-extended-half.svg" style="width:472px; height:auto;">
         </div>
         <figcaption>Global Dashboard - Toggled</figcaption>
-      </figure>
+      </figure> -->
       <figure>
         <div class="image bg-light border">
           <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/global-layer/globaldash-extended-full.svg" style="width:472px; height:auto;">
         </div>
-        <figcaption>Global Dashboard - Toggled & Extended</figcaption>
+        <figcaption>Global Dashboard - Toggled</figcaption>
       </figure>
     </div>
   </div>
