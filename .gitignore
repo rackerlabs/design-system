@@ -1,6 +1,8 @@
 .sass-cache
 _site
 .DS_Store
-.bundle/install.log
+.bundle
 Gemfile.lock
 downloads
+
+vendor
