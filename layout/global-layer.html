@@ -10,8 +10,8 @@ resource: true
 
 <article>
 
-  <h1>Global Layer</h1>
-  <p>The global layer refers to application layer that enables the user to access globally available features like Support Tickets, Notifications, Billing, etc within any Helix-UI design. These include three core components - Eyebrow (aka Utility Nav), the Global dashboard, and Off canvas panels. Each of these elements are part of the Pilot Navigation header API. In order to better understand the global layer we suggest trying the following <a href="http://design.rax.io/mockups/designs/Helix/global-layer/prototypes/v-0.5/prototype">demo prototype.</a></p>
+  <h1>Global Layer<span class="status prototype">In Progress</span></h1>
+  <p>The global layer refers to application layer that enables the user to access globally available features like Support Tickets, Notifications, Billing, etc within any Helix-UI design. These include three core components - Eyebrow (aka Utility Nav), the Global dashboard, and Off canvas panels. Each of these elements are part of the Pilot Navigation header API. <!-- In order to better understand the global layer we suggest trying the following <a href="http://design.rax.io/mockups/designs/Helix/global-layer/prototypes/v-0.5/prototype">demo prototype.</a>--></p>
 
   <ul class="anchor-list" id="anchor-list">
 
@@ -26,7 +26,7 @@ resource: true
 <article>
 
   <h2 id="eyebrow">Eyebrow (aka Utility Nav)</h2>
-  <p>The eyebrow is more commonly referred to as the Pilot API Nav Header within the application frame because it provides for easy switching between product lines and platform level services. Platform level services are any services that exist across multiple product lines. Ex: Account Settings, Notifications, Ticketing, etc. For details specs please see the <a href="{{site.baseurl}}/layout/navigation#eyebrow">navigation page</a></p>
+  <p>The eyebrow is more commonly referred to as the Pilot API Nav Header within the application frame because it provides for easy switching between product lines and platform level services. Platform level services are any services that exist across multiple product lines. Ex: Account Settings, Notifications, Ticketing, etc. For details specs please see the <a href="{{site.baseurl}}/layout/navigation.html#eyebrow">navigation page</a></p>
 
   <div class="row">
   	 <div class="col-md-4">
@@ -36,11 +36,11 @@ resource: true
           <li>Contains links to platform level services, account management, product picker and the <a href="#global">global dashboard</a></li>
           <li>Composed of 5 breakpoints that adapt to the users device and window size</a>
           <ul>
-            <li> > 90em (Wall)
-            <li>  > 75em — < 90em (Desktop)</li>
-            <li> > 64em — < 75em (Laptop)</li>
-            <li> > 40em — < 64em (Palm)</li>
-            <li> < 40em (Wrist)</li>
+            <li>Wall: 90em ≤ x</li>
+            <li>Desktop: 75em ≤ x < 90em</li>
+            <li>Laptop: 64em ≤ x < 75em</li>
+            <li>Palm: 40em ≤ x < 64em</li>
+            <li>Wrist: 0em ≤ x < 40em</li>
           </ul></li>
         </ul>
     </div>
@@ -140,12 +140,12 @@ resource: true
   </div> -->
   <div class="row">
     <div class="col-md-4">
-    <h3>Offcanvas (right)</h3>
+    <!--<h3>Offcanvas (right)</h3>
   	<p>The offcanvas right panel of global layer is used to hide and show the platform service panels</p>
     	<ul>
           <li>Slide out animation, <code>0.5s ease-in-out</code></li>
           <li>When selected a platform service triggers an offcanvas right panel.</li>
-        </ul>
+        </ul>-->
     </div>
     <div class="col-md-7 col-md-offset-1">
       <figure>
