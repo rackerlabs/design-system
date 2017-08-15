@@ -5,4 +5,12 @@ _site
 Gemfile.lock
 downloads
 
+# node modules
+node_modules
+
 vendor
+
+# discards
+old/
+
+.remarkrc
