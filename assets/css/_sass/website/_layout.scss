@@ -1,0 +1,525 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+  font-size: 16pt;
+}
+
+body {
+  background-color: $grey25;
+  line-height: $base-line-height;
+  overflow-x: hidden;
+  min-width: 320px;
+  box-sizing: inherit;
+  padding: 0px;
+  margin: 0px;
+}
+
+.logo {
+    display: block;
+    width: 17em;
+    height: 60px;
+    background: $grey975;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    img {
+        height: 2em;
+        width: auto;
+        position: relative;
+        top: 2em;
+        left: 4em;
+    }
+}
+
+nav {
+    position: fixed;
+    display: block;
+    box-sizing: inherit;
+    .primary-nav {
+      padding: 1.5em 0 1em 0;
+    }
+    top: 0px;
+    left: 0;
+    bottom: 0;
+    line-height: 1.5em;
+    width: 17em;
+    overflow-x: hidden;
+    overflow-y: auto;
+    @include box-shadow(0px 5px 6px 1px rgba(102,102,102,.25));
+    z-index: 2;
+    background-color: $grey975;
+    @include font-smoothing(antialiased);
+    font-weight:600;
+    .inactive {
+        display: none;
+    }
+    .active {
+        display:block;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        li {
+            position: relative;
+            &.parent {
+                &:after {
+                    content: "\e900";
+                    font-family: 'DS_icon_font' !important;
+                    speak: none;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-variant: normal;
+                    text-transform: none;
+                    line-height: 1;
+                    @include font-smoothing(antialiased);
+                    -moz-osx-font-smoothing: grayscale;
+                    text-decoration: inherit;
+                    color: $grey400;
+                    font-size: $base-font-size;
+                    padding-right: 2em;
+                    position: absolute;
+                    top: 12px;
+                    right: 0;
+                    font-size: 12px;
+                }
+                &.active {
+                    &:after {
+                        content: "\e903";
+                    }
+                }
+            }
+            a {
+                color: $grey200;
+                position: relative;
+                display: block;
+                padding: 8px 32px;
+                letter-spacing: 0.05em;
+                text-decoration: none;
+                text-transform: uppercase;
+                &.active{
+                    background: $grey900;
+                    color: $grey200;
+                    text-decoration: none;
+                }
+                &:hover {
+                    background: $grey800;
+                    color: $grey200;
+                    text-decoration: none;
+                }
+            }
+            ul {
+                li {
+                    a {
+                        font-weight: 400;
+                        padding-left: 64px;
+                        text-transform: none;
+                    }
+                    a:hover{
+                        background-color: $grey800;
+                        color: $grey200;
+                    }
+                    a.active {
+                        background-color: $grey900;
+                        color: $grey200;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/**
+ * Page layout
+ */
+.page-wrapper {
+    position: relative;
+    float: right;
+    width: calc(100% - 17em);
+    top: 0;
+    box-sizing: inherit;
+    .page-content {
+        overflowY: scroll;
+        box-sizing: border-box;
+    }
+}
+
+.header-wrapper {
+    width: 100%;
+}
+
+/**
+ * Content styles
+ */
+article {
+  padding: 32px 10px;
+  position: relative;
+  &:first-child {
+    border-bottom: none;
+  }
+  /* border-bottom: 1px solid #e0e0e0; this will be uncommented once the rest of the content is edited to use less article tags on a page, the border-bottom segmentation works best when articles have multiple rows and plenty of content */
+  ul {
+    font-size: 0.87em;
+    -webkit-margin-before: 0;
+    margin-before: 0;
+    padding-start: 20px;
+    -webkit-padding-start: 20px;
+    li {
+      padding-bottom: 0.6em;
+      line-height: 1.678em;
+    }
+  }
+}
+
+.container article {
+  padding: 32px 0;
+}
+
+article.page-header {
+  padding-bottom: 1em;
+  padding-top: 2.5em;
+  &.display-font {
+    color: #ffffff;
+  }
+}
+
+article:nth-child(2) {
+  padding-top: 0;
+}
+
+a.anchor {
+  position: absolute;
+  top: 0;
+}
+
+.ws-todo-bar{
+  background-color:$purple500;
+  border-radius:2px;
+  color:white;
+  padding:$paddingXS $paddingS !important;
+  @include font-smoothing(antialiased);
+  a {
+    color:#FBC02D;
+    font-weight: 500;
+  }
+  a:hover, a:active{
+    color: #FFEB3B;
+  }
+}
+
+.update{
+  background-color:$magenta900;
+  border-radius:2px;
+  color:white;
+  padding:$paddingXS $paddingS !important;
+  @include font-smoothing(antialiased);
+  a {
+    color:#FBC02D;
+    font-weight: 500;
+  }
+  a:hover, a:active{
+    color: #FFEB3B;
+  }
+}
+
+.update-mh{
+  background-color:$grey-color-dark;
+  border-radius:2px;
+  color:white;
+  padding:$paddingXS $paddingS !important;
+  @include font-smoothing(antialiased);
+  a {
+    color:#FBC02D;
+    font-weight: 500;
+  }
+  a:hover, a:active{
+    color: #FFEB3B;
+  }
+}
+
+.status {
+  background-color: $grey300;
+  padding: $paddingXS $paddingS;
+  border-radius: 12px;
+  font-weight:400;
+  font-size:12px;
+  letter-spacing:0.5px;
+  color: #fff;
+  vertical-align: 4px;
+  white-space: nowrap;
+  margin-left: 2em;
+  display:inline-block;
+}
+
+.prototype {
+  background-color: $purple;
+}
+
+.dev-ready {
+  background-color: $green;
+}
+
+.deprecated {
+  background-color: $red;
+}
+
+video {
+  width: 900px;
+  height: auto;
+  max-width: 100%;
+}
+
+figure {
+  margin: 0 0 24px 0;
+}
+
+figcaption {
+  color: $grey700;
+  font-size: 12px;
+  margin: 8px 0 0 8px;
+  line-height: 1.678em
+}
+
+h2 {
+  line-height: 1.3em;
+}
+
+p {
+  font-size: .94em;
+  max-width: 34em;
+}
+
+pre {
+  padding: 8px 12px;
+  background: $grey100;
+  color: $grey950;
+  border-radius: 2px;
+}
+
+.image {
+  text-align: center;
+  width: 100%;
+  &.bg-light {
+    background-color: #fff;
+  }
+  &.border {
+    border: 1px solid $grey300;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.16);
+  }
+  img {
+    padding: 16px;
+    max-width: 100%;
+  }
+}
+
+*, ::before, ::after {
+  box-sizing: inherit;
+}
+
+.type-demo {
+  background-color: #fff;
+  border: 1px solid $grey300;
+  min-height: 190px;
+  padding: 20px;
+  box-sizing: inherit;
+  div {
+    float: left;
+    width: 50%;
+  }
+  .specs {
+    border-left: 1px solid $grey300;
+    dl {
+      font-size: 14px;
+      margin-left: 20px;
+      margin-top: 0;
+      dt, dd {
+        float: left;
+      }
+      dt {
+        color: $grey700;
+        clear: both;
+      }
+      dd {
+        color: $grey900;
+        margin-left: 6px;
+      }
+    }
+  }
+}
+
+
+/**
+ * Dynamic Anchor List Styles
+ */
+
+#markdown-toc {
+  list-style-type: none;
+  text-transform: uppercase;
+  ul {
+    padding-left: 0px;
+    list-style-type: none;
+    li {
+      font-size: 1em;
+      color: #0093A6;
+      padding: 1em 0em 0.2em 2em;
+      a {
+        font-size: 1em;
+        color: #0093A6;
+      }
+    }
+  }
+}
+
+/**
+ * Categories layout
+ */
+
+.category-card {
+  border-spacing: 20px;
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  padding: 1em;
+  border-radius: 2px;
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  border: 1px solid $grey300;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.16);
+  &:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08), 0 5px 10px rgba(0,0,0,0.16);
+  }
+  h1 {
+    font-weight: 400;
+    margin: 0;
+    text-decoration: none;
+  }
+  img{
+    display: inline-block;
+    text-align: center;
+    margin: 20px 0;
+    width: 100%;
+    max-width: 100%;
+    max-height: 100px;
+  }
+  a {
+    color: $grey950;
+    text-decoration: none;
+    &:hover {
+      &h1 {
+        text-decoration: none !important;
+      }
+      text-decoration: none !important;
+    }
+  }
+}
+
+.ws-sum-con{
+    padding: 20px;
+}
+
+/* Overview formatting */
+
+.overview {
+  background-image: url('http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/overview/helix-header.svg');
+  background-repeat: no-repeat;
+  background-size: 1790px auto;
+  background-position: top center;
+  .page-header {
+    background-color: transparent;
+    padding-top: 360px;
+  }
+  .display-font {
+    text-align: center;
+    color: #434343;
+  }
+  p, h2, .visuals {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 730px;
+    text-align: center;
+    line-height: $base-line-height;
+  }
+  h2 {
+    line-height: $base-line-height;
+    margin-bottom: 28px;
+  }
+  .column {
+    float: left;
+    margin-right: 65px;
+    margin-top: 8px;
+    width: 200px;
+    &:last-of-type {
+      margin-right: 0;
+    }
+    img {
+      height: 65px;
+      margin-bottom: 12px;
+      width: auto;
+    }
+  }
+  .cta {
+    padding-bottom: 40px;
+  }
+  .arrow {
+    text-align: center;
+    img {
+      height: auto;
+      width: 32px;
+    }
+  }
+  .ui.form {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 730px;
+    p {
+      text-align: left;
+    }
+    .fields {
+      margin-bottom: 20px;
+    }
+    .grouped.fields {
+      .fields {
+        margin-bottom: 4px;
+        .field {
+          padding: 0 .5em;
+        }
+      }
+    }
+  }
+  .overview-button {
+    clear: both;
+    padding-top: 40px;
+    text-align: center;
+  }
+  .ui.form .ui.icon.message {
+    background: $grey50;
+    border: 1px solid $grey300;
+    border-radius: 2px;
+    clear: both;
+    margin: 40px auto 0 auto;
+    max-width: 730px;
+    width: 100%;
+    padding: 12px 20px;
+    position: relative;
+    .icon, .content {
+      display: inline-block;
+    }
+    p {
+      color: $grey900;
+    }
+    i.icon.check.circle {
+      color: $green;
+      font-size: 24px;
+      line-height: 24px;
+      width: 26px;
+      height: 26px;
+      margin-right: 16px;
+    }
+  }
+}
+
+
+@media (min-width: 1280px) {
+  .container-fluid {
+    max-width: 1100px;
+    // background-color: $grey-color-dark;
+  }
+}

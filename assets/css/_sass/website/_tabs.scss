@@ -1,0 +1,16 @@
+ul .nav .nav-tabs {
+  list-style-type: none;
+  .nav-tabs > li > a {
+    border-radius: 0.5em;
+  }
+  .nav-tabs > li.active > a {
+    color: $brand-color;
+  }
+  .nav-tabs > li.disabled > a {
+    color: $grey-color;
+  }
+  .nav-tabs > li.disabled > a:hover,
+  .nav-tabs > li.disabled > a:focus {
+    border-color: transparent;
+  }
+}
