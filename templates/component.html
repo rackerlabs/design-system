@@ -1,0 +1,19 @@
+---
+layout: base
+---
+
+<div id="comcode" class="container comcode-tab">
+  <div class="row"
+    <p>
+      <a href="{{site.url}}{{page.url}}.html">{{ page.title }}: Design</a> |
+      {% for item in site.component_code %}
+        {% if page.title == item.title %}
+        <a href="{{site.url}}{{item.url}}.html">{{ item.title }}: Code</a>
+        {% endif %}
+      {% endfor %}
+    </p>
+  </div>
+</div>
+<article>
+  {{content}}
+</article>

@@ -5,7 +5,7 @@ A prototype of the Design System created Rackspace Experience Design. This site 
 
 Ensure ruby is installed on your system and run the following.
 
-```
+``` bash
 bundle install
-jekyll serve --watch
+bundle exec jekyll serve --watch --config _config.yml,_dev-config.yml
 ```

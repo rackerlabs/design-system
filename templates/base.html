@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>
+      {% if page.title %}{{ page.title }}
+      {% else %}{{ site.title }}{% endif %}
+    </title>
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+    <link rel="stylesheet" href="{{ site.url }}/assets/css/jquery-ui.css">
+    <link rel="stylesheet" href="{{ site.url }}/assets/css/website.css">
+    <link rel="stylesheet" href="{{ site.url }}/assets/css/helix.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.10/semantic.min.css"> -->
+
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | site.baseurl | site.url }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ " /feed.xml" | site.baseurl | site.url }}">
+  </head>
+  <body>
+    {% include nav.html %}
+    <div class="page-wrapper">
+      <div class="page-content">
+        <div class="header-wrapper" {% if page.url contains 'style' %} style="background-color: #CF3628"
+                          {% elsif page.url contains 'layout' %} style="background-color: #3B44A9"
+                          {% elsif page.url contains 'overview' %} style="background-color: #0E94A6"
+                          {% elsif page.url contains 'components' %} style="background-color: #C2185B"
+                          {% elsif page.url contains 'contribute' %} style="background-color: #2E7D32"
+                          {% elsif page.url contains 'resources' %} style="background-color: #0E6AAF"
+                          {% else %} style="background-color: #0D94A6"
+                          {% endif %} >
+          <div class="container-fluid">
+            <article class="page-header">
+              <div class="display-font">{{ page.title }}</div>
+            </article>
+          </div>
+        </div>
+        <div class="container-fluid">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+    {% include footer.html %}
+  </body>
+</html>
