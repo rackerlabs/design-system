@@ -1,0 +1,648 @@
+---
+title: Selectors
+layout: component
+category: Components
+usage: |
+  Helix controls allow users to select options in a variety of ways including
+  radio buttons, checkboxes, switches and more.
+preview-image: components/preview-selectors.svg
+resource: true
+need: selectors
+---
+
+{% include todo.html content="Update focus states, expand on inline validation, and improve
+keyboard accessibility." %}
+
+{% include toc.html %}
+
+# Radio Buttons {% include inprogress.html %}
+
+Use when selecting a **single item** from a set it's important for the user to
+see all options at once. If viewing items side-by-side isn't important,
+consider a selector, which uses less space.
+
+<div class="row">
+{% column left:"col-md-4" %}
+## Enabled
+
+<div class="ui form">
+  <div class="grouped fields">
+    <label>Select an option</label>
+    <div class="field">
+      <div class="ui radio checkbox">
+        <input type="radio" name="radio1" checked="checked">
+        <label>Option 1</label>
+        <div class="ui message subtext">
+          This is some subtext.
+        </div>
+      </div>
+    </div>
+    <div class="field">
+      <div class="ui radio checkbox">
+        <input type="radio" name="radio1">
+        <label>Option 2</label>
+      </div>
+    </div>
+    <div class="field">
+      <div class="ui radio checkbox">
+        <input type="radio" name="radio1">
+        <label>Option 3</label>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endcolumn %}
+{% column left:"col-md-4" %}
+
+## Disabled
+
+<div class="ui form">
+  <div class="grouped fields">
+    <label>Select an option</label>
+    <div class="field disabled">
+      <div class="ui radio checkbox">
+        <input type="radio" name="radio2" checked="checked" disabled="disabled">
+        <label>Option 1</label>
+      </div>
+    </div>
+    <div class="field disabled">
+      <div class="ui radio checkbox">
+        <input type="radio" name="radio2" disabled="disabled">
+        <label>Option 2</label>
+      </div>
+    </div>
+    <div class="field disabled">
+      <div class="ui radio checkbox">
+        <input type="radio" name="radio2" disabled="disabled">
+        <label>Option 3</label>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endcolumn %}
+{% column right:"col-md-4" %}
+
+## Error
+
+<div class="ui form error">
+  <div class="grouped fields required">
+    <label>Select an option</label>
+    <div class="field error checked">
+      <div class="ui radio checkbox">
+        <input type="radio" name="radio3" check="checked">
+        <label>Option 1</label>
+      </div>
+    </div>
+    <div class="field error">
+      <div class="ui radio checkbox">
+        <input type="radio" name="radio3">
+        <label>Option 2</label>
+      </div>
+    </div>
+    <div class="field error">
+      <div class="ui radio checkbox">
+        <input type="radio" name="radio3">
+        <label>Option 3</label>
+      </div>
+    </div>
+  </div>
+  <div class="ui error message">
+    There is an error with the response to this question.
+  </div>
+</div>
+{% endcolumn %}
+</div>
+
+# Radio Button Group {% include inprogress.html %}
+
+Use when selecting a **single item** from a set if it's important for the user
+to see all options at once. This alternate can be used instead of regular radio
+buttons if the options are **simple**, limited in number and individual length.
+
+## Enabled
+
+<div class="ui form">
+  <div class="field">
+    <label>Select potential maintenance days</label>
+    <div class="ui buttons single">
+      <button class="ui button ds-btn-med-sec active">Mon</button><button class="ui button ds-btn-med-sec">Tues</button><button class="ui button ds-btn-med-sec">Wed</button><button class="ui button ds-btn-med-sec">Thurs</button><button class="ui button ds-btn-med-sec">Fri</button><button class="ui button ds-btn-med-sec">Sat</button><button class="ui button ds-btn-med-sec">Sun</button>
+    </div>
+    <div class="ui message subtext">
+      Here is some additional help text to explain these choices.
+    </div>
+  </div>
+</div>
+
+## Disabled
+
+<div class="ui form">
+  <div class="field">
+    <label>Select payment type</label>
+    <div class="ui buttons single">
+      <button class="ui button ds-btn-med-sec disabled active">Credit / Debit</button><button class="ui button ds-btn-med-sec disabled">Cash</button><button class="ui button ds-btn-med-sec disabled">Check</button>
+    </div>
+  </div>
+</div>
+
+## Error
+
+<div class="ui form error">
+  <div class="field error">
+    <label class="required">Select potential maintenance windows</label>
+    <div class="ui buttons single">
+      <button class="ui button ds-btn-med-sec">12<span class="smCaps"> AM</span> &ndash; 4<span class="smCaps"> AM</span></button><button class="ui button ds-btn-med-sec error active">4<span class="smCaps"> AM</span> &ndash; 8<span class="smCaps"> AM</span></button><button class="ui button ds-btn-med-sec">8<span class="smCaps"> AM</span> &ndash; 12<span class="smCaps"> PM</span></button><button class="ui button ds-btn-med-sec">12<span class="smCaps"> PM</span> &ndash; 4<span class="smCaps"> PM</span></button><button class="ui button ds-btn-med-sec">4<span class="smCaps"> PM</span> &ndash; 8<span class="smCaps"> PM</span></button><button class="ui button ds-btn-med-sec">8<span class="smCaps"> PM</span> &ndash; 12<span class="smCaps"> AM</span></button>
+    </div>
+    <div class="ui error message">
+      There is an error with the response to this question.
+    </div>
+  </div>
+</div>
+
+# Checkboxes {% include inprogress.html %}
+
+Use when selecting **multiple items** from a set if it's important for the user
+to see all options at once. If viewing items side-by-side isn't important,
+consider a selector, which uses less space.
+
+## Enabled
+
+<div class="ui form">
+  <div class="grouped fields">
+    <label>Select an option</label>
+    <div class="field">
+      <div class="ui checkbox">
+        <input type="checkbox" name="checkbox3" checked="checked">
+        <label>Option 1</label>
+        <div class="ui message subtext">
+          This is some subtext.
+        </div>
+      </div>
+    </div>
+    <div class="field">
+      <div class="ui checkbox">
+        <input type="checkbox" name="checkbox3">
+        <label>Option 2</label>
+      </div>
+    </div>
+    <div class="field">
+      <div class="ui checkbox">
+        <input type="checkbox" name="checkbox3">
+        <label>Option 3</label>
+      </div>
+    </div>
+  </div>
+</div>
+
+## Disabled
+
+<div class="ui form">
+  <div class="grouped fields">
+    <label>Select an option</label>
+    <div class="field disabled">
+      <div class="ui checkbox">
+        <input type="checkbox" name="checkbox2" checked="checked" disabled="disabled">
+        <label>Option 1</label>
+      </div>
+    </div>
+    <div class="field disabled">
+      <div class="ui checkbox">
+        <input type="checkbox" name="checkbox2" disabled="disabled">
+        <label>Option 2</label>
+      </div>
+    </div>
+    <div class="field disabled">
+      <div class="ui checkbox">
+        <input type="checkbox" name="checkbox2" disabled="disabled">
+        <label>Option 3</label>
+      </div>
+    </div>
+  </div>
+</div>
+
+## Error
+
+<div class="ui form error">
+  <div class="grouped fields required">
+    <label>Select an option</label>
+    <div class="field error">
+      <div class="ui checkbox">
+        <input type="checkbox" name="checkbox1" checked="checked">
+        <label>Option 1</label>
+      </div>
+    </div>
+    <div class="field error">
+      <div class="ui checkbox">
+        <input type="checkbox" name="checkbox1">
+        <label>Option 2</label>
+      </div>
+    </div>
+    <div class="field error">
+      <div class="ui checkbox">
+        <input type="checkbox" name="checkbox1" checked="checked">
+        <label>Option 3</label>
+      </div>
+    </div>
+  </div>
+  <div class="ui error message">
+    There is an error with the response to this question.
+  </div>
+</div>
+
+# Checkbox Button Group {% include inprogress.html %}
+
+Use when selecting **multiple items** from a set if it's important for the user
+to see all options at once. This alternate can be used instead of regular check
+boxes if the options are **simple**, limited in number and individual length.
+
+## Enabled
+
+<div class="ui form">
+  <div class="field">
+    <label>Select potential maintenance days</label>
+    <div class="ui buttons multi">
+      <button class="ui button multi ds-btn-med-sec active">Mon</button>
+      <button class="ui button multi ds-btn-med-sec active">Tues</button>
+      <button class="ui button multi ds-btn-med-sec">Wed</button>
+      <button class="ui button multi ds-btn-med-sec">Thurs</button>
+      <button class="ui button multi ds-btn-med-sec">Fri</button>
+      <button class="ui button multi ds-btn-med-sec">Sat</button>
+      <button class="ui button multi ds-btn-med-sec">Sun</button>
+    </div>
+    <div class="ui message subtext">
+      Here is some additional help text to explain these choices.
+    </div>
+  </div>
+</div>
+
+## Disabled
+
+<div class="ui form">
+  <div class="ui field">
+    <div class="field">
+      <label>Select payment type</label>
+      <div class="ui buttons multi">
+        <button class="ui button ds-btn-med-sec active disabled">Credit / Debit</button>
+        <button class="ui button ds-btn-med-sec active disabled">Cash</button>
+        <button class="ui button ds-btn-med-sec disabled">Check</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+## Error
+
+<div class="ui form error">
+  <div class="field error">
+    <label class="required">Select potential maintenance windows</label>
+    <div class="ui buttons multi">
+      <button class="ui button ds-btn-med-sec active error">12<span class="smCaps"> AM</span> &ndash; 4<span class="smCaps"> AM</span></button>
+      <button class="ui button ds-btn-med-sec active">4<span class="smCaps"> AM</span> &ndash; 8<span class="smCaps"> AM</span></button>
+      <button class="ui button ds-btn-med-sec">8<span class="smCaps"> AM</span> &ndash; 12<span class="smCaps"> PM</span></button>
+      <button class="ui button ds-btn-med-sec">12<span class="smCaps"> PM</span> &ndash; 4<span class="smCaps"> PM</span></button>
+      <button class="ui button ds-btn-med-sec">4<span class="smCaps"> PM</span> &ndash; 8<span class="smCaps"> PM</span></button>
+      <button class="ui button ds-btn-med-sec">8<span class="smCaps"> PM</span> &ndash; 12<span class="smCaps"> AM</span></button>
+    </div>
+    <div class="ui error message">
+      There is an error with the response to this question.
+    </div>
+  </div>
+</div>
+
+# Dropdown Selectors {% include inprogress.html %}
+
+{% include todo.html content="Update style and add additional examples" %}
+
+Use the simple selector when choosing from a limited number options. If more
+than 10-12 options need to displayed, use the complex selector, which contains
+a search. Always use the complex selector for devices. Be mindful of the length
+of each option. Additional context can't be given on an option-by-option basis.
+If this is needed, consider radio buttons or checkboxes with subtext.
+Alphabetize options unless there is a strong use case for an alternative
+organization.
+
+## Enabled
+
+<div class="ui form">
+  <div class="field">
+    <label>Contact</label>
+    <select class="ui dropdown">
+      <option value="">Make a selection</option>
+      <option value="Bart">Bart Renner</option>
+      <option value="Carmen">Carmen Broomes</option>
+      <option value="Elizabeth">Elizabeth Grotheus</option>
+      <option value="Eric">Eric Weidner</option>
+      <option value="Lane">Lane Fielder</option>
+      <option value="Mikey">Mikey Hougland</option>
+      <option value="Tommy">Tommy Shook</option>
+      <option value="Ty">Ty Taylor</option>
+    </select>
+  </div>
+</div>
+
+## Disabled
+<div class="ui form">
+  <div class="field">
+    <label>Contact</label>
+    <select class="ui dropdown disabled" disabled>
+      <option value="">Make a selection</option>
+      <option value="Bart">Bart Renner</option>
+      <option value="Carmen">Carmen Broomes</option>
+      <option value="Elizabeth">Elizabeth Grotheus</option>
+      <option value="Eric">Eric Weidner</option>
+      <option value="Lane">Lane Fielder</option>
+      <option value="Mikey">Mikey Hougland</option>
+      <option value="Tommy">Tommy Shook</option>
+      <option value="Ty">Ty Taylor</option>
+    </select>
+  </div>
+</div>
+
+## Error
+
+<div class="ui form error">
+  <div class="field error">
+    <label>Contact</label>
+    <select class="ui dropdown">
+      <option value="">Make a selection</option>
+      <option value="Bart">Bart Renner</option>
+      <option value="Carmen">Carmen Broomes</option>
+      <option value="Elizabeth">Elizabeth Grotheus</option>
+      <option value="Eric">Eric Weidner</option>
+      <option value="Lane">Lane Fielder</option>
+      <option value="Mikey">Mikey Hougland</option>
+      <option value="Tommy">Tommy Shook</option>
+      <option value="Ty">Ty Taylor</option>
+    </select>
+    <div class="ui error message">
+      There is an error with the response to this question.
+    </div>
+  </div>
+</div>
+
+## Multiple Select
+
+<div class="ui form">
+  <div class="field">
+    <label>Contact</label>
+    <select multiple="" class="ui dropdown">
+      <option value="">Make a selection</option>
+      <option value="Bart">Bart Renner</option>
+      <option value="Carmen">Carmen Broomes</option>
+      <option value="Elizabeth">Elizabeth Grotheus</option>
+      <option value="Eric">Eric Weidner</option>
+      <option value="Lane">Lane Fielder</option>
+      <option value="Mikey">Mikey Hougland</option>
+      <option value="Tommy">Tommy Shook</option>
+      <option value="Ty">Ty Taylor</option>
+    </select>
+  </div>
+</div>
+
+## Type Ahead Select
+
+<div class="ui form">
+  <div class="field">
+    <div class="ui fluid search selection dropdown">
+      <input type="hidden" name="state">
+      <i class="dropdown icon"></i>
+      <div class="default text">State</div>
+      <div class="menu">
+        <div class="item" data-value="">State</div>
+        <div class="item" data-value="AL">Alabama</div>
+        <div class="item" data-value="AK">Alaska</div>
+        <div class="item" data-value="AZ">Arizona</div>
+        <div class="item" data-value="AR">Arkansas</div>
+        <div class="item" data-value="CA">California</div>
+        <!-- Saving your scroll sanity !-->
+        <div class="item" data-value="OH">Ohio</div>
+        <div class="item" data-value="OK">Oklahoma</div>
+        <div class="item" data-value="OR">Oregon</div>
+        <div class="item" data-value="PA">Pennsylvania</div>
+        <div class="item" data-value="RI">Rhode Island</div>
+        <div class="item" data-value="SC">South Carolina</div>
+        <div class="item" data-value="SD">South Dakota</div>
+        <div class="item" data-value="TN">Tennessee</div>
+        <div class="item" data-value="TX">Texas</div>
+        <div class="item" data-value="UT">Utah</div>
+        <div class="item" data-value="VT">Vermont</div>
+        <div class="item" data-value="VA">Virginia</div>
+        <div class="item" data-value="WA">Washington</div>
+        <div class="item" data-value="WV">West Virginia</div>
+        <div class="item" data-value="WI">Wisconsin</div>
+        <div class="item" data-value="WY">Wyoming</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+## Type Ahead Multiple Select
+
+<div class="ui form">
+  <div class="field">
+    <select class="ui fluid search dropdown" multiple="">
+      <option value="">State(s)</option>
+      <option value="AL">Alabama</option>
+      <option value="AK">Alaska</option>
+      <option value="AZ">Arizona</option>
+      <option value="AR">Arkansas</option>
+      <option value="CA">California</option>
+      <!-- Saving your scroll sanity !-->
+      <option value="OH">Ohio</option>
+      <option value="OK">Oklahoma</option>
+      <option value="OR">Oregon</option>
+      <option value="PA">Pennsylvania</option>
+      <option value="RI">Rhode Island</option>
+      <option value="SC">South Carolina</option>
+      <option value="SD">South Dakota</option>
+      <option value="TN">Tennessee</option>
+      <option value="TX">Texas</option>
+      <option value="UT">Utah</option>
+      <option value="VT">Vermont</option>
+      <option value="VA">Virginia</option>
+      <option value="WA">Washington</option>
+      <option value="WV">West Virginia</option>
+      <option value="WI">Wisconsin</option>
+      <option value="WY">Wyoming</option>
+    </select>
+  </div>
+</div>
+
+# Toggle {% include inprogress.html %}
+
+Toggles should be used instead of switches for desktop design. If you need to
+toggle between more than two options, see the **radio button button-group
+alternate** design. Toggles should also be used on mobile devices instead of a
+switch if specific labels are needed on the selector.
+
+## Enabled
+
+<div class="ui form">
+  <div class="field">
+    <div class="ui buttons single">
+      <button class="ui button ds-btn-med-sec">Cloud</button>
+      <button class="ui button ds-btn-med-sec active">Dedicated</button>
+    </div>
+  </div>
+</div>
+
+## Disabled
+
+<div class="ui form">
+  <div class="field">
+    <div class="ui buttons single">
+      <button class="ui button ds-btn-med-sec active disabled">Cloud</button>
+      <button class="ui button ds-btn-med-sec disabled">Dedicated</button>
+    </div>
+  </div>
+</div>
+
+## Error
+<div class="ui form error">
+  <div class="field error">
+    <div class="ui buttons single">
+      <button class="ui button ds-btn-med-sec">Cloud</button>
+      <button class="ui button ds-btn-med-sec error active">Dedicated</button>
+    </div>
+    <div class="ui error message">
+      There is an error with the response to this question.
+    </div>
+  </div>
+</div>
+
+# Switch {% include inprogress.html %}
+
+The switch should only be used in **mobile** designs. Enabling preferences or
+settings is a prime use case for this component. The switch can be used with or
+without text, depending on the context provided in the switch label. If more
+complex text is needed in the switch than yes/no or on/off, use a **toggle**.
+
+## Default
+
+{% figure [caption:""] [class:"image bg-light border"] %}
+![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/selectors-switch.png){:width="30%"}
+{% endfigure %}
+
+<!--<div class="ui segments">
+  <div class="ui segment">
+    <div class="ui form">
+      ### Enabled
+      <div class="inline field">
+        <div class="ui toggle checkbox">
+          <input type="checkbox" name="public">
+          <label>Without text</label>
+        </div>
+      </div>
+      <div class="inline field">
+        <div class="ui toggle checkbox">
+          <input type="checkbox" name="public">
+          <label>With text (on/off)</label>
+        </div>
+      </div>
+      <div class="inline field">
+        <div class="ui toggle checkbox">
+          <input type="checkbox" name="public">
+          <label>With text (yes/no)</label>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="ui segment">
+    ### Disabled
+    <div class="inline field">
+      <div class="ui toggle checkbox">
+        <input type="checkbox" name="public" disabled="disabled">
+        <label>With text (on/off)</label>
+      </div>
+    </div>
+  </div>
+  <div class="ui segment">
+    ### Error
+    <div class="inline field">
+      <div class="ui toggle checkbox">
+        <input type="checkbox" name="public" disabled="disabled">
+        <label>With text (on/off)</label>
+      </div>
+    </div>
+  </div>
+</div>-->
+
+# Sliders {% include inprogress.html %}
+
+<!--Sliders let users select from a range of values by moving the slider thumb.
+
+Sliders are ideal components for adjusting settings that reflect intensity levels, such as volume, brightness, or color saturation.
+
+Sliders may have icons on both ends of the bar that reflect the value intensity. Place the smallest value for the slider range on the left and the largest value on the right.
+
+Continuous sliders
+
+Continuous sliders allow users to select a value along a subjective range. They do not require a specific value to make adjustments, although they may, in some instances, offer an editable numeric value.
+
+Discrete sliders
+
+Discrete sliders allow users to select a specific value from a range.-->
+
+## Default
+
+{% figure [caption:""] [class:"image bg-light border"] %}
+![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/slider.svg){:width="30%"}
+{% endfigure %}
+
+## Deactivated
+
+{% figure [caption:""] [class:"image bg-light border"] %}
+![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/slider-deactivated.svg){:width="30%"}
+{% endfigure %}
+
+## Discreet
+
+{% figure [caption:""] [class:"image bg-light border"] %}
+![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/slider-discrete.svg){:width="30%"}
+{% endfigure %}
+
+## Hover
+
+{% figure [caption:""] [class:"image bg-light border"] %}
+![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/slider-hover.svg){:width="30%"}
+{% endfigure %}
+
+## Markers
+
+{% figure [caption:""] [class:"image bg-light border"] %}
+![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/slider-markers.svg){:width="60%"}
+{% endfigure %}
+
+## Label
+
+{% figure [caption:""] [class:"image bg-light border"] %}
+![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/slider-label.svg){:width="30%"}
+{% endfigure %}
+
+## Ranged
+
+{% figure [caption:""] [class:"image bg-light border"] %}
+![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/slider-ranged.svg){:width="30%"}
+{% endfigure %}
+
+## Ranged with Label
+
+{% figure [caption:""] [class:"image bg-light border"] %}
+![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/slider-ranged-label.svg){:width="30%"}
+{% endfigure %}
+
+## Vertical
+{% figure [caption:""] [class:"image bg-light border"] %}
+![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/slider-vertical.svg){:height="30%"}
+{% endfigure %}
+
+<!--
+  <a class="anchor" name="cascade-selector"></a>
+  #Cascade Selector {% include inprogress.html %}
+  <p class="update">
+    <a href="https://jira.rax.io/browse/RED-768">JIRA</a><br>
+    EAG: This isn't used broadly enough to make a pattern yet.
+
+  <p class="update">Do we want to use <a href="https://jira.rax.io/secure/attachment/70337/Cascade%20Selector%20-%20Complete.pdf">this doc</a>? I can't find the original to break it out into images and text.
+-->
