@@ -1,5 +1,6 @@
 ---
 title: Searches and Filters
+parent: null
 layout: component
 category: Components
 usage: Teaser Text
@@ -7,10 +8,11 @@ preview-image:
 resource: true
 ---
 
+<!-- NOTE: Bart said not to worry about splitting this for Phase 1.
+     TODO: Split for phase 2. -->
+
 When an app supports large amounts of information, users should be able to
 quickly locate content by searching for it.
-
-{% include toc.html %}
 
 **Basic search involves**
 
@@ -74,7 +76,7 @@ to locate specific items within the website or app.
 ## Visual Example
 
 {% figure [caption:""] [class:"image bg-light border"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/search-basic.svg){:width="60%"}
+![]({{site.cdn_url}}/img/components/search-basic.svg){:width="60%"}
 {% endfigure %}
 
 # Assisted Search/Auto-completion {% include inprogress.html %}
@@ -90,7 +92,7 @@ to locate specific items within the website or app.
   down their search.
 
 {% figure [caption:""] [class:"image bg-light border"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/search-default-state.svg){:width="60%"}
+![]({{site.cdn_url}}/img/components/search-default-state.svg){:width="60%"}
 {% endfigure %}
 
 ### Loading/Processing
@@ -104,7 +106,7 @@ to locate specific items within the website or app.
   auto-completed results (Enter)
 
 {% figure [caption:""] [class:"image bg-light border"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/search-processing.svg){:width="60%"}
+![]({{site.cdn_url}}/img/components/search-processing.svg){:width="60%"}
 {% endfigure %}
 
 ### Results
@@ -112,7 +114,7 @@ to locate specific items within the website or app.
 Search completion results should be divided up by categories if possible.
 
 {% figure [caption:""] [class:"image bg-light border"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/search-results.svg){:width="60%"}
+![]({{site.cdn_url}}/img/components/search-results.svg){:width="60%"}
 {% endfigure %}
 
 ### Hover
@@ -123,7 +125,7 @@ Search completion results should be divided up by categories if possible.
 -   **Visual:** Hover color should be **Cyan 50**
 
 {% figure [caption:""] [class:"image bg-light border"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/search-hover.png){:width="60%"}
+![]({{site.cdn_url}}/img/components/search-hover.png){:width="60%"}
 {% endfigure %}
 
 ### Active
@@ -133,7 +135,7 @@ Search completion results should be divided up by categories if possible.
   **Cyan 100**
 
 {% figure [caption:""] [class:"image bg-light border"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/search-active.svg){:width="60%"}
+![]({{site.cdn_url}}/img/components/search-active.svg){:width="60%"}
 {% endfigure %}
 
 ### Selected
@@ -142,7 +144,7 @@ Search completion results should be divided up by categories if possible.
   should have a background color of **Greyscale 400**
 
 {% figure [caption:""] [class:"image bg-light border"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/search-selected.svg){:width="60%"}
+![]({{site.cdn_url}}/img/components/search-selected.svg){:width="60%"}
 {% endfigure %}
 
 ### Date Selector
@@ -159,7 +161,7 @@ Search completion results should be divided up by categories if possible.
   implement a datepicker.
 
 {% figure [caption:""] [class:"image bg-light border"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/search-date-selector.svg){:width="60%"}
+![]({{site.cdn_url}}/img/components/search-date-selector.svg){:width="60%"}
 {% endfigure %}
 
 ### Query Strings
@@ -175,7 +177,7 @@ Search completion results should be divided up by categories if possible.
 -   Backspace should delete a single character not the entire query
 
 {% figure [caption:""] [class:"image bg-light border"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/search-query-strings.svg){:width="60%"}
+![]({{site.cdn_url}}/img/components/search-query-strings.svg){:width="60%"}
 {% endfigure %}
 
 ### Clear
@@ -184,7 +186,7 @@ Search completion results should be divided up by categories if possible.
 - The page should be refreshed to its default state
 
 {% figure [caption:""] [class:"image bg-light border"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/search-clear.svg){:width="60%"}
+![]({{site.cdn_url}}/img/components/search-clear.svg){:width="60%"}
 {% endfigure %}
 
 # Text Guidelines {% include inprogress.html %}

@@ -1,6 +1,6 @@
 ---
 title: Components
-layout: categories
+layout: code
 category: Components Code
 collection: component_code
 ---

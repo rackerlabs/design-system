@@ -1,6 +1,6 @@
 ---
 title: Editing
-layout: parent
+layout: code
 category: Components Code
 usage: Teaser Text
 preview-image:

@@ -32,16 +32,16 @@ Navigation Bar, the Main Navigation, the content area, and the footer.
   links.
 
 {% endcolumn %}
-{% column right:"col-md-7" %}
+{% column right:"col-md-8" %}
 {% figure [caption:"Choosing Top Navigation provides more horizontal real estate for
 your content area, but can limit the number of navigation items."] [class:"image bg-light border"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/layout-navigation-top.svg){:width="100%"}
+![]({{site.cdn_url}}/img/layout/layout-navigation-top.svg){:width="100%"}
 {% endfigure %}
 
 {% figure [caption:"Choosing Left Navigation offers more flexibility for larger and
 more expansive menus, but constricts the horizontal real estate for your
 content area."] [class:"image bg-light border"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/layout-navigation-side.svg){:width="100%"}
+![]({{site.cdn_url}}/img/layout/layout-navigation-side.svg){:width="100%"}
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -58,13 +58,13 @@ be built using a 12 Column Grid. See [grid](/layout/grid) for more details.
 - Navigation is not a part of the 12 Column Grid.
 - Content Area background color: Gray 25, #FAFAFA
 {% endcolumn %}
-{% column right:"col-md-7" %}
+{% column right:"col-md-8" %}
 {% figure [caption:"Full Width with Top Navigation"] [class:"image bg-light border"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/layout-content-full-top-nav.svg){:width="100%"}
+![]({{site.cdn_url}}/img/layout/layout-content-full-top-nav.svg){:width="100%"}
 {% endfigure %}
 
 {% figure [caption:"Full Width with Side Navigation"] [class:"image bg-light border"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/layout-content-full-side-nav.svg){:width="100%"}
+![]({{site.cdn_url}}/img/layout/layout-content-full-side-nav.svg){:width="100%"}
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -83,13 +83,13 @@ be built using a 12 Column Grid. See [grid](/layout/grid) for more details.
 - 3 columns
 - Background color: Gray 100, #EEEEEE
 {% endcolumn %}
-{% column right:"col-md-7" %}
+{% column right:"col-md-8" %}
 {% figure [caption:"Right Side Rail with Top Navigation"] [class:"image bg-light border"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/layout-right-side-rail-top-nav.svg){:width="100%"}
+![]({{site.cdn_url}}/img/layout/layout-right-side-rail-top-nav.svg){:width="100%"}
 {% endfigure %}
 
 {% figure [caption:"Right Side Rail with Side Navigation"] [class:"image bg-light border"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/layout-right-side-rail-side-nav.svg){:width="100%"}
+![]({{site.cdn_url}}/img/layout/layout-right-side-rail-side-nav.svg){:width="100%"}
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -108,13 +108,13 @@ be built using a 12 Column Grid. See [grid](/layout/grid) for more details.
 - 3 columns
 - Background color: Gray 100, #EEEEEE
 {% endcolumn %}
-{% column right:"col-md-7" %}
+{% column right:"col-md-8" %}
 {% figure [caption:"Left Side Rail with Top Navigation"] [class:"image bg-light border"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/layout-left-side-rail-top-nav.svg){:width="100%"}
+![]({{site.cdn_url}}/img/layout/layout-left-side-rail-top-nav.svg){:width="100%"}
 {% endfigure %}
 
 {% figure [caption:"Left Side Rail with Side Navigation"] [class:"image bg-light border"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/layout-left-side-rail-side-nav.svg){:width="100%"}
+![]({{site.cdn_url}}/img/layout/layout-left-side-rail-side-nav.svg){:width="100%"}
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -130,13 +130,13 @@ be built using a 12 Column Grid. See [grid](/layout/grid) for more details.
 - Background color: Gray 25, #FAFAFA
 - Canvas color: Gray 300, #E0E0E0
 {% endcolumn %}
-{% column right:"col-md-7" %}
+{% column right:"col-md-8" %}
 {% figure [caption:"Dashboard Layout with Top Navigation"] [class:"image bg-light border"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/layout-dashboard-top-nav.svg){:width="100%"}
+![]({{site.cdn_url}}/img/layout/layout-dashboard-top-nav.svg){:width="100%"}
 {% endfigure %}
 <!--
 {% figure [caption:"Dashboard layout with Side Navigation"] [class:"image bg-light border"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/layout-dashboard-side.svg){:width="100%"}
+![]({{site.cdn_url}}/img/layout/layout-dashboard-side.svg){:width="100%"}
 {% endfigure %}
 -->
 {% endcolumn %}

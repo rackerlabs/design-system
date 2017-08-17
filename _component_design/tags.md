@@ -1,5 +1,6 @@
 ---
 title: Tags
+parent: Search and Filters
 layout: component
 category: Components
 usage: Teaser Text

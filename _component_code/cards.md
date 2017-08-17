@@ -1,5 +1,6 @@
 ---
 title: Cards
+parent: Content Areas
 layout: code
 category: Components Code
 usage: Teaser Text
