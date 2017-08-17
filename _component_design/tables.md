@@ -1,5 +1,6 @@
 ---
 title: Tables
+parent: null
 layout: component
 category: Components
 usage: Teaser Text
@@ -7,14 +8,14 @@ preview-image: components/preview-images/tables.svg
 resource: true
 ---
 
+<!-- TODO: Break out into components? -->
+
 At Rackspace, we present data in a table on nearly every page in our control
 panels. Tables are highly valuable, but always run the risk of putting too high
 a cognitive load on users. Our goal with tables should always be to decrease
 cognitive load so users can get the data they need quickly and easily. With
 such pervasive use, it’s important that we make sure our tables are efficient,
 powerful, and user-friendly.
-
-{% include toc.html %}
 
 # Structure {% include inprogress.html %}
 
@@ -62,7 +63,7 @@ label.
   and best practices.
 
 {% figure [caption:""] [class:"image bg-light border"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/tables-header.svg){:width="100%"}
+![]({{site.cdn_url}}/img/components/tables-header.svg){:width="100%"}
 {% endfigure %}
 
 ## Structured Table
@@ -72,7 +73,7 @@ category. The columns affected should always be placed as far to the right side
 of the table as possible.
 
 {% figure [caption:""] [class:"image bg-light border"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/tables-header-structured.svg){:width="100%"}
+![]({{site.cdn_url}}/img/components/tables-header-structured.svg){:width="100%"}
 {% endfigure %}
 
 # Sorting {% include inprogress.html %}
@@ -93,7 +94,7 @@ they are want.
   the sorting function on sortable rows
 
 {% figure [caption:""] [class:"image bg-light border"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/tables-sort.svg){:width="100%"}
+![]({{site.cdn_url}}/img/components/tables-sort.svg){:width="100%"}
 {% endfigure %}
 
 # Body Row {% include inprogress.html %}
@@ -123,7 +124,7 @@ they are want.
   possible)
 
 {% figure [caption:""] [class:"image bg-light border"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/tables-row.svg){:width="100%"}
+![]({{site.cdn_url}}/img/components/tables-row.svg){:width="100%"}
 {% endfigure %}
 
 # Row Hover State {% include inprogress.html %}
@@ -131,7 +132,7 @@ they are want.
 Hover on row only if row is expandable
 
 {% figure [caption:""] [class:"image bg-light border"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/tables-row-hover.svg){:width="100%"}
+![]({{site.cdn_url}}/img/components/tables-row-hover.svg){:width="100%"}
 {% endfigure %}
 
 # Expandable Row {% include inprogress.html %}
@@ -173,7 +174,7 @@ row becomes a header for the expanded content area.
 -   Viewport remains unchanged with expansion and collapse
 
 {% figure [caption:""] [class:"image bg-light border"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/tables-row-expand.svg){:width="100%"}
+![]({{site.cdn_url}}/img/components/tables-row-expand.svg){:width="100%"}
 {% endfigure %}
 
 # Filtering {% include inprogress.html %}
@@ -183,11 +184,11 @@ Filtering is critical for users to quickly find exactly the data they need.
 Search vs preset
 
 {% figure [caption:""] [class:"image bg-light border"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/tables-filter.svg){:width="100%"}
+![]({{site.cdn_url}}/img/components/tables-filter.svg){:width="100%"}
 {% endfigure %}
 
 {% figure [caption:""] [class:"image bg-light border"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/tables-filter-select.svg){:width="100%"}
+![]({{site.cdn_url}}/img/components/tables-filter-select.svg){:width="100%"}
 {% endfigure %}
 
 ## Search
@@ -220,7 +221,7 @@ If you have multiple file types available, only display one download icon. When
 clicked, trigger a dropdown list that users can select their preferred file type
 
 {% figure [caption:""] [class:"image bg-light border"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/tables-download.svg){:width="100%"}
+![]({{site.cdn_url}}/img/components/tables-download.svg){:width="100%"}
 {% endfigure %}
 
 # Action Buttons {% include inprogress.html %}
@@ -243,13 +244,13 @@ clicked, trigger a dropdown list that users can select their preferred file type
   rules)
 
 {% figure [caption:""] [class:"image bg-light border"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/tables-controls-top.svg){:width="100%"}
+![]({{site.cdn_url}}/img/components/tables-controls-top.svg){:width="100%"}
 {% endfigure %}
 
 ## Bottom placement
 
 {% figure [caption:""] [class:"image bg-light border"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/tables-controls-bottom.svg){:width="100%"}
+![]({{site.cdn_url}}/img/components/tables-controls-bottom.svg){:width="100%"}
 {% endfigure %}
 
 # Bulk Selectors {% include inprogress.html %}
@@ -257,7 +258,7 @@ clicked, trigger a dropdown list that users can select their preferred file type
 ## In Header
 
 <video controls>
-  <source src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/tables-selectors-prototype.mp4" type="video/mp4">
+  <source src="{{site.cdn_url}}/img/components/tables-selectors-prototype.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
 
@@ -282,18 +283,18 @@ clicked, trigger a dropdown list that users can select their preferred file type
 ### Unselected
 
 {% figure [caption:""] [class:"image bg-light border"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/tables-controls-top.svg){:width="100%"}
+![]({{site.cdn_url}}/img/components/tables-controls-top.svg){:width="100%"}
 {% endfigure %}
 
 ### Indeterminate (1 or more but not all records are selected)
 
 {% figure [caption:""] [class:"image bg-light border"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/tables-controls-selected.svg){:width="100%"}
+![]({{site.cdn_url}}/img/components/tables-controls-selected.svg){:width="100%"}
 {% endfigure %}
 
 ### All Selected
 {% figure [caption:""] [class:"image bg-light border"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/tables-controls-selected-all.svg){:width="100%"}
+![]({{site.cdn_url}}/img/components/tables-controls-selected-all.svg){:width="100%"}
 {% endfigure %}
 
 # Cog {% include inprogress.html %}
@@ -319,13 +320,13 @@ out what actions are available.
 ## Cog
 
 {% figure [caption:""] [class:"image bg-light border"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/tables-cog.svg){:width="100%"}
+![]({{site.cdn_url}}/img/components/tables-cog.svg){:width="100%"}
 {% endfigure %}
 
 ## Cog with selector
 
 {% figure [caption:""] [class:"image bg-light border"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/tables-cog-selector.svg){:width="100%"}
+![]({{site.cdn_url}}/img/components/tables-cog-selector.svg){:width="100%"}
 {% endfigure %}
 
 # Pagination/Lazy Loading/Load More Button {% include inprogress.html %}
@@ -355,7 +356,7 @@ out what actions are available.
   set
 
 {% figure [caption:""] [class:"image bg-light border"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/tables-pagination.svg){:width="100%"}
+![]({{site.cdn_url}}/img/components/tables-pagination.svg){:width="100%"}
 {% endfigure %}
 
 # Table Styles {% include inprogress.html %}
@@ -378,7 +379,7 @@ content on the page. Unbound rows remove unnecessary visual clutter.
   and you can save the pixels (e.g. on a mobile device or in a panel)
 
 {% figure [caption:""] [class:"image bg-light border"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/tables-style-unbound.svg){:width="100%"}
+![]({{site.cdn_url}}/img/components/tables-style-unbound.svg){:width="100%"}
 {% endfigure %}
 
 ## Bounded Rows
@@ -389,7 +390,7 @@ visualization, or if the table appears as one step in a larger create/edit
 workflow.
 
 {% figure [caption:""] [class:"image bg-light border"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/tables-style-bounded.svg){:width="100%"}
+![]({{site.cdn_url}}/img/components/tables-style-bounded.svg){:width="100%"}
 {% endfigure %}
 
 ## Zebra Striping
@@ -401,7 +402,7 @@ orientation. Notice that the horizontal lines that separate each row are gone
 if you use zebra striping.
 
 {% figure [caption:""] [class:"image bg-light border"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/tables-style-zebra.svg){:width="100%"}
+![]({{site.cdn_url}}/img/components/tables-style-zebra.svg){:width="100%"}
 {% endfigure %}
 
 <!--(h3) Totalling

@@ -1,5 +1,6 @@
 ---
 title: Data Visualization
+parent: Data Visualizations
 layout: component
 category: Components
 usage: Teaser Text
@@ -7,8 +8,6 @@ preview-image:
 resource: true
 need: charts
 ---
-
-{% include toc.html %}
 
 # Chart Basics {% include inprogress.html %}
 

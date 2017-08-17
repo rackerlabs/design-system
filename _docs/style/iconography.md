@@ -14,7 +14,7 @@ resource: true
 # Download Current Release
 The latest version of the icon font can be downloaded for use within your
 project at
-[this CDN link](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/fonts/DS_icon_font.zip)
+[this CDN link]({{site.cdn_url}}/fonts/DS_icon_font.zip)
 
 ## New Requests
 If you need an additional icon, please submit your request to the
