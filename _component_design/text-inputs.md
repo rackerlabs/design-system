@@ -1,5 +1,6 @@
 ---
 title: Text Inputs
+parent: Inputs and Controls
 layout: component
 category: Components
 usage: |
@@ -8,8 +9,6 @@ usage: |
 preview-image: components/preview-fields.svg
 resource: true
 ---
-
-{% include toc.html %}
 
 # Text Field {% include inprogress.html %}
 

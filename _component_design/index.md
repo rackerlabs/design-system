@@ -1,6 +1,7 @@
 ---
 title: Components
-layout: categories
+parent: null
+layout: component
 category: Components
 ---
 

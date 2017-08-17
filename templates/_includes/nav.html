@@ -7,7 +7,7 @@
     {% for navItem in site.data.navigation %}
       {% assign currentNav = navItem.name | slugify %}
       <li class="parent">
-        <a href="#" {% if page.url contains currentNav %} class="active open" {% else %} class="open" {% endif %}id="button">{{navItem.name}}</a>
+        <a href="#" {% if page.url contains currentNav %} class="active open" {% else %} class="open" {% endif %}id="button">{{navItem.display}}</a>
         <ul {% if page.url contains currentNav %} class="box active" {% else %} class="box inactive" {% endif %}id="effect">
           {% for collection in site.collections %}
             {% assign theLabel = collection.label %}

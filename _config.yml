@@ -2,9 +2,10 @@
 title: Rackspace Design System
 email: design-system@rackspace.com
 description: >
-  Designed out of the best parts of Encore 2.0, Canon, and other Rackspace interfaces, Helix is an initial step toward a
-  shared set of UX/UI components that designers and developers can use to deliver high quality, cohesive experiences for
-  customers and Rackers alike.
+  Designed out of the best parts of Encore 2.0, Canon, and other Rackspace
+  interfaces, Helix is an initial step toward a shared set of UX/UI components
+  that designers and developers can use to deliver high quality, cohesive
+  experiences for customers and Rackers alike.
 baseurl: ""
 cdn_url: "http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com"
 url: ""

@@ -23,7 +23,7 @@ banquet
 
   <figure class="last-child">
     <div class="image bg-light border">
-      <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/placeholder.svg" style="width:1048px; height:auto;">
+      <img src="{{site.cdn_url}}/img/placeholder.svg" style="width:1048px; height:auto;">
     </div>
     <figcaption>Demo 1 of 1</figcaption>
   </figure>
@@ -46,7 +46,7 @@ banquet
     <div class="col-md-7 col-md-offset-1">
       <figure class="last-child">
         <div class="image bg-light border">
-          <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/placeholder.svg" style="width:663px; height:auto;">
+          <img src="{{site.cdn_url}}/img/placeholder.svg" style="width:663px; height:auto;">
         </div>
         <figcaption>Demo 1 of 1</figcaption>
       </figure>
@@ -73,7 +73,7 @@ banquet
     <div class="col-md-4">
       <figure class="last-child">
         <div class="image bg-light border">
-          <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/placeholder.svg"style="width:281px; height:auto;">
+          <img src="{{site.cdn_url}}/img/placeholder.svg"style="width:281px; height:auto;">
         </div>
         <figcaption>Demo 1 of 1</figcaption>
       </figure>
@@ -97,7 +97,7 @@ banquet
     <div class="col-md-6">
       <figure class="last-child">
         <div class="image bg-light border">
-          <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/placeholder.svg" style="width:472px; height:auto;">
+          <img src="{{site.cdn_url}}/img/placeholder.svg" style="width:472px; height:auto;">
         </div>
         <figcaption>Demo 1 of 2</figcaption>
       </figure>
@@ -105,7 +105,7 @@ banquet
     <div class="col-md-6">
       <figure class="last-child">
         <div class="image bg-light border">
-          <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/placeholder.svg" style="width:472px; height:auto;">
+          <img src="{{site.cdn_url}}/img/placeholder.svg" style="width:472px; height:auto;">
         </div>
         <figcaption>Demo 2 of 2</figcaption>
       </figure>
@@ -129,7 +129,7 @@ banquet
     <div class="col-md-4">
       <figure class="last-child">
         <div class="image bg-light border">
-          <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/placeholder.svg" style="width:281px; height:auto;">
+          <img src="{{site.cdn_url}}/img/placeholder.svg" style="width:281px; height:auto;">
         </div>
         <figcaption>Demo 1 of 3</figcaption>
       </figure>
@@ -137,7 +137,7 @@ banquet
     <div class="col-md-4">
       <figure class="last-child">
         <div class="image bg-light border">
-          <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/placeholder.svg" style="width:281px; height:auto;">
+          <img src="{{site.cdn_url}}/img/placeholder.svg" style="width:281px; height:auto;">
         </div>
         <figcaption>Demo 2 of 3</figcaption>
       </figure>
@@ -145,7 +145,7 @@ banquet
     <div class="col-md-4">
       <figure class="last-child">
         <div class="image bg-light border">
-          <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/placeholder.svg" style="width:281px; height:auto;">
+          <img src="{{site.cdn_url}}/img/placeholder.svg" style="width:281px; height:auto;">
         </div>
         <figcaption>Demo 3 of 3</figcaption>
       </figure>
@@ -169,7 +169,7 @@ banquet
     <div class="col-md-3">
       <figure class="last-child">
         <div class="image bg-light border">
-          <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/placeholder.svg" style="width:185px; height:auto;">
+          <img src="{{site.cdn_url}}/img/placeholder.svg" style="width:185px; height:auto;">
         </div>
         <figcaption>Demo 1 of 4</figcaption>
       </figure>
@@ -177,7 +177,7 @@ banquet
     <div class="col-md-3">
       <figure class="last-child">
         <div class="image bg-light border">
-          <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/placeholder.svg" style="width:185px; height:auto;">
+          <img src="{{site.cdn_url}}/img/placeholder.svg" style="width:185px; height:auto;">
         </div>
         <figcaption>Demo 2 of 4</figcaption>
       </figure>
@@ -185,7 +185,7 @@ banquet
     <div class="col-md-3">
       <figure class="last-child">
         <div class="image bg-light border">
-          <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/placeholder.svg" style="width:185px; height:auto;">
+          <img src="{{site.cdn_url}}/img/placeholder.svg" style="width:185px; height:auto;">
         </div>
         <figcaption>Demo 3 of 4</figcaption>
       </figure>
@@ -193,7 +193,7 @@ banquet
     <div class="col-md-3">
       <figure class="last-child">
         <div class="image bg-light border">
-          <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/placeholder.svg" style="width:185px; height:auto;">
+          <img src="{{site.cdn_url}}/img/placeholder.svg" style="width:185px; height:auto;">
         </div>
         <figcaption>Demo 4 of 4</figcaption>
       </figure>

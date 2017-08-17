@@ -1,5 +1,5 @@
-position,name
-1,Style
-2,Layout
-3,Components
-4,Templates
+position,name,display
+1,Style,Style
+2,Layout,Architecture & Layouts
+3,Components,Components
+4,Templates,Templates
