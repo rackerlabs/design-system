@@ -11,15 +11,13 @@ resource: true
 
 # Global Layer {% include inprogress.html %}
 
-The global layer refers to application layer that enables the user to access
-globally available features like Support Tickets, Notifications, and Billing
-within any Helix-UI design. These include three core components - Eyebrow
+The global layer refers to the application layer that enables the user to
+access globally available features like Support Tickets, Notifications, and
+Billing within any Helix-UI design. These include three core components-Eyebrow
 (Utility Nav), the Global dashboard, and Off canvas panels. Each of these
-elements are part of the Pilot Navigation header API. In order to better
-understand the global layer we suggest trying the following
+elements are part of the Pilot Navigation header API. To understand the global
+layer better, we suggest trying the following
 [demo prototype](http://design.rax.io/mockups/designs/Helix/global-layer/prototypes/v-0.5/).
-
-{% include toc.html %}
 
 ## When to Use
 
@@ -40,14 +38,30 @@ The eyebrow is more commonly referred to as the Pilot API Nav Header within the
 application frame because it provides for easy switching between product lines
 and platform level services. Platform level services are any services that
 exist across multiple product lines. Examples include Account Settings,
-Notifications, and Ticketing.
+Notifications, and Ticketing. For detailed specs, see the
+[navigation page](/layout/navigation#eyebrow).
 
-- Extends across the top of the entire Helix-UI and is always visible
-- Contains links to platform level services and the [global dashboard](#global)
+-   Extends across the top of the entire Helix-UI and is always visible
+
+-   Contains links to platform level services, account management,
+    product picker, and the [global dashboard](#global).
+
+-   Composed of 5 breakpoints that adapt to the users device and window size
+
+    - Wall: 90em ≤ x
+    - Desktop: 75em ≤ x < 90em
+    - Laptop: 64em ≤ x < 75em
+    - Palm: 40em ≤ x < 64em
+    - Wrist: 0em ≤ x < 40em
+
 {% endcolumn %}
-{% column right:"col-md-7" %}
-{% figure [caption:"Eyebrow construction specs"] [class:"image bg-light border"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/global-layer/eyebrow-1.svg){:width="100%"}
+{% column right:"col-md-8" %}
+{% figure [caption:"Eyebrow zones"] [class:"image bg-light border"] %}
+![]({{site.cdn_url}}/img/layout/eyebrow.svg){:width="100%"}
+{% endfigure %}
+
+{% figure [caption:"Eyebrow breakpoints"] [class:"image bg-light border"] %}
+![]({{site.cdn_url}}/img/layout/eyebrow-states.svg){:width="100%"}
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -64,10 +78,11 @@ navigation section is reflected via the selected state beneath it.
 
 -   Product name to the left of the logo serves as wayfinding to show the
     currently selected product.
+
 {% endcolumn %}
-{% column right:"col-md-7" %}
-{% figure [caption:"Eyebrow (leftside) construction specs"] [class:"image bg-light border"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/global-layer/eyebrow-left.svg){:width="100%"}
+{% column right:"col-md-8" %}
+{% figure [caption:"Eyebrow (leftside) zones"] [class:"image bg-light border"] %}
+![]({{site.cdn_url}}/img/layout/eye-left.svg){:width="100%"}
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -87,67 +102,30 @@ platform level services button groups.
     - User Settings
 
 -   When selected a platform service triggers an offcanvas right panel.
+
 {% endcolumn %}
-{% column right:"col-md-7" %}
-{% figure [caption:"Eyebrow (rightside) construction specs"] [class:"image bg-light border"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/global-layer/eyebrow-right.svg){:width="100%"}
+{% column right:"col-md-8" %}
+{% figure [caption:"Eyebrow (rightside) zones"] [class:"image bg-light border"] %}
+![]({{site.cdn_url}}/img/layout/eye-right.svg){:width="100%"}
 {% endfigure %}
 {% endcolumn %}
 </div>
 
 ## Off Canvas
+<div class="row">
+{% column left:"col-md-4" %}
 Offcanvas panels are panels that serve from the global layer. Panels can
 either be offcanvas left or right dependent upon the type of content being
 displayed and are triggered via interacting with the global eyebrow. Each panel
 has three states: Hidden, Toggled, and Extended.
-
-### Offcanvas (left)
-
-<div class="row">
-{% column left:"col-md-4" %}
-The offcanvas left panel in the global layer is used to hide and show the [global dashboard](#global).
-
--   Slide out animation, `0.5s ease-in-out`
--   When selected a platform service triggers an offcanvas right panel.
-
 {% endcolumn %}
-{% column right:"col-md-7" %}
-{% figure [caption:"Offcanvas panel left - toggled"] [class:"image bg-light border"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/global-layer/offcanvas-left-toggled.svg){:width="100%"}
-{% endfigure %}
-
-{% figure [caption:"Offcanvas panel left - extended"] [class:"image bg-light border"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/global-layer/offcanvas-left-extended.svg){:width="100%"}
-{% endfigure %}
-
-{% figure [caption:"[Global Dashboard](#global) left panel example"] [class:"image bg-light border"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/global-layer/offcanvas-left-example.svg){:width="100%"}
-{% endfigure %}
-{% endcolumn %}
-</div>
-
-### Offcanvas (right)
-
-<div class="row">
-{% column left:"col-md-4" %}
-The offcanvas right panel of global layer is used to hide and show the platform
-service panels.
-
--   Slide out animation, `0.5s ease-in-out`
-
--   When selected a platform service triggers an offcanvas right panel.
-{% endcolumn %}
-{% column right:"col-md-7" %}
+{% column right:"col-md-8" %}
 {% figure [caption:"Offcanvas panel right - toggled"] [class:"image bg-light border"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/global-layer/offcanvas-right-toggled.svg){:width="100%"}
-{% endfigure %}
-
-{% figure [caption:"Offcanvas panel right - extended"] [class:"image bg-light border"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/global-layer/offcanvas-right-extended.svg){:width="100%"}
+![]({{site.cdn_url}}/img/layout/global-layer/offcanvas-right-toggled.svg)
 {% endfigure %}
 
 {% figure [caption:"Ticketing right panel example"] [class:"image bg-light border"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/global-layer/offcanvas-right-example.svg){:width="100%"}
+![]({{site.cdn_url}}/img/layout/global-layer/offcanvas-right-example.svg)
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -160,17 +138,13 @@ The Global Dashboard is an special offcanvas element that is toggled via the
 Global DB button (Rackspace logo), the left most element on the Global eyebrow.
 When toggled the dashboard will extend over the product and workflow layers.
 {% endcolumn %}
-{% column right:"col-md-7" %}
+{% column right:"col-md-8" %}
 {% figure [caption:"Global Dashboard - Hidden"] [class:"image bg-light border"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/global-layer/globaldash-base.svg){:width="100%"}
+![]({{site.cdn_url}}/img/layout/global-layer/globaldash-base.svg)
 {% endfigure %}
 
 {% figure [caption:"Global Dashboard - Toggled"] [class:"image bg-light border"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/global-layer/globaldash-extended-half.svg){:width="100%"}
-{% endfigure %}
-
-{% figure [caption:"Global Dashboard - Toggled & Extended"] [class:"image bg-light border"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/global-layer/globaldash-extended-full.svg){:width="100%"}
+![]({{site.cdn_url}}/img/layout/global-layer/globaldash-extended-full.svg)
 {% endfigure %}
 {% endcolumn %}
 </div>

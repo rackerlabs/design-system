@@ -5,18 +5,19 @@
 <script src="{{site.url}}/assets/js/Chart.js"></script>
 <script src="{{site.url}}/assets/js/moment-with-locales.js"></script>
 <script src="{{site.url}}/assets/js/demo-charts.js"></script>
-{%endif%}
+{% endif %}
 
 {% if page.need contains 'progress-indicators' %}
 <script src="{{site.url}}/assets/js/demo-progress-indicators.js"></script>
-{%endif%}
+{% endif %}
 
 {% if page.need contains 'selectors' %}
 <script src="{{site.url}}/assets/js/demo-selectors.js"></script>
 <script src="{{site.url}}/assets/js/demo-selectors-button-groups.js"></script>
-{%endif%}
+{% endif %}
 
 <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+<script src="{{site.url}}/assets/js/lightbox.js"></script>
 <script src="{{site.url}}/assets/js/tooltip.js"></script>
 <script src="{{site.url}}/assets/js/navigation.js"></script>
 
@@ -29,4 +30,10 @@
   ga('create', 'UA-82503445-1', 'auto');
   ga('send', 'pageview');
 
+</script>
+<script>
+    lightbox.option({
+      'resizeDuration': 50,
+      'wrapAround': true
+    })
 </script>

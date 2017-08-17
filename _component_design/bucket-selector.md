@@ -1,5 +1,6 @@
 ---
 title: Bucket Selector
+parent: Selector
 layout: component
 category: Components
 usage: Teaser Text
@@ -9,6 +10,8 @@ status: complete
 resource: true
 ---
 
+{% include inprogress.html %}
+
 Bucket Selector is helpful when you are selecting multiple objects from large
 option sets within a larger workflow. The bucket area (located below the table)
 operates as a holding area where users can view all their selections,
@@ -16,11 +19,7 @@ regardless of the table content. This allows users to search and/or filter the
 table to locate items to select without losing visibility into what they have
 selected.
 
-{% include toc.html %}
-
-# Bucket Selector {% include inprogress.html %}
-
-## Uncollapsed Current Selection
+# Uncollapsed Current Selection
 
 This area is for use when a user needs to verify their current selection and
 quickly make edits to it.
@@ -30,7 +29,7 @@ quickly make edits to it.
 
 -   Current Selection area is collapsed on default.
 
-## Multiple Selections
+# Multiple Selections
 
 State of device picker when multiple items have been selected from within the
 table.
@@ -55,7 +54,7 @@ table.
 -   On-hover these tags should display in a tooltip the full device ID for
   customers and the device nickname for Rackers
 
-## Default State
+# Default State
 
 Use when selecting and searching for multiple items from a large dataset and
 displaying those selections for user-verification.
@@ -80,13 +79,13 @@ used to help the user search, sort, display, and select devices related to
 their current workflow. This component can scale and be used for a variety of
 use cases, though.
 
-## Default
+# Default
 
 {% figure [caption:""] [class:"image bg-light border"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/device-picker.svg){:width="100%"}
+![]({{site.cdn_url}}/img/components/device-picker.svg){:width="100%"}
 {% endfigure %}
 
 ## Default
 {% figure [caption:""] [class:"image bg-light border"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/device-picker-selected.svg){:width="100%"}
+![]({{site.cdn_url}}/img/components/device-picker-selected.svg){:width="100%"}
 {% endfigure %}

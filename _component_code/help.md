@@ -1,6 +1,6 @@
 ---
 title: In-Context Help
-layout: parent
+layout: code
 category: Components Code
 usage: |
   These tooltips provide users with additional information while completing

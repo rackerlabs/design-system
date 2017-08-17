@@ -1,9 +1,11 @@
 ---
 title: Notifications
+parent: null
 layout: component
 category: Components
 usage: Teaser Text
 preview-image:
+status: archived
 resource: false
 ---
 
@@ -16,21 +18,21 @@ resource: false
   <div class="ui segments">
     <div class="ui segment">
       <h3>Default</h3>
-      <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/notification-bar.svg">
+      <img src="{{site.cdn_url}}/img/components/notification-bar.svg">
     </div>
   </div>
 
   <div class="ui segments">
     <div class="ui segment">
       <h3>Confirmation</h3>
-      <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/notification-bar-confirmation.svg">
+      <img src="{{site.cdn_url}}/img/components/notification-bar-confirmation.svg">
     </div>
   </div>
 
   <div class="ui segments">
     <div class="ui segment">
       <h3>Error</h3>
-      <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/notification-bar-error.svg">
+      <img src="{{site.cdn_url}}/img/components/notification-bar-error.svg">
     </div>
   </div>
 
@@ -65,10 +67,10 @@ resource: false
 
   <div class="ui segments">
     <div class="ui segment">
-      <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/growl-specs.svg">
+      <img src="{{site.cdn_url}}/img/components/growl-specs.svg">
     </div>
     <div class="ui segment">
-      <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/growl-placement.svg">
+      <img src="{{site.cdn_url}}/img/components/growl-placement.svg">
     </div>
   </div>
   <h2>Base Interactions</h2>
@@ -120,35 +122,35 @@ limited to one item per page.</li>
   <div class="ui segments">
     <div class="ui segment">
       <h3>Default</h3>
-      <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/toast.svg">
+      <img src="{{site.cdn_url}}/img/components/toast.svg">
     </div>
   </div>
 
   <div class="ui segments">
     <div class="ui segment">
       <h3>Alert</h3>
-      <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/toast-alert.svg">
+      <img src="{{site.cdn_url}}/img/components/toast-alert.svg">
     </div>
   </div>
 
   <div class="ui segments">
     <div class="ui segment">
       <h3>Action</h3>
-      <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/toast-alert-action.svg">
+      <img src="{{site.cdn_url}}/img/components/toast-alert-action.svg">
     </div>
   </div>
 
   <div class="ui segments">
     <div class="ui segment">
       <h3>Action Buttons</h3>
-      <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/toast-alert-action-buttons.svg">
+      <img src="{{site.cdn_url}}/img/components/toast-alert-action-buttons.svg">
     </div>
   </div>
 
   <div class="ui segments">
     <div class="ui segment">
       <h3>Error</h3>
-      <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/toast-error.svg">
+      <img src="{{site.cdn_url}}/img/components/toast-error.svg">
     </div>
   </div>
 
@@ -165,11 +167,11 @@ limited to one item per page.</li>
   <div class="ui segments horizontal">
     <div class="ui segment">
       <h3>Alert bar at a page level</h3>
-      <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/alert-bar-page.svg" style="width: 18.125em;">
+      <img src="{{site.cdn_url}}/img/components/alert-bar-page.svg" style="width: 18.125em;">
     </div>
     <div class="ui segment">
       <h3>Alert bar at a region level</h3>
-      <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/alert-bar-region.svg" style="width: 18.125em;">
+      <img src="{{site.cdn_url}}/img/components/alert-bar-region.svg" style="width: 18.125em;">
     </div>
   </div>
 
@@ -189,7 +191,7 @@ limited to one item per page.</li>
 
   <div class="ui segments">
     <div class="ui segment">
-      <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/alert-bar-anatomy.svg" style="width: 45em;">
+      <img src="{{site.cdn_url}}/img/components/alert-bar-anatomy.svg" style="width: 45em;">
     </div>
   </div>
 

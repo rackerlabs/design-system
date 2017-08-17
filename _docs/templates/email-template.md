@@ -27,13 +27,13 @@ control panels when sending out notifications and tickets.
 ### Quick View Template and Variable Guide
 
 {% figure [caption:"Quick guide for template and variable options"] [class:"image bg-light border"] %}
-  ![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/email-templates/EmailTemplate.svg){:width=60%}
+  ![]({{site.cdn_url}}/img/layout/email-templates/EmailTemplate.svg){:width=60%}
 {% endfigure %}
 
 ### Typography and Image Guides
 
 {% figure [caption:"Quick guide for typography and image specifications"] [class:"image bg-light border"] %}
-  ![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/email-templates/Email%20Detail%20-%20Spec.svg){:width=60%}
+  ![]({{site.cdn_url}}/img/layout/email-templates/Email%20Detail%20-%20Spec.svg){:width=60%}
 {% endfigure %}
 
 ### Email Header
@@ -96,15 +96,15 @@ banner should **not** be included.
 
 {% endcolumn %}
 
-{% column right:"col-md-7" %}
+{% column right:"col-md-8" %}
 {% figure [caption:""] [class:"image bg-light border"] %}
-  ![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/email-templates/Urgent%20Alert.svg){:width=60%}
+  ![]({{site.cdn_url}}/img/layout/email-templates/Urgent%20Alert.svg){:width=60%}
 {% endfigure %}
 {% endcolumn %}
 </div>
 
 {% figure [caption:"Alert banner typography, color, and spacing"] [class:"image bg-light border"] %}
-  ![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/email-templates/Alert%20Specs.svg){:width=60%}
+  ![]({{site.cdn_url}}/img/layout/email-templates/Alert%20Specs.svg){:width=60%}
 {% endfigure %}
 
 #### Header
@@ -123,15 +123,15 @@ message it is. The header contains three parts:
   the product name and message type.
 {% endcolumn %}
 
-{% column right:"col-md-7" %}
+{% column right:"col-md-8" %}
 {% figure [caption:"Visual example of Sub-Header and spacing"] [class:"image bg-light border"] %}
-  ![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/email-templates/Header.svg){:width=60%}
+  ![]({{site.cdn_url}}/img/layout/email-templates/Header.svg){:width=60%}
 {% endfigure %}
 {% endcolumn %}
 </div>
 
 {% figure [caption:"Examples of content options. Replace only product name and switch between Notification or Ticket for message type."] [class:"image bg-light border"] %}
-  ![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/email-templates/Header%20Details.svg){:width=60%}
+  ![]({{site.cdn_url}}/img/layout/email-templates/Header%20Details.svg){:width=60%}
 {% endfigure %}
 
 #### Sub-Header
@@ -152,9 +152,9 @@ sent. This includes notification types and ticket or notification statuses.
 
 {% endcolumn %}
 
-{% column right:"col-md-7" %}
+{% column right:"col-md-8" %}
 {% figure [caption:"Visual example of Sub-Header and spacing"] [class:"image bg-light border"] %}
-  ![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/email-templates/Subheader.svg){:width=60%}
+  ![]({{site.cdn_url}}/img/layout/email-templates/Subheader.svg){:width=60%}
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -174,7 +174,7 @@ sent. This includes notification types and ticket or notification statuses.
   and title.
 
 <!--<figure class="image">
-          <img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/email-templates/Mobile%20LInks.svg">
+          <img src="{{site.cdn_url}}/img/layout/email-templates/Mobile%20LInks.svg">
       </figure>
 -->
 
@@ -207,9 +207,9 @@ the user to scan for pertinent information quickly.
   the same as **workarounds**.
 {% endcolumn %}
 
-{% column right:"col-md-7" %}
+{% column right:"col-md-8" %}
 {% figure [caption:"Call Out box used for workarounds and comments. Comment includes code block."] [class:"image bg-light border"] %}
-  ![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/email-templates/Comment%20with%20CodeBlock.svg){:width=60%}
+  ![]({{site.cdn_url}}/img/layout/email-templates/Comment%20with%20CodeBlock.svg){:width=60%}
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -220,9 +220,9 @@ the user to scan for pertinent information quickly.
   of a workaround or just to display system content.
 {% endcolumn %}
 
-{% column right:"col-md-7" %}
+{% column right:"col-md-8" %}
 {% figure [caption:"Code block visual examples and specifications"] [class:"image bg-light border"] %}
-  ![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/email-templates/Code%20Block%20.svg){:width=60%}
+  ![]({{site.cdn_url}}/img/layout/email-templates/Code%20Block%20.svg){:width=60%}
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -240,15 +240,15 @@ button styles, and text should be in all caps. Go to the [Buttons page](http://d
 for in-depth use cases and standards.
 {% endcolumn %}
 
-{% column right:"col-md-7" %}
+{% column right:"col-md-8" %}
 {% figure [caption:"Button and spacing specifications"] [class:"image bg-light border"] %}
-  ![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/email-templates/Button.svg){:width=60%}
+  ![]({{site.cdn_url}}/img/layout/email-templates/Button.svg){:width=60%}
 {% endfigure %}
 {% endcolumn %}
 </div>
 
 {% figure [caption:"Variation of button content. Message should always be clear and concise."] [class:"image bg-light border"] %}
-  ![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/email-templates/Buttons.svg){:width=60%}
+  ![]({{site.cdn_url}}/img/layout/email-templates/Buttons.svg){:width=60%}
 {% endfigure %}
 
 #### App Link
@@ -263,9 +263,9 @@ In the first line, the word notifications or ticket should change based on the
 message type. It should match the content in the header of the email.
 {% endcolumn %}
 
-{% column right:"col-md-7" %}
+{% column right:"col-md-8" %}
 {% figure [caption:"Mobile app promotion and download links"] [class:"image bg-light border"] %}
-  ![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/email-templates/Mobile%20LInks.svg){:width=60%}
+  ![]({{site.cdn_url}}/img/layout/email-templates/Mobile%20LInks.svg){:width=60%}
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -283,9 +283,9 @@ notification preferences.
   opt-out if using a blacklist method.
 {% endcolumn %}
 
-{% column right:"col-md-7" %}
+{% column right:"col-md-8" %}
 {% figure [caption:"Footer visual example and spacing specifications"] [class:"image bg-light border"] %}
-  ![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/email-templates/Footer.svg){:width=60%}
+  ![]({{site.cdn_url}}/img/layout/email-templates/Footer.svg){:width=60%}
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -374,5 +374,5 @@ For now, though, here are a few of the completed studies:
 ### Visual Examples
 
 {% figure [caption:"Example of a billing email using these guidelines"] [class:"image bg-light border"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/layout/email-templates/Email%20Detail.svg){:width="60%"}
+![]({{site.cdn_url}}/img/layout/email-templates/Email%20Detail.svg){:width="60%"}
 {% endfigure %}

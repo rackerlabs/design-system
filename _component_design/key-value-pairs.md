@@ -7,10 +7,6 @@ preview-image:
 resource: true
 ---
 
-{% include toc.html %}
-
-# Key Value Pairs
-
 Key value pairs are used to display data with their corresponding label. Color
 and alignment are used to enhance readability allowing users to quickly scan
 for the page for relevant data.
@@ -28,9 +24,9 @@ for the page for relevant data.
 
 -   Icons should be used sparingly.
 {% endcolumn %}
-{% column right:"col-md-7" %}
+{% column right:"col-md-8" %}
 {% figure [caption:"Example of key values pattern displaying server details"] [class:"image bg-light border"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/key-value-pairs.svg){:width="100%"}
+![]({{site.cdn_url}}/img/components/key-value-pairs.svg){:width="100%"}
 {% endfigure %}
 {% endcolumn %}
 </div>

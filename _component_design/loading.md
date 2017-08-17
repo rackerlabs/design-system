@@ -1,5 +1,6 @@
 ---
 title: Loading
+parent: Processing
 layout: component
 category: Components
 usage: Teaser Text
@@ -8,8 +9,6 @@ resource: true
 ---
 
 Loading patterns should be used to set user expectations.
-
-{% include toc.html %}
 
 ## Problems being addressed
 
@@ -50,7 +49,7 @@ Request that the user wait while something finishes when it’s not necessary to
 indicate how long it will take
 
 {% figure [caption:""] [class:"image bg-light border"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/loading-circle-indeterminate.svg){:width="60%"}
+![]({{site.cdn_url}}/img/components/loading-circle-indeterminate.svg){:width="60%"}
 {% endfigure %}
 
 ## Determinate
@@ -59,7 +58,7 @@ Indicate how long an operation will take when the percentage complete is
 detectable
 
 {% figure [caption:""] [class:"image bg-light border"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/loading-circle-determinate.svg){:width="60%"}
+![]({{site.cdn_url}}/img/components/loading-circle-determinate.svg){:width="60%"}
 {% endfigure %}
 
 # Skeleton Screen {% include inprogress.html %}
@@ -79,7 +78,7 @@ they can contain specific context relevant to the relative region or placed in
 proximity of a targeted item to give the user feedback on progress of the loading state (percentage value [e.2], continuous status messages [e.3], or items of a query[e.4]).</p>
 
 {% figure [caption:""] [class:"image bg-light border"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/loading-linear.svg){:width="60%"}
+![]({{site.cdn_url}}/img/components/loading-linear.svg){:width="60%"}
 {% endfigure %}
 
 ## Indeterminate
@@ -90,7 +89,7 @@ proximity of a targeted item to give the user feedback on progress of the loadin
 -   The background bar should always be using @grey-200 value.
 
 {% figure [caption:""] [class:"image bg-light border"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/loading-linear-indeterminate.svg){:width="60%"}
+![]({{site.cdn_url}}/img/components/loading-linear-indeterminate.svg){:width="60%"}
 {% endfigure %}
 
 ## Determinate
@@ -102,7 +101,7 @@ proximity of a targeted item to give the user feedback on progress of the loadin
 -   The background bar should always be using @grey-200 value.
 
 {% figure [caption:""] [class:"image bg-light border"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/loading-linear-determinate.svg){:width="60%"}
+![]({{site.cdn_url}}/img/components/loading-linear-determinate.svg){:width="60%"}
 {% endfigure %}
 
 ## Query-based
@@ -113,7 +112,7 @@ proximity of a targeted item to give the user feedback on progress of the loadin
 -   Completed parts should become solid and only use the primary color.
 
 {% figure [caption:""] [class:"image bg-light border"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/loading-linear-determinate.svg){:width="60%"}
+![]({{site.cdn_url}}/img/components/loading-linear-determinate.svg){:width="60%"}
 {% endfigure %}
 
 ## Error
@@ -123,7 +122,7 @@ entirely. The error message should always provide the user with adequate
 context as to why the error occurred.
 
 {% figure [caption:""] [class:"image bg-light border"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/loading-linear-error.svg){:width="60%"}
+![]({{site.cdn_url}}/img/components/loading-linear-error.svg){:width="60%"}
 {% endfigure %}
 
 ## Error Query
@@ -133,5 +132,5 @@ query failed with @red-700 along with the error message replacing the text
 below.
 
 {% figure [caption:""] [class:"image bg-light border"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/components/loading-linear-error-query.svg){:width="60%"}
+![]({{site.cdn_url}}/img/components/loading-linear-error-query.svg){:width="60%"}
 {% endfigure %}

@@ -1,5 +1,6 @@
 ---
 title: Progress Indicators
+parent: Processing
 layout: component
 category: Components
 usage: The Helix 12-column grid provides structure for website content.
