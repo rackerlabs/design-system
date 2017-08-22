@@ -58,17 +58,17 @@ function centerLegend(){
 data sets
 --------------------------------------------------------------*/
 var riverNameLabels15 = [ "Amazon", "Congo", "Ganges", "Orinoco", "Madeira",
-                        "Yangtze", "Negro", "Río del la Plata", "Yenisei", "Brahmaputra", 
+                        "Yangtze", "Negro", "Río del la Plata", "Yenisei", "Brahmaputra",
                         "Japurá", "Paraná", "Lena", "Saint Lawrence", "Mississippi"];
 
 var riverNameLabels12 = [ "Amazon", "Congo", "Ganges", "Orinoco", "Madeira",
                         "Yangtze", "Negro", "Río del la Plata", "Yenisei", "Brahmaputra"];
 
-var riverLength = [ 6992, 4371, 2948, 2140, 3380, 
-                    6418, 2230, 290, 5550, 2840, 
+var riverLength = [ 6992, 4371, 2948, 2140, 3380,
+                    6418, 2230, 290, 5550, 2840,
                     2615, 4880, 4472, 3058, 3730 ];
 
-var riverLength12 = [ 6992, 4371, 2948, 2140, 3380, 
+var riverLength12 = [ 6992, 4371, 2948, 2140, 3380,
                     6418, 2230, 290, 5550, 2840, ];
 
 var riverNameLabels5 = [ "Amazon", "Congo", "Ganges", "Orinoco", "Madeira"];
@@ -138,7 +138,7 @@ var demoBarChart = new Chart(ctx0, {
                     display: true,
                   scaleLabel: {
                     display: true,
-                    labelString: 'Length (km)', 
+                    labelString: 'Length (km)',
                     fontSize: 14,
                     fontColor: "#333",
                   }
@@ -240,7 +240,7 @@ var demoBarChart = new Chart(ctx0d, {
                     display: true,
                   scaleLabel: {
                     display: true,
-                    labelString: 'River', 
+                    labelString: 'River',
                     fontSize: 14,
                     fontColor: "#333",
                   },
@@ -265,7 +265,7 @@ var demoBarImpression = new Chart(ctx0f, {
             borderWidth:3,
             pointRadius:0,
             pointHoverRadius:0,
-            pointHitRadius:0, 
+            pointHitRadius:0,
             pointHoverBorderWidth:0,
             borderColor: "#0E94A6",
             backgroundColor:"#0E94A6",
@@ -307,7 +307,7 @@ var demoBarImpression3 = new Chart(ctx0h, {
             borderWidth:3,
             pointRadius:0,
             pointHoverRadius:0,
-            pointHitRadius:0, 
+            pointHitRadius:0,
             pointHoverBorderWidth:0,
             borderColor: "#0E94A6",
             backgroundColor:"#0E94A6",},
@@ -335,19 +335,19 @@ var demoBarImpression3 = new Chart(ctx0h, {
 
 function Label(short, long) {
   this.short = short;
-  this.long = long
+  this.long = long;
 }
 Label.prototype.toString = function() {
   return this.short;
-}
+};
 
 var ctx0g = document.getElementById("demoBarImpression2");
 var demoBarImpression2 = new Chart(ctx0g, {
     type: 'bar',
     data: {
-        labels: [ 
-          new Label("J", "JAN"), 
-          new Label("F", "FEB"), 
+        labels: [
+          new Label("J", "JAN"),
+          new Label("F", "FEB"),
           new Label("M", "MAR"),
           new Label("A", "APR"),
           new Label("M", "MAY"),
@@ -367,7 +367,7 @@ var demoBarImpression2 = new Chart(ctx0g, {
             borderWidth:3,
             pointRadius:0,
             pointHoverRadius:0,
-            pointHitRadius:0, 
+            pointHitRadius:0,
             pointHoverBorderWidth:0,
             borderColor: "#0E94A6",
             backgroundColor:"#0E94A6",},
@@ -417,18 +417,15 @@ var demoBarChart = new Chart(ctx0c, {
             fill:false,
             lineTension: 0,
             borderWidth:3,
-            pointBorderWidth:.5,
+            pointBorderWidth:0.5,
             pointRadius:0,
             pointHoverRadius:0,
-            pointHitRadius:0, 
+            pointHitRadius:0,
             pointHoverBorderWidth:1,
             borderColor:'#DD6105',
             backgroundColor:'#fff',
-            pointRadius:0,
-            pointHitRadius:0,
-            pointHoverBorderWidth:0,
             data: nileAvg10,},
-            
+
         ]
     },
     options: {
@@ -448,7 +445,7 @@ var demoBarChart = new Chart(ctx0c, {
                     display: true,
                   scaleLabel: {
                     display: true,
-                    labelString: 'Billion Cubic Meters', 
+                    labelString: 'Billion Cubic Meters',
                     fontSize: 14,
                     fontColor: "#333",
                   }
@@ -476,7 +473,7 @@ var demoBubbleChart = new Chart(ctx1, {
         {label: 'Paraná',data: [{x: 3050, y: 2582672, r: 2}], backgroundColor:"rgba(14, 148, 166, .6)", hoverBackgroundColor: "rgba(14, 148, 166, .8)",},
 
         {label: 'Congo',data: [{x: 2716, y: 4014500, r: 6}], backgroundColor:"rgba(255, 235, 59, .6)", hoverBackgroundColor: "rgba(255, 235, 59, .8)",},
-        
+
         {label: 'Yangtze',data: [{x: 3988, y: 1808500, r: 4}], backgroundColor:"rgba(221, 97, 5, .6)", hoverBackgroundColor: "rgba(221, 97, 5, .8)",},
         {label: 'Yenisei',data: [{x: 3449, y: 2580000, r: 3}], backgroundColor:"rgba(221, 97, 5, .6)", hoverBackgroundColor: "rgba(221, 97, 5, .8)",},
         {label: 'Brahmaputra',data: [{x: 1765, y: 536600, r: 3}], backgroundColor:"rgba(221, 97, 5, .6)", hoverBackgroundColor: "rgba(221, 97, 5, .8)",},
@@ -508,7 +505,7 @@ var demoBubbleChart = new Chart(ctx1, {
                     display: true,
                   scaleLabel: {
                     display: true,
-                    labelString: 'Drainage Area (km^2)', 
+                    labelString: 'Drainage Area (km^2)',
                     fontSize: 14,
                     fontColor: "#333",
                   }
@@ -534,7 +531,7 @@ var demoLineChartb = new Chart(ctx2b, {
             pointBorderWidth:4,
             pointRadius:5,
             pointHoverRadius:5,
-            pointHitRadius:5, 
+            pointHitRadius:5,
             pointHoverBorderWidth:4,
             borderDash:[16,8],
             borderColor: "#16B9D4",
@@ -551,7 +548,7 @@ var demoLineChartb = new Chart(ctx2b, {
             pointBorderWidth:4,
             pointRadius:5,
             pointHoverRadius:5,
-            pointHitRadius:5, 
+            pointHitRadius:5,
             pointHoverBorderWidth:4,
             borderColor: "#F57C00",
             pointBackgroundColor: "#fff",
@@ -567,7 +564,7 @@ var demoLineChartb = new Chart(ctx2b, {
             pointBorderWidth:4,
             pointRadius:5,
             pointHoverRadius:5,
-            pointHitRadius:5, 
+            pointHitRadius:5,
             pointHoverBorderWidth:4,
             borderColor: "#0D74D1",
             pointBackgroundColor: "#fff",
@@ -583,7 +580,7 @@ var demoLineChartb = new Chart(ctx2b, {
             pointBorderWidth:4,
             pointRadius:5,
             pointHoverRadius:5,
-            pointHitRadius:5, 
+            pointHitRadius:5,
             pointHoverBorderWidth:4,
             borderColor: "#BDBDBD",
             pointBackgroundColor: "#fff",
@@ -607,7 +604,7 @@ var demoLineChartb = new Chart(ctx2b, {
                     display: true,
                   scaleLabel: {
                     display: true,
-                    labelString: 'Monthly Average Rainfall (in)', 
+                    labelString: 'Monthly Average Rainfall (in)',
                     fontSize: 14,
                     fontColor: "#333",
                   }
@@ -630,7 +627,7 @@ var demoLineChartd = new Chart(ctx2d, {
             pointBorderWidth:4,
             pointRadius:5,
             pointHoverRadius:5,
-            pointHitRadius:5, 
+            pointHitRadius:5,
             pointHoverBorderWidth:4,
             borderColor: "#0D74D1",
             pointBackgroundColor: "#fff",
@@ -646,7 +643,7 @@ var demoLineChartd = new Chart(ctx2d, {
             pointBorderWidth:0,
             pointRadius:0,
             pointHoverRadius:0,
-            pointHitRadius:0, 
+            pointHitRadius:0,
             pointHoverBorderWidth:0,
             borderDash:[16,16],
             borderColor: "#F57C00",
@@ -671,7 +668,7 @@ var demoLineChartd = new Chart(ctx2d, {
                     display: true,
                   scaleLabel: {
                     display: true,
-                    labelString: 'Billion Cubic Meters', 
+                    labelString: 'Billion Cubic Meters',
                     fontSize: 14,
                     fontColor: "#333",
                   }
@@ -694,11 +691,11 @@ var demoLineChart = new Chart(ctx2c, {
             data: nileData,
             backgroundColor:'rgba(14, 148, 166, 0.2)',
             borderWidth:4,
-            pointBorderWidth:.5,
+            pointBorderWidth:0.5,
             pointRadius:2,
             pointHoverRadius:4,
-            pointHitRadius:2, 
-            pointHoverBorderWidth:.5,
+            pointHitRadius:2,
+            pointHoverBorderWidth:0.5,
             borderColor: "#0E94A6",
             pointBackgroundColor: "#fff",
             pointHoverBorderColor: "#0E94A6",
@@ -716,7 +713,7 @@ var demoLineChart = new Chart(ctx2c, {
                     display: true,
                   scaleLabel: {
                     display: true,
-                    labelString: 'Billion Cubic Meters', 
+                    labelString: 'Billion Cubic Meters',
                     fontSize: 14,
                     fontColor: "#333",
                   }
@@ -739,7 +736,7 @@ var demoSparkline = new Chart(ctx2e, {
             borderWidth:2,
             pointRadius:0,
             pointHoverRadius:0,
-            pointHitRadius:0, 
+            pointHitRadius:0,
             pointHoverBorderWidth:0,
             borderColor: "#0E94A6",
             backgroundColor:"#fff",},
@@ -776,7 +773,7 @@ var demoLineChartf = new Chart(ctx2f, {
             pointBorderWidth:2,
             pointRadius:2.5,
             pointHoverRadius:2.5,
-            pointHitRadius:2.5, 
+            pointHitRadius:2.5,
             pointHoverBorderWidth:2,
             borderColor: "#0D74D1",
             pointBackgroundColor: "#fff",
@@ -792,7 +789,7 @@ var demoLineChartf = new Chart(ctx2f, {
             pointBorderWidth:0,
             pointRadius:0,
             pointHoverRadius:0,
-            pointHitRadius:0, 
+            pointHitRadius:0,
             pointHoverBorderWidth:0,
             borderDash:[16,16],
             borderColor: "#F57C00",
@@ -817,17 +814,17 @@ var demoLineChartf = new Chart(ctx2f, {
                     display: true,
                   scaleLabel: {
                     display: true,
-                    labelString: 'Billion Cubic Meters', 
+                    labelString: 'Billion Cubic Meters',
                     fontSize: 12,
                     fontColor: "#333",
                   },
-                 
+
             }],
             xAxes: [{
                 ticks: {
                     fontSize: 12,
                 },
-                
+
             }]
         }
     }
@@ -846,7 +843,7 @@ var demoSparkline2 = new Chart(ctx2e2, {
             borderWidth:3,
             pointRadius:0,
             pointHoverRadius:0,
-            pointHitRadius:0, 
+            pointHitRadius:0,
             pointHoverBorderWidth:0,
             borderColor: "#0E94A6",
             backgroundColor:"#fff",},
@@ -880,7 +877,7 @@ var demoSparkline3 = new Chart(ctx2e3, {
             borderWidth:2,
             pointRadius:0,
             pointHoverRadius:0,
-            pointHitRadius:0, 
+            pointHitRadius:0,
             pointHoverBorderWidth:0,
             borderColor: "#0E94A6",
             backgroundColor:"#fff",},
@@ -1096,7 +1093,7 @@ var demoRadarChart = new Chart(ctx6, {
             pointBorderWidth:2,
             pointRadius:2.5,
             pointHoverRadius:2.5,
-            pointHitRadius:2.5, 
+            pointHitRadius:2.5,
             pointHoverBorderWidth:2,
             pointBackgroundColor: "#fff",
             pointBorderColor: "#0E94A6",
@@ -1110,7 +1107,7 @@ var demoRadarChart = new Chart(ctx6, {
             pointBorderWidth:2,
             pointRadius:2.5,
             pointHoverRadius:2.5,
-            pointHitRadius:2.5, 
+            pointHitRadius:2.5,
             pointHoverBorderWidth:2,
             borderColor: "#bdbdbd",
             pointBackgroundColor: "#fff",
@@ -1150,14 +1147,14 @@ var abstractRadar1 = new Chart(ctx6a, {
             pointBorderWidth:0,
             pointRadius:0,
             pointHoverRadius:0,
-            pointHitRadius:0, 
+            pointHitRadius:0,
             pointHoverBorderWidth:0,
-            tension:.3,
+            tension:0.3,
             pointBackgroundColor: "#fff",
             pointBorderColor: "#0E94A6",
             pointHoverBackgroundColor: "#0E94A6",
             pointHoverBorderColor: "#0E94A6",
-            data: [.25, .07, .66,.15,1],
+            data: [0.25, 0.07, 0.66,0.15,1],
         }],
     },
     options: {
@@ -1192,14 +1189,14 @@ var abstractRadar2 = new Chart(ctx6b, {
             pointBorderWidth:0,
             pointRadius:0,
             pointHoverRadius:0,
-            pointHitRadius:0, 
+            pointHitRadius:0,
             pointHoverBorderWidth:0,
-            tension:.3,
+            tension:0.3,
             pointBackgroundColor: "#fff",
             pointBorderColor: "#0E94A6",
             pointHoverBackgroundColor: "#0E94A6",
             pointHoverBorderColor: "#0E94A6",
-            data: [.5, .25, .66,.25,1],
+            data: [0.5, 0.25, 0.66,0.25,1],
         }],
     },
     options: {
@@ -1234,14 +1231,14 @@ var abstractRadar3 = new Chart(ctx6c, {
             pointBorderWidth:0,
             pointRadius:0,
             pointHoverRadius:0,
-            pointHitRadius:0, 
+            pointHitRadius:0,
             pointHoverBorderWidth:0,
-            tension:.3,
+            tension:0.3,
             pointBackgroundColor: "#fff",
             pointBorderColor: "#0E94A6",
             pointHoverBackgroundColor: "#0E94A6",
             pointHoverBorderColor: "#0E94A6",
-            data: [.5, 1, .33,.5,.1],
+            data: [0.5, 1, 0.33,0.5,0.1],
         }],
     },
     options: {
@@ -1276,14 +1273,14 @@ var abstractRadar4 = new Chart(ctx6d, {
             pointBorderWidth:0,
             pointRadius:0,
             pointHoverRadius:0,
-            pointHitRadius:0, 
+            pointHitRadius:0,
             pointHoverBorderWidth:0,
-            tension:.3,
+            tension:0.3,
             pointBackgroundColor: "#fff",
             pointBorderColor: "#0E94A6",
             pointHoverBackgroundColor: "#0E94A6",
             pointHoverBorderColor: "#0E94A6",
-            data: [1, 1, .66,1,.8],
+            data: [1, 1, 0.66,1,0.8],
         }],
     },
     options: {
@@ -1304,5 +1301,3 @@ var abstractRadar4 = new Chart(ctx6d, {
         }
     },
 });
-
-
