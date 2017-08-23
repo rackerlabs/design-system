@@ -21,9 +21,10 @@
   </head>
   <body>
     {% include nav.html %}
-    <div class="page-wrapper">
-      <div class="page-content overview">
-        <div class="page-header display-font">{{ page.title }}</div>
+    <div class="overview-wrapper">
+      <div class="overview-content">
+        <div class="main-logo"><img src="{{site.cdn_url}}/img/overview/Helix_Logo_%20Final-2.svg" class="main-logo"></div>
+        <div class="overview-header display-font">{{ page.title }}</div>
         <article>
           {{ content }}
         </article>
