@@ -1,49 +1,166 @@
 .overview-footer {
   background-color: $grey900;
   text-align: center;
+  grid-row: 5/8;
+  padding: 40px;
   h2 {
     font-size: 24px;
     font-weight: 400;
     color: $grey400;
     margin: 40px auto 0px auto;
-  }
-  img {
-    height: 36px;
-    width: 36px;
-    // color: $grey400;
-    filter: invert(60%);
-  }
+  };
   p {
     font-size: 14px;
     font-weight: 400;
     color: $grey600;
-    margin: 12px auto;
-  }
+    margin: 12px auto !important;
+  };
   hr {
     display: block;
-    margin: 1em auto;
+    margin: 32px auto 0px auto;
     width: 75%;
+  };
+  .row-icons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-auto-rows: minmax(auto, auto);
+    margin: auto 90px;
+    img {
+      height: 36px;
+      width: 36px;
+      filter: invert(60%);
+      border-radius: 17px;
+    };
+    .left-3-col {
+      grid-column: 1/1;
+      grid-row: 6;
+    };
+    .mid-3-col {
+      grid-column: 2/2;
+      grid-row: 6;
+    };
+    .right-3-col {
+      grid-column: 3/3;
+      grid-row: 6;
+    };
   }
+
 }
-.page-header {
-  padding: 28px auto 12px auto;
+.overview-wrapper {
+  position: relative;
+  float: right;
+  width: calc(100% - 17em);
+  top: 0;
+  box-sizing: inherit;
+  .overview-content {
+      box-sizing: border-box;
+      width: auto;
+      article {
+        text-align: center;
+        margin: 0px auto;
+        padding: 0px 10px;
+      };
+  };
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 10px;
+  grid-auto-rows: minmax(auto, auto);
+  article {
+    margin: 0px 10px;
+  };
+}
+.overview-header {
+  margin: 28px auto 12px auto;
+  text-align: center;
+  grid-row: 2;
   &.display-font {
     font-size: 24px;
     font-weight: 300;
     color: $grey900;
+    text-align: center;
   }
 }
 p {
   font-size: 16px;
   font-weight: 300;
   color: $grey900;
+  text-align: center;
+  line-height: 1.5em !important;
+  max-width: none;
+  grid-row: 3;
 }
-.overview {
-  .page-header {
-    padding-top: 28px !important;
+.main-logo {
+  display: block;
+  position: relative;
+  margin: 80px auto 28px auto;
+  img {
+    height: 64px;
+  };
+  grid-row: 1;
+}
+.card-row {
+  grid-row: 4;
+}
+.card {
+  display: inline-block;
+  position: relative;
+  border: 1px solid $grey400;
+  margin: 32px auto 40px auto;
+  padding: 20px;
+  height: 292px;
+  width: 228px;
+  text-align: center;
+  .icon {
+    margin: 20px auto;
+    img {
+      height: 36px;
+    }
+  }
+  .card-heading {
+    font-weight: 600;
+    font-size: 16px;
+    color: $grey900;
+    margin: 0px auto;
+  }
+  p {
+    font-weight: 400;
+    font-size: 14px;
+    color: $grey900;
+    margin: 20px auto;
+    line-height: 1.5em;
+  }
+  a {
+    font-weight: 400;
+    font-size: 16px;
+    color: $cyan700;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    li {
+      line-height: 1.5em;
+      text-align: center;
+    };
   }
 }
-.page-content.overview {
-  background-image: none;
-  background-color: transparent;
+@include tablet {
+  .overview-content {
+    min-width: $tablet-width;
+    padding: 0px 7%;
+  }
+  .overview-footer {
+    min-width: $tablet-width;
+    padding: 0px 7%;
+  }
+}
+@include desktop {
+  .overview-content {
+    min-width: $desktop-width;
+    padding: 0px 17%;
+  }
+  .overview-footer {
+    min-width: $tablet-width;
+    padding: 0px 7%;
+  }
 }
