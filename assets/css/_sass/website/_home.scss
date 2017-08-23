@@ -1,0 +1,49 @@
+.overview-footer {
+  background-color: $grey900;
+  text-align: center;
+  h2 {
+    font-size: 24px;
+    font-weight: 400;
+    color: $grey400;
+    margin: 40px auto 0px auto;
+  }
+  img {
+    height: 36px;
+    width: 36px;
+    // color: $grey400;
+    filter: invert(60%);
+  }
+  p {
+    font-size: 14px;
+    font-weight: 400;
+    color: $grey600;
+    margin: 12px auto;
+  }
+  hr {
+    display: block;
+    margin: 1em auto;
+    width: 75%;
+  }
+}
+.page-header {
+  padding: 28px auto 12px auto;
+  &.display-font {
+    font-size: 24px;
+    font-weight: 300;
+    color: $grey900;
+  }
+}
+p {
+  font-size: 16px;
+  font-weight: 300;
+  color: $grey900;
+}
+.overview {
+  .page-header {
+    padding-top: 28px !important;
+  }
+}
+.page-content.overview {
+  background-image: none;
+  background-color: transparent;
+}
