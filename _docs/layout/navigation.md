@@ -7,33 +7,42 @@ preview-image: layout/preview-images/navigation.svg
 resource: true
 ---
 
-Navigation establishes where the user is in an application and provides a path
-to complete tasks. Consistent navigation patterns allow the user to complete
-tasks more efficiently and confidently. Rackspace applications may utilize a
-combination of eyebrow navigation, either a top or side navigation, and
-breadcrumbs.
+Navigation establishes a user's location within an application and
+shows the path forward to accomplish a goal. Consistent navigation
+patterns increase user confidence and efficiency. You can use a
+combination of eyebrow navigation, either top or side navigation, and
+breadcrumbs to guide users.
 
 {% include toc.html %}
 
-# Primary Navigation {% include complete.html %}
+# Primary navigation {% include complete.html %}
 
-The primary navigation is used for the main sections of the application or for
-dropdown categories that organize sections into higher level groups.
+Use primary navigation for the main sections of an application or for
+drop-down categories that organize sections into higher-level groups.
 
-## Left Navigation
+## Left navigation
 
 <div class="row">
 {% column left:"col-md-4" %}
-The Left Navigation component is used on all web applications that desire to
-implement a highly compliant version of the Helix Design Language.
 
--   Can extend to fit any navigation IA via scrolling when the list of
-    navigational items exceeds the screen view-height.
+Use the left navigation component for web applications when you want
+to implement a highly-compliant version of the Helix design language.
 
--   Preferred implementation includes only primary and secondary navigational
-    links.
+-   This component can extend to fit any navigation information
+    architecture (IA) by scrolling when the list of navigation items
+    exceeds the screen view height. In other words, if there are many
+    options to display, the left navigation is scroll-able so that
+    users have access to all items.
 
-{% include note.html content="A less preferred implementation that includes [tertiary navigational](#tertiary-left-navigation) elements is also provided."%}
+-   The preferred implementation includes only primary and secondary
+    navigation links.
+
+-   An alternative, non-preferred implementation includes
+    [tertiary](#tertiary-left-navigation) navigation links.
+
+<!-- {% include note.html content="Helix provides an alternate implementation that -->
+<!-- includes [tertiary navigational](#tertiary-left-navigation) elements, -->
+<!-- but it is not preferred."%} -->
 
 {% endcolumn %}
 {% column right:"col-md-7 col-md-offset-1"%}
@@ -43,13 +52,13 @@ implement a highly compliant version of the Helix Design Language.
 {% endcolumn %}
 </div>
 
-## Left Navigation Color and Typeface
+## Left navigation color and typeface
 
 <div class="row">
 {% column left:"col-md-4" %}
 - Font: Roboto Regular 16px / 1em
 - Color: Gray 400 #D8D8D8
-- Text Transform: Uppercase
+- Text transform: uppercase
 
 {% endcolumn %}
 {% column right:"col-md-7 col-md-offset-1"%}
@@ -59,38 +68,40 @@ implement a highly compliant version of the Helix Design Language.
 {% endcolumn %}
 </div>
 
-## Left Navigation Spacing
+## Left navigation spacing
 <div class="row">
 {% column left:"col-md-4" %}
-- First primary navigational element begins 60px from top of containing div.
+
+- The first primary navigation element begins 60px from the top of
+  the containing `div`.
 
 {% endcolumn %}
 {% column right:"col-md-7 col-md-offset-1"%}
-{% figure [caption:"Containing div spacing specs"] [class:"image bg-light border"] %}
+{% figure [caption:"Containing `div` spacing specs"] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/layout/navigation-left-spacing-horizontal.svg){:width="100%"}
 {% endfigure %}
 {% endcolumn %}
 </div>
 <div class="row">
 {% column left:"col-md-4" %}
-- 16px / 1em top and bottom padding for navigational elements
-
+- 16px / 1em top and bottom padding for navigation elements
 {% endcolumn %}
 {% column right:"col-md-7 col-md-offset-1"%}
-{% figure [caption:"Vertical spacing between navigational items"] [class:"image bg-light border"] %}
+{% figure [caption:"Vertical spacing between navigation items"] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/layout/navigation-left-spacing-vertical.svg){:width="100%"}
 {% endfigure %}
 {% endcolumn %}
 </div>
 
-### Tertiary Left Navigation
+### Tertiary left navigation
 
 <div class="row">
 {% column left:"col-md-4" %}
-This variation is used when a UI requires tertiary navigational element due to
-the size of the IA for the site. In **most cases** it is preferable to compress
-or sort the IA so that only primary and secondary links appear in the left
-navigation element.
+
+If you have a very large IA, you can use tertiary navigation elements.
+However, in most cases we recommend that you compress or sort the IA
+so that only primary and secondary links are needed.
+
 {% endcolumn %}
 {% column right:"col-md-7 col-md-offset-1"%}
 {% figure [caption:"Tertiary navigation example using the MyRack application IA"] [class:"image bg-light border"] %}
@@ -102,14 +113,16 @@ navigation element.
 {% endcolumn %}
 </div>
 
-## Top Navigation
+## Top navigation
 
 <div class="row">
 {% column left:"col-md-4" %}
-Top navigation is used on all web applications that desire to implement the
-Helix Design Language but without strict compliance. This navigation variation
-exists to allow for flexible implementations, however the preferred navigation
-for highly compliant Helix applications is the [left navigation](#side-nav).
+
+For additional flexibility, you can use top navigation elements.
+However, applications that use top navigation do not strictly comply
+with the Helix design language. The preferred implementation is [left
+navigation](#side-nav).
+
 {% endcolumn %}
 {% column right:"col-md-8" %}
 {% figure [caption:""] [class:"image bg-light border"] %}
@@ -118,14 +131,15 @@ for highly compliant Helix applications is the [left navigation](#side-nav).
 {% endcolumn %}
 </div>
 
-### Top Navigation Color and Typeface
+### Top navigation color and typeface
 
 <div class="row">
 {% column left:"col-md-4" %}
-- font: Roboto Bold 16px / 1em
-- font-color: Gray 200 #e7e7e7
-- letter-spacing: 0.05em
-- text-transform: Uppercase
+
+- Font: Roboto Bold 16px / 1em
+- Color: Gray 200 #e7e7e7
+- Letter spacing: 0.05em
+- Text transform: uppercase
 
 {% endcolumn %}
 {% column right:"col-md-8" %}
@@ -135,65 +149,70 @@ for highly compliant Helix applications is the [left navigation](#side-nav).
 {% endcolumn %}
 </div>
 
-### Top Navigation Spacing
+### Top navigation spacing
 
 <div class="row">
 {% column left:"col-md-4" %}
--   Horizontal spacing includes 20px left margin
 
--   Each menu item button has 20px left and right padding
+-   Horizontal spacing includes 20px of left margin.
 
-    {% include note.html content="Dropdown padding left begins at the left
-    border of the parent primary navigational item and padding right begins
-    after the longest textual element in the dropdown element." %}
+-   Each menu item button has 20px of left and right padding.
 
--   Dropdowns should strive to be limited to between 3 — 7 elements for ease of
-    consumption and parsability by our users.
+    {% include note.html content="Drop-down element left padding
+    begins at the left border of the parent primary navigation item
+    and right padding begins after the longest textual element in the
+    drop-down element." %}
+
+-   Limit drop-downs menus to between 3 and 7 elements for ease of
+    consumption and comprehension.
 
 {% endcolumn %}
 {% column right:"col-md-8" %}
-{% figure [caption:"Vertical padding for primary navigational items"] [class:"image bg-light border"] %}
+{% figure [caption:"Vertical padding for primary navigation items"] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/layout/navigation-top-spacing-vertical.svg)
 {% endfigure %}
 {% endcolumn %}
 </div>
 <div class="row">
 {% column left:"col-md-4" %}
--   Navigational bar extends across 100% of view width
 
--   Navigation is wrapped inside navigational bar with 20px / 1.25em padding on
-    either side
+-   The navigation bar extends across 100% of the view width.
 
--   Padding is applied to each Primary nav item with no space between
+-   Navigation wraps inside the navigation bar with 20px / 1.25em
+    padding on either side.
+
+-   Padding is applied to each primary navigation item with no space
+    in between.
 
 {% endcolumn %}
 {% column right:"col-md-7 col-md-offset-1" %}
-{% figure [caption:"Horizontal padding specs for primary navigational items"] [class:"image bg-light border"] %}
+{% figure [caption:"Horizontal padding specs for primary navigation items"] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/layout/navigation-top-spacing-horizontal.svg)
 {% endfigure %}
 {% endcolumn %}
 </div>
 
-### Top Navigation Drop-down Menu Color and Typeface
+### Top navigation drop-down menu color and typeface
 
 <div class="row">
 {% column left:"col-md-4" %}
-Drop-down menus display secondary navigational elements below their primary
-navigational element.
 
--   Dropdowns should strive to be between 3 — 7 elements for ease of
-    consumption and parsability.
+Drop-down menus display secondary navigation elements below their
+primary navigation element.
 
-    {% include note.html content="This is not a hard rule to be followed
-    without exception. However, drop-downs that contains more than 6 elements
-    should be closely looked at from an IA lens to see if the elements could be
-    rearranged into two separate primary groups." %}
+-   Limit drop-down menus to between 3 and 7 elements for ease of
+    consumption and comprehension.
 
--   font: Roboto Bold 16px
+    {% include note.html content="This is not a hard rule to be
+    followed without exception. Drop-down menus that contains more
+    than 6 elements should prompt you to determine if you can
+    rearrange elements into two separate primary groups." %}
 
--   font-color: Gray 200 #e7e7e7
+-   Font: Roboto Bold 16px
 
--   text-transform: Title Case
+-   Font color: Gray 200 #e7e7e7
+
+-   Text transform: title case
 
 {% endcolumn %}
 {% column right:"col-md-8" %}
@@ -203,20 +222,21 @@ navigational element.
 {% endcolumn %}
 </div>
 
-## Top Navigation Drop-down Spacing
+## Top navigation drop-down element spacing
 
 <div class="row">
 {% column left:"col-md-4" %}
--   Drop down menus should be **at least** the same width as the parent menu
-    item. Even if that leaves extra space to the right.
 
-    {% include note.html content="Drop-down menus whose secondary items have
-    large character counts can be wider than the parent menu item. This is
-    ok." %}
+-   Make drop-down menus at least the same width as the parent menu
+    item, even if that leaves extra space to the right.
 
--   Drop-down padding left begins at the left border of the parent primary
-    navigational item and padding right begins after the longest textual
-    element in the dropdown element.
+    {% include note.html content="Drop-down menus with secondary items
+    that have large character counts can be wider than the parent menu
+    item." %}
+
+-   Drop-down menu left padding begins at the left border of the parent
+    primary navigation item and right padding begins after the
+    longest textual element in the drop-down element.
 
 {% endcolumn %}
 {% column right:"col-md-3 col-md-offset-1" %}
@@ -233,61 +253,67 @@ navigational element.
 
 # Eyebrow {% include inprogress.html %}
 
-The eyebrow sits as the top most menu bar across all breakpoints within the
-Application Frame of a Helix interface. It provides access to platform level
-services as well as aggregate information across a users accounts at Rackspace.
-The eyebrow pattern is often referred to internally by the project name "Pilot
-Nav" or by the function it serves "Utility Nav".
+The eyebrow is the top menu bar across all breakpoints within the
+application frame of a Helix interface. The eyebrow provides access to
+platform-level services and aggregate information across a user's
+accounts at Rackspace. The eyebrow pattern is often referred to
+internally as "pilot nav" or "utility nav".
 
 ## Breakpoints
 
-The eyebrow is the top most menu bar within a Helix UI. Visual functionality
-expands and retracts based on the current user viewport.
+The eyebrow expands and retracts based on the current user view port.
+
 <div class="row">
 {% column left:"col-md-12" %}
-{% figure [caption:"Eyebrow Breakpoints"] [class:"image bg-light border"] %}
+{% figure [caption:"Eyebrow breakpoints"] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/layout/eyebrow-states.svg)
 {% endfigure %}
 {% endcolumn %}
 </div>
 
 ## Eyebrow (left side)
-The left side of the eyebrow is comprised of the platform dashboard button and
-product switcher drop-downs. The item currently displayed in the content area
-and navigation section is reflected via the selected state beneath it.
+
+The left side of the eyebrow contains the platform dashboard button
+and the product switcher drop-down menus. The item displayed in the
+content area and navigation section changes based on the selected
+state beneath it.
 
 <div class="row">
 {% column left:"col-md-4" %}
--   The Rackspace® logo serves as a button to trigger the global dashboard.
 
--   Product name to the left of the logo serves as wayfinding to show the
-    currently selected product.
+-   The Rackspace® logo  button triggers the global dashboard.
+
+-   The product name to the left of the logo shows the currently
+    selected product.
 
 {% endcolumn %}
 {% column right:"col-md-offset-1 col-md-7" %}
-{% figure [caption:"Eyebrow (leftside) construction specs"] [class:"image bg-light border"] %}
+{% figure [caption:"Eyebrow (left side) construction specs"] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/layout/global-layer/eyebrow-left.svg)
 {% endfigure %}
 {% endcolumn %}
 </div>
 
-### Eyebrow (left side) Dropdowns
+### Eyebrow (left side) drop-down elements
 
-A dropdown is presented when the user switches product lines.
+A drop-down menu appears when the user switches product lines.
+
 <div class="row">
 {% column left:"col-md-4" %}
--   Switching product lines is triggered via clicking the Product Button and
-    displays a dropdown element for selection
 
--   Leftside dropdowns provide links to product lines and NEVER include a
-    secondary CTA
+-   A user can switch product lines by clicking the product button,
+    then clicking a drop-down element.
 
--   Leftside dropdowns do not have a defined disabled state. Only menu items
-    to which the currently logged in user has access will appear
+-   Drop-down elements on the left side provide links to product lines
+    and never include a secondary CTA.
+
+-   Drop-down elements on the left side do not have a defined disabled
+    state. The user only sees menu items to which they have access.
 
 {% endcolumn %}
 {% column right:"col-md-offset-1 col-md-7" %}
-{% figure [caption:"Eyebrow (leftside) dropdown specs"] [class:"image bg-light border"] %}
+{% figure [caption:"Eyebrow (left side) drop-down element specs"]
+[class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/layout/eye-left-drop.svg)
 {% endfigure %}
 {% endcolumn %}
@@ -295,54 +321,56 @@ A dropdown is presented when the user switches product lines.
 
 ## Eyebrow (right side)
 
-The right side of the eyebrow menu is comprised of the user name section and
+The right side of the eyebrow menu shows the user name section and
 platform level services button groups.
+
 <div class="row">
 {% column left:"col-md-4" %}
 
--   Platform level services are any services that exist across multiple product
-    lines. Ex: Account Settings, Notifications, Ticketing, etc.
+-   Platform level services are any services that exist across
+    multiple product lines, such as account settings, notifications,
+    and ticketing.
 
--   The user name section and each service button group is separated by a
-    section divider
+-   A section divider separates the user name section and each service
+    button group.
 
 -   Service groups
 
-    -   User Settings
+    -   User settings
 
-    -   Account Management
+    -   Account management
 
         - Account
         - Billing
 
-    -   Support Management
+    -   Support management
 
-        - Messages / Notification
+        - Messages / notification
         - Tickets
         - Support
 
 {% endcolumn %}
 {% column right:"col-md-offset-1 col-md-7" %}
-{% figure [caption:"Eyebrow (rightside) construction specs"] [class:"image bg-light border"] %}
+{% figure [caption:"Eyebrow (right side) construction specs"] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/layout/global-layer/eyebrow-right.svg)
 {% endfigure %}
 {% endcolumn %}
 </div>
 
-### Eyebrow (right side) Dropdowns
+### Eyebrow (right side) drop-down elements
 
 <div class="row">
 {% column left:"col-md-4" %}
 
--   Items within the right-side of the eyebrow produce either a dropdown or
-    display an off-canvas panel onClick
+-   Items within the right side of the eyebrow show either a drop-down
+    menu or an off-canvas panel onClick.
 
--   Dropdowns are applied where off-canvas elements are not required or have
-    not yet been implemented
+-   Drop-downs elements are applied when off-canvas elements are not
+    required or are unimplemented.
 
 {% endcolumn %}
 {% column right:"col-md-offset-1 col-md-7" %}
-{% figure [caption:"Eyebrow (rightside) dropdown specs"] [class:"image bg-light border"] %}
+{% figure [caption:"Eyebrow (right side) drop-down element specs"] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/layout/eye-right-drop.svg)
 {% endfigure %}
 {% endcolumn %}
