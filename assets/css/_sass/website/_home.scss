@@ -1,7 +1,6 @@
 .overview-footer {
   background-color: $grey900;
   text-align: center;
-  grid-row: 5/8;
   padding: 40px;
   h2 {
     font-size: 24px;
@@ -21,10 +20,8 @@
     width: 75%;
   };
   .row-icons {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 10px;
-    grid-auto-rows: minmax(auto, auto);
+    display: flex;
+    flex-direction: row;
     margin: auto 90px;
     img {
       height: 36px;
@@ -33,16 +30,13 @@
       border-radius: 17px;
     };
     .left-3-col {
-      grid-column: 1/1;
-      grid-row: 6;
+      flex: 1;
     };
     .mid-3-col {
-      grid-column: 2/2;
-      grid-row: 6;
+      flex: 1;
     };
     .right-3-col {
-      grid-column: 3/3;
-      grid-row: 6;
+      flex: 1;
     };
   }
 
@@ -55,25 +49,26 @@
   box-sizing: inherit;
   .overview-content {
       box-sizing: border-box;
-      width: auto;
+      width: calc(100vw - 17em);
       article {
         text-align: center;
         margin: 0px auto;
         padding: 0px 10px;
       };
   };
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-column-gap: 10px;
-  grid-auto-rows: minmax(auto, auto);
+  display: flex;
+  flex-direction: column;
   article {
     margin: 0px 10px;
   };
+  background-image: url(../images/Helix_Homepage_Pattern.svg);
+  background-color: transparent;
+  background-repeat: no-repeat;
+  @include background-size(cover);
 }
 .overview-header {
   margin: 28px auto 12px auto;
   text-align: center;
-  grid-row: 2;
   &.display-font {
     font-size: 24px;
     font-weight: 300;
@@ -88,7 +83,6 @@ p {
   text-align: center;
   line-height: 1.5em !important;
   max-width: none;
-  grid-row: 3;
 }
 .main-logo {
   display: block;
@@ -97,10 +91,12 @@ p {
   img {
     height: 64px;
   };
-  grid-row: 1;
 }
 .card-row {
-  grid-row: 4;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 30%;
 }
 .card {
   display: inline-block;
@@ -144,23 +140,27 @@ p {
     };
   }
 }
-@include tablet {
+@include phone {
   .overview-content {
-    min-width: $tablet-width;
-    padding: 0px 7%;
+    max-width: $tablet-width;
   }
   .overview-footer {
-    min-width: $tablet-width;
-    padding: 0px 7%;
+    max-width: $tablet-width;
+  }
+}
+@include tablet {
+  .overview-content {
+    max-width: $tablet-width;
+  }
+  .overview-footer {
+    max-width: $tablet-width;
   }
 }
 @include desktop {
-  .overview-content {
-    min-width: $desktop-width;
-    padding: 0px 17%;
-  }
-  .overview-footer {
-    min-width: $tablet-width;
-    padding: 0px 7%;
-  }
+  // .overview-content {
+  //   padding: 0px 20% 0px 10%;
+  // }
+  // .overview-footer {
+  //   padding: 0px 20% 0px 10%;
+  // }
 }
