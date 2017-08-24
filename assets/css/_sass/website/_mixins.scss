@@ -24,8 +24,21 @@
           transition: $transition1, $transition2;
 }
 
+@mixin background-size($bgsize) {
+  -webkit-background-size: $bgsize;
+     -moz-background-size: $bgsize;
+       -o-background-size: $bgsize;
+          background-size: $bgsize;
+}
+
 $tablet-width: 768px;
 $desktop-width: 1024px;
+
+@mixin phone {
+  @media (max-width: #{$tablet-width - 1px}) {
+    @content;
+  }
+}
 
 @mixin tablet {
   @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
