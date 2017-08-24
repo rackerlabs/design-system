@@ -9,15 +9,15 @@ resource: true
 
 Navigation establishes a user's location within an application and
 shows the path forward to accomplish a goal. Consistent navigation
-patterns increase user confidence and efficiency. You can use a
-combination of eyebrow navigation, either top or side navigation, and
-breadcrumbs to guide users.
+patterns increase user confidence and efficiency. You can combine
+global navigation (using the eyebrow), application navigation (using
+side or top navigation), and breadcrumbs.
 
 {% include toc.html %}
 
 # Primary navigation {% include complete.html %}
 
-Use primary navigation for the main sections of an application or for
+Use primary navigation for the main sections of an application, or for
 drop-down categories that organize sections into higher-level groups.
 
 ## Left navigation
@@ -25,14 +25,14 @@ drop-down categories that organize sections into higher-level groups.
 <div class="row">
 {% column left:"col-md-4" %}
 
-Use the left navigation component for web applications when you want
-to implement a highly-compliant version of the Helix design language.
+Use the left navigation component for web applications, unless there
+is a firm implementation constraint that requires top navigation.
 
 -   This component can extend to fit any navigation information
     architecture (IA) by scrolling when the list of navigation items
-    exceeds the screen view height. In other words, if there are many
-    options to display, the left navigation is scroll-able so that
-    users have access to all items.
+    exceeds the screen view height. If there are many options to
+    display, the left navigation is scroll-able so that users have
+    access to all items.
 
 -   The preferred implementation includes only primary and secondary
     navigation links.
@@ -158,10 +158,10 @@ navigation](#side-nav).
 
 -   Each menu item button has 20px of left and right padding.
 
-    {% include note.html content="Drop-down element left padding
-    begins at the left border of the parent primary navigation item
-    and right padding begins after the longest textual element in the
-    drop-down element." %}
+    {% include note.html content="The left padding of a drop-down
+    element begins at the left border of the parent primary navigation
+    item and the right padding begins after the longest text element
+    in the drop-down element." %}
 
 -   Limit drop-downs menus to between 3 and 7 elements for ease of
     consumption and comprehension.
@@ -234,9 +234,10 @@ primary navigation element.
     that have large character counts can be wider than the parent menu
     item." %}
 
--   Drop-down menu left padding begins at the left border of the parent
-    primary navigation item and right padding begins after the
-    longest textual element in the drop-down element.
+-   The left padding of a drop-down element begins at the left border
+    of the parent primary navigation item and the right padding begins
+    after the longest text element in the drop-down element.
+
 
 {% endcolumn %}
 {% column right:"col-md-3 col-md-offset-1" %}
@@ -257,7 +258,7 @@ The eyebrow is the top menu bar across all breakpoints within the
 application frame of a Helix interface. The eyebrow provides access to
 platform-level services and aggregate information across a user's
 accounts at Rackspace. The eyebrow pattern is often referred to
-internally as "pilot nav" or "utility nav".
+internally as *pilot nav* or *utility nav*.
 
 ## Breakpoints
 
@@ -281,7 +282,8 @@ state beneath it.
 <div class="row">
 {% column left:"col-md-4" %}
 
--   The Rackspace® logo  button triggers the global dashboard.
+-   Clicking the Rackspace® Fanatiguy logo icon opens the global
+    dashboard.
 
 -   The product name to the left of the logo shows the currently
     selected product.
@@ -305,7 +307,7 @@ A drop-down menu appears when the user switches product lines.
     then clicking a drop-down element.
 
 -   Drop-down elements on the left side provide links to product lines
-    and never include a secondary CTA.
+    and never include a secondary call to action.
 
 -   Drop-down elements on the left side do not have a defined disabled
     state. The user only sees menu items to which they have access.
@@ -363,7 +365,7 @@ platform level services button groups.
 {% column left:"col-md-4" %}
 
 -   Items within the right side of the eyebrow show either a drop-down
-    menu or an off-canvas panel onClick.
+    menu or an off-canvas panel when clicked.
 
 -   Drop-downs elements are applied when off-canvas elements are not
     required or are unimplemented.
