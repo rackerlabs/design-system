@@ -14,7 +14,8 @@
     <link rel="stylesheet" href="{{ 'assets/css/jquery-ui.css' | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ 'assets/css/website.css' | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ 'assets/css/helix.css' | prepend: site.baseurl }}">
-<!--    <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.10/semantic.min.css">-->
+    <link rel="stylesheet" href="https://2d2bf231b82dfe76fe36-fa12562cfe810d69bedcc36a0ac289ef.ssl.cf1.rackcdn.com/css/bootstrap.helix.css">
+    <link rel="stylesheet" href="https://2d2bf231b82dfe76fe36-fa12562cfe810d69bedcc36a0ac289ef.ssl.cf1.rackcdn.com/css/helix-ui.css">
 
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ " /feed.xml" | prepend: site.baseurl | prepend: site.url }}">
@@ -23,11 +24,9 @@
     {% include nav.html %}
     <div class="overview-wrapper">
       <div class="overview-content">
-        <div class="main-logo"><img src="{{site.cdn_url}}/img/overview/Helix_Logo_%20Final-2.svg" class="main-logo"></div>
+        <div class="main-logo"><img src="assets/images/Helix_Logo_Homepage.svg" class="main-logo"></div>
         <div class="overview-header display-font">{{ page.title }}</div>
-        <article>
-          {{ content }}
-        </article>
+        {{ content }}
       </div>
       {% include overview-footer.html %}
     </div>
