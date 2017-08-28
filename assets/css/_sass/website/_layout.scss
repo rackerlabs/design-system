@@ -18,6 +18,9 @@ body {
     display: block;
     // height: 98px;
     position: relative;
+    a {
+      padding: 0 !important;
+    }
     img {
         height: 26px;
         width: 122px;
@@ -28,95 +31,6 @@ body {
 
 nav {
     position: fixed;
-    display: block;
-    box-sizing: inherit;
-    top: 0px;
-    left: 0;
-    bottom: 0;
-    width: 325px;
-    overflow-x: hidden;
-    overflow-y: auto;
-    @include box-shadow(0px 5px 6px 1px rgba(102,102,102,.25));
-    z-index: 2;
-    background-color: $grey975;
-    @include font-smoothing(antialiased);
-    .inactive {
-        display: none;
-    }
-    .active {
-        display:block;
-    }
-    ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        li {
-            position: relative;
-            &.parent {
-                &:after {
-                    content: "\e900";
-                    font-family: 'DS_icon_font' !important;
-                    speak: none;
-                    font-style: normal;
-                    font-weight: $medium-weight;
-                    font-variant: normal;
-                    text-transform: none;
-                    line-height: 4.5;
-                    @include font-smoothing(antialiased);
-                    -moz-osx-font-smoothing: grayscale;
-                    text-decoration: inherit;
-                    color: $grey500;
-                    padding-right: 2em;
-                    position: absolute;
-                    top: 12px;
-                    right: 0;
-                    font-size: 12px;
-                }
-                &.active {
-                    &:after {
-                        content: "\e903";
-                    }
-                }
-            }
-            a {
-                color: $grey100;
-                position: relative;
-                display: block;
-                padding: 28px 20px 28px 28px;
-                letter-spacing: 0.05em;
-                text-decoration: none;
-                text-transform: uppercase;
-                font-size: $font-size-3;
-                &.active{
-                    background: $grey900;
-                    color: $grey100;
-                    text-decoration: none;
-                }
-                &:hover {
-                    background: $grey800;
-                    color: $grey100;
-                    text-decoration: none;
-                }
-            }
-            ul {
-                li {
-                    a {
-                        font-weight: $regular-weight;
-                        padding-left: 2.75em;
-                        text-transform: none;
-                    }
-                    a:hover{
-                        background-color: $grey800;
-                        color: $grey100;
-                    }
-                    a.active {
-                        background-color: $grey900;
-                        color: $grey100;
-                    }
-                }
-            }
-        }
-    }
 }
 
 /**
