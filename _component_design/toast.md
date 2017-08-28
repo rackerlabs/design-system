@@ -11,32 +11,32 @@ status: deprecated
 resource: false
 ---
 
-{% include inprogress.html %}
+{% include toc.html %}
 
-<div class="row">
-{% column left:"col-md-4" %}
+<div class="hxRow">
+{% column left:"hxCol" %}
 {% figure [caption:"Default"] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/components/toast.svg){:width="100%"}
 {% endfigure %}
 {% endcolumn %}
-{% column left:"col-md-4" %}
+{% column left:"hxCol" %}
 {% figure [caption:"Alert"] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/components/toast-alert.svg){:width="100%"}
 {% endfigure %}
 {% endcolumn %}
-{% column right:"col-md-4" %}
+{% column right:"hxCol" %}
 {% figure [caption:"Action"] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/components/toast-alert-action.svg){:width="100%"}
 {% endfigure %}
 {% endcolumn %}
 </div>
-<div class="row">
-{% column left:"col-md-4" %}
+<div class="hxRow">
+{% column left:"hxCol" %}
 {% figure [caption:"Action Buttons"] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/components/toast-alert-action-buttons.svg){:width="100%"}
 {% endfigure %}
 {% endcolumn %}
-{% column right:"col-md-4" %}
+{% column right:"hxCol" %}
 {% figure [caption:"Error"] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/components/toast-error.svg){:width="100%"}
 {% endfigure %}

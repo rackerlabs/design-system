@@ -7,11 +7,11 @@ usage: |
   These tooltips provide users with additional information while completing
   tasks and alert them to new features.
 preview-image: components/preview-help.svg
-status: unknown
+status: unknown, in-progress
 resource: true
 ---
 
-{% include inprogress.html %}
+{% include toc.html %}
 
 ## Internal
 

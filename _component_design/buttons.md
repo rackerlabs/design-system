@@ -10,6 +10,8 @@ status: pending
 resource: true
 ---
 
+{% include toc.html %}
+
 Buttons provide the mechanism for users to perform actions within a
 Helix-themed UI. Each button has a weight (Primary, Secondary, and Tertiary),
 a size (Regular, Large, Compact), as well as a type (Simple, Dropdown).
@@ -20,8 +22,8 @@ a size (Regular, Large, Compact), as well as a type (Simple, Dropdown).
 
 # Primary Buttons
 
-<div class="row">
-{% column left:"col-md-4" %}
+<div class="hxRow">
+{% column left:"hxCol" %}
 -   Use the primary action button to prompt the user to take action.
 
 -   In most instances, use the standard size button. Use the compact buttons
@@ -33,12 +35,12 @@ a size (Regular, Large, Compact), as well as a type (Simple, Dropdown).
 -   Use one primary button per page.
 
 {% endcolumn %}
-{% column right:"col-md-4" %}
+{% column right:"hxCol" %}
 {% figure [caption:"Primary button sizes"] %}
 ![]({{site.cdn_url}}/img/components/Buttons/buttons-primary-sizes.svg){:width="100%"}
 {% endfigure %}
 {% endcolumn %}
-{% column right:"col-md-3 col-md-offset-1" %}
+{% column right:"hxCol" %}
 {% figure [caption:"Primary button states"] %}
 ![]({{site.cdn_url}}/img/components/Buttons/buttons-primary-actions.svg){:width="100%"}
 {% endfigure %}
@@ -47,20 +49,20 @@ a size (Regular, Large, Compact), as well as a type (Simple, Dropdown).
 
 # Secondary Buttons
 
-<div class="row">
-{% column left:"col-md-4" %}
+<div class="hxRow">
+{% column left:"hxCol" %}
 -   The secondary button can be used in conjunction with the primary button or
     when there are multiple buttons on the same screen.
 
 -   The same sizing rules apply to both secondary and primary buttons.
 
 {% endcolumn %}
-{% column right:"col-md-4" %}
+{% column right:"hxCol" %}
 {% figure [caption:"Secondary button sizes"] %}
 ![]({{site.cdn_url}}/img/components/Buttons/buttons-secondary-sizes.svg){:width="100%"}
 {% endfigure %}
 {% endcolumn %}
-{% column right:"col-md-4" %}
+{% column right:"hxCol" %}
 {% figure [caption:"Secondary button states"] %}
 ![]({{site.cdn_url}}/img/components/Buttons/buttons-secondary-actions.svg){:width="100%"}
 {% endfigure %}
@@ -69,8 +71,8 @@ a size (Regular, Large, Compact), as well as a type (Simple, Dropdown).
 
 # Tertiary Buttons
 
-<div class="row">
-{% column left:"col-md-4" %}
+<div class="hxRow">
+{% column left:"hxCol" %}
 -   Tertiary buttons can be used in conjunction with the primary button or with
     a primary and secondary button.
 
@@ -81,12 +83,12 @@ a size (Regular, Large, Compact), as well as a type (Simple, Dropdown).
     emphasize "submit".
 
 {% endcolumn %}
-{% column right:"col-md-4" %}
+{% column right:"hxCol" %}
 {% figure [caption:"Tertiary button sizes"] %}
 ![]({{site.cdn_url}}/img/components/Buttons/buttons-tertiary-sizes.svg){:width="100%"}
 {% endfigure %}
 {% endcolumn %}
-{% column right:"col-md-4" %}
+{% column right:"hxCol" %}
 {% figure [caption:"Tertiary button states"] %}
 ![]({{site.cdn_url}}/img/components/Buttons/buttons-tertiary-actions.svg){:width="100%"}
 {% endfigure %}
@@ -98,8 +100,8 @@ a size (Regular, Large, Compact), as well as a type (Simple, Dropdown).
 Dropdowns inject additional actions into a primary, secondary, or tertiary
 button.
 
-<div class="row">
-{% column left:"col-md-4" %}
+<div class="hxRow">
+{% column left:"hxCol" %}
 -   Inherits and extends any of the three button weights
 
 -   Follows the same styles and states as the button weight which it extends
@@ -108,7 +110,7 @@ button.
     consider splitting a subset of actions into another location on the page.
 
 {% endcolumn %}
-{% column right:"col-md-8" %}
+{% column right:"hxCol" %}
 {% figure [caption:"Dropdown buttons"] %}
 ![]({{site.cdn_url}}/img/components/Buttons/buttons-dropdowns-actions.svg)
 {% endfigure %}
@@ -120,11 +122,11 @@ When any button that submits an asynchronous api call is pressed the
 "processing" class/state is applied to the button. This state triggers the
 loading animation to be applied to the button.
 
-<div class="row">
-{% column left:"col-md-4" %}
+<div class="hxRow">
+{% column left:"hxCol" %}
 - Details on loading animation specifics can be found on the <a href="{{site.baseurl}}/components/loading.html">loading page</a>.
 {% endcolumn %}
-{% column right:"col-md-8" %}
+{% column right:"hxCol" %}
 {% figure [caption:"Processing state across button weights"] %}
 ![]({{site.cdn_url}}/img/components/Buttons/buttons-loading.svg)
 {% endfigure %}
@@ -137,14 +139,14 @@ List of associated css values used across the three button sizes.
 
 ## Standard Button Specs
 
-<div class="row">
-{% column left:"col-md-4" %}
+<div class="hxRow">
+{% column left:"hxCol" %}
 - `font-family:roboto-medium`
 - `font-size:14px`
 - `text-transform:uppercase`
 - `border-radius:2px`
 {% endcolumn %}
-{% column right:"col-md-8" %}
+{% column right:"hxCol" %}
 {% figure [caption:"Regular button redlines"] %}
 ![]({{site.cdn_url}}/img/components/Buttons/buttons-specs-regular.svg)
 {% endfigure %}
@@ -153,14 +155,14 @@ List of associated css values used across the three button sizes.
 
 ## Large Button Specs
 
-<div class="row">
-{% column left:"col-md-4" %}
+<div class="hxRow">
+{% column left:"hxCol" %}
 - `font-family:roboto-medium`
 - `font-size:16px`
 - `text-transform:uppercase`
 - `border-radius:2px`
 {% endcolumn %}
-{% column right:"col-md-8" %}
+{% column right:"hxCol" %}
 {% figure [caption:"Large button redlines"] %}
 ![]({{site.cdn_url}}/img/components/Buttons/buttons-specs-large.svg)
 {% endfigure %}
@@ -169,14 +171,14 @@ List of associated css values used across the three button sizes.
 
 ## Compact Button Specs
 
-<div class="row">
-{% column left:"col-md-4" %}
+<div class="hxRow">
+{% column left:"hxCol" %}
 - `font-family:roboto-medium`
 - `font-size:10px`
 - `text-transform:uppercase`
 - `border-radius:2px`
 {% endcolumn %}
-{% column right:"col-md-8" %}
+{% column right:"hxCol" %}
 {% figure [caption:"Compact button redlines"] %}
 ![]({{site.cdn_url}}/img/components/Buttons/buttons-specs-compact.svg)
 {% endfigure %}

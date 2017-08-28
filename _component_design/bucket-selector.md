@@ -6,11 +6,11 @@ category: Components
 usage: Teaser Text
 preview-image: components/device-picker.svg
 published: true
-status: complete
+status: complete, in-progress
 resource: true
 ---
 
-{% include inprogress.html %}
+{% include toc.html %}
 
 Bucket Selector is helpful when you are selecting multiple objects from large
 option sets within a larger workflow. The bucket area (located below the table)
