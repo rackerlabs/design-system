@@ -32,23 +32,28 @@
           <div class="hxRow">
             <div class="hxCol">
               <nav class="hxBreadcrumb">
-                <a href="#">{{page.category}}</a>:
+                <a href="#">{{page.category}}</a>
+                <hx-icon class="delimiter" type="angle-right"></hx-icon>
                 <a href="#">{{page.parent}}</a>
                 <hx-icon class="delimiter" type="angle-right"></hx-icon>
-                <a href="#">{{page.title}}</a>
+                <a href="{{page.url}}">{{page.title}}</a>
               </nav>
             </div>
             <div class="hxCol">
-              <button class="btn btn-default">Submit issue</button>
-              <button class="btn btn-primary">Sketch template</button>
+              <div class="hxRow">
+                <div class="hxCol-4 hxOffset-4">
+                  <button class="btn btn-primary btn-sm">Submit issue</button>
+                </div>
+                <div class="hxCol-4">
+                  <button class="btn btn-primary btn-sm">Sketch template</button>
+                </div>
+              </div>
             </div>
           </div>
         </div>
         <div class="hxRow">
           <div class="hxCol">
-            <article>
-              {{ content }}
-            </article>
+            {{ content }}
           </div>
         </div>
     </div>
