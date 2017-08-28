@@ -6,8 +6,11 @@ category: Components
 usage: Teaser Text
 preview-image:
 resource: false
+status: in-progress
 ---
 
-# Cards {% include inprogress.html %}
+{% include toc.html %}
 
-# Dashboard Panels {% include inprogress.html %}
+# Cards
+
+# Dashboard Panels

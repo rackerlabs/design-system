@@ -9,6 +9,7 @@ status: archived
 resource: false
 ---
 
+{% include toc.html %}
 
 <!--
 <article>

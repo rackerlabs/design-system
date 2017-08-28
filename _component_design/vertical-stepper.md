@@ -6,9 +6,10 @@ category: Components
 usage: Teaser Text
 preview-image:
 resource: true
+status: in-progress
 ---
 
-{% include inprogress.html %}
+{% include toc.html %}
 
 ## Step 1
 

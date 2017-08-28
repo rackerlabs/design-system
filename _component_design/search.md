@@ -6,7 +6,10 @@ category: Components
 usage: Teaser Text
 preview-image:
 resource: true
+status: unknown
 ---
+
+{% include toc.html %}
 
 <!-- NOTE: Bart said not to worry about splitting this for Phase 1.
      TODO: Split for phase 2. -->
@@ -33,7 +36,7 @@ OR
 
 -   An additional set of **static facets**
 
-# When to Use {% include inprogress.html %}
+# When to Use
 
 Search should be supported for apps that supports large amounts of information
 and users need be able to quickly locate content.
@@ -63,12 +66,12 @@ An Assisted Search may be useful if:
 Auto-completion may be useful if your results set may be hard to recall from
 memory.
 
-# Best Practices {% include inprogress.html %}
+# Best Practices
 
 - Auto-completion may be used as an option on it’s own.
 - However, assisted search is best used in conjunction with auto-completion
 
-# Basic Search {% include inprogress.html %}
+# Basic Search
 
 Searches provide an input field for searching through content, allowing users
 to locate specific items within the website or app.
@@ -79,7 +82,7 @@ to locate specific items within the website or app.
 ![]({{site.cdn_url}}/img/components/search-basic.svg){:width="60%"}
 {% endfigure %}
 
-# Assisted Search/Auto-completion {% include inprogress.html %}
+# Assisted Search/Auto-completion
 
 ## States
 
@@ -189,11 +192,11 @@ Search completion results should be divided up by categories if possible.
 ![]({{site.cdn_url}}/img/components/search-clear.svg){:width="60%"}
 {% endfigure %}
 
-# Text Guidelines {% include inprogress.html %}
+# Text Guidelines
 
 Limit filter tags to one word (e.g. Device, On, Before, Type)
 
-# Research {% include inprogress.html %}
+# Research
 
 Effective testing of Guided Search was challenging. Invision isn’t robust
 enough to make it very believable. Axure would have required a really complex
@@ -206,5 +209,5 @@ For now though, we have a few research studies:
 - [How Do Customers AND Rackers Choose Devices?](http://design.rax.io/?customer-research=how-do-customers-and-rackers-choose-devices)
 
 <!--
-# Facets {% include inprogress.html %}
+# Facets
 -->

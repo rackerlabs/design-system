@@ -7,3 +7,5 @@ usage: Teaser Text
 preview-image:
 resource: false
 ---
+
+{% include toc.html %}
