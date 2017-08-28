@@ -1,11 +1,5 @@
 .hxBreadcrumb {
-  hx-icon.delimiter {
+  hx-icon svg {
     color: $textcolorlight;
-    font-size: 0.5rem;
-    // margin-right: 0.5rem;
-    background-color: inherit;
-    display: inline-block;
-    height: 1em;
-    width: 1em;
   }
 }
