@@ -8,12 +8,13 @@ usage: |
   radio buttons, checkboxes, switches and more.
 preview-image: components/preview-selectors.svg
 resource: true
+status: in-progress
 need: selectors
 ---
 
-{% include inprogress.html %}
+{% include toc.html %}
 
-{% include todo.html content="Update style and add additional examples" %}
+<!--{% include todo.html content="Update style and add additional examples" %}-->
 
 Use the simple selector when choosing from a limited number options. If more
 than 10-12 options need to displayed, use the complex selector, which contains

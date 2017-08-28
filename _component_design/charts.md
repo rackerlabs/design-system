@@ -6,16 +6,25 @@ category: Components
 usage: Teaser Text
 preview-image:
 resource: true
+status: in-progress
 need: charts
 ---
 
-# Chart Basics {% include inprogress.html %}
+{% include toc.html %}
 
-{% include todo.html content="Correctly format numbers at or above 1,000 in tooltips and on axes by including commas. [VIEW JIRA](https://jira.rax.io/browse/RED-582)" %}
+# Chart Basics
 
-{% include todo.html content="Make legends look clickable when they are. It is not discoverable that data can be filtered by clicking on a legend label. [VIEW JIRA](https://jira.rax.io/browse/RED-583)" %}
+<!--{% include todo.html content="Correctly format numbers at or above 1,000 in
+tooltips and on axes by including commas.
+[VIEW JIRA](https://jira.rax.io/browse/RED-582)" %}
 
-{% include todo.html content="Add a [tooltip stroke](https://github.com/chartjs/Chart.js/pull/3221). [VIEW JIRA](https://jira.rax.io/browse/RED-585)" %}
+{% include todo.html content="Make legends look clickable when they are. It is
+not discoverable that data can be filtered by clicking on a legend label.
+[VIEW JIRA](https://jira.rax.io/browse/RED-583)" %}
+
+{% include todo.html content="Add a
+[tooltip stroke](https://github.com/chartjs/Chart.js/pull/3221).
+[VIEW JIRA](https://jira.rax.io/browse/RED-585)" %}-->
 
 When considering a data visualization for your project, always value
 **substance over flash**. The most important thing is making sure users can
@@ -145,7 +154,7 @@ of the chart container and page context. Only use font sizes listed in the
 - **Tooltip Title:** Roboto Medium 14px Grey 950
 - **Tooltip Content:** Roboto Regular 14px Grey 950
 
-# Statistics {% include inprogress.html %}
+# Statistics
 
 **Before considering any data visualization**, consider showing a simple
 statistic. If you can tell the user what they want to know without forcing
@@ -261,7 +270,7 @@ Statistics can be clustered into a vertical group.
   </div>
 </div>
 
-# Impressions {% include inprogress.html %}
+# Impressions
 
 Impressions are small, scannable data visualizations used in conjunction with
 statistics to help users decide if they want to learn more. Enough context must
@@ -455,7 +464,7 @@ customer. “This middle image tells me which sever is better for my I/O”
   </div>
   </div>
 
-# Bar Chart {% include inprogress.html %}
+# Bar Chart
 
 **Use to compare items against each other or throughout time and identify
 outliers.**
@@ -506,7 +515,7 @@ Long labels are easier to read on a horizontal bar chart.
 <!--REMOVING: There's no immediate need for this. High effort customization to
 the legend needed to make the chart understandable.
 
-# Bubble Chart {% include inprogress.html %}
+# Bubble Chart
 **TODO:** Fix legend. Indicate what bubble radius represents. Show continent
 groups instead of individual rivers.
 
@@ -531,7 +540,7 @@ visualization.
 
 -->
 
-# Doughnut Charts {% include inprogress.html %}
+# Doughnut Charts
 
 **Use to show composition.**
 
@@ -597,7 +606,7 @@ items. A legend is not needed.
     </div>
 </div>
 
-# Line Charts {% include inprogress.html %}
+# Line Charts
 
 **Use to show trends over time.**
 
@@ -661,7 +670,7 @@ cyclical data (if not - use a bar chart). If each slice has a different color,
 common cylces such as 12 months or 24 hours would violate the 7 colors per
 chart guideline.
 
-# Polar Area Chart {% include inprogress.html %}
+# Polar Area Chart
 
 **Use to identify outliers and display cyclical data.**
 
@@ -687,7 +696,7 @@ Depending on your data, consider showing a bar chart or pie chart instead.
 </div>
 -->
 
-# Radar Chart {% include inprogress.html %}
+# Radar Chart
 
 **Use to identify outliers and compare two data sets.**
 
