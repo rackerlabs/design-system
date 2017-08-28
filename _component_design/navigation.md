@@ -1,9 +1,10 @@
 ---
 title: Navigation
-layout: default
-category: Layout
+parent: null
+layout: component
+category: Components
 usage: Teaser Text
-preview-image: layout/preview-images/navigation.svg
+preview-image: components/preview-images/navigation.svg
 resource: true
 ---
 
