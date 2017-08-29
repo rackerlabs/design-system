@@ -13,12 +13,12 @@
 
     <link rel="stylesheet" href="{{ site.url }}/assets/css/jquery-ui.css">
     <link rel="stylesheet" href="{{ site.url }}/assets/css/website.css">
-    <link rel="stylesheet" href="{{ site.url }}/assets/css/helix.css">
     <link rel="stylesheet" href="https://2d2bf231b82dfe76fe36-fa12562cfe810d69bedcc36a0ac289ef.ssl.cf1.rackcdn.com/css/bootstrap.helix.css">
     <link rel="stylesheet" href="https://2d2bf231b82dfe76fe36-fa12562cfe810d69bedcc36a0ac289ef.ssl.cf1.rackcdn.com/css/helix-ui.css">
 
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | site.baseurl | site.url }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ " /feed.xml" | site.baseurl | site.url }}">
+
     <!-- ES5 Adapter -->
     <script src="https://ab2b55b0a26bb32fdc01-2c8b94bcec8e01c366189541a4035ea4.ssl.cf5.rackcdn.com/custom-elements-es5-adapter.js"></script>
     <!-- Polyfill Loader -->
@@ -28,34 +28,8 @@
     {% include nav.html %}
     <div class="page-wrapper">
       <div class="page-content">
-        <div class="base-top-bar">
-          <div class="hxRow">
-            <div class="hxCol">
-              <nav class="hxBreadcrumb">
-                <a href="#">{{page.category}}</a>
-                <hx-icon class="delimiter" type="angle-right"></hx-icon>
-                <a href="#">{{page.parent}}</a>
-                <hx-icon class="delimiter" type="angle-right"></hx-icon>
-                <a href="{{page.url}}">{{page.title}}</a>
-              </nav>
-            </div>
-            <div class="hxCol">
-              <div class="hxRow">
-                <div class="hxCol-4 hxOffset-4">
-                  <button class="btn btn-primary btn-sm">Submit issue</button>
-                </div>
-                <div class="hxCol-4">
-                  <button class="btn btn-primary btn-sm">Sketch template</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="hxRow">
-          <div class="hxCol">
-            {{ content }}
-          </div>
-        </div>
+        {{ content }}
+      </div>
     </div>
     {% include footer.html %}
   </body>
