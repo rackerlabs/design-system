@@ -15,9 +15,13 @@ The Helix design language utilizes the concept of application layers to
 designate where a product or service is located within the Helix-UI
 Application.
 
+<div class="hxRow">
+{% column left:"hxCol" %}
 {% figure [caption:"Application layer framework within the Helix-UI application"] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/layout/architecture/layout-thesis_v5.svg){:width="100%"}
 {% endfigure %}
+{% endcolumn %}
+</div>
 
 ## Global Layer
 
@@ -30,38 +34,44 @@ for managing platform(global) services. View the
 [global layer](/layout/global-layer) page for more in-depth explanation of the
 global layer.
 
+<div class="hxRow">
+{% column left:"hxCol" %}
 {% figure [caption:"Conceptual model for flexibility of the Global layer"] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/layout/architecture/layout-platform-layer.svg){:width="80%"}
 {% endfigure %}
+{% endcolumn %}
+</div>
 
 ### Examples
 
-<div class="row">
-{% column left:"col-md-4" %}
+<div class="hxRow">
+{% column left:"hxCol-md-4" %}
 -   Selecting the global dashboard toggle will trigger the global dashboard to
     extend from the left, covering the current product layer(Fig 1a)
 {% endcolumn %}
-{% column right:"col-md-8" %}
+{% column right:"hxCol-md-8" %}
   {% figure [caption:"Fig 1a - Global dashboard contains varied content types always accessible from within the Helix-UI"] [class:"image bg-light border"] %}
   ![]({{site.cdn_url}}/img/layout/architecture/globaldash.png){:width="100%"}
   {% endfigure %}
 {% endcolumn %}
-
-{% column left:"col-md-4" %}
+</div>
+<div class="hxRow">
+{% column left:"hxCol-md-4" %}
 -   Selecting a platform service, such as ticketing, will trigger the ticketing
     panel to extend from the right over the (Fig 1b)
 {% endcolumn %}
-{% column right:"col-md-8" %}
+{% column right:"hxCol-md-8" %}
   {% figure [caption:"Fig 1b - Ticketing panel containing ticketing information, extended from offcanvas right"] [class:"image bg-light border"] %}
   ![]({{site.cdn_url}}/img/layout/architecture/global-ticketing.svg){:width="100%"}
   {% endfigure %}
 {% endcolumn %}
-
-{% column left:"col-md-4" %}
+</div>
+<div class="hxRow">
+{% column left:"hxCol-md-4" %}
 -   Interacting with an extended panel can cause the behavior of the panel to
     change as additional content is loaded(Fig 1c)
 {% endcolumn %}
-{% column right:"col-md-8" %}
+{% column right:"hxCol-md-8" %}
   {% figure [caption:"Fig 1c - Ticketing panel after selecting a ticket, loads ticket information dynamically into the global ticketing panel."] [class:"image bg-light border"] %}
   ![]({{site.cdn_url}}/img/layout/architecture/global-ticketing-extended.svg){:width="100%"}
   {% endfigure %}
@@ -76,23 +86,24 @@ the product layer as the view into the currently selected product line; think
 FAzure, FAWS, Managed, or Rackspace Cloud. Navigation and content will differ
 based on which product line the user is currently viewing.
 
-<div class="row">
-{% column left:"col-md-4" %}
+<div class="hxRow">
+{% column left:"hxCol-md-4" %}
 -   Within the product layer the side navigation will update to display the
     navigation unique to this product line. This is because the products within
     each product line are unique and hence the navigation is as well.
 {% endcolumn %}
-{% column right:"col-md-8" %}
-  {% figure [caption:"Conceptual model for location of product layer, below global layer"] [class:"med-8 image bg-light border"] %}
+{% column right:"hxCol-md-8" %}
+  {% figure [caption:"Conceptual model for location of product layer, below global layer"] [class:"image bg-light border"] %}
   ![]({{site.cdn_url}}/img/layout/architecture/layout-product-layer.svg){:width="100%"}
   {% endfigure %}
 {% endcolumn %}
-
-{% column left:"col-md-4" %}
+</div>
+<div class="hxRow">
+{% column left:"hxCol-md-4" %}
 -   The currently selected product line is viewable within the eyebrow.
 {% endcolumn %}
-{% column right:"col-md-8" %}
-  {% figure [caption:"FAWS product layer with side navigation shown"] [class:"med-8 image bg-light border"] %}
+{% column right:"hxCol-md-8" %}
+  {% figure [caption:"FAWS product layer with side navigation shown"] [class:"image bg-light border"] %}
   ![]({{site.cdn_url}}/img/layout/architecture/product-faws.svg){:width="100%"}
   {% endfigure %}
 {% endcolumn %}
@@ -109,9 +120,13 @@ completes the server creation form. Each of these screens are contained within
 the Rackspace Cloud Product layer and can be viewed independently, however by
 going through the above process, the user has performed a complete workflow.
 
-{% figure [caption:"Explanation of layers in the Helix-UI application"] [class:"med-8 image bg-light border"] %}
+<div class="hxRow">
+{% column left:"hxCol" %}
+{% figure [caption:"Explanation of layers in the Helix-UI application"] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/layout/architecture/layout-workflow-layer.svg){:width="100%"}
 {% endfigure %}
+{% endcolumn %}
+</div>
 
 ## Further Reading
 Now that you have a familiarity with the layers concept utilized within

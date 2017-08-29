@@ -25,12 +25,12 @@ Utility icons are used in place of text to perform an action. They are based on
 commonly used, established metaphors. Utility icons share the color style of
 links or match the color of body text dependent on the background color.
 
-<div class="row ws-icon-row" style="margin-top:64px;">
+<div class="hxRow ws-icon-row" style="margin-top:64px;">
   {% assign iconCount = 1 %}
   {%for icon_hash in site.data.icons%}
     {%assign icon=icon_hash[1]%}
     {% if icon.group == "utility" %}
-        <div class="ws-icon-chip col-xs-12 col-sm-6 col-md-3 col-lg-2">
+        <div class="ws-icon-chip hxCol-xs-12 hxCol-sm-6 hxCol-md-3 hxCol-lg-2">
             <span class="ws-icon-chip-icon"><i class="{{icon.class}}"></i></span>
             <span class="ws-icon-chip-text">{{icon.class}}</span>
             <span class="ws-icon-chip-text">{{icon.id}}</span>
@@ -55,9 +55,9 @@ a list or symbolize types of content.
     {%assign icon=icon_hash[1]%}
     {% if icon.group == "object" %}
       {% if iconCount == 1 %}
-      <div class="row ws-icon-row">
+      <div class="hxRow ws-icon-row">
       {% endif %}
-        <div class="ws-icon-chip col-md-2">
+        <div class="ws-icon-chip hxCol-md-2">
             <span class="ws-icon-chip-icon"><i class="{{icon.class}}"></i></span>
             <span class="ws-icon-chip-text">{{icon.class}}</span>
             <span class="ws-icon-chip-text">{{icon.id}}</span>
@@ -89,9 +89,9 @@ gray, or white, corresponding to the color of the body text of the background.
     {%assign icon=icon_hash[1]%}
     {% if icon.group == "validation" %}
       {% if iconCount == 1 %}
-      <div class="row ws-icon-row">
+      <div class="hxRow ws-icon-row">
       {% endif %}
-        <div class="ws-icon-chip col-md-2">
+        <div class="ws-icon-chip hxCol-md-2">
             <span class="ws-icon-chip-icon" style="color:{{icon.color}}"><i class="{{icon.class}}"></i></span>
             <span class="ws-icon-chip-text">{{icon.class}}</span>
             <span class="ws-icon-chip-text">{{icon.id}}</span>
