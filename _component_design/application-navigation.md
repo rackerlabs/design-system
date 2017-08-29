@@ -1,18 +1,18 @@
 ---
-title: Navigation
+title: Application navigation
 parent: null
 layout: component
 category: Components
-usage: Teaser Text
-preview-image: components/preview-images/navigation.svg
+preview-image: layout/preview-images/navigation.svg
 resource: true
 ---
 
-Navigation establishes a user's location within an application and
-shows the path forward to accomplish a goal. Consistent navigation
-patterns increase user confidence and efficiency. You can combine
-global navigation (using the eyebrow), application navigation (using
-side or top navigation), and breadcrumbs.
+Application navigation establishes a user's location within an
+application and shows the path forward to accomplish a goal.
+Consistent navigation patterns increase user confidence and
+efficiency. You can combine global navigation (using the eyebrow),
+application navigation (using side or top navigation), and
+breadcrumbs.
 
 {% include toc.html %}
 

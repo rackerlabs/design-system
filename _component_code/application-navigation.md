@@ -1,8 +1,7 @@
 ---
-title: Navigation
+title: Application navigation
 layout: code
 category: Components Code
-usage: Teaser Text
 preview-image: components/preview-help.svg
 resource: false
 ---
