@@ -1,5 +1,5 @@
 ---
-title: Tables
+title: Content Areas
 parent: null
 layout: family
 category: Components
@@ -10,7 +10,7 @@ resource: false
 ---
 
 {% for page in site.component_design %}
-  {% if page.parent contains "Tables" and page.resource == true %}
+  {% if page.parent contains "Content Areas" and page.resource == true %}
   <div class="component-element">
     <div class="hxRow">
       <div class="hxCol-8">
@@ -22,7 +22,7 @@ resource: false
         <div class="hxRow">
           <div class="hxCol">
             <div class="component-blurb">{{page.usage}}</div>
-            <div class="component-status">Last modified: {{page.modified_time}} | Component status: {{page.status}}</div>
+            <div class="component-status">Last modified: {{page.date | date:"%d %B %Y"}} | Component status: {{page.status}}</div>
           </div>
         </div>
       </div>

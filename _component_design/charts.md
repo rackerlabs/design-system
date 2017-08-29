@@ -1,5 +1,5 @@
 ---
-title: Data Visualization
+title: Charts
 parent: Data Visualizations
 layout: component
 category: Components
