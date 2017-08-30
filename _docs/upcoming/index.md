@@ -1,6 +1,6 @@
 ---
 title: Upcoming
-layout: default
+layout: docs
 category: Upcoming
 ---
 

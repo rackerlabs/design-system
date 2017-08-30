@@ -13,7 +13,6 @@
 
     <link rel="stylesheet" href="{{ 'assets/css/jquery-ui.css' | prepend: site.baseurl }}">
     <link rel="stylesheet" href="{{ 'assets/css/website.css' | prepend: site.baseurl }}">
-    <link rel="stylesheet" href="{{ 'assets/css/helix.css' | prepend: site.baseurl }}">
     <link rel="stylesheet" href="https://2d2bf231b82dfe76fe36-fa12562cfe810d69bedcc36a0ac289ef.ssl.cf1.rackcdn.com/css/bootstrap.helix.css">
     <link rel="stylesheet" href="https://2d2bf231b82dfe76fe36-fa12562cfe810d69bedcc36a0ac289ef.ssl.cf1.rackcdn.com/css/helix-ui.css">
 
@@ -25,14 +24,18 @@
     <script src="https://ab2b55b0a26bb32fdc01-2c8b94bcec8e01c366189541a4035ea4.ssl.cf5.rackcdn.com/webcomponents-loader.js"></script>
   </head>
   <body>
-    {% include nav.html %}
     <div class="overview-wrapper">
+      {% include nav.html %}
       <div class="overview-content">
-        <div class="main-logo"><img src="assets/images/Helix_Logo_Homepage.svg" class="main-logo"></div>
-        <div class="overview-header display-font">{{ page.title }}</div>
-        {{ content }}
+        <div class="hxRow">
+          <div class="hxCol">
+            <div class="main-logo"><img src="assets/images/Helix_Logo_Homepage.svg" class="main-logo"></div>
+            <div class="overview-header display-font">{{ page.title }}</div>
+            {{ content }}
+          </div>
+        </div>
+        {% include overview-footer.html %}
       </div>
-      {% include overview-footer.html %}
     </div>
     {% include footer.html %}
   </body>

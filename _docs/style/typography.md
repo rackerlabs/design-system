@@ -1,6 +1,6 @@
 ---
 title: Typography
-layout: default
+layout: docs
 category: Style
 usage: |
   Roboto is the preferred font when designing with the Helix design system.
@@ -10,7 +10,7 @@ resource: true
 
 {% include toc.html %}
 
-# Roboto Arigato {% include complete.html %}
+# Roboto Arigato
 
 Roboto is visually geometric and has a modern feel with a breadth of weights.
 It is an easily readable, accessible, and open-source font from
@@ -56,7 +56,7 @@ body text. Hierarchy can be established using size and
 {% include type-styles.html htmlexample='<span class="statusTag headerDisplayList">Status Tag</span>' name="Tag" typeface="Roboto" weight="Regular (400)" size="12px / .75em" csscode="Grey 900" hex="#424242" %}
 </div>
 
-# Readability {% include complete.html %}
+# Readability
 
 The W3C recommends the following contrast ratios for body text and image text:
 
