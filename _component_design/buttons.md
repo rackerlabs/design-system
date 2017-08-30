@@ -1,6 +1,6 @@
 ---
 title: Buttons
-parent: Editing, Input and Controls
+parent: Editing, Inputs and Controls
 layout: component
 category: Components
 usage: |
