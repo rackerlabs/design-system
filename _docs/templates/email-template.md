@@ -1,6 +1,6 @@
 ---
 title: Email Templates
-layout: default
+layout: docs
 category: Templates
 usage: Teaser Text
 preview-image:
