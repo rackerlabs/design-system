@@ -1,8 +1,9 @@
 ---
 title: Application navigation
-parent: null
+parent: Navigation
 layout: component
 category: Components
+usage: Application navigation establishes the user's path.
 preview-image: layout/preview-images/navigation.svg
 resource: true
 ---
