@@ -8,15 +8,15 @@ preview-image:
 resource: true
 ---
 
-{% include inprogress.html %}
+{% include toc.html %}
 
-<div class="row">
-{% column left:"col-md-6" %}
+<div class="hxRow">
+{% column left:"hxCol" %}
 {% figure [caption:"Default"] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/components/time-picker.svg){:width="60%"}
 {% endfigure %}
 {% endcolumn %}
-{% column right:"col-md-6" %}
+{% column right:"hxCol" %}
 {% figure [caption:"Selected"] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/components/time-picker-selected.svg){:width="60%"}
 {% endfigure %}

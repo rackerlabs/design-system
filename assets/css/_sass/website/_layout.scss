@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   height: 100%;
-  font-size: 16pt;
+  font-size: $base-font-size;
 }
 
 body {
@@ -31,7 +31,7 @@ body {
     }
 }
 
-nav {
+nav.side {
     position: fixed;
     display: block;
     box-sizing: inherit;
@@ -270,14 +270,15 @@ video {
 }
 
 figure {
-  margin: 0 0 24px 0;
+  margin: 0 0 8px 0;
 }
 
 figcaption {
-  color: $grey700;
+  color: $grey800;
   font-size: 12px;
-  margin: 8px 0 0 8px;
-  line-height: 1.678em
+  margin: 0;
+  line-height: 1.5em;
+  font-weight: 300;
 }
 
 h2 {
@@ -300,11 +301,11 @@ pre {
   text-align: center;
   width: 100%;
   &.bg-light {
-    background-color: #fff;
+    background-color: $grey0;
   }
   &.border {
-    border: 1px solid $grey300;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.16);
+    border: 1px solid $grey400;
+    // box-shadow: 0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.16);
   }
   img {
     padding: 16px;
@@ -354,17 +355,18 @@ pre {
 
 #markdown-toc {
   list-style-type: none;
-  text-transform: uppercase;
+  text-transform: capitalize;
   ul {
-    padding-left: 0px;
+    // padding-left: 0px;
     list-style-type: none;
     li {
       font-size: 1em;
       color: #0093A6;
-      padding: 1em 0em 0.2em 2em;
+      // padding: 1em 0em 0.2em 2em;
+      line-height: 1.5em;
       a {
         font-size: 1em;
-        color: #0093A6;
+        color: inherit;
       }
     }
   }

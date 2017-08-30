@@ -6,7 +6,10 @@ category: Components
 usage: Teaser Text
 preview-image: components/preview-images/tables.svg
 resource: true
+status: unknown
 ---
+
+{% include toc.html %}
 
 <!-- TODO: Break out into components? -->
 
@@ -17,7 +20,7 @@ cognitive load so users can get the data they need quickly and easily. With
 such pervasive use, it’s important that we make sure our tables are efficient,
 powerful, and user-friendly.
 
-# Structure {% include inprogress.html %}
+# Structure
 
 A data table contains a header row at the top that lists column names, followed
 by rows for data.
@@ -45,7 +48,7 @@ by rows for data.
   find the exact record they are looking for with minimal scrolling or
   navigating through pagination
 
-# Header Row {% include inprogress.html %}
+# Header Row
 
 Every table must have a header row, and every column must have a header row
 label.
@@ -76,7 +79,7 @@ of the table as possible.
 ![]({{site.cdn_url}}/img/components/tables-header-structured.svg){:width="100%"}
 {% endfigure %}
 
-# Sorting {% include inprogress.html %}
+# Sorting
 
 The ability to reorder table rows makes it easier for users to find the data
 they are want.
@@ -97,7 +100,7 @@ they are want.
 ![]({{site.cdn_url}}/img/components/tables-sort.svg){:width="100%"}
 {% endfigure %}
 
-# Body Row {% include inprogress.html %}
+# Body Row
 
 ## Best Practices:
 
@@ -127,7 +130,7 @@ they are want.
 ![]({{site.cdn_url}}/img/components/tables-row.svg){:width="100%"}
 {% endfigure %}
 
-# Row Hover State {% include inprogress.html %}
+# Row Hover State
 
 Hover on row only if row is expandable
 
@@ -135,7 +138,7 @@ Hover on row only if row is expandable
 ![]({{site.cdn_url}}/img/components/tables-row-hover.svg){:width="100%"}
 {% endfigure %}
 
-# Expandable Row {% include inprogress.html %}
+# Expandable Row
 
 Expandable rows are great for giving users the ability to dig for more data
 without having to navigate to a different page. When a row expands, the parent
@@ -177,7 +180,7 @@ row becomes a header for the expanded content area.
 ![]({{site.cdn_url}}/img/components/tables-row-expand.svg){:width="100%"}
 {% endfigure %}
 
-# Filtering {% include inprogress.html %}
+# Filtering
 
 Filtering is critical for users to quickly find exactly the data they need.
 
@@ -205,7 +208,7 @@ Coming Soon
     </div>
   </div>-->
 
-# Download {% include inprogress.html %}
+# Download
 
 Download is a critical function for users of data tables.
 
@@ -224,7 +227,7 @@ clicked, trigger a dropdown list that users can select their preferred file type
 ![]({{site.cdn_url}}/img/components/tables-download.svg){:width="100%"}
 {% endfigure %}
 
-# Action Buttons {% include inprogress.html %}
+# Action Buttons
 
 ## Top placement
 
@@ -253,7 +256,7 @@ clicked, trigger a dropdown list that users can select their preferred file type
 ![]({{site.cdn_url}}/img/components/tables-controls-bottom.svg){:width="100%"}
 {% endfigure %}
 
-# Bulk Selectors {% include inprogress.html %}
+# Bulk Selectors
 
 ## In Header
 
@@ -297,7 +300,7 @@ clicked, trigger a dropdown list that users can select their preferred file type
 ![]({{site.cdn_url}}/img/components/tables-controls-selected-all.svg){:width="100%"}
 {% endfigure %}
 
-# Cog {% include inprogress.html %}
+# Cog
 
 The Row Cog is a useful, if problematic component. One the one hand it allows
 power users to quickly initiate a number of create/edit workflows on an item in
@@ -329,7 +332,7 @@ out what actions are available.
 ![]({{site.cdn_url}}/img/components/tables-cog-selector.svg){:width="100%"}
 {% endfigure %}
 
-# Pagination/Lazy Loading/Load More Button {% include inprogress.html %}
+# Pagination/Lazy Loading/Load More Button
 
 ## Best Practices:
 
@@ -359,7 +362,7 @@ out what actions are available.
 ![]({{site.cdn_url}}/img/components/tables-pagination.svg){:width="100%"}
 {% endfigure %}
 
-# Table Styles {% include inprogress.html %}
+# Table Styles
 
 There are three table styles to choose from, Unbound, Bound, and Zebra
 Striping.

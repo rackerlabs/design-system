@@ -1,3 +1,112 @@
+// New design
+.base-top-bar {
+  background-color: $cyan700;
+  color: $textcolorlight !important;
+  padding: 24px 24px 20px 24px;
+  font-size: 16px;
+  a {
+    color: $grey25 !important;
+  }
+  .btn-primary {
+    background-color: inherit;
+    border: 1px solid $grey25;
+    // text-transform: capitalize;
+    .btn-sm {
+      padding: 5px 10px;
+      font-size: 12px;
+      line-height: 1.5;
+      border-radius: 3px;
+    }
+    &:hover {
+      background-color: $grey25;
+      border-color: transparent;
+      color: $cyan700;
+    }
+  }
+}
+.content-banner {
+  background-color: #e5f4f7;
+  min-height: 280px;
+  padding: 28px;
+  .component-title {
+    width: 100%;
+    font-size: 28px;
+    font-weight: 300;
+    color: $grey900;
+    margin: 36px auto 24px auto;
+    text-align: left !important;
+  }
+  .component-blurb {
+    font-size: 14px;
+    color: $grey900;
+  }
+  .hero-image {
+    margin: 36px auto 44px auto;
+    img {
+      height: 200px;
+    }
+  }
+}
+.com-code {
+  font-size: 14px;
+  color: $grey900;
+  margin: 24px 28px;
+  a {
+    color: $grey900;
+    &:hover {
+      color: $cyan700;
+      text-decoration: underline;
+    }
+  }
+}
+h1 {
+  font-size: 24px !important;
+  color: $grey900;
+}
+h2 {
+  font-size: 16px !important;
+  color: $grey900;
+}
+p {
+  font-size: 14px !important;
+  color: $grey900;
+}
+ul li {
+  font-size: 14px !important;
+  color: $grey900;
+}
+article {
+  padding: 0px 0px 0px 28px;
+  margin: 0;
+  ul#markdown-toc {
+    font-size: 14px;
+    color: $grey900;
+    margin: 0 0 24px 0;
+    padding: 0px;
+    line-height: 1.5em !important;
+    a {
+      color: $grey900;
+      line-height: 1.5em !important;
+      padding: 0px !important;
+      &:hover {
+        color: $cyan700;
+        text-decoration: underline;
+      }
+    }
+    li {
+      line-height: 1.5em !important;
+      padding: 0px !important;
+      a {
+        color: $grey900;
+        &:hover {
+          color: $cyan700;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
 /**
  * Page specific styles
  */
@@ -50,39 +159,39 @@
     margin-bottom: 40px;
   }
 
-	.col-xs-12.col-md-4.color-chip {
-		margin-bottom: 0;
-	}
+  .col-xs-12.col-md-4.color-chip {
+    margin-bottom: 0;
+  }
 
-	.color-chip, .color-chip-alert {
-	 	width: 20%;
-	 	display: block;
-	 	box-sizing: border-box;
-	 	margin-left: 0;
-	 	text-align: center;
-	 	float: left;
-	 	padding: 24px 0;
-	 	span {
-	 		display: block;
-	 	}
-	 }
+  .color-chip, .color-chip-alert {
+     width: 20%;
+     display: block;
+     box-sizing: border-box;
+     margin-left: 0;
+     text-align: center;
+     float: left;
+     padding: 24px 0;
+     span {
+       display: block;
+     }
+   }
 
-	 .color-chip span:last-of-type{
-	 	font-size:14px;
-	 }
+   .color-chip span:last-of-type{
+     font-size:14px;
+   }
 
-	 .color-chip-alert{
-	 	width:25%;
-	 }
+   .color-chip-alert{
+     width:25%;
+   }
 
-	 .primary-color-chip{
-	 	width:100%;
-	 	border-bottom:4px solid #fff;
-	 }
+   .primary-color-chip{
+     width:100%;
+     border-bottom:4px solid #fff;
+   }
 
-	 .color-chip-light{
-	 	color:#fff;
-	 }
+   .color-chip-light{
+     color:#fff;
+   }
 
   @media (min-width: 960px) {
     #primary-colors .col-xs-12, #alert-colors .col-xs-12 {
@@ -93,34 +202,34 @@
 /* Iconography */
 
 .ws-icon-row:last-of-type{
-	padding-bottom: 0px;
+  padding-bottom: 0px;
 }
 
 .ws-icon-chip{
-	margin-bottom: 40px !important;
+  margin-bottom: 40px !important;
 }
 
 .ws-icon-chip-icon{
-	color:#757575;
-	text-align: center;
+  color:#757575;
+  text-align: center;
   padding-bottom: 8px;
 }
 
 .ws-icon-chip-icon, .ws-icon-chip-text{
-	display: block;
+  display: block;
 }
 
 .ws-icon-chip-text {
-	border-top: 1px solid #e0e0e0;
-	padding:8px 0 0 0;
+  border-top: 1px solid #e0e0e0;
+  padding:8px 0 0 0;
   font-size: 0.875em;
   color: $grey600;
   text-align: center;
 }
 
 .ws-icon-chip-text:last-of-type {
-	padding: 0 0 8px 0;
-	border-top: 0;
+  padding: 0 0 8px 0;
+  border-top: 0;
 }
 
 /* Typography */
@@ -194,81 +303,81 @@
 
 /* Buttons */
 
-.ws-btn-group{
-	display: inline-block;
-	vertical-align: bottom;
-}
-
-.ws-btn-group .subtext{
-	display: block;
-	text-align: center;
-	padding-top: 8px;
-}
-
-.ws-btn-group-size .ws-btn-group, .ws-btn-group a{
-	padding-right: 40px;
-}
-
-.ws-btn-group-actions .ws-btn-group{
-	padding-right: 24px;
-}
-
-.ws-btn-group-dropdown .ws-btn-group{
-	padding-right: 24px;
-}
-
-.ws-btn-group button{
-	margin: 0;
-}
-
-.ws-btn-h3{
-	padding: 32px 0 24px 0;
-}
+// .ws-btn-group{
+//   display: inline-block;
+//   vertical-align: bottom;
+// }
+//
+// .ws-btn-group .subtext{
+//   display: block;
+//   text-align: center;
+//   padding-top: 8px;
+// }
+//
+// .ws-btn-group-size .ws-btn-group, .ws-btn-group a{
+//   padding-right: 40px;
+// }
+//
+// .ws-btn-group-actions .ws-btn-group{
+//   padding-right: 24px;
+// }
+//
+// .ws-btn-group-dropdown .ws-btn-group{
+//   padding-right: 24px;
+// }
+//
+// .ws-btn-group button{
+//   margin: 0;
+// }
+//
+// .ws-btn-h3{
+//   padding: 32px 0 24px 0;
+// }
 
 /* Grid */
 
-.ws-grid-h3{
-	padding: 32px 0;
-}
-
-.ws-grid-h3:first-of-type{
-	padding: 0 0 32px 0;
-}
-.ws-grid-img-lbl{
-	text-align: center;
-}
-.grid-bg {
-	background: #B6E3EB;
-	display: block;
-	font-size: 14px;
-	text-align: center;
-	padding: 40px 0;
-}
-.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
-	margin-bottom: 20px;
-}
-
-#device {
-	//background: #f5f5f5;
-	//border: 1px solid #616161;
-	padding: 20px 20px 0 20px;
-}
-
-.mobile:before {
-	content: "Mobile Device"
-}
-
-.desktop:before {
-	content: "Desktop"
-}
-
-.hide {
-	width: auto;
-}
-
-.expand {
-	width: 100%;
-}
+// .ws-grid-h3{
+//   padding: 32px 0;
+// }
+//
+// .ws-grid-h3:first-of-type{
+//   padding: 0 0 32px 0;
+// }
+// .ws-grid-img-lbl{
+//   text-align: center;
+// }
+// .grid-bg {
+//   background: #B6E3EB;
+//   display: block;
+//   font-size: 14px;
+//   text-align: center;
+//   padding: 40px 0;
+// }
+// .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
+//   margin-bottom: 20px;
+// }
+//
+// #device {
+//   //background: #f5f5f5;
+//   //border: 1px solid #616161;
+//   padding: 20px 20px 0 20px;
+// }
+//
+// .mobile:before {
+//   content: "Mobile Device"
+// }
+//
+// .desktop:before {
+//   content: "Desktop"
+// }
+//
+// .hide {
+//   width: auto;
+// }
+//
+// .expand {
+//   width: 100%;
+// }
 
 /* Tooltip */
 

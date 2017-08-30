@@ -11,6 +11,8 @@ status: unknown
 resource: true
 ---
 
+{% include toc.html %}
+
 Use the tooltip when you want to convey brief snippets of information, to
 explain an element a bit more, or to display truncated text.
 
@@ -24,13 +26,13 @@ explain an element a bit more, or to display truncated text.
 
 -   Max width for the tooltip is 440px.
 
-<div class="row">
-{% column left:"col-md-6" %}
+<div class="hxRow">
+{% column left:"hxCol" %}
 {% figure [caption:"Tooltip"] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/components/Tooltips/tooltip.svg){:width="100%"}
 {% endfigure %}
 {% endcolumn %}
-{% column right:"col-md-6" %}
+{% column right:"hxCol" %}
 {% figure [caption:"Tooltip specs"] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/components/Tooltips/tooltip-specs.svg){:width="100%"}
 {% endfigure %}
