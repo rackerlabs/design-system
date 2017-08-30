@@ -16,117 +16,21 @@ body {
 
 .logo {
     display: block;
-    width: 17em;
-    height: 60px;
-    background: $grey975;
+    // height: 98px;
     position: relative;
-    top: 0px;
-    left: 0px;
+    a {
+      padding: 0 !important;
+    }
     img {
-        height: 2em;
-        width: auto;
+        height: 26px;
+        width: 122px;
         position: relative;
-        top: 2em;
-        left: 4em;
+        margin: 16px auto 28px auto;
     }
 }
 
 nav.side {
     position: fixed;
-    display: block;
-    box-sizing: inherit;
-    .primary-nav {
-      padding: 1.5em 0 1em 0;
-    }
-    top: 0px;
-    left: 0;
-    bottom: 0;
-    line-height: 1.5em;
-    width: 17em;
-    overflow-x: hidden;
-    overflow-y: auto;
-    @include box-shadow(0px 5px 6px 1px rgba(102,102,102,.25));
-    z-index: 2;
-    background-color: $grey975;
-    @include font-smoothing(antialiased);
-    font-weight:600;
-    .inactive {
-        display: none;
-    }
-    .active {
-        display:block;
-    }
-    ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        li {
-            position: relative;
-            &.parent {
-                &:after {
-                    content: "\e900";
-                    font-family: 'DS_icon_font' !important;
-                    speak: none;
-                    font-style: normal;
-                    font-weight: 500;
-                    font-variant: normal;
-                    text-transform: none;
-                    line-height: 1;
-                    @include font-smoothing(antialiased);
-                    -moz-osx-font-smoothing: grayscale;
-                    text-decoration: inherit;
-                    color: $grey400;
-                    font-size: $base-font-size;
-                    padding-right: 2em;
-                    position: absolute;
-                    top: 12px;
-                    right: 0;
-                    font-size: 12px;
-                }
-                &.active {
-                    &:after {
-                        content: "\e903";
-                    }
-                }
-            }
-            a {
-                color: $grey200;
-                position: relative;
-                display: block;
-                padding: 8px 32px;
-                letter-spacing: 0.05em;
-                text-decoration: none;
-                text-transform: uppercase;
-                &.active{
-                    background: $grey900;
-                    color: $grey200;
-                    text-decoration: none;
-                }
-                &:hover {
-                    background: $grey800;
-                    color: $grey200;
-                    text-decoration: none;
-                }
-            }
-            ul {
-                li {
-                    a {
-                        font-weight: 400;
-                        padding-left: 64px;
-                        text-transform: none;
-                    }
-                    a:hover{
-                        background-color: $grey800;
-                        color: $grey200;
-                    }
-                    a.active {
-                        background-color: $grey900;
-                        color: $grey200;
-                    }
-                }
-            }
-        }
-    }
 }
 
 /**
@@ -200,7 +104,7 @@ a.anchor {
   @include font-smoothing(antialiased);
   a {
     color:#FBC02D;
-    font-weight: 500;
+    font-weight: $medium-weight;
   }
   a:hover, a:active{
     color: #FFEB3B;
@@ -215,7 +119,7 @@ a.anchor {
   @include font-smoothing(antialiased);
   a {
     color:#FBC02D;
-    font-weight: 500;
+    font-weight: $medium-weight;
   }
   a:hover, a:active{
     color: #FFEB3B;
@@ -230,7 +134,7 @@ a.anchor {
   @include font-smoothing(antialiased);
   a {
     color:#FBC02D;
-    font-weight: 500;
+    font-weight: $medium-weight;
   }
   a:hover, a:active{
     color: #FFEB3B;
@@ -241,7 +145,7 @@ a.anchor {
   background-color: $grey300;
   padding: $paddingXS $paddingS;
   border-radius: 12px;
-  font-weight:400;
+  font-weight:$regular-weight;
   font-size:12px;
   letter-spacing:0.5px;
   color: #fff;
@@ -389,7 +293,7 @@ pre {
     box-shadow: 0 5px 15px rgba(0,0,0,0.08), 0 5px 10px rgba(0,0,0,0.16);
   }
   h1 {
-    font-weight: 400;
+    font-weight: $regular-weight;
     margin: 0;
     text-decoration: none;
   }

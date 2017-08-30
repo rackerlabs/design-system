@@ -1,32 +1,32 @@
-<nav class="side">
-  <div class="logo"><a href="{{site.url}}/"><img src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/overview/Helix_Logo_%20Final-2.svg" class="logo" class="logo"></a></div>
-  <ul class="primary-nav">
-    {% assign currenturl = page.url %}
-    {% assign currentpg = page.url %}
-    <li><a href="{{site.url}}/" {% if currenturl == "/" %} class="active" {% else %} {% endif %}>Home</a></li>
-    {% for navItem in site.data.navigation %}
-      {% assign currentNav = navItem.name | slugify %}
-      <li class="parent">
-        <a href="#" {% if page.url contains currentNav %} class="active open" {% else %} class="open" {% endif %}id="button">{{navItem.display}}</a>
-        <ul {% if page.url contains currentNav %} class="box active" {% else %} class="box inactive" {% endif %}id="effect">
-          {% for collection in site.collections %}
-            {% assign theLabel = collection.label %}
-            {% for page in site.[theLabel] %}
-              {% if page.category == navItem.name and page.resource == true %}
-                <li><a href="{{site.url}}{{page.url}}.html" {% if currenturl contains page.url %} class="active" {% endif %}>{{page.title}}</a></li>
-              {% endif %}
-            {% endfor %}
+<nav class="hx-app-nav">
+  <div class="logo"><a href="{{site.url}}/"><img src="{{site.cdn_url}}/img/overview/Helix_Logo_%20Final-2.svg" class="logo" class="logo"></a></div>
+  {% assign currenturl = page.url %}
+  {% assign currentpg = page.url %}
+  <a href="{{site.url}}/" {% if currenturl == "/" %} class="current" {% else %} {% endif %}>Home</a>
+  {% for navItem in site.data.navigation %}
+    {% assign currentNav = navItem.name | slugify %}
+    <section {% if page.url contains currentNav %} class="open"{% endif %}>
+      <header>
+        {{navItem.display}}
+        <hx-icon class="toggle-icon" type="angle-down"></hx-icon>
+      </header>
+      <div>
+        {% for collection in site.collections %}
+          {% assign theLabel = collection.label %}
+          {% for page in site.[theLabel] %}
+            {% if page.category == navItem.name and page.resource == true %}
+              <a href="{{site.url}}{{page.url}}.html" {% if currenturl contains page.url %} class="current" {% endif %}>{{page.title}}</a>
+            {% endif %}
           {% endfor %}
-        </ul>
-      </li>
-    {% endfor %}
+        {% endfor %}
+      </div>
+    </section>
+  {% endfor %}
 
-    <li><a href="{{site.url}}/resources" {% if currenturl == "/resources" %} class="active" {% endif %}>Resources</a></li>
-    <li><a href="{{site.url}}/contribute" {% if currenturl == "/contribute" %} class="active" {% endif %}>Contribute</a></li>
-    <!-- This adds the status page to the nav, it is commented out until we better define the use-case
-    <li><a href="{{site.url}}/status.html" {% if currenturl == "/contribute" %} class="active" {% else %} {% endif %}>Status</a></li> -->
+  <a href="{{site.url}}/resources" {% if currenturl == "/resources" %} class="current" {% endif %}>Resources</a>
+  <a href="{{site.url}}/contribute" {% if currenturl == "/contribute" %} class="current" {% endif %}>Contribute</a>
+  <!-- This adds the status page to the nav, it is commented out until we better define the use-case
+  <a href="{{site.url}}/status.html" {% if currenturl == "/contribute" %} class="active" {% else %} {% endif %}>Status</a> -->
 
-    <!--<li><a href="{{site.url}}/upcoming" {% if currenturl == "/upcoming" %} class="active" {% else %} {% endif %}>Upcoming</a></li>-->
-
-  </ul>
+  <!--<a href="{{site.url}}/upcoming" {% if currenturl == "/upcoming" %} class="active" {% else %} {% endif %}>Upcoming</a>-->
 </nav>
