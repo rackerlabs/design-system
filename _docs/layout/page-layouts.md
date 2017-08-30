@@ -1,21 +1,20 @@
 ---
 title: Page layouts
-layout: default
+layout: docs
 category: Layout
-usage: Teaser Text
+usage: |
+  The layout for all Rackspace control panels consists of 4 parts: the account
+  navigation bar, the main navigation, the content area, and the footer.
 preview-image: layout/preview-images/page-layout.svg
 resource: true
 ---
-
-The layout for all Rackspace control panels consists of 4 parts: the account
-navigation bar, the main navigation, the content area, and the footer.
 
 {% include toc.html %}
 
 # Base layouts
 
-<div class="row">
-{% column left:"col-md-4" %}
+<div class="hxRow">
+{% column left:"hxCol-md-4" %}
 - Use the account navigation bar to navigate between applications,
   manage roles, and manage preferences on both the user and the account
   level.
@@ -33,7 +32,7 @@ navigation bar, the main navigation, the content area, and the footer.
   links.
 
 {% endcolumn %}
-{% column right:"col-md-8" %}
+{% column right:"hxCol-md-8" %}
 {% figure [caption:"Using top navigation provides more horizontal real estate for
 your content area. However, this can limit the number of navigation items."] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/layout/layout-navigation-top.svg){:width="100%"}
@@ -53,12 +52,12 @@ Build the content area using a 12 Column Grid. See [grid](/layout/grid) for more
 
 ## Full Width Content Area
 
-<div class="row">
-{% column left:"col-md-4" %}
+<div class="hxRow">
+{% column left:"hxCol-md-4" %}
 - Navigation is not a part of the 12 Column Grid.
 - Content area background color: Gray 25, #FAFAFA
 {% endcolumn %}
-{% column right:"col-md-8" %}
+{% column right:"hxCol-md-8" %}
 {% figure [caption:"Full width with top navigation"] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/layout/layout-content-full-top-nav.svg){:width="100%"}
 {% endfigure %}
@@ -78,12 +77,12 @@ Build the content area using a 12 Column Grid. See [grid](/layout/grid) for more
 
 ### Right side rail
 
-<div class="row">
-{% column left:"col-md-4" %}
+<div class="hxRow">
+{% column left:"hxCol-md-4" %}
 - 3 columns
 - Background color: Gray 100, #EEEEEE
 {% endcolumn %}
-{% column right:"col-md-8" %}
+{% column right:"hxCol-md-8" %}
 {% figure [caption:"Right side rail with top navigation"] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/layout/layout-right-side-rail-top-nav.svg){:width="100%"}
 {% endfigure %}
@@ -103,12 +102,12 @@ Build the content area using a 12 Column Grid. See [grid](/layout/grid) for more
 
 ### Left side rail
 
-<div class="row">
-{% column left:"col-md-4" %}
+<div class="hxRow">
+{% column left:"hxCol-md-4" %}
 - 3 columns
 - Background color: Gray 100, #EEEEEE
 {% endcolumn %}
-{% column right:"col-md-8" %}
+{% column right:"hxCol-md-8" %}
 {% figure [caption:"Left side rail with top navigation"] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/layout/layout-left-side-rail-top-nav.svg){:width="100%"}
 {% endfigure %}
@@ -123,14 +122,14 @@ Build the content area using a 12 Column Grid. See [grid](/layout/grid) for more
 
 ### Module content area
 
-<div class="row">
-{% column left:"col-md-4" %}
+<div class="hxRow">
+{% column left:"hxCol-md-4" %}
 - 4 columns each
 - Canvas Height: variable
 - Background color: Gray 25, #FAFAFA
 - Canvas color: Gray 300, #E0E0E0
 {% endcolumn %}
-{% column right:"col-md-8" %}
+{% column right:"hxCol-md-8" %}
 {% figure [caption:"Dashboard layout with top navigation"] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/layout/layout-dashboard-top-nav.svg){:width="100%"}
 {% endfigure %}

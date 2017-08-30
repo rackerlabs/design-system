@@ -1,6 +1,6 @@
 ---
 title: Iconography
-layout: default
+layout: docs
 category: Style
 usage: |
   Helix icons are easily identifiable simple shapes that visually
@@ -20,7 +20,7 @@ project at
 If you need an additional icon, please submit your request to the
 <a href="mailto:helix.designsystem@rackspace.com?subject=Icon Request">Helix Team</a>.
 
-# Utility Icons {% include inprogress.html %}
+# Utility Icons
 Utility icons are used in place of text to perform an action. They are based on
 commonly used, established metaphors. Utility icons share the color style of
 links or match the color of body text dependent on the background color.
@@ -43,7 +43,7 @@ links or match the color of body text dependent on the background color.
 </div>
 </article>
 
-# Object Icons {% include inprogress.html %}
+# Object Icons
 
 Object icons should be used sparingly and consistently across Rackspace
 products. Their purpose is to provide a visual differentiator between items in
@@ -77,7 +77,7 @@ a list or symbolize types of content.
   {% endif %}
 </div>
 
-# Validation Icons {% include inprogress.html %}
+# Validation Icons
 Validation icons can be used to provide checks, errors, and warnings in forms.
 They also can be used to draw users' attention to statuses or messages. Use the
 colors blow to draw the users' attention. Otherwise use the icons in black,

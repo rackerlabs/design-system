@@ -1,6 +1,7 @@
 ---
 title: Resources
-layout: default
+layout: docs
+category: Resources
 ---
 
 # Adobe Illustrator
@@ -30,23 +31,23 @@ to sync shared folders, so If you download it from another source it will not
 work. If your computer does not have the Managed Software Center installed on
 it, you'll need to go to O'Fixies to install it.
 
-<div class="row">
-{% column left:"col-md-4" %}
+<div class="hxRow">
+{% column left:"hxCol-md-4" %}
 -   Visit the link above and click the "Sync" button.
 {% endcolumn %}
-{% column right:"col-md-7" %}
+{% column right:"hxCol-md-7" %}
 ![](http://screenshots1234.s3.amazonaws.com/ybRVG6nQomLK085XPQRCjhAWmUzBz8Vtru.png){:width="80%"}
 {% endcolumn %}
 </div>
 
-<div class="row">
-{% column left:"col-md-4" %}
+<div class="hxRow">
+{% column left:"hxCol-md-4" %}
 -   Syncing the folder will create a second OneDrive folder on your computer.
     It will also add the folder as a second location to your OneDrive App.
 
     {% include tip.html content="DO NOT rename these folders." %}
 {% endcolumn %}
-{% column right:"col-md-7" %}
+{% column right:"hxCol-md-7" %}
 ![](http://design.rax.io/wp-content/uploads/2016/11/m9A3HvMcm91MlitWqEa1SrO4OZBmpVb8Rt.png){:width="80%"}
 {% endcolumn %}
 </div>
@@ -55,27 +56,27 @@ it, you'll need to go to O'Fixies to install it.
 
 ### Sketch Template
 
-<div class="row">
-{% column left:"col-md-4" %}
+<div class="hxRow">
+{% column left:"hxCol-md-4" %}
 If you choose the Sketch template you can create a new file from it and edit it
 as you wish without affecting the original document. Sketch maintains the link
 to the template in your "New from Template" menu. So if you selected it from
 the shared drive above, it will always access the most up to date file.
 {% endcolumn %}
-{% column right:"col-md-7" %}
+{% column right:"hxCol-md-7" %}
 ![](http://design.rax.io/wp-content/uploads/2016/08/Design-System-Sketch-2.png){:width="80%"}
 {% endcolumn %}
 </div>
 
 ### Craft Library
 
-<div class="row">
-{% column left:"col-md-4" %}
+<div class="hxRow">
+{% column left:"hxCol-md-4" %}
 If you aren't familiar with Craft, it is a Sketch add-on that includes a
 feature for shared libraries. If imported into your project the Craft library
 will automatically alert you when new assets are available.
 {% endcolumn %}
-{% column right:"col-md-7" %}
+{% column right:"hxCol-md-7" %}
 ![](http://design.rax.io/wp-content/uploads/2016/08/Design-System-Sketch-3.png){:width="80%"}
 {% endcolumn %}
 </div>

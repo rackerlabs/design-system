@@ -1,6 +1,6 @@
 ---
 title: Color Palette
-layout: default
+layout: docs
 category: Style
 usage: |
   The Helix color palette consists of deep modern hues juxtaposed with simple
@@ -10,15 +10,15 @@ resource: true
 status: complete
 ---
 
+{% include toc.html %}
+
 The use of color establishes cohesion across Rackspace products. Our color
 palette has been selected to enhance usability while adhering to accessibility
 criteria. Guidelines for color usage are outlined for
 [typography](/style/typography/) and individual components. Avoid adding color
 to "spice things up" as this will distract the user from his or her workflow.
 
-{% include toc.html %}
-
-# Primary Colors {% include inprogress.html %}
+# Primary Colors
 
 Primary colors should be used sparingly for primary and secondary actions,
 alerts or data visualizations.
@@ -43,7 +43,7 @@ alerts or data visualizations.
   </div>
 
 
-# Alert Colors {% include complete.html %}
+# Alert Colors
 Secondary colors are used for content-specific needs, such as alerts and
 illustrations. They should never overpower the primary colors.
   <div class="hxRow">
@@ -66,7 +66,7 @@ illustrations. They should never overpower the primary colors.
     {%endfor%}
   </div>
 
-# Grayscale {% include complete.html %}
+# Grayscale
 
 These colors are used largely for background blocks to define content areas. Be
 sure to use enough contrast between adjacent colors.

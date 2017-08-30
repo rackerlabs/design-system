@@ -1,6 +1,6 @@
 ---
 title: Application Layers
-layout: default
+layout: docs
 category: Layout
 usage: Teaser Text
 preview-image:
@@ -9,7 +9,7 @@ resource: true
 
 {% include toc.html %}
 
-# Helix-UI Architecture {% include inprogress.html %}
+# Helix-UI Architecture
 
 The Helix design language utilizes the concept of application layers to
 designate where a product or service is located within the Helix-UI
