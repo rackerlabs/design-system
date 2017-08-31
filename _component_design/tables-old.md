@@ -6,6 +6,7 @@ category: Components
 usage: Teaser Text
 preview-image: components/preview-images/tables.svg
 resource: true
+last-modified: 2017-08-17
 ---
 
 <!-- TODO: Break out into components? -->

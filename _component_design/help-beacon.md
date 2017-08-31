@@ -1,6 +1,7 @@
 ---
 title: Help Beacon
-parent: Help, Notifications
+parent: Help
+secondary: Notifications
 layout: component
 category: Components
 usage: |
@@ -9,6 +10,7 @@ usage: |
 preview-image: components/preview-help.svg
 status: deprecated, in-progress
 resource: true
+last-modified: 2017-08-17
 ---
 
 {% include toc.html %}

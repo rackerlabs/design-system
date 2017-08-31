@@ -1,12 +1,14 @@
 ---
 title: Popovers
-parent: Content Areas, Editing
+parent: Content Areas
+secondary: Editing
 layout: component
 category: Components
 usage: Teaser Text
 preview-image: components/preview-images/popover.svg
 resouce: false
 status: unknown
+last-modified: 2017-08-17
 ---
 
 {% include toc.html %}

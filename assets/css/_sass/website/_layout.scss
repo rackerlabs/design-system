@@ -8,6 +8,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  // height: 100%;
   background-color: $grey25;
   line-height: $base-line-height;
   overflow-x: hidden;
@@ -41,14 +42,14 @@ nav.side {
  * Page layout
  */
 .page-wrapper {
-    // box-sizing: inherit;
-    display: flex;
-    .page-content {
-        overflowY: scroll;
-        box-sizing: border-box;
-        flex: 1;
-    }
-}
+  display: flex;
+  min-height: 100%;
+  .page-content {
+    box-sizing: border-box;
+    overflowY: scroll;
+    flex: 1;
+  }
+};
 
 /**
  * Content styles
@@ -59,6 +60,13 @@ article {
   &:first-child {
     border-bottom: none;
   }
+  a {
+    color: $cyan700;
+    &:hover {
+      color: $cyan700;
+      text-decoration: underline;
+    };
+  };
   /* border-bottom: 1px solid #e0e0e0; this will be uncommented once the rest of the content is edited to use less article tags on a page, the border-bottom segmentation works best when articles have multiple rows and plenty of content */
   ul {
     font-size: 0.87em;
@@ -247,7 +255,7 @@ pre {
     list-style-type: none;
     li {
       font-size: 1em;
-      color: #0093A6;
+      color: $cyan700;
       // padding: 1em 0em 0.2em 2em;
       line-height: 1.5em;
       a {
