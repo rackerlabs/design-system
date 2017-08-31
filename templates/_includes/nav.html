@@ -1,26 +1,40 @@
 <nav class="hx-app-nav side">
   <div class="logo"><a href="{{site.url}}/"><img src="{{site.cdn_url}}/img/overview/Helix_Logo_%20Final-2.svg" class="logo" class="logo"></a></div>
   {% assign currenturl = page.url %}
-  {% assign currentpg = page.url %}
   <a href="{{site.url}}/" {% if currenturl == "/" %} class="current" {% else %} {% endif %}>Home</a>
   {% for navItem in site.data.navigation %}
     {% assign currentNav = navItem.name | slugify %}
-    <section {% if page.url contains currentNav %} class="open"{% endif %}>
-      <header>
-        {{navItem.display}}
-        <hx-icon class="toggle-icon" type="angle-down"></hx-icon>
-      </header>
-      <div>
-        {% for collection in site.collections %}
-          {% assign theLabel = collection.label %}
-          {% for page in site.[theLabel] %}
-            {% if page.category == navItem.name and page.resource == true %}
-              <a href="{{site.url}}{{page.url}}.html" {% if currenturl contains page.url %} class="current" {% endif %}>{{page.title}}</a>
-            {% endif %}
+    {% if currentNav != "components" %}
+      <section {% if page.url contains currentNav %} class="open"{% endif %}>
+        <header>
+          {{navItem.display}}
+          <hx-icon class="toggle-icon" type="angle-down"></hx-icon>
+        </header>
+        <div>
+          {% for collection in site.collections %}
+            {% assign theLabel = collection.label %}
+            {% for page in site.[theLabel] %}
+              {% if page.category == navItem.name and page.resource == true %}
+                <a href="{{site.url}}{{page.url}}.html" {% if currenturl contains page.url %} class="current" {% endif %}>{{page.title}}</a>
+              {% endif %}
+            {% endfor %}
           {% endfor %}
-        {% endfor %}
-      </div>
-    </section>
+        </div>
+      </section>
+    {% else %}
+      <section {% if page.url contains currentNav %} class="open"{% endif %}>
+        <header>
+          {{navItem.display}}
+          <hx-icon class="toggle-icon" type="angle-down"></hx-icon>
+        </header>
+        <div>
+          {% for famItem in site.data.families %}
+            {% assign currentFam = famItem.parent | slugify %}
+            <a href="{{site.url}}/components/{{currentFam}}.html" {% if currenturl contains currentFam %} class="current" {% elsif page.parent contains famItem.parent %} class="current"{% endif %}>{{famItem.display}}</a>
+          {% endfor %}
+        </div>
+      </section>
+    {% endif %}
   {% endfor %}
 
     <a href="{{site.url}}/resources" {% if currenturl == "/resources" %} class="current" {% endif %}>Resources</a>

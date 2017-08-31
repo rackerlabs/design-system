@@ -7,6 +7,7 @@ usage: Teaser Text
 preview-image: components/preview-images/tabs.svg
 resource: true
 status: unknown
+last-modified: 2017-08-17
 ---
 
 {% include toc.html %}

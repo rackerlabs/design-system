@@ -8,6 +8,7 @@ preview-image: components/device-picker.svg
 published: true
 status: complete, in-progress
 resource: true
+last-modified: 2017-08-17
 ---
 
 {% include toc.html %}

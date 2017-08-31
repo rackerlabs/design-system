@@ -11,8 +11,8 @@
     </title>
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-    <link rel="stylesheet" href="{{ 'assets/css/jquery-ui.css' | prepend: site.baseurl }}">
-    <link rel="stylesheet" href="{{ 'assets/css/website.css' | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ site.url }}/assets/css/jquery-ui.css">
+    <link rel="stylesheet" href="{{ site.url }}/assets/css/website.css">
     <link rel="stylesheet" href="https://2d2bf231b82dfe76fe36-fa12562cfe810d69bedcc36a0ac289ef.ssl.cf1.rackcdn.com/css/bootstrap.helix.css">
     <link rel="stylesheet" href="https://2d2bf231b82dfe76fe36-fa12562cfe810d69bedcc36a0ac289ef.ssl.cf1.rackcdn.com/css/helix-ui.css">
 

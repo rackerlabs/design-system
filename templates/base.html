@@ -32,9 +32,9 @@
           <div class="hxRow">
             <div class="hxCol">
               <nav class="hxBreadcrumb">
-                <a href="#">{{page.category}}</a>
+                <a href="{{site.url}}/components/index.html">{{page.category}}</a>
                 <hx-icon class="delimiter" type="angle-right"></hx-icon>
-                <a href="#">{{page.parent}}</a>
+                <a href="{{site.url}}/components/{{page.parent | slugify}}.html">{{page.parent}}</a>
                 <hx-icon class="delimiter" type="angle-right"></hx-icon>
                 <a href="{{page.url}}">{{page.title}}</a>
               </nav>
