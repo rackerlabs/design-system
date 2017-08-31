@@ -5,8 +5,7 @@ layout: family
 category: Components
 usage: null
 preview-image: null
-status: in-progress
-resource: false
+last-modified: 2017-08-17
 ---
 
 {% for page in site.component_design %}
@@ -16,13 +15,13 @@ resource: false
       <div class="hxCol-8">
         <div class="hxRow">
           <div class="hxCol">
-            <div class="component-title">{{page.title}}</div>
+            <div class="component-title"><a href="{{site.url}}{{page.url}}.html">{{page.title}}</a></div>
           </div>
         </div>
         <div class="hxRow">
           <div class="hxCol">
             <div class="component-blurb">{{page.usage}}</div>
-            <div class="component-status">Last modified: {{page.modified_time}} | Component status: {{page.status}}</div>
+            <div class="component-status">Last modified: {{page.last-modified | date:"%d %B %Y"}} | Component status: {{page.status}}</div>
           </div>
         </div>
       </div>

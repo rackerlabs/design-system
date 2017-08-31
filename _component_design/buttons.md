@@ -1,6 +1,7 @@
 ---
 title: Buttons
-parent: Editing, Inputs and Controls
+parent: Editing
+secondary: Inputs and Controls
 layout: component
 category: Components
 usage: |
@@ -8,6 +9,7 @@ usage: |
 preview-image: components/preview-selectors.svg
 status: pending
 resource: true
+last-modified: 2017-08-17
 ---
 
 {% include toc.html %}

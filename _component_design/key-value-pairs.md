@@ -1,11 +1,13 @@
 ---
 title: Key Value Pairs
+parent: unknown
 layout: component
 category: Components
 usage: Teaser Text
 preview-image:
 resource: true
 status: unknown
+last-modified: 2017-08-17
 ---
 
 {% include toc.html %}

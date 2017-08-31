@@ -6,6 +6,7 @@ category: Components
 usage: Teaser Text
 preview-image:
 resource: true
+last-modified: 2017-08-17
 ---
 
 {% include toc.html %}

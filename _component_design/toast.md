@@ -9,6 +9,7 @@ usage: |
 preview-image: components/preview-images/toast.svg
 status: deprecated
 resource: false
+last-modified: 2017-08-17
 ---
 
 {% include toc.html %}

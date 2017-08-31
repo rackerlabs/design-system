@@ -28,8 +28,34 @@
     <div class="page-wrapper">
       {% include nav.html %}
       <div class="page-content">
-        {{ content }}
-      </div>
+        <div class="base-top-bar">
+          <div class="hxRow">
+            <div class="hxCol">
+              <nav class="hxBreadcrumb">
+                <a href="{{site.url}}/components/index.html">{{page.category}}</a>
+                <hx-icon class="delimiter" type="angle-right"></hx-icon>
+                <a href="{{site.url}}/components/{{page.parent | slugify}}.html">{{page.parent}}</a>
+                <hx-icon class="delimiter" type="angle-right"></hx-icon>
+                <a href="{{page.url}}">{{page.title}}</a>
+              </nav>
+            </div>
+            <div class="hxCol">
+              <div class="hxRow">
+                <div class="hxCol-4 hxOffset-4">
+                  <button class="btn btn-primary btn-sm">Submit issue</button>
+                </div>
+                <div class="hxCol-4">
+                  <button class="btn btn-primary btn-sm">Sketch template</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hxRow">
+          <div class="hxCol">
+            {{ content }}
+          </div>
+        </div>
     </div>
     {% include footer.html %}
   </body>
