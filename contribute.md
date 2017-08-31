@@ -15,6 +15,39 @@ The InfoDev team also uses pre-determined [style guidelines](https://github.com/
 
 For more information on editing the Helix documentation, reach out to: [infodev@rackspace.com](infodev@rackspace.com)
 
+#### Custom implementation information
+
+For figures, place the image in the `assets/images/` directory, and use the following pattern in the Markdown:
+
+    {% figure [caption:"<caption information>"] [class:"image bg-light border"] %}
+    ![]({{site.url}}<relative-path>){:width="100%"}
+    {% endfigure %}
+
+For 2-column display, use the following pattern in the Markdown:
+
+    <div class="hxRow">
+    {% column left:"hxCol" %}
+    <content for the first column>
+    {% endcolumn %}
+    {% column right:"hxCol" %}
+    <content for the second column>
+    {% endcolumn %}
+    </div>
+
+For 3-column display, use the following pattern in the Markdown:
+
+    <div class="hxRow">
+    {% column left:"hxCol" %}
+    <content for the first column>
+    {% endcolumn %}
+    {% column left:"hxCol" %}
+    <content for the second column>
+    {% endcolumn %}
+    {% column right:"hxCol" %}
+    <content for the third column>
+    {% endcolumn %}
+    </div>
+
 ### Submitting pattern designs
 
 <a href="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/docs/Submitting-Pattern-Design-to-Helix.pdf" target="_blank"><img class="image bg-light border" src="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/docs/Submitting-Pattern-Design-to-Helix.jpg"></a>
