@@ -6,8 +6,8 @@
   padding: 28px 0;
   .fam-display {
     width: 100%;
-    font-size: 48px;
-    font-weight: 100;
+    font-size: $font-size-7;
+    font-weight: $thin-weight;
     color: $textcolorlight !important;
     margin: 52px 28px 8px 28px;
     text-align: left !important;
@@ -16,7 +16,7 @@
 .component-element {
   .component-title {
     a {
-      font-size: 24px;
+      font-size: $font-size-5;
       color: $grey900;
       &:hover {
         color: $cyan700;
@@ -27,9 +27,9 @@
     text-align: left !important;
   }
   .component-blurb {
-    font-size: 16px;
+    font-size: $base-font-size;
     color: $grey900;
-    font-weight: 300;
+    font-weight: $light-weight;
     margin: 16px 0px;
     text-align: left !important;
   }
@@ -43,39 +43,39 @@
     // }
   }
   .component-status {
-    font-size: 14px;
+    font-size: $font-size-3;
     color: $grey700;
     margin: 16px 0px;
   }
 }
 h1 {
-  font-size: 24px !important;
+  font-size: $font-size-5 !important;
   color: $grey900;
 }
 h2 {
-  font-size: 16px !important;
+  font-size: $base-font-size !important;
   color: $grey900;
 }
 p {
-  font-size: 14px !important;
+  font-size: $font-size-3 !important;
   color: $grey900;
 }
 ul li {
-  font-size: 14px !important;
+  font-size: inherit;
   color: $grey900;
 }
 article {
   // padding: 0px 0px 0px 28px;
   margin: 0;
   ul#markdown-toc {
-    font-size: 14px;
+    font-size: $base-font-size;
     color: $grey900;
     margin: 0 0 24px 0;
     padding: 0px;
-    line-height: 1.5em !important;
+    line-height: $base-line-height;
     a {
       color: $grey900;
-      line-height: 1.5em !important;
+      line-height: $base-line-height;
       padding: 0px !important;
       &:hover {
         color: $cyan700;
@@ -83,7 +83,7 @@ article {
       }
     }
     li {
-      line-height: 1.5em !important;
+      line-height: $base-line-height;
       padding: 0px !important;
       a {
         color: $grey900;
@@ -97,23 +97,14 @@ article {
 }
 .index-toc {
   ul {
-    font-size: 14px;
+    font-size: $font-size-3;
     color: $grey900;
     margin: 0 0 24px 0;
     // padding: 0px;
     list-style: none;
-    line-height: 1.5em !important;
-    // a {
-    //   color: $grey900 !important;
-    //   // line-height: 1.5em !important;
-    //   // padding: 0px !important;
-    //   &:hover {
-    //     color: $cyan700;
-    //     text-decoration: underline;
-    //   }
-    // }
+    line-height: $base-line-height !important;
     li {
-      line-height: 1.5em !important;
+      line-height: $base-line-height !important;
       padding: 0px !important;
       a {
         color: $grey900 !important;
