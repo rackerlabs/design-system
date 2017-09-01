@@ -21,7 +21,6 @@ Use breadcrumbs on Rackspace sub-pages to let the user know where they are in th
 When using breadcrumbs, keep the following in mind:
 
 * Keep the breadcrumbs brief and as minimal as possible.
-* The breadcrumb name should be the same as the page it navigates to. If the page name is long, follow abbreviation instructions in specs.
 * Ensure the breadcrumbs go on the top of the page, above the header, and only show up on the second level of your app and deeper.
 
 ## Problems being solved
@@ -66,8 +65,6 @@ Breadcrumbs offer a way to articulate the platform architecture in a way the use
 <div class="row">
 {% column left:"col-md-4" %}
 ## To many items
-
-<!---* __Jump the crumb:__ Maybe we’ve really overdone it on the architecture. It happens (does it have to though?). Whattaya do? If you can’t abbreviate adequately, we have to jump the breadcrumbs. What’s that mean?--->
 
 * __What to Keep:__ Keep the first item in the architecture so it is easy to navigate, re-orientate, and return to home. Keep the last three items in the architecture, including the current page. The ellipses are not clickable or expandable.
 
