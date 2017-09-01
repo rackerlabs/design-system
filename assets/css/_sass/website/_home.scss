@@ -11,14 +11,14 @@
     flex: 1;
   };
   h2 {
-    font-size: 24px;
-    font-weight: 400;
+    font-size: $font-size-5;
+    font-weight: $regular-weight;
     color: $grey400;
     margin: 40px auto 0px auto;
   };
   p {
-    font-size: 14px;
-    font-weight: 400;
+    font-size: $font-size-3;
+    font-weight: $regular-weight;
     color: $grey600 !important;
     margin: 12px auto !important;
   };
@@ -53,8 +53,8 @@
   margin: 28px auto 12px auto;
   text-align: center;
   &.display-font {
-    font-size: 24px;
-    font-weight: 300;
+    font-size: $font-size-5;
+    font-weight: $light-weight;
     color: $grey900;
     text-align: center;
   }
@@ -62,11 +62,11 @@
 
 .overview-content {
   p {
-    font-size: 16px;
-    font-weight: 300;
+    font-size: $base-font-size;
+    font-weight: $light-weight;
     color: $grey900;
     text-align: center;
-    line-height: 1.5em !important;
+    line-height: $base-line-height !important;
     max-width: none;
   }
   .main-logo {
@@ -93,27 +93,27 @@
     }
     .card-heading {
       font-weight: 600;
-      font-size: 16px;
+      font-size: $base-font-size;
       color: $grey900;
       margin: 0px auto;
     }
     p {
-      font-weight: 400;
-      font-size: 14px;
+      font-weight: $regular-weight;
+      font-size: $font-size-3;
       color: $grey900;
       margin: 20px auto;
-      line-height: 1.5em !important;
+      line-height: $base-line-height !important;
     }
     a {
-      font-weight: 400;
-      font-size: 16px;
+      font-weight: $regular-weight;
+      font-size: $base-font-size;
       color: $cyan700;
     }
     ul {
       list-style: none;
       padding: 0;
       li {
-        line-height: 1.5em !important;
+        line-height: $base-line-height !important;
         text-align: center;
       };
     }
@@ -122,7 +122,7 @@
       button {
         text-transform: capitalize;
         padding: 0.5em;
-        font-size: 16px;
+        font-size: $base-font-size;
       };
     }
   }
