@@ -64,9 +64,9 @@ timeline of events.
 -   Display order:
     -   Under 1 minute: "just now"
     -   After first minute: "1 min"
-    -   After second minute: "<#> mins"
+    -   After second minute: "\<#\> mins"
     -   After first hour: "1 hr"
-    -   After second hour: "<#> hrs"
+    -   After second hour: "\<#\> hrs"
     -   After 24 hours: "1 day"
-    -   After 48 hours: "<month (mixed case 3 letter abbreviation)> <numerical day>" e.g "Nov 3"
--   Hover tooltip with "<timestamp>"
+    -   After 48 hours: "\<month (mixed case 3 letter abbreviation)\> \<numerical day\>" e.g "Nov 3"
+-   Hover tooltip with "\<timestamp\>"
