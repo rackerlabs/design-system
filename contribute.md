@@ -1,7 +1,7 @@
 ----
- -title: Contribute
- -layout: default
- ----
+-title: Contribute
+-layout: default
+----
 
 ## Contributing to the Rackspace Design System repository
 
