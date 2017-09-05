@@ -16,7 +16,7 @@ need: selectors
 {% include todo.html content="Update style and add additional examples" %}
 
 Use the simple selector when choosing from a limited number of options. Use the
-complex selectorif more than 10-12 options need to displayed.
+complex selector if more than 10-12 options need to displayed.
 Always use the complex selector for devices. Be mindful of the length
 of each option. Additional context can't be given on an option-by-option basis.
 If you require further context, consider radio buttons or checkboxes with subtext.
