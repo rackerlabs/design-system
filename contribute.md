@@ -1,3 +1,8 @@
+----
+ -title: Contribute
+ -layout: default
+ ----
+
 ## Contributing to the Rackspace Design System repository
 
 Learn about contributing to the Helix design systems project.
