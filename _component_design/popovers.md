@@ -6,17 +6,20 @@ category: Components
 usage: Teaser Text
 preview-image: components/preview-images/popover.svg
 resouce: false
+status: unknown
 ---
+
+{% include toc.html %}
 
 Popovers are triggered as a result of a user action and provide a user with
 additional context through language, actions through buttons, or both. Popovers
 come in a the following types Hover Popover, Triggered Popover, and Closeable
 Popover
 
-## Hover Popover
+# Hover Popover
 
-<div class="row">
-{% column left:"col-md-4" %}
+<div class="hxRow">
+{% column left:"hxCol-4" %}
 Hover popovers are triggered as a result of a user hovering over linked area in
 the UI.
 
@@ -26,7 +29,7 @@ the UI.
 - color: Grey800 (#616161)
 
 {% endcolumn %}
-{% column right:"col-md-8" %}
+{% column right:"hxCol-8" %}
 {% figure [caption:"Hover popover"] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/components/Editing/popover-hover-specs.svg){:width="100%"}
 {% endfigure %}
@@ -38,8 +41,8 @@ the UI.
 
 ## Triggered Popover
 
-<div class="row">
-{% column left:"col-md-4" %}
+<div class="hxRow">
+{% column left:"hxCol-4" %}
 Overpopovers are triggered as a result of a user hovering over linked area in
 the UI.
 
@@ -49,7 +52,7 @@ the UI.
 - color: Grey800 (#616161)
 
 {% endcolumn %}
-{% column left:"col-md-8" %}
+{% column left:"hxCol-8" %}
 {% figure [caption:"Triggered popover"] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/components/Editing/popover-triggered.svg){:width="100%"}
 {% endfigure %}
@@ -61,8 +64,8 @@ the UI.
 
 ## Closable Popover
 
-<div class="row">
-{% column left:"col-md-4" %}
+<div class="hxRow">
+{% column left:"hxCol-4" %}
 Closeable popovers are triggered as a result of...
 
 - font-family: Roboto
@@ -71,7 +74,7 @@ Closeable popovers are triggered as a result of...
 - color: Grey800 (#616161)
 
 {% endcolumn %}
-{% column left:"col-md-8" %}
+{% column left:"hxCol-8" %}
 {% figure [caption:"Closeable popover"] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/components/Editing/popover-closeable.svg){:width="100%"}
 {% endfigure %}

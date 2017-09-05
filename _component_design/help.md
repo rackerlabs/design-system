@@ -11,6 +11,7 @@ status: deprecated
 resource: false
 ---
 
+{% include toc.html %}
 
 <!--
 <article>

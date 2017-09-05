@@ -9,12 +9,13 @@ usage: |
 preview-image: components/preview-selectors.svg
 resource: true
 need: selectors
+status: in-progress
 ---
 
-{% include todo.html content="Update focus states, expand on inline validation, and improve
-keyboard accessibility." %}
+{% include toc.html %}
 
-{% include inprogress.html %}
+<!--{% include todo.html content="Update focus states, expand on inline validation, and improve
+keyboard accessibility." %}-->
 
 The switch should only be used in **mobile** designs. Enabling preferences or
 settings is a prime use case for this component. The switch can be used with or
@@ -75,7 +76,7 @@ complex text is needed in the switch than yes/no or on/off, use a **toggle**.
 
 <!--
   <a class="anchor" name="cascade-selector"></a>
-  #Cascade Selector {% include inprogress.html %}
+  #Cascade Selector
   <p class="update">
     <a href="https://jira.rax.io/browse/RED-768">JIRA</a><br>
     EAG: This isn't used broadly enough to make a pattern yet.

@@ -8,20 +8,23 @@ usage: |
   radio buttons, checkboxes, switches and more.
 preview-image: components/preview-selectors.svg
 resource: true
+status: in-progress
 need: selectors
 ---
 
-{% include todo.html content="Update focus states, expand on inline validation,
-and improve keyboard accessibility." %}
+{% include toc.html %}
 
-# Radio Buttons {% include inprogress.html %}
+<!--{% include todo.html content="Update focus states, expand on inline validation,
+and improve keyboard accessibility." %}-->
+
+# Radio Buttons
 
 Use when selecting a **single item** from a set it's important for the user to
 see all options at once. If viewing items side-by-side isn't important,
 consider a selector, which uses less space.
 
-<div class="row">
-{% column left:"col-md-4" %}
+<div class="hxRow">
+{% column left:"hxCol" %}
 ## Enabled
 
 <div class="ui form">
@@ -52,7 +55,7 @@ consider a selector, which uses less space.
 </div>
 
 {% endcolumn %}
-{% column left:"col-md-4" %}
+{% column left:"hxCol" %}
 
 ## Disabled
 
@@ -81,7 +84,7 @@ consider a selector, which uses less space.
 </div>
 
 {% endcolumn %}
-{% column right:"col-md-4" %}
+{% column right:"hxCol" %}
 
 ## Error
 
@@ -114,7 +117,7 @@ consider a selector, which uses less space.
 {% endcolumn %}
 </div>
 
-# Radio Button Group {% include inprogress.html %}
+# Radio Button Group
 
 Use when selecting a **single item** from a set if it's important for the user
 to see all options at once. This alternate can be used instead of regular radio
