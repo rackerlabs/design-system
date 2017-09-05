@@ -1,18 +1,21 @@
 ---
-title: Navigation
-layout: docs
-category: Layout
-usage: |
-  Navigation establishes a user's location within an application and
-  shows the path forward to accomplish a goal. Consistent navigation
-  patterns increase user confidence and efficiency. You can combine
-  global navigation (using the eyebrow), application navigation (using
-  side or top navigation), and breadcrumbs.
+title: Application navigation
+parent: Navigation
+layout: component
+category: Components
+usage: Application navigation establishes the user's path.
 preview-image: layout/preview-images/navigation.svg
 resource: true
 ---
 
 {% include toc.html %}
+
+Application navigation establishes a user's location within an
+application and shows the path forward to accomplish a goal.
+Consistent navigation patterns increase user confidence and
+efficiency. You can combine global navigation (using the eyebrow),
+application navigation (using side or top navigation), and
+breadcrumbs.
 
 # Primary navigation
 
@@ -376,7 +379,9 @@ platform level services button groups.
 {% endcolumn %}
 </div>
 
-# Breadcrumbs
+
+<!--
+# Breadcrumbs {% include complete.html %}
 
 <div class="hxRow">
 {% column left:"hxCol" %}
@@ -390,3 +395,4 @@ platform level services button groups.
 {% endfigure %}
 {% endcolumn %}
 </div>
+-->
