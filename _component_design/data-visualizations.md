@@ -1,5 +1,5 @@
 ---
-title: Tables
+title: Data Visualizations
 parent: null
 layout: family
 category: Components
@@ -10,7 +10,7 @@ resource: false
 ---
 
 {% for page in site.component_design %}
-  {% if page.parent contains "Tables" and page.resource == true %}
+  {% if page.parent contains "Data Visualizations" and page.resource == true %}
   <div class="component-element">
     <div class="hxRow">
       <div class="hxCol-8">
