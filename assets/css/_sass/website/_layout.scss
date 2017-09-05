@@ -7,8 +7,7 @@ html {
 body {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
-  // height: 100%;
+  min-height: 100%;
   background-color: $grey25;
   line-height: $base-line-height;
   overflow-x: hidden;
@@ -43,7 +42,7 @@ nav.side {
  */
 .page-wrapper {
   display: flex;
-  min-height: 100%;
+  min-height: 100vh;
   .page-content {
     box-sizing: border-box;
     overflowY: scroll;
@@ -67,9 +66,9 @@ article {
       text-decoration: underline;
     };
   };
-  /* border-bottom: 1px solid #e0e0e0; this will be uncommented once the rest of the content is edited to use less article tags on a page, the border-bottom segmentation works best when articles have multiple rows and plenty of content */
+  /* border-bottom: 1px solid $grey300; this will be uncommented once the rest of the content is edited to use less article tags on a page, the border-bottom segmentation works best when articles have multiple rows and plenty of content */
   ul {
-    font-size: inherit;
+    font-size: $font-size-3;
     -webkit-margin-before: 0;
     margin-before: 0;
     padding-start: 20px;
@@ -79,9 +78,9 @@ article {
       line-height: $base-line-height;
     }
     ul {
-      font-size: inherit;
+      font-size: $font-size-3;
       li {
-        font-size: inherit;
+        font-size: $font-size-3;
       }
     }
   }
@@ -99,11 +98,11 @@ a.anchor {
   padding:$paddingXS $paddingS !important;
   @include font-smoothing(antialiased);
   a {
-    color:#FBC02D;
+    color:$gold900;
     font-weight: $medium-weight;
   }
   a:hover, a:active{
-    color: #FFEB3B;
+    color: $gold700;
   }
 }
 
@@ -114,11 +113,11 @@ a.anchor {
 //   padding:$paddingXS $paddingS !important;
 //   @include font-smoothing(antialiased);
 //   a {
-//     color:#FBC02D;
+//     color:$gold900;
 //     font-weight: $medium-weight;
 //   }
 //   a:hover, a:active{
-//     color: #FFEB3B;
+//     color: $gold700;
 //   }
 // }
 //
@@ -129,11 +128,11 @@ a.anchor {
 //   padding:$paddingXS $paddingS !important;
 //   @include font-smoothing(antialiased);
 //   a {
-//     color:#FBC02D;
+//     color:$gold900;
 //     font-weight: $medium-weight;
 //   }
 //   a:hover, a:active{
-//     color: #FFEB3B;
+//     color: $gold700;
 //   }
 // }
 
@@ -278,8 +277,8 @@ pre {
 
 .category-card {
   border-spacing: 20px;
-  background: #ffffff;
-  border: 1px solid #e0e0e0;
+  background: $grey0;
+  border: 1px solid $grey300;
   padding: 1em;
   border-radius: 2px;
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);

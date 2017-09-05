@@ -2,16 +2,18 @@
 title: Email Templates
 layout: docs
 category: Templates
-usage: Teaser Text
+usage: |
+  These email templates provide a unified way to interact with customers from
+  all platforms.
 preview-image:
 resource: true
 ---
 
+{% include toc.html %}
+
 These email templates provide a unified way to interact with customers from all
 our platforms. The more content we can provide on first contact the better, and
 if more information is needed links to control panels are provided.
-
-{% include toc.html %}
 
 **Email Templates involve:**
 
@@ -19,24 +21,24 @@ if more information is needed links to control panels are provided.
 - Notifications and Tickets to customers
 - All message types and severity levels
 
-### When to Use
+# When to use
 
 These email templates are for external communications to customers related to
 control panels when sending out notifications and tickets.
 
-### Quick View Template and Variable Guide
+# Quick View Template and Variable Guide
 
 {% figure [caption:"Quick guide for template and variable options"] [class:"image bg-light border"] %}
   ![]({{site.cdn_url}}/img/layout/email-templates/EmailTemplate.svg){:width=60%}
 {% endfigure %}
 
-### Typography and Image Guides
+# Typography and image guides
 
 {% figure [caption:"Quick guide for typography and image specifications"] [class:"image bg-light border"] %}
   ![]({{site.cdn_url}}/img/layout/email-templates/Email%20Detail%20-%20Spec.svg){:width=60%}
 {% endfigure %}
 
-### Email Header
+# Email header
 
 The email header contains some of the most valuable information we convey to
 users since it is our first point of contact. The From and Subject fields allow
@@ -44,7 +46,7 @@ users to filter Rackspace communications purposefully and gain an understanding
 of email contents before opening. It is important that these fields are
 informative, concise, and built uniformly across Rackspace products.
 
-### Sender Name and Address
+# Sender name and address
 
 Sender name and email address must be meaningful.
 
@@ -64,7 +66,7 @@ followed by `.rackspace.com`.
 - `noreply@notifications.rackspace.com`
 - `noreply@tickets.rackspace.com`
 
-### Subject Line
+# Subject line
 
 Use the subject line to let the user know what the email is about, urgency (if
 any) and a brief synopsis of content. Urgency should be the only additional
@@ -72,17 +74,17 @@ information included in the subject line. Other than **IP address** or **Ticket
 number**, no other numerical information should be included in email subject
 lines.
 
-### Email Content {% include inprogress.html %}
+# Email content
 
-#### Alert Status
+## Alert status
 
 Alert states are used to gain the users attention when there is action required
 on the customers part or when sending important impacting notifications. If
 there is no alert status and the severity of the message is normal, an alert
 banner should **not** be included.
 
-<div class="row">
-{% column left:"col-md-4" %}
+<div class="hxRow">
+{% column left:"hxCol-md-4" %}
 - Ticket Status:
     - Emergency – Address in Subject line and with Helix Alert bar
     - Urgent – Address in the Subject line and with simple alert bar
@@ -96,7 +98,7 @@ banner should **not** be included.
 
 {% endcolumn %}
 
-{% column right:"col-md-8" %}
+{% column right:"hxCol-md-8" %}
 {% figure [caption:""] [class:"image bg-light border"] %}
   ![]({{site.cdn_url}}/img/layout/email-templates/Urgent%20Alert.svg){:width=60%}
 {% endfigure %}
@@ -107,13 +109,13 @@ banner should **not** be included.
   ![]({{site.cdn_url}}/img/layout/email-templates/Alert%20Specs.svg){:width=60%}
 {% endfigure %}
 
-#### Header
+## Header
 
 The header is an overview of where the email is coming from and what kind of
 message it is. The header contains three parts:
 
-<div class="row">
-{% column left:"col-md-4" %}
+<div class="hxRow">
+{% column left:"hxCol-md-4" %}
 -   **Product/Platform name** - Fanatical Support for AWS, Dedicated, Cloud,
   Intelligence, etc.
 
@@ -123,7 +125,7 @@ message it is. The header contains three parts:
   the product name and message type.
 {% endcolumn %}
 
-{% column right:"col-md-8" %}
+{% column right:"hxCol-md-8" %}
 {% figure [caption:"Visual example of Sub-Header and spacing"] [class:"image bg-light border"] %}
   ![]({{site.cdn_url}}/img/layout/email-templates/Header.svg){:width=60%}
 {% endfigure %}
@@ -134,14 +136,14 @@ message it is. The header contains three parts:
   ![]({{site.cdn_url}}/img/layout/email-templates/Header%20Details.svg){:width=60%}
 {% endfigure %}
 
-#### Sub-Header
+## Sub-header
 
 To give the user more context about the message they are about to read the
 subheading will let them know what kind of notification or ticket has been
 sent. This includes notification types and ticket or notification statuses.
 
-<div class="row">
-{% column left:"col-md-4" %}
+<div class="hxRow">
+{% column left:"hxCol-md-4" %}
 -   **Notifications** - Notification type: Monitoring Alerts, Billing,
   Maintenance, etc.
 
@@ -152,14 +154,14 @@ sent. This includes notification types and ticket or notification statuses.
 
 {% endcolumn %}
 
-{% column right:"col-md-8" %}
+{% column right:"hxCol-md-8" %}
 {% figure [caption:"Visual example of Sub-Header and spacing"] [class:"image bg-light border"] %}
   ![]({{site.cdn_url}}/img/layout/email-templates/Subheader.svg){:width=60%}
 {% endfigure %}
 {% endcolumn %}
 </div>
 
-#### Greetings and Sign-off
+## Greetings and sign-off
 
 -   **Greetings** – Greetings should be used sparingly. This is only
   appropriate when responding to a customer directly via ticket.
@@ -178,14 +180,14 @@ sent. This includes notification types and ticket or notification statuses.
       </figure>
 -->
 
-#### Call Outs
+## Call outs
 
 When there is some action the user needs to take it should be prominently
 displayed and stand out from the rest of the email content. Callouts will allow
 the user to scan for pertinent information quickly.
 
-<div class="row">
-{% column left:"col-md-4" %}
+<div class="hxRow">
+{% column left:"hxCol-md-4" %}
 -   **Required Action** - required actions consist of tickets that are waiting
   for a response or when the customer needs to take steps to resolve an issue.
   Required actions could range from copy and pasting code to following a list
@@ -207,40 +209,40 @@ the user to scan for pertinent information quickly.
   the same as **workarounds**.
 {% endcolumn %}
 
-{% column right:"col-md-8" %}
+{% column right:"hxCol-md-8" %}
 {% figure [caption:"Call Out box used for workarounds and comments. Comment includes code block."] [class:"image bg-light border"] %}
   ![]({{site.cdn_url}}/img/layout/email-templates/Comment%20with%20CodeBlock.svg){:width=60%}
 {% endfigure %}
 {% endcolumn %}
 </div>
 
-<div class="row">
-{% column left:"col-md-4" %}
+<div class="hxRow">
+{% column left:"hxCol-md-4" %}
 -   **Code Blocks** - show user code in a human readable format. Either as part
   of a workaround or just to display system content.
 {% endcolumn %}
 
-{% column right:"col-md-8" %}
+{% column right:"hxCol-md-8" %}
 {% figure [caption:"Code block visual examples and specifications"] [class:"image bg-light border"] %}
   ![]({{site.cdn_url}}/img/layout/email-templates/Code%20Block%20.svg){:width=60%}
 {% endfigure %}
 {% endcolumn %}
 </div>
 
-#### Buttons
+## Buttons
 
 Buttons should only be used as a gateway to control panels to view more
 detailed information or respond to a ticket.
 
-<div class="row">
-{% column left:"col-md-4" %}
+<div class="hxRow">
+{% column left:"hxCol-md-4" %}
 They should never break up the content of an email, and there should never be
 more than one button in the email. When adding buttons only use the standard
 button styles, and text should be in all caps. Go to the [Buttons page](http://design.rax.io/design-system/components/buttons.html)
 for in-depth use cases and standards.
 {% endcolumn %}
 
-{% column right:"col-md-8" %}
+{% column right:"hxCol-md-8" %}
 {% figure [caption:"Button and spacing specifications"] [class:"image bg-light border"] %}
   ![]({{site.cdn_url}}/img/layout/email-templates/Button.svg){:width=60%}
 {% endfigure %}
@@ -251,10 +253,10 @@ for in-depth use cases and standards.
   ![]({{site.cdn_url}}/img/layout/email-templates/Buttons.svg){:width=60%}
 {% endfigure %}
 
-#### App Link
+## App link
 
-<div class="row">
-{% column left:"col-md-4" %}
+<div class="hxRow">
+{% column left:"hxCol-md-4" %}
 Link to the mobile app is added to increase discoverability of our native apps.
 The promotional section should be above the footer and below the call to action
 button.
@@ -263,17 +265,17 @@ In the first line, the word notifications or ticket should change based on the
 message type. It should match the content in the header of the email.
 {% endcolumn %}
 
-{% column right:"col-md-8" %}
+{% column right:"hxCol-md-8" %}
 {% figure [caption:"Mobile app promotion and download links"] [class:"image bg-light border"] %}
   ![]({{site.cdn_url}}/img/layout/email-templates/Mobile%20LInks.svg){:width=60%}
 {% endfigure %}
 {% endcolumn %}
 </div>
 
-#### Footer
+## Footer
 
-<div class="row">
-{% column left:"col-md-4" %}
+<div class="hxRow">
+{% column left:"hxCol-md-4" %}
 Footer provides auxiliary information about how to contact support and edit
 notification preferences.
 
@@ -283,14 +285,14 @@ notification preferences.
   opt-out if using a blacklist method.
 {% endcolumn %}
 
-{% column right:"col-md-8" %}
+{% column right:"hxCol-md-8" %}
 {% figure [caption:"Footer visual example and spacing specifications"] [class:"image bg-light border"] %}
   ![]({{site.cdn_url}}/img/layout/email-templates/Footer.svg){:width=60%}
 {% endfigure %}
 {% endcolumn %}
 </div>
 
-#### Links
+## Links
 
 Do not display actual URL. All links should be hyperlinked text and follow
 formatting rules of
@@ -300,7 +302,7 @@ more detailed information on how to use
 [links and cross references](http://rackerlabs.github.io/docs-rackspace/style-guide/a-l-style-guidelines.html#links-and-cross-references)
 within email content.
 
-### Placement of links
+# Placement of links
 
 -   Determine whether the link should be provided inline or at the end of the
   article or section.
@@ -316,7 +318,7 @@ within email content.
 
 -   Do not link to information more than once in an article or section.
 
-#### Construction and format of links
+## Construction and format of links
 
 -   Ensure that the text of a link sufficiently describes the content to which
   it links (the destination content). When you provide a link at the end of an
@@ -337,7 +339,7 @@ within email content.
 
 -   Do not use quotation marks around link text.
 
-### Text Guidelines {% include inprogress.html %}
+# Text guidelines
 
 In general, write in active voice rather than passive voice.
 
@@ -358,7 +360,7 @@ voice.
 and that helps customers accomplish their goals, use the
 [basic writing guidelines](http://rackerlabs.github.io/docs-rackspace/style-guide/basic-writing-guidelines.html).
 
-### Research {% include inprogress.html %}
+# Research
 
 Previous research has been done for emails about notifications. The major
 finding was that email could help customers understand the difference between
@@ -371,7 +373,7 @@ For now, though, here are a few of the completed studies:
 - [Summary of research done on the Notification Project](http://design.rax.io/?p=2380)
 - [Improving how Rackspace Communicates with its customers](http://design.rax.io/?p=2387)
 
-### Visual Examples
+# Visual examples
 
 {% figure [caption:"Example of a billing email using these guidelines"] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/layout/email-templates/Email%20Detail.svg){:width="60%"}

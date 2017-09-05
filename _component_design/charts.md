@@ -4,7 +4,7 @@ parent: Data Visualizations
 layout: component
 category: Components
 usage: Teaser Text
-preview-image:
+preview-image: components/preview-help.svg
 resource: true
 status: in-progress
 need: charts

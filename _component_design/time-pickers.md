@@ -4,7 +4,7 @@ parent: Inputs and Controls
 layout: component
 category: Components
 usage: Teaser Text
-preview-image:
+preview-image: components/time-picker.svg
 resource: true
 last-modified: 2017-08-17
 ---

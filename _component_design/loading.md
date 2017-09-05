@@ -4,7 +4,7 @@ parent: Processing
 layout: component
 category: Components
 usage: Teaser Text
-preview-image:
+preview-image: components/loading-linear.svg
 resource: true
 status: unknown
 last-modified: 2017-08-17

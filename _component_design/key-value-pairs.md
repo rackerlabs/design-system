@@ -4,7 +4,7 @@ parent: unknown
 layout: component
 category: Components
 usage: Teaser Text
-preview-image:
+preview-image: null
 resource: true
 status: unknown
 last-modified: 2017-08-17

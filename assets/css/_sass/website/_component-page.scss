@@ -43,7 +43,8 @@
   .hero-image {
     margin: 36px auto 44px auto;
     img {
-      height: 200px;
+      min-height: 100px;
+      max-height: 200px;
     }
   }
 }
@@ -109,273 +110,13 @@
   }
 }
 
-/**
- * Page specific styles
- */
-
-
-/* Colors */
-
-  .ws-top-swatch{
-    height: 140px;
-    position: relative;
-  }
-
-  .ws-top-swatch div{
-    position: absolute;
-    bottom: 8px;
-    left: 8px;
-  }
-
-  .ws-top-swatch div:first-of-type{
-    top: 8px;
-  }
-
-  .ws-lesser-swatch{
-    padding: 8px 0;
-
-  }
-
-  .ws-lesser-swatch div{
-    padding-left: 8px;
-  }
-
-  .ws-light-type, .ws-color-name{
-    color:#fff;
-    @include font-smoothing(antialiased);
-  }
-
-  .ws-color-name{
-    font-weight: $medium-weight;
-  }
-
-  .ws-smaller-color-type{
-    font-size: $font-size-3;
-  }
-
-  .ws-dark-type{
-    color:#616161;
-  }
-
-  #primary-colors, #alert-colors {
-    margin-bottom: 40px !important;
-  }
-
-  .color-chip, .color-chip-alert {
-     width: 20%;
-     display: block;
-     box-sizing: border-box;
-     margin: 0 !important;
-     text-align: center;
-     float: left;
-     padding: 24px 0 !important;
-     span {
-       display: block;
-     }
-   }
-
-   .color-chip span:last-of-type{
-     font-size: $font-size-3;
-   }
-
-   .color-chip-alert{
-     width:25%;
-   }
-
-   .primary-color-chip{
-     width:100%;
-     border-bottom:4px solid #fff;
-   }
-
-   .color-chip-light{
-     color:#fff;
-   }
-
-  @media (min-width: 960px) {
-    #primary-colors .col-xs-12, #alert-colors .col-xs-12 {
-      margin-bottom: 0;
-    }
-  }
-
-/* Iconography */
-
-.ws-icon-row:last-of-type{
-  padding-bottom: 0px;
-}
-
-.ws-icon-chip{
-  margin-bottom: 40px !important;
-}
-
-.ws-icon-chip-icon{
-  color:#757575;
-  text-align: center;
-  padding-bottom: 8px;
-}
-
-.ws-icon-chip-icon, .ws-icon-chip-text{
-  display: block;
-}
-
-.ws-icon-chip-text {
-  border-top: 1px solid #e0e0e0;
-  padding:8px 0 0 0;
-  font-size: 0.875em;
-  color: $grey600;
-  text-align: center;
-}
-
-.ws-icon-chip-text:last-of-type {
-  padding: 0 0 8px 0;
-  border-top: 0;
-}
-
-/* Typography */
-
-.temp-remove-padding{
-  padding: 0;
-}
-
-.tempRobotoIntro{
-  display: inline-block;
-  width: 100%;
-  margin-top:48px;
-}
-
-.headerDisplayList{
-  margin: 0;
-  padding:0;
-  vertical-align: middle;
-}
-
-.tempRobotoXL{
-  font-size: 40px;
-  line-height: 50px;
-  float: left;
-  width: 25%;
-  text-align: center;
-}
-
-.tempLarger{
-  font-size: 112px;
-  line-height: 112px;
-  text-align: center;
-}
-
-.tempRobotoList{
-  /* Firefox */
-  width: -moz-calc(75% - 41px);
-  /* WebKit */
-  width: -webkit-calc(75% - 41px);
-  /* Opera */
-  width: -o-calc(75% - 41px);
-  /* Standard */
-  width: calc(75% - 41px);
-  padding-left: 40px;
-  border-left: 1px solid #e0e0e0;
-  float: left;
-  font-size: 40px;
-  line-height: 50px;
-  font-weight: $regular-weight;
-}
-
-.ws-type-desc, .ws-type-desc-last{
-  display: block;
-  font-size: $font-size-3;
-  color: #9e9e9e;
-  padding-bottom: 16px;
-}
-
-.ws-type-desc-last{
-  padding-bottom: 0;
-}
-
-.color_group{
-  padding-bottom: 50px;
-  float: left;
-}
-
-.tempP{
-  float: left;
-}
-
-/* Buttons */
-
-// .ws-btn-group{
-//   display: inline-block;
-//   vertical-align: bottom;
-// }
-//
-// .ws-btn-group .subtext{
-//   display: block;
-//   text-align: center;
-//   padding-top: 8px;
-// }
-//
-// .ws-btn-group-size .ws-btn-group, .ws-btn-group a{
-//   padding-right: 40px;
-// }
-//
-// .ws-btn-group-actions .ws-btn-group{
-//   padding-right: 24px;
-// }
-//
-// .ws-btn-group-dropdown .ws-btn-group{
-//   padding-right: 24px;
-// }
-//
-// .ws-btn-group button{
-//   margin: 0;
-// }
-//
-// .ws-btn-h3{
-//   padding: 32px 0 24px 0;
-// }
-
-/* Grid */
-
-// .ws-grid-h3{
-//   padding: 32px 0;
-// }
-//
-// .ws-grid-h3:first-of-type{
-//   padding: 0 0 32px 0;
-// }
-// .ws-grid-img-lbl{
-//   text-align: center;
-// }
 .grid-bg {
-  background: #B6E3EB;
+  background: $cyan100;
   display: block;
   font-size: $font-size-3;
   text-align: center;
   padding: 40px 0;
 }
-// .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{
-//   margin-bottom: 20px;
-// }
-//
-// #device {
-//   //background: #f5f5f5;
-//   //border: 1px solid #616161;
-//   padding: 20px 20px 0 20px;
-// }
-//
-// .mobile:before {
-//   content: "Mobile Device"
-// }
-//
-// .desktop:before {
-//   content: "Desktop"
-// }
-//
-// .hide {
-//   width: auto;
-// }
-//
-// .expand {
-//   width: 100%;
-// }
 
 /* Tooltip */
 
@@ -394,7 +135,7 @@
   width: calc(33.3333% - 28px);
   display:block;
   float:left;
-  border-left: 1px solid #e0e0e0;
+  border-left: 1px solid $grey300;
   padding-left: 40px;
 }
 
@@ -415,7 +156,7 @@
   box-shadow: none;
   border-radius: 0;
   text-align: left;
-  color: #616161;
+  color: $grey800;
   border-collapse: separate;
   border-spacing: 0px;
   line-height: $base-line-height;
@@ -455,7 +196,7 @@
   background: transparent;
   text-align: inherit;
   text-transform: uppercase;
-  color: #616161;
+  color: $grey800;
   padding: 28px 20px 12px 20px;
   vertical-align: inherit;
   font-size: $font-size-3;

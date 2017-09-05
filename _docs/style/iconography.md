@@ -31,12 +31,14 @@ links or match the color of body text dependent on the background color.
         <div class="hxCol-xs-12 hxCol-sm-6 hxCol-md-3 hxCol-lg-2">
           <div class="hxRow">
             <div class="hxCol">
-              <hx-icon type="{{icon.type}}"></hx-icon>
+              <div class="icon-chip">
+                <hx-icon type="{{icon.type}}"></hx-icon>
+              </div>
             </div>
           </div>
           <div class="hxRow">
             <div class="hxCol">
-              <span class="ws-icon-chip-text">{{icon.type}}</span>
+              <span class="icon-chip-text">{{icon.type}}</span>
             </div>
           </div>
         </div>
@@ -56,12 +58,14 @@ a list or symbolize types of content.
       <div class="hxCol-xs-12 hxCol-sm-6 hxCol-md-3 hxCol-lg-2">
         <div class="hxRow">
           <div class="hxCol">
-            <hx-icon type="{{icon.type}}"></hx-icon>
+            <div class="icon-chip">
+              <hx-icon type="{{icon.type}}"></hx-icon>
+            </div>
           </div>
         </div>
         <div class="hxRow">
           <div class="hxCol">
-            <span class="ws-icon-chip-text">{{icon.type}}</span>
+            <span class="icon-chip-text">{{icon.type}}</span>
           </div>
         </div>
       </div>
@@ -81,12 +85,14 @@ gray, or white, corresponding to the color of the body text of the background.
       <div class="hxCol-xs-12 hxCol-sm-6 hxCol-md-3 hxCol-lg-2">
         <div class="hxRow">
           <div class="hxCol">
-            <hx-icon type="{{icon.type}}"></hx-icon>
+            <div class="icon-chip">
+              <hx-icon type="{{icon.type}}"></hx-icon>
+            </div>
           </div>
         </div>
         <div class="hxRow">
           <div class="hxCol">
-            <span class="ws-icon-chip-text">{{icon.type}}</span>
+            <span class="icon-chip-text">{{icon.type}}</span>
           </div>
         </div>
       </div>

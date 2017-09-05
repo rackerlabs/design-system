@@ -2,7 +2,8 @@
 title: Date & Time
 layout: docs
 category: Style
-usage: Teaser Text
+usage: |
+  Always use human-friendly formatting when displaying date and/or time.
 preview-image:
 resource: true
 ---
