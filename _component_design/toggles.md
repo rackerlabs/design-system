@@ -9,9 +9,11 @@ usage: |
 preview-image: components/preview-selectors.svg
 resource: true
 need: selectors
+status: in-progress
+last-modified: 2017-08-17
 ---
 
-{% include inprogress.html %}
+{% include toc.html %}
 
 Toggles should be used instead of switches for desktop design. If you need to
 toggle between more than two options, see the **radio button button-group

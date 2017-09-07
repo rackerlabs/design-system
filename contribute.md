@@ -1,6 +1,7 @@
 ---
 title: Contribute
-layout: default
+layout: docs
+category: Resources
 ---
 
 ## Contributing to the Rackspace Design System repository

@@ -4,36 +4,38 @@ parent: Content Areas
 layout: component
 category: Components
 usage: Teaser Text
-preview-image:
+preview-image: components/chips.svg
 resource: true
+status: in-progress
+last-modified: 2017-08-17
 ---
 
-{% include inprogress.html %}
+{% include toc.html %}
 
-<div class="row">
-{% column left:"col-md-4" %}
+<div class="hxRow">
+{% column left:"hxCol" %}
 {% figure [caption:"Basic"] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/components/chips.svg){:width="100%"}
 {% endfigure %}
 {% endcolumn %}
-{% column left:"col-md-4" %}
+{% column left:"hxCol" %}
 {% figure [caption:"With Icon"] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/components/chips-icon.svg){:width="100%"}
 {% endfigure %}
 {% endcolumn %}
-{% column right:"col-md-4" %}
+{% column right:"hxCol" %}
 {% figure [caption:"Delete"] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/components/chip-delete.svg){:width="100%"}
 {% endfigure %}
 {% endcolumn %}
 </div>
-<div class="row">
-{% column left:"col-md-4" %}
+<div class="hxRow">
+{% column left:"hxCol-4" %}
 {% figure [caption:"Hover"] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/components/chip-hover.svg){:width="100%"}
 {% endfigure %}
 {% endcolumn %}
-{% column right:"col-md-4" %}
+{% column right:"hxCol-4" %}
 {% figure [caption:"Tooltip"] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/components/chip-tooltip.svg){:width="100%"}
 {% endfigure %}

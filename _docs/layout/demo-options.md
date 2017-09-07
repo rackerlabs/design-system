@@ -1,6 +1,6 @@
 ---
 title: Demo Layouts
-layout: default
+layout: docs
 //category: Layout
 usage:
 preview-image: null

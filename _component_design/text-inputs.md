@@ -8,9 +8,13 @@ usage: |
   into a page.
 preview-image: components/preview-fields.svg
 resource: true
+status: unknown
+last-modified: 2017-08-17
 ---
 
-# Text Field {% include inprogress.html %}
+{% include toc.html %}
+
+# Text Field
 
 Text fields are generally found in forms. The type of text field determines
 which characters are allowed within it. For example, a user shouldn't be able
@@ -130,7 +134,7 @@ this is expected to happen frequently in a specific text field.
   </div>
 </div>
 
-# Textarea {% include inprogress.html %}
+# Textarea
 
 ## Enabled
 
@@ -172,7 +176,7 @@ this is expected to happen frequently in a specific text field.
 <!-- Eliminating until we have a more detailed form layout
 
 
-# Fieldset {% include inprogress.html %}
+# Fieldset
   <div class="ui segments">
     <div class="ui segment">
       <div class="ui form">

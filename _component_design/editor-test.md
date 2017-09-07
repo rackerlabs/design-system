@@ -4,7 +4,11 @@ parent: null
 layout: component
 category: Components
 resource: false
+status: in-progress
+last-modified: 2017-08-17
 ---
+
+{% include toc.html %}
 
 Bucket Selector is helpful when you are selecting multiple objects from large
 option sets within a larger workflow. The bucket area (located below the table)
@@ -12,8 +16,6 @@ operates as a holding area where users can view all their selections,
 regardless of the table content. This allows users to search and/or filter the
 table to locate items to select without losing visibility into what they have
 selected.
-
-{% include inprogress.html %}
 
 ## Uncollapsed Current Selection
 

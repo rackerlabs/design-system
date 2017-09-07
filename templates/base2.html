@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>
+      {% if page.title %}{{ page.title }}
+      {% else %}{{ site.title }}{% endif %}
+    </title>
+    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+    <link rel="stylesheet" href="{{ site.url }}/assets/css/jquery-ui.css">
+    <link rel="stylesheet" href="{{ site.url }}/assets/css/website.css">
+    <link rel="stylesheet" href="https://2d2bf231b82dfe76fe36-fa12562cfe810d69bedcc36a0ac289ef.ssl.cf1.rackcdn.com/css/bootstrap.helix.css">
+    <link rel="stylesheet" href="https://2d2bf231b82dfe76fe36-fa12562cfe810d69bedcc36a0ac289ef.ssl.cf1.rackcdn.com/css/helix-ui.css">
+
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | site.baseurl | site.url }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ " /feed.xml" | site.baseurl | site.url }}">
+
+    <!-- ES5 Adapter -->
+    <script src="https://ab2b55b0a26bb32fdc01-2c8b94bcec8e01c366189541a4035ea4.ssl.cf5.rackcdn.com/custom-elements-es5-adapter.js"></script>
+    <!-- Polyfill Loader -->
+    <script src="https://ab2b55b0a26bb32fdc01-2c8b94bcec8e01c366189541a4035ea4.ssl.cf5.rackcdn.com/webcomponents-loader.js"></script>
+</head>
+  <body>
+    <div class="page-wrapper">
+      {% include nav.html %}
+      <div class="page-content">
+          {{ content }}
+      </div>
+    </div>
+    {% include footer.html %}
+  </body>
+</html>

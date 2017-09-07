@@ -4,6 +4,7 @@
 
 $spacing-unit:     30px;
 
+//Colors
 $text-color:       #262626;
 $background-color: #fcfcfc;
 $brand-color:      #3374b9;
@@ -15,9 +16,15 @@ $light-grey:       #f7f7f7;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
+//Font weights
+$thin-weight:    100;
+$light-weight:   300;
+$regular-weight: 400;
+$medium-weight:  500;
+$bold-weight:    700;
 
 @import
-"helix/settings",
+"website/settings",
 "website/mixins",
 "website/layout",
 "website/component-page",
@@ -26,5 +33,9 @@ $grey-color-dark:  darken($grey-color, 25%);
 "website/alerts",
 "website/tabs",
 "website/comcode",
-"website/forms"
+"website/forms",
+"website/home",
+"website/breadcrumb-icons",
+"website/docs-page",
+"website/family-page"
 ;
