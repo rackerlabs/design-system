@@ -7,7 +7,7 @@ usage: Teaser Text
 preview-image: components/preview-images/tabs.svg
 resource: true
 status: unknown
-last-modified: 2017-08-17
+last-modified: 2017-09-11
 ---
 
 {% include toc.html %}
@@ -24,15 +24,6 @@ content by clicking a descriptive tab title. Switching between tabs is
 quick, since it doesn't require scrolling or refreshing the page. Tabs
 enable content organization at a high level, such as switching between
 views, data sets, or functional aspects of an application.
-
-
-<!-- {% figure [caption:"Default state"] [class:"image bg-light border col-md-12"] %} -->
-<!-- ![]({{site.cdn_url}}/img/components/tabs.svg){:width="80%"} -->
-<!-- {% endfigure %} -->
-
-<!-- {% figure [caption:"Hover state"] [class:"image bg-light border col-md-12"] %} -->
-<!-- ![]({{site.cdn_url}}/img/components/tabs-hover.svg){:width="80%"} -->
-<!-- {% endfigure %} -->
 
 
 ## When to use tabs
@@ -92,7 +83,9 @@ canvas specific to that the tab. The tab content area adopts the color
 of the content behind it. Top and bottom lines extend to the edge of
 the content area.
 
-[IMAGE]
+{% figure [caption:"Tab menu"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/content-areas/tabs/tabs-menu.svg){:width="80%"}
+{% endfigure %}
 
 
 ## Tab content area
@@ -100,21 +93,21 @@ the content area.
 Pad the top and bottom of the content area by 24px. Pad the sides of
 the content area by 20px.
 
-[IMAGE]
+{% figure [caption:"Tab content area"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/content-areas/tabs/tabs-content-area.svg){:width="80%"}
+{% endfigure %}
 
 
 ## States
-
-[IMAGE]
-
 
 ### Hover state
 
 Hovering over another tab changes the color of the text. Hovering off
 the tab changes it back to the default color.
 
-
-[IMAGE]
+{% figure [caption:"Tab hover state"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/content-areas/tabs/tabs-hover-state.svg){:width="80%"}
+{% endfigure %}
 
 
 ### Pressed state
@@ -122,7 +115,9 @@ the tab changes it back to the default color.
 Clicking the text on the tab changes the color a few shades to confirm
 that an action was taken.
 
-[IMAGE]
+{% figure [caption:"Tab pressed state"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/content-areas/tabs/tabs-pressed-state.svg){:width="80%"}
+{% endfigure %}
 
 
 ### Zero state
@@ -130,5 +125,6 @@ that an action was taken.
 Zero state messaging is centered both horizontally and vertically. Use
 a minimum height of 220px for the container.
 
-[IMAGE]
->>>>>>> [WIP] SURF-308 Edited content for tabs
+{% figure [caption:"Tab zero state"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/content-areas/tabs/tabs-zero-state.svg){:width="80%"}
+{% endfigure %}
