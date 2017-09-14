@@ -29,7 +29,7 @@
           {% assign currentFam = famItem.parent | slugify %}
           <a href="{{site.url}}/components/{{currentFam}}.html" {% if currenturl contains currentFam %} class="current" {% elsif page.parent contains famItem.parent %} class="current"{% endif %}>{{famItem.display}}</a>
         {% endfor %}
-      </hx-reveal
+      </hx-reveal>
     {% endif %}
   {% endfor %}
 
