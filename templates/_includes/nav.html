@@ -5,35 +5,31 @@
   {% for navItem in site.data.navigation %}
     {% assign currentNav = navItem.name | slugify %}
     {% if currentNav != "components" %}
-      <section {% if page.url contains currentNav %} class="open"{% endif %}>
-        <header>
+      <hx-reveal {% if page.url contains currentNav %}open{% endif %}>
+        <header slot="summary">
           {{navItem.display}}
           <hx-icon class="toggle-icon" type="angle-down"></hx-icon>
         </header>
-        <div>
-          {% for collection in site.collections %}
-            {% assign theLabel = collection.label %}
-            {% for page in site.[theLabel] %}
-              {% if page.category == navItem.name and page.resource == true %}
-                <a href="{{site.url}}{{page.url}}.html" {% if currenturl contains page.url %} class="current" {% endif %}>{{page.title}}</a>
-              {% endif %}
-            {% endfor %}
+        {% for collection in site.collections %}
+          {% assign theLabel = collection.label %}
+          {% for page in site.[theLabel] %}
+            {% if page.category == navItem.name and page.resource == true %}
+              <a href="{{site.url}}{{page.url}}.html" {% if currenturl contains page.url %} class="current" {% endif %}>{{page.title}}</a>
+            {% endif %}
           {% endfor %}
-        </div>
-      </section>
+        {% endfor %}
+      </hx-reveal>
     {% else %}
-      <section {% if page.url contains currentNav %} class="open"{% endif %}>
-        <header>
+      <hx-reveal {% if page.url contains currentNav %}open{% endif %}>
+        <header slot="summary">
           {{navItem.display}}
           <hx-icon class="toggle-icon" type="angle-down"></hx-icon>
         </header>
-        <div>
-          {% for famItem in site.data.families %}
-            {% assign currentFam = famItem.parent | slugify %}
-            <a href="{{site.url}}/components/{{currentFam}}.html" {% if currenturl contains currentFam %} class="current" {% elsif page.parent contains famItem.parent %} class="current"{% endif %}>{{famItem.display}}</a>
-          {% endfor %}
-        </div>
-      </section>
+        {% for famItem in site.data.families %}
+          {% assign currentFam = famItem.parent | slugify %}
+          <a href="{{site.url}}/components/{{currentFam}}.html" {% if currenturl contains currentFam %} class="current" {% elsif page.parent contains famItem.parent %} class="current"{% endif %}>{{famItem.display}}</a>
+        {% endfor %}
+      </hx-reveal
     {% endif %}
   {% endfor %}
 
