@@ -14,7 +14,7 @@ last-modified: 2017-09-11
 
 Use tabs to separate content into different views that can each be
 displayed quickly without a page refresh. Tabs provide easy access to
-a set of content without requiring the user to either move to a new
+sets of content without requiring the user to either move to a new
 page or scroll across a page.
 
 
@@ -62,14 +62,13 @@ fixed) number of tabs.
   * Present tabs as a single row. Wrap tab labels to a second line if
     needed, and then truncate.
 
-  * Do not include another set of tabbed content within a tab. (No
+  * Do not include another set of tabbed content within a tab (No
     nested tabs.)
 
   * Highlight the tab corresponding to the visible content.
 
-  * Don't force users to jump back and forth between tabs to perform a
-    single task. A customer should be able to discover the relevant
-    information needed and complete the task within the same tab.
+  * Provide all relevant contextual information and interface items to
+    perform a single task within the same tab.
 
   * Do not use tabs for primary navigation.
 
