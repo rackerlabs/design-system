@@ -49,29 +49,21 @@ fixed) number of tabs.
   * Tabs eliminate the need to scroll through long pages to find the
     right section. With tabs, it's easy to see what sections are
     available.
-
   * Tabs eliminate the need to stack sections.
 
 
 ## Best practices for tabs
 
   * There must be only one active tab per page.
-
   * The default view must always display the left-most tab.
-
   * Present tabs as a single row. Wrap tab labels to a second line if
     needed, and then truncate.
-
   * Do not include another set of tabbed content within a tab (No
     nested tabs.)
-
   * Highlight the tab corresponding to the visible content.
-
   * Provide all relevant contextual information and interface items to
     perform a single task within the same tab.
-
   * Do not use tabs for primary navigation.
-
   * Clearly label tabs to differentiate them. Labels should be short,
     scannable, and (preferably) one word.
 
