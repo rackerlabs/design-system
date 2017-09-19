@@ -4,9 +4,13 @@ parent: Processing
 layout: component
 category: Components
 usage: Teaser Text
-preview-image:
+preview-image: components/loading-linear.svg
 resource: true
+status: unknown
+last-modified: 2017-08-17
 ---
+
+{% include toc.html %}
 
 Loading patterns should be used to set user expectations.
 
@@ -41,7 +45,7 @@ replaced with a loading spinner.
 Any section that has more advanced interactions than just textual (includes
 drop-downs, etc.).
 
-# Loading Circle {% include inprogress.html %}
+# Loading Circle
 
 ## Indeterminate
 
@@ -61,7 +65,7 @@ detectable
 ![]({{site.cdn_url}}/img/components/loading-circle-determinate.svg){:width="60%"}
 {% endfigure %}
 
-# Skeleton Screen {% include inprogress.html %}
+# Skeleton Screen
 
 - Use skeleton screens for initial page load.
 - Pages should load linearly to present the most immediate information first.

@@ -6,12 +6,13 @@ category: Components
 usage: |
   These tooltips provide users with additional information while completing
   tasks and alert them to new features.
-preview-image: components/preview-help.svg
-status: deprecated
+preview-image: components/growl-placement.svg
+status: deprecated, in-progress
 resource: false
+last-modified: 2017-08-17
 ---
 
-{% include inprogress.html %}
+{% include toc.html %}
 
 Growls should be used to communicate a completed action to a user.
 
@@ -37,8 +38,8 @@ Growls should be used to communicate a completed action to a user.
 
 ### General Layout
 
-<div class="row">
-{% column left:"col-md-4" %}
+<div class="hxRow">
+{% column left:"hxCol-4" %}
 -   Growls should always appear in the bottom right corner
 
 -   Growl animation ease-in .5s
@@ -50,7 +51,7 @@ Growls should be used to communicate a completed action to a user.
     should disappear on its own, the user should also have the ability to close
     it.
 {% endcolumn %}
-{% column right:"col-md-8" %}
+{% column right:"hxCol-8" %}
 {% figure [caption:""] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/components/growl-specs.svg){:width="100%"}
 {% endfigure %}
@@ -94,19 +95,19 @@ each other.
 
 ## States that don’t apply to this pattern
 
--   Loading / Processing:  Growls don’t have a loading pattern. If it’s still
+-   Loading / Processing: Growls don't have a loading pattern. If it's still
     loading it should not exist on the page.
 
--   No Items:  Growls should not be used without content.
+-   No Items: Growls should not be used without content.
 
--   Tons of Items:  Notifications should not be used with tons of items. They
+-   Tons of Items: Notifications should not be used with tons of items. They
     should be brief and limited to one item per page.
 
--   Error State:  In case of an error, the Growl should be hidden.
+-   Error State: In case of an error, the Growl should be hidden.
 
--   Corrected State:  Growls should not be used for user input.
+-   Corrected State: Growls should not be used for user input.
 
--   Completed State:  Growls should not be used for user input.
+-   Completed State: Growls should not be used for user input.
 
 ## Implementation
 

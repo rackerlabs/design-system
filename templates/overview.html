@@ -11,25 +11,33 @@
     </title>
     <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
-    <link rel="stylesheet" href="{{ 'assets/css/jquery-ui.css' | prepend: site.baseurl }}">
-    <link rel="stylesheet" href="{{ 'assets/css/website.css' | prepend: site.baseurl }}">
-    <link rel="stylesheet" href="{{ 'assets/css/helix.css' | prepend: site.baseurl }}">
-<!--    <link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.10/semantic.min.css">-->
+    <link rel="stylesheet" href="{{ site.url }}/assets/css/jquery-ui.css">
+    <link rel="stylesheet" href="{{ site.url }}/assets/css/website.css">
+    <link rel="stylesheet" href="https://2d2bf231b82dfe76fe36-fa12562cfe810d69bedcc36a0ac289ef.ssl.cf1.rackcdn.com/css/bootstrap.helix.css">
+    <link rel="stylesheet" href="https://2d2bf231b82dfe76fe36-fa12562cfe810d69bedcc36a0ac289ef.ssl.cf1.rackcdn.com/css/helix-ui.css">
 
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ " /feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+
+    <!-- ES5 Adapter -->
+    <script src="https://ab2b55b0a26bb32fdc01-2c8b94bcec8e01c366189541a4035ea4.ssl.cf5.rackcdn.com/custom-elements-es5-adapter.js"></script>
+    <!-- Polyfill Loader -->
+    <script src="https://ab2b55b0a26bb32fdc01-2c8b94bcec8e01c366189541a4035ea4.ssl.cf5.rackcdn.com/webcomponents-loader.js"></script>
   </head>
   <body>
-    {% include nav.html %}
-    <div class="page-wrapper">
-      <div class="page-content overview">
-        <div class="page-header display-font">{{ page.title }}</div>
-        <article>
-          {{ content }}
-        </article>
+    <div class="overview-wrapper">
+      {% include nav.html %}
+      <div class="overview-content">
+        <div class="hxRow">
+          <div class="hxCol">
+            <div class="main-logo"><img src="assets/images/Helix_Logo_Homepage.svg" class="main-logo"></div>
+            <div class="overview-header display-font">{{ page.title }}</div>
+            {{ content }}
+          </div>
+        </div>
+        {% include overview-footer.html %}
       </div>
     </div>
     {% include footer.html %}
-    <script src="{{site.baseurl}}/assets/js/form-submission-handler.js"></script>
   </body>
 </html>

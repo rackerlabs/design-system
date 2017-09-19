@@ -7,11 +7,12 @@ usage: |
   These tooltips provide users with additional information while completing
   tasks and alert them to new features.
 preview-image: components/preview-help.svg
-status: deprecated
+status: deprecated, in-progress
 resource: true
+last-modified: 2017-08-17
 ---
 
-{% include inprogress.html %}
+{% include toc.html %}
 
 # Usage
 
@@ -28,13 +29,13 @@ Alert bars can also provide some basic quick instruction for a page to better
 assist the user with understanding the task or feature they can/need to
 perform.
 
-<div class="row">
-{% column left:"col-md-6" %}
+<div class="hxRow">
+{% column left:"hxCol" %}
 {% figure [caption:"Alert bar at a page level"] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/components/alert-bar-page.svg)
 {% endfigure %}
 {% endcolumn %}
-{% column right:"col-md-6" %}
+{% column right:"hxCol" %}
 {% figure [caption:"Alert bar at a region level"] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/components/alert-bar-region.svg)
 {% endfigure %}
@@ -43,8 +44,8 @@ perform.
 
 # Anatomy
 
-<div class="row">
-{% column left:"col-md-4" %}
+<div class="hxRow">
+{% column left:"hxCol-4" %}
 The alert bar consists of 3 major parts ALWAYS:
 
 - Bar: enclosing shape to frame and present the alert
@@ -63,7 +64,7 @@ use-case, these consist of:
     response to the alert.
 
 {% endcolumn %}
-{% column right:"col-md-8" %}
+{% column right:"hxCol-8" %}
 {% figure [caption:""] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/components/alert-bar-anatomy.svg)
 {% endfigure %}

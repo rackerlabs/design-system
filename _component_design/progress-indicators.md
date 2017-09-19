@@ -6,8 +6,12 @@ category: Components
 usage: The Helix 12-column grid provides structure for website content.
 preview-image: components-grid.svg
 need: progress-indicators
+status: unknown
 resource: false
+last-modified: 2017-08-17
 ---
+
+{% include toc.html %}
 
 <div class="misc-wrap">
   <div class="progChart -type-donut -label-centered">

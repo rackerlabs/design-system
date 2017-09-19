@@ -6,7 +6,11 @@ category: Components
 usage: Teaser Text
 preview-image: components/preview-images/tabs.svg
 resource: true
+status: unknown
+last-modified: 2017-08-17
 ---
+
+{% include toc.html %}
 
 Tabs are used to separate content into different views, which can be displayed
 one at a time without a page refresh. Tabs provide easy access to additional

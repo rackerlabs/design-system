@@ -5,10 +5,14 @@ layout: component
 category: Components
 usage: Teaser Text
 preview-image:
+status: in-progress
 resource: false
+last-modified: 2017-08-17
 ---
 
-# Structure {% include inprogress.html %}
+{% include toc.html %}
+
+# Structure
 
 {% figure [caption:""] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/components/status-indicators-structure.svg){:width="100%"}
@@ -54,13 +58,13 @@ shrunk from its given size.
 ![]({{site.cdn_url}}/img/components/status-indicators-container.svg){:width="100%"}
 {% endfigure %}
 
-# Results List {% include inprogress.html %}
+# Results List
 
 {% figure [caption:""] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/components/status-indicators-results-list.svg){:width="100%"}
 {% endfigure %}
 
-# Content Headers {% include inprogress.html %}
+# Content Headers
 
 {% figure [caption:""] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/components/status-indicators-content-headers.svg){:width="100%"}

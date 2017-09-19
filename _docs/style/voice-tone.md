@@ -1,6 +1,6 @@
 ---
 title: Voice & Tone
-layout: default
+layout: docs
 category: Style
 usage: Teaser Text
 preview-image: ipsum

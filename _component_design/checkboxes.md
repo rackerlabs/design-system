@@ -8,10 +8,14 @@ usage: |
   radio buttons, checkboxes, switches and more.
 preview-image: components/preview-selectors.svg
 resource: true
+status: in-progress
 need: selectors
+last-modified: 2017-08-17
 ---
 
-# Checkboxes {% include inprogress.html %}
+{% include toc.html %}
+
+# Checkboxes
 
 Use when selecting **multiple items** from a set if it's important for the user
 to see all options at once. If viewing items side-by-side isn't important,
@@ -101,7 +105,7 @@ consider a selector, which uses less space.
   </div>
 </div>
 
-# Checkbox Button Group {% include inprogress.html %}
+# Checkbox Button Group
 
 Use when selecting **multiple items** from a set if it's important for the user
 to see all options at once. This alternate can be used instead of regular check

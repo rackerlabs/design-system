@@ -1,6 +1,6 @@
 ---
 title: Footer
-layout: default
+layout: docs
 category: Layout
 usage: null
 preview-image: components/preview-help.svg
