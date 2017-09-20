@@ -17,20 +17,20 @@ last-modified: 2017-08-17
 
 <!--{% include todo.html content="Update style and add additional examples" %}-->
 
-Use the simple selector when choosing from a limited number options. If more
-than 10-12 options need to displayed, use the complex selector, which contains
-a search. Always use the complex selector for devices. Be mindful of the length
+<!-- Use the simple selector when choosing from a limited number of options. Use the
+complex selector if more than 10-12 options need to displayed.
+Always use the complex selector for devices. Be mindful of the length
 of each option. Additional context can't be given on an option-by-option basis.
-If this is needed, consider radio buttons or checkboxes with subtext.
+If you require further context, consider radio buttons or checkboxes with subtext.
 Alphabetize options unless there is a strong use case for an alternative
-organization.
+organization. -->
 
 ## Enabled
 
-<div class="ui form">
+<div class="UI form">
   <div class="field">
     <label>Contact</label>
-    <select class="ui dropdown">
+    <select class="UI dropdown">
       <option value="">Make a selection</option>
       <option value="Bart">Bart Renner</option>
       <option value="Carmen">Carmen Broomes</option>
@@ -45,10 +45,10 @@ organization.
 </div>
 
 ## Disabled
-<div class="ui form">
+<div class="UI form">
   <div class="field">
     <label>Contact</label>
-    <select class="ui dropdown disabled" disabled>
+    <select class="UI dropdown disabled" disabled>
       <option value="">Make a selection</option>
       <option value="Bart">Bart Renner</option>
       <option value="Carmen">Carmen Broomes</option>
@@ -64,10 +64,10 @@ organization.
 
 ## Error
 
-<div class="ui form error">
+<div class="UI form error">
   <div class="field error">
     <label>Contact</label>
-    <select class="ui dropdown">
+    <select class="UI dropdown">
       <option value="">Make a selection</option>
       <option value="Bart">Bart Renner</option>
       <option value="Carmen">Carmen Broomes</option>
@@ -78,18 +78,18 @@ organization.
       <option value="Tommy">Tommy Shook</option>
       <option value="Ty">Ty Taylor</option>
     </select>
-    <div class="ui error message">
+    <div class="UI error message">
       There is an error with the response to this question.
     </div>
   </div>
 </div>
 
-## Multiple Select
+## Multiple select
 
-<div class="ui form">
+<div class="UI form">
   <div class="field">
     <label>Contact</label>
-    <select multiple="" class="ui dropdown">
+    <select multiple="" class="UI dropdown">
       <option value="">Make a selection</option>
       <option value="Bart">Bart Renner</option>
       <option value="Carmen">Carmen Broomes</option>
@@ -103,11 +103,11 @@ organization.
   </div>
 </div>
 
-## Type Ahead Select
+## Type ahead select
 
-<div class="ui form">
+<div class="UI form">
   <div class="field">
-    <div class="ui fluid search selection dropdown">
+    <div class="UI fluid search selection dropdown">
       <input type="hidden" name="state">
       <i class="dropdown icon"></i>
       <div class="default text">State</div>
@@ -140,11 +140,11 @@ organization.
   </div>
 </div>
 
-## Type Ahead Multiple Select
+## Type ahead multiple select
 
-<div class="ui form">
+<div class="UI form">
   <div class="field">
-    <select class="ui fluid search dropdown" multiple="">
+    <select class="UI fluid search dropdown" multiple="">
       <option value="">State(s)</option>
       <option value="AL">Alabama</option>
       <option value="AK">Alaska</option>
