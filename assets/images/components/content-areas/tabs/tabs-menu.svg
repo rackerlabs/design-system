@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="641px" height="399px" viewBox="0 0 641 399" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="633" height="391"></rect>
+        <filter x="-1.1%" y="-1.3%" width="102.2%" height="103.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-3" points="7 3.5 0 7 0 0"></polygon>
+        <circle id="path-4" cx="3.5" cy="3.5" r="3.5"></circle>
+        <polygon id="path-5" points="7 3.5 0 7 0 0"></polygon>
+        <circle id="path-6" cx="3.5" cy="3.5" r="3.5"></circle>
+        <polygon id="path-7" points="7 3.5 0 7 0 0"></polygon>
+        <circle id="path-8" cx="3.5" cy="3.5" r="3.5"></circle>
+        <polygon id="path-9" points="7 3.5 0 7 0 0"></polygon>
+        <circle id="path-10" cx="3.5" cy="3.5" r="3.5"></circle>
+        <polygon id="path-11" points="7 3.5 0 7 0 0"></polygon>
+        <circle id="path-12" cx="3.5" cy="3.5" r="3.5"></circle>
+    </defs>
+    <g id="**Document**" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2)-Specs-&amp;-States" transform="translate(-356.000000, -346.000000)">
+            <g id="Group-4" transform="translate(360.000000, 348.000000)">
+                <g id="img-container-span-8">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FAFAFA" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <path d="M50.4997668,93 L586.500237,93" id="Shape" stroke="#E0E0E0" fill="#FFFFFF" fill-rule="nonzero"></path>
+                <text id="Notes" fill="#757575" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400">
+                    <tspan x="70" y="82">Notes</tspan>
+                </text>
+                <text id="Collections" fill="#757575" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400">
+                    <tspan x="131" y="82">Collections</tspan>
+                </text>
+                <text id="Failed-CC-Payments" fill="#757575" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400">
+                    <tspan x="322" y="82">Failed CC Payments</tspan>
+                </text>
+                <path d="M311,93.9898462 L311,63.0307692 C311,61.9092064 310.303554,61 309.444444,61 L214.555556,61 C213.696446,61 213,61.9092064 213,63.0307692 L213,94" id="Shape" stroke="#D8D8D8" fill="#FAFAFA" fill-rule="nonzero"></path>
+                <text id="Transaction" fill="#0C7C84" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400">
+                    <tspan x="225" y="82">Transaction</tspan>
+                </text>
+                <g id="specs-/-spacing-/-internal-/-H-12px" transform="translate(59.000000, 61.000000)">
+                    <rect id="Rectangle-3-Copy" fill="#F9CD94" fill-rule="evenodd" x="0" y="0" width="60" height="12"></rect>
+                    <text id="12" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#333333">
+                        <tspan x="25.8" y="9">12</tspan>
+                    </text>
+                </g>
+                <g id="specs-/-spacing-/-internal-/-H-08px" transform="translate(59.000000, 85.000000)">
+                    <rect id="Rectangle-3" fill="#F9CD94" fill-rule="evenodd" x="0" y="0" width="60" height="8"></rect>
+                    <text id="8" font-family="Roboto-Regular, Roboto" font-size="10" font-weight="normal" fill="#333333">
+                        <tspan x="27.6315789" y="6">8</tspan>
+                    </text>
+                </g>
+                <rect id="Rectangle-Copy-4" fill="#FAFAFA" x="52" y="93" width="536" height="236"></rect>
+                <path d="M51.5,329.5 L587.5,329.5" id="Line" stroke="#E0E0E0" stroke-linecap="square"></path>
+                <g id="specs-/-redlines-/-line-regular" transform="translate(276.500000, 113.000000) rotate(-90.000000) translate(-276.500000, -113.000000) translate(251.000000, 105.000000)">
+                    <path d="M3.5,15.5 L3.5,9.5 C3.5,6.1862915 6.19573366,3.5 9.50032171,3.5 L50.5,3.5" id="redline-line" stroke="#EC407A" stroke-width="1"></path>
+                    <g id="specs-/-redlines-/-line-end-/-arrow" transform="translate(44.000000, 0.000000)">
+                        <g id="redline-end">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                            <path stroke="#EC407A" stroke-width="1" d="M5.88196601,3.5 L0.5,0.809016994 L0.5,6.19098301 L5.88196601,3.5 Z"></path>
+                        </g>
+                    </g>
+                    <g id="specs-/-redlines-/-line-end-/-circle" transform="translate(0.000000, 9.000000)">
+                        <g id="redline-start">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-4"></use>
+                            <circle stroke="#EC407A" stroke-width="1" cx="3.5" cy="3.5" r="3"></circle>
+                        </g>
+                    </g>
+                </g>
+                <g id="specs-/-redlines-/-line-regular" transform="translate(81.500000, 114.000000) rotate(-90.000000) translate(-81.500000, -114.000000) translate(56.000000, 106.000000)">
+                    <path d="M3.5,15.5 L3.5,9.5 C3.5,6.1862915 6.19573366,3.5 9.50032171,3.5 L50.5,3.5" id="redline-line" stroke="#EC407A" stroke-width="1"></path>
+                    <g id="specs-/-redlines-/-line-end-/-arrow" transform="translate(44.000000, 0.000000)">
+                        <g id="redline-end">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+                            <path stroke="#EC407A" stroke-width="1" d="M5.88196601,3.5 L0.5,0.809016994 L0.5,6.19098301 L5.88196601,3.5 Z"></path>
+                        </g>
+                    </g>
+                    <g id="specs-/-redlines-/-line-end-/-circle" transform="translate(0.000000, 9.000000)">
+                        <g id="redline-start">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-6"></use>
+                            <circle stroke="#EC407A" stroke-width="1" cx="3.5" cy="3.5" r="3"></circle>
+                        </g>
+                    </g>
+                </g>
+                <g id="specs-/-redlines-/-label-copy-3" transform="translate(288.000000, 126.000000)" font-size="12" font-family="Roboto-Regular, Roboto" fill="#EC407A" font-weight="normal">
+                    <text id="redline-label">
+                        <tspan x="0" y="11">Selected tab:</tspan>
+                        <tspan x="0" y="25">Roboto, Medium, 14px</tspan>
+                        <tspan x="0" y="39">#0c7c84 (cyan 900)</tspan>
+                    </text>
+                </g>
+                <g id="specs-/-redlines-/-label-copy-4" transform="translate(93.000000, 126.000000)" font-size="12" font-family="Roboto-Regular, Roboto" fill="#EC407A" font-weight="normal">
+                    <text id="redline-label">
+                        <tspan x="0" y="11">Unselected tab:</tspan>
+                        <tspan x="0" y="25">Roboto, Medium, 14px</tspan>
+                        <tspan x="0" y="39">#757575 (gray 700)</tspan>
+                    </text>
+                </g>
+                <g id="specs-/-redlines-/-label" transform="translate(239.000000, 34.000000)" font-size="12" font-family="Roboto-Regular, Roboto" fill="#EC407A" font-weight="normal">
+                    <text id="redline-label">
+                        <tspan x="0" y="11">Radius: 2</tspan>
+                    </text>
+                </g>
+                <g id="specs-/-redlines-/-line-regular" transform="translate(223.500000, 50.000000) scale(1, -1) rotate(-90.000000) translate(-223.500000, -50.000000) translate(214.000000, 37.000000)">
+                    <path d="M3.5,25.5 L3.5,11.0096201 C3.5,6.86217144 6.86629279,3.5 11,3.5 L18.5,3.5" id="redline-line" stroke="#EC407A" stroke-width="1"></path>
+                    <g id="specs-/-redlines-/-line-end-/-arrow" transform="translate(12.000000, 0.000000)">
+                        <g id="redline-end">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-7"></use>
+                            <path stroke="#EC407A" stroke-width="1" d="M5.88196601,3.5 L0.5,0.809016994 L0.5,6.19098301 L5.88196601,3.5 Z"></path>
+                        </g>
+                    </g>
+                    <g id="specs-/-redlines-/-line-end-/-circle" transform="translate(0.000000, 19.000000)">
+                        <g id="redline-start">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-8"></use>
+                            <circle stroke="#EC407A" stroke-width="1" cx="3.5" cy="3.5" r="3"></circle>
+                        </g>
+                    </g>
+                </g>
+                <g id="specs-/-redlines-/-label" transform="translate(351.000000, 301.000000)" font-size="12" font-family="Roboto-Regular, Roboto" fill="#EC407A" font-weight="normal">
+                    <text id="redline-label">
+                        <tspan x="0" y="11">Line: 1px, #e0e0e0 (gray 300)</tspan>
+                    </text>
+                </g>
+                <g id="specs-/-redlines-/-line-regular" transform="translate(525.500000, 317.000000) rotate(-270.000000) translate(-525.500000, -317.000000) translate(516.000000, 304.000000)">
+                    <path d="M3.5,25.5 L3.5,11.0096201 C3.5,6.86217144 6.86629279,3.5 11,3.5 L18.5,3.5" id="redline-line" stroke="#EC407A" stroke-width="1"></path>
+                    <g id="specs-/-redlines-/-line-end-/-arrow" transform="translate(12.000000, 0.000000)">
+                        <g id="redline-end">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-9"></use>
+                            <path stroke="#EC407A" stroke-width="1" d="M5.88196601,3.5 L0.5,0.809016994 L0.5,6.19098301 L5.88196601,3.5 Z"></path>
+                        </g>
+                    </g>
+                    <g id="specs-/-redlines-/-line-end-/-circle" transform="translate(0.000000, 19.000000)">
+                        <g id="redline-start">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-10"></use>
+                            <circle stroke="#EC407A" stroke-width="1" cx="3.5" cy="3.5" r="3"></circle>
+                        </g>
+                    </g>
+                </g>
+                <g id="specs-/-redlines-/-line-regular" transform="translate(525.500000, 205.000000) scale(1, -1) rotate(-270.000000) translate(-525.500000, -205.000000) translate(416.000000, 192.000000)">
+                    <path d="M3.5,25.5 L3.5,14.5 C3.5,8.42486775 8.42031982,3.5 14.494664,3.5 L218.5,3.5" id="redline-line" stroke="#EC407A" stroke-width="1"></path>
+                    <g id="specs-/-redlines-/-line-end-/-arrow" transform="translate(212.000000, 0.000000)">
+                        <g id="redline-end">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-11"></use>
+                            <path stroke="#EC407A" stroke-width="1" d="M5.88196601,3.5 L0.5,0.809016994 L0.5,6.19098301 L5.88196601,3.5 Z"></path>
+                        </g>
+                    </g>
+                    <g id="specs-/-redlines-/-line-end-/-circle" transform="translate(0.000000, 19.000000)">
+                        <g id="redline-start">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-12"></use>
+                            <circle stroke="#EC407A" stroke-width="1" cx="3.5" cy="3.5" r="3"></circle>
+                        </g>
+                    </g>
+                </g>
+                <g id="specs-/-spacing-/-internal-/-V-12px" transform="translate(58.000000, 61.000000)">
+                    <rect id="Rectangle-5-Copy-10" fill="#F8CC96" fill-rule="evenodd" x="1" y="0" width="12" height="32"></rect>
+                    <text id="12-copy-4" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#333333">
+                        <tspan x="0" y="19">12</tspan>
+                    </text>
+                </g>
+                <g id="specs-/-spacing-/-internal-/-V-12px" transform="translate(106.000000, 61.000000)">
+                    <rect id="Rectangle-5-Copy-10" fill="#F8CC96" fill-rule="evenodd" x="1" y="0" width="12" height="32"></rect>
+                    <text id="12-copy-4" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#333333">
+                        <tspan x="0" y="19">12</tspan>
+                    </text>
+                </g>
+                <g id="specs-/-spacing-/-inline-/-V-08px" transform="translate(51.000000, 61.000000)">
+                    <rect id="Rectangle-5-Copy-19" fill="#90D5B2" fill-rule="evenodd" x="0" y="0" width="8" height="32"></rect>
+                    <text id="8-copy-12" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#333333">
+                        <tspan x="1" y="18.36">8</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
