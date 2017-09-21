@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="482px" height="752px" viewBox="0 0 482 752" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>alert-bar-variations</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="5" cy="5" r="5"></circle>
+        <circle id="path-2" cx="5" cy="5" r="5"></circle>
+        <circle id="path-3" cx="5" cy="5" r="5"></circle>
+        <circle id="path-4" cx="5" cy="5" r="5"></circle>
+        <circle id="path-5" cx="5" cy="5" r="5"></circle>
+        <circle id="path-6" cx="5" cy="5" r="5"></circle>
+        <circle id="path-7" cx="5" cy="5" r="5"></circle>
+        <circle id="path-8" cx="5" cy="5" r="5"></circle>
+        <circle id="path-9" cx="5" cy="5" r="5"></circle>
+        <circle id="path-10" cx="5" cy="5" r="5"></circle>
+        <circle id="path-11" cx="5" cy="5" r="5"></circle>
+        <circle id="path-12" cx="5" cy="5" r="5"></circle>
+        <circle id="path-13" cx="5" cy="5" r="5"></circle>
+    </defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-443.000000, -2468.000000)">
+            <g transform="translate(442.000000, 2465.000000)">
+                <g>
+                    <g transform="translate(11.000000, 252.000000)">
+                        <polygon fill="#4CAF51" points="0 45 472 45 472 0 0 0"></polygon>
+                        <text font-family="Roboto-Medium, Roboto" font-size="16" font-weight="400" fill="#FFFFFF">
+                            <tspan x="48" y="29">SUCCESS: </tspan>
+                            <tspan x="126.984375" y="29" font-family="Roboto-Light, Roboto" font-weight="300">Alert message goes here </tspan>
+                        </text>
+                        <text font-family="Roboto-Medium, Roboto" font-size="16" font-weight="400" fill="#FFFFFF">
+                            <tspan x="329" y="29">ACTION LINK</tspan>
+                        </text>
+                        <text font-family="FontAwesome" font-size="16" font-weight="normal" fill="#FFFFFF">
+                            <tspan x="443" y="29"></tspan>
+                        </text>
+                    </g>
+                    <g transform="translate(11.000000, 350.000000)">
+                        <polygon fill="#BBDEFB" points="0 45 472 45 472 0 0 0"></polygon>
+                        <text font-family="Roboto-Medium, Roboto" font-size="16" font-weight="400" fill="#000000">
+                            <tspan x="48" y="29">INFO: </tspan>
+                            <tspan x="91.625" y="29" font-family="Roboto-Light, Roboto" font-weight="300">Alert message goes here </tspan>
+                        </text>
+                        <text font-family="Roboto-Medium, Roboto" font-size="16" font-weight="400" fill="#000000">
+                            <tspan x="329" y="29">ACTION LINK</tspan>
+                        </text>
+                        <text font-family="FontAwesome" font-size="16" font-weight="normal" fill="#000000">
+                            <tspan x="443" y="29"></tspan>
+                        </text>
+                    </g>
+                    <g transform="translate(11.000000, 154.000000)">
+                        <polygon fill="#FFEB3B" points="0 45 472 45 472 0 0 0"></polygon>
+                        <text font-family="Roboto-Medium, Roboto" font-size="16" font-weight="400" fill="#000000">
+                            <tspan x="48" y="29">WARNING: </tspan>
+                            <tspan x="129.054688" y="29" font-family="Roboto-Light, Roboto" font-weight="300">Alert message goes here </tspan>
+                        </text>
+                        <text font-family="Roboto-Medium, Roboto" font-size="16" font-weight="400" fill="#000000">
+                            <tspan x="329" y="29">ACTION LINK</tspan>
+                        </text>
+                        <text font-family="FontAwesome" font-size="16" font-weight="normal" fill="#000000">
+                            <tspan x="443" y="29"></tspan>
+                        </text>
+                        <path d="M26.3117895,24.4069128 C26.3019531,24.5528194 26.1456641,24.6675774 25.958773,24.6675774 L24.0308441,24.6675774 C23.8341167,24.6675774 23.6772812,24.5528194 23.6772812,24.4069128 L23.4996801,17.9378394 C23.4996801,17.8651593 23.531375,17.7924793 23.6035084,17.7504013 C23.6663519,17.698487 23.7603439,17.6673384 23.8543359,17.6673384 L26.1456641,17.6673384 C26.2396561,17.6673384 26.3331016,17.698487 26.3959451,17.7504013 C26.468625,17.7924793 26.5008664,17.8651593 26.5008664,17.9378394 L26.3117895,24.4069128 Z M26.3331016,27.9900953 C26.3331016,28.1775334 26.1871954,28.3338229 26.0106872,28.3338229 L24.0106249,28.3338229 C23.8231874,28.3338229 23.6663519,28.1775334 23.6663519,27.9900953 L23.6663519,26.0107927 C23.6663519,25.8233546 23.8231874,25.6670651 24.0106249,25.6670651 L26.0106872,25.6670651 C26.1871954,25.6670651 26.3331016,25.8233546 26.3331016,26.0107927 L26.3331016,27.9900953 Z M32.8578949,28.1829981 L25.9997579,14.6442843 C25.8030305,14.2491888 25.4188655,14 25.0002732,14 C24.580588,14 24.1969695,14.2491888 24.0002421,14.6442843 L17.1421051,28.1829981 C16.9453776,28.5573278 16.9546675,29.0185457 17.1590455,29.3939684 C17.3645164,29.7688446 17.7393914,30 18.1421362,30 L31.8578638,30 C32.2606086,30 32.6349372,29.7688446 32.8409545,29.3939684 C33.0453325,29.0185457 33.0546224,28.5573278 32.8578949,28.1829981 L32.8578949,28.1829981 Z" fill="#000000"></path>
+                    </g>
+                    <g transform="translate(11.000000, 56.000000)">
+                        <polygon fill="#D32F2F" points="0 45 472 45 472 0 0 0"></polygon>
+                        <text font-family="Roboto-Medium, Roboto" font-size="16" font-weight="400" fill="#FFFFFF">
+                            <tspan x="48" y="29">ERROR: </tspan>
+                            <tspan x="108.25" y="29" font-family="Roboto-Light, Roboto" font-weight="300">Alert message goes here </tspan>
+                        </text>
+                        <text font-family="Roboto-Medium, Roboto" font-size="16" font-weight="400" fill="#FFFFFF">
+                            <tspan x="329" y="29">ACTION LINK</tspan>
+                        </text>
+                        <text font-family="Roboto-Medium, Roboto" font-size="16" font-weight="400" fill="#FFFFFF">
+                            <tspan x="329" y="77">ACTION LINK</tspan>
+                        </text>
+                        <text font-family="FontAwesome" font-size="16" font-weight="normal" fill="#FFFFFF">
+                            <tspan x="443" y="29"></tspan>
+                        </text>
+                        <text font-family="FontAwesome" font-size="16" font-weight="normal" fill="#FFFFFF">
+                            <tspan x="443" y="77"></tspan>
+                        </text>
+                        <path d="M26.3117934,24.4063322 C26.3025035,24.5522388 26.1456675,24.6669968 25.9587759,24.6669968 L24.0308412,24.6669968 C23.8341132,24.6669968 23.6772772,24.5522388 23.6772772,24.4063322 L23.4996755,17.9378053 C23.4996755,17.8645787 23.5313706,17.7918986 23.6040507,17.7498207 C23.6663479,17.6979063 23.7603402,17.6667577 23.8543325,17.6667577 L26.1456675,17.6667577 C26.2396598,17.6667577 26.3331056,17.6979063 26.3959493,17.7498207 C26.4686294,17.7918986 26.5008709,17.8645787 26.5008709,17.9378053 L26.3117934,24.4063322 Z M26.3331056,27.9895147 C26.3331056,28.1769528 26.187199,28.3332423 26.0106903,28.3332423 L24.0106219,28.3332423 C23.8231839,28.3332423 23.6663479,28.1769528 23.6663479,27.9895147 L23.6663479,26.0107586 C23.6663479,25.8233205 23.8231839,25.667031 24.0106219,25.667031 L26.0106903,25.667031 C26.187199,25.667031 26.3331056,25.8233205 26.3331056,26.0107586 L26.3331056,27.9895147 Z M25.0002732,15 C20.5831825,15 17,18.5831825 17,23.0002732 C17,27.4168175 20.5831825,31 25.0002732,31 C29.417364,31 33,27.4168175 33,23.0002732 C33,18.5831825 29.417364,15 25.0002732,15 L25.0002732,15 Z" fill="#FFFFFF"></path>
+                    </g>
+                    <g transform="translate(0.000000, 489.000000)">
+                        <text font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#EC407A">
+                            <tspan x="115" y="135"></tspan>
+                            <tspan x="115" y="156">Warning</tspan>
+                        </text>
+                        <text font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#EC407A">
+                            <tspan x="0" y="220"></tspan>
+                            <tspan x="0" y="241">NOTE: All icons take on the color of the Alert bar message for the </tspan>
+                            <tspan x="0" y="262">respective status each displays</tspan>
+                        </text>
+                        <text font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#EC407A">
+                            <tspan x="213" y="17"></tspan>
+                            <tspan x="213" y="38">Error</tspan>
+                        </text>
+                        <text font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#EC407A">
+                            <tspan x="1" y="17"></tspan>
+                            <tspan x="1" y="38">Close</tspan>
+                        </text>
+                        <text font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#EC407A">
+                            <tspan x="334" y="135"></tspan>
+                            <tspan x="334" y="156">Success</tspan>
+                        </text>
+                        <text font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#EC407A">
+                            <tspan x="435" y="17"></tspan>
+                            <tspan x="435" y="38">Info</tspan>
+                        </text>
+                        <g transform="translate(120.000000, 120.000000) scale(-1, 1) rotate(-180.000000) translate(-120.000000, -120.000000) translate(115.000000, 105.000000)">
+                            <g>
+                                <use fill-opacity="0.2" fill="#EC407A" fill-rule="evenodd" xlink:href="#path-1"></use>
+                                <circle stroke="#EC407A" stroke-width="1" cx="5" cy="5" r="4.5"></circle>
+                            </g>
+                            <path d="M5,10 L5,29.0336599" stroke="#EC407A"></path>
+                        </g>
+                        <g transform="translate(230.000000, 61.000000) scale(-1, -1) rotate(-180.000000) translate(-230.000000, -61.000000) translate(225.000000, 46.000000)">
+                            <g>
+                                <use fill-opacity="0.2" fill="#EC407A" fill-rule="evenodd" xlink:href="#path-2"></use>
+                                <circle stroke="#EC407A" stroke-width="1" cx="5" cy="5" r="4.5"></circle>
+                            </g>
+                            <path d="M5,10 L5,29.0336599" stroke="#EC407A"></path>
+                        </g>
+                        <g transform="translate(18.000000, 61.000000) scale(-1, -1) rotate(-180.000000) translate(-18.000000, -61.000000) translate(13.000000, 46.000000)">
+                            <g>
+                                <use fill-opacity="0.2" fill="#EC407A" fill-rule="evenodd" xlink:href="#path-3"></use>
+                                <circle stroke="#EC407A" stroke-width="1" cx="5" cy="5" r="4.5"></circle>
+                            </g>
+                            <path d="M5,10 L5,29.0336599" stroke="#EC407A"></path>
+                        </g>
+                        <g transform="translate(339.000000, 120.000000) scale(-1, 1) rotate(-180.000000) translate(-339.000000, -120.000000) translate(334.000000, 105.000000)">
+                            <g>
+                                <use fill-opacity="0.2" fill="#EC407A" fill-rule="evenodd" xlink:href="#path-4"></use>
+                                <circle stroke="#EC407A" stroke-width="1" cx="5" cy="5" r="4.5"></circle>
+                            </g>
+                            <path d="M5,10 L5,29.0336599" stroke="#EC407A"></path>
+                        </g>
+                        <g transform="translate(449.000000, 61.000000) scale(-1, -1) rotate(-180.000000) translate(-449.000000, -61.000000) translate(444.000000, 46.000000)">
+                            <g>
+                                <use fill-opacity="0.2" fill="#EC407A" fill-rule="evenodd" xlink:href="#path-5"></use>
+                                <circle stroke="#EC407A" stroke-width="1" cx="5" cy="5" r="4.5"></circle>
+                            </g>
+                            <path d="M5,10 L5,29.0336599" stroke="#EC407A"></path>
+                        </g>
+                        <g transform="translate(106.000000, 69.000000)" fill="#000000">
+                            <path d="M126.2385,17.579 C126.2215,17.846 125.9345,18.056 125.5925,18.056 L122.0645,18.056 C121.7045,18.056 121.4175,17.846 121.4175,17.579 L121.0925,5.742 C121.0925,5.608 121.1505,5.475 121.2835,5.398 C121.3975,5.303 121.5695,5.246 121.7415,5.246 L125.9345,5.246 C126.1065,5.246 126.2775,5.303 126.3925,5.398 C126.5255,5.475 126.5845,5.608 126.5845,5.742 L126.2385,17.579 Z M126.2775,24.136 C126.2775,24.479 126.0105,24.765 125.6875,24.765 L122.0275,24.765 C121.6845,24.765 121.3975,24.479 121.3975,24.136 L121.3975,20.515 C121.3975,20.172 121.6845,19.886 122.0275,19.886 L125.6875,19.886 C126.0105,19.886 126.2775,20.172 126.2775,20.515 L126.2775,24.136 Z M123.8385,0.366 C115.7555,0.366 109.1985,6.923 109.1985,15.006 C109.1985,23.088 115.7555,29.645 123.8385,29.645 C131.9215,29.645 138.4775,23.088 138.4775,15.006 C138.4775,6.923 131.9215,0.366 123.8385,0.366 L123.8385,0.366 Z"></path>
+                            <path d="M17.0403,19.0446 C17.0223,19.3116 16.7363,19.5216 16.3943,19.5216 L12.8663,19.5216 C12.5063,19.5216 12.2193,19.3116 12.2193,19.0446 L11.8943,7.2066 C11.8943,7.0736 11.9523,6.9406 12.0843,6.8636 C12.1993,6.7686 12.3713,6.7116 12.5433,6.7116 L16.7363,6.7116 C16.9083,6.7116 17.0793,6.7686 17.1943,6.8636 C17.3273,6.9406 17.3863,7.0736 17.3863,7.2066 L17.0403,19.0446 Z M17.0793,25.6016 C17.0793,25.9446 16.8123,26.2306 16.4893,26.2306 L12.8293,26.2306 C12.4863,26.2306 12.1993,25.9446 12.1993,25.6016 L12.1993,21.9796 C12.1993,21.6366 12.4863,21.3506 12.8293,21.3506 L16.4893,21.3506 C16.8123,21.3506 17.0793,21.6366 17.0793,21.9796 L17.0793,25.6016 Z M29.0193,25.9546 L16.4693,1.1796 C16.1093,0.4566 15.4063,0.000599999999 14.6403,0.000599999999 C13.8723,0.000599999999 13.1703,0.4566 12.8103,1.1796 L0.2603,25.9546 C-0.0997,26.6396 -0.0827,27.4836 0.2913,28.1706 C0.6673,28.8566 1.3533,29.2796 2.0903,29.2796 L27.1893,29.2796 C27.9263,29.2796 28.6113,28.8566 28.9883,28.1706 C29.3623,27.4836 29.3793,26.6396 29.0193,25.9546 L29.0193,25.9546 Z"></path>
+                        </g>
+                        <text font-family="FontAwesome" font-size="36" font-weight="normal" fill="#000000">
+                            <tspan x="5" y="94"></tspan>
+                        </text>
+                    </g>
+                    <path d="M333.421676,582.868258 L326.718227,575.922769 C325.760591,574.975657 325.760591,573.554988 326.718227,572.607876 C327.675862,571.660764 329.271922,571.818616 330.229557,572.607876 L335.177342,577.501289 L347.466999,562.82105 C348.265029,561.873938 349.861089,561.716086 350.818724,562.505346 C351.77636,563.294606 351.935966,564.873126 351.137936,565.820239 L337.092613,582.552554 C336.613795,583.183962 335.975371,583.341814 335.177342,583.499666 C334.538918,583.499666 333.900494,583.183962 333.421676,582.868258 Z" fill="#000000" fill-rule="nonzero"></path>
+                    <text font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#EC407A">
+                        <tspan x="11" y="17">#d32f2f (red 900)</tspan>
+                    </text>
+                    <text font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#EC407A">
+                        <tspan x="11" y="113"></tspan>
+                        <tspan x="11" y="134">#ffeb3b (yellow 700)</tspan>
+                    </text>
+                    <text font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#EC407A">
+                        <tspan x="11" y="210"></tspan>
+                        <tspan x="11" y="231">#4caf51 (@green700)</tspan>
+                    </text>
+                    <text font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#EC407A">
+                        <tspan x="259" y="310"></tspan>
+                        <tspan x="259" y="331">#ffffff (black 0)</tspan>
+                    </text>
+                    <text font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#EC407A">
+                        <tspan x="259" y="113"></tspan>
+                        <tspan x="259" y="134">#ffffff (black 0)</tspan>
+                    </text>
+                    <text font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#EC407A">
+                        <tspan x="259" y="414"></tspan>
+                        <tspan x="259" y="435">#000000 (black 1000)</tspan>
+                    </text>
+                    <text font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#EC407A">
+                        <tspan x="259" y="210"></tspan>
+                        <tspan x="259" y="231">#000000 (black 1000)</tspan>
+                    </text>
+                    <text font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#EC407A">
+                        <tspan x="11" y="322">#bbdefb (blue 100)</tspan>
+                    </text>
+                    <g transform="translate(18.000000, 55.000000) scale(-1, -1) rotate(-180.000000) translate(-18.000000, -55.000000) translate(13.000000, 24.000000)">
+                        <g>
+                            <use fill-opacity="0.2" fill="#EC407A" fill-rule="evenodd" xlink:href="#path-6"></use>
+                            <circle stroke="#EC407A" stroke-width="1" cx="5" cy="5" r="4.5"></circle>
+                        </g>
+                        <path d="M5,10 L5,62" stroke="#EC407A"></path>
+                    </g>
+                    <g transform="translate(18.000000, 154.500000) scale(-1, -1) rotate(-180.000000) translate(-18.000000, -154.500000) translate(13.000000, 141.000000)">
+                        <g>
+                            <use fill-opacity="0.2" fill="#EC407A" fill-rule="evenodd" xlink:href="#path-7"></use>
+                            <circle stroke="#EC407A" stroke-width="1" cx="5" cy="5" r="4.5"></circle>
+                        </g>
+                        <path d="M5,10 C5,20.7045932 5,26.0568898 5,26.0568898" stroke="#EC407A"></path>
+                    </g>
+                    <g transform="translate(18.000000, 341.000000) scale(-1, -1) rotate(-180.000000) translate(-18.000000, -341.000000) translate(13.000000, 326.000000)">
+                        <g>
+                            <use fill-opacity="0.2" fill="#EC407A" fill-rule="evenodd" xlink:href="#path-8"></use>
+                            <circle stroke="#EC407A" stroke-width="1" cx="5" cy="5" r="4.5"></circle>
+                        </g>
+                        <path d="M5,10 L5,29.0336599" stroke="#EC407A"></path>
+                    </g>
+                    <g transform="translate(264.000000, 295.000000) scale(-1, 1) rotate(-180.000000) translate(-264.000000, -295.000000) translate(259.000000, 280.000000)">
+                        <g>
+                            <use fill-opacity="0.2" fill="#EC407A" fill-rule="evenodd" xlink:href="#path-9"></use>
+                            <circle stroke="#EC407A" stroke-width="1" cx="5" cy="5" r="4.5"></circle>
+                        </g>
+                        <path d="M5,10 L5,29.0336599" stroke="#EC407A"></path>
+                    </g>
+                    <g transform="translate(264.000000, 98.000000) scale(-1, 1) rotate(-180.000000) translate(-264.000000, -98.000000) translate(259.000000, 83.000000)">
+                        <g>
+                            <use fill-opacity="0.2" fill="#EC407A" fill-rule="evenodd" xlink:href="#path-10"></use>
+                            <circle stroke="#EC407A" stroke-width="1" cx="5" cy="5" r="4.5"></circle>
+                        </g>
+                        <path d="M5,10 L5,29.0336599" stroke="#EC407A"></path>
+                    </g>
+                    <g transform="translate(264.000000, 397.000000) scale(-1, 1) rotate(-180.000000) translate(-264.000000, -397.000000) translate(259.000000, 380.000000)">
+                        <g>
+                            <use fill-opacity="0.2" fill="#EC407A" fill-rule="evenodd" xlink:href="#path-11"></use>
+                            <circle stroke="#EC407A" stroke-width="1" cx="5" cy="5" r="4.5"></circle>
+                        </g>
+                        <path d="M5,10 L5,33.8207036" stroke="#EC407A"></path>
+                    </g>
+                    <g transform="translate(264.000000, 195.000000) scale(-1, 1) rotate(-180.000000) translate(-264.000000, -195.000000) translate(259.000000, 180.000000)">
+                        <g>
+                            <use fill-opacity="0.2" fill="#EC407A" fill-rule="evenodd" xlink:href="#path-12"></use>
+                            <circle stroke="#EC407A" stroke-width="1" cx="5" cy="5" r="4.5"></circle>
+                        </g>
+                        <path d="M5,10 L5,29.0336599" stroke="#EC407A"></path>
+                    </g>
+                    <g transform="translate(18.000000, 248.000000) scale(-1, -1) rotate(-180.000000) translate(-18.000000, -248.000000) translate(13.000000, 233.000000)">
+                        <g>
+                            <use fill-opacity="0.2" fill="#EC407A" fill-rule="evenodd" xlink:href="#path-13"></use>
+                            <circle stroke="#EC407A" stroke-width="1" cx="5" cy="5" r="4.5"></circle>
+                        </g>
+                        <path d="M5,10 L5,29.0822714" stroke="#EC407A"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

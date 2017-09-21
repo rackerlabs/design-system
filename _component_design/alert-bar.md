@@ -14,77 +14,110 @@ last-modified: 2017-08-17
 
 {% include toc.html %}
 
-# Usage
+# Notification bars
 
-Provides info for action in context to the PAGE/REGION. Is communicated in
-proximity to the page, panel, or other main containing element of information.
-User understands this is in relation to the context they’re currently working
-on holistically.
+A notification bar extends fully across the top of an item within a
+Helix interface in order to provide the user with feedback relating
+to the status of the item. It can be scoped across the entirety of
+the content area (page level scoping) or scoped to extend across a
+singular section of the content area (element level scoping).
 
-Ideally alert bars are used to communicate things like “unread messages”, “page
-errors”, or confirmations for an action that happened off canvas or in a
-previous screen like a modal or form.
-
-Alert bars can also provide some basic quick instruction for a page to better
-assist the user with understanding the task or feature they can/need to
-perform.
-
-<div class="hxRow">
-{% column left:"hxCol" %}
-{% figure [caption:"Alert bar at a page level"] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/components/alert-bar-page.svg)
+{% figure [caption:"Alert bar hero"] [class:"image bg-light border"] %}
+ ![]({{site.url}}/assets/images/components/content-areas/alerts/alert-bar-hero.svg){:width="80%"}
 {% endfigure %}
-{% endcolumn %}
-{% column right:"hxCol" %}
-{% figure [caption:"Alert bar at a region level"] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/components/alert-bar-region.svg)
+
+## When to use alerts
+
+Notification bars are used to provide status information about a page or
+element to a user.
+
+* Notification bars are best used for information that will remain static,
+  barring user intervention. For example, an informative message surrounding a new
+  feature being made available to a user. For information that is more
+  ephemeral and fleeting, we recommend using another notification
+  type.
+
+## Best practices for alerts
+
+We recommend following these best practices:
+
+* Ensure a notification bar is placed across the entirety of the
+  referenced element.
+* Ensure notification bars have implicit priority based on the alert type from most
+  to least severity level:
+  * Error > Warning > Success > Informational
+* Ensure notification bars are used sparingly and limited to one per page.
+  * In the event a higher priority alert bar needs to be shown on a page that
+    already contains a  notification bar. The higher level alert is placed
+    *above* the lower priority bar.
+
+# Specifications
+
+## Default layout
+
+Alert bars rest at the top of the content section of a page layout in most
+situations, extending across the entire section.
+
+* Matches the margin of the content area to which it relates.
+
+{% figure [caption:"When you need to describe an image in greater detail, use this
+ block of text so that you can keep the left area clutter-free. 3 lines or less."] [class:"image bg-light border"] %}
+ ![]({{site.url}}/assets/images/components/content-areas/alerts/alert-bar-default.svg){:width="80%"}
 {% endfigure %}
-{% endcolumn %}
-</div>
 
-# Anatomy
+## Alert bar composition
 
-<div class="hxRow">
-{% column left:"hxCol-4" %}
-The alert bar consists of 3 major parts ALWAYS:
+The alert bar pattern is comprised of six parts. Three required, three
+optional:
 
-- Bar: enclosing shape to frame and present the alert
-- Icon: which provides context to the classification of the alert type
-- Message: provides details and/or instructions to give the user context
+* Alert bar containing element (required) — Holds all other elements and
+  displays the status color.
+* Status icon (required) — Acts as supporting information to the status color.
+* Alert description (required) — Describes to the user why the alert bar exists.
+* Alert type (optional) — An optional alert title descriptor.
+* Alert action link (optional) — Provides a user with the next step of a process.
+* Close action (optional) — Closes the alert.
 
-The alert bar has other parts which are OPTIONAL based on the intended
-use-case, these consist of:
-
--   Emphasized Text: calls out the specific object/person/thing that relates to
-    the alert. This is the same size/color as the message but is bold.
-
--   Manual Dismiss: allows user to manually dismiss/close the alert.
-
--   Relational Action: provides user with a tailored action they can take in
-    response to the alert.
-
-{% endcolumn %}
-{% column right:"hxCol-8" %}
-{% figure [caption:""] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/components/alert-bar-anatomy.svg)
+{% figure [caption:"Alert bar composition"] [class:"image bg-light border"] %}
+ ![]({{site.url}}/assets/images/components/content-areas/alerts/alert-bar-composition.svg){:width="80%"}
 {% endfigure %}
-{% endcolumn %}
-</div>
 
-# Implementation Levels
+## Alert bar specifications
 
-## Inline
+Your component has initialized, but it is empty, no data or items. Now may be a
+good time to get the user to perform an action, or to reward them.
+Ensure you include redlines for the specific changes in this state.
 
-Provides info for action in context to the OBJECT they are ACTIVELY doing. User
-understands this is in relation to the context they're actively doing and
-provides the most specificity.
+{% figure [caption:"When you need to describe an image in greater detail, use this
+ block of text so that you can keep the left area clutter-free. 3 lines or less."] [class:"image bg-light border"] %}
+ ![]({{site.url}}/assets/images/components/content-areas/alerts/alert-bar-specs.svg){:width="80%"}
+{% endfigure %}
 
-## Alert Bar
+## Status types
 
-Provides info for action in context to the PAGE/REGION. User understands this
-is in relation to the context they're currently working on holistically.
+The alert bar pattern seeks to provide a user with at a glance status of a
+given content section. The basic pattern can display four types of status:
 
-## Toast
+{% figure [caption:"When you need to describe an image in greater detail, use this
+ block of text so that you can keep the left area clutter-free. 3 lines or less."] [class:"image bg-light border"] %}
+ ![]({{site.url}}/assets/images/components/content-areas/alerts/alert-bar-status-types.svg){:width="80%"}
+{% endfigure %}
 
-Provides info for action outside of the users current context. User understands
-this will take them out of current context.
+## Variations
+
+Each status corrolates to a specific color in the Helix color palette.
+
+{% figure [caption:"Alert bar status types"] [class:"image bg-light border"] %}
+ ![]({{site.url}}/assets/images/components/content-areas/alerts/alert-bar-status-types.svg){:width="80%"}
+{% endfigure %}
+
+## Multi-line alerts
+
+Alert messages should be as concise and clear as possible. We recommend keeping to
+a limit of 140-160 characters. Following this rule will keep an alert message as a
+single-line comment (at Desktop and Wall breakpoints). However, in instances where a
+wrap is required, alert bars will following the wrapping behavior displayed.
+
+{% figure [caption:"Multiline alert wrapping behavior"] [class:"image bg-light border"] %}
+ ![]({{site.url}}/assets/images/components/content-areas/alerts/alert-bar-multiline-alerts.svg){:width="80%"}
+{% endfigure %}
