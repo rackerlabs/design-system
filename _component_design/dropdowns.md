@@ -24,7 +24,7 @@ options or actions.
  ![]({{site.url}}/assets/images/components/content-areas/dropdowns/dropdowns-hero.svg){:width="80%"}
  {% endfigure %}
 
-## When to use
+## When to use drop-downs
 
 Drop-downs are used when a user is required to select a single option from
 a known list of options. For example, selecting a region on the
@@ -36,7 +36,7 @@ Rackspace Cloud server create form will provide the following options:
 * London
 * Virginia
 
-## Best practice
+## Best practice for drop-downs
 
 * Applying the disabled state to any options that are not currently available to
   the user.
@@ -47,24 +47,9 @@ Rackspace Cloud server create form will provide the following options:
 * Keeping the drop-down label viewable through all states of the dropdown. This
   ensures users remember what label prompted the data set they are viewing.
 
-## Basic information
+# Specifications
 
-.. REQUIRES IMAGE
-
-## Sub-patterns
-
-... REQUIRES IMAGE
-
-# Specs and states
-
-Use the sections on this artboard to document construction specifications for
-your design; elements such as fonts, colors, padding, margins, and line-height. 
-
-**Important: These states will not apply to all design patterns, and many design
-patterns will have states not included here. We recommend deleting states you
-do not need, and add sections to this artboard for any states you do need.**
-
-## Default Layout
+## Default layout
 
 Drop-downs
 
