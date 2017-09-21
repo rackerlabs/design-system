@@ -20,7 +20,7 @@ last-modified: 2017-09-21
 Drop-downs are a core input mechanism for form and are used to imply and offer
 options or actions.
 
-{% figure [caption:"A generic tab"] [class:"image bg-light border"] %}
+{% figure [caption:"Drop-downs hero"] [class:"image bg-light border"] %}
  ![]({{site.url}}/assets/images/components/content-areas/dropdowns/dropdowns-hero.svg){:width="80%"}
  {% endfigure %}
 
@@ -66,8 +66,7 @@ Drop-downs can be in the following states:
 * Focus
 * Error
 
-{% figure [caption:"When you need to describe an image in greater detail, use this block
- of text so that you can keep the left area clutter-free. 3 lines or less."] [class:"image bg-light border"] %}
+{% figure [caption:"Drop-downs states."] [class:"image bg-light border"] %}
  ![]({{site.url}}/assets/images/components/content-areas/dropdowns/dropdowns-states.svg){:width="80%"}
  {% endfigure %}
 
@@ -75,8 +74,7 @@ Drop-downs can be in the following states:
 
 Clicking a drop-down menu displays the options contained within the dropdown.
 
-{% figure [caption:"When you need to describe an image in greater detail, use this
- block of text so that you can keep the left area clutter-free. 3 lines or less."] [class:"image bg-light border"] %}
+{% figure [caption:"Drop-downs option label."] [class:"image bg-light border"] %}
  ![]({{site.url}}/assets/images/components/content-areas/dropdowns/dropdowns-option-label.svg){:width="80%"}
  {% endfigure %}
 
@@ -90,7 +88,6 @@ states:
 * Selected
 * Selected and hovered
 
-{% figure [caption:"When you need to describe an image in greater detail, use this
- block of text so that you can keep the left area clutter-free. 3 lines or less."] [class:"image bg-light border"] %}
+{% figure [caption:"Drop-down data states."] [class:"image bg-light border"] %}
  ![]({{site.url}}/assets/images/components/content-areas/dropdowns/dropdowns-data-states.svg){:width="80%"}
  {% endfigure %}
