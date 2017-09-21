@@ -60,8 +60,7 @@ situations, extending across the entire section.
 
 * Matches the margin of the content area to which it relates.
 
-{% figure [caption:"When you need to describe an image in greater detail, use this
- block of text so that you can keep the left area clutter-free. 3 lines or less."] [class:"image bg-light border"] %}
+{% figure [caption:"Alert bar default."] [class:"image bg-light border"] %}
  ![]({{site.url}}/assets/images/components/content-areas/alerts/alert-bar-default.svg){:width="80%"}
 {% endfigure %}
 
@@ -88,8 +87,7 @@ Your component has initialized, but it is empty, no data or items. Now may be a
 good time to get the user to perform an action, or to reward them.
 Ensure you include redlines for the specific changes in this state.
 
-{% figure [caption:"When you need to describe an image in greater detail, use this
- block of text so that you can keep the left area clutter-free. 3 lines or less."] [class:"image bg-light border"] %}
+{% figure [caption:"Alert bar specifications."] [class:"image bg-light border"] %}
  ![]({{site.url}}/assets/images/components/content-areas/alerts/alert-bar-specs.svg){:width="80%"}
 {% endfigure %}
 
@@ -98,8 +96,7 @@ Ensure you include redlines for the specific changes in this state.
 The alert bar pattern seeks to provide a user with at a glance status of a
 given content section. The basic pattern can display four types of status:
 
-{% figure [caption:"When you need to describe an image in greater detail, use this
- block of text so that you can keep the left area clutter-free. 3 lines or less."] [class:"image bg-light border"] %}
+{% figure [caption:"Alert bar status types."] [class:"image bg-light border"] %}
  ![]({{site.url}}/assets/images/components/content-areas/alerts/alert-bar-status-types.svg){:width="80%"}
 {% endfigure %}
 
@@ -107,8 +104,8 @@ given content section. The basic pattern can display four types of status:
 
 Each status corrolates to a specific color in the Helix color palette.
 
-{% figure [caption:"Alert bar status types"] [class:"image bg-light border"] %}
- ![]({{site.url}}/assets/images/components/content-areas/alerts/alert-bar-status-types.svg){:width="80%"}
+{% figure [caption:"Alert bar variations"] [class:"image bg-light border"] %}
+ ![]({{site.url}}/assets/images/components/content-areas/alerts/alert-bar-variations.svg){:width="80%"}
 {% endfigure %}
 
 ## Multi-line alerts
