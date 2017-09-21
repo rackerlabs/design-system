@@ -1,5 +1,5 @@
 ---
-title: Dropdowns
+title: Drop-downs
 parent: Inputs and Controls
 layout: component
 category: Components
@@ -10,164 +10,84 @@ preview-image: components/preview-selectors.svg
 resource: true
 status: in-progress
 need: selectors
-last-modified: 2017-08-17
+last-modified: 2017-09-21
 ---
 
 {% include toc.html %}
 
-<!--{% include todo.html content="Update style and add additional examples" %}-->
+# Drop-down fields
 
-Use the simple selector when choosing from a limited number options. If more
-than 10-12 options need to displayed, use the complex selector, which contains
-a search. Always use the complex selector for devices. Be mindful of the length
-of each option. Additional context can't be given on an option-by-option basis.
-If this is needed, consider radio buttons or checkboxes with subtext.
-Alphabetize options unless there is a strong use case for an alternative
-organization.
+Drop-downs are a core input mechanism for form and are used to imply and offer
+options or actions.
 
-## Enabled
+{% figure [caption:"Drop-downs hero"] [class:"image bg-light border"] %}
+ ![]({{site.url}}/assets/images/components/content-areas/dropdowns/dropdowns-hero.svg){:width="80%"}
+ {% endfigure %}
 
-<div class="ui form">
-  <div class="field">
-    <label>Contact</label>
-    <select class="ui dropdown">
-      <option value="">Make a selection</option>
-      <option value="Bart">Bart Renner</option>
-      <option value="Carmen">Carmen Broomes</option>
-      <option value="Elizabeth">Elizabeth Grotheus</option>
-      <option value="Eric">Eric Weidner</option>
-      <option value="Lane">Lane Fielder</option>
-      <option value="Mikey">Mikey Hougland</option>
-      <option value="Tommy">Tommy Shook</option>
-      <option value="Ty">Ty Taylor</option>
-    </select>
-  </div>
-</div>
+## When to use drop-downs
 
-## Disabled
-<div class="ui form">
-  <div class="field">
-    <label>Contact</label>
-    <select class="ui dropdown disabled" disabled>
-      <option value="">Make a selection</option>
-      <option value="Bart">Bart Renner</option>
-      <option value="Carmen">Carmen Broomes</option>
-      <option value="Elizabeth">Elizabeth Grotheus</option>
-      <option value="Eric">Eric Weidner</option>
-      <option value="Lane">Lane Fielder</option>
-      <option value="Mikey">Mikey Hougland</option>
-      <option value="Tommy">Tommy Shook</option>
-      <option value="Ty">Ty Taylor</option>
-    </select>
-  </div>
-</div>
+Drop-downs are used when a user is required to select a single option from
+a known list of options. For example, selecting a region on the
+Rackspace Cloud server create form will provide the following options:
 
-## Error
+* Chicago
+* Dallas
+* Hong Kong
+* London
+* Virginia
 
-<div class="ui form error">
-  <div class="field error">
-    <label>Contact</label>
-    <select class="ui dropdown">
-      <option value="">Make a selection</option>
-      <option value="Bart">Bart Renner</option>
-      <option value="Carmen">Carmen Broomes</option>
-      <option value="Elizabeth">Elizabeth Grotheus</option>
-      <option value="Eric">Eric Weidner</option>
-      <option value="Lane">Lane Fielder</option>
-      <option value="Mikey">Mikey Hougland</option>
-      <option value="Tommy">Tommy Shook</option>
-      <option value="Ty">Ty Taylor</option>
-    </select>
-    <div class="ui error message">
-      There is an error with the response to this question.
-    </div>
-  </div>
-</div>
+## Best practice for drop-downs
 
-## Multiple Select
+* Applying the disabled state to any options that are not currently available to
+  the user.
+* Keeping the drop-down pattern to a set of items that are easily parsable by a
+  user. While there is not a hard rule here for an upperbounds limit of items
+  to include a drop-down, once a drop-down data set exceeds 10 items it should
+  be looked at to determine if it could be streamlined.
+* Keeping the drop-down label viewable through all states of the dropdown. This
+  ensures users remember what label prompted the data set they are viewing.
 
-<div class="ui form">
-  <div class="field">
-    <label>Contact</label>
-    <select multiple="" class="ui dropdown">
-      <option value="">Make a selection</option>
-      <option value="Bart">Bart Renner</option>
-      <option value="Carmen">Carmen Broomes</option>
-      <option value="Elizabeth">Elizabeth Grotheus</option>
-      <option value="Eric">Eric Weidner</option>
-      <option value="Lane">Lane Fielder</option>
-      <option value="Mikey">Mikey Hougland</option>
-      <option value="Tommy">Tommy Shook</option>
-      <option value="Ty">Ty Taylor</option>
-    </select>
-  </div>
-</div>
+# Specifications
 
-## Type Ahead Select
+## Default layout
 
-<div class="ui form">
-  <div class="field">
-    <div class="ui fluid search selection dropdown">
-      <input type="hidden" name="state">
-      <i class="dropdown icon"></i>
-      <div class="default text">State</div>
-      <div class="menu">
-        <div class="item" data-value="">State</div>
-        <div class="item" data-value="AL">Alabama</div>
-        <div class="item" data-value="AK">Alaska</div>
-        <div class="item" data-value="AZ">Arizona</div>
-        <div class="item" data-value="AR">Arkansas</div>
-        <div class="item" data-value="CA">California</div>
-        <!-- Saving your scroll sanity !-->
-        <div class="item" data-value="OH">Ohio</div>
-        <div class="item" data-value="OK">Oklahoma</div>
-        <div class="item" data-value="OR">Oregon</div>
-        <div class="item" data-value="PA">Pennsylvania</div>
-        <div class="item" data-value="RI">Rhode Island</div>
-        <div class="item" data-value="SC">South Carolina</div>
-        <div class="item" data-value="SD">South Dakota</div>
-        <div class="item" data-value="TN">Tennessee</div>
-        <div class="item" data-value="TX">Texas</div>
-        <div class="item" data-value="UT">Utah</div>
-        <div class="item" data-value="VT">Vermont</div>
-        <div class="item" data-value="VA">Virginia</div>
-        <div class="item" data-value="WA">Washington</div>
-        <div class="item" data-value="WV">West Virginia</div>
-        <div class="item" data-value="WI">Wisconsin</div>
-        <div class="item" data-value="WY">Wyoming</div>
-      </div>
-    </div>
-  </div>
-</div>
+Drop-downs
 
-## Type Ahead Multiple Select
+{% figure [caption:"Default layout"] [class:"image bg-light border"] %}
+ ![]({{site.url}}/assets/images/components/content-areas/dropdowns/dropdowns-default-layout.svg){:width="80%"}
+ {% endfigure %}
 
-<div class="ui form">
-  <div class="field">
-    <select class="ui fluid search dropdown" multiple="">
-      <option value="">State(s)</option>
-      <option value="AL">Alabama</option>
-      <option value="AK">Alaska</option>
-      <option value="AZ">Arizona</option>
-      <option value="AR">Arkansas</option>
-      <option value="CA">California</option>
-      <!-- Saving your scroll sanity !-->
-      <option value="OH">Ohio</option>
-      <option value="OK">Oklahoma</option>
-      <option value="OR">Oregon</option>
-      <option value="PA">Pennsylvania</option>
-      <option value="RI">Rhode Island</option>
-      <option value="SC">South Carolina</option>
-      <option value="SD">South Dakota</option>
-      <option value="TN">Tennessee</option>
-      <option value="TX">Texas</option>
-      <option value="UT">Utah</option>
-      <option value="VT">Vermont</option>
-      <option value="VA">Virginia</option>
-      <option value="WA">Washington</option>
-      <option value="WV">West Virginia</option>
-      <option value="WI">Wisconsin</option>
-      <option value="WY">Wyoming</option>
-    </select>
-  </div>
-</div>
+## Drop-down states
+
+Drop-downs can be in the following states:
+
+* Default
+* Disabled
+* Focus
+* Error
+
+{% figure [caption:"Drop-downs states."] [class:"image bg-light border"] %}
+ ![]({{site.url}}/assets/images/components/content-areas/dropdowns/dropdowns-states.svg){:width="80%"}
+ {% endfigure %}
+
+## Option label
+
+Clicking a drop-down menu displays the options contained within the dropdown.
+
+{% figure [caption:"Drop-downs option label."] [class:"image bg-light border"] %}
+ ![]({{site.url}}/assets/images/components/content-areas/dropdowns/dropdowns-option-label.svg){:width="80%"}
+ {% endfigure %}
+
+## Drop-down data states
+
+Once a drop-down menu is expanded, the options contained within have four
+states:
+
+* Default
+* Hovered
+* Selected
+* Selected and hovered
+
+{% figure [caption:"Drop-down data states."] [class:"image bg-light border"] %}
+ ![]({{site.url}}/assets/images/components/content-areas/dropdowns/dropdowns-data-states.svg){:width="80%"}
+ {% endfigure %}
