@@ -24,7 +24,7 @@ options or actions.
  ![]({{site.url}}/assets/images/components/content-areas/dropdowns/dropdowns-hero.svg){:width="80%"}
  {% endfigure %}
 
-### When to use
+## When to use
 
 Drop-downs are used when a user is required to select a single option from
 a known list of options. For example, selecting a region on the
@@ -36,7 +36,7 @@ Rackspace Cloud server create form will provide the following options:
 * London
 * Virginia
 
-### Best practice
+## Best practice
 
 * Applying the disabled state to any options that are not currently available to
   the user.
@@ -47,10 +47,65 @@ Rackspace Cloud server create form will provide the following options:
 * Keeping the drop-down label viewable through all states of the dropdown. This
   ensures users remember what label prompted the data set they are viewing.
 
-### Basic information
+## Basic information
 
 .. REQUIRES IMAGE
 
-### Sub-patterns
+## Sub-patterns
 
 ... REQUIRES IMAGE
+
+# Specs and states
+
+Use the sections on this artboard to document construction specifications for
+your design; elements such as fonts, colors, padding, margins, and line-height. 
+
+**Important: These states will not apply to all design patterns, and many design
+patterns will have states not included here. We recommend deleting states you
+do not need, and add sections to this artboard for any states you do need.**
+
+## Default Layout
+
+Drop-downs
+
+{% figure [caption:"Default layout"] [class:"image bg-light border"] %}
+ ![]({{site.url}}/assets/images/components/content-areas/dropdowns/dropdowns-default-layout.svg){:width="80%"}
+ {% endfigure %}
+
+## Drop-down states
+
+Drop-downs can be in the following states:
+
+* Default
+* Disabled
+* Focus
+* Error
+
+{% figure [caption:"When you need to describe an image in greater detail, use this block
+ of text so that you can keep the left area clutter-free. 3 lines or less."] [class:"image bg-light border"] %}
+ ![]({{site.url}}/assets/images/components/content-areas/dropdowns/dropdowns-states.svg){:width="80%"}
+ {% endfigure %}
+
+## Option label
+
+Clicking a drop-down menu displays the options contained within the dropdown.
+
+{% figure [caption:"When you need to describe an image in greater detail, use this
+ block of text so that you can keep the left area clutter-free. 3 lines or less."] [class:"image bg-light border"] %}
+ ![]({{site.url}}/assets/images/components/content-areas/dropdowns/dropdowns-option-label.svg){:width="80%"}
+ {% endfigure %}
+
+## Drop-down data states
+
+Once a drop-down menu is expanded, the options contained within have four
+states:
+
+* Default
+* Hovered
+* Selected
+* Selected and hovered
+
+{% figure [caption:"When you need to describe an image in greater detail, use this
+ block of text so that you can keep the left area clutter-free. 3 lines or less."] [class:"image bg-light border"] %}
+ ![]({{site.url}}/assets/images/components/content-areas/dropdowns/dropdowns-data-states.svg){:width="80%"}
+ {% endfigure %}
