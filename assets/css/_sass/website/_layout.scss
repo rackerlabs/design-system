@@ -22,6 +22,9 @@ body {
     position: relative;
     a {
       padding: 0 !important;
+      &:hover {
+        background: $grey975 !important;
+      }
     }
     img {
         height: 26px;
@@ -186,7 +189,7 @@ h2 {
 }
 
 p {
-  font-size: $font-size-3;
+  font-size: $base-font-size;
   // max-width: 34em;
 }
 
