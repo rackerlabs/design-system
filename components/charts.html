@@ -5,10 +5,11 @@ category: Components
 usage: Teaser Text
 preview-image:
 resource: true
+status: deprecated
 ---
 
 <article>
-	<h1>Chart Basics<span class="status prototype">In Progress</span></h1>
+	<h1>Chart Basics <span class="status deprecated">Deprecated</span></h1>
 	<p class="ws-todo-bar" style="margin-bottom:12px;"><b>TODO:</b> Correctly format numbers at or above 1,000 in tooltips and on axes by including commas. <a href="https://jira.rax.io/browse/RED-582" target="_blank" class="temp-dark-bg">VIEW JIRA</a></p>
 
 	<p class="ws-todo-bar" style="margin-bottom:12px;"><b>TODO:</b> Make legends look clickable when they are. It is not discoverable that data can be filtered by clicking on a legend label. <a href="https://jira.rax.io/browse/RED-583" target="_blank" class="temp-dark-bg">VIEW JIRA</a></p>
@@ -110,7 +111,7 @@ resource: true
 </article>
 
 <article>
-	<h1><a name="Statistics"></a>Statistics<span class="status prototype">In Progress</span></h1>
+	<h1><a name="Statistics"></a>Statistics <span class="status deprecated">Deprecated</span></h1>
 
 	<p><b>Before considering any data visualization</b>, consider showing a simple statistic. If you can tell the user what they want to know without forcing chart interpretation, that is preferred.</p>
 
@@ -230,7 +231,7 @@ resource: true
 </article>
 
 <article>
-	<h1><a name="Impressions"></a>Impressions<span class="status prototype">In Progress</span></h1>
+	<h1><a name="Impressions"></a>Impressions <span class="status deprecated">Deprecated</span></h1>
 	<p>Impressions are small, scannable data visualizations used in conjunction with statistics to help users decide if they want to learn more. Enough context must be provided around the impression to make it's meaning clear at a glance.</p>
 
 	<h3 class="ws-charts-h3" style="padding-top:0;">Sparklines and Bar Impressions</h3>
@@ -461,7 +462,7 @@ resource: true
 </article>
 
 <article>
-	<h1><a name="Bar_Charts"></a>Bar Chart<span class="status prototype">In Progress</span></h1>
+	<h1><a name="Bar_Charts"></a>Bar Chart <span class="status deprecated">Deprecated</span></h1>
 	<p><b>Use to compare items against each other or throughout time and identify outliers.</b></p>
 	<p class="ws-todo-bar" style="margin-bottom:24px;"><b>TODO:</b> Improve implementation of a threshold line. Make sure the threshold/average line extends the entire width of the x axis. Show a tooltip with the threshold/average when any part of the line is hovered over. <a href="https://jira.rax.io/browse/RED-578" target="_blank" class="temp-dark-bg">VIEW JIRA</a></p>
 	<p>Bar charts showing a single data set should use a single color, and there is no need to show a legend. When comparing throughout time, bar charts and line charts can sometimes be used interchangeably. <b>Use a line chart if:</b></p>
@@ -510,7 +511,7 @@ resource: true
 
 <!--REMOVING: There's no immediate need for this. High effort customization to the legend needed to make the chart understandable.
 
-	<h1>Bubble Chart<span class="status prototype">In Progress</span></h1>
+	<h1>Bubble Chart <span class="status deprecated">Deprecated</span></h1>
 <p class="ws-todo-bar" style="margin-bottom:12px;"><b>TODO:</b> Fix legend. Indicate what bubble radius represents.  Show continent groups instead of individual rivers.</p>
 <p class="ws-todo-bar" style="margin-bottom:12px;"><b>TODO:</b> Change the display of the data in the tooltip.</p>
 
@@ -525,7 +526,7 @@ resource: true
 </div>-->
 
 <article>
-	<h1><a name="Doughnut_Charts"></a>Doughnut Charts<span class="status prototype">In Progress</span></h1>
+	<h1><a name="Doughnut_Charts"></a>Doughnut Charts <span class="status deprecated">Deprecated</span></h1>
 	<p><b>Use to show composition.</b></p>
 	<p class="ws-todo-bar" style="margin-bottom:12px;"><b>TODO:</b> Make custom right legends clickable like default legends. <a href="https://jira.rax.io/browse/RED-588" target="_blank" class="temp-dark-bg">VIEW JIRA</a></p>
 	<p class="ws-todo-bar" style="margin-bottom:24px;"><b>TODO:</b> Center and resize statistic in doughnut carts with media queries.<a href="https://jira.rax.io/browse/RED-589" target="_blank" class="temp-dark-bg">VIEW JIRA</a></p>
@@ -583,7 +584,7 @@ resource: true
 </article>
 
 <article>
-	<h1><a name="Line_Charts"></a>Line Charts<span class="status prototype">In Progress</span></h1>
+	<h1><a name="Line_Charts"></a>Line Charts <span class="status deprecated">Deprecated</span></h1>
 
 	<p><b>Use to show trends over time.</b></p>
 
@@ -627,7 +628,7 @@ resource: true
 </article>
 <!--REMOVING DUE TO USABILITY PROBLEMS: Polar area chart is basically a bar chart arranged in a circle. Because of that, you loose the ability to have labels on the x-axis and must show a legend. Polar area charts work best for cyclical data (if not - use a bar chart). If each slice has a different color, common cylces such as 12 months or 24 hours would violate the 7 colors per chart guideline.
 
-	<h1>Polar Area Chart<span class="status prototype">In Progress</span></h1>
+	<h1>Polar Area Chart <span class="status deprecated">Deprecated</span></h1>
 <p><b>Use to identify outliers and display cyclical data.</b></p>
 <p>Polar area charts have similarities to both bar and pie charts. Unlike pie charts, they do not show an item's share of the total. Instead each wedge has an equal angle. The wedges extend from the center to show deviations in the data the way bars extend from the x-axis in the above bar chart examples. Polar area charts are best at showing cyclical data.</p>
 <p>Since polar area charts are less common compared to bar and pie charts, gleaning insights from them can increase <a href="https://www.nngroup.com/articles/minimize-cognitive-load/">cognitive load</a>. Depending on your data, consider showing a bar chart or pie chart instead.</p>
@@ -647,7 +648,7 @@ resource: true
 </div>-->
 
 <article>
-	<h1><a name="Radar_Charts"></a>Radar Chart<span class="status prototype">In Progress</span></h1>
+	<h1><a name="Radar_Charts"></a>Radar Chart <span class="status deprecated">Deprecated</span></h1>
 	<p><b>Use to identify outliers and compare two data sets.</b></p>
 	<p >Before using a radar chart, consider using a line chart or multi-column bar chart. Both options can compare multiple data sets and are more familiar to users. However, the shapes created on a radar chart can provide a visual shortcut to aid in differentiating datasets. For example, the below chart reveals San Antonio gets most of it's rain in the late spring; whereas, more rain falls in Seattle during the winter.</p>
 	<p>A radar chart can have no more than 12 axes. The same units must apply to all axes. Only two data sets can be shown at a time.</p>
