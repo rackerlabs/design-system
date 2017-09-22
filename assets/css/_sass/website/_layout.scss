@@ -16,26 +16,30 @@ body {
   padding: 0px;
   margin: 0px;
 }
-.logo {
-    display: block;
-    // height: 98px;
-    position: relative;
-    a {
-      padding: 0 !important;
-    }
-    img {
-        height: 26px;
-        width: 122px;
-        position: relative;
-        margin: 16px auto 28px auto;
-    }
-}
 
 nav.side {
     display: flex;
     flex-direction: column;
     flex-shrink: 0;
     min-height: 100vh;
+    .logo {
+        display: block;
+        // height: 98px;
+        position: relative;
+        a {
+          padding: 0 !important;
+          &:hover {
+            background-color: inherit;
+            cursor: pointer;
+          }
+        }
+        img {
+            height: 26px;
+            width: 122px;
+            position: relative;
+            margin: 0 auto 28px auto;
+        }
+    }
 }
 
 /**
