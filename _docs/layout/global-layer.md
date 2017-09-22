@@ -6,7 +6,7 @@ usage: |
   The global layer is the application layer that allows a user to access
   global features of the UI.
 preview-image:
-resource: true
+resource: false
 ---
 
 {% include toc.html %}
