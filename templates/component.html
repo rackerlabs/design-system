@@ -22,16 +22,17 @@ layout: base
         </div>
     </div>
 </div>
-<div class="com-code">
-  <a href="#">Design Guidelines</a> |
-  {% for item in site.component_code %}
-    {% if page.title == item.title %}
-      <a href="{{site.url}}{{item.url}}.html">Code &amp; Examples</a>
-    {% endif %}
-  {% endfor %}
-</div>
+
 
   <article class="content-wrapper">
+    <div class="com-code">
+      <a href="#">Design Guidelines</a> |
+      {% for item in site.component_code %}
+        {% if page.title == item.title %}
+          <a href="{{site.url}}{{item.url}}.html">Code &amp; Examples</a>
+        {% endif %}
+      {% endfor %}
+    </div>
     <div class="component-content">
     {{content}}
     </div>
