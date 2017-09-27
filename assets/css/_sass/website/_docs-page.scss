@@ -9,31 +9,35 @@
     font-size: $font-size-7;
     font-weight: $thin-weight;
     color: $textcolorlight !important;
-    margin: 52px 28px 8px 28px;
+    margin: 52px 0 8px 0;
     text-align: left !important;
   }
 }
-.component-element {
-  .component-title {
-    font-size: $font-size-5;
-    color: $grey900;
-    margin: 24px 0px 16px 0px;
-    text-align: left !important;
-  }
-  .component-blurb {
-    font-size: $base-font-size;
-    color: $grey900;
-    font-weight: $light-weight;
-    margin: 16px 0px;
-    text-align: left !important;
-  }
-  .component-status {
-    font-size: $font-size-3;
-    color: $grey700;
-    margin: 16px 0px;
-  }
+
+// COMPONENT ROW
+.component-row {
+  margin: 1.5rem 0;
 }
-.docs-content {
+.component-row-title {
+  font-size: $font-size-5;
+  color: $grey900;
+  margin: 0 0px 16px 0px;
+  text-align: left !important;
+}
+.component-row-blurb {
+  font-size: $base-font-size;
+  color: $grey900;
+  font-weight: $light-weight;
+  margin: 16px 0px;
+  text-align: left !important;
+}
+.component-row-status {
+  font-size: $font-size-3;
+  color: $grey700;
+  margin: 16px 0px;
+}
+
+.content-wrapper {
   h1 {
     font-size: $font-size-5 !important;
     color: $grey900;
@@ -54,9 +58,8 @@
     font-size: inherit;
     color: $grey900;
   }
-  article {
-    padding: 0 28px;
-    margin: 0;
+  .content-wrapper {
+
     ul#markdown-toc {
       font-size: $base-font-size !important;
       color: $cyan700;
@@ -89,13 +92,13 @@
 .new-blurb {
   background-color: #e5f4f7;
   min-height: 280px;
-  padding: 28px;
+  padding: 28px 0;
   .page-title {
     width: 100%;
     font-size: 1.75em;
     font-weight: $light-weight;
     color: $grey900;
-    margin: 36px auto 24px auto;
+    margin: 36px 0 24px 0;
     text-align: left !important;
   }
   .page-blurb {
