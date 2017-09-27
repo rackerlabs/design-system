@@ -2,23 +2,25 @@
 layout: base
 ---
 <div class="content-banner">
-  <div class="hxRow">
-    <div class="hxCol-8">
-      <div class="hxRow">
-        <div class="hxCol">
-          <div class="component-title">{{page.title}}</div>
+    <div class="content-wrapper">
+        <div class="hxRow">
+            <div class="hxCol-8">
+                <div class="hxRow">
+                    <div class="hxCol">
+                        <div class="component-title">{{page.title}}</div>
+                    </div>
+                </div>
+                <div class="hxRow">
+                    <div class="hxCol">
+                        <div class="component-blurb">{{page.usage}}</div>
+                    </div>
+                </div>
+            </div>
+            <div class="hxCol-4">
+                <div class="hero-image"><img src="{{site.cdn_url}}/img/{{page.preview-image}}" /></div>
+            </div>
         </div>
-      </div>
-      <div class="hxRow">
-        <div class="hxCol">
-          <div class="component-blurb">{{page.usage}}</div>
-        </div>
-      </div>
     </div>
-    <div class="hxCol-4">
-      <div class="hero-image"><img src="{{site.cdn_url}}/img/{{page.preview-image}}"/></div>
-    </div>
-  </div>
 </div>
 <div class="com-code">
   <a href="#">Design Guidelines</a> |
@@ -28,8 +30,10 @@ layout: base
     {% endif %}
   {% endfor %}
 </div>
-<div class="component-content">
-  <article>
+
+  <article class="content-wrapper">
+    <div class="component-content">
     {{content}}
+    </div>
   </article>
-</div>
+
