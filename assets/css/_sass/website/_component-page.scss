@@ -27,13 +27,12 @@
 .content-banner {
   background-color: #e5f4f7;
   min-height: 280px;
-  padding: 28px;
   .component-title {
     width: 100%;
     font-size: 28px;
     font-weight: $light-weight;
     color: $grey900;
-    margin: 36px auto 24px auto;
+    margin: 36px 0 24px 0;
     text-align: left !important;
   }
   .component-blurb {
@@ -77,9 +76,8 @@
     font-size: $font-size-3;
     color: $grey900;
   }
-  article {
-    padding: 0px 0px 0px 28px;
-    margin: 0;
+  .content-wrapper {
+
     ul#markdown-toc {
       font-size: $font-size-3;
       color: $grey900;
