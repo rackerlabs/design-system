@@ -2,14 +2,13 @@
 .fam-banner {
   background-color: $cyan700;
   color: $textcolorlight !important;
-  min-height: 168px;
-  padding: 28px 0;
+  min-height: 10.5rem;
   .fam-display {
     width: 100%;
     font-size: $font-size-7;
     font-weight: $thin-weight;
     color: $textcolorlight !important;
-    margin: 52px 28px 8px 28px;
+    margin: 52px 0 8px 0;
     text-align: left !important;
   }
 }
@@ -62,9 +61,8 @@ ul li {
   font-size: inherit;
   color: $grey900;
 }
-article {
-  // padding: 0px 0px 0px 28px;
-  margin: 0;
+.content-wrapper {
+
   ul#markdown-toc {
     font-size: $base-font-size;
     color: $grey900;
