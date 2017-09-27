@@ -23,22 +23,26 @@
       {% include nav.html %}
       <main class="hxApp__content page-content">
         <div class="base-top-bar">
-          <nav class="hxBreadcrumb">
-            <a href="{{site.url}}/components/index.html">{{page.category}}</a>
-            <hx-icon class="delimiter" type="angle-right"></hx-icon>
-            <a href="{{site.url}}/components/{{page.parent | slugify}}.html">{{page.parent}}</a>
-            <hx-icon class="delimiter" type="angle-right"></hx-icon>
-            <a href="{{page.url}}">{{page.title}}</a>
-          </nav>
+          <div class="content-wrapper">
           <div class="hxRow">
-            <div class="hxCol-4 hxOffset-4">
+            <div class="hxCol-8">
+              <nav class="hxBreadcrumb">
+                <a href="{{site.url}}/components/index.html">{{page.category}}</a>
+                <hx-icon class="delimiter" type="angle-right"></hx-icon>
+                <a href="{{site.url}}/components/{{page.parent | slugify}}.html">{{page.parent}}</a>
+                <hx-icon class="delimiter" type="angle-right"></hx-icon>
+                <a href="{{page.url}}">{{page.title}}</a>
+              </nav>
+            </div>
+            <div class="hxCol-2">
               <button class="btn btn-primary btn-sm">Submit issue</button>
             </div>
-            <div class="hxCol-4">
+            <div class="hxCol-2">
               <button class="btn btn-primary btn-sm">Sketch template</button>
             </div>
           </div>
         </div>
+      </div>
         {{ content }}
       </main>
     </div>
