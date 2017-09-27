@@ -4,11 +4,11 @@ layout: overview
 ---
 
 Helix is a Rackspace chartered effort to unify the look, feel, and
-functionality of our interfaces &mdash; one system composed of this Helix design
+functionality of our interfaces&mdash;one system composed of this Helix design
 library for designers and a UI toolkit for developers. Together, we make
 customers happy.
 
-<div class="hxRow center">
+<div class="hxRow">
   <div class="hxCol-xl-6 hxCol-lg-6 hxCol-md-6 hxCol-md-12">
     <div class="card">
       <div class="icon"><img src="assets/images/For_Designers_Icon.svg" alt="designer UX icon"/></div>
