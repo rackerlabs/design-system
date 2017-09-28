@@ -6,7 +6,7 @@ usage: |
   The Helix design language uses the concept of application layers to identify
   where a product or service is located within the Helix UI application.
 preview-image:
-resource: true
+resource: false
 ---
 
 {% include toc.html %}
