@@ -4,7 +4,7 @@ layout: docs
 category: Layout
 usage: Teaser Text
 preview-image:
-resource: true
+resource: false
 ---
 
 {% include toc.html %}
