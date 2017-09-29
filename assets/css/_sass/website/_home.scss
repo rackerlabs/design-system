@@ -11,15 +11,15 @@
     flex: 1;
   };
   h2 {
-    font-size: $font-size-5;
+    font-size: $font-size-5 !important;
     font-weight: $regular-weight;
     color: $grey400;
     margin: 40px auto 0px auto;
   };
   p {
-    font-size: $font-size-3;
+    font-size: $base-font-size;
     font-weight: $regular-weight;
-    color: $grey600 !important;
+    color: $grey400 !important;
     margin: 12px auto !important;
   };
   hr {
@@ -34,6 +34,9 @@
     width: 36px;
     filter: invert(60%);
     border-radius: 17px;
+    &:hover {
+      filter: invert(90%);
+    }
   };
 }
 .overview-wrapper {
@@ -62,19 +65,21 @@
 
 .overview-content {
   p {
-    font-size: $base-font-size;
+    font-size: $base-font-size !important;
     font-weight: $light-weight;
     color: $grey900;
     text-align: center;
     line-height: $base-line-height !important;
-    max-width: none;
+    max-width: 43em;
+    margin: auto;
   }
   .main-logo {
     display: block;
     position: relative;
-    margin: 80px auto 28px auto;
+    margin: 80px auto 0px auto;
     img {
       height: 64px;
+      margin: 0px auto 0px auto;
     };
   }
   .card {
@@ -82,7 +87,7 @@
     border: 1px solid $grey400;
     margin: 32px auto 40px auto;
     padding: 0px 10px;
-    min-height: 292px;
+    min-height: 377px;
     width: 228px;
     text-align: center;
     .icon {
@@ -123,6 +128,9 @@
         text-transform: capitalize;
         padding: 0.5em;
         font-size: $base-font-size;
+        &:hover {
+          cursor: pointer;
+        }
       };
     }
   }
