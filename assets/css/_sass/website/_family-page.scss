@@ -2,14 +2,13 @@
 .fam-banner {
   background-color: $cyan700;
   color: $textcolorlight !important;
-  min-height: 168px;
-  padding: 28px 0;
+  min-height: 10.5rem;
   .fam-display {
     width: 100%;
     font-size: $font-size-7;
     font-weight: $thin-weight;
     color: $textcolorlight !important;
-    margin: 52px 28px 8px 28px;
+    margin: 52px 0 8px 0;
     text-align: left !important;
   }
 }
@@ -62,37 +61,21 @@ ul li {
   font-size: inherit;
   color: $grey900;
 }
-article {
-  // padding: 0px 0px 0px 28px;
-  margin: 0;
-  ul#markdown-toc {
-    font-size: $base-font-size;
-    color: $grey900;
-    margin: 0 0 24px 0;
-    padding: 0px;
+
+
+
+#markdown-toc {
+  font-size: $base-font-size;
+  color: $grey900;
+  margin: 0 0 24px 0;
+  padding: 0px;
+  line-height: $base-line-height;
+  li {
     line-height: $base-line-height;
-    a {
-      color: $grey900;
-      line-height: $base-line-height;
-      padding: 0px !important;
-      &:hover {
-        color: $cyan700;
-        text-decoration: underline;
-      }
-    }
-    li {
-      line-height: $base-line-height;
-      padding: 0px !important;
-      a {
-        color: $grey900;
-        &:hover {
-          color: $cyan700;
-          text-decoration: underline;
-        }
-      }
-    }
+    padding: 0px !important;
   }
 }
+
 .index-toc {
   ul {
     font-size: $font-size-3;
@@ -104,13 +87,6 @@ article {
     li {
       line-height: $base-line-height !important;
       padding: 0px !important;
-      a {
-        color: $grey900 !important;
-        &:hover {
-          color: $cyan700;
-          text-decoration: underline;
-        }
-      }
     }
   }
 }
