@@ -60,52 +60,18 @@
   }
 }
 .component-content {
-  h1 {
-    font-size: 24px !important;
-    color: $grey900;
-  }
-  h2 {
-    font-size: $base-font-size !important;
-    color: $grey900;
-  }
-  p {
-    font-size: $font-size-3 !important;
-    color: $grey900;
-  }
-  ul li {
-    font-size: $font-size-3;
-    color: $grey900;
-  }
-  .content-wrapper {
-
     ul#markdown-toc {
       font-size: $font-size-3;
       color: $grey900;
       margin: 0 0 24px 0;
       padding: 0px;
       line-height: $base-line-height !important;
-      a {
-        color: $grey900;
-        line-height: $base-line-height !important;
-        padding: 0px !important;
-        &:hover {
-          color: $cyan700;
-          text-decoration: underline;
-        }
-      }
+
       li {
         line-height: $base-line-height !important;
         padding: 0px !important;
-        a {
-          color: $grey900;
-          &:hover {
-            color: $cyan700;
-            text-decoration: underline;
-          }
-        }
       }
     }
-  }
 }
 
 .grid-bg {
