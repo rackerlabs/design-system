@@ -59,9 +59,13 @@ nav.side {
 /**
  * Content styles
  */
-article {
-  padding: 32px 10px;
+.content-wrapper {
   position: relative;
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: 0 $paddingXL;
+  overflow: hidden; 
+
   &:first-child {
     border-bottom: none;
   }
@@ -90,6 +94,10 @@ article {
       }
     }
   }
+}
+
+.docs-content {
+  margin: $paddingXL 0;
 }
 
 a.anchor {
