@@ -3,7 +3,7 @@ title: Tabset
 parent: Content Areas
 layout: component
 category: Components
-usage: Tabs separate content into different views, making it easy to explore content by clicking a descriptive tab title. Switching between tabs is quick, since it doesn't require scrolling or refreshing the page. Tabs enable content organization at a high level, such as switching between views, data sets, or functional aspects of an application.
+usage: Tabsets separate content into different views, making it easy to explore content by clicking a descriptive tab title. Switching between tabs is quick, since it doesn't require scrolling or refreshing the page. Tabs enable content organization at a high level, such as switching between views, data sets, or functional aspects of an application.
 preview-image: components/preview-images/tabs.svg
 resource: true
 status: unknown
@@ -12,84 +12,84 @@ last-modified: 2017-09-11
 
 {% include toc.html %}
 
-## Introduction
+### Introduction
 
 <div class="hxRow">
-{% column left:"hxCol-4" %}
-##### Problems solved by tabs
-  * Tabs eliminate the need to scroll through long pages to find the
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+#### Problems Solved
+  * Tabsets eliminate the need to scroll through long pages to find the
     right section. With tabs, it's easy to see what sections are
     available.
-  * Tabs eliminate the need to stack sections.
+  * Tabsets eliminate the need to stack sections.
 
-##### Best practices for tabs
+#### Best Practices
   * There must be only one active tab per page.
   * The default view must always display the left-most tab.
   * Present tabs as a single row. Wrap tab labels to a second line if
     needed, and then truncate.
   * Do not include another set of tabbed content within a tab (No
-    nested tabs.)
+    nested tabsets.)
   * Highlight the tab corresponding to the visible content.
   * Provide all relevant contextual information and interface items to
     perform a single task within the same tab.
-  * Do not use tabs for primary navigation.
+  * Do not use tabsets for primary navigation.
   * Clearly label tabs to differentiate them. Labels should be short,
     scannable, and (preferably) one word.
 {% endcolumn %}
 
-{% column left:"hxCol-8" %}
-{% figure [caption:"A generic tab"] [class:"image bg-light border"] %}
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [caption:"A generic tabset"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/content-areas/tabs/tabs-lorem-ipsum.svg){:width="80%"}
 {% endfigure %}
 {% endcolumn %}
 </div>
 
-## Designing with tabs
+### Designing with tabsets
 
 <div class="hxRow">
-{% column left:"hxCol-4" %}
-##### Tab menu
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+#### Tab menu
 
 The default layout must always have the left-most tab selected. In the
-example image that follows, **Notes** is the default. Tabs are
+example image that follows, **Notes** is the default. Tabsets are
 contained in a transparent canvas specific to that the tab. The tab
 content area adopts the color of the content behind it. Top and bottom
 lines extend to the edge of the content area.
 {% endcolumn %}
 
-{% column left:"hxCol-8" %}
-{% figure [caption:"Tab menu"] [class:"image bg-light border"] %}
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [caption:"Tab menu structure"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/content-areas/tabs/tabs-menu.svg){:width="80%"}
 {% endfigure %}
 {% endcolumn %}
 </div>
 
 <div class="hxRow">
-{% column left:"hxCol-4" %}
-##### Tab content area
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+#### Tab content area
 
 Pad the top and bottom of the content area by 24px. Pad the sides of
 the content area by 20px.
 {% endcolumn %}
 
-{% column left:"hxCol-8" %}
-{% figure [caption:"Tab content area"] [class:"image bg-light border"] %}
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [caption:"Tab content area structure"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/content-areas/tabs/tabs-content-area.svg){:width="80%"}
 {% endfigure %}
 {% endcolumn %}
 </div>
 
-## States
+### States
 
 <div class="hxRow">
-{% column left:"hxCol-4" %}
-###### Hover state
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+#### Hover state
 
 Hovering over another tab changes the color of the text. Hovering off
 the tab changes it back to the default color.
 {% endcolumn %}
 
-{% column left:"hxCol-8" %}
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Tab hover state"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/content-areas/tabs/tabs-hover-state.svg){:width="80%"}
 {% endfigure %}
@@ -97,14 +97,14 @@ the tab changes it back to the default color.
 </div>
 
 <div class="hxRow">
-{% column left:"hxCol-4" %}
-###### Pressed state
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+#### Pressed state
 
 Clicking the text on the tab changes the color by a few shades to
 visually confirm an action.
 {% endcolumn %}
 
-{% column left:"hxCol-8" %}
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Tab pressed state"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/content-areas/tabs/tabs-pressed-state.svg){:width="80%"}
 {% endfigure %}
@@ -112,14 +112,14 @@ visually confirm an action.
 </div>
 
 <div class="hxRow">
-{% column left:"hxCol-4" %}
-##### Zero state
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+#### Zero state
 
 Zero state messaging is centered both horizontally and vertically. Use
 a minimum height of 220px for the container.
 {% endcolumn %}
 
-{% column left:"hxCol-8" %}
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Tab zero state"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/content-areas/tabs/tabs-zero-state.svg){:width="80%"}
 {% endfigure %}
