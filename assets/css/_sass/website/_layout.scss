@@ -8,10 +8,9 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100%;
-  background-color: $grey25;
+  background-color: $grey0 !important;
   line-height: $base-line-height;
   overflow-x: hidden;
-  // min-width: 320px;
   box-sizing: inherit;
   padding: 0px;
   margin: 0px;
@@ -211,9 +210,9 @@ pre {
 
 .image {
   text-align: center;
-  width: 100%;
+  padding: 2rem;
   &.bg-light {
-    background-color: $grey0;
+    background-color: $grey25;
   }
   &.border {
     border: 1px solid $grey400;
