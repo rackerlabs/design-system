@@ -44,7 +44,7 @@ last-modified: 2017-09-11
 {% endcolumn %}
 </div>
 
-### Designing with tabsets
+### Design Specs
 
 <div class="hxRow">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
