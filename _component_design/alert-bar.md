@@ -82,8 +82,8 @@ optional:
 
 Alert messages should be as concise and clear as possible. We recommend keeping to
 a limit of 140-160 characters. Following this rule will keep an alert message as a
-single-line comment (at Desktop and Wall breakpoints). However, in instances where a
-wrap is required, alert bars will following the wrapping behavior displayed.
+single-line comment (at Desktop and Wall breakpoints). 
+In instances where text wrapping is needed, it will follow the behavior shown in the illustration.
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
