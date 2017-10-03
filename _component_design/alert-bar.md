@@ -36,7 +36,7 @@ An alert bar can extend across the entirety of the content area (page level scop
 
 * Ensure notification bars have implicit priority based on the alert type from most to least severity level: Error > Warning > Success > Informational
 * Ensure notification bars are used sparingly and limited to one per page.
-* In the event that multiple alert bars are present, they should be stacked in order of criticality, high-to-low, top-to-bottom.
+* For multiple alert bars, stack them in order of criticality, high-to-low, top-to-bottom.
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
