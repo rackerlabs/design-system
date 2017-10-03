@@ -17,10 +17,6 @@ globally applicable, but non-primary navigation information. We
 recommend using it on every page and every wrapped application. For
 customer applications, it  should not exceed the articulated scope.
 
-{% figure [caption:"Default image"] [class:"image bg-light border"] %}
- ![]({{site.url}}/assets/images/components/content-areas/footer/.svg){:width="80%"}
-{% endfigure %}
-
 ## When to use footers
 
 Use the Rackspace footer on every application page to provide consistent
@@ -53,7 +49,7 @@ For customer applications, do not add additional functionality to the footer.
 
 {% figure [caption:"The footer rests on the bottom of whatever page it
   is on."] [class:"image bg-light border"] %}
-  ![]({{site.url}}/assets/images/components/content-areas/footer/.svg){:width="80%"}
+  ![]({{site.url}}/assets/images/components/content-areas/footer/footer-scope.svg){:width="80%"}
 {% endfigure %}
 
 ## Footer specifications
@@ -64,6 +60,6 @@ other. Links behave according to the Links documentation, utilizing cyan 500
 on dark backgrounds.
 
 {% figure [caption:"Default image"] [class:"image bg-light border"] %}
- ![]({{site.url}}/assets/images/components/content-areas/footer/.svg){:width="80%"}
+ ![]({{site.url}}/assets/images/components/content-areas/footer/footer-spec.svg){:width="80%"}
 {% endfigure %}
 
