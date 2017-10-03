@@ -4,8 +4,11 @@ parent: Notifications
 layout: component
 category: Components
 usage: |
-  These tooltips provide users with additional information while completing
-  tasks and alert them to new features.
+ Use notification bars for information that will remain static unless
+ changed by a user. For example, you could use notification bars for
+ Info messages about a new feature available to a user, or an Error
+ message informing the user that their credit card was unable to be
+ processed this month.
 preview-image: components/preview-help.svg
 status: deprecated, in-progress
 resource: true
@@ -14,57 +17,42 @@ last-modified: 2017-08-17
 
 {% include toc.html %}
 
-# Notification bars
+### Introduction
 
-A notification bar extends fully across the top of an item within a
-Helix interface in order to provide the user with feedback relating
-to the status of the item. It can be scoped across the entirety of
-the content area (page level scoping) or scoped to extend across a
-singular section of the content area (element level scoping).
+<div class="hxRow">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+An alert bar can extend across the entirety of the content area (page level scoping) or across a singular section of the content area (element level scoping).
 
-{% figure [caption:"Alert bar hero"] [class:"image bg-light border"] %}
- ![]({{site.url}}/assets/images/components/content-areas/alerts/alert-bar-hero.svg){:width="80%"}
-{% endfigure %}
-
-## When to use alerts
-
-Notification bars are used to provide status information about a page or
-element to a user.
+#### When to Use
 
 * Notification bars are best used for information that will remain static,
   barring user intervention. For example, an informative message surrounding a new
-  feature being made available to a user. For information that is more
+  feature being made available to a user. 
+* For information that is more
   ephemeral and fleeting, we recommend using another notification
   type.
 
-## Best practices for alerts
+#### Best Practices
 
-We recommend following these best practices:
-
-* Ensure a notification bar is placed across the entirety of the
-  referenced element.
-* Ensure notification bars have implicit priority based on the alert type from most
-  to least severity level:
-  * Error > Warning > Success > Informational
+* Ensure notification bars have implicit priority based on the alert type from most to least severity level: Error > Warning > Success > Informational
 * Ensure notification bars are used sparingly and limited to one per page.
-  * In the event a higher priority alert bar needs to be shown on a page that
-    already contains a  notification bar. The higher level alert is placed
-    *above* the lower priority bar.
+* For multiple alert bars, stack them in order of criticality, high-to-low, top-to-bottom.
+{% endcolumn %}
 
-# Specifications
-
-## Default layout
-
-Alert bars rest at the top of the content section of a page layout in most
-situations, extending across the entire section.
-
-* Matches the margin of the content area to which it relates.
-
-{% figure [caption:"Alert bar default."] [class:"image bg-light border"] %}
- ![]({{site.url}}/assets/images/components/content-areas/alerts/alert-bar-default.svg){:width="80%"}
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [caption:"Page level scoping example"] [class:"image bg-light border"] %}
+ ![]({{site.url}}/assets/images/components/content-areas/alerts/alert-bar-hero.svg){:width="80%"}
 {% endfigure %}
+{% endcolumn %}
+</div>
 
-## Alert bar composition
+
+
+### Design Specs
+
+<div class="hxRow">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+#### Composition
 
 The alert bar pattern is comprised of six parts. Three required, three
 optional:
@@ -76,45 +64,48 @@ optional:
 * Alert type (optional) — An optional alert title descriptor.
 * Alert action link (optional) — Provides a user with the next step of a process.
 * Close action (optional) — Closes the alert.
+{% endcolumn %}
 
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Alert bar composition"] [class:"image bg-light border"] %}
  ![]({{site.url}}/assets/images/components/content-areas/alerts/alert-bar-composition.svg){:width="80%"}
 {% endfigure %}
-
-## Alert bar specifications
-
-Your component has initialized, but it is empty, no data or items. Now may be a
-good time to get the user to perform an action, or to reward them.
-Ensure you include redlines for the specific changes in this state.
-
 {% figure [caption:"Alert bar specifications."] [class:"image bg-light border"] %}
  ![]({{site.url}}/assets/images/components/content-areas/alerts/alert-bar-specs.svg){:width="80%"}
 {% endfigure %}
+{% endcolumn %}
+</div>
 
-## Status types
-
-The alert bar pattern seeks to provide a user with at a glance status of a
-given content section. The basic pattern can display four types of status:
-
-{% figure [caption:"Alert bar status types."] [class:"image bg-light border"] %}
- ![]({{site.url}}/assets/images/components/content-areas/alerts/alert-bar-status-types.svg){:width="80%"}
-{% endfigure %}
-
-## Variations
-
-Each status corrolates to a specific color in the Helix color palette.
-
-{% figure [caption:"Alert bar variations"] [class:"image bg-light border"] %}
- ![]({{site.url}}/assets/images/components/content-areas/alerts/alert-bar-variations.svg){:width="80%"}
-{% endfigure %}
-
-## Multi-line alerts
+<div class="hxRow">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+#### Multi-line alerts
 
 Alert messages should be as concise and clear as possible. We recommend keeping to
 a limit of 140-160 characters. Following this rule will keep an alert message as a
-single-line comment (at Desktop and Wall breakpoints). However, in instances where a
-wrap is required, alert bars will following the wrapping behavior displayed.
+single-line comment (at Desktop and Wall breakpoints). 
+In instances where text wrapping is needed, it will follow the behavior shown in the illustration.
+{% endcolumn %}
 
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Multiline alert wrapping behavior"] [class:"image bg-light border"] %}
  ![]({{site.url}}/assets/images/components/content-areas/alerts/alert-bar-multiline-alerts.svg){:width="80%"}
 {% endfigure %}
+{% endcolumn %}
+</div>
+
+<div class="hxRow">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+#### Status types
+
+The alert bar pattern enables users to assess status of a given section at a glance. This pattern supports four statuses:
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [caption:"Alert bar status types."] [class:"image bg-light border"] %}
+ ![]({{site.url}}/assets/images/components/content-areas/alerts/alert-bar-status-types.svg){:width="80%"}
+{% endfigure %}
+{% endcolumn %}
+</div>
+
+
+
