@@ -97,8 +97,7 @@ In instances where text wrapping is needed, it will follow the behavior shown in
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 #### Status types
 
-The alert bar pattern seeks to provide a user with at a glance status of a
-given content section. The basic pattern can display four types of status:
+The alert bar pattern enables users to assess status of a given section at a glance. This pattern supports four statuses:
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
