@@ -3,7 +3,12 @@ title: Alert Bar
 parent: Notifications
 layout: component
 category: Components
-usage: Notification bars are best used for information that will remain static barring user intervention. Such as an Info message surrounding a     new feature available to a user, or an Error notification informing the user there credit card has been unable to be processed this month.
+usage: |
+ Use notification bars for information that will remain static unless
+ changed by a user. For example, you could use notification bars for
+ Info messages about a new feature available to a user, or an Error
+ message informing the user that their credit card was unable to be
+ processed this month.
 preview-image: components/preview-help.svg
 status: deprecated, in-progress
 resource: true
