@@ -11,10 +11,10 @@ resource: true
 
 {% include toc.html %}
 
-# Base layouts
+### Base layouts
 
 <div class="hxRow">
-{% column left:"hxCol-md-4" %}
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 - Use the account navigation bar to navigate between applications,
   manage roles, and manage preferences on both the user and the account
   level.
@@ -32,7 +32,7 @@ resource: true
   links.
 
 {% endcolumn %}
-{% column right:"hxCol-md-8" %}
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Using top navigation provides more horizontal real estate for
 your content area. However, this can limit the number of navigation items."] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/layout/layout-navigation-top.svg){:width="100%"}
@@ -46,18 +46,18 @@ content area."] [class:"image bg-light border"] %}
 {% endcolumn %}
 </div>
 
-# Content areas
+### Content areas
 
 Build the content area using a 12 Column Grid. See [grid](/layout/grid) for more details.
 
-## Full Width Content Area
+#### Full Width Content Area
 
 <div class="hxRow">
-{% column left:"hxCol-md-4" %}
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 - Navigation is not a part of the 12 Column Grid.
 - Content area background color: Gray 25, #FAFAFA
 {% endcolumn %}
-{% column right:"hxCol-md-8" %}
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Full width with top navigation"] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/layout/layout-content-full-top-nav.svg){:width="100%"}
 {% endfigure %}
@@ -68,21 +68,21 @@ Build the content area using a 12 Column Grid. See [grid](/layout/grid) for more
 {% endcolumn %}
 </div>
 
-## Content area with right side rail
+### Content area with right side rail
 
-### Main content area
+#### Main content area
 
 - 9 columns
 - Background color: Gray 25, #FAFAFA
 
-### Right side rail
+#### Right side rail
 
 <div class="hxRow">
-{% column left:"hxCol-md-4" %}
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 - 3 columns
 - Background color: Gray 100, #EEEEEE
 {% endcolumn %}
-{% column right:"hxCol-md-8" %}
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Right side rail with top navigation"] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/layout/layout-right-side-rail-top-nav.svg){:width="100%"}
 {% endfigure %}
@@ -93,21 +93,21 @@ Build the content area using a 12 Column Grid. See [grid](/layout/grid) for more
 {% endcolumn %}
 </div>
 
-## Content area with left side rail
+### Content area with left side rail
 
-### Main content area
+#### Main content area
 
 - 9 columns
 - Background color: Gray 25, #FAFAFA
 
-### Left side rail
+#### Left side rail
 
 <div class="hxRow">
-{% column left:"hxCol-md-4" %}
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 - 3 columns
 - Background color: Gray 100, #EEEEEE
 {% endcolumn %}
-{% column right:"hxCol-md-8" %}
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Left side rail with top navigation"] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/layout/layout-left-side-rail-top-nav.svg){:width="100%"}
 {% endfigure %}
@@ -118,18 +118,18 @@ Build the content area using a 12 Column Grid. See [grid](/layout/grid) for more
 {% endcolumn %}
 </div>
 
-## Dashboard content area
+### Dashboard content area
 
 ### Module content area
 
 <div class="hxRow">
-{% column left:"hxCol-md-4" %}
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 - 4 columns each
 - Canvas Height: variable
 - Background color: Gray 25, #FAFAFA
 - Canvas color: Gray 300, #E0E0E0
 {% endcolumn %}
-{% column right:"hxCol-md-8" %}
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Dashboard layout with top navigation"] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/layout/layout-dashboard-top-nav.svg){:width="100%"}
 {% endfigure %}

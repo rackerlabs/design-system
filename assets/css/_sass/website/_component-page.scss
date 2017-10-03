@@ -1,4 +1,11 @@
 // New design
+.component-content {
+  h4 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+}
+
 .base-top-bar {
   background-color: $cyan700;
   color: $textcolorlight !important;

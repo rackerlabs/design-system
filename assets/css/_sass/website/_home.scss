@@ -48,7 +48,7 @@
     flex: 1;
 };
   background-image: url(../images/Helix_Homepage_Pattern.svg);
-  background-color: transparent;
+  background-color: $grey25;
   background-repeat: no-repeat;
   @include background-size(cover);
 }
