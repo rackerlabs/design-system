@@ -1,7 +1,7 @@
 <nav class="hxApp__nav side">
   <div class="logo"><a href="{{site.url}}/"><img src="{{site.cdn_url}}/img/helix_logo_nav.svg" class="logo" class="logo"></a></div>
   {% assign currenturl = page.url %}
-  <a href="{{site.url}}/" {% if currenturl == "/" %} class="current" {% else %} {% endif %}>Home</a>
+  <a href="{{site.url}}/" {% if currenturl == "/" %} class="current" {% else %} {% endif %}>HOME</a>
   {% for navItem in site.data.navigation %}
     {% assign currentNav = navItem.name | slugify %}
     {% if currentNav != "components" %}
