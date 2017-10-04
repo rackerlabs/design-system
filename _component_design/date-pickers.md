@@ -3,7 +3,8 @@ title: Date Pickers
 parent: Inputs and Controls
 layout: component
 category: Components
-usage: Teaser Text
+usage: >
+  Date picker allows users to select a date or a range of dates in the process of filling out a search field or input form.
 preview-image: components/date-picker.svg
 status: unknown
 resource: true

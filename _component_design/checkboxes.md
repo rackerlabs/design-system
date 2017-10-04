@@ -3,9 +3,8 @@ title: Checkboxes
 parent: Inputs and Controls
 layout: component
 category: Components
-usage: |
-  Helix controls allow users to select options in a variety of ways including
-  radio buttons, checkboxes, switches and more.
+usage: >
+  Checkboxes are used to change settings or bulk item selection. Checkboxes allow the user to select zero, one or several items.
 preview-image: components/preview-selectors.svg
 resource: true
 status: in-progress

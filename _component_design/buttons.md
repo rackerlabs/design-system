@@ -4,8 +4,8 @@ parent: Editing
 secondary: Inputs and Controls
 layout: component
 category: Components
-usage: |
-  Use primary, secondary and tertiary button types to signal important actions.
+usage: >
+  Buttons direct user attention to important actions that can be performed from the current page. Varies types of buttons are used based on the importance of each action.
 preview-image: components/preview-selectors.svg
 status: pending
 resource: true

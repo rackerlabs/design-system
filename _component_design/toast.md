@@ -3,9 +3,8 @@ title: Toast
 parent: Notifications
 layout: component
 category: Components
-usage: |
-  These tooltips provide users with additional information while completing
-  tasks and alert them to new features.
+usage: >
+  Toasts are a specialized notification component used to provide feedback on the status of an actions taking place in the background. Toasts are meant to be ephemeral and capture users attention by having the highest Z-index of all components.
 preview-image: components/preview-images/toast.svg
 status: deprecated
 resource: false

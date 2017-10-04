@@ -3,7 +3,10 @@ title: Key Value Pairs
 parent: unknown
 layout: component
 category: Components
-usage: Teaser Text
+usage: >
+  Key value pairs are used to display data with their corresponding label. Color
+  and alignment are used to enhance readability allowing users to quickly scan
+  for the page for relevant data.
 preview-image: null
 resource: true
 status: unknown

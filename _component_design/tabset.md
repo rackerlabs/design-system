@@ -3,8 +3,9 @@ title: Tabset
 parent: Content Areas
 layout: component
 category: Components
-usage: Tabsets separate content into different views, making it easy to explore content by clicking a descriptive tab title. Switching between tabs is quick, since it doesn't require scrolling or refreshing the page. Tabs enable content organization at a high level, such as switching between views, data sets, or functional aspects of an application.
-preview-image: components/preview-images/tabs.svg
+usage: >
+  Tabs provide users with the ability to access multiple sections of content seperated by tabs. This seperation makes it easy to explore and switch between different views. Tabs enable content organization at a high level, such as switching between views, data sets, or functional aspects of an app.
+preview-image: preview-images/tabs.svg
 resource: true
 status: unknown
 last-modified: 2017-09-11
