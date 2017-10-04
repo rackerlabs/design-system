@@ -3,8 +3,9 @@ title: Chips
 parent: Content Areas
 layout: component
 category: Components
-usage: Teaser Text
-preview-image: components/chips.svg
+usage: >
+  Chips represent distinct filters or chunks of metadata that apply to the currently viewed component. Chips provide the user with the visual understading of these chunks as well as the ability to interact with them. Examples of this pattern included displaying tags and search terms.
+preview-image: preview-images/chip.svg
 resource: true
 status: in-progress
 last-modified: 2017-08-17

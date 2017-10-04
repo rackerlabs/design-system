@@ -3,7 +3,8 @@ title: Bucket Selector
 parent: Selector
 layout: component
 category: Components
-usage: Teaser Text
+usage: >
+  Bucket Selector is helpful when you are selecting multiple objects from large option sets within a larger workflow. The bucket area (located below the table) operates as a holding area where users can view all their selections, regardless of the table content. This allows users to search and/or filter the table to locate items to select without losing visibility into what they have selected.
 preview-image: components/device-picker.svg
 published: true
 status: complete, in-progress

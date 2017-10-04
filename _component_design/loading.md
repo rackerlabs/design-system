@@ -3,7 +3,8 @@ title: Loading
 parent: Processing
 layout: component
 category: Components
-usage: Teaser Text
+usage: >
+  Loading indicators help to reassure the user that the system is actively retrieving data.
 preview-image: components/loading-linear.svg
 resource: true
 status: unknown

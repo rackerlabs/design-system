@@ -3,9 +3,8 @@ title: Drop-downs
 parent: Inputs and Controls
 layout: component
 category: Components
-usage: |
-  Helix controls allow users to select options in a variety of ways including
-  radio buttons, checkboxes, switches and more.
+usage: >
+  Dropdowns are one of the core input mechanisms for selecting options on a form. Dropdowns are used to provide a user with options or actions that effect the output of the form as a whole.
 preview-image: components/preview-selectors.svg
 resource: true
 status: in-progress

@@ -3,9 +3,8 @@ title: Growl
 parent: Notifications
 layout: component
 category: Components
-usage: |
-  These tooltips provide users with additional information while completing
-  tasks and alert them to new features.
+usage: >
+  These tooltips provide users with additional information while completing tasks and alert them to new features.
 preview-image: components/growl-placement.svg
 status: deprecated, in-progress
 resource: false
