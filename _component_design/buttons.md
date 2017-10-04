@@ -6,7 +6,7 @@ layout: component
 category: Components
 usage: >
   Buttons direct user attention to important actions that can be performed from the current page. Varies types of buttons are used based on the importance of each action.
-preview-image: components/preview-selectors.svg
+preview-image: preview-images/buttons.svg
 status: pending
 resource: true
 last-modified: 2017-08-17

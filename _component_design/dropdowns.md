@@ -5,7 +5,7 @@ layout: component
 category: Components
 usage: >
   Dropdowns are one of the core input mechanisms for selecting options on a form. Dropdowns are used to provide a user with options or actions that effect the output of the form as a whole.
-preview-image: components/preview-selectors.svg
+preview-image: preview-images/drop-downs.svg
 resource: true
 status: in-progress
 need: selectors

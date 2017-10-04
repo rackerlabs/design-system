@@ -5,7 +5,7 @@ layout: component
 category: Components
 usage: >
   Breadcrumbs are an inline visual representation of page relationships and hierarchy. They provide a user with visual reinforcement of the current location within the application hierarchy, and allow for quick movement up the hierarchy.
-preview-image: components/placeholder.svg
+preview-image: preview-images/breadcrumbs.svg
 status: deprecated
 resource: true
 ---

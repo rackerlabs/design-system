@@ -5,7 +5,7 @@ layout: component
 category: Components
 usage: >
   Checkboxes are used to change settings or bulk item selection. Checkboxes allow the user to select zero, one or several items.
-preview-image: components/preview-selectors.svg
+preview-image: preview-images/checkboxes.svg
 resource: true
 status: in-progress
 need: selectors

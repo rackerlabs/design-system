@@ -5,7 +5,7 @@ layout: component
 category: Components
 usage: >
   Radio buttons are used when the user is only allowed to select one option from a list. A minimum of one choice is required, and one is preselected by default.
-preview-image: components/preview-selectors.svg
+preview-image: preview-images/radio-buttons.svg
 resource: true
 status: in-progress
 need: selectors

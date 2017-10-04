@@ -6,8 +6,8 @@ category: Components
 usage: |
   These tooltips provide users with additional information while completing
   tasks and alert them to new features.
-preview-image: components/preview-help.svg
-status: unknown, in-progress
+preview-image: preview-images/help-link.svg
+status: in-progress
 resource: true
 last-modified: 2017-08-17
 ---

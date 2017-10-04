@@ -5,7 +5,7 @@ layout: component
 category: Components
 usage: > 
   Application navigation establishes a user's location within an application and shows the path forward to accomplish a goal. Consistent navigation patterns increase user confidence and efficiency.
-preview-image: layout/preview-images/navigation.svg
+preview-image: preview-images/app-nav.svg
 resource: true
 ---
 

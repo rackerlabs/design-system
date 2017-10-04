@@ -5,7 +5,7 @@ layout: component
 category: Components
 usage: >
   Date picker allows users to select a date or a range of dates in the process of filling out a search field or input form.
-preview-image: components/date-picker.svg
+preview-image: preview-images/date-picker.svg
 status: unknown
 resource: true
 last-modified: 2017-08-17
