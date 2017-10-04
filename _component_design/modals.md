@@ -5,7 +5,7 @@ layout: component
 category: Components
 usage: >
   Modals are a content area that pops up in the middle of the users display with the page content behind it obscured. Modals are commonly used to command user attention or to force a user decision. Modals are best used when important or potentially destructive operations are occurring.
-preview-image:
+preview-image: preview-images/modal.svg
 resource: true
 status: unknown
 last-modified: 2017-08-17
