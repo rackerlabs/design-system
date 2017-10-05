@@ -181,7 +181,7 @@ video {
   max-width: 100%;
 }
 
-figure {
+figure:not(figcaption) {
   margin: 0 0 8px 0;
 }
 
@@ -191,6 +191,7 @@ figcaption {
   margin: 0;
   line-height: $base-line-height;
   font-weight: $light-weight;
+  margin: 0 0 8px 0;
 }
 
 p {
