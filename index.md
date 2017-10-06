@@ -19,7 +19,7 @@ customers happy.
         <li><a href="#">Sketch Resources</a></li>
       </ul>
       <div class="card-button">
-        <button class="btn btn-primary">Full Designer Guide</button>
+        <button class="hxBtn hxBtn--primary">Full Designer Guide</button>
       </div>
     </div>
   </div>
@@ -34,7 +34,7 @@ customers happy.
         <li><a href="#">Component Explorer</a></li>
       </ul>
       <div class="card-button">
-        <button class="btn btn-primary">Full Developer Guide</button>
+        <button class="hxBtn hxBtn--primary">Full Developer Guide</button>
       </div>
     </div>
   </div>
