@@ -84,7 +84,9 @@
     };
   }
   .card {
+    display: inline-block;
     position: relative;
+    clear: both;
     border: 1px solid $grey400;
     margin: 32px auto 40px auto;
     padding: 0px 10px;
@@ -102,6 +104,12 @@
       font-size: $base-font-size;
       color: $grey900;
       margin: 0px auto;
+    }
+    .card-bottom {
+      position: absolute;
+      bottom: 0px;
+      left: 0;
+      right: 0;
     }
     p {
       font-weight: $regular-weight;
