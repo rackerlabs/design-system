@@ -28,8 +28,9 @@
   font-size: $base-font-size;
   color: $grey900;
   font-weight: $light-weight;
-  margin: 16px 0px;
+  margin: 0px 0px;
   text-align: left !important;
+  line-height: $base-line-height;
 }
 .component-row-status {
   font-size: $font-size-3;

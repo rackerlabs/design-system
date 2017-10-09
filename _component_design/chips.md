@@ -3,8 +3,9 @@ title: Chips
 parent: Content Areas
 layout: component
 category: Components
-usage: Teaser Text
-preview-image: components/chips.svg
+usage: >
+  Chips represent a conceptual unit, such as a user, a device, a filter term, or a chunk of metadata and provide the user with the visual understanding of this conceptual unit as well as the ability to interact with them.
+preview-image: preview-images/chip.svg
 resource: true
 status: in-progress
 last-modified: 2017-08-17

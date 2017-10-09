@@ -3,9 +3,8 @@ title: Switches
 parent: null
 layout: component
 category: Components
-usage: |
-  Helix controls allow users to select options in a variety of ways including
-  radio buttons, checkboxes, switches and more.
+usage: >
+  A switch is used for a binary decision; and only for the purpose of yes/no or on/off. They are especially useful when building mobile based designs.
 preview-image: components/preview-selectors.svg
 resource: true
 need: selectors
