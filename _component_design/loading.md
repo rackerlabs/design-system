@@ -3,8 +3,9 @@ title: Loading
 parent: Processing
 layout: component
 category: Components
-usage: Teaser Text
-preview-image:
+usage: >
+  Loading indicators help to reassure the user that the system is actively retrieving data.
+preview-image: preview-images/loading.svg
 resource: true
 status: unknown
 last-modified: 2017-08-17

@@ -4,11 +4,10 @@ parent: Help
 secondary: Notifications
 layout: component
 category: Components
-usage: |
-  These tooltips provide users with additional information while completing
-  tasks and alert them to new features.
-preview-image: components/preview-help.svg
-status: deprecated, in-progress
+usage: >
+  The beacon can be used to identify the location of products or features in the control panel. It can also be used to indicate advanced functionality to existing features
+preview-image: preview-images/help-beacon.svg
+status: in-progress
 resource: true
 last-modified: 2017-08-17
 ---

@@ -3,10 +3,9 @@ title: Text Inputs
 parent: Inputs and Controls
 layout: component
 category: Components
-usage: |
-  Helix provides a variety of text inputs to allow users to enter information
-  into a page.
-preview-image: components/preview-fields.svg
+usage: >
+  Text fields typically reside in forms but can appear in other places, like dialog boxes and search. Text fields validate input, help users fix errors, autocomplete words, and provide suggestions.
+preview-image: preview-images/text-inputs.svg
 resource: true
 status: unknown
 last-modified: 2017-08-17

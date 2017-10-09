@@ -3,9 +3,9 @@ title: Breadcrumbs
 parent: Navigations
 layout: component
 category: Components
-usage: |
-  Use breadcrumbs on Rackspace subpages to let the user know where they are in the heirarchy, and to allow them to jump up the heirarchy if they need to.
-preview-image: components/placeholder.svg
+usage: >
+  Breadcrumbs are an inline visual representation of page relationships and hierarchy. They provide a user with visual reinforcement of the current location within the application hierarchy, and allow for quick movement up the hierarchy.
+preview-image: preview-images/breadcrumbs.svg
 status: deprecated
 resource: true
 ---

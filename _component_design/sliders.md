@@ -6,7 +6,7 @@ category: Components
 usage: |
   Helix controls allow users to select options in a variety of ways including
   radio buttons, checkboxes, switches and more.
-preview-image: components/preview-selectors.svg
+preview-image: preview-images/sliders.svg
 resource: true
 status: in-progress
 need: selectors

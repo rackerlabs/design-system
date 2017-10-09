@@ -3,8 +3,9 @@ title: Horizontal Stepper
 parent: Content Areas
 layout: component
 category: Components
-usage: Teaser Text
-preview-image:
+usage: >
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et purus nec dui scelerisque viverra non at enim. Maecenas consequat nisi in rhoncus molestie.
+preview-image: preview-images/horizontal-stepper.svg
 resource: true
 status: in-progress
 last-modified: 2017-08-17
