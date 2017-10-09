@@ -4,7 +4,7 @@ parent: null
 layout: component
 category: Components
 usage: >
-  Content dividers are used within content areas to generate visual seperation. This seperation help to increase user understanding by segmenting information into distinct groups.
+  Content dividers are used within content areas to generate visual seperation. This seperation helps to increase user understanding by segmenting information into distinct groups.
 preview-image:
 status: unknown
 resource: false

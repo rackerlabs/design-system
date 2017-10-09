@@ -5,7 +5,7 @@ secondary: Inputs and Controls
 layout: component
 category: Components
 usage: >
-  Buttons direct user attention to important actions that can be performed from the current page. Varies types of buttons are used based on the importance of each action.
+  Buttons direct user attention to important actions that can be performed from the current page. Base the use of various types of buttons on the importance of each action.
 preview-image: preview-images/buttons.svg
 status: pending
 resource: true

@@ -4,7 +4,7 @@ parent: Inputs and Controls
 layout: component
 category: Components
 usage: >
-  Checkboxes are used to change settings or bulk item selection. Checkboxes allow the user to select zero, one or several items.
+  Checkboxes are used to change settings or bulk item selection. Checkboxes allow the user to select zero, one, or several items.
 preview-image: preview-images/checkboxes.svg
 resource: true
 status: in-progress
