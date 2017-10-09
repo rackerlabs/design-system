@@ -3,7 +3,8 @@ title: Footer
 parent: Navigation
 layout: component
 category: Components
-usage: The footer lives at the bottom of the page to help visitors find
+usage: >
+The footer lives at the bottom of the page to help visitors find
 globally applicable, but non-primary navigation information. Use it on
 every page and every wrapped application. For customer applications,
 it should not exceed the articulated scope.
@@ -13,14 +14,18 @@ status: in-progress
 last-modified: 2017-10-03
 ---
 
-{% include todo.html content="Set up code." %}
-
 # Footer
 
+<div class="hxRow">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 The footer lives at the bottom of the page to help visitors find global, 
 secondary navigation information. We recommend using it on every page
 and every wrapped application. For customer applications, it should
 not exceed the articulated scope.
+
+{% figure [caption:"Thumbnail."] [class:"image bg-light border"] %}
+  ![]({{site.url}}/assets/images/components/content-areas/footer/footer-thumbnail.svg){:width="80%"}
+{% endfigure %}
 
 ## When to use footers
 
@@ -38,7 +43,12 @@ the bottom of the entire page. Ensure the footer contains the following:
 * A link to website terms and conditions
 * A link to the privacy policy
 
+{% endcolumn %}
+</div>
+
 # Specifications
+<div class="hxRow">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ## Footer scope
 
@@ -53,8 +63,12 @@ For customer applications, do not add additional functionality to the footer.
 {% figure [caption:"The footer rests on the bottom of the page it is on."] [class:"image bg-light border"] %}
   ![]({{site.url}}/assets/images/components/content-areas/footer/footer-scope.svg){:width="80%"}
 {% endfigure %}
+{% endcolumn %}
+</div>
 
 ## Footer specifications
+<div class="hxRow">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 All footer content starts after the gutter at 20px. The footer container is
 40px tall with text centered vertically. Items are spaced 32px apart.
@@ -64,4 +78,6 @@ the Links documentation.
 {% figure [caption:"Default image"] [class:"image bg-light border"] %}
  ![]({{site.url}}/assets/images/components/content-areas/footer/footer-spec.svg){:width="80%"}
 {% endfigure %}
+{% endcolumn %}
+</div>
 
