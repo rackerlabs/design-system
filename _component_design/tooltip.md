@@ -3,10 +3,9 @@ title: Tooltip
 parent: Help
 layout: component
 category: Components
-usage: |
-  These tooltips provide users with additional information while completing
-  tasks and alert them to new features.
-preview-image: components/preview-help.svg
+usage: >
+  Use the tooltip when you want to convey brief snippets of information, to explain an element a bit more, or to display truncated text.
+preview-image: preview-images/tooltip.svg
 status: unknown
 resource: true
 last-modified: 2017-08-17

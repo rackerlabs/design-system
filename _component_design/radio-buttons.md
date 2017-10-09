@@ -3,10 +3,9 @@ title: Radio Buttons
 parent: Inputs and Controls
 layout: component
 category: Components
-usage: |
-  Helix controls allow users to select options in a variety of ways including
-  radio buttons, checkboxes, switches and more.
-preview-image: components/preview-selectors.svg
+usage: >
+  Radio buttons are used when the user is only allowed to select one option from a list. A minimum of one choice is required, and one is preselected by default.
+preview-image: preview-images/radio-buttons.svg
 resource: true
 status: in-progress
 need: selectors

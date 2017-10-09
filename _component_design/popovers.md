@@ -4,9 +4,10 @@ parent: Content Areas
 secondary: Editing
 layout: component
 category: Components
-usage: Teaser Text
-preview-image: components/preview-images/popover.svg
-resouce: false
+usage: >
+  A popover is a small group of information or inputs that is presented in a panel that is overlayed on top of the original page, preserving the user’s context.
+preview-image: preview-images/popover.svg
+resource: true
 status: unknown
 last-modified: 2017-08-17
 ---

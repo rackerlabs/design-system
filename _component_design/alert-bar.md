@@ -3,13 +3,9 @@ title: Alert Bar
 parent: Notifications
 layout: component
 category: Components
-usage: |
- Use notification bars for information that will remain static unless
- changed by a user. For example, you could use notification bars for
- Info messages about a new feature available to a user, or an Error
- message informing the user that their credit card was unable to be
- processed this month.
-preview-image: components/preview-help.svg
+usage: >
+  A notification bar extends fully across the top of an content container within a Helix interface in order to provide the user with feedback relating to the status of the item. It can be scoped across the entirity of the content area (page level scoping) or scoped to extend across a singular section of the content area (element level scoping).
+preview-image: preview-images/alert-bar.svg
 status: deprecated, in-progress
 resource: true
 last-modified: 2017-08-17

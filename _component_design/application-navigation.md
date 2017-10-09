@@ -1,14 +1,11 @@
 ---
-title: Navigation
-layout: docs
-category: Layout
-usage: |
-  Navigation establishes a user's location within an application and
-  shows the path forward to accomplish a goal. Consistent navigation
-  patterns increase user confidence and efficiency. You can combine
-  global navigation (using the eyebrow), application navigation (using
-  side or top navigation), and breadcrumbs.
-preview-image: layout/preview-images/navigation.svg
+title: Application navigation
+parent: Navigation
+layout: component
+category: Components
+usage: >
+  Application navigation establishes a user's location within an application and shows the path forward to accomplish a goal. Consistent navigation patterns increase user confidence and efficiency.
+preview-image: preview-images/app-nav.svg
 resource: true
 ---
 
