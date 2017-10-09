@@ -97,7 +97,7 @@ and checkbox labels.
 {% figure [caption:"Checkbox group composition and specifications"] [class:"image bg-light border"] %}
  ![]({{site.url}}/assets/images/components/content-areas/checkboxes/checkbox-default.svg){:width="80%"}
  {% endfigure %}
-{% endfigure %}
+{% endcolumn %}
 
 <div class="hxRow">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
@@ -179,6 +179,6 @@ for more information.
  checkbox may be used to show that several, but not all are selected."] [class:"image bg-light border"] %}
  ![]({{site.url}}/assets/images/components/content-areas/checkboxes/checkbox-indeterminate-image.svg){:width="80%"}
  {% endfigure %}
- {% endcolumn %}
+{% endcolumn %}
 
  
