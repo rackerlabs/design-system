@@ -99,6 +99,7 @@ and checkbox labels.
  ![]({{site.url}}/assets/images/components/content-areas/checkboxes/checkbox-default.svg){:width="80%"}
  {% endfigure %}
 {% endcolumn %}
+</div>
 
 <div class="hxRow">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
@@ -117,6 +118,7 @@ and checkbox labels.
  ![]({{site.url}}/assets/images/components/content-areas/checkboxes/checkbox-group-image.svg){:width="80%"}
  {% endfigure %}
 {% endcolumn %}
+</div>
 
 <div class="hxRow">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
@@ -134,6 +136,7 @@ Checkbox states include the following:
  ![]({{site.url}}/assets/images/components/content-areas/checkboxes/checkbox-states-image.svg){:width="80%"}
  {% endfigure %}
 {% endcolumn %}
+</div>
 
 <div class="hxRow">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
@@ -150,6 +153,7 @@ alignment with the text. Asterisk floats in the margin.
  ![]({{site.url}}/assets/images/components/content-areas/checkboxes/checkbox-required-group-image.svg){:width="80%"}
  {% endfigure %}
 {% endcolumn %}
+</div>
 
 <div class="hxRow">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
@@ -165,6 +169,7 @@ highlight all checkboxes in an error group.
  ![]({{site.url}}/assets/images/components/content-areas/checkboxes/checkbox-group-with-error-image.svg){:width="80%"}
  {% endfigure %}
 {% endcolumn %}
+</div>
 
 <div class="hxRow">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
@@ -181,5 +186,6 @@ for more information.
  ![]({{site.url}}/assets/images/components/content-areas/checkboxes/checkbox-indeterminate-image.svg){:width="80%"}
  {% endfigure %}
 {% endcolumn %}
+</div>
 
  
