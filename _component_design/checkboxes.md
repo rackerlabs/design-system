@@ -15,151 +15,176 @@ last-modified: 2017-08-17
 {% include toc.html %}
 
 # Checkboxes
+<div class="hxRow">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-Use when selecting **multiple items** from a set if it's important for the user
-to see all options at once. If viewing items side-by-side isn't important,
-consider a selector, which uses less space.
+Use checkboxes to change settings or bulk item selection. Checkboxes
+allow the user to select zero, one, or several items.
 
-## Enabled
+{% figure [caption:"Default image"] [class:"image bg-light border"] %}
+ ![]({{site.url}}/assets/images/components/content-areas/checkboxes/checkbox-hero-image.svg){:width="80%"}
+ {% endfigure %}
 
-<div class="ui form">
-  <div class="grouped fields">
-    <label>Select an option</label>
-    <div class="field">
-      <div class="ui checkbox">
-        <input type="checkbox" name="checkbox3" checked="checked">
-        <label>Option 1</label>
-        <div class="ui message subtext">
-          This is some subtext.
-        </div>
-      </div>
-    </div>
-    <div class="field">
-      <div class="ui checkbox">
-        <input type="checkbox" name="checkbox3">
-        <label>Option 2</label>
-      </div>
-    </div>
-    <div class="field">
-      <div class="ui checkbox">
-        <input type="checkbox" name="checkbox3">
-        <label>Option 3</label>
-      </div>
-    </div>
-  </div>
+## When to use checkboxes
+
+* You can use checkable input to select any number of options;
+  including zero, one, or several.
+* Use when selecting multiple items from a set, it is important for the
+  user to view all options at once. If viewing items side by side is not
+  important, consider a drop-down as it uses less space.
+* Use a stand-alone checkbox for single options that the user can
+  turn on or off.
+* If there are multiple choices and only one option can be selected, use a
+  radio button or drop-down list.
+
+## Best practices for checkboxes
+
+* Each input is independent of all other input in the list and checking one
+  box does not uncheck the others.
+* Use singular input to enable or disable a feature, or use
+  in place of two yes and no radio buttons.
+* Use checkboxes and radio buttons only to change settings, not as action
+  buttons that trigger another process or workflow.
+* Typically, checkboxes default to having no options selected. However,
+  if Rackspace recommended an option, make that the default.
+
+### Labeling checkboxes
+
+* Use positive and active wording for checkbox labels. Avoid negations such
+  as, "Don't send me more email". This would mean that the user would have
+  to check the box in order for something not to happen.
+* Write checkbox labels so that users know both what will happen if they
+  check a particular box, and what will happen if they leave it unchecked.
+  If you are unable to do this, we recommend using two radio buttons: one
+  for having the feature on, and one for having it off. Ensure you write
+  clear labels for each of the two cases.
+
+### Presentation for checkboxes
+
+* If possible, use checkboxes rather than multi-select drop-down menus.
+  Checkboxes have lower cognitive load and are easier to operate for users
+  who have difficulty making precise mouse movements. Limited space can force
+  you to violate this guideline, but do try to keep choices visible whenever
+  possible.
+
+### Interaction with checkboxes
+
+* Allow users to select an option by clicking on either the button, the box
+  itself or the label; a bigger target is faster to click.
+
+## Problems solved by checkboxes
+
+* When a user needs to make a selection in a form:
+  * A checkbox list enables them to select one or more items while being
+    able to visually compare them all at once.
+  * A singular checkbox enables them to enable or disable a feature.
+* When a user needs to manage a group of items:
+  * Checkboxes may be added to a list to allow for bulk actions.
+{% endcolumn %}
 </div>
 
-## Disabled
+# Specifications
 
-<div class="ui form">
-  <div class="grouped fields">
-    <label>Select an option</label>
-    <div class="field disabled">
-      <div class="ui checkbox">
-        <input type="checkbox" name="checkbox2" checked="checked" disabled="disabled">
-        <label>Option 1</label>
-      </div>
-    </div>
-    <div class="field disabled">
-      <div class="ui checkbox">
-        <input type="checkbox" name="checkbox2" disabled="disabled">
-        <label>Option 2</label>
-      </div>
-    </div>
-    <div class="field disabled">
-      <div class="ui checkbox">
-        <input type="checkbox" name="checkbox2" disabled="disabled">
-        <label>Option 3</label>
-      </div>
-    </div>
-  </div>
+<div class="hxRow">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+## Default layout
+
+A checkbox group consists of a section label, followed pairs of checkboxes
+and checkbox labels.
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [caption:"Checkbox group composition and specifications"] [class:"image bg-light border"] %}
+ ![]({{site.url}}/assets/images/components/content-areas/checkboxes/checkbox-default.svg){:width="80%"}
+ {% endfigure %}
+{% endcolumn %}
 </div>
 
-## Error
+<div class="hxRow">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+## Checkbox group specifications
 
-<div class="ui form error">
-  <div class="grouped fields required">
-    <label>Select an option</label>
-    <div class="field error">
-      <div class="ui checkbox">
-        <input type="checkbox" name="checkbox1" checked="checked">
-        <label>Option 1</label>
-      </div>
-    </div>
-    <div class="field error">
-      <div class="ui checkbox">
-        <input type="checkbox" name="checkbox1">
-        <label>Option 2</label>
-      </div>
-    </div>
-    <div class="field error">
-      <div class="ui checkbox">
-        <input type="checkbox" name="checkbox1" checked="checked">
-        <label>Option 3</label>
-      </div>
-    </div>
-  </div>
-  <div class="ui error message">
-    There is an error with the response to this question.
-  </div>
+* Visually present groups, and clearly separate the choices from other groups
+  on the same page.
+* With sub-heads, users might misunderstand each sub-group as a separate set
+  of options. With checkboxes, each box is an independent choice.
+* Lay out your lists vertically, with one choice per line. If you must use a
+  horizontal layout, consider using a checkbox button group instead.
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [caption:"Checkbox group spacing"] [class:"image bg-light border"] %}
+ ![]({{site.url}}/assets/images/components/content-areas/checkboxes/checkbox-group-image.svg){:width="80%"}
+ {% endfigure %}
+{% endcolumn %}
 </div>
 
-# Checkbox Button Group
+<div class="hxRow">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+## States
 
-Use when selecting **multiple items** from a set if it's important for the user
-to see all options at once. This alternate can be used instead of regular check
-boxes if the options are **simple**, limited in number and individual length.
+Checkbox states include the following:
 
-## Enabled
+* Selected
+* De-selected
+* Indeterminate
+{% endcolumn %}
 
-<div class="ui form">
-  <div class="field">
-    <label>Select potential maintenance days</label>
-    <div class="ui buttons multi">
-      <button class="ui button multi ds-btn-med-sec active">Mon</button>
-      <button class="ui button multi ds-btn-med-sec active">Tues</button>
-      <button class="ui button multi ds-btn-med-sec">Wed</button>
-      <button class="ui button multi ds-btn-med-sec">Thurs</button>
-      <button class="ui button multi ds-btn-med-sec">Fri</button>
-      <button class="ui button multi ds-btn-med-sec">Sat</button>
-      <button class="ui button multi ds-btn-med-sec">Sun</button>
-    </div>
-    <div class="ui message subtext">
-      Here is some additional help text to explain these choices.
-    </div>
-  </div>
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [caption:"Checkbox states"] [class:"image bg-light border"] %}
+ ![]({{site.url}}/assets/images/components/content-areas/checkboxes/checkbox-states-image.svg){:width="80%"}
+ {% endfigure %}
+{% endcolumn %}
 </div>
 
-## Disabled
+<div class="hxRow">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+## Required group
 
-<div class="ui form">
-  <div class="ui field">
-    <div class="field">
-      <label>Select payment type</label>
-      <div class="ui buttons multi">
-        <button class="ui button ds-btn-med-sec active disabled">Credit / Debit</button>
-        <button class="ui button ds-btn-med-sec active disabled">Cash</button>
-        <button class="ui button ds-btn-med-sec disabled">Check</button>
-      </div>
-    </div>
-  </div>
+Use a red asterisk to designate that a selection is required for a
+group of checkboxes. The label should remain in vertical
+alignment. The asterisk position floats to the left not in the vertical
+alignment with the text. Asterisk floats in the margin.
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [caption:"Designating a requied checkbox field"] [class:"image bg-light border"] %}
+ ![]({{site.url}}/assets/images/components/content-areas/checkboxes/checkbox-required-group-image.svg){:width="80%"}
+ {% endfigure %}
+{% endcolumn %}
 </div>
 
-## Error
+<div class="hxRow">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+## Group with an error
 
-<div class="ui form error">
-  <div class="field error">
-    <label class="required">Select potential maintenance windows</label>
-    <div class="ui buttons multi">
-      <button class="ui button ds-btn-med-sec active error">12<span class="smCaps"> AM</span> &ndash; 4<span class="smCaps"> AM</span></button>
-      <button class="ui button ds-btn-med-sec active">4<span class="smCaps"> AM</span> &ndash; 8<span class="smCaps"> AM</span></button>
-      <button class="ui button ds-btn-med-sec">8<span class="smCaps"> AM</span> &ndash; 12<span class="smCaps"> PM</span></button>
-      <button class="ui button ds-btn-med-sec">12<span class="smCaps"> PM</span> &ndash; 4<span class="smCaps"> PM</span></button>
-      <button class="ui button ds-btn-med-sec">4<span class="smCaps"> PM</span> &ndash; 8<span class="smCaps"> PM</span></button>
-      <button class="ui button ds-btn-med-sec">8<span class="smCaps"> PM</span> &ndash; 12<span class="smCaps"> AM</span></button>
-    </div>
-    <div class="ui error message">
-      There is an error with the response to this question.
-    </div>
-  </div>
+In the case of an error, always include an error message below the checkbox
+group. Only highlight the input that must be changed. For example, don’t
+highlight all checkboxes in an error group.
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [caption:"Error states"] [class:"image bg-light border"] %}
+ ![]({{site.url}}/assets/images/components/content-areas/checkboxes/checkbox-group-with-error-image.svg){:width="80%"}
+ {% endfigure %}
+{% endcolumn %}
 </div>
+
+<div class="hxRow">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+## Indeterminate
+
+The indeterminate state is only used with bulk selections to indicate that one
+or more, but not all options, have been selected. Refer to the tables page
+for more information.
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [caption:"When selecting multiple items from a table, an indeterminate
+ checkbox may be used to show that several, but not all are selected."] [class:"image bg-light border"] %}
+ ![]({{site.url}}/assets/images/components/content-areas/checkboxes/checkbox-indeterminate-image.svg){:width="80%"}
+ {% endfigure %}
+{% endcolumn %}
+</div>
+
+ 
