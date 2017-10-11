@@ -2,18 +2,16 @@
 <svg width="293px" height="195px" viewBox="0 0 293 195" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 47 (45396) - http://www.bohemiancoding.com/sketch -->
     <title>footer-thumbnail</title>
-    <desc>Created with Sketch.</desc>
+    <desc>Stylized thumbnail for footer component in the Helix design language.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="footer-thumbnail">
-            <g id="vertical-stepper-copy">
-                <g id="application-frame">
-                    <rect id="Rectangle" fill="#B6E3EB" x="0" y="0" width="293" height="195"></rect>
-                    <rect id="Rectangle-Copy" fill="#16B9D4" x="0" y="0" width="48.8333333" height="195"></rect>
-                    <rect id="Rectangle-Copy-2" fill="#0E94A6" x="0" y="0" width="293" height="14.625"></rect>
-                </g>
+            <g id="application-frame">
+                <rect id="Rectangle" fill="#B6E3EB" x="0" y="0" width="293" height="195"></rect>
+                <rect id="Rectangle-2" fill="#16B9D4" x="0" y="0" width="48.8333333" height="195"></rect>
+                <rect id="Rectangle-3" fill="#0E94A6" x="0" y="0" width="293" height="14.625"></rect>
             </g>
-            <rect id="Rectangle-3" fill="#F57C00" fill-rule="nonzero" x="0" y="186" width="293" height="9"></rect>
+            <rect id="Rectangle-4" fill="#F57C00" fill-rule="nonzero" x="0" y="186" width="293" height="9"></rect>
         </g>
     </g>
 </svg>
