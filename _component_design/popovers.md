@@ -14,81 +14,183 @@ last-modified: 2017-08-17
 
 {% include toc.html %}
 
-Popovers are triggered as a result of a user action and provide a user with
-additional context through language, actions through buttons, or both. Popovers
-come in a the following types Hover Popover, Triggered Popover, and Closeable
-Popover
-
-# Hover Popover
-
+## Introduction
+{: .hxSectionTitle}
 <div class="hxRow">
-{% column left:"hxCol-4" %}
-Hover popovers are triggered as a result of a user hovering over linked area in
-the UI.
 
-- font-family: Roboto
-- font-weight: 400
-- font-size: 16px / 1em
-- color: Grey800 (#616161)
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### When to Use
+{: .hxSubSectionTitle}
+Popovers are triggered as a result of a user action and provide a user with additional context through language, actions through buttons, or both. Popovers may also be used for short create/edit workflows, and are particularly useful if context from the page is needed while making the change. If a large workflow is required, consider creating a new page. Popovers and tooltips overlap in some of their use cases. Both are used for giving in-context help/information and for revealing hidden interactive information or when you have a large amount of hidden content.
+
+
+### Best Practice
+{: .hxSubSectionTitle}
+Popovers are triggered as a result of a user action and provide access to small create/edit workflows or hidden interactive information. 
+
+- Avoid opening a popover from within another popover•Open popovers via click, and never open them via hover.
+- Avoid putting important or required information in a popover because the content inside of a popover isn't always visible.
+- Use popovers to make small changes, with a small number of inputs.
+
+### Problems Being Solved
+{: .hxSubSectionTitle}
+- For users needing to make changes or take actions while remaining in their original context (page) a popover allows for small changes or actions to take place without leaving the page.
+- For user needing to be able to view additional details about an item in a workflow, a popover allows easy access to this complex or interactive information without cluttering the page.
 
 {% endcolumn %}
-{% column right:"hxCol-8" %}
-{% figure [caption:"Hover popover"] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/components/Editing/popover-hover-specs.svg){:width="100%"}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [caption:"Meet the popover pattern"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/content-areas/popovers/popover-hero-image.svg){:width="100%"}
 {% endfigure %}
-{% figure [caption:"Hover popover specs"] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/components/Editing/popover-hover-specs2.svg){:width="100%"}
+{% endcolumn %}
+
+</div>
+
+## Default Layout 
+{: .hxSectionTitle}
+<div class="hxRow">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+The most defining aspects of a popover are the container and the pointer. The container  appears on top of the canvas. The pointer points to the popover trigger. Pointers may be used on either side of the four corners.
+
+- Popovers **should only be shown** when a trigger is clicked.
+- Most popovers may also have a heading and submit/cancel buttons. If buttons are not needed, a popover should close when the user clicks outside of the popover.
+- The content area may include text, inputs, or interactive content like a table or visualization.
+
+{% endcolumn %}
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [caption:"A popover consists of a panel, contextual pointer, heading and buttons."] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/content-areas/popovers/popover-default-layout.svg){:width="80%"}
 {% endfigure %}
 {% endcolumn %}
 </div>
 
-## Triggered Popover
-
+## Pattern Specifications 
+{: .hxSectionTitle}
 <div class="hxRow">
-{% column left:"hxCol-4" %}
-Overpopovers are triggered as a result of a user hovering over linked area in
-the UI.
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-- font-family: Roboto
-- font-weight: 400
-- font-size: 16px / 1em
-- color: Grey800 (#616161)
+### Popover Spacing
+{: .hxSubSectionTitle}
+For specs on laying out form fields and body text within a popover, refer to the following patterns:
+
+- <a href="{{site.baseurl}}/components/checkboxes.html">Checkboxes</a>
+- <a href="{{site.baseurl}}/components/dropdowns.html">Dropdowns</a>
+- <a href="{{site.baseurl}}/components/radio-buttons.html">Radio Buttons</a>
+- <a href="{{site.baseurl}}/components/type-inputs.html" target="_blank">Text Inputs</a>
+- <a href="{{site.baseurl}}/style/typography.html">Typography</a>
 
 {% endcolumn %}
-{% column left:"hxCol-8" %}
-{% figure [caption:"Triggered popover"] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/components/Editing/popover-triggered.svg){:width="100%"}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [caption:"Popover spacing specifications"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/content-areas/popovers/popover-spacing.svg){:width="80%"}
 {% endfigure %}
-{% figure [caption:"Triggered popover specs"] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/components/Editing/popover-triggered-specs.svg){:width="100%"}
+{% endcolumn %}
+
+</div>
+
+<div class="hxRow">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### Popover Specs
+{: .hxSubSectionTitle}
+For specs on laying out form fields and body text within a popover, refer to the following patterns:
+
+- Popovers **always** have a `box-shadow` attached.
+- Popover **should not** be larger than 500 x 500px. 
+
+<!-- {% include note.html content="If more space than this is required, look into -->
+<!-- solving the design challenge with a different Helix pattern"%} -->
+
+
+<!-- {% include note.html content="Helix provides an alternate implementation that -->
+<!-- includes [tertiary navigational](#tertiary-left-navigation) elements, -->
+<!-- but it is not preferred."%} -->
+
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [caption:"Popover redline specifications"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/content-areas/popovers/popover-specs.svg){:width="80%"}
 {% endfigure %}
 {% endcolumn %}
 </div>
 
-## Closable Popover
-
 <div class="hxRow">
-{% column left:"hxCol-4" %}
-Closeable popovers are triggered as a result of...
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-- font-family: Roboto
-- font-weight: 400
-- font-size: 16px / 1em
-- color: Grey800 (#616161)
+### Pointer Size and Placement
+{: .hxSubSectionTitle}
+
+The pointer is 16 px wide at the base. The apex is 8 px from the side of the rectangle. The pointer should start 12 px from the corner. The side from which the pointer protrudes depends on the location of the trigger on the screen.
+
+- Always have the popover protrude toward the center of the screen.
+- Be sure not to hide important information with the popover.
+- The popover content should be repositioned so that it doesn’t bleed off the screen.
+
+The depth width of the remaining side of the popover is dynamic based on how large the box needs to be. Popovers should not be larger than 500px x 500px.
 
 {% endcolumn %}
-{% column left:"hxCol-8" %}
-{% figure [caption:"Closeable popover"] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/components/Editing/popover-closeable.svg){:width="100%"}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [caption:"Pointer specifications and pointer placement variations"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/content-areas/popovers/popover-pointer-size-placement.svg){:width="80%"}
 {% endfigure %}
-{% figure [caption:"Closeable popover specs"] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/components/Editing/popover-closeable-specs.svg){:width="100%"}
+{% endcolumn %}
+</div>
+
+## Types of Popovers
+{: .hxSectionTitle}
+<div class="hxRow">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### Small Create/Edit Popover
+{: .hxSubSectionTitle}
+A popover may be used for small create/edit workflows that need to remain in-context.
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [caption:"A popover with a small create workflow"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/content-areas/popovers/popover-small-create-edit.svg){:width="80%"}
 {% endfigure %}
-{% figure [caption:"Closeable popover w/ header"] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/components/Editing/popover-closeable-header.svg){:width="100%"}
+{% endcolumn %}
+</div>
+
+<div class="hxRow">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### Large Hidden Content
+{: .hxSubSectionTitle}
+A popover may be used to reveal hidden content, so the information is still accessible, but doesn’t clutter the screen.
+
+In this instance popover is preferred over a <a href="{{site.baseurl}}/components/tooltip.html">tooltip</a> if the content is dynamic or interactive (e.g. when presenting the user a table or visualization). 
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [caption:"A popover with a small create workflow"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/content-areas/popovers/popover-large-hidden-content.svg){:width="80%"}
 {% endfigure %}
-{% figure [caption:"Closeable popover w/ header specs"] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/components/Editing/popover-closeable-header-specs.svg){:width="100%"}
+{% endcolumn %}
+</div>
+
+<div class="hxRow">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### Loading
+{: .hxSubSectionTitle}
+A simple loading circle should be used to load a popover. Refer to the Loading pattern for more detailed specifications.
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [caption:"A popover with a small create workflow"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/content-areas/popovers/popover-loading.svg){:width="80%"}
 {% endfigure %}
 {% endcolumn %}
 </div>
