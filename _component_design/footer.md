@@ -15,7 +15,7 @@ last-modified: 2017-10-03
 ---
 
 ### Introduction
-
+{: .hxSectionTitle}
 <div class="hxRow">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
@@ -48,6 +48,7 @@ the bottom of the entire page. Ensure the footer contains the following:
 </div>
 
 ### Specifications
+{: .hxSectionTitle}
 <div class="hxRow">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
@@ -70,6 +71,7 @@ For customer applications, do not add additional functionality to the footer.
 </div>
 
 ### Footer specifications
+{: .hxSectionTitle}
 <div class="hxRow">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
