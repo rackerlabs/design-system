@@ -1,5 +1,5 @@
 ---
-title: Application navigation
+title: Application Navigation
 parent: Navigation
 layout: component
 category: Components
