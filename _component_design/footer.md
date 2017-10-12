@@ -13,13 +13,13 @@ status: in-progress
 last-modified: 2017-10-03
 ---
 
-### Introduction
+## Introduction
 {: .hxSectionTitle}
 <div class="hxRow">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-#### Best practices for footers
+### Best practices for footers
 {: .hxContainerTitle}
 
 * Footer items often get overlooked in customer-facing contexts, so avoid placing critical or dynamic content there.
@@ -40,7 +40,7 @@ last-modified: 2017-10-03
 {% endcolumn %}
 </div>
 
-### Footer specifications
+## Footer specifications
 {: .hxSectionTitle}
 <div class="hxRow">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
