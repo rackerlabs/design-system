@@ -5,18 +5,30 @@
     </div>
     <div class="specs">
       <dl>
+        {% if include.typeface %}
         <dt class="hxSubdued">Typeface:</dt>
         <dd>{{include.typeface}}</dd>
+        {% endif %}
+        {% if include.weight %}
         <dt class="hxSubdued">Weight:</dt>
         <dd>{{include.weight}}</dd>
+        {% endif %}
+        {% if include.fontsize %}
         <dt class="hxSubdued">Size:</dt>
-        <dd>{{include.size}}</dd>
+        <dd>{{include.fontsize}}</dd>
+        {% endif %}
+        {% if include.csscode %}
         <dt class="hxSubdued">Color:</dt>
         <dd>{{include.csscode}}, {{include.hex}}</dd>
-        <dt class="hxSubdued">Line Spacing:</dt>
+        {% endif %}
+        {% if include.linespace %}
+        <dt class="hxSubdued">Line Height:</dt>
         <dd>{{include.linespace}}</dd>
+        {% endif %}
+        {% if include.bottomspace %}
         <dt class="hxSubdued">Bottom Spacing:</dt>
         <dd>{{include.bottomspace}}</dd>
+        {% endif %}
       </dl>
     </div>
   </div>
