@@ -101,7 +101,7 @@ Body text is the default style and should be used across the interface for most 
 {: .hxContainerTitle }
 Subdued style can be applied to any text 14px and taller, and is used to let more important text stand out. It is not the same as an inactive link or button.
 
-Do not use subdued text on backgrounds darker than Gray 25 (#fafafa) or it will not pass accessibiity standards.
+*Do not subdue text on backgrounds darker than Gray 25 (#fafafa) or it will not pass accessibiity standards.*
 {% endcolumn %}
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% include type-styles.html htmlexample='<p class="hxSubdued">Subdued Style</p>' typeface="Roboto" csscode="Gray 900" hex="#424242" %}
@@ -148,7 +148,7 @@ Links supprt styles for hover, active, and disabled states, and inherit size and
 {: .hxContainerTitle }
 Use this style for form input labels and as titles for radio groups or sets of checkboxes. Note that checkbox and radio button labels intentionally do not match this style.
 
-Do not use labels on backgrounds darker than Gray 25 (#fafafa) or it will not pass accessibiity standards.
+*Do not use labels on backgrounds darker than Gray 25 (#fafafa) or it will not pass accessibiity standards.*
 {% endcolumn %}
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% include type-styles.html htmlexample='<label class="hxLabel">Label</label>' typeface="Roboto" weight="Medium (500)" fontsize="14px / 0.875rem" csscode="Gray 750" hex="#6b6b6b" linespace="1.5"  %}
