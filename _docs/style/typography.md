@@ -3,22 +3,16 @@ title: Typography
 layout: docs
 category: Style
 usage: |
-  Roboto is the preferred font when designing with the Helix design system.
+  Roboto is visually geometric and has a modern feel with a breadth of weights.
+  It is an easily readable, accessible, and open-source font from Google Fonts. Included in the
+  family are six weights that should be used for all headers, sub-headers, and
+  body text. Hierarchy can be established using size and negative space.
 preview-image: style/preview-typography.svg
 resource: true
 ---
 
 {% include toc.html %}
-
-# Roboto Arigato
-
-Roboto is visually geometric and has a modern feel with a breadth of weights.
-It is an easily readable, accessible, and open-source font from
-[Google Fonts](https://www.google.com/fonts/specimen/Roboto). Included in the
-family are six weights that should be used for all headers, sub-headers, and
-body text. Hierarchy can be established using size and
-[negative space](http://www.fastcodesign.com/3046656/why-white-space-is-crucial-to-ux-design).
-
+{% comment %}
   <div class="tempRobotoIntro">
     <div class="tempRobotoXL">
       Roboto <br> <span class="tempLarger">Aa</span>
@@ -29,34 +23,134 @@ body text. Hierarchy can be established using size and
       1234567890(,.;:?!$&amp;\*)
     </div>
   </div>
+{% endcomment %}
 
-## Styles
+### Header Styles
+{: .hxSubSectionTitle }
+
 <div class="hxRow">
-{% include type-styles.html htmlexample='<span class="display-font" style="color: #424242">Display</span>' name="Display" typeface="Roboto" weight="Thin (100)" size="48px / 3.0em" csscode="Grey 900" hex="#424242" bottomspace="32px / 2em" %}
-{% include type-styles.html htmlexample='<h1 class="headerDisplayList">Main Heading</h1>' name="H1" typeface="Roboto" weight="Regular (400)" size="24px / 1.5em" csscode="Grey 900" hex="#424242" bottomspace="24px / 1.5em" %}
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+#### Page Title
+{: .hxContainerTitle }
+Page Titles are the highest level of heirarchy. There should only ever be one on any page.
+{% endcolumn %}
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% include type-styles.html htmlexample='<h1 class="hxPageTitle">Page Title</h1>' typeface="Roboto" weight="Thin (100)" size="48px / 3.0em" csscode="Grey 900" hex="#424242" bottomspace="32px / 2em" %}
+{% endcolumn %}
 </div>
 
 <div class="hxRow">
-{% include type-styles.html htmlexample='<h1 class="headerDisplayList header-alt">Light Heading</h1>' name="H1 Light" typeface="Roboto" weight="Thin (100)" size="24px / 1.5em" csscode="Grey 900" hex="#424242" bottomspace="24px / 1.5em" %}
-{% include type-styles.html htmlexample='<h2 class="headerDisplayList">Subheading</h2>' name="H2" typeface="Roboto" weight="Regular (400)" size="20px / 1.25em" csscode="Grey 900" hex="#424242" bottomspace="12px / 0.75em" %}
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+#### Section Title
+{: .hxContainerTitle }
+Use for titles of page sections. If your Page Title is “Billing” and the page has “Overview”, “Trends”, and “Payment Methods” sections, they would each be Section Titles.
+{% endcolumn %}
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% include type-styles.html htmlexample='<h2 class="hxSectionTitle">Section Title</h2>' typeface="Roboto" weight="Regular (400)" size="24px / 1.5em" csscode="Grey 900" hex="#424242" bottomspace="24px / 1.5em" %}
+{% endcolumn %}
 </div>
 
 <div class="hxRow">
-{% include type-styles.html htmlexample='<h3 class="headerDisplayList">Subheading</h3>' name="H3" typeface="Roboto" weight="Medium (500)" size="16px / 1.25em" csscode="Grey 900" hex="#424242" bottomspace="12px / 0.75em" %}
-{% include type-styles.html htmlexample='<span class="body1 headerDisplayList">Body 1</span>' name="Body" typeface="Roboto" weight="Regular (400)" size="16px / 1em" csscode="Grey 900" hex="#424242" linespace="24px / 1.5em" bottomspace="24px/1.5em" %}
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+#### Sub-Section Title
+{: .hxContainerTitle }
+Sub-Section Titles are pretty versatile. Consider using them to title things like fieldsets, tables, Key-Value lists etc.
+{% endcolumn %}
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% include type-styles.html htmlexample='<h3 class="hxSubSectionTitle">Sub-Section Title</h3>' typeface="Roboto" weight="Thin (100)" size="48px / 3.0em" csscode="Grey 900" hex="#424242" bottomspace="32px / 2em" %}
+{% endcolumn %}
 </div>
 
 <div class="hxRow">
-{% include type-styles.html htmlexample='<a>Link</a>' name="Link" typeface="Roboto" weight="Regular (400)" size="16px / 1em" csscode="Cyan 900" hex="#OC7C84" linespace="24px / 1.5em" %}
-{% include type-styles.html htmlexample='<span class="body2 headerDisplayList">Body 2</span>' name="Body 2" typeface="Roboto" weight="Regular (400)" size="14px / .875em" csscode="Grey 900" hex="#424242" %}
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+#### Container Title
+{: .hxContainerTitle }
+Container Titles are good for titling within elements like cards, modals, etc.
+{% endcolumn %}
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% include type-styles.html htmlexample='<h4 class="hxContainerTitle">Container Title</h4>' typeface="Roboto" weight="Regular (400)" size="24px / 1.5em" csscode="Grey 900" hex="#424242" bottomspace="24px / 1.5em" %}
+{% endcolumn %}
+</div>
+
+### Body Styles
+{: .hxSubSectionTitle }
+
+<div class="hxRow">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+#### Body Text
+{: .hxContainerTitle }
+Body text is the default style and should be used across the interface for most information.
+{% endcolumn %}
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% include type-styles.html htmlexample='<p>Body Text</p>' typeface="Roboto" weight="Thin (100)" size="48px / 3.0em" csscode="Grey 900" hex="#424242" bottomspace="32px / 2em" %}
+{% endcolumn %}
 </div>
 
 <div class="hxRow">
-{% include type-styles.html htmlexample='<span class="subtext headerDisplayList">Sub-Body</span>' name="Sub-Body" typeface="Roboto" weight="Regular (400)" size="13px / .813em" csscode="Grey 900" hex="#424242" %}
-{% include type-styles.html htmlexample='<span class="statusTag headerDisplayList">Status Tag</span>' name="Tag" typeface="Roboto" weight="Regular (400)" size="12px / .75em" csscode="Grey 900" hex="#424242" %}
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+#### Subdued Text
+{: .hxContainerTitle }
+Subdued style can be applied to any text 14px and taller, and is used to let more important text stand out. It is not the same as an inactive link or button.
+
+Do not use subdued text on backgrounds darker than Gray 25 (#fafafa) or it will not pass accessibiity standards.
+{% endcolumn %}
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% include type-styles.html htmlexample='<p class="hxSubdued">Subdued Text</p>' typeface="Roboto" weight="Regular (400)" size="24px / 1.5em" csscode="Grey 900" hex="#424242" bottomspace="24px / 1.5em" %}
+{% endcolumn %}
 </div>
 
-# Readability
+
+<div class="hxRow">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+#### Sub-Body Text
+{: .hxContainerTitle }
+Sub-body text should be used sparingly as it is the least readable size. We make it available for use cases when smaller text is appropriate, such as icon labels.
+{% endcolumn %}
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% include type-styles.html htmlexample='<p class="hxSubBody">Sub-Body Text</p>' typeface="Roboto" weight="Regular (400)" size="24px / 1.5em" csscode="Grey 900" hex="#424242" bottomspace="24px / 1.5em" %}
+{% endcolumn %}
+</div>
+
+<div class="hxRow">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+#### Caption
+{: .hxContainerTitle }
+Captions apply to images and visualizations. They should be used to clarify images and not introduce new, pertinent information.
+{% endcolumn %}
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% include type-styles.html htmlexample='<p class="hxCaption">Caption</p>' typeface="Roboto" weight="Thin (100)" size="48px / 3.0em" csscode="Grey 900" hex="#424242" bottomspace="32px / 2em" %}
+{% endcolumn %}
+</div>
+
+<div class="hxRow">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+#### Link
+{: .hxContainerTitle }
+Adheres to text styling.  Does not support “visited” state.
+{% endcolumn %}
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% include type-styles.html htmlexample='<a href="javascript:void(0);">Link</a>' typeface="Roboto" weight="Regular (400)" size="24px / 1.5em" csscode="Grey 900" hex="#424242" bottomspace="24px / 1.5em" %}
+{% endcolumn %}
+</div>
+
+<div class="hxRow">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+#### Label
+{: .hxContainerTitle }
+Use this style for form input labels and as titles for radio groups or sets of checkboxes. 
+
+Note that checkbox and radio button labels are styled differently.
+
+Do not use labels on backgrounds darker than Gray 25 (#fafafa) or it will not pass accessibiity standards.
+{% endcolumn %}
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% include type-styles.html htmlexample='<label class="hxLabel">Label</label>' typeface="Roboto" weight="Thin (100)" size="48px / 3.0em" csscode="Grey 900" hex="#424242" bottomspace="32px / 2em" %}
+{% endcolumn %}
+</div>
+
+
+### Readability
+{: .hxSubSectionTitle }
 
 The W3C recommends the following contrast ratios for body text and image text:
 
@@ -65,10 +159,7 @@ The W3C recommends the following contrast ratios for body text and image text:
 >**14px bold** should have a contrast ratio of at least **3:1** against its
 >background.
 
-The examples below illustrate the minimum contrast ratio. Use a higher contrast
-ratio to show importance and hierarchy.
-[This tool](http://webaim.org/resources/contrastchecker/) can be used to check
-contrast ratios.
+The examples below illustrate the minimum contrast ratio. Use a higher contrast ratio to show importance and hierarchy. [This tool](http://webaim.org/resources/contrastchecker/) can be used to check contrast ratios.
 
 <div class="hxRow">
   {% include chips.html class="hxCol-xs-12 hxCol-md-4 color-chip" bg-color="#FFFFFF" color="#757575" csscode="Grey 700 on Grey 0" hex="#757575 on #FFFFFF" ratio="4.6 : 1" %}
