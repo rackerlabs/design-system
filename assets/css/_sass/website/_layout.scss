@@ -226,17 +226,21 @@ pre {
 }
 
 .type-demo {
-  background-color: #fff;
+  background-color: $grey25;
   border: 1px solid $grey300;
   min-height: 190px;
   padding: 20px;
   box-sizing: inherit;
-  div {
-    float: left;
+  margin-bottom: 1.25rem;
+
+  .example {
+    padding-right: 1.25rem;
     width: 50%;
+    float: left;
   }
   .specs {
     border-left: 1px solid $grey300;
+    float: left;
     dl {
       font-size: $font-size-3;
       margin-left: 20px;
@@ -245,12 +249,13 @@ pre {
         float: left;
       }
       dt {
-        color: $grey700;
         clear: both;
+        margin-bottom: 4px;
       }
       dd {
         color: $grey900;
-        margin-left: 6px;
+        margin-left: 4px;
+        margin-bottom: 4px;
       }
     }
   }
