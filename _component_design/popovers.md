@@ -98,7 +98,7 @@ For specs on laying out form fields and body text within a popover, refer to [In
 - Popovers **always** have a `box-shadow` applied.
 - Popover **should not** be larger than 500 x 500px. 
 
-{% include note.html content="If more space than the above guide lines is required to solve a problem, look into solving the design challenge with a different Helix pattern."%}
+{% include note.html content="If more space than the above guide lines is required, look into solving the design challenge with a different Helix pattern."%}
 
 
 {% endcolumn %}
