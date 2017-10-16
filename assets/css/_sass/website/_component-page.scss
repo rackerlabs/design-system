@@ -52,7 +52,8 @@
     text-align: left !important;
   }
   .component-blurb {
-    font-size: $font-size-3;
+    font-size: $base-font-size;
+    font-weight: 300;
     color: $grey900;
     line-height: $base-line-height;
   }
