@@ -7,7 +7,7 @@ usage: |
   Helix controls allow users to select options in a variety of ways including
   radio buttons, checkboxes, switches and more.
 preview-image: preview-images/toggles.svg
-resource: true
+resource: false
 need: selectors
 status: in-progress
 last-modified: 2017-08-17
