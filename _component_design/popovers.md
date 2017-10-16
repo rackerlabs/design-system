@@ -5,7 +5,7 @@ secondary: Editing
 layout: component
 category: Components
 usage: >
-  A popover is a small group of information or inputs that is presented in a panel that is overlayed on top of the original page, preserving the user’s context.
+  To preserve the user’s context, popovers present a small group of information or inputs that is presented in a panel that is overlayed on top of the original page, preserving the user’s context.
 preview-image: preview-images/popover.svg
 resource: true
 status: unknown
@@ -22,14 +22,16 @@ last-modified: 2017-08-17
 
 ### When to Use
 {: .hxSubSectionTitle}
-Popovers are triggered as a result of a user action and provide a user with additional context through language, actions through buttons, or both. Popovers may also be used for short create/edit workflows, and are particularly useful if context from the page is needed while making the change. If a large workflow is required, consider creating a new page. Popovers and tooltips overlap in some of their use cases. Both are used for giving in-context help/information and for revealing hidden interactive information or when you have a large amount of hidden content.
+Popovers are triggered as a result of a user action and provide a user with additional context through language, actions through buttons, or both. 
+
+Popovers may also be used for short create/edit workflows, and are particularly useful if context from the page is needed while making the change. If a large workflow is required, consider creating a new page.
 
 
 ### Best Practice
 {: .hxSubSectionTitle}
-Popovers are triggered as a result of a user action and provide access to small create/edit workflows or hidden interactive information. 
 
-- Avoid opening a popover from within another popover•Open popovers via click, and never open them via hover.
+- Avoid opening a popover from within another popover
+- Open popovers via click, and never open them via hover.
 - Avoid putting important or required information in a popover because the content inside of a popover isn't always visible.
 - Use popovers to make small changes, with a small number of inputs.
 
@@ -55,8 +57,7 @@ Popovers are triggered as a result of a user action and provide access to small 
 
 The most defining aspects of a popover are the container and the pointer. The container  appears on top of the canvas. The pointer points to the popover trigger. Pointers may be used on either side of the four corners.
 
-- Popovers **should only be shown** when a trigger is clicked.
-- Most popovers may also have a heading and submit/cancel buttons. If buttons are not needed, a popover should close when the user clicks outside of the popover.
+- Most popovers have a heading and submit/cancel buttons. If buttons are not needed, a popover should close when the user clicks outside of the popover.
 - The content area may include text, inputs, or interactive content like a table or visualization.
 
 {% endcolumn %}
@@ -74,13 +75,9 @@ The most defining aspects of a popover are the container and the pointer. The co
 
 ### Popover Spacing
 {: .hxSubSectionTitle}
-For specs on laying out form fields and body text within a popover, refer to the following patterns:
 
-- <a href="{{site.baseurl}}/components/checkboxes.html">Checkboxes</a>
-- <a href="{{site.baseurl}}/components/dropdowns.html">Dropdowns</a>
-- <a href="{{site.baseurl}}/components/radio-buttons.html">Radio Buttons</a>
-- <a href="{{site.baseurl}}/components/type-inputs.html" target="_blank">Text Inputs</a>
-- <a href="{{site.baseurl}}/style/typography.html">Typography</a>
+For specs on laying out form fields and body text within a popover, refer to [Input and Controls]({{site.baseurl}}/components/inputs-and-controls.html)
+
 
 {% endcolumn %}
 
@@ -97,18 +94,11 @@ For specs on laying out form fields and body text within a popover, refer to the
 
 ### Popover Specs
 {: .hxSubSectionTitle}
-For specs on laying out form fields and body text within a popover, refer to the following patterns:
 
-- Popovers **always** have a `box-shadow` attached.
+- Popovers **always** have a `box-shadow` applied.
 - Popover **should not** be larger than 500 x 500px. 
 
-<!-- {% include note.html content="If more space than this is required, look into -->
-<!-- solving the design challenge with a different Helix pattern"%} -->
-
-
-<!-- {% include note.html content="Helix provides an alternate implementation that -->
-<!-- includes [tertiary navigational](#tertiary-left-navigation) elements, -->
-<!-- but it is not preferred."%} -->
+{% include note.html content="If more space than the above guide lines is required to solve a problem, look into solving the design challenge with a different Helix pattern."%}
 
 
 {% endcolumn %}
@@ -131,8 +121,6 @@ The pointer is 16 px wide at the base. The apex is 8 px from the side of the rec
 - Always have the popover protrude toward the center of the screen.
 - Be sure not to hide important information with the popover.
 - The popover content should be repositioned so that it doesn’t bleed off the screen.
-
-The depth width of the remaining side of the popover is dynamic based on how large the box needs to be. Popovers should not be larger than 500px x 500px.
 
 {% endcolumn %}
 
