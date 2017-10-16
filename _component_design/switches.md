@@ -38,7 +38,7 @@ If more complex text is needed in the switch than yes/no or on/off, use a toggle
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% figure [caption:"Tab menu structure"] [class:"image bg-light border"] %}
+{% figure [caption:"Meet the switch component"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/inputs-and-controls/switches/switch-hero.svg){:width="80%"}
 {% endfigure %}
 {% endcolumn %}
