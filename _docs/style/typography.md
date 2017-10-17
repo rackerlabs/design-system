@@ -28,14 +28,14 @@ resource: true
 
 <div class="hxRow">
 {% column left:"hxCol-8" %}
-### Header Styles
+### Header styles
 {: .hxSubSectionTitle }
 {% endcolumn %}
 </div>
 
 <div class="hxRow">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-#### Page Title
+#### Page title
 {: .hxContainerTitle }
 Page Titles are the highest level of heirarchy. There should only ever be one on any page.
 {% endcolumn %}
@@ -46,47 +46,47 @@ Page Titles are the highest level of heirarchy. There should only ever be one on
 
 <div class="hxRow">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-#### Section Title
+#### Section title
 {: .hxContainerTitle }
-Use for titles of page sections. If your Page Title is “Billing” and the page has “Overview”, “Trends”, and “Payment Methods” sections, they would each be Section Titles.
+Use for titles of page sections. If your Page Title is “billing” and the page has “overview”, “trends”, and “payment methods” sections, they would each be Section Titles.
 {% endcolumn %}
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% include type-styles.html htmlexample='<h2 class="hxSectionTitle">Section Title</h2>' typeface="Roboto" weight="Light (300)" fontsize="30px / 1.875rem" csscode="Gray 900" hex="#424242" linespace="1" bottomspace="28px / 1.75rem" %}
+{% include type-styles.html htmlexample='<h2 class="hxSectionTitle">Section title</h2>' typeface="Roboto" weight="Light (300)" fontsize="30px / 1.875rem" csscode="Gray 900" hex="#424242" linespace="1" bottomspace="28px / 1.75rem" %}
 {% endcolumn %}
 </div>
 
 <div class="hxRow">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-#### Sub-Section Title
+#### Sub-Section title
 {: .hxContainerTitle }
-Sub-Section Titles are pretty versatile. Consider using them to title things like fieldsets, tables, Key-Value lists etc.
+Sub-Section Titles are pretty versatile. Consider using them to title things like fieldsets, tables, Key-Value lists, and so on.
 {% endcolumn %}
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% include type-styles.html htmlexample='<h3 class="hxSubSectionTitle">Sub-Section Title</h3>' typeface="Roboto" weight="Regular (400)" fontsize="24px / 1.5rem" csscode="Gray 900" hex="#424242" linespace="1" bottomspace="24px / 1.5rem" %}
+{% include type-styles.html htmlexample='<h3 class="hxSubSectionTitle">Sub-section title</h3>' typeface="Roboto" weight="Regular (400)" fontsize="24px / 1.5rem" csscode="Gray 900" hex="#424242" linespace="1" bottomspace="24px / 1.5rem" %}
 {% endcolumn %}
 </div>
 
 <div class="hxRow">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-#### Container Title
+#### Container title
 {: .hxContainerTitle }
-Container Titles are good for titling within elements like cards, modals, etc.
+Container Titles are good for titling within elements like cards, modals, and so on.
 {% endcolumn %}
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% include type-styles.html htmlexample='<h4 class="hxContainerTitle">Container Title</h4>' typeface="Roboto" weight="Medium (500)" fontsize="16px / 1rem" csscode="Gray 900" hex="#424242" linespace="1" bottomspace="24px / 1.5rem" %}
+{% include type-styles.html htmlexample='<h4 class="hxContainerTitle">Container title</h4>' typeface="Roboto" weight="Medium (500)" fontsize="16px / 1rem" csscode="Gray 900" hex="#424242" linespace="1" bottomspace="24px / 1.5rem" %}
 {% endcolumn %}
 </div>
 
 <div class="hxRow">
 {% column left:"hxCol-8" %}
-### Body Styles
+### Body styles
 {: .hxSubSectionTitle }
 {% endcolumn %}
 </div>
 
 <div class="hxRow">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-#### Body Text
+#### Body text
 {: .hxContainerTitle }
 Body text is the default style and should be used across the interface for most information.
 {% endcolumn %}
@@ -97,9 +97,9 @@ Body text is the default style and should be used across the interface for most 
 
 <div class="hxRow">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-#### Subdued Style
+#### Subdued style
 {: .hxContainerTitle }
-Subdued style can be applied to any text 14px and taller, and is used to let more important text stand out. It is not the same as an inactive link or button.
+You can use the subdued style with any text 14px and taller, and is used to let more important text stand out. The subdued style is not the same as an inactive link or button.
 
 *Do not subdue text on backgrounds darker than Gray 25 (#fafafa) or it will not pass accessibiity standards.*
 {% endcolumn %}
@@ -111,9 +111,9 @@ Subdued style can be applied to any text 14px and taller, and is used to let mor
 
 <div class="hxRow">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-#### Sub-Body Text
+#### Sub-body text
 {: .hxContainerTitle }
-Sub-body text should be used sparingly as it is the least readable size. We make it available for use cases when smaller text is appropriate, such as icon labels.
+Use sub-body text sparingly, since it is the least readable size. You can use it when smaller text is appropriate, such as for icon labels.
 {% endcolumn %}
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% include type-styles.html htmlexample='<p class="hxSubBody">Sub-Body Text</p>' typeface="Roboto" weight="Regular (400)" fontsize="12px / 0.75rem" csscode="Gray 900" hex="#424242" linespace="1.5" %}
@@ -135,7 +135,7 @@ Captions apply to images and visualizations. They should be used to clarify imag
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 #### Link
 {: .hxContainerTitle }
-Links supprt styles for hover, active, and disabled states, and inherit size and spacing styles from the text to which they are applied . Helix does not support the visited state.
+Links support styles for hover, active, and disabled states, and inherit size and spacing styles from the text to which they are applied. Helix does not support the visited state.
 {% endcolumn %}
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% include type-styles.html htmlexample='<a href="javascript:void(0);">Link</a>' typeface="Roboto" csscode="Blue 700" hex="#0D74D1" %}
@@ -164,7 +164,7 @@ The W3C recommends the following contrast ratios for body text and image text:
 
 >Small text less than **14px** should have a contrast ratio of at least **4.5:1** against its background. Large text greater than **18px** or **14px bold** should have a contrast ratio of at least **3:1** against its background.
 
-* Use higher contrast ratio to show importance and hierarchy
+* Use a higher contrast ratio to show importance and hierarchy.
 * [Use the WebAIM contrast checker](http://webaim.org/resources/contrastchecker/){:target="_blank"} to check contrast ratios
 * Examples below illustrate the minimum contrast ratio
 {% endcolumn %}
