@@ -19,7 +19,7 @@ last-modified: 2017-08-17
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-### When to Use
+### When to use
 {: .hxSubSectionTitle}
 - To provide in-context help information, ( e.g. when describing what will happen if you initiate a workflow)
 - To reveal hidden information ( e.g. truncated text, visualization data, or non-human-friendly data like unique ID alphanumerics)
@@ -43,7 +43,7 @@ last-modified: 2017-08-17
 - When users need to interact with the tip’s content.
 - When users work on the site on a mobile device. Tooltips do not appear on hover on a mobile device.
 
-### Best Practice
+### Best practice
 {: .hxSubSectionTitle}
 - Do not make the content obvious or just repeat what is already on the screen.
 - The tooltip is activated when hovered over  or on click.
@@ -57,7 +57,7 @@ last-modified: 2017-08-17
 - Don't put images that look like they are interactive inside the tooltip.
 
 
-### Problems Being Solved
+### Problems being solved
 {: .hxSubSectionTitle}
 Tips are a powerful way to simplify a user interface. They provide information users need when they need it, with minimal effort on their part. Tips can help you use screen space more effectively and reduce screen clutter.
 
@@ -65,7 +65,7 @@ Tips are a powerful way to simplify a user interface. They provide information u
 
 </div>
 
-## Default Composition 
+## Default composition 
 {: .hxSectionTitle}
 <div class="hxRow">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
@@ -87,7 +87,7 @@ The the tooltip will stand off from the back ground by: a lighter background col
 {% endcolumn %}
 </div>
 
-## Tooltip Specs 
+## Tooltip specs 
 {: .hxSectionTitle}
 <div class="hxRow">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
@@ -132,7 +132,7 @@ The tooltip component has varied widths based on the amount of content contained
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-### Pointer and Placement
+### Pointer and placement
 {: .hxSubSectionTitle}
 
 - The pointer is 16 px wide at the base.
@@ -164,7 +164,7 @@ The tooltip component has varied widths based on the amount of content contained
 
 Tooltips will only appear after be activated by a trigger. Triggers come in a variety of types.
 
-### Trigger Types
+### Trigger types
 {: .hxSubSectionTitle}
 
 - **Icon:** Use this trigger variation when a recognizable icon on the application informs a user that additional information is available for consumption if needed. (e.g. A ‘?’ for help or ‘$’ for pricing) 
@@ -181,7 +181,7 @@ Tooltips will only appear after be activated by a trigger. Triggers come in a va
 {% endcolumn %}
 </div>
 
-## Text Conventions
+## Text conventions
 {: .hxSectionTitle}
 <div class="hxRow">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
@@ -201,12 +201,12 @@ Tooltips will only appear after be activated by a trigger. Triggers come in a va
 {% endcolumn %}
 </div>
 
-## Tooltip Variations
+## Tooltip variations
 {: .hxSectionTitle}
 <div class="hxRow">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-### Help Text with a Link
+### Help text with a link
 {: .hxSubSectionTitle}
 
 This variation is used when a tooltip need to provide access to a singular external webpage.
@@ -228,7 +228,7 @@ See <a>Links page</a> for link specifications.
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-### Large Tooltips
+### Large tooltips
 {: .hxSubSectionTitle}
 
 Occassionally a tooltip needs to display a robust set of data that falls outside the bounds of traditional text conventions. The larger tooltips still follow the text conventions and max-width: 400px guidelines assosiated with tooltips and should be used sparingly. While the occasional outlier is ok, if you are consistently using the large tooltip pattern it may be an indication of less than optimal design decisions.
@@ -242,7 +242,7 @@ Occassionally a tooltip needs to display a robust set of data that falls outside
 {% endcolumn %}
 </div>
 
-## Loading State
+## Loading state
 {: .hxSectionTitle}
 <div class="hxRow">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
@@ -259,7 +259,7 @@ Loading states are rarely found when using the tooltip pattern. The loading stat
 </div>
 
 
-## Interaction Behaviors
+## Interaction behaviors
 {: .hxSectionTitle}
 
 Tooltips can be activated via either a hover or a click on the trigger element.
@@ -267,7 +267,7 @@ Tooltips can be activated via either a hover or a click on the trigger element.
 <div class="hxRow">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-### Hover Interaction
+### Hover interaction
 {: .hxSubSectionTitle}
 
 
@@ -290,7 +290,7 @@ Hover tooltips are best used on large breakpoints and desktop designs. Tooltips 
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-### Click Interaction
+### Click interaction
 {: .hxSubSectionTitle}
 
 Click enabled tooltips are best used for smaller breakpoint and mobile designs. Tooltips can have both hover and click interactions on the same tooltip across breakpoints. Click enabled tooltips go through the following interaction lifecycle 
