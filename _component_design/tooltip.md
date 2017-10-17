@@ -32,7 +32,7 @@ last-modified: 2017-08-17
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Meet the tooltip pattern"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/help/tooltips/tooltip-composition.svg){:width="100%"}
+![]({{site.url}}/assets/images/components/help/tooltips/tooltip-hero.svg){:width="100%"}
 {% endfigure %}
 {% endcolumn %}
 
