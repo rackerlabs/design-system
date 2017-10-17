@@ -215,7 +215,7 @@ This variation is used when a tooltip need to provide access to a singular exter
 - Be sure you always include an external link icon
 - If you need additional inputs or interactions on a tool tip, e.g. a dropdown or selector, use the larger popover pattern.
 
-See <a>Links page</a> for link specifications.
+See [Help links]({{site.baseurl}}/components/help-link.html) for link specifications.
 
 
 {% endcolumn %}
