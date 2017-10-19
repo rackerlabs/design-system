@@ -14,29 +14,6 @@
   }
 }
 
-// COMPONENT ROW
-.component-row {
-  margin: 1.5rem 0;
-}
-.component-row-title {
-  font-size: $font-size-5;
-  color: $grey900;
-  margin: 0 0px 16px 0px;
-  text-align: left !important;
-}
-.component-row-blurb {
-  font-size: $base-font-size;
-  color: $grey900;
-  font-weight: $light-weight;
-  margin: 0px 0px;
-  text-align: left !important;
-  line-height: $base-line-height;
-}
-.component-row-status {
-  font-size: $font-size-3;
-  color: $grey700;
-  margin: 16px 0px;
-}
 #markdown-toc {
   font-size: $base-font-size !important;
   color: $cyan700;
