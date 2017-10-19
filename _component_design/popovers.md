@@ -76,7 +76,7 @@ The most defining aspects of a popover are the container and the pointer. The co
 ### Popover Spacing
 {: .hxSubSectionTitle}
 
-For specs on laying out form fields and body text within a popover, refer to [Input and Controls]({{site.baseurl}}/components/inputs-and-controls.html)
+For specs on laying out form fields and body text within a popover, refer to [Inputs and Controls]({{site.baseurl}}/components/inputs-and-controls.html)
 
 
 {% endcolumn %}
@@ -156,7 +156,7 @@ A popover may be used for small create/edit workflows that need to remain in-con
 {: .hxSubSectionTitle}
 A popover may be used to reveal hidden content, so the information is still accessible, but doesn’t clutter the screen.
 
-In this instance popover is preferred over a <a href="{{site.baseurl}}/components/tooltip.html">tooltip</a> if the content is dynamic or interactive (e.g. when presenting the user a table or visualization). 
+In this instance popover is preferred over a [tooltips]({{site.baseurl}}/components/tooltip.html) if the content is dynamic or interactive (e.g. when presenting the user a table or visualization). 
 
 {% endcolumn %}
 
@@ -172,7 +172,7 @@ In this instance popover is preferred over a <a href="{{site.baseurl}}/component
 
 ### Loading
 {: .hxSubSectionTitle}
-A simple loading circle should be used to load a popover. Refer to the Loading pattern for more detailed specifications.
+A simple loading circle should be used to load a popover. Refer to the [Loading]({{site.baseurl}}/components/loading.html) pattern for more detailed specifications.
 
 {% endcolumn %}
 
