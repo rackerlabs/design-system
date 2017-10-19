@@ -3,15 +3,34 @@
   background-color: $cyan700;
   color: $textcolorlight !important;
   min-height: 10.5rem;
-  .fam-display {
-    width: 100%;
-    font-size: $font-size-7;
-    font-weight: $thin-weight;
-    color: $textcolorlight !important;
-    margin: 52px 0 8px 0;
-    text-align: left !important;
+  .hxPageTitle {
+    margin-top: 5rem;
   }
 }
+
+// COMPONENT ROW
+.component-row {
+  margin: 1.5rem 0 3rem 0;
+
+  .hxSubSectionTitle {
+    margin-bottom: 0.75rem;
+  }
+}
+.component-row-blurb {
+  font-size: $base-font-size;
+  color: $grey900;
+  font-weight: $light-weight;
+  margin: 0px 0px;
+  line-height: $base-line-height;
+}
+.component-row-status {
+  margin: 16px 0px;
+}
+.component-row-hero-image {
+  width:100%;
+  max-height: 195px;
+}
+
 .component-element {
   .component-title {
     a {
