@@ -1,10 +1,10 @@
 ---
-title: Text Inputs
+title: Text Fields
 parent: Inputs and Controls
 layout: component
 category: Components
 usage: >
-  Text fields typically reside in forms but can appear in other places, like dialog boxes and search. Text fields validate input, help users fix errors, autocomplete words, and provide suggestions.
+  Text fields, including text inputs and text areas, allow users to input, edit, and select text, numbers and passwords.  Text inputs facilitate validation and can be surrounded with help and error information, to instruct the user on filling in information.
 preview-image: preview-images/text-inputs.svg
 resource: true
 status: unknown
@@ -13,185 +13,291 @@ last-modified: 2017-08-17
 
 {% include toc.html %}
 
-# Text Field
 
-Text fields are generally found in forms. The type of text field determines
-which characters are allowed within it. For example, a user shouldn't be able
-to enter a letter into a phone number field. When the user is entering a name
-or proper noun, the first letter should automatically be capitalized when
-typed.
+## Introduction
 
-If the content is longer than the width of the text field, automatically scroll
-the content left as the user continues to type. Consider using a text area if
-this is expected to happen frequently in a specific text field.
+<div class="hxRow">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+### When to use
+  * Use text fields to enable users to enter text, numbers, passwords, emails, logging in, copying API keys, and any other data pertinent to accomplishing their tasks.
 
-## Enabled
+### Best practices
+  * Text fields should indicate state – whether enabled or disabled, empty or filled, valid or invalid – with clear label, input,  and assistive text.
+  * Text fields should guide the user with data type, format, or other parameters the information should include.
+{% endcolumn %}
 
-<div class="ui form">
-  <div class="field required">
-    <label>Required field</label>
-    <input type="text" placeholder="This is placeholder text">
-  </div>
-  <div class="field">
-    <label>Field with subtext</label>
-    <input type="text" placeholder="This is placeholder text">
-    <div class="ui message subtext">
-    <p>This is some subtext.</p>
-    </div>
-  </div>
-  <div class="field">
-    <label>Prefix or suffix</label>
-    <div class="ui right labeled input">
-      <div class="ui label">$</div>
-      <input type="text" placeholder="Amount">
-      <div class="ui basic label">.00</div>
-    </div>
-  </div>
-  <div class="field">
-    <label>With icon left</label>
-    <div class="ui left icon input">
-      <input type="text" placeholder="Search">
-      <i class="search icon"></i>
-    </div>
-  </div>
-  <div class="field required">
-    <label>Password</label>
-    <input type="password" value="password">
-  </div>
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-hero-image.svg)
+{% endfigure %}
+{% endcolumn %}
 </div>
 
-<!-- Submitting Type Ahead as a separate story
-        <div class="formGroup">
-          <div class="formLabel">Type Ahead</div>
-          <div class="formComponant">
-            <div class="ui-widget">
-              <input id="tags" type="text">
-            </div>
-          </div>
-        </div>
+## Text inputs
 
-        <div class="formGroup">
-          <div class="formLabel">Type Ahead Multiple Values</div>
-          <div class="formComponant">
-            <div class="ui-widget">
-              <input id="tags-multi" type="text">
-            </div>
-          </div>
-        </div>
--->
+<div class="hxRow">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-## Disabled
+### Basic layout
+ * Labels display the type of input a field requires. Every text field should have a label.
+ * Labels are placed above and are left aligned with the input box.
+ * Labels should always be visible.  Avoid using placeholder text for labelling.
 
-<div class="ui form">
-  <div class="disabled field">
-    <label>Disabled with value</label>
-    <input type="text" value="Value text" disabled>
-  </div>
-  <div class="disabled field">
-    <label>Disabled with placeholder text</label>
-    <input type="text" placeholder="Placeholder text" disabled="disabled">
-  </div>
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
+{% figure [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-basic-layout.svg)
+{% endfigure %}
+
+{% endcolumn %}
 </div>
 
-## Completed
-<div class="ui form success">
-  <div class="field">
-    <label>Complete form field</label>
-    <input type="text" value="Value text">
-    <div class="ui success message icon">
-      <i class="check circle icon"></i>
-    </div>
-  </div>
+<div class="hxRow">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### Placeholder text
+ * Placeholder text can be displayed in an empty text field until input is entered.
+ * The placeholder may be instructive text or an example, such as a phone number or email address.
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
+{% figure [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-placeholder-text.svg)
+{% endfigure %}
+
+{% endcolumn %}
 </div>
 
-## Error
+<div class="hxRow">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-<div class="ui form error">
-  <div class="field error">
-    <label>Error with value</label>
-    <input type="text" value="Value text">
-    <div class="ui error message">
-      <p>There is an error with the response to this question.</p>
-    </div>
-  </div>
-  <div class="field required error">
-    <label>Error with placeholder text</label>
-    <input type="text" placeholder="Required">
-    <div class="ui error message">
-      <p>There is an error with the response to this question.</p>
-    </div>
-    <div class="ui error message icon">
-      <i class="warning circle icon"></i>
-    </div>
-  </div>
-  <div class="field error">
-    <label>Error with icon</label>
-    <input type="text" value="Value text">
-    <div class="ui error message">
-      <p>There is an error with the response to this question.</p>
-    </div>
-  </div>
+### Helper text
+ * Helper text should provide clear instructions for populating the input, such as examples, syntax, or other parameters 
+ * Keep text to a single line if possible, though two lines are acceptable
+ * If more than two lines of help text are needed, consider using a tooltip instead
+
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
+{% figure [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-helper-text.svg)
+{% endfigure %}
+
+{% endcolumn %}
 </div>
 
-# Textarea
+<div class="hxRow">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-## Enabled
+### Required fields
+ * To indicate that a field is required, display an asterisk (*) to the left of the label
+ * To aid recognition, the asterisk should overhang the space to the left of the group by 4 pixels
 
-<div class="ui form">
-  <div class="field">
-    <label>Textarea with placeholder text</label>
-    <textarea placeholder="This is placeholder text"></textarea>
-  </div>
-  <div class="field">
-    <label>The final countdown</label>
-    <textarea maxlength="50" id="textarea"></textarea>
-    <div class="ui message subtext right">
-      <p id="textarea_feedback">50 characters remaining</p>
-    </div>
-  </div>
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
+{% figure [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-required.svg)
+{% endfigure %}
+
+{% endcolumn %}
 </div>
 
-## Disabled
+<div class="hxRow">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-<div class="ui form">
-  <div class="disabled field">
-    <label>Textarea with placeholder text</label>
-    <textarea placeholder="This is placeholder text">When I see birches bend to left and right across the lines of straighter darker trees, I like to think some boy's been swinging them. But swinging doesn't bend them down to stay as ice-storms do.</textarea>
-  </div>
+### Character or word counter
+ * Use character or word counters if there is a character or word limit on the input.
+ * The counter is right justified within the control grop
+ * Displayed as a ratio of characters used and the character limit
+ * format: characters used / character limit
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
+{% figure [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-character-or-word-counter.svg)
+{% endfigure %}
+
+{% endcolumn %}
 </div>
 
-## Error
+<div class="hxRow">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-<div class="ui form error">
-  <div class="field error">
-    <label>Textarea with placeholder text</label>
-    <textarea placeholder="This is placeholder text">Often you must have seen them loaded with ice a sunny winter morning after a rain. They click upon themselves as the breeze rises, and turn many-colored as the stir cracks and crazes their enamel.</textarea>
-    <div class="ui error message">
-      <p>There is an error with the response to this question.</p>
-    </div>
-  </div>
+### States overview
+Validation for individual inputs should occur when the user shifts focus to another element (on blur), and the entire form should go through a validation check on submit.
+
+#### Are non-required fields always necessary?
+ * Design goal: Enable users to get what they need with as few up-front choices as possible
+ * In our industry, complex resources often have fields that are configurable AFTER the resource is created  
+ * Consider only including required fields in the main create form, and placing non-required fields in an optional, post-creation workflow
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
+{% figure [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-states-overview.svg)
+{% endfigure %}
+
+{% endcolumn %}
 </div>
 
-<!-- Eliminating until we have a more detailed form layout
+<div class="hxRow">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### Disabled state
+ * Disabled text fields are not editable. They have a slightly darker background fill, lighter border, and lighter input text
+ * Disabled fields are also indicated with a cursor change to “not-allowed”, reinforcing the state for the user
+ * When a field is disabled, consider changing the help text so the user understands why it is disabled
 
 
-# Fieldset
-  <div class="ui segments">
-    <div class="ui segment">
-      <div class="ui form">
-        <div class="field">
-          <label>Field One</label>
-          <input type="text">
-        </div>
-        <div class="field">
-          <label>Field Two</label>
-          <input type="text">
-        </div>
-        <div class="field">
-          <label>Field Three</label>
-          <input type="text">
-        </div>
-      </div>
-    </div>
-  </div>
- -->
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
+{% figure [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-disabled.svg)
+{% endfigure %}
+
+{% endcolumn %}
+</div>
+
+<div class="hxRow">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### Focused
+ * When a text field is selected, the border color changes to Cyan 700, and is raised by a shadow to give the user an indication of where they are in the form
+ * The field remains in a focused state as long as the user inputs text and/or doesnt make a selection outside of the field
+ * As the user types into the text field, input text replaces any placeholder text
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
+{% figure [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-focused.svg)
+{% endfigure %}
+
+{% endcolumn %}
+</div>
+
+<div class="hxRow">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### Invalid
+ * The input border changes color and thickness to reflect the invalid state
+ * Error text should be stacked below any helper text
+ * The error message must be preceded by the error icon
+ * Error text should fit on a single line
+ * When focused, the input box gains a shadow, matching the red error color
+ * Once the input contains valid data, it returns to default state and the error message is removed
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
+{% figure [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-invalid.svg)
+{% endfigure %}
+
+{% endcolumn %}
+</div>
+
+## Input types
+
+<div class="hxRow">
+{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
+Text fields can be formatted to indicate the types of data a field accepts, using placeholder text, preset layout, and character limits.  Text formatting should be displayed only when the field is focused or filled.
+
+Characters can be formatted using:
+* Prefixes and suffixes
+* Password redaction
+
+{% endcolumn %}
+</div>
+
+<div class="hxRow">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### Prefixes and suffixes
+* Prefixes and suffixes can be used to clarify units or to add input in advance
+* Prefixes are left justified in the text field; suffixes are right justified
+* Text fields can have both prefixes  and suffixes.
+
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
+{% figure [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-prefixes-and-suffixes.svg)
+{% endfigure %}
+
+{% endcolumn %}
+</div>
+
+<div class="hxRow">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### Password redaction
+Password input is disguised by default. Midline ellipses are displayed to represent each character of a password entered (such as •••••••).
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
+{% figure [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-password-redaction.svg)
+{% endfigure %}
+
+{% endcolumn %}
+</div>
+
+## Text Areas
+
+<div class="hxRow">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### Basic layout
+* Layout specs for text areas are the same as for text inputs.
+* Text areas are taller than text fields and wrap overflow text onto a new line. 
+* Text areas scroll vertically when the cursor reaches the bottom of the field. 
+* They can include an optional draggable resize icon in the lower corner.
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
+{% figure [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-area-basic-layout.svg)
+{% endfigure %}
+
+{% endcolumn %}
+</div>
+
+<div class="hxRow">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### Text area states
+Text area states also follow the same layout and behaviors as text inputs.
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
+{% figure [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-area-states-overview.svg)
+{% endfigure %}
+
+{% endcolumn %}
+</div>
