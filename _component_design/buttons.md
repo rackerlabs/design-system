@@ -1,6 +1,6 @@
 ---
 title: Buttons
-parent: Editing
+parent: Inputs and Controls
 secondary: Inputs and Controls
 layout: component
 category: Components
@@ -14,203 +14,189 @@ last-modified: 2017-08-17
 
 {% include toc.html %}
 
-Buttons provide the mechanism for users to perform actions within a
-Helix-themed UI. Each button has a weight (Primary, Secondary, and Tertiary),
-a size (Regular, Large, Compact), as well as a type (Simple, Dropdown).
-
-{% figure [caption:"The three types of buttons defined in the Helix design language"] [class:"image bg-light border col-md-12"] %}
-![]({{site.cdn_url}}/img/components/Buttons/buttons-types.svg)
-{% endfigure %}
-
-# Primary Buttons
-
+## Introduction
+{: .hxSectionTitle}
 <div class="hxRow">
-{% column left:"hxCol" %}
--   Use the primary action button to prompt the user to take action.
 
--   In most instances, use the standard size button. Use the compact buttons
-    with space constraints such as within a table.
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+Buttons provide the mechanism for users to perform actions within a Helix UI. Each button has a weight (Primary, Secondary, and Tertiary), a size (Regular, Large, Compact), as well as a type (Simple, Dropdown).
 
--   Large buttons should be used in mobile designs to accommodate the ideal
-    touch target size.
+### When to use
+{: .hxSubSectionTitle}
+Use a button to launch a process or initiate an action. Do not use buttons for navigation.  When the user needs to get from one page to another, use a text link. 
 
--   Use one primary button per page.
+### Best practice
+{: .hxSubSectionTitle}
+
+- Button Text style should always be Title Case where the first letter of each word is capitalized.
+- Buttons should always use the labelling convention of “Noun Verb”, with no articles. e.g. “Create Server”, not “Create a Server”.
+- Keep your text labels as short as possible while also fully communicating what action the button will trigger.
+- When choosing which button weight to use, you will probably use a secondary button unless your button need meets the requirements of a primary button, or tertiary button.
+- When choosing which button size to use consider the context. In most cases, you will use a standard button
+- There should only be one primary button in a form.
+- The primary button should always represent an inherently apparent next step. e.g.  "Create Server", "Add Selected", "Confirm Deletion",  "Submit”, “Next”.
+- If you have multiple buttons on a page, there can only be one primary button.
+
 
 {% endcolumn %}
-{% column right:"hxCol" %}
-{% figure [caption:"Primary button sizes"] %}
-![]({{site.cdn_url}}/img/components/Buttons/buttons-primary-sizes.svg){:width="100%"}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [caption:"Meet the button pattern"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-hero.svg){:width="100%"}
 {% endfigure %}
 {% endcolumn %}
-{% column right:"hxCol" %}
-{% figure [caption:"Primary button states"] %}
-![]({{site.cdn_url}}/img/components/Buttons/buttons-primary-actions.svg){:width="100%"}
+
+</div>
+
+## Simple buttons
+{: .hxSectionTitle}
+<div class="hxRow">
+
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+When using a simple button you will need to specify both a weight and size.
+
+- Weights:   
+    - Primary
+    - Secondary
+    - Teritiary
+- Sizes:
+    - Large
+    - Standard
+    - Compact
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [caption:"The three button weights"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-simple.svg){:width="100%"}
 {% endfigure %}
 {% endcolumn %}
 </div>
 
-# Secondary Buttons
-
+## Spacing and specs
+{: .hxSubSectionTitle}
 <div class="hxRow">
-{% column left:"hxCol" %}
--   The secondary button can be used in conjunction with the primary button or
-    when there are multiple buttons on the same screen.
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+For most desktop use cases, you should use a standard button size.   
 
--   The same sizing rules apply to both secondary and primary buttons.
+Large buttons should be used in mobile designs to accommodate the ideal touch target size. 
+
+Compact buttons should be used when you have severe space constraints, e.g. inside of a table or in a dashboard widget.
 
 {% endcolumn %}
-{% column right:"hxCol" %}
-{% figure [caption:"Secondary button sizes"] %}
-![]({{site.cdn_url}}/img/components/Buttons/buttons-secondary-sizes.svg){:width="100%"}
-{% endfigure %}
-{% endcolumn %}
-{% column right:"hxCol" %}
-{% figure [caption:"Secondary button states"] %}
-![]({{site.cdn_url}}/img/components/Buttons/buttons-secondary-actions.svg){:width="100%"}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [caption:"Button spacing specs"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-specs.svg){:width="100%"}
 {% endfigure %}
 {% endcolumn %}
 </div>
 
-# Tertiary Buttons
-
+### Primary buttons - simple
+{: .hxSubSectionTitle}
 <div class="hxRow">
-{% column left:"hxCol" %}
--   Tertiary buttons can be used in conjunction with the primary button or with
-    a primary and secondary button.
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
--   Tertiary buttons should be used to deemphasize the action in comparison
-    with the actions of primary or secondary buttons.
-
--   For example, use a tertiary button for "cancel" and a primary button to
-    emphasize "submit".
+- Use the primary action button to prompt the user to take action
+- Use only one primary button per page
+- Simple buttons, dropdown buttons and split dropdown buttons all share the same properties for state changes
 
 {% endcolumn %}
-{% column right:"hxCol" %}
-{% figure [caption:"Tertiary button sizes"] %}
-![]({{site.cdn_url}}/img/components/Buttons/buttons-tertiary-sizes.svg){:width="100%"}
-{% endfigure %}
-{% endcolumn %}
-{% column right:"hxCol" %}
-{% figure [caption:"Tertiary button states"] %}
-![]({{site.cdn_url}}/img/components/Buttons/buttons-tertiary-actions.svg){:width="100%"}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [caption:"Button spacing specs"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-primary.svg){:width="100%"}
 {% endfigure %}
 {% endcolumn %}
 </div>
 
-# Dropdowns
-
-Dropdowns inject additional actions into a primary, secondary, or tertiary
-button.
-
+### Secondary buttons - simple
+{: .hxSubSectionTitle}
 <div class="hxRow">
-{% column left:"hxCol" %}
--   Inherits and extends any of the three button weights
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
--   Follows the same styles and states as the button weight which it extends
-
--   Attempt to limit to a maximum of 8 items. If more than 8 items are needed,
-    consider splitting a subset of actions into another location on the page.
+- The secondary button can be used alone or in conjuction with a primary button and /or tertiary button.
+- Use Secondary Buttons when there are multiple buttons on the same screen.
+- Simple buttons, dropdown buttons and split dropdown buttons  all share the same properties for state changes.
 
 {% endcolumn %}
-{% column right:"hxCol" %}
-{% figure [caption:"Dropdown buttons"] %}
-![]({{site.cdn_url}}/img/components/Buttons/buttons-dropdowns-actions.svg)
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [caption:"Button spacing specs"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-secondary.svg){:width="100%"}
 {% endfigure %}
 {% endcolumn %}
 </div>
 
-# Processing state (Loading)
-When any button that submits an asynchronous api call is pressed the
-"processing" class/state is applied to the button. This state triggers the
-loading animation to be applied to the button.
-
+### Tertiary buttons - simple
+{: .hxSubSectionTitle}
 <div class="hxRow">
-{% column left:"hxCol" %}
-- Details on loading animation specifics can be found on the <a href="{{site.baseurl}}/components/loading.html">loading page</a>.
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+- The tertiary button can be used alone, or in conjuction with other buttons. 
+- Use alone when you want to deemphasize the action, or when you have a list of actions.
+- Use in conjunction with a primary or secondary button when there are two options, but you want to de-emphasize one of them. E.g. in a dialog box, with two options:  “Submit” (Primary) and “Cancel” (Tertiary).
+- The Primary Button sizing rules also apply to tertiary buttons.
+- Tertiary buttons have a transparent background.
+
 {% endcolumn %}
-{% column right:"hxCol" %}
-{% figure [caption:"Processing state across button weights"] %}
-![]({{site.cdn_url}}/img/components/Buttons/buttons-loading.svg)
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [caption:"Button spacing specs"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-tertiary.svg){:width="100%"}
 {% endfigure %}
 {% endcolumn %}
 </div>
 
-# Button Specs
-
-List of associated css values used across the three button sizes.
-
-## Standard Button Specs
-
+## Loading states
+{: .hxSubSectionTitle}
 <div class="hxRow">
-{% column left:"hxCol" %}
-- `font-family:roboto-medium`
-- `font-size:14px`
-- `text-transform:uppercase`
-- `border-radius:2px`
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+- Loading icon animation should rotate time: 0.8 sec/revolution
+- For further information regarding the loading pattern, see the [loading pattern]({{site.baseurl}}/components/loading.html)
+
+
 {% endcolumn %}
-{% column right:"hxCol" %}
-{% figure [caption:"Regular button redlines"] %}
-![]({{site.cdn_url}}/img/components/Buttons/buttons-specs-regular.svg)
+  
+{% figure [caption:"Button (loading state) spacing"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-loading-1.svg){:width="100%"}
+{% endfigure %}
+{% figure [caption:"Button (loading state) specifications for primary, secondary, and tertiary weights."] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-loading-2.svg){:width="100%"}
 {% endfigure %}
 {% endcolumn %}
 </div>
 
-## Large Button Specs
-
+## Button sets
+{: .hxSubSectionTitle}
 <div class="hxRow">
-{% column left:"hxCol" %}
-- `font-family:roboto-medium`
-- `font-size:16px`
-- `text-transform:uppercase`
-- `border-radius:2px`
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+- Buttons should be aligned in order of Primary, Secondary, Tertiary (cancel).
+- Button sets are most often used in Popovers, Modals or Create/Edit Forms to group the submit, back/next, and cancel buttons.
+- A button set should never contain more than one primary button.
+- Avoid using split buttons in a button set as it would complicate what should be a simple decision.
+- The cancel action must always be an `hxBtn--link` as shown in the example.
+
+When submitting forms:
+
+- Disable all buttons, and
+- Change the primary button to loading state.          
+
 {% endcolumn %}
-{% column right:"hxCol" %}
-{% figure [caption:"Large button redlines"] %}
-![]({{site.cdn_url}}/img/components/Buttons/buttons-specs-large.svg)
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [caption:"Button set spacing"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-sets-1.svg){:width="100%"}
+{% endfigure %}
+{% figure [caption:"Primary, Secondary and Tertiary button s et"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-sets-2.svg){:width="100%"}
+{% endfigure %}
+{% figure [caption:"Primary and Tertiary button set"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-sets-3.svg){:width="100%"}
 {% endfigure %}
 {% endcolumn %}
 </div>
 
-## Compact Button Specs
-
-<div class="hxRow">
-{% column left:"hxCol" %}
-- `font-family:roboto-medium`
-- `font-size:10px`
-- `text-transform:uppercase`
-- `border-radius:2px`
-{% endcolumn %}
-{% column right:"hxCol" %}
-{% figure [caption:"Compact button redlines"] %}
-![]({{site.cdn_url}}/img/components/Buttons/buttons-specs-compact.svg)
-{% endfigure %}
-{% endcolumn %}
-</div>
-
-# Guidance
-
--   Generally, use primary buttons for actions that go to the next step and use
-    secondary buttons for actions that happen on the current page.
-
--   Style the button most users should click in a way that distinguishes from
-    other buttons on the page. Try using the "large button" or the most
-    visually distinct fill color.
-
--   Make sure buttons should look clickable—use color variations to distinguish
-    static, hover and active states.
-
--   Avoid using too many buttons on a page.
-
--   Avoid using too many buttons on a page.
-
--   Use sentence case for button labels.
-
--   Button labels should be as short as possible with "trigger words" that your
-    users will recognize to clearly explain what will happen when the button is
-    clicked (for example, "download," "view" or "sign up").
-
--   Make the first word of the button’s label a verb. For example, instead of
-    "Complaint Filing" label the button "File a complaint."
-
--   Only use icons inside buttons when absolutely necessary. If your icon
-    requires a text description then it may not be a good icon.
