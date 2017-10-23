@@ -16,10 +16,13 @@ last-modified: 2017-08-17
 
 ## Introduction
 {: .hxSectionTitle}
+
+Buttons provide the mechanism for users to perform actions within a Helix UI. Each button has a weight (Primary, Secondary, and Tertiary), a size (Regular, Large, Compact), as well as a type (Simple, Dropdown).
+
 <div class="hxRow">
 
+
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-Buttons provide the mechanism for users to perform actions within a Helix UI. Each button has a weight (Primary, Secondary, and Tertiary), a size (Regular, Large, Compact), as well as a type (Simple, Dropdown).
 
 ### When to use
 {: .hxSubSectionTitle}
@@ -74,7 +77,7 @@ When using a simple button you will need to specify both a weight and size.
 {% endcolumn %}
 </div>
 
-## Spacing and specs
+### Spacing and specs
 {: .hxSubSectionTitle}
 <div class="hxRow">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
@@ -149,7 +152,7 @@ Compact buttons should be used when you have severe space constraints, e.g. insi
 {% endcolumn %}
 </div>
 
-## Loading states
+### Loading states
 {: .hxSubSectionTitle}
 <div class="hxRow">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
@@ -159,7 +162,8 @@ Compact buttons should be used when you have severe space constraints, e.g. insi
 
 
 {% endcolumn %}
-  
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}  
 {% figure [caption:"Button (loading state) spacing"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-loading-1.svg){:width="100%"}
 {% endfigure %}
@@ -167,9 +171,10 @@ Compact buttons should be used when you have severe space constraints, e.g. insi
 ![]({{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-loading-2.svg){:width="100%"}
 {% endfigure %}
 {% endcolumn %}
+
 </div>
 
-## Button sets
+### Button sets
 {: .hxSubSectionTitle}
 <div class="hxRow">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
