@@ -21,12 +21,8 @@ last-modified: 2017-08-17
 
 ### When to use
 {: .hxSubSectionTitle}
-- To provide in-context help information, ( e.g. when describing what will happen if you initiate a workflow)
-- To reveal hidden information ( e.g. truncated text, visualization data, or non-human-friendly data like unique ID alphanumerics)
-- Provide extra information to users, so that the screen isn’t overly full of unnecessary text.
-- An item on a page benefits from a supplemental description or further information.
-- Rarely used features or features that can be interpreted differently.
-- An item on a page does not have have a text label.
+
+Use a tool tip when you need to provide in-context help information. For example, when describing what will happen when a workflow is initiated. A tool tip can also be used to reveal hidden information, provide extra or supplemental information to users, when features could be misinterpreted, or an item on a page does not have a text label.
 
 {% endcolumn %}
 
@@ -39,27 +35,16 @@ last-modified: 2017-08-17
 {% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 ### When not to use
 {: .hxSubSectionTitle}
-- If users must repeatedly refer to a tool tip to understand an option or to complete a workflow, then the information may need to be displayed on the page rather than hidden in a tooltip.
-- When users need to interact with the tip’s content.
-- When users work on the site on a mobile device. Tooltips do not appear on hover on a mobile device.
+Do not use a tooltip if users must repeatedly refer to a tooltip to understand an option or to complete a workflow. We recommend you do not use a tooltip when users needs to interact with the tip's content, or when users integrate with the site on a mobile device.
 
 ### Best practice
 {: .hxSubSectionTitle}
-- Do not make the content obvious or just repeat what is already on the screen.
-- The tooltip is activated when hovered over  or on click.
-- Keep the tooltip text concise. Tooltips are perfect for short sentences and sentence fragments.
-- A tooltip disappears when mouse hovers away, or when clicked in the icon. 
-- Tooltip should be used on icon images, text, and table rows.
-- Tooltips should be placed near the object that is being hovered over. 
-- Tooltips should never be placed in a way that interferes with what the user is doing, or obscure the object of interest.
-- The maximum width for the tooltip is 400px.
-- Do not put interactive controls inside the tooltip.
-- Don't put images that look like they are interactive inside the tooltip.
+Tooltips are perfect for short sentences and sentence fragments that assist the user in their understanding. The ideal tooltip is not obvious, nor does it repeat content that is already visible on the site. Place a tooltip in a subtle location, and ensure it does not interfere with the user or obscure any objects of interest. Use the tooltip on icon  images, text, and table rows. The maximum width for the tooltip is 400px, ensure there are no interactive controls inside the tooltip.
 
 
 ### Problems being solved
 {: .hxSubSectionTitle}
-Tips are a powerful way to simplify a user interface. They provide information users need when they need it, with minimal effort on their part. Tips can help you use screen space more effectively and reduce screen clutter.
+Tooltips are a powerful way to simplify a user interface. They provide information users need when they need it, with minimal effort on their part. Tips can help you use screen space more effectively and reduce screen clutter.
 
 {% endcolumn %}
 
@@ -72,11 +57,11 @@ Tips are a powerful way to simplify a user interface. They provide information u
 
 Tooltips are composed of two primary portions, the tooltip container and the trigger:
 
-The trigger is the element that displays the tooltip component when interacted with from a user. (see trigger types section)
+- The trigger is the element that displays the tooltip component when interacted with from a user. (see trigger types section)
 
-The container houses the border, pointer, and text/content. 
+- The container houses the border, pointer, and content. 
 
-The the tooltip will stand off from the back ground by: a lighter background color than the interface background, a slight rule (line) around the tooltip box, and a slight shadow around the tooltip so it seems “higher” or “raised up” from the items below it. 
+The tooltip will stand out from the background by using a lighter background colour than the interface background, a rule or line around the tooltip box, and a shadow around the tooltip so it appears raised from the items below.
 
 {% endcolumn %}
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
@@ -87,17 +72,18 @@ The the tooltip will stand off from the back ground by: a lighter background col
 {% endcolumn %}
 </div>
 
-## Tooltip specs 
+## Tooltip specifications
+
 {: .hxSectionTitle}
 <div class="hxRow">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Spacing
 {: .hxSubSectionTitle}
-The tooltip component has varied widths based on the amount of content contained within its bounds but always relies on the following consistent spacing specifications:
+Tooltips have varying widths based on the amount of content, however, a tooltip relies on the following consistent spacing specifications:
 
 - 8px between vertical elements
-- 12px between not related elements 
+- 12px between unrelated elements 
 - max-width of 400px
 
 {% endcolumn %}
@@ -112,7 +98,7 @@ The tooltip component has varied widths based on the amount of content contained
 <div class="hxRow">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-### Text
+### Text values
 {: .hxSubSectionTitle}
 
 - 14px Roboto Medium for headers
@@ -138,13 +124,13 @@ The tooltip component has varied widths based on the amount of content contained
 - The pointer is 16 px wide at the base.
 - The apex is 8 px from the side of the rectangle. 
 - The pointer should start 12 px from the corner.
-- The side from which the pointer protrudes depends on the location of the trigger on the screen.
+- The side from which the pointer extends depends on the location of the trigger on the screen. Best practice pointer placement relies up the following:
 
-	- Always have the tooltip protrude toward the center of the screen
-	- Be sure not to hide important information with the tootip
-	- The popover or tooltip content should be repositioned so that it doesn’t bleed off the screen.
+	- Always have the tooltip protrude toward the center of the screen.
+	- Ensure the tooltip does not hide important information.
+	- The tooltip content should be repositioned so that it doesn’t extend off the boundaries of the current screen.
 
-- The depth/width of the remaining side of the tooltip is dynamic based on how large the box needs to be with a max-width of 400px. 
+- The depth and width of the remaining side of the tooltip is dynamic based on how large the box needs to be with a max-width of 400px. 
 
 {% endcolumn %}
 
@@ -167,8 +153,10 @@ Tooltips will only appear after be activated by a trigger. Triggers come in a va
 ### Trigger types
 {: .hxSubSectionTitle}
 
-- **Icon:** Use this trigger variation when a recognizable icon on the application informs a user that additional information is available for consumption if needed. (e.g. A ‘?’ for help or ‘$’ for pricing) 
-- **Table text:** This variation is used to reveal additional information within a table. By hiding information behind tooltips in a table we keep the tables easily consumable and only display additional information when a user requires. Do not hide important information behind a tooltip. Note: May apply to both plain text cells and link text cells.
+- **Icon:** Use this trigger variation if a recognizable icon on the application informs a user that additional information is available for consumption if needed. For example, A ‘?’ for help or ‘$’ for pricing.
+- **Table text:** This variation is used to reveal additional information within a table. By hiding information in tooltips in a table, the tables are easily consumable and only display additional information if required. 
+	- **Note:** May apply to both plain text cells and link text cells.
+
 - **Data visualization:** Use this trigger variation to present robust data sets aggregated into a data visualization.
 
 
@@ -209,18 +197,18 @@ Tooltips will only appear after be activated by a trigger. Triggers come in a va
 ### Help text with a link
 {: .hxSubSectionTitle}
 
-This variation is used when a tooltip need to provide access to a singular external webpage.
+Use this variation when a tooltip provides access to a singular external webpage.
 
 - This link should always be an external link and should open in a new tab. 
-- Be sure you always include an external link icon
-- If you need additional inputs or interactions on a tool tip, e.g. a dropdown or selector, use the larger popover pattern.
+- Be sure you always include an external link icon.
+- If you need additional inputs or interactions on a tooltip, for example, a dropdown or selector, use the larger popover pattern.
 
 See [Help links]({{site.baseurl}}/components/help-link.html) for link specifications.
 
 
 {% endcolumn %}
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% figure [caption:"Spacing for Tooltip with an associated link"] [class:"image bg-light border"] %}
+{% figure [caption:"Spacing for tooltip with an associated link"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/help/tooltips/tooltip-text-with-link.svg){:width="100%"}
 
 {% endfigure %}
@@ -231,11 +219,11 @@ See [Help links]({{site.baseurl}}/components/help-link.html) for link specificat
 ### Large tooltips
 {: .hxSubSectionTitle}
 
-Occassionally a tooltip needs to display a robust set of data that falls outside the bounds of traditional text conventions. The larger tooltips still follow the text conventions and max-width: 400px guidelines assosiated with tooltips and should be used sparingly. While the occasional outlier is ok, if you are consistently using the large tooltip pattern it may be an indication of less than optimal design decisions.
+Occassionally a tooltip needs to display a robust set of data that falls outside the bounds of traditional text conventions. The larger tooltips follow the same text conventions and sizing guidelines.
 
 {% endcolumn %}
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% figure [caption:"Some tooltips contain larger amounts of information, like definitions and pricing structure. Such tooltips **SHOULD BE USED SPARINGLY**."] [class:"image bg-light border"] %}
+{% figure [caption:"Some tooltips contain larger amounts of information, like definitions and pricing structure. Such tooltips **should be used sparingly**."] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/help/tooltips/tooltip-large-tooltips.svg){:width="100%"}
 
 {% endfigure %}
@@ -271,12 +259,12 @@ Tooltips can be activated via either a hover or a click on the trigger element.
 {: .hxSubSectionTitle}
 
 
-Hover tooltips are best used on large breakpoints and desktop designs. Tooltips can have both hover and click interactions on the same tooltip across breakpoints. Hover enabled Tooltips go through the following interaction lifecycle:
+Hover tooltips are best used on large breakpoints and desktop designs. Tooltips can have both hover and click interactions on the same tooltip across breakpoints. Hover enabled tooltips go through the following interaction lifecycle:
  
-- **Hidden:** The base state of a tooltip is to be hidden until the trigger is engaged by the pointed
+- **Hidden:** The base state of a tooltip is to be hidden until the trigger is engaged by the pointed.
 - **Displayed:** Tooltips enter the display state once the pointer has hovered the trigger element for 500ms.
 - **Persist:**  While a pointer is hovered inside a tooltip it will persist indefintely to allow for user consumption.
-- **Removal:** After the pointer leaves either the trigger or the tooltip the tooltip is ready for removal. After 1600ms the tip is removed.
+- **Removal:** After the pointer leaves either the trigger or the tooltip is ready for removal. After 1600ms the tooltip is removed.
 
 
 
@@ -293,15 +281,15 @@ Hover tooltips are best used on large breakpoints and desktop designs. Tooltips 
 ### Click interaction
 {: .hxSubSectionTitle}
 
-Click enabled tooltips are best used for smaller breakpoint and mobile designs. Tooltips can have both hover and click interactions on the same tooltip across breakpoints. Click enabled tooltips go through the following interaction lifecycle 
+Use click enabled tooltips for smaller breakpoints and mobile designs. Tooltips can have both hover and click interactions on the same tooltip across breakpoints. Click enabled tooltips go through the following interaction lifecycle 
 
-- **Hidden:** The base state of a tooltip is to be hidden until the trigger is clicked by the pointer
+- **Hidden:** The base state of a tooltip is to be hidden until the trigger is clicked by the pointer.
 - **Displayed:** Tooltips enter the displayed state once the pointer has clicked the trigger element.
 - **Persist:**  Clickable tooltips persist until manually removed by a user.
- - **Removal:** Tooltips reenter the hidden state once the pointer has either: 
+ - **Removal:** Tooltips re-enter the hidden state once the pointer has either: 
 
-	- reclicked the trigger element.
-	- clicked anywhere outside the tooltip.
+	- re-clicked the trigger element.
+	- clicked outside the tooltip.
 
 {% endcolumn %}
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
