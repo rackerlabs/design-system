@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="962px" height="838px" viewBox="0 0 962 838" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>tables-controls-hero</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="14.4" height="14.4" rx="1.8"></rect>
+        <rect id="path-2" x="0" y="0" width="14.4" height="14.4" rx="1.8"></rect>
+        <rect id="path-3" x="0" y="0" width="86.4" height="28.8" rx="1.8"></rect>
+        <rect id="path-4" x="18.35" y="50.4" width="14.4" height="14.4" rx="1.8"></rect>
+        <rect id="path-5" x="0" y="0" width="86.6411133" height="28.8" rx="1.8"></rect>
+        <rect id="path-6" x="0" y="0" width="147.10939" height="27" rx="2.7"></rect>
+        <rect id="path-7" x="0" y="0" width="14.4401855" height="14.4" rx="1.8"></rect>
+        <rect id="path-8" x="0" y="0" width="14.4401855" height="14.4" rx="1.8"></rect>
+        <rect id="path-9" x="18.35" y="50.5717391" width="14.4" height="14.4"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="tables-controls-hero">
+            <g id="documentation-/-section-/-1-image-full-width" transform="translate(41.000000, 27.000000)">
+                <g id="specs-/-redlines-/-label-title-sm" transform="translate(0.000000, 642.500000)" font-size="10" font-family="Roboto-Regular, Roboto" fill="#9E9E9E" font-weight="normal">
+                    <text id="SMALL-LABEL">
+                        <tspan x="0" y="10.5">WITHIN TABLE CONTROLS</tspan>
+                    </text>
+                </g>
+                <g id="specs-/-redlines-/-label-title-sm" font-size="10" font-family="Roboto-Regular, Roboto" fill="#9E9E9E" font-weight="normal">
+                    <text id="SMALL-LABEL">
+                        <tspan x="0" y="10.5">TOP CONTROLS</tspan>
+                    </text>
+                </g>
+                <g id="specs-/-redlines-/-label-title-sm" transform="translate(0.000000, 332.500000)" font-size="10" font-family="Roboto-Regular, Roboto" fill="#9E9E9E" font-weight="normal">
+                    <text id="SMALL-LABEL">
+                        <tspan x="0" y="10.5">BOTTOM CONTROLS</tspan>
+                    </text>
+                </g>
+                <g id="Group-7" transform="translate(13.750000, 28.750000)">
+                    <g id="Table-Example-/-Default-/-Check-boxes-Copy-2" transform="translate(0.350000, 50.400000)">
+                        <g id="Table-Header">
+                            <text id="Column-4-Label" font-family="Roboto-Regular, Roboto" font-size="12.6" font-weight="normal" line-spacing="14.4" fill="#333333">
+                                <tspan x="814.340039" y="10.0924805">size</tspan>
+                            </text>
+                            <text id="Column-3-Label" font-family="Roboto-Regular, Roboto" font-size="12.6" font-weight="normal" line-spacing="14.4" fill="#333333">
+                                <tspan x="410.4" y="12">Region</tspan>
+                            </text>
+                            <text id="Column-2-Label" font-family="Roboto-Regular, Roboto" font-size="12.6" font-weight="normal" line-spacing="14.4" fill="#333333">
+                                <tspan x="230.4" y="12">Tags</tspan>
+                            </text>
+                            <text id="Column-1-Label-Copy" font-family="Roboto-Regular, Roboto" font-size="12.6" font-weight="normal" line-spacing="14.4" fill="#333333">
+                                <tspan x="50.4" y="12">Column heading 1</tspan>
+                            </text>
+                            <path d="M0,28.8 L864,28.8" id="Line" stroke="#E0E0E0" stroke-width="0.9" stroke-linecap="square"></path>
+                        </g>
+                        <g id="Group" transform="translate(0.000000, 44.800000)">
+                            <g id="Table-/-Row-/-Default" transform="translate(0.000000, 0.200000)">
+                                <text id="First-Column" font-family="Roboto-Regular, Roboto" font-size="14.4" font-weight="normal" line-spacing="14.4" fill="#1D93A3">
+                                    <tspan x="51.3" y="14.8">My Cloud Server-01</tspan>
+                                </text>
+                                <text id="Second-Column" font-family="Roboto-Regular, Roboto" font-size="14.4" font-weight="normal" line-spacing="18" fill="#333333">
+                                    <tspan x="231.3" y="13">Production</tspan>
+                                </text>
+                                <text id="Third-Column" font-family="Roboto-Regular, Roboto" font-size="14.4" font-weight="normal" line-spacing="18" fill="#333333">
+                                    <tspan x="411.3" y="13">Chicago (ORD)</tspan>
+                                </text>
+                                <text id="Last-Column" font-family="Roboto-Regular, Roboto" font-size="14.4" font-weight="normal" line-spacing="18" fill="#333333">
+                                    <tspan x="800.303906" y="13">256 GB</tspan>
+                                </text>
+                                <path d="M0,34.2725806 L864,34.2725806" id="Stroke-11" stroke="#E0E0E0" stroke-width="0.9"></path>
+                            </g>
+                            <g id="Table-/-Row-/-Default" transform="translate(0.000000, 50.350000)">
+                                <text id="First-Column" font-family="Roboto-Regular, Roboto" font-size="14.4" font-weight="normal" line-spacing="14.4" fill="#1D93A3">
+                                    <tspan x="51.3" y="14.8">My Cloud Server-01</tspan>
+                                </text>
+                                <text id="Second-Column" font-family="Roboto-Regular, Roboto" font-size="14.4" font-weight="normal" line-spacing="18" fill="#333333">
+                                    <tspan x="231.3" y="13">Production</tspan>
+                                </text>
+                                <text id="Third-Column" font-family="Roboto-Regular, Roboto" font-size="14.4" font-weight="normal" line-spacing="18" fill="#333333">
+                                    <tspan x="411.3" y="13">Chicago (ORD)</tspan>
+                                </text>
+                                <text id="Last-Column" font-family="Roboto-Regular, Roboto" font-size="14.4" font-weight="normal" line-spacing="18" fill="#333333">
+                                    <tspan x="800.303906" y="13">256 GB</tspan>
+                                </text>
+                                <path d="M0,34.2725806 L864,34.2725806" id="Stroke-11" stroke="#E0E0E0" stroke-width="0.9"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Group-2" transform="translate(18.350000, 96.300000)">
+                        <g id="Rectangle-Copy-3">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            <rect stroke="#0C7C84" stroke-width="0.9" x="0.45" y="0.45" width="13.5" height="13.5" rx="1.8"></rect>
+                        </g>
+                        <path d="M6.075,11.1375 C6.09525,11.1375 6.116625,11.1375 6.136875,11.136375 C6.456375,11.118375 6.753375,10.965375 6.953625,10.715625 L11.453625,5.090625 C11.619,4.8825 11.7,4.635 11.7,4.3875 C11.7,4.057875 11.556,3.731625 11.278125,3.508875 C11.07,3.3435 10.8225,3.2625 10.575,3.2625 C10.245375,3.2625 9.919125,3.407625 9.696375,3.684375 L5.981625,8.328375 L4.620375,6.967125 C4.401,6.74775 4.113,6.6375 3.825,6.6375 C3.537,6.6375 3.249,6.74775 3.029625,6.967125 C2.81025,7.1865 2.7,7.4745 2.7,7.7625 C2.7,8.0505 2.809125,8.3385 3.029625,8.557875 L5.279625,10.807875 C5.491125,11.019375 5.778,11.1375 6.075,11.1375" id="Fill-23-Copy" fill="#0C7C84"></path>
+                    </g>
+                    <g id="Group-2" transform="translate(19.250000, 147.600000)">
+                        <g id="Rectangle-Copy-3">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                            <rect stroke="#0C7C84" stroke-width="0.9" x="0.45" y="0.45" width="13.5" height="13.5" rx="1.8"></rect>
+                        </g>
+                        <path d="M6.075,11.1375 C6.09525,11.1375 6.116625,11.1375 6.136875,11.136375 C6.456375,11.118375 6.753375,10.965375 6.953625,10.715625 L11.453625,5.090625 C11.619,4.8825 11.7,4.635 11.7,4.3875 C11.7,4.057875 11.556,3.731625 11.278125,3.508875 C11.07,3.3435 10.8225,3.2625 10.575,3.2625 C10.245375,3.2625 9.919125,3.407625 9.696375,3.684375 L5.981625,8.328375 L4.620375,6.967125 C4.401,6.74775 4.113,6.6375 3.825,6.6375 C3.537,6.6375 3.249,6.74775 3.029625,6.967125 C2.81025,7.1865 2.7,7.4745 2.7,7.7625 C2.7,8.0505 2.809125,8.3385 3.029625,8.557875 L5.279625,10.807875 C5.491125,11.019375 5.778,11.1375 6.075,11.1375" id="Fill-23-Copy" fill="#0C7C84"></path>
+                    </g>
+                    <g id="Button/Standard/Primary-Copy" transform="translate(0.350000, 0.000000)">
+                        <path d="M1.8,4.44102762e-16 L84.6,4.44102762e-16 L84.6,6.66133815e-16 C85.5941125,4.83513511e-16 86.4,0.80588745 86.4,1.8 L86.4,27 L86.4,27 C86.4,27.9941125 85.5941125,28.8 84.6,28.8 L36.9446987,28.8 L1.8,28.8 L1.8,28.8 C0.80588745,28.8 -2.32074698e-15,27.9941125 -2.44249065e-15,27 L0,1.8 L-2.22044605e-16,1.8 C-3.4378828e-16,0.80588745 0.80588745,1.07079872e-15 1.8,8.8817842e-16 Z" id="Rectangle-2" fill="#0C7C84"></path>
+                        <text id="Button" font-family="Roboto-Medium, Roboto" font-size="12.6" font-weight="400" line-spacing="18" fill="#FFFFFF">
+                            <tspan x="24.5368652" y="17.4">Button</tspan>
+                        </text>
+                    </g>
+                    <g id="Button/Standard/Secondary-Copy" transform="translate(104.750000, 0.000000)">
+                        <g id="Rectangle-2">
+                            <use fill-opacity="0" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                            <rect stroke="#0C7481" stroke-width="0.9" x="0.45" y="0.45" width="85.5" height="27.9" rx="1.8"></rect>
+                        </g>
+                        <text id="Button" font-family="Roboto-Medium, Roboto" font-size="12.6" font-weight="400" line-spacing="18" fill="#0C7481">
+                            <tspan x="24.5368652" y="17.4">Button</tspan>
+                        </text>
+                    </g>
+                    <text id="2-Selected,-" font-family="Roboto-Regular, Roboto" font-size="14.4" font-weight="normal" fill="#333333">
+                        <tspan x="209.15" y="15.7">2 Selected, </tspan>
+                    </text>
+                    <text id="Select-All" font-family="Roboto-Regular, Roboto" font-size="14.4" font-weight="normal" fill="#0A7C83">
+                        <tspan x="282.95" y="15.7">Select All</tspan>
+                    </text>
+                    <path d="M563.805215,28.8 C562.780209,28.8 561.95,27.93984 561.95,26.88 L561.95,1.92 C561.95,0.86016 562.780209,0 563.805215,0 L862.494785,0 C863.519791,0 864.35,0.86016 864.35,1.92 L864.35,26.88 C864.35,27.93984 863.519791,28.8 862.494785,28.8 L563.805215,28.8 Z" id="Stroke-6" stroke="#BDBDBD" stroke-width="0.9"></path>
+                    <g id="Icons/Search" transform="translate(569.150000, 7.200000)" fill="#757575">
+                        <g id="search">
+                            <g id="Layer_1" fill-rule="nonzero">
+                                <path d="M13.9125,12.775 L9.975,8.8375 C10.675,7.875 11.1125,6.7375 11.1125,5.5125 C11.1125,2.45 8.575,0 5.6,0 C2.5375,0 0.0875,2.45 0.0875,5.5125 C0.0875,8.575 2.5375,11.025 5.6,11.025 C6.7375,11.025 7.875,10.675 8.75,10.0625 L12.6875,14 L13.9125,12.775 Z M1.8375,5.5125 C1.8375,3.4125 3.5,1.75 5.6,1.75 C7.7,1.75 9.3625,3.4125 9.3625,5.5125 C9.3625,7.6125 7.7,9.275 5.6,9.275 C3.5,9.275 1.8375,7.6125 1.8375,5.5125 Z" id="Shape"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <text id="Search" font-family="Roboto-Light, Roboto" font-size="12.6" font-weight="300" fill="#616161">
+                        <tspan x="589.85" y="18.4">Search</tspan>
+                    </text>
+                    <g id="Rectangle">
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-4"></use>
+                        <rect stroke="#BDBDBD" stroke-width="0.9" x="18.8" y="50.85" width="13.5" height="13.5" rx="1.8"></rect>
+                    </g>
+                </g>
+                <g id="Group-8" transform="translate(0.000000, 361.250000)">
+                    <g id="Table-Example-/-Default-/-Check-boxes-Copy" transform="translate(15.188370, 0.000000)">
+                        <g id="Group">
+                            <g id="Table-/-Row-/-Default">
+                                <text id="First-Column" font-family="Roboto-Regular, Roboto" font-size="14.4" font-weight="normal" line-spacing="14.4" fill="#1D93A3">
+                                    <tspan x="51.3" y="14.8">My Cloud Server-01</tspan>
+                                </text>
+                                <text id="Second-Column" font-family="Roboto-Regular, Roboto" font-size="14.4" font-weight="normal" line-spacing="18" fill="#333333">
+                                    <tspan x="231.3" y="13">Production</tspan>
+                                </text>
+                                <text id="Third-Column" font-family="Roboto-Regular, Roboto" font-size="14.4" font-weight="normal" line-spacing="18" fill="#333333">
+                                    <tspan x="411.3" y="13">Chicago (ORD)</tspan>
+                                </text>
+                                <text id="Last-Column" font-family="Roboto-Regular, Roboto" font-size="14.4" font-weight="normal" line-spacing="18" fill="#333333">
+                                    <tspan x="802.715039" y="13">256 GB</tspan>
+                                </text>
+                                <path d="M0,34.2725806 L866.411133,34.2725806" id="Stroke-11" stroke="#E0E0E0" stroke-width="0.9"></path>
+                            </g>
+                            <g id="Table-/-Row-/-Default" transform="translate(0.000000, 50.400000)">
+                                <text id="First-Column" font-family="Roboto-Regular, Roboto" font-size="14.4" font-weight="normal" line-spacing="14.4" fill="#1D93A3">
+                                    <tspan x="51.3" y="14.8">My Cloud Server-01</tspan>
+                                </text>
+                                <text id="Second-Column" font-family="Roboto-Regular, Roboto" font-size="14.4" font-weight="normal" line-spacing="18" fill="#333333">
+                                    <tspan x="231.3" y="13">Production</tspan>
+                                </text>
+                                <text id="Third-Column" font-family="Roboto-Regular, Roboto" font-size="14.4" font-weight="normal" line-spacing="18" fill="#333333">
+                                    <tspan x="411.3" y="13">Chicago (ORD)</tspan>
+                                </text>
+                                <text id="Last-Column" font-family="Roboto-Regular, Roboto" font-size="14.4" font-weight="normal" line-spacing="18" fill="#333333">
+                                    <tspan x="802.715039" y="13">256 GB</tspan>
+                                </text>
+                                <path d="M0,34.2725806 L866.411133,34.2725806" id="Stroke-11" stroke="#E0E0E0" stroke-width="0.9"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Button/Standard/Primary-Copy-2" transform="translate(0.748184, 144.900000)">
+                        <path d="M1.8,4.44102762e-16 L84.8411133,4.44102762e-16 L84.8411133,6.66133815e-16 C85.8352258,4.83513511e-16 86.6411133,0.80588745 86.6411133,1.8 L86.6411133,27 L86.6411133,27 C86.6411133,27.9941125 85.8352258,28.8 84.8411133,28.8 L37.0477989,28.8 L1.8,28.8 L1.8,28.8 C0.80588745,28.8 -2.32074698e-15,27.9941125 -2.44249065e-15,27 L0,1.8 L4.4408921e-16,1.8 C3.22345535e-16,0.80588745 0.80588745,8.48754118e-16 1.8,6.66133815e-16 Z" id="Rectangle-2" fill="#0C7C84"></path>
+                        <text id="Button" font-family="Roboto-Medium, Roboto" font-size="12.6" font-weight="400" line-spacing="18" fill="#FFFFFF">
+                            <tspan x="24.6574219" y="17.4">Button</tspan>
+                        </text>
+                    </g>
+                    <g id="Button/Standard/Secondary-Copy-2" transform="translate(105.439529, 144.900000)">
+                        <g id="Rectangle-2">
+                            <use fill-opacity="0" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+                            <rect stroke="#0C7481" stroke-width="0.9" x="0.45" y="0.45" width="85.7411133" height="27.9" rx="1.8"></rect>
+                        </g>
+                        <text id="Button" font-family="Roboto-Medium, Roboto" font-size="12.6" font-weight="400" line-spacing="18" fill="#0C7481">
+                            <tspan x="24.6574219" y="17.4">Button</tspan>
+                        </text>
+                    </g>
+                    <text id="Showing-1-10-or-56" font-family="Roboto-Regular, Roboto" font-size="12.6" font-weight="normal" fill="#333333">
+                        <tspan x="0.748184204" y="113.7">Showing 1-10 or 56</tspan>
+                    </text>
+                    <g id="Group-6" transform="translate(359.947800, 96.300000)">
+                        <g id="Rectangle-3-Copy-6">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-6"></use>
+                            <rect stroke="#E0E0E0" stroke-width="0.9" x="0.45" y="0.45" width="146.20939" height="26.1" rx="2.7"></rect>
+                        </g>
+                        <polygon id="Path-2-Copy-22" fill="#616262" fill-rule="nonzero" transform="translate(14.891441, 14.400000) rotate(90.000000) translate(-14.891441, -14.400000) " points="10.8768805 10.8677749 9.92762756 11.8450391 14.8642617 18 19.8552551 11.7772642 18.9060022 10.8 14.8642617 15.8392139"></polygon>
+                        <polygon id="Path-2-Copy-23" fill="#616262" fill-rule="nonzero" transform="translate(134.022972, 14.400000) scale(-1, 1) rotate(90.000000) translate(-134.022972, -14.400000) " points="130.008411 10.8677749 129.059158 11.8450391 133.995792 18 138.986786 11.7772642 138.037533 10.8 133.995792 15.8392139"></polygon>
+                        <rect id="Rectangle-5-Copy-9" fill="#0093A6" x="27.0753479" y="0.9" width="18.0502319" height="25.2"></rect>
+                        <text id="1-copy-7" font-family="Roboto-Medium, Roboto" font-size="12.6" font-weight="400" fill="#FFFFFF">
+                            <tspan x="32.4904175" y="16.5">1</tspan>
+                        </text>
+                        <text id="2-copy-4" font-family="Roboto-Medium, Roboto" font-size="12.6" font-weight="400" fill="#616262">
+                            <tspan x="50.5406494" y="16.5">2</tspan>
+                        </text>
+                        <text id="3-copy-4" font-family="Roboto-Medium, Roboto" font-size="12.6" font-weight="400" fill="#616262">
+                            <tspan x="68.5908813" y="16.5">3</tspan>
+                        </text>
+                        <text id="10-copy-4" font-family="Roboto-Medium, Roboto" font-size="12.6" font-weight="400" fill="#616262">
+                            <tspan x="101.081299" y="16.5">10</tspan>
+                        </text>
+                        <ellipse id="Oval-2-Copy-12" fill="#616262" cx="87.5436249" cy="17.1" rx="1" ry="1"></ellipse>
+                        <ellipse id="Oval-2-Copy-13" fill="#616262" cx="90.2511597" cy="17.1" rx="1" ry="1"></ellipse>
+                        <ellipse id="Oval-2-Copy-14" fill="#616262" cx="92.9586945" cy="17.1" rx="1" ry="1"></ellipse>
+                    </g>
+                    <rect id="Rectangle-4" fill="#007C83" x="806.69104" y="96.3" width="18.9527435" height="27"></rect>
+                    <text id="Show-10-20-50" font-family="Roboto-Regular, Roboto" font-size="12.6" font-weight="normal">
+                        <tspan x="771.493088" y="113.7" fill="#616262">Show  </tspan>
+                        <tspan x="808.8009" y="113.7" fill="#FFFFFF">10</tspan>
+                        <tspan x="822.951291" y="113.7" fill="#0A7C83">  20  50</tspan>
+                    </text>
+                    <text id="2-Selected,-Select-A" font-family="Roboto-Regular, Roboto" font-size="12.6" font-weight="normal">
+                        <tspan x="210.130875" y="162.3" fill="#333333">2 Selected, </tspan>
+                        <tspan x="274.293668" y="162.3" fill="#0A7C83">Select All</tspan>
+                        <tspan x="326.342496" y="162.3" fill="#333333">  </tspan>
+                    </text>
+                    <g id="Group-2" transform="translate(17.895905, 1.800000)">
+                        <g id="Rectangle-Copy-3">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-7"></use>
+                            <rect stroke="#0C7C84" stroke-width="0.9" x="0.45" y="0.45" width="13.5401855" height="13.5" rx="1.8"></rect>
+                        </g>
+                        <path d="M6.09195328,11.1375 C6.11225979,11.1375 6.13369444,11.1375 6.15400095,11.136375 C6.47439257,11.118375 6.77222139,10.965375 6.97303022,10.715625 L11.4855882,5.090625 C11.6514247,4.8825 11.7326508,4.635 11.7326508,4.3875 C11.7326508,4.057875 11.5882489,3.731625 11.3095984,3.508875 C11.1008926,3.3435 10.852702,3.2625 10.6045113,3.2625 C10.2739664,3.2625 9.94680593,3.407625 9.72343431,3.684375 L5.9983177,8.328375 L4.63326891,6.967125 C4.41328171,6.74775 4.124478,6.6375 3.83567429,6.6375 C3.54687057,6.6375 3.25806686,6.74775 3.03807966,6.967125 C2.81809246,7.1865 2.70753479,7.4745 2.70753479,7.7625 C2.70753479,8.0505 2.81696432,8.3385 3.03807966,8.557875 L5.29435865,10.807875 C5.50644888,11.019375 5.79412445,11.1375 6.09195328,11.1375" id="Fill-23-Copy" fill="#0C7C84"></path>
+                    </g>
+                    <g id="Group-2" transform="translate(17.895905, 52.200000)">
+                        <g id="Rectangle-Copy-3">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-8"></use>
+                            <rect stroke="#0C7C84" stroke-width="0.9" x="0.45" y="0.45" width="13.5401855" height="13.5" rx="1.8"></rect>
+                        </g>
+                        <path d="M6.09195328,11.1375 C6.11225979,11.1375 6.13369444,11.1375 6.15400095,11.136375 C6.47439257,11.118375 6.77222139,10.965375 6.97303022,10.715625 L11.4855882,5.090625 C11.6514247,4.8825 11.7326508,4.635 11.7326508,4.3875 C11.7326508,4.057875 11.5882489,3.731625 11.3095984,3.508875 C11.1008926,3.3435 10.852702,3.2625 10.6045113,3.2625 C10.2739664,3.2625 9.94680593,3.407625 9.72343431,3.684375 L5.9983177,8.328375 L4.63326891,6.967125 C4.41328171,6.74775 4.124478,6.6375 3.83567429,6.6375 C3.54687057,6.6375 3.25806686,6.74775 3.03807966,6.967125 C2.81809246,7.1865 2.70753479,7.4745 2.70753479,7.7625 C2.70753479,8.0505 2.81696432,8.3385 3.03807966,8.557875 L5.29435865,10.807875 C5.50644888,11.019375 5.79412445,11.1375 6.09195328,11.1375" id="Fill-23-Copy" fill="#0C7C84"></path>
+                    </g>
+                </g>
+                <g id="Group-5" transform="translate(13.750000, 681.250000)">
+                    <g id="Group-4" transform="translate(0.336271, 0.934783)">
+                        <g id="Table-Header"></g>
+                    </g>
+                    <g id="Table-/-Row-/-Default" transform="translate(0.336271, 48.750000)"></g>
+                    <g id="Group-9">
+                        <text id="Column-3-Label" font-family="Roboto-Regular, Roboto" font-size="12.6" font-weight="normal" line-spacing="14.4" fill="#333333">
+                            <tspan x="441.35" y="12.9347826">DESCENDING</tspan>
+                        </text>
+                        <text id="Column-2-Label" font-family="Roboto-Regular, Roboto" font-size="12.6" font-weight="normal" line-spacing="14.4" fill="#333333">
+                            <tspan x="261.35" y="12.9347826">ASCENDING</tspan>
+                        </text>
+                        <text id="Column-2-Label-Copy" font-family="Roboto-Regular, Roboto" font-size="12.6" font-weight="normal" line-spacing="14.4" fill="#333333">
+                            <tspan x="633.05" y="12.9347826">HOVER</tspan>
+                        </text>
+                        <text id="Column-1-Label-Copy" font-family="Roboto-Regular, Roboto" font-size="12.6" font-weight="normal" line-spacing="14.4" fill="#333333">
+                            <tspan x="81.35" y="12.9347826">Column heading 1</tspan>
+                        </text>
+                        <path d="M1.03397858,29.8043478 L864.855871,29.8043478" id="Line" stroke="#E0E0E0" stroke-width="0.9" stroke-linecap="square"></path>
+                        <path d="M684.41444,8.28494657 L684.41444,5.43841124 L685.948636,7.05530018 L686.894712,6.05823042 L683.745362,2.73913043 L680.596011,6.05823042 L681.542088,7.05530018 L683.076284,5.43841124 L683.076284,8.28494657 L683.076284,11.124241 L681.542088,9.66207824 L680.596011,10.5637346 L683.745362,13.5652174 L686.894712,10.5637346 L685.948636,9.66207824 L684.41444,11.124241 L684.41444,8.28494657 Z" id="Combined-Shape-Copy-5" fill="#000000"></path>
+                        <polygon id="Fill-1-Copy-3" fill="#000000" points="527.177644 2.73913043 524.028293 6.04511145 524.97437 7.03824022 526.508566 5.42774214 526.508566 13.5652174 527.846722 13.5652174 527.846722 5.42774214 529.380918 7.03824022 530.326994 6.04511145"></polygon>
+                        <polygon id="Fill-2-Copy" fill="#000000" points="339.347156 2.73913043 339.347156 10.8766057 337.81296 9.2661076 336.866883 10.2592364 340.016234 13.5652174 343.165584 10.2592364 342.219508 9.2661076 340.685312 10.8766057 340.685312 2.73913043"></polygon>
+                        <text id="First-Column" font-family="Roboto-Regular, Roboto" font-size="14.4" font-weight="normal" line-spacing="14.4" fill="#1D93A3">
+                            <tspan x="83.15" y="63.5717391">My Cloud Server-01</tspan>
+                        </text>
+                        <text id="Second-Column" font-family="Roboto-Regular, Roboto" font-size="14.4" font-weight="normal" line-spacing="18" fill="#333333">
+                            <tspan x="263.15" y="61.7717391">Production</tspan>
+                        </text>
+                        <text id="Third-Column" font-family="Roboto-Regular, Roboto" font-size="14.4" font-weight="normal" line-spacing="18" fill="#333333">
+                            <tspan x="443.15" y="61.7717391">Chicago (ORD)</tspan>
+                        </text>
+                        <text id="Last-Column" font-family="Roboto-Regular, Roboto" font-size="14.4" font-weight="normal" line-spacing="18" fill="#333333">
+                            <tspan x="634.853906" y="61.7717391">256 GB</tspan>
+                        </text>
+                        <path d="M0.336270872,83.2693356 L864.158163,83.2693356" id="Stroke-11" stroke="#E0E0E0" stroke-width="0.9"></path>
+                        <g id="Rectangle-Copy">
+                            <use fill="#ECECEC" fill-rule="evenodd" xlink:href="#path-9"></use>
+                            <rect stroke="#979797" stroke-width="0.9" x="18.8" y="51.0217391" width="13.5" height="13.5"></rect>
+                        </g>
+                        <g id="Icons/Cog" transform="translate(51.250000, 50.000000)" fill-rule="nonzero" fill="#000000">
+                            <g id="action-cog">
+                                <g id="Layer_1">
+                                    <path d="M16,9.6 L16,6.4 L14.2,6.4 C14,5.6 13.7,5 13.3,4.3 L14.4,3.2 L12.8,1.6 L11.7,2.7 C11,2.3 10.3,2 9.6,1.8 L9.6,0 L6.4,0 L6.4,1.8 C5.7,2 5,2.3 4.3,2.7 L3.2,1.6 L1.6,3.2 L2.7,4.3 C2.3,5 2,5.6 1.8,6.4 L0,6.4 L0,9.6 L1.8,9.6 C2,10.3 2.3,11 2.7,11.6 L1.6,12.7 L3.2,14.3 L4.3,13.2 C5,13.7 5.7,14 6.4,14.2 L6.4,16 L9.6,16 L9.6,14.2 C10.3,14 11,13.7 11.7,13.3 L12.8,14.4 L14.4,12.8 L13.3,11.7 C13.7,11.1 14,10.4 14.2,9.6 L16,9.6 Z M8,11.2 C6.4,11.2 5,9.8 5,8 C5,6.2 6.3,4.8 8,4.8 C9.7,4.8 11,6.2 11,8 C11,9.8 9.6,11.2 8,11.2 Z" id="Shape"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

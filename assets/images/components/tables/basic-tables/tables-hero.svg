@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1000px" height="395px" viewBox="0 0 1000 395" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>tables-hero</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="20" y="0" width="16" height="16"></rect>
+        <rect id="path-2" x="20" y="20" width="16" height="16"></rect>
+        <rect id="path-3" x="20" y="20" width="16" height="16"></rect>
+        <rect id="path-4" x="20" y="20" width="16" height="16"></rect>
+        <rect id="path-5" x="20" y="20" width="16" height="16"></rect>
+        <rect id="path-6" x="20" y="20" width="16" height="16"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="tables-hero">
+            <g id="Group-4" transform="translate(20.000000, 54.000000)">
+                <g id="Table">
+                    <g id="Table-Header">
+                        <text id="Column-4-Label" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" line-spacing="16" fill="#333333">
+                            <tspan x="915.137695" y="13">size</tspan>
+                        </text>
+                        <text id="Column-3-Label" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" line-spacing="16" fill="#333333">
+                            <tspan x="456" y="13">Region</tspan>
+                        </text>
+                        <text id="Column-2-Label" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" line-spacing="16" fill="#333333">
+                            <tspan x="256" y="13">Tags</tspan>
+                        </text>
+                        <text id="Column-1-Label-Copy" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" line-spacing="16" fill="#333333">
+                            <tspan x="56" y="13">Column heading 1</tspan>
+                        </text>
+                        <path d="M0,32 L960,32" id="Line" stroke="#E0E0E0" stroke-linecap="square"></path>
+                        <g id="Rectangle-Copy">
+                            <use fill="#ECECEC" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            <rect stroke="#979797" stroke-width="1" x="20.5" y="0.5" width="15" height="15"></rect>
+                        </g>
+                    </g>
+                    <g id="Rows" transform="translate(0.000000, 32.000000)">
+                        <g id="Table-/-Row-/-Default">
+                            <text id="First-Column" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="16" fill="#1D93A3">
+                                <tspan x="57" y="35">My Cloud Server-01</tspan>
+                            </text>
+                            <text id="Second-Column" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="20" fill="#333333">
+                                <tspan x="257" y="33">Production</tspan>
+                            </text>
+                            <text id="Third-Column" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="20" fill="#333333">
+                                <tspan x="457" y="33">Chicago (ORD)</tspan>
+                            </text>
+                            <text id="Last-Column" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="20" fill="#333333">
+                                <tspan x="889.226562" y="33">256 GB</tspan>
+                            </text>
+                            <path d="M0,56.0806452 L960,56.0806452" id="Stroke-11" stroke="#E0E0E0" stroke-width="1"></path>
+                            <g id="Rectangle-Copy">
+                                <use fill="#ECECEC" fill-rule="evenodd" xlink:href="#path-2"></use>
+                                <rect stroke="#979797" stroke-width="1" x="20.5" y="20.5" width="15" height="15"></rect>
+                            </g>
+                        </g>
+                        <g id="Table-/-Row-/-Default" transform="translate(0.000000, 56.000000)">
+                            <text id="First-Column" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="16" fill="#1D93A3">
+                                <tspan x="57" y="35">My Cloud Server-01</tspan>
+                            </text>
+                            <text id="Second-Column" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="20" fill="#333333">
+                                <tspan x="257" y="33">Production</tspan>
+                            </text>
+                            <text id="Third-Column" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="20" fill="#333333">
+                                <tspan x="457" y="33">Chicago (ORD)</tspan>
+                            </text>
+                            <text id="Last-Column" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="20" fill="#333333">
+                                <tspan x="889.226562" y="33">256 GB</tspan>
+                            </text>
+                            <path d="M0,56.0806452 L960,56.0806452" id="Stroke-11" stroke="#E0E0E0" stroke-width="1"></path>
+                            <g id="Rectangle-Copy">
+                                <use fill="#ECECEC" fill-rule="evenodd" xlink:href="#path-3"></use>
+                                <rect stroke="#979797" stroke-width="1" x="20.5" y="20.5" width="15" height="15"></rect>
+                            </g>
+                        </g>
+                        <g id="Table-/-Row-/-Default" transform="translate(0.000000, 112.000000)">
+                            <text id="First-Column" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="16" fill="#1D93A3">
+                                <tspan x="57" y="35">My Cloud Server-01</tspan>
+                            </text>
+                            <text id="Second-Column" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="20" fill="#333333">
+                                <tspan x="257" y="33">Production</tspan>
+                            </text>
+                            <text id="Third-Column" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="20" fill="#333333">
+                                <tspan x="457" y="33">Chicago (ORD)</tspan>
+                            </text>
+                            <text id="Last-Column" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="20" fill="#333333">
+                                <tspan x="889.226562" y="33">256 GB</tspan>
+                            </text>
+                            <path d="M0,56.0806452 L960,56.0806452" id="Stroke-11" stroke="#E0E0E0" stroke-width="1"></path>
+                            <g id="Rectangle-Copy">
+                                <use fill="#ECECEC" fill-rule="evenodd" xlink:href="#path-4"></use>
+                                <rect stroke="#979797" stroke-width="1" x="20.5" y="20.5" width="15" height="15"></rect>
+                            </g>
+                        </g>
+                        <g id="Table-/-Row-/-Default" transform="translate(0.000000, 168.000000)">
+                            <text id="First-Column" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="16" fill="#1D93A3">
+                                <tspan x="57" y="35">My Cloud Server-01</tspan>
+                            </text>
+                            <text id="Second-Column" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="20" fill="#333333">
+                                <tspan x="257" y="33">Production</tspan>
+                            </text>
+                            <text id="Third-Column" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="20" fill="#333333">
+                                <tspan x="457" y="33">Chicago (ORD)</tspan>
+                            </text>
+                            <text id="Last-Column" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="20" fill="#333333">
+                                <tspan x="889.226562" y="33">256 GB</tspan>
+                            </text>
+                            <path d="M0,56.0806452 L960,56.0806452" id="Stroke-11" stroke="#E0E0E0" stroke-width="1"></path>
+                            <g id="Rectangle-Copy">
+                                <use fill="#ECECEC" fill-rule="evenodd" xlink:href="#path-5"></use>
+                                <rect stroke="#979797" stroke-width="1" x="20.5" y="20.5" width="15" height="15"></rect>
+                            </g>
+                        </g>
+                        <g id="Table-/-Row-/-Default" transform="translate(0.000000, 224.000000)">
+                            <text id="First-Column" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="16" fill="#1D93A3">
+                                <tspan x="57" y="35">Frontend Web1</tspan>
+                            </text>
+                            <text id="Second-Column" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="20" fill="#333333">
+                                <tspan x="257" y="33">App1</tspan>
+                            </text>
+                            <text id="Third-Column" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="20" fill="#333333">
+                                <tspan x="457" y="33">Chicago (ORD)</tspan>
+                            </text>
+                            <text id="Last-Column" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="20" fill="#333333">
+                                <tspan x="889.226562" y="33">256 GB</tspan>
+                            </text>
+                            <path d="M0,56.0806452 L960,56.0806452" id="Stroke-11" stroke="#E0E0E0" stroke-width="1"></path>
+                            <g id="Rectangle-Copy">
+                                <use fill="#ECECEC" fill-rule="evenodd" xlink:href="#path-6"></use>
+                                <rect stroke="#979797" stroke-width="1" x="20.5" y="20.5" width="15" height="15"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

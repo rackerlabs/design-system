@@ -1,5 +1,5 @@
 ---
-title: Tables (old)
+title: Tables - Basic
 parent: Tables
 layout: component
 category: Components
@@ -10,9 +10,145 @@ resource: true
 last-modified: 2017-08-17
 ---
 
-<!-- TODO: Break out into components? -->
+{% include toc.html %}
 
-At Rackspace, we present data in a table on nearly every page in our control
+## Introduction
+{: .hxSectionTitle}
+<div class="hxRow">
+
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### When to use
+{: .hxSubSectionTitle}
+At Rackspace, we present data in a table on nearly every page in our control panels. Tables are highly valuable, but always run the risk of putting too high a cognitive load on users. Our goal with tables should always be to decrease cognitive load so users can get the data they need quickly and easily. With such pervasive use, it’s important that we make sure our tables are efficient, powerful, and user-friendly.
+
+
+### Best practice
+{: .hxSubSectionTitle}
+
+- Keep column count to under 7 columns when possible. 
+- Try to keep the visual clutter to a minimum so users can focus on the data.
+- When organizing content in a table, focus on a user’s task.
+- Try to preserve hierarchies left to right when possible.
+- Make it easy to scan and dig so users can quickly decide where to drill for more information.
+- All tables should be sortable and, if possible, filterable so users can find the exact record they are looking for with minimal scrolling or navigating through pagination.
+
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [caption:"Meet the table pattern"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/tables/basic-tables/tables-hero.svg){:width="100%"}
+{% endfigure %}
+{% endcolumn %}
+
+</div>
+
+## Default layout
+{: .hxSectionTitle}
+<div class="hxRow">
+
+{% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
+
+- Always offer checkbox if user needs to select or manipulate data.
+- Include an action cog if user can trigger 2 or more actions on the record from the row.
+- Justification within each cell is content specific.
+- Text should be left justified.
+- Icons, “&mdash;” (null/undefined), and “n/a” (not applicable) should be center justified.
+- Numbers should be right justified.
+- Only use units in row if they differ row by row and cannot be standardized. Units in body rows appear without parentheses.
+- Truncated text should appear in a tooltip available on hover (in full if possible).
+
+{% endcolumn %}
+
+{% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
+{% figure [caption:"Default table specifications"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/tables/basic-tables/tables-default.svg){:width="100%"}
+{% endfigure %}
+{% endcolumn %}
+
+</div>
+
+## Condensed table
+{: .hxSectionTitle}
+<div class="hxRow">
+{% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
+
+Using a condensed table can be benefitial to users when there is a desire for many results in a single page. Rackers especially, appreciate condensed tables due to the data density.
+
+
+{% endcolumn %}
+
+{% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
+{% figure [caption:"Condensed table specifications"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/tables/basic-tables/tables-condensed.svg){:width="100%"}
+{% endfigure %}
+{% endcolumn %}
+
+</div>
+
+## Table states 
+{: .hxSectionTitle}
+<div class="hxRow">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+### Loading
+{: .hxSubSectionTitle}
+
+
+When tables are loading, we use a gray placeholder for where text will go. This will allow your able to either load all at once, or if you have data that comes back at different times, it will allow data that is available to be visible to the user. 
+
+
+{% endcolumn %}
+
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [caption:"Example of table in loading state"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/tables/basic-tables/tables-loading.svg){:width="100%"}
+{% endfigure %}
+{% endcolumn %}
+
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+### Empty
+{: .hxSubSectionTitle}
+
+
+Empty tables can occur due to filtering or due to the user not having any of the items visible. 
+
+In the text state that there is nothing visible and list possible solutions if this could be in error. 
+
+Examples of the direction could be:
+- … contact your account owner.
+- … remove search filters.
+- … contact support.
+
+{% endcolumn %}
+
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [caption:"Example of an empty table"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/tables/basic-tables/tables-empty.svg){:width="100%"}
+{% endfigure %}
+{% endcolumn %}
+
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+### Hover & selected row
+{: .hxSubSectionTitle}
+
+
+In some interfaces we support a selected state for a row to indicate what is being viewed or selected in a multi-select view. When the user hovers over a 
+
+{% endcolumn %}
+
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [caption:"Hover and selected row examples for default and condensed table rows"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/tables/basic-tables/tables-hover-selected.svg){:width="100%"}
+{% endfigure %}
+{% endcolumn %}
+
+</div>
+
+<!-- At Rackspace, we present data in a table on nearly every page in our control
 panels. Tables are highly valuable, but always run the risk of putting too high
 a cognitive load on users. Our goal with tables should always be to decrease
 cognitive load so users can get the data they need quickly and easily. With
@@ -64,9 +200,7 @@ label.
   in the header row. See the selectors section below for implementation details
   and best practices.
 
-{% figure [caption:""] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/components/tables-header.svg){:width="100%"}
-{% endfigure %}
+
 
 ## Structured Table
 
@@ -74,9 +208,7 @@ Use a structured table header when multiple columns fit under a single
 category. The columns affected should always be placed as far to the right side
 of the table as possible.
 
-{% figure [caption:""] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/components/tables-header-structured.svg){:width="100%"}
-{% endfigure %}
+
 
 # Sorting
 
@@ -95,9 +227,7 @@ they are want.
 -   It’s helpful to include an information icon with a tooltip that explains
   the sorting function on sortable rows
 
-{% figure [caption:""] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/components/tables-sort.svg){:width="100%"}
-{% endfigure %}
+
 
 # Body Row
 
@@ -125,17 +255,12 @@ they are want.
 -   Truncated text should appear in a tooltip available on hover (in full if
   possible)
 
-{% figure [caption:""] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/components/tables-row.svg){:width="100%"}
-{% endfigure %}
+
 
 # Row Hover State
 
 Hover on row only if row is expandable
 
-{% figure [caption:""] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/components/tables-row-hover.svg){:width="100%"}
-{% endfigure %}
 
 # Expandable Row
 
@@ -175,9 +300,6 @@ row becomes a header for the expanded content area.
 
 -   Viewport remains unchanged with expansion and collapse
 
-{% figure [caption:""] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/components/tables-row-expand.svg){:width="100%"}
-{% endfigure %}
 
 # Filtering
 
@@ -185,27 +307,13 @@ Filtering is critical for users to quickly find exactly the data they need.
 
 Search vs preset
 
-{% figure [caption:""] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/components/tables-filter.svg){:width="100%"}
-{% endfigure %}
 
-{% figure [caption:""] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/components/tables-filter-select.svg){:width="100%"}
-{% endfigure %}
 
 ## Search
 
 Search bar should always be floated left above the top controls.
 
-## Facets
 
-Coming Soon
-
-  <!--<div class="ui segments">
-    <div class="ui segment">
-## Alternate Preset Filters
-    </div>
-  </div>-->
 
 # Download
 
@@ -222,9 +330,6 @@ with and placed just to the left of it
 If you have multiple file types available, only display one download icon. When
 clicked, trigger a dropdown list that users can select their preferred file type
 
-{% figure [caption:""] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/components/tables-download.svg){:width="100%"}
-{% endfigure %}
 
 # Action Buttons
 
@@ -245,24 +350,10 @@ clicked, trigger a dropdown list that users can select their preferred file type
   text feedback and links (see selectors section below for specific layout
   rules)
 
-{% figure [caption:""] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/components/tables-controls-top.svg){:width="100%"}
-{% endfigure %}
 
-## Bottom placement
-
-{% figure [caption:""] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/components/tables-controls-bottom.svg){:width="100%"}
-{% endfigure %}
 
 # Bulk Selectors
 
-## In Header
-
-<video controls>
-  <source src="{{site.cdn_url}}/img/components/tables-selectors-prototype.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-</video>
 
 ### None Selected
 
@@ -327,9 +418,7 @@ out what actions are available.
 
 ## Cog with selector
 
-{% figure [caption:""] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/components/tables-cog-selector.svg){:width="100%"}
-{% endfigure %}
+
 
 # Pagination/Lazy Loading/Load More Button
 
@@ -357,9 +446,6 @@ out what actions are available.
   navigates via URL to a data set that is in the middle of a lazy loaded data
   set
 
-{% figure [caption:""] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/components/tables-pagination.svg){:width="100%"}
-{% endfigure %}
 
 # Table Styles
 
@@ -380,9 +466,6 @@ content on the page. Unbound rows remove unnecessary visual clutter.
   strict horizontal constraints. You don’t need the bounding lines for clarity
   and you can save the pixels (e.g. on a mobile device or in a panel)
 
-{% figure [caption:""] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/components/tables-style-unbound.svg){:width="100%"}
-{% endfigure %}
 
 ## Bounded Rows
 Use bounded rows to visually separate your table from the surrounding content.
@@ -391,9 +474,7 @@ page. E.g. a data table in an expanded content area, a table paired with a data
 visualization, or if the table appears as one step in a larger create/edit
 workflow.
 
-{% figure [caption:""] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/components/tables-style-bounded.svg){:width="100%"}
-{% endfigure %}
+
 
 ## Zebra Striping
 
@@ -401,44 +482,4 @@ Zebra stripes help users scan across a row without losing their place. Though
 best practice for table design is to keep your column count below 7 columns,
 when you must display 7+ columns, zebra striping will help users maintain row
 orientation. Notice that the horizontal lines that separate each row are gone
-if you use zebra striping.
-
-{% figure [caption:""] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/components/tables-style-zebra.svg){:width="100%"}
-{% endfigure %}
-
-<!--(h3) Totalling
-Documentation for totalling?
-
-Pagination (in tommy’s queue)
-Heart beat (in Elizabeth’s queue?)
-	Status indicators (ping RED designers to gather reqs)
-		R/Y/G/disabled/indeterminate?
-	Error states (in Eric’s queue)
-		Full table, row, column, cell
-	Loading red-504 red-675 (in Eric’s queue)
-	Totalling (CBUI) (in Tommy’s queue)
-		Expansion (in Tommy’s queue)
-		Data table
-
-
-	Customizing columns
-		Talk to Eric
-	Multiple rows of text in a single table row
-		Talk to Eric
-	Actions
-		Cog
-		Actions not in cog
-		Buttons within table row
-
-
-	Icons
-		Icon links (eg. Visualization icon external link)
-		Icon expansion
-
-
-	Margins/padding in expanded area
-		E.g. Nested table, details, bar graph, alert feed, etc.
-
-
-	Responsive Behavior in all its glory-->
+if you use zebra striping. -->
