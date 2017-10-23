@@ -4,7 +4,8 @@ parent: Inputs and Controls
 layout: component
 category: Components
 usage: >
-  A switch allows a user to commit a binary decision and is used exclusively for yes/no or on/off decisions. They are especially useful when building mobile based designs.
+  A switch allows a user to commit a binary decision and is used exclusively or yes or no, and on or off decisions.
+  They are especially useful when building mobile based designs.
 preview-image: preview-images/switches.svg
 resource: true
 need: selectors
@@ -23,17 +24,17 @@ last-modified: 2017-08-17
 ### When to use
 {: .hxSubSectionTitle}
 
-Use a switch if the user is turning something on or off, or saying yes or no to a question. There is no neutral option; the answer is either set to on or off. Enabling preferences or settings is a prime use case for this component. The switch should always be used with text. 
+Use a switch if the user is turning something on or off, or saying yes or no to a question; there is no neutral option. Enabling preferences or settings is a prime use case for this component, explicitly stating the current status with text. 
 
-If more complex text is needed in the switch than yes/no or on/off, use a toggle. A switch should NOT be used for things like user agreements or if there are more than two options available.
+Use a toggle if more complex text is required. A switch **should not** be used for things like user agreements or if there are more than two options available.
 
 
-### Best Practice
+### Best practice
 {: .hxSubSectionTitle}
-- Switches are only used for on/off and yes/no, and are usually only used for account and user settings, billing, and notifications. If your use case is outside of these three areas, consider a radio button or checkbox. 
-- Changing the state of the switch should be saved immediately. Use a checkbox or radio button if the user has to perform extra steps for changes to be effective (for example, if the user must click a "submit" or "next" button to apply changes). Use check boxes when the user can select multiple items that are related to a single setting or feature.
+- Switches are only used for on or off, yes or no, and are usually only used for account and user settings, billing, and notifications. If your use case is outside of these three areas, consider a radio button or check-box. 
+- Save any changes to the state of the switch immediately. Use a check-box or radio button if the user has to perform extra steps for changes to be effective (for example, if the user must click a "submit" or "next" button to apply changes). Use check-boxes when the user can select multiple items that are related to a single setting or feature.
 - One click anywhere on the switch changes the state. The user should not have to click and drag the button to the opposite side. However, there should be an animation showing the button sliding from one side to another.
-- A switch should never be in an error state, so try to avoid it.
+- A switch should never be in an error state.
 
 {% endcolumn %}
 
@@ -44,12 +45,12 @@ If more complex text is needed in the switch than yes/no or on/off, use a toggle
 {% endcolumn %}
 </div>
 
-## Default Layout
+## Default layout
 {: .hxSectionTitle}
 <div class="hxRow">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-The default switch does not have text inside of it, but text (either 'On / Off' or 'Yes/ No') can be used to verify the choice being made. 
+The default switch does not contain text.
 
 If text is used, it should be aligned vertically and horizontally within the space beside the white circle; no closer than 4px to the knob and 8px from the opposite edge.
 
@@ -71,12 +72,12 @@ Enabled (default), hover, disabled, and error states. If you are not using any t
 
 The user should be able to click anywhere on the element to change it; in other words, they should NOT have to try to grab the white knob and slide it over. Clicking once anywhere slides the knob in the opposite direction (with the exception of disabled). 
 
-Best practice form design would not allow a switch to ever exist in error state, so try to avoid it at all cost.
+Best practice form design does not allow a switch to exist in an error state, so avoid it at all costs.
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% figure [caption:"Detailed specs for on and off states of a switch"] [class:"image bg-light border"] %}
+{% figure [caption:"Detailed specifications for on and off states of a switch"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/inputs-and-controls/switches/switch-states.svg){:width="80%"}
 {% endfigure %}
 {% endcolumn %}
@@ -88,10 +89,10 @@ Best practice form design would not allow a switch to ever exist in error state,
 <div class="hxRow">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-- The switch should be used 12px to the left of the prompt, and centered horizontally to it. 
-- If more than one switch is used in a form, right align the switches so they align vertically, trying to keep at least one of them 12px from the end of the prompt. 
+- Use the switch 12px to the left of the prompt and centered horizontally.
+- When using more than one switch in a form, align the switches vertically to the right. Ensure they are at least 12px from the end of the prompt.
 - Error text should appear 12px below the last line of the prompt.
-- If switch is disabled, the prompt text should be disabled as well.
+- If the switch is disabled, ensure the prompt text is disabled also.
 
 {% endcolumn %}
 
