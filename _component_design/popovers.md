@@ -144,7 +144,7 @@ A popover may be used for small create/edit workflows that need to remain in-con
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"A popover with a small create workflow"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/popovers/popover-small-create-edit.svg){:width="80%"}
+![]({{site.url}}/assets/images/components/content-areas/popovers/popover-small-create-edit-popover.svg){:width="80%"}
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -161,7 +161,7 @@ In this instance popover is preferred over a [tooltips]({{site.baseurl}}/compone
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% figure [caption:"A popover with a small create workflow"] [class:"image bg-light border"] %}
+{% figure [caption:"An interactive informational popover."] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/content-areas/popovers/popover-large-hidden-content.svg){:width="80%"}
 {% endfigure %}
 {% endcolumn %}
@@ -177,7 +177,7 @@ A simple loading circle should be used to load a popover. Refer to the [Loading]
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% figure [caption:"A popover with a small create workflow"] [class:"image bg-light border"] %}
+{% figure [caption:"A popover in loading state using a spinner"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/content-areas/popovers/popover-loading.svg){:width="80%"}
 {% endfigure %}
 {% endcolumn %}
