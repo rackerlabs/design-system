@@ -85,6 +85,24 @@ Using a condensed table can be benefitial to users when there is a desire for ma
 {% endfigure %}
 {% endcolumn %}
 
+
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+### Two-row / small tables
+{: .hxSubSectionTitle}
+
+
+Conversely, situations will arise where small bits of data are best presented in a tabular form, but which don't have a lot of rows. Information such as this should also look into using the condensed table form. E.g. - IP addresses applied to a cloud server.
+
+
+{% endcolumn %}
+
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [caption:"Example of table in loading state"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/tables/basic-tables/tables-small-condensed.svg){:width="100%"}
+{% endfigure %}
+{% endcolumn %}
+
 </div>
 
 ## Table states 
