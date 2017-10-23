@@ -32,12 +32,12 @@ Use a button to launch a process or initiate an action. Do not use buttons for n
 {: .hxSubSectionTitle}
 
 - Button Text style should always be Title Case where the first letter of each word is capitalized.
-- Buttons should always use the labelling convention of “Noun Verb”, with no articles. e.g. “Create Server”, not “Create a Server”.
+- Buttons should always use the labelling convention of “Noun Verb”, with no articles. For example, use “Create Server”, not “Create a Server”.
 - Keep your text labels as short as possible while also fully communicating what action the button will trigger.
-- When choosing which button weight to use, you will probably use a secondary button unless your button need meets the requirements of a primary button, or tertiary button.
-- When choosing which button size to use consider the context. In most cases, you will use a standard button
+- When choosing which button weight to use, use a secondary button unless you want the properties of a primary or tertiary button.
+- When choosing which button size to use, consider the context. In most cases, use a standard button.
 - There should only be one primary button in a form.
-- The primary button should always represent an inherently apparent next step. e.g.  "Create Server", "Add Selected", "Confirm Deletion",  "Submit”, “Next”.
+- The primary button should always represent an inherently apparent next step such as "Create Server", "Add Selected", "Confirm Deletion",  "Submit”, or “Next”.
 - If you have multiple buttons on a page, there can only be one primary button.
 
 
@@ -57,7 +57,7 @@ Use a button to launch a process or initiate an action. Do not use buttons for n
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-When using a simple button you will need to specify both a weight and size.
+When using a simple button, specify both weight and size.
 
 - Weights:   
     - Primary
@@ -85,7 +85,7 @@ For most desktop use cases, you should use a standard button size.   
 
 Large buttons should be used in mobile designs to accommodate the ideal touch target size. 
 
-Compact buttons should be used when you have severe space constraints, e.g. inside of a table or in a dashboard widget.
+Compact buttons should be used when you have severe space constraints, such as inside of a table or in a dashboard widget.
 
 {% endcolumn %}
 
@@ -101,9 +101,9 @@ Compact buttons should be used when you have severe space constraints, e.g. insi
 <div class="hxRow">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-- Use the primary action button to prompt the user to take action
-- Use only one primary button per page
-- Simple buttons, dropdown buttons and split dropdown buttons all share the same properties for state changes
+- Use the primary action button to prompt the user to take action.
+- Use only one primary button per page.
+- Simple buttons, dropdown buttons, and split dropdown buttons all share the same properties for state changes.
 
 {% endcolumn %}
 
@@ -119,7 +119,7 @@ Compact buttons should be used when you have severe space constraints, e.g. insi
 <div class="hxRow">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-- The secondary button can be used alone or in conjuction with a primary button and /or tertiary button.
+- The secondary button can be used alone or in conjuction with a primary button or a tertiary button.
 - Use Secondary Buttons when there are multiple buttons on the same screen.
 - Simple buttons, dropdown buttons and split dropdown buttons  all share the same properties for state changes.
 
@@ -139,7 +139,7 @@ Compact buttons should be used when you have severe space constraints, e.g. insi
 
 - The tertiary button can be used alone, or in conjuction with other buttons. 
 - Use alone when you want to deemphasize the action, or when you have a list of actions.
-- Use in conjunction with a primary or secondary button when there are two options, but you want to de-emphasize one of them. E.g. in a dialog box, with two options:  “Submit” (Primary) and “Cancel” (Tertiary).
+- Use in conjunction with a primary or secondary button when there are two options, but you want to de-emphasize one of them. For example, in a dialog box with two options, use “Submit” (Primary) and “Cancel” (Tertiary).
 - The Primary Button sizing rules also apply to tertiary buttons.
 - Tertiary buttons have a transparent background.
 
@@ -157,8 +157,8 @@ Compact buttons should be used when you have severe space constraints, e.g. insi
 <div class="hxRow">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-- Loading icon animation should rotate time: 0.8 sec/revolution
-- For further information regarding the loading pattern, see the [loading pattern]({{site.baseurl}}/components/loading.html)
+- Loading icon animation should rotate time: 0.8 sec/revolution.
+- For further information regarding the loading pattern, see the [loading pattern]({{site.baseurl}}/components/loading.html).
 
 
 {% endcolumn %}
@@ -187,8 +187,7 @@ Compact buttons should be used when you have severe space constraints, e.g. insi
 
 When submitting forms:
 
-- Disable all buttons, and
-- Change the primary button to loading state.          
+- Disable all buttons, and change the primary button to loading state.          
 
 {% endcolumn %}
 
