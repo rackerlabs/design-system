@@ -109,7 +109,7 @@ The date picker element appears below corresponding text input that controls it.
 
 ### Single date selection
  * Keyboard tabbing onto the input field and/or clicking on it automatically open the date picker
- * The date may be filled in my hand, according to the format expressed in the placeholder
+ * The date may be filled in by hand, according to the format expressed in the placeholder
  * When the user must pick one date, the picker should have one field showing expected date format in the placeholder
  * Each date in the picker is hoverable, but only one date may be selected
 
