@@ -156,7 +156,7 @@ A popover may be used for small create/edit workflows that need to remain in-con
 {: .hxSubSectionTitle}
 A popover may be used to reveal hidden content, so the information is still accessible, but doesn’t clutter the screen.
 
-In this instance popover is preferred over a [tooltips]({{site.baseurl}}/components/tooltip.html) if the content is dynamic or interactive (e.g. when presenting the user a table or visualization). 
+In this instance popover is preferred over a [tooltip]({{site.baseurl}}/components/tooltip.html) if the content is dynamic or interactive (e.g. when presenting the user a table or visualization). 
 
 {% endcolumn %}
 
