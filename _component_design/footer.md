@@ -14,13 +14,11 @@ last-modified: 2017-10-03
 ---
 
 ## Introduction
-{: .hxSectionTitle}
 <div class="hxRow">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Best practices for footers
-{: .hxContainerTitle}
 
 * Footer items often get overlooked in customer-facing contexts, so avoid placing critical or dynamic content there.
 * For customer-facing applications the footer contains the following:
@@ -41,7 +39,6 @@ last-modified: 2017-10-03
 </div>
 
 ## Footer specifications
-{: .hxSectionTitle}
 <div class="hxRow">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
