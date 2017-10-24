@@ -59,7 +59,7 @@ last-modified: 2017-08-17
 
 ### Placeholder text
  * Placeholder text can be displayed in an empty text field until input is entered.
- * The placeholder may be instructive text or an example, such as a phone number or email address.
+ * The placeholder can be instructive text or an example, such as a phone number or email address.
 
 {% endcolumn %}
 
