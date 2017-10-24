@@ -20,7 +20,7 @@ last-modified: 2017-08-17
 
 ### When to use
 {: .hxSubSectionTitle}
-The table pattern has multiple controls that can be used to interact with the contents displayed within a table. Controls can be placed in three primary locations:
+The table pattern has multiple controls that are used to interact with the contents displayed within a table. Controls may be placed in three primary locations.:
 
 - [On top of the table]({{page.url}}#top)
 - [Below the table]({{page.url}}#below)
@@ -29,7 +29,7 @@ The table pattern has multiple controls that can be used to interact with the co
 {% endcolumn %}
 
 {% column right:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
-{% figure [caption:"Table snippets showing the three locations for table controls. NOT TO SCALE "] [class:"image bg-light border"] %}
+{% figure [caption:"Table snippets showing the three locations for table controls. Actual controls present depend on the specific table needs"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/tables/controls-tables/tables-controls-hero.svg){:width="100%"}
 {% endfigure %}
 {% endcolumn %}
@@ -43,7 +43,8 @@ The table pattern has multiple controls that can be used to interact with the co
 
 ## Table controls - top
 {: .hxSectionTitle}
-The following controls can be found on the top of a table:
+
+The following controls may be found on top of a table:
 - Primary actions
 - Secondary actions
 - Filter actions
@@ -68,7 +69,7 @@ The following controls can be found on the top of a table:
 ### Filter 
 {: .hxSubSectionTitle}
 
-The filter button is a specialized button used on the top of a table. It is ALWAYS the final button in a button group. Filter buttons come in the following variations:
+The filter button is a specialized button used on top of a table. It is **always** the final button in a button group. Filter buttons come in the following variations:
 
 - Regular
 - Compact
@@ -101,7 +102,7 @@ The filter button is a specialized button used on the top of a table. It is ALWA
 ### Sorting
 {: .hxSubSectionTitle}
 
-Sorting is applied to tables headers. It can be in the following states:
+Sorting is applied to tables headers via a click interaction and an icon visual indicator. The icon may take the following states:
 
 - Ascending
 - Descending
@@ -124,6 +125,7 @@ Sorting is applied to tables headers. It can be in the following states:
 
 ## Table controls - below
 {: .hxSectionTitle}
+
 The following controls can be found on the bottom of a table:
 - Primary actions
 - Secondary action
@@ -148,7 +150,7 @@ The following controls can be found on the bottom of a table:
 ### Pagination
 {: .hxSubSectionTitle}
 
-The pagination controls group controls which page of a table is currently being viewed.
+The pagination controls group determines which page of a table is currently viewed.
 
 {% endcolumn %}
 
@@ -175,7 +177,7 @@ The pagination controls group controls which page of a table is currently being 
 
 ## Table controls - within
 {: .hxSectionTitle}
-The following controls can be found inside a table:
+The following controls may be found inside a table:
 - Select Icon
 - Action Cog Button
 - Sort table actions
@@ -199,14 +201,13 @@ The following controls can be found inside a table:
 ### Actions cog
 {: .hxSubSectionTitle}
 
-The actions cog used within a table row is a useful component. The cog allows users to quickly initiate a number of create / edit workflows on an item in a list without drilling into that item’s detail page. It hides these available actions behind the cog icon, forcing users to explore the cog to execute these actions. By hiding these options behind a user click, it keeps from overloading the users view of the table data.
+The actions cog allows users to quickly initiate a number of create and edit workflows on an item in a table without drilling into an item’s detail page. These available actions are hidden behind the cog icon, allowing a user to interact with the cog to execute these actions. In obscuring these options behind a user click, the actions cog does not overload the users view of the table data.
 
 To ensure proper usage following these guidelines:
 
-- Avoid using a cog if possible
-- Only use a cog if you have 3 or more actions that    can be performed on that record
-- Keep the actions list to 7 or fewer actions
-- Make sure you group like actions in the dropdown and avoid grouping unlike options.
+- Only use a cog if you have three or more actions that may be performed on a table row.
+- Keep the actions list to seven or fewer actions.
+- Group like actions in the dropdown and avoid grouping unlike options.
 
 {% endcolumn %}
 
@@ -253,19 +254,20 @@ To ensure proper usage following these guidelines:
 Bulk selection is the process of selecting one or more of the visible rows within a table. After the selection process primary and secondary action buttons, regardless of orientation, will apply to the selected row set. Bulk selection has the following states:
 
 None Selected:
-- Empty checkbox
+
+- Empty check-box icon; No tertiary action displayed.
 - Clicking the empty-state bulk-select check box selects all visible records.
 
-Indeterminate: ( 1 to n-1 where n is the total of # of visible rows)
+Indeterminate: ( 1 to n-1 where n is the total # of visible rows)
 
-- Dash in check box; text feedback “[#] selected.”. Link text “Select all [#].”
-- Clicking the indeterminate-state bulk-select checkbox deselects all visible records.
+- Dash in check-box icon; Text feedback “[#] selected.”. Link text “Select all [#].”
+- Clicking the indeterminate-state bulk-select icon deselects all visible records.
 - Clicking “Select all [#].” Text link selects all visible records
 
 All Selected
 
-- Check in check box; text feedback beside action “All [#] selected.”.
-- Clicking the checked-state bulk-select checkbox deselects all visible records.
+- Check in check-box icon; text feedback beside action “All [#] selected.”.
+- Clicking the checked-state bulk-select icon deselects all visible records.
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}

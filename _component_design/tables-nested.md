@@ -20,25 +20,25 @@ last-modified: 2017-08-17
 
 ### When to use
 {: .hxSubSectionTitle}
-Nested tables allow the nesting of additional levels of data within a table. .
+Nested tables allow the nesting of additional levels of data within a table.
 
 
 ### Best practice
 {: .hxSubSectionTitle}
 
-- All rows should be closed by default
-- The expanded area inherits the styling of the parent row (i.e. bound/unbound, and zebra stripe color)
-- There can only be one expandable content area per row
-- Expand can be triggered in three ways:
-	- Clicking anywhere in the row that is not a link
-	- Clicking the down pointing carat icon
-	- Clicking an badge count icon
-- Collapse can be triggered in two ways:
-	- Clicking anywhere in the parent row
-	- Clicking directly on the collapse icon (either in parent row or at bottom of the expanded area if there is one)
--  Rows remain expanded until collapsed by user
--  Be sure you include a collapse icon in the bottom right corner of the expanded area in addition to the collapse icon in the parent row
--  Viewport remains unchanged with expansion and collapse
+- All rows should be closed by default.
+- The expanded area inherits the styling of the parent row. For example, bound or unbound, and zebra stripe color.
+- There may only be one expandable content area per row.
+- Expand may be triggered in three ways:
+	- Clicking anywhere within the row that is not a link.
+	- Clicking the down-carat icon.
+	- Clicking a badge icon.
+- Collapse may be triggered in two ways:
+	- Clicking anywhere in the parent row.
+	- Clicking directly on the collapse icon (either in a parent row or at the bottom of an expanded area).
+-  Rows remain expanded until collapsed by user.
+-  Include a collapse icon in the bottom right corner of the expanded area in addition to the collapse icon in the parent row.
+-  Viewport remains unchanged with expansion and collapse.
 
 
 {% endcolumn %}
