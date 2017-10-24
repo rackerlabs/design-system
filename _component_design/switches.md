@@ -10,19 +10,19 @@ preview-image: preview-images/switches.svg
 resource: true
 need: selectors
 status: in-progress
-last-modified: 2017-08-17
+last-modified: 2017-10-23
 ---
 
 {% include toc.html %}
 
 
 ## Introduction
-{: .hxSectionTitle}
+
 <div class="hxRow">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### When to use
-{: .hxSubSectionTitle}
+
 
 Use a switch if the user is turning something on or off, or saying yes or no to a question; there is no neutral option. Enabling preferences or settings is a prime use case for this component, explicitly stating the current status with text. 
 
@@ -30,7 +30,7 @@ Use a toggle if more complex text is required. A switch **should not** be used f
 
 
 ### Best practice
-{: .hxSubSectionTitle}
+
 - Switches are only used for on or off, yes or no, and are usually only used for account and user settings, billing, and notifications. If your use case is outside of these three areas, consider a radio button or check-box. 
 - Save any changes to the state of the switch immediately. Use a check-box or radio button if the user has to perform extra steps for changes to be effective (for example, if the user must click a "submit" or "next" button to apply changes). Use check-boxes when the user can select multiple items that are related to a single setting or feature.
 - One click anywhere on the switch changes the state. The user should not have to click and drag the button to the opposite side. However, there should be an animation showing the button sliding from one side to another.
@@ -40,13 +40,13 @@ Use a toggle if more complex text is required. A switch **should not** be used f
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Meet the switch component"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/switches/switch-hero.svg){:width="80%"}
+![]({{site.url}}/assets/images/components/inputs-and-controls/switches/switch-hero.svg){:width="100%"}
 {% endfigure %}
 {% endcolumn %}
 </div>
 
 ## Default layout
-{: .hxSectionTitle}
+
 <div class="hxRow">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
@@ -58,19 +58,19 @@ If text is used, it should be aligned vertically and horizontally within the spa
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Switch sizing specs"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/switches/switch-default-layout.svg){:width="80%"}
+![]({{site.url}}/assets/images/components/inputs-and-controls/switches/switch-default-layout.svg){:width="100%"}
 {% endfigure %}
 {% endcolumn %}
 </div>
 
 ## States
-{: .hxSectionTitle}
+
 <div class="hxRow">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-Enabled (default), hover, disabled, and error states. If you are not using any text, be sure to change the length to 56px (down from 68px shown here with text).
+Enabled (default), hover, disabled, and error states. If you are not using any text, be sure to change the length to 56px.
 
-The user should be able to click anywhere on the element to change it; in other words, they should NOT have to try to grab the white knob and slide it over. Clicking once anywhere slides the knob in the opposite direction (with the exception of disabled). 
+The switch component responds to both mouse and tap click interactions. Upon clicking or tapping an enabled switch, the component transitions to the opposite state. Disabled switches do not respond to these interactions. 
 
 Best practice form design does not allow a switch to exist in an error state, so avoid it at all costs.
 
@@ -78,14 +78,14 @@ Best practice form design does not allow a switch to exist in an error state, so
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Detailed specifications for on and off states of a switch"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/switches/switch-states.svg){:width="80%"}
+![]({{site.url}}/assets/images/components/inputs-and-controls/switches/switch-states.svg){:width="100%"}
 {% endfigure %}
 {% endcolumn %}
 
 </div>
 
 ## Context
-{: .hxSectionTitle}
+
 <div class="hxRow">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
@@ -98,7 +98,7 @@ Best practice form design does not allow a switch to exist in an error state, so
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Contextual placement of switches"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/switches/switch-context.svg){:width="80%"}
+![]({{site.url}}/assets/images/components/inputs-and-controls/switches/switch-context.svg){:width="100%"}
 {% endfigure %}
 {% endcolumn %}
 
