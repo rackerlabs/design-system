@@ -5,7 +5,7 @@ secondary: Editing
 layout: component
 category: Components
 usage: >
-  To preserve the user’s context, popovers present a small group of information or inputs that is presented in a panel that is overlayed on top of the original page, preserving the user’s context.
+  Popovers present a small group of information or inputs that is presented in a panel. To preserve the user’s context, the panel is overlaid on top of the original page.
 preview-image: preview-images/popover.svg
 resource: true
 status: in-progress
@@ -24,21 +24,20 @@ last-modified: 2017-10-22
 {: .hxSubSectionTitle}
 Popovers are triggered as a result of a user action and provide a user with additional context through language, actions through buttons, or both. 
 
-Popovers may also be used for short create or edit workflows and are particularly useful if context from the page is needed while making the change. If a large workflow is required, consider creating a new page.
+You can use popovers for short create or edit workflows and are particularly useful if context from the page is needed while making the change. Consider creating a new page if a large workflow is required.
 
 
 ### Best practices
 
 
-- Avoid opening a popover from within another popover
-- Open popovers via click, and never open them via hover.
-- Avoid putting important or required information in a popover because the content inside of a popover isn't always visible.
+- Avoid opening a popover from within another popover.
+- Open popovers by clicking them and never from a hover.
+- Avoid putting important or required information in a popover, since the content inside of a popover is not always visible.
 - Use popovers to make small changes with a small number of inputs.
 
 ### Problems being solved
 
-- For users needing to make changes or take actions while remaining in their original context (for example, a page), a popover allows for small changes or actions to take place without leaving the page.
-- For users needing to be able to view additional details about an item in a workflow, a popover allows easy access to this complex or interactive information without cluttering the page.
+- Popovers allow users to make small changes, view additional details, or take actions without leaving the page, which preserves context. In addition to preserving context, using popovers declutters a webpage.
 
 {% endcolumn %}
 
@@ -55,14 +54,14 @@ Popovers may also be used for short create or edit workflows and are particularl
 <div class="hxRow">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-The most defining aspects of a popover are the container and the pointer. The container appears on top of the canvas. The pointer points to the popover trigger. Pointers may be used on either side of the four corners.
+The most defining aspects of a popover are the container and the pointer. The container appears on top of the canvas. The pointer points to the popover trigger. Pointers can be used on either side of the four corners.
 
 - Most popovers have a heading and submit/cancel buttons. If buttons are not needed, a popover should close when the user clicks outside of the popover.
-- The content area may include text, inputs, or interactive content like a table or visualization.
+- The content area can include text, inputs, or interactive content like a table or visualization.
 
 {% endcolumn %}
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% figure [caption:"A popover consists of a panel, contextual pointer, heading and buttons."] [class:"image bg-light border"] %}
+{% figure [caption:"A popover consists of a panel, contextual pointer, heading, and buttons."] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/content-areas/popovers/popover-default-layout.svg){:width="80%"}
 {% endfigure %}
 {% endcolumn %}
@@ -76,7 +75,7 @@ The most defining aspects of a popover are the container and the pointer. The co
 ### Popover Spacing
 
 
-For specifications on laying out form fields and body text within a popover, refer to [Inputs and Controls]({{site.baseurl}}/components/inputs-and-controls.html).
+See [inputs and controls]({{site.baseurl}}/components/inputs-and-controls.html) for specifications that describe laying out form fields and body text within a popover.
 
 
 {% endcolumn %}
@@ -98,7 +97,7 @@ For specifications on laying out form fields and body text within a popover, ref
 - Popovers **always** have a `box-shadow` applied.
 - Popovers **should not** be larger than 500 x 500 px. 
 
-{% include note.html content="If more space than the above guide lines is required, look into solving the design challenge with a different Helix pattern."%}
+{% include note.html content="If more space is required, solve the design challenge with a different Helix pattern."%}
 
 
 {% endcolumn %}
@@ -120,7 +119,7 @@ The pointer is 16 px wide at the base. The apex is 8 px from the side of the rec
 
 - Always have the popover protrude toward the center of the screen.
 - Do not hide important information with the popover.
-- The popover content should be repositioned so that it doesn't bleed off the screen.
+- The popover should not obstruct important information on the screen.
 
 {% endcolumn %}
 
@@ -138,7 +137,7 @@ The pointer is 16 px wide at the base. The apex is 8 px from the side of the rec
 
 ### Small create or edit popover
 
-A popover may be used for small create/edit workflows that need to remain in-context.
+You can use popovers for small create or edit workflows that must remain in context.
 
 {% endcolumn %}
 
@@ -154,9 +153,9 @@ A popover may be used for small create/edit workflows that need to remain in-con
 
 ### Large hidden content
 
-A popover may be used to reveal hidden content, so the information is still accessible, but doesn’t clutter the screen.
+A popover may be used to reveal hidden content so the information is still accessible but doesn’t clutter the screen.
 
-In this instance popover is preferred over a [tooltip]({{site.baseurl}}/components/tooltip.html) if the content is dynamic or interactive (for example, when presenting the user a table or visualization). 
+In this instance, a popover is preferable to a [tooltip]({{site.baseurl}}/components/tooltip.html) if the content is dynamic or interactive. For example, when presenting the user with a table or visualization. 
 
 {% endcolumn %}
 
@@ -172,7 +171,7 @@ In this instance popover is preferred over a [tooltip]({{site.baseurl}}/componen
 
 ### Loading
 
-A simple loading circle should be used to load a popover. Refer to the [Loading]({{site.baseurl}}/components/loading.html) pattern for more detailed specifications.
+Use a simple loading circle to load a popover. Refer to the [Loading]({{site.baseurl}}/components/loading.html) pattern for more detailed specifications.
 
 {% endcolumn %}
 
