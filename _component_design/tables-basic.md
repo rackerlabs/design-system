@@ -20,13 +20,13 @@ last-modified: 2017-08-17
 
 ### When to use
 {: .hxSubSectionTitle}
-Tables are the bread-and-butter for displaying complex objects in a neat and tidy format. By presenting complex objects in an easy to consume format, Helix control panels allow for advanced users to quickly interact with a large amount of data, while still ensuring the data is presented efficiently and in a user-friendly manner for novice users.
+Tables are the bread-and-butter component for displaying complex objects in a neat and tidy format. By presenting complex objects in an easy to consume format, Helix control panels allow for advanced users to quickly interact with a large amount of data, while ensuring the data is presented efficiently, in a user-friendly manner for novice users.
 
 
 ### Best practice
 {: .hxSubSectionTitle}
 
-- Ensure you keep the column count to under seven. 
+- Keep the column count to under seven. 
 - Keep visual clutter to a minimum to maintain a users focus.
 - When organizing content in a table, focus on the user’s primary task.
 - Preserve hierarchies from left to right. (Most important to least important)
@@ -73,7 +73,7 @@ Tables are the bread-and-butter for displaying complex objects in a neat and tid
 <div class="hxRow">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-The use of a condensed table is proviades for views that display either many and a few results. 
+The use of a condensed table provides for views that display either many or few results. 
 
 {% endcolumn %}
 
@@ -87,12 +87,12 @@ The use of a condensed table is proviades for views that display either many and
 ### Two-row / small tables
 {: .hxSubSectionTitle}
 
-For instance, when a small amount of information is best presented in a tabular format the condensed table format allows accurate presentation, while commanding minimal screen real-estate. For example, IP addresses currently applied in a cloud server table.
+For instance, when a small amount of information, that is best presented in a tabular format, is presented, the condensed table format allows for a concise presentation. 
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% figure [caption:"Example of table in loading state"] [class:"image bg-light border"] %}
+{% figure [caption:"Example: IP addresses currently applied in a cloud server."] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/tables/basic-tables/tables-small-condensed.svg){:width="100%"}
 {% endfigure %}
 {% endcolumn %}
