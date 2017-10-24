@@ -20,18 +20,17 @@ last-modified: 2017-08-17
 
 ### When to use
 {: .hxSubSectionTitle}
-At Rackspace, we present data in a table on nearly every page in our control panels. Tables are highly valuable, but always run the risk of putting too high a cognitive load on users. Our goal with tables should always be to decrease cognitive load so users can get the data they need quickly and easily. With such pervasive use, it’s important that we make sure our tables are efficient, powerful, and user-friendly.
+Tables are the bread-and-butter for displaying complex objects in a neat and tidy format. By presenting complex objects in an easy to consume format, Helix control panels allow for advanced users to quickly interact with a large amount of data, while still ensuring the data is presented efficiently and in a user-friendly manner for novice users.
 
 
 ### Best practice
 {: .hxSubSectionTitle}
 
-- Keep column count to under 7 columns when possible. 
-- Try to keep the visual clutter to a minimum so users can focus on the data.
-- When organizing content in a table, focus on a user’s task.
-- Try to preserve hierarchies left to right when possible.
-- Make it easy to scan and dig so users can quickly decide where to drill for more information.
-- All tables should be sortable and, if possible, filterable so users can find the exact record they are looking for with minimal scrolling or navigating through pagination.
+- Ensure you keep the column count to under seven. 
+- Keep visual clutter to a minimum to maintain a users focus.
+- When organizing content in a table, focus on the user’s primary task.
+- Preserve hierarchies from left to right. (Most important to least important)
+- Providing filtering and sorting table controls allows users to interact with an select the most important information.
 
 
 {% endcolumn %}
@@ -48,20 +47,20 @@ At Rackspace, we present data in a table on nearly every page in our control pan
 {: .hxSectionTitle}
 <div class="hxRow">
 
-{% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-- Always offer checkbox if user needs to select or manipulate data.
-- Include an action cog if user can trigger 2 or more actions on the record from the row.
-- Justification within each cell is content specific.
-- Text should be left justified.
-- Icons, “&mdash;” (null/undefined), and “n/a” (not applicable) should be center justified.
-- Numbers should be right justified.
+- Include the check-box icon if a user needs to select or manipulate data within a table. This will always be the first element in a table row, see [table controls]({{site.baseurl}}/components/tables-controls.html)
+- Include the action-cog icon if a user requires the trigger two or more actions on a row.
+- Text justification within each cell is content specific.
+  - Text should be left justified.
+  - Icons, “&mdash;” (null/undefined), and “n/a” (not applicable) should be center justified.
+  - Numbers should be right justified.
 - Only use units in row if they differ row by row and cannot be standardized. Units in body rows appear without parentheses.
-- Truncated text should appear in a tooltip available on hover (in full if possible).
+- Truncated text should appear in a [tooltip]({{site.baseurl}}/components/tooltip.html), enabling display on hover or click.
 
 {% endcolumn %}
 
-{% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Default table specifications"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/tables/basic-tables/tables-default.svg){:width="100%"}
 {% endfigure %}
@@ -72,30 +71,25 @@ At Rackspace, we present data in a table on nearly every page in our control pan
 ## Condensed table
 {: .hxSectionTitle}
 <div class="hxRow">
-{% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-Using a condensed table can be benefitial to users when there is a desire for many results in a single page. Rackers especially, appreciate condensed tables due to the data density.
-
+The use of a condensed table is proviades for views that display either many and a few results. 
 
 {% endcolumn %}
 
-{% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Condensed table specifications"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/tables/basic-tables/tables-condensed.svg){:width="100%"}
 {% endfigure %}
 {% endcolumn %}
 
-
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 ### Two-row / small tables
 {: .hxSubSectionTitle}
 
-
-Conversely, situations will arise where small bits of data are best presented in a tabular form, but which don't have a lot of rows. Information such as this should also look into using the condensed table form. E.g. - IP addresses applied to a cloud server.
-
+For instance, when a small amount of information is best presented in a tabular format the condensed table format allows accurate presentation, while commanding minimal screen real-estate. For example, IP addresses currently applied in a cloud server table.
 
 {% endcolumn %}
-
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Example of table in loading state"] [class:"image bg-light border"] %}
@@ -112,9 +106,7 @@ Conversely, situations will arise where small bits of data are best presented in
 ### Loading
 {: .hxSubSectionTitle}
 
-
-When tables are loading, we use a gray placeholder for where text will go. This will allow your able to either load all at once, or if you have data that comes back at different times, it will allow data that is available to be visible to the user. 
-
+As tables load, use a gray placeholder to represent the loading text. This pattern informs the user that the data is present but not yet available.
 
 {% endcolumn %}
 
@@ -130,14 +122,14 @@ When tables are loading, we use a gray placeholder for where text will go. This 
 {: .hxSubSectionTitle}
 
 
-Empty tables can occur due to filtering or due to the user not having any of the items visible. 
+Empty tables occur when no data is available or when a user has applied a filter that does not fit the table parameters. 
 
-In the text state that there is nothing visible and list possible solutions if this could be in error. 
+At times no data is available, the empty state is presented with textual hints that direct the user towards possible solutions, in the event an error has occurred.
 
-Examples of the direction could be:
-- … contact your account owner.
-- … remove search filters.
-- … contact support.
+Examples of this direction include:
+- "… contact your account owner."
+- "… remove search filters."
+- "… contact support."
 
 {% endcolumn %}
 
@@ -152,8 +144,11 @@ Examples of the direction could be:
 ### Hover & selected row
 {: .hxSubSectionTitle}
 
+When using the check-box icon within a table, each row will support the following states:
 
-In some interfaces we support a selected state for a row to indicate what is being viewed or selected in a multi-select view. When the user hovers over a 
+- **Hover state:** Indicates a row is currently hovered by a user 
+- **Selected state:** Indicates the check-box icon has been clicked.
+
 
 {% endcolumn %}
 
