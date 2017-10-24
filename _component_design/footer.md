@@ -10,7 +10,7 @@ usage: |
 preview-image: preview-images/footer-thumbnail.svg
 resource: true
 status: in-progress
-last-modified: 2017-10-03
+last-modified: 2017-10-24
 ---
 
 ## Introduction
@@ -32,7 +32,7 @@ last-modified: 2017-10-03
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
 {% figure [caption:"Place the footer at the bottom of every page."] [class:"image bg-light border"] %}
-  ![]({{site.url}}/assets/images/components/content-areas/footer/footer-scope.svg){:width="80%"}
+  ![]({{site.url}}/assets/images/components/content-areas/footer/footer-scope.svg)
 {% endfigure %}
 
 {% endcolumn %}
@@ -46,12 +46,12 @@ last-modified: 2017-10-03
 * All footer content starts after the gutter at 20px
 * The footer container is 40px tall with text centered vertically
 * Footer items are spaced 32px apart
-* Links are colored cyan 500 on dark backgrounds and behave as described in the Links documentation.
+* Links are colored `cyan 500` on dark backgrounds, but otherwise behave as described in the [Links documentation]({{site.url}}/style/typography.html#link).
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [class:"image bg-light border"] %}
- ![]({{site.url}}/assets/images/components/content-areas/footer/footer-specs.svg){:width="80%"}
+ ![]({{site.url}}/assets/images/components/content-areas/footer/footer-specs.svg)
 {% endfigure %}
 {% endcolumn %}
 </div>
