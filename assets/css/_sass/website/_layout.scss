@@ -68,13 +68,6 @@ nav.side {
   &:first-child {
     border-bottom: none;
   }
-  a {
-    color: $cyan700;
-    &:hover {
-      color: $cyan700;
-      text-decoration: underline;
-    };
-  };
   /* border-bottom: 1px solid $grey300; this will be uncommented once the rest of the content is edited to use less article tags on a page, the border-bottom segmentation works best when articles have multiple rows and plenty of content */
   ul {
     font-size: $font-size-3;
@@ -102,6 +95,15 @@ nav.side {
 a.anchor {
   position: absolute;
   top: 0;
+}
+
+a {
+  &.hover,
+  &.active {
+    color: $blue500;
+    cursor: pointer;
+    text-decoration: none;
+  }
 }
 
 .ws-todo-bar{
