@@ -29,6 +29,18 @@
         <dt class="hxSubdued">Bottom Spacing:</dt>
         <dd>{{include.bottomspace}}</dd>
         {% endif %}
+        {% if include.default %}
+        <dt class="hxSubdued">Default:</dt>
+        <dd>{{include.default}}</dd>
+        {% endif %}
+        {% if include.hover %}
+        <dt class="hxSubdued">Hover / Pressed:</dt>
+        <dd>{{include.hover}}</dd>
+        {% endif %}
+        {% if include.disabled %}
+        <dt class="hxSubdued">Disabled:</dt>
+        <dd>{{include.disabled}}</dd>
+        {% endif %}
       </dl>
     </div>
   </div>
