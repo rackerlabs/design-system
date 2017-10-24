@@ -68,14 +68,7 @@ nav.side {
   &:first-child {
     border-bottom: none;
   }
-  a {
-    color: $cyan700;
-    &:hover {
-      color: $cyan700;
-      text-decoration: underline;
-    };
-  };
-  /* border-bottom: 1px solid #e0e0e0; this will be uncommented once the rest of the content is edited to use less article tags on a page, the border-bottom segmentation works best when articles have multiple rows and plenty of content */
+  /* border-bottom: 1px solid $grey300; this will be uncommented once the rest of the content is edited to use less article tags on a page, the border-bottom segmentation works best when articles have multiple rows and plenty of content */
   ul {
     font-size: inherit;
     -webkit-margin-before: 0;
@@ -102,6 +95,15 @@ nav.side {
 a.anchor {
   position: absolute;
   top: 0;
+}
+
+a {
+  &.hover,
+  &.active {
+    color: $blue500;
+    cursor: pointer;
+    text-decoration: none;
+  }
 }
 
 .ws-todo-bar{
@@ -226,17 +228,21 @@ pre {
 }
 
 .type-demo {
-  background-color: #fff;
+  background-color: $grey25;
   border: 1px solid $grey300;
   min-height: 190px;
   padding: 20px;
   box-sizing: inherit;
-  div {
-    float: left;
+  margin-bottom: 1.25rem;
+
+  .example {
+    padding-right: 1.25rem;
     width: 50%;
+    float: left;
   }
   .specs {
     border-left: 1px solid $grey300;
+    float: left;
     dl {
       font-size: $font-size-3;
       margin-left: 20px;
@@ -245,12 +251,13 @@ pre {
         float: left;
       }
       dt {
-        color: $grey700;
         clear: both;
+        margin-bottom: 4px;
       }
       dd {
         color: $grey900;
-        margin-left: 6px;
+        margin-left: 4px;
+        margin-bottom: 4px;
       }
     }
   }
