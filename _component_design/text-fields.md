@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/text-inputs.svg
 resource: true
 status: unknown
-last-modified: 2017-08-17
+last-modified: 2017-10-24
 ---
 
 {% include toc.html %}
@@ -22,7 +22,7 @@ last-modified: 2017-08-17
   * Use text fields to enable users to enter text, numbers, passwords, emails, logging in, copying API keys, and any other data pertinent to accomplishing their tasks.
 
 ### Best practices
-  * Text fields should indicate state – whether enabled or disabled, empty or filled, valid or invalid – with clear label, input,  and assistive text.
+  * Text fields should indicate state&emdash;whether enabled or disabled, empty or filled, valid or invalid – with clear label, input,  and assistive text.
   * Text fields should guide the user with data type, format, or other parameters the information should include.
 {% endcolumn %}
 
@@ -41,7 +41,7 @@ last-modified: 2017-08-17
 ### Basic layout
  * Labels display the type of input a field requires. Every text field should have a label.
  * Labels are placed above and are left aligned with the input box.
- * Labels should always be visible.  Avoid using placeholder text for labelling.
+ * Labels should always be visible. Avoid using placeholder text for labeling.
 
 {% endcolumn %}
 
@@ -76,9 +76,9 @@ last-modified: 2017-08-17
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Helper text
- * Helper text should provide clear instructions for populating the input, such as examples, syntax, or other parameters 
- * Keep text to a single line if possible, though two lines are acceptable
- * If more than two lines of help text are needed, consider using a tooltip instead
+ * Use helper text to provide clear instructions such as examples, syntax, or other parameters required for validation.
+ * Keep text to a single line if possible, though two lines are acceptable.
+ * If more than two lines of help text are needed, consider using a tooltip instead.
 
 
 {% endcolumn %}
@@ -96,8 +96,8 @@ last-modified: 2017-08-17
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Required fields
- * To indicate that a field is required, display an asterisk (*) to the left of the label
- * To aid recognition, the asterisk should overhang the space to the left of the group by 4 pixels
+ * Indicate that a field is required by displaying an asterisk `*` to the left of the label.
+ * To aid recognition, the asterisk should overhang the space to the left of the group by 4 pixels.
 
 {% endcolumn %}
 
@@ -115,9 +115,9 @@ last-modified: 2017-08-17
 
 ### Character or word counter
  * Use character or word counters if there is a character or word limit on the input.
- * The counter is right justified within the control grop
- * Displayed as a ratio of characters used and the character limit
- * format: characters used / character limit
+ * Justify the counter to the right within the control group.
+ * Display the counter as a ratio of characters used to the character limit for the input field.
+ * **Format:** `characters used / character limit`. For example, `5/10`.
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
@@ -133,12 +133,12 @@ last-modified: 2017-08-17
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### States overview
-Validation for individual inputs should occur when the user shifts focus to another element (on blur), and the entire form should go through a validation check on submit.
+Validation for individual inputs should occur when the user shifts focus to another element (`onBlur`), and the entire form should go through a validation check on submit.
 
 #### Are non-required fields always necessary?
- * Design goal: Enable users to get what they need with as few up-front choices as possible
- * In our industry, complex resources often have fields that are configurable AFTER the resource is created  
- * Consider only including required fields in the main create form, and placing non-required fields in an optional, post-creation workflow
+ * **Design goal**: Enable users to get what they need with as few up-front choices as possible.
+ * In our industry, complex resources often have fields that are configurable AFTER the resource is created.
+ * Consider only including required fields in the main create form, and placing non-required fields in an optional, post-creation workflow.
 
 {% endcolumn %}
 
@@ -155,9 +155,9 @@ Validation for individual inputs should occur when the user shifts focus to anot
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Disabled state
- * Disabled text fields are not editable. They have a slightly darker background fill, lighter border, and lighter input text
- * Disabled fields are also indicated with a cursor change to “not-allowed”, reinforcing the state for the user
- * When a field is disabled, consider changing the help text so the user understands why it is disabled
+ * Disabled text fields are not editable. They have a slightly darker background fill, lighter border, and lighter input text.
+ * Disabled fields are also indicated with a cursor change to “not-allowed”, reinforcing the state for the user.
+ * When a field is disabled, consider changing the help text so the user understands why it is disabled.
 
 
 {% endcolumn %}
@@ -175,9 +175,9 @@ Validation for individual inputs should occur when the user shifts focus to anot
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Focused
- * When a text field is selected, the border color changes to Cyan 700, and is raised by a shadow to give the user an indication of where they are in the form
- * The field remains in a focused state as long as the user inputs text and/or doesnt make a selection outside of the field
- * As the user types into the text field, input text replaces any placeholder text
+ * When a text field is selected, the border color changes to `cyan 700` and is raised by a shadow to give the user an indication of where they are in the form.
+ * The field remains in a focused state as long as the user inputs text or doesn't make a selection outside of the field.
+ * As the user types into the text field, input text replaces any placeholder text.
 
 {% endcolumn %}
 
@@ -194,12 +194,12 @@ Validation for individual inputs should occur when the user shifts focus to anot
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Invalid
- * The input border changes color and thickness to reflect the invalid state
- * Error text should be stacked below any helper text
- * The error message must be preceded by the error icon
- * Error text should fit on a single line
- * When focused, the input box gains a shadow, matching the red error color
- * Once the input contains valid data, it returns to default state and the error message is removed
+ * The input border changes color and thickness to reflect the invalid state.
+ * Stack error messages below any helper text.
+ * The error message must be preceded by the error icon.
+ * Error text should fit on a single line.
+ * When focused, the input box gains a shadow, matching the red error color.
+ * Once the input contains valid data, it returns to default state and the error message is removed.
 
 {% endcolumn %}
 
@@ -217,7 +217,7 @@ Validation for individual inputs should occur when the user shifts focus to anot
 <div class="hxRow">
 {% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
-Text fields can be formatted to indicate the types of data a field accepts, using placeholder text, preset layout, and character limits.  Text formatting should be displayed only when the field is focused or filled.
+Text fields can be formatted to indicate the types of data a field accepts by using placeholder text, a preset layout, and character limits. Text formatting should be displayed only when the field is focused or filled.
 
 Characters can be formatted using:
 * Prefixes and suffixes
@@ -230,8 +230,8 @@ Characters can be formatted using:
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Prefixes and suffixes
-* Prefixes and suffixes can be used to clarify units or to add input in advance
-* Prefixes are left justified in the text field; suffixes are right justified
+* Prefixes and suffixes can be used to clarify units or to add input in advance.
+* Prefixes are left justified in the text field; suffixes are right justified.
 * Text fields can have both prefixes  and suffixes.
 
 
@@ -250,7 +250,7 @@ Characters can be formatted using:
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Password redaction
-Password input is disguised by default. Midline ellipses are displayed to represent each character of a password entered (such as •••••••).
+Password input is disguised by default. Midline ellipses are displayed to represent each character of a password entered (such as `•••••••`).
 
 {% endcolumn %}
 
