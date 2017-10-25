@@ -1,67 +1,63 @@
 ---
-title: Tables - Nested
+title: Nested Tables
 parent: Tables
 layout: component
 category: Components
 usage: >
-  Nested tables are a specialized sub pattern of basic tables. Nested tables come in a variety of forms and allow users to drill into additional data within a table row. By hiding this data behind a user interaction we maintain the low cognitive load goals of the table pattern, while allowing for more data rich layouts.
+  Nested tables come in a variety of forms and allow users to drill into additional data within a table row. By hiding this data behind a user interaction we maintain the low cognitive load goals of the table pattern, while allowing for more data rich layouts.
 preview-image: preview-images/tables-nested.svg
+status: Stable
 resource: true
-last-modified: 2017-08-17
+last-modified: 2017-10-24
 ---
 
 {% include toc.html %}
 
 ## Introduction
-{: .hxSectionTitle}
+
 <div class="hxRow">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### When to use
-{: .hxSubSectionTitle}
+
 Nested tables allow the nesting of additional levels of data within a table.
 
-
 ### Best practice
-{: .hxSubSectionTitle}
 
 - All rows should be closed by default.
-- The expanded area inherits the styling of the parent row. For example, bound or unbound, and zebra stripe color.
-- There may only be one expandable content area per row.
+- The expanded area inherits the styling of the parent row (for example, bound or unbound and zebra-stripe color).
+- There can only be one expandable content area per row.
 - Expand may be triggered in three ways:
 	- Clicking anywhere within the row that is not a link.
-	- Clicking the down-carat icon.
+	- Clicking the down-caret icon.
 	- Clicking a badge icon.
 - Collapse may be triggered in two ways:
 	- Clicking anywhere in the parent row.
 	- Clicking directly on the collapse icon (either in a parent row or at the bottom of an expanded area).
--  Rows remain expanded until collapsed by user.
--  Include a collapse icon in the bottom right corner of the expanded area in addition to the collapse icon in the parent row.
--  Viewport remains unchanged with expansion and collapse.
-
+- Rows remain expanded until collapsed by the user.
+- Include a collapse icon in the bottom right corner of the expanded area in addition to the collapse icon in the parent row.
+- The iewport remains unchanged with expansion and collapse.
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Meet the nested table pattern"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/tables/nested-tables/tables-nested-hero.svg){:width="100%"}
+![]({{site.url}}/assets/images/components/tables/nested-tables/tables-nested-hero.svg)
 {% endfigure %}
-{% figure [caption:"Nested table IxD"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/tables/nested-tables/tables-nested-ixd.svg){:width="100%"}
+{% figure [caption:"Nested table interactions"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/tables/nested-tables/tables-nested-ixd.svg)
 {% endfigure %}
 {% endcolumn %}
 
 </div>
 
 ## Variations
-{: .hxSubSectionTitle}
 
 <div class="hxRow">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 ### Explanatory text variation
-{: .hxSubSectionTitle}
 
 This variation of an expandable table is used to add additional supporting text to a table row.
 
@@ -69,7 +65,7 @@ This variation of an expandable table is used to add additional supporting text 
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Nested table IxD"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/tables/nested-tables/tables-explanatory.svg){:width="100%"}
+![]({{site.url}}/assets/images/components/tables/nested-tables/tables-explanatory.svg)
 {% endfigure %}
 {% endcolumn %}
 
@@ -80,7 +76,6 @@ This variation of an expandable table is used to add additional supporting text 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Key:value variation
-{: .hxSubSectionTitle}
 
 This variation of an expandable table is used to add additional key value pairs of associated meta data to a table row.
 
@@ -88,7 +83,7 @@ This variation of an expandable table is used to add additional key value pairs 
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Key:Value expandable row. NOT TO SCALE"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/tables/nested-tables/tables-key-value.svg){:width="100%"}
+![]({{site.url}}/assets/images/components/tables/nested-tables/tables-key-value.svg)
 {% endfigure %}
 {% endcolumn %}
 
@@ -99,7 +94,6 @@ This variation of an expandable table is used to add additional key value pairs 
 {% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
 
 ### Aggregate data variation
-{: .hxSubSectionTitle}
 
 The aggregate data table is a specialized table used to show primary, secondary, and tertiary values of some aggregate total. 
 
@@ -107,7 +101,7 @@ The aggregate data table is a specialized table used to show primary, secondary,
 
 {% column right:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
 {% figure [caption:"Aggregate nested table specs. NOT TO SCALE"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/tables/nested-tables/tables-aggregate.svg){:width="100%"}
+![]({{site.url}}/assets/images/components/tables/nested-tables/tables-aggregate.svg)
 {% endfigure %}
 {% endcolumn %}
 
