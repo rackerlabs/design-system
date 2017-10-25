@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="633px" height="246px" viewBox="0 0 633 246" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Custom Preset</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Document" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="3)-Examples" transform="translate(-63.000000, -524.000000)"></g>
+        <g id="Custom-Preset">
+            <text id="Label" font-family=".AppleSystemUIFont" font-size="14" font-weight="normal" fill="#757575">
+                <tspan x="72" y="83">Label</tspan>
+            </text>
+            <text id="Loading…" font-family=".AppleSystemUIFont" font-size="14" font-weight="normal" fill="#333333">
+                <tspan x="126" y="83">Loading…</tspan>
+            </text>
+            <text id="Loading…" font-family=".AppleSystemUIFont" font-size="14" font-weight="normal" fill="#333333">
+                <tspan x="426" y="118">Loading…</tspan>
+            </text>
+            <text id="Label" font-family=".AppleSystemUIFont" font-size="14" font-weight="normal" fill="#757575">
+                <tspan x="72" y="111">Label</tspan>
+            </text>
+            <text id="Loading…" font-family=".AppleSystemUIFont" font-size="14" font-weight="normal" fill="#333333">
+                <tspan x="126" y="111">Loading…</tspan>
+            </text>
+            <text id="Label" font-family=".AppleSystemUIFont" font-size="14" font-weight="normal" fill="#757575">
+                <tspan x="72" y="139">Label</tspan>
+            </text>
+            <text id="Loading…" font-family=".AppleSystemUIFont" font-size="14" font-weight="normal" fill="#333333">
+                <tspan x="126" y="139">Loading…</tspan>
+            </text>
+            <text id="Label" font-family=".AppleSystemUIFont" font-size="14" font-weight="normal" fill="#757575">
+                <tspan x="72" y="167">Label</tspan>
+            </text>
+            <text id="Loading…" font-family=".AppleSystemUIFont" font-size="14" font-weight="normal" fill="#333333">
+                <tspan x="126" y="167">Loading…</tspan>
+            </text>
+            <g id="specs-/-redlines-/-line-straight" transform="translate(431.000000, 137.500000) rotate(-90.000000) translate(-431.000000, -137.500000) translate(413.500000, 132.500000)" stroke="#EC3F7A">
+                <path d="M10,5 L34.5,5" id="Stroke-8"></path>
+                <path d="M5.00099983,0 C7.76299974,0 10.0009997,2.239 9.99999967,5 C9.99999967,7.762 7.76199974,10 4.99999983,10 C2.23799993,10 0,7.761 0,5 C0.000999999967,2.238 2.23899992,0 5.00099983,0" id="Path" fill-opacity="0.3" fill="#F03F7B"></path>
+            </g>
+            <g id="Group-17" transform="translate(440.000000, 142.000000)" font-size="12" font-family=".AppleSystemUIFont" fill="#EC407A" font-weight="normal">
+                <g id="specs-/-redlines-/-label-copy-4">
+                    <text id="redline-label">
+                        <tspan x="0" y="12">16px Roboto Regular,</tspan>
+                        <tspan x="0" y="27">#333333 (gray 950)</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

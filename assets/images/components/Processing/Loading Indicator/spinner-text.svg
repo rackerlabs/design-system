@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="633px" height="246px" viewBox="0 0 633 246" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Custom Preset</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="7 3.5 0 7 0 0"></polygon>
+    </defs>
+    <g id="Document" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="3)-Examples" transform="translate(-63.000000, -524.000000)"></g>
+        <g id="Custom-Preset">
+            <g id="Group-30-Copy" transform="translate(121.000000, 92.000000)">
+                <g id="specs-/-redlines-/-line-inclusive" transform="translate(158.000000, 22.000000) scale(-1, 1) translate(-158.000000, -22.000000) translate(108.000000, 8.000000)">
+                    <path d="M0,13.86 L100,13.86" id="redline-line" stroke="#EC407A" stroke-width="1"></path>
+                    <path d="M0.5,0.14 L0.5,27.86" id="Line" stroke="#F0367A" stroke-width="1" stroke-linecap="square"></path>
+                    <g id="specs-/-redlines-/-line-end-/-arrow" transform="translate(94.000000, 10.360000)">
+                        <g id="redline-end">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            <path stroke="#EC407A" stroke-width="1" d="M5.88196601,3.5 L0.5,0.809016994 L0.5,6.19098301 L5.88196601,3.5 Z"></path>
+                        </g>
+                    </g>
+                </g>
+                <text id="Text:-#757575-(Gray" font-family=".AppleSystemUIFont" font-size="12" font-weight="normal" fill="#EC407A">
+                    <tspan x="219" y="12">Text: #757575 (Gray 700)</tspan>
+                    <tspan x="219" y="27">Background: #d8d8d8 (Gray 400)</tspan>
+                    <tspan x="219" y="42">Icon Spinner, #757575 (Gray 700)</tspan>
+                </text>
+                <text id="Spinner-Size:-1em" font-family=".AppleSystemUIFont" font-size="12" font-weight="normal" fill="#EC407A">
+                    <tspan x="219" y="76">Spinner Size: 1em</tspan>
+                </text>
+                <g id="Group-8-Copy-4" transform="translate(0.000000, 5.000000)">
+                    <g id="Button/Standard/Loading/Primary">
+                        <rect id="Rectangle-2" fill="#D8D8D8" x="0" y="0" width="100" height="32" rx="2"></rect>
+                        <g id="Group-2" stroke-width="1" transform="translate(12.000000, 6.000000)" fill="#757575">
+                            <text id="Loading" font-family=".AppleSystemUIFont" font-size="14" font-weight="normal" line-spacing="20">
+                                <tspan x="1.3515625" y="14">Loading </tspan>
+                            </text>
+                            <g id="Group" transform="translate(62.000000, 3.000000)" fill-rule="nonzero">
+                                <path d="M13.0663567,7.07887333 C13.0234067,10.3840267 10.31117,13.0666033 7.00233333,13.0666033 C3.65615333,13.0666033 0.933643333,10.3448233 0.933643333,6.99953333 C0.933643333,3.66077667 3.65055,0.93993 6.99019667,0.933396667 L6.98833,0 C3.13518,0.00746666667 0,3.14741 0,6.99953333 C0,10.8600567 3.14078,14 7.00233333,14 C10.8246733,14 13.9570533,10.8973933 14,7.07887333 L13.0663567,7.07887333 Z" id="Fill-5-Copy"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <g id="specs-/-redlines-/-line-straight" transform="translate(311.000000, 164.000000) rotate(-180.000000) translate(-311.000000, -164.000000) translate(292.000000, 159.000000)" stroke="#EC3F7A">
+                <path d="M10,5 L37.5,5" id="Stroke-8"></path>
+                <path d="M5.00099983,0 C7.76299974,0 10.0009997,2.239 9.99999967,5 C9.99999967,7.762 7.76199974,10 4.99999983,10 C2.23799993,10 0,7.761 0,5 C0.000999999967,2.238 2.23899992,0 5.00099983,0" id="Path" fill-opacity="0.3" fill="#F03F7B"></path>
+            </g>
+            <polyline id="Path-2" stroke="#EC3F7A" points="294.245607 163.910553 202 163.910553 202 121"></polyline>
+        </g>
+    </g>
+</svg>
