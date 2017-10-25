@@ -23,9 +23,9 @@ last-modified: 2017-10-24
 
 The table pattern has multiple controls that are used to interact with the contents displayed within a table. Controls may be placed in three primary locations:
 
-- [Controls on top]({{page.url}}#top)
-- [Controls on below]({{page.url}}#below)
-- [Controls in rows]({{page.url}}#within)
+- [Controls placed on top]({{page.url}}#top)
+- [Controls placed below]({{page.url}}#below)
+- [Controls placed in a row]({{page.url}}#within)
 
 {% endcolumn %}
 
@@ -51,6 +51,7 @@ The table pattern has multiple controls that are used to interact with the conte
 ## Table controls - top
 
 The following controls may be found at the top of the table:
+
 - Primary actions
 - Secondary actions
 - Filter actions
@@ -61,7 +62,7 @@ The following controls may be found at the top of the table:
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% figure [caption:"Definition of actions on top of a table and spacing specifications. NOT TO SCALE"] [class:"image bg-light border"] %}
+{% figure [caption:"Definition of actions on top of a table and spacing specifications. **not to scale**"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/tables/controls-tables/tables-controls-top.svg)
 {% endfigure %}
 {% endcolumn %}
@@ -84,7 +85,7 @@ The filter button is a specialized button used on top of a table. It is **always
 {% endcolumn %}
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-{% figure [caption:"Filter regular / compact variations"] [class:"image bg-light border"] %}
+{% figure [caption:"Filter regular/compact variations"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/tables/controls-tables/tables-filter-1.svg)
 {% endfigure %}
 
@@ -92,7 +93,7 @@ The filter button is a specialized button used on top of a table. It is **always
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-{% figure [caption:"Filter buttons trancated / truncated-compact variations"] [class:"image bg-light border"] %}
+{% figure [caption:"Filter buttons trancated/truncated-compact variations"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/tables/controls-tables/tables-filter-2.svg)
 {% endfigure %}
 
@@ -106,7 +107,7 @@ The filter button is a specialized button used on top of a table. It is **always
 
 ### Sorting
 
-Sorting is applied to tables headers via a click interaction and an icon visual indicator. The icon may take the following states:
+Apply sorting to table headers via a click interaction and an icon visual indicator. The icon may take the following states:
 
 - Ascending
 - Descending
@@ -130,6 +131,7 @@ Sorting is applied to tables headers via a click interaction and an icon visual 
 ## Table controls - below
 
 The following controls can be found on the bottom of a table:
+
 - Primary actions
 - Secondary action
 - Pagination actions
@@ -139,7 +141,7 @@ The following controls can be found on the bottom of a table:
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% figure [caption:"Definition of actions on bottom of a table and spacing specifications. NOT TO SCALE"] [class:"image bg-light border"] %}
+{% figure [caption:"Definition of actions on bottom of a table and spacing specifications. **not to scale**"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/tables/controls-tables/tables-controls-bottom.svg)
 {% endfigure %}
 {% endcolumn %}
@@ -152,12 +154,12 @@ The following controls can be found on the bottom of a table:
 
 ### Pagination
 
-The pagination controls group determines which page of a table is currently viewed.
+The page you view is determined by the pagination controls group.
 
 {% endcolumn %}
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-{% figure [caption:"Filter regular / compact variations"] [class:"image bg-light border"] %}
+{% figure [caption:"Filter regular/compact variations"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/tables/controls-tables/tables-pagination-1.svg)
 {% endfigure %}
 
@@ -165,7 +167,7 @@ The pagination controls group determines which page of a table is currently view
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-{% figure [caption:"Filter buttons trancated / truncated-compact variations"] [class:"image bg-light border"] %}
+{% figure [caption:"Filter buttons trancated/truncated-compact variations"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/tables/controls-tables/tables-pagination-2.svg)
 {% endfigure %}
 
@@ -180,16 +182,17 @@ The pagination controls group determines which page of a table is currently view
 ## Table controls - row
 
 The following controls may be found inside a table:
-- Select Icon
-- Action Cog Button
+
+- Select icon
+- Action cog button
 - Sort table actions
-- Expand Table Row
-- Retract / Truncate table row
+- Expand table row
+- Retract / truncate table row
  
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% figure [caption:"Definition of within table actions and spacing specifications. NOT TO SCALE"] [class:"image bg-light border"] %}          
+{% figure [caption:"Spacing specifications for controls placed within a table row. **not to scale**"] [class:"image bg-light border"] %}          
 ![]({{site.url}}/assets/images/components/tables/controls-tables/tables-controls-within.svg)
 {% endfigure %}
 {% endcolumn %}
@@ -202,18 +205,18 @@ The following controls may be found inside a table:
 
 ### Actions cog
 
-The actions cog allows user's to quickly initiate a number of create and edit workflows on an item in a table without drilling into an item’s detail page. These available actions are hidden behind the cog icon, allowing a user to interact with the cog to execute these actions. In obscuring these options behind a user click, the actions cog does not overload the users view of the table data.
+The actions cog allows user's to quickly initiate a number of create and edit workflows on an item in a table without clicking into an item’s detail page. These available actions are hidden behind the cog icon, allowing a user to interact with the cog to execute these actions. In obscuring these options behind a user click, the actions cog does not overload the users view of the table data.
 
 To ensure proper use, follow these guidelines:
 
 - Only use a cog if you have three or more actions that may be performed on a table row.
 - Keep the actions list to seven or fewer actions.
-- Group like actions in the dropdown and avoid grouping unlike options.
+- Group like actions in the drop-down together through the use of a title. Multiple groupings may occur, but avoid exceeding seven actions.
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% figure [caption:"Actions cog triggered. NOT TO SCALE"] [class:"image bg-light border"] %}          
+{% figure [caption:"Actions cog triggered. **not to scale**"] [class:"image bg-light border"] %}          
 ![]({{site.url}}/assets/images/components/tables/controls-tables/tables-actions-ixd.svg)
 {% endfigure %}
 {% endcolumn %}
@@ -228,14 +231,14 @@ To ensure proper use, follow these guidelines:
 
 To ensure proper use, follow these guidelines:
 
-- If a checkbox is present, it is **always** the first option for clarity.
-- If the actions cog is present and a checkbox is not present the cog becomes the **first** option.
+- If a check-box is present, it is **always** the first option for clarity.
+- If the actions cog is present and a check-box is not present, the cog becomes the **first** option.
 - Icons should be 16 px wide with 20 px spacing on both sides.
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% figure [caption:"Variations best practices and spacing. NOT TO SCALE"] [class:"image bg-light border"] %}          
+{% figure [caption:"Variations best practices and spacing. **not to scale**"] [class:"image bg-light border"] %}          
 ![]({{site.url}}/assets/images/components/tables/controls-tables/tables-actions-spacing.svg)
 {% endfigure %}
 {% endcolumn %}
@@ -248,27 +251,27 @@ To ensure proper use, follow these guidelines:
 
 ### Bulk selection
 
-After the selection process, the primary and secondary action buttons, regardless of orientation, apply to the selected row set. Bulk selection has the following states:
+Apply the primary and secondary action buttons to the row set after the selection process. Bulk selection has the following states:
 
 **None Selected:**
 
-- Empty check box icon; no tertiary action displayed.
-- Clicking the empty-state bulk-select check box selects all visible records.
+- Empty check box icon, no tertiary action displayed.
+- Clicking the empty-state bulk-select check-box selects all visible records.
 
 **Indeterminate:** ( 1 to _n_-1 where _n_ is the total # of visible rows)
 
-- dash in check-box icon; Text feedback “[#] selected”. Link text “Select all [#].”
-- Clicking the indeterminate-state bulk-select icon deselects all visible records.
-- Clicking “Select all [#].” Text link selects all visible records
+- Dash in check-box icon. Text feedback “[#] selected”. Link text “Select all [#].”
+- Clicking the indeterminate state, bulk select icon deselects all visible records.
+- Clicking “Select all [#].” Text link selects all visible records.
 
 **All Selected:**
 
-- Check in check-box icon; text feedback beside action “All [#] selected.”.
-- Clicking the checked-state bulk-select icon deselects all visible records.
+- Check in check-box icon, text feedback beside action “All [#] selected.”.
+- Clicking the checked state, bulk select icon deselects all visible records.
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% figure [caption:"Bulk Selection IxD. NOT TO SCALE"] [class:"image bg-light border"] %}          
+{% figure [caption:"Bulk Selection interaction lifecycle. **not to scale**"] [class:"image bg-light border"] %}          
 ![]({{site.url}}/assets/images/components/tables/controls-tables/tables-bulk-select.svg)
 {% endfigure %}
 {% endcolumn %}

@@ -4,7 +4,7 @@ parent: Tables
 layout: component
 category: Components
 usage: >
-  Nested tables come in a variety of forms and allow users to drill into additional data within a table row. By hiding this data behind a user interaction we maintain the low cognitive load goals of the table pattern, while allowing for more data rich layouts.
+  Nested tables come in a variety of forms and allow users to drill into additional data within a table row. By hiding this data behind a user interaction, the interface adheres to the low cognitive load goals of the table pattern, while allowing for more data rich layouts.
 preview-image: preview-images/tables-nested.svg
 status: Stable
 resource: true
@@ -59,7 +59,7 @@ Nested tables allow the nesting of additional levels of data within a table.
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 ### Explanatory text variation
 
-This variation of an expandable table is used to add additional supporting text to a table row.
+Use this variation of an expandable table to add additional supporting text to a table row.
 
 {% endcolumn %}
 
@@ -75,14 +75,14 @@ This variation of an expandable table is used to add additional supporting text 
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-### Key:value variation
+### Key: Value variation
 
-This variation of an expandable table is used to add additional key value pairs of associated meta data to a table row.
+Use this variation of an expandable table to add additional key value pairs of associated meta data to a table row.
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% figure [caption:"Key:Value expandable row. NOT TO SCALE"] [class:"image bg-light border"] %}
+{% figure [caption:"Key: Value expandable row. NOT TO SCALE"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/tables/nested-tables/tables-key-value.svg)
 {% endfigure %}
 {% endcolumn %}
@@ -95,7 +95,7 @@ This variation of an expandable table is used to add additional key value pairs 
 
 ### Aggregate data variation
 
-The aggregate data table is a specialized table used to show primary, secondary, and tertiary values of some aggregate total. 
+Use the aggregate data table to show primary, secondary, and tertiary values of some aggregate total. 
 
 {% endcolumn %}
 

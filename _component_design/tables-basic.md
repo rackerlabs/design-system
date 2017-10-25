@@ -48,7 +48,7 @@ Tables are the bread-and-butter component for displaying complex objects in a ne
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-- Include the check box icon if a user needs to select or manipulate data within a table. This check box icon will always be the first element in a table row; see [table controls]({{site.baseurl}}/components/tables-controls.html)
+- Include the check box icon if a user needs to select or manipulate data within a table. This check box icon will always be the first element in a table row, see [table controls]({{site.baseurl}}/components/tables-controls.html).
 - Include the action cog menu if the objects in each row have two or more available actions.
 - Text justification within each cell is content specific.
   - Text should be left justified.
@@ -83,9 +83,9 @@ The use of a condensed table provides for views that display either many or few 
 {% endcolumn %}
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-### Two-row / small tables
+### Small tables
 
-Use the condensed table style for small sets of data which are best represented in tabular form. In cases such as this, tables are preferred over bullet lists, or key-value lists.
+If presenting a small amount of information, a condensed table format allows for particular and concise presentation. In cases such as this, tables are preferred over bullet lists, or key-value lists.
 
 {% endcolumn %}
 
@@ -103,10 +103,9 @@ Use the condensed table style for small sets of data which are best represented 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 ### Loading
 
-As tables load, use a gray placeholder to represent the loading text. This pattern informs the user that the data is present but not yet available.
+Use a gray placeholder to represent loading text to inform the user that the data is present, but not yet available.
 
 {% endcolumn %}
-
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Example of table in loading state"] [class:"image bg-light border"] %}
@@ -119,9 +118,10 @@ As tables load, use a gray placeholder to represent the loading text. This patte
 
 Empty tables occur when no data is available or when a user has applied a filter that does not fit the table parameters. 
 
-At times no data is available, the empty state is presented with textual hints that direct the user towards possible solutions in the event an error has occurred.
+When no data is available due to an error occurring, the empty state is presented with textual hints that direct the user towards possible solutions in the event an error has occurred.
 
 Examples of this direction include:
+
 - "… contact your account owner."
 - "… remove search filters."
 - "… contact support."
@@ -141,11 +141,10 @@ Examples of this direction include:
 When using the check box icon within a table, each row supports the following states:
 
 - **Hover state:** Indicates a row is currently hovered by a user.
+
 - **Selected state:** Indicates the check-box icon has been clicked.
 
-
 {% endcolumn %}
-
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Hover and selected row examples for default and condensed table rows"] [class:"image bg-light border"] %}
