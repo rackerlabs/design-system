@@ -17,21 +17,27 @@ last-modified: 2017-10-24
 
 <div class="hxRow">
 
-{% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
+{% column left:"hxCol-3 hxCol-xs-12 hxCol-sm-12 hxCol-md-3 hxCol-lg-3" %}
 
 ### When to use
 
 The table pattern has multiple controls that are used to interact with the contents displayed within a table. Controls may be placed in three primary locations:
 
-- [On top of the table]({{page.url}}#top)
-- [Below the table]({{page.url}}#below)
-- [Within the table itself]({{page.url}}#within)
+- [Controls on top]({{page.url}}#top)
+- [Controls on below]({{page.url}}#below)
+- [Controls in rows]({{page.url}}#within)
 
 {% endcolumn %}
 
-{% column right:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
-{% figure [caption:"Table snippets showing the three locations for table controls. Actual controls present depend on the specific table needs."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/tables/controls-tables/tables-controls-hero.svg)
+{% column right:"hxCol-9 hxCol-xs-12 hxCol-sm-12 hxCol-md-9 hxCol-lg-9" %}
+{% figure [caption:"Table with controls placed on top"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/tables/controls-tables/tables-hero-top.svg)
+{% endfigure %}
+{% figure [caption:"Table with controls placed below"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/tables/controls-tables/tables-hero-bottom.svg)
+{% endfigure %}
+{% figure [caption:"Table with controls placed on rows"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/tables/controls-tables/tables-hero-row.svg)
 {% endfigure %}
 {% endcolumn %}
 
@@ -171,7 +177,7 @@ The pagination controls group determines which page of a table is currently view
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-## Table controls - within
+## Table controls - row
 
 The following controls may be found inside a table:
 - Select Icon
@@ -223,7 +229,7 @@ To ensure proper use, follow these guidelines:
 To ensure proper use, follow these guidelines:
 
 - If a checkbox is present, it is **always** the first option for clarity.
-- If the actions cog is present and a checkbox is not present it **will be the first option**
+- If the actions cog is present and a checkbox is not present the cog becomes the **first** option.
 - Icons should be 16 px wide with 20 px spacing on both sides.
 
 {% endcolumn %}
