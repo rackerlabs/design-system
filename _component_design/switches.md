@@ -1,85 +1,105 @@
 ---
-title: Switches
-parent: null
+title: Switch
+parent: Inputs and Controls
 layout: component
 category: Components
 usage: >
-  A switch is used for a binary decision; and only for the purpose of yes/no or on/off. They are especially useful when building mobile based designs.
-preview-image: components/preview-selectors.svg
+  A switch allows a user to commit a binary decision and is used exclusively or yes or no, and on or off decisions.
+  They are especially useful when building mobile based designs.
+preview-image: preview-images/switches.svg
 resource: true
 need: selectors
 status: in-progress
-last-modified: 2017-08-17
+last-modified: 2017-10-23
 ---
 
 {% include toc.html %}
 
-<!--{% include todo.html content="Update focus states, expand on inline validation, and improve
-keyboard accessibility." %}-->
 
-The switch should only be used in **mobile** designs. Enabling preferences or
-settings is a prime use case for this component. The switch can be used with or
-without text, depending on the context provided in the switch label. If more
-complex text is needed in the switch than yes/no or on/off, use a **toggle**.
+## Introduction
 
-## Default
+<div class="hxRow">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-{% figure [caption:""] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/components/selectors-switch.png){:width="30%"}
+### When to use
+
+
+Use a switch if the user is turning something on or off, or saying yes or no to a question; there is no neutral option. Enabling preferences or settings is a prime use case for this component, explicitly stating the current status with text. 
+
+<!-- Use a single-select selector strip if more complex text is required. A switch **should not** be used for things like user agreements or if there are more than two options available.-->
+
+
+### Best practice
+
+- Switches are only used for on or off, yes or no, and are usually only used for account and user settings, billing, and notifications. If your use case is outside of these three areas, consider a radio button or check-box. 
+- Save any changes to the state of the switch immediately. Use a check-box or radio button if the user has to perform extra steps for changes to be effective (for example, if the user must click a "submit" or "next" button to apply changes). Use check-boxes when the user can select multiple items that are related to a single setting or feature.
+- One click anywhere on the switch changes the state. The user should not have to click and drag the button to the opposite side. However, there should be an animation showing the button sliding from one side to another.
+- A switch should never be in an error state.
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [caption:"Meet the switch component"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/inputs-and-controls/switches/switch-hero.svg)
 {% endfigure %}
+{% endcolumn %}
+</div>
 
-<!--<div class="ui segments">
-  <div class="ui segment">
-    <div class="ui form">
-      ### Enabled
-      <div class="inline field">
-        <div class="ui toggle checkbox">
-          <input type="checkbox" name="public">
-          <label>Without text</label>
-        </div>
-      </div>
-      <div class="inline field">
-        <div class="ui toggle checkbox">
-          <input type="checkbox" name="public">
-          <label>With text (on/off)</label>
-        </div>
-      </div>
-      <div class="inline field">
-        <div class="ui toggle checkbox">
-          <input type="checkbox" name="public">
-          <label>With text (yes/no)</label>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="ui segment">
-    ### Disabled
-    <div class="inline field">
-      <div class="ui toggle checkbox">
-        <input type="checkbox" name="public" disabled="disabled">
-        <label>With text (on/off)</label>
-      </div>
-    </div>
-  </div>
-  <div class="ui segment">
-    ### Error
-    <div class="inline field">
-      <div class="ui toggle checkbox">
-        <input type="checkbox" name="public" disabled="disabled">
-        <label>With text (on/off)</label>
-      </div>
-    </div>
-  </div>
-</div>-->
+## Default layout
 
+<div class="hxRow">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
+The default switch does not contain text.
 
-<!--
-  <a class="anchor" name="cascade-selector"></a>
-  #Cascade Selector
-  <p class="update">
-    <a href="https://jira.rax.io/browse/RED-768">JIRA</a><br>
-    EAG: This isn't used broadly enough to make a pattern yet.
+If text is used, it should be aligned vertically and horizontally within the space beside the white circle; no closer than 4px to the knob and 8px from the opposite edge.
 
-  <p class="update">Do we want to use <a href="https://jira.rax.io/secure/attachment/70337/Cascade%20Selector%20-%20Complete.pdf">this doc</a>? I can't find the original to break it out into images and text.
--->
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [caption:"Switch sizing specs"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/inputs-and-controls/switches/switch-default-layout.svg)
+{% endfigure %}
+{% endcolumn %}
+</div>
+
+## States
+
+<div class="hxRow">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+Enabled (default), hover, disabled, and error states. If you are not using any text, be sure to change the length to 56px.
+
+The switch component responds to both mouse and tap click interactions. Upon clicking or tapping an enabled switch, the component transitions to the opposite state. Disabled switches do not respond to these interactions. 
+
+Best practice form design does not allow a switch to exist in an error state, so avoid it at all costs.
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [caption:"Detailed specifications for on and off states of a switch"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/inputs-and-controls/switches/switch-states.svg)
+{% endfigure %}
+{% endcolumn %}
+
+</div>
+
+## Context
+
+<div class="hxRow">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+- Use the switch 12px to the left of the prompt and centered horizontally.
+- When using more than one switch in a form, align the switches vertically to the right. Ensure they are at least 12px from the end of the prompt.
+- Error text should appear 12px below the last line of the prompt.
+- If the switch is disabled, ensure the prompt text is disabled also.
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [caption:"Contextual placement of switches"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/inputs-and-controls/switches/switch-context.svg)
+{% endfigure %}
+{% endcolumn %}
+
+</div>
