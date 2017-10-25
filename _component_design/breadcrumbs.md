@@ -1,6 +1,6 @@
 ---
 title: Breadcrumbs
-parent: Navigations
+parent: Navigation
 layout: component
 category: Components
 usage: >
