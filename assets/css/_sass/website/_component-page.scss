@@ -28,6 +28,11 @@
 .content-banner {
   background-color: #e5f4f7;
   min-height: 280px;
+
+  .content-wrapper {
+    padding-top: 2.25rem;
+    padding-bottom: 2.25rem;
+  }
   .component-title {
     width: 100%;
     font-size: 28px;
@@ -37,15 +42,10 @@
     text-align: left !important;
   }
   .component-blurb {
-    font-size: $font-size-3;
+    font-size: $base-font-size;
+    font-weight: 300;
     color: $grey900;
     line-height: $base-line-height;
-  }
-  .hero-image {
-    margin: 36px auto 44px auto;
-    img {
-      height: 200px;
-    }
   }
 }
 .com-code {
