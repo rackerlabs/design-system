@@ -28,7 +28,7 @@ Use loading indicators when you need to give the user visual feedback that the s
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:""] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/processing/loading-indicator/spinner-use.svg){:width="100%"}
+![]({{site.url}}/assets/images/components/processing/loading-indicator/spinner-use.svg)
 {% endfigure %}
 {% endcolumn %}
 
@@ -69,20 +69,20 @@ For color, the spinner icon inherits the text color of the element or component 
 {% endcolumn %}
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Tooltip composition."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/processing/loading-indicator/spinner-icon.svg){:width="100%"}
+![]({{site.url}}/assets/images/components/processing/loading-indicator/spinner-icon.svg)
 
 {% endfigure %}
 {% endcolumn %}
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-A variety of spinner icon sizes is available to best suit the use case.
+A variety of spinner icon sizes are available to best suit the use case.
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Tooltip composition."] [class:"image bg-light border"] %}
-![](){:width="100%"}
+![]({{site.url}}/assets/images/components/processing/loading-indicator/spinner-size.svg)
 
 {% endfigure %}
 {% endcolumn %}
@@ -98,7 +98,7 @@ When text is contained inside a spinner icon, the spinner matches the size of th
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Tooltip composition."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/processing/loading-indicator/spinner-text.svg){:width="100%"}
+![]({{site.url}}/assets/images/components/processing/loading-indicator/spinner-text.svg)
 
 {% endfigure %}
 {% endcolumn %}
@@ -113,7 +113,7 @@ In certain instances, such as key-value pairs, or other list style patterns - a 
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Tooltip composition."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/processing/loading-indicator/spinner-text-only.svg){:width="100%"}
+![]({{site.url}}/assets/images/components/processing/loading-indicator/spinner-text-only.svg)
 
 {% endfigure %}
 {% endcolumn %}
@@ -136,7 +136,7 @@ Animation can be used in loading indicators to reinforce that back-end systems a
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Tooltip composition."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/processing/loading-indicator/spinner-animation.svg){:width="100%"}
+![]({{site.url}}/assets/images/components/processing/loading-indicator/spinner-animation.svg)
 
 {% endfigure %}
 {% endcolumn %}
@@ -155,7 +155,7 @@ Loading indicators are generally centered within their given component. The foll
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Tooltip composition."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/processing/loading-indicator/spinner-layout.svg){:width="100%"}
+![]({{site.url}}/assets/images/components/processing/loading-indicator/spinner-layout.svg)
 
 {% endfigure %}
 {% endcolumn %}
