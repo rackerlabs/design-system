@@ -5,7 +5,7 @@ layout: component
 category: Components
 usage: >
   Selector Strips allow the user to make a selection from a group of options. This pattern is a more visually prominent alternative to check boxes (multi-select) or radio buttons (single-select).
-preview-image: preview-images/buttons.svg
+preview-image: preview-images/selector-strip.svg
 status: stable
 resource: true
 last-modified: 2017-10-29
