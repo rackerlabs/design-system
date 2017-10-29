@@ -37,8 +37,8 @@ Selector strips function best when:
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% figure [caption:"Meet the button pattern"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-hero.svg)
+{% figure [caption:"Meet the selector strip pattern"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/inputs-and-controls/selector-strip/select-strip-hero.svg)
 {% endfigure %}
 {% endcolumn %}
 
@@ -63,8 +63,8 @@ Multi-select selector strips have more squared edges and function like checkboxe
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% figure [caption:"Meet the button pattern"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-hero.svg)
+{% figure [caption:"Selector strip build specifications"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/inputs-and-controls/selector-strip/select-strip-default.svg)
 {% endfigure %}
 {% endcolumn %}
 
@@ -86,8 +86,8 @@ When the mouse button is pressed, the fill area changes to cyan 700. When the mo
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% figure [caption:"Meet the button pattern"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-hero.svg)
+{% figure [caption:"Selector strip in pressed state"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/inputs-and-controls/selector-strip/select-strip-pressed.svg)
 {% endfigure %}
 {% endcolumn %}
 	
@@ -104,8 +104,8 @@ When there is an error, the invalid selection has a red border. Text explaining 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% figure [caption:"Meet the button pattern"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-hero.svg)
+{% figure [caption:"Selector strip in error state] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/inputs-and-controls/selector-strip/select-strip-error.svg)
 {% endfigure %}
 {% endcolumn %}
 	
