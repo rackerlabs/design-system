@@ -1,17 +1,14 @@
 ---
 title: Visual accessibility guidelines
-parent: Help
 layout: component
 category: Overview
 usage: >
   Tables present data on nearly every page in Helix control panels. Tables are highly valuable, but always run the risk of putting too high a cognitive load on users. Our goal with tables should always be to decrease cognitive load so users can get the data they need quickly and easily.
-preview-image: preview-images/tables.svg
 status: Stable
 resource: true
 last-modified: 2017-10-24
 ---
 
-{% include toc.html %}
 
 ## Accessibility for Visual Design
 
@@ -72,7 +69,7 @@ Other optional indicators to consider are:
 <div class="hxRow">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-### Use color and contrast to enhance readability
+### Color and contrast
 
 Readability requires sufficient contrast between text and its background. Low contrast is especially problematic for users with low vision, who also often have contrast sensitivity. To ensure text is readable, Helix adheres to accessibility standards defined by Web Content Accessibility Guidelines (WCAG). These standards are based on contrast ratios calculated from text size, text color, and background color.  
 
@@ -212,7 +209,7 @@ There are many tools that can help you with accessibility. Check them out to lea
 
 [I want to see like the color blind](https://chrome.google.com/webstore/detail/i-want-to-see-like-the-co/jebeedfnielkcjlcokhiobodkjjpbjia?hl=en-GB): Plugin built to apply color blindness filters to your web page right within Chrome.
 
-[How to convert a whole design To grayscale](http://www.sketchtips.info/articles/how-to-convert-a-whole-design-to-grayscale): Guide to quickly apply grayscale to designs from within Sketch. —
+[How to convert a whole design To grayscale](http://www.sketchtips.info/articles/how-to-convert-a-whole-design-to-grayscale): Guide to quickly apply grayscale to designs from within Sketch.
 
 {% endcolumn %}
 
