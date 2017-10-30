@@ -23,7 +23,7 @@ layouts_dir: '/templates/'
 includes_dir: '/templates/_includes/'
 
 # Build settings
-markdown: kramdown
+markdown: HelixKramdownParser
 highlighter: rouge
 
 # Collection info
@@ -44,8 +44,10 @@ sass:
     style: compressed
 
 # Other
-redcarpet:
-    extensions: ['tables']
+# redcarpet:
+#     extensions: ['tables']
+# kramdown:
+#   input: headerConverter
 
 # Images Default
 defaults:
