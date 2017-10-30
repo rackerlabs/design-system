@@ -18,6 +18,8 @@ module Kramdown
           attr['class'] = 'hxSectionTitle'
         elsif level == 3
           attr['class'] = 'hxSubSectionTitle'
+        elsif level == 4
+          attr['class'] = 'hxContainerTitle'
         else
           attr['class'] = 'none'
         end
