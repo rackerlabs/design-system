@@ -13,26 +13,30 @@ last-modified: 2017-10-29
 
 {% include toc.html %}
 
-## Introduction
+## Overview
 
 <div class="hxRow">
 
-
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
 ### When to use
-{: .hxSubSectionTitle}
 
 Use a selector strip when you have a small group of options the user must select from. Selector strips can be functionally identical to radio buttons or check boxes (single-select or multi-select), but are typically used instead of those patterns in situations where the selection effects the rest of the page, alters the data on the page, or where the designer would like to give more visual prominence to the group of options.
 
+{% endcolumn %}
+
+</div>
+
+<div class="hxRow">
+
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
 ### Best practice
-{: .hxSubSectionTitle}
 
 Selector strips function best when:
 - The labels inside the strip are short (1-3 words long max) so the number of options can fit horizontally on a small screen.
 - checkboxes or radio buttons do not make sense visually.
 - the options are important to the rest of user’s workflow and deserve a more prominent visual treatment. 	
-
 
 {% endcolumn %}
 
