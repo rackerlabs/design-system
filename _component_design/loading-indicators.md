@@ -133,7 +133,7 @@ Note that loading text can occur in multiple instances simultaneously."] [class:
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-Animation can be used in loading indicators to reinforce that back-end systems are performing load operations. The following are best practice for animating spinner icons:
+Animation can be used in loading indicators to visually indicate that back-end systems are performing load operations. The following are best practice for animating spinner icons:
 
 - Use a simple animation.
 - Rotate icons 360 degrees in 0.8 seconds.
