@@ -4,7 +4,7 @@ parent: Processing
 layout: component
 category: Components
 usage: >
-  Loading indicators tell the user that their system is actively retrieving data.
+  Loading indicators tell the user when their system is actively retrieving data.
 preview-image: preview-images/loading.svg
 resource: true
 status: Stable
@@ -21,7 +21,7 @@ last-modified: 2017-10-24
 
 ### When to use
 
-Use loading indicators when you need provide further visual feedback in cases where a system is making large calls or complex operations in the background.
+Use loading indicators when you need to provide further visual feedback, such as when a system is making large calls or complex operations in the background.
 
 {% endcolumn %}
 
@@ -34,16 +34,13 @@ Use loading indicators when you need provide further visual feedback in cases wh
 </div>
 
 ### Best practice
-<div class="hxRow">
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
 - Make sure loading indicators are visible and clearly show the user that information is being retrieved.
-- Center a loading spinner both vertically and horizontally.
-- If loading text is used, always use an ellipses are the word "Loading".
+- Vertically and horizontally center a loading spinner.
+- If loading text is used, always use an ellipses after the word "Loading".
 
 {% endcolumn %}
-
-</div>
 
 ## Types of indicators
 
@@ -54,7 +51,7 @@ Loading indicators can be displayed in the following ways:
 
 ### Spinner icon
 
-The spinner icon is a simple circle with a 1 px stroke. It is most commonly used horizontally and vertically centered.
+The spinner icon is a simple circle with a 1px stroke.
 
 The spinner icon inherits the text color of the element or component in which it is contained.
 
@@ -106,7 +103,7 @@ When text is contained inside a spinner icon, the spinner matches the size of th
 
 ### Loading text
 
-In certain instances, such as key-value pairs, or other list style patterns - a text label can be used without a spinner.
+In certain instances, such as key-value pairs or other list style patterns, you can use a text label without a spinner.
 
 {% endcolumn %}
 
@@ -119,7 +116,7 @@ Note that loading text can occur in multiple instances simultaneously."] [class:
 {% endcolumn %}
 
 {% column right:"hxCol-4 hxCol-xs-6 hxCol-sm-6 hxCol-md-4 hxCol-lg-4" %}
-{% figure [caption:"Loading text, when used alone, should always use ellipses. By default, the text uses a type-size of 16px."] [class:"image bg-light border"] %}
+{% figure [caption:"Always use an ellipses when using loading text alone."" By default, the text uses a type-size of 16px."] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/processing/loading-indicator/spinner-text-font.svg)
 
 {% endfigure %}
@@ -160,45 +157,28 @@ Animation can be used in loading indicators to visually indicate that back-end s
 ## Layout
 
 <div class="hxRow">
+{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
-Loading indicators are generally centered within their given component. The following are examples of loading indicators inside various components of the UI:
-
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-
-- Loading spinner in dashboard tiles.
-
+We recommend centering the loading indicators within the component. The following are examples of loading indicators inside various components of the UI:
 {% endcolumn %}
+</div>
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% figure [caption:""] [class:"image bg-light border"] %}
+<div class="hxRow">
+{% column right:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% figure [caption:"Loading spinner in dashboard tiles."] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/processing/loading-indicator/spinner-tiles.svg)
-
 {% endfigure %}
 {% endcolumn %}
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-
-- Loading spinner in cards.
-
-{% endcolumn %}
-
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% figure [caption:""] [class:"image bg-light border"] %}
+{% column right:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% figure [caption:"Loading spinner in cards."] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/processing/loading-indicator/spinner-cards.svg)
-
 {% endfigure %}
 {% endcolumn %}
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-
-- Loading spinner in modals.
-
-{% endcolumn %}
-
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% figure [caption:""] [class:"image bg-light border"] %}
+{% column right:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% figure [caption:"Loading spinner in modals."] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/processing/loading-indicator/spinner-modals.svg)
-
 {% endfigure %}
 {% endcolumn %}
 
