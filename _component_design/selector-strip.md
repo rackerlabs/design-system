@@ -108,7 +108,7 @@ When there is an error, the invalid selection has a red border. Text explaining 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% figure [caption:"Selector strip in error state] [class:"image bg-light border"] %}
+{% figure [caption:"Selector strip in error state"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/inputs-and-controls/selector-strip/select-strip-error.svg)
 {% endfigure %}
 {% endcolumn %}
