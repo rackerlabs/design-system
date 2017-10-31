@@ -3,7 +3,7 @@ title: Accessibility
 layout: docs
 category: Principles
 usage: >
-  Tables present data on nearly every page in Helix control panels. Tables are highly valuable, but always run the risk of putting too high a cognitive load on users. Our goal with tables should always be to decrease cognitive load so users can get the data they need quickly and easily.
+  Visual accessibility standards enable users with varied levels of color impairment to successfully navigate and use a Helix based UI.
 status: Stable
 resource: true
 last-modified: 2017-10-24
