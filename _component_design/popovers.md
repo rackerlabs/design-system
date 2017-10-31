@@ -21,14 +21,13 @@ last-modified: 2017-10-22
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### When to Use
-{: .hxSubSectionTitle}
-Popovers are triggered as a result of a user action and provide a user with additional context through language, actions through buttons, or both. 
+
+Popovers are triggered as a result of a user action and provide a user with additional context through language, actions through buttons, or both.
 
 You can use popovers for short create or edit workflows and are particularly useful if context from the page is needed while making the change. Consider creating a new page if a large workflow is required.
 
 
 ### Best practices
-
 
 - Avoid opening a popover from within another popover.
 - Open popovers by clicking them and never from a hover.
@@ -49,7 +48,7 @@ You can use popovers for short create or edit workflows and are particularly use
 
 </div>
 
-## Default layout 
+## Default layout
 
 <div class="hxRow">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
@@ -67,7 +66,7 @@ The most defining aspects of a popover are the container and the pointer. The co
 {% endcolumn %}
 </div>
 
-## Pattern specifications 
+## Pattern specifications
 
 <div class="hxRow">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
@@ -95,7 +94,7 @@ See [inputs and controls]({{site.baseurl}}/components/inputs-and-controls.html) 
 
 
 - Popovers **always** have a `box-shadow` applied.
-- Popovers **should not** be larger than 500 x 500 px. 
+- Popovers **should not** be larger than 500 x 500 px.
 
 {% include note.html content="If more space is required, solve the design challenge with a different Helix pattern."%}
 
@@ -155,7 +154,7 @@ You can use popovers for small create or edit workflows that must remain in cont
 
 A popover may be used to reveal hidden content so the information is still accessible but doesn’t clutter the screen.
 
-In this instance, a popover is preferable to a [tooltip]({{site.baseurl}}/components/tooltip.html) if the content is dynamic or interactive. For example, when presenting the user with a table or visualization. 
+In this instance, a popover is preferable to a [tooltip]({{site.baseurl}}/components/tooltip.html) if the content is dynamic or interactive. For example, when presenting the user with a table or visualization.
 
 {% endcolumn %}
 
