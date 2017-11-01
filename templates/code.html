@@ -2,18 +2,35 @@
 layout: base
 ---
 
-<div id="comcode" class="container comcode-tab">
-  <div class="row">
-    <p>
-      {%- for item in site.component_design -%}
-        {%- if page.title == item.title -%}
+<div class="content-banner">
+    <div class="content-wrapper">
+        <div class="hxRow">
+            <div class="hxCol-8">
+                <div class="hxRow">
+                    <div class="hxCol">
+                        <h1 class="hxPageTitle">{{page.title}}</h1>
+                        <div class="component-blurb">{{page.usage}}</div>
+                    </div>
+                </div>
+            </div>
+            <div class="hxCol-4">
+                <img class="hero-image" src="{{site.cdn_url}}/img/{{page.preview-image}}" />
+            </div>
+        </div>
+    </div>
+</div>
+
+
+  <article class="content-wrapper">
+    <div class="com-code">
+      {% for item in site.component_design %}
+        {% if page.title == item.title %}
         <a href="{{site.url}}{{item.url}}.html">{{ item.title }}: Design</a>
         {%- endif -%}
       {%- endfor -%} |
       <a href="{{site.url}}{{page.url}}.html">{{ page.title }}: Code</a>
-    </p>
-  </div>
-</div>
-<article>
-  {{content}}
-</article>
+    </div>
+    <div class="component-content">
+    {{content}}
+    </div>
+  </article>
