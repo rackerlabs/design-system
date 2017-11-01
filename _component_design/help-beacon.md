@@ -32,7 +32,7 @@ A beacon is best used in the following scenarios:
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% figure [caption:"Example beacon lifecycle"] [class:"image bg-light border"] %}
+{% figure [caption:"Beacons will continually follow this life-cycle giving the impression of a pulse to draw user attention."] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/help/beacon/beacon-hero.svg){:width="80%"}
 {% endfigure %}
 {% endcolumn %}

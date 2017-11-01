@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="552px" height="183px" viewBox="0 0 552 183" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="242px" height="86px" viewBox="0 0 242 86" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
     <title>Artboard</title>
     <desc>Created with Sketch.</desc>
@@ -32,17 +32,8 @@
             <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0.6   0 0 0 0 0.6   0 0 0 0 0.6  0 0 0 0.251670063 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
-        <polygon id="path-9" points="454.444 -36.561198 445.265 -46 436.087 -36.561198 338 -36.561198 338 -17.6695915 338 0.69091372 338 214 488 214 488 -36.561198"></polygon>
-        <filter x="-4.3%" y="-1.4%" width="108.7%" height="105.1%" filterUnits="objectBoundingBox" id="filter-10">
-            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
-            <feOffset dx="0" dy="3" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
-        </filter>
-        <rect id="path-11" x="0" y="0" width="83" height="32" rx="2"></rect>
-        <circle id="path-12" cx="14.5588235" cy="14.5588235" r="6.61764706"></circle>
-        <filter x="-45.3%" y="-45.3%" width="190.7%" height="190.7%" filterUnits="objectBoundingBox" id="filter-13">
+        <circle id="path-9" cx="14.5588235" cy="14.5588235" r="6.61764706"></circle>
+        <filter x="-45.3%" y="-45.3%" width="190.7%" height="190.7%" filterUnits="objectBoundingBox" id="filter-10">
             <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
             <feOffset dx="0" dy="0" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="1" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
@@ -51,13 +42,13 @@
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Artboard">
-            <polygon id="Triangle" fill="#CFCFCF" points="85 52 75 57 75 47"></polygon>
-            <polygon id="Triangle-Copy" fill="#CFCFCF" points="176 52 166 57 166 47"></polygon>
-            <polygon id="Triangle-Copy-2" fill="#CFCFCF" points="277 52 267 57 267 47"></polygon>
-            <path d="M28.5,52 L78.9876222,52" id="Line" stroke="#CFCFCF" stroke-width="2" stroke-linecap="round"></path>
-            <path d="M119.5,52 L169.987622,52" id="Line-Copy" stroke="#CFCFCF" stroke-width="2" stroke-linecap="round"></path>
-            <path d="M220.5,52 L270.987622,52" id="Line-Copy-2" stroke="#CFCFCF" stroke-width="2" stroke-linecap="round"></path>
-            <g id="Beacon-/-Middle" transform="translate(85.000000, 37.000000)">
+            <polygon id="Triangle" fill="#CFCFCF" points="95 50 85 55 85 45"></polygon>
+            <polygon id="Triangle" fill="#CFCFCF" points="95 50 85 55 85 45"></polygon>
+            <polygon id="Triangle-Copy-2" fill="#CFCFCF" transform="translate(25.000000, 35.000000) rotate(-270.000000) translate(-25.000000, -35.000000) " points="30 35 20 40 20 30"></polygon>
+            <polygon id="Triangle-Copy" fill="#CFCFCF" points="186 50 176 55 176 45"></polygon>
+            <path d="M38.5,50 L88.9876222,50" id="Line" stroke="#CFCFCF" stroke-width="2" stroke-linecap="round"></path>
+            <path d="M129.5,50 L179.987622,50" id="Line-Copy" stroke="#CFCFCF" stroke-width="2" stroke-linecap="round"></path>
+            <g id="Beacon-/-Middle" transform="translate(95.000000, 35.000000)">
                 <g id="Oval-Copy">
                     <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
                     <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
@@ -67,7 +58,7 @@
                     <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
                 </g>
             </g>
-            <g id="Beacon-/-End" transform="translate(181.000000, 37.000000)">
+            <g id="Beacon-/-End" transform="translate(191.000000, 35.000000)">
                 <g id="Oval-Copy">
                     <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
                     <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
@@ -77,34 +68,14 @@
                     <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-7"></use>
                 </g>
             </g>
-            <g id="Fill-227-Copy-4" transform="translate(413.000000, 84.000000) rotate(-90.000000) translate(-413.000000, -84.000000) ">
-                <use fill="black" fill-opacity="1" filter="url(#filter-10)" xlink:href="#path-9"></use>
-                <use stroke="#E0E0E0" stroke-width="1" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-9"></use>
-            </g>
-            <text id="Popover-Label" font-family="Roboto-Regular, Roboto" font-size="20" font-weight="normal" line-spacing="24" fill="#333333">
-                <tspan x="308" y="37">Popover Label</tspan>
-            </text>
-            <g id="Button/Standard/Primary" transform="translate(308.000000, 113.000000)">
-                <rect id="Rectangle-2" fill="#0C7C84" fill-rule="evenodd" x="0" y="0" width="86" height="32" rx="2"></rect>
-                <text id="Button-Text" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" line-spacing="20" fill="#FFFFFF">
-                    <tspan x="25.394043" y="19">NEXT</tspan>
-                </text>
-            </g>
-            <g id="Button/Standard/Secondary" transform="translate(414.000000, 113.000000)">
-                <g id="Rectangle-2">
-                    <use fill-opacity="0" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-11"></use>
-                    <rect stroke="#0C7481" stroke-width="1" x="0.5" y="0.5" width="82" height="31" rx="2"></rect>
-                </g>
-                <text id="Button-Text" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" line-spacing="20" fill="#0C7481">
-                    <tspan x="14.1733398" y="19">DISMISS</tspan>
-                </text>
-            </g>
-            <g id="Beacon-/-Default" transform="translate(0.000000, 38.000000)">
+            <g id="Beacon-/-Default" transform="translate(10.000000, 36.000000)">
                 <g id="Oval">
-                    <use fill="black" fill-opacity="1" filter="url(#filter-13)" xlink:href="#path-12"></use>
-                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-12"></use>
+                    <use fill="black" fill-opacity="1" filter="url(#filter-10)" xlink:href="#path-9"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-9"></use>
                 </g>
             </g>
+            <path d="" id="Path-2" stroke="#979797"></path>
         </g>
+        <path d="M207.75679,30.4554347 C207.75679,28.1605064 207.75679,25.8574784 207.75679,23.5463507 C207.75679,21.235223 206.706522,20.0796591 204.605988,20.0796591 L29.2029263,20.0796591 C29.5363973,20.0796591 29.2714955,20.0796591 28.4082211,20.0796591 C27.1133093,20.0796591 25.0153716,21.1287181 25.0153716,23.5463507 C25.0153716,25.1581058 25.0153716,28.6590776 25.0153716,34.049266" id="Path-3" stroke="#CFCFCF" stroke-width="2"></path>
     </g>
 </svg>
