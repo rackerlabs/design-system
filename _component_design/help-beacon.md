@@ -14,31 +14,61 @@ last-modified: 2017-08-17
 
 {% include toc.html %}
 
-The beacon can be used to identify the location of new functionality or
-important features for first-time user.
 
--   Place the beacon to the right or left of navigation items, labels or
-    section headers.
+## Introduction
 
--   Use one beacon at a time.
+<div class="hxRow">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
--   Remove the beacon once it has been viewed.
+### When to use
 
--   Avoid using the beacon for warnings or alerts.
+A beacon is best used in the following scenarios:
 
--   Don't obsure text with a beacon.
+- Show when new products/features have been added to the control panel that improve existing functionality.
+- Show new users the location of commonly used features to aid them in getting started.
+- **Do not** use multiple beacons at one time.
+- **Do not** use the beacon to alert users of warnings or alerts.
 
-<div class="ws-beacons">
-  <div class="ws-beacon-con">
-    <p>Grey:</p>
-    <div class="ds-beacon-con"><span class="ds-beacon ds-tooltip-source temp-beacon" title="<h3 class='ds-tooltip-h3'>New Feature Title</h3><p class='ds-tooltip-p'>A very short explanation of the new feature and something about what it does.</p><div class='ds-btn-group-tooltip'><button class='ds-btn-sm ds-tooltip-btn' onclick='removeTooltips()' type='button'>Learn More</button><button class='ds-btn-sm-sec ds-tooltip-btn' onclick='removeTooltips()' type='button'>Cancel</button></div>"></span></div>
-  </div>
-  <div class="ws-beacon-con">
-    <p>Theme match:</p>
-    <div class="ds-beacon-con"><span class="ds-beacon-cyan ds-tooltip-source temp-beacon" title="<h3 class='ds-tooltip-h3'>New Feature Title</h3><p class='ds-tooltip-p'>A very short explanation of the new feature and something about what it does.</p><div class='ds-btn-group-tooltip'><button class='ds-btn-sm ds-tooltip-btn' onclick='removeTooltips()' type='button'>Learn More</button><button class='ds-btn-sm-sec ds-tooltip-btn' onclick='removeTooltips()' type='button'>Cancel</button></div>"></div>
-  </div>
-  <div class="ws-beacon-con">
-    <p>Theme complement:</p>
-    <div class="ds-beacon-con"><span class="ds-beacon-orange ds-tooltip-source temp-beacon" title="<h3 class='ds-tooltip-h3'>New Feature Title</h3><p class='ds-tooltip-p'>A very short explanation of the new feature and something about what it does.</p><div class='ds-btn-group-tooltip'><button class='ds-btn-sm ds-tooltip-btn' onclick='removeTooltips()' type='button'>Learn More</button><button class='ds-btn-sm-sec ds-tooltip-btn' onclick='removeTooltips()' type='button'>Cancel</button></div>"></div>
-  </div>
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [caption:"Example beacon lifecycle"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/help/beacon/beacon-hero.svg){:width="80%"}
+{% endfigure %}
+{% endcolumn %}
+
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### Best practice
+
+- Place the beacon next to (left or right) navigation items to show location and label.
+- Place the beacon next to labels or section headers.
+- Use the beacon in conjuction with the directional pop-over.
+- **Do not** use the beacon in leiu of UX best practices with regard to affordance.
+- **Do not** use other forms of notification to deliver the context such as automatic tool tips or directional pop-overs
+- **Do not** obscure the item of text label with the beacon.
+
+{% endcolumn %}
+
+</div>
+
+### Default layout
+
+<div class="hxRow">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+This example shows the multiple states for the beacon. The beacon will animate on a loop to catch the user’s eye. Once the beacon is clicked, it dissapears. The pop-over could generate another beacon to provide a tour experience for more advanced workflows or features.
+
+You can string beacons together, to create a tour experience. In this instance, only one at a time, and be sure you prioritize most important or impactful feature first. Each pop-over should
+provide an opt out at every step in the tour.
+
+Ideally we should track the clicks and drop offs so we can tweak the tour to be more useful and informative.
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [caption:"For full CSS specifications, view the developer documentation"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/help/beacon/beacon-specs.svg){:width="80%"}
+{% endfigure %}
+{% endcolumn %}
 </div>
