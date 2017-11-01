@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="305px" height="235px" viewBox="0 0 305 235" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Custom Preset</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Custom-Preset">
+            <text id="Loading…" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#333333">
+                <tspan x="103" y="101">Loading…</tspan>
+            </text>
+            <g id="specs-/-redlines-/-line-straight" transform="translate(108.000000, 117.500000) rotate(-90.000000) translate(-108.000000, -117.500000) translate(90.500000, 112.500000)" stroke="#EC3F7A">
+                <path d="M10,3 L34.5,3" id="Stroke-8"></path>
+                <path d="M5.00099983,0 C7.76299974,0 10.0009997,2.239 9.99999967,5 C9.99999967,7.762 7.76199974,10 4.99999983,10 C2.23799993,10 0,7.761 0,5 C0.000999999967,2.238 2.23899992,0 5.00099983,0" id="Path" fill-opacity="0.3" fill="#F03F7B"></path>
+            </g>
+            <g id="Group-17" transform="translate(115.000000, 123.000000)" font-size="12" font-family="Roboto-Regular, Roboto" fill="#EC407A" font-weight="normal">
+                <g id="specs-/-redlines-/-label-copy-4">
+                    <text id="redline-label">
+                        <tspan x="0" y="11">16px Roboto Regular,</tspan>
+                        <tspan x="0" y="25">#333333 (gray 950)</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

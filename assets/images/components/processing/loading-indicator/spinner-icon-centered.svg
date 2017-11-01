@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="305px" height="235px" viewBox="0 0 305 235" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Custom Preset</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Custom-Preset">
+            <g id="Loading/Circle/Indeterminate-6" transform="translate(132.000000, 99.000000)" fill="#9E9E9E">
+                <path d="M27.0084,30.4974 C20.8184,34.6794 12.3394,34.0334 6.8604,28.5544 C0.6454,22.3394 0.6454,12.2634 6.8604,6.0484 C13.0754,-0.1666 23.1514,-0.1666 29.3664,6.0484 C33.2354,9.9174 34.6944,15.2814 33.7464,20.2794 L35.0884,20.5264 C36.1134,15.1024 34.5294,9.2814 30.3314,5.0844 C23.5834,-1.6636 12.6434,-1.6636 5.8954,5.0834 C-0.8516,11.8314 -0.8516,22.7714 5.8954,29.5194 C11.8474,35.4704 21.0584,36.1694 27.7794,31.6224 L27.0084,30.4974 Z" id="Fill-22"></path>
+            </g>
+            <rect id="Rectangle-4" stroke="#E0E0E0" x="100.5" y="67.5" width="99" height="99"></rect>
+            <g id="specs-/-redlines-/-line-straight" transform="translate(150.500000, 84.000000) rotate(-270.000000) translate(-150.500000, -84.000000) translate(134.500000, 82.500000)" stroke="#EC3F7A">
+                <path d="M0.484848485,2 L31.5151515,2" id="Stroke-8"></path>
+            </g>
+            <g id="specs-/-redlines-/-line-straight" transform="translate(116.000000, 115.500000) rotate(-360.000000) translate(-116.000000, -115.500000) translate(100.000000, 114.000000)" stroke="#EC3F7A">
+                <path d="M0.484848485,2 L31.5151515,2" id="Stroke-8"></path>
+            </g>
+            <g id="specs-/-redlines-/-line-straight" transform="translate(184.000000, 115.500000) rotate(-360.000000) translate(-184.000000, -115.500000) translate(168.000000, 114.000000)" stroke="#EC3F7A">
+                <path d="M0.484848485,2 L31.5151515,2" id="Stroke-8"></path>
+            </g>
+            <g id="specs-/-redlines-/-line-straight" transform="translate(150.500000, 150.500000) rotate(-270.000000) translate(-150.500000, -150.500000) translate(134.000000, 149.000000)" stroke="#EC3F7A">
+                <path d="M0.5,2 L32.5,2" id="Stroke-8"></path>
+            </g>
+        </g>
+    </g>
+</svg>
