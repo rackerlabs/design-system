@@ -2,7 +2,7 @@
 title: Editor Test
 layout: code
 category: Components Code
-collection: component_code
+code: null
 ---
 
 {% include todo.html content="Set up code." %}

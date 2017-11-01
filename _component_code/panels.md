@@ -1,15 +1,8 @@
 ---
 title: Panels
-parent: Content Areas
-layout: component
-category: Components
-usage: null
-preview-image: components/preview-help.svg
-status: unknown
-resource: false
-last-modified: 2017-08-17
+layout: code
+category: Components Code
+code: null
 ---
 
-{% include toc.html %}
-
-<!-- unknown -->
+{% include todo.html content="Set up code." %}
