@@ -29,8 +29,95 @@ last-modified: 2017-11-01
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
-{% figure [caption:"Default text input style"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/text-inputs/text-inputs-hero-image.svg)
+{% figure [caption:"Meet the Modal"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/content-areas/modal/modal-hero-image.svg)
+{% endfigure %}
+
+{% endcolumn %}
+</div>
+
+## Specifications
+
+<div class="hxRow">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### Spacing
+ * Minimum width is 400px.
+ * Minimum height is 200px.
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
+{% figure [caption:"Modal spacing and layout"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/content-areas/modal/modal-spacing.svg)
+{% endfigure %}
+
+{% endcolumn %}
+</div>
+
+<div class="hxRow">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### Style
+The modal should appear vertically and horizontally centered in the browser window.
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
+{% figure [caption:"Modal Style"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/content-areas/modal/modal-specifications.svg)
+{% endfigure %}
+
+{% endcolumn %}
+</div>
+
+<div class="hxRow">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### Loading
+A simple loading circle should be used to load a popover. The loading circle should be horizontally and vertically centered.
+
+Refer to the [Loading pattern]({{site.url}}/components/loading.html) for more detailed specifications.
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
+{% figure [caption:"Loading indicator for the modal"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/content-areas/modal/modal-loading.svg)
+{% endfigure %}
+
+{% endcolumn %}
+</div>
+
+<div class="hxRow">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### Use Case: Confirmation
+Confirmation modals interrupt the user before they complete a given workflow and should only require a single decision of the user.
+
+The modal is triggered by the user submiting information or initiating a process that will have significant or destructive impact.
+
+**Confirmation scenarios:**
+
+ * Deleting or overwriting data
+ * Loss of unsaved data
+ * Changes that will impact billing 
+
+**All confirmation modals include the following:**
+
+ * A heading that identies the destructive process or the action required to proceed
+ * Messaging that clearly describes the impact of proceeding with the workflow
+ * Confirm and cancel buttons so the user can proceed or cancel the action
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
+{% figure [caption:"Confirmation modal"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/content-areas/modal/modal-use-case-confirmations.svg)
 {% endfigure %}
 
 {% endcolumn %}
