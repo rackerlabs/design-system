@@ -1,8 +1,8 @@
 ---
-title: Checkboxes
+title: Breadcrumbs
 layout: code
 category: Components Code
-code: checkbox
+code: breadcrumb
 ---
 
 {% include code-container.html %}

@@ -8,14 +8,18 @@ layout: base
             <div class="hxCol-8">
                 <div class="hxRow">
                     <div class="hxCol">
-                        <h1 class="hxPageTitle">{{page.title}}</h1>
-                        <div class="component-blurb">{{page.usage}}</div>
+                      {% for item in site.component_design %}
+                        {% if page.title == item.title %}
+                          <h1 class="hxPageTitle">{{item.title}}</h1>
+                          <div class="component-blurb">{{item.usage}}</div>
                     </div>
                 </div>
             </div>
             <div class="hxCol-4">
-                <img class="hero-image" src="{{site.cdn_url}}/img/{{page.preview-image}}" />
+                <img class="hero-image" src="{{site.cdn_url}}/img/{{item.preview-image}}" />
             </div>
+            {% endif %}
+          {% endfor %}
         </div>
     </div>
 </div>
@@ -25,10 +29,10 @@ layout: base
     <div class="com-code">
       {% for item in site.component_design %}
         {% if page.title == item.title %}
-        <a href="{{site.url}}{{item.url}}.html">{{ item.title }}: Design</a>
-        {%- endif -%}
-      {%- endfor -%} |
-      <a href="{{site.url}}{{page.url}}.html">{{ page.title }}: Code</a>
+        <a href="{{site.url}}{{item.url}}.html">Design Guidelines</a>
+        {% endif %}
+      {% endfor %} |
+      <a href="#">Code &amp; Examples</a>
     </div>
     <div class="component-content">
     {{content}}
