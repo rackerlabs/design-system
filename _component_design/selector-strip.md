@@ -21,7 +21,7 @@ last-modified: 2017-10-29
 
 ### When to use
 
-Use a selector strip when you have a small group of options the user must select from. Selector strips can be functionally identical to radio buttons or check boxes (single-select or multi-select), but are typically used instead of those patterns in situations where the selection effects the rest of the page, alters the data on the page, or where the designer would like to give more visual prominence to the group of options.
+Use a selector strip on forms requiring a user to select from a small group of action. Selector strips function similarly to [radio buttons]({{site.baseurl}}/components/radio-buttons.html) or [check-boxes]({{site.baseurl}}/components/checkboxes.html) depending on the variation used; single-select or multi-select. Selector strips are best used in situations where the selection alters the data options presented on the page, or when seeking to more visual prominence to group of options.
 
 {% endcolumn %}
 
@@ -34,6 +34,7 @@ Use a selector strip when you have a small group of options the user must select
 ### Best practice
 
 Selector strips function best when:
+
 - The labels inside the strip are short (1-3 words long max) so the number of options can fit horizontally on a small screen.
 - checkboxes or radio buttons do not make sense visually.
 - the options are important to the rest of user’s workflow and deserve a more prominent visual treatment. 	
@@ -52,27 +53,49 @@ Selector strips function best when:
 
 <div class="hxRow">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
 The default layout has two main styles: Single-Select and Multi-Select. In both layouts the unselected options have a white background with cyan text & selected options have a cyan background with white text. 
+
+{% endcolumn %}
+
+</div>
+
+<div class="hxRow">
+
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Single-Select 
 
 Single-select selector strips have rounded corners & function like a radio button; only one option can be selected at a time. Selecting another option deselects the previously selected option. Single select always starts with one option selected. There are no alternative focus states on single select, because you cannot focus an item without selecting it.
 
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [caption:"Selector strip build specifications"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/inputs-and-controls/selector-strip/select-strip-single.svg)
+{% endfigure %}
+{% endcolumn %}
+
+</div>
+
+<div class="hxRow">
+
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
 ### Multi-Select
 
 Multi-select selector strips have more squared edges and function like checkboxes so more than one option can be selected at a time. The primary use case for mult-select is selecting days of the week.
+
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Selector strip build specifications"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/selector-strip/select-strip-default.svg)
+![]({{site.url}}/assets/images/components/inputs-and-controls/selector-strip/select-strip-multi.svg)
 {% endfigure %}
 {% endcolumn %}
-
-
+	
 </div>
 
 ## States
