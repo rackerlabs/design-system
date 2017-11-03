@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="634px" height="933px" viewBox="0 0 634 933" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>search-states</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M11,637 L265.940007,637 L540,637 L540,637 C541.104569,637 542,637.895431 542,639 L542,667 L542,667 C542,668.104569 541.104569,669 540,669 L497.402395,669 L11,669 L11,669 C9.8954305,669 9,668.104569 9,667 L9,639 L9,639 C9,637.895431 9.8954305,637 11,637 Z" id="path-1"></path>
+        <path d="M9.5,818 L264.440007,818 L538.5,818 L538.5,818 C539.604569,818 540.5,818.895431 540.5,820 L540.5,848 L540.5,848 C540.5,849.104569 539.604569,850 538.5,850 L9.5,850 L9.5,850 C8.3954305,850 7.5,849.104569 7.5,848 L7.5,820 L7.5,820 C7.5,818.895431 8.3954305,818 9.5,818 Z" id="path-2"></path>
+        <filter x="-1.1%" y="-18.8%" width="102.3%" height="137.5%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.82745098   0 0 0 0 0.184313725   0 0 0 0 0.184313725  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M9.5,637 L264.440007,637 L538.5,637 L538.5,637 C539.604569,637 540.5,637.895431 540.5,639 L540.5,667 L540.5,667 C540.5,668.104569 539.604569,669 538.5,669 L495.902395,669 L9.5,669 L9.5,669 C8.3954305,669 7.5,668.104569 7.5,667 L7.5,639 L7.5,639 C7.5,637.895431 8.3954305,637 9.5,637 Z" id="path-4"></path>
+        <rect id="path-5" x="7.5" y="217" width="533" height="32" rx="2"></rect>
+        <filter x="-1.2%" y="-17.2%" width="102.4%" height="140.6%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.0549019608   0 0 0 0 0.580392157   0 0 0 0 0.650980392  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="search-states">
+            <g id="States-Overview" transform="translate(23.000000, 25.000000)">
+                <g id="specs-/-spacing-/-external-/-H-04px" transform="translate(8.000000, 665.000000)">
+                    <rect id="Rectangle-3-Copy-26" fill="#F977A2" fill-rule="evenodd" x="0" y="4" width="533" height="4"></rect>
+                    <text id="4-copy-2" font-family="Roboto-Regular, Roboto" font-size="8" font-weight="normal" fill="#000000">
+                        <tspan x="238.447368" y="7">4</tspan>
+                    </text>
+                </g>
+                <text id="Input" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#616161">
+                    <tspan x="44" y="657">Input</tspan>
+                </text>
+                <g id="Rectangle-4">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <path stroke="#D32F2F" stroke-width="2" d="M11,638 C10.4477153,638 10,638.447715 10,639 L10,667 C10,667.552285 10.4477153,668 11,668 L540,668 C540.552285,668 541,667.552285 541,667 L541,639 C541,638.447715 540.552285,638 540,638 L11,638 Z"></path>
+                </g>
+                <g id="Icons/Close" transform="translate(518.000000, 647.000000)" fill="#757575">
+                    <polygon id="Fill-270" points="12.322725 0.890088423 11.3483366 -0.0843 6.322725 4.94131158 1.29711342 -0.0843 0.322725 0.890088423 5.34833658 5.9157 0.322725 10.9413116 1.29711342 11.9157 6.322725 6.89008842 11.3483366 11.9157 12.322725 10.9413116 7.29711342 5.9157"></polygon>
+                </g>
+                <g id="Icons/Search" transform="translate(20.000000, 645.000000)" fill="#757575">
+                    <g id="search">
+                        <g id="Layer_1" fill-rule="nonzero">
+                            <path d="M15.9,14.6 L11.4,10.1 C12.2,9 12.7,7.7 12.7,6.3 C12.7,2.8 9.8,0 6.4,0 C2.9,0 0.1,2.8 0.1,6.3 C0.1,9.8 2.9,12.6 6.4,12.6 C7.7,12.6 9,12.2 10,11.5 L14.5,16 L15.9,14.6 Z M2.1,6.3 C2.1,3.9 4,2 6.4,2 C8.8,2 10.7,3.9 10.7,6.3 C10.7,8.7 8.8,10.6 6.4,10.6 C4,10.6 2.1,8.7 2.1,6.3 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+                <text id="Error-Message" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#D32F2F">
+                    <tspan x="10" y="682">Error Message</tspan>
+                </text>
+                <g id="Rectangle-4">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    <path stroke="#D32F2F" stroke-width="2" d="M9.5,819 C8.94771525,819 8.5,819.447715 8.5,820 L8.5,848 C8.5,848.552285 8.94771525,849 9.5,849 L538.5,849 C539.052285,849 539.5,848.552285 539.5,848 L539.5,820 C539.5,819.447715 539.052285,819 538.5,819 L9.5,819 Z"></path>
+                </g>
+                <text id="Error-message" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#D32F2F">
+                    <tspan x="7" y="865">Error message</tspan>
+                </text>
+                <text id="Input-search-term" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#424242">
+                    <tspan x="39.5" y="838.5">Input search term</tspan>
+                </text>
+                <g id="specs-/-redlines-/-line-straight" transform="translate(73.000000, 908.000000) rotate(-270.000000) translate(-73.000000, -908.000000) translate(72.000000, 907.000000)" stroke="#979797">
+                    <path d="" id="Path-3"></path>
+                </g>
+                <g id="Group" transform="translate(351.000000, 741.000000)">
+                    <text id="Error-Shadow---Color" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" line-spacing="14" fill="#EC407A">
+                        <tspan x="15" y="11">Error Shadow -</tspan>
+                        <tspan x="15" y="25">Color: #d32f2f (red 900) </tspan>
+                        <tspan x="15" y="39">X: 0  Y: 0  Blur: 4  Spread: 0</tspan>
+                        <tspan x="15" y="53">Opacity: 50%</tspan>
+                    </text>
+                    <g id="specs-/-redlines-/-line-straight" transform="translate(5.500000, 42.000000) scale(1, -1) rotate(-90.000000) translate(-5.500000, -42.000000) translate(-30.500000, 37.000000)">
+                        <path d="M10.5,5 L71.5047166,5" id="Stroke-8" stroke="#EC3F7A"></path>
+                        <path d="M5.00099983,0 C7.76299974,0 10.0009997,2.239 9.99999967,5 C9.99999967,7.762 7.76199974,10 4.99999983,10 C2.23799993,10 0,7.761 0,5 C0.000999999967,2.238 2.23899992,0 5.00099983,0" id="Path" stroke="#EC3F7A" fill-opacity="0.3" fill="#F03F7B"></path>
+                        <path d="" id="Path-3" stroke="#979797"></path>
+                    </g>
+                </g>
+                <text id="Error-Message-Text--" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" line-spacing="14" fill="#EC407A">
+                    <tspan x="143" y="688">Error Message Text -</tspan>
+                    <tspan x="143" y="702">Font: Roboto Regular, 12px</tspan>
+                    <tspan x="143" y="716">Color: #d32f2f (red 900)</tspan>
+                </text>
+                <g id="Rectangle-4">
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-4"></use>
+                    <path stroke="#D32F2F" stroke-width="2" d="M9.5,638 C8.94771525,638 8.5,638.447715 8.5,639 L8.5,667 C8.5,667.552285 8.94771525,668 9.5,668 L538.5,668 C539.052285,668 539.5,667.552285 539.5,667 L539.5,639 C539.5,638.447715 539.052285,638 538.5,638 L9.5,638 Z"></path>
+                </g>
+                <g id="specs-/-redlines-/--measurement-/-vertical" transform="translate(543.000000, 63.000000)">
+                    <text id="label" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" line-spacing="19" fill="#EC407A">
+                        <tspan x="13" y="18">32px</tspan>
+                    </text>
+                    <g id="specs-/-redlines-/-curly-brace" stroke="#EC407A">
+                        <path d="M0,0.105960265 C9.96024792,0.105960265 0.0321649925,16 10,16" id="Path-2"></path>
+                        <path d="M0,16 C9.96024792,16 0.0321649925,31.8940397 10,31.8940397" id="Path-2-Copy" transform="translate(5.000000, 23.947020) scale(1, -1) translate(-5.000000, -23.947020) "></path>
+                    </g>
+                </g>
+                <text id="Idle-&amp;-Empty" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" line-spacing="19" fill="#666666">
+                    <tspan x="11" y="23">Idle &amp; Empty</tspan>
+                </text>
+                <path d="M10.7699387,95 C8.96329755,95 7.5,94.0442667 7.5,92.8666667 L7.5,65.1333333 C7.5,63.9557333 8.96329755,63 10.7699387,63 L537.230061,63 C539.036702,63 540.5,63.9557333 540.5,65.1333333 L540.5,92.8666667 C540.5,94.0442667 539.036702,95 537.230061,95 L10.7699387,95 Z" id="Stroke-6" stroke="#BDBDBD"></path>
+                <text id="Search-Bar---Border:" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" line-spacing="14" fill="#EC407A">
+                    <tspan x="208" y="11">Search Bar -</tspan>
+                    <tspan x="208" y="25">Border: 1px, solid, #bdbdbd (gray 500)</tspan>
+                    <tspan x="208" y="39">Border-radius: 2px</tspan>
+                    <tspan x="208" y="53">Background: #ffffff (gray 0)</tspan>
+                </text>
+                <g id="specs-/-redlines-/-line-straight" transform="translate(193.500000, 33.000000) scale(1, -1) rotate(-270.000000) translate(-193.500000, -33.000000) translate(164.000000, 25.000000)">
+                    <path d="M0,14 L55.8492242,14" id="Stroke-8" stroke="#EC3F7A"></path>
+                    <path d="" id="Path-3" stroke="#979797"></path>
+                    <path d="M55.8392857,14.5 L55.8392857,0.5" id="Path-4" stroke="#EC3F7A"></path>
+                </g>
+                <g id="Icons/Search" transform="translate(17.000000, 71.000000)" fill="#757575">
+                    <g id="search">
+                        <g id="Layer_1" fill-rule="nonzero">
+                            <path d="M15.9,14.6 L11.4,10.1 C12.2,9 12.7,7.7 12.7,6.3 C12.7,2.8 9.8,0 6.4,0 C2.9,0 0.1,2.8 0.1,6.3 C0.1,9.8 2.9,12.6 6.4,12.6 C7.7,12.6 9,12.2 10,11.5 L14.5,16 L15.9,14.6 Z M2.1,6.3 C2.1,3.9 4,2 6.4,2 C8.8,2 10.7,3.9 10.7,6.3 C10.7,8.7 8.8,10.6 6.4,10.6 C4,10.6 2.1,8.7 2.1,6.3 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+                <text id="Focused" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" line-spacing="19" fill="#666666">
+                    <tspan x="11" y="177">Focused</tspan>
+                </text>
+                <g id="Icons/Close" transform="translate(518.000000, 647.000000)" fill="#757575">
+                    <polygon id="Fill-270" points="12.322725 0.890088423 11.3483366 -0.0843 6.322725 4.94131158 1.29711342 -0.0843 0.322725 0.890088423 5.34833658 5.9157 0.322725 10.9413116 1.29711342 11.9157 6.322725 6.89008842 11.3483366 11.9157 12.322725 10.9413116 7.29711342 5.9157"></polygon>
+                </g>
+                <g id="Icons/Close" transform="translate(518.000000, 827.500000)" fill="#757575">
+                    <polygon id="Fill-270" points="12.322725 0.890088423 11.3483366 -0.0843 6.322725 4.94131158 1.29711342 -0.0843 0.322725 0.890088423 5.34833658 5.9157 0.322725 10.9413116 1.29711342 11.9157 6.322725 6.89008842 11.3483366 11.9157 12.322725 10.9413116 7.29711342 5.9157"></polygon>
+                </g>
+                <text id="Search…" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#6B6B6B">
+                    <tspan x="40.5" y="83.5">Search…</tspan>
+                </text>
+                <g id="Rectangle-4">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+                    <rect stroke="#0E94A6" stroke-width="1" x="8" y="217.5" width="532" height="31" rx="2"></rect>
+                </g>
+                <text id="l" font-family="Roboto-Thin, Roboto" font-size="26" font-style="condensed" font-weight="300" fill="#000000">
+                    <tspan x="39.5" y="240">l</tspan>
+                </text>
+                <g id="Icons/Search" transform="translate(17.000000, 224.500000)" fill="#757575">
+                    <g id="search">
+                        <g id="Layer_1" fill-rule="nonzero">
+                            <path d="M15.9,14.6 L11.4,10.1 C12.2,9 12.7,7.7 12.7,6.3 C12.7,2.8 9.8,0 6.4,0 C2.9,0 0.1,2.8 0.1,6.3 C0.1,9.8 2.9,12.6 6.4,12.6 C7.7,12.6 9,12.2 10,11.5 L14.5,16 L15.9,14.6 Z M2.1,6.3 C2.1,3.9 4,2 6.4,2 C8.8,2 10.7,3.9 10.7,6.3 C10.7,8.7 8.8,10.6 6.4,10.6 C4,10.6 2.1,8.7 2.1,6.3 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+                <text id="Focused-Shadow---Col" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" line-spacing="14" fill="#EC407A">
+                    <tspan x="397" y="155">Focused Shadow -</tspan>
+                    <tspan x="397" y="169">Color: #0e94a6 (cyan 700) </tspan>
+                    <tspan x="397" y="183">X: 0  Y: 0  Blur: 4  Spread: 0</tspan>
+                    <tspan x="397" y="197">Opacity: 50%</tspan>
+                </text>
+                <g id="specs-/-redlines-/-line-straight" transform="translate(386.500000, 184.500000) rotate(-90.000000) translate(-386.500000, -184.500000) translate(354.000000, 178.000000)">
+                    <path d="M0.524193548,2 L64.4807512,2" id="Stroke-8" stroke="#EC3F7A"></path>
+                    <path d="" id="Path-3" stroke="#979797"></path>
+                    <path d="M63.8758506,2.32740223 L63.8758506,12.3274022" id="Path-4" stroke="#EC3F7A"></path>
+                </g>
+                <text id="Idle-&amp;-Filled" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" line-spacing="19" fill="#666666">
+                    <tspan x="11" y="312">Idle &amp; Filled</tspan>
+                </text>
+                <path d="M53,458 L53,490 L53,458 Z" id="Path-2" stroke="#EC407A" transform="translate(53.500000, 474.000000) scale(-1, 1) translate(-53.500000, -474.000000) "></path>
+                <text id="Input-Text---Font:-R" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" line-spacing="14" fill="#EC407A">
+                    <tspan x="179" y="349.5">Input Text -</tspan>
+                    <tspan x="179" y="363.5">Font: Roboto Regular, 16px</tspan>
+                    <tspan x="179" y="377.5">Color: #424242 (gray 900)</tspan>
+                </text>
+                <text id="Search-Bar---Border:" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" line-spacing="14" fill="#EC407A">
+                    <tspan x="60" y="491">Search Bar -</tspan>
+                    <tspan x="60" y="505">Border: 1px, solid, #bdbdbd (gray 500)</tspan>
+                    <tspan x="60" y="519">Border-radius: 2px</tspan>
+                    <tspan x="60" y="533">Background: #ffffff (gray 0)</tspan>
+                </text>
+                <polyline id="Path-2" stroke="#EC407A" transform="translate(178.500000, 412.500000) scale(-1, -1) translate(-178.500000, -412.500000) " points="183 382 174 382 174 443"></polyline>
+                <text id="Placeholder-Text---F" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" line-spacing="14" fill="#EC407A">
+                    <tspan x="108" y="143">Placeholder Text -</tspan>
+                    <tspan x="108" y="157">Font: Roboto Regular, 16px</tspan>
+                    <tspan x="108" y="171">Color: #6B6B6B (gray 750)</tspan>
+                </text>
+                <polyline id="Path-2" stroke="#EC407A" transform="translate(112.500000, 206.500000) scale(-1, -1) translate(-112.500000, -206.500000) " points="117 176 108 176 108 237"></polyline>
+                <polyline id="Path-2" stroke="#EC407A" transform="translate(94.500000, 692.500000) scale(-1, -1) rotate(-270.000000) translate(-94.500000, -692.500000) " points="99 662 90 662 90 723"></polyline>
+                <text id="Close-Icon---Size:-1" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" line-spacing="14" fill="#EC407A">
+                    <tspan x="464" y="346.5">Close Icon -</tspan>
+                    <tspan x="464" y="360.5">Size: 12x12 px</tspan>
+                    <tspan x="464" y="374.5">Color: #757575 (gray 700)</tspan>
+                </text>
+                <polyline id="Path-2" stroke="#EC407A" transform="translate(500.000000, 411.500000) scale(1, -1) translate(-500.000000, -411.500000) " points="508 381 492 381 492 442"></polyline>
+                <text id="Search-Icon---Size:" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" line-spacing="14" fill="#EC407A">
+                    <tspan x="10.5" y="353">Search Icon -</tspan>
+                    <tspan x="10.5" y="367">Size: 16x16 px</tspan>
+                    <tspan x="10.5" y="381">Color: #757575 (gray 700)</tspan>
+                </text>
+                <polyline id="Path-2" stroke="#EC407A" transform="translate(8.000000, 411.500000) scale(1, -1) translate(-8.000000, -411.500000) " points="16 381 0 381 0 442"></polyline>
+                <text id="Error-&amp;-Focused" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" line-spacing="19" fill="#666666">
+                    <tspan x="11" y="784">Error &amp; Focused</tspan>
+                </text>
+                <text id="Error" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" line-spacing="19" fill="#666666">
+                    <tspan x="11" y="608">Error</tspan>
+                </text>
+                <g id="Icons/Search" transform="translate(17.000000, 645.000000)" fill="#757575">
+                    <g id="search">
+                        <g id="Layer_1" fill-rule="nonzero">
+                            <path d="M15.9,14.6 L11.4,10.1 C12.2,9 12.7,7.7 12.7,6.3 C12.7,2.8 9.8,0 6.4,0 C2.9,0 0.1,2.8 0.1,6.3 C0.1,9.8 2.9,12.6 6.4,12.6 C7.7,12.6 9,12.2 10,11.5 L14.5,16 L15.9,14.6 Z M2.1,6.3 C2.1,3.9 4,2 6.4,2 C8.8,2 10.7,3.9 10.7,6.3 C10.7,8.7 8.8,10.6 6.4,10.6 C4,10.6 2.1,8.7 2.1,6.3 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+                <g id="Icons/Search" transform="translate(17.000000, 825.000000)" fill="#757575">
+                    <g id="search">
+                        <g id="Layer_1" fill-rule="nonzero">
+                            <path d="M15.9,14.6 L11.4,10.1 C12.2,9 12.7,7.7 12.7,6.3 C12.7,2.8 9.8,0 6.4,0 C2.9,0 0.1,2.8 0.1,6.3 C0.1,9.8 2.9,12.6 6.4,12.6 C7.7,12.6 9,12.2 10,11.5 L14.5,16 L15.9,14.6 Z M2.1,6.3 C2.1,3.9 4,2 6.4,2 C8.8,2 10.7,3.9 10.7,6.3 C10.7,8.7 8.8,10.6 6.4,10.6 C4,10.6 2.1,8.7 2.1,6.3 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+                <text id="Error-Input-Box---Bo" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" line-spacing="14" fill="#EC407A">
+                    <tspan x="339" y="556">Error Input Box -</tspan>
+                    <tspan x="339" y="570">Border: 2px, solid, #d32f2f (red 900)</tspan>
+                    <tspan x="339" y="584">Border-radius: 2px</tspan>
+                    <tspan x="339" y="598">Background: #ffffff (gray 0)</tspan>
+                </text>
+                <g id="specs-/-redlines-/-line-straight" transform="translate(259.500000, 654.500000) scale(1, -1) rotate(-90.000000) translate(-259.500000, -654.500000) translate(212.000000, 520.000000)">
+                    <path d="M10,264 L32.5,264" id="Stroke-8" stroke="#EC3F7A"></path>
+                    <path d="M5.00099983,259 C7.76299974,259 10.0009997,261.239 9.99999967,264 C9.99999967,266.762 7.76199974,269 4.99999983,269 C2.23799993,269 0,266.761 0,264 C0.000999999967,261.238 2.23899992,259 5.00099983,259" id="Path" stroke="#EC3F7A" fill-opacity="0.3" fill="#F03F7B"></path>
+                    <path d="M90.0009998,0 C92.7629997,0 95.0009997,2.239 94.9999997,5 C94.9999997,7.762 92.7619997,10 89.9999998,10 C87.2379999,10 85,7.761 85,5 C85.001,2.238 87.2389999,0 90.0009998,0" id="Path" stroke="#EC3F7A" fill-opacity="0.3" fill="#F03F7B"></path>
+                    <path d="" id="Path-3" stroke="#979797"></path>
+                </g>
+                <text id="Search…" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#6B6B6B">
+                    <tspan x="42" y="237.5">Search…</tspan>
+                </text>
+                <g id="Group-7" transform="translate(7.000000, 425.000000)">
+                    <path d="M3.76993865,32 C1.96329755,32 0.5,31.0442667 0.5,29.8666667 L0.5,2.13333333 C0.5,0.955733333 1.96329755,0 3.76993865,0 L530.230061,0 C532.036702,0 533.5,0.955733333 533.5,2.13333333 L533.5,29.8666667 C533.5,31.0442667 532.036702,32 530.230061,32 L3.76993865,32 Z" id="Stroke-6" stroke="#BDBDBD"></path>
+                    <text id="Input-search-term" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#424242">
+                        <tspan x="33" y="20.5">Input search term</tspan>
+                    </text>
+                    <g id="Icons/Search" transform="translate(10.000000, 8.000000)" fill="#757575">
+                        <g id="search">
+                            <g id="Layer_1" fill-rule="nonzero">
+                                <path d="M15.9,14.6 L11.4,10.1 C12.2,9 12.7,7.7 12.7,6.3 C12.7,2.8 9.8,0 6.4,0 C2.9,0 0.1,2.8 0.1,6.3 C0.1,9.8 2.9,12.6 6.4,12.6 C7.7,12.6 9,12.2 10,11.5 L14.5,16 L15.9,14.6 Z M2.1,6.3 C2.1,3.9 4,2 6.4,2 C8.8,2 10.7,3.9 10.7,6.3 C10.7,8.7 8.8,10.6 6.4,10.6 C4,10.6 2.1,8.7 2.1,6.3 Z" id="Shape"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Icons/Close" transform="translate(505.000000, 10.000000)" fill="#757575">
+                        <polygon id="Fill-270" points="12.322725 0.890088423 11.3483366 -0.0843 6.322725 4.94131158 1.29711342 -0.0843 0.322725 0.890088423 5.34833658 5.9157 0.322725 10.9413116 1.29711342 11.9157 6.322725 6.89008842 11.3483366 11.9157 12.322725 10.9413116 7.29711342 5.9157"></polygon>
+                    </g>
+                </g>
+                <text id="Input-search-term" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#424242">
+                    <tspan x="39.5" y="657.5">Input search term</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
