@@ -64,9 +64,9 @@
                                 <rect stroke="#E0E0E0" stroke-width="1" x="0.5" y="0.5" width="115" height="76"></rect>
                             </g>
                             <text id="Action-1-Action-2-Ac" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#0D74D1">
-                                <tspan x="13" y="22">Action 1</tspan>
-                                <tspan x="13" y="38">Action 2</tspan>
-                                <tspan x="13" y="54">Action 3</tspan>
+                                <tspan x="13" y="26">Action 1</tspan>
+                                <tspan x="13" y="42">Action 2</tspan>
+                                <tspan x="13" y="58">Action 3</tspan>
                             </text>
                         </g>
                     </g>
@@ -97,9 +97,9 @@
                                 <rect stroke="#E0E0E0" stroke-width="1" x="0.5" y="0.5" width="115" height="76"></rect>
                             </g>
                             <text id="Action-1-Action-2-Ac" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#0D74D1">
-                                <tspan x="13" y="22">Action 1</tspan>
-                                <tspan x="13" y="38">Action 2</tspan>
-                                <tspan x="13" y="54">Action 3</tspan>
+                                <tspan x="13" y="26">Action 1</tspan>
+                                <tspan x="13" y="42">Action 2</tspan>
+                                <tspan x="13" y="58">Action 3</tspan>
                             </text>
                         </g>
                     </g>
@@ -117,9 +117,9 @@
                             <rect stroke="#E0E0E0" stroke-width="1" x="0.5" y="0.5" width="132" height="76"></rect>
                         </g>
                         <text id="Action-1-Action-2-Ac" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#0D74D1">
-                            <tspan x="13" y="22">Action 1</tspan>
-                            <tspan x="13" y="38">Action 2</tspan>
-                            <tspan x="13" y="54">Action 3</tspan>
+                            <tspan x="13" y="26">Action 1</tspan>
+                            <tspan x="13" y="42">Action 2</tspan>
+                            <tspan x="13" y="58">Action 3</tspan>
                         </text>
                     </g>
                     <g id="button" transform="translate(1.000000, 0.000000)">
@@ -181,9 +181,9 @@
                             <rect stroke="#E0E0E0" stroke-width="1" x="0.5" y="0.5" width="132" height="75"></rect>
                         </g>
                         <text id="Action-1-Action-2-Ac" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#0D74D1">
-                            <tspan x="13" y="21">Action 1</tspan>
-                            <tspan x="13" y="37">Action 2</tspan>
-                            <tspan x="13" y="53">Action 3</tspan>
+                            <tspan x="13" y="26">Action 1</tspan>
+                            <tspan x="13" y="42">Action 2</tspan>
+                            <tspan x="13" y="58">Action 3</tspan>
                         </text>
                     </g>
                     <g id="button">
@@ -344,9 +344,9 @@
                             <tspan x="13" y="25">TITLE</tspan>
                         </text>
                         <text id="Action-1-Action-2-Ac" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#0D74D1">
-                            <tspan x="13" y="43">Action 1</tspan>
-                            <tspan x="13" y="59">Action 2</tspan>
-                            <tspan x="13" y="75">Action 3</tspan>
+                            <tspan x="13" y="42">Action 1</tspan>
+                            <tspan x="13" y="58">Action 2</tspan>
+                            <tspan x="13" y="74">Action 3</tspan>
                         </text>
                     </g>
                     <g id="Button" fill="#0C7481">
@@ -362,12 +362,12 @@
                     </g>
                 </g>
                 <rect id="Rectangle-4" fill="#95D7B1" x="202" y="81" width="110" height="5"></rect>
-                <rect id="Rectangle-4-Copy" fill="#95D7B1" x="202" y="100" width="110" height="5"></rect>
+                <rect id="Rectangle-4-Copy" fill="#95D7B1" x="202" y="98" width="110" height="5"></rect>
                 <text id="4" font-family="Roboto-Regular, Roboto" font-size="10" font-weight="normal" fill="#333333">
                     <tspan x="257" y="86">4</tspan>
                 </text>
                 <text id="4" font-family="Roboto-Regular, Roboto" font-size="10" font-weight="normal" fill="#333333">
-                    <tspan x="257" y="105">4</tspan>
+                    <tspan x="257" y="103">4</tspan>
                 </text>
             </g>
             <text id="caption" font-family="Roboto-Light, Roboto" font-size="14" font-weight="300" line-spacing="23" fill="#616161">
