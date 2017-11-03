@@ -2,7 +2,7 @@
 title: Tabset
 layout: code
 category: Components Code
-code: null
+code: tabset
 ---
 
-{% include todo.html content="Set up code." %}
+{% include code-container.html %}
