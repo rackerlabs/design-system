@@ -124,8 +124,8 @@
                     <text id="Option-1-Copy-5" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="20" letter-spacing="0.00666666683" fill="#333333">
                         <tspan x="32" y="112">Option 1</tspan>
                     </text>
-                    <text id="Label" stroke="#979797" font-family="Roboto-Medium, Roboto" font-size="16" font-weight="400" fill="#424242">
-                        <tspan x="3" y="48">Label</tspan>
+                    <text id="Label" font-family="Roboto-Medium, Roboto" font-size="16" font-weight="400" fill="#424242">
+                        <tspan x="3" y="49">Label</tspan>
                     </text>
                     <text id="Select-an-option" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="20" letter-spacing="0.005" fill="#333333">
                         <tspan x="3" y="78">Select an option</tspan>
@@ -156,44 +156,44 @@
                         <circle id="Oval" fill="#0C7C84" cx="8" cy="8" r="4"></circle>
                         <circle id="Oval-Copy" fill="#0C7C84" cx="8" cy="8" r="4"></circle>
                     </g>
-                    <g id="with-subtitle-spacing-blocks" transform="translate(0.000000, 15.000000)">
+                    <g id="with-subtitle-spacing-blocks" transform="translate(0.000000, 17.000000)">
                         <g id="specs-/-spacing-/-internal-/-H-20px" transform="translate(4.000000, 0.000000)">
                             <rect id="Rectangle-3-Copy-5" fill="#F9CD94" fill-rule="evenodd" x="0" y="0" width="56" height="20"></rect>
                             <text id="20" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#333333">
                                 <tspan x="21.2617188" y="13">20</tspan>
                             </text>
                         </g>
-                        <g id="specs-/-spacing-/-internal-/-H-16px" transform="translate(4.000000, 34.000000)">
+                        <g id="specs-/-spacing-/-internal-/-H-16px" transform="translate(4.000000, 32.000000)">
                             <rect id="Rectangle-3-Copy-2" fill="#F9CD94" fill-rule="evenodd" x="0" y="0" width="117" height="16"></rect>
                             <text id="16" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#333333">
                                 <tspan x="50.31" y="11">16</tspan>
                             </text>
                         </g>
-                        <g id="specs-/-spacing-/-internal-/-H-16px" transform="translate(4.000000, 67.000000)">
+                        <g id="specs-/-spacing-/-internal-/-H-16px" transform="translate(4.000000, 65.000000)">
                             <rect id="Rectangle-3-Copy-2" fill="#F9CD94" fill-rule="evenodd" x="0" y="0" width="117" height="16"></rect>
                             <text id="16" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#333333">
                                 <tspan x="50.31" y="11">16</tspan>
                             </text>
                         </g>
-                        <rect id="Rectangle-3" fill="#9CC2EB" x="6" y="112" width="89" height="4"></rect>
+                        <rect id="Rectangle-3" fill="#9CC2EB" x="6" y="110" width="89" height="4"></rect>
                         <text id="4" font-family="Roboto-Regular, Roboto" font-size="8" font-weight="normal" fill="#333333">
-                            <tspan x="0" y="116">4</tspan>
+                            <tspan x="0" y="114">4</tspan>
                         </text>
                         <text id="4-copy" font-family="Roboto-Regular, Roboto" font-size="8" font-weight="normal" fill="#333333">
-                            <tspan x="0" y="138">4</tspan>
+                            <tspan x="0" y="136">4</tspan>
                         </text>
                         <text id="1-copy" font-family="Roboto-Regular, Roboto" font-size="8" font-weight="normal" line-spacing="15" letter-spacing="0.00307692308" fill="#424242">
-                            <tspan x="0" y="104">1</tspan>
+                            <tspan x="0" y="102">1</tspan>
                         </text>
-                        <rect id="Rectangle-3" fill="#9CC2EB" x="6" y="134" width="89" height="4"></rect>
-                        <rect id="Rectangle-3-Copy" fill="#9CC2EB" x="6" y="101" width="89" height="1"></rect>
-                        <g id="specs-/-spacing-/-inline-/-V-08px" transform="translate(25.000000, 83.000000)">
+                        <rect id="Rectangle-3" fill="#9CC2EB" x="6" y="132" width="89" height="4"></rect>
+                        <rect id="Rectangle-3-Copy" fill="#9CC2EB" x="6" y="99" width="89" height="1"></rect>
+                        <g id="specs-/-spacing-/-inline-/-V-08px" transform="translate(25.000000, 81.000000)">
                             <rect id="Rectangle-5-Copy-19" fill="#90D5B2" fill-rule="evenodd" x="0" y="0" width="8" height="74"></rect>
                             <text id="8-copy-12" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#333333">
                                 <tspan x="1" y="38.52">8</tspan>
                             </text>
                         </g>
-                        <g id="specs-/-spacing-/-internal-/-H-20px" transform="translate(6.000000, 155.200012)">
+                        <g id="specs-/-spacing-/-internal-/-H-20px" transform="translate(6.000000, 153.200012)">
                             <rect id="Rectangle-3-Copy-5" fill="#F9CD94" fill-rule="evenodd" x="0" y="0" width="89" height="20"></rect>
                             <text id="20" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#333333">
                                 <tspan x="37.7617188" y="13">20</tspan>
