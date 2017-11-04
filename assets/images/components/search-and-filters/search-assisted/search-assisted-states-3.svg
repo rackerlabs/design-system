@@ -3,6 +3,7 @@
     <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
     <title>search-assisted-states-3</title>
     <desc>Created with Sketch.</desc>
+    <style type="text/css">@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');</style>
     <defs>
         <rect id="path-1" x="0" y="0" width="548" height="35" rx="3"></rect>
         <rect id="path-2" x="0" y="0" width="548" height="35" rx="3"></rect>
@@ -32,12 +33,12 @@
                     <g id="Icons/Close" transform="translate(525.000000, 11.000000)" fill="#757575">
                         <polygon id="Fill-270" points="12.322725 0.890088423 11.3483366 -0.0843 6.322725 4.94131158 1.29711342 -0.0843 0.322725 0.890088423 5.34833658 5.9157 0.322725 10.9413116 1.29711342 11.9157 6.322725 6.89008842 11.3483366 11.9157 12.322725 10.9413116 7.29711342 5.9157"></polygon>
                     </g>
-                    <g id="Pill:-Selected" transform="translate(38.000000, 5.000000)" font-size="16" font-family="Roboto-Regular, Roboto" line-spacing="24" fill="#424242" font-weight="normal">
+                    <g id="Pill:-Selected" transform="translate(38.000000, 6.000000)" font-size="16" font-family="Roboto-Regular, Roboto" line-spacing="24" fill="#424242" font-weight="normal">
                         <text id="device:354994-fw37.o">
                             <tspan x="7" y="15">device:354994-fw37.ord1.r</tspan>
                         </text>
                     </g>
-                    <path d="M236.5,7.5 L236.5,23.5" id="Cursor-Line" stroke="#333333" stroke-linecap="square"></path>
+                    <path d="M236.5,9.5 L236.5,25.5" id="Cursor-Line" stroke="#333333" stroke-linecap="square"></path>
                 </g>
             </g>
             <g id="COMPLETE" transform="translate(41.000000, 400.000000)">
@@ -61,10 +62,10 @@
                     <g id="Icons/Close" transform="translate(525.000000, 11.000000)" fill="#757575">
                         <polygon id="Fill-270" points="12.322725 0.890088423 11.3483366 -0.0843 6.322725 4.94131158 1.29711342 -0.0843 0.322725 0.890088423 5.34833658 5.9157 0.322725 10.9413116 1.29711342 11.9157 6.322725 6.89008842 11.3483366 11.9157 12.322725 10.9413116 7.29711342 5.9157"></polygon>
                     </g>
-                    <g id="Pill:-Selected" transform="translate(38.000000, 5.000000)">
-                        <rect id="pill" fill="#D8D8D8" x="0" y="1" width="256" height="24" rx="12"></rect>
+                    <g id="Pill:-Selected" transform="translate(38.000000, 6.000000)">
+                        <rect id="pill" fill="#D8D8D8" x="0" y="0" width="256" height="24" rx="12"></rect>
                         <text id="device:354994-fw37.o" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="24" fill="#424242">
-                            <tspan x="7" y="15">device:354994-fw37.ord1.rvi.local</tspan>
+                            <tspan x="7" y="16">device:354994-fw37.ord1.rvi.local</tspan>
                         </text>
                     </g>
                 </g>
@@ -108,7 +109,7 @@
                             <tspan x="8" y="15">device:</tspan>
                         </text>
                         <text id="OR" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="24" fill="#424242">
-                            <tspan x="68" y="15">OR</tspan>
+                            <tspan x="68" y="16">OR</tspan>
                         </text>
                     </g>
                 </g>

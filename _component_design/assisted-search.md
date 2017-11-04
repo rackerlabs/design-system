@@ -48,7 +48,7 @@ User should still have instructions for how to search without autocompleted resu
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% figure [caption:"Assist search specifications"] [class:"image bg-light border"] %}
+{% figure [caption:"Assist search loading state"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/search-and-filters/search-assisted/search-assisted-loading.svg)
 {% endfigure %}
 {% endcolumn %}
@@ -66,7 +66,7 @@ Search completion results should be divided up by categories.
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% figure [caption:"Assisted search results specifications"] [class:"image bg-light border"] %}
+{% figure [caption:"Assisted search - search results specifications"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/search-and-filters/search-assisted/search-assisted-results.svg)
 {% endfigure %}
 {% endcolumn %}
@@ -96,7 +96,7 @@ Search completion results should be divided up by categories.
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% figure [caption:"Assisted search results specifications"] [class:"image bg-light border"] %}
+{% figure [caption:"Assisted search results - active state"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/search-and-filters/search-bar/search-assisted-states-2.svg)
 {% endfigure %}
 {% endcolumn %}
@@ -112,7 +112,7 @@ Search completion results should be divided up by categories.
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% figure [caption:"Assisted search results specifications"] [class:"image bg-light border"] %}
+{% figure [caption:"Search Pills for the Active and Complete states are documented as a variation of the Search Bar and Assisted Search bar component."] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/search-and-filters/search-bar/search-assisted-states-3.svg)
 {% endfigure %}
 {% endcolumn %}
