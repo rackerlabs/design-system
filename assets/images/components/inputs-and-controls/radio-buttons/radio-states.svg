@@ -1,0 +1,446 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="561px" height="838px" viewBox="0 0 561 838" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>radio-states</title>
+    <desc>Created with Sketch.</desc>
+    <style type="text/css">@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');</style>
+    <defs>
+        <polygon id="path-1" points="7 3.5 0 7 0 0"></polygon>
+        <path d="M16,12 C16,16.4571429 12.4571429,20 8,20 C3.54285714,20 0,16.4571429 0,12 C0,7.54285714 3.54285714,4 8,4 C12.4571429,4 16,7.54285714 16,12 Z" id="path-2"></path>
+        <polygon id="path-3" points="7 3.5 0 7 0 0"></polygon>
+        <path d="M16,8 C16,12.4571429 12.4571429,16 8,16 C3.54285714,16 0,12.4571429 0,8 C0,3.54285714 3.54285714,-7.26529947e-13 8,-7.26529947e-13 C12.4571429,-7.26529947e-13 16,3.54285714 16,8 Z" id="path-4"></path>
+        <polygon id="path-5" points="7 3.5 0 7 0 0"></polygon>
+        <path d="M16,8 C16,12.4571429 12.4571429,16 8,16 C3.54285714,16 0,12.4571429 0,8 C0,3.54285714 3.54285714,-7.26529947e-13 8,-7.26529947e-13 C12.4571429,-7.26529947e-13 16,3.54285714 16,8 Z" id="path-6"></path>
+        <polygon id="path-7" points="7 3.5 0 7 0 0"></polygon>
+        <path d="M16,8 C16,12.4571429 12.4571429,16 8,16 C3.54285714,16 0,12.4571429 0,8 C0,3.54285714 3.54285714,-7.26529947e-13 8,-7.26529947e-13 C12.4571429,-7.26529947e-13 16,3.54285714 16,8 Z" id="path-8"></path>
+        <polygon id="path-9" points="7 3.5 0 7 0 0"></polygon>
+        <path d="M16,8 C16,12.4571429 12.4571429,16 8,16 C3.54285714,16 0,12.4571429 0,8 C0,3.54285714 3.54285714,-7.26529947e-13 8,-7.26529947e-13 C12.4571429,-7.26529947e-13 16,3.54285714 16,8 Z" id="path-10"></path>
+        <polygon id="path-11" points="7 3.5 0 7 0 0"></polygon>
+        <path d="M16,8 C16,12.4571429 12.4571429,16 8,16 C3.54285714,16 0,12.4571429 0,8 C0,3.54285714 3.54285714,-7.26529947e-13 8,-7.26529947e-13 C12.4571429,-7.26529947e-13 16,3.54285714 16,8 Z" id="path-12"></path>
+        <filter x="-37.5%" y="-37.5%" width="175.0%" height="175.0%" filterUnits="objectBoundingBox" id="filter-13">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.82745098   0 0 0 0 0.184313725   0 0 0 0 0.184313725  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-14" points="7 3.5 0 7 0 0"></polygon>
+        <path d="M16,8 C16,12.4571429 12.4571429,16 8,16 C3.54285714,16 0,12.4571429 0,8 C0,3.54285714 3.54285714,-7.26529947e-13 8,-7.26529947e-13 C12.4571429,-7.26529947e-13 16,3.54285714 16,8 Z" id="path-15"></path>
+        <polygon id="path-16" points="7 3.5 0 7 0 0"></polygon>
+        <path d="M16,8 C16,12.4571429 12.4571429,16 8,16 C3.54285714,16 0,12.4571429 0,8 C0,3.54285714 3.54285714,-7.26529947e-13 8,-7.26529947e-13 C12.4571429,-7.26529947e-13 16,3.54285714 16,8 Z" id="path-17"></path>
+        <polygon id="path-18" points="7 3.5 0 7 0 0"></polygon>
+        <path d="M16,8 C16,12.4571429 12.4571429,16 8,16 C3.54285714,16 0,12.4571429 0,8 C0,3.54285714 3.54285714,-7.26529947e-13 8,-7.26529947e-13 C12.4571429,-7.26529947e-13 16,3.54285714 16,8 Z" id="path-19"></path>
+        <filter x="-37.5%" y="-37.5%" width="175.0%" height="175.0%" filterUnits="objectBoundingBox" id="filter-20">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.82745098   0 0 0 0 0.184313725   0 0 0 0 0.184313725  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-21" points="7 3.5 0 7 0 0"></polygon>
+        <path d="M16,8 C16,12.4571429 12.4571429,16 8,16 C3.54285714,16 0,12.4571429 0,8 C0,3.54285714 3.54285714,-7.26529947e-13 8,-7.26529947e-13 C12.4571429,-7.26529947e-13 16,3.54285714 16,8 Z" id="path-22"></path>
+        <polygon id="path-23" points="7 3.5 0 7 0 0"></polygon>
+        <path d="M16,8 C16,12.4571429 12.4571429,16 8,16 C3.54285714,16 0,12.4571429 0,8 C0,3.54285714 3.54285714,-7.26529947e-13 8,-7.26529947e-13 C12.4571429,-7.26529947e-13 16,3.54285714 16,8 Z" id="path-24"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="radio-states">
+            <g id="States-section" transform="translate(22.000000, 28.000000)">
+                <g id="States-Image">
+                    <g id="enabled-group">
+                        <g id="specs-/-redlines-/-label-title-lg" font-size="20" font-family="Roboto-Regular, Roboto" fill="#9E9E9E" font-weight="normal">
+                            <text id="LARGE-LABEL">
+                                <tspan x="0" y="21.4230769">Enabled </tspan>
+                                <tspan x="0" y="45.4230769">(Default)</tspan>
+                            </text>
+                        </g>
+                        <g id="Hover" transform="translate(123.000000, 68.000000)">
+                            <text id="redline-label-copy" font-family="Roboto-Regular, Roboto" font-size="11" font-weight="normal" fill="#EC407A">
+                                <tspan x="154" y="10">fill: #e4f9f9 (Cyan 50)</tspan>
+                                <tspan x="154" y="23">border: position: inside, 1px, #16b9d4 (Cyan 500)</tspan>
+                            </text>
+                            <g id="specs-/-redlines-/-line-inclusive" transform="translate(117.000000, 16.000000) scale(-1, 1) translate(-117.000000, -16.000000) translate(88.000000, 0.000000)">
+                                <path d="M0,15.84 L58,15.84" id="redline-line" stroke="#EC407A" stroke-width="1"></path>
+                                <g id="specs-/-redlines-/-line-end-/-arrow" transform="translate(51.000000, 12.340000)">
+                                    <g id="redline-end">
+                                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                                        <path stroke="#EC407A" stroke-width="1" d="M5.88196601,3.5 L0.5,0.809016994 L0.5,6.19098301 L5.88196601,3.5 Z"></path>
+                                    </g>
+                                </g>
+                                <path d="M0.0820895522,0.16 L0.0820895522,31.84" id="Line" stroke="#F0367A" stroke-width="1" stroke-linecap="square"></path>
+                            </g>
+                            <g id="Group-3" transform="translate(0.000000, 4.000000)">
+                                <text id="Option-1" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="20" letter-spacing="0.00666666683" fill="#424242">
+                                    <tspan x="23" y="15">Option 1</tspan>
+                                </text>
+                                <g id="specs-/-redlines-/-label-title-sm" transform="translate(0.000000, 28.000000)" font-size="10" font-family="Roboto-Regular, Roboto" fill="#9E9E9E" font-weight="normal">
+                                    <text id="SMALL-LABEL">
+                                        <tspan x="0" y="9">HOVER</tspan>
+                                    </text>
+                                </g>
+                                <g id="Shape-Copy-6" fill-rule="nonzero">
+                                    <use fill="#E4F9F9" fill-rule="evenodd" xlink:href="#path-2"></use>
+                                    <path stroke="#16B9D4" stroke-width="1" d="M15.5,12 C15.5,7.81899952 12.1810005,4.5 8,4.5 C3.81899952,4.5 0.5,7.81899952 0.5,12 C0.5,16.1810005 3.81899952,19.5 8,19.5 C12.1810005,19.5 15.5,16.1810005 15.5,12 Z"></path>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="Selected" transform="translate(123.000000, 138.000000)">
+                            <text id="redline-label-copy-7" font-family="Roboto-Regular, Roboto" font-size="11" font-weight="normal" fill="#EC407A">
+                                <tspan x="154" y="11">small circle fill: #0c7c84 (Cyan 900)</tspan>
+                                <tspan x="154" y="24">large circle fill: #ffffff (Gray 0)</tspan>
+                                <tspan x="154" y="37">border: position: inside, 1px, #0c7c84 (Cyan 900)</tspan>
+                            </text>
+                            <g id="specs-/-redlines-/-line-inclusive" transform="translate(117.000000, 21.500000) scale(-1, 1) translate(-117.000000, -21.500000) translate(88.000000, 0.000000)">
+                                <path d="M0,21.285 L58,21.285" id="redline-line" stroke="#EC407A" stroke-width="1"></path>
+                                <g id="specs-/-redlines-/-line-end-/-arrow" transform="translate(51.000000, 17.785000)">
+                                    <g id="redline-end">
+                                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                                        <path stroke="#EC407A" stroke-width="1" d="M5.88196601,3.5 L0.5,0.809016994 L0.5,6.19098301 L5.88196601,3.5 Z"></path>
+                                    </g>
+                                </g>
+                                <path d="M0.0820895522,0.215 L0.0820895522,42.785" id="Line" stroke="#F0367A" stroke-width="1" stroke-linecap="square"></path>
+                            </g>
+                            <g id="Group-7" transform="translate(0.000000, 10.000000)">
+                                <text id="Option-1" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="20" letter-spacing="0.00666666683" fill="#424242">
+                                    <tspan x="23" y="15">Option 1</tspan>
+                                </text>
+                                <g id="specs-/-redlines-/-label-title-sm" transform="translate(0.000000, 28.000000)" font-size="10" font-family="Roboto-Regular, Roboto" fill="#9E9E9E" font-weight="normal">
+                                    <text id="SMALL-LABEL">
+                                        <tspan x="0" y="9">SELECTED</tspan>
+                                    </text>
+                                </g>
+                                <g id="Radio-button---selected" transform="translate(0.000000, 4.000000)">
+                                    <g id="Shape-Copy-10" fill-rule="nonzero">
+                                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-4"></use>
+                                        <path stroke="#0C7C84" stroke-width="1" d="M15.5,8 C15.5,3.81899952 12.1810005,0.5 8,0.5 C3.81899952,0.5 0.5,3.81899952 0.5,8 C0.5,12.1810005 3.81899952,15.5 8,15.5 C12.1810005,15.5 15.5,12.1810005 15.5,8 Z"></path>
+                                    </g>
+                                    <circle id="Oval" fill="#0C7C84" cx="8" cy="8" r="4"></circle>
+                                    <circle id="Oval-Copy" fill="#0C7C84" cx="8" cy="8" r="4"></circle>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="Unselected" transform="translate(123.000000, 2.000000)">
+                            <text id="redline-label" font-family="Roboto-Regular, Roboto" font-size="11" font-weight="normal" fill="#EC407A">
+                                <tspan x="154" y="10">fill: #ffffff (Gray 0)</tspan>
+                                <tspan x="154" y="23">border: position: inside, 1px, #bdbdbd (Gray 500)</tspan>
+                            </text>
+                            <g id="specs-/-redlines-/-line-inclusive" transform="translate(117.000000, 16.000000) scale(-1, 1) translate(-117.000000, -16.000000) translate(88.000000, 0.000000)">
+                                <path d="M0,15.84 L58,15.84" id="redline-line" stroke="#EC407A" stroke-width="1"></path>
+                                <g id="specs-/-redlines-/-line-end-/-arrow" transform="translate(51.000000, 12.340000)">
+                                    <g id="redline-end">
+                                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+                                        <path stroke="#EC407A" stroke-width="1" d="M5.88196601,3.5 L0.5,0.809016994 L0.5,6.19098301 L5.88196601,3.5 Z"></path>
+                                    </g>
+                                </g>
+                                <path d="M0.0820895522,0.16 L0.0820895522,31.84" id="Line" stroke="#F0367A" stroke-width="1" stroke-linecap="square"></path>
+                            </g>
+                            <g id="Group" transform="translate(0.000000, 3.000000)">
+                                <text id="Option-1-Copy-6" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="20" letter-spacing="0.00666666683" fill="#424242">
+                                    <tspan x="23" y="15">Option 1</tspan>
+                                </text>
+                                <g id="specs-/-redlines-/-label-title-sm" transform="translate(0.000000, 26.000000)" font-size="10" font-family="Roboto-Regular, Roboto" fill="#9E9E9E" font-weight="normal">
+                                    <text id="SMALL-LABEL">
+                                        <tspan x="0" y="9">UNSELECTED</tspan>
+                                    </text>
+                                </g>
+                                <g id="Radio-button---default" transform="translate(0.000000, 4.000000)" fill-rule="nonzero">
+                                    <g id="Shape-Copy-7">
+                                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-6"></use>
+                                        <path stroke="#BDBDBD" stroke-width="1" d="M15.5,8 C15.5,3.81899952 12.1810005,0.5 8,0.5 C3.81899952,0.5 0.5,3.81899952 0.5,8 C0.5,12.1810005 3.81899952,15.5 8,15.5 C12.1810005,15.5 15.5,12.1810005 15.5,8 Z"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="error-group" transform="translate(0.000000, 375.000000)">
+                        <g id="specs-/-redlines-/-label-title-lg" transform="translate(0.000000, 6.000000)" font-size="20" font-family="Roboto-Regular, Roboto" fill="#9E9E9E" font-weight="normal">
+                            <text id="LARGE-LABEL">
+                                <tspan x="0" y="21.4230769">Error</tspan>
+                            </text>
+                        </g>
+                        <g id="Error---selected" transform="translate(123.000000, 136.000000)">
+                            <text id="redline-label-copy-12" font-family="Roboto-Regular, Roboto" font-size="11" font-weight="normal" fill="#EC407A">
+                                <tspan x="154" y="10">small circle fill: #d32f2f (Red 900)</tspan>
+                                <tspan x="154" y="23">large circle fill: #ffffff (gray 0)</tspan>
+                                <tspan x="154" y="36">border</tspan>
+                                <tspan x="185.818359" y="36" font-family="Roboto-Bold, Roboto" font-weight="bold">:</tspan>
+                                <tspan x="188.922852" y="36"> position: inside, 2px, #d32f2f (Red 900)</tspan>
+                            </text>
+                            <g id="specs-/-redlines-/-line-inclusive" transform="translate(117.000000, 21.000000) scale(-1, 1) translate(-117.000000, -21.000000) translate(88.000000, 1.000000)">
+                                <path d="M0,19.8 L58,19.8" id="redline-line" stroke="#EC407A" stroke-width="1"></path>
+                                <g id="specs-/-redlines-/-line-end-/-arrow" transform="translate(51.000000, 16.300000)">
+                                    <g id="redline-end">
+                                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-7"></use>
+                                        <path stroke="#EC407A" stroke-width="1" d="M5.88196601,3.5 L0.5,0.809016994 L0.5,6.19098301 L5.88196601,3.5 Z"></path>
+                                    </g>
+                                </g>
+                                <path d="M0.0820895522,0.2 L0.0820895522,39.8" id="Line" stroke="#F0367A" stroke-width="1" stroke-linecap="square"></path>
+                            </g>
+                            <g id="Group-12" transform="translate(0.000000, 9.000000)">
+                                <text id="Option-1-Copy-3" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="20" letter-spacing="0.00666666683" fill="#424242">
+                                    <tspan x="23" y="15">Option 1</tspan>
+                                </text>
+                                <g id="specs-/-redlines-/-label-title-sm-copy-7" transform="translate(0.000000, 28.000000)" font-size="10" font-family="Roboto-Regular, Roboto" fill="#9E9E9E" font-weight="normal">
+                                    <text id="ERROR-SELECTED">
+                                        <tspan x="0" y="9">ERROR SELECTED</tspan>
+                                    </text>
+                                </g>
+                                <g id="Radio-button---error---selected" transform="translate(0.000000, 4.000000)">
+                                    <g id="Shape-Copy-8" fill-rule="nonzero">
+                                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-8"></use>
+                                        <path stroke="#D32F2F" stroke-width="2" d="M15,8 C15,4.09514189 11.9048581,1 8,1 C4.09514189,1 1,4.09514189 1,8 C1,11.9048581 4.09514189,15 8,15 C11.9048581,15 15,11.9048581 15,8 Z"></path>
+                                    </g>
+                                    <circle id="Oval-Copy" fill="#D32F2F" cx="8" cy="8" r="4"></circle>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="Error---selected-hover" transform="translate(123.000000, 348.000000)">
+                            <g id="Group-24" transform="translate(88.000000, 0.000000)">
+                                <text id="redline-label-copy-15" font-family="Roboto-Regular, Roboto" font-size="11" font-weight="normal" fill="#EC407A">
+                                    <tspan x="66" y="10">small circle fill: #d32f2f (Red 900)</tspan>
+                                    <tspan x="66" y="23">large circle fill: #ffcdd2 (red 100)</tspan>
+                                    <tspan x="66" y="36">border</tspan>
+                                    <tspan x="97.8183594" y="36" font-family="Roboto-Bold, Roboto" font-weight="bold">:</tspan>
+                                    <tspan x="100.922852" y="36"> position: inside, 2px, #d32f2f (Red 900)</tspan>
+                                </text>
+                                <g id="specs-/-redlines-/-line-inclusive" transform="translate(29.000000, 21.000000) scale(-1, 1) translate(-29.000000, -21.000000) translate(0.000000, 1.000000)">
+                                    <path d="M0,19.8 L58,19.8" id="redline-line" stroke="#EC407A" stroke-width="1"></path>
+                                    <g id="specs-/-redlines-/-line-end-/-arrow" transform="translate(51.000000, 16.300000)">
+                                        <g id="redline-end">
+                                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-9"></use>
+                                            <path stroke="#EC407A" stroke-width="1" d="M5.88196601,3.5 L0.5,0.809016994 L0.5,6.19098301 L5.88196601,3.5 Z"></path>
+                                        </g>
+                                    </g>
+                                    <path d="M0.0820895522,0.2 L0.0820895522,39.8" id="Line" stroke="#F0367A" stroke-width="1" stroke-linecap="square"></path>
+                                </g>
+                            </g>
+                            <g id="Group-23" transform="translate(0.000000, 9.000000)">
+                                <text id="Option-1-Copy-10" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="20" letter-spacing="0.00666666683" fill="#424242">
+                                    <tspan x="23" y="15">Option 1</tspan>
+                                </text>
+                                <g id="specs-/-redlines-/-label-title-sm-copy-12" transform="translate(0.000000, 28.000000)" font-size="10" font-family="Roboto-Regular, Roboto" fill="#9E9E9E" font-weight="normal">
+                                    <text id="ERROR-SELECTED-HOVER">
+                                        <tspan x="0" y="9">ERROR SELECTED HOVER</tspan>
+                                    </text>
+                                </g>
+                                <g id="Radio-button---error---selected-Copy-3" transform="translate(0.000000, 4.000000)">
+                                    <g id="Shape-Copy-8" fill-rule="nonzero">
+                                        <use fill="#FFCDD2" fill-rule="evenodd" xlink:href="#path-10"></use>
+                                        <path stroke="#D32F2F" stroke-width="2" d="M15,8 C15,4.09514189 11.9048581,1 8,1 C4.09514189,1 1,4.09514189 1,8 C1,11.9048581 4.09514189,15 8,15 C11.9048581,15 15,11.9048581 15,8 Z"></path>
+                                    </g>
+                                    <circle id="Oval-Copy" fill="#D32F2F" cx="8" cy="8" r="4"></circle>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="error--unselected-focused" transform="translate(123.000000, 68.000000)">
+                            <text id="redline-label-copy-13" font-family="Roboto-Regular, Roboto" font-size="11" font-weight="normal" fill="#EC407A">
+                                <tspan x="154" y="17">shadow: X:0, Y:0, Blur:4, Spread:0, Opacity: 50%</tspan>
+                            </text>
+                            <g id="specs-/-redlines-/-line-inclusive" transform="translate(117.000000, 16.000000) scale(-1, 1) translate(-117.000000, -16.000000) translate(88.000000, 0.000000)">
+                                <path d="M0,15.84 L58,15.84" id="redline-line" stroke="#EC407A" stroke-width="1"></path>
+                                <g id="specs-/-redlines-/-line-end-/-arrow" transform="translate(51.000000, 12.340000)">
+                                    <g id="redline-end">
+                                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-11"></use>
+                                        <path stroke="#EC407A" stroke-width="1" d="M5.88196601,3.5 L0.5,0.809016994 L0.5,6.19098301 L5.88196601,3.5 Z"></path>
+                                    </g>
+                                </g>
+                                <path d="M0.0820895522,0.16 L0.0820895522,31.84" id="Line" stroke="#F0367A" stroke-width="1" stroke-linecap="square"></path>
+                            </g>
+                            <g id="Group-11" transform="translate(0.000000, 5.000000)">
+                                <g id="Radio-button---error---selected---focus-Copy" transform="translate(0.000000, 3.000000)" fill-rule="nonzero">
+                                    <g id="Shape-Copy-9">
+                                        <use fill="black" fill-opacity="1" filter="url(#filter-13)" xlink:href="#path-12"></use>
+                                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-12"></use>
+                                        <path stroke="#D32F2F" stroke-width="2" d="M15,8 C15,4.09514189 11.9048581,1 8,1 C4.09514189,1 1,4.09514189 1,8 C1,11.9048581 4.09514189,15 8,15 C11.9048581,15 15,11.9048581 15,8 Z"></path>
+                                    </g>
+                                </g>
+                                <text id="Option-1-Copy-8" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="20" letter-spacing="0.00666666683" fill="#424242">
+                                    <tspan x="23" y="15">Option 1</tspan>
+                                </text>
+                                <g id="specs-/-redlines-/-label-title-sm-copy-10" transform="translate(0.000000, 28.000000)" font-size="10" font-family="Roboto-Regular, Roboto" fill="#9E9E9E" font-weight="normal">
+                                    <text id="UNSELECTED---FOCUSED">
+                                        <tspan x="0" y="9">UNSELECTED - FOCUSED</tspan>
+                                    </text>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="Error---unselected" transform="translate(123.000000, 0.000000)">
+                            <text id="redline-label-copy-11" font-family="Roboto-Regular, Roboto" font-size="11" font-weight="normal" fill="#EC407A">
+                                <tspan x="154" y="12">fill: #ffffff (Gray 0)</tspan>
+                                <tspan x="154" y="25">border: position: inside, 2px, #d32f2f (Red 900)</tspan>
+                            </text>
+                            <g id="specs-/-redlines-/-line-inclusive" transform="translate(117.000000, 16.000000) scale(-1, 1) translate(-117.000000, -16.000000) translate(88.000000, 0.000000)">
+                                <path d="M0,15.84 L58,15.84" id="redline-line" stroke="#EC407A" stroke-width="1"></path>
+                                <g id="specs-/-redlines-/-line-end-/-arrow" transform="translate(51.000000, 12.340000)">
+                                    <g id="redline-end">
+                                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-14"></use>
+                                        <path stroke="#EC407A" stroke-width="1" d="M5.88196601,3.5 L0.5,0.809016994 L0.5,6.19098301 L5.88196601,3.5 Z"></path>
+                                    </g>
+                                </g>
+                                <path d="M0.0820895522,0.16 L0.0820895522,31.84" id="Line" stroke="#F0367A" stroke-width="1" stroke-linecap="square"></path>
+                            </g>
+                            <g id="Group-10" transform="translate(0.000000, 5.000000)">
+                                <g id="Radio-button---error---selected-Copy" transform="translate(0.000000, 3.000000)" fill-rule="nonzero">
+                                    <g id="Shape-Copy-8">
+                                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-15"></use>
+                                        <path stroke="#D32F2F" stroke-width="2" d="M15,8 C15,4.09514189 11.9048581,1 8,1 C4.09514189,1 1,4.09514189 1,8 C1,11.9048581 4.09514189,15 8,15 C11.9048581,15 15,11.9048581 15,8 Z"></path>
+                                    </g>
+                                </g>
+                                <text id="Option-1-Copy-7" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="20" letter-spacing="0.00666666683" fill="#424242">
+                                    <tspan x="23" y="15">Option 1</tspan>
+                                </text>
+                                <g id="specs-/-redlines-/-label-title-sm-copy-9" transform="translate(0.000000, 28.000000)" font-size="10" font-family="Roboto-Regular, Roboto" fill="#9E9E9E" font-weight="normal">
+                                    <text id="UNSELECTED">
+                                        <tspan x="0" y="9">UNSELECTED</tspan>
+                                    </text>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="Error---unselected-hover" transform="translate(123.000000, 281.000000)">
+                            <text id="redline-label-copy-14" font-family="Roboto-Regular, Roboto" font-size="11" font-weight="normal" fill="#EC407A">
+                                <tspan x="154" y="11">fill: #ffcdd2 (red 100)</tspan>
+                                <tspan x="154" y="24">border: position: inside, 2px, #d32f2f (Red 900)</tspan>
+                            </text>
+                            <g id="specs-/-redlines-/-line-inclusive" transform="translate(117.000000, 16.000000) scale(-1, 1) translate(-117.000000, -16.000000) translate(88.000000, 0.000000)">
+                                <path d="M0,15.84 L58,15.84" id="redline-line" stroke="#EC407A" stroke-width="1"></path>
+                                <g id="specs-/-redlines-/-line-end-/-arrow" transform="translate(51.000000, 12.340000)">
+                                    <g id="redline-end">
+                                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-16"></use>
+                                        <path stroke="#EC407A" stroke-width="1" d="M5.88196601,3.5 L0.5,0.809016994 L0.5,6.19098301 L5.88196601,3.5 Z"></path>
+                                    </g>
+                                </g>
+                                <path d="M0.0820895522,0.16 L0.0820895522,31.84" id="Line" stroke="#F0367A" stroke-width="1" stroke-linecap="square"></path>
+                            </g>
+                            <g id="Group-14" transform="translate(0.000000, 5.000000)">
+                                <g id="Radio-button---error---selected-Copy-2" transform="translate(0.000000, 3.000000)" fill-rule="nonzero">
+                                    <g id="Shape-Copy-8">
+                                        <use fill="#FFCDD2" fill-rule="evenodd" xlink:href="#path-17"></use>
+                                        <path stroke="#D32F2F" stroke-width="2" d="M15,8 C15,4.09514189 11.9048581,1 8,1 C4.09514189,1 1,4.09514189 1,8 C1,11.9048581 4.09514189,15 8,15 C11.9048581,15 15,11.9048581 15,8 Z"></path>
+                                    </g>
+                                </g>
+                                <text id="Option-1-Copy-9" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="20" letter-spacing="0.00666666683" fill="#424242">
+                                    <tspan x="23" y="15">Option 1</tspan>
+                                </text>
+                                <g id="specs-/-redlines-/-label-title-sm-copy-11" transform="translate(0.000000, 28.000000)" font-size="10" font-family="Roboto-Regular, Roboto" fill="#9E9E9E" font-weight="normal">
+                                    <text id="ERROR-UNSELECTED-HOV">
+                                        <tspan x="0" y="9">ERROR UNSELECTED HOVER</tspan>
+                                    </text>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="Error--selected-focused" transform="translate(123.000000, 211.000000)">
+                            <text id="redline-label-copy-10" font-family="Roboto-Regular, Roboto" font-size="11" font-weight="normal" fill="#EC407A">
+                                <tspan x="154" y="17">shadow: X: 0, Y: 0, Blur: 4, Spread: 0, Opacity: 50%</tspan>
+                            </text>
+                            <g id="specs-/-redlines-/-line-inclusive" transform="translate(117.000000, 16.000000) scale(-1, 1) translate(-117.000000, -16.000000) translate(88.000000, 0.000000)">
+                                <path d="M0,15.84 L58,15.84" id="redline-line" stroke="#EC407A" stroke-width="1"></path>
+                                <g id="specs-/-redlines-/-line-end-/-arrow" transform="translate(51.000000, 12.340000)">
+                                    <g id="redline-end">
+                                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-18"></use>
+                                        <path stroke="#EC407A" stroke-width="1" d="M5.88196601,3.5 L0.5,0.809016994 L0.5,6.19098301 L5.88196601,3.5 Z"></path>
+                                    </g>
+                                </g>
+                                <path d="M0.0820895522,0.16 L0.0820895522,31.84" id="Line" stroke="#F0367A" stroke-width="1" stroke-linecap="square"></path>
+                            </g>
+                            <g id="Group-13" transform="translate(0.000000, 5.000000)">
+                                <text id="Option-1-Copy-4" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="20" letter-spacing="0.00666666683" fill="#424242">
+                                    <tspan x="23" y="15">Option 1</tspan>
+                                </text>
+                                <g id="specs-/-redlines-/-label-title-sm-copy-8" transform="translate(0.000000, 28.000000)" font-size="10" font-family="Roboto-Regular, Roboto" fill="#9E9E9E" font-weight="normal">
+                                    <text id="ERROR-SELECTED-FOCUS">
+                                        <tspan x="0" y="9">ERROR SELECTED FOCUSED</tspan>
+                                    </text>
+                                </g>
+                                <g id="Radio-button---error---selected---focus" transform="translate(0.000000, 4.000000)">
+                                    <g id="Shape-Copy-9" fill-rule="nonzero">
+                                        <use fill="black" fill-opacity="1" filter="url(#filter-20)" xlink:href="#path-19"></use>
+                                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-19"></use>
+                                        <path stroke="#D32F2F" stroke-width="2" d="M15,8 C15,4.09514189 11.9048581,1 8,1 C4.09514189,1 1,4.09514189 1,8 C1,11.9048581 4.09514189,15 8,15 C11.9048581,15 15,11.9048581 15,8 Z"></path>
+                                    </g>
+                                    <circle fill="#D32F2F" cx="8" cy="8" r="4"></circle>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="disabled-group" transform="translate(0.000000, 220.000000)">
+                        <g id="specs-/-redlines-/-label-title-lg" transform="translate(0.000000, 8.000000)" font-size="20" font-family="Roboto-Regular, Roboto" fill="#9E9E9E" font-weight="normal">
+                            <text id="LARGE-LABEL">
+                                <tspan x="0" y="21.4230769">Disabled</tspan>
+                            </text>
+                        </g>
+                        <g id="Disabled---unselected" transform="translate(123.000000, 0.000000)">
+                            <text id="redline-label-copy-8" font-family="Roboto-Regular, Roboto" font-size="11" font-weight="normal" fill="#EC407A">
+                                <tspan x="154" y="12">fill: #eeeeee (Gray 100)</tspan>
+                                <tspan x="154" y="25">border</tspan>
+                                <tspan x="185.818359" y="25" font-family="Roboto-Bold, Roboto" font-weight="bold">:</tspan>
+                                <tspan x="188.922852" y="25"> position: inside, 1px, #bdbdbd (Gray 500)</tspan>
+                                <tspan x="154" y="38">text color: #757575 (Gray 700)</tspan>
+                            </text>
+                            <g id="specs-/-redlines-/-line-inclusive" transform="translate(117.000000, 21.500000) scale(-1, 1) translate(-117.000000, -21.500000) translate(88.000000, 0.000000)">
+                                <path d="M0,21.285 L58,21.285" id="redline-line" stroke="#EC407A" stroke-width="1"></path>
+                                <g id="specs-/-redlines-/-line-end-/-arrow" transform="translate(51.000000, 17.785000)">
+                                    <g id="redline-end">
+                                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-21"></use>
+                                        <path stroke="#EC407A" stroke-width="1" d="M5.88196601,3.5 L0.5,0.809016994 L0.5,6.19098301 L5.88196601,3.5 Z"></path>
+                                    </g>
+                                </g>
+                                <path d="M0.0820895522,0.215 L0.0820895522,42.785" id="Line" stroke="#F0367A" stroke-width="1" stroke-linecap="square"></path>
+                            </g>
+                            <g id="Group-8" transform="translate(0.000000, 9.000000)">
+                                <text id="Option-1" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="20" letter-spacing="0.00666666683" fill="#757575">
+                                    <tspan x="23" y="15">Option 1</tspan>
+                                </text>
+                                <g id="specs-/-redlines-/-label-title-sm-copy-5" transform="translate(0.000000, 28.000000)" font-size="10" font-family="Roboto-Regular, Roboto" fill="#9E9E9E" font-weight="normal">
+                                    <text id="DISABLED-UNSELECTED">
+                                        <tspan x="0" y="9">DISABLED UNSELECTED</tspan>
+                                    </text>
+                                </g>
+                                <g id="Radio-button---default-Copy" transform="translate(0.000000, 5.000000)" fill-rule="nonzero">
+                                    <g id="Shape-Copy-7">
+                                        <use fill="#EEEEEE" fill-rule="evenodd" xlink:href="#path-22"></use>
+                                        <path stroke="#BDBDBD" stroke-width="1" d="M15.5,8 C15.5,3.81899952 12.1810005,0.5 8,0.5 C3.81899952,0.5 0.5,3.81899952 0.5,8 C0.5,12.1810005 3.81899952,15.5 8,15.5 C12.1810005,15.5 15.5,12.1810005 15.5,8 Z"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="disabled---selected" transform="translate(123.000000, 74.000000)">
+                            <text id="redline-label-copy-9" font-family="Roboto-Regular, Roboto" font-size="11" font-weight="normal" fill="#EC407A">
+                                <tspan x="154" y="10">small circle fill: #bdbdbd (Gray 500)</tspan>
+                                <tspan x="154" y="23">large circle fill</tspan>
+                                <tspan x="221.450195" y="23" font-family="Roboto-Bold, Roboto" font-weight="bold">:</tspan>
+                                <tspan x="224.554688" y="23"> #eeeeee (Gray 100)</tspan>
+                                <tspan x="154" y="36">border</tspan>
+                                <tspan x="185.818359" y="36" font-family="Roboto-Bold, Roboto" font-weight="bold">:</tspan>
+                                <tspan x="188.922852" y="36"> position: inside, 1px, #bdbdbd (Gray 500)</tspan>
+                            </text>
+                            <g id="specs-/-redlines-/-line-inclusive" transform="translate(117.000000, 22.500000) scale(-1, 1) translate(-117.000000, -22.500000) translate(88.000000, 1.000000)">
+                                <path d="M0,21.285 L58,21.285" id="redline-line" stroke="#EC407A" stroke-width="1"></path>
+                                <g id="specs-/-redlines-/-line-end-/-arrow" transform="translate(51.000000, 17.785000)">
+                                    <g id="redline-end">
+                                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-23"></use>
+                                        <path stroke="#EC407A" stroke-width="1" d="M5.88196601,3.5 L0.5,0.809016994 L0.5,6.19098301 L5.88196601,3.5 Z"></path>
+                                    </g>
+                                </g>
+                                <path d="M0.0820895522,0.215 L0.0820895522,42.785" id="Line" stroke="#F0367A" stroke-width="1" stroke-linecap="square"></path>
+                            </g>
+                            <g id="Group-9" transform="translate(0.000000, 10.000000)">
+                                <text id="Option-1" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="20" letter-spacing="0.00666666683" fill="#757575">
+                                    <tspan x="23" y="15">Option 1</tspan>
+                                </text>
+                                <g id="specs-/-redlines-/-label-title-sm-copy-6" transform="translate(0.000000, 28.000000)" font-size="10" font-family="Roboto-Regular, Roboto" fill="#9E9E9E" font-weight="normal">
+                                    <text id="DISABLED-SELECTED">
+                                        <tspan x="0" y="9">DISABLED SELECTED</tspan>
+                                    </text>
+                                </g>
+                                <g id="Radio-button---default-Copy-2" transform="translate(0.000000, 3.000000)">
+                                    <g id="Shape-Copy-7" fill-rule="nonzero">
+                                        <use fill="#EEEEEE" fill-rule="evenodd" xlink:href="#path-24"></use>
+                                        <path stroke="#BDBDBD" stroke-width="1" d="M15.5,8 C15.5,3.81899952 12.1810005,0.5 8,0.5 C3.81899952,0.5 0.5,3.81899952 0.5,8 C0.5,12.1810005 3.81899952,15.5 8,15.5 C12.1810005,15.5 15.5,12.1810005 15.5,8 Z"></path>
+                                    </g>
+                                    <circle id="Oval-Copy" fill="#BDBDBD" cx="8" cy="8" r="4"></circle>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

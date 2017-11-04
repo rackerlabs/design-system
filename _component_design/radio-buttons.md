@@ -7,157 +7,140 @@ usage: >
   Radio buttons are used when the user is only allowed to select one option from a list. A minimum of one choice is required, and one is preselected by default.
 preview-image: preview-images/radio-buttons.svg
 resource: true
-status: in-progress
+status: stable
 need: selectors
-last-modified: 2017-08-17
+last-modified: 2017-11-04
 ---
 
 {% include toc.html %}
 
-<!--{% include todo.html content="Update focus states, expand on inline validation,
-and improve keyboard accessibility." %}-->
 
-# Radio Buttons
 
-Use when selecting a **single item** from a set it's important for the user to
-see all options at once. If viewing items side-by-side isn't important,
-consider a selector, which uses less space.
+
+
+
+## Introduction
 
 <div class="hxRow">
-{% column left:"hxCol" %}
-## Enabled
 
-<div class="ui form">
-  <div class="grouped fields">
-    <label>Select an option</label>
-    <div class="field">
-      <div class="ui radio checkbox">
-        <input type="radio" name="radio1" checked="checked">
-        <label>Option 1</label>
-        <div class="ui message subtext">
-          This is some subtext.
-        </div>
-      </div>
-    </div>
-    <div class="field">
-      <div class="ui radio checkbox">
-        <input type="radio" name="radio1">
-        <label>Option 2</label>
-      </div>
-    </div>
-    <div class="field">
-      <div class="ui radio checkbox">
-        <input type="radio" name="radio1">
-        <label>Option 3</label>
-      </div>
-    </div>
-  </div>
-</div>
+{% column left:"hxCol-6 hxCol-xs-12 hxCol-sm-12 hxCol-md-6 hxCol-lg-6" %}
+
+### When to use
+
+- Radio buttons should be used when a user has to select **only one option** in a list.
+- If multiple options can be selected, use [checkboxes]({{site.baseurl}}/components/checkboxes.html) instead.
+- A [dropdown menu]({{site.baseurl}}/components/dropdowns.html) can also be used for selecting only one option, but radio buttons are a better pattern if you want to reveal all options on the page without asking the user to click on the dropdown to see all available options. If you’re using more than five options, strongly consider the dropdown pattern.
+- Consider using a [switch]({{site.baseurl}}/components/switch.html) component if a singular input may be used to enable/disable a feature (in place of two yes/no radio buttons).
 
 {% endcolumn %}
-{% column left:"hxCol" %}
+{% column right:"hxCol-6 hxCol-xs-12 hxCol-sm-12 hxCol-md-6 hxCol-lg-6" %}
+{% figure [] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/inputs-and-controls/radio-buttons/radio-hero.svg)
+{% endfigure %}
+{% endcolumn %}
 
-## Disabled
-
-<div class="ui form">
-  <div class="grouped fields">
-    <label>Select an option</label>
-    <div class="field disabled">
-      <div class="ui radio checkbox">
-        <input type="radio" name="radio2" checked="checked" disabled="disabled">
-        <label>Option 1</label>
-      </div>
-    </div>
-    <div class="field disabled">
-      <div class="ui radio checkbox">
-        <input type="radio" name="radio2" disabled="disabled">
-        <label>Option 2</label>
-      </div>
-    </div>
-    <div class="field disabled">
-      <div class="ui radio checkbox">
-        <input type="radio" name="radio2" disabled="disabled">
-        <label>Option 3</label>
-      </div>
-    </div>
-  </div>
 </div>
+
+### Best practices 
+
+<div class="hxRow">
+
+{% column left :"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}  
+
+- Always use a label above the available options.
+- Keep the number of options to between 2 and 5 choices.
+- There is always a default option selected (preferably at the top or the list).
+- If the user clicks on another option, the first is unselected.
+- Radio buttons should only be used when the list can be vertical. If space is not available, consider a dropdown menu.
+- List options in an order that makes logical sense. Depending on the context, the order could be alphabetical or most common to least common. For example, if listing accounts by name, list them alphabetically. In billing, paying the amount due should be listed above letting the user enter a custom payment amount.
+- Use checkboxes and radio buttons only to change settings, not as action buttons that make something happen.
 
 {% endcolumn %}
-{% column right:"hxCol" %}
 
-## Error
-
-<div class="ui form error">
-  <div class="grouped fields required">
-    <label>Select an option</label>
-    <div class="field error checked">
-      <div class="ui radio checkbox">
-        <input type="radio" name="radio3" check="checked">
-        <label>Option 1</label>
-      </div>
-    </div>
-    <div class="field error">
-      <div class="ui radio checkbox">
-        <input type="radio" name="radio3">
-        <label>Option 2</label>
-      </div>
-    </div>
-    <div class="field error">
-      <div class="ui radio checkbox">
-        <input type="radio" name="radio3">
-        <label>Option 3</label>
-      </div>
-    </div>
-  </div>
-  <div class="ui error message">
-    There is an error with the response to this question.
-  </div>
 </div>
+
+## Specifications
+
+<div class="hxRow">
+
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### Composition
+
+A radio button group consists of a Section Label, followed by pairs of radio buttons and radio button labels.
+
+#### Labeling:
+
+- Labels should start with a capital letter.
+- Labels should not have punctuation at the end, such as a period, unless more than one sentence is used. 
+
 {% endcolumn %}
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [caption:"Radio button group composition"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/inputs-and-controls/radio-buttons/radio-composition.svg)
+{% endfigure %}
+{% endcolumn %}
+
 </div>
 
-# Radio Button Group
+### Spacing
 
-Use when selecting a **single item** from a set if it's important for the user
-to see all options at once. This alternate can be used instead of regular radio
-buttons if the options are **simple**, limited in number and individual length.
+<div class="hxRow">
 
-## Enabled
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-<div class="ui form">
-  <div class="field">
-    <label>Select potential maintenance days</label>
-    <div class="ui buttons single">
-      <button class="ui button ds-btn-med-sec active">Mon</button><button class="ui button ds-btn-med-sec">Tues</button><button class="ui button ds-btn-med-sec">Wed</button><button class="ui button ds-btn-med-sec">Thurs</button><button class="ui button ds-btn-med-sec">Fri</button><button class="ui button ds-btn-med-sec">Sat</button><button class="ui button ds-btn-med-sec">Sun</button>
-    </div>
-    <div class="ui message subtext">
-      Here is some additional help text to explain these choices.
-    </div>
-  </div>
+A title should always be located above the radio buttons. More context can be provided under the title (subtitle) but it is optional (shown here as “Select an option” on left). If subtitle is not needed, use specs in the design on the right.
+
+{% endcolumn %}
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [caption:"Radio button spacing"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/inputs-and-controls/radio-buttons/radio-spacing.svg)
+{% endfigure %}
+{% endcolumn %}
+
 </div>
 
-## Disabled
+### States
 
-<div class="ui form">
-  <div class="field">
-    <label>Select payment type</label>
-    <div class="ui buttons single">
-      <button class="ui button ds-btn-med-sec disabled active">Credit / Debit</button><button class="ui button ds-btn-med-sec disabled">Cash</button><button class="ui button ds-btn-med-sec disabled">Check</button>
-    </div>
-  </div>
+<div class="hxRow">
+
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+#### Overview
+
+A title should always be located above the radio buttons. More context can be provided under the title (subtitle) but it is optional (shown here as “Select an option” on left). If subtitle is not needed, use specs in the design on the right.
+
+Best practice form design would not allow a radio button to ever exist in error state, so try to avoid it at all cost.
+
+
+{% endcolumn %}
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [caption:"Radio button states"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/inputs-and-controls/radio-buttons/radio-states.svg)
+{% endfigure %}
+{% endcolumn %}
+
 </div>
 
-## Error
 
-<div class="ui form error">
-  <div class="field error">
-    <label class="required">Select potential maintenance windows</label>
-    <div class="ui buttons single">
-      <button class="ui button ds-btn-med-sec">12<span class="smCaps"> AM</span> &ndash; 4<span class="smCaps"> AM</span></button><button class="ui button ds-btn-med-sec error active">4<span class="smCaps"> AM</span> &ndash; 8<span class="smCaps"> AM</span></button><button class="ui button ds-btn-med-sec">8<span class="smCaps"> AM</span> &ndash; 12<span class="smCaps"> PM</span></button><button class="ui button ds-btn-med-sec">12<span class="smCaps"> PM</span> &ndash; 4<span class="smCaps"> PM</span></button><button class="ui button ds-btn-med-sec">4<span class="smCaps"> PM</span> &ndash; 8<span class="smCaps"> PM</span></button><button class="ui button ds-btn-med-sec">8<span class="smCaps"> PM</span> &ndash; 12<span class="smCaps"> AM</span></button>
-    </div>
-    <div class="ui error message">
-      There is an error with the response to this question.
-    </div>
-  </div>
+
+<div class="hxRow">
+
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+#### Error state - expanded
+
+The question with the error receives an asterisk. The asterisk position floats to the left, in the margin, not in vertical alignment with the text. The section label should remain in its natural vertical alignment. 
+
+Only the option with the error receives the error radio button.
+
+Let the error message wrap to fixed upper and lower bounds, so as to adhere to 40-80 characters per line.
+
+{% endcolumn %}
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [caption:"Radio button error state details"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/inputs-and-controls/radio-buttons/radio-error.svg)
+{% endfigure %}
+{% endcolumn %}
+
 </div>
