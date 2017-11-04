@@ -35,9 +35,14 @@ Breadcrumbs offer a way to articulate the platform architecture in a way the use
 
 {% endcolumn %}
 
+</div>
+
+## Standard breadcrumbs
+
 <div class="hxRow">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-## Standard breadcrumbs
+
+### Specifications
 
 * __Placement:__ Keep breadcrumbs above the major heading of the page, 8px from the eyebrow. The container for breadcrumbs will always live on the top left corner of the page when it is present. Make sure the breadcrumb container is 16px above the content on the top of the page. 
 
