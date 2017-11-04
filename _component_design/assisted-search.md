@@ -28,7 +28,7 @@ Upon clicking the search box the user should be presented with a list of keyword
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Assist search specifications"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/search-and-filters/search-bar/search-assisted-default.svg)
+![]({{site.url}}/assets/images/components/search-and-filters/search-assisted/search-assisted-default.svg)
 {% endfigure %}
 {% endcolumn %}
 
@@ -49,7 +49,7 @@ User should still have instructions for how to search without autocompleted resu
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Assist search specifications"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/search-and-filters/search-bar/search-assisted-loading.svg)
+![]({{site.url}}/assets/images/components/search-and-filters/search-assisted/search-assisted-loading.svg)
 {% endfigure %}
 {% endcolumn %}
 
@@ -67,7 +67,7 @@ Search completion results should be divided up by categories.
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Assisted search results specifications"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/search-and-filters/search-bar/search-assisted-results.svg)
+![]({{site.url}}/assets/images/components/search-and-filters/search-assisted/search-assisted-results.svg)
 {% endfigure %}
 {% endcolumn %}
 
