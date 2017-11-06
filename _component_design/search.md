@@ -25,7 +25,7 @@ When an app supports large amounts of information, users should be able to quick
 - Display the search element prominently on the page.
 - Always pair the search with the eyeglass icon.
 - Place search on every page that is displaying aggregate data sets.
-- Rule of thumb is to have bar length incorporate 30 - character text input .
+- Search bars are variable in size from app-to-app. To ensure smaller search bar function well for users, a 30 character minimum text input is displayed.
 
 {% endcolumn %}
 
@@ -45,7 +45,7 @@ When an app supports large amounts of information, users should be able to quick
 ### Basic search bar
 
 
-Search Bars utilize the same specs as text inputs and as such should align unless otherwise specified.
+Search Bars utilize the same text specifications defined in [text inputs]({{site.baseurl}}/components/text-fields.html).
 
 By default, the search bar will extend across the full width of its container, though we do recommend a minimum width of 294px so that the user can see what they have typed previously. 
 
@@ -65,12 +65,19 @@ By default, the search bar will extend across the full width of its container, t
 
 ### States
 
-When a user clicks into the search bar it becomes active. Showing the user their mouse as shown. Keep in mind, other types of searches will have different active interaction states. 
+The basic search bar component has the following states:
+
+- **Idle & empty:** Base state of component, prior to user interaction.
+- **Focused:** Once a user has clicked inside the search bar, it enters a focused state.
+- **Idle & filled:** Once a user has performed a query and selected another element on the page.
+- **Error:** Displayed in the event an error occurs within the search.
+- **Error & focused:** After an error has occurred and a user has focused the search bar. Search bar will reenter focused state once the error is remedied.
+
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% figure [caption:"On focus, users cursor becomes active within the search bar. Depending on users state of the search bar may change. If no results, or an error occurs, display error state along with error message about error. "] [class:"image bg-light border"] %}
+{% figure [caption:"Basic search bar states"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/search-and-filters/search-bar/search-states.svg)
 {% endfigure %}
 {% endcolumn %}
@@ -83,9 +90,9 @@ When a user clicks into the search bar it becomes active. Showing the user their
 
 ### Spacing
 
-- Content should be vertically centered.
+- Content is vertically centered.
 - Padding around edges of search box: 8px.
-- When no search results found, error message displays, “No results found”.
+- When displaying an error message or "no search results" message, place 4px below the search bar.
 
 
 {% endcolumn %}
@@ -104,13 +111,12 @@ When a user clicks into the search bar it becomes active. Showing the user their
 
 ### No results
 
-When a user enters a search term and presses enter and there are no results, the form remains in Filled state with a message beneath it placed as an error message is, but in our subdued text style, encouraging the user to try another search term.
-
+The 'no results' state mimics the 'Idle and filled' state and displays a specialized error message in subdued text style.
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% figure [caption:"When no results found use the default unfilled search bar state and add a “No results” message beneath."] [class:"image bg-light border"] %}
+{% figure [caption:"No results state"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/search-and-filters/search-bar/search-no-results.svg)
 {% endfigure %}
 {% endcolumn %}

@@ -5,115 +5,103 @@
     <desc>Created with Sketch.</desc>
     <style type="text/css">@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');</style>
     <defs>
-        <path d="M3,35 L277.704622,35 L573,35 L573,35 C574.104569,35 575,35.8954305 575,37 L575,65 L575,65 C575,66.1045695 574.104569,67 573,67 L526.97181,67 L3,67 L3,67 C1.8954305,67 1,66.1045695 1,65 L1,37 L1,37 C1,35.8954305 1.8954305,35 3,35 Z" id="path-1"></path>
+        <path d="M36,267 L310.704622,267 L606,267 L606,267 C607.104569,267 608,267.895431 608,269 L608,297 L608,297 C608,298.104569 607.104569,299 606,299 L559.97181,299 L36,299 L36,299 C34.8954305,299 34,298.104569 34,297 L34,269 L34,269 C34,267.895431 34.8954305,267 36,267 Z" id="path-1"></path>
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="search-spacing">
-            <g id="Spacing-Specs" transform="translate(-2.000000, -20.000000)">
-                <text id="Idle-&amp;-Empty" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" line-spacing="19" fill="#666666">
-                    <tspan x="37" y="28">Idle &amp; Empty</tspan>
+            <text id="Idle-&amp;-Empty" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" line-spacing="19" fill="#666666">
+                <tspan x="34" y="14">Idle &amp; Empty</tspan>
+            </text>
+            <text id="Search…" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#6B6B6B">
+                <tspan x="64" y="66">Search…</tspan>
+            </text>
+            <text id="Idle-&amp;-Filled" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" line-spacing="19" fill="#666666">
+                <tspan x="34" y="139">Idle &amp; Filled</tspan>
+            </text>
+            <path d="M602.478528,78 L35.5214724,78 C33.5758589,78 32,77.0442667 32,75.8666667 L32,48.1333333 C32,46.9557333 33.5758589,46 35.5214724,46 L602.478528,46 C604.424141,46 606,46.9557333 606,48.1333333 L606,75.8666667 C606,77.0442667 604.424141,78 602.478528,78 L602.478528,78 Z" id="Stroke-6" stroke="#BDBDBD"></path>
+            <path d="M35.5214724,78 C33.5758589,78 32,77.0442667 32,75.8666667 L32,48.1333333 C32,46.9557333 33.5758589,46 35.5214724,46 L602.478528,46 C604.424141,46 606,46.9557333 606,48.1333333 L606,75.8666667 C606,77.0442667 604.424141,78 602.478528,78 L35.5214724,78 Z" id="Stroke-6" stroke="#BDBDBD"></path>
+            <g id="Icons/Search" transform="translate(40.000000, 55.000000)" fill="#757575">
+                <g id="search">
+                    <g id="Layer_1" fill-rule="nonzero">
+                        <path d="M15.9,14.6 L11.4,10.1 C12.2,9 12.7,7.7 12.7,6.3 C12.7,2.8 9.8,0 6.4,0 C2.9,0 0.1,2.8 0.1,6.3 C0.1,9.8 2.9,12.6 6.4,12.6 C7.7,12.6 9,12.2 10,11.5 L14.5,16 L15.9,14.6 Z M2.1,6.3 C2.1,3.9 4,2 6.4,2 C8.8,2 10.7,3.9 10.7,6.3 C10.7,8.7 8.8,10.6 6.4,10.6 C4,10.6 2.1,8.7 2.1,6.3 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+            <g id="specs-/-spacing-/-external-/-H-16px" transform="translate(32.000000, 78.000000)">
+                <rect id="Rectangle-3-Copy-30" fill="#F977A2" fill-rule="evenodd" x="0" y="0" width="574" height="16"></rect>
+                <text id="16" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="246.82" y="11">16</tspan>
                 </text>
-                <text id="Search…" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#6B6B6B">
-                    <tspan x="67" y="80">Search…</tspan>
+            </g>
+            <g id="specs-/-spacing-/-external-/-H-16px" transform="translate(32.000000, 30.000000)">
+                <rect id="Rectangle-3-Copy-30" fill="#F977A2" fill-rule="evenodd" x="0" y="0" width="574" height="16"></rect>
+                <text id="16" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="246.82" y="11">16</tspan>
                 </text>
-                <text id="Idle-&amp;-Filled" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" line-spacing="19" fill="#666666">
-                    <tspan x="37" y="153">Idle &amp; Filled</tspan>
+            </g>
+            <text id="Error-&amp;-Idle" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" line-spacing="19" fill="#666666">
+                <tspan x="34" y="243">Error &amp; Idle</tspan>
+            </text>
+            <g id="Rectangle-4">
+                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                <path stroke="#D32F2F" stroke-width="2" d="M36,268 C35.4477153,268 35,268.447715 35,269 L35,297 C35,297.552285 35.4477153,298 36,298 L606,298 C606.552285,298 607,297.552285 607,297 L607,269 C607,268.447715 606.552285,268 606,268 L36,268 Z"></path>
+            </g>
+            <g id="Icons/Search" transform="translate(45.000000, 275.000000)" fill="#757575">
+                <g id="search">
+                    <g id="Layer_1" fill-rule="nonzero">
+                        <path d="M15.9,14.6 L11.4,10.1 C12.2,9 12.7,7.7 12.7,6.3 C12.7,2.8 9.8,0 6.4,0 C2.9,0 0.1,2.8 0.1,6.3 C0.1,9.8 2.9,12.6 6.4,12.6 C7.7,12.6 9,12.2 10,11.5 L14.5,16 L15.9,14.6 Z M2.1,6.3 C2.1,3.9 4,2 6.4,2 C8.8,2 10.7,3.9 10.7,6.3 C10.7,8.7 8.8,10.6 6.4,10.6 C4,10.6 2.1,8.7 2.1,6.3 Z" id="Shape"></path>
+                    </g>
+                </g>
+            </g>
+            <text id="Error-Message" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#D32F2F">
+                <tspan x="35" y="311">Error Message</tspan>
+            </text>
+            <g id="specs-/-spacing-/-inline-/-V-08px" transform="translate(56.000000, 46.000000)">
+                <rect id="Rectangle-5-Copy-19" fill="#90D5B2" fill-rule="evenodd" x="0" y="0" width="8" height="32"></rect>
+                <text id="8-copy-12" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#333333">
+                    <tspan x="1" y="18.36">8</tspan>
                 </text>
-                <path d="M605.478528,92 L38.5214724,92 C36.5758589,92 35,91.0442667 35,89.8666667 L35,62.1333333 C35,60.9557333 36.5758589,60 38.5214724,60 L605.478528,60 C607.424141,60 609,60.9557333 609,62.1333333 L609,89.8666667 C609,91.0442667 607.424141,92 605.478528,92 L605.478528,92 Z" id="Stroke-6" stroke="#BDBDBD"></path>
-                <path d="M38.5214724,92 C36.5758589,92 35,91.0442667 35,89.8666667 L35,62.1333333 C35,60.9557333 36.5758589,60 38.5214724,60 L605.478528,60 C607.424141,60 609,60.9557333 609,62.1333333 L609,89.8666667 C609,91.0442667 607.424141,92 605.478528,92 L38.5214724,92 Z" id="Stroke-6" stroke="#BDBDBD"></path>
-                <g id="Icons/Search" transform="translate(44.000000, 69.000000)" fill="#757575">
-                    <g id="search">
-                        <g id="Layer_1" fill-rule="nonzero">
-                            <path d="M15.9,14.6 L11.4,10.1 C12.2,9 12.7,7.7 12.7,6.3 C12.7,2.8 9.8,0 6.4,0 C2.9,0 0.1,2.8 0.1,6.3 C0.1,9.8 2.9,12.6 6.4,12.6 C7.7,12.6 9,12.2 10,11.5 L14.5,16 L15.9,14.6 Z M2.1,6.3 C2.1,3.9 4,2 6.4,2 C8.8,2 10.7,3.9 10.7,6.3 C10.7,8.7 8.8,10.6 6.4,10.6 C4,10.6 2.1,8.7 2.1,6.3 Z" id="Shape"></path>
-                        </g>
+            </g>
+            <path d="M35.5214724,192 C33.5758589,192 32,191.044267 32,189.866667 L32,162.133333 C32,160.955733 33.5758589,160 35.5214724,160 L602.478528,160 C604.424141,160 606,160.955733 606,162.133333 L606,189.866667 C606,191.044267 604.424141,192 602.478528,192 L35.5214724,192 Z" id="Stroke-6" stroke="#BDBDBD"></path>
+            <text id="Term-here" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#424242">
+                <tspan x="64" y="181">Term here</tspan>
+            </text>
+            <g id="Icons/Search" transform="translate(40.000000, 168.000000)" fill="#757575">
+                <g id="search">
+                    <g id="Layer_1" fill-rule="nonzero">
+                        <path d="M15.9,14.6 L11.4,10.1 C12.2,9 12.7,7.7 12.7,6.3 C12.7,2.8 9.8,0 6.4,0 C2.9,0 0.1,2.8 0.1,6.3 C0.1,9.8 2.9,12.6 6.4,12.6 C7.7,12.6 9,12.2 10,11.5 L14.5,16 L15.9,14.6 Z M2.1,6.3 C2.1,3.9 4,2 6.4,2 C8.8,2 10.7,3.9 10.7,6.3 C10.7,8.7 8.8,10.6 6.4,10.6 C4,10.6 2.1,8.7 2.1,6.3 Z" id="Shape"></path>
                     </g>
                 </g>
-                <g id="specs-/-spacing-/-external-/-H-16px" transform="translate(35.000000, 93.000000)">
-                    <rect id="Rectangle-3-Copy-30" fill="#F977A2" fill-rule="evenodd" x="0" y="0" width="574" height="16"></rect>
-                    <text id="16" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#FFFFFF">
-                        <tspan x="246.82" y="11">16</tspan>
-                    </text>
-                </g>
-                <g id="specs-/-spacing-/-external-/-H-16px" transform="translate(35.000000, 44.000000)">
-                    <rect id="Rectangle-3-Copy-30" fill="#F977A2" fill-rule="evenodd" x="0" y="0" width="574" height="16"></rect>
-                    <text id="16" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#FFFFFF">
-                        <tspan x="246.82" y="11">16</tspan>
-                    </text>
-                </g>
-                <g id="specs-/-spacing-/-internal-/-H-08px" transform="translate(39.500000, 77.000000) rotate(-270.000000) translate(-39.500000, -77.000000) translate(24.000000, 73.000000)">
-                    <rect id="Rectangle-3" fill="#F9CD94" fill-rule="evenodd" x="0" y="0" width="31" height="8"></rect>
-                    <text id="8" font-family="Roboto-Regular, Roboto" font-size="10" font-weight="normal" fill="#333333">
-                        <tspan x="14.2763158" y="6">8</tspan>
-                    </text>
-                </g>
-                <g id="Group-6" transform="translate(36.000000, 246.000000)">
-                    <text id="Error-&amp;-Idle" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" line-spacing="19" fill="#666666">
-                        <tspan x="0.5" y="11">Error &amp; Idle</tspan>
-                    </text>
-                    <g id="Rectangle-4">
-                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
-                        <path stroke="#D32F2F" stroke-width="2" d="M3,36 C2.44771525,36 2,36.4477153 2,37 L2,65 C2,65.5522847 2.44771525,66 3,66 L573,66 C573.552285,66 574,65.5522847 574,65 L574,37 C574,36.4477153 573.552285,36 573,36 L3,36 Z"></path>
-                    </g>
-                    <g id="Icons/Close" transform="translate(555.000000, 45.000000)" fill="#757575">
-                        <polygon id="Fill-270" points="12.322725 0.890088423 11.3483366 -0.0843 6.322725 4.94131158 1.29711342 -0.0843 0.322725 0.890088423 5.34833658 5.9157 0.322725 10.9413116 1.29711342 11.9157 6.322725 6.89008842 11.3483366 11.9157 12.322725 10.9413116 7.29711342 5.9157"></polygon>
-                    </g>
-                    <g id="Icons/Search" transform="translate(12.000000, 43.000000)" fill="#757575">
-                        <g id="search">
-                            <g id="Layer_1" fill-rule="nonzero">
-                                <path d="M15.9,14.6 L11.4,10.1 C12.2,9 12.7,7.7 12.7,6.3 C12.7,2.8 9.8,0 6.4,0 C2.9,0 0.1,2.8 0.1,6.3 C0.1,9.8 2.9,12.6 6.4,12.6 C7.7,12.6 9,12.2 10,11.5 L14.5,16 L15.9,14.6 Z M2.1,6.3 C2.1,3.9 4,2 6.4,2 C8.8,2 10.7,3.9 10.7,6.3 C10.7,8.7 8.8,10.6 6.4,10.6 C4,10.6 2.1,8.7 2.1,6.3 Z" id="Shape"></path>
-                            </g>
-                        </g>
-                    </g>
-                    <text id="Error-Message" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#D32F2F">
-                        <tspan x="2" y="79">Error Message</tspan>
-                    </text>
-                </g>
-                <g id="specs-/-padding" transform="translate(39.500000, 77.000000) rotate(-90.000000) translate(-39.500000, -77.000000) translate(24.000000, 73.000000)">
-                    <rect id="Rectangle-2-Copy" fill="#FBC02D" fill-rule="evenodd" x="0" y="0" width="31" height="8"></rect>
-                    <text id="10-PX" font-family="Roboto-Medium, Roboto" font-size="12" font-weight="400" line-spacing="11" fill="#000000">
-                        <tspan x="-5.67578125" y="6.99283854">8 PX</tspan>
-                    </text>
-                </g>
-                <g id="specs-/-spacing-/-inline-/-V-08px" transform="translate(59.500000, 61.000000)">
-                    <rect id="Rectangle-5-Copy-19" fill="#90D5B2" fill-rule="evenodd" x="0" y="0" width="8" height="30"></rect>
-                    <text id="8-copy-12" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#333333">
-                        <tspan x="1" y="17.4">8</tspan>
-                    </text>
-                </g>
-                <g id="Idle-&amp;-Filled" transform="translate(36.000000, 174.000000)">
-                    <path d="M3.52147239,32 C1.5758589,32 0,31.0442667 0,29.8666667 L0,2.13333333 C0,0.955733333 1.5758589,0 3.52147239,0 L570.478528,0 C572.424141,0 574,0.955733333 574,2.13333333 L574,29.8666667 C574,31.0442667 572.424141,32 570.478528,32 L3.52147239,32 Z" id="Stroke-6" stroke="#BDBDBD"></path>
-                    <text id="Term-here" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#424242">
-                        <tspan x="32.5" y="19">Term here</tspan>
-                    </text>
-                    <g id="Icons/Search" transform="translate(9.000000, 8.000000)" fill="#757575">
-                        <g id="search">
-                            <g id="Layer_1" fill-rule="nonzero">
-                                <path d="M15.9,14.6 L11.4,10.1 C12.2,9 12.7,7.7 12.7,6.3 C12.7,2.8 9.8,0 6.4,0 C2.9,0 0.1,2.8 0.1,6.3 C0.1,9.8 2.9,12.6 6.4,12.6 C7.7,12.6 9,12.2 10,11.5 L14.5,16 L15.9,14.6 Z M2.1,6.3 C2.1,3.9 4,2 6.4,2 C8.8,2 10.7,3.9 10.7,6.3 C10.7,8.7 8.8,10.6 6.4,10.6 C4,10.6 2.1,8.7 2.1,6.3 Z" id="Shape"></path>
-                            </g>
-                        </g>
-                    </g>
-                    <g id="Icons/Close" transform="translate(553.000000, 10.000000)" fill="#757575">
-                        <polygon id="Fill-270" points="12.322725 0.890088423 11.3483366 -0.0843 6.322725 4.94131158 1.29711342 -0.0843 0.322725 0.890088423 5.34833658 5.9157 0.322725 10.9413116 1.29711342 11.9157 6.322725 6.89008842 11.3483366 11.9157 12.322725 10.9413116 7.29711342 5.9157"></polygon>
-                    </g>
-                    <g id="specs-/-padding" transform="translate(569.500000, 16.000000) rotate(-90.000000) translate(-569.500000, -16.000000) translate(554.000000, 12.000000)">
-                        <rect id="Rectangle-2-Copy" fill="#FBC02D" fill-rule="evenodd" x="0" y="0" width="31" height="8"></rect>
-                        <text id="10-PX" font-family="Roboto-Medium, Roboto" font-size="12" font-weight="400" line-spacing="11" fill="#000000">
-                            <tspan x="-5.67578125" y="6.99283854">8 PX</tspan>
-                        </text>
-                    </g>
-                    <g id="specs-/-padding" transform="translate(4.500000, 16.000000) rotate(-90.000000) translate(-4.500000, -16.000000) translate(-11.000000, 12.000000)">
-                        <rect id="Rectangle-2-Copy" fill="#FBC02D" fill-rule="evenodd" x="0" y="0" width="31" height="8"></rect>
-                        <text id="10-PX" font-family="Roboto-Medium, Roboto" font-size="12" font-weight="400" line-spacing="11" fill="#000000">
-                            <tspan x="-5.67578125" y="6.99283854">8 PX</tspan>
-                        </text>
-                    </g>
-                    <g id="specs-/-spacing-/-inline-/-V-08px" transform="translate(24.500000, 1.000000)">
-                        <rect id="Rectangle-5-Copy-19" fill="#90D5B2" fill-rule="evenodd" x="0" y="0" width="8" height="30"></rect>
-                        <text id="8-copy-12" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#333333">
-                            <tspan x="1" y="17.4">8</tspan>
-                        </text>
-                    </g>
-                </g>
+            </g>
+            <g id="specs-/-spacing-/-inline-/-V-08px" transform="translate(56.000000, 160.000000)">
+                <rect id="Rectangle-5-Copy-19" fill="#90D5B2" fill-rule="evenodd" x="0" y="0" width="8" height="32"></rect>
+                <text id="8-copy-12" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#333333">
+                    <tspan x="1" y="18.36">8</tspan>
+                </text>
+            </g>
+            <g id="specs-/-spacing-/-internal-/-V-08px" transform="translate(32.000000, 46.000000)">
+                <rect id="Rectangle-5-Copy-9" fill="#F8CC96" fill-rule="evenodd" x="0" y="0" width="8" height="32"></rect>
+                <text id="8-copy-10" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#333333">
+                    <tspan x="1" y="18.68">8</tspan>
+                </text>
+            </g>
+            <g id="specs-/-spacing-/-internal-/-V-08px" transform="translate(32.000000, 160.000000)">
+                <rect id="Rectangle-5-Copy-9" fill="#F8CC96" fill-rule="evenodd" x="0" y="0" width="8" height="32"></rect>
+                <text id="8-copy-10" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#333333">
+                    <tspan x="1" y="18.68">8</tspan>
+                </text>
+            </g>
+            <g id="Icons/Close" transform="translate(588.000000, 277.000000)" fill="#757575">
+                <polygon id="Fill-270" points="12.322725 0.890088423 11.3483366 -0.0843 6.322725 4.94131158 1.29711342 -0.0843 0.322725 0.890088423 5.34833658 5.9157 0.322725 10.9413116 1.29711342 11.9157 6.322725 6.89008842 11.3483366 11.9157 12.322725 10.9413116 7.29711342 5.9157"></polygon>
+            </g>
+            <g id="Icons/Close" transform="translate(586.000000, 170.000000)" fill="#757575">
+                <polygon id="Fill-270" points="12.322725 0.890088423 11.3483366 -0.0843 6.322725 4.94131158 1.29711342 -0.0843 0.322725 0.890088423 5.34833658 5.9157 0.322725 10.9413116 1.29711342 11.9157 6.322725 6.89008842 11.3483366 11.9157 12.322725 10.9413116 7.29711342 5.9157"></polygon>
+            </g>
+            <g id="specs-/-spacing-/-internal-/-V-08px" transform="translate(598.000000, 160.000000)">
+                <rect id="Rectangle-5-Copy-9" fill="#F8CC96" fill-rule="evenodd" x="0" y="0" width="8" height="32"></rect>
+                <text id="8-copy-10" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#333333">
+                    <tspan x="1" y="18.68">8</tspan>
+                </text>
             </g>
         </g>
     </g>

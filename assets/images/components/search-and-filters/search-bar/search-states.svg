@@ -25,12 +25,6 @@
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="search-states">
             <g id="States-Overview" transform="translate(23.000000, 25.000000)">
-                <g id="specs-/-spacing-/-external-/-H-04px" transform="translate(8.000000, 665.000000)">
-                    <rect id="Rectangle-3-Copy-26" fill="#F977A2" fill-rule="evenodd" x="0" y="4" width="533" height="4"></rect>
-                    <text id="4-copy-2" font-family="Roboto-Regular, Roboto" font-size="8" font-weight="normal" fill="#000000">
-                        <tspan x="238.447368" y="7">4</tspan>
-                    </text>
-                </g>
                 <text id="Input" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#616161">
                     <tspan x="44" y="657">Input</tspan>
                 </text>
@@ -60,7 +54,7 @@
                     <tspan x="7" y="865">Error message</tspan>
                 </text>
                 <text id="Input-search-term" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#424242">
-                    <tspan x="39.5" y="838.5">Input search term</tspan>
+                    <tspan x="40" y="839">Input search term</tspan>
                 </text>
                 <g id="specs-/-redlines-/-line-straight" transform="translate(73.000000, 908.000000) rotate(-270.000000) translate(-73.000000, -908.000000) translate(72.000000, 907.000000)" stroke="#979797">
                     <path d="" id="Path-3"></path>
@@ -128,7 +122,7 @@
                     <polygon id="Fill-270" points="12.322725 0.890088423 11.3483366 -0.0843 6.322725 4.94131158 1.29711342 -0.0843 0.322725 0.890088423 5.34833658 5.9157 0.322725 10.9413116 1.29711342 11.9157 6.322725 6.89008842 11.3483366 11.9157 12.322725 10.9413116 7.29711342 5.9157"></polygon>
                 </g>
                 <text id="Search…" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#6B6B6B">
-                    <tspan x="40.5" y="83.5">Search…</tspan>
+                    <tspan x="41" y="85">Search…</tspan>
                 </text>
                 <g id="Rectangle-4">
                     <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
@@ -136,7 +130,7 @@
                     <rect stroke="#0E94A6" stroke-width="1" x="8" y="217.5" width="532" height="31" rx="2"></rect>
                 </g>
                 <text id="l" font-family="Roboto-Thin, Roboto" font-size="26" font-style="condensed" font-weight="300" fill="#000000">
-                    <tspan x="39.5" y="240">l</tspan>
+                    <tspan x="40" y="242">l</tspan>
                 </text>
                 <g id="Icons/Search" transform="translate(17.000000, 224.500000)" fill="#757575">
                     <g id="search">
@@ -224,12 +218,12 @@
                     <path d="" id="Path-3" stroke="#979797"></path>
                 </g>
                 <text id="Search…" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#6B6B6B">
-                    <tspan x="42" y="237.5">Search…</tspan>
+                    <tspan x="42" y="239">Search…</tspan>
                 </text>
                 <g id="Group-7" transform="translate(7.000000, 425.000000)">
                     <path d="M3.76993865,32 C1.96329755,32 0.5,31.0442667 0.5,29.8666667 L0.5,2.13333333 C0.5,0.955733333 1.96329755,0 3.76993865,0 L530.230061,0 C532.036702,0 533.5,0.955733333 533.5,2.13333333 L533.5,29.8666667 C533.5,31.0442667 532.036702,32 530.230061,32 L3.76993865,32 Z" id="Stroke-6" stroke="#BDBDBD"></path>
                     <text id="Input-search-term" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#424242">
-                        <tspan x="33" y="20.5">Input search term</tspan>
+                        <tspan x="33" y="22">Input search term</tspan>
                     </text>
                     <g id="Icons/Search" transform="translate(10.000000, 8.000000)" fill="#757575">
                         <g id="search">
@@ -243,9 +237,13 @@
                     </g>
                 </g>
                 <text id="Input-search-term" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#424242">
-                    <tspan x="39.5" y="657.5">Input search term</tspan>
+                    <tspan x="40" y="658">Input search term</tspan>
                 </text>
             </g>
+            <rect id="Rectangle-3-Copy-26" fill="#F977A2" x="32" y="693" width="533" height="4"></rect>
+            <text id="4-copy-2" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#000000">
+                <tspan x="270" y="698">4</tspan>
+            </text>
         </g>
     </g>
 </svg>

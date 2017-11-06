@@ -19,7 +19,7 @@
                     <tspan x="1" y="47">No results found for your search term. Try another.</tspan>
                 </text>
                 <text id="Term-You-Searched" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#424242">
-                    <tspan x="33" y="20.5">Term You Searched</tspan>
+                    <tspan x="33" y="22">Term You Searched</tspan>
                 </text>
                 <g id="Icons/Search" transform="translate(10.000000, 8.000000)" fill="#757575">
                     <g id="search">
