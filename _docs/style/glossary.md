@@ -5,7 +5,7 @@ category: Style
 usage: |
   The following is a glossary of common terms found in the Helix documentation.
 preview-image:
-resource: true
+resource: false
 ---
 
 {% include toc.html %}
