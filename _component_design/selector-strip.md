@@ -1,6 +1,7 @@
 ---
 title: Selector Strip
 parent: Inputs and Controls
+secondar: Selectors
 layout: component
 category: Components
 usage: >
@@ -55,7 +56,7 @@ The selector strip component functions best when:
 
 {% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
-The default layout has two main styles: single-Select and multi-Select. In both layouts, the unselected options have a white background with cyan text, and selected options have a cyan background with white text. 
+The default layout has two main styles: single-select and multi-select. In both layouts, the unselected options have a white background with cyan text, and selected options have a cyan background with white text. 
 
 {% endcolumn %}
 
@@ -65,7 +66,7 @@ The default layout has two main styles: single-Select and multi-Select. In both 
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-### Single-Select  selector strips
+### Single-select  selector strips
 
 Single-select strips have rounded corners and function like a radio button; only one option can be selected at a time. Selecting another option deselects the previously selected option. Single select always starts with one option selected. There are no alternative focus states on single-select strips, because you cannot focus on an item without selecting it.
 
@@ -83,7 +84,7 @@ Single-select strips have rounded corners and function like a radio button; only
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-### Multi-Select selector strips
+### Multi-select selector strips
 
 Multi-select selector strips have more squared edges and function like checkboxes so more than one option can be selected at a time. The primary use-case for mult-select is selecting days of the week.
 
