@@ -7,7 +7,7 @@ usage: null
 preview-image: null
 status: in-progress
 resource: false
-last-modified: 2017-08-17
+last-modified: 2017-11-07
 ---
 
 {% for page in site.component_design %}
@@ -15,4 +15,5 @@ last-modified: 2017-08-17
   {% if page.parent contains "Selectors" or page.secondary contains "Selectors" %}
 {% include component-row.html %}
   {% endif %}
-{% endif %}{% endfor %}
+{% endif %}
+{% endfor %}
