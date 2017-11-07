@@ -9,7 +9,9 @@ last-modified: 2017-08-17
 ---
 
 {% for page in site.component_design %}
-  {% if page.parent contains "Navigation" and page.resource == true %}
+{% if page.resource == true %}
+  {% if page.parent contains "Navigation" or page.secondary contains "Navigation" %}
 {% include component-row.html %}
   {% endif %}
+{% endif %}
 {% endfor %}
