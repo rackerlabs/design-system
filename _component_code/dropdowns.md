@@ -1,8 +1,9 @@
 ---
-title: Dropdowns
+title: Drop-downs
 layout: code
 category: Components Code
-code: null
+code: dropdown
+height: 30rem
 ---
 
-{% include todo.html content="Set up code." %}
+{% include code-container.html %}

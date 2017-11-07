@@ -2,7 +2,8 @@
 title: Basic Tables
 layout: code
 category: Components Code
-code: null
+code: table
+height: 230rem
 ---
 
-{% include todo.html content="Set up code." %}
+{% include code-container.html %}

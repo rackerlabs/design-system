@@ -1,5 +1,5 @@
 ---
-title: Data Visualization
+title: Charts
 layout: code
 category: Components Code
 code: null
