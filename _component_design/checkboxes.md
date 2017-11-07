@@ -7,9 +7,9 @@ usage: >
   Checkboxes are used to change settings or bulk item selection. Checkboxes allow the user to select zero, one, or several items.
 preview-image: preview-images/checkboxes.svg
 resource: true
-status: in-progress
+status: stable
 need: selectors
-last-modified: 2017-08-17
+last-modified: 2017-10-07
 ---
 
 {% include toc.html %}
@@ -20,7 +20,7 @@ last-modified: 2017-08-17
 
 ### When to use checkboxes
 
-* You can use checkable input to select any number of options;
+* You can use checkable input to select any number of options,
   including zero, one, or several.
 * Use when selecting multiple items from a set, it is important for the
   user to view all options at once. If viewing items side by side is not
@@ -33,7 +33,7 @@ last-modified: 2017-08-17
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% figure [] [class:"image bg-light border"] %}
+{% figure [The checkbox component] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-hero-image.svg)
 {% endfigure %}
 {% endcolumn %}
@@ -44,14 +44,14 @@ last-modified: 2017-08-17
 {% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 ### Best practices for checkboxes
 
-* Each input is independent of all other input in the list and checking one
+* Each input is independent of all other input in the list, and checking one
   box does not uncheck the others.
 * Use singular input to enable or disable a feature, or use
   in place of two yes and no radio buttons.
 * Use checkboxes and radio buttons only to change settings, not as action
   buttons that trigger another process or workflow.
 * Typically, checkboxes default to having no options selected. However,
-  if Rackspace recommended an option, make that the default.
+  if Rackspace recommends an option, make that the default.
 
 ### Presentation for checkboxes
 
@@ -63,14 +63,12 @@ last-modified: 2017-08-17
 
 ### Problems solved by checkboxes
 
-When a user needs to make a selection in a form:
+Checkboxes alllow users needs to make a selection in a form:
 
 - A checkbox list enables them to select one or more items while being able to visually compare them all at once.
 - A singular checkbox enables them to enable or disable a feature.
 
-When a user needs to manage a group of items:
-
-- Checkboxes may be added to a list to allow for bulk actions.
+When a user needs to manage a group of items, checkboxes may be added to a list to allow for bulk actions.
 
 {% endcolumn %}
 </div>
@@ -81,22 +79,20 @@ When a user needs to manage a group of items:
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 ### Default layout
 
-A checkbox group consists of a section label, followed pairs of checkboxes
-and checkbox labels.
+A checkbox group consists of a section label followed by pairs of checkboxes and checkbox labels.
 
 #### Labeling checkboxes
 
 * Use positive and active wording for checkbox labels. Avoid negations such
-  as, "Don't send me more email". This would mean that the user would have
+  as "Don't send me more email". Negative labels on checkboxes would mean that the user would have
   to check the box in order for something not to happen.
 * Write checkbox labels so that users know both what will happen if they
-  check a particular box, and what will happen if they leave it unchecked.
+  check a particular box and what will happen if they leave it unchecked.
   If you are unable to do this, we recommend using two radio buttons: one
-  for having the feature on, and one for having it off. Ensure you write
+  for having the feature on and one for having it off. Ensure you write
   clear labels for each of the two cases.
 
-* **Note:** Allow users to select an option by clicking on either the button, the box
-  itself or the label; a bigger target is faster to click.
+{% include note.html content="Allow users to select an option by clicking on either the button, the box itself, or the label; a bigger target is faster to click." %}
 
 {% endcolumn %}
 
@@ -130,10 +126,10 @@ and checkbox labels.
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 ### States
 
-Checkbox states include the following:
+The checkbox component may be in the following states:
 
 * Selected
-* De-selected
+* Deselected
 * Indeterminate
 {% endcolumn %}
 
@@ -155,7 +151,7 @@ alignment with the text. Asterisk floats in the margin.
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% figure [caption:"Designating a requied checkbox field"] [class:"image bg-light border"] %}
+{% figure [caption:"Designating a required checkbox field"] [class:"image bg-light border"] %}
  ![]({{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-required-group-image.svg)
  {% endfigure %}
 {% endcolumn %}
@@ -182,13 +178,13 @@ highlight all checkboxes in an error group.
 #### Indeterminate
 
 The indeterminate state is only used with bulk selections to indicate that one
-or more, but not all options, have been selected. Refer to the tables page
+or more, but not all options, have been selected. Refer to the [tables]({{site.baseurl}}/components/tables.html) page
 for more information.
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"When selecting multiple items from a table, an indeterminate
- checkbox may be used to show that several, but not all are selected."] [class:"image bg-light border"] %}
+ checkbox may be used to show that several, but not all, items are selected."] [class:"image bg-light border"] %}
  ![]({{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-indeterminate-image.svg)
  {% endfigure %}
 {% endcolumn %}
