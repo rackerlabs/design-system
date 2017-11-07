@@ -2,7 +2,8 @@
 title: Progress Indicators
 layout: code
 category: Components Code
-code: null
+code: progressbar
+height: 30rem
 ---
 
-{% include todo.html content="Set up code." %}
+{% include code-container.html %}

@@ -181,5 +181,3 @@ for more information.
  {% endfigure %}
 {% endcolumn %}
 </div>
-
- 

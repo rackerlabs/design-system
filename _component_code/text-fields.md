@@ -2,7 +2,8 @@
 title: Text Fields
 layout: code
 category: Components Code
-code: null
+code: form
+height: 60rem
 ---
 
-{% include todo.html content="Set up code." %}
+{% include code-container.html %}
