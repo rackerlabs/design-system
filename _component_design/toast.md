@@ -80,18 +80,6 @@ The toast fades into place over 400ms, sits in place for eight seconds, and fade
 
 </div>
 
-<div class="hxRow">
-
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-
-### Timing
-
-The toast fades into place over 400ms, sits in place for eight seconds, and fades out over 400ms. If the user happens to hover over the toast while it is fading out, it reanimates immediately (0.0ms) back to full opacity. Likewise, if the user is hovering over the toast at any point, it persists. When the mouse is removed from the expired toast, the toast persists for three more seconds then fades over the normal 400ms. 
-
-{% endcolumn %}
-	
-</div>
-
 ## Variations
 
 <div class="hxRow">
