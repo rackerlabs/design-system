@@ -11,7 +11,8 @@ last-modified: 2017-08-17
 ---
 
 {% for page in site.component_design %}
-  {% if page.parent contains "Selectors" and page.resource == true %}
+{% if page.resource == true %}
+  {% if page.parent contains "Selectors" or page.secondary contains "Selectors" %}
 {% include component-row.html %}
   {% endif %}
-{% endfor %}
+{% endif %}{% endfor %}

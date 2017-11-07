@@ -9,7 +9,9 @@ last-modified: 2017-08-17
 ---
 
 {% for page in site.component_design %}
-  {% if page.parent contains "Help" and page.resource == true %}
+{% if page.resource == true %}
+  {% if page.parent contains "Help" or page.secondary contains "Help" %}
 {% include component-row.html %}
   {% endif %}
+{% endif %}
 {% endfor %}
