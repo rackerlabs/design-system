@@ -63,19 +63,34 @@ While height of toasts are dependent on the amount of text, the minimum height i
 
 Icons are always centered vertically. 
 
+{% endcolumn %}
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [caption:"Default toast notifications specifications"] [class:"image bg-light border"] %}
+![]({{site.baseurl}}/assets/images/components/notifications/toasts/toast-specifications.svg)
+{% endfigure %}
+{% endcolumn %}
+
+{% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
+
 ### Timing
 
 The toast fades into place over 400ms, sits in place for eight seconds, and fades out over 400ms. If the user happens to hover over the toast while it is fading out, it reanimates immediately (0.0ms) back to full opacity. Likewise, if the user is hovering over the toast at any point, it persists. When the mouse is removed from the expired toast, the toast persists for three more seconds then fades over the normal 400ms. 
 
 {% endcolumn %}
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% figure [caption:"Default toast notifications specs"] [class:"image bg-light border"] %}
-![]({{site.baseurl}}/assets/images/components/notifications/toasts/toast-specifications.svg)
-{% endfigure %}
-{% endcolumn %}
 
 </div>
 
+<div class="hxRow">
+
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### Timing
+
+The toast fades into place over 400ms, sits in place for eight seconds, and fades out over 400ms. If the user happens to hover over the toast while it is fading out, it reanimates immediately (0.0ms) back to full opacity. Likewise, if the user is hovering over the toast at any point, it persists. When the mouse is removed from the expired toast, the toast persists for three more seconds then fades over the normal 400ms. 
+
+{% endcolumn %}
+	
+</div>
 
 ## Variations
 
