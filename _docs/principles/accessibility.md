@@ -106,7 +106,7 @@ Readability requires sufficient contrast between the text and its background. Lo
 
 To ensure text is readable, Helix adheres to accessibility standards defined by [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG21/). These standards are based on contrast ratios calculated from text size, text color, and background color.  
 
-elix minimum contrast standards require the following elements:
+Helix minimum contrast standards require the following elements:
 
 - Small text should have a contrast ratio of at least 4.5:1 against its background color.
 - Large text (at 14px bold or 18px regular and up) should have a contrast ratio of at least 3:1. 
