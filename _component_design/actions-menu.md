@@ -5,7 +5,7 @@ secondary: Editing
 layout: component
 category: Components
 usage: >
-  The actions menu is used anytime a group of actions can be performed on a specific object on the current page or the current page. By grouping these actions within the actions menu, it allows users to have a single location to trigger multiple types of actions.
+  The actions menu is used anytime a group of actions can be performed on a specific object on the current page. By grouping these actions within the actions menu, it allows users to have a single location to trigger multiple types of actions.
 preview-image: preview-images/actions-menu.svg
 status: stable
 resource: true
@@ -21,11 +21,11 @@ last-modified: 2017-11-03
 
 ### When to use
 
-- An actions-menu is used to consolidate multiple related actions, displayed as links, into a single popover menu. 
+- Use actions menus to consolidate multiple related actions into a single pop-over menu.
 
 ### When not to use
 
-- When a table object has a limited number of actions that can be taken upon them it is best to surface these options by another means. For example if a table object can only be deleted or created it is best to surface these via table controls at the top of the table. For additional guidance see [tables]({{site.baseurl}}/components/tables.html) documentation.
+- If a table object has only a limited number of associated actions (such as create and delete), use table controls at the top of the table. For more information, see [tables]({{site.baseurl}}/components/tables.html) documentation.
 
 {% endcolumn %}
 
@@ -40,20 +40,27 @@ last-modified: 2017-11-03
 <div class="hxRow">
 
 {% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-### Best Practices
-- Links inside an actions-menu must always initiate an action related to the current page & must never be used simply for navigation. 
-- Actions may include the following; immediate actions on the same page, actions in [modals]({{site.baseurl}}/components/modals.html), actions on a different page, or the start of a related workflow.
-- An actions-menu can be triggered by different elements including split Buttons, buttons labeled "Actions" and Cogs.
-- There are two different types of actions menus: simple and advanced.
+
+### Best practices
+
+- Links inside an actions-menu must always initiate an action related to the current page and must never be used simply for navigation. Actions can include the following: 
+
+	- Immediate actions on the current page. 
+	- Actions in [modals]({{site.baseurl}}/components/modals.html)
+	- Actions on a different page, or the start of a related workflow.
+
+- An actions-menu can be triggered by different elements including split buttons, buttons labeled 'actions', and cogs.
+
+- There are two different types of actions menus:
 
   - Simple: Contains a list of links with no labels.
   - Advanced: Contains list of links separated and organized through the use of labels.
   
-- Labels are optional:
-	- Labels organize and provide clarity groups of actions present. They should not be used when there are fewer than three actions present. 
-	- Multiple labels should be used on lists of more than seven action links, to break apart the list and make it more easy to understand. 
-	- A single label can be used if more than three actions are present and the use of a label provides additinal clarity. 
-
+- When using labels within an actionsmenu consider the following:
+	- Use labels to segment actions presented into logical groups. 
+	- Consider using a single label if more than three actions are present and its inclusion provides additional clarity.
+	- Do **not** use a label when fewer than three actions are present.
+	- Use multiple labels on lists of more than seven action links to break apart the list and make it more easy to understand. 
 
 {% endcolumn %}
 
@@ -65,18 +72,18 @@ last-modified: 2017-11-03
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 ### Actions menu - simple
 
-Actions button, split button and cog are three current uses of the Actions Menu, but do not necessarily make up the entirety of its uses.
+The most common uses of the actions menu are: actions button, split button, and cog.
 
-The title within the action menu is optional and should only be used if it adds needed clarity, or if there are more than 7 actions in the list (in which case you should consider it a requirement).
+Add a title in the action menu if it adds clarity. If there are more than seven actions in the list, the title is required.
 
-Buttons used to trigger an actions-menu adhere to [buttons]({{site.baseurl}}/componenets/buttons.html) design. When clicked, a [popover]({{site.baseurl}}/components/popover.html) menu appears above the canvas.
+Buttons used to trigger an actionsmenu adhere to [buttons]({{site.baseurl}}/componenets/buttons.html) design. When clicked, a [popover]({{site.baseurl}}/components/popover.html) menu appears above the canvas.
 
 The menu should span the length of the button. If an action name is longer than the length of the button the menu can extend beyond the right side of the button. Add 12px of padding between the end of the action name and the edge of the flyout. If an action name is too long consider truncating the name, and showing the full name on hover.
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% figure [caption:"An action menu can be triggered by a variety of elements including an actions menu button, a split button or a cog."] [class:"image bg-light border"] %}
+{% figure [caption:"An action menu can be triggered by a variety of elements including an actions menu button, a split button, or a cog."] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/inputs-and-controls/actions-menu/actions-menu-simple.svg)
 {% endfigure %}
 {% endcolumn %}
@@ -88,9 +95,9 @@ The menu should span the length of the button. If an action name is longer than 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 ### Actions menu - advanced
 
-The advanced actions-menu is a longer list of actions separated by labels. The use of labels on long lists adds clarity, breaks apart the list into segments which are easier for a user to parse.
+The advanced actionsmenu is a longer list of actions separated by labels. The use of labels on long lists adds clarity and breaks apart the list into segments which are easier to parse.
 
-There should be 8px of spacing between each section.
+Use 8px of spacing between each section.
 
 {% endcolumn %}
 
