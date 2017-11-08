@@ -64,41 +64,41 @@ order. Link to the appropriate graphic rather than duplicating it.
 
 To reference image files in GitHub, use the following markup:
 
-    {% figure [caption:"<caption information>"] [class:"image bg-light border"] %}
+    {%- figure [caption:"<caption information>"] [class:"image bg-light border"] -%}
     ![]({{site.url}}/assets/images/<relative-path>){:width="100%"}
-    {% endfigure %}
+    {%- endfigure -%}
 
 For example, if you are working on the Modal page:
 
-    {% figure [caption:"Diagram showing modal operation"] [class:"image bg-light border"] %}
+    {%- figure [caption:"Diagram showing modal operation"] [class:"image bg-light border"] -%}
     ![]({{site.url}}/assets/images/components/content-areas/modals/modal-diagram-1.svg){:width="100%"}
-    {% endfigure %}
+    {%- endfigure -%}
 
 ### Columns
 
 For a 2-column display, use the following pattern:
 
     <div class="hxRow">
-    {% column left:"hxCol" %}
+    {%- column left:"hxCol" -%}
     <content for the first column>
-    {% endcolumn %}
-    {% column right:"hxCol" %}
+    {%- endcolumn -%}
+    {%- column right:"hxCol" -%}
     <content for the second column>
-    {% endcolumn %}
+    {%- endcolumn -%}
     </div>
 
 For a 3-column display, use the following pattern:
 
     <div class="hxRow">
-    {% column left:"hxCol" %}
+    {%- column left:"hxCol" -%}
     <content for the first column>
-    {% endcolumn %}
-    {% column left:"hxCol" %}
+    {%- endcolumn -%}
+    {%- column left:"hxCol" -%}
     <content for the second column>
-    {% endcolumn %}
-    {% column right:"hxCol" %}
+    {%- endcolumn -%}
+    {%- column right:"hxCol" -%}
     <content for the third column>
-    {% endcolumn %}
+    {%- endcolumn -%}
     </div>
 
 ## Design information
