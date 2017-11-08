@@ -3,11 +3,11 @@ title: Modal
 parent: Content Areas
 layout: component
 category: Components
-usage: Modals to command the user’s attention by obstructing the view of all items not related to the action. Confirmation modals are the most common form and are used when an action could have a destructive result, such as deleting a server or resetting an API key.
+usage: Use modals to command the user's attention by obstructing the view of all items not related to the action. Confirmation modals are the most common form and are used when an action could have a destructive result, such as deleting a server or resetting an API key.
 resource: true
-status: unknown
+status: stable
 preview-image: preview-images/modal.svg
-last-modified: 2017-11-01
+last-modified: 2017-11-08
 ---
 
 {% include toc.html %}
@@ -18,18 +18,18 @@ last-modified: 2017-11-01
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Best practices
- * Use modals sparingly, only in situations where the user must confirm before continuing, or when the cost of an error could be very high.
- * It’s best to trigger a modal from a button, link or other clickable item on the page.
+ * Use modals sparingly and only in situations where the user must confirm before continuing, or when the cost of an error is very high.
+ * It's best to trigger a modal from a button, link, or other clickable item on the page.
  * Avoid opening modals unexpectedly.
- * Allow a user to close/cancel a modal by clicking outside of it.
- * The confirmation button must always reflect the action being confirmed, and adhere to the “Verb Noun” labeling convention.  For example, if the modal title is “Permanently Delete this Server?”, then the confirmation button should be labeled as “Delete Server”.
+ * Allow a user to close or cancel a modal by clicking outside of it.
+ * The confirmation button **must always** reflect the action being confirmed, and follow the **Verb Noun** labeling convention. For example, if the modal title is **Permanently delete this server?**, label the confirmation button as **Delete Server**.
 
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
-{% figure [caption:"Meet the Modal"] [class:"image bg-light border"] %}
+{% figure [caption:"Meet the modal"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/content-areas/modal/modal-hero-image.svg)
 {% endfigure %}
 
@@ -60,13 +60,13 @@ last-modified: 2017-11-01
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Style
-The modal should appear vertically and horizontally centered in the browser window.
+Center modals vertically and horizontally in the browser window.
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
-{% figure [caption:"Modal Style"] [class:"image bg-light border"] %}
+{% figure [caption:"Modal style"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/content-areas/modal/modal-specifications.svg)
 {% endfigure %}
 
@@ -77,9 +77,9 @@ The modal should appear vertically and horizontally centered in the browser wind
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Loading
-A simple loading circle should be used to load a popover. The loading circle should be horizontally and vertically centered.
+Use a simple loading spinner when loading data in a popover. Center the loading spinner horizontally and vertically within the popover component.
 
-Refer to the [Loading pattern]({{site.url}}/components/loading.html) for more detailed specifications.
+Refer to the [Loading pattern]({{site.url}}/components/loading.html) for detailed specifications.
 
 {% endcolumn %}
 
@@ -96,19 +96,19 @@ Refer to the [Loading pattern]({{site.url}}/components/loading.html) for more de
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Use Case: Confirmation
-Confirmation modals interrupt the user before they complete a given workflow and should only require a single decision of the user.
+Confirmation modals interrupt the user before they complete a given workflow and require a single decision from the user.
 
-The modal is triggered by the user submiting information or initiating a process that will have significant or destructive impact.
+The modal is triggered by the user submitting information or initiating a process that will have significant or destructive impact.
 
-**Confirmation scenarios:**
+**Confirmation scenarios include the following actions:**
 
- * Deleting or overwriting data
+ * Action that triggers deletion or overwriting of data
  * Loss of unsaved data
  * Changes that will impact billing 
 
-**All confirmation modals include the following:**
+**All confirmation modals include the following elements:**
 
- * A heading that identies the destructive process or the action required to proceed
+ * A heading that identifies the destructive process or the action required to proceed
  * Messaging that clearly describes the impact of proceeding with the workflow
  * Confirm and cancel buttons so the user can proceed or cancel the action
 
