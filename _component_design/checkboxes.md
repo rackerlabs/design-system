@@ -9,7 +9,7 @@ preview-image: preview-images/checkboxes.svg
 resource: true
 status: stable
 need: selectors
-last-modified: 2017-10-07
+last-modified: 2017-11-07
 ---
 
 {% include toc.html %}
@@ -144,10 +144,7 @@ The checkbox component may be in the following states:
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 #### Required group
 
-Use a red asterisk to designate that a selection is required for a
-group of checkboxes. The label should remain in vertical
-alignment. The asterisk position floats to the left not in the vertical
-alignment with the text. Asterisk floats in the margin.
+Use a red asterisk to designate that a selection is required for a group of checkboxes. The label should remain in vertical alignment. The asterisk floats to the left of the text in the margin and is vertically aligned with the text.
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
