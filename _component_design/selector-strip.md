@@ -1,15 +1,15 @@
 ---
 title: Selector Strip
 parent: Inputs and Controls
-secondar: Selectors
+secondary: Selectors
 layout: component
 category: Components
 usage: >
-  Selector Strips allow the user to make a selection from a group of options. This pattern is a more visually prominent alternative to check boxes (multi-select) or radio buttons (single-select).
+  Selector strips allow the user to make a selection from a group of options. This pattern is a more visually prominent alternative to check boxes (multi-select) or radio buttons (single-select).
 preview-image: preview-images/selector-strip.svg
 status: stable
 resource: true
-last-modified: 2017-10-29
+last-modified: 2017-11-07
 ---
 
 {% include toc.html %}
