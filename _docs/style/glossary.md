@@ -12,7 +12,7 @@ resource: false
 
 ### Fields
 
-Grouping for a single piece of user input (name, address, credit card number, etc.) Field's contain the following types of inputs:
+Grouping for a single piece of user input (name, address, credit card number, etc.) Fields contain the following types of inputs:
 
 #### Error text
 
