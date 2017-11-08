@@ -7,8 +7,8 @@ usage: >
   A search box is a combination of input field and submit button. One may think that the search box doesn’t need a design; after all, it’s just two simple elements. But since the search box is one of the most frequently used design element on content-heavy websites, its usability is critical.
 preview-image: preview-images/search.svg
 resource: true
-status: unknown
-last-modified: 2017-09-11
+status: stable
+last-modified: 2017-11-07
 ---
 
 {% include toc.html %}
