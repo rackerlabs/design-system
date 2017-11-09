@@ -106,7 +106,7 @@ If a value is still being called list the key label, and then the word "Loading"
 
 ### Vertical key values
 
-If multiple key-value pairs are listed next to each other on the body of the page, use vertical key-value pairs. Vertical key value pair lists the key value above the data value, at a maximum width of four columns on the Helix grid. Do not place more than three vertical key-value pairs on the page.
+If multiple key-value pairs are listed next to each other on the body of the page, use vertical key-value pairs. Vertical key value pair lists the key value above the data value at a maximum width of four columns on the Helix grid. Do not place more than three vertical key-value pairs on the page.
 
 {% endcolumn %}
 
