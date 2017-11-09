@@ -73,7 +73,7 @@ last-modified: 2017-11-03
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 ### Actions menu - simple
 
-The most common uses of the actions menu are button labeled actions, split button, and cog.
+The most common uses of the actions menu are buttons labeled actions, split button, and cog.
 
 Add a title in the action menus if it adds clarity. If there are more than seven actions in the list, the title is required.
 
