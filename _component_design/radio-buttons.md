@@ -15,10 +15,6 @@ last-modified: 2017-11-04
 {% include toc.html %}
 
 
-
-
-
-
 ## Introduction
 
 <div class="hxRow">
@@ -29,8 +25,8 @@ last-modified: 2017-11-04
 
 - Radio buttons should be used when a user has to select **only one option** in a list.
 - If multiple options can be selected, use [checkboxes]({{site.baseurl}}/components/checkboxes.html) instead.
-- A [dropdown menu]({{site.baseurl}}/components/dropdowns.html) can also be used for selecting only one option, but radio buttons are a better pattern if you want to reveal all options on the page without asking the user to click on the dropdown to see all available options. If you’re using more than five options, strongly consider the dropdown pattern.
-- Consider using a [switch]({{site.baseurl}}/components/switch.html) component if a singular input may be used to enable/disable a feature (in place of two yes/no radio buttons).
+- A [dropdown menu]({{site.baseurl}}/components/dropdowns.html) can also be used for selecting only one option. Radio buttons are a better pattern if you want to show all options on the page without asking the user to click on the dropdown to see all available options. If you’re using more than five options, strongly consider the dropdown pattern.
+- Consider using a [switch]({{site.baseurl}}/components/switch.html) component if a singular input can be used to enable or disable a feature (in place of two yes/no radio buttons).
 
 {% endcolumn %}
 {% column right:"hxCol-6 hxCol-xs-12 hxCol-sm-12 hxCol-md-6 hxCol-lg-6" %}
@@ -48,11 +44,11 @@ last-modified: 2017-11-04
 {% column left :"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}  
 
 - Always use a label above the available options.
-- Keep the number of options to between 2 and 5 choices.
+- Keep the number of options to between two and five choices.
 - There is always a default option selected (preferably at the top or the list).
 - If the user clicks on another option, the first is unselected.
 - Radio buttons should only be used when the list can be vertical. If space is not available, consider a dropdown menu.
-- List options in an order that makes logical sense. Depending on the context, the order could be alphabetical or most common to least common. For example, if listing accounts by name, list them alphabetically. In billing, paying the amount due should be listed above letting the user enter a custom payment amount.
+- List options in an order that makes logical sense. Depending on the context, the order could be alphabetical or from most common to least common. For example, if listing accounts by name, list them alphabetically. In billing, paying the amount due should be listed above letting the user enter a custom payment amount.
 - Use checkboxes and radio buttons only to change settings, not as action buttons that make something happen.
 
 {% endcolumn %}
@@ -67,7 +63,7 @@ last-modified: 2017-11-04
 
 ### Composition
 
-A radio button group consists of a Section Label, followed by pairs of radio buttons and radio button labels.
+A radio button group consists of a section label, followed by pairs of radio buttons and radio button labels.
 
 #### Labeling:
 
@@ -83,13 +79,13 @@ A radio button group consists of a Section Label, followed by pairs of radio but
 
 </div>
 
-### Spacing
-
 <div class="hxRow">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-A title should always be located above the radio buttons. More context can be provided under the title (subtitle) but it is optional (shown here as “Select an option” on left). If subtitle is not needed, use specs in the design on the right.
+#### Spacing
+
+A title should always be located above the radio buttons. More context can be provided under the title (subtitle) but it is optional (shown here as “Select an option” on left).
 
 {% endcolumn %}
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
@@ -100,17 +96,15 @@ A title should always be located above the radio buttons. More context can be pr
 
 </div>
 
-### States
+## States
 
 <div class="hxRow">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-#### Overview
+### Overview
 
-A title should always be located above the radio buttons. More context can be provided under the title (subtitle) but it is optional (shown here as “Select an option” on left). If subtitle is not needed, use specs in the design on the right.
-
-Best practice form design would not allow a radio button to ever exist in error state, so try to avoid it at all cost.
+Form design best practices prohibit a radio button from existing in an error state. Avoid this situation.
 
 
 {% endcolumn %}
@@ -134,7 +128,7 @@ The question with the error receives an asterisk. The asterisk position floats t
 
 Only the option with the error receives the error radio button.
 
-Let the error message wrap to fixed upper and lower bounds, so as to adhere to 40-80 characters per line.
+Let the error message wrap to fixed upper and lower bounds, to 40 to 80 characters per line.
 
 {% endcolumn %}
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
