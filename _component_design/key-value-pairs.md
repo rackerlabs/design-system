@@ -4,7 +4,7 @@ parent: Content Areas
 layout: component
 category: Components
 usage: >
-   Key-value pairs display data (the value), that correspond to a label (the key). Color and alignment of key-value pairs allow the user to scan the page quickly for relevant data.
+   Key-value pairs display data (the value) that corresponds to a label (the key). Color and alignment of key-value pairs allow the user to scan the page quickly for relevant data.
 preview-image: preview-images/key-value.svg
 resource: true
 status: Stable
@@ -21,16 +21,16 @@ last-modified: 2017-11-07
 
 ### When to use
 
-Use key-value pairs when a key, an identifier for data, needs either a text or visual display of that keys's corresponding value.
+Use key-value pairs when a key, an identifier for data, needs either a text or visual display of that key's corresponding value.
 
 ### Best practices
 
 - Ensure key values corresponds with the label used for the data.
-- Keep key values limited to one line.
+- Limit key values to one line.
 - Follow the Helix grid guidelines for spacing and placement.
 - Use icons sparingly.
 - Use the vertical key pattern if key value sections are arranged on the page side by side.
-- Consider breaking key-value pairs into sub-groups if there are more than five sets of pairs.
+- Consider breaking key-value pairs into subgroups if there are more than five sets of pairs.
 
 {% endcolumn %}
 </div>
@@ -44,7 +44,7 @@ Key-value pairs include the following specifications and states:
 
 ### Default layout
 
-Key-value pairs are contained in the body of the page by default. Keys, such as "Ticket ID", are displayed on the left and aligned right. Values, (such as "Summary") are displayed on the right and are aligned left.
+Key-value pairs are contained in the body of the page by default. Keys such as "Ticket ID" display on the left and are right-aligned. Values (such as "Summary" display on the right and are left-aligned.
 
 To determine the indentation of key-value pairs, use two columns on the Helix grid for key values and four columns for data values. Space between the key and data values must align with the grid gutter between the second and third columns.
 
@@ -76,7 +76,7 @@ In certain cases, key-value pair text can wrap to two lines. We recommend format
 
 ### Other elements
 
-Icons, compact tertiary buttons, and text links can be used in key-value pairs.
+You can use icons, compact tertiary buttons, and text links in key-value pairs.
 
 {% endcolumn %}
 
@@ -91,7 +91,7 @@ Icons, compact tertiary buttons, and text links can be used in key-value pairs.
 
 ### Loading state
 
-If a value is still being called, list the key label, and then the word "Loading" followed by an ellipses for the value.
+If a value is still being called list the key label, and then the word "Loading" followed by an ellipses for the value.
 
 {% endcolumn %}
 
