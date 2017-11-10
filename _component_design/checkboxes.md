@@ -63,9 +63,9 @@ last-modified: 2017-11-07
 
 ### Problems solved by checkboxes
 
-Checkboxes alllow users needs to make a selection in a form:
+Checkboxes allow users to make selections in a form, as follows:
 
-- A checkbox list enables them to select one or more items while being able to visually compare them all at once.
+- A checkbox list enables users to select one or more items while being able to visually compare them all at once.
 - A singular checkbox enables them to enable or disable a feature.
 
 When a user needs to manage a group of items, checkboxes may be added to a list to allow for bulk actions.
@@ -83,14 +83,9 @@ A checkbox group consists of a section label followed by pairs of checkboxes and
 
 #### Labeling checkboxes
 
-* Use positive and active wording for checkbox labels. Avoid negations such
-  as "Don't send me more email". Negative labels on checkboxes would mean that the user would have
-  to check the box in order for something not to happen.
-* Write checkbox labels so that users know both what will happen if they
-  check a particular box and what will happen if they leave it unchecked.
-  If you are unable to do this, we recommend using two radio buttons: one
-  for having the feature on and one for having it off. Ensure you write
-  clear labels for each of the two cases.
+* Use positive and active wording for checkbox labels. Avoid negations such as "Don't send me more email". Negative labels on checkboxes would mean that the user would have to check the box in order for something not to happen.
+
+* Write checkbox labels so that users know both what will happen if they check a particular box and what will happen if they leave it unchecked. If you are unable to do this, we recommend using two radio buttons: one for having the feature on and one for having it off. Ensure you write clear labels for each of the two cases.
 
 {% include note.html content="Allow users to select an option by clicking on either the button, the box itself, or the label; a bigger target is faster to click." %}
 
