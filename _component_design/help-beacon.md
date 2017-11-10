@@ -7,38 +7,70 @@ category: Components
 usage: >
   The beacon can be used to identify the location of products or features in the control panel. It can also be used to indicate advanced functionality to existing features
 preview-image: preview-images/help-beacon.svg
-status: in-progress
+status: stable
 resource: true
-last-modified: 2017-08-17
+last-modified: 2017-11-04
 ---
 
 {% include toc.html %}
 
-The beacon can be used to identify the location of new functionality or
-important features for first-time user.
 
--   Place the beacon to the right or left of navigation items, labels or
-    section headers.
+## Introduction
 
--   Use one beacon at a time.
+<div class="hxRow">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
--   Remove the beacon once it has been viewed.
+### When to use
 
--   Avoid using the beacon for warnings or alerts.
+Use a beacon in the following scenarios:
 
--   Don't obsure text with a beacon.
+- Showing a user new products or features that improve existing functionality.
+- Showing new users the location of commonly used features to aid them in getting started.
 
-<div class="ws-beacons">
-  <div class="ws-beacon-con">
-    <p>Grey:</p>
-    <div class="ds-beacon-con"><span class="ds-beacon ds-tooltip-source temp-beacon" title="<h3 class='ds-tooltip-h3'>New Feature Title</h3><p class='ds-tooltip-p'>A very short explanation of the new feature and something about what it does.</p><div class='ds-btn-group-tooltip'><button class='ds-btn-sm ds-tooltip-btn' onclick='removeTooltips()' type='button'>Learn More</button><button class='ds-btn-sm-sec ds-tooltip-btn' onclick='removeTooltips()' type='button'>Cancel</button></div>"></span></div>
-  </div>
-  <div class="ws-beacon-con">
-    <p>Theme match:</p>
-    <div class="ds-beacon-con"><span class="ds-beacon-cyan ds-tooltip-source temp-beacon" title="<h3 class='ds-tooltip-h3'>New Feature Title</h3><p class='ds-tooltip-p'>A very short explanation of the new feature and something about what it does.</p><div class='ds-btn-group-tooltip'><button class='ds-btn-sm ds-tooltip-btn' onclick='removeTooltips()' type='button'>Learn More</button><button class='ds-btn-sm-sec ds-tooltip-btn' onclick='removeTooltips()' type='button'>Cancel</button></div>"></div>
-  </div>
-  <div class="ws-beacon-con">
-    <p>Theme complement:</p>
-    <div class="ds-beacon-con"><span class="ds-beacon-orange ds-tooltip-source temp-beacon" title="<h3 class='ds-tooltip-h3'>New Feature Title</h3><p class='ds-tooltip-p'>A very short explanation of the new feature and something about what it does.</p><div class='ds-btn-group-tooltip'><button class='ds-btn-sm ds-tooltip-btn' onclick='removeTooltips()' type='button'>Learn More</button><button class='ds-btn-sm-sec ds-tooltip-btn' onclick='removeTooltips()' type='button'>Cancel</button></div>"></div>
-  </div>
+There are some cases where beacons should not be used:
+
+- Do **not** use multiple beacons at one time.
+- Do **not** use the beacon to alert users of warnings or alerts.
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [caption:"Beacons continually follow this lifecycle, giving the impression of a pulse to draw user attention."] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/help/beacon/beacon-hero.svg){:width="80%"}
+{% endfigure %}
+{% endcolumn %}
+
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### Best practice
+
+- Place the beacon to the right or left of navigation items to show location and label.
+- Place the beacon next to labels or section headers.
+- Use the beacon in conjuction with the directional [popover]({{site.baseurl}}/components/popovers.html).
+- Do **not** use the beacon in lieu of user experience best practices about affordance.
+- Do **not** use other forms of notification to deliver the context, such as automatic [tooltips]({{site.baseurl}}/components/tooltip.html) or directional [popovers]({{site.baseurl}}/components/popovers.html)
+- Do **not** obscure the labeled item with the beacon.
+
+{% endcolumn %}
+
+</div>
+
+### Default layout
+
+<div class="hxRow">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+This example shows the multiple states for the beacon. The beacon animates on a loop to catch the user’s eye. Once the user clicks the beacon, it disappears. 
+
+To create a tour experience for more advanced features, string together beacons. In this scenario, beacons appear one at a time. Ensure you prioritize demonstrating the most important or impactful feature first. Provide an opt-out option on each [popover]({{site.baseurl}}/components/popovers.html) at every step in the tour. Ideally, track the clicks and drop-offs throughout the tour to improve usefulness for the end user.
+
+Ideally we should track the clicks and drop offs so we can tweak the tour to be more useful and informative.
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [caption:"For full CSS specifications, view the developer documentation."] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/help/beacon/beacon-specs.svg){:width="80%"}
+{% endfigure %}
+{% endcolumn %}
 </div>
