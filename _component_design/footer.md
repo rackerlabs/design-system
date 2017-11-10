@@ -13,6 +13,8 @@ status: in-progress
 last-modified: 2017-10-24
 ---
 
+{% include toc.html %}
+
 ## Introduction
 <div class="hxRow">
 
