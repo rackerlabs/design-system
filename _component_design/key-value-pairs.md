@@ -7,7 +7,7 @@ usage: >
    Key-value pairs display data (the value) that corresponds to a label (the key). Color and alignment of key-value pairs allow the user to scan the page quickly for relevant data.
 preview-image: preview-images/key-value.svg
 resource: true
-status: Stable
+status: stable
 last-modified: 2017-11-07
 ---
 
@@ -25,7 +25,7 @@ Use key-value pairs when a key, an identifier for data, needs either a text or v
 
 ### Best practices
 
-- Ensure key values corresponds with the label used for the data.
+- Ensure key values correspond with the label used for the data.
 - Limit key values to one line.
 - Follow the Helix grid guidelines for spacing and placement.
 - Use icons sparingly.
@@ -91,7 +91,7 @@ You can use icons, compact tertiary buttons, and text links in key-value pairs.
 
 ### Loading state
 
-If a value is still being called list the key label, and then the word "Loading" followed by an ellipses for the value.
+If a value is still being called, list the key label, and then the word "Loading" followed by an ellipses for the value.
 
 {% endcolumn %}
 
