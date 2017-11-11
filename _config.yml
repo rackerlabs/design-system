@@ -46,8 +46,8 @@ sass:
 # Other
 # redcarpet:
 #     extensions: ['tables']
-# kramdown:
-#   parse_block_html: true
+kramdown:
+  parse_block_html: true
 #   parse_span_html: true
 #   html_to_native: true
 

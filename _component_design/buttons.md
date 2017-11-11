@@ -11,7 +11,10 @@ resource: true
 last-modified: 2017-10-23
 ---
 
-{% include toc.html %}
+- Contents
+{:toc}
+
+{::options toc_levels="2,3" /}
 
 ## Introduction
 
