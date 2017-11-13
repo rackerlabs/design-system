@@ -13,7 +13,7 @@ last-modified: 2017-10-24
 
 ## Introduction
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 ### When to use
 Use the time picker if the list of times are sequential, such as 9 a.m., 10 a.m., 11 a.m., and so on.
@@ -35,7 +35,7 @@ Do not use the time picker if there are gaps between time options. For example, 
 
 ## Specifications
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 ### Default state
 * Tabbing to a time picker will set focus on the time picker but not trigger the menu
@@ -51,7 +51,7 @@ Do not use the time picker if there are gaps between time options. For example, 
 {% endcolumn %}
 </div>
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 ### Focused and expanded
 #### Predictive behavior 
@@ -75,7 +75,7 @@ Do not use the time picker if there are gaps between time options. For example, 
 </div>
 
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 ### Invalid states
 * If an invalid entry occurs, stack the error icon and message underneath the help text
@@ -91,7 +91,7 @@ Do not use the time picker if there are gaps between time options. For example, 
 {% endcolumn %}
 </div>
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 ### Idle and disabled
 * After the user has selected the time and shifted focus away, the time picker adopts its default state
@@ -107,7 +107,7 @@ Do not use the time picker if there are gaps between time options. For example, 
 </div>
 
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 ### Time zones
 * It is important to be specific about the time zone because Rackspace is a global company with users around the world

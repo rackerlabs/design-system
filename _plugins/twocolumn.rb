@@ -12,11 +12,6 @@ module Jekyll
 
     def render(context)
 
-      # Content: convert markdown to html
-      # @maincol = Kramdown::Document.new(super(context)).to_helix_html;
-      # @maincol = Kramdown::Document.new(@maincol).to_helix_html;
-      @maincol = super(context)
-
       # Render any liquid variables
       markup = Liquid::Template.parse(@markup).render(context)
 
@@ -41,15 +36,20 @@ module Jekyll
         rightcol_size = " class\=\"#{rightcol_size}\""
       end
 
+      # Content: convert markdown to html
+      # @maincol = Kramdown::Document.new(super(context)).to_helix_html;
+      # @maincol = Kramdown::Document.new(@maincol).to_helix_html;
+      @maincol = super(context)
+
       # Render column
       if @sizeright.nil?
-        col_tag =  "<<<<<<#<<div#{leftcol_size}>>#>>>>>>"
+        col_tag =  "<<<<<<#div#{leftcol_size}#>>>>>>"
         col_tag += @maincol
-        col_tag += "<<<<<<#<</div>>#>>>>>>"
+        col_tag += "<<<<<<#/div#>>>>>>"
       elsif @sizeleft.nil?
-        col_tag =  "<<<<<<#<<div#{rightcol_size}>>#>>>>>>"
+        col_tag =  "<<<<<<#div#{rightcol_size}#>>>>>>"
         col_tag += @maincol
-        col_tag += "<<<<<<#<</div>>#>>>>>>"
+        col_tag += "<<<<<<#/div#>>>>>>"
       end
 
       return col_tag;

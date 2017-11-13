@@ -15,7 +15,7 @@ last-modified: 2017-10-24
 
 ## Introduction
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
@@ -47,7 +47,7 @@ Do not use a tooltip if users must repeatedly refer to a tooltip to understand a
 
 ## Default composition 
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 Tooltips are composed of two primary elements, the tooltip container and the trigger:
@@ -69,7 +69,7 @@ The tooltip stands out from the background by using a lighter background color t
 
 ## Tooltip specifications
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Spacing
@@ -89,7 +89,7 @@ Tooltips have varying widths based on the amount of content; however, a tooltip 
 {% endcolumn %}
 </div>
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Text values
@@ -107,7 +107,7 @@ Tooltips have varying widths based on the amount of content; however, a tooltip 
 {% endcolumn %}
 </div>
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
@@ -140,7 +140,7 @@ Best practice pointer placement relies on the following:
 
 ## Triggers
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 Tooltips will only appear after be activated by a trigger. Triggers come in a variety of types.
@@ -165,7 +165,7 @@ Tooltips will only appear after be activated by a trigger. Triggers come in a va
 
 ## Text conventions
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 - To keep the tooltip text concise, you should use short sentences and sentence fragments. 
@@ -183,7 +183,7 @@ Tooltips will only appear after be activated by a trigger. Triggers come in a va
 
 ## Tooltip variations
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Help text with a link
@@ -222,7 +222,7 @@ Occassionally a tooltip needs to display a robust set of data that falls outside
 
 ## Loading state
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 Loading states are rarely found when using the tooltip pattern. The loading state is applied exclusively when using data visualizations.
@@ -242,7 +242,7 @@ Loading states are rarely found when using the tooltip pattern. The loading stat
 Tooltips can be activated via either a hover or a click on the trigger element.
 {% endcolumn %}
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Hover interaction

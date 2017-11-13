@@ -13,7 +13,7 @@ resource: true
 
 ### Base layouts
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 - Use the account navigation bar to navigate between applications,
   manage roles, and manage preferences on both the user and the account
@@ -32,16 +32,18 @@ resource: true
   links.
 
 {% endcolumn %}
+
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 {% figure [caption:"Using top navigation provides more horizontal real estate for
 your content area. However, this can limit the number of navigation items."] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/layout/layout-navigation-top.svg){:width="100%"}
+![]({{site.cdn_url}}/img/layout/layout-navigation-top.svg)
 {% endfigure %}
 
 {% figure [caption:"Using left navigation offers more flexibility for larger and
 more expansive menus. However, this constricts the horizontal real estate for your
 content area."] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/layout/layout-navigation-side.svg){:width="100%"}
+![]({{site.cdn_url}}/img/layout/layout-navigation-side.svg)
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -52,18 +54,20 @@ Build the content area using a 12 Column Grid. See [grid](/layout/grid) for more
 
 #### Full Width Content Area
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 - Navigation is not a part of the 12 Column Grid.
 - Content area background color: Gray 25, #FAFAFA
+
 {% endcolumn %}
+
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Full width with top navigation"] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/layout/layout-content-full-top-nav.svg){:width="100%"}
+![]({{site.cdn_url}}/img/layout/layout-content-full-top-nav.svg)
 {% endfigure %}
 
 {% figure [caption:"Full width with side navigation"] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/layout/layout-content-full-side-nav.svg){:width="100%"}
+![]({{site.cdn_url}}/img/layout/layout-content-full-side-nav.svg)
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -77,18 +81,20 @@ Build the content area using a 12 Column Grid. See [grid](/layout/grid) for more
 
 #### Right side rail
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 - 3 columns
 - Background color: Gray 100, #EEEEEE
+
 {% endcolumn %}
+
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Right side rail with top navigation"] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/layout/layout-right-side-rail-top-nav.svg){:width="100%"}
+![]({{site.cdn_url}}/img/layout/layout-right-side-rail-top-nav.svg)
 {% endfigure %}
 
 {% figure [caption:"Right side rail with side navigation"] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/layout/layout-right-side-rail-side-nav.svg){:width="100%"}
+![]({{site.cdn_url}}/img/layout/layout-right-side-rail-side-nav.svg)
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -102,18 +108,20 @@ Build the content area using a 12 Column Grid. See [grid](/layout/grid) for more
 
 #### Left side rail
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 - 3 columns
 - Background color: Gray 100, #EEEEEE
+
 {% endcolumn %}
+
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Left side rail with top navigation"] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/layout/layout-left-side-rail-top-nav.svg){:width="100%"}
+![]({{site.cdn_url}}/img/layout/layout-left-side-rail-top-nav.svg)
 {% endfigure %}
 
 {% figure [caption:"Left side rail with side navigation"] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/layout/layout-left-side-rail-side-nav.svg){:width="100%"}
+![]({{site.cdn_url}}/img/layout/layout-left-side-rail-side-nav.svg)
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -122,16 +130,18 @@ Build the content area using a 12 Column Grid. See [grid](/layout/grid) for more
 
 ### Module content area
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 - 4 columns each
 - Canvas Height: variable
 - Background color: Gray 25, #FAFAFA
 - Canvas color: Gray 300, #E0E0E0
+
 {% endcolumn %}
+
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Dashboard layout with top navigation"] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/layout/layout-dashboard-top-nav.svg){:width="100%"}
+![]({{site.cdn_url}}/img/layout/layout-dashboard-top-nav.svg)
 {% endfigure %}
 <!--
 {% figure [caption:"Dashboard layout with side navigation"] [class:"image bg-light border"] %}

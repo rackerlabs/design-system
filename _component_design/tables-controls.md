@@ -15,7 +15,7 @@ last-modified: 2017-10-24
 
 ## Introduction
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 
 {% column left:"hxCol-3 hxCol-xs-12 hxCol-sm-12 hxCol-md-3 hxCol-lg-3" %}
 
@@ -69,7 +69,7 @@ The following controls may be found at the top of the table:
 
 </div>
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
@@ -148,7 +148,7 @@ The following controls can be found on the bottom of a table:
 
 </div>
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 

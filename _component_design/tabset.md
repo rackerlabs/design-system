@@ -15,7 +15,7 @@ last-modified: 2017-09-11
 
 ### Introduction
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 #### Problems Solved
   * Tabsets eliminate the need to scroll through long pages to find the
@@ -47,7 +47,7 @@ last-modified: 2017-09-11
 
 ### Design Specs
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 #### Tab menu
 
@@ -65,7 +65,7 @@ lines extend to the edge of the content area.
 {% endcolumn %}
 </div>
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 #### Tab content area
 
@@ -82,7 +82,7 @@ the content area by 20px.
 
 ### States
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 #### Hover state
 
@@ -97,7 +97,7 @@ the tab changes it back to the default color.
 {% endcolumn %}
 </div>
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 #### Pressed state
 
@@ -112,7 +112,7 @@ visually confirm an action.
 {% endcolumn %}
 </div>
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 #### Zero state
 

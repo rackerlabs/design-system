@@ -16,7 +16,7 @@ last-modified: 2017-10-24
 {% include toc.html %}
 
 ## Introduction
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
@@ -41,7 +41,7 @@ last-modified: 2017-10-24
 </div>
 
 ## Footer specifications
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 * The footer must span the width of the page

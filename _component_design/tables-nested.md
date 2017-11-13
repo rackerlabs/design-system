@@ -15,7 +15,7 @@ last-modified: 2017-10-24
 
 ## Introduction
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
@@ -54,7 +54,7 @@ Nested tables allow the nesting of additional levels of data within a table.
 
 ## Variations
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 ### Explanatory text variation
@@ -71,7 +71,7 @@ Use this variation of an expandable table to add additional supporting text to a
 
 </div>
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
@@ -89,7 +89,7 @@ Use this variation of an expandable table to add additional key value pairs of a
 
 </div>
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 
 {% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
 

@@ -78,7 +78,7 @@ For example, if you are working on the Modal page:
 
 For a 2-column display, use the following pattern:
 
-    <div class="hxRow">
+    <div class="hxRow"  markdown="1">
     {%- column left:"hxCol" -%}
     <content for the first column>
     {%- endcolumn -%}
@@ -89,7 +89,7 @@ For a 2-column display, use the following pattern:
 
 For a 3-column display, use the following pattern:
 
-    <div class="hxRow">
+    <div class="hxRow"  markdown="1">
     {%- column left:"hxCol" -%}
     <content for the first column>
     {%- endcolumn -%}

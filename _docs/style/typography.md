@@ -26,17 +26,11 @@ resource: true
 {% endcomment %}
 
 
-<div class="hxRow">
-{% column left:"hxCol-8" %}
 ### Header styles
-{: .hxSubSectionTitle }
-{% endcolumn %}
-</div>
 
+#### Page title
 <div class="hxRow">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-#### Page title
-{: .hxContainerTitle }
 Page Titles are the highest level of heirarchy. There should only ever be one on any page.
 {% endcolumn %}
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
@@ -44,10 +38,9 @@ Page Titles are the highest level of heirarchy. There should only ever be one on
 {% endcolumn %}
 </div>
 
+#### Section title
 <div class="hxRow">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-#### Section title
-{: .hxContainerTitle }
 Use for titles of page sections. If your Page Title is “billing” and the page has “overview”, “trends”, and “payment methods” sections, they would each be Section Titles.
 {% endcolumn %}
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
@@ -55,10 +48,9 @@ Use for titles of page sections. If your Page Title is “billing” and the pag
 {% endcolumn %}
 </div>
 
+#### Sub-Section title
 <div class="hxRow">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-#### Sub-Section title
-{: .hxContainerTitle }
 Sub-Section Titles are pretty versatile. Consider using them to title things like fieldsets, tables, Key-Value lists, and so on.
 {% endcolumn %}
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
@@ -66,10 +58,9 @@ Sub-Section Titles are pretty versatile. Consider using them to title things lik
 {% endcolumn %}
 </div>
 
+#### Container title
 <div class="hxRow">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-#### Container title
-{: .hxContainerTitle }
 Container Titles are good for titling within elements like cards, modals, and so on.
 {% endcolumn %}
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
@@ -77,17 +68,11 @@ Container Titles are good for titling within elements like cards, modals, and so
 {% endcolumn %}
 </div>
 
-<div class="hxRow">
-{% column left:"hxCol-8" %}
 ### Body styles
-{: .hxSubSectionTitle }
-{% endcolumn %}
-</div>
 
+#### Body text
 <div class="hxRow">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-#### Body text
-{: .hxContainerTitle }
 Body text is the default style and should be used across the interface for most information.
 {% endcolumn %}
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
@@ -95,13 +80,12 @@ Body text is the default style and should be used across the interface for most 
 {% endcolumn %}
 </div>
 
+#### Subdued style
 <div class="hxRow">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-#### Subdued style
-{: .hxContainerTitle }
 You can use the subdued style with any text 14px and taller, and is used to let more important text stand out. The subdued style is not the same as an inactive link or button.
 
-*Do not subdue text on backgrounds darker than Gray 25 (#fafafa) or it will not pass accessibiity standards.*
+*Do not subdue text on backgrounds darker than Gray 25 (#fafafa) or it will not pass accessibility standards.*
 {% endcolumn %}
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% include type-styles.html htmlexample='<p class="hxSubdued">Subdued Style</p>' typeface="Roboto" csscode="Gray 900" hex="#424242" %}
@@ -109,10 +93,9 @@ You can use the subdued style with any text 14px and taller, and is used to let 
 </div>
 
 
+#### Sub-body text
 <div class="hxRow">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-#### Sub-body text
-{: .hxContainerTitle }
 Use sub-body text sparingly, since it is the least readable size. You can use it when smaller text is appropriate, such as for icon labels.
 {% endcolumn %}
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
@@ -120,10 +103,9 @@ Use sub-body text sparingly, since it is the least readable size. You can use it
 {% endcolumn %}
 </div>
 
+#### Caption
 <div class="hxRow">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-#### Caption
-{: .hxContainerTitle }
 Captions apply to images and visualizations. They should be used to clarify images and not introduce new, pertinent information.
 {% endcolumn %}
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
@@ -131,10 +113,9 @@ Captions apply to images and visualizations. They should be used to clarify imag
 {% endcolumn %}
 </div>
 
+#### Link
 <div class="hxRow">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-#### Link
-{: .hxContainerTitle }
 Links support styles for hover, active, and disabled states, and inherit size and spacing styles from the text to which they are applied. Helix does not support the visited state.
 {% endcolumn %}
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
@@ -142,13 +123,12 @@ Links support styles for hover, active, and disabled states, and inherit size an
 {% endcolumn %}
 </div>
 
+#### Label
 <div class="hxRow">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-#### Label
-{: .hxContainerTitle }
 Use this style for form input labels and as titles for radio groups or sets of checkboxes. Note that checkbox and radio button labels intentionally do not match this style.
 
-*Do not use labels on backgrounds darker than Gray 25 (#fafafa) or it will not pass accessibiity standards.*
+*Do not use labels on backgrounds darker than Gray 25 (#fafafa) or it will not pass accessibility standards.*
 {% endcolumn %}
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% include type-styles.html htmlexample='<label class="hxLabel">Label</label>' typeface="Roboto" weight="Medium (500)" fontsize="14px / 0.875rem" csscode="Gray 750" hex="#6b6b6b" linespace="1.5"  %}
@@ -156,16 +136,15 @@ Use this style for form input labels and as titles for radio groups or sets of c
 </div>
 
 
-<div class="hxRow">
-{% column left:"hxCol-8" %}
 ### Readability
-{: .hxSubSectionTitle }
+<div class="hxRow"  markdown="1">
+{% column left:"hxCol-8" %}
 The W3C recommends the following contrast ratios for body text and image text:
 
 >Small text less than **14px** should have a contrast ratio of at least **4.5:1** against its background. Large text greater than **18px** or **14px bold** should have a contrast ratio of at least **3:1** against its background.
 
 * Use a higher contrast ratio to show importance and hierarchy.
-* [Use the WebAIM contrast checker](http://webaim.org/resources/contrastchecker/){:target="_blank"} to check contrast ratios
+* [Use the WebAIM contrast checker](http://webaim.org/resources/contrastchecker/){:target="\_blank"} to check contrast ratios
 * Examples below illustrate the minimum contrast ratio
 {% endcolumn %}
 </div>

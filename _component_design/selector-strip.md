@@ -16,7 +16,7 @@ last-modified: 2017-11-07
 
 ## Overview
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 
 {% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
@@ -28,7 +28,7 @@ Use a selector strip on forms requiring a user to select from a small group of a
 
 </div>
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
@@ -52,7 +52,7 @@ The selector strip component functions best when:
 
 ## Default layout
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 
 {% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
@@ -62,7 +62,7 @@ The default layout has two main styles: single-select and multi-select. In both 
 
 </div>
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
@@ -80,7 +80,7 @@ Single-select strips have rounded corners and function like a radio button; only
 
 </div>
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
@@ -101,7 +101,7 @@ Multi-select selector strips have more squared edges and function like checkboxe
 
 ## States
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
@@ -121,7 +121,7 @@ When the mouse button is pressed, the fill area changes to `cyan 700`. When the 
 	
 </div>
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 

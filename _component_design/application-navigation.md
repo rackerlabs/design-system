@@ -25,7 +25,7 @@ drop-down categories that organize sections into higher-level groups.
 
 ## Left navigation
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4" %}
 
 Use the left navigation component for web applications, unless there
@@ -57,7 +57,7 @@ is a firm implementation constraint that requires top navigation.
 
 ## Left navigation color and typeface
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4" %}
 - Font: Roboto Regular 16px / 1em
 - Color: Gray 400 #D8D8D8
@@ -72,7 +72,7 @@ is a firm implementation constraint that requires top navigation.
 </div>
 
 ## Left navigation spacing
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4" %}
 
 - The first primary navigation element begins 60px from the top of
@@ -85,7 +85,7 @@ is a firm implementation constraint that requires top navigation.
 {% endfigure %}
 {% endcolumn %}
 </div>
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4" %}
 - 16px / 1em top and bottom padding for navigation elements
 {% endcolumn %}
@@ -98,7 +98,7 @@ is a firm implementation constraint that requires top navigation.
 
 ### Tertiary left navigation
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4" %}
 
 If you have a very large IA, you can use tertiary navigation elements.
@@ -118,7 +118,7 @@ so that only primary and secondary links are needed.
 
 ## Top navigation
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4" %}
 
 For additional flexibility, you can use top navigation elements.
@@ -136,7 +136,7 @@ navigation](#left-navigation).
 
 ### Top navigation color and typeface
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4" %}
 
 - Font: Roboto Bold 16px / 1em
@@ -154,7 +154,7 @@ navigation](#left-navigation).
 
 ### Top navigation spacing
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4" %}
 
 -   Horizontal spacing includes 20px of left margin.
@@ -176,7 +176,7 @@ navigation](#left-navigation).
 {% endfigure %}
 {% endcolumn %}
 </div>
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4" %}
 
 -   The navigation bar extends across 100% of the view width.
@@ -197,7 +197,7 @@ navigation](#left-navigation).
 
 ### Top navigation drop-down menu color and typeface
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4" %}
 
 Drop-down menus display secondary navigation elements below their
@@ -227,7 +227,7 @@ primary navigation element.
 
 ## Top navigation drop-down element spacing
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol" %}
 
 -   Make drop-down menus at least the same width as the parent menu
@@ -267,7 +267,7 @@ internally as *pilot nav* or *utility nav*.
 
 The eyebrow expands and retracts based on the current user view port.
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol" %}
 {% figure [caption:"Eyebrow breakpoints"] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/layout/eyebrow-states.svg)
@@ -282,7 +282,7 @@ and the product switcher drop-down menus. The item displayed in the
 content area and navigation section changes based on the selected
 state beneath it.
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4" %}
 
 -   Clicking the Rackspace® Fanatiguy logo icon opens the global
@@ -303,7 +303,7 @@ state beneath it.
 
 A drop-down menu appears when the user switches product lines.
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4" %}
 
 -   A user can switch product lines by clicking the product button,
@@ -328,7 +328,7 @@ A drop-down menu appears when the user switches product lines.
 The right side of the eyebrow menu shows the user name section and
 platform level services button groups.
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4" %}
 
 -   Platform level services are any services that exist across
@@ -363,7 +363,7 @@ platform level services button groups.
 
 ### Eyebrow (right side) drop-down elements
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4" %}
 
 -   Items within the right side of the eyebrow show either a drop-down
@@ -384,7 +384,7 @@ platform level services button groups.
 <!--
 # Breadcrumbs {% include complete.html %}
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol" %}
 {% figure [caption:"Default"] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/layout/navigation-breadcrumbs.svg)

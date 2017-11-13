@@ -17,7 +17,7 @@ The Helix design language utilizes the concept of application layers to
 designate where a product or service is located within the Helix-UI
 Application.
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol" %}
 {% figure [caption:"Application layer framework within the Helix-UI application"] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/layout/architecture/layout-thesis_v5.svg){:width="100%"}
@@ -36,7 +36,7 @@ for managing platform(global) services. View the
 [global layer](/layout/global-layer) page for more in-depth explanation of the
 global layer.
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol" %}
 {% figure [caption:"Conceptual model for flexibility of the Global layer"] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/layout/architecture/layout-platform-layer.svg){:width="80%"}
@@ -46,7 +46,7 @@ global layer.
 
 ### Examples
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-md-4" %}
 -   Selecting the global dashboard toggle will trigger the global dashboard to
     extend from the left, covering the current product layer(Fig 1a)
@@ -57,7 +57,7 @@ global layer.
   {% endfigure %}
 {% endcolumn %}
 </div>
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-md-4" %}
 -   Selecting a platform service, such as ticketing, will trigger the ticketing
     panel to extend from the right over the (Fig 1b)
@@ -68,7 +68,7 @@ global layer.
   {% endfigure %}
 {% endcolumn %}
 </div>
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-md-4" %}
 -   Interacting with an extended panel can cause the behavior of the panel to
     change as additional content is loaded(Fig 1c)
@@ -88,7 +88,7 @@ the product layer as the view into the currently selected product line; think
 FAzure, FAWS, Managed, or Rackspace Cloud. Navigation and content will differ
 based on which product line the user is currently viewing.
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-md-4" %}
 -   Within the product layer the side navigation will update to display the
     navigation unique to this product line. This is because the products within
@@ -100,7 +100,7 @@ based on which product line the user is currently viewing.
   {% endfigure %}
 {% endcolumn %}
 </div>
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-md-4" %}
 -   The currently selected product line is viewable within the eyebrow.
 {% endcolumn %}
@@ -122,7 +122,7 @@ completes the server creation form. Each of these screens are contained within
 the Rackspace Cloud Product layer and can be viewed independently, however by
 going through the above process, the user has performed a complete workflow.
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol" %}
 {% figure [caption:"Explanation of layers in the Helix-UI application"] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/layout/architecture/layout-workflow-layer.svg){:width="100%"}

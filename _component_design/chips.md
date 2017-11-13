@@ -13,7 +13,7 @@ last-modified: 2017-08-17
 
 {% include toc.html %}
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol" %}
 {% figure [caption:"Basic"] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/components/chips.svg){:width="100%"}
@@ -30,7 +30,7 @@ last-modified: 2017-08-17
 {% endfigure %}
 {% endcolumn %}
 </div>
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4" %}
 {% figure [caption:"Hover"] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/components/chip-hover.svg){:width="100%"}

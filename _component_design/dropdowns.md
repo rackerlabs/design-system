@@ -14,7 +14,7 @@ last-modified: 2017-09-21
 
 {% include toc.html %}
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 #### When to use
 
@@ -42,7 +42,7 @@ Use dropdowns for selecting a single option from a known list of options. Select
 
 ### Specifications
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 #### Default layout
 
@@ -56,7 +56,7 @@ Drop-downs
 {% endcolumn %}
 </div>
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 #### Drop-down states
 
@@ -76,7 +76,7 @@ Drop-downs can be in the following states:
 {% endcolumn %}
 </div>
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 #### Option label
 
@@ -90,7 +90,7 @@ Clicking a drop-down menu displays the options contained within the dropdown.
 {% endcolumn %}
 </div>
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 #### Drop-down data states
 

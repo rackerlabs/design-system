@@ -11,10 +11,7 @@ resource: true
 last-modified: 2017-10-23
 ---
 
-- Contents
-{:toc}
-
-{::options toc_levels="2,3" /}
+{% include toc.html %}
 
 ## Introduction
 
@@ -52,7 +49,7 @@ Use a button to launch a process or initiate an action. Do not use buttons for n
 
 ## Simple buttons
 
-<div class="hxRow" markdown="1">
+<div class="hxRow"  markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
@@ -78,7 +75,7 @@ When using a simple button, specify both weight and size.
 
 ### Spacing and specs
 
-<div class="hxRow" markdown="1">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 For most desktop use cases, you should use a standard button size.   
 
@@ -97,7 +94,7 @@ Compact buttons should be used when you have severe space constraints, such as i
 
 ### Primary buttons
 
-<div class="hxRow" markdown="1">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 - Use the primary button to prompt the user to take action.
@@ -115,7 +112,7 @@ Compact buttons should be used when you have severe space constraints, such as i
 
 ### Secondary buttons
 
-<div class="hxRow" markdown="1">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 - The secondary button can be used alone or in conjuction with a primary button or a tertiary button.
@@ -133,7 +130,7 @@ Compact buttons should be used when you have severe space constraints, such as i
 
 ### Tertiary buttons
 
-<div class="hxRow" markdown="1">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 - The tertiary button can be used alone or in conjuction with other buttons.
@@ -153,7 +150,7 @@ Compact buttons should be used when you have severe space constraints, such as i
 
 ### Loading states
 
-<div class="hxRow" markdown="1">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 - The loading icon animation should rotate time: 0.8 sec/revolution.
@@ -175,7 +172,7 @@ Compact buttons should be used when you have severe space constraints, such as i
 
 ### Button sets
 
-<div class="hxRow" markdown="1">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 - Buttons should be aligned in order of primary, secondary, and tertiary.

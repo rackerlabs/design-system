@@ -15,7 +15,7 @@ last-modified: 2017-10-24
 
 ## Introduction
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
@@ -44,7 +44,7 @@ Use loading indicators when you need to provide further visual feedback, such as
 
 ## Types of indicators
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 Loading indicators can be displayed in the following ways:
@@ -126,7 +126,7 @@ Note that loading text can occur in multiple instances simultaneously."] [class:
 
 ## Animation
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
@@ -156,14 +156,14 @@ Animation can be used in loading indicators to visually indicate that back-end s
 
 ## Layout
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
 We recommend centering the loading indicators within the component. The following are examples of loading indicators inside various components of the UI:
 {% endcolumn %}
 </div>
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column right:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 {% figure [caption:"Loading spinner in dashboard tiles."] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/processing/loading-indicator/spinner-tiles.svg)

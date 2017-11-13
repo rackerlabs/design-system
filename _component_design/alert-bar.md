@@ -15,7 +15,7 @@ last-modified: 2017-08-17
 
 ### Introduction
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 An alert bar can extend across the entirety of the content area (page level scoping) or across a singular section of the content area (element level scoping).
 
@@ -46,7 +46,7 @@ An alert bar can extend across the entirety of the content area (page level scop
 
 ### Design Specs
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 #### Composition
 
@@ -72,7 +72,7 @@ optional:
 {% endcolumn %}
 </div>
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 #### Multi-line alerts
 
@@ -89,7 +89,7 @@ In instances where text wrapping is needed, it will follow the behavior shown in
 {% endcolumn %}
 </div>
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 #### Status types
 

@@ -15,7 +15,7 @@ last-modified: 2017-11-07
 {% include toc.html %}
 
 ## Introduction
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### When to use checkboxes
@@ -40,7 +40,7 @@ last-modified: 2017-11-07
 
 </div>
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 ### Best practices for checkboxes
 
@@ -75,7 +75,7 @@ When a user needs to manage a group of items, checkboxes may be added to a list 
 
 ## Specifications
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 ### Default layout
 
@@ -98,7 +98,7 @@ A checkbox group consists of a section label followed by pairs of checkboxes and
 {% endcolumn %}
 </div>
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 ### Checkbox group specifications
 
@@ -117,7 +117,7 @@ A checkbox group consists of a section label followed by pairs of checkboxes and
 {% endcolumn %}
 </div>
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 ### States
 
@@ -135,7 +135,7 @@ The checkbox component may be in the following states:
 {% endcolumn %}
 </div>
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 #### Required group
 
@@ -149,7 +149,7 @@ Use a red asterisk to designate that a selection is required for a group of chec
 {% endcolumn %}
 </div>
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 #### Group with an error
 
@@ -165,7 +165,7 @@ highlight all checkboxes in an error group.
 {% endcolumn %}
 </div>
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 #### Indeterminate
 

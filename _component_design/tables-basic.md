@@ -15,7 +15,7 @@ last-modified: 2017-10-24
 
 ## Introduction
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
@@ -44,7 +44,7 @@ Tables are the bread-and-butter component for displaying complex objects in a ne
 
 ## Default layout
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
@@ -69,7 +69,7 @@ Tables are the bread-and-butter component for displaying complex objects in a ne
 
 ## Condensed table
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 The use of a condensed table provides for views that display either many or few results. 
@@ -99,7 +99,7 @@ If presenting a small amount of information, a condensed table format allows for
 
 ## Table states 
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 ### Loading
 

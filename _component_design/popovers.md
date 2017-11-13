@@ -16,7 +16,7 @@ last-modified: 2017-10-22
 
 ## Introduction
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
@@ -50,7 +50,7 @@ You can use popovers for short create or edit workflows and are particularly use
 
 ## Default layout
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 The most defining aspects of a popover are the container and the pointer. The container appears on top of the canvas. The pointer points to the popover trigger. Pointers can be used on either side of the four corners.
@@ -68,7 +68,7 @@ The most defining aspects of a popover are the container and the pointer. The co
 
 ## Pattern specifications
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Popover Spacing
@@ -87,7 +87,7 @@ See [inputs and controls]({{site.baseurl}}/components/inputs-and-controls.html) 
 
 </div>
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Popover specifications
@@ -108,7 +108,7 @@ See [inputs and controls]({{site.baseurl}}/components/inputs-and-controls.html) 
 {% endcolumn %}
 </div>
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Pointer size and placement
@@ -131,7 +131,7 @@ The pointer is 16 px wide at the base. The apex is 8 px from the side of the rec
 
 ## Types of popovers
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Small create or edit popover
@@ -147,7 +147,7 @@ You can use popovers for small create or edit workflows that must remain in cont
 {% endcolumn %}
 </div>
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Large hidden content
@@ -165,7 +165,7 @@ In this instance, a popover is preferable to a [tooltip]({{site.baseurl}}/compon
 {% endcolumn %}
 </div>
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Loading

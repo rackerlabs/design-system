@@ -14,7 +14,7 @@ last-modified: 2017-10-22
 
 ## Introduction
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### When to use
@@ -38,7 +38,7 @@ You can use the date picker to apply date range filters to lists of events, logs
 
 ## Specifications
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 ### Default layout
 The date picker component is composed of multiple buttons with four primary functions:
@@ -61,7 +61,7 @@ When the date picker is first triggered, it should default to the current month 
 {% endcolumn %}
 </div>
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Button states
@@ -85,7 +85,7 @@ Center text and icons vertically and horizontally.
 {% endcolumn %}
 </div>
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Date picker spacing
@@ -104,7 +104,7 @@ The date picker element appears below the corresponding text input that controls
 
 ## Date selection interactions
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Single date selection
@@ -124,7 +124,7 @@ The date picker element appears below the corresponding text input that controls
 {% endcolumn %}
 </div>
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Date ranges using two fields
@@ -141,7 +141,7 @@ The traditional method for date range selection is to use two separate fields, w
 {% endcolumn %}
 </div>
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 #### Picking the start date
@@ -160,7 +160,7 @@ Selecting a start date fills the start date field value and shifts focus to the 
 {% endcolumn %}
 </div>
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 #### Picking the end date
@@ -177,7 +177,7 @@ Selecting an end date fills the end date field value and automatically hides the
 {% endcolumn %}
 </div>
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 #### Date range selection complete
@@ -193,7 +193,7 @@ Selecting an end date fills the end date field value and automatically hides the
 {% endcolumn %}
 </div>
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Date ranges using one field
@@ -213,14 +213,14 @@ In this design, the field width is extended to match the width of the picker, an
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column right:"hxCol-12" %}
 {% figure [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/inputs-and-controls/date-picker/date-picker-date-ranges-using-a-single-field-1.svg)
 {% endfigure %}
 {% endcolumn %}
 </div>
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column right:"hxCol-6" %}
 {% figure [caption:"Start date selected, with hover showing range"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/inputs-and-controls/date-picker/date-picker-date-ranges-using-a-single-field-2.svg)
@@ -236,7 +236,7 @@ In this design, the field width is extended to match the width of the picker, an
 {% endcolumn %}
 </div>
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 #### Ranges spanning months or years
@@ -258,13 +258,13 @@ If the user selects a start date in one month or year, and an end date in anothe
 </div>
 
 ## Month picker
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 The month picker enables users to select a different month from the entire year so that they don’t have to use the back and next arrows to traverse months.
 {% endcolumn %}
 </div>
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column right:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 {% figure [caption:"User hovers over header button"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/inputs-and-controls/date-picker/date-picker-month-picker-1.svg)
@@ -282,7 +282,7 @@ The month picker enables users to select a different month from the entire year 
 {% endcolumn %}
 </div>
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Month picker specifications
@@ -299,7 +299,7 @@ The month picker state maintains the same spacing considerations from the date s
 {% endcolumn %}
 </div>
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Month picker button specifications
@@ -319,7 +319,7 @@ The button text in the month picker is always horizontally and vertically center
 {% endcolumn %}
 </div>
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Month picker animation

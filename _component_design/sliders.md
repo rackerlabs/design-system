@@ -34,7 +34,7 @@ Discrete sliders
 
 Discrete sliders allow users to select a specific value from a range.-->
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol" %}
 {% figure [caption:"Default"] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/components/slider.svg){:width="100%"}
@@ -51,7 +51,7 @@ Discrete sliders allow users to select a specific value from a range.-->
 {% endfigure %}
 {% endcolumn %}
 </div>
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol" %}
 {% figure [caption:"Hover"] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/components/slider-hover.svg){:width="100%"}
@@ -68,7 +68,7 @@ Discrete sliders allow users to select a specific value from a range.-->
 {% endfigure %}
 {% endcolumn %}
 </div>
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol" %}
 {% figure [caption:"Ranged"] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/components/slider-ranged.svg){:width="100%"}

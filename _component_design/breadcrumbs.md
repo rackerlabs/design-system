@@ -40,7 +40,7 @@ Breadcrumbs offer a way to articulate the platform architecture in a way the use
 
 ## Standard breadcrumbs
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Specifications
@@ -59,7 +59,7 @@ Breadcrumbs offer a way to articulate the platform architecture in a way the use
 {% endcolumn %}
 </div>
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 ### Naming and Abbreviations
 
@@ -73,7 +73,7 @@ Breadcrumbs offer a way to articulate the platform architecture in a way the use
 {% endcolumn %}
 </div>
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 ### To many items
 

@@ -17,7 +17,7 @@ last-modified: 2017-11-04
 
 ## Introduction
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### When to use
@@ -57,7 +57,7 @@ There are some cases where beacons should not be used:
 
 ### Default layout
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 This example shows the multiple states for the beacon. The beacon animates on a loop to catch the user’s eye. Once the user clicks the beacon, it disappears. 

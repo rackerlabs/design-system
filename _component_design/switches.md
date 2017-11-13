@@ -18,7 +18,7 @@ last-modified: 2017-10-23
 
 ## Introduction
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### When to use
@@ -47,7 +47,7 @@ Use a switch if the user is turning something on or off, or saying yes or no to 
 
 ## Default layout
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 The default switch does not contain text.
@@ -65,7 +65,7 @@ If text is used, it should be aligned vertically and horizontally within the spa
 
 ## States
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 Enabled (default), hover, disabled, and error states. If you are not using any text, be sure to change the length to 56px.
@@ -86,7 +86,7 @@ Best practice form design does not allow a switch to exist in an error state, so
 
 ## Context
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 - Use the switch 12px to the left of the prompt and centered horizontally.

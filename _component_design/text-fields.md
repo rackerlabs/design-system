@@ -16,7 +16,7 @@ last-modified: 2017-10-24
 
 ## Introduction
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 ### When to use
   * Use text fields to enable users to enter text, numbers, passwords, emails, logging in, copying API keys, and any other data pertinent to accomplishing their tasks.
@@ -35,7 +35,7 @@ last-modified: 2017-10-24
 
 ## Text inputs
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Basic layout
@@ -54,7 +54,7 @@ last-modified: 2017-10-24
 {% endcolumn %}
 </div>
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Placeholder text
@@ -72,7 +72,7 @@ last-modified: 2017-10-24
 {% endcolumn %}
 </div>
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Helper text
@@ -92,7 +92,7 @@ last-modified: 2017-10-24
 {% endcolumn %}
 </div>
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Required fields
@@ -110,7 +110,7 @@ last-modified: 2017-10-24
 {% endcolumn %}
 </div>
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Character or word counter
@@ -129,7 +129,7 @@ last-modified: 2017-10-24
 {% endcolumn %}
 </div>
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### States overview
@@ -151,7 +151,7 @@ Validation for individual inputs should occur when the user shifts focus to anot
 {% endcolumn %}
 </div>
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Disabled state
@@ -171,7 +171,7 @@ Validation for individual inputs should occur when the user shifts focus to anot
 {% endcolumn %}
 </div>
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Focused
@@ -190,7 +190,7 @@ Validation for individual inputs should occur when the user shifts focus to anot
 {% endcolumn %}
 </div>
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Invalid
@@ -214,7 +214,7 @@ Validation for individual inputs should occur when the user shifts focus to anot
 
 ## Input types
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
 Text fields can be formatted to indicate the types of data a field accepts by using placeholder text, a preset layout, and character limits. Text formatting should be displayed only when the field is focused or filled.
@@ -226,7 +226,7 @@ Characters can be formatted using:
 {% endcolumn %}
 </div>
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Prefixes and suffixes
@@ -246,7 +246,7 @@ Characters can be formatted using:
 {% endcolumn %}
 </div>
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Password redaction
@@ -265,7 +265,7 @@ Password input is disguised by default. Midline ellipses are displayed to repres
 
 ## Text Areas
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Basic layout
@@ -285,7 +285,7 @@ Password input is disguised by default. Midline ellipses are displayed to repres
 {% endcolumn %}
 </div>
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Text area states
