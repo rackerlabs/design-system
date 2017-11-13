@@ -8,7 +8,7 @@ usage: |
   tasks and alert them to new features.
 preview-image: preview-images/help-link.svg
 status: in-progress
-resource: true
+resource: false
 last-modified: 2017-08-17
 ---
 
