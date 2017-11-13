@@ -17,7 +17,6 @@ last-modified: 2017-10-22
 ## Introduction
 
 <div class="hxRow"  markdown="1">
-
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### When to Use
@@ -45,7 +44,6 @@ You can use popovers for short create or edit workflows and are particularly use
 ![]({{site.url}}/assets/images/components/content-areas/popovers/popover-hero-image.svg){:width="100%"}
 {% endfigure %}
 {% endcolumn %}
-
 </div>
 
 ## Default layout
@@ -59,6 +57,7 @@ The most defining aspects of a popover are the container and the pointer. The co
 - The content area can include text, inputs, or interactive content like a table or visualization.
 
 {% endcolumn %}
+
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"A popover consists of a panel, contextual pointer, heading, and buttons."] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/content-areas/popovers/popover-default-layout.svg){:width="80%"}
@@ -73,9 +72,7 @@ The most defining aspects of a popover are the container and the pointer. The co
 
 ### Popover Spacing
 
-
 See [inputs and controls]({{site.baseurl}}/components/inputs-and-controls.html) for specifications that describe laying out form fields and body text within a popover.
-
 
 {% endcolumn %}
 
@@ -84,7 +81,6 @@ See [inputs and controls]({{site.baseurl}}/components/inputs-and-controls.html) 
 ![]({{site.url}}/assets/images/components/content-areas/popovers/popover-spacing.svg){:width="80%"}
 {% endfigure %}
 {% endcolumn %}
-
 </div>
 
 <div class="hxRow"  markdown="1">
@@ -92,12 +88,10 @@ See [inputs and controls]({{site.baseurl}}/components/inputs-and-controls.html) 
 
 ### Popover specifications
 
-
 - Popovers **always** have a `box-shadow` applied.
 - Popovers **should not** be larger than 500 x 500 px.
 
 {% include note.html content="If more space is required, solve the design challenge with a different Helix pattern."%}
-
 
 {% endcolumn %}
 
@@ -112,7 +106,6 @@ See [inputs and controls]({{site.baseurl}}/components/inputs-and-controls.html) 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Pointer size and placement
-
 
 The pointer is 16 px wide at the base. The apex is 8 px from the side of the rectangle. The pointer should start 12 px from the corner. The side from which the pointer protrudes depends on the location of the trigger on the screen.
 
