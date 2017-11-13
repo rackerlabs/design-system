@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="807px" height="217px" viewBox="0 0 807 217" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="412px" height="254px" viewBox="0 0 412 254" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
     <title>toast-hero</title>
     <desc>Created with Sketch.</desc>
     <style type="text/css">@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');</style>
     <defs>
-        <path d="M18,77 L364,77 L364,77 C365.104569,77 366,76.1045695 366,75 L366,17 L366,17 C366,15.8954305 365.104569,15 364,15 L18,15 L18,15 C16.8954305,15 16,15.8954305 16,17 L16,75 L16,75 C16,76.1045695 16.8954305,77 18,77 Z" id="path-1"></path>
+        <path d="M2,62 L348,62 L348,62 C349.104569,62 350,61.1045695 350,60 L350,2 L350,2 C350,0.8954305 349.104569,-2.02906125e-16 348,0 L2,0 L2,0 C0.8954305,2.02906125e-16 -1.3527075e-16,0.8954305 0,2 L0,60 L0,60 C-3.78894842e-15,61.1045695 0.8954305,62 2,62 Z" id="path-1"></path>
         <filter x="-1.9%" y="-5.6%" width="103.7%" height="121.0%" filterUnits="objectBoundingBox" id="filter-2">
             <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
             <feOffset dx="0" dy="3" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
@@ -13,24 +13,8 @@
             <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
             <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
-        <path d="M20,199 L366,199 L366,199 C367.104569,199 368,198.104569 368,197 L368,112 L368,112 C368,110.895431 367.104569,110 366,110 L20,110 L20,110 C18.8954305,110 18,110.895431 18,112 L18,197 L18,197 C18,198.104569 18.8954305,199 20,199 Z" id="path-3"></path>
+        <path d="M2,184 L348,184 L348,184 C349.104569,184 350,183.104569 350,182 L350,97 L350,97 C350,95.8954305 349.104569,95 348,95 L2,95 L2,95 C0.8954305,95 -1.3527075e-16,95.8954305 0,97 L0,182 L0,182 C1.3527075e-16,183.104569 0.8954305,184 2,184 Z" id="path-3"></path>
         <filter x="-1.9%" y="-3.9%" width="103.7%" height="114.6%" filterUnits="objectBoundingBox" id="filter-4">
-            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
-            <feOffset dx="0" dy="3" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
-        </filter>
-        <path d="M441,77 L787,77 L787,77 C788.104569,77 789,76.1045695 789,75 L789,17 L789,17 C789,15.8954305 788.104569,15 787,15 L441,15 L441,15 C439.895431,15 439,15.8954305 439,17 L439,75 L439,75 C439,76.1045695 439.895431,77 441,77 Z" id="path-5"></path>
-        <filter x="-1.9%" y="-5.6%" width="103.7%" height="121.0%" filterUnits="objectBoundingBox" id="filter-6">
-            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
-            <feOffset dx="0" dy="3" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
-            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
-            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
-        </filter>
-        <path d="M441,199 L787,199 L787,199 C788.104569,199 789,198.104569 789,197 L789,112 L789,112 C789,110.895431 788.104569,110 787,110 L441,110 L441,110 C439.895431,110 439,110.895431 439,112 L439,197 L439,197 C439,198.104569 439.895431,199 441,199 Z" id="path-7"></path>
-        <filter x="-1.9%" y="-3.9%" width="103.7%" height="114.6%" filterUnits="objectBoundingBox" id="filter-8">
             <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
             <feOffset dx="0" dy="3" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
@@ -40,54 +24,33 @@
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="toast-hero">
-            <g id="Stroke-31-Copy-9">
-                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
-                <use stroke="#D8D8D8" stroke-width="1" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+            <g id="Group" transform="translate(31.000000, 35.000000)">
+                <g id="Stroke-31-Copy-9">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use stroke="#D8D8D8" stroke-width="1" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <text id="The-password-has-bee" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#424242">
+                    <tspan x="64" y="25">The password has been reset for </tspan>
+                    <tspan x="64" y="41">rse1@grseller2.com</tspan>
+                </text>
+                <path d="M333.211957,18.0001071 L337.748652,13.463331 C338.083783,13.1281941 338.083783,12.5864895 337.748652,12.2513527 C337.413521,11.9162158 336.871826,11.9162158 336.536695,12.2513527 L332,16.7881288 L327.463305,12.2513527 C327.128174,11.9162158 326.586479,11.9162158 326.251348,12.2513527 C325.916217,12.5864895 325.916217,13.1281941 326.251348,13.463331 L330.788043,18.0001071 L326.251348,22.5368833 C325.916217,22.8720201 325.916217,23.4137248 326.251348,23.7488616 C326.418485,23.9160015 326.637906,24 326.857327,24 C327.076747,24 327.296168,23.9160015 327.463305,23.7488616 L332,19.2120855 L336.536695,23.7488616 C336.703832,23.9160015 336.923253,24 337.142673,24 C337.362094,24 337.581515,23.9160015 337.748652,23.7488616 C338.083783,23.4137248 338.083783,22.8720201 337.748652,22.5368833 L333.211957,18.0001071 Z" id="Fill-1" fill="#757575"></path>
+                <path d="M-22.5,27.5 L34.5,27.5 L34.5,27.5 C35.6045695,27.5 36.5,28.3954305 36.5,29.5 L36.5,35.5 L-24.5,35.5 L-24.5,29.5 L-24.5,29.5 C-24.5,28.3954305 -23.6045695,27.5 -22.5,27.5 Z" id="Rectangle-2-Copy-5" stroke="#4CAF51" fill="#4CAF51" transform="translate(6.000000, 31.500000) rotate(-90.000000) translate(-6.000000, -31.500000) "></path>
+                <path d="M31.3285529,46.0363748 L20.85296,34.6026326 C19.695005,33.3411983 19.719004,31.3203509 20.9069579,30.0908247 C22.0929118,28.8591714 23.990838,28.8868251 25.148793,30.1503865 L32.996488,38.7123982 L46.4779641,16.4639312 C47.3759292,14.9791401 49.2358569,14.5558257 50.623803,15.5088148 C52.0177488,16.4639312 52.4197332,18.4379801 51.5197682,19.9206439 L35.9983714,45.5386082 C35.5043906,46.3533288 34.6844224,46.887258 33.7744578,46.9829823 C33.6764616,46.9936184 33.5764655,47 33.4764694,47 C32.6725006,47 31.8965308,46.6553923 31.3285529,46.0363748 Z" id="Fill-1-Copy-4" fill="#4CAF51"></path>
+                <g id="Stroke-31-Copy-9">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                    <use stroke="#D8D8D8" stroke-width="1" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                </g>
+                <text id="The-password-has-bee" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#424242">
+                    <tspan x="64" y="120">The password has been reset for </tspan>
+                    <tspan x="64" y="136">rse1@grseller2.com</tspan>
+                </text>
+                <path d="M333.211957,113.000107 L337.748652,108.463331 C338.083783,108.128194 338.083783,107.58649 337.748652,107.251353 C337.413521,106.916216 336.871826,106.916216 336.536695,107.251353 L332,111.788129 L327.463305,107.251353 C327.128174,106.916216 326.586479,106.916216 326.251348,107.251353 C325.916217,107.58649 325.916217,108.128194 326.251348,108.463331 L330.788043,113.000107 L326.251348,117.536883 C325.916217,117.87202 325.916217,118.413725 326.251348,118.748862 C326.418485,118.916001 326.637906,119 326.857327,119 C327.076747,119 327.296168,118.916001 327.463305,118.748862 L332,114.212085 L336.536695,118.748862 C336.703832,118.916001 336.923253,119 337.142673,119 C337.362094,119 337.581515,118.916001 337.748652,118.748862 C338.083783,118.413725 338.083783,117.87202 337.748652,117.536883 L333.211957,113.000107 Z" id="Fill-1" fill="#757575"></path>
+                <text id="VIEW" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" fill="#0C7C84">
+                    <tspan x="280" y="166">VIEW</tspan>
+                </text>
+                <path d="M31.3285529,154.036375 L20.85296,142.602633 C19.695005,141.341198 19.719004,139.320351 20.9069579,138.090825 C22.0929118,136.859171 23.990838,136.886825 25.148793,138.150387 L32.996488,146.712398 L46.4779641,124.463931 C47.3759292,122.97914 49.2358569,122.555826 50.623803,123.508815 C52.0177488,124.463931 52.4197332,126.43798 51.5197682,127.920644 L35.9983714,153.538608 C35.5043906,154.353329 34.6844224,154.887258 33.7744578,154.982982 C33.6764616,154.993618 33.5764655,155 33.4764694,155 C32.6725006,155 31.8965308,154.655392 31.3285529,154.036375 Z" id="Fill-1-Copy-6" fill="#4CAF51"></path>
+                <path d="M-38,135 L46,135 L46,135 C47.1045695,135 48,135.895431 48,137 L48,143 L-40,143 L-40,137 L-40,137 C-40,135.895431 -39.1045695,135 -38,135 Z" id="Rectangle-2-Copy-7" stroke="#4CAF51" fill="#4CAF51" transform="translate(4.000000, 139.000000) rotate(-90.000000) translate(-4.000000, -139.000000) "></path>
             </g>
-            <text id="Notification-message" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#424242">
-                <tspan x="85" y="40">Notification message goes here</tspan>
-            </text>
-            <path d="M349.211957,33.0001071 L353.748652,28.463331 C354.083783,28.1281941 354.083783,27.5864895 353.748652,27.2513527 C353.413521,26.9162158 352.871826,26.9162158 352.536695,27.2513527 L348,31.7881288 L343.463305,27.2513527 C343.128174,26.9162158 342.586479,26.9162158 342.251348,27.2513527 C341.916217,27.5864895 341.916217,28.1281941 342.251348,28.463331 L346.788043,33.0001071 L342.251348,37.5368833 C341.916217,37.8720201 341.916217,38.4137248 342.251348,38.7488616 C342.418485,38.9160015 342.637906,39 342.857327,39 C343.076747,39 343.296168,38.9160015 343.463305,38.7488616 L348,34.2120855 L352.536695,38.7488616 C352.703832,38.9160015 352.923253,39 353.142673,39 C353.362094,39 353.581515,38.9160015 353.748652,38.7488616 C354.083783,38.4137248 354.083783,37.8720201 353.748652,37.5368833 L349.211957,33.0001071 Z" id="Fill-1" fill="#757575"></path>
-            <path d="M-9,42 L49,42 L49,42 C50.1045695,42 51,42.8954305 51,44 L51,50 L-11,50 L-11,44 L-11,44 C-11,42.8954305 -10.1045695,42 -9,42 Z" id="Rectangle-2-Copy-5" fill="#D8D8D8" transform="translate(20.000000, 46.000000) rotate(-90.000000) translate(-20.000000, -46.000000) "></path>
-            <circle id="Oval" fill="#D8D8D8" cx="52" cy="46" r="16"></circle>
-            <g id="Stroke-31-Copy-9">
-                <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
-                <use stroke="#D8D8D8" stroke-width="1" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
-            </g>
-            <text id="Notification-message" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#424242">
-                <tspan x="80" y="135">Notification message goes here</tspan>
-            </text>
-            <text id="CTA" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" fill="#0C7C84">
-                <tspan x="306" y="181">CTA</tspan>
-            </text>
-            <path d="M351.211957,128.000107 L355.748652,123.463331 C356.083783,123.128194 356.083783,122.58649 355.748652,122.251353 C355.413521,121.916216 354.871826,121.916216 354.536695,122.251353 L350,126.788129 L345.463305,122.251353 C345.128174,121.916216 344.586479,121.916216 344.251348,122.251353 C343.916217,122.58649 343.916217,123.128194 344.251348,123.463331 L348.788043,128.000107 L344.251348,132.536883 C343.916217,132.87202 343.916217,133.413725 344.251348,133.748862 C344.418485,133.916001 344.637906,134 344.857327,134 C345.076747,134 345.296168,133.916001 345.463305,133.748862 L350,129.212085 L354.536695,133.748862 C354.703832,133.916001 354.923253,134 355.142673,134 C355.362094,134 355.581515,133.916001 355.748652,133.748862 C356.083783,133.413725 356.083783,132.87202 355.748652,132.536883 L351.211957,128.000107 Z" id="Fill-1" fill="#757575"></path>
-            <circle id="Oval-Copy" fill="#D8D8D8" cx="53" cy="154" r="16"></circle>
-            <path d="M-21,151 L65,151 L65,151 C66.1045695,151 67,151.895431 67,153 L67,159 L-23,159 L-23,153 L-23,153 C-23,151.895431 -22.1045695,151 -21,151 Z" id="Rectangle-2-Copy-6" fill="#D8D8D8" transform="translate(22.000000, 155.000000) rotate(-90.000000) translate(-22.000000, -155.000000) "></path>
-            <g id="Stroke-31-Copy-9">
-                <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
-                <use stroke="#D8D8D8" stroke-width="1" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
-            </g>
-            <text id="The-password-has-bee" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#424242">
-                <tspan x="503" y="40">The password has been reset for </tspan>
-                <tspan x="503" y="56">rse1@grseller2.com</tspan>
-            </text>
-            <path d="M772.211957,33.0001071 L776.748652,28.463331 C777.083783,28.1281941 777.083783,27.5864895 776.748652,27.2513527 C776.413521,26.9162158 775.871826,26.9162158 775.536695,27.2513527 L771,31.7881288 L766.463305,27.2513527 C766.128174,26.9162158 765.586479,26.9162158 765.251348,27.2513527 C764.916217,27.5864895 764.916217,28.1281941 765.251348,28.463331 L769.788043,33.0001071 L765.251348,37.5368833 C764.916217,37.8720201 764.916217,38.4137248 765.251348,38.7488616 C765.418485,38.9160015 765.637906,39 765.857327,39 C766.076747,39 766.296168,38.9160015 766.463305,38.7488616 L771,34.2120855 L775.536695,38.7488616 C775.703832,38.9160015 775.923253,39 776.142673,39 C776.362094,39 776.581515,38.9160015 776.748652,38.7488616 C777.083783,38.4137248 777.083783,37.8720201 776.748652,37.5368833 L772.211957,33.0001071 Z" id="Fill-1" fill="#757575"></path>
-            <path d="M415,42 L472,42 L472,42 C473.104569,42 474,42.8954305 474,44 L474,50 L413,50 L413,44 L413,44 C413,42.8954305 413.895431,42 415,42 Z" id="Rectangle-2-Copy-5" stroke="#4CAF51" fill="#4CAF51" transform="translate(443.500000, 46.000000) rotate(-90.000000) translate(-443.500000, -46.000000) "></path>
-            <path d="M470.328553,61.0363748 L459.85296,49.6026326 C458.695005,48.3411983 458.719004,46.3203509 459.906958,45.0908247 C461.092912,43.8591714 462.990838,43.8868251 464.148793,45.1503865 L471.996488,53.7123982 L485.477964,31.4639312 C486.375929,29.9791401 488.235857,29.5558257 489.623803,30.5088148 C491.017749,31.4639312 491.419733,33.4379801 490.519768,34.9206439 L474.998371,60.5386082 C474.504391,61.3533288 473.684422,61.887258 472.774458,61.9829823 C472.676462,61.9936184 472.576466,62 472.476469,62 C471.672501,62 470.896531,61.6553923 470.328553,61.0363748 Z" id="Fill-1-Copy-4" fill="#4CAF51"></path>
-            <g id="Stroke-31-Copy-9">
-                <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
-                <use stroke="#D8D8D8" stroke-width="1" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-7"></use>
-            </g>
-            <text id="The-password-has-bee" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#424242">
-                <tspan x="503" y="135">The password has been reset for </tspan>
-                <tspan x="503" y="151">rse1@grseller2.com</tspan>
-            </text>
-            <path d="M772.211957,128.000107 L776.748652,123.463331 C777.083783,123.128194 777.083783,122.58649 776.748652,122.251353 C776.413521,121.916216 775.871826,121.916216 775.536695,122.251353 L771,126.788129 L766.463305,122.251353 C766.128174,121.916216 765.586479,121.916216 765.251348,122.251353 C764.916217,122.58649 764.916217,123.128194 765.251348,123.463331 L769.788043,128.000107 L765.251348,132.536883 C764.916217,132.87202 764.916217,133.413725 765.251348,133.748862 C765.418485,133.916001 765.637906,134 765.857327,134 C766.076747,134 766.296168,133.916001 766.463305,133.748862 L771,129.212085 L775.536695,133.748862 C775.703832,133.916001 775.923253,134 776.142673,134 C776.362094,134 776.581515,133.916001 776.748652,133.748862 C777.083783,133.413725 777.083783,132.87202 776.748652,132.536883 L772.211957,128.000107 Z" id="Fill-1" fill="#757575"></path>
-            <text id="VIEW" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" fill="#0C7C84">
-                <tspan x="719" y="181">VIEW</tspan>
-            </text>
-            <path d="M470.328553,169.036375 L459.85296,157.602633 C458.695005,156.341198 458.719004,154.320351 459.906958,153.090825 C461.092912,151.859171 462.990838,151.886825 464.148793,153.150387 L471.996488,161.712398 L485.477964,139.463931 C486.375929,137.97914 488.235857,137.555826 489.623803,138.508815 C491.017749,139.463931 491.419733,141.43798 490.519768,142.920644 L474.998371,168.538608 C474.504391,169.353329 473.684422,169.887258 472.774458,169.982982 C472.676462,169.993618 472.576466,170 472.476469,170 C471.672501,170 470.896531,169.655392 470.328553,169.036375 Z" id="Fill-1-Copy-6" fill="#4CAF51"></path>
-            <path d="M401,150 L485,150 L485,150 C486.104569,150 487,150.895431 487,152 L487,158 L399,158 L399,152 L399,152 C399,150.895431 399.895431,150 401,150 Z" id="Rectangle-2-Copy-7" stroke="#4CAF51" fill="#4CAF51" transform="translate(443.000000, 154.000000) rotate(-90.000000) translate(-443.000000, -154.000000) "></path>
         </g>
     </g>
 </svg>
