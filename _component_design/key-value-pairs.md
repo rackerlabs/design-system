@@ -17,7 +17,7 @@ last-modified: 2017-11-07
 
 <div class="hxRow">
 
-{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### When to use
 
@@ -33,6 +33,14 @@ Use key-value pairs when a key, an identifier for data, needs either a text or v
 - Consider breaking key-value pairs into subgroups if there are more than five sets of pairs.
 
 {% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [caption:""] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/content-areas/key-pairs/key-value-hero.svg)
+
+{% endfigure %}
+{% endcolumn %}
+
 </div>
 
 ## Specifications and states
@@ -106,7 +114,7 @@ If a value is still being called, list the key label, and then the word "Loading
 
 ### Vertical key values
 
-If multiple key-value pairs are listed next to each other on the body of the page, use vertical key-value pairs. Vertical key value pair lists the key value above the data value at a maximum width of four columns on the Helix grid. Do not place more than three vertical key-value pairs on the page.
+If multiple key-value pairs are listed next to each other on the body of the page, use vertical key-value pairs. Vertical key value pair list the key value above the data value at a maximum width of four columns on the Helix grid. Do not place more than three vertical key-value pairs on the page.
 
 {% endcolumn %}
 
