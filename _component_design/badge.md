@@ -34,8 +34,8 @@ Studies of social apps report that notification badges can trigger dopamine rele
 {% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 ### Best Practices
 - Clicking on the badge takes the user into the section to which the badge is applied. Once the badge is clicked, remove the badge.
-- Never deviate from the color ('red 900') of notifications used on the spec sheet, and try to avoid this color outside of badges and errors. Applying colors used on the spec sheet will help reserve the attention-grabbing red color for the highest priority items.
-- Keep the badge empty or use a number. If the number is higher than 2 digits (for example, 99), use a plus (+) sign to indicate more than that number shown. Neither words nor icons are used.
+- Never deviate from the color (`red 900`) of notifications used on the spec sheet, and try to avoid this color outside of badges and errors. Applying colors used on the spec sheet will help reserve the attention-grabbing red color for the highest priority items.
+- Keep the badge empty or use a number. If the number is higher than two digits (for example, 99), use a plus (+) sign to indicate more than that number shown. Neither words nor icons are used.
 - Set a max number lower than 99 to avoid overwhelming the user. For example, rather than saying the user has 28 unread messages, set the badge to say 9+ instead to increase chances that the user will click into the message list.
 
 {% endcolumn %}
