@@ -4,7 +4,7 @@ parent: Search and Filters
 layout: component
 category: Components
 usage: >
-  Use assisted search when dealing with a complex data set.  Assisted search provides users the ability to see available facets or filters within the search field, allowing for custom construction of search criteria before execution. 
+  By using assisted search, users can see the available facets or filters within the search field and construct their own search criteria.
 preview-image: preview-images/assisted-search.svg
 resource: true
 status: stable
@@ -21,7 +21,7 @@ last-modified: 2017-11-07
 
 ### Default state
 
-Upon clicking the search box the user should be presented with a list of keyword that they can use to filter their search. The user can click or type out a keyword to use it as a filter to narrow down their search.
+When the user clicks the search box, show them a list of keywords that they can use to filter their search.
 
 
 {% endcolumn %}
@@ -40,7 +40,7 @@ Upon clicking the search box the user should be presented with a list of keyword
 
 ### Loading state
 
-If autocomplete is taking time to load, a loading spinner should be used in place of results.
+Use a [loading spinner]({{site.baseurl}}/components/loading-indicators.html) if results take need to be processed prior to display.
 
 User should still have instructions for how to search without autocompleted results (Enter).
 
@@ -61,7 +61,7 @@ User should still have instructions for how to search without autocompleted resu
 
 ### Search results
 
-Search completion results should be divided up by categories.
+Divide search completion results into categories.
 
 {% endcolumn %}
 
@@ -79,7 +79,7 @@ Search completion results should be divided up by categories.
 
 ### Assisted search states
 
-**Hover:** The user may click or use their arrow keys to select one of the items in the dropdown list.
+**Hover:** The user can click or use their arrow keys to select one of the items in the dropdown list.
 
 {% endcolumn %}
 
@@ -91,7 +91,7 @@ Search completion results should be divided up by categories.
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-**Active:** When a keyword is actively being used but has not yet been completed with search criteria.
+**Active:** When a keyword is in active use, but has not yet been completed with search criteria.
 
 {% endcolumn %}
 
@@ -103,16 +103,16 @@ Search completion results should be divided up by categories.
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-- **Filter + No Autocomplete:** Keyed entries that have not formed a complete query string should not have a background color.
+- **Filter + No Autocomplete:** Do not use a background color if keyed entries have not formed a complete query string.
 
-- **Complete:** When a filter+search pill has been completed. 
+- **Complete:** When a filter + search pill has been completed. 
 
-- **Delete:** Backspace should delete a single character and not the entire query and/or search pill.
+- **Delete:** Use backspace to delete a single character and not the entire query or search pill.
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% figure [caption:"Search Pills for the Active and Complete states are documented as a variation of the Search Bar and Assisted Search bar component."] [class:"image bg-light border"] %}
+{% figure [caption:"Search pills are used to display the active and complete states in the assisted search pattern"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/search-and-filters/search-bar/search-assisted-states-3.svg)
 {% endfigure %}
 {% endcolumn %}

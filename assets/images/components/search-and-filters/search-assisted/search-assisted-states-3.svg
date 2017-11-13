@@ -65,7 +65,7 @@
                     <g id="Pill:-Selected" transform="translate(38.000000, 6.000000)">
                         <rect id="pill" fill="#D8D8D8" x="0" y="0" width="256" height="24" rx="12"></rect>
                         <text id="device:354994-fw37.o" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="24" fill="#424242">
-                            <tspan x="7" y="16">device:354994-fw37.ord1.rvi.local</tspan>
+                            <tspan x="7" y="15">device:354994-fw37.ord1.rvi.local</tspan>
                         </text>
                     </g>
                 </g>
