@@ -132,6 +132,14 @@
         text-align: center;
       };
     }
+    /**
+      * Overrides for homepage buttons
+    */
+    .hxBtn {
+      a {
+        color: $grey0;
+      }
+    }
     .card-button {
       margin: 12px auto 28px auto;
       button {
