@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="599px" height="1133px" viewBox="0 0 599 1133" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>choice-tile-single-select</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="220" height="135" rx="2"></rect>
+        <rect id="path-2" x="0" y="0" width="220" height="135" rx="2"></rect>
+        <rect id="path-3" x="0" y="0" width="220" height="135" rx="2"></rect>
+        <rect id="path-4" x="0" y="0" width="220" height="135" rx="2"></rect>
+        <rect id="path-5" x="0" y="0" width="220" height="135" rx="2"></rect>
+        <rect id="path-6" x="0" y="0" width="220" height="135" rx="2"></rect>
+        <rect id="path-7" x="0" y="0" width="220" height="135" rx="2"></rect>
+        <rect id="path-8" x="0" y="0" width="220" height="135" rx="2"></rect>
+        <rect id="path-9" x="0" y="0" width="220" height="135" rx="2"></rect>
+        <rect id="path-10" x="0" y="0" width="220" height="135" rx="2"></rect>
+        <rect id="path-11" x="0" y="0" width="220" height="135" rx="2"></rect>
+        <rect id="path-12" x="0" y="0" width="220" height="135" rx="2"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="choice-tile-single-select">
+            <g id="specs-/-redlines-/-label-title-lg" transform="translate(93.000000, 30.000000)" font-size="20" font-family="Roboto-Regular, Roboto" fill="#9E9E9E" font-weight="normal">
+                <text id="LARGE-LABEL">
+                    <tspan x="0" y="19">Default</tspan>
+                </text>
+            </g>
+            <g id="specs-/-redlines-/-label-title-lg" transform="translate(69.000000, 380.000000)" font-size="20" font-family="Roboto-Regular, Roboto" fill="#9E9E9E" font-weight="normal">
+                <text id="LARGE-LABEL">
+                    <tspan x="0" y="19">With Selection</tspan>
+                </text>
+            </g>
+            <g id="Md" transform="translate(71.000000, 66.000000)">
+                <g id="Md-Content">
+                    <g id="panels-/-default" transform="translate(0.000000, 0.500000)">
+                        <g id="Rectangle-3-Copy-2">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            <rect stroke="#BDBDBD" stroke-width="1" x="0.5" y="0.5" width="219" height="134" rx="2"></rect>
+                        </g>
+                    </g>
+                    <text id="file-image-o---FontAwesome" font-family="FontAwesome" font-size="30" font-weight="normal" fill="#757575">
+                        <tspan x="97" y="42"></tspan>
+                    </text>
+                    <text id="OPTION-1" font-family="Roboto-Bold, Roboto" font-size="16" font-weight="bold" line-spacing="18" fill="#333333">
+                        <tspan x="62.65625" y="70.6015625">OPTION 1</tspan>
+                    </text>
+                    <text id="A-short-description" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" line-spacing="18" fill="#333333">
+                        <tspan x="27.9038086" y="98.5">A short description or help </tspan>
+                        <tspan x="98.2490234" y="116.5">text</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="Md-Copy-4" transform="translate(304.000000, 66.000000)">
+                <g id="Md-Content">
+                    <g id="panels-/-default" transform="translate(0.000000, 0.500000)">
+                        <g id="Rectangle-3-Copy-2">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                            <rect stroke="#BDBDBD" stroke-width="1" x="0.5" y="0.5" width="219" height="134" rx="2"></rect>
+                        </g>
+                    </g>
+                    <text id="file-image-o---FontAwesome" font-family="FontAwesome" font-size="30" font-weight="normal" fill="#757575">
+                        <tspan x="97" y="42"></tspan>
+                    </text>
+                    <text id="OPTION-1" font-family="Roboto-Bold, Roboto" font-size="16" font-weight="bold" line-spacing="18" fill="#333333">
+                        <tspan x="62.65625" y="70.6015625">OPTION 1</tspan>
+                    </text>
+                    <text id="A-short-description" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" line-spacing="18" fill="#333333">
+                        <tspan x="27.9038086" y="98.5">A short description or help </tspan>
+                        <tspan x="98.2490234" y="116.5">text</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="Md-Copy-5" transform="translate(71.000000, 213.000000)">
+                <g id="Md-Content">
+                    <g id="panels-/-default">
+                        <g id="Rectangle-3-Copy-2">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                            <rect stroke="#BDBDBD" stroke-width="1" x="0.5" y="0.5" width="219" height="134" rx="2"></rect>
+                        </g>
+                    </g>
+                    <text id="file-image-o---FontAwesome" font-family="FontAwesome" font-size="30" font-weight="normal" fill="#757575">
+                        <tspan x="97" y="42"></tspan>
+                    </text>
+                    <text id="OPTION-1" font-family="Roboto-Bold, Roboto" font-size="16" font-weight="bold" line-spacing="18" fill="#333333">
+                        <tspan x="62.65625" y="70.6015625">OPTION 1</tspan>
+                    </text>
+                    <text id="A-short-description" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" line-spacing="18" fill="#333333">
+                        <tspan x="27.9038086" y="98.5">A short description or help </tspan>
+                        <tspan x="98.2490234" y="116.5">text</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="Md-Copy-6" transform="translate(305.000000, 214.000000)">
+                <g id="Md-Content">
+                    <g id="panels-/-default">
+                        <g id="Rectangle-3-Copy-2">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-4"></use>
+                            <rect stroke="#BDBDBD" stroke-width="1" x="0.5" y="0.5" width="219" height="134" rx="2"></rect>
+                        </g>
+                    </g>
+                    <text id="file-image-o---FontAwesome" font-family="FontAwesome" font-size="30" font-weight="normal" fill="#757575">
+                        <tspan x="97" y="41"></tspan>
+                    </text>
+                    <text id="OPTION-1" font-family="Roboto-Bold, Roboto" font-size="16" font-weight="bold" line-spacing="18" fill="#333333">
+                        <tspan x="62.65625" y="69.6015625">OPTION 1</tspan>
+                    </text>
+                    <text id="A-short-description" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" line-spacing="18" fill="#333333">
+                        <tspan x="27.9038086" y="97.5">A short description or help </tspan>
+                        <tspan x="98.2490234" y="115.5">text</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="Md-Copy-12" transform="translate(71.000000, 412.000000)">
+                <g id="Md-Content">
+                    <g id="panels-/-selected">
+                        <g id="Rectangle-3-Copy-2">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+                            <rect stroke="#0C7C84" stroke-width="1" x="0.5" y="0.5" width="219" height="134" rx="2"></rect>
+                        </g>
+                    </g>
+                    <text id="file-image-o---FontAwesome" font-family="FontAwesome" font-size="30" font-weight="normal" fill="#0C7C84">
+                        <tspan x="97" y="43"></tspan>
+                    </text>
+                    <text id="OPTION-1" font-family="Roboto-Bold, Roboto" font-size="16" font-weight="bold" line-spacing="18" fill="#0C7C84">
+                        <tspan x="62.65625" y="71.6015625">OPTION 1</tspan>
+                    </text>
+                    <text id="A-short-description" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" line-spacing="18" fill="#333333">
+                        <tspan x="27.9038086" y="99.5">A short description or help </tspan>
+                        <tspan x="98.2490234" y="117.5">text</tspan>
+                    </text>
+                </g>
+            </g>
+            <path d="M267.738235,441 C267.33625,441 266.948265,440.838465 266.664276,440.548301 L261.42648,435.188734 C260.847502,434.597437 260.859502,433.650164 261.453479,433.073824 C262.046456,432.496487 262.995419,432.509449 263.574397,433.101744 L267.498244,437.115187 L274.238982,426.686218 C274.687965,425.990222 275.617928,425.791793 276.311902,426.238507 C277.008874,426.686218 277.209867,427.611553 276.759884,428.306552 L268.999186,440.314973 C268.752195,440.696873 268.342211,440.947152 267.887229,440.992023 C267.838231,440.997009 267.788233,441 267.738235,441" id="Fill-1" fill="#0C7C84"></path>
+            <g id="Md-Copy-11" opacity="0.7" transform="translate(304.000000, 412.000000)">
+                <g id="Md-Content">
+                    <g id="panels-/-default">
+                        <g id="Rectangle-3-Copy-2">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-6"></use>
+                            <rect stroke="#BDBDBD" stroke-width="1" x="0.5" y="0.5" width="219" height="134" rx="2"></rect>
+                        </g>
+                    </g>
+                    <text id="file-image-o---FontAwesome" font-family="FontAwesome" font-size="30" font-weight="normal" fill="#757575">
+                        <tspan x="97" y="43"></tspan>
+                    </text>
+                    <text id="OPTION-1" font-family="Roboto-Bold, Roboto" font-size="16" font-weight="bold" line-spacing="18" fill="#333333">
+                        <tspan x="62.65625" y="71.6015625">OPTION 1</tspan>
+                    </text>
+                    <text id="A-short-description" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" line-spacing="18" fill="#333333">
+                        <tspan x="27.9038086" y="99.5">A short description or help </tspan>
+                        <tspan x="98.2490234" y="117.5">text</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="specs-/-redlines-/-label-title-lg" transform="translate(69.000000, 755.000000)" font-size="20" font-family="Roboto-Regular, Roboto" fill="#9E9E9E" font-weight="normal">
+                <text id="LARGE-LABEL">
+                    <tspan x="0" y="19">Change Selection</tspan>
+                </text>
+            </g>
+            <g id="Md-Copy-10" opacity="0.7" transform="translate(71.000000, 560.000000)">
+                <g id="Md-Content">
+                    <g id="panels-/-default" transform="translate(0.000000, 0.500000)">
+                        <g id="Rectangle-3-Copy-2">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-7"></use>
+                            <rect stroke="#BDBDBD" stroke-width="1" x="0.5" y="0.5" width="219" height="134" rx="2"></rect>
+                        </g>
+                    </g>
+                    <text id="file-image-o---FontAwesome" font-family="FontAwesome" font-size="30" font-weight="normal" fill="#757575">
+                        <tspan x="97" y="42"></tspan>
+                    </text>
+                    <text id="OPTION-1" font-family="Roboto-Bold, Roboto" font-size="16" font-weight="bold" line-spacing="18" fill="#333333">
+                        <tspan x="62.65625" y="70.6015625">OPTION 1</tspan>
+                    </text>
+                    <text id="A-short-description" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" line-spacing="18" fill="#333333">
+                        <tspan x="27.9038086" y="98.5">A short description or help </tspan>
+                        <tspan x="98.2490234" y="116.5">text</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="Md-Copy-8" opacity="0.7" transform="translate(305.000000, 560.000000)">
+                <g id="Md-Content">
+                    <g id="panels-/-default">
+                        <g id="Rectangle-3-Copy-2">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-8"></use>
+                            <rect stroke="#BDBDBD" stroke-width="1" x="0.5" y="0.5" width="219" height="134" rx="2"></rect>
+                        </g>
+                    </g>
+                    <text id="file-image-o---FontAwesome" font-family="FontAwesome" font-size="30" font-weight="normal" fill="#757575">
+                        <tspan x="97" y="42"></tspan>
+                    </text>
+                    <text id="OPTION-1" font-family="Roboto-Bold, Roboto" font-size="16" font-weight="bold" line-spacing="18" fill="#333333">
+                        <tspan x="62.65625" y="70.6015625">OPTION 1</tspan>
+                    </text>
+                    <text id="A-short-description" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" line-spacing="18" fill="#333333">
+                        <tspan x="27.9038086" y="98.5">A short description or help </tspan>
+                        <tspan x="98.2490234" y="116.5">text</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="Md-Copy-16" transform="translate(71.000000, 792.000000)">
+                <g id="Md-Content">
+                    <g id="panels-/-selected">
+                        <g id="Rectangle-3-Copy-2">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-9"></use>
+                            <rect stroke="#0C7C84" stroke-width="1" x="0.5" y="0.5" width="219" height="134" rx="2"></rect>
+                        </g>
+                    </g>
+                    <text id="file-image-o---FontAwesome" font-family="FontAwesome" font-size="30" font-weight="normal" fill="#0C7C84">
+                        <tspan x="97" y="43"></tspan>
+                    </text>
+                    <text id="OPTION-1" font-family="Roboto-Bold, Roboto" font-size="16" font-weight="bold" line-spacing="18" fill="#0C7C84">
+                        <tspan x="62.65625" y="71.6015625">OPTION 1</tspan>
+                    </text>
+                    <text id="A-short-description" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" line-spacing="18" fill="#333333">
+                        <tspan x="27.9038086" y="99.5">A short description or help </tspan>
+                        <tspan x="98.2490234" y="117.5">text</tspan>
+                    </text>
+                </g>
+            </g>
+            <path d="M267.738235,822 C267.33625,822 266.948265,821.838465 266.664276,821.548301 L261.42648,816.188734 C260.847502,815.597437 260.859502,814.650164 261.453479,814.073824 C262.046456,813.496487 262.995419,813.509449 263.574397,814.101744 L267.498244,818.115187 L274.238982,807.686218 C274.687965,806.990222 275.617928,806.791793 276.311902,807.238507 C277.008874,807.686218 277.209867,808.611553 276.759884,809.306552 L268.999186,821.314973 C268.752195,821.696873 268.342211,821.947152 267.887229,821.992023 C267.838231,821.997009 267.788233,822 267.738235,822" id="Fill-1" fill="#0C7C84"></path>
+            <g id="Md-Copy-15" transform="translate(304.000000, 792.000000)">
+                <g id="Md-Content">
+                    <g id="panels-/-hover">
+                        <g id="Rectangle-3-Copy-2">
+                            <use fill="#E4F9F9" fill-rule="evenodd" xlink:href="#path-10"></use>
+                            <rect stroke="#16B9D4" stroke-width="1" x="0.5" y="0.5" width="219" height="134" rx="2"></rect>
+                        </g>
+                    </g>
+                    <text id="file-image-o---FontAwesome" font-family="FontAwesome" font-size="30" font-weight="normal" fill="#16B9D4">
+                        <tspan x="97" y="43"></tspan>
+                    </text>
+                    <text id="OPTION-1" font-family="Roboto-Bold, Roboto" font-size="16" font-weight="bold" line-spacing="18" fill="#333333">
+                        <tspan x="62.65625" y="71.6015625">OPTION 1</tspan>
+                    </text>
+                    <text id="A-short-description" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" line-spacing="18" fill="#333333">
+                        <tspan x="27.9038086" y="99.5">A short description or help </tspan>
+                        <tspan x="98.2490234" y="117.5">text</tspan>
+                    </text>
+                </g>
+            </g>
+            <path d="M500.738235,821 C500.33625,821 499.948265,820.838465 499.664276,820.548301 L494.42648,815.188734 C493.847502,814.597437 493.859502,813.650164 494.453479,813.073824 C495.046456,812.496487 495.995419,812.509449 496.574397,813.101744 L500.498244,817.115187 L507.238982,806.686218 C507.687965,805.990222 508.617928,805.791793 509.311902,806.238507 C510.008874,806.686218 510.209867,807.611553 509.759884,808.306552 L501.999186,820.314973 C501.752195,820.696873 501.342211,820.947152 500.887229,820.992023 C500.838231,820.997009 500.788233,821 500.738235,821" id="Fill-1" fill="#16B9D4"></path>
+            <g id="Md-Copy-14" opacity="0.7" transform="translate(71.000000, 940.000000)">
+                <g id="Md-Content">
+                    <g id="panels-/-default" transform="translate(0.000000, 0.500000)">
+                        <g id="Rectangle-3-Copy-2">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-11"></use>
+                            <rect stroke="#BDBDBD" stroke-width="1" x="0.5" y="0.5" width="219" height="134" rx="2"></rect>
+                        </g>
+                    </g>
+                    <text id="file-image-o---FontAwesome" font-family="FontAwesome" font-size="30" font-weight="normal" fill="#757575">
+                        <tspan x="97" y="42"></tspan>
+                    </text>
+                    <text id="OPTION-1" font-family="Roboto-Bold, Roboto" font-size="16" font-weight="bold" line-spacing="18" fill="#333333">
+                        <tspan x="62.65625" y="70.6015625">OPTION 1</tspan>
+                    </text>
+                    <text id="A-short-description" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" line-spacing="18" fill="#333333">
+                        <tspan x="27.9038086" y="98.5">A short description or help </tspan>
+                        <tspan x="98.2490234" y="116.5">text</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="Md-Copy-13" opacity="0.7" transform="translate(305.000000, 940.000000)">
+                <g id="Md-Content">
+                    <g id="panels-/-default">
+                        <g id="Rectangle-3-Copy-2">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-12"></use>
+                            <rect stroke="#BDBDBD" stroke-width="1" x="0.5" y="0.5" width="219" height="134" rx="2"></rect>
+                        </g>
+                    </g>
+                    <text id="file-image-o---FontAwesome" font-family="FontAwesome" font-size="30" font-weight="normal" fill="#757575">
+                        <tspan x="97" y="42"></tspan>
+                    </text>
+                    <text id="OPTION-1" font-family="Roboto-Bold, Roboto" font-size="16" font-weight="bold" line-spacing="18" fill="#333333">
+                        <tspan x="62.65625" y="70.6015625">OPTION 1</tspan>
+                    </text>
+                    <text id="A-short-description" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" line-spacing="18" fill="#333333">
+                        <tspan x="27.9038086" y="98.5">A short description or help </tspan>
+                        <tspan x="98.2490234" y="116.5">text</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
