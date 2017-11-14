@@ -15,7 +15,6 @@ last-modified: 2017-10-23
 
 {% include toc.html %}
 
-
 ## Introduction
 
 <div class="hxRow"  markdown="1">
@@ -23,15 +22,11 @@ last-modified: 2017-10-23
 
 ### When to use
 
-
-Use a switch if the user is turning something on or off, or saying yes or no to a question; there is no neutral option. Enabling preferences or settings is a prime use case for this component, explicitly stating the current status with text. 
-
-<!-- Use a single-select selector strip if more complex text is required. A switch **should not** be used for things like user agreements or if there are more than two options available.-->
-
+Use a switch if the user is turning something on or off, or saying yes or no to a question; there is no neutral option. Enabling preferences or settings is a prime use case for this component, explicitly stating the current status with text.
 
 ### Best practice
 
-- Switches are only used for on or off, yes or no, and are usually only used for account and user settings, billing, and notifications. If your use case is outside of these three areas, consider a radio button or check-box. 
+- Switches are only used for on or off, yes or no, and are usually only used for account and user settings, billing, and notifications. If your use case is outside of these three areas, consider a radio button or check-box.
 - Save any changes to the state of the switch immediately. Use a check-box or radio button if the user has to perform extra steps for changes to be effective (for example, if the user must click a "submit" or "next" button to apply changes). Use check-boxes when the user can select multiple items that are related to a single setting or feature.
 - One click anywhere on the switch changes the state. The user should not have to click and drag the button to the opposite side. However, there should be an animation showing the button sliding from one side to another.
 - A switch should never be in an error state.
@@ -70,7 +65,7 @@ If text is used, it should be aligned vertically and horizontally within the spa
 
 Enabled (default), hover, disabled, and error states. If you are not using any text, be sure to change the length to 56px.
 
-The switch component responds to both mouse and tap click interactions. Upon clicking or tapping an enabled switch, the component transitions to the opposite state. Disabled switches do not respond to these interactions. 
+The switch component responds to both mouse and tap click interactions. Upon clicking or tapping an enabled switch, the component transitions to the opposite state. Disabled switches do not respond to these interactions.
 
 Best practice form design does not allow a switch to exist in an error state, so avoid it at all costs.
 
@@ -101,5 +96,4 @@ Best practice form design does not allow a switch to exist in an error state, so
 ![]({{site.url}}/assets/images/components/inputs-and-controls/switches/switch-context.svg)
 {% endfigure %}
 {% endcolumn %}
-
 </div>

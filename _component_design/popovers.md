@@ -41,7 +41,7 @@ You can use popovers for short create or edit workflows and are particularly use
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Meet the popover pattern"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/popovers/popover-hero-image.svg){:width="100%"}
+![]({{site.url}}/assets/images/components/content-areas/popovers/popover-hero-image.svg)
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -60,7 +60,7 @@ The most defining aspects of a popover are the container and the pointer. The co
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"A popover consists of a panel, contextual pointer, heading, and buttons."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/popovers/popover-default-layout.svg){:width="80%"}
+![]({{site.url}}/assets/images/components/content-areas/popovers/popover-default-layout.svg)
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -78,7 +78,7 @@ See [inputs and controls]({{site.baseurl}}/components/inputs-and-controls.html) 
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Popover spacing specifications"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/popovers/popover-spacing.svg){:width="80%"}
+![]({{site.url}}/assets/images/components/content-areas/popovers/popover-spacing.svg)
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -97,7 +97,7 @@ See [inputs and controls]({{site.baseurl}}/components/inputs-and-controls.html) 
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Popover redline specifications"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/popovers/popover-specs.svg){:width="80%"}
+![]({{site.url}}/assets/images/components/content-areas/popovers/popover-specs.svg)
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -117,7 +117,7 @@ The pointer is 16 px wide at the base. The apex is 8 px from the side of the rec
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Pointer specifications and pointer placement variations"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/popovers/popover-pointer-size-placement.svg){:width="80%"}
+![]({{site.url}}/assets/images/components/content-areas/popovers/popover-pointer-size-placement.svg)
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -135,7 +135,7 @@ You can use popovers for small create or edit workflows that must remain in cont
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"A popover with a small create workflow"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/popovers/popover-small-create-edit-popover.svg){:width="80%"}
+![]({{site.url}}/assets/images/components/content-areas/popovers/popover-small-create-edit-popover.svg)
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -153,7 +153,7 @@ In this instance, a popover is preferable to a [tooltip]({{site.baseurl}}/compon
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"An interactive informational popover."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/popovers/popover-large-hidden-content.svg){:width="80%"}
+![]({{site.url}}/assets/images/components/content-areas/popovers/popover-large-hidden-content.svg)
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -169,7 +169,7 @@ Use a simple loading circle to load a popover. Refer to the [Loading]({{site.bas
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"A popover in loading state using a spinner"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/popovers/popover-loading.svg){:width="80%"}
+![]({{site.url}}/assets/images/components/content-areas/popovers/popover-loading.svg)
 {% endfigure %}
 {% endcolumn %}
 </div>
