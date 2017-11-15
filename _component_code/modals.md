@@ -1,9 +1,9 @@
 ---
-title: Progress Indicators
+title: Modals
 layout: code
 category: Components Code
-code: progressbar
-height: 30rem
+code: modal
+height: 40rem
 ---
 
 {% include code-container.html %}

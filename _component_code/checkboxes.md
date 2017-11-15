@@ -2,10 +2,8 @@
 title: Checkboxes
 layout: code
 category: Components Code
-usage: null
-preview-image: components/preview-help.svg
-status: unknown
-resource: false
+code: checkbox
+height: 115rem
 ---
 
-{% include todo.html content="Set up code." %}
+{% include code-container.html %}

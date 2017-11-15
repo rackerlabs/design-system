@@ -2,10 +2,8 @@
 title: Radio Buttons
 layout: code
 category: Components Code
-usage: null
-preview-image: components/preview-help.svg
-status: unknown
-resource: false
+code: form
+height: 60rem
 ---
 
-{% include todo.html content="Set up code." %}
+{% include code-container.html %}

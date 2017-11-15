@@ -1,9 +1,9 @@
 ---
-title: Progress Indicators
+title: Tabset
 layout: code
 category: Components Code
-code: progressbar
-height: 30rem
+code: tabset
+height: 20rem
 ---
 
 {% include code-container.html %}

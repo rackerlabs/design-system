@@ -1,9 +1,9 @@
 ---
-title: Progress Indicators
+title: Basic Tables
 layout: code
 category: Components Code
-code: progressbar
-height: 30rem
+code: table
+height: 230rem
 ---
 
 {% include code-container.html %}

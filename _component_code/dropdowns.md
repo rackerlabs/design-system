@@ -1,11 +1,9 @@
 ---
-title: Dropdowns
+title: Drop-downs
 layout: code
 category: Components Code
-usage: null
-preview-image: components/preview-help.svg
-status: unknown
-resource: false
+code: dropdown
+height: 30rem
 ---
 
-{% include todo.html content="Set up code." %}
+{% include code-container.html %}

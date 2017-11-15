@@ -1,9 +1,9 @@
 ---
-title: Progress Indicators
+title: Text Fields
 layout: code
 category: Components Code
-code: progressbar
-height: 30rem
+code: form
+height: 60rem
 ---
 
 {% include code-container.html %}

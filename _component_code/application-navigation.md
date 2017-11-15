@@ -1,11 +1,9 @@
 ---
-title: Application navigation
-parent: Navigation
+title: Application Navigation
 layout: code
 category: Components Code
-usage: Application navigation establishes the user's path.
-preview-image: components/preview-help.svg
-resource: false
+code: navigation
+height: 91rem
 ---
 
-{% include todo.html content="Set up code." %}
+{% include code-container.html %}

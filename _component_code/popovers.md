@@ -1,9 +1,9 @@
 ---
-title: Progress Indicators
+title: Popovers
 layout: code
 category: Components Code
-code: progressbar
-height: 30rem
+code: popover
+height: 43rem
 ---
 
 {% include code-container.html %}

@@ -1,9 +1,9 @@
 ---
-title: Progress Indicators
+title: Breadcrumbs
 layout: code
 category: Components Code
-code: progressbar
-height: 30rem
+code: breadcrumb
+height: 44rem
 ---
 
 {% include code-container.html %}
