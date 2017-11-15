@@ -17,7 +17,7 @@ last-modified: 2017-11-04
 
 ## Introduction
 
-<div class="hxRow">
+<div class="hxRow" markdown="1">
 
 {% column left:"hxCol-6 hxCol-xs-12 hxCol-sm-12 hxCol-md-6 hxCol-lg-6" %}
 
@@ -25,12 +25,12 @@ last-modified: 2017-11-04
 
 - Radio buttons should be used when a user has to select **only one option** in a list.
 - If multiple options can be selected, use [checkboxes]({{site.baseurl}}/components/checkboxes.html) instead.
-- A [dropdown menu]({{site.baseurl}}/components/dropdowns.html) can also be used for selecting only one option. Radio buttons are a better pattern if you want to show all options on the page without asking the user to click on the dropdown to see all available options. If you’re using more than five options, strongly consider the dropdown pattern.
+- A [drop-down menu]({{site.baseurl}}/components/dropdowns.html) can also be used for selecting only one option. Radio buttons are a better pattern if you want to show all options on the page without asking the user to click on the dropdown to see all available options. If you’re using more than five options, strongly consider the dropdown pattern.
 - Consider using a [switch]({{site.baseurl}}/components/switch.html) component if a singular input can be used to enable or disable a feature (in place of two yes/no radio buttons).
 
 {% endcolumn %}
 {% column right:"hxCol-6 hxCol-xs-12 hxCol-sm-12 hxCol-md-6 hxCol-lg-6" %}
-{% figure [] [class:"image bg-light border"] %}
+{% figure [caption="The radio button pattern"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/inputs-and-controls/radio-buttons/radio-hero.svg)
 {% endfigure %}
 {% endcolumn %}
@@ -39,9 +39,9 @@ last-modified: 2017-11-04
 
 ### Best practices 
 
-<div class="hxRow">
+<div class="hxRow" markdown="1">
 
-{% column left :"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}  
+{% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}  
 
 - Always use a label above the available options.
 - Keep the number of options to between two and five choices.
@@ -57,7 +57,7 @@ last-modified: 2017-11-04
 
 ## Specifications
 
-<div class="hxRow">
+<div class="hxRow" markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
@@ -79,13 +79,13 @@ A radio button group consists of a section label, followed by pairs of radio but
 
 </div>
 
-<div class="hxRow">
+<div class="hxRow" markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 #### Spacing
 
-A title should always be located above the radio buttons. More context can be provided under the title (subtitle) but it is optional (shown here as “Select an option” on left).
+A title should always be located above the radio buttons. More context can be provided under the title or subtitle, but it is optional (shown here as “Select an option” on left).
 
 {% endcolumn %}
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
@@ -98,7 +98,7 @@ A title should always be located above the radio buttons. More context can be pr
 
 ## States
 
-<div class="hxRow">
+<div class="hxRow" markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
@@ -118,7 +118,7 @@ Form design best practices prohibit a radio button from existing in an error sta
 
 
 
-<div class="hxRow">
+<div class="hxRow" markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
