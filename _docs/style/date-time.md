@@ -3,21 +3,21 @@ title: Date & Time
 layout: docs
 category: Style
 usage: |
-  Always use human-friendly formatting when displaying date and/or time.
+  Always use human-friendly formatting when displaying dates or times.
 preview-image:
 resource: true
 ---
 
 {% include toc.html %}
 
-Always use human-friendly formatting when displaying date and/or time.
+Always use human-friendly formatting when displaying dates or times.
 
 ## Date
 
 | Format | Examples |
 | --- | --- |
-| {month (mixed case 3 letter abbr)} {numerical day}, {year (4 digit)} | Nov 28, 2016<br>Apr 2, 2016 |
-| Use an en dash (&ndash) to separate the dates in date ranges. | Nov 28, 2016–Nov 30, 2016 |
+| {month (mixed case 3 letter abbr)} {numerical day}, {year (4 digit)} | Nov 28, 2016<br/>Apr 2, 2016 |
+| Use an en dash (&ndash;) to separate the dates in date ranges. | Nov 28, 2016&ndash;Nov 30, 2016 |
 {: class="ui very basic collapsing celled table"}
 
 ## Time
@@ -51,7 +51,7 @@ Always use human-friendly formatting when displaying date and/or time.
 
 | Format | Examples |
 | --- | --- |
-| {month (mixed case 3 letter abbr)} {numerical day}<br>{year (4 digit)} {time (12-hr)} {AM/PM (caps)} {timezone (caps 3 letter abbr)} | Nov 28, 2016 7:58 PM CST<br>Apr 2, 2016 12:59:16 AM CDT (UTC-5) |
+| {month (mixed case 3 letter abbr)} {numerical day}<br>{year (4 digit)} {time (12-hr)} {AM/PM (caps)} {timezone (caps 3 letter abbr)} | Nov 28, 2016 7:58 PM CST<br/>Apr 2, 2016 12:59:16 AM CDT (UTC-5) |
 {: class="ui very basic collapsing celled table"}
 
 ## Timeago
@@ -69,5 +69,5 @@ timeline of events.
     -   After first hour: "1 hr"
     -   After second hour: "\<#\> hrs"
     -   After 24 hours: "1 day"
-    -   After 48 hours: "\<month (mixed case 3 letter abbreviation)\> \<numerical day\>" e.g "Nov 3"
+    -   After 48 hours: "\<month (mixed case 3 letter abbreviation)\> \<numerical day\>" (for example, "Nov 3")
 -   Hover tooltip with "\<timestamp\>"

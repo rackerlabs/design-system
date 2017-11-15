@@ -15,6 +15,7 @@ resource: true
 
 <div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
 - Use the account navigation bar to navigate between applications,
   manage roles, and manage preferences on both the user and the account
   level.
@@ -56,6 +57,7 @@ Build the content area using a 12 Column Grid. See [grid](/layout/grid) for more
 
 <div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
 - Navigation is not a part of the 12 Column Grid.
 - Content area background color: Gray 25, #FAFAFA
 
@@ -83,6 +85,7 @@ Build the content area using a 12 Column Grid. See [grid](/layout/grid) for more
 
 <div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
 - 3 columns
 - Background color: Gray 100, #EEEEEE
 
@@ -110,6 +113,7 @@ Build the content area using a 12 Column Grid. See [grid](/layout/grid) for more
 
 <div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
 - 3 columns
 - Background color: Gray 100, #EEEEEE
 
@@ -132,6 +136,7 @@ Build the content area using a 12 Column Grid. See [grid](/layout/grid) for more
 
 <div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
 - 4 columns each
 - Canvas Height: variable
 - Background color: Gray 25, #FAFAFA
@@ -145,7 +150,7 @@ Build the content area using a 12 Column Grid. See [grid](/layout/grid) for more
 {% endfigure %}
 <!--
 {% figure [caption:"Dashboard layout with side navigation"] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/layout/layout-dashboard-side.svg){:width="100%"}
+![]({{site.cdn_url}}/img/layout/layout-dashboard-side.svg)
 {% endfigure %}
 -->
 {% endcolumn %}
