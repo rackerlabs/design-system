@@ -25,8 +25,8 @@ last-modified: 2017-11-04
 
 - Radio buttons should be used when a user has to select **only one option** in a list.
 - If multiple options can be selected, use [checkboxes]({{site.baseurl}}/components/checkboxes.html) instead.
-- A [drop-down menu]({{site.baseurl}}/components/dropdowns.html) can also be used for selecting only one option. Radio buttons are a better pattern if you want to show all options on the page without asking the user to click on the dropdown to see all available options. If you’re using more than five options, strongly consider the dropdown pattern.
-- Consider using a [switch]({{site.baseurl}}/components/switch.html) component if a singular input can be used to enable or disable a feature (in place of two yes/no radio buttons).
+- Radio buttons are useful when you have a small set of options and want to show all of them. If you’re using more than five options, strongly consider the dropdown pattern.
+- Consider using a [switch]({{site.baseurl}}/components/switches.html) component if a singular input can be used to enable or disable a feature (in place of two yes/no radio buttons).
 
 {% endcolumn %}
 {% column right:"hxCol-6 hxCol-xs-12 hxCol-sm-12 hxCol-md-6 hxCol-lg-6" %}
@@ -126,9 +126,11 @@ Form design best practices prohibit a radio button from existing in an error sta
 
 The question with the error receives an asterisk. The asterisk position floats to the left, in the margin, not in vertical alignment with the text. The section label should remain in its natural vertical alignment. 
 
-Only the option with the error receives the error radio button.
+Only the option with the error receives error styling.
 
-Let the error message wrap to fixed upper and lower bounds, to 40 to 80 characters per line.
+The error icon is positioned to the left of the error message.
+
+The error message should be 40-80 characters per line, and may wrap if needed.
 
 {% endcolumn %}
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
