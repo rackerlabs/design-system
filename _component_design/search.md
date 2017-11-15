@@ -1,213 +1,124 @@
 ---
-title: Searches and Filters
-parent: null
+title: Search Bar
+parent: Search and Filters
 layout: component
 category: Components
-usage: Teaser Text
-preview-image:
+usage: >
+  A search box is a combination of an input field and a submit button. One may think that the search box doesn’t need a design; after all, it’s just two simple elements. But since the search box is one of the most frequently used design elements on content-heavy websites, its usability is critical.
+preview-image: preview-images/search.svg
 resource: true
-status: unknown
+status: stable
+last-modified: 2017-11-07
 ---
 
 {% include toc.html %}
 
-<!-- NOTE: Bart said not to worry about splitting this for Phase 1.
-     TODO: Split for phase 2. -->
+## Introduction
 
-When an app supports large amounts of information, users should be able to
-quickly locate content by searching for it.
+<div class="hxRow">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+### When to use
+When an app supports large amounts of information, users can quickly locate content by searching
 
-**Basic search involves**
+### Best practices
 
-- Opening a search text field
-- Entering and submitting a query
-- Displaying a set of search results
+- Display the search element prominently on the page.
+- Always pair the search with the eyeglass icon.
+- Place search on every page that displays aggregate data sets.
+- Search bars are variable in size from app to app. The minimum text input size is 30 characters to ensure that smaller search bars are usable.
 
-However, the search experience can be enhanced by providing:
+{% endcolumn %}
 
--   An **Assisted Search**: suggestions of search modifiers to help a user
-  narrow the results. Assisted search may act as a replacement for an
-  additional static set of facets.
 
--   **Auto-completed search suggestions (Auto-completion)** matching actual
-  results in your application data
-
-OR
-
--   An additional set of **static facets**
-
-# When to Use
-
-Search should be supported for apps that supports large amounts of information
-and users need be able to quickly locate content.
-
-## Data tables may include
-
--   Basic Search may be sufficient if you have a small number of criteria to
-  search on and/or if your users don’t need to perform complex searches.
-
-## Search Options
-
-An Assisted Search may be useful if:
-
--   Searching and filtering is a top task for the page and warrants a robust
-  capability
-
--   Filtering is needed but space is limited
-
--   Some types of filtering, like device filtering, normally would require
-  using excessive screen real estate if always displayed on the screen
-
--   Combining multiple content types into one search would normally be
-  technically prohibitive – due to performance or other limitations. The
-  addition of a search modifier helps limit the query to a more targeted
-  dataset.
-
-Auto-completion may be useful if your results set may be hard to recall from
-memory.
-
-# Best Practices
-
-- Auto-completion may be used as an option on it’s own.
-- However, assisted search is best used in conjunction with auto-completion
-
-# Basic Search
-
-Searches provide an input field for searching through content, allowing users
-to locate specific items within the website or app.
-
-## Visual Example
-
-{% figure [caption:""] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/components/search-basic.svg){:width="60%"}
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [caption:"Search implemented in the support delivery platform UI"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/search-and-filters/search-bar/search-hero.svg)
 {% endfigure %}
+{% endcolumn %}
+</div>
 
-# Assisted Search/Auto-completion
+## Specifications
+<div class="hxRow">
 
-## States
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-### Default State
+### Basic search bar
 
--   Upon clicking the search box the user should be presented with a list of
-  keyword that they can use to filter their search.
 
--   The user can click or type out a keyword to use it as a filter to narrow
-  down their search.
+Search bars utilize the same text specifications defined in [text inputs]({{site.baseurl}}/components/text-fields.html).
 
-{% figure [caption:""] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/components/search-default-state.svg){:width="60%"}
+By default, the search bar will extend across the full width of its container. We recommend a minimum search bar width of 294px so that the user can see their input text.
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [caption:"Basic search bar"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/search-and-filters/search-bar/search-basic.svg)
 {% endfigure %}
+{% endcolumn %}
 
-### Loading/Processing
+</div>
 
--   If autocomplete is taking time to load, a loading spinner should be used in
-  place of results.
+<div class="hxRow">
 
--   There is no error state for autocomplete
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
--   User should still have instructions for how to search without
-  auto-completed results (Enter)
+### States
 
-{% figure [caption:""] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/components/search-processing.svg){:width="60%"}
+The basic search bar component has the following states:
+
+- **Idle & empty:** Base state of component, prior to user interaction.
+- **Focused:** After a user has clicked inside the search bar, it enters a focused state.
+- **Idle & filled:** After a user has performed a query and selected another element on the page.
+- **Error:** Displayed in the event an error occurs within the search.
+- **Error & focused:** After an error has occurred and a user has focused the search bar. The search bar will re-enter a focused state once the error is remedied.
+
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [caption:"Basic search bar states"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/search-and-filters/search-bar/search-states.svg)
 {% endfigure %}
+{% endcolumn %}
 
-### Results
+</div>
 
-Search completion results should be divided up by categories if possible.
+<div class="hxRow">
 
-{% figure [caption:""] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/components/search-results.svg){:width="60%"}
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### Spacing
+
+- Content is vertically centered.
+- Padding around edges of search box: 8px.
+- When displaying an error message or "no search results" message, place 4px below the search bar.
+
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [caption:"Spacing specifications"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/search-and-filters/search-bar/search-spacing.svg)
 {% endfigure %}
+{% endcolumn %}
 
-### Hover
+</div>
 
--   The user may click or use their arrow keys to select one of the items in
-  the dropdown list
+<div class="hxRow">
 
--   **Visual:** Hover color should be **Cyan 50**
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-{% figure [caption:""] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/components/search-hover.png){:width="60%"}
+### No results
+
+The 'no results' state mimics the 'Idle & filled' state and displays a specialized error message in subdued text style.
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [caption:"No results state"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/search-and-filters/search-bar/search-no-results.svg)
 {% endfigure %}
+{% endcolumn %}
 
-### Active
-
--   **Visual:** When a keyword is actively being used but has not yet been
-  completed with search criteria it should have a background color of
-  **Cyan 100**
-
-{% figure [caption:""] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/components/search-active.svg){:width="60%"}
-{% endfigure %}
-
-### Selected
-
--   **Visual:** When a filter+search completion item have been selected, it
-  should have a background color of **Greyscale 400**
-
-{% figure [caption:""] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/components/search-selected.svg){:width="60%"}
-{% endfigure %}
-
-### Date Selector
-
--   Date filters (“after”, “before” or “on”) should trigger a date picker
-
--   The datepicker should appear after typing one of the above keywords + a
-  colon
-
--   The datepicker should also appear if one of the above items is clicked from
-  the menu
-
--   Refer to the datepicker pattern for more information on how to use and
-  implement a datepicker.
-
-{% figure [caption:""] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/components/search-date-selector.svg){:width="60%"}
-{% endfigure %}
-
-### Query Strings
-
--   Multiple queries may be stringed together
-
--   If the number of queries extends beyond the length of the search box, it
-  should function like a normal text box and the overflow should be hidden
-
--   The user can move through the queries with their arrow keys or click into a
-  query to edit it
-
--   Backspace should delete a single character not the entire query
-
-{% figure [caption:""] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/components/search-query-strings.svg){:width="60%"}
-{% endfigure %}
-
-### Clear
-
-- User make click the X to clear all of the search queries
-- The page should be refreshed to its default state
-
-{% figure [caption:""] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/components/search-clear.svg){:width="60%"}
-{% endfigure %}
-
-# Text Guidelines
-
-Limit filter tags to one word (e.g. Device, On, Before, Type)
-
-# Research
-
-Effective testing of Guided Search was challenging. Invision isn’t robust
-enough to make it very believable. Axure would have required a really complex
-prototype (possibly not worth the time). In the future, we will either test
-with our production or staging sites or an HTML prototype.
-
-For now though, we have a few research studies:
-
-- [Customer Research Days: Notification Center](http://design.rax.io/?customer-research=customer-research-days-notification-center)
-- [How Do Customers AND Rackers Choose Devices?](http://design.rax.io/?customer-research=how-do-customers-and-rackers-choose-devices)
-
-<!--
-# Facets
--->
+</div>
