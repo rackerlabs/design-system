@@ -1,33 +1,30 @@
 ---
-title: Resources
+title: Design resources
 layout: docs
 category: Resources
 ---
 
 # Adobe Illustrator
 
-An Adobe Illustrator library that contains the Helix color palette, character
-styles, icons and components is available through the Creative Cloud. You can
-[view the library here](https://assets.adobe.com/link/e4a1e938-87a4-40e4-734d-d41c93f448ed)
-or <a href="mailto:Helix.designsystem@rackspace.com">contact the Helix team</a>
-for access to download the library.
+The Adobe Illustrator library contains the Helix color palette, character
+styles, icons, and components. It available through Adobe Creative Cloud. You can download the library,
+[here](https://assets.adobe.com/link/e4a1e938-87a4-40e4-734d-d41c93f448ed)
+or <a href="mailto:Helix.designsystem@rackspace.com">contact the Helix team</a>.
 
 # Sketch
-A Sketch template, as well as a Craft Library are available via OneDrive.
+The Sketch template as well as a Craft library are available in OneDrive.
 
 <a class="ui button ds-btn-med" href="https://raxglobal.sharepoint.com/sites/REDFiles/_layouts/15/guestaccess.aspx?guestaccesstoken=Z4htsZ9Wnj3O5tA%2f93Qd7r3Zd0%2bCp4huq0BfnXWChBk%3d&docid=2_182c0b922d5cc46a0b1be792f246623df&rev=1">View Sketch Resources</a>
 
 ## How to set it up
-In order to use the full feature set of the Craft Library or start from the
-latest version of the Sketch template, it is important to sync the shared
-OneDrive folder to your computer. However, *syncing with OneDrive isn't quite
-as simple as Google Drive, so bear with us through the next few steps*.
+In order to use the full feature set of the Craft library or start from the
+latest version of the Sketch template, sync the shared
+OneDrive folder to your computer.
 
 ### Syncing a Shared OneDrive folder
 
 -   **Make sure that your version of OneDrive was downloaded from the Managed
-Software Center.** Rackspace has built an update to the program that enables us
-to sync shared folders, so If you download it from another source it will not
+Software Center.** Rackspace has built an update to the program that enables  syncing shared folders. Downloading from another source will not
 work. If your computer does not have the Managed Software Center installed on
 it, you'll need to go to O'Fixies to install it.
 
@@ -42,8 +39,8 @@ it, you'll need to go to O'Fixies to install it.
 
 <div class="hxRow">
 {% column left:"hxCol-md-4" %}
--   Syncing the folder will create a second OneDrive folder on your computer.
-    It will also add the folder as a second location to your OneDrive App.
+-   Sync the folder to create a second OneDrive folder on your computer.
+    This adds the folder as a second location to your OneDrive App.
 
     {% include tip.html content="DO NOT rename these folders." %}
 {% endcolumn %}
@@ -52,15 +49,15 @@ it, you'll need to go to O'Fixies to install it.
 {% endcolumn %}
 </div>
 
-## How to use it
+## How to use
 
 ### Sketch Template
 
 <div class="hxRow">
 {% column left:"hxCol-md-4" %}
-If you choose the Sketch template you can create a new file from it and edit it
-as you wish without affecting the original document. Sketch maintains the link
-to the template in your "New from Template" menu. So if you selected it from
+If you choose the Sketch template you can create a new sketch file from the template and edit it
+the file without affecting the original document. Sketch maintains the link
+to the template in the "New from Template" menu. If you selected the template from
 the shared drive above, it will always access the most up to date file.
 {% endcolumn %}
 {% column right:"hxCol-md-7" %}
@@ -72,16 +69,16 @@ the shared drive above, it will always access the most up to date file.
 
 <div class="hxRow">
 {% column left:"hxCol-md-4" %}
-If you aren't familiar with Craft, it is a Sketch add-on that includes a
-feature for shared libraries. If imported into your project the Craft library
-will automatically alert you when new assets are available.
+Craft, is a Sketch add-on that includes a
+feature for shared libraries. When imported into your Sketch project, the Craft library
+automatically alerts you when new assets are available.
 {% endcolumn %}
 {% column right:"hxCol-md-7" %}
 ![](http://design.rax.io/wp-content/uploads/2016/08/Design-System-Sketch-3.png){:width="80%"}
 {% endcolumn %}
 </div>
 
-If you've never used Craft before, we urge you to take a minute to learn about
+If you've never used Craft before, take a minute to learn about
 it before diving in:
 <div class="ui centered image">
   <video class="ui large image" width="320" height="240" controls>
