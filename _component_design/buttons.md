@@ -203,13 +203,12 @@ When submitting forms:
 </div>
 
 ## Variations
-{: .hxSubSectionTitle}
 <div class="hxRow">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Drop-down buttons
 
-A drop-down button is preferred when multiple actions are available, with no designated primary action. All actions are  accessed through the drop-down menu.   
+A drop-down button is preferred when multiple actions are available, with no designated primary action. All actions are accessed through the drop-down menu.   
 
 
 {% endcolumn %}
@@ -246,7 +245,7 @@ A drop-down button is preferred when multiple actions are available, with no des
 
 ### Split drop-down buttons
 
-Split dropdown buttons are preferred when more than one action is associated with a button. The primary action is visible and available on the button itself, while the secondary actions are accessed through the drop-down menu.
+Split drop-down buttons are preferred when more than one action is associated with a button. The primary action is visible and available on the button itself, while the secondary actions are accessed through the drop-down menu. See the [actions menu]({{site.baseurl}}/components/actions-menu.html) for drop-down design specifications.
 
 {% endcolumn %}
 
