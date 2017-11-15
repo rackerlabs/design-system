@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="571px" height="82px" viewBox="0 0 571 82" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>drop-button-hero</title>
+    <desc>Created with Sketch.</desc>
+    <style type="text/css">@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');</style>
+    <defs>
+        <path d="M2,1.33226763e-15 L120,1.33226763e-15 L120,1.33226763e-15 C121.104569,-6.71907191e-15 122,0.8954305 122,2 L122,19.9241387 L122,30 L122,30 C122,31.1045695 121.104569,32 120,32 L2,32 L2,32 C0.8954305,32 1.3527075e-16,31.1045695 0,30 L0,2 L0,2 C-1.3527075e-16,0.8954305 0.8954305,1.97926528e-15 2,1.77635684e-15 Z" id="path-1"></path>
+        <path d="M2,1.33226763e-15 L120,1.33226763e-15 L120,1.33226763e-15 C121.104569,-6.71907191e-15 122,0.8954305 122,2 L122,19.9241387 L122,30 L122,30 C122,31.1045695 121.104569,32 120,32 L2,32 L2,32 C0.8954305,32 1.3527075e-16,31.1045695 0,30 L0,2 L0,2 C-1.3527075e-16,0.8954305 0.8954305,1.97926528e-15 2,1.77635684e-15 Z" id="path-2"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="drop-button-hero">
+            <g id="Button/Standard/Dropdown/Primary" transform="translate(26.000000, 18.000000)">
+                <path d="M2,0.000109141311 L120,0.000109141311 L120,0.000109141311 C121.104569,0.000109141311 122,0.895539642 122,2.00010914 L122,19.9240716 L122,29.9998261 L122,29.9998261 C122,31.1043956 121.104569,31.9998261 120,31.9998261 L2,31.9998261 L2,31.9998261 C0.8954305,31.9998261 1.87533573e-15,31.1043956 -2.22044605e-16,29.9998261 L0,2.00010914 L0,2.00010914 C-1.3527075e-16,0.895539642 0.8954305,0.000109141311 2,0.000109141311 Z" id="Rectangle-2" fill="#0C7C84"></path>
+                <g id="Group" stroke-width="1" transform="translate(9.000000, 6.000000)" fill="#FFFFFF">
+                    <text id="Button-Text" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" line-spacing="20">
+                        <tspan x="2.17626953" y="13">Button Text </tspan>
+                    </text>
+                    <g id="arrow-down" transform="translate(86.000000, 6.000000)" fill-rule="nonzero">
+                        <polygon id="Path-2-Copy-4" points="1.33864218 0.0843605184 0 1.30077713 6.96167104 8.96195704 14 1.21641661 12.6613578 0 6.96167104 6.27239144"></polygon>
+                    </g>
+                </g>
+            </g>
+            <text id="Primary" font-family="Roboto-Regular, Roboto" font-size="10" font-weight="normal" fill="#9E9E9E">
+                <tspan x="25.7368164" y="67">Primary</tspan>
+            </text>
+            <g id="Button/Standard/Dropdown/Secondary" transform="translate(235.000000, 19.000000)">
+                <g id="Rectangle-2">
+                    <use fill-opacity="0" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <path stroke="#0C7C84" stroke-width="1" d="M2,0.5 C1.17157288,0.5 0.5,1.17157288 0.5,2 L0.5,30 C0.5,30.8284271 1.17157288,31.5 2,31.5 L120,31.5 C120.828427,31.5 121.5,30.8284271 121.5,30 L121.5,2 C121.5,1.17157288 120.828427,0.5 120,0.5 L2,0.5 Z"></path>
+                </g>
+                <g id="Group" stroke-width="1" fill-rule="evenodd" transform="translate(12.000000, 6.000000)" fill="#0C7C84">
+                    <text id="Button-Text" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" line-spacing="20">
+                        <tspan x="2.17626953" y="13">Button Text </tspan>
+                    </text>
+                    <g id="arrow-down" transform="translate(84.000000, 6.000000)" fill-rule="nonzero">
+                        <polygon id="Path-2-Copy-4" points="1.33864218 0.0843605184 0 1.30077713 6.96167104 8.96195704 14 1.21641661 12.6613578 0 6.96167104 6.27239144"></polygon>
+                    </g>
+                </g>
+            </g>
+            <text id="Secondary-Copy" font-family="Roboto-Regular, Roboto" font-size="10" font-weight="normal" fill="#9E9E9E">
+                <tspan x="234.516113" y="67">Secondary</tspan>
+            </text>
+            <g id="Button/Standard/Dropdown/Tertiary" transform="translate(433.000000, 16.000000)">
+                <g id="Rectangle-2">
+                    <use fill-opacity="0" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    <path stroke-opacity="0.000396286232" stroke="#0C7481" stroke-width="1" d="M2,0.5 C1.17157288,0.5 0.5,1.17157288 0.5,2 L0.5,30 C0.5,30.8284271 1.17157288,31.5 2,31.5 L120,31.5 C120.828427,31.5 121.5,30.8284271 121.5,30 L121.5,2 C121.5,1.17157288 120.828427,0.5 120,0.5 L2,0.5 Z"></path>
+                </g>
+                <g id="Group" stroke-width="1" fill-rule="evenodd" transform="translate(12.000000, 6.000000)" fill="#0C7C84">
+                    <text id="Button-Text" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" line-spacing="20">
+                        <tspan x="2.17626953" y="13">Button Text </tspan>
+                    </text>
+                    <g id="arrow-down" transform="translate(84.000000, 6.000000)" fill-rule="nonzero">
+                        <polygon id="Path-2-Copy-4" points="1.33864218 0.0843605184 0 1.30077713 6.96167104 8.96195704 14 1.21641661 12.6613578 0 6.96167104 6.27239144"></polygon>
+                    </g>
+                </g>
+            </g>
+            <text id="Tertiary-Copy" font-family="Roboto-Regular, Roboto" font-size="10" font-weight="normal" fill="#9E9E9E">
+                <tspan x="432.627441" y="67">Tertiary</tspan>
+            </text>
+        </g>
+    </g>
+</svg>
