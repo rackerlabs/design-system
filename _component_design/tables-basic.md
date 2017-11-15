@@ -188,10 +188,10 @@ This variation is used in the following situations:
 
 #### Best practices
 
-- **Rule**: Each cell with more than one line of text should have a designated Primary and Secondary value, this is important.  
-- **Rule**: If a row needs to have the sorting table controls pattern applied see [table controls]({{site.baseurl}}/components/tables-controls.html), the pattern will always sort based on the primary key.
-- **Suggestion**: Increase the `font-weight` (or make another meaningful distinction ) between the primary and secondary values in dual line rows to make the sorting function more clear to a user.
-- **Suggestion**: Due to the amount of information presenting with this pattern it performs best when paired with another pattern that allows for segmenting the table content. For example, [assisted search]({{site.baseurl}}/components/assisted-search.html).
+- **Rule**: (**Important**) Each cell with more than one line of text must have a designated primary and secondary value.
+- **Rule**: In rows with the [table controls]({{site.baseurl}}/components/tables-controls.html) sorting pattern applied, the pattern will always sort based on the primary key.
+- **Suggestion**: Increase the `font-weight` (or make another meaningful distinction ) between the primary and secondary values in dual-line rows to make the sorting function more clear to a user.
+- **Suggestion**: Due to the amount of information presenting with this pattern, it performs best when paired with another pattern that allows for segmenting the table content. For example: [assisted search]({{site.baseurl}}/components/assisted-search.html).
 
 {% endcolumn %}
 	
@@ -202,14 +202,14 @@ This variation is used in the following situations:
 
 #### Spacing
 
-The dual line text variation follows all basic table barring the following exceptions:
+The dual-line text variation follows all basic table with the following exceptions:
 
-- Top and bottom padding for cell is moved from 20px to 16px.
-- Spacing between lines in dual line rows are 10px apart. 
-	- Suggested implementation: apply 1.5em line-height to dual line rows
-- Line-height for wrapped rows is modified to 12px
-- In lines displaying two independent K:V pairs there is designated a primary K:V and a secondary K:V. The primary K:V has the `font-weight` increased to **bold**. 
-- In lines displaying a key with a pair of values that require a contextual icon, the key and supporting icon will be 4px apart. Icon will be based on base icon size of 16x16px.
+- The top and bottom padding for cells moves from 20px to 16px.
+- Spacing between lines in dual-line rows are 10px apart. 
+	- Suggested implementation: apply 1.5em line height to dual-line rows
+- Line height for wrapped rows is modified to 12px.
+- In lines displaying two independent key:value pairs designate a primary key:value and a secondary key:value. The primary key:value has the `font-weight` increased to **bold**. 
+- In lines displaying a key with a pair of values that require a contextual icon, the key and supporting icon will be 4px apart. Icons are based on a base icon size of 16x16px.
 
 
 {% endcolumn %}
