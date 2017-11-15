@@ -13,13 +13,13 @@ last-modified: 2017-11-07
 
 {% include toc.html %}
 
-## Assisted search
+## Introduction
 
 <div class="hxRow">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-### Default state
+### Assisted search drop-down
 
 When the user clicks the search box, show them a list of keywords that they can use to filter their search.
 
@@ -27,8 +27,8 @@ When the user clicks the search box, show them a list of keywords that they can 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% figure [caption:"Assist search specifications"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/search-and-filters/search-assisted/search-assisted-default.svg)
+{% figure [caption:"Meet the assisted search drop-down menu"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/search-and-filters/search-assisted/assisted-search-drop-down-menu.png){: width="548px"}
 {% endfigure %}
 {% endcolumn %}
 
@@ -38,18 +38,18 @@ When the user clicks the search box, show them a list of keywords that they can 
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-### Loading state
+### Layout specifications
 
-Use a [loading spinner]({{site.baseurl}}/components/loading-indicators.html) if results take need to be processed prior to display.
+Separate groups of keywords using a horizontal divider.
 
-User should still have instructions for how to search without autocompleted results (Enter).
+Append the keyword with colon to the search input when the user clicks on a keyword in the menu.
 
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% figure [caption:"Assist search loading state"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/search-and-filters/search-assisted/search-assisted-loading.svg)
+{% figure [caption:"Assist search specifications"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/search-and-filters/search-assisted/assisted-search-layout-specifications.png){: width="548px"}
 {% endfigure %}
 {% endcolumn %}
 
@@ -61,13 +61,36 @@ User should still have instructions for how to search without autocompleted resu
 
 ### Search results
 
-Divide search completion results into categories.
+Divide search results into categories.
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Assisted search - search results specifications"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/search-and-filters/search-assisted/search-assisted-results.svg)
+![]({{site.url}}/assets/images/components/search-and-filters/search-assisted/assisted-search-predictive-results-list.png){: width="548px"}
+{% endfigure %}
+{% endcolumn %}
+
+</div>
+
+## Assisted search states
+
+<div class="hxRow">
+
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### Loading
+
+Use a [loading spinner]({{site.baseurl}}/components/loading-indicators.html) if results take need to be processed prior to display.
+
+User should still have instructions for how to search without autocompleted results (Enter).
+
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [caption:"Assist search loading state"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/search-and-filters/search-assisted/assisted-search-loading-state.png){: width="548px"}
 {% endfigure %}
 {% endcolumn %}
 
@@ -77,43 +100,83 @@ Divide search completion results into categories.
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-### Assisted search states
+### Hover and focus
 
-**Hover:** The user can click or use their arrow keys to select one of the items in the dropdown list.
+The user can click on a search result or use their up and down arrow keys to traverse items in the drop-down list.
+
+Clicking on a search result item, or pressing the enter key when a result item has focus will close the drop-down menu and execute the search using the selected item.
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Assisted search results specifications"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/search-and-filters/search-bar/search-assisted-states-1.svg)
+![]({{site.url}}/assets/images/components/search-and-filters/search-assisted/assisted-search-hover-and-focus.png){: width="548px"}
 {% endfigure %}
 {% endcolumn %}
+</div>
 
+<div class="hxRow">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-**Active:** When a keyword is in active use, but has not yet been completed with search criteria.
+### Active keyword
+
+When a keyword is in active use, but the query has not been completed with search criteria.
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Assisted search results - active state"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/search-and-filters/search-bar/search-assisted-states-2.svg)
+![]({{site.url}}/assets/images/components/search-and-filters/search-assisted/assisted-search-active-keyword.png){: width="548px"}
 {% endfigure %}
 {% endcolumn %}
+</div>
 
+<div class="hxRow">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-- **Filter + No Autocomplete:** Do not use a background color if keyed entries have not formed a complete query string.
+### Active keyword + no terms
 
-- **Complete:** When a filter + search pill has been completed. 
-
-- **Delete:** Use backspace to delete a single character and not the entire query or search pill.
+Do not apply the gray background color if keyed entries have not formed a complete query string.
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% figure [caption:"Search pills are used to display the active and complete states in the assisted search pattern."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/search-and-filters/search-bar/search-assisted-states-3.svg)
+{% figure [caption:"Cyan search pills are used to display the active state."] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/search-and-filters/search-assisted/assisted-search-active-and-entering-terms.png){: width="548px"}
+{% endfigure %}
+{% endcolumn %}
+
+</div>
+
+<div class="hxRow">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### Completed search
+
+When the user has typed the key and term and pressed enter, the search is completed and the gray pill shape surrounds the query.
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [caption:"Gray search pills are used to display the complete state."] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/search-and-filters/search-assisted/assisted-search-completed-search.png){: width="548px"}
+{% endfigure %}
+{% endcolumn %}
+
+</div>
+
+<div class="hxRow">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### Deleting terms
+
+Use backspace to delete a single character and not the entire query or search pill.
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [caption:"Backspace deletes single characters, and not the entire set."] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/search-and-filters/search-assisted/assisted-search-deleting-terms.png){: width="548px"}
 {% endfigure %}
 {% endcolumn %}
 
