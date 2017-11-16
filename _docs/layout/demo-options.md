@@ -1,9 +1,10 @@
 ---
 title: Demo Layouts
 layout: docs
-//category: Layout
+category: Layout
 usage:
 preview-image: null
+resource: false
 ---
 
 ### Full Width {% include inprogress.html %}

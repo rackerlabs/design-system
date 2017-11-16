@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'jekyll', '<=3.1.6'
+gem 'jekyll'
 gem 'normalize-scss'
 gem 'rouge'
 gem 'redcarpet'

@@ -13,6 +13,7 @@ last-modified: 2017-11-16
 
 {% include toc.html %}
 
+
 ## Introduction
 
 <div class="hxRow" markdown="1">
@@ -53,10 +54,12 @@ The default chip is a single circle that contains a preview of the item the chip
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Default chip specifications"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/content-areas/chips/chips-default.png){: width="580px"}
+
 {% endfigure %}
 {% endcolumn %}
 
 </div>
+
 
 <!--
 <div class="hxRow" markdown="1">
@@ -93,6 +96,7 @@ For example, clicking a user chip allows the user to view their email address, p
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Interacting with an expanded chip"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/content-areas/chips/chips-expanded-ixd.png){: width="624px"}
+
 {% endfigure %}
 {% endcolumn %}
 
