@@ -13,6 +13,32 @@ last-modified: 2017-08-17
 
 {% include toc.html %}
 
+## Introduction
+
+<div class="hxRow">
+
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### When to use
+
+- lorem
+- ipsum
+
+### Best practices
+
+- lorem
+- ipsum
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [caption:"The chip component"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/content-areas/chips/chips-hero.png){: width="1440px"}
+{% endfigure %}
+{% endcolumn %}
+
+</div>
+
 <div class="hxRow">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
