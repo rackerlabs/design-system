@@ -13,32 +13,36 @@ last-modified: 2017-08-17
 
 {% include toc.html %}
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol" %}
 {% figure [caption:"Basic"] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/components/chips.svg){:width="100%"}
+![]({{site.cdn_url}}/img/components/chips.svg)
 {% endfigure %}
 {% endcolumn %}
+
 {% column left:"hxCol" %}
 {% figure [caption:"With Icon"] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/components/chips-icon.svg){:width="100%"}
+![]({{site.cdn_url}}/img/components/chips-icon.svg)
 {% endfigure %}
 {% endcolumn %}
+
 {% column right:"hxCol" %}
 {% figure [caption:"Delete"] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/components/chip-delete.svg){:width="100%"}
+![]({{site.cdn_url}}/img/components/chip-delete.svg)
 {% endfigure %}
 {% endcolumn %}
 </div>
-<div class="hxRow">
+
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4" %}
 {% figure [caption:"Hover"] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/components/chip-hover.svg){:width="100%"}
+![]({{site.cdn_url}}/img/components/chip-hover.svg)
 {% endfigure %}
 {% endcolumn %}
+
 {% column right:"hxCol-4" %}
 {% figure [caption:"Tooltip"] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/components/chip-tooltip.svg){:width="100%"}
+![]({{site.cdn_url}}/img/components/chip-tooltip.svg)
 {% endfigure %}
 {% endcolumn %}
 </div>

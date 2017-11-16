@@ -1,0 +1,923 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1440px" height="981px" viewBox="0 0 1440 981" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="background: #FFFFFF;">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>checkbox-hero</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M9.271,0.291 C9.21,0.292 9.144,0.308 9.074,0.308 L6.818,0.308 L3.11,0.308 L0.855,0.308 C0.79,0.308 0.727,0.294 0.669,0.291 L0.627,0.291 C0.585,0.293 0.547,0.306 0.513,0.34 C0.469,0.384 0.432,0.381 0.407,0.442 C0.333,0.623 0.374,0.804 0.513,0.943 L4.622,5.039 C4.811,5.228 5.118,5.221 5.307,5.032 L9.416,0.919 C9.555,0.78 9.596,0.57 9.522,0.389 C9.508,0.357 9.492,0.359 9.473,0.36 C9.456,0.361 9.437,0.362 9.417,0.341 C9.379,0.304 9.337,0.292 9.29,0.291 L9.271,0.291 Z" id="path-1"></path>
+        <path d="M4.622,1.09 L0.513,5.186 C0.374,5.324 0.333,5.505 0.407,5.687 C0.432,5.746 0.469,5.745 0.513,5.789 C0.548,5.824 0.588,5.836 0.632,5.838 L0.66,5.838 C0.72,5.835 0.786,5.82 0.855,5.82 L3.11,5.82 L6.818,5.82 L9.074,5.82 C9.206,5.82 9.327,5.877 9.417,5.788 C9.437,5.768 9.456,5.769 9.472,5.77 C9.492,5.771 9.508,5.771 9.522,5.739 C9.596,5.558 9.555,5.349 9.416,5.21 L5.307,1.097 C5.211,1.001 5.084,0.952 4.958,0.952 C4.835,0.952 4.715,0.997 4.622,1.09 Z" id="path-3"></path>
+        <path d="M9.24,0.291 C9.179,0.292 9.112,0.308 9.043,0.308 L6.788,0.308 L3.08,0.308 L0.823,0.308 C0.759,0.308 0.696,0.294 0.638,0.291 L0.596,0.291 C0.553,0.293 0.516,0.306 0.481,0.34 C0.437,0.384 0.401,0.381 0.376,0.442 C0.354,0.495 0.343,0.548 0.34,0.6 L0.34,0.638 C0.345,0.75 0.394,0.855 0.481,0.943 L4.592,5.039 C4.781,5.228 5.088,5.221 5.277,5.032 L9.385,0.919 C9.525,0.78 9.565,0.57 9.49,0.389 C9.477,0.357 9.461,0.359 9.442,0.36 C9.425,0.361 9.406,0.362 9.386,0.341 C9.348,0.304 9.306,0.292 9.259,0.291 L9.24,0.291 Z" id="path-5"></path>
+        <path d="M4.592,1.09 L0.481,5.186 C0.394,5.274 0.345,5.378 0.34,5.49 L0.34,5.529 C0.343,5.581 0.354,5.634 0.376,5.687 C0.401,5.746 0.437,5.745 0.481,5.789 C0.516,5.824 0.557,5.836 0.601,5.838 L0.629,5.838 C0.689,5.835 0.755,5.82 0.823,5.82 L3.08,5.82 L6.788,5.82 L9.043,5.82 C9.174,5.82 9.296,5.877 9.386,5.788 C9.406,5.768 9.425,5.769 9.441,5.77 C9.461,5.771 9.477,5.771 9.49,5.739 C9.565,5.558 9.525,5.349 9.385,5.21 L5.277,1.097 C5.18,1.001 5.053,0.952 4.927,0.952 C4.805,0.952 4.684,0.997 4.592,1.09 Z" id="path-7"></path>
+        <path d="M0.98,0.34 C0.936,0.384 0.9,0.381 0.875,0.442 C0.852,0.498 0.84,0.553 0.838,0.608 L0.838,0.631 C0.841,0.745 0.89,0.853 0.98,0.943 L5.09,5.039 C5.279,5.228 5.586,5.221 5.775,5.032 L9.884,0.919 C9.97,0.832 10.019,0.718 10.025,0.6 L10.025,0.549 C10.023,0.495 10.011,0.441 9.99,0.389 C9.976,0.357 9.96,0.359 9.941,0.36 C9.924,0.361 9.905,0.362 9.885,0.341 C9.795,0.252 9.673,0.308 9.542,0.308 L7.286,0.308 L3.578,0.308 L1.323,0.308 C1.249,0.308 1.177,0.29 1.115,0.29 C1.064,0.29 1.019,0.3 0.98,0.34 Z" id="path-9"></path>
+        <path d="M5.09,1.09 L0.98,5.186 C0.842,5.324 0.801,5.505 0.875,5.687 C0.9,5.746 0.936,5.745 0.98,5.789 C1.016,5.824 1.056,5.836 1.1,5.838 L1.127,5.838 C1.188,5.835 1.254,5.82 1.323,5.82 L3.578,5.82 L7.286,5.82 L9.542,5.82 C9.673,5.82 9.795,5.877 9.885,5.788 C9.905,5.768 9.924,5.769 9.94,5.77 C9.96,5.771 9.976,5.771 9.99,5.739 C10.011,5.688 10.023,5.633 10.025,5.579 L10.025,5.528 C10.019,5.411 9.97,5.296 9.884,5.21 L5.775,1.097 C5.678,1.001 5.552,0.952 5.426,0.952 C5.304,0.952 5.183,0.997 5.09,1.09 Z" id="path-11"></path>
+        <path d="M9.22,0.291 C9.158,0.292 9.092,0.308 9.022,0.308 L6.767,0.308 L3.059,0.308 L0.803,0.308 C0.738,0.308 0.675,0.294 0.617,0.291 L0.575,0.291 C0.533,0.293 0.494,0.306 0.461,0.34 C0.417,0.384 0.381,0.381 0.355,0.442 C0.334,0.495 0.321,0.548 0.32,0.6 L0.32,0.638 C0.325,0.75 0.374,0.855 0.461,0.943 L4.571,5.039 C4.76,5.228 5.067,5.221 5.256,5.032 L9.365,0.919 C9.504,0.78 9.544,0.57 9.47,0.389 C9.456,0.357 9.44,0.359 9.421,0.36 C9.404,0.361 9.385,0.362 9.365,0.341 C9.328,0.304 9.285,0.292 9.239,0.291 L9.22,0.291 Z" id="path-13"></path>
+        <path d="M4.571,1.09 L0.461,5.186 C0.374,5.274 0.325,5.378 0.32,5.49 L0.32,5.529 C0.321,5.581 0.334,5.634 0.355,5.687 C0.381,5.746 0.417,5.745 0.461,5.789 C0.496,5.824 0.536,5.836 0.581,5.838 L0.608,5.838 C0.669,5.835 0.734,5.82 0.803,5.82 L3.059,5.82 L6.767,5.82 L9.022,5.82 C9.154,5.82 9.275,5.877 9.365,5.788 C9.385,5.768 9.404,5.769 9.42,5.77 C9.44,5.771 9.456,5.771 9.47,5.739 C9.544,5.558 9.504,5.349 9.365,5.21 L5.256,1.097 C5.16,1.001 5.033,0.952 4.906,0.952 C4.784,0.952 4.664,0.997 4.571,1.09 Z" id="path-15"></path>
+        <circle id="path-17" cx="20" cy="20" r="20"></circle>
+        <mask id="mask-18" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="-1" y="-1" width="42" height="42">
+            <rect x="-1" y="-1" width="42" height="42" fill="white"></rect>
+            <use xlink:href="#path-17" fill="black"></use>
+        </mask>
+        <path d="M13.96,1.428 C15.178,1.106 16.373,0.957 17.517,0.957 C19.14,0.957 20.663,1.257 22.011,1.793 C21.551,3.164 20.723,4.717 19.941,5.905 C18.239,8.373 15.847,9.972 14.559,9.378 C13.271,8.83 13.592,6.362 15.248,3.895 C15.616,3.346 16.031,2.844 16.491,2.387 L16.445,2.387 C15.939,2.478 15.387,2.57 14.835,2.706 C9.13,9.607 6.739,18.609 7.06,26.651 C3.702,25.326 1.264,22.082 0.988,18.015 L0.988,17.969 C0.574,10.749 6.371,3.3 13.96,1.428 Z M15.387,5.905 C14.835,7.047 15.065,7.962 15.893,8.007 C16.721,8.007 17.825,7.093 18.331,5.951 C18.883,4.809 18.653,3.85 17.871,3.85 C17.043,3.85 15.939,4.763 15.387,5.905 Z" id="path-19"></path>
+        <path d="M8.812,0.228 C9.074,0.213 9.334,0.206 9.591,0.206 C15.57,0.206 20.236,4.238 20.59,10.327 C21.003,17.547 15.207,24.949 7.616,26.869 C5.041,27.509 2.557,27.417 0.441,26.777 C0.302,23.899 0.855,20.928 2.097,18.872 C4.121,15.49 7.156,15.765 8.905,19.512 C9.549,20.928 9.963,22.619 10.055,24.355 L10.101,24.355 C10.745,24.036 11.297,23.67 11.849,23.305 C10.009,18.781 9.181,13.435 15.713,3.93 C13.781,2.376 10.791,1.645 7.065,2.102 C7.616,1.462 8.215,0.868 8.812,0.228 Z" id="path-21"></path>
+        <path d="M2.962,2.714 C4.389,1.297 6.228,0.566 8.298,0.566 C9.863,0.566 11.013,1.023 11.749,1.891 C12.807,3.171 12.715,5.135 12.485,6.552 L11.105,13.772 L7.425,13.772 L7.747,12.128 C7.747,12.082 7.747,12.082 7.701,12.082 L7.655,12.082 C6.965,13.27 5.539,14.046 3.975,14.046 C1.398,14.046 0.249,11.807 0.249,9.522 C0.249,6.963 1.26,4.405 2.962,2.714 Z M4.204,8.745 C4.204,10.116 4.711,10.939 5.585,10.939 C6.965,10.939 8.207,9.477 8.621,7.329 C8.712,6.872 8.805,6.369 8.897,5.958 C8.943,5.547 8.989,5.135 8.989,4.862 C8.943,3.947 8.483,3.445 7.609,3.445 C7.056,3.49 6.505,3.765 5.999,4.222 C4.986,5.227 4.204,7.192 4.204,8.745 Z" id="path-23"></path>
+        <path d="M1.753,4.953 C1.799,2.394 4.1,0.566 7.504,0.566 C9.114,0.566 10.264,0.932 10.816,1.206 L10.264,4.039 C9.619,3.674 8.516,3.308 7.32,3.308 C6.307,3.308 5.664,3.719 5.664,4.405 C5.664,4.907 6.17,5.364 7.228,5.867 C8.608,6.552 10.126,7.557 10.126,9.385 C10.126,10.573 9.712,11.579 8.93,12.355 C7.872,13.406 6.17,13.956 4.146,13.956 C2.581,13.956 0.971,13.543 0.189,12.949 L0.742,10.071 C1.616,10.619 3.272,11.167 4.514,11.167 C5.479,11.167 6.124,10.711 6.124,10.025 C6.124,9.385 5.664,8.928 4.514,8.38 C2.673,7.466 1.753,6.324 1.753,4.953 Z" id="path-25"></path>
+        <path d="M0.175,8.654 C0.129,4.084 3.809,0.612 8.639,0.612 C9.606,0.612 10.617,0.795 11.308,1.068 L10.709,4.13 C10.112,3.811 9.421,3.628 8.593,3.628 C5.833,3.628 4.223,6.004 4.223,8.289 C4.223,10.208 5.512,10.939 6.754,10.939 C7.857,10.939 8.778,10.711 9.928,10.116 L9.329,13.27 C8.456,13.681 7.075,13.956 5.649,13.956 C2.337,13.956 0.175,11.899 0.175,8.654 Z" id="path-27"></path>
+        <path d="M0.649,8.654 C0.649,4.084 4.283,0.612 9.113,0.612 C10.079,0.612 11.09,0.795 11.781,1.068 L11.183,4.13 C10.585,3.811 9.895,3.628 9.066,3.628 C6.307,3.628 4.697,6.004 4.697,8.289 C4.697,10.208 5.985,10.939 7.227,10.939 C8.331,10.939 9.251,10.711 10.401,10.116 L9.803,13.27 C8.929,13.681 7.549,13.956 6.122,13.956 C2.81,13.956 0.649,11.899 0.649,8.654 Z" id="path-29"></path>
+        <path d="M5.548,3.125 C6.513,1.481 7.94,0.566 9.458,0.566 C9.688,0.566 9.964,0.566 10.194,0.612 L9.458,4.313 C9.32,4.268 9.09,4.268 8.86,4.268 C6.238,4.268 5.225,6.827 4.811,8.928 L3.892,13.864 L3.846,13.864 L0.027,13.864 L2.512,0.841 L5.87,0.841 L5.456,3.08 C5.456,3.08 5.456,3.125 5.502,3.125 L5.548,3.125 Z" id="path-31"></path>
+        <path d="M3.528,2.714 C4.954,1.297 6.794,0.566 8.864,0.566 C10.428,0.566 11.578,1.023 12.314,1.891 C13.372,3.171 13.281,5.135 13.05,6.552 L11.671,13.772 L7.944,13.772 L8.266,12.128 C8.266,12.082 8.266,12.082 8.22,12.082 L8.174,12.082 C7.485,13.27 6.058,14.046 4.54,14.046 C1.964,14.046 0.814,11.807 0.814,9.522 C0.814,6.963 1.825,4.405 3.528,2.714 Z M4.724,8.745 C4.724,10.116 5.23,10.939 6.104,10.939 C7.485,10.939 8.727,9.477 9.141,7.329 C9.232,6.872 9.324,6.369 9.416,5.958 C9.508,5.547 9.508,5.135 9.508,4.862 C9.462,3.947 9.002,3.445 8.128,3.445 C7.576,3.49 7.024,3.765 6.518,4.222 C5.506,5.227 4.724,7.192 4.724,8.745 Z" id="path-33"></path>
+        <path d="M6.968,2.577 C7.98,1.252 9.406,0.566 10.833,0.566 C13.362,0.566 15.018,2.485 15.018,5.501 C15.018,8.654 13.5,11.853 10.786,13.316 C8.302,14.64 6.094,14.046 5.358,13.041 L4.438,17.931 L0.619,17.931 L3.886,0.795 L7.244,0.795 L6.922,2.531 L6.922,2.577 L6.968,2.577 Z M6.324,7.786 C6.186,8.609 5.772,11.167 7.52,11.167 C9.545,11.167 11.016,8.334 11.016,5.775 C11.016,5.181 10.879,3.674 9.452,3.674 C8.026,3.674 6.784,5.318 6.324,7.786 Z" id="path-35"></path>
+        <polygon id="path-37" points="4.265 0.316 0.907 17.635 4.679 17.635 6.013 10.781 9.141 17.635 13.235 17.635 10.015 10.69 15.305 4.795 11.165 4.795 6.059 10.644 8.038 0.316"></polygon>
+        <path d="M2.55,3.034 C3.975,1.481 5.953,0.566 8.116,0.566 C10.83,0.566 12.624,2.12 12.624,4.451 C12.624,5.501 12.256,6.415 11.566,7.1 C10.278,8.334 7.932,8.883 4.252,8.791 L4.206,8.791 L4.206,8.837 C4.206,9.203 4.343,9.751 4.574,10.071 C5.08,10.711 5.953,11.031 7.058,11.031 C8.668,11.031 10.048,10.619 11.566,9.797 L10.968,12.949 C9.128,13.864 6.966,13.956 6.138,13.956 C2.55,13.956 0.526,11.99 0.526,8.518 C0.526,6.506 1.262,4.542 2.55,3.034 Z M4.666,5.912 L4.666,5.958 L4.711,5.958 C6.966,5.958 8.208,5.729 8.76,5.227 C8.944,5.045 9.036,4.77 9.036,4.451 C9.036,3.765 8.484,3.354 7.656,3.354 C6,3.354 4.942,4.678 4.666,5.912 Z" id="path-39"></path>
+        <path d="M0.44,2.401 C0.533,1.488 1.361,0.711 2.28,0.711 C3.2,0.711 3.89,1.442 3.799,2.401 C3.706,3.316 2.878,4.046 1.958,4.046 C1.038,4.046 0.348,3.316 0.44,2.401 Z M0.67,2.401 C0.578,3.178 1.176,3.818 1.958,3.818 C2.786,3.818 3.476,3.178 3.568,2.355 C3.66,1.579 3.062,0.939 2.28,0.939 C1.452,0.939 0.762,1.624 0.67,2.401 Z M2.189,1.396 L2.418,1.396 C2.51,1.396 2.556,1.396 2.603,1.442 C2.832,1.488 2.924,1.67 2.924,1.899 L2.924,1.99 C2.878,2.264 2.694,2.447 2.418,2.538 L2.694,3.316 L2.418,3.316 L2.143,2.584 L1.958,2.584 L1.774,2.584 L1.636,3.316 L1.406,3.316 L1.544,2.584 L1.636,1.99 L1.774,1.396 L2.189,1.396 Z M1.912,2.036 L1.866,2.401 L2.05,2.401 L2.096,2.401 L2.28,2.401 C2.326,2.401 2.372,2.401 2.418,2.355 C2.603,2.309 2.694,2.173 2.74,2.036 C2.786,1.853 2.694,1.761 2.556,1.715 C2.51,1.715 2.464,1.715 2.418,1.67 L2.143,1.67 L1.958,1.67 L1.912,2.036 Z" id="path-41"></path>
+        <circle id="path-43" cx="187.5" cy="187.5" r="187.5"></circle>
+        <filter x="-6.5%" y="-6.0%" width="113.1%" height="113.1%" filterUnits="objectBoundingBox" id="filter-45">
+            <feMorphology radius="1" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="2" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.32 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M15.29715,0.48015 C15.1965,0.4818 15.0876,0.5082 14.9721,0.5082 L11.2497,0.5082 L5.1315,0.5082 L1.41075,0.5082 C1.3035,0.5082 1.19955,0.4851 1.10385,0.48015 L1.03455,0.48015 C0.96525,0.48345 0.90255,0.5049 0.84645,0.561 C0.77385,0.6336 0.7128,0.62865 0.67155,0.7293 C0.54945,1.02795 0.6171,1.3266 0.84645,1.55595 L7.6263,8.31435 C7.93815,8.6262 8.4447,8.61465 8.75655,8.3028 L15.5364,1.51635 C15.76575,1.287 15.8334,0.9405 15.7113,0.64185 C15.6882,0.58905 15.6618,0.59235 15.63045,0.594 C15.6024,0.59565 15.57105,0.5973 15.53805,0.56265 C15.47535,0.5016 15.40605,0.4818 15.3285,0.48015 L15.29715,0.48015 Z" id="path-46"></path>
+        <path d="M7.6263,1.7985 L0.84645,8.5569 C0.6171,8.7846 0.54945,9.08325 0.67155,9.38355 C0.7128,9.4809 0.77385,9.47925 0.84645,9.55185 C0.9042,9.6096 0.9702,9.6294 1.0428,9.6327 L1.089,9.6327 C1.188,9.62775 1.2969,9.603 1.41075,9.603 L5.1315,9.603 L11.2497,9.603 L14.9721,9.603 C15.1899,9.603 15.38955,9.69705 15.53805,9.5502 C15.57105,9.5172 15.6024,9.51885 15.6288,9.5205 C15.6618,9.52215 15.6882,9.52215 15.7113,9.46935 C15.8334,9.1707 15.76575,8.82585 15.5364,8.5965 L8.75655,1.81005 C8.59815,1.65165 8.3886,1.5708 8.1807,1.5708 C7.97775,1.5708 7.77975,1.64505 7.6263,1.7985 Z" id="path-48"></path>
+        <path d="M15.246,0.48015 C15.14535,0.4818 15.0348,0.5082 14.92095,0.5082 L11.2002,0.5082 L5.082,0.5082 L1.35795,0.5082 C1.25235,0.5082 1.1484,0.4851 1.0527,0.48015 L0.9834,0.48015 C0.91245,0.48345 0.8514,0.5049 0.79365,0.561 C0.72105,0.6336 0.66165,0.62865 0.6204,0.7293 C0.5841,0.81675 0.56595,0.9042 0.561,0.99 L0.561,1.0527 C0.56925,1.2375 0.6501,1.41075 0.79365,1.55595 L7.5768,8.31435 C7.88865,8.6262 8.3952,8.61465 8.70705,8.3028 L15.48525,1.51635 C15.71625,1.287 15.78225,0.9405 15.6585,0.64185 C15.63705,0.58905 15.61065,0.59235 15.5793,0.594 C15.55125,0.59565 15.5199,0.5973 15.4869,0.56265 C15.4242,0.5016 15.3549,0.4818 15.27735,0.48015 L15.246,0.48015 Z" id="path-50"></path>
+        <path d="M7.5768,1.7985 L0.79365,8.5569 C0.6501,8.7021 0.56925,8.8737 0.561,9.0585 L0.561,9.12285 C0.56595,9.20865 0.5841,9.2961 0.6204,9.38355 C0.66165,9.4809 0.72105,9.47925 0.79365,9.55185 C0.8514,9.6096 0.91905,9.6294 0.99165,9.6327 L1.03785,9.6327 C1.13685,9.62775 1.24575,9.603 1.35795,9.603 L5.082,9.603 L11.2002,9.603 L14.92095,9.603 C15.1371,9.603 15.3384,9.69705 15.4869,9.5502 C15.5199,9.5172 15.55125,9.51885 15.57765,9.5205 C15.61065,9.52215 15.63705,9.52215 15.6585,9.46935 C15.78225,9.1707 15.71625,8.82585 15.48525,8.5965 L8.70705,1.81005 C8.547,1.65165 8.33745,1.5708 8.12955,1.5708 C7.92825,1.5708 7.7286,1.64505 7.5768,1.7985 Z" id="path-52"></path>
+        <path d="M1.617,0.561 C1.5444,0.6336 1.485,0.62865 1.44375,0.7293 C1.4058,0.8217 1.386,0.91245 1.3827,1.0032 L1.3827,1.04115 C1.38765,1.22925 1.4685,1.40745 1.617,1.55595 L8.3985,8.31435 C8.71035,8.6262 9.2169,8.61465 9.52875,8.3028 L16.3086,1.51635 C16.4505,1.3728 16.53135,1.1847 16.54125,0.99 L16.54125,0.90585 C16.53795,0.81675 16.51815,0.72765 16.4835,0.64185 C16.4604,0.58905 16.434,0.59235 16.40265,0.594 C16.3746,0.59565 16.34325,0.5973 16.31025,0.56265 C16.16175,0.4158 15.96045,0.5082 15.7443,0.5082 L12.0219,0.5082 L5.9037,0.5082 L2.18295,0.5082 C2.06085,0.5082 1.94205,0.4785 1.83975,0.4785 C1.7556,0.4785 1.68135,0.495 1.617,0.561 Z" id="path-54"></path>
+        <path d="M8.3985,1.7985 L1.617,8.5569 C1.3893,8.7846 1.32165,9.08325 1.44375,9.38355 C1.485,9.4809 1.5444,9.47925 1.617,9.55185 C1.6764,9.6096 1.7424,9.6294 1.815,9.6327 L1.85955,9.6327 C1.9602,9.62775 2.0691,9.603 2.18295,9.603 L5.9037,9.603 L12.0219,9.603 L15.7443,9.603 C15.96045,9.603 16.16175,9.69705 16.31025,9.5502 C16.34325,9.5172 16.3746,9.51885 16.401,9.5205 C16.434,9.52215 16.4604,9.52215 16.4835,9.46935 C16.51815,9.3852 16.53795,9.29445 16.54125,9.20535 L16.54125,9.1212 C16.53135,8.92815 16.4505,8.7384 16.3086,8.5965 L9.52875,1.81005 C9.3687,1.65165 9.1608,1.5708 8.9529,1.5708 C8.7516,1.5708 8.55195,1.64505 8.3985,1.7985 Z" id="path-56"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="checkbox-hero">
+            <path d="M1217,142 L223,142 L1217,142 Z" id="Rectangle-60-Copy-9" fill="#EFEFEF"></path>
+            <text id="Device(s)" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="18" fill="#333333">
+                <tspan x="330" y="354">Device(s)</tspan>
+            </text>
+            <g id="Text-Fields/Default" transform="translate(329.000000, 5.000000)">
+                <path d="M375.682974,30.77 L2.64174188,30.77 C1.36158486,30.77 0.324715596,29.874 0.324715596,28.77 L0.324715596,2.77 C0.324715596,1.666 1.36158486,0.77 2.64174188,0.77 L375.682974,0.77 C376.963131,0.77 378,1.666 378,2.77 L378,28.77 C378,29.874 376.963131,30.77 375.682974,30.77 L375.682974,30.77 Z" id="Stroke-6" stroke="#BDBDBD"></path>
+                <text id="Add-CPU-to-server-or" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#333333">
+                    <tspan x="13.8588367" y="20.2754">Add CPU to server or hypervisor</tspan>
+                </text>
+            </g>
+            <g id="Device-Picker" transform="translate(330.000000, 400.000000)">
+                <polygon id="Fill-3" fill="#FFFFFF" fill-rule="evenodd" points="1.23550053 482.494 640.573814 482.494 640.573814 -2.352 1.23550053 -2.352"></polygon>
+                <polygon id="Stroke-4" stroke="#D7D7D7" stroke-width="1.044" points="1.23550053 482.494 771.235501 482.494 771.235501 -2.352 1.23550053 -2.352"></polygon>
+                <polygon id="Fill-5" fill="#FFFFFF" fill-rule="evenodd" points="15.8472871 44.332 625.962028 44.332 625.962028 18.332 15.8472871 18.332"></polygon>
+                <polygon id="Stroke-6" stroke="#BCBCBC" stroke-width="1.017" points="15.8472871 44.332 625.962028 44.332 625.962028 18.332 15.8472871 18.332"></polygon>
+                <text id="Search-devices..." font-family="MyriadPro-Regular, Myriad Pro" font-size="14" font-weight="normal" letter-spacing="0.0839999989" fill="#BCBCBC">
+                    <tspan x="22.4183565" y="35.804">Search devices...</tspan>
+                </text>
+                <polygon id="Fill-7" fill="#E0E0E0" fill-rule="evenodd" points="1.488 101.554 771.488 101.554 771.488 74.554 1.488 74.554"></polygon>
+                <g id="Group-10" stroke-width="1" fill-rule="evenodd" transform="translate(258.000000, 89.490000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-9"></g>
+                    <polygon id="Fill-8" fill="#9C9C9C" mask="url(#mask-2)" points="-4.63 10.177 14.558 10.177 14.558 -4.71 -4.63 -4.71"></polygon>
+                </g>
+                <g id="Group-16" stroke-width="1" fill-rule="evenodd" transform="translate(258.000000, 80.490000)">
+                    <mask id="mask-4" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <g id="Clip-15"></g>
+                    <polygon id="Fill-14" fill="#9C9C9C" mask="url(#mask-4)" points="-4.63 10.839 14.558 10.839 14.558 -4.048 -4.63 -4.048"></polygon>
+                </g>
+                <g id="Group-19" stroke-width="1" fill-rule="evenodd" transform="translate(480.000000, 89.490000)">
+                    <mask id="mask-6" fill="white">
+                        <use xlink:href="#path-5"></use>
+                    </mask>
+                    <g id="Clip-18"></g>
+                    <polygon id="Fill-17" fill="#9C9C9C" mask="url(#mask-6)" points="-4.66 10.177 14.528 10.177 14.528 -4.71 -4.66 -4.71"></polygon>
+                </g>
+                <g id="Group-25" stroke-width="1" fill-rule="evenodd" transform="translate(480.000000, 80.490000)">
+                    <mask id="mask-8" fill="white">
+                        <use xlink:href="#path-7"></use>
+                    </mask>
+                    <g id="Clip-24"></g>
+                    <polygon id="Fill-23" fill="#9C9C9C" mask="url(#mask-8)" points="-4.66 10.839 14.528 10.839 14.528 -4.048 -4.66 -4.048"></polygon>
+                </g>
+                <text id="Device-ID" font-family="Roboto-Regular, Roboto" font-size="13" font-weight="normal" fill="#757575">
+                    <tspan x="48.6392" y="88.619425">D</tspan>
+                    <tspan x="57.1641023" y="88.619425" letter-spacing="-0.0884">e</tspan>
+                    <tspan x="63.8803898" y="88.619425">vice ID</tspan>
+                </text>
+                <text id="Nickname" font-family="Roboto-Regular, Roboto" font-size="13" font-weight="normal" fill="#757575">
+                    <tspan x="287.3322" y="88.619425">Nickname</tspan>
+                </text>
+                <text id="Region" font-family="Roboto-Regular, Roboto" font-size="13" font-weight="normal" fill="#757575">
+                    <tspan x="658.3782" y="88.619425">Region</tspan>
+                </text>
+                <polygon id="Fill-29" fill="#F9F9F9" fill-rule="evenodd" points="1.198 202.615 770.198 202.615 770.198 168.615 1.198 168.615"></polygon>
+                <polygon id="Stroke-30" stroke="#E8E8E8" stroke-width="1.024" points="1.198 202.615 770.198 202.615 770.198 168.615 1.198 168.615"></polygon>
+                <polygon id="Fill-31" fill="#F9F9F9" fill-rule="evenodd" points="1.198 407.365 770.198 407.365 770.198 373.365 1.198 373.365"></polygon>
+                <polygon id="Stroke-32" stroke="#E8E8E8" stroke-width="1.024" points="1.198 407.365 770.198 407.365 770.198 373.365 1.198 373.365"></polygon>
+                <polygon id="Fill-33" fill="#F9F9F9" fill-rule="evenodd" points="1.198 339.115 770.198 339.115 770.198 305.115 1.198 305.115"></polygon>
+                <polygon id="Stroke-34" stroke="#E8E8E8" stroke-width="1.024" points="1.198 339.115 770.198 339.115 770.198 305.115 1.198 305.115"></polygon>
+                <polygon id="Fill-35" fill="#F9F9F9" fill-rule="evenodd" points="1.198 270.865 770.198 270.865 770.198 236.865 1.198 236.865"></polygon>
+                <polygon id="Stroke-36" stroke="#E8E8E8" stroke-width="1.024" points="1.198 270.865 770.198 270.865 770.198 236.865 1.198 236.865"></polygon>
+                <text id="Type" font-family="Roboto-Regular, Roboto" font-size="13" font-weight="normal" letter-spacing="-0.4615" fill="#757575">
+                    <tspan x="513.2617" y="88.619425">T</tspan>
+                    <tspan x="520.100005" y="88.619425">ype</tspan>
+                </text>
+                <g id="Group-39" stroke-width="1" fill-rule="evenodd" transform="translate(628.000000, 89.490000)">
+                    <mask id="mask-10" fill="white">
+                        <use xlink:href="#path-9"></use>
+                    </mask>
+                    <g id="Clip-38"></g>
+                    <polygon id="Fill-37" fill="#9C9C9C" mask="url(#mask-10)" points="-4.162 10.177 15.026 10.177 15.026 -4.71 -4.162 -4.71"></polygon>
+                </g>
+                <g id="Group-45" stroke-width="1" fill-rule="evenodd" transform="translate(628.000000, 80.490000)">
+                    <mask id="mask-12" fill="white">
+                        <use xlink:href="#path-11"></use>
+                    </mask>
+                    <g id="Clip-44"></g>
+                    <polygon id="Fill-43" fill="#9C9C9C" mask="url(#mask-12)" points="-4.162 10.839 15.026 10.839 15.026 -4.048 -4.162 -4.048"></polygon>
+                </g>
+                <g id="Group-48" stroke-width="1" fill-rule="evenodd" transform="translate(748.000000, 89.490000)">
+                    <mask id="mask-14" fill="white">
+                        <use xlink:href="#path-13"></use>
+                    </mask>
+                    <g id="Clip-47"></g>
+                    <polygon id="Fill-46" fill="#9C9C9C" mask="url(#mask-14)" points="-4.681 10.177 14.507 10.177 14.507 -4.71 -4.681 -4.71"></polygon>
+                </g>
+                <g id="Group-54" stroke-width="1" fill-rule="evenodd" transform="translate(748.000000, 80.490000)">
+                    <mask id="mask-16" fill="white">
+                        <use xlink:href="#path-15"></use>
+                    </mask>
+                    <g id="Clip-53"></g>
+                    <polygon id="Fill-52" fill="#9C9C9C" mask="url(#mask-16)" points="-4.681 10.839 14.507 10.839 14.507 -4.048 -4.681 -4.048"></polygon>
+                </g>
+                <polygon id="Fill-55" fill="#F9F9F9" fill-rule="evenodd" points="1.549 135.365 770.549 135.365 770.549 101.365 1.549 101.365"></polygon>
+                <polygon id="Stroke-56" stroke="#E8E8E8" stroke-width="1.024" points="1.549 135.365 770.549 135.365 770.549 101.365 1.549 101.365"></polygon>
+                <path d="M37.3191,442.5445 L37.3191,78.5445" id="Stroke-57" stroke="#E6E6E6" stroke-width="1"></path>
+                <path d="M37.3191,100.5446 L37.3191,74.5546" id="Stroke-58" stroke="#D7D7D7" stroke-width="1"></path>
+                <path d="M276.8231,442.221 L276.8231,78.221" id="Stroke-59" stroke="#E6E6E6" stroke-width="1"></path>
+                <path d="M276.8231,102.8926 L276.8231,75.5496" id="Stroke-60" stroke="#D7D7D7" stroke-width="1.026"></path>
+                <path d="M501.8617,443.221 L501.8617,103.221" id="Stroke-61" stroke="#E6E6E6" stroke-width="1"></path>
+                <path d="M501.8617,102.8926 L501.8617,75.5496" id="Stroke-62" stroke="#D7D7D7" stroke-width="1"></path>
+                <path d="M648.5747,442.5445 L648.5747,78.5445" id="Stroke-63" stroke="#E6E6E6" stroke-width="1.067"></path>
+                <path d="M648.5747,100.5446 L648.5747,74.5546" id="Stroke-64" stroke="#D7D7D7" stroke-width="1"></path>
+                <path d="M0.9926,442.5752 L770.9926,442.5752" id="Stroke-65" stroke="#E8E8E8" stroke-width="1.133"></path>
+                <text id="11771.ord.vpn1.local.com" font-family="Roboto-Regular, Roboto" font-size="13" font-weight="normal" fill="#616161">
+                    <tspan x="48.6387" y="119.310325">11771.o</tspan>
+                    <tspan x="95.9731727" y="119.310325" letter-spacing="-0.1404">r</tspan>
+                    <tspan x="100.111093" y="119.310325">d.vpn1.local.com</tspan>
+                </text>
+                <text id="Nickname01" font-family="Roboto-Regular, Roboto" font-size="13" font-weight="normal" fill="#616161">
+                    <tspan x="288.6447" y="119.310325">Nickname01</tspan>
+                </text>
+                <text id="23456.dfw.vpn2.sc.corp" font-family="Roboto-Regular, Roboto" font-size="13" font-weight="normal" fill="#616161">
+                    <tspan x="48.6387" y="154.371325">23456.df</tspan>
+                    <tspan x="100.403837" y="154.371325" letter-spacing="-0.8073">w</tspan>
+                    <tspan x="108.57847" y="154.371325">.vpn2.sc.corp</tspan>
+                </text>
+                <text id="32478.ord1.dfw.vpn2.rvi" font-family="Roboto-Regular, Roboto" font-size="13" font-weight="normal" fill="#616161">
+                    <tspan x="48.6387" y="188.067325">32478.o</tspan>
+                    <tspan x="95.9731727" y="188.067325" letter-spacing="-0.1404">r</tspan>
+                    <tspan x="100.111093" y="188.067325">d1.df</tspan>
+                    <tspan x="130.008554" y="188.067325" letter-spacing="-0.7839">w</tspan>
+                    <tspan x="138.206587" y="188.067325">.vpn2.</tspan>
+                    <tspan x="173.112349" y="188.067325" letter-spacing="0.1209">r</tspan>
+                    <tspan x="177.746433" y="188.067325">vi</tspan>
+                </text>
+                <text id="43748.dfw1.ord.local.com" font-family="Roboto-Regular, Roboto" font-size="13" font-weight="normal" fill="#616161">
+                    <tspan x="48.6387" y="221.126325">43748.dfw1.o</tspan>
+                    <tspan x="128.308134" y="221.126325" letter-spacing="-0.1365">r</tspan>
+                    <tspan x="132.449954" y="221.126325">d.local.com</tspan>
+                </text>
+                <text id="5764.dfw2.ord1.local" font-family="Roboto-Regular, Roboto" font-size="13" font-weight="normal" fill="#616161">
+                    <tspan x="48.6387" y="255.316325">5764.dfw2.o</tspan>
+                    <tspan x="121.008329" y="255.316325" letter-spacing="-0.13">r</tspan>
+                    <tspan x="125.156649" y="255.316325">d1.local</tspan>
+                </text>
+                <text id="5764.dfw2.ord1.local" font-family="Roboto-Regular, Roboto" font-size="13" font-weight="normal" fill="#616161">
+                    <tspan x="48.6387" y="288.648325">5764.dfw2.o</tspan>
+                    <tspan x="121.008329" y="288.648325" letter-spacing="-0.13">r</tspan>
+                    <tspan x="125.156649" y="288.648325">d1.local</tspan>
+                </text>
+                <text id="768409.ord1.dfw.vpn2.rvi" font-family="Roboto-Regular, Roboto" font-size="13" font-weight="normal" fill="#616161">
+                    <tspan x="48.6387" y="322.682325">768409.o</tspan>
+                    <tspan x="103.272977" y="322.682325" letter-spacing="-0.1469">r</tspan>
+                    <tspan x="107.404398" y="322.682325">d1.df</tspan>
+                    <tspan x="137.301859" y="322.682325" letter-spacing="-0.7826">w</tspan>
+                    <tspan x="145.501192" y="322.682325">.vpn2.</tspan>
+                    <tspan x="180.406954" y="322.682325" letter-spacing="0.1196">r</tspan>
+                    <tspan x="185.039737" y="322.682325">vi</tspan>
+                </text>
+                <text id="98573.dfw1.ord.local.com" font-family="Roboto-Regular, Roboto" font-size="13" font-weight="normal" fill="#616161">
+                    <tspan x="48.6387" y="356.456325">98573.dfw1.o</tspan>
+                    <tspan x="128.308134" y="356.456325" letter-spacing="-0.1365">r</tspan>
+                    <tspan x="132.449954" y="356.456325">d.local.com</tspan>
+                </text>
+                <text id="57736.dfw2.ord1.local" font-family="Roboto-Regular, Roboto" font-size="13" font-weight="normal" fill="#616161">
+                    <tspan x="48.6387" y="392.115325">57736.dfw2.o</tspan>
+                    <tspan x="128.308134" y="392.115325" letter-spacing="-0.1365">r</tspan>
+                    <tspan x="132.449954" y="392.115325">d1.local</tspan>
+                </text>
+                <text id="498753.dfw2.ord1.local" font-family="Roboto-Regular, Roboto" font-size="13" font-weight="normal" fill="#616161">
+                    <tspan x="48.6387" y="424.862325">498753.dfw2.o</tspan>
+                    <tspan x="135.607938" y="424.862325" letter-spacing="-0.143">r</tspan>
+                    <tspan x="139.743259" y="424.862325">d1.local</tspan>
+                </text>
+                <text id="nickname02" font-family="Roboto-Regular, Roboto" font-size="13" font-weight="normal" fill="#616161">
+                    <tspan x="288.6447" y="154.371325">nickname02</tspan>
+                </text>
+                <text id="Server01" font-family="Roboto-Regular, Roboto" font-size="13" font-weight="normal" fill="#616161">
+                    <tspan x="288.6447" y="188.067325">Se</tspan>
+                    <tspan x="303.244309" y="188.067325" letter-spacing="0.1196">r</tspan>
+                    <tspan x="307.877093" y="188.067325" letter-spacing="-0.0767">v</tspan>
+                    <tspan x="314.014748" y="188.067325">er01</tspan>
+                </text>
+                <text id="Hypervisor01" font-family="Roboto-Regular, Roboto" font-size="13" font-weight="normal" fill="#616161">
+                    <tspan x="288.6447" y="222.127325">Hype</tspan>
+                    <tspan x="318.243821" y="222.127325" letter-spacing="0.117">r</tspan>
+                    <tspan x="322.874005" y="222.127325">visor01</tspan>
+                </text>
+                <text id="Backup-Firewall" font-family="Roboto-Regular, Roboto" font-size="13" font-weight="normal" fill="#616161">
+                    <tspan x="288.6447" y="255.316325">Backup Fi</tspan>
+                    <tspan x="345.22136" y="255.316325" letter-spacing="-0.1287">r</tspan>
+                    <tspan x="349.37098" y="255.316325">ewall</tspan>
+                </text>
+                <text id="Backup-Server" font-family="Roboto-Regular, Roboto" font-size="13" font-weight="normal" fill="#616161">
+                    <tspan x="288.6447" y="289.376325">Backup Se</tspan>
+                    <tspan x="349.480637" y="289.376325" letter-spacing="0.1157">r</tspan>
+                    <tspan x="354.109521" y="289.376325" letter-spacing="-0.078">v</tspan>
+                    <tspan x="360.245877" y="289.376325">er</tspan>
+                </text>
+                <text id="File-Server-01" font-family="Roboto-Regular, Roboto" font-size="13" font-weight="normal" fill="#616161">
+                    <tspan x="288.6447" y="322.695325">File Se</tspan>
+                    <tspan x="326.844895" y="322.695325" letter-spacing="0.0988">r</tspan>
+                    <tspan x="331.456879" y="322.695325" letter-spacing="-0.0767">v</tspan>
+                    <tspan x="337.594534" y="322.695325">er 01</tspan>
+                </text>
+                <text id="File-Server-03" font-family="Roboto-Regular, Roboto" font-size="13" font-weight="normal" fill="#616161">
+                    <tspan x="288.6447" y="358.471325">File Se</tspan>
+                    <tspan x="326.844895" y="358.471325" letter-spacing="0.0988">r</tspan>
+                    <tspan x="331.456879" y="358.471325" letter-spacing="-0.0767">v</tspan>
+                    <tspan x="337.594534" y="358.471325">er 03</tspan>
+                </text>
+                <text id="This-is-my-server01" font-family="Roboto-Regular, Roboto" font-size="13" font-weight="normal" fill="#616161">
+                    <tspan x="288.6447" y="392.128325">This is my se</tspan>
+                    <tspan x="364.067552" y="392.128325" letter-spacing="0.0767">r</tspan>
+                    <tspan x="368.657435" y="392.128325" letter-spacing="-0.0767">v</tspan>
+                    <tspan x="374.795091" y="392.128325">er01</tspan>
+                </text>
+                <text id="This-is-my-server01" font-family="Roboto-Regular, Roboto" font-size="13" font-weight="normal" fill="#616161">
+                    <tspan x="288.6447" y="424.875325">This is my se</tspan>
+                    <tspan x="364.067552" y="424.875325" letter-spacing="0.0767">r</tspan>
+                    <tspan x="368.657435" y="424.875325" letter-spacing="-0.078">v</tspan>
+                    <tspan x="374.793791" y="424.875325">er01</tspan>
+                </text>
+                <text id="Server-01" font-family="Roboto-Regular, Roboto" font-size="13" font-weight="normal" fill="#616161">
+                    <tspan x="513.2717" y="119.323325">Se</tspan>
+                    <tspan x="527.871309" y="119.323325" letter-spacing="0.1196">r</tspan>
+                    <tspan x="532.504093" y="119.323325" letter-spacing="-0.0767">v</tspan>
+                    <tspan x="538.641748" y="119.323325">er 01</tspan>
+                </text>
+                <text id="Server-Windows" font-family="Roboto-Regular, Roboto" font-size="13" font-weight="normal" fill="#616161">
+                    <tspan x="513.2717" y="154.384325">Se</tspan>
+                    <tspan x="527.871309" y="154.384325" letter-spacing="0.1196">r</tspan>
+                    <tspan x="532.504093" y="154.384325" letter-spacing="-0.078">v</tspan>
+                    <tspan x="538.640448" y="154.384325">er Windows</tspan>
+                </text>
+                <text id="HP-1162-Server" font-family="Roboto-Regular, Roboto" font-size="13" font-weight="normal" fill="#616161">
+                    <tspan x="513.2717" y="188.080325">HP 1162 Se</tspan>
+                    <tspan x="580.975802" y="188.080325" letter-spacing="0.0806">r</tspan>
+                    <tspan x="585.569585" y="188.080325" letter-spacing="-0.078">v</tspan>
+                    <tspan x="591.705941" y="188.080325">er</tspan>
+                </text>
+                <text id="HyperVisor-22" font-family="Roboto-Regular, Roboto" font-size="13" font-weight="normal" fill="#616161">
+                    <tspan x="513.2717" y="222.140325">HyperVisor 22</tspan>
+                </text>
+                <text id="Server-01" font-family="Roboto-Regular, Roboto" font-size="13" font-weight="normal" fill="#616161">
+                    <tspan x="513.2717" y="254.926325">Se</tspan>
+                    <tspan x="527.871309" y="254.926325" letter-spacing="0.1196">r</tspan>
+                    <tspan x="532.504093" y="254.926325" letter-spacing="-0.078">v</tspan>
+                    <tspan x="538.640448" y="254.926325">er 01</tspan>
+                </text>
+                <text id="Windows-Server" font-family="Roboto-Regular, Roboto" font-size="13" font-weight="normal" fill="#616161">
+                    <tspan x="513.2717" y="289.987325">Windows Se</tspan>
+                    <tspan x="584.168673" y="289.987325" letter-spacing="0.1144">r</tspan>
+                    <tspan x="588.796256" y="289.987325" letter-spacing="-0.078">v</tspan>
+                    <tspan x="594.932612" y="289.987325">er</tspan>
+                </text>
+                <text id="Server-File01" font-family="Roboto-Regular, Roboto" font-size="13" font-weight="normal" fill="#616161">
+                    <tspan x="513.2717" y="322.708325">Se</tspan>
+                    <tspan x="527.871309" y="322.708325" letter-spacing="0.1196">r</tspan>
+                    <tspan x="532.504093" y="322.708325" letter-spacing="-0.078">v</tspan>
+                    <tspan x="538.640448" y="322.708325">er File01</tspan>
+                </text>
+                <text id="Server22" font-family="Roboto-Regular, Roboto" font-size="13" font-weight="normal" fill="#616161">
+                    <tspan x="513.2717" y="357.743325">Se</tspan>
+                    <tspan x="527.871309" y="357.743325" letter-spacing="0.1196">r</tspan>
+                    <tspan x="532.504093" y="357.743325" letter-spacing="-0.078">v</tspan>
+                    <tspan x="538.640448" y="357.743325">er22</tspan>
+                </text>
+                <text id="Server-File01" font-family="Roboto-Regular, Roboto" font-size="13" font-weight="normal" fill="#616161">
+                    <tspan x="513.2717" y="392.141325">Se</tspan>
+                    <tspan x="527.871309" y="392.141325" letter-spacing="0.1196">r</tspan>
+                    <tspan x="532.504093" y="392.141325" letter-spacing="-0.0767">v</tspan>
+                    <tspan x="538.641748" y="392.141325">er File01</tspan>
+                </text>
+                <text id="Server22" font-family="Roboto-Regular, Roboto" font-size="13" font-weight="normal" fill="#616161">
+                    <tspan x="513.2717" y="424.888325">Se</tspan>
+                    <tspan x="527.871309" y="424.888325" letter-spacing="0.1196">r</tspan>
+                    <tspan x="532.504093" y="424.888325" letter-spacing="-0.078">v</tspan>
+                    <tspan x="538.640448" y="424.888325">er22</tspan>
+                </text>
+                <text id="ORD" font-family="Roboto-Regular, Roboto" font-size="13" font-weight="normal" fill="#616161">
+                    <tspan x="658.3907" y="120.298325">ORD</tspan>
+                </text>
+                <text id="DFW" font-family="Roboto-Regular, Roboto" font-size="13" font-weight="normal" fill="#616161">
+                    <tspan x="658.3907" y="155.359325">DFW</tspan>
+                </text>
+                <text id="ORD" font-family="Roboto-Regular, Roboto" font-size="13" font-weight="normal" fill="#616161">
+                    <tspan x="658.3907" y="189.055325">ORD</tspan>
+                </text>
+                <text id="DFW" font-family="Roboto-Regular, Roboto" font-size="13" font-weight="normal" fill="#616161">
+                    <tspan x="658.3907" y="223.115325">DFW</tspan>
+                </text>
+                <text id="ORD" font-family="Roboto-Regular, Roboto" font-size="13" font-weight="normal" fill="#616161">
+                    <tspan x="658.3907" y="254.900325">ORD</tspan>
+                </text>
+                <text id="ORD" font-family="Roboto-Regular, Roboto" font-size="13" font-weight="normal" fill="#616161">
+                    <tspan x="658.3907" y="290.195325">ORD</tspan>
+                </text>
+                <text id="DFW" font-family="Roboto-Regular, Roboto" font-size="13" font-weight="normal" fill="#616161">
+                    <tspan x="658.3907" y="322.721325">DFW</tspan>
+                </text>
+                <text id="ORD" font-family="Roboto-Regular, Roboto" font-size="13" font-weight="normal" fill="#616161">
+                    <tspan x="658.3907" y="358.952325">ORD</tspan>
+                </text>
+                <text id="DFW" font-family="Roboto-Regular, Roboto" font-size="13" font-weight="normal" fill="#616161">
+                    <tspan x="658.3907" y="392.154325">DFW</tspan>
+                </text>
+                <text id="ORD" font-family="Roboto-Regular, Roboto" font-size="13" font-weight="normal" fill="#616161">
+                    <tspan x="658.3907" y="424.901325">ORD</tspan>
+                </text>
+                <text id="1-10-of-32-devices" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#616161">
+                    <tspan x="15.5464" y="462.5974">1-10 of 32 d</tspan>
+                    <tspan x="79.2378063" y="462.5974" letter-spacing="-0.1188">e</tspan>
+                    <tspan x="85.4002563" y="462.5974">vices</tspan>
+                </text>
+                <path d="M455.761534,452.49 L482.885566,452.49 C484.491753,452.49 485.792784,453.836 485.792784,455.499 L485.792784,470.481 C485.792784,472.143 484.483034,473.49 482.885566,473.49 L455.761534,473.49 L455.761534,452.49 Z" id="Stroke-66" stroke="#BDBDBD" stroke-width="1"></path>
+                <polygon id="Stroke-69" stroke="#BDBDBD" stroke-width="1" points="431.786 473.49 455.786 473.49 455.786 452.49 431.786 452.49"></polygon>
+                <polygon id="Stroke-71" stroke="#BDBDBD" stroke-width="1" points="340.786 473.49 364.786 473.49 364.786 452.49 340.786 452.49"></polygon>
+                <polygon id="Stroke-73" stroke="#BDBDBD" stroke-width="1" points="364.786 473.49 431.786 473.49 431.786 452.49 364.786 452.49"></polygon>
+                <path d="M309.7861,455.4988 C309.7861,453.8368 311.1381,452.4898 312.7871,452.4898 L340.7861,452.4898 L340.7861,473.4898 L312.7871,473.4898 C311.1291,473.4898 309.7861,472.1448 309.7861,470.4808 L309.7861,455.4988 Z" id="Stroke-75" stroke="#BDBDBD" stroke-width="1"></path>
+                <text id="1-of-3" font-family="Roboto-Regular, Roboto" font-size="10" font-weight="normal" fill="#9B9B9B">
+                    <tspan x="386.0488" y="465.94115">1 of 3</tspan>
+                </text>
+                <g id="Group-111" stroke-width="1" fill-rule="evenodd" transform="translate(2.000000, 79.000000)">
+                    <path d="M440.5231,386.9593 C440.3411,387.1413 440.1021,387.2323 439.8641,387.2323 C439.6261,387.2323 439.3871,387.1413 439.2051,386.9593 C439.0231,386.7773 438.9321,386.5393 438.9321,386.3003 C438.9321,386.0623 439.0231,385.8233 439.2051,385.6413 L441.6531,383.1933 L439.2051,380.7463 C439.0231,380.5643 438.9321,380.3263 438.9321,380.0873 C438.9321,379.8493 439.0231,379.6103 439.2051,379.4283 C439.3871,379.2463 439.6251,379.1553 439.8641,379.1553 C440.1021,379.1553 440.3411,379.2463 440.5231,379.4283 L443.6301,382.5353 C443.8111,382.7163 443.9031,382.9553 443.9031,383.1933 C443.9031,383.4323 443.8121,383.6703 443.6301,383.8523 L440.5231,386.9593 Z" id="Fill-77" fill="#BBBBBB"></path>
+                    <path d="M465.9066,387.2655 L469.0136,384.1585 C469.1956,383.9765 469.2866,383.7385 469.2866,383.4995 C469.2866,383.2615 469.1946,383.0225 469.0136,382.8415 L465.9066,379.7345 C465.7246,379.5525 465.4856,379.4615 465.2476,379.4615 C465.0086,379.4615 464.7706,379.5525 464.5886,379.7345 C464.4066,379.9165 464.3156,380.1555 464.3156,380.3935 C464.3156,380.6325 464.4066,380.8705 464.5886,381.0525 L467.0366,383.4995 L464.5886,385.9475 C464.4066,386.1295 464.3156,386.3685 464.3156,386.6065 C464.3156,386.8455 464.4066,387.0835 464.5886,387.2655 C464.7706,387.4475 465.0096,387.5385 465.2476,387.5385 C465.4856,387.5385 465.7246,387.4475 465.9066,387.2655 M470.2186,387.5385 C469.9796,387.5385 469.7406,387.4475 469.5586,387.2655 C469.3776,387.0835 469.2866,386.8455 469.2866,386.6065 C469.2866,386.3685 469.3766,386.1295 469.5586,385.9475 L472.0066,383.4995 L469.5586,381.0525 C469.3776,380.8705 469.2866,380.6325 469.2866,380.3935 C469.2866,380.1555 469.3766,379.9165 469.5586,379.7345 C469.7406,379.5525 469.9796,379.4615 470.2176,379.4615 C470.4566,379.4615 470.6946,379.5525 470.8766,379.7345 L473.9836,382.8415 C474.1656,383.0225 474.2566,383.2615 474.2566,383.4995 C474.2566,383.7385 474.1656,383.9765 473.9836,384.1585 L470.8766,387.2655 C470.6956,387.4475 470.4566,387.5385 470.2186,387.5385" id="Fill-79" fill="#BBBBBB"></path>
+                    <path d="M350.6656,379.7345 L347.5586,382.8415 C347.3766,383.0235 347.2856,383.2615 347.2856,383.5005 C347.2856,383.7385 347.3776,383.9775 347.5586,384.1585 L350.6656,387.2655 C350.8476,387.4475 351.0866,387.5385 351.3246,387.5385 C351.5636,387.5385 351.8016,387.4475 351.9836,387.2655 C352.1656,387.0835 352.2566,386.8445 352.2566,386.6065 C352.2566,386.3675 352.1656,386.1295 351.9836,385.9475 L349.5356,383.5005 L351.9836,381.0525 C352.1656,380.8705 352.2566,380.6315 352.2566,380.3935 C352.2566,380.1545 352.1656,379.9165 351.9836,379.7345 C351.8016,379.5525 351.5626,379.4615 351.3246,379.4615 C351.0866,379.4615 350.8476,379.5525 350.6656,379.7345" id="Fill-81" fill="#BBBBBB"></path>
+                    <path d="M327.282,379.4283 L324.176,382.5353 C323.993,382.7173 323.902,382.9553 323.903,383.1943 C323.903,383.4323 323.994,383.6713 324.176,383.8523 L327.282,386.9593 C327.464,387.1413 327.703,387.2323 327.941,387.2323 C328.18,387.2323 328.418,387.1413 328.6,386.9593 C328.782,386.7773 328.873,386.5383 328.873,386.3003 C328.873,386.0613 328.782,385.8233 328.6,385.6413 L326.152,383.1943 L328.6,380.7463 C328.782,380.5643 328.873,380.3253 328.873,380.0873 C328.873,379.8483 328.782,379.6103 328.6,379.4283 C328.418,379.2463 328.18,379.1553 327.941,379.1553 C327.703,379.1553 327.464,379.2463 327.282,379.4283 M322.971,379.1553 C323.209,379.1553 323.448,379.2463 323.63,379.4283 C323.812,379.6103 323.902,379.8483 323.903,380.0873 C323.903,380.3253 323.812,380.5643 323.63,380.7463 L321.182,383.1943 L323.63,385.6413 C323.812,385.8233 323.902,386.0613 323.903,386.3003 C323.903,386.5383 323.812,386.7773 323.63,386.9593 C323.448,387.1413 323.209,387.2323 322.971,387.2323 C322.732,387.2323 322.494,387.1413 322.312,386.9593 L319.205,383.8523 C319.023,383.6713 318.932,383.4323 318.932,383.1943 C318.932,382.9553 319.023,382.7173 319.205,382.5353 L322.312,379.4283 C322.494,379.2463 322.732,379.1553 322.971,379.1553" id="Fill-83" fill="#BBBBBB"></path>
+                    <polygon id="Fill-85" fill="#FFFFFF" points="8.326 16.813 24.326 16.813 24.326 0.813 8.326 0.813"></polygon>
+                    <polygon id="Stroke-87" stroke="#BCBCBC" points="8.326 16.813 24.326 16.813 24.326 0.813 8.326 0.813"></polygon>
+                    <polygon id="Fill-88" fill="#FFFFFF" points="8.326 45.813 24.326 45.813 24.326 29.813 8.326 29.813"></polygon>
+                    <polygon id="Stroke-89" stroke="#BCBCBC" points="8.326 45.813 24.326 45.813 24.326 29.813 8.326 29.813"></polygon>
+                    <polygon id="Fill-90" fill="#FFFFFF" points="8.326 80.813 24.326 80.813 24.326 64.813 8.326 64.813"></polygon>
+                    <polygon id="Stroke-91" stroke="#BCBCBC" points="8.326 80.813 24.326 80.813 24.326 64.813 8.326 64.813"></polygon>
+                    <polygon id="Fill-92" fill="#FFFFFF" points="8.326 113.813 24.326 113.813 24.326 97.813 8.326 97.813"></polygon>
+                    <polygon id="Stroke-93" stroke="#BCBCBC" points="8.326 113.813 24.326 113.813 24.326 97.813 8.326 97.813"></polygon>
+                    <polygon id="Fill-94" fill="#FFFFFF" points="8.326 148.813 24.326 148.813 24.326 132.813 8.326 132.813"></polygon>
+                    <polygon id="Stroke-95" stroke="#BCBCBC" points="8.326 148.813 24.326 148.813 24.326 132.813 8.326 132.813"></polygon>
+                    <polygon id="Fill-96" fill="#FFFFFF" points="8.326 180.813 24.326 180.813 24.326 164.813 8.326 164.813"></polygon>
+                    <polygon id="Stroke-97" stroke="#BCBCBC" points="8.326 180.813 24.326 180.813 24.326 164.813 8.326 164.813"></polygon>
+                    <polygon id="Fill-98" fill="#FFFFFF" points="8.326 215.813 24.326 215.813 24.326 199.813 8.326 199.813"></polygon>
+                    <polygon id="Stroke-99" stroke="#BCBCBC" points="8.326 215.813 24.326 215.813 24.326 199.813 8.326 199.813"></polygon>
+                    <polygon id="Fill-100" fill="#FFFFFF" points="8.326 249.813 24.326 249.813 24.326 233.813 8.326 233.813"></polygon>
+                    <polygon id="Stroke-101" stroke="#BCBCBC" points="8.326 249.813 24.326 249.813 24.326 233.813 8.326 233.813"></polygon>
+                    <polygon id="Fill-102" fill="#FFFFFF" points="8.326 284.813 24.326 284.813 24.326 268.813 8.326 268.813"></polygon>
+                    <polygon id="Stroke-103" stroke="#BCBCBC" points="8.326 284.813 24.326 284.813 24.326 268.813 8.326 268.813"></polygon>
+                    <polygon id="Fill-104" fill="#FFFFFF" points="8.326 318.813 24.326 318.813 24.326 302.813 8.326 302.813"></polygon>
+                    <polygon id="Stroke-105" stroke="#BCBCBC" points="8.326 318.813 24.326 318.813 24.326 302.813 8.326 302.813"></polygon>
+                    <polygon id="Fill-106" fill="#FFFFFF" points="8.326 352.813 24.326 352.813 24.326 336.813 8.326 336.813"></polygon>
+                    <polygon id="Stroke-107" stroke="#BCBCBC" points="8.326 352.813 24.326 352.813 24.326 336.813 8.326 336.813"></polygon>
+                    <polygon id="Stroke-109" stroke="#D7D7D7" stroke-width="1.037" points="0.086 451.892686 770.086 451.892686 770.086 425.791314 0.086 425.791314"></polygon>
+                </g>
+                <polygon id="Fill-110" fill="#BDBDBD" fill-rule="evenodd" points="1.375 530.342 32.368 530.342 32.368 505.342 1.375 505.342"></polygon>
+                <text id="Current-Selection-|-0-Selected" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#616161">
+                    <tspan x="39.7803" y="521.4959">Cur</tspan>
+                    <tspan x="64.4287375" y="521.4959" letter-spacing="-0.1344">r</tspan>
+                    <tspan x="69.5599625" y="521.4959">ent Selection | 0 Selected</tspan>
+                </text>
+                <path d="M13.0299884,514.734597 L16.198725,517.903334 C16.3843329,518.088942 16.6282365,518.182081 16.8714701,518.182081 C17.1147036,518.182081 17.3579371,518.088942 17.5435451,517.903334 L20.7122817,514.734597 C20.8978896,514.548989 20.9903586,514.305085 20.9903586,514.061852 C20.9903586,513.818618 20.8978896,513.575385 20.7122817,513.389777 C20.5266737,513.204169 20.2834402,513.1117 20.0395366,513.1117 C19.7963031,513.1117 19.5530695,513.204839 19.3674616,513.389777 L16.8708,515.887109 L14.3741384,513.389777 C14.1885305,513.204169 13.9452969,513.1117 13.7020634,513.1117 C13.4588299,513.1117 13.2155963,513.204839 13.0299884,513.389777 C12.8443804,513.576055 12.7512414,513.819288 12.7512414,514.062522 C12.7512414,514.305756 12.8443804,514.548989 13.0299884,514.734597 M12.7512414,519.132233 C12.7512414,518.888999 12.8443804,518.645765 13.0299884,518.460157 C13.2155963,518.27455 13.4588299,518.182081 13.7020634,518.182081 C13.9452969,518.182081 14.1885305,518.27455 14.3741384,518.460157 L16.8708,520.956819 L19.3674616,518.460157 C19.5530695,518.27455 19.7963031,518.182081 20.0395366,518.182081 C20.2834402,518.182081 20.5266737,518.27455 20.7122817,518.460157 C20.8978896,518.645765 20.9903586,518.888999 20.9903586,519.132233 C20.9903586,519.375466 20.8978896,519.6187 20.7122817,519.804978 L17.5435451,522.973714 C17.3579371,523.159322 17.1147036,523.251791 16.8714701,523.251791 C16.6282365,523.252461 16.3843329,523.159322 16.198725,522.973714 L13.0299884,519.804978 C12.8443804,519.61937 12.7512414,519.376136 12.7512414,519.132233" id="Fill-112" fill="#FFFFFF" fill-rule="evenodd"></path>
+                <text id="Show-10" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#BDBDBD">
+                    <tspan x="664" y="465.75072">Show 10</tspan>
+                </text>
+                <text id="|--" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal">
+                    <tspan x="714" y="464.75072" fill="#2275D6">|</tspan>
+                    <tspan x="716.923828" y="464.75072" fill="#000000">  </tspan>
+                </text>
+                <text id="|---copy" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal">
+                    <tspan x="737" y="464.75072" fill="#2275D6">|</tspan>
+                    <tspan x="739.923828" y="464.75072" fill="#000000">  </tspan>
+                </text>
+                <text id="25" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#2275D6">
+                    <tspan x="720" y="465.75072">25</tspan>
+                </text>
+                <text id="50" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#2275D6">
+                    <tspan x="744" y="465.75072">50</tspan>
+                </text>
+            </g>
+            <text id="Severity" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="18" fill="#333333">
+                <tspan x="330" y="91">Severity</tspan>
+            </text>
+            <g id="Dropdowns/Default" transform="translate(330.000000, 110.000000)">
+                <path d="M324.8395,30.77 L2.8395,30.77 C1.7345,30.77 0.8395,29.874 0.8395,28.77 L0.8395,2.77 C0.8395,1.666 1.7345,0.77 2.8395,0.77 L324.8395,0.77 C325.9445,0.77 326.8395,1.666 326.8395,2.77 L326.8395,28.77 C326.8395,29.874 325.9445,30.77 324.8395,30.77" id="Fill-61" fill="#FFFFFF" fill-rule="evenodd"></path>
+                <path d="M324.8395,30.77 L2.8395,30.77 C1.7345,30.77 0.8395,29.874 0.8395,28.77 L0.8395,2.77 C0.8395,1.666 1.7345,0.77 2.8395,0.77 L324.8395,0.77 C325.9445,0.77 326.8395,1.666 326.8395,2.77 L326.8395,28.77 C326.8395,29.874 325.9445,30.77 324.8395,30.77 L324.8395,30.77 Z" id="Stroke-63" stroke="#BCBCBC" stroke-width="1"></path>
+                <text id="Make-a-selection" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#616161">
+                    <tspan x="12.2681" y="20.1308">Low</tspan>
+                </text>
+                <g id="Icons/Arrow-Down" transform="translate(306.000000, 12.500000)" stroke-width="1" fill-rule="evenodd" fill="#757575">
+                    <g id="arrow-down">
+                        <g id="Layer_1" fill-rule="nonzero">
+                            <path d="M5,6.49090909 C4.6875,6.49090909 4.4375,6.36363636 4.25,6.17272727 L0,1.52727273 L1.5625,0 L5,3.81818182 L8.4375,0 L10,1.52727273 L5.75,6.17272727 C5.5625,6.36363636 5.3125,6.49090909 5,6.49090909 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <text id="Recipients" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="18" fill="#333333">
+                <tspan x="330" y="237">Recipients</tspan>
+            </text>
+            <text id="The-standard-severit" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" line-spacing="20" letter-spacing="0.05" fill="#666666">
+                <tspan x="331" y="160">The standard severity service level applies to general questions and non-</tspan>
+                <tspan x="331" y="180">critical issues. We will respond within 24hrs.  </tspan>
+            </text>
+            <g id="Group-8-Copy" transform="translate(428.000000, 253.000000)">
+                <use id="Oval-Copy-3" stroke="#0E94A6" mask="url(#mask-18)" stroke-width="2" stroke-dasharray="4,4" xlink:href="#path-17"></use>
+                <g id="Group-7" transform="translate(12.000000, 12.000000)">
+                    <rect id="Rectangle-35" fill="#0E94A6" x="7" y="0" width="2" height="16"></rect>
+                    <rect id="Rectangle-36" fill="#0094A7" x="0" y="7" width="16" height="2"></rect>
+                </g>
+            </g>
+            <circle id="Oval-Copy-20" fill="#9E9E9E" cx="350" cy="272" r="20"></circle>
+            <text id="RT" font-family="Roboto-Light, Roboto" font-size="20" font-weight="300" line-spacing="18" fill="#FFFFFF">
+                <tspan x="339" y="284">RT</tspan>
+            </text>
+            <circle id="Oval-Copy-21" fill="#9E9E9E" cx="396" cy="272" r="20"></circle>
+            <text id="CH" font-family="Roboto-Light, Roboto" font-size="20" font-weight="300" line-spacing="18" fill="#FFFFFF">
+                <tspan x="383" y="284">CH</tspan>
+            </text>
+            <g id="navigation/default-platform" transform="translate(-1.000000, 0.000000)">
+                <g id="Page-1">
+                    <polygon id="Fill-1" fill="#000000" points="0.85 56 1441 56 1441 0 0.85 0"></polygon>
+                    <polygon id="Mobile-wayfinding--" fill="#CF3628" points="1034 52 1094 52 1094 56 1083.56701 56 1034 56"></polygon>
+                    <text id="DHASSELHOFF" font-family="Roboto-Medium, Roboto" font-size="16" font-weight="400" fill="#FFFFFF">
+                        <tspan x="1309" y="32">DHASSELHOFF</tspan>
+                    </text>
+                    <polygon id="Fill-3" fill="#616161" points="1288 48.001 1289 48.001 1289 8 1288 8"></polygon>
+                    <polygon id="Fill-5" fill="#000000" points="369.85 56 549.85 56 549.85 0 369.85 0"></polygon>
+                    <g id="Icons-/-Rackspace-Logo-/-Icon-and-word" transform="translate(32.000000, 12.000000)">
+                        <g id="Rackspace-Logo">
+                            <g id="Icons-/-Rackspace-Logo-/-Icon-only">
+                                <g id="Group-8" transform="translate(0.000000, 2.000000)">
+                                    <mask id="mask-20" fill="white">
+                                        <use xlink:href="#path-19"></use>
+                                    </mask>
+                                    <g id="Clip-7"></g>
+                                    <polygon id="Fill-6" fill="#FFFFFF" mask="url(#mask-20)" points="-4.033 31.651 27.011 31.651 27.011 -4.043 -4.033 -4.043"></polygon>
+                                </g>
+                                <g id="Group-11" transform="translate(8.000000, 0.000000)">
+                                    <mask id="mask-22" fill="white">
+                                        <use xlink:href="#path-21"></use>
+                                    </mask>
+                                    <g id="Clip-10"></g>
+                                    <polygon id="Fill-9" fill="#FFFFFF" mask="url(#mask-22)" points="-4.58 32.305 25.61 32.305 25.61 -4.794 -4.58 -4.794"></polygon>
+                                </g>
+                            </g>
+                            <g id="Group-14" transform="translate(99.000000, 12.000000)">
+                                <mask id="mask-24" fill="white">
+                                    <use xlink:href="#path-23"></use>
+                                </mask>
+                                <g id="Clip-13"></g>
+                                <polygon id="Fill-12" fill="#FFFFFF" mask="url(#mask-24)" points="-4.751 19.046 17.633 19.046 17.633 -4.434 -4.751 -4.434"></polygon>
+                            </g>
+                            <g id="Group-17" transform="translate(75.000000, 12.000000)">
+                                <mask id="mask-26" fill="white">
+                                    <use xlink:href="#path-25"></use>
+                                </mask>
+                                <g id="Clip-16"></g>
+                                <polygon id="Fill-15" fill="#FFFFFF" mask="url(#mask-26)" points="-4.811 18.955 15.815 18.955 15.815 -4.434 -4.811 -4.434"></polygon>
+                            </g>
+                            <g id="Group-20" transform="translate(112.000000, 12.000000)">
+                                <mask id="mask-28" fill="white">
+                                    <use xlink:href="#path-27"></use>
+                                </mask>
+                                <g id="Clip-19"></g>
+                                <polygon id="Fill-18" fill="#FFFFFF" mask="url(#mask-28)" points="-4.825 18.955 16.308 18.955 16.308 -4.388 -4.825 -4.388"></polygon>
+                            </g>
+                            <g id="Group-23" transform="translate(52.000000, 12.000000)">
+                                <mask id="mask-30" fill="white">
+                                    <use xlink:href="#path-29"></use>
+                                </mask>
+                                <g id="Clip-22"></g>
+                                <polygon id="Fill-21" fill="#FFFFFF" mask="url(#mask-30)" points="-4.351 18.955 16.781 18.955 16.781 -4.388 -4.351 -4.388"></polygon>
+                            </g>
+                            <g id="Group-26" transform="translate(31.000000, 12.000000)">
+                                <mask id="mask-32" fill="white">
+                                    <use xlink:href="#path-31"></use>
+                                </mask>
+                                <g id="Clip-25"></g>
+                                <polygon id="Fill-24" fill="#FFFFFF" mask="url(#mask-32)" points="-4.973 18.864 15.194 18.864 15.194 -4.433 -4.973 -4.433"></polygon>
+                            </g>
+                            <g id="Group-29" transform="translate(39.000000, 12.000000)">
+                                <mask id="mask-34" fill="white">
+                                    <use xlink:href="#path-33"></use>
+                                </mask>
+                                <g id="Clip-28"></g>
+                                <polygon id="Fill-27" fill="#FFFFFF" mask="url(#mask-34)" points="-4.186 19.046 18.198 19.046 18.198 -4.434 -4.186 -4.434"></polygon>
+                            </g>
+                            <g id="Group-32" transform="translate(84.000000, 12.000000)">
+                                <mask id="mask-36" fill="white">
+                                    <use xlink:href="#path-35"></use>
+                                </mask>
+                                <g id="Clip-31"></g>
+                                <polygon id="Fill-30" fill="#FFFFFF" mask="url(#mask-36)" points="-4.38 22.93 20.019 22.93 20.019 -4.434 -4.38 -4.434"></polygon>
+                            </g>
+                            <g id="Group-35" transform="translate(62.000000, 8.000000)">
+                                <mask id="mask-38" fill="white">
+                                    <use xlink:href="#path-37"></use>
+                                </mask>
+                                <g id="Clip-34"></g>
+                                <polygon id="Fill-33" fill="#FFFFFF" mask="url(#mask-38)" points="-4.093 22.635 20.306 22.635 20.306 -4.683 -4.093 -4.683"></polygon>
+                            </g>
+                            <g id="Group-38" transform="translate(122.000000, 12.000000)">
+                                <mask id="mask-40" fill="white">
+                                    <use xlink:href="#path-39"></use>
+                                </mask>
+                                <g id="Clip-37"></g>
+                                <polygon id="Fill-36" fill="#FFFFFF" mask="url(#mask-40)" points="-4.474 18.955 17.625 18.955 17.625 -4.434 -4.474 -4.434"></polygon>
+                            </g>
+                            <g id="Group-41" transform="translate(134.000000, 22.000000)">
+                                <mask id="mask-42" fill="white">
+                                    <use xlink:href="#path-41"></use>
+                                </mask>
+                                <g id="Clip-40"></g>
+                                <polygon id="Fill-39" fill="#FFFFFF" mask="url(#mask-42)" points="-4.568 9.046 8.807 9.046 8.807 -4.29 -4.568 -4.29"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Notifications" transform="translate(949.000000, 13.000000)">
+                        <text id="NOTIFICATIONS" font-family="Roboto-Medium, Roboto" font-size="10" font-weight="400" fill="#AEAEAE">
+                            <tspan x="0.4202" y="26.8115234">NOTIFICATIONS</tspan>
+                        </text>
+                        <path d="M36.379,0.387 C36.571,0.195 36.804,0.099 37.08,0.099 C37.354,0.099 37.587,0.195 37.78,0.387 C37.972,0.58 38.069,0.813 38.069,1.087 C38.069,1.225 38.041,1.359 37.986,1.49 C39.291,1.682 40.345,2.226 41.149,3.122 C41.952,4.019 42.354,4.989 42.354,6.033 C42.354,6.988 42.421,7.881 42.555,8.711 C42.688,9.542 42.86,10.25 43.07,10.834 C43.28,11.418 43.535,11.962 43.838,12.467 C44.14,12.971 44.432,13.382 44.714,13.697 C44.995,14.013 45.307,14.316 45.65,14.605 C45.65,14.961 45.521,15.271 45.26,15.532 C44.999,15.793 44.689,15.923 44.332,15.923 L39.717,15.923 C39.717,16.651 39.459,17.273 38.945,17.788 C38.429,18.303 37.808,18.56 37.08,18.56 C36.352,18.56 35.73,18.303 35.215,17.788 C34.699,17.273 34.442,16.651 34.442,15.923 L29.827,15.923 C29.469,15.923 29.161,15.793 28.9,15.532 C28.639,15.271 28.508,14.961 28.508,14.605 C28.851,14.316 29.163,14.013 29.445,13.697 C29.727,13.382 30.019,12.971 30.321,12.467 C30.623,11.962 30.88,11.418 31.088,10.834 C31.298,10.25 31.47,9.542 31.604,8.711 C31.737,7.881 31.805,6.988 31.805,6.033 C31.805,4.989 32.206,4.019 33.01,3.122 C33.814,2.226 34.867,1.682 36.172,1.49 C36.118,1.359 36.091,1.225 36.091,1.087 C36.091,0.813 36.186,0.58 36.379,0.387 Z" id="Clip-44" fill="#D8D8D8"></path>
+                    </g>
+                    <g id="Support" transform="translate(1106.000000, 10.000000)">
+                        <text id="SUPPORT" font-family="Roboto-Medium, Roboto" font-size="10" font-weight="400" fill="#AEAEAE">
+                            <tspan x="0.6963" y="29.8115234">SUPPORT</tspan>
+                        </text>
+                        <path d="M22.4564,11.1892 C23.0694,11.1712 23.4754,11.3192 23.7084,11.6682 C24.2004,12.4042 23.6564,13.2922 23.0084,13.4722 C22.1874,13.7012 21.3174,12.8752 21.6094,11.9992 C21.7694,11.5202 22.0974,11.4622 22.4564,11.1892 M16.6004,11.1892 C17.2134,11.1712 17.6194,11.3192 17.8524,11.6682 C18.3474,12.4082 17.8024,13.2912 17.1524,13.4722 C16.3324,13.7012 15.4624,12.8702 15.7534,11.9992 C15.9134,11.5202 16.2414,11.4622 16.6004,11.1892 M14.5384,10.7472 C15.7284,9.8992 16.5764,8.5892 16.6374,6.6222 L16.7104,6.6222 C17.3304,7.8462 18.5694,8.7332 19.8784,9.2742 C20.6624,9.5982 22.3654,9.8582 22.8244,10.4162 L22.8614,10.4162 C22.8064,10.0062 22.5534,9.4732 22.2724,9.2742 L22.2724,9.2372 C23.4634,9.2672 25.1724,9.7892 25.9554,10.2682 C26.2364,10.4402 26.4904,10.6852 26.7654,10.8572 C27.0664,15.3842 25.5324,17.9922 22.8614,19.7712 C21.8944,20.4142 20.3224,21.2632 18.6634,20.7282 C17.7844,20.4452 16.9914,20.0042 16.3054,19.5132 C16.0934,19.3612 15.9224,19.1152 15.7164,18.9602 C15.5034,18.7992 15.2494,18.6182 15.0904,18.4082 C14.8464,18.0852 14.6054,17.6962 14.3164,17.4132 L14.3164,17.3762 C14.9034,17.5392 15.5114,17.8002 16.1584,17.9662 L17.6314,18.1502 C17.8954,18.1812 18.2194,18.6782 18.5154,18.8132 C19.6564,19.3342 21.2564,18.8762 21.5354,17.8552 C21.6624,17.3922 21.3504,17.0442 21.1674,16.8612 C20.4634,16.1562 19.1354,16.0792 18.2574,16.6772 C18.0974,16.7852 17.9204,16.8842 17.8524,17.0822 C16.2124,17.0722 14.8764,16.5642 13.9114,15.8662 C13.6724,15.6932 13.3534,15.5012 13.2124,15.2402 L13.1014,14.7252 C12.8194,13.8382 12.7214,12.6412 12.8064,11.4842 C13.5274,11.4382 14.0824,11.0712 14.5384,10.7472 M15.2004,2.1662 C16.0144,1.8132 16.9244,1.6872 17.8894,1.4662 C18.1224,1.4532 18.3554,1.4412 18.5894,1.4292 C19.5244,1.2252 21.1334,1.3452 21.9774,1.5392 C22.2474,1.5762 22.5174,1.6132 22.7884,1.6502 C23.5004,1.8462 24.1844,2.0622 24.8134,2.3502 C27.2394,3.4592 28.7904,6.1692 28.8284,9.6792 L28.0544,9.6792 C27.6654,6.5022 26.0254,4.1322 23.5244,3.0492 C22.9084,2.7832 22.2054,2.6622 21.4984,2.4972 C20.3994,2.2402 18.4694,2.3952 17.5214,2.6442 C16.8034,2.8332 16.1974,2.9652 15.6054,3.2702 C13.4864,4.3642 11.8514,6.7792 11.5544,9.6792 L10.7814,9.6792 C10.8944,5.8432 12.4464,3.3572 15.2004,2.1662 M18.8104,0.1772 C26.0404,0.0662 29.8314,3.0572 30.0434,9.9372 C31.1074,10.5542 31.0744,11.4102 31.0744,13.0672 C31.0744,13.6642 31.1074,14.2742 30.9274,14.6882 C30.4094,15.8842 29.3324,15.9182 27.6124,15.9032 C27.4214,16.6882 26.9454,17.4012 26.5444,18.0032 C25.4124,19.7032 24.0514,20.9562 22.0514,21.7962 C21.1564,22.1722 19.7774,22.4962 18.5894,22.1652 C17.3584,21.8212 16.3304,21.2842 15.4214,20.6182 C14.4154,19.8802 13.5114,18.8182 12.8434,17.7452 C12.6104,17.3712 12.3914,16.9282 12.2174,16.5292 C12.1434,16.3212 12.0704,16.1122 11.9964,15.9032 L10.4124,15.9032 C10.2664,15.8142 10.0294,15.8552 9.8604,15.7932 C9.5324,15.6722 9.1314,15.3952 8.9394,15.1302 C8.4864,14.5042 8.5344,13.5122 8.5344,12.4042 C8.5344,11.9492 8.4904,11.4352 8.6084,11.0782 C8.7274,10.7162 8.9824,10.3962 9.2344,10.1582 C9.3444,10.0842 9.4554,10.0102 9.5654,9.9372 L9.5654,9.6792 C9.6144,9.0902 9.6644,8.5002 9.7134,7.9112 C9.9774,6.8112 10.1534,5.6792 10.6704,4.8172 C11.8284,2.8862 13.3204,1.4942 15.6424,0.7292 C16.2824,0.5182 16.9774,0.4462 17.6684,0.2872 C17.9604,0.2202 18.5984,0.3102 18.8104,0.1772" id="Fill-46" fill="#D8D8D8"></path>
+                    </g>
+                    <g id="Billing" transform="translate(1173.000000, 12.000000)">
+                        <text id="BILLING" font-family="Roboto-Medium, Roboto" font-size="10" font-weight="400" fill="#AEAEAE">
+                            <tspan x="0.0098" y="27.8115234">BILLING</tspan>
+                        </text>
+                        <path d="M18.974,7.588 L21.402,7.588 L21.402,6.374 L18.974,6.374 L18.974,7.588 Z M18.974,11.231 L21.402,11.231 L21.402,10.017 L18.974,10.017 L18.974,11.231 Z M12.902,14.874 L21.402,14.874 L21.402,13.66 L12.902,13.66 L12.902,14.874 Z M15.232,8.517 C15.096,8.4 14.861,8.265 14.527,8.109 C14.231,7.974 13.98,7.84 13.774,7.707 C13.568,7.575 13.399,7.433 13.268,7.281 C13.135,7.129 13.04,6.961 12.983,6.777 C12.925,6.593 12.895,6.382 12.895,6.143 C12.895,5.91 12.93,5.701 12.997,5.518 C13.065,5.333 13.156,5.172 13.273,5.033 C13.388,4.894 13.523,4.778 13.678,4.684 C13.832,4.59 13.999,4.518 14.18,4.466 L14.18,3.187 L15.56,3.187 L15.56,4.389 C15.785,4.421 15.99,4.466 16.178,4.524 C16.364,4.582 16.535,4.65 16.689,4.728 L16.4,5.891 C16.232,5.806 16.039,5.732 15.821,5.668 C15.601,5.603 15.376,5.57 15.145,5.57 C14.92,5.57 14.739,5.613 14.604,5.697 C14.469,5.781 14.401,5.91 14.401,6.084 C14.401,6.175 14.418,6.25 14.45,6.312 C14.482,6.373 14.535,6.433 14.609,6.491 C14.682,6.549 14.776,6.607 14.889,6.666 C15.001,6.724 15.135,6.792 15.29,6.869 C15.457,6.953 15.637,7.049 15.83,7.155 C16.024,7.261 16.202,7.389 16.366,7.538 C16.53,7.687 16.666,7.863 16.776,8.066 C16.886,8.269 16.94,8.507 16.94,8.778 C16.94,9.25 16.809,9.655 16.544,9.994 C16.281,10.333 15.926,10.567 15.483,10.697 L15.483,11.966 L14.103,11.966 L14.103,10.774 C13.864,10.742 13.638,10.697 13.422,10.639 C13.206,10.581 13.008,10.509 12.828,10.426 L13.098,9.272 C13.349,9.382 13.595,9.461 13.837,9.51 C14.078,9.558 14.33,9.583 14.595,9.583 C14.807,9.583 15,9.536 15.173,9.442 C15.348,9.348 15.434,9.192 15.434,8.972 C15.434,8.785 15.367,8.633 15.232,8.517 L15.232,8.517 Z M20.34,0.302 L10.474,0.302 C9.806,0.302 9.26,0.849 9.26,1.517 L9.26,16.088 C9.26,16.756 9.806,17.302 10.474,17.302 L23.831,17.302 C24.499,17.302 25.045,16.756 25.045,16.088 L25.045,4.856 L20.34,0.302 Z" id="Fill-54" fill="#CCCCCC"></path>
+                    </g>
+                    <g id="Tickets" transform="translate(1043.000000, 14.000000)">
+                        <text id="TICKETS" font-family="Roboto-Medium, Roboto" font-size="10" font-weight="400" fill="#AEAEAE">
+                            <tspan x="0.5986" y="25.8115234">TICKETS</tspan>
+                        </text>
+                        <path d="M23.713,4.091 L27.804,4.091 L27.804,2.727 L23.713,2.727 L23.713,4.091 Z M23.713,8.182 L27.804,8.182 L27.804,6.818 L23.713,6.818 L23.713,8.182 Z M23.713,12.273 L27.804,12.273 L27.804,10.909 L23.713,10.909 L23.713,12.273 Z M16.396,11.408 L16.222,11.308 L15.915,11.84 L12.588,9.92 L13.486,8.365 L15.589,9.579 L19.373,3.026 L20.77,3.833 L16.396,11.408 Z M29.168,0 L11.441,0 C10.691,0 10.077,0.614 10.077,1.364 L10.077,13.636 C10.077,14.386 10.691,15 11.441,15 L29.168,15 C29.918,15 30.532,14.386 30.532,13.636 L30.532,1.364 C30.532,0.614 29.918,0 29.168,0 L29.168,0 Z" id="Fill-56" fill="#CCCCCC"></path>
+                    </g>
+                    <g id="Search" transform="translate(1230.000000, 12.000000)">
+                        <path d="M11.745,7.5552 C11.745,5.0332 13.799,2.9812 16.324,2.9812 C18.848,2.9812 20.901,5.0332 20.901,7.5552 C20.901,10.0772 18.848,12.1282 16.324,12.1282 C13.799,12.1282 11.745,10.0772 11.745,7.5552 L11.745,7.5552 Z M26.493,16.3532 L21.689,11.5532 C22.525,10.4352 23.026,9.0542 23.026,7.5552 C23.026,3.8612 20.019,0.8572 16.324,0.8572 C12.627,0.8572 9.62,3.8612 9.62,7.5552 C9.62,11.2482 12.627,14.2532 16.324,14.2532 C17.753,14.2532 19.076,13.8002 20.165,13.0352 L24.991,17.8572 L26.493,16.3532 Z" id="Fill-58" fill="#D8D8D8"></path>
+                        <text id="SEARCH" font-family="Roboto-Medium, Roboto" font-size="10" font-weight="400" fill="#AEAEAE">
+                            <tspan x="0.0098" y="27.8115234">SEARCH</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+            <g id="navigation-/-left-/-nav-bar" transform="translate(0.000000, 56.000000)" fill="#212121">
+                <rect id="left-nav-bar" x="0" y="0" width="200" height="926"></rect>
+            </g>
+            <g id="navigation-/-left-/-sub-section-/-item-selected" transform="translate(0.000000, 161.000000)" fill="#424242">
+                <rect id="Rectangle-12-Copy-3" x="0" y="0" width="200" height="30"></rect>
+            </g>
+            <text id="Overview-Support-Iss" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" line-spacing="30" letter-spacing="0.4375" fill="#D8D8D8">
+                <tspan x="21" y="144">Overview</tspan>
+                <tspan x="21" y="174">Support Issues</tspan>
+                <tspan x="21" y="204">Notifications</tspan>
+                <tspan x="21" y="234">Maintenance </tspan>
+                <tspan x="21" y="264">Contact Support</tspan>
+            </text>
+            <g id="Group-34-Copy" transform="translate(177.000000, 357.000000)">
+                <mask id="mask-44" fill="white">
+                    <use xlink:href="#path-43"></use>
+                </mask>
+                <g id="Mask">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-45)" xlink:href="#path-43"></use>
+                    <use fill="#FAFAFA" fill-rule="evenodd" xlink:href="#path-43"></use>
+                    <circle stroke="#BDBDBD" stroke-width="1" cx="187.5" cy="187.5" r="188"></circle>
+                </g>
+                <g id="Device-Picker" opacity="0.799999952" mask="url(#mask-44)">
+                    <g transform="translate(128.000000, -66.000000)">
+                        <polygon id="Fill-3" stroke="none" fill="#FFFFFF" fill-rule="evenodd" points="1.03857588 800.1151 1055.94679 800.1151 1055.94679 0.1192 1.03857588 0.1192"></polygon>
+                        <polygon id="Stroke-4" stroke="#D7D7D7" stroke-width="1.7226" fill="none" points="1.03857588 800.1151 1271.53858 800.1151 1271.53858 0.1192 1.03857588 0.1192"></polygon>
+                        <polygon id="Fill-5" stroke="none" fill="#FFFFFF" fill-rule="evenodd" points="25.1480237 77.1478 1031.83735 77.1478 1031.83735 34.2478 25.1480237 34.2478"></polygon>
+                        <polygon id="Stroke-6" stroke="#BCBCBC" stroke-width="1.67805" fill="none" points="25.1480237 77.1478 1031.83735 77.1478 1031.83735 34.2478 25.1480237 34.2478"></polygon>
+                        <text id="Search-devices..." stroke="none" fill="none" font-family="MyriadPro-Regular, Myriad Pro" font-size="23.1" font-weight="normal" letter-spacing="0.138599998">
+                            <tspan x="35.9902882" y="61.9266" fill="#BCBCBC">Search devices...</tspan>
+                        </text>
+                        <polygon id="Fill-7" stroke="none" fill="#E0E0E0" fill-rule="evenodd" points="1.4552 174.1641 1271.9552 174.1641 1271.9552 129.6141 1.4552 129.6141"></polygon>
+                        <g id="Group-10" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(424.700000, 154.258500)">
+                            <mask id="mask-47" fill="white">
+                                <use xlink:href="#path-46"></use>
+                            </mask>
+                            <g id="Clip-9"></g>
+                            <polygon id="Fill-8" fill="#9C9C9C" mask="url(#mask-47)" points="-7.6395 16.79205 24.0207 16.79205 24.0207 -7.7715 -7.6395 -7.7715"></polygon>
+                        </g>
+                        <g id="Group-16" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(424.700000, 139.408500)">
+                            <mask id="mask-49" fill="white">
+                                <use xlink:href="#path-48"></use>
+                            </mask>
+                            <g id="Clip-15"></g>
+                            <polygon id="Fill-14" fill="#9C9C9C" mask="url(#mask-49)" points="-7.6395 17.88435 24.0207 17.88435 24.0207 -6.6792 -7.6395 -6.6792"></polygon>
+                        </g>
+                        <g id="Group-19" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(791.000000, 154.258500)">
+                            <mask id="mask-51" fill="white">
+                                <use xlink:href="#path-50"></use>
+                            </mask>
+                            <g id="Clip-18"></g>
+                            <polygon id="Fill-17" fill="#9C9C9C" mask="url(#mask-51)" points="-7.689 16.79205 23.9712 16.79205 23.9712 -7.7715 -7.689 -7.7715"></polygon>
+                        </g>
+                        <g id="Group-25" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(791.000000, 139.408500)">
+                            <mask id="mask-53" fill="white">
+                                <use xlink:href="#path-52"></use>
+                            </mask>
+                            <g id="Clip-24"></g>
+                            <polygon id="Fill-23" fill="#9C9C9C" mask="url(#mask-53)" points="-7.689 17.88435 23.9712 17.88435 23.9712 -6.6792 -7.689 -6.6792"></polygon>
+                        </g>
+                        <text id="Device-ID" stroke="none" fill="none" font-family="Roboto-Regular, Roboto" font-size="21.45" font-weight="normal">
+                            <tspan x="79.25468" y="153.022051" fill="#757575">D</tspan>
+                            <tspan x="93.3207689" y="153.022051" letter-spacing="-0.145859998" fill="#757575">e</tspan>
+                            <tspan x="104.402643" y="153.022051" fill="#757575">vice ID</tspan>
+                        </text>
+                        <text id="Nickname" stroke="none" fill="none" font-family="Roboto-Regular, Roboto" font-size="21.45" font-weight="normal">
+                            <tspan x="473.09813" y="153.022051" fill="#757575">Nickname</tspan>
+                        </text>
+                        <text id="Region" stroke="none" fill="none" font-family="Roboto-Regular, Roboto" font-size="21.45" font-weight="normal">
+                            <tspan x="1085.32403" y="153.022051" fill="#757575">Region</tspan>
+                        </text>
+                        <polygon id="Fill-29" stroke="none" fill="#F9F9F9" fill-rule="evenodd" points="0.9767 340.91475 1269.8267 340.91475 1269.8267 284.81475 0.9767 284.81475"></polygon>
+                        <polygon id="Stroke-30" stroke="#E8E8E8" stroke-width="1.6896" fill="none" points="0.9767 340.91475 1269.8267 340.91475 1269.8267 284.81475 0.9767 284.81475"></polygon>
+                        <polygon id="Fill-31" stroke="none" fill="#F9F9F9" fill-rule="evenodd" points="0.9767 678.75225 1269.8267 678.75225 1269.8267 622.65225 0.9767 622.65225"></polygon>
+                        <polygon id="Stroke-32" stroke="#E8E8E8" stroke-width="1.6896" fill="none" points="0.9767 678.75225 1269.8267 678.75225 1269.8267 622.65225 0.9767 622.65225"></polygon>
+                        <polygon id="Fill-33" stroke="none" fill="#F9F9F9" fill-rule="evenodd" points="0.9767 566.13975 1269.8267 566.13975 1269.8267 510.03975 0.9767 510.03975"></polygon>
+                        <polygon id="Stroke-34" stroke="#E8E8E8" stroke-width="1.6896" fill="none" points="0.9767 566.13975 1269.8267 566.13975 1269.8267 510.03975 0.9767 510.03975"></polygon>
+                        <polygon id="Fill-35" stroke="none" fill="#F9F9F9" fill-rule="evenodd" points="0.9767 453.52725 1269.8267 453.52725 1269.8267 397.42725 0.9767 397.42725"></polygon>
+                        <polygon id="Stroke-36" stroke="#E8E8E8" stroke-width="1.6896" fill="none" points="0.9767 453.52725 1269.8267 453.52725 1269.8267 397.42725 0.9767 397.42725"></polygon>
+                        <text id="Type" stroke="none" fill="none" font-family="Roboto-Regular, Roboto" font-size="21.45" font-weight="normal" letter-spacing="-0.761474982">
+                            <tspan x="845.881805" y="153.022051" fill="#757575">T</tspan>
+                            <tspan x="857.165008" y="153.022051" fill="#757575">ype</tspan>
+                        </text>
+                        <g id="Group-39" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(1035.200000, 154.258500)">
+                            <mask id="mask-55" fill="white">
+                                <use xlink:href="#path-54"></use>
+                            </mask>
+                            <g id="Clip-38"></g>
+                            <polygon id="Fill-37" fill="#9C9C9C" mask="url(#mask-55)" points="-6.8673 16.79205 24.7929 16.79205 24.7929 -7.7715 -6.8673 -7.7715"></polygon>
+                        </g>
+                        <g id="Group-45" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(1035.200000, 139.408500)">
+                            <mask id="mask-57" fill="white">
+                                <use xlink:href="#path-56"></use>
+                            </mask>
+                            <g id="Clip-44"></g>
+                            <polygon id="Fill-43" fill="#9C9C9C" mask="url(#mask-57)" points="-6.8673 17.88435 24.7929 17.88435 24.7929 -6.6792 -6.8673 -6.6792"></polygon>
+                        </g>
+                        <polygon id="Fill-55" stroke="none" fill="#F9F9F9" fill-rule="evenodd" points="1.55585 229.95225 1270.40585 229.95225 1270.40585 173.85225 1.55585 173.85225"></polygon>
+                        <polygon id="Stroke-56" stroke="#E8E8E8" stroke-width="1.6896" fill="none" points="1.55585 229.95225 1270.40585 229.95225 1270.40585 173.85225 1.55585 173.85225"></polygon>
+                        <path d="M60.576515,736.798425 L60.576515,136.198425" id="Stroke-57" stroke="#E6E6E6" stroke-width="1.65" fill="none"></path>
+                        <path d="M60.576515,172.49859 L60.576515,129.61509" id="Stroke-58" stroke="#D7D7D7" stroke-width="1.65" fill="none"></path>
+                        <path d="M455.758115,736.26465 L455.758115,135.66465" id="Stroke-59" stroke="#E6E6E6" stroke-width="1.65" fill="none"></path>
+                        <path d="M455.758115,176.37279 L455.758115,131.25684" id="Stroke-60" stroke="#D7D7D7" stroke-width="1.6929" fill="none"></path>
+                        <path d="M827.071805,737.91465 L827.071805,176.91465" id="Stroke-61" stroke="#E6E6E6" stroke-width="1.65" fill="none"></path>
+                        <path d="M827.071805,176.37279 L827.071805,131.25684" id="Stroke-62" stroke="#D7D7D7" stroke-width="1.65" fill="none"></path>
+                        <path d="M1069.14826,736.798425 L1069.14826,136.198425" id="Stroke-63" stroke="#E6E6E6" stroke-width="1.76055" fill="none"></path>
+                        <path d="M1069.14826,172.49859 L1069.14826,129.61509" id="Stroke-64" stroke="#D7D7D7" stroke-width="1.65" fill="none"></path>
+                        <text id="11771.ord.vpn1.local.com" stroke="none" fill="none" font-family="Roboto-Regular, Roboto" font-size="21.45" font-weight="normal">
+                            <tspan x="79.253855" y="203.662036" fill="#616161">11771.o</tspan>
+                            <tspan x="157.355735" y="203.662036" letter-spacing="-0.231660012" fill="#616161">r</tspan>
+                            <tspan x="164.183303" y="203.662036" fill="#616161">d.vpn1.local.com</tspan>
+                        </text>
+                        <text id="Nickname01" stroke="none" fill="none" font-family="Roboto-Regular, Roboto" font-size="21.45" font-weight="normal">
+                            <tspan x="474.613755" y="203.662036" fill="#616161">Nickname01</tspan>
+                        </text>
+                        <text id="23456.dfw.vpn2.sc.corp" stroke="none" fill="none" font-family="Roboto-Regular, Roboto" font-size="21.45" font-weight="normal">
+                            <tspan x="78.603855" y="261.512686" fill="#616161">23456.df</tspan>
+                            <tspan x="164.016331" y="261.512686" letter-spacing="-1.33204495" fill="#616161">w</tspan>
+                            <tspan x="177.504476" y="261.512686" fill="#616161">.vpn2.sc.corp</tspan>
+                        </text>
+                        <text id="32478.ord1.dfw.vpn2.rvi" stroke="none" fill="none" font-family="Roboto-Regular, Roboto" font-size="21.45" font-weight="normal">
+                            <tspan x="78.603855" y="317.111086" fill="#616161">32478.o</tspan>
+                            <tspan x="156.705735" y="317.111086" letter-spacing="-0.231660012" fill="#616161">r</tspan>
+                            <tspan x="163.533303" y="317.111086" fill="#616161">d1.df</tspan>
+                            <tspan x="212.864114" y="317.111086" letter-spacing="-1.29343504" fill="#616161">w</tspan>
+                            <tspan x="226.390869" y="317.111086" fill="#616161">.vpn2.</tspan>
+                            <tspan x="283.985376" y="317.111086" letter-spacing="0.199484996" fill="#616161">r</tspan>
+                            <tspan x="291.631614" y="317.111086" fill="#616161">vi</tspan>
+                        </text>
+                        <text id="43748.dfw1.ord.local.com" stroke="none" fill="none" font-family="Roboto-Regular, Roboto" font-size="21.45" font-weight="normal">
+                            <tspan x="78.603855" y="371.658436" fill="#616161">43748.dfw1.o</tspan>
+                            <tspan x="210.05842" y="371.658436" letter-spacing="-0.225225002" fill="#616161">r</tspan>
+                            <tspan x="216.892424" y="371.658436" fill="#616161">d.local.com</tspan>
+                        </text>
+                        <text id="5764.dfw2.ord1.local" stroke="none" fill="none" font-family="Roboto-Regular, Roboto" font-size="21.45" font-weight="normal">
+                            <tspan x="78.603855" y="428.071936" fill="#616161">5764.dfw2.o</tspan>
+                            <tspan x="198.013743" y="428.071936" letter-spacing="-0.214499992" fill="#616161">r</tspan>
+                            <tspan x="204.858471" y="428.071936" fill="#616161">d1.local</tspan>
+                        </text>
+                        <text id="5764.dfw2.ord1.local" stroke="none" fill="none" font-family="Roboto-Regular, Roboto" font-size="21.45" font-weight="normal">
+                            <tspan x="78.603855" y="483.069736" fill="#616161">5764.dfw2.o</tspan>
+                            <tspan x="198.013743" y="483.069736" letter-spacing="-0.214499992" fill="#616161">r</tspan>
+                            <tspan x="204.858471" y="483.069736" fill="#616161">d1.local</tspan>
+                        </text>
+                        <text id="768409.ord1.dfw.vpn2.rvi" stroke="none" fill="none" font-family="Roboto-Regular, Roboto" font-size="21.45" font-weight="normal">
+                            <tspan x="78.603855" y="539.225836" fill="#616161">768409.o</tspan>
+                            <tspan x="168.750413" y="539.225836" letter-spacing="-0.242384997" fill="#616161">r</tspan>
+                            <tspan x="175.567256" y="539.225836" fill="#616161">d1.df</tspan>
+                            <tspan x="224.898067" y="539.225836" letter-spacing="-1.29128998" fill="#616161">w</tspan>
+                            <tspan x="238.426967" y="539.225836" fill="#616161">.vpn2.</tspan>
+                            <tspan x="296.021474" y="539.225836" letter-spacing="0.197339997" fill="#616161">r</tspan>
+                            <tspan x="303.665567" y="539.225836" fill="#616161">vi</tspan>
+                        </text>
+                        <text id="98573.dfw1.ord.local.com" stroke="none" fill="none" font-family="Roboto-Regular, Roboto" font-size="21.45" font-weight="normal">
+                            <tspan x="78.603855" y="594.952936" fill="#616161">98573.dfw1.o</tspan>
+                            <tspan x="210.05842" y="594.952936" letter-spacing="-0.225225002" fill="#616161">r</tspan>
+                            <tspan x="216.892424" y="594.952936" fill="#616161">d.local.com</tspan>
+                        </text>
+                        <text id="57736.dfw2.ord1.local" stroke="none" fill="none" font-family="Roboto-Regular, Roboto" font-size="21.45" font-weight="normal">
+                            <tspan x="78.603855" y="653.790286" fill="#616161">57736.dfw2.o</tspan>
+                            <tspan x="210.05842" y="653.790286" letter-spacing="-0.225225002" fill="#616161">r</tspan>
+                            <tspan x="216.892424" y="653.790286" fill="#616161">d1.local</tspan>
+                        </text>
+                        <text id="498753.dfw2.ord1.local" stroke="none" fill="none" font-family="Roboto-Regular, Roboto" font-size="21.45" font-weight="normal">
+                            <tspan x="78.603855" y="707.822836" fill="#616161">498753.dfw2.o</tspan>
+                            <tspan x="222.103098" y="707.822836" letter-spacing="-0.235950011" fill="#616161">r</tspan>
+                            <tspan x="228.926377" y="707.822836" fill="#616161">d1.local</tspan>
+                        </text>
+                        <text id="nickname02" stroke="none" fill="none" font-family="Roboto-Regular, Roboto" font-size="21.45" font-weight="normal">
+                            <tspan x="474.613755" y="261.512686" fill="#616161">nickname02</tspan>
+                        </text>
+                        <text id="Server01" stroke="none" fill="none" font-family="Roboto-Regular, Roboto" font-size="21.45" font-weight="normal">
+                            <tspan x="474.613755" y="317.111086" fill="#616161">Se</tspan>
+                            <tspan x="498.70311" y="317.111086" letter-spacing="0.197339997" fill="#616161">r</tspan>
+                            <tspan x="506.347203" y="317.111086" letter-spacing="-0.126555003" fill="#616161">v</tspan>
+                            <tspan x="516.474335" y="317.111086" fill="#616161">er01</tspan>
+                        </text>
+                        <text id="Hypervisor01" stroke="none" fill="none" font-family="Roboto-Regular, Roboto" font-size="21.45" font-weight="normal">
+                            <tspan x="474.613755" y="373.310086" fill="#616161">Hype</tspan>
+                            <tspan x="523.452305" y="373.310086" letter-spacing="0.193049998" fill="#616161">r</tspan>
+                            <tspan x="531.092108" y="373.310086" fill="#616161">visor01</tspan>
+                        </text>
+                        <text id="Backup-Firewall" stroke="none" fill="none" font-family="Roboto-Regular, Roboto" font-size="21.45" font-weight="normal">
+                            <tspan x="474.613755" y="428.071936" fill="#616161">Backup Fi</tspan>
+                            <tspan x="567.965244" y="428.071936" letter-spacing="-0.212355005" fill="#616161">r</tspan>
+                            <tspan x="574.812118" y="428.071936" fill="#616161">ewall</tspan>
+                        </text>
+                        <text id="Backup-Server" stroke="none" fill="none" font-family="Roboto-Regular, Roboto" font-size="21.45" font-weight="normal">
+                            <tspan x="474.613755" y="484.270936" fill="#616161">Backup Se</tspan>
+                            <tspan x="574.993052" y="484.270936" letter-spacing="0.190904998" fill="#616161">r</tspan>
+                            <tspan x="582.63071" y="484.270936" letter-spacing="-0.128700003" fill="#616161">v</tspan>
+                            <tspan x="592.755696" y="484.270936" fill="#616161">er</tspan>
+                        </text>
+                        <text id="File-Server-01" stroke="none" fill="none" font-family="Roboto-Regular, Roboto" font-size="21.45" font-weight="normal">
+                            <tspan x="474.613755" y="539.247286" fill="#616161">File Se</tspan>
+                            <tspan x="537.644077" y="539.247286" letter-spacing="0.163020006" fill="#616161">r</tspan>
+                            <tspan x="545.25385" y="539.247286" letter-spacing="-0.126555003" fill="#616161">v</tspan>
+                            <tspan x="555.380982" y="539.247286" fill="#616161">er 01</tspan>
+                        </text>
+                        <text id="File-Server-03" stroke="none" fill="none" font-family="Roboto-Regular, Roboto" font-size="21.45" font-weight="normal">
+                            <tspan x="474.613755" y="598.277686" fill="#616161">File Se</tspan>
+                            <tspan x="537.644077" y="598.277686" letter-spacing="0.163020006" fill="#616161">r</tspan>
+                            <tspan x="545.25385" y="598.277686" letter-spacing="-0.126555003" fill="#616161">v</tspan>
+                            <tspan x="555.380982" y="598.277686" fill="#616161">er 03</tspan>
+                        </text>
+                        <text id="This-is-my-server01" stroke="none" fill="none" font-family="Roboto-Regular, Roboto" font-size="21.45" font-weight="normal">
+                            <tspan x="474.613755" y="653.811736" fill="#616161">This is my se</tspan>
+                            <tspan x="599.06146" y="653.811736" letter-spacing="0.126555003" fill="#616161">r</tspan>
+                            <tspan x="606.634768" y="653.811736" letter-spacing="-0.126555003" fill="#616161">v</tspan>
+                            <tspan x="616.7619" y="653.811736" fill="#616161">er01</tspan>
+                        </text>
+                        <text id="This-is-my-server01" stroke="none" fill="none" font-family="Roboto-Regular, Roboto" font-size="21.45" font-weight="normal">
+                            <tspan x="474.613755" y="707.844286" fill="#616161">This is my se</tspan>
+                            <tspan x="599.06146" y="707.844286" letter-spacing="0.126555003" fill="#616161">r</tspan>
+                            <tspan x="606.634768" y="707.844286" letter-spacing="-0.128700003" fill="#616161">v</tspan>
+                            <tspan x="616.759755" y="707.844286" fill="#616161">er01</tspan>
+                        </text>
+                        <text id="Server-01" stroke="none" fill="none" font-family="Roboto-Regular, Roboto" font-size="21.45" font-weight="normal">
+                            <tspan x="845.248305" y="203.683486" fill="#616161">Se</tspan>
+                            <tspan x="869.33766" y="203.683486" letter-spacing="0.197339997" fill="#616161">r</tspan>
+                            <tspan x="876.981753" y="203.683486" letter-spacing="-0.126555003" fill="#616161">v</tspan>
+                            <tspan x="887.108885" y="203.683486" fill="#616161">er 01</tspan>
+                        </text>
+                        <text id="Server-Windows" stroke="none" fill="none" font-family="Roboto-Regular, Roboto" font-size="21.45" font-weight="normal">
+                            <tspan x="845.248305" y="261.534136" fill="#616161">Se</tspan>
+                            <tspan x="869.33766" y="261.534136" letter-spacing="0.197339997" fill="#616161">r</tspan>
+                            <tspan x="876.981753" y="261.534136" letter-spacing="-0.128700003" fill="#616161">v</tspan>
+                            <tspan x="887.10674" y="261.534136" fill="#616161">er Windows</tspan>
+                        </text>
+                        <text id="HP-1162-Server" stroke="none" fill="none" font-family="Roboto-Regular, Roboto" font-size="21.45" font-weight="normal">
+                            <tspan x="845.248305" y="317.132536" fill="#616161">HP 1162 Se</tspan>
+                            <tspan x="956.960073" y="317.132536" letter-spacing="0.132990002" fill="#616161">r</tspan>
+                            <tspan x="964.539816" y="317.132536" letter-spacing="-0.128700003" fill="#616161">v</tspan>
+                            <tspan x="974.664802" y="317.132536" fill="#616161">er</tspan>
+                        </text>
+                        <text id="HyperVisor-22" stroke="none" fill="none" font-family="Roboto-Regular, Roboto" font-size="21.45" font-weight="normal">
+                            <tspan x="845.248305" y="373.331536" fill="#616161">HyperVisor 22</tspan>
+                        </text>
+                        <text id="Server-01" stroke="none" fill="none" font-family="Roboto-Regular, Roboto" font-size="21.45" font-weight="normal">
+                            <tspan x="845.248305" y="427.428436" fill="#616161">Se</tspan>
+                            <tspan x="869.33766" y="427.428436" letter-spacing="0.197339997" fill="#616161">r</tspan>
+                            <tspan x="876.981753" y="427.428436" letter-spacing="-0.128700003" fill="#616161">v</tspan>
+                            <tspan x="887.10674" y="427.428436" fill="#616161">er 01</tspan>
+                        </text>
+                        <text id="Windows-Server" stroke="none" fill="none" font-family="Roboto-Regular, Roboto" font-size="21.45" font-weight="normal">
+                            <tspan x="845.248305" y="485.279086" fill="#616161">Windows Se</tspan>
+                            <tspan x="962.22831" y="485.279086" letter-spacing="0.188759999" fill="#616161">r</tspan>
+                            <tspan x="969.863823" y="485.279086" letter-spacing="-0.128700003" fill="#616161">v</tspan>
+                            <tspan x="979.988809" y="485.279086" fill="#616161">er</tspan>
+                        </text>
+                        <text id="Server-File01" stroke="none" fill="none" font-family="Roboto-Regular, Roboto" font-size="21.45" font-weight="normal">
+                            <tspan x="845.248305" y="539.268736" fill="#616161">Se</tspan>
+                            <tspan x="869.33766" y="539.268736" letter-spacing="0.197339997" fill="#616161">r</tspan>
+                            <tspan x="876.981753" y="539.268736" letter-spacing="-0.128700003" fill="#616161">v</tspan>
+                            <tspan x="887.10674" y="539.268736" fill="#616161">er File01</tspan>
+                        </text>
+                        <text id="Server22" stroke="none" fill="none" font-family="Roboto-Regular, Roboto" font-size="21.45" font-weight="normal">
+                            <tspan x="845.248305" y="597.076486" fill="#616161">Se</tspan>
+                            <tspan x="869.33766" y="597.076486" letter-spacing="0.197339997" fill="#616161">r</tspan>
+                            <tspan x="876.981753" y="597.076486" letter-spacing="-0.128700003" fill="#616161">v</tspan>
+                            <tspan x="887.10674" y="597.076486" fill="#616161">er22</tspan>
+                        </text>
+                        <text id="Server-File01" stroke="none" fill="none" font-family="Roboto-Regular, Roboto" font-size="21.45" font-weight="normal">
+                            <tspan x="845.248305" y="653.833186" fill="#616161">Se</tspan>
+                            <tspan x="869.33766" y="653.833186" letter-spacing="0.197339997" fill="#616161">r</tspan>
+                            <tspan x="876.981753" y="653.833186" letter-spacing="-0.126555003" fill="#616161">v</tspan>
+                            <tspan x="887.108885" y="653.833186" fill="#616161">er File01</tspan>
+                        </text>
+                        <text id="Server22" stroke="none" fill="none" font-family="Roboto-Regular, Roboto" font-size="21.45" font-weight="normal">
+                            <tspan x="845.248305" y="707.865736" fill="#616161">Se</tspan>
+                            <tspan x="869.33766" y="707.865736" letter-spacing="0.197339997" fill="#616161">r</tspan>
+                            <tspan x="876.981753" y="707.865736" letter-spacing="-0.128700003" fill="#616161">v</tspan>
+                            <tspan x="887.10674" y="707.865736" fill="#616161">er22</tspan>
+                        </text>
+                        <text id="ORD" stroke="none" fill="none" font-family="Roboto-Regular, Roboto" font-size="21.45" font-weight="normal">
+                            <tspan x="1084.69466" y="205.292236" fill="#616161">ORD</tspan>
+                        </text>
+                        <text id="DFW" stroke="none" fill="none" font-family="Roboto-Regular, Roboto" font-size="21.45" font-weight="normal">
+                            <tspan x="1084.69466" y="263.142886" fill="#616161">DFW</tspan>
+                        </text>
+                        <text id="ORD" stroke="none" fill="none" font-family="Roboto-Regular, Roboto" font-size="21.45" font-weight="normal">
+                            <tspan x="1084.69466" y="318.741286" fill="#616161">ORD</tspan>
+                        </text>
+                        <text id="DFW" stroke="none" fill="none" font-family="Roboto-Regular, Roboto" font-size="21.45" font-weight="normal">
+                            <tspan x="1084.69466" y="374.940286" fill="#616161">DFW</tspan>
+                        </text>
+                        <text id="ORD" stroke="none" fill="none" font-family="Roboto-Regular, Roboto" font-size="21.45" font-weight="normal">
+                            <tspan x="1084.69466" y="427.385536" fill="#616161">ORD</tspan>
+                        </text>
+                        <text id="ORD" stroke="none" fill="none" font-family="Roboto-Regular, Roboto" font-size="21.45" font-weight="normal">
+                            <tspan x="1084.69466" y="485.622286" fill="#616161">ORD</tspan>
+                        </text>
+                        <text id="DFW" stroke="none" fill="none" font-family="Roboto-Regular, Roboto" font-size="21.45" font-weight="normal">
+                            <tspan x="1084.69466" y="539.290186" fill="#616161">DFW</tspan>
+                        </text>
+                        <text id="ORD" stroke="none" fill="none" font-family="Roboto-Regular, Roboto" font-size="21.45" font-weight="normal">
+                            <tspan x="1084.69466" y="599.071336" fill="#616161">ORD</tspan>
+                        </text>
+                        <text id="DFW" stroke="none" fill="none" font-family="Roboto-Regular, Roboto" font-size="21.45" font-weight="normal">
+                            <tspan x="1084.69466" y="653.854636" fill="#616161">DFW</tspan>
+                        </text>
+                        <text id="ORD" stroke="none" fill="none" font-family="Roboto-Regular, Roboto" font-size="21.45" font-weight="normal">
+                            <tspan x="1084.69466" y="707.887186" fill="#616161">ORD</tspan>
+                        </text>
+                        <g id="Group-111" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(1.650000, 136.950000)">
+                            <polygon id="Fill-85" fill="#FFFFFF" points="13.7379 27.74145 40.1379 27.74145 40.1379 1.34145 13.7379 1.34145"></polygon>
+                            <polygon id="Stroke-87" stroke="#BCBCBC" stroke-width="1.65" points="13.7379 27.74145 40.1379 27.74145 40.1379 1.34145 13.7379 1.34145"></polygon>
+                            <polygon id="Fill-88" fill="#FFFFFF" points="13.7379 75.59145 40.1379 75.59145 40.1379 49.19145 13.7379 49.19145"></polygon>
+                            <polygon id="Stroke-89" stroke="#BCBCBC" stroke-width="1.65" points="13.7379 75.59145 40.1379 75.59145 40.1379 49.19145 13.7379 49.19145"></polygon>
+                            <polygon id="Fill-90" fill="#FFFFFF" points="13.7379 133.34145 40.1379 133.34145 40.1379 106.94145 13.7379 106.94145"></polygon>
+                            <polygon id="Stroke-91" stroke="#BCBCBC" stroke-width="1.65" points="13.7379 133.34145 40.1379 133.34145 40.1379 106.94145 13.7379 106.94145"></polygon>
+                            <polygon id="Fill-92" fill="#FFFFFF" points="13.7379 187.79145 40.1379 187.79145 40.1379 161.39145 13.7379 161.39145"></polygon>
+                            <polygon id="Stroke-93" stroke="#BCBCBC" stroke-width="1.65" points="13.7379 187.79145 40.1379 187.79145 40.1379 161.39145 13.7379 161.39145"></polygon>
+                            <polygon id="Fill-94" fill="#FFFFFF" points="13.7379 245.54145 40.1379 245.54145 40.1379 219.14145 13.7379 219.14145"></polygon>
+                            <polygon id="Stroke-95" stroke="#BCBCBC" stroke-width="1.65" points="13.7379 245.54145 40.1379 245.54145 40.1379 219.14145 13.7379 219.14145"></polygon>
+                            <polygon id="Fill-96" fill="#FFFFFF" points="13.7379 298.34145 40.1379 298.34145 40.1379 271.94145 13.7379 271.94145"></polygon>
+                            <polygon id="Stroke-97" stroke="#BCBCBC" stroke-width="1.65" points="13.7379 298.34145 40.1379 298.34145 40.1379 271.94145 13.7379 271.94145"></polygon>
+                            <polygon id="Fill-98" fill="#FFFFFF" points="13.7379 356.09145 40.1379 356.09145 40.1379 329.69145 13.7379 329.69145"></polygon>
+                            <polygon id="Stroke-99" stroke="#BCBCBC" stroke-width="1.65" points="13.7379 356.09145 40.1379 356.09145 40.1379 329.69145 13.7379 329.69145"></polygon>
+                            <polygon id="Fill-100" fill="#FFFFFF" points="13.7379 412.19145 40.1379 412.19145 40.1379 385.79145 13.7379 385.79145"></polygon>
+                            <polygon id="Stroke-101" stroke="#BCBCBC" stroke-width="1.65" points="13.7379 412.19145 40.1379 412.19145 40.1379 385.79145 13.7379 385.79145"></polygon>
+                            <polygon id="Fill-102" fill="#FFFFFF" points="13.7379 469.94145 40.1379 469.94145 40.1379 443.54145 13.7379 443.54145"></polygon>
+                            <polygon id="Stroke-103" stroke="#BCBCBC" stroke-width="1.65" points="13.7379 469.94145 40.1379 469.94145 40.1379 443.54145 13.7379 443.54145"></polygon>
+                            <polygon id="Fill-104" fill="#FFFFFF" points="13.7379 526.04145 40.1379 526.04145 40.1379 499.64145 13.7379 499.64145"></polygon>
+                            <polygon id="Stroke-105" stroke="#BCBCBC" stroke-width="1.65" points="13.7379 526.04145 40.1379 526.04145 40.1379 499.64145 13.7379 499.64145"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

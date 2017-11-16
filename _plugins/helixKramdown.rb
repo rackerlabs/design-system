@@ -41,6 +41,7 @@ class Jekyll::Converters::Markdown::HelixKramdownParser
   end
 
   def convert(content)
+    # puts 'converting with HelixKramdownParser'
     html = Kramdown::Document.new(content, @config).to_helix_html
     return html;
   end

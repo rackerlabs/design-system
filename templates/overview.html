@@ -6,28 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>
-      {% if page.title %}{{ page.title }}
-      {% else %}{{ site.title }}{% endif %}
+      {%- if page.title -%}{{ page.title }}
+      {%- else -%}{{ site.title }}{%- endif -%}
     </title>
-    <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+    <meta name="description" content="{%- if page.excerpt -%}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{%- else -%}{{ site.description }}{%- endif -%}">
 
-    {% include head-styles.html %}
+    {%- include head-styles.html -%}
 
     <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ " /feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 
-    {% include head-polyfills.html %}
+    {%- include head-polyfills.html -%}
   </head>
   <body class="hxApp">
     <div class="hxApp__container overview-wrapper">
-      {% include nav.html %}
+      {%- include nav.html -%}
       <main class="hxApp__content overview-content">
         <div class="main-logo"><img src="assets/images/Helix_Logo_Homepage.svg" class="main-logo"></div>
         <div class="overview-header display-font">{{ page.title }}</div>
         {{ content }}
-        {% include overview-footer.html %}
+        {%- include overview-footer.html -%}
       </main>
     </div>
-    {% include footer.html %}
+    {%- include footer.html -%}
   </body>
 </html>

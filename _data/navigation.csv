@@ -1,6 +1,7 @@
 position,name,display,index
-1,Style,Style,style
+1,Getting-Started, Getting Started, getting-started
 2,Principles, Principles, principles
-3,Layout,Layout,layout
-4,Components,Components,components
-5,Templates,Templates,templates
+3,Style, Style, style
+4,Layout,Layout,layout
+5,Components,Components,components
+6,Templates,Templates,templates

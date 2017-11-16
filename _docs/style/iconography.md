@@ -11,16 +11,16 @@ resource: true
 
 {% include toc.html %}
 
-# Download Current Release
+## Download Current Release
 The latest version of the icon font can be downloaded for use within your
 project at
 [this CDN link]({{site.cdn_url}}/fonts/DS_icon_font.zip)
 
-## New Requests
+### New Requests
 If you need an additional icon, please submit your request to the
 <a href="mailto:helix.designsystem@rackspace.com?subject=Icon Request">Helix Team</a>.
 
-# Utility Icons
+## Utility Icons
 Utility icons are used in place of text to perform an action. They are based on
 commonly used, established metaphors. Utility icons share the color style of
 links or match the color of body text dependent on the background color.
@@ -46,7 +46,7 @@ links or match the color of body text dependent on the background color.
   {% endfor %}
 </div>
 
-# Object Icons
+## Object Icons
 
 Object icons should be used sparingly and consistently across Rackspace
 products. Their purpose is to provide a visual differentiator between items in
@@ -73,7 +73,7 @@ a list or symbolize types of content.
   {% endfor %}
 </div>
 
-# Validation Icons
+## Validation Icons
 Validation icons can be used to provide checks, errors, and warnings in forms.
 They also can be used to draw users' attention to statuses or messages. Use the
 colors blow to draw the users' attention. Otherwise use the icons in black,
