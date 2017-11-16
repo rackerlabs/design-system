@@ -46,7 +46,7 @@ Chips are best used with indicating a list of items that may be part of a differ
 
 ### Default chip
 
-The default chip is a single circle that contains a preview of the item the chip represents. This can be either letters to indicate the name, an image to indicate a user, or a product icon to indicate the type of device.
+The default chip is a single circle that contains a preview of the item the chip represents. The preview can consist of the the following; letters to indicate the name, an image to indicate a user, or a product icon to indicate the type of device.
 
 {% endcolumn %}
 
