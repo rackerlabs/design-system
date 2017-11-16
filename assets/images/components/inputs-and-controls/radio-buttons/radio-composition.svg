@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg width="569px" height="178px" viewBox="0 0 569 178" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="404px" height="202px" viewBox="0 0 404 202" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
     <title>radio-composition</title>
     <desc>Created with Sketch.</desc>
-    <style type="text/css">@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');</style>
     <defs>
         <path d="M16,8 C16,12.4571429 12.4571429,16 8,16 C3.54285714,16 0,12.4571429 0,8 C0,3.54285714 3.54285714,-7.26529947e-13 8,-7.26529947e-13 C12.4571429,-7.26529947e-13 16,3.54285714 16,8 Z" id="path-1"></path>
         <path d="M16,8 C16,12.4571429 12.4571429,16 8,16 C3.54285714,16 0,12.4571429 0,8 C0,3.54285714 3.54285714,-7.26529947e-13 8,-7.26529947e-13 C12.4571429,-7.26529947e-13 16,3.54285714 16,8 Z" id="path-2"></path>
@@ -11,7 +10,7 @@
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="radio-composition">
-            <g id="Composition-Section" transform="translate(135.000000, 9.000000)">
+            <g id="Composition-Section" transform="translate(37.000000, 31.000000)">
                 <g id="Composition-image">
                     <path d="M215.991382,74.9999987 L215.991382,104.000001" id="Stroke-8-Copy-12" stroke="#EC3F7A" transform="translate(216.000000, 89.500000) rotate(-90.000000) translate(-216.000000, -89.500000) "></path>
                     <path d="M236.001,85 C238.763,85 241.001,87.239 241,90 C241,92.762 238.762,95 236,95 C233.238,95 231,92.761 231,90 C231.001,87.238 233.239,85 236.001,85" id="Path-Copy-7" stroke="#EC3F7A" fill-opacity="0.3" fill="#F03F7B" transform="translate(236.000000, 90.000000) rotate(-90.000000) translate(-236.000000, -90.000000) "></path>
@@ -41,8 +40,8 @@
                     <text id="Option-1-Copy-2" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="20" letter-spacing="0.00666666683" fill="#333333">
                         <tspan x="135" y="93">Option 1</tspan>
                     </text>
-                    <text id="Label" font-family="Roboto-Medium, Roboto" font-size="16" font-weight="400" fill="#333333">
-                        <tspan x="106" y="69">Label</tspan>
+                    <text id="Label" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#616161">
+                        <tspan x="113" y="69">Label</tspan>
                     </text>
                     <g id="composition-dots" transform="translate(113.000000, 81.000000)">
                         <g id="Radio-button---default-Copy-7" transform="translate(0.000000, 21.000000)" fill-rule="nonzero">
