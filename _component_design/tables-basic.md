@@ -6,16 +6,16 @@ category: Components
 usage: >
   Tables present data on nearly every page in Helix control panels. Tables are highly valuable, but always run the risk of putting too high a cognitive load on users. Our goal with tables should always be to decrease cognitive load so users can get the data they need quickly and easily.
 preview-image: preview-images/tables.svg
-status: Stable
+status: stable
 resource: true
-last-modified: 2017-10-24
+last-modified: 2017-11-16
 ---
 
 {% include toc.html %}
 
 ## Introduction
 
-<div class="hxRow">
+<div class="hxRow" markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
@@ -44,7 +44,7 @@ Tables are the bread-and-butter component for displaying complex objects in a ne
 
 ## Default layout
 
-<div class="hxRow">
+<div class="hxRow" markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
@@ -71,7 +71,7 @@ Tables are the bread-and-butter component for displaying complex objects in a ne
 
 ## Condensed table
 
-<div class="hxRow">
+<div class="hxRow" markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 The use of a condensed table provides for views that display either many or few results. 
@@ -101,7 +101,7 @@ If presenting a small amount of information, a condensed table format allows for
 
 ## Table states 
 
-<div class="hxRow">
+<div class="hxRow" markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 ### Loading
 
@@ -158,7 +158,7 @@ When using the check box icon within a table, each row supports the following st
 
 ## Variations
 
-<div class="hxRow">
+<div class="hxRow" markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Dual line text table
@@ -182,7 +182,7 @@ This variation is used in the following situations:
 
 </div>
 
-<div class="hxRow">
+<div class="hxRow" markdown="1">
 
 {% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
@@ -197,7 +197,7 @@ This variation is used in the following situations:
 	
 </div>
 
-<div class="hxRow">
+<div class="hxRow" markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 #### Spacing
@@ -215,7 +215,7 @@ Using the dual-line text variation impacts standard table layout in the followin
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% figure [caption:"Dual line text table specifications"] [class:"image bg-light border"] %}
+{% figure [caption:"Dual-line text table specifications"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/tables/basic-tables/tables-dualline-specs.png){:width="580px"}
 {% endfigure %}
 {% endcolumn %}
