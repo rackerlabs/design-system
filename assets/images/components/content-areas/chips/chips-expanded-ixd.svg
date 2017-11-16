@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="624px" height="226px" viewBox="0 0 624 226" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>chips-expanded-ixd</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="354" y="31" width="248" height="164"></rect>
+        <filter x="-2.8%" y="-3.0%" width="105.6%" height="108.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35657269 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="chips-expanded-ixd">
+            <polygon id="Triangle" fill="#EC3F7A" points="352 51 346 54 346 48"></polygon>
+            <path d="M44,39 L184,39 L184,39 C190.627417,39 196,44.372583 196,51 L196,51 L196,51 C196,57.627417 190.627417,63 184,63 L44,63 L44,39 Z" id="Rectangle" fill="#D8D8D8"></path>
+            <circle id="Oval" fill="#9B9B9B" cx="43" cy="51" r="20"></circle>
+            <text id="VM" font-family="Roboto-Light, Roboto" font-size="20" font-weight="300" fill="#FFFFFF">
+                <tspan x="29.1806641" y="58">VM</tspan>
+            </text>
+            <text id="Van-Morrison" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" fill="#000000">
+                <tspan x="71.8823242" y="56">Van Morrison</tspan>
+            </text>
+            <text id="*On-Click*" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#EC3F7A">
+                <tspan x="248" y="46">*On Click*</tspan>
+            </text>
+            <path d="M348.689273,51 L200,51" id="Stroke-8-Copy" stroke="#EC3F7A"></path>
+            <g id="Rectangle-2-Copy-4">
+                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                <use fill="#F4F4F4" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <rect id="Rectangle-2-Copy-5" fill="#0C7C84" x="354" y="31" width="248" height="56"></rect>
+            <circle id="Oval-Copy-12" fill="#9B9B9B" cx="382" cy="59" r="20"></circle>
+            <text id="VM-Copy" font-family="Roboto-Light, Roboto" font-size="20" font-weight="300" fill="#FFFFFF">
+                <tspan x="367.180664" y="66">VM</tspan>
+            </text>
+            <text id="Van-Morrison-Copy" font-family="Roboto-Regular, Roboto" font-size="18" font-weight="normal" fill="#FFFFFF">
+                <tspan x="410" y="55">Van Morrison</tspan>
+            </text>
+            <text id="lanefielder@gmail.co-copy-3" font-family="Roboto-Light, Roboto" font-size="16" font-weight="300" fill="#E6E6E6">
+                <tspan x="410" y="76">lanefielder@gmail.com</tspan>
+            </text>
+            <text id="123-Main-Street-Anyt" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#4A4A4A">
+                <tspan x="394" y="114">123 Main Street</tspan>
+                <tspan x="394" y="133">Anytown, USA 333333</tspan>
+            </text>
+            <text id="210-555-5555" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#4A4A4A">
+                <tspan x="394" y="172">210-555-5555</tspan>
+            </text>
+            <text id="" font-family="LastResort, .LastResort" font-size="18" font-weight="normal" fill="#7F7F7F">
+                <tspan x="367.172852" y="118"></tspan>
+            </text>
+            <text id="" font-family="FontAwesome" font-size="18" font-weight="normal" fill="#7F7F7F">
+                <tspan x="370.428571" y="176"></tspan>
+            </text>
+        </g>
+    </g>
+</svg>
