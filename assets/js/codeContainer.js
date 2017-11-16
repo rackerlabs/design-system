@@ -10,9 +10,16 @@ var CODELIB = CODELIB || ( function() {
           // console.log(data);
           // $(data).find(".demo").appendTo( ".code-container" );
           var re = new RegExp("(-{3})([\s\S]*?)({% block content %})");
-          var cleanedData = data.replace(re,"");
-          console.log(cleanedData);
-          $( ".code-container" ).append( cleanedData );
+          var mappedClean = {
+            obj1:"{% code 'html' %}",
+            obj2:"{% endcode %}",
+            obj3:"{% endblock %}"
+          };
+          for (var objected in mappedClean) {
+            data = data.replace(objected, "");
+          }
+          console.log(data.replace(re, ""));
+          $( ".code-container" ).append( data );
         }, "text");
       }
     };

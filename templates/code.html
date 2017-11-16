@@ -25,18 +25,16 @@ layout: base
 </div>
 
 
-<div id="comcode" class="container comcode-tab">
-  <div class="row">
-    <p>
-      {%- for item in site.component_design -%}
-        {%- if page.title == item.title -%}
-          <a href="{{site.url}}{{item.url}}.html">Design Guidelines</a>
-        {%- endif -%}
-      {%- endfor -%} |
-      <a href="{{site.url}}{{page.url}}.html">Code &amp; Examples</a>
-    </p>
+<article class="content-wrapper">
+  <div class="com-code">
+    {%- for item in site.component_design -%}
+      {%- if page.title == item.title -%}
+        <a href="{{site.url}}{{item.url}}.html">Design Guidelines</a>
+      {%- endif -%}
+    {%- endfor -%} |
+    <a href="{{site.url}}{{page.url}}.html">Code &amp; Examples</a>
   </div>
-</div>
-<article>
-  {{content}}
+  <div class="component-content">
+    {{content}}
+  </div>
 </article>
