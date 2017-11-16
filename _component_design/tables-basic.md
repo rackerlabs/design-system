@@ -163,13 +163,13 @@ When using the check box icon within a table, each row supports the following st
 
 ### Dual line text table
 
-This variation of the basic table pattern is designed to allow for specialized content where cells need to display two lines of content.
+This variation of the basic table pattern is designed to allow the display of two lines of text.
 
 #### When to use
 
 This variation is used in the following situations: 
 
-- When a key has two values that are meaningfully related to each other and require display within the same cell. For example, last updated cell in the image to the left.
+- When a key has two values that are meaningfully related to each other and require display within the same cell. For example, last updated cell in the image to the right.
 - When two independent key:values are more meaningful displayed together.
 
 {% endcolumn %}
