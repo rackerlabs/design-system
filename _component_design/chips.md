@@ -21,13 +21,14 @@ last-modified: 2017-08-17
 
 ### When to use
 
-- lorem
-- ipsum
+- Chips are best used with indicating a list of items that may be part of a different workflow. For example, requestors on tickets can be added and removed or management tasks that can be performed by requestors. Devices also offer a good option for chip use. 
+
 
 ### Best practices
 
-- lorem
-- ipsum
+- Avoid using chips in multiply locations on apage. 
+- Make sure the user is well aware of what the chip is. 
+- Using the expanded version can help ensure the information needed by the user is visible.
 
 {% endcolumn %}
 
