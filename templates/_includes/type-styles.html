@@ -5,42 +5,42 @@
     </div>
     <div class="specs">
       <dl>
-        {% if include.typeface %}
+        {%- if include.typeface -%}
         <dt class="hxSubdued">Typeface:</dt>
         <dd>{{include.typeface}}</dd>
-        {% endif %}
-        {% if include.weight %}
+        {%- endif -%}
+        {%- if include.weight -%}
         <dt class="hxSubdued">Weight:</dt>
         <dd>{{include.weight}}</dd>
-        {% endif %}
-        {% if include.fontsize %}
+        {%- endif -%}
+        {%- if include.fontsize -%}
         <dt class="hxSubdued">Size:</dt>
         <dd>{{include.fontsize}}</dd>
-        {% endif %}
-        {% if include.csscode %}
+        {%- endif -%}
+        {%- if include.csscode -%}
         <dt class="hxSubdued">Color:</dt>
         <dd>{{include.csscode}}, {{include.hex}}</dd>
-        {% endif %}
-        {% if include.linespace %}
+        {%- endif -%}
+        {%- if include.linespace -%}
         <dt class="hxSubdued">Line Height:</dt>
         <dd>{{include.linespace}}</dd>
-        {% endif %}
-        {% if include.bottomspace %}
+        {%- endif -%}
+        {%- if include.bottomspace -%}
         <dt class="hxSubdued">Bottom Spacing:</dt>
         <dd>{{include.bottomspace}}</dd>
-        {% endif %}
-        {% if include.default %}
+        {%- endif -%}
+        {%- if include.default -%}
         <dt class="hxSubdued">Default:</dt>
         <dd>{{include.default}}</dd>
-        {% endif %}
-        {% if include.hover %}
+        {%- endif -%}
+        {%- if include.hover -%}
         <dt class="hxSubdued">Hover / Pressed:</dt>
         <dd>{{include.hover}}</dd>
-        {% endif %}
-        {% if include.disabled %}
+        {%- endif -%}
+        {%- if include.disabled -%}
         <dt class="hxSubdued">Disabled:</dt>
         <dd>{{include.disabled}}</dd>
-        {% endif %}
+        {%- endif -%}
       </dl>
     </div>
   </div>

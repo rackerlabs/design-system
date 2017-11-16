@@ -45,7 +45,7 @@ Use key-value pairs when a key, an identifier for data, needs either a text or v
 
 ## Specifications and states
 
-<div class="hxRow">
+<div class="hxRow" markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 Key-value pairs include the following specifications and states:

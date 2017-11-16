@@ -9,7 +9,7 @@ resource: true
 
 {% include toc.html %}
 
-# Responsive 12 Column Grid
+## Responsive 12 Column Grid
 
 The Helix grid is a customized Bootstrap-v3 responsive grid. It’s based on a
 12-column layout and has multiple tiers, one for each media query range. The
@@ -47,14 +47,14 @@ Resize your browser to see how columns scale and stack on smaller devices.
 
 <div id="device">
 
-  <h4>Single Column</h4>
+  <h4 class="hxContainerTitle">Single Column</h4>
   <div class="hxRow">
     <div class="hxCol-xs-12 hxCol-xs-12 hxCol-md-12">
       <div class="grid-bg">1/1</div>
     </div>
   </div>
 
-  <h4>Two Columns</h4>
+  <h4 class="hxContainerTitle">Two Columns</h4>
   <div class="hxRow">
     <div class="hxCol-md-6">
       <div class="grid-bg">1/2</div>
@@ -64,7 +64,7 @@ Resize your browser to see how columns scale and stack on smaller devices.
     </div>
   </div>
 
-  <h4>Three Columns</h4>
+  <h4 class="hxContainerTitle">Three Columns</h4>
   <div class="hxRow">
     <div class="hxCol-xs-12 hxCol-md-4">
       <div class="grid-bg">1/3</div>
@@ -77,7 +77,7 @@ Resize your browser to see how columns scale and stack on smaller devices.
     </div>
   </div>
 
-  <h4>Four Columns</h4>
+  <h4 class="hxContainerTitle">Four Columns</h4>
   <div class="hxRow">
     <div class="hxCol-xs-12 hxCol-sm-6 hxCol-md-3">
       <div class="grid-bg">1/4</div>
@@ -93,7 +93,7 @@ Resize your browser to see how columns scale and stack on smaller devices.
     </div>
   </div>
 
-  <h4>Mixed Columns</h4>
+  <h4 class="hxContainerTitle">Mixed Columns</h4>
   <div class="hxRow">
     <div class="hxCol-xs-12 hxCol-md-8">
       <div class="grid-bg">2/3</div>

@@ -15,8 +15,7 @@ last-modified: 2017-10-24
 
 ## Introduction
 
-<div class="hxRow">
-
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### When to use
@@ -25,12 +24,11 @@ Tables are the bread-and-butter component for displaying complex objects in a ne
 
 ### Best practice
 
-- Keep the column count to under seven. 
+- Keep the column count to under seven.
 - Keep visual clutter to a minimum to maintain a user's focus.
 - When organizing content in a table, focus on the user's primary task.
 - Preserve hierarchies from left to right. (Most important to least important)
 - Provide filtering and sorting table controls to allow users to interact with and select the most important information.
-
 
 {% endcolumn %}
 
@@ -39,13 +37,11 @@ Tables are the bread-and-butter component for displaying complex objects in a ne
 ![]({{site.url}}/assets/images/components/tables/basic-tables/tables-hero.svg)
 {% endfigure %}
 {% endcolumn %}
-
 </div>
 
 ## Default layout
 
-<div class="hxRow">
-
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 - Include the check box icon if a user needs to select or manipulate data within a table. This check box icon will always be the first element in a table row, see [table controls]({{site.baseurl}}/components/tables-controls.html).
@@ -64,15 +60,14 @@ Tables are the bread-and-butter component for displaying complex objects in a ne
 ![]({{site.url}}/assets/images/components/tables/basic-tables/tables-default.svg)
 {% endfigure %}
 {% endcolumn %}
-
 </div>
 
 ## Condensed table
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-The use of a condensed table provides for views that display either many or few results. 
+The use of a condensed table provides for views that display either many or few results.
 
 {% endcolumn %}
 
@@ -83,6 +78,7 @@ The use of a condensed table provides for views that display either many or few 
 {% endcolumn %}
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
 ### Small tables
 
 If presenting a small amount of information, a condensed table format allows for particular and concise presentation. In cases such as this, tables are preferred over bullet lists, or key-value lists.
@@ -94,13 +90,13 @@ If presenting a small amount of information, a condensed table format allows for
 ![]({{site.url}}/assets/images/components/tables/basic-tables/tables-small-condensed.svg)
 {% endfigure %}
 {% endcolumn %}
-
 </div>
 
-## Table states 
+## Table states
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
 ### Loading
 
 Use a gray placeholder to represent loading text to inform the user that the data is present, but not yet available.
@@ -114,9 +110,10 @@ Use a gray placeholder to represent loading text to inform the user that the dat
 {% endcolumn %}
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
 ### Empty
 
-Empty tables occur when no data is available or when a user has applied a filter that does not fit the table parameters. 
+Empty tables occur when no data is available or when a user has applied a filter that does not fit the table parameters.
 
 When no data is available due to an error occurring, the empty state is presented with textual hints that direct the user towards possible solutions in the event an error has occurred.
 
@@ -141,7 +138,6 @@ Examples of this direction include:
 When using the check box icon within a table, each row supports the following states:
 
 - **Hover state:** Indicates a row is currently hovered by a user.
-
 - **Selected state:** Indicates the check-box icon has been clicked.
 
 {% endcolumn %}
@@ -151,5 +147,4 @@ When using the check box icon within a table, each row supports the following st
 ![]({{site.url}}/assets/images/components/tables/basic-tables/tables-hover-selected.svg)
 {% endfigure %}
 {% endcolumn %}
-
 </div>

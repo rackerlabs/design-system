@@ -37,7 +37,7 @@ Growls should be used to communicate a completed action to a user.
 
 ### General Layout
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4" %}
 -   Growls should always appear in the bottom right corner
 

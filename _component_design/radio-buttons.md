@@ -37,7 +37,7 @@ last-modified: 2017-11-04
 
 </div>
 
-### Best practices 
+### Best practices
 
 <div class="hxRow" markdown="1">
 
@@ -68,7 +68,7 @@ A radio button group consists of a section label, followed by pairs of radio but
 #### Labeling:
 
 - Labels should start with a capital letter.
-- Labels should not have punctuation at the end, such as a period, unless more than one sentence is used. 
+- Labels should not have punctuation at the end, such as a period, unless more than one sentence is used.
 
 {% endcolumn %}
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
@@ -124,7 +124,7 @@ Form design best practices prohibit a radio button from existing in an error sta
 
 #### Error state - expanded
 
-The question with the error receives an asterisk. The asterisk position floats to the left, in the margin, not in vertical alignment with the text. The section label should remain in its natural vertical alignment. 
+The question with the error receives an asterisk. The asterisk position floats to the left, in the margin, not in vertical alignment with the text. The section label should remain in its natural vertical alignment.
 
 Only the option with the error receives error styling.
 
