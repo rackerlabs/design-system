@@ -15,7 +15,7 @@ last-modified: 2017-11-16
 
 ## Introduction
 
-<div class="hxRow">
+<div class="hxRow" markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
@@ -28,7 +28,7 @@ Chips are best used with indicating a list of items that may be part of a differ
 
 - Avoid using chips in multiple locations on a page. 
 - Ensure the user can concretely identify the item represented by the chip.
-- Using the expanded version can help ensure the information needed by the user is visible.
+<!-- - Using the expanded version can help ensure the information needed by the user is visible. -->
 
 {% endcolumn %}
 
@@ -40,7 +40,7 @@ Chips are best used with indicating a list of items that may be part of a differ
 
 </div>
 
-<div class="hxRow">
+<div class="hxRow" markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
@@ -58,7 +58,8 @@ The default chip is a single circle that contains a preview of the item the chip
 
 </div>
 
-<div class="hxRow">
+<!--
+<div class="hxRow" markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
@@ -76,7 +77,7 @@ Use expanded chips when the user needs additional context to differentiate the c
 
 </div>
 
-<div class="hxRow">
+<div class="hxRow" markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
@@ -96,4 +97,4 @@ For example, clicking a user chip allows the user to view their email address, p
 {% endcolumn %}
 
 </div>
-
+-->
