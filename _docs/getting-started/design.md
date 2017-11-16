@@ -12,7 +12,7 @@ last-modified: 2017-10-24
 
 
 <section>
-<div class="hxRow">
+<div class="hxRow" markdown="1">
 
 {% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
@@ -26,7 +26,7 @@ To create mockups using the Helix design language, you will need Sketch. [Downlo
 </section>
 
 <section>
-<div class="hxRow">
+<div class="hxRow" markdown="1">
 
 {% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
@@ -44,7 +44,7 @@ Use the following resources to communicate with the Helix designers and be infor
 </section>
 
 <section>
-<div class="hxRow">
+<div class="hxRow" markdown="1">
 
 {% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
@@ -62,7 +62,7 @@ Familiarize yourself with the concepts that define the Helix language. Through t
 </section>
 
 <section>
-<div class="hxRow">
+<div class="hxRow" markdown="1">
 
 {% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
