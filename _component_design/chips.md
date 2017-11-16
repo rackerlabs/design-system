@@ -14,31 +14,59 @@ last-modified: 2017-08-17
 {% include toc.html %}
 
 <div class="hxRow">
-{% column left:"hxCol" %}
-{% figure [caption:"Basic"] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/components/chips.svg){:width="100%"}
+
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### Default chip
+
+Default chip is a single circle that contains a preview of the item the chip represents. This can be either letters to indicate the name, an image to indicate a user, or a product icon to indicate the type of device.
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [caption:"Meet the assisted search drop-down menu"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/content-areas/chips/chips-default.png){: width="580px"}
 {% endfigure %}
 {% endcolumn %}
-{% column left:"hxCol" %}
-{% figure [caption:"With Icon"] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/components/chips-icon.svg){:width="100%"}
-{% endfigure %}
-{% endcolumn %}
-{% column right:"hxCol" %}
-{% figure [caption:"Delete"] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/components/chip-delete.svg){:width="100%"}
-{% endfigure %}
-{% endcolumn %}
+
 </div>
+
 <div class="hxRow">
-{% column left:"hxCol-4" %}
-{% figure [caption:"Hover"] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/components/chip-hover.svg){:width="100%"}
+
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### Expanded chip
+
+Expanded chips should be used when additional context is needed to differentiate the chip from the other chips or when the additional information is required by the user.
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [caption:"Meet the assisted search drop-down menu"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/content-areas/chips/chips-expanded.png){: width="624px"}
 {% endfigure %}
 {% endcolumn %}
-{% column right:"hxCol-4" %}
-{% figure [caption:"Tooltip"] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/components/chip-tooltip.svg){:width="100%"}
-{% endfigure %}
-{% endcolumn %}
+
 </div>
+
+<div class="hxRow">
+
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### Interactions
+
+Clicking a chip reveals additional related information in a card that overlays the chip. 
+
+For example: Click a user chip, allows the user to view email address, permissions, contact info, or other similar data. 
+
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [caption:"Meet the assisted search drop-down menu"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/content-areas/chips/chips-expanded-ixd.png){: width="624px"}
+{% endfigure %}
+{% endcolumn %}
+
+</div>
+
