@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>
+      {%- if page.title -%}{{ page.title }}
+      {%- else -%}{{ site.title }}{%- endif -%}
+    </title>
+    <meta name="description" content="{%- if page.excerpt -%}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{%- else -%}{{ site.description }}{%- endif -%}">
+
+    {%- include head-styles.html -%}
+
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' }}">
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}/feed.xml">
+
+    {%- include head-polyfills.html -%}
+  </head>
+  <body class="hxApp">
+    <div class="hxApp__container page-wrapper">
+      {%- include nav.html -%}
+      <main class="hxApp__content page-content">
+        <div class="base-top-bar">
+          <div class="content-wrapper">
+          <div class="hxRow">
+            <div class="hxCol-8">
+              <nav class="hxBreadcrumb">
+                <a href="{{site.url}}/components/index.html">{{page.category}}</a>
+                <hx-icon class="delimiter" type="angle-right"></hx-icon>
+                <a href="{{site.url}}/components/{{page.parent | slugify}}.html">{{page.parent}}</a>
+                <hx-icon class="delimiter" type="angle-right"></hx-icon>
+                <a href="{{page.url}}">{{page.title}}</a>
+              </nav>
+            </div>
+            <div class="hxCol-2">
+              <button class="hxBtn hxBtn--primary hxBtn--sm">Submit issue</button>
+            </div>
+            <div class="hxCol-2">
+              <button class="hxBtn hxBtn--primary hxBtn--sm">Sketch template</button>
+            </div>
+          </div>
+        </div>
+      </div>
+        {{ content }}
+      </main>
+    </div>
+    {%- include footer.html -%}
+  </body>
+</html>

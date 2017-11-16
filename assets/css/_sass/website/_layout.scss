@@ -1,0 +1,311 @@
+html {
+  box-sizing: border-box;
+  height: 100%;
+  font-size: $base-font-size;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  background-color: $grey0 !important;
+  line-height: $base-line-height;
+  overflow-x: hidden;
+  box-sizing: inherit;
+  padding: 0px;
+  margin: 0px;
+}
+
+nav.side {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    min-height: 100vh;
+    .logo {
+        display: block;
+        position: relative;
+        a {
+          padding: 0 !important;
+          &:hover {
+            background: $grey975 !important;
+            cursor: pointer;
+          }
+        }
+        img {
+          height: 26px;
+          width: 122px;
+          position: relative;
+          margin: 16px auto 28px auto;
+        }
+    }
+}
+
+hr {
+  margin-bottom: 1.75rem;
+  margin-top: 1.75rem;
+  border: none;
+}
+
+/**
+ * Page layout
+ */
+.page-wrapper {
+  display: flex;
+  min-height: 100%;
+  .page-content {
+    box-sizing: border-box;
+    overflowY: scroll;
+    flex: 1;
+    padding: 0px 0px !important;
+  }
+};
+
+/**
+ * Content styles
+ */
+.content-wrapper {
+  position: relative;
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: 0 $paddingXL;
+  overflow: hidden;
+
+  &:first-child {
+    border-bottom: none;
+  }
+  /* border-bottom: 1px solid $grey300; this will be uncommented once the rest of the content is edited to use less article tags on a page, the border-bottom segmentation works best when articles have multiple rows and plenty of content */
+  ul {
+    font-size: inherit;
+    -webkit-margin-before: 0;
+    margin-before: 0;
+    padding-start: 20px;
+    -webkit-padding-start: 20px;
+    li {
+      padding-bottom: 0.6em;
+      line-height: $base-line-height;
+    }
+    ul {
+      font-size: inherit;
+      li {
+        font-size: inherit;
+      }
+    }
+  }
+}
+
+.docs-content {
+  margin: $paddingXL 0;
+}
+
+a.anchor {
+  position: absolute;
+  top: 0;
+}
+
+a {
+  &.hover,
+  &.active {
+    color: $blue500;
+    cursor: pointer;
+    text-decoration: none;
+  }
+}
+
+.ws-todo-bar{
+  background-color:$purple500;
+  border-radius:2px;
+  color:white;
+  padding:$paddingXS $paddingS !important;
+  @include font-smoothing(antialiased);
+  a {
+    color:#FBC02D;
+    font-weight: $medium-weight;
+  }
+  a:hover, a:active{
+    color: #FFEB3B;
+  }
+}
+
+.status {
+  background-color: $grey300;
+  padding: $paddingXS $paddingS;
+  border-radius: 12px;
+  font-weight: $regular-weight;
+  font-size: $font-size-1;
+  letter-spacing:0.5px;
+  color: #fff;
+  vertical-align: 4px;
+  white-space: nowrap;
+  margin-left: 2em;
+  display:inline-block;
+}
+
+.prototype {
+  background-color: $purple;
+}
+
+.dev-ready {
+  background-color: $green;
+}
+
+.deprecated {
+  background-color: $red;
+}
+
+video {
+  width: 900px;
+  height: auto;
+  max-width: 100%;
+}
+
+figure:not(figcaption) {
+  margin: 0 0 8px 0;
+}
+
+figcaption {
+  color: $grey800;
+  font-size: $font-size-1;
+  margin: 0;
+  line-height: $base-line-height;
+  font-weight: $light-weight;
+  margin: 0 0 8px 0;
+}
+
+p {
+  font-size: $font-size-3;
+  line-height: $base-line-height;
+  margin-top: 0;
+}
+
+pre {
+  padding: 8px 12px;
+  background: $grey100;
+  color: $grey950;
+  border-radius: 2px;
+}
+
+.image {
+  text-align: center;
+  height: 100%;
+  padding: 3rem 2rem;
+  &.bg-light {
+    background-color: $grey25;
+  }
+  &.border {
+    border: 1px solid $grey400;
+  }
+  img {
+    max-width: 100%;
+  }
+}
+
+*, ::before, ::after {
+  box-sizing: inherit;
+}
+
+.type-demo {
+  background-color: $grey25;
+  border: 1px solid $grey300;
+  min-height: 190px;
+  padding: 20px;
+  box-sizing: inherit;
+  margin-bottom: 1.25rem;
+
+  .example {
+    padding-right: 1.25rem;
+    width: 50%;
+    float: left;
+  }
+  .specs {
+    border-left: 1px solid $grey300;
+    float: left;
+    dl {
+      font-size: $font-size-3;
+      margin-left: 20px;
+      margin-top: 0;
+      dt, dd {
+        float: left;
+      }
+      dt {
+        clear: both;
+        margin-bottom: 4px;
+      }
+      dd {
+        color: $grey900;
+        margin-left: 4px;
+        margin-bottom: 4px;
+      }
+    }
+  }
+}
+
+
+/**
+ * Dynamic Anchor List Styles
+ */
+
+#markdown-toc {
+  list-style-type: none;
+  text-transform: capitalize;
+  ul {
+    list-style-type: none;
+    li {
+      font-size: $base-font-size;
+      line-height: $base-line-height;
+      a {
+        font-size: $base-font-size;
+      }
+    }
+  }
+}
+
+/**
+ * Categories layout
+ */
+
+.category-card {
+  border-spacing: 20px;
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  padding: 1em;
+  border-radius: 2px;
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  border: 1px solid $grey300;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08), 0 1px 2px rgba(0,0,0,0.16);
+  &:hover {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08), 0 5px 10px rgba(0,0,0,0.16);
+  }
+  h1 {
+    font-weight: $regular-weight;
+    margin: 0;
+    text-decoration: none;
+  }
+  img{
+    display: inline-block;
+    text-align: center;
+    margin: 20px 0;
+    width: 100%;
+    max-width: 100%;
+    max-height: 100px;
+  }
+  a {
+    color: $grey950;
+    text-decoration: none;
+    &:hover {
+      &h1 {
+        text-decoration: none !important;
+      }
+      text-decoration: none !important;
+    }
+  }
+}
+
+.ws-sum-con{
+    padding: 20px;
+}
+
+@media (min-width: 1280px) {
+  .container-fluid {
+    max-width: 1100px;
+  }
+}

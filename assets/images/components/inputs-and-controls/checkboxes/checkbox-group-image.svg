@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="462px" height="216px" viewBox="0 0 462 216" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>checkbox-group-image</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="7 3.5 0 7 0 0"></polygon>
+        <polygon id="path-2" points="7 3.5 0 7 0 0"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="checkbox-group-image">
+            <g id="Checkbox-Group-Specs" transform="translate(22.000000, 25.000000)">
+                <g id="Checkbox-Group-Image">
+                    <g id="Checkbox-Group" transform="translate(4.000000, 18.000000)">
+                        <text id="Selector-Title" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" letter-spacing="0.0839999989" fill="#616161">
+                            <tspan x="0" y="13">Selector Title</tspan>
+                        </text>
+                        <text id="Option-1" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" letter-spacing="-0.003" fill="#333333">
+                            <tspan x="23.5" y="34">O</tspan>
+                            <tspan x="34.497" y="34" letter-spacing="0.005">ption</tspan>
+                            <tspan x="70.5610625" y="34"> </tspan>
+                            <tspan x="74.519" y="34" letter-spacing="0.005">1</tspan>
+                        </text>
+                        <text id="Option-1" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" letter-spacing="-0.003" fill="#333333">
+                            <tspan x="23.5" y="66">O</tspan>
+                            <tspan x="34.497" y="66" letter-spacing="0.005">ption</tspan>
+                            <tspan x="70.5610625" y="66"> </tspan>
+                            <tspan x="74.519" y="66" letter-spacing="0.005">1</tspan>
+                        </text>
+                        <text id="Option-1" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" letter-spacing="-0.003" fill="#333333">
+                            <tspan x="23.5" y="86">O</tspan>
+                            <tspan x="34.497" y="86" letter-spacing="0.005">ption</tspan>
+                            <tspan x="70.5610625" y="86"> </tspan>
+                            <tspan x="74.519" y="86" letter-spacing="0.005">1</tspan>
+                        </text>
+                        <path d="M2,88.5 C1.173,88.5 0.5,87.827 0.5,87 L0.5,75 C0.5,74.173 1.173,73.5 2,73.5 L14,73.5 C14.827,73.5 15.5,74.173 15.5,75 L15.5,87 C15.5,87.827 14.827,88.5 14,88.5 L2,88.5 Z" id="Fill-60" stroke="#BDBDBD" fill="#FFFFFF"></path>
+                        <path d="M2,68.5 C1.173,68.5 0.5,67.827 0.5,67 L0.5,55 C0.5,54.173 1.173,53.5 2,53.5 L14,53.5 C14.827,53.5 15.5,54.173 15.5,55 L15.5,67 C15.5,67.827 14.827,68.5 14,68.5 L2,68.5 Z" id="Fill-60-Copy-5" stroke="#BDBDBD" fill="#FFFFFF"></path>
+                        <path d="M2,36.5 C1.173,36.5 0.5,35.827 0.5,35 L0.5,23 C0.5,22.173 1.173,21.5 2,21.5 L14,21.5 C14.827,21.5 15.5,22.173 15.5,23 L15.5,35 C15.5,35.827 14.827,36.5 14,36.5 L2,36.5 Z" id="Fill-60-Copy-6" stroke="#BDBDBD" fill="#FFFFFF"></path>
+                        <text id="Option-1-support-text" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" letter-spacing="-0.001" fill="#6B6B6B">
+                            <tspan x="24.5" y="47">O</tspan>
+                            <tspan x="32.749" y="47" letter-spacing="0.005">ption </tspan>
+                            <tspan x="62.779" y="47">1</tspan>
+                            <tspan x="69.5162813" y="47" letter-spacing="0.005"> </tspan>
+                            <tspan x="72.4919844" y="47">s</tspan>
+                            <tspan x="78.6784844" y="47" letter-spacing="0.005">uppo</tspan>
+                            <tspan x="105.622313" y="47" letter-spacing="0.3026">r</tspan>
+                            <tspan x="110.278428" y="47" letter-spacing="0.005">t text</tspan>
+                        </text>
+                    </g>
+                    <g id="Annotation">
+                        <text id="Vertical-Spacing-wit" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" letter-spacing="-0.2544" fill="#9E9E9E">
+                            <tspan x="4.5" y="150">V</tspan>
+                            <tspan x="11.6225531" y="150">e</tspan>
+                            <tspan x="17.979975" y="150" letter-spacing="0.2976">r</tspan>
+                            <tspan x="22.6310906" y="150">tical Spacing with </tspan>
+                            <tspan x="4.5" y="164">optional description</tspan>
+                        </text>
+                        <g id="specs-/-spacing-/-inline-/-V-08px" transform="translate(20.500000, 39.500000)">
+                            <rect id="Rectangle-5-Copy-19" fill="#90D5B2" fill-rule="evenodd" x="0" y="0" width="8" height="16"></rect>
+                            <text id="8-copy-12" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#333333">
+                                <tspan x="1" y="10.68">8</tspan>
+                            </text>
+                        </g>
+                        <g id="specs-/-spacing-/-inline-/-V-08px" transform="translate(20.500000, 71.500000)">
+                            <rect id="Rectangle-5-Copy-19" fill="#90D5B2" fill-rule="evenodd" x="0" y="0" width="8" height="16"></rect>
+                            <text id="8-copy-12" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#333333">
+                                <tspan x="1" y="10.68">8</tspan>
+                            </text>
+                        </g>
+                        <g id="specs-/-spacing-/-inline-/-V-08px" transform="translate(20.500000, 91.500000)">
+                            <rect id="Rectangle-5-Copy-19" fill="#90D5B2" fill-rule="evenodd" x="0" y="0" width="8" height="16"></rect>
+                            <text id="8-copy-12" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#333333">
+                                <tspan x="1" y="10.68">8</tspan>
+                            </text>
+                        </g>
+                        <g id="specs-/-spacing-/-stack-/-H-04px" transform="translate(4.500000, 64.000000)">
+                            <rect id="Rectangle-3-Copy-6" fill="#9CC2EB" fill-rule="evenodd" x="0" y="3" width="85" height="4"></rect>
+                            <text id="4" font-family="Roboto-Regular, Roboto" font-size="8" font-weight="normal" fill="#333333">
+                                <tspan x="38.0263158" y="7">4</tspan>
+                            </text>
+                        </g>
+                        <g id="specs-/-spacing-/-stack-/-H-04px" transform="translate(4.500000, 84.000000)">
+                            <rect id="Rectangle-3-Copy-6" fill="#9CC2EB" fill-rule="evenodd" x="0" y="3" width="85" height="4"></rect>
+                            <text id="4" font-family="Roboto-Regular, Roboto" font-size="8" font-weight="normal" fill="#333333">
+                                <tspan x="38.0263158" y="7">4</tspan>
+                            </text>
+                        </g>
+                        <g id="specs-/-spacing-/-internal-/-H-20px" transform="translate(4.500000, 107.000000)">
+                            <rect id="Rectangle-3-Copy-5" fill="#F9CD94" fill-rule="evenodd" x="0" y="0" width="84" height="20"></rect>
+                            <text id="20" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#333333">
+                                <tspan x="36.12" y="13">20</tspan>
+                            </text>
+                        </g>
+                        <g id="specs-/-spacing-/-internal-/-H-20px" transform="translate(4.000000, 0.000000)">
+                            <rect id="Rectangle-3-Copy-5" fill="#F9CD94" fill-rule="evenodd" x="0" y="0" width="84" height="20"></rect>
+                            <text id="20" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#333333">
+                                <tspan x="36.12" y="13">20</tspan>
+                            </text>
+                        </g>
+                        <g id="specs-/-spacing-/-stack-/-H-08px" transform="translate(4.500000, 28.000000)">
+                            <rect id="Rectangle-3" fill="#9CC2EB" fill-rule="evenodd" x="0" y="3" width="85" height="8"></rect>
+                            <text id="8" font-family="Roboto-Regular, Roboto" font-size="10" font-weight="normal" fill="#333333">
+                                <tspan x="39.1447368" y="10">8</tspan>
+                            </text>
+                        </g>
+                        <g id="Horizonal-Spacing" transform="translate(20.500000, 39.000000)"></g>
+                        <g id="Support-Text-Annotation" transform="translate(0.500000, 51.000000)">
+                            <text id="1" font-family="Roboto-Regular, Roboto" font-size="8" font-weight="normal" letter-spacing="0.050545454" fill="#333333">
+                                <tspan x="0" y="7">1</tspan>
+                            </text>
+                            <polygon id="Fill-103" fill="#9CC2EB" points="4 5 89 5 89 4 4 4"></polygon>
+                        </g>
+                        <g id="Group-2" transform="translate(102.000000, 13.000000)">
+                            <g id="specs-/-redlines-/-line-inclusive" transform="translate(40.000000, 14.000000) scale(-1, 1) translate(-40.000000, -14.000000) translate(0.500000, 0.000000)">
+                                <path d="M0,13.86 L79,13.86" id="redline-line" stroke="#EC407A" stroke-width="1"></path>
+                                <g id="specs-/-redlines-/-line-end-/-arrow" transform="translate(72.000000, 10.360000)">
+                                    <g id="redline-end">
+                                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                                        <path stroke="#EC407A" stroke-width="1" d="M5.88196601,3.5 L0.5,0.809016994 L0.5,6.19098301 L5.88196601,3.5 Z"></path>
+                                    </g>
+                                </g>
+                                <path d="M0.291044776,0.14 L0.291044776,27.86" id="Line" stroke="#F0367A" stroke-width="1" stroke-linecap="square"></path>
+                            </g>
+                        </g>
+                        <g id="Group-2-Copy" transform="translate(144.000000, 13.000000)">
+                            <g id="specs-/-redlines-/-line-inclusive" transform="translate(50.500000, 49.000000) scale(-1, 1) translate(-50.500000, -49.000000) translate(0.500000, 35.000000)">
+                                <path d="M0,13.86 L100,13.86" id="redline-line" stroke="#EC407A" stroke-width="1"></path>
+                                <g id="specs-/-redlines-/-line-end-/-arrow" transform="translate(93.000000, 10.360000)">
+                                    <g id="redline-end">
+                                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                                        <path stroke="#EC407A" stroke-width="1" d="M5.88196601,3.5 L0.5,0.809016994 L0.5,6.19098301 L5.88196601,3.5 Z"></path>
+                                    </g>
+                                </g>
+                                <path d="M0.5,0.14 L0.5,27.86" id="Line" stroke="#F0367A" stroke-width="1" stroke-linecap="square"></path>
+                            </g>
+                            <g id="specs-/-redlines-/-label" transform="translate(107.500000, 33.000000)" font-size="12" font-family="Roboto-Regular, Roboto" fill="#EC407A" font-weight="normal">
+                                <text id="redline-label">
+                                    <tspan x="0" y="11">label font: roboto, regular, 12 px</tspan>
+                                </text>
+                            </g>
+                            <g id="specs-/-redlines-/-label" transform="translate(107.500000, 45.000000)" font-size="12" font-family="Roboto-Regular, Roboto" fill="#EC407A" font-weight="normal">
+                                <text id="redline-label">
+                                    <tspan x="0" y="11">#6b6b6b (gray 750)</tspan>
+                                </text>
+                            </g>
+                            <text id="label-font:-roboto," font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#EC407A">
+                                <tspan x="47" y="11.5">label font: roboto, regular 14pt</tspan>
+                                <tspan x="47" y="25.5">label color #616161 (gray 800)</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
