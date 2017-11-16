@@ -32,7 +32,7 @@ Notifications.
 
 ## Eyebrow (Utility Nav)
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-md-4" %}
 The eyebrow is more commonly referred to as the Pilot API Nav Header within the
 application frame because it provides for easy switching between product lines
@@ -67,7 +67,7 @@ Notifications, and Ticketing. For detailed specs, see the
 </div>
 
 ### Eyebrow (left side)
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-md-4" %}
 The left side of the eyebrow is comprised of the platform dashboard button and
 product switcher dropdowns. The item currently displayed in the content area +
@@ -89,7 +89,7 @@ navigation section is reflected via the selected state beneath it.
 
 ### Eyebrow (right side)
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-md-4" %}
 The right side of the eyebrow menu is comprised of the user name section and
 platform level services button groups.
@@ -112,7 +112,7 @@ platform level services button groups.
 </div>
 
 ## Off Canvas
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-md-4" %}
 Offcanvas panels are panels that serve from the global layer. Panels can
 either be offcanvas left or right dependent upon the type of content being
@@ -132,7 +132,7 @@ has three states: Hidden, Toggled, and Extended.
 
 ## Global Dashboard
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-md-4" %}
 The Global Dashboard is an special offcanvas element that is toggled via the
 Global DB button (Rackspace logo), the left most element on the Global eyebrow.

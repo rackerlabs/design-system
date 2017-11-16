@@ -15,8 +15,7 @@ last-modified: 2017-10-24
 
 ## Introduction
 
-<div class="hxRow">
-
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-3 hxCol-xs-12 hxCol-sm-12 hxCol-md-3 hxCol-lg-3" %}
 
 ### When to use
@@ -40,15 +39,14 @@ The table pattern has multiple controls that are used to interact with the conte
 ![]({{site.url}}/assets/images/components/tables/controls-tables/tables-hero-row.svg)
 {% endfigure %}
 {% endcolumn %}
-
 </div>
 
 
-<div id="top" class="hxRow">
-
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ## Table controls - top
+{: id="top"}
 
 The following controls may be found at the top of the table:
 
@@ -58,7 +56,7 @@ The following controls may be found at the top of the table:
 - Select actions
 - Sorting actions
 - Search actions
- 
+
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
@@ -66,14 +64,12 @@ The following controls may be found at the top of the table:
 ![]({{site.url}}/assets/images/components/tables/controls-tables/tables-controls-top.svg)
 {% endfigure %}
 {% endcolumn %}
-
 </div>
 
-<div class="hxRow">
-
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-### Filter 
+### Filter
 
 The filter button is a specialized button used on top of a table. It is **always** the final button in a button group. Filter buttons come in the following variations:
 
@@ -88,21 +84,16 @@ The filter button is a specialized button used on top of a table. It is **always
 {% figure [caption:"Filter regular/compact variations"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/tables/controls-tables/tables-filter-1.svg)
 {% endfigure %}
-
 {% endcolumn %}
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-
 {% figure [caption:"Filter buttons trancated/truncated-compact variations"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/tables/controls-tables/tables-filter-2.svg)
 {% endfigure %}
-
 {% endcolumn %}
-
 </div>
 
-<div id="top" class="hxRow">
-
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Sorting
@@ -111,7 +102,7 @@ Apply sorting to table headers via a click interaction and an icon visual indica
 
 - Ascending
 - Descending
-- Hover 
+- Hover
 
 {% endcolumn %}
 
@@ -119,16 +110,14 @@ Apply sorting to table headers via a click interaction and an icon visual indica
 {% figure [caption:"Sorting states and icons"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/tables/controls-tables/tables-sorting.svg)
 {% endfigure %}
-
 {% endcolumn %}
-
 </div>
 
-<div id="below" class="hxRow">
-
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ## Table controls - below
+{: id="below"}
 
 The following controls can be found on the bottom of a table:
 
@@ -137,7 +126,7 @@ The following controls can be found on the bottom of a table:
 - Pagination actions
 - Select actions
 - Number items displayed actions
- 
+
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
@@ -145,11 +134,9 @@ The following controls can be found on the bottom of a table:
 ![]({{site.url}}/assets/images/components/tables/controls-tables/tables-controls-bottom.svg)
 {% endfigure %}
 {% endcolumn %}
-
 </div>
 
-<div class="hxRow">
-
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Pagination
@@ -162,24 +149,20 @@ The page you view is determined by the pagination controls group.
 {% figure [caption:"Filter regular/compact variations"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/tables/controls-tables/tables-pagination-1.svg)
 {% endfigure %}
-
 {% endcolumn %}
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-
 {% figure [caption:"Filter buttons trancated/truncated-compact variations"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/tables/controls-tables/tables-pagination-2.svg)
 {% endfigure %}
-
 {% endcolumn %}
-
 </div>
 
-<div id="within" class="hxRow">
-
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ## Table controls - row
+{: id="within"}
 
 The following controls may be found inside a table:
 
@@ -188,19 +171,17 @@ The following controls may be found inside a table:
 - Sort table actions
 - Expand table row
 - Retract / truncate table row
- 
+
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% figure [caption:"Spacing specifications for controls placed within a table row. **not to scale**"] [class:"image bg-light border"] %}          
+{% figure [caption:"Spacing specifications for controls placed within a table row. **not to scale**"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/tables/controls-tables/tables-controls-within.svg)
 {% endfigure %}
 {% endcolumn %}
-
 </div>
 
-<div id="within" class="hxRow">
-
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Actions cog
@@ -216,15 +197,13 @@ To ensure proper use, follow these guidelines:
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% figure [caption:"Actions cog triggered. **not to scale**"] [class:"image bg-light border"] %}          
+{% figure [caption:"Actions cog triggered. **not to scale**"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/tables/controls-tables/tables-actions-ixd.svg)
 {% endfigure %}
 {% endcolumn %}
-
 </div>
 
-<div id="within" class="hxRow">
-
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Variations and icon spacing
@@ -233,7 +212,7 @@ To ensure proper use, follow these guidelines:
 
 - If a check-box is present, it is **always** the first option for clarity.
 - If the actions cog is present and a check-box is not present, the cog becomes the **first** option.
-- Icons should be 16 px wide with 20 px spacing on both sides.
+- Icons should be 16px wide with 20px spacing on both sides.
 
 {% endcolumn %}
 
@@ -245,8 +224,7 @@ To ensure proper use, follow these guidelines:
 
 </div>
 
-<div id="within" class="hxRow">
-
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Bulk selection
@@ -260,22 +238,20 @@ Apply the primary and secondary action buttons to the row set after the selectio
 
 **Indeterminate:** ( 1 to _n_-1 where _n_ is the total # of visible rows)
 
-- Dash in check-box icon. Text feedback “[#] selected”. Link text “Select all [#].”
+- Dash in check-box icon. Text feedback "[#] selected". Link text "Select all [#]."
 - Clicking the indeterminate state, bulk select icon deselects all visible records.
 - Clicking “Select all [#].” Text link selects all visible records.
 
 **All Selected:**
 
-- Check in check-box icon, text feedback beside action “All [#] selected.”.
+- Check in check-box icon, text feedback beside action "All [#] selected."
 - Clicking the checked state, bulk select icon deselects all visible records.
+
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% figure [caption:"Bulk Selection interaction lifecycle. **not to scale**"] [class:"image bg-light border"] %}          
+{% figure [caption:"Bulk Selection interaction lifecycle. **not to scale**"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/tables/controls-tables/tables-bulk-select.svg)
 {% endfigure %}
 {% endcolumn %}
-
 </div>
-
-

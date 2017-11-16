@@ -23,7 +23,6 @@ nav.side {
     min-height: 100vh;
     .logo {
         display: block;
-        // height: 98px;
         position: relative;
         a {
           padding: 0 !important;
@@ -120,36 +119,6 @@ a {
     color: #FFEB3B;
   }
 }
-
-// .update{
-//   background-color:$magenta900;
-//   border-radius:2px;
-//   color:white;
-//   padding:$paddingXS $paddingS !important;
-//   @include font-smoothing(antialiased);
-//   a {
-//     color:#FBC02D;
-//     font-weight: $medium-weight;
-//   }
-//   a:hover, a:active{
-//     color: #FFEB3B;
-//   }
-// }
-//
-// .update-mh{
-//   background-color:$grey-color-dark;
-//   border-radius:2px;
-//   color:white;
-//   padding:$paddingXS $paddingS !important;
-//   @include font-smoothing(antialiased);
-//   a {
-//     color:#FBC02D;
-//     font-weight: $medium-weight;
-//   }
-//   a:hover, a:active{
-//     color: #FFEB3B;
-//   }
-// }
 
 .status {
   background-color: $grey300;
@@ -273,16 +242,12 @@ pre {
   list-style-type: none;
   text-transform: capitalize;
   ul {
-    // padding-left: 0px;
     list-style-type: none;
     li {
       font-size: $base-font-size;
-      color: $cyan700;
-      // padding: 1em 0em 0.2em 2em;
       line-height: $base-line-height;
       a {
         font-size: $base-font-size;
-        color: inherit;
       }
     }
   }
@@ -336,6 +301,5 @@ pre {
 @media (min-width: 1280px) {
   .container-fluid {
     max-width: 1100px;
-    // background-color: $grey-color-dark;
   }
 }

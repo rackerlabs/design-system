@@ -16,19 +16,17 @@ last-modified: 2017-10-22
 
 ## Introduction
 
-<div class="hxRow">
-
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### When to Use
-{: .hxSubSectionTitle}
-Popovers are triggered as a result of a user action and provide a user with additional context through language, actions through buttons, or both. 
+
+Popovers are triggered as a result of a user action and provide a user with additional context through language, actions through buttons, or both.
 
 You can use popovers for short create or edit workflows and are particularly useful if context from the page is needed while making the change. Consider creating a new page if a large workflow is required.
 
 
 ### Best practices
-
 
 - Avoid opening a popover from within another popover.
 - Open popovers by clicking them and never from a hover.
@@ -43,15 +41,14 @@ You can use popovers for short create or edit workflows and are particularly use
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Meet the popover pattern"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/popovers/popover-hero-image.svg){:width="100%"}
+![]({{site.url}}/assets/images/components/content-areas/popovers/popover-hero-image.svg)
 {% endfigure %}
 {% endcolumn %}
-
 </div>
 
-## Default layout 
+## Default layout
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 The most defining aspects of a popover are the container and the pointer. The container appears on top of the canvas. The pointer points to the popover trigger. Pointers can be used on either side of the four corners.
@@ -60,60 +57,55 @@ The most defining aspects of a popover are the container and the pointer. The co
 - The content area can include text, inputs, or interactive content like a table or visualization.
 
 {% endcolumn %}
+
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"A popover consists of a panel, contextual pointer, heading, and buttons."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/popovers/popover-default-layout.svg){:width="80%"}
+![]({{site.url}}/assets/images/components/content-areas/popovers/popover-default-layout.svg)
 {% endfigure %}
 {% endcolumn %}
 </div>
 
-## Pattern specifications 
+## Pattern specifications
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Popover Spacing
 
-
 See [inputs and controls]({{site.baseurl}}/components/inputs-and-controls.html) for specifications that describe laying out form fields and body text within a popover.
-
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Popover spacing specifications"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/popovers/popover-spacing.svg){:width="80%"}
+![]({{site.url}}/assets/images/components/content-areas/popovers/popover-spacing.svg)
 {% endfigure %}
 {% endcolumn %}
-
 </div>
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Popover specifications
 
-
 - Popovers **always** have a `box-shadow` applied.
-- Popovers **should not** be larger than 500 x 500 px. 
+- Popovers **should not** be larger than 500 x 500 px.
 
 {% include note.html content="If more space is required, solve the design challenge with a different Helix pattern."%}
-
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Popover redline specifications"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/popovers/popover-specs.svg){:width="80%"}
+![]({{site.url}}/assets/images/components/content-areas/popovers/popover-specs.svg)
 {% endfigure %}
 {% endcolumn %}
 </div>
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Pointer size and placement
-
 
 The pointer is 16 px wide at the base. The apex is 8 px from the side of the rectangle. The pointer should start 12 px from the corner. The side from which the pointer protrudes depends on the location of the trigger on the screen.
 
@@ -125,14 +117,14 @@ The pointer is 16 px wide at the base. The apex is 8 px from the side of the rec
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Pointer specifications and pointer placement variations"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/popovers/popover-pointer-size-placement.svg){:width="80%"}
+![]({{site.url}}/assets/images/components/content-areas/popovers/popover-pointer-size-placement.svg)
 {% endfigure %}
 {% endcolumn %}
 </div>
 
 ## Types of popovers
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Small create or edit popover
@@ -143,30 +135,30 @@ You can use popovers for small create or edit workflows that must remain in cont
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"A popover with a small create workflow"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/popovers/popover-small-create-edit-popover.svg){:width="80%"}
+![]({{site.url}}/assets/images/components/content-areas/popovers/popover-small-create-edit-popover.svg)
 {% endfigure %}
 {% endcolumn %}
 </div>
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Large hidden content
 
 A popover may be used to reveal hidden content so the information is still accessible but doesn’t clutter the screen.
 
-In this instance, a popover is preferable to a [tooltip]({{site.baseurl}}/components/tooltip.html) if the content is dynamic or interactive. For example, when presenting the user with a table or visualization. 
+In this instance, a popover is preferable to a [tooltip]({{site.baseurl}}/components/tooltip.html) if the content is dynamic or interactive. For example, when presenting the user with a table or visualization.
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"An interactive informational popover."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/popovers/popover-large-hidden-content.svg){:width="80%"}
+![]({{site.url}}/assets/images/components/content-areas/popovers/popover-large-hidden-content.svg)
 {% endfigure %}
 {% endcolumn %}
 </div>
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Loading
@@ -177,7 +169,7 @@ Use a simple loading circle to load a popover. Refer to the [Loading]({{site.bas
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"A popover in loading state using a spinner"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/popovers/popover-loading.svg){:width="80%"}
+![]({{site.url}}/assets/images/components/content-areas/popovers/popover-loading.svg)
 {% endfigure %}
 {% endcolumn %}
 </div>
