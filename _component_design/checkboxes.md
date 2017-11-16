@@ -34,7 +34,7 @@ last-modified: 2017-11-07
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [The checkbox component] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-hero-image.svg)
+![]({{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-hero.png){:width="1440px"}
 {% endfigure %}
 {% endcolumn %}
 
