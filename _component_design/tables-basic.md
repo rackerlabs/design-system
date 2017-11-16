@@ -175,8 +175,8 @@ This variation is used in the following situations:
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% figure [caption:"Dual line text table example. **note to scale**"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/tables/basic-tables/tables-dualline-overview.svg)
+{% figure [caption:"Dual line text table example. **not to scale**"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/tables/basic-tables/tables-dualline-overview.png){:width="580px"}
 {% endfigure %}
 {% endcolumn %}
 
@@ -190,8 +190,8 @@ This variation is used in the following situations:
 
 - **Rule**: (**Important**) Each cell with more than one line of text must have a designated primary and secondary value.
 - **Rule**: In rows with the [table controls]({{site.baseurl}}/components/tables-controls.html) sorting pattern applied, the pattern will always sort based on the primary key.
-- **Suggestion**: Increase the `font-weight` (or make another meaningful distinction ) between the primary and secondary values in dual-line rows to make the sorting function more clear to a user.
-- **Suggestion**: Due to the amount of information presenting with this pattern, it performs best when paired with another pattern that allows for segmenting the table content. For example: [assisted search]({{site.baseurl}}/components/assisted-search.html).
+- **Suggestion**: Increase the `font-weight` between the primary and secondary values in dual-line rows to make the sorting function more clear to a user.
+- **Suggestion**: Due to the amount of information presented with this pattern, consider pairing it with [assisted search]({{site.baseurl}}/components/assisted-search.html) to allow more robust filtering of table content.
 
 {% endcolumn %}
 	
@@ -202,21 +202,21 @@ This variation is used in the following situations:
 
 #### Spacing
 
-The dual-line text variation follows all basic table with the following exceptions:
+Using the dual-line text variation impacts standard table layout in the following ways:
 
 - The top and bottom padding for cells moves from 20px to 16px.
 - Spacing between lines in dual-line rows are 10px apart. 
 	- Suggested implementation: apply 1.5em line height to dual-line rows
-- Line height for wrapped rows is modified to 12px.
-- In lines displaying two independent key:value pairs designate a primary key:value and a secondary key:value. The primary key:value has the `font-weight` increased to **bold**. 
-- In lines displaying a key with a pair of values that require a contextual icon, the key and supporting icon will be 4px apart. Icons are based on a base icon size of 16x16px.
+- Independent text rows have a line-height of 12px and get truncated instead of wrapping.
+- In lines displaying two independent text rows, emphasize the primary line (on top) by increasing its font weight to **bold**.
+- In lines that include a contextual icon, the supporting icon is spaced 4px from the adjacent text. The icon is the same size as surrounding text: 16x16px.
 
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Dual line text table specifications"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/tables/basic-tables/tables-dualline-specs.svg)
+![]({{site.url}}/assets/images/components/tables/basic-tables/tables-dualline-specs.png){:width="580px"}
 {% endfigure %}
 {% endcolumn %}
 
