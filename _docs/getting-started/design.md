@@ -1,5 +1,5 @@
 ---
-title: Getting Started for Designers
+title: Designers
 layout: docs
 category: Getting-Started
 usage: >
