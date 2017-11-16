@@ -21,13 +21,13 @@ last-modified: 2017-08-17
 
 ### When to use
 
-- Chips are best used with indicating a list of items that may be part of a different workflow. For example, requestors on tickets can be added and removed or management tasks that can be performed by requestors. Devices also offer a good option for chip use. 
+Chips are best used with indicating a list of items that may be part of a different workflow. For example, adding or removing a list of requestors on a ticket.
 
 
 ### Best practices
 
-- Avoid using chips in multiply locations on apage. 
-- Make sure the user is well aware of what the chip is. 
+- Avoid using chips in multiple locations on a page. 
+- Ensure the user can concretely identify the item represented by the chip.
 - Using the expanded version can help ensure the information needed by the user is visible.
 
 {% endcolumn %}
@@ -46,7 +46,7 @@ last-modified: 2017-08-17
 
 ### Default chip
 
-Default chip is a single circle that contains a preview of the item the chip represents. This can be either letters to indicate the name, an image to indicate a user, or a product icon to indicate the type of device.
+The default chip is a single circle that contains a preview of the item the chip represents. This can be either letters to indicate the name, an image to indicate a user, or a product icon to indicate the type of device.
 
 {% endcolumn %}
 
@@ -64,7 +64,7 @@ Default chip is a single circle that contains a preview of the item the chip rep
 
 ### Expanded chip
 
-Expanded chips should be used when additional context is needed to differentiate the chip from the other chips or when the additional information is required by the user.
+Use expanded chips when the user needs additional context to differentiate the chip from other chips or when the user needs to provide additional information.
 
 {% endcolumn %}
 
@@ -84,7 +84,7 @@ Expanded chips should be used when additional context is needed to differentiate
 
 Clicking a chip reveals additional related information in a card that overlays the chip. 
 
-For example: Click a user chip, allows the user to view email address, permissions, contact info, or other similar data. 
+For example, clicking a user chip allows the user to view their email address, permissions, contact info, or other similar data. 
 
 
 {% endcolumn %}
