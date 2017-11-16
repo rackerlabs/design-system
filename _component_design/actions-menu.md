@@ -16,7 +16,7 @@ last-modified: 2017-11-03
 
 ## Introduction
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### When to use
@@ -37,7 +37,7 @@ last-modified: 2017-11-03
 
 </div>
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 
 {% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
@@ -68,7 +68,7 @@ last-modified: 2017-11-03
 </div>
 
 ## Specifications
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 ### Actions menu - simple
@@ -91,7 +91,7 @@ The menu should span the length of the button. If an action name is longer than 
   
 </div>
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 ### Actions menu - advanced

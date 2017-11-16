@@ -1,3 +1,7 @@
+# fudged from https://github.com/paulrobertlloyd/jekyll-figure/blob/master/lib/jekyll/figure.rb
+
+require 'kramdown'
+
 module Jekyll
   class RenderTwoColumnTag < Liquid::Block
 
@@ -7,9 +11,6 @@ module Jekyll
     end
 
     def render(context)
-      # Gather settings
-      site = context.registers[:site]
-      converter = site.find_converter_instance(::Jekyll::Converters::Markdown)
 
       # Render any liquid variables
       markup = Liquid::Template.parse(@markup).render(context)
@@ -35,20 +36,20 @@ module Jekyll
         rightcol_size = " class\=\"#{rightcol_size}\""
       end
 
-      # Content: convert markdown and remove paragraphs containing images
-      maincol = converter.convert(super(context)).gsub(/^<p>\s*((<img[^<]+?)+)\s*<\/p>(.*)/, '\\1').gsub!(/[\n]+/, "\n  ");
+      # Content: convert markdown to html
+      # @maincol = Kramdown::Document.new(super(context)).to_helix_html;
+      # @maincol = Kramdown::Document.new(@maincol).to_helix_html;
+      @maincol = super(context)
 
       # Render column
       if @sizeright.nil?
-        # col_tag = "<div class='row'>"
-        col_tag =  "<div#{leftcol_size}>"
-        col_tag += "#{maincol}\n"
-        col_tag += "</div>"
+        col_tag =  "<<<<<<#div#{leftcol_size}#>>>>>>"
+        col_tag += @maincol
+        col_tag += "<<<<<<#/div#>>>>>>"
       elsif @sizeleft.nil?
-        col_tag =  "<div#{rightcol_size}>"
-        col_tag += "#{maincol}\n"
-        col_tag += "</div>"
-        # col_tag += "</div>"
+        col_tag =  "<<<<<<#div#{rightcol_size}#>>>>>>"
+        col_tag += @maincol
+        col_tag += "<<<<<<#/div#>>>>>>"
       end
 
       return col_tag;
