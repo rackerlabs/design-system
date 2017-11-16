@@ -31,7 +31,7 @@ last-modified: 2017-11-04
 {% endcolumn %}
 {% column right:"hxCol-6 hxCol-xs-12 hxCol-sm-12 hxCol-md-6 hxCol-lg-6" %}
 {% figure [caption="The radio button pattern"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/radio-buttons/radio-hero.svg)
+![]({{site.url}}/assets/images/components/inputs-and-controls/radio-buttons/radio-hero.png){:width="432px"}
 {% endfigure %}
 {% endcolumn %}
 
@@ -73,7 +73,7 @@ A radio button group consists of a section label, followed by pairs of radio but
 {% endcolumn %}
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Radio button group composition"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/radio-buttons/radio-composition.svg)
+![]({{site.url}}/assets/images/components/inputs-and-controls/radio-buttons/radio-composition.png){:width="404px"}
 {% endfigure %}
 {% endcolumn %}
 
@@ -90,7 +90,7 @@ A title should always be located above the radio buttons. More context can be pr
 {% endcolumn %}
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Radio button spacing"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/radio-buttons/radio-spacing.svg)
+![]({{site.url}}/assets/images/components/inputs-and-controls/radio-buttons/radio-spacing.png){:width="580px"}
 {% endfigure %}
 {% endcolumn %}
 
@@ -110,7 +110,7 @@ Form design best practices prohibit a radio button from existing in an error sta
 {% endcolumn %}
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Radio button states"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/radio-buttons/radio-states.svg)
+![]({{site.url}}/assets/images/components/inputs-and-controls/radio-buttons/radio-states.png){:width="561px"}
 {% endfigure %}
 {% endcolumn %}
 
@@ -135,7 +135,7 @@ The error message should be 40-80 characters per line, and may wrap if needed.
 {% endcolumn %}
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Radio button error state details"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/radio-buttons/radio-error.svg)
+![]({{site.url}}/assets/images/components/inputs-and-controls/radio-buttons/radio-error.png){:width="482px"}
 {% endfigure %}
 {% endcolumn %}
 
