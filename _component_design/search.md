@@ -15,7 +15,7 @@ last-modified: 2017-11-07
 
 ## Introduction
 
-<div class="hxRow">
+<div class="hxRow" markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 ### When to use
 When an app supports large amounts of information, users can quickly locate content by searching
@@ -38,7 +38,7 @@ When an app supports large amounts of information, users can quickly locate cont
 </div>
 
 ## Specifications
-<div class="hxRow">
+<div class="hxRow" markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
@@ -59,7 +59,7 @@ By default, the search bar will extend across the full width of its container. W
 
 </div>
 
-<div class="hxRow">
+<div class="hxRow" markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
@@ -84,7 +84,7 @@ The basic search bar component has the following states:
 
 </div>
 
-<div class="hxRow">
+<div class="hxRow" markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
@@ -105,7 +105,7 @@ The basic search bar component has the following states:
 
 </div>
 
-<div class="hxRow">
+<div class="hxRow" markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
