@@ -37,8 +37,6 @@ alerts or data visualizations.
     {%endfor%}
   </div>
 
-<hr>
-
 ### Alert Colors
 Secondary colors are used for content-specific needs, such as alerts and
 illustrations. They should never overpower the primary colors.
@@ -62,8 +60,6 @@ illustrations. They should never overpower the primary colors.
     {%endfor%}
   </div>
 
-<hr>
-
 ### Grayscale
 
 These colors are used largely for background blocks to define content areas. Be
@@ -80,7 +76,7 @@ sure to use enough contrast between adjacent colors.
   {% include chips.html class="hxCol-xs-12 hxCol-md-3 color-chip" bg-color="#BDBDBD" color="#424242" csscode="Gray 900 on Gray 500" hex="#424242 on #BDBDBD" ratio="5.4 : 1" %}
   {% include chips.html class="hxCol-xs-12 hxCol-md-3 color-chip" bg-color="#9E9E9E" color="#333333" csscode="Gray 950 on Gray 600" hex="#333333 on #9E9E9E" ratio="4.7 : 1" %}
   {% include chips.html class="hxCol-xs-12 hxCol-md-3 color-chip" bg-color="#757575" color="#000000" csscode="Gray 1000 on Gray 700" hex="#000000 on #757575" ratio="4.6 : 1" %}
-  {% include chips.html class="hxCol-xs-12 hxCol-md-3 color-chip" bg-color="#6b6b6b" color="#eeeeee" csscode="Gray 100 on Gray 750" hex="#eeeeee on #6b6b6b" ratio="4.6 : 1" %}
+  {% include chips.html class="hxCol-xs-12 hxCol-md-3 color-chip" bg-color="#6B6B6B" color="#EEEEEE" csscode="Gray 100 on Gray 750" hex="#EEEEEE on #6B6B6B" ratio="4.6 : 1" %}
   {% include chips.html class="hxCol-xs-12 hxCol-md-3 color-chip" bg-color="#616161" color="#e0e0e0" csscode="Gray 300 on Gray 800" hex="#E0E0E0 on #616161" ratio="4.7 : 1" %}
   {% include chips.html class="hxCol-xs-12 hxCol-md-3 color-chip" bg-color="#424242" color="#bdbdbd" csscode="Gray 500 on Gray 900" hex="#BDBDBD on #424242" ratio="5.4 : 1" %}
   {% include chips.html class="hxCol-xs-12 hxCol-md-3 color-chip" bg-color="#333333" color="#9e9e9e" csscode="Gray 600 on Gray 950" hex="#9E9E9E on #333333" ratio="4.7 : 1" %}
