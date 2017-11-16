@@ -16,27 +16,27 @@ layout: docs
       </tr>
     </thead>
     <tbody>
-      {% for page in site.pages %}
-          {% if page.category %}
+      {%- for page in site.pages -%}
+          {%- if page.category -%}
               <tr>
                 <td><a href="{{site.baseurl}}{{page.url}}.html">{{page.title}}</a></td>
                 <td>1.0</td>
                 <td>
-                {% if page.status %}
-                  {% if page.status == "pending" %}
+                {%- if page.status -%}
+                  {%- if page.status == "pending" -%}
                     <span class="component prototype">In Progress</span>
-                  {% elsif page.status == "complete" %}
+                  {%- elsif page.status == "complete" -%}
                     <span class="component dev-ready">Complete</span>
-                  {% elsif page.status == "deprecated" %}
+                  {%- elsif page.status == "deprecated" -%}
                     <span class="component deprecated">Deprectated</span>
-                  {% endif %}
-                {% else %}
+                  {%- endif -%}
+                {%- else -%}
                   <span class="component prototype">In Progress</span>
-                {% endif %}
+                {%- endif -%}
                 </td>
               </tr>
-          {% endif %}
-      {% endfor %}
+          {%- endif -%}
+      {%- endfor -%}
     </tbody>
     </table>
 <br>
@@ -60,28 +60,28 @@ layout: docs
       </tr>
     </thead>
     <tbody>
-      {% for page in site.pages %}
-          {% if page.category %}
+      {%- for page in site.pages -%}
+          {%- if page.category -%}
               <tr class="compressed">
                 <td class="compressed"><a href="{{site.baseurl}}{{page.url}}.html">{{page.title}}</a></td>
                 <!-- Removing this line until we have a strategy around versioning as this is a future item
                 <td class="compressed">1.0</td> -->
                 <td class="compressed">
-                {% if page.status %}
-                  {% if page.status == "pending" %}
+                {%- if page.status -%}
+                  {%- if page.status == "pending" -%}
                     <i class="icon-warning"></i>
-                  {% elsif page.status == "complete" %}
+                  {%- elsif page.status == "complete" -%}
                     <i class="icon-check-mark"></i>
-                  {% elsif page.status == "deprecated" %}
+                  {%- elsif page.status == "deprecated" -%}
                     <i class="icon-error"></i>
-                  {% endif %}
-                {% else %}
+                  {%- endif -%}
+                {%- else -%}
                   <i class="icon-disabled"></i>
-                {% endif %}
+                {%- endif -%}
                 </td>
               </tr>
-          {% endif %}
-      {% endfor %}
+          {%- endif -%}
+      {%- endfor -%}
     </tbody>
     </table>
 

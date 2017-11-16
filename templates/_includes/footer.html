@@ -1,19 +1,19 @@
 <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
 
-{% if page.need contains 'charts' %}
+{%- if page.need contains 'charts' -%}
 <script src="{{site.url}}/assets/js/Chart.js"></script>
 <script src="{{site.url}}/assets/js/moment-with-locales.js"></script>
 <script src="{{site.url}}/assets/js/demo-charts.js"></script>
-{% endif %}
+{%- endif -%}
 
-{% if page.need contains 'progress-indicators' %}
+{%- if page.need contains 'progress-indicators' -%}
 <script src="{{site.url}}/assets/js/demo-progress-indicators.js"></script>
-{% endif %}
+{%- endif -%}
 
-{% if page.need contains 'selectors' %}
+{%- if page.need contains 'selectors' -%}
 <script src="{{site.url}}/assets/js/demo-selectors.js"></script>
 <script src="{{site.url}}/assets/js/demo-selectors-button-groups.js"></script>
-{% endif %}
+{%- endif -%}
 
 <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>

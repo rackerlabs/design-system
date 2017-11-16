@@ -6,16 +6,18 @@ category: Components
 usage: >
   Tables present data on nearly every page in Helix control panels. Tables are highly valuable, but always run the risk of putting too high a cognitive load on users. Our goal with tables should always be to decrease cognitive load so users can get the data they need quickly and easily.
 preview-image: preview-images/tables.svg
-status: Stable
+status: stable
 resource: true
-last-modified: 2017-10-24
+last-modified: 2017-11-16
 ---
 
 {% include toc.html %}
 
 ## Introduction
 
-<div class="hxRow">
+
+<div class="hxRow" markdown="1">
+
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
@@ -25,12 +27,11 @@ Tables are the bread-and-butter component for displaying complex objects in a ne
 
 ### Best practice
 
-- Keep the column count to under seven. 
+- Keep the column count to under seven.
 - Keep visual clutter to a minimum to maintain a user's focus.
 - When organizing content in a table, focus on the user's primary task.
 - Preserve hierarchies from left to right. (Most important to least important)
 - Provide filtering and sorting table controls to allow users to interact with and select the most important information.
-
 
 {% endcolumn %}
 
@@ -39,12 +40,13 @@ Tables are the bread-and-butter component for displaying complex objects in a ne
 ![]({{site.url}}/assets/images/components/tables/basic-tables/tables-hero.svg)
 {% endfigure %}
 {% endcolumn %}
-
 </div>
 
 ## Default layout
 
-<div class="hxRow">
+
+<div class="hxRow" markdown="1">
+
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
@@ -64,15 +66,18 @@ Tables are the bread-and-butter component for displaying complex objects in a ne
 ![]({{site.url}}/assets/images/components/tables/basic-tables/tables-default.svg)
 {% endfigure %}
 {% endcolumn %}
-
 </div>
+
+
 
 ## Condensed table
 
-<div class="hxRow">
+
+<div class="hxRow" markdown="1">
+
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-The use of a condensed table provides for views that display either many or few results. 
+The use of a condensed table provides for views that display either many or few results.
 
 {% endcolumn %}
 
@@ -83,6 +88,7 @@ The use of a condensed table provides for views that display either many or few 
 {% endcolumn %}
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
 ### Small tables
 
 If presenting a small amount of information, a condensed table format allows for particular and concise presentation. In cases such as this, tables are preferred over bullet lists, or key-value lists.
@@ -94,13 +100,15 @@ If presenting a small amount of information, a condensed table format allows for
 ![]({{site.url}}/assets/images/components/tables/basic-tables/tables-small-condensed.svg)
 {% endfigure %}
 {% endcolumn %}
-
 </div>
 
-## Table states 
+## Table states
 
-<div class="hxRow">
+
+<div class="hxRow" markdown="1">
+
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
 ### Loading
 
 Use a gray placeholder to represent loading text to inform the user that the data is present, but not yet available.
@@ -114,9 +122,10 @@ Use a gray placeholder to represent loading text to inform the user that the dat
 {% endcolumn %}
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
 ### Empty
 
-Empty tables occur when no data is available or when a user has applied a filter that does not fit the table parameters. 
+Empty tables occur when no data is available or when a user has applied a filter that does not fit the table parameters.
 
 When no data is available due to an error occurring, the empty state is presented with textual hints that direct the user towards possible solutions in the event an error has occurred.
 
@@ -141,7 +150,6 @@ Examples of this direction include:
 When using the check box icon within a table, each row supports the following states:
 
 - **Hover state:** Indicates a row is currently hovered by a user.
-
 - **Selected state:** Indicates the check-box icon has been clicked.
 
 {% endcolumn %}
@@ -151,5 +159,72 @@ When using the check box icon within a table, each row supports the following st
 ![]({{site.url}}/assets/images/components/tables/basic-tables/tables-hover-selected.svg)
 {% endfigure %}
 {% endcolumn %}
+</div>
+
+## Variations
+
+<div class="hxRow" markdown="1">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### Dual line text table
+
+This variation of the basic table pattern is designed to allow the display of two lines of text.
+
+#### When to use
+
+This variation is used in the following situations: 
+
+- When a key has two values that are meaningfully related to each other and require display within the same cell. For example, last updated cell in the image to the right.
+- When two independent key:values are more meaningful displayed together.
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [caption:"Dual line text table example. **not to scale**"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/tables/basic-tables/tables-dualline-overview.png){:width="580px"}
+{% endfigure %}
+{% endcolumn %}
 
 </div>
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
+#### Best practices
+
+- **Rule**: (**Important**) Each cell with more than one line of text must have a designated primary and secondary value.
+- **Rule**: In rows with the [table controls]({{site.baseurl}}/components/tables-controls.html) sorting pattern applied, the pattern will always sort based on the primary key.
+- **Suggestion**: Increase the `font-weight` between the primary and secondary values in dual-line rows to make the sorting function more clear to a user.
+- **Suggestion**: Due to the amount of information presented with this pattern, consider pairing it with [assisted search]({{site.baseurl}}/components/assisted-search.html) to allow more robust filtering of table content.
+
+{% endcolumn %}
+	
+</div>
+
+<div class="hxRow" markdown="1">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+#### Spacing
+
+Using the dual-line text variation impacts standard table layout in the following ways:
+
+- The top and bottom padding for cells moves from 20px to 16px.
+- Spacing between lines in dual-line rows are 10px apart. 
+	- Suggested implementation: apply 1.5em line height to dual-line rows
+- Independent text rows have a line-height of 12px and get truncated instead of wrapping.
+- In lines displaying two independent text rows, emphasize the primary line (on top) by increasing its font weight to **bold**.
+- In lines that include a contextual icon, the supporting icon is spaced 4px from the adjacent text. The icon is the same size as surrounding text: 16x16px.
+
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [caption:"Dual-line text table specifications"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/tables/basic-tables/tables-dualline-specs.png){:width="580px"}
+{% endfigure %}
+{% endcolumn %}
+
+</div>
+
+

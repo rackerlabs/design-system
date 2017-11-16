@@ -14,7 +14,7 @@ last-modified: 2017-08-17
 
 {% include toc.html %}
 
-<div class="hxRow">
+<div class="hxRow"  markdown="1">
 {% column left:"hxCol" %}
 # Default
 {% figure [caption:""] [class:"image bg-light border"] %}

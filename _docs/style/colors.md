@@ -18,7 +18,7 @@ criteria. Guidelines for color usage are outlined for
 [typography](/style/typography/) and individual components. Avoid adding color
 to "spice things up" as this will distract the user from his or her workflow.
 
-# Primary Colors
+## Primary Colors
 
 Primary colors should be used sparingly for primary and secondary actions,
 alerts or data visualizations.
@@ -43,7 +43,7 @@ alerts or data visualizations.
   </div>
 
 
-# Alert Colors
+## Alert Colors
 Secondary colors are used for content-specific needs, such as alerts and
 illustrations. They should never overpower the primary colors.
   <div class="hxRow">
@@ -66,7 +66,7 @@ illustrations. They should never overpower the primary colors.
     {%endfor%}
   </div>
 
-# Grayscale
+## Grayscale
 
 These colors are used largely for background blocks to define content areas. Be
 sure to use enough contrast between adjacent colors.

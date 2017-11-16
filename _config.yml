@@ -13,7 +13,7 @@ twitter_username: rackspace
 github_username:  rackerlabs
 permalink: /:categories/:slug
 # navigation: ['Style', 'Layout', 'Components', 'Templates']
-exclude: ['Gemfile', 'Gemfile.lock','README.md', 'vendor']
+exclude: ['Gemfile', 'Gemfile.lock','README.md', 'vendor', 'node_modules', '_site']
 
 # PATHING FOR WEBSITE AND DESIGN-SYSTEM
 websiteAssets: '/assets/'
@@ -46,8 +46,10 @@ sass:
 # Other
 # redcarpet:
 #     extensions: ['tables']
-# kramdown:
-#   input: headerConverter
+kramdown:
+  parse_block_html: true
+#   parse_span_html: true
+#   html_to_native: true
 
 # Images Default
 defaults:
