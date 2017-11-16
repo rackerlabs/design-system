@@ -93,7 +93,7 @@ A checkbox group consists of a section label followed by pairs of checkboxes and
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Checkbox group composition and specifications"] [class:"image bg-light border"] %}
- ![]({{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-default.svg)
+ ![]({{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-default.png)
  {% endfigure %}
 {% endcolumn %}
 </div>
@@ -112,7 +112,7 @@ A checkbox group consists of a section label followed by pairs of checkboxes and
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Checkbox group spacing"] [class:"image bg-light border"] %}
- ![]({{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-group-image.svg)
+ ![]({{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-group-image.png)
  {% endfigure %}
 {% endcolumn %}
 </div>
@@ -130,7 +130,7 @@ The checkbox component may be in the following states:
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Checkbox states"] [class:"image bg-light border"] %}
- ![]({{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-states-image.svg)
+ ![]({{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-states-image.png)
  {% endfigure %}
 {% endcolumn %}
 </div>
@@ -144,7 +144,7 @@ Use a red asterisk to designate that a selection is required for a group of chec
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Designating a required checkbox field"] [class:"image bg-light border"] %}
- ![]({{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-required-group-image.svg)
+ ![]({{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-required-group-image.png)
  {% endfigure %}
 {% endcolumn %}
 </div>
@@ -177,7 +177,7 @@ for more information.
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"When selecting multiple items from a table, an indeterminate
  checkbox may be used to show that several, but not all, items are selected."] [class:"image bg-light border"] %}
- ![]({{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-indeterminate-image.svg)
+ ![]({{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-indeterminate-image.png)
  {% endfigure %}
 {% endcolumn %}
 </div>
