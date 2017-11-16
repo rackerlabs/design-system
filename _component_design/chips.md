@@ -7,8 +7,8 @@ usage: >
   Chips represent a conceptual unit, such as a user, a device, a filter term, or a chunk of metadata and provide the user with the visual understanding of this conceptual unit as well as the ability to interact with them.
 preview-image: preview-images/chip.svg
 resource: true
-status: in-progress
-last-modified: 2017-08-17
+status: stable
+last-modified: 2017-11-16
 ---
 
 {% include toc.html %}
