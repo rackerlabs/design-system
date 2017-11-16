@@ -15,7 +15,9 @@ resource: true
 
 <div class="hxRow">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
 Always use human-readable, international-friendly formatting when displaying date and time.
+
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
@@ -74,6 +76,7 @@ Always use human-readable, international-friendly formatting when displaying dat
 #### Timestamp
 -   Add seconds or milliseconds to the time only when that level specificity is
     important
+
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
@@ -102,6 +105,7 @@ timeline of events.
 #### Best Practices
 
 -   Display order:
+
     -   Under 1 minute: "just now"
     -   After first minute: "1 min"
     -   After second minute: "\<#\> mins"
