@@ -8,8 +8,8 @@ layout: base
             <div class="hxCol-8">
                 <div class="hxRow">
                     <div class="hxCol">
-                      {% for item in site.component_design %}
-                        {% if page.title == item.title %}
+                      {%- for item in site.component_design -%}
+                        {%- if page.title == item.title -%}
                           <h1 class="hxPageTitle">{{item.title}}</h1>
                           <div class="component-blurb">{{item.usage}}</div>
                     </div>
@@ -18,8 +18,8 @@ layout: base
             <div class="hxCol-4">
                 <img class="hero-image" src="{{site.cdn_url}}/img/{{item.preview-image}}" />
             </div>
-            {% endif %}
-          {% endfor %}
+            {%- endif -%}
+          {%- endfor -%}
         </div>
     </div>
 </div>
