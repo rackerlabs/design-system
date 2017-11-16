@@ -8,7 +8,7 @@ usage: >
 preview-image: components/device-picker.svg
 published: true
 status: in-progress
-resource: true
+resource: false
 last-modified: 2017-08-17
 ---
 
