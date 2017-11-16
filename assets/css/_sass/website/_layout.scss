@@ -339,23 +339,3 @@ pre {
     // background-color: $grey-color-dark;
   }
 }
-
-
-/**
- * Add additional space between hxRow divs for design-system site only
- */
-
-.hxRow {
-  &.xtra-lg {
-    padding-bottom: 64px;
-  }
-  &.large {
-    padding-bottom: 32px;
-  }
-  &.medium{
-    padding-bottom: 16px;
-  }
-  &.small {
-    padding-bottom: 8px;
-  }
-}

@@ -10,24 +10,28 @@ last-modified: 2017-10-24
 ---
 
 
-### Prerequisites
 
-<div class="hxRow large">
+
+<section>
+<div class="hxRow">
 
 {% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
+### Prerequisites
 
 To create mockups using the Helix design language, you will need Sketch. [Download Sketch here](http://www.sketchapp.com). You can learn more about Sketch by watching the following [playlist](https://www.youtube.com/watch?v=cEplnCnZuDM&list=PLWlUJU11tp4fEXI8deWhBQAHDv9R23WHB).
 
 {% endcolumn %}
 
 </div>
+</section>
 
-
-### Get in the loop
-
-<div class="hxRow large">
+<section>
+<div class="hxRow">
 
 {% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
+### Get in the loop
 
 Use the following resources to communicate with the Helix designers and be informed about updates:
 
@@ -38,12 +42,14 @@ Use the following resources to communicate with the Helix designers and be infor
 {% endcolumn %}
 
 </div>
+</section>
 
-### Learn the language
-
-<div class="hxRow large">
+<section>
+<div class="hxRow">
 
 {% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
+### Learn the language
 
 Familiarize yourself with the concepts that define the Helix language. Through this site, you can see how they appear in the layouts, styles, and componenets used in Rackspace UIs. 
 
@@ -54,12 +60,14 @@ Familiarize yourself with the concepts that define the Helix language. Through t
 {% endcolumn %}
 
 </div>
+</section>
 
-### Design mockups in Helix
-
+<section>
 <div class="hxRow">
 
 {% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
+### Design mockups in Helix
 
 The best way to bring Helix components into your designs is with the Helix Sketch Sticker Sheet. You can copy and paste elements from this sticker sheet into your own Sketch documents to use in your designs.
 
@@ -68,4 +76,5 @@ The best way to bring Helix components into your designs is with the Helix Sketc
 {% endcolumn %}
 
 </div>
+</section>
 
