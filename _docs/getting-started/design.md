@@ -1,14 +1,13 @@
 ---
-title: Getting Started
+title: Getting Started for Designers
 layout: docs
-category: Getting-started
+category: Getting-Started
 usage: >
   This article introduces the fundamental concepts and resources a designer can expect to find on the Helix website, as well as the best channels for contacting and collaborating with the Helix team.
 status: stable
 resource: true
 last-modified: 2017-10-24
 ---
-
 
 
 
