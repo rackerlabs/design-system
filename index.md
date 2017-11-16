@@ -19,7 +19,7 @@ customers happy.
     </ul>
     <div class="card-bottom">
       <div class="card-button">
-        <button class="hxBtn hxBtn--primary">Full Designer Guide</button>
+        <button class="hxBtn hxBtn--primary"><a href="{{site.baseurl}}/overview/design-getting-started.html">Full Designer Guide</a></button>
       </div>
     </div>
   </div>
