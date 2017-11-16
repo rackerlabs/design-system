@@ -3,7 +3,6 @@
     <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
     <title>radio-hero</title>
     <desc>Created with Sketch.</desc>
-    <style type="text/css">@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');</style>
     <defs>
         <path d="M16,8 C16,12.4571429 12.4571429,16 8,16 C3.54285714,16 0,12.4571429 0,8 C0,3.54285714 3.54285714,-7.26529947e-13 8,-7.26529947e-13 C12.4571429,-7.26529947e-13 16,3.54285714 16,8 Z" id="path-1"></path>
         <path d="M16,8 C16,12.4571429 12.4571429,16 8,16 C3.54285714,16 0,12.4571429 0,8 C0,3.54285714 3.54285714,-7.26529947e-13 8,-7.26529947e-13 C12.4571429,-7.26529947e-13 16,3.54285714 16,8 Z" id="path-2"></path>
@@ -14,21 +13,21 @@
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="radio-hero">
-            <g id="Composition-Section" transform="translate(234.000000, 25.000000)">
+            <g id="Composition-Section" transform="translate(241.000000, 27.000000)">
                 <g id="Composition-image">
                     <text id="Option-2-Copy-2" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="20" letter-spacing="0.00666666683" fill="#333333">
-                        <tspan x="29" y="60">Option 2</tspan>
+                        <tspan x="22" y="58">Option 2</tspan>
                     </text>
                     <text id="Option-3-Copy-2" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="20" letter-spacing="0.00666666683" fill="#333333">
-                        <tspan x="29" y="82">Option 3</tspan>
+                        <tspan x="22" y="80">Option 3</tspan>
                     </text>
                     <text id="Option-1-Copy-2" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="20" letter-spacing="0.00666666683" fill="#333333">
-                        <tspan x="29" y="39">Option 1</tspan>
+                        <tspan x="22" y="37">Option 1</tspan>
                     </text>
-                    <text id="Label" font-family="Roboto-Medium, Roboto" font-size="16" font-weight="400" fill="#333333">
-                        <tspan x="0" y="15">Label</tspan>
+                    <text id="Label" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#616161">
+                        <tspan x="0" y="13">Label</tspan>
                     </text>
-                    <g id="composition-dots" transform="translate(7.000000, 27.000000)">
+                    <g id="composition-dots" transform="translate(0.000000, 25.000000)">
                         <g id="Radio-button---default-Copy-7" transform="translate(0.000000, 21.000000)" fill-rule="nonzero">
                             <g id="Shape-Copy-7">
                                 <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
@@ -51,21 +50,21 @@
                     </g>
                 </g>
             </g>
-            <g id="Composition-Section-Copy" transform="translate(95.000000, 25.000000)">
+            <g id="Composition-Section-Copy" transform="translate(102.000000, 27.000000)">
                 <g id="Composition-image">
                     <text id="Option-2-Copy-2" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="20" letter-spacing="0.00666666683" fill="#333333">
-                        <tspan x="29" y="60">Option 2</tspan>
+                        <tspan x="22" y="58">Option 2</tspan>
                     </text>
                     <text id="Option-3-Copy-2" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="20" letter-spacing="0.00666666683" fill="#333333">
-                        <tspan x="29" y="82">Option 3</tspan>
+                        <tspan x="22" y="80">Option 3</tspan>
                     </text>
                     <text id="Option-1-Copy-2" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="20" letter-spacing="0.00666666683" fill="#333333">
-                        <tspan x="29" y="39">Option 1</tspan>
+                        <tspan x="22" y="37">Option 1</tspan>
                     </text>
-                    <text id="Label" font-family="Roboto-Medium, Roboto" font-size="16" font-weight="400" fill="#333333">
-                        <tspan x="0" y="15">Label</tspan>
+                    <text id="Label" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#616161">
+                        <tspan x="0" y="13">Label</tspan>
                     </text>
-                    <g id="composition-dots" transform="translate(7.000000, 27.000000)">
+                    <g id="composition-dots" transform="translate(0.000000, 25.000000)">
                         <g id="Radio-button---default-Copy-7" transform="translate(0.000000, 21.000000)" fill-rule="nonzero">
                             <g id="Shape-Copy-7">
                                 <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-4"></use>
