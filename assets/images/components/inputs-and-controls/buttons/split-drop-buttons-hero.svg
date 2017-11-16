@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="394px" height="86px" viewBox="0 0 394 86" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>split-drop-buttons-hero</title>
+    <desc>Created with Sketch.</desc>
+    <style type="text/css">@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');</style>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="132" height="32" rx="2"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="split-drop-buttons-hero">
+            <g id="Button/Standard/Split-dropdown/Primary" transform="translate(28.000000, 19.000000)">
+                <rect id="Rectangle-2" fill="#0C7C84" fill-rule="evenodd" x="0" y="0" width="134" height="32" rx="2"></rect>
+                <text id="Button-Text" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" line-spacing="20" fill="#FFFFFF">
+                    <tspan x="11.1762695" y="19">Button Text </tspan>
+                </text>
+                <path d="M95.5,0 L95.5,32" id="Line-2" stroke="#FFFFFF" stroke-width="1"></path>
+                <polygon id="Path-2-Copy-4" fill="#FFFFFF" fill-rule="nonzero" points="109.338642 12.0843605 108 13.3007771 114.961671 20.961957 122 13.2164166 120.661358 12 114.961671 18.2723914"></polygon>
+            </g>
+            <text id="Primary" font-family="Roboto-Regular, Roboto" font-size="10" font-weight="normal" fill="#9E9E9E">
+                <tspan x="28.7368164" y="68">Primary</tspan>
+            </text>
+            <g id="Button/Standard/Split-dropdown/Secondary" transform="translate(235.000000, 18.000000)">
+                <g id="Rectangle-2">
+                    <use fill-opacity="0" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <rect stroke="#0C7481" stroke-width="1" x="0.5" y="0.5" width="131" height="31" rx="2"></rect>
+                </g>
+                <text id="Button-Text" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" line-spacing="20" fill="#0C7C84">
+                    <tspan x="14.1762695" y="19">Button Text </tspan>
+                </text>
+                <path d="M97,0 L97,32" id="Line-2" stroke="#0C7C84" stroke-width="1"></path>
+                <g id="arrow-down" stroke-width="1" fill-rule="evenodd" transform="translate(107.000000, 12.000000)" fill="#0C7481">
+                    <polygon id="Path-2-Copy-4" fill-rule="nonzero" points="1.83864218 0.0843605184 0.5 1.30077713 7.46167104 8.96195704 14.5 1.21641661 13.1613578 0 7.46167104 6.27239144"></polygon>
+                </g>
+            </g>
+            <text id="Secondary" font-family="Roboto-Regular, Roboto" font-size="10" font-weight="normal" fill="#9E9E9E">
+                <tspan x="235.516113" y="67">Secondary</tspan>
+            </text>
+        </g>
+    </g>
+</svg>

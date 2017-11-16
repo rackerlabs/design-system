@@ -141,6 +141,9 @@
         &:hover {
           cursor: pointer;
         }
+        a {
+        color: $grey0;
+        }
       };
     }
   };

@@ -3,24 +3,24 @@ layout: base
 ---
 <article class="categories">
     <div class="row">
-        {% assign iconCount = 1 %}
-        {% for component in site.pages %}
-            {% if component.category == page.title %}
+        {%- assign iconCount = 1 -%}
+        {%- for component in site.pages -%}
+            {%- if component.category == page.title -%}
                     <div class="col-md-4">
                             <a href="{{site.baseurl}}{{component.url}}.html">
                                 <div class="category-card border bg-light">
                                   <h1>{{component.title}}</h1>
-                                    <img class="ws-preview-image" {% if component.preview-image %} src='http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/{{component.preview-image}}' {% else %} src='http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/placeholder.svg' {% endif %}>
+                                    <img class="ws-preview-image" {%- if component.preview-image -%} src='http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/{{component.preview-image}}' {%- else -%} src='http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/placeholder.svg' {%- endif -%}>
                                     <!--<p>{{component.usage}}</p>-->
                                 </div>
                             </a>
                     </div>
-                {% assign iconCount = iconCount | plus: 1 %}
-                    {% if iconCount == 4 %}
+                {%- assign iconCount = iconCount | plus: 1 -%}
+                    {%- if iconCount == 4 -%}
                         </div>
-                        {% assign iconCount = 1 %}
+                        {%- assign iconCount = 1 -%}
                         <div class="row">
-                    {% endif %}
-            {% endif %}
-        {% endfor %}
+                    {%- endif -%}
+            {%- endif -%}
+        {%- endfor -%}
 </article>

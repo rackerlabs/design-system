@@ -12,7 +12,6 @@ status: complete
 {% include toc.html %}
 
 
-
 ### Primary Colors
 
 Primary colors should be used sparingly for primary and secondary actions,
@@ -38,6 +37,7 @@ alerts or data visualizations.
   </div>
 
 ### Alert Colors
+
 Secondary colors are used for content-specific needs, such as alerts and
 illustrations. They should never overpower the primary colors.
   <div class="hxRow">
