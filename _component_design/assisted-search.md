@@ -15,7 +15,7 @@ last-modified: 2017-11-07
 
 ## Introduction
 
-<div class="hxRow">
+<div class="hxRow" markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
@@ -34,7 +34,7 @@ When the user clicks the search box, show them a list of keywords that they can 
 
 </div>
 
-<div class="hxRow">
+<div class="hxRow" markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
@@ -55,7 +55,7 @@ Append the keyword with colon to the search input when the user clicks on a keyw
 
 </div>
 
-<div class="hxRow">
+<div class="hxRow" markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
@@ -75,7 +75,7 @@ Divide search results into categories.
 
 ## Assisted search states
 
-<div class="hxRow">
+<div class="hxRow" markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
@@ -96,7 +96,7 @@ User should still have instructions for how to search without autocompleted resu
 
 </div>
 
-<div class="hxRow">
+<div class="hxRow" markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
@@ -115,7 +115,7 @@ Clicking on a search result item, or pressing the enter key when a result item h
 {% endcolumn %}
 </div>
 
-<div class="hxRow">
+<div class="hxRow" markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Active keyword
@@ -131,7 +131,7 @@ When a keyword is in active use, but the query has not been completed with searc
 {% endcolumn %}
 </div>
 
-<div class="hxRow">
+<div class="hxRow" markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Active keyword + no terms
@@ -148,7 +148,7 @@ Do not apply the gray background color if keyed entries have not formed a comple
 
 </div>
 
-<div class="hxRow">
+<div class="hxRow" markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Completed search
@@ -165,7 +165,7 @@ When the user has typed the key and term and pressed enter, the search is comple
 
 </div>
 
-<div class="hxRow">
+<div class="hxRow" markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Deleting terms
