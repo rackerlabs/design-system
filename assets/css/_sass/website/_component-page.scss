@@ -136,4 +136,31 @@ table.ui.table {
       }
     }
   }
+
+  &.compressed {
+    thead, tbody {
+      tr {
+        th {
+          padding: 0.5rem;
+          font-size: 0.875rem;
+          line-height: 1em;
+        }
+        td {
+          padding: 0.5rem;
+          font-size: 0.875rem;
+          line-height: 1em;
+        }
+      }
+    }
+  }
+}
+
+.align-left {
+  text-align: left !important;
+}
+.align-right {
+  text-align: right !important;
+}
+.align-center {
+  text-align: center !important;
 }
