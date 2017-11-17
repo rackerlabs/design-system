@@ -66,10 +66,11 @@ While color can be useful to convey information, color should not be the only wa
 {% endcolumn %}
 </div>
 
-### Alerts
 
 <div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### Alerts
 
 Alert bars are a great example of how multiple indicators can be used. If you are indicating an error alert (for example, making it red), always include a status icon and alert description so that someone who is color blind can still see the problem.
 
