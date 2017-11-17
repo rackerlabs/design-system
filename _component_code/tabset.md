@@ -1,8 +1,8 @@
 ---
-title: Checkboxes
+title: Tabset
 layout: code
 category: Components Code
-code: checkbox
+code: tabset
 ---
 
 {% include code-container.html %}

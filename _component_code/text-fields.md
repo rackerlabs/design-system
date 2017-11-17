@@ -1,8 +1,8 @@
 ---
-title: Checkboxes
+title: Text Fields
 layout: code
 category: Components Code
-code: checkbox
+code: text-input
 ---
 
 {% include code-container.html %}

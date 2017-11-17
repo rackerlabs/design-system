@@ -15,6 +15,14 @@
 <script src="{{site.url}}/assets/js/demo-selectors-button-groups.js"></script>
 {%- endif -%}
 
+{% if page.url contains 'components/code'%}
+<script src="{{site.url}}/assets/js/codeContainer.js"></script>
+<script type="text/javascript">
+  CODELIB.init(["{{page.code}}"]);
+  CODELIB.codeContainer();
+</script>
+{% endif %}
+
 <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="{{site.url}}/assets/js/lightbox.js"></script>

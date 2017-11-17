@@ -1,8 +1,8 @@
 ---
-title: Checkboxes
+title: Modals
 layout: code
 category: Components Code
-code: checkbox
+code: modal
 ---
 
 {% include code-container.html %}

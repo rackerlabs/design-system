@@ -1,8 +1,8 @@
 ---
-title: Checkboxes
+title: Popovers
 layout: code
 category: Components Code
-code: checkbox
+code: popover
 ---
 
 {% include code-container.html %}

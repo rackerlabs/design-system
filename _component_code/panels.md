@@ -1,11 +1,8 @@
 ---
-title: Stepper
+title: Panels
 layout: code
 category: Components Code
-usage: Teaser Text
-preview-image:
-resource: true
-collection: component_code
+code: null
 ---
 
 {% include todo.html content="Set up code." %}
