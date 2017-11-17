@@ -21,6 +21,7 @@ nav.side {
     flex-direction: column;
     flex-shrink: 0;
     min-height: 100vh;
+    padding-bottom: 2rem;
     .logo {
         display: block;
         position: relative;
@@ -38,12 +39,6 @@ nav.side {
           margin: 16px auto 28px auto;
         }
     }
-}
-
-hr {
-  margin-bottom: 1.75rem;
-  margin-top: 1.75rem;
-  border: none;
 }
 
 /**
@@ -134,6 +129,7 @@ p {
   line-height: $base-line-height;
   margin-top: 0;
 }
+
 
 pre {
   padding: 8px 12px;
