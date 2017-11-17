@@ -1,25 +1,46 @@
 ---
-title: Component Status
+title: Pattern Status
 layout: docs
 category: Status
 usage: >
-  Refer to this page for an alphabetical list of all components in Helix
-    with their current design and code status. See the bottom of the page for the status legend.
+  Refer to this page for an alphabetical list of all patterns in Helix, including design and code statuses.
 ---
 
 <div class="hxRow">
 <div class="hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8">
-<h3 class="hxSubSectionTitle">Status</h3>
-<table class="table ui basic compressed">
+
+<table class="hxTable hxTable--condensed hxTable--bordered" id="design-status-table">
     <thead>
       <tr>
-        <th>Component</th>
-        <th class="align-center">Design Status</th>
+        <th>Helix Pattern</th>
+        <th class="align-center">Design Doc</th>
         <th class="align-center">CSS</th>
-        <th class="align-center">Javascript</th>
+        <th class="align-center">JS</th>
       </tr>
     </thead>
     <tbody>
+      {% for page in site.docs %}
+        {% if page.resource == true and page.code-element == true%}
+              <tr >
+                <td><a href="{{site.baseurl}}{{page.url}}.html">{{page.title}}</a></td>
+                <td class="align-center">
+                {% if page.status %}
+                  <span class="status-label small {{page.status | replace: ' ','-'}}">{{page.status}}</span>
+                {% endif %}
+                </td>
+                <td class="align-center status-ok">
+                  {% if page.helix-ui-css %}
+                  <hx-icon type="checkmark-circle"></hx-icon>
+                  {% endif %}
+                </td>
+                <td class="align-center status-ok">
+                  {% if page.helix-ui-javascript %}
+                  <hx-icon type="checkmark-circle"></hx-icon>
+                  {% endif %}
+                </td>
+              </tr>
+          {% endif %}
+      {% endfor %}
       {% for page in site.component_design %}
         {% if page.resource == true %}
               <tr >
@@ -29,8 +50,17 @@ usage: >
                   <span class="status-label small {{page.status | replace: ' ','-'}}">{{page.status}}</span>
                 {% endif %}
                 </td>
-                <td class="align-center status-ok"><hx-icon type="checkmark-circle"></hx-icon></td>
-                <td class="align-center"></td>
+                
+                <td class="align-center status-ok">
+                  {% if page.helix-ui-css %}
+                  <hx-icon type="checkmark-circle"></hx-icon>
+                  {% endif %}
+                </td>
+                <td class="align-center status-ok">
+                  {% if page.helix-ui-javascript %}
+                  <hx-icon type="checkmark-circle"></hx-icon>
+                  {% endif %}
+                </td>
               </tr>
           {% endif %}
       {% endfor %}
@@ -41,23 +71,14 @@ usage: >
 
 <div class="hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4">
 <h4 class="hxContainerTitle">Legend</h4>
-<table class="table basic ui compressed">
-    <thead>
-      <tr>
-        <th class="th-1-4">Status</th>
-        <th class="th-1-2">Explanation</th>
-      </tr>
-    </thead>
-    <tbody>
+
       {% for status_hash in site.data.design-status %}
       {% assign status = status_hash[1]%}
-      <tr class="large">
-        <td><span class="status-label small {{status.class}}">{{status.name}}</span></td>
-        <td>{{status.description}}</td>
-      </tr>
+      <span class="status-label small {{status.class}}">{{status.name}}</span>
+      <p class="hxSubBody hxSubdued" style="margin-top:8px;">{{status.description}}</p>
+      <hr>
       {% endfor %}
-    </tbody>
-    </table>
+
 
 </div>
 </div>
