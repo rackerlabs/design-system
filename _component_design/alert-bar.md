@@ -13,18 +13,18 @@ last-modified: 2017-08-17
 
 {% include toc.html %}
 
-### Introduction
+## Introduction
 
 <div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 An alert bar can extend across the entirety of the content area (page level scoping) or across a singular section of the content area (element level scoping).
 
-#### When to Use
+### When to Use
 
 - Notification bars are best used for information that will remain static, barring user intervention. For example, an informative message surrounding a new feature being made available to a user.
 - For information that is more ephemeral and fleeting, we recommend using another notification type.
 
-#### Best Practices
+### Best Practices
 
 - Ensure notification bars have implicit priority based on the alert type from most to least severity level: Error > Warning > Success > Informational
 - Ensure notification bars are used sparingly and limited to one per page.
@@ -39,12 +39,12 @@ An alert bar can extend across the entirety of the content area (page level scop
 {% endcolumn %}
 </div>
 
-### Design Specs
+## Design Specs
 
 <div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-#### Composition
+### Composition
 
 The alert bar pattern is comprised of six parts. Three required, three
 optional:
@@ -72,7 +72,7 @@ optional:
 <div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-#### Multi-line alerts
+### Multi-line alerts
 
 Alert messages should be as concise and clear as possible. We recommend keeping to a limit of 140-160 characters. Following this rule will keep an alert message as a single-line comment (at Desktop and Wall breakpoints). In instances where text wrapping is needed, it will follow the behavior shown in the illustration.
 
@@ -88,7 +88,7 @@ Alert messages should be as concise and clear as possible. We recommend keeping 
 <div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-#### Status types
+### Status types
 
 The alert bar pattern enables users to assess status of a given section at a glance. This pattern supports four statuses:
 
