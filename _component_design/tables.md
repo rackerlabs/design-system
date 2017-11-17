@@ -6,6 +6,7 @@ category: Components
 usage: null
 preview-image: null
 last-modified: 2017-11-07
+status: stable
 ---
 
 {% for page in site.component_design %}

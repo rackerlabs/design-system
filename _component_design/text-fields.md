@@ -7,7 +7,7 @@ usage: >
   Text fields, including text inputs and text areas, allow users to input, edit, and select text, numbers and passwords.  Text inputs facilitate validation and can be surrounded with help and error information, to instruct the user on filling in information.
 preview-image: preview-images/text-inputs.svg
 resource: true
-status: unknown
+status: stable
 last-modified: 2017-10-24
 ---
 

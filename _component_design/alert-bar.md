@@ -6,7 +6,7 @@ category: Components
 usage: >
   A notification bar extends fully across the top of an content container within a Helix interface in order to provide the user with feedback relating to the status of the item. It can be scoped across the entirity of the content area (page level scoping) or scoped to extend across a singular section of the content area (element level scoping).
 preview-image: preview-images/alert-bar.svg
-status: deprecated, in-progress
+status: in-progress
 resource: true
 last-modified: 2017-08-17
 ---

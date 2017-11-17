@@ -6,7 +6,7 @@ category: Components
 usage: >
   Nested tables come in a variety of forms and allow users to drill into additional data within a table row. By hiding this data behind a user interaction, the interface adheres to the low cognitive load goals of the table pattern, while allowing for more data rich layouts.
 preview-image: preview-images/tables-nested.svg
-status: Stable
+status: stable
 resource: true
 last-modified: 2017-10-24
 ---
