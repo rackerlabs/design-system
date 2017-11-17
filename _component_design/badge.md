@@ -15,8 +15,9 @@ last-modified: 2017-11-01
 
 ## Introduction
 
-<div class="hxRow">
+<div class="hxRow" markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
 ### When to use
 
 Use notification badges in navigation menus, tabs, or the page body to signal a new notification, alert, message, chat, comment, or other type of change to an area of the site. Depending on the use case, there may or may not be a number of notifications written within the badge.
@@ -32,6 +33,7 @@ Studies of social apps report that notification badges can trigger dopamine rele
 {% endcolumn %}
 
 {% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 ### Best Practices
 - Clicking on the badge takes the user into the section to which the badge is applied. Once the badge is clicked, remove the badge.
 - Never deviate from the color (`red 900`) of notifications used on the spec sheet, and try to avoid this color outside of badges and errors. Applying colors used on the spec sheet will help reserve the attention-grabbing red color for the highest priority items.
@@ -44,7 +46,7 @@ Studies of social apps report that notification badges can trigger dopamine rele
 
 ## Implementations
 
-<div class="hxRow">
+<div class="hxRow" markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### With an icon
@@ -60,15 +62,26 @@ Use a 2px border on all sides between the number and the edge of the circle.
 {% endfigure %}
 {% endcolumn %}
 
+</div>
+
+<div class="hxRow" markdown="1">
+
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
 ### In tabs
+
 Notification badges may be used in tabs to bring attention to new items in unselected tabs. Never use a notification badge on the selected tab because any new items in a tab section should have their own styling, such as bolded text, to indicate 'unread' or 'new' statuses.
 
 The [tabs component]({{site.baseurl}}/components/tabset.html) states that there should be 24px in between tabs. In the case of a tab with a notification badge, start measuring the 24px after the badge as demonstrated in the "With Spacing Guidelines" image to the right.
+
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 {% figure [caption:"Notification badges in tabs"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/notifications/badges/badges-tabs.svg)
 {% endfigure %}
+
 {% endcolumn %}
+
+</div>

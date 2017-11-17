@@ -15,7 +15,7 @@ last-modified: 2017-11-07
 
 ## Introduction
 
-<div class="hxRow">
+<div class="hxRow" markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
@@ -64,6 +64,9 @@ To determine the indentation of key-value pairs, use two columns on the Helix gr
 
 {% endfigure %}
 {% endcolumn %}
+</div>
+
+<div class="hxRow" markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
@@ -94,6 +97,9 @@ You can use icons, compact tertiary buttons, and text links in key-value pairs.
 
 {% endfigure %}
 {% endcolumn %}
+</div>
+
+<div class="hxRow" markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 

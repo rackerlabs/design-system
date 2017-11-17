@@ -35,8 +35,9 @@ last-modified: 2017-11-05
 
 </div>
 
-<div class="hxRow">
+<div class="hxRow" markdown="1">
 {% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
+
 ### Best Practices
 
 - If there's an error and the user can take an action to correct it, use a call to action (CTA).
@@ -44,13 +45,14 @@ last-modified: 2017-11-05
 - Try not to exceed more than four lines of your message (excluding the CTA).
 - Only use one CTA per toast. Never include “Dismiss” or “Close” as a CTA.
 - Clicking on the “X” closes the toast notification. Hovering over it keeps it open until the cursor moves off of it. (See [Timing]({{page.url}}#timing) section for more detail.)
+
 {% endcolumn %}
 
 </div>
 
 ## Specifications
 
-<div class="hxRow">
+<div class="hxRow" markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
@@ -65,6 +67,7 @@ While the height of toasts is dependent on the amount of text, the minimum heigh
 Icons are always centered vertically.
 
 {% endcolumn %}
+
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Default toast notifications specifications"] [class:"image bg-light border"] %}
 ![]({{site.baseurl}}/assets/images/components/notifications/toasts/toast-specifications.svg)
@@ -76,7 +79,7 @@ Icons are always centered vertically.
 
 ## Variations
 
-<div class="hxRow">
+<div class="hxRow" markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
@@ -85,6 +88,7 @@ Icons are always centered vertically.
 Clicking on the “X” dismisses the toast notification. There are no other actions that can be taken on this type of toast notification.
 
 {% endcolumn %}
+
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Toast notifications without CTA"] [class:"image bg-light border"] %}
 ![]({{site.baseurl}}/assets/images/components/notifications/toasts/toast-wo-cta.svg)
@@ -93,7 +97,7 @@ Clicking on the “X” dismisses the toast notification. There are no other act
 
 </div>
 
-<div class="hxRow">
+<div class="hxRow" markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
@@ -114,7 +118,8 @@ In the informational toast notification example here, the height of the toast in
 </div>
 
 ## Behaviors
-<div class="hxRow">
+
+<div class="hxRow" markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
@@ -127,6 +132,7 @@ Toasts display in the top right corner, 24px underneath the navigation bar. If m
 The toast fades into place over `400 ms`, sits in place for 8 s seconds, and fades out over `400 ms`. If the user hovers over the toast while it is fading out, it immediately gains full opacity. Toasts will persist indefinitely on cursor hover. Upon cursor removal the toast persists for three more seconds then fades over the normal `400 ms`.
 
 {% endcolumn %}
+
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Placement, animation, and stacking of toast notifications in context"] [class:"image bg-light border"] %}
 ![]({{site.baseurl}}/assets/images/components/notifications/toasts/toast-behaviors.png)
