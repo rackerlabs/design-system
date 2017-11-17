@@ -8,7 +8,6 @@ usage: >
 preview-image: preview-images/radio-buttons.svg
 resource: true
 status: stable
-need: selectors
 last-modified: 2017-11-04
 ---
 

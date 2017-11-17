@@ -2,8 +2,7 @@
 title: Radio Buttons
 layout: code
 category: Components Code
-code: form
-height: 60rem
+code: null
 ---
 
-{% include code-container.html %}
+{% include todo.html content="Set up code." %}

@@ -1,5 +1,5 @@
 ---
-title: Actions Menu
+title: Actions Menus
 layout: code
 category: Components Code
 code: null

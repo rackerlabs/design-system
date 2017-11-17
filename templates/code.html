@@ -31,8 +31,7 @@ layout: base
       {%- if page.title == item.title -%}
         <a href="{{site.url}}{{item.url}}.html">Design Guidelines</a>
       {%- endif -%}
-    {%- endfor -%} |
-    <a href="{{site.url}}{{page.url}}.html">Code &amp; Examples</a>
+    {%- endfor -%}&nbsp;|&nbsp;<a href="{{site.url}}{{page.url}}.html">Code &amp; Examples</a>
   </div>
   <div class="component-content">
     {{content}}
