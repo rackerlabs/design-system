@@ -118,7 +118,7 @@ Use the following column widths for the small, medium, and large choice tiles. B
 </div>
 
 
-<div class="hxRow">
+<div class="hxRow" markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Basic states
