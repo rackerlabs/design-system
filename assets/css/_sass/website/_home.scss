@@ -111,6 +111,11 @@
       bottom: 0px;
       left: 0;
       right: 0;
+      .card-button {
+        a {
+          color: $grey0;
+        }
+      }
     }
     p {
       font-weight: $regular-weight;
