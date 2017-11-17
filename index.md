@@ -19,7 +19,7 @@ customers happy.
     </ul>
     <div class="card-bottom">
       <div class="card-button">
-        <button class="hxBtn hxBtn--primary"><a href="{{site.baseurl}}getting-started/design.html">Full Designer Guide</a></button>
+        <a class="hxBtn hxBtn--primary" href="{{site.baseurl}}getting-started/design.html">Full Designer Guide</a>
       </div>
     </div>
   </div>
@@ -28,13 +28,13 @@ customers happy.
     <span class="card-heading">For Developers</span>
     <p>Use these resources to learn and implement Helix patterns.</p>
     <ul>
-      <li><a href="#">Pattern Guidelines</a></li>
-      <li><a href="#">UI Framework</a></li>
-      <li><a href="#">Component Explorer</a></li>
+      <li><a href="http://helix.rax.io/">Pattern Guidelines</a></li>
+      <li><a href="https://rackerlabs.github.io/helix-ui/">UI Framework</a></li>
+      <li><a href="https://rackerlabs.github.io/helix-ui/">Component Explorer</a></li>
     </ul>
     <div class="card-bottom">
       <div class="card-button">
-        <button class="hxBtn hxBtn--primary"><a href="https://rackerlabs.github.io/helix-ui/guides/install/">Full Developer Guide</a></button>
+        <a href="https://rackerlabs.github.io/helix-ui/guides/install/" class="hxBtn hxBtn--primary">Full Developer Guide</a>
       </div>
     </div>
   </div>
