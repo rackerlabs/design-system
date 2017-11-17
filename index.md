@@ -19,7 +19,7 @@ customers happy.
     </ul>
     <div class="card-bottom">
       <div class="card-button">
-        <a class="hxBtn hxBtn--primary" href="{{site.baseurl}}getting-started/design.html">Full Designer Guide</a>
+        <a class="hxBtn hxBtn--primary" href="{{site.baseurl}}getting-started/design.html">View Designer Guide</a>
       </div>
     </div>
   </div>
@@ -34,7 +34,7 @@ customers happy.
     </ul>
     <div class="card-bottom">
       <div class="card-button">
-        <a href="https://rackerlabs.github.io/helix-ui/guides/install/" class="hxBtn hxBtn--primary">Full Developer Guide</a>
+        <a href="https://rackerlabs.github.io/helix-ui/guides/install/" class="hxBtn hxBtn--primary">Explore Developer Guide</a>
       </div>
     </div>
   </div>
