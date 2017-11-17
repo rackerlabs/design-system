@@ -1,5 +1,5 @@
 ---
-title: Help Beacon
+title: Steppers
 layout: code
 category: Components Code
 code: null

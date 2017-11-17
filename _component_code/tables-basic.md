@@ -1,8 +1,8 @@
 ---
-title: Checkboxes
+title: Basic Tables
 layout: code
 category: Components Code
-code: checkbox
+code: table
 ---
 
 {% include code-container.html %}

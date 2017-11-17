@@ -1,8 +1,8 @@
 ---
-title: Editor Test
+title: Date Picker
 layout: code
 category: Components Code
-collection: component_code
+code: null
 ---
 
 {% include todo.html content="Set up code." %}
