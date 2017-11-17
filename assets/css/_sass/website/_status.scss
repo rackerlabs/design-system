@@ -1,0 +1,22 @@
+table {
+  &.status-table {
+    width: 100%;
+    max-width: 50rem;
+    line-height: inherit;
+    tr:nth-child(even) {
+      background: #e5f4f7;
+    };
+    .progress:first-child {
+      color: $orange;
+      background: none !important;
+    }
+    .stable:first-child {
+      color: $green;
+      background: none !important;
+    }
+    .deprecated:first-child {
+      color: $red;
+      background: none !important;
+    }
+  }
+}
