@@ -35,7 +35,7 @@ Always use human-readable, international-friendly formatting when displaying dat
 
 ### Time
 
-<div class="hxRow">
+<div class="hxRow" markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 #### Best Practices
@@ -68,7 +68,7 @@ Always use human-readable, international-friendly formatting when displaying dat
 
 <hr>
 
-<div class="hxRow">
+<div class="hxRow" markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 #### Timestamp
@@ -93,7 +93,7 @@ Always use human-readable, international-friendly formatting when displaying dat
 
 ### Timeago
 
-<div class="hxRow">
+<div class="hxRow" markdown="1">
 {% column left:"hxCol-8" %}
 
 Timeago details length of time that has elapsed since an event (for example, a
