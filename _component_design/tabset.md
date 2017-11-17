@@ -9,6 +9,8 @@ preview-image: preview-images/tabs.svg
 resource: true
 status: stable
 last-modified: 2017-09-11
+helix-ui-css: true
+helix-ui-javascript: true
 ---
 
 {% include toc.html %}

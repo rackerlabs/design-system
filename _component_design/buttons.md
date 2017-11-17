@@ -9,6 +9,8 @@ preview-image: preview-images/buttons.svg
 status: stable
 resource: true
 last-modified: 2017-10-23
+helix-ui-css: true
+helix-ui-javascript: false
 ---
 
 {% include toc.html %}

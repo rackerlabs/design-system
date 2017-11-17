@@ -9,6 +9,8 @@ preview-image: preview-images/alert-bar.svg
 status: in-progress
 resource: true
 last-modified: 2017-08-17
+helix-ui-css: true
+helix-ui-javascript: false
 ---
 
 {% include toc.html %}

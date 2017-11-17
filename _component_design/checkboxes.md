@@ -10,6 +10,8 @@ resource: true
 status: stable
 need: selectors
 last-modified: 2017-11-07
+helix-ui-css: true
+helix-ui-javascript: true
 ---
 
 {% include toc.html %}

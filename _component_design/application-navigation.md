@@ -8,6 +8,8 @@ usage: >
 preview-image: preview-images/app-nav.svg
 status: stable
 resource: true
+helix-ui-css: true
+helix-ui-javascript: true
 ---
 
 {% include toc.html %}
