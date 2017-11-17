@@ -5,6 +5,11 @@ category: Layout
 usage: The Helix 12-column grid provides structure for website content.
 preview-image: components/preview-grid.svg
 resource: true
+status: stable
+code-element: true
+helix-ui-css: true
+helix-ui-javascript: false
+helix-ui-name: grid
 ---
 
 {% include toc.html %}
