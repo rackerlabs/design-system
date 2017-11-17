@@ -17,10 +17,11 @@ body {
 }
 
 nav.side {
-    display: flex;
-    flex-direction: column;
-    flex-shrink: 0;
-    min-height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    overflow-y: auto;
     .logo {
         display: block;
         position: relative;
@@ -57,6 +58,7 @@ hr {
     overflowY: scroll;
     flex: 1;
     padding: 0px 0px !important;
+    margin-left: 15rem;
   }
 };
 
