@@ -1,0 +1,12 @@
+stable:
+ name: stable
+ class: stable
+ description: 'The Helix team has high a degree of confidence in this design and considers it ready for production implementation.'
+in-progress:
+ name: in progress
+ class: 'in-progress'
+ description: 'This Helix team has moderate confidence in this design.  The pattern will likely undergo some changes in the near future.'
+deprecated:
+ name: deprecated
+ class: 'deprecated'
+ description: 'This design is going to be phased out. This item should no longer be implemented.'
