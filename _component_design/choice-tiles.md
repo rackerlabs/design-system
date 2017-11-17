@@ -15,8 +15,9 @@ last-modified: 2017-11-12
 
 ## Introduction
 
-<div class="hxRow">
+<div class="hxRow" markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
 ### When to use
 
 - Use choices tiles when presenting a set of choices that are easily recognized by iconography.
@@ -36,7 +37,7 @@ last-modified: 2017-11-12
 </div>
 
 
-<div class="hxRow">
+<div class="hxRow" markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Composition
@@ -59,7 +60,7 @@ Capitalize first word in sentences
 </div>
 
 
-<div class="hxRow">
+<div class="hxRow" markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Layout options
@@ -81,7 +82,7 @@ Capitalize first word in sentences
 </div>
 
  
-<div class="hxRow">
+<div class="hxRow" markdown="1">
 {% column left:"hxCol-10 hxCol-xs-12 hxCol-sm-12 hxCol-md-10 hxCol-lg-10" %}
 
 ### Responsive specifications
@@ -98,7 +99,7 @@ Use the following column widths for the small, medium, and large choice tiles. B
 </div>
 
 ## Visual specifications
-<div class="hxRow">
+<div class="hxRow" markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 - Small size choice tiles **cannot** have a description due to the smaller dimensions.
@@ -116,9 +117,11 @@ Use the following column widths for the small, medium, and large choice tiles. B
 {% endcolumn %}
 </div>
 
-### Basic states
+
 <div class="hxRow">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### Basic states
 
 Choice tiles use most of the same styling that is used for components like radios and checkboxes, with the addition of the checkmark to indicate a selected tile. The user can click on any part of the tile to select it.
 
@@ -136,7 +139,7 @@ For selected states, the iconography changes color to match the given state. In 
 
 ## Interactions
 
-<div class="hxRow">
+<div class="hxRow" markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Single-select interaction
@@ -156,7 +159,7 @@ For selected states, the iconography changes color to match the given state. In 
 {% endcolumn %}
 </div>
 
-<div class="hxRow">
+<div class="hxRow" markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Multi-select interaction
@@ -178,7 +181,7 @@ For selected states, the iconography changes color to match the given state. In 
 
 ## Handling errors
 
-<div class="hxRow">
+<div class="hxRow" markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Single-select error
@@ -195,7 +198,7 @@ If there is an error on a selection, change that item to errored state and displ
 {% endcolumn %}
 </div>
 
-<div class="hxRow">
+<div class="hxRow" markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Group-select error
@@ -211,7 +214,7 @@ If there is an error on the entire group, place the message above the group rath
 {% endcolumn %}
 </div>
 
-<div class="hxRow">
+<div class="hxRow" markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Required
