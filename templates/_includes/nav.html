@@ -32,7 +32,7 @@
       </hx-reveal>
     {%- endif -%}
   {%- endfor -%}
-
+  <a href="{{site.url}}/status.html" {%- if currenturl == "/status" -%} class="current" {%- else -%} {%- endif -%}>STATUS</a>
   <!--<a href="{{site.url}}/resources" {% if currenturl == "/resources" %} class="current" {% endif %}>Resources</a>-->
   <!--<a href="{{site.url}}/contribute" {% if currenturl == "/contribute" %} class="current" {% endif %}>Contribute</a>-->
   <!-- This adds the status page to the nav, it is commented out until we better define the use-case
