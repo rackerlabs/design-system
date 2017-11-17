@@ -226,25 +226,26 @@
 #ws-chart-yellow700{
   @include animation(yellow700 5s infinite);
 }
-
-@keyframes yellow700 { /* CSS3 */
+/*
+@keyframes yellow700 { 
   0%   { background-color: $gold700; }
   20%  { background-color: rgb(255,237,53); }
   50%  { background-color: rgb(255,237,53); }
   70%  { background-color: $gold700; }
   100% { background-color: $gold700; }
 }
-@-moz-keyframes yellow700 { /* Firefox */
+@-moz-keyframes yellow700 {
   0%   { background-color: $gold700; }
   20%  { background-color: rgb(255,237,53); }
   50%  { background-color: rgb(255,237,53); }
   70%  { background-color: $gold700; }
   100% { background-color: $gold700; }
 }
-@-webkit-keyframes yellow700 { /* Webkit */
+@-webkit-keyframes yellow700 {
   0%   { background-color: $gold700; }
   20%  { background-color: rgb(255,237,53); }
   50%  { background-color: rgb(255,237,53); }
   70%  { background-color: $gold700; }
   100% { background-color: $gold700; }
 }
+*/
