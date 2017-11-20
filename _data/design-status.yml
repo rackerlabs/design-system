@@ -1,0 +1,12 @@
+stable:
+ name: stable
+ class: stable
+ description: 'The Helix team has a high degree of confidence in this design and considers it low risk. It is ready for production implementation.'
+in-progress:
+ name: in progress
+ class: 'in-progress'
+ description: 'The Helix team has moderate confidence in this design and considers it medium risk for implementation.  The pattern will likely undergo some changes in the near future.'
+deprecated:
+ name: deprecated
+ class: 'deprecated'
+ description: 'The Helix team considers this design high risk, and this design should no longer be implemented.'

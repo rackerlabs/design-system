@@ -1,0 +1,189 @@
+.overview-footer {
+  background-color: $grey900;
+  text-align: center;
+  display: flex;
+  .footer-content {
+    box-sizing: border-box;
+    width: calc(100vw - 76em);
+    text-align: center;
+    margin: 0px auto;
+    padding: 0px 10px;
+    flex: 1;
+  };
+  h2 {
+    font-size: $font-size-5 !important;
+    font-weight: $regular-weight;
+    color: $grey400;
+    margin: 40px auto 0px auto;
+  };
+  p {
+    font-size: $base-font-size;
+    font-weight: $regular-weight;
+    color: $grey400 !important;
+    margin: 12px auto !important;
+  };
+  hr {
+    display: block;
+    margin: 32px auto 0px auto;
+    width: 75%;
+    color: $grey600 !important;
+  };
+  img {
+    height: 36px;
+    width: 36px;
+    filter: invert(60%);
+    border-radius: 17px;
+    &:hover {
+      filter: invert(90%);
+    }
+  };
+}
+.overview-wrapper {
+  display: flex;
+  .overview-content {
+    box-sizing: border-box;
+    text-align: center;
+    overflowY: scroll;
+    flex: 1;
+    margin-left: 15rem;
+};
+  background-image: url(../images/Helix_Homepage_Pattern.svg);
+  background-color: $grey25;
+  background-repeat: no-repeat;
+  @include background-size(cover);
+}
+.overview-header {
+  margin: 28px auto 12px auto;
+  text-align: center;
+  &.display-font {
+    font-size: $font-size-5;
+    font-weight: $light-weight;
+    color: $grey900;
+    text-align: center;
+  }
+}
+
+.overview-content {
+  padding: 0px 0px !important;
+  p {
+    font-size: $base-font-size !important;
+    font-weight: $light-weight;
+    color: $grey900;
+    text-align: center;
+    line-height: $base-line-height !important;
+    max-width: 43em;
+    margin: auto;
+  }
+  .main-logo {
+    display: block;
+    position: relative;
+    margin: 80px auto 0px auto;
+    img {
+      height: 64px;
+      margin: 0px auto 0px auto;
+    };
+  }
+  .card-container {
+    display: inline-block;
+  }
+  .card {
+    position: relative;
+    border: 1px solid $grey400;
+    margin: 32px auto 40px auto;
+    padding: 20px;
+    min-height: 23.57rem;
+    width: 14.25rem;
+    text-align: center;
+    .icon {
+      margin: 20px auto;
+      img {
+        height: 45px;
+      }
+    }
+    .card-heading {
+      font-weight: 600;
+      font-size: $base-font-size;
+      color: $grey900;
+      margin: 20px auto;
+    }
+    .card-bottom {
+      position: absolute;
+      bottom: 0px;
+      left: 0;
+      right: 0;
+      margin: 20px auto;
+      .card-button {
+        a {
+          color: $grey0;
+        }
+      }
+    }
+    p {
+      font-weight: $regular-weight;
+      font-size: $font-size-3;
+      color: $grey900;
+      margin: 20px auto;
+      line-height: $base-line-height !important;
+    }
+    a {
+      font-weight: $regular-weight;
+      font-size: $base-font-size;
+      color: $cyan700;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      li {
+        line-height: $base-line-height !important;
+        text-align: center;
+        padding: 0.25rem 0;
+      };
+    }
+    .card-button {
+      margin: 12px auto 28px auto;
+      button {
+        text-transform: capitalize;
+        padding: 0.5em;
+        font-size: $base-font-size;
+        &:hover {
+          cursor: pointer;
+        }
+        a {
+        color: $grey0;
+        }
+      };
+    }
+  };
+  #left {
+    float: left;
+    margin-right: 0.625rem;
+  };
+  #right {
+    float: right;
+    margin-left: 0.625rem;
+  }
+}
+@include phone {
+  .overview-content {
+    max-width: $tablet-width;
+  }
+  .overview-footer {
+    max-width: $tablet-width;
+  }
+}
+@include tablet {
+  .overview-content {
+    max-width: $tablet-width;
+  }
+  .overview-footer {
+    max-width: $tablet-width;
+  }
+}
+@include desktop {
+  // .overview-content {
+  //   padding: 0px 20% 0px 10%;
+  // }
+  // .overview-footer {
+  //   padding: 0px 20% 0px 10%;
+  // }
+}

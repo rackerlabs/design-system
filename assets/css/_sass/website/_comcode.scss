@@ -1,0 +1,24 @@
+.comcode-tab {
+  display: block;
+  max-width: inherit;
+  padding-top: $spacing-unit;
+  padding-bottom: $spacing-unit;
+}
+
+.code-container {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  textarea {
+    width: 100%;
+    height: 10rem;
+  };
+}
+
+// iframe.code-set {
+//   top: -8.5rem;
+//   left: -15rem;
+//   width: 156%;
+//   height: 100%;
+//   position: absolute;
+// }

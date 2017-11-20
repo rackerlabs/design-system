@@ -1,0 +1,22 @@
+.alert {
+  padding: 5px;
+  margin: 5px;
+}
+.alert-todo {
+  background-color: $brand-color;
+  color: $light-grey;
+  a {
+    color: $grey-color-dark;
+  }
+}
+
+.alert-danger {
+  background-color: $admonish-color;
+}
+.alert-info {
+  background-color: $brand-color;
+  color: $light-grey;
+  a {
+    color: $grey-color-dark;
+  }
+}

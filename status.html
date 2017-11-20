@@ -1,117 +1,69 @@
 ---
-title: Component Status
-layout: website/default
+title: Pattern Status
+layout: docs
+category: Status
+usage: >
+  Refer to this page for an alphabetical list of all patterns in Helix, including design and code statuses.
 ---
 
-<article>
-  <p>Refer to this page for an alphabetical list of all components in the Helix
-    design language with their current status. A description of what each icon
-    means can be found at the bottom of the page.</p>
-<!--
-  <h2>Option 1</h2>
-    <table class="striped">
+<div class="hxRow">
+<div class="hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8">
+
+<table class="hxTable hxTable--condensed hxTable--bordered" id="design-status-table">
     <thead>
       <tr>
-        <th style="width: 33%">Component</th>
-        <th style="width: 33%">Version Added</th>
-        <th style="width: 33%">Status</th>
+        <th>Helix Pattern</th>
+        <th class="align-center">Design Doc</th>
+        <th class="align-center">CSS</th>
+        <th class="align-center">JS</th>
       </tr>
     </thead>
     <tbody>
-      {% for page in site.pages %}
-          {% if page.category %}
-              <tr>
-                <td><a href="{{site.baseurl}}{{page.url}}.html">{{page.title}}</a></td>
-                <td>1.0</td>
-                <td>
-                {% if page.status %}
-                  {% if page.status == "pending" %}
-                    <span class="component prototype">In Progress</span>
-                  {% elsif page.status == "complete" %}
-                    <span class="component dev-ready">Complete</span>
-                  {% elsif page.status == "deprecated" %}
-                    <span class="component deprecated">Deprectated</span>
-                  {% endif %}
-                {% else %}
-                  <span class="component prototype">In Progress</span>
-                {% endif %}
-                </td>
-              </tr>
-          {% endif %}
-      {% endfor %}
-    </tbody>
-    </table>
-<br>
-<br>
-
-    <h2>Option 2</h2>
-
-    <div class="row" style="max-width: 40em;">
-    <div class="col-md-3"><i class="icon-disabled"></i><p>Unavailable</p></div>
-    <div class="col-md-3"><i class="icon-warning"></i><p>In-Progress</p></div>
-    <div class="col-md-3"><i class="icon-check-mark"></i><p>Complete</p></div>
-    <div class="col-md-3"><i class="icon-error"></i><p>Deprecated</p></div>
-  </div>-->
-  <h2>Component Status</h2>
-  <table class="striped component-table">
-    <thead>
-      <tr class="compressed">
-        <th class="th-1-2">Component</th>
-        <!-- Removing this line until we have a strategy around versioning as this is a future item<th class="th-1-3">Version Added</th> -->
-        <th class="th-1-4">Status</th>
-      </tr>
-    </thead>
-    <tbody>
-      {% for page in site.pages %}
-          {% if page.category %}
-              <tr class="compressed">
-                <td class="compressed"><a href="{{site.baseurl}}{{page.url}}.html">{{page.title}}</a></td>
-                <!-- Removing this line until we have a strategy around versioning as this is a future item
-                <td class="compressed">1.0</td> -->
-                <td class="compressed">
-                {% if page.status %}
-                  {% if page.status == "pending" %}
-                    <span class="status prototype">In Progress</span>
-                  {% elsif page.status == "complete" %}
-                    <span class="status dev-ready">Complete</span>
-                  {% elsif page.status == "deprecated" %}
-                    <span class="status deprecated">Deprecated</span>
-                  {% endif %}
-                {% else %}
-                  <span class="status deprecated">Status Unknown</span>
-                {% endif %}
-                </td>
-              </tr>
-          {% endif %}
-      {% endfor %}
+      {%- assign component_list = "" | split: ','-%}
+      {%- for page in site.docs -%}
+        {%- if page.resource == true and page.code-element == true-%}
+          {%- assign component_list = component_list | push: page -%}
+        {%- endif -%}
+      {%- endfor -%}
+      {%- for page in site.component_design -%}
+        {%- if page.resource == true -%}
+          {%- assign component_list = component_list | push: page -%}
+        {%- endif -%}
+      {%- endfor -%}
+      {%- assign component_list = component_list | sort: 'title' -%}
+      {%- for page in component_list -%}<tr >
+          <td><a href="{{site.baseurl}}{{page.url}}.html">{{page.title}}</a></td>
+          <td class="align-center">
+          {%- if page.status -%}
+            <span class="status-label small {{page.status | replace: ' ','-'}}">{{page.status}}</span>
+          {%- endif -%}
+          </td>
+          <td class="align-center status-ok">
+            {%- if page.helix-ui-css -%}
+            <hx-icon type="checkmark-circle"></hx-icon>
+            {%- endif -%}
+          </td>
+          <td class="align-center status-ok">
+            {%- if page.helix-ui-javascript -%}
+            <hx-icon type="checkmark-circle"></hx-icon>
+            {%- endif -%}
+          </td>
+        </tr>{%- endfor -%}
     </tbody>
     </table>
 
-</article>
+</div>
 
-<article>
-  <h2>Icon Descriptions</h2>
-  <table class="striped component-table">
-    <thead>
-      <tr class="compressed">
-        <th class="th-1-4">Status</th>
-        <th class="th-1-2">Explanation</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr class="large">
-        <td class="compressed"><span class="status dev-ready">Complete</span></td>
-        <td class="compressed"><p>This specification is ready for production. Designs based on this specification are ready for use.</p></td>
-      </tr>
-      <tr class="large">
-        <td class="compressed"><span class="status prototype">In Progress</span></td>
-        <td class="compressed"><p>This specification is in development. Designs based on this specification will likely need to be updated in the future.</p></td>
-      </tr>
-      <tr class="large">
-        <td class="compressed"><span class="status deprecated">Deprecated</span></td>
-        <td class="compressed"><p>This specification is deprecated. Designs based on this specification should no longer be implemented.</p></td>
-      </tr>
-    </tbody>
-    </table>
+<div class="hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4">
+<h4 class="hxContainerTitle">Legend</h4>
 
-</article>
+      {%- for status_hash in site.data.design-status -%}
+      {%- assign status = status_hash[1]-%}
+      <span class="status-label small {{status.class}}">{{status.name}}</span>
+      <p class="hxSubBody hxSubdued" style="margin-top:8px;">{{status.description}}</p>
+      <hr>
+      {%- endfor -%}
+
+
+</div>
+</div>
