@@ -41,7 +41,7 @@ control panels when sending out notifications and tickets.
 ## Quick view template and variable guide
 
 {% figure [caption:"Quick guide for template and variable options"] [class:"image bg-light border"] %}
-  ![]({{site.cdn_url}}/img/layout/email-templates/EmailTemplate.svg)
+  ![]({{site.baseurl}}/assets/images/templates/email/EmailTemplate.svg)
 {% endfigure %}
 
 {% endcolumn %}
@@ -56,7 +56,7 @@ control panels when sending out notifications and tickets.
 ## Typography and image guides
 
 {% figure [caption:"Quick guide for typography and image specifications"] [class:"image bg-light border"] %}
-  ![]({{site.cdn_url}}/img/layout/email-templates/Email%20Detail%20-%20Spec.svg)
+  ![]({{site.baseurl}}/assets/images/templates/email/Email%20Detail%20-%20Spec.svg)
 {% endfigure %}
 
 {% endcolumn %}
@@ -146,7 +146,7 @@ banner should **not** be included.
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:""] [class:"image bg-light border"] %}
-  ![]({{site.cdn_url}}/img/layout/email-templates/Urgent%20Alert.svg)
+  ![]({{site.baseurl}}/assets/images/templates/email/Urgent%20Alert.svg)
 {% endfigure %}
 {% endcolumn %}
 
@@ -157,7 +157,7 @@ banner should **not** be included.
 {% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
 
 {% figure [caption:"Alert banner typography, color, and spacing"] [class:"image bg-light border"] %}
-  ![]({{site.cdn_url}}/img/layout/email-templates/Alert%20Specs.svg){:width=60%}
+  ![]({{site.baseurl}}/assets/images/templates/email/Alert%20Specs.svg){:width=60%}
 {% endfigure %}
 
 {% endcolumn%}
@@ -187,7 +187,7 @@ message it is. The header contains three parts:
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Visual example of Sub-Header and spacing"] [class:"image bg-light border"] %}
-  ![]({{site.cdn_url}}/img/layout/email-templates/Header.svg)
+  ![]({{site.baseurl}}/assets/images/templates/email/Header.svg)
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -198,7 +198,7 @@ message it is. The header contains three parts:
 
 
 {% figure [caption:"Examples of content options. Replace only product name and switch between Notification or Ticket for message type."] [class:"image bg-light border"] %}
-  ![]({{site.cdn_url}}/img/layout/email-templates/Header%20Details.svg)
+![]({{site.baseurl}}/assets/images/templates/email/Header%20Details.svg)
 {% endfigure %}
 
 {% endcolumn %}
@@ -226,7 +226,7 @@ sent. This includes notification types and ticket or notification statuses.
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Visual example of Sub-Header and spacing"] [class:"image bg-light border"] %}
-  ![]({{site.cdn_url}}/img/layout/email-templates/Subheader.svg){:width=60%}
+![]({{site.baseurl}}/assets/images/templates/email/Subheader.svg)
 {% endfigure %}
 {% endcolumn %}
 
@@ -280,7 +280,7 @@ the user to scan for pertinent information quickly.
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Call Out box used for workarounds and comments. Comment includes code block."] [class:"image bg-light border"] %}
-  ![]({{site.cdn_url}}/img/layout/email-templates/Comment%20with%20CodeBlock.svg)
+  ![]({{site.baseurl}}/assets/images/templates/email/Comment%20with%20CodeBlock.svg)
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -295,7 +295,7 @@ the user to scan for pertinent information quickly.
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Code block visual examples and specifications"] [class:"image bg-light border"] %}
-  ![]({{site.cdn_url}}/img/layout/email-templates/Code%20Block%20.svg)
+  ![]({{site.baseurl}}/assets/images/templates/email/Code%20Block%20.svg)
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -324,7 +324,7 @@ for in-depth use cases and standards.
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Button and spacing specifications"] [class:"image bg-light border"] %}
-  ![]({{site.cdn_url}}/img/layout/email-templates/Button.svg)
+  ![]({{site.baseurl}}/assets/images/templates/email/Button.svg)
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -335,7 +335,7 @@ for in-depth use cases and standards.
 {% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
 
 {% figure [caption:"Variation of button content. Message should always be clear and concise."] [class:"image bg-light border"] %}
-  ![]({{site.cdn_url}}/img/layout/email-templates/Buttons.svg){:width=60%}
+  ![]({{site.baseurl}}/assets/images/templates/email/Buttons.svg)
 {% endfigure %}
 
 {% endcolumn %}
@@ -359,7 +359,7 @@ message type. It should match the content in the header of the email.
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
 {% figure [caption:"Mobile app promotion and download links"] [class:"image bg-light border"] %}
-  ![]({{site.cdn_url}}/img/layout/email-templates/Mobile%20LInks.svg)
+  ![]({{site.baseurl}}/assets/images/templates/email/Mobile%20LInks.svg)
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -381,7 +381,7 @@ notification preferences.
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Footer visual example and spacing specifications"] [class:"image bg-light border"] %}
-  ![]({{site.cdn_url}}/img/layout/email-templates/Footer.svg){:width=60%}
+  ![]({{site.baseurl}}/assets/images/templates/email/Footer.svg)
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -495,7 +495,7 @@ For now, though, here are a few of the completed studies:
 {% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
 
 {% figure [caption:"Example of a billing email using these guidelines"] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/layout/email-templates/Email%20Detail.svg)
+![]({{site.baseurl}}/assets/images/templates/email/Email%20Detail.svg)
 {% endfigure %}
 {% endcolumn %}
 
