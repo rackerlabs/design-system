@@ -28,8 +28,8 @@ customers happy.
     <div class="card-bottom">
       <ul>
         <li><a href="https://github.com/rackerlabs/helix-ui/">Code Repository</a></li>
-        <li><a href="https://rackerlabs.github.io/helix-ui/guides/install/" target="_blank">Installation Guide</a></li>
-        <li><a href="https://rackerlabs.github.io/helix-ui/" target="_blank">Component Explorer</a></li>
+        <li><a href="https://rackerlabs.github.io/helix-ui/guides/install/" target="_blank">Installation Guide <hx-icon type="external-link"></hx-icon></a></li>
+        <li><a href="https://rackerlabs.github.io/helix-ui/" target="_blank">Component Explorer <hx-icon type="external-link"></hx-icon></a></li>
       </ul>
     </div>
   </div>
