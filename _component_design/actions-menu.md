@@ -14,6 +14,8 @@ last-modified: 2017-11-03
 
 {% include toc.html %}
 
+<section class="static-section">
+
 ## Introduction
 
 <div class="hxRow"  markdown="1">
@@ -37,13 +39,17 @@ last-modified: 2017-11-03
 
 </div>
 
+</section>
+
+<section class="static-section">
+
 <div class="hxRow"  markdown="1">
 
 {% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
 ### Best practices
 
-- Links inside an actions menu must always initiate an action related to the current page and must never be used simply for navigation. Actions can include the following types: 
+- Links inside an actions menu must always initiate an action related to the current page and must never be used simply for navigation. Actions can include the following types:
 
 	- Immediate actions on the current page
 	- Actions in [modals]({{site.baseurl}}/components/modal.html)
@@ -56,12 +62,12 @@ last-modified: 2017-11-03
 
   - **Simple**: a list of links with no labels
   - **Advanced**: a list of links separated and organized through the use of labels
-  
+
 - When using labels within an actions menu, consider the following practices:
-	- Use labels to segment actions into logical groups. 
+	- Use labels to segment actions into logical groups.
 	- Consider using a single label if more than three actions are present and its inclusion provides additional clarity.
 	- Do **not** use a label when fewer than three actions are present.
-	- Use multiple labels on lists of more than seven action links to break apart the list and make it easier to understand. 
+	- Use multiple labels on lists of more than seven action links to break apart the list and make it easier to understand.
 
 {% endcolumn %}
 
@@ -88,7 +94,7 @@ The menu should span the length of the button. If an action name is longer than 
 ![]({{site.url}}/assets/images/components/inputs-and-controls/actions-menu/actions-menu-simple.svg)
 {% endfigure %}
 {% endcolumn %}
-  
+
 </div>
 
 <div class="hxRow"  markdown="1">
@@ -107,5 +113,5 @@ Use 8px of spacing between each section.
 ![]({{site.url}}/assets/images/components/inputs-and-controls/actions-menu/actions-menu-advanced.svg)
 {% endfigure %}
 {% endcolumn %}
-  
+
 </div>
