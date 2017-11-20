@@ -15,9 +15,9 @@ customers happy.
     <p>Start designing with Helix components.</p>
     <div class="card-bottom">
       <ul>
-        <li><a href="http://helix.rax.io/">Pattern Guidelines</a></li>
+        <li><a href="{{site.url}}">Pattern Guidelines</a></li>
         <li><a href="https://github.com/rackerlabs/helix/">Sketch Resources</a></li>
-        <li><a href="https://rackerlabs.github.io/helix-ui/" target="_blank">Component Explorer</a></li>
+        <li><a href="{{site.url}}/getting-started/design.html">Quick Start Guide</a></li>
       </ul>
     </div>
   </div>
@@ -27,7 +27,7 @@ customers happy.
     <p>Use these resources to implement Helix code.</p>
     <div class="card-bottom">
       <ul>
-        <li><a href="http://helix.rax.io/">Pattern Guidelines</a></li>
+        <li><a href="https://github.com/rackerlabs/helix-ui/">Code Repository</a></li>
         <li><a href="https://rackerlabs.github.io/helix-ui/guides/install/" target="_blank">Installation Guide</a></li>
         <li><a href="https://rackerlabs.github.io/helix-ui/" target="_blank">Component Explorer</a></li>
       </ul>
