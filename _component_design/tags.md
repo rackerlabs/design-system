@@ -6,7 +6,7 @@ category: Components
 usage: Teaser Text
 preview-image: null
 resource: false
-status: unknown
+status: stable
 last-modified: 2017-08-17
 ---
 

@@ -119,35 +119,12 @@
   padding-left: 0px;
 }
 
-table.ui.table {
-  border-collapse: collapse;
-  margin: 0;
-
-  thead {
-    tr {
-      th {
-        font-family: $base-font-family;
-        font-size: 0.875rem;
-        color: $grey950;
-        font-weight: 400;
-        text-transform: uppercase;
-        line-height: 0.875rem;
-        padding: 1.5rem 1rem 1rem 1rem;
-        text-align: left;
-        border-bottom: 1px $grey300 solid;
-      }
-    }
-  }
-
-  tbody {
-    tr {
-      td {
-        text-align: left;
-        padding: 1rem;
-        border-bottom: 1px $grey300 solid;
-        line-height: 1.5rem;
-        font-size: 1em;
-      }
-    }
-  }
+.align-left {
+  text-align: left !important;
+}
+.align-right {
+  text-align: right !important;
+}
+.align-center {
+  text-align: center !important;
 }

@@ -7,8 +7,10 @@ usage: >
   Tabs provide users with the ability to access multiple sections of content seperated by tabs. This seperation makes it easy to explore and switch between different views. Tabs enable content organization at a high level, such as switching between views, data sets, or functional aspects of an app.
 preview-image: preview-images/tabs.svg
 resource: true
-status: unknown
+status: stable
 last-modified: 2017-09-11
+helix-ui-css: true
+helix-ui-javascript: true
 ---
 
 {% include toc.html %}

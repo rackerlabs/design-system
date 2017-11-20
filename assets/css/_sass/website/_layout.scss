@@ -17,6 +17,7 @@ body {
 }
 
 nav.side {
+    padding-bottom: 2rem;
     position: fixed;
     top: 0;
     left: 0;
@@ -39,12 +40,6 @@ nav.side {
           margin: 16px auto 28px auto;
         }
     }
-}
-
-hr {
-  margin-bottom: 1.75rem;
-  margin-top: 1.75rem;
-  border: none;
 }
 
 /**
@@ -112,48 +107,6 @@ a {
     text-decoration: none;
   }
 }
-
-.ws-todo-bar{
-  background-color:$purple500;
-  border-radius:2px;
-  color:white;
-  padding:$paddingXS $paddingS !important;
-  @include font-smoothing(antialiased);
-  a {
-    color:#FBC02D;
-    font-weight: $medium-weight;
-  }
-  a:hover, a:active{
-    color: #FFEB3B;
-  }
-}
-
-.status {
-  background-color: $grey300;
-  padding: $paddingXS $paddingS;
-  border-radius: 12px;
-  font-weight: $regular-weight;
-  font-size: $font-size-1;
-  letter-spacing:0.5px;
-  color: #fff;
-  vertical-align: 4px;
-  white-space: nowrap;
-  margin-left: 2em;
-  display:inline-block;
-}
-
-.prototype {
-  background-color: $purple;
-}
-
-.dev-ready {
-  background-color: $green;
-}
-
-.deprecated {
-  background-color: $red;
-}
-
 video {
   width: 900px;
   height: auto;
@@ -178,6 +131,7 @@ p {
   line-height: $base-line-height;
   margin-top: 0;
 }
+
 
 pre {
   padding: 8px 12px;
