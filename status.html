@@ -19,51 +19,36 @@ usage: >
       </tr>
     </thead>
     <tbody>
+      {% assign component_list = "" | split: ','%}
       {% for page in site.docs %}
         {% if page.resource == true and page.code-element == true%}
-              <tr >
-                <td><a href="{{site.baseurl}}{{page.url}}.html">{{page.title}}</a></td>
-                <td class="align-center">
-                {% if page.status %}
-                  <span class="status-label small {{page.status | replace: ' ','-'}}">{{page.status}}</span>
-                {% endif %}
-                </td>
-                <td class="align-center status-ok">
-                  {% if page.helix-ui-css %}
-                  <hx-icon type="checkmark-circle"></hx-icon>
-                  {% endif %}
-                </td>
-                <td class="align-center status-ok">
-                  {% if page.helix-ui-javascript %}
-                  <hx-icon type="checkmark-circle"></hx-icon>
-                  {% endif %}
-                </td>
-              </tr>
-          {% endif %}
+          {% assign component_list = component_list | push: page %}
+        {% endif %}
       {% endfor %}
       {% for page in site.component_design %}
         {% if page.resource == true %}
-              <tr >
-                <td><a href="{{site.baseurl}}{{page.url}}.html">{{page.title}}</a></td>
-                <td class="align-center">
-                {% if page.status %}
-                  <span class="status-label small {{page.status | replace: ' ','-'}}">{{page.status}}</span>
-                {% endif %}
-                </td>
-                
-                <td class="align-center status-ok">
-                  {% if page.helix-ui-css %}
-                  <hx-icon type="checkmark-circle"></hx-icon>
-                  {% endif %}
-                </td>
-                <td class="align-center status-ok">
-                  {% if page.helix-ui-javascript %}
-                  <hx-icon type="checkmark-circle"></hx-icon>
-                  {% endif %}
-                </td>
-              </tr>
-          {% endif %}
+          {% assign component_list = component_list | push: page %}
+        {% endif %}
       {% endfor %}
+      {% assign component_list = component_list | sort: 'title' %}
+      {% for page in component_list %}<tr >
+          <td><a href="{{site.baseurl}}{{page.url}}.html">{{page.title}}</a></td>
+          <td class="align-center">
+          {% if page.status %}
+            <span class="status-label small {{page.status | replace: ' ','-'}}">{{page.status}}</span>
+          {% endif %}
+          </td>
+          <td class="align-center status-ok">
+            {% if page.helix-ui-css %}
+            <hx-icon type="checkmark-circle"></hx-icon>
+            {% endif %}
+          </td>
+          <td class="align-center status-ok">
+            {% if page.helix-ui-javascript %}
+            <hx-icon type="checkmark-circle"></hx-icon>
+            {% endif %}
+          </td>
+        </tr>{% endfor %}
     </tbody>
     </table>
 
