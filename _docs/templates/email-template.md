@@ -5,7 +5,7 @@ category: Templates
 usage: |
   These email templates provide a unified way to interact with customers from
   all platforms.
-preview-image:
+preview-image: preview-images/email-template.svg
 resource: true
 ---
 
