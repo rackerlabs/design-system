@@ -1,0 +1,68 @@
+.status-label {
+  
+  text-transform: uppercase;
+  font-size: 0.625rem;
+  font-weight: 400;
+  line-height: 1rem;
+  height: 1rem;
+  border: 1px solid $grey600;
+  color: $grey600;
+  border-radius: 0.5rem;
+  padding: 0 0.5rem;
+  display: inline-block;
+  text-align: center;
+
+  &.in-progress {
+    border: 1px solid $grey600;
+    color: $grey0;
+    background-color: $grey600;
+  }
+
+  &.stable {
+    border: 1px solid $grey750;
+    color: $grey750;
+  }
+
+  &.deprecated {
+    border: 1px solid $purple500;
+    color: $grey0;
+    background-color: $purple500;
+  }
+
+  &.xsmall {
+    width: 4rem;
+  }
+
+  &.small {
+    width: 6rem;
+  }
+
+  &.medium {
+    width: 10rem;
+  }
+
+  &.large {
+    width: 14rem;
+  }
+
+  &.xlarge {
+    width: 16rem;
+  }
+
+}
+
+.status-ok {
+  color: $green700;
+}
+
+.status-warning {
+  color: $yellow900;
+}
+
+.status-error {
+  color: $red900;
+}
+
+.status-disabled {
+  color: $grey700;
+}

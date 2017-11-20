@@ -25,6 +25,7 @@ $bold-weight:    700;
 
 @import
 "website/settings",
+"website/utilities",
 "website/mixins",
 "website/layout",
 "website/component-page",
@@ -36,5 +37,7 @@ $bold-weight:    700;
 "website/home",
 "website/breadcrumb-icons",
 "website/docs-page",
-"website/family-page"
+"website/family-page",
+"website/status-label",
+"website/shame"
 ;

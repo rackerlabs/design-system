@@ -6,7 +6,7 @@ category: Components
 usage: >
   Table controls are elements which allow users to interact with the data contained in a table. These controls include elements such as search bars, buttons, pagination controls, and action cogs among others.
 preview-image: preview-images/tables-controls.svg
-status: Stable
+status: stable
 resource: true
 last-modified: 2017-10-24
 ---

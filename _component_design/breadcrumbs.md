@@ -9,6 +9,8 @@ preview-image: preview-images/breadcrumbs.svg
 status: stable
 resource: true
 last-modified: 2017-11-14
+helix-ui-css: true
+helix-ui-javascript: false
 ---
 
 {% include toc.html %}

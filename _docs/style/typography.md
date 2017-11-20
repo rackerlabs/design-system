@@ -9,6 +9,10 @@ usage: |
   body text. Hierarchy can be established using size and negative space.
 preview-image: style/preview-typography.svg
 resource: true
+status: in-progress
+code-element: true
+helix-ui-css: true
+helix-ui-javascript: false
 ---
 
 {% include toc.html %}

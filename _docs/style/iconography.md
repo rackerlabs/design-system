@@ -7,6 +7,10 @@ usage: |
   represent abstract subject matter.
 preview-image: style/preview-icons.svg
 resource: true
+code-element: true
+status: stable
+helix-ui-css: true
+helix-ui-javascript: true
 ---
 
 {% include toc.html %}

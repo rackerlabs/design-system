@@ -6,8 +6,10 @@ category: Components
 usage: >
   Application navigation establishes a user's location within an application and shows the path forward to accomplish a goal. Consistent navigation patterns increase user confidence and efficiency.
 preview-image: preview-images/app-nav.svg
-status: in-progress
+status: stable
 resource: true
+helix-ui-css: true
+helix-ui-javascript: true
 last-modified: 2017-08-30
 ---
 
