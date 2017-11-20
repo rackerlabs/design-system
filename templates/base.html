@@ -11,6 +11,8 @@
     </title>
     <meta name="description" content="{%- if page.excerpt -%}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{%- else -%}{{ site.description }}{%- endif -%}">
 
+    <link rel="icon" type="image/png" href="{{site.url}}/favicon.png">
+
     {%- include head-styles.html -%}
 
     <link rel="canonical" href="{{ page.url | replace:'index.html','' }}">
@@ -29,17 +31,21 @@
               <nav class="hxBreadcrumb">
                 <a href="{{site.url}}/components/index.html">{{page.category}}</a>
                 <hx-icon class="delimiter" type="angle-right"></hx-icon>
-                <a href="{{site.url}}/components/{{page.parent | slugify}}.html">{{page.parent}}</a>
+                  {%- for item in site.component_design -%}
+                    {%- if page.title == item.title -%}
+                      <a href="{{site.url}}/components/{{page.parent | slugify}}.html">{{item.parent}}</a>
+                    {%- endif -%}
+                  {%- endfor -%}
                 <hx-icon class="delimiter" type="angle-right"></hx-icon>
                 <a href="{{page.url}}">{{page.title}}</a>
               </nav>
             </div>
-            <div class="hxCol-2">
-              <button class="hxBtn hxBtn--primary hxBtn--sm">Submit issue</button>
+            <div class="hxCol-2 hxOffset-2">
+              <a class="hxBtn hxBtn--sm" id="link" href="https://github.com/rackerlabs/design-system/issues/new?title=Issue%20Regarding%20-%20{{page.url}}">Submit issue</a>
             </div>
-            <div class="hxCol-2">
+            <!--<div class="hxCol-2">
               <button class="hxBtn hxBtn--primary hxBtn--sm">Sketch template</button>
-            </div>
+            </div>-->
           </div>
         </div>
       </div>

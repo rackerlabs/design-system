@@ -2,10 +2,7 @@
 title: Progress Indicators
 layout: code
 category: Components Code
-usage: The Helix 12-column grid provides structure for website content.
-preview-image: components-grid.svg
-need: progress-indicators
-collection: component_code
+code: progressbar
 ---
 
-{% include todo.html content="Set up code." %}
+{% include code-container.html %}

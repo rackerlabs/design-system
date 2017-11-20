@@ -1,11 +1,8 @@
 ---
-title: Actions Menu
+title: Actions Menus
 layout: code
 category: Components Code
-usage: null
-preview-image: components/preview-help.svg
-status: unknown
-resource: false
+code: null
 ---
 
 {% include todo.html content="Set up code." %}

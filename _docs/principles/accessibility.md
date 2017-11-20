@@ -66,10 +66,11 @@ While color can be useful to convey information, color should not be the only wa
 {% endcolumn %}
 </div>
 
-### Alerts
 
 <div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### Alerts
 
 Alert bars are a great example of how multiple indicators can be used. If you are indicating an error alert (for example, making it red), always include a status icon and alert description so that someone who is color blind can still see the problem.
 
@@ -107,7 +108,7 @@ Helix minimum contrast standards require the following elements:
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption: "Helix typography styles with their corresponding contrast ratios. All ratios were calculated using a `#fafafa` (`gray 25`) background color."] [class:"image bg-light border"] %}
-![]({{site.urll}}/assets/images/overview/accessibility/accessibility-typography.svg)
+![]({{site.url}}/assets/images/overview/accessibility/accessibility-typography.svg)
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -136,13 +137,13 @@ Helix minimum spacing standards require: 
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 {% figure [caption: "Little spacing and unclear relationships"] [class:"image bg-light border"] %}
-![]({{site.urll}}/assets/images/overview/accessibility/accessibility-space-1.svg)
+![]({{site.url}}/assets/images/overview/accessibility/accessibility-space-1.svg)
 {% endfigure %}
 {% endcolumn %}
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 {% figure [caption: "More spacing and clear relationships"] [class:"image bg-light border"] %}
-![]({{site.urll}}/assets/images/overview/accessibility/accessibility-space-2.svg)
+![]({{site.url}}/assets/images/overview/accessibility/accessibility-space-2.svg)
 {% endfigure %}
 {% endcolumn %}
 </div>

@@ -7,21 +7,10 @@
   font-size: $base-font-size;
   a {
     color: $grey25 !important;
-  }
-  .btn-primary {
-    background-color: inherit;
-    border: 1px solid $grey25;
-    // text-transform: capitalize;
-    .btn-sm {
-      padding: 5px 10px;
-      font-size: $font-size-1;
-      line-height: $base-line-height;
-      border-radius: 3px;
-    }
-    &:hover {
-      background-color: $grey25;
-      border-color: transparent;
-      color: $cyan700;
+    &#link {
+      text-align: center;
+      font-weight: $regular-weight;
+      border: 1px solid $grey25 !important;
     }
   }
 }

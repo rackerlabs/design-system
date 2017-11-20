@@ -1,12 +1,8 @@
 ---
-title: Data Visualization
+title: Charts
 layout: code
 category: Components Code
-usage: Teaser Text
-preview-image:
-resource: true
-need: charts
-collection: component_code
+code: null
 ---
 
 {% include todo.html content="Set up code." %}

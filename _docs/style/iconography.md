@@ -32,20 +32,12 @@ links or match the color of body text dependent on the background color.
 <div class="hxRow">
   {% for icon in site.data.icons %}
     {% if icon.group == "utility" %}
-        <div class="hxCol-xs-12 hxCol-sm-6 hxCol-md-3 hxCol-lg-2">
-          <div class="hxRow">
-            <div class="hxCol">
-              <div class="icon-chip">
-                <hx-icon type="{{icon.type}}"></hx-icon>
-              </div>
-            </div>
-          </div>
-          <div class="hxRow">
-            <div class="hxCol">
-              <span class="icon-chip-text">{{icon.type}}</span>
-            </div>
-          </div>
+      <div class="hxCol-xs-12 hxCol-sm-6 hxCol-md-3 hxCol-lg-2">
+        <div class="icon-chip">
+          <hx-icon type="{{icon.type}}"></hx-icon>
         </div>
+        <span class="icon-chip-text">{{icon.type}}</span>
+      </div>
     {% endif %}
   {% endfor %}
 </div>
@@ -59,20 +51,12 @@ a list or symbolize types of content.
 <div class="hxRow">
   {% for icon in site.data.icons %}
     {% if icon.group == "object" %}
-      <div class="hxCol-xs-12 hxCol-sm-6 hxCol-md-3 hxCol-lg-2">
-        <div class="hxRow">
-          <div class="hxCol">
-            <div class="icon-chip">
-              <hx-icon type="{{icon.type}}"></hx-icon>
-            </div>
-          </div>
-        </div>
-        <div class="hxRow">
-          <div class="hxCol">
-            <span class="icon-chip-text">{{icon.type}}</span>
-          </div>
-        </div>
+    <div class="hxCol-xs-12 hxCol-sm-6 hxCol-md-3 hxCol-lg-2">
+      <div class="icon-chip">
+        <hx-icon type="{{icon.type}}"></hx-icon>
       </div>
+      <span class="icon-chip-text">{{icon.type}}</span>
+    </div>
     {% endif %}
   {% endfor %}
 </div>
@@ -86,20 +70,12 @@ gray, or white, corresponding to the color of the body text of the background.
 <div class="hxRow">
   {% for icon in site.data.icons %}
     {% if icon.group == "validation" %}
-      <div class="hxCol-xs-12 hxCol-sm-6 hxCol-md-3 hxCol-lg-2">
-        <div class="hxRow">
-          <div class="hxCol">
-            <div class="icon-chip">
-              <hx-icon type="{{icon.type}}"></hx-icon>
-            </div>
-          </div>
-        </div>
-        <div class="hxRow">
-          <div class="hxCol">
-            <span class="icon-chip-text">{{icon.type}}</span>
-          </div>
-        </div>
+    <div class="hxCol-xs-12 hxCol-sm-6 hxCol-md-3 hxCol-lg-2">
+      <div class="icon-chip">
+        <hx-icon type="{{icon.type}}"></hx-icon>
       </div>
+      <span class="icon-chip-text">{{icon.type}}</span>
+    </div>
     {% endif %}
   {% endfor %}
 </div>
