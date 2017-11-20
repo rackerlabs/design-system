@@ -90,7 +90,7 @@
     position: relative;
     border: 1px solid $grey400;
     margin: 32px auto 40px auto;
-    padding: 0px 10px;
+    padding: 20px;
     min-height: 23.57rem;
     width: 14.25rem;
     text-align: center;
@@ -104,13 +104,14 @@
       font-weight: 600;
       font-size: $base-font-size;
       color: $grey900;
-      margin: 0px auto;
+      margin: 20px auto;
     }
     .card-bottom {
       position: absolute;
       bottom: 0px;
       left: 0;
       right: 0;
+      margin: 20px auto;
       .card-button {
         a {
           color: $grey0;
@@ -135,6 +136,7 @@
       li {
         line-height: $base-line-height !important;
         text-align: center;
+        padding: 0.25rem 0;
       };
     }
     .card-button {
