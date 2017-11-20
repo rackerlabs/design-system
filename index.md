@@ -12,30 +12,25 @@ customers happy.
   <div class="card" id="left">
     <div class="icon"><img src="assets/images/For_Designers_Icon.svg" alt="designer UX icon"/></div>
     <span class="card-heading">For Designers</span>
-    <p>Start making stuff with these tools now.</p>
-    <ul>
-      <li><a href="http://helix.rax.io/">Pattern Guidelines</a></li>
-      <li><a href="https://github.com/rackerlabs/helix">Sketch Resources</a></li>
-    </ul>
+    <p>Start designing with Helix components.</p>
     <div class="card-bottom">
-      <div class="card-button">
-        <button class="hxBtn hxBtn--primary"><a href="{{site.baseurl}}getting-started/design.html">Full Designer Guide</a></button>
-      </div>
+      <ul>
+        <li><a href="{{site.url}}">Pattern Guidelines</a></li>
+        <li><a href="https://github.com/rackerlabs/helix/">Sketch Resources</a></li>
+        <li><a href="{{site.url}}/getting-started/design.html">Quick Start Guide</a></li>
+      </ul>
     </div>
   </div>
   <div class="card" id="right">
     <div class="icon"><img src="assets/images/For_Developers_Icon.svg" alt="developer code icon"/></div>
     <span class="card-heading">For Developers</span>
-    <p>Use these resources to learn and implement Helix patterns.</p>
-    <ul>
-      <li><a href="#">Pattern Guidelines</a></li>
-      <li><a href="#">UI Framework</a></li>
-      <li><a href="#">Component Explorer</a></li>
-    </ul>
+    <p>Use these resources to implement Helix code.</p>
     <div class="card-bottom">
-      <div class="card-button">
-        <button class="hxBtn hxBtn--primary"><a href="https://rackerlabs.github.io/helix-ui/guides/install/">Full Developer Guide</a></button>
-      </div>
+      <ul>
+        <li><a href="https://github.com/rackerlabs/helix-ui/">Code Repository</a></li>
+        <li><a href="https://rackerlabs.github.io/helix-ui/guides/install/" target="_blank">Installation Guide <hx-icon type="external-link"></hx-icon></a></li>
+        <li><a href="https://rackerlabs.github.io/helix-ui/" target="_blank">Component Explorer <hx-icon type="external-link"></hx-icon></a></li>
+      </ul>
     </div>
   </div>
 </div>
