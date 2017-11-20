@@ -1,5 +1,5 @@
 ---
-title: Basic Tables
+title: Table
 parent: Tables
 layout: component
 category: Components

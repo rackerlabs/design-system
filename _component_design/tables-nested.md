@@ -1,5 +1,5 @@
 ---
-title: Nested Tables
+title: Table Nesting
 parent: Tables
 layout: component
 category: Components
