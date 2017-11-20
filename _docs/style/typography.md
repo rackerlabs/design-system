@@ -114,9 +114,11 @@ You can use the subdued style with any text 14px and taller, and is used to let 
 *Do not subdue text on backgrounds darker than Gray 25 (#fafafa) or it will not pass accessibility standards.*
 
 {% endcolumn %}
+
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% include type-styles.html htmlexample='<p class="hxSubdued">Subdued Style</p>' typeface="Roboto" csscode="Gray 900" hex="#424242" %}
 {% endcolumn %}
+
 </div>
 
 ### Sub-body text
