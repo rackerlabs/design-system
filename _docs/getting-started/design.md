@@ -70,7 +70,7 @@ Familiarize yourself with the concepts that define the Helix language. Through t
 
 The best way to bring Helix components into your designs is with the Helix Sketch Sticker Sheet. You can copy and paste elements from this sticker sheet into your own Sketch documents to use in your designs.
 
-<button class="hxBtn">Download Sketch Sticker Sheet</button>
+<a class="hxBtn" id="link" href="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/sketch/helix_stickersheet_v0.5.sketch">Download Sketch Sticker Sheet</a>
 
 {% endcolumn %}
 
