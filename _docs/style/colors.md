@@ -11,7 +11,7 @@ status: complete
 
 {% include toc.html %}
 
-
+<section class="static-section"  markdown="1">
 ### Primary Colors
 
 Primary colors should be used sparingly for primary and secondary actions,
@@ -35,7 +35,10 @@ alerts or data visualizations.
       </div>
     {%endfor%}
   </div>
+</section>
 
+
+<section class="static-section"  markdown="1">
 ### Alert Colors
 
 Secondary colors are used for content-specific needs, such as alerts and
@@ -59,7 +62,10 @@ illustrations. They should never overpower the primary colors.
       </div>
     {%endfor%}
   </div>
+</section>
 
+
+<section class="static-section"  markdown="1">
 ### Grayscale
 
 These colors are used largely for background blocks to define content areas. Be
@@ -83,3 +89,4 @@ sure to use enough contrast between adjacent colors.
   {% include chips.html class="hxCol-xs-12 hxCol-md-3 color-chip" bg-color="#212121" color="#9e9e9e" csscode="Gray 600 on Gray 975" hex="#9E9E9E on #212121" ratio="6.0 : 1" %}
   {% include chips.html class="hxCol-xs-12 hxCol-md-3 color-chip" bg-color="#000000" color="#757575" csscode="Gray 700 on Gray 1000" hex="#757575 on #000000" ratio="4.6 : 1" %}
 </div>
+</section>
