@@ -15,7 +15,13 @@ helix-ui-javascript: false
 
 {% include toc.html %}
 
+<section class="static-section" markdown="1">
+
 Use breadcrumbs on Rackspace sub-pages to let the user know where they are in the page hierarchy. Do not use breadcrumbs on the first layer of any multi-layered module, only use breadcrumbs on the second level of nesting and deeper within a module.
+
+</section>
+
+<section class="static-section" markdown="1">
 
 ## Introduction
 
@@ -40,6 +46,10 @@ Breadcrumbs offer a way to articulate the platform architecture in a way the use
 
 </div>
 
+</section>
+
+<section class="static-section" markdown="1">
+
 ## Standard breadcrumbs
 
 <div class="hxRow"  markdown="1">
@@ -60,6 +70,10 @@ Breadcrumbs offer a way to articulate the platform architecture in a way the use
 {% endcolumn %}
 </div>
 
+</section>
+
+<section class="static-section" markdown="1">
+
 <div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
@@ -75,6 +89,10 @@ Breadcrumbs offer a way to articulate the platform architecture in a way the use
 {% endfigure %}
 {% endcolumn %}
 </div>
+
+</section>
+
+<section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
@@ -92,3 +110,5 @@ Breadcrumbs offer a way to articulate the platform architecture in a way the use
 {% endfigure %}
 {% endcolumn %}
 </div>
+
+</section>

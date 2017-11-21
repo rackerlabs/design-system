@@ -13,6 +13,8 @@ last-modified: 2017-11-01
 
 {% include toc.html %}
 
+<section class="static-section" markdown="1">
+
 ## Introduction
 
 <div class="hxRow" markdown="1">
@@ -44,6 +46,10 @@ Studies of social apps report that notification badges can trigger dopamine rele
 
 </div>
 
+</section>
+
+<section class="static-section" markdown="1">
+
 ## Implementations
 
 <div class="hxRow" markdown="1">
@@ -63,6 +69,10 @@ Use a 2px border on all sides between the number and the edge of the circle.
 {% endcolumn %}
 
 </div>
+
+</section>
+
+<section class="static-section" markdown="1">
 
 <div class="hxRow" markdown="1">
 
@@ -85,3 +95,5 @@ The [tabs component]({{site.baseurl}}/components/tabset.html) states that there 
 {% endcolumn %}
 
 </div>
+
+</section>

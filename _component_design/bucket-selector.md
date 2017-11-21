@@ -14,6 +14,8 @@ last-modified: 2017-08-17
 
 {% include toc.html %}
 
+<section class="static-section" markdown="1">
+
 A bucket selector is helpful when you are selecting multiple objects from large option sets within a larger workflow. The bucket area (located below the table) operates as a holding area where users can view all their selections, regardless of the table content. This allows users to search or filter the table to locate items to select without losing visibility into what they have selected.
 
 ## Uncollapsed Current Selection
@@ -22,6 +24,10 @@ This area is for use when a user needs to verify their current selection and qui
 
 - When uncollapsed shows user the items that have been currently selected from within the table.
 - The current selection area is collapsed on default.
+
+</section>
+
+<section class="static-section" markdown="1">
 
 ## Multiple Selections
 
@@ -35,6 +41,10 @@ The state of the device picker when multiple items have been selected from withi
 - Area becomes scrollable as more items are added
 - Current selection should display full device nickname for customers and device ID for Rackers
 - On-hover these tags should display in a tooltip the full device ID for customers and the device nickname for Rackers
+
+</section>
+
+<section class="static-section" markdown="1">
 
 ## Default State
 
@@ -62,3 +72,5 @@ As shown here, the device picker component is specifically being used to help th
 {% figure [caption:""] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/components/device-picker-selected.svg)
 {% endfigure %}
+
+</section>
