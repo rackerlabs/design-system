@@ -15,10 +15,16 @@ last-modified: 2017-10-23
 
 {% include toc.html %}
 
+<section class="static-section" markdown="1">
+
 Toggles should be used instead of switches for desktop design. If you need to
 toggle between more than two options, see the **radio button button-group
 alternate** design. Toggles should also be used on mobile devices instead of a
 switch if specific labels are needed on the selector.
+
+</section>
+
+<section class="static-section" markdown="1">
 
 ## Enabled
 
@@ -31,6 +37,10 @@ switch if specific labels are needed on the selector.
   </div>
 </div>
 
+</section>
+
+<section class="static-section" markdown="1">
+
 ## Disabled
 
 <div class="ui form">
@@ -41,6 +51,10 @@ switch if specific labels are needed on the selector.
     </div>
   </div>
 </div>
+
+</section>
+
+<section class="static-section" markdown="1">
 
 ## Error
 <div class="ui form error">
@@ -54,3 +68,5 @@ switch if specific labels are needed on the selector.
     </div>
   </div>
 </div>
+
+</section>

@@ -15,11 +15,11 @@ helix-ui-javascript: false
 
 {% include toc.html %}
 
+<section class="static-section" markdown="1">
+
 ## Introduction
 
-
 <div class="hxRow" markdown="1">
-
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
@@ -38,19 +38,24 @@ Tables are the bread-and-butter component for displaying complex objects in a ne
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 {% figure [caption:"Meet the table pattern"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/tables/basic-tables/tables-hero.svg)
 {% endfigure %}
+
 {% endcolumn %}
+
 </div>
 
-## Default layout
+</section>
 
+<section class="static-section" markdown="1">
 
 <div class="hxRow" markdown="1">
 
-
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+## Default layout
 
 - Include the check box icon if a user needs to select or manipulate data within a table. This check box icon will always be the first element in a table row, see [table controls]({{site.baseurl}}/components/tables-controls.html).
 - Include the action cog menu if the objects in each row have two or more available actions.
@@ -64,29 +69,35 @@ Tables are the bread-and-butter component for displaying complex objects in a ne
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 {% figure [caption:"Default table specifications"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/tables/basic-tables/tables-default.svg)
 {% endfigure %}
+
 {% endcolumn %}
+
 </div>
 
+</section>
 
-
-## Condensed table
-
+<section class="static-section" markdown="1">
 
 <div class="hxRow" markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+## Condensed table
 
 The use of a condensed table provides for views that display either many or few results.
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 {% figure [caption:"Condensed table specifications"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/tables/basic-tables/tables-condensed.svg)
 {% endfigure %}
+
 {% endcolumn %}
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
@@ -98,18 +109,24 @@ If presenting a small amount of information, a condensed table format allows for
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 {% figure [caption:"Example: IP addresses currently applied in a cloud server"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/tables/basic-tables/tables-small-condensed.svg)
 {% endfigure %}
+
 {% endcolumn %}
+
 </div>
 
-## Table states
+</section>
 
+<section class="static-section" markdown="1">
 
 <div class="hxRow" markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+## Table states
 
 ### Loading
 
@@ -118,9 +135,11 @@ Use a gray placeholder to represent loading text to inform the user that the dat
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 {% figure [caption:"Example of table in loading state"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/tables/basic-tables/tables-loading.svg)
 {% endfigure %}
+
 {% endcolumn %}
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
@@ -140,9 +159,11 @@ Examples of this direction include:
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 {% figure [caption:"Example of an empty table"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/tables/basic-tables/tables-empty.svg)
 {% endfigure %}
+
 {% endcolumn %}
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
@@ -157,16 +178,24 @@ When using the check box icon within a table, each row supports the following st
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 {% figure [caption:"Hover and selected row examples for default and condensed table rows"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/tables/basic-tables/tables-hover-selected.svg)
 {% endfigure %}
+
 {% endcolumn %}
+
 </div>
 
-## Variations
+</section>
+
+<section class="static-section" markdown="1">
 
 <div class="hxRow" markdown="1">
+
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+## Variations
 
 ### Dual line text table
 
@@ -174,7 +203,7 @@ This variation of the basic table pattern is designed to allow the display of tw
 
 #### When to use
 
-This variation is used in the following situations: 
+This variation is used in the following situations:
 
 - When a key has two values that are meaningfully related to each other and require display within the same cell. For example, last updated cell in the image to the right.
 - When two independent key:values are more meaningful displayed together.
@@ -182,12 +211,18 @@ This variation is used in the following situations:
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 {% figure [caption:"Dual line text table example. **not to scale**"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/tables/basic-tables/tables-dualline-overview.png){:width="580px"}
 {% endfigure %}
+
 {% endcolumn %}
 
 </div>
+
+</section>
+
+<section class="static-section" markdown="1">
 
 <div class="hxRow" markdown="1">
 
@@ -201,10 +236,15 @@ This variation is used in the following situations:
 - **Suggestion**: Due to the amount of information presented with this pattern, consider pairing it with [assisted search]({{site.baseurl}}/components/assisted-search.html) to allow more robust filtering of table content.
 
 {% endcolumn %}
-	
+
 </div>
 
+</section>
+
+<section class="static-section" markdown="1">
+
 <div class="hxRow" markdown="1">
+
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 #### Spacing
@@ -212,21 +252,22 @@ This variation is used in the following situations:
 Using the dual-line text variation impacts standard table layout in the following ways:
 
 - The top and bottom padding for cells moves from 20px to 16px.
-- Spacing between lines in dual-line rows are 10px apart. 
-	- Suggested implementation: apply 1.5em line height to dual-line rows
+- Spacing between lines in dual-line rows are 10px apart.
+  - Suggested implementation: apply 1.5em line height to dual-line rows
 - Independent text rows have a line-height of 12px and get truncated instead of wrapping.
 - In lines displaying two independent text rows, emphasize the primary line (on top) by increasing its font weight to **bold**.
 - In lines that include a contextual icon, the supporting icon is spaced 4px from the adjacent text. The icon is the same size as surrounding text: 16x16px.
 
-
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 {% figure [caption:"Dual-line text table specifications"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/tables/basic-tables/tables-dualline-specs.png){:width="580px"}
 {% endfigure %}
+
 {% endcolumn %}
 
 </div>
 
-
+</section>
