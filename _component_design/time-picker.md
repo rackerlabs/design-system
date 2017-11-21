@@ -12,9 +12,12 @@ last-modified: 2017-10-24
 
 {% include toc.html %}
 
+<section class="static-section" markdown="1">
+
 ## Introduction
 
 <div class="hxRow"  markdown="1">
+
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### When to use
@@ -30,32 +33,48 @@ Do not use the time picker if there are gaps between time options. For example, 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 {% figure [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/assets/images/components/inputs-and-controls/time-picker/time-picker-hero-image.svg)
 {% endfigure %}
+
 {% endcolumn %}
+
 </div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ## Specifications
 
-<div class="hxRow"  markdown="1">
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-
 ### Default state
 
-- Tabbing to a time picker will set focus on the time picker but not trigger the menu
-- Keyboard input or clicking anywhere on the element triggers the drop-down menu
+- Tabbing to a time picker will set focus on the time picker but not trigger the menu.
+- Keyboard input or clicking anywhere on the element triggers the drop-down menu.
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 {% figure [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/assets/images/components/inputs-and-controls/time-picker/time-picker-default-state.svg)
 {% endfigure %}
+
 {% endcolumn %}
+
 </div>
 
+</section>
+
+<section class="static-section" markdown="1">
+
 <div class="hxRow"  markdown="1">
+
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Focused and expanded
@@ -77,60 +96,89 @@ Do not use the time picker if there are gaps between time options. For example, 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 {% figure [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/assets/images/components/inputs-and-controls/time-picker/time-picker-focused-and-expanded-states.svg)
 {% endfigure %}
+
 {% endcolumn %}
+
 </div>
 
+</section>
+
+<section class="static-section" markdown="1">
+
 <div class="hxRow"  markdown="1">
+
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Invalid states
 
-- If an invalid entry occurs, stack the error icon and message underneath the help text
-- When the user replaces the invalid entry with a valid one, hide the error message and icon
+- If an invalid entry occurs, stack the error icon and message underneath the help text.
+- When the user replaces the invalid entry with a valid one, hide the error message and icon.
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 {% figure [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/assets/images/components/inputs-and-controls/time-picker/time-picker-invalid-states.svg)
 {% endfigure %}
+
 {% endcolumn %}
+
 </div>
 
+</section>
+
+<section class="static-section" markdown="1">
+
 <div class="hxRow"  markdown="1">
+
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Idle and disabled
 
-- After the user has selected the time and shifted focus away, the time picker adopts its default state
-- When disabled, the contents of the picker cannot be modified or triggered.  Consider adding help text describing why the picker is disabled
+- After the user has selected the time and shifted focus away, the time picker adopts its default state.
+- When disabled, the contents of the picker cannot be modified or triggered. Consider adding help text describing why the picker is disabled.
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 {% figure [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/assets/images/components/inputs-and-controls/time-picker/time-picker-idle-and-disabled-states.svg)
 {% endfigure %}
+
 {% endcolumn %}
+
 </div>
 
+</section>
+
+<section class="static-section" markdown="1">
+
 <div class="hxRow"  markdown="1">
+
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Time zones
 
-- It is important to be specific about the time zone because Rackspace is a global company with users around the world
-- If you want to include a time zone, you can expand the width of the input box and drop-down
-- Consider using instructional help text below the picker to note the user's timezone offset
+- It is important to be specific about the time zone because Rackspace is a global company with users around the world.
+- If you want to include a time zone, you can expand the width of the input box and drop-down.
+- Consider using instructional help text below the picker to note the user's timezone offset.
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 {% figure [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/assets/images/components/inputs-and-controls/time-picker/time-picker-time-zones.svg)
 {% endfigure %}
+
 {% endcolumn %}
+
 </div>
+
+</section>
