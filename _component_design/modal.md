@@ -12,12 +12,16 @@ last-modified: 2017-11-08
 
 {% include toc.html %}
 
+<section class="static-section" markdown="1">
+
 ## Introduction
 
 <div class="hxRow"  markdown="1">
+
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Best practices
+
 - Use modals sparingly and only in situations where the user must confirm before continuing, or when the cost of an error is very high.
 - It's best to trigger a modal from a button, link, or other clickable item on the page.
 - Avoid opening modals unexpectedly.
@@ -27,49 +31,76 @@ last-modified: 2017-11-08
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 {% figure [caption:"Meet the modal"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/content-areas/modal/modal-hero-image.svg)
 {% endfigure %}
+
 {% endcolumn %}
+
 </div>
+
+</section>
+
+<section class="static-section" markdown="1">
 
 ## Specifications
 
 <div class="hxRow"  markdown="1">
+
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Spacing
+
 - Minimum width is 400px.
 - Minimum height is 200px.
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 {% figure [caption:"Modal spacing and layout"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/content-areas/modal/modal-spacing.svg)
 {% endfigure %}
+
 {% endcolumn %}
+
 </div>
 
+</section>
+
+<section class="static-section" markdown="1">
+
 <div class="hxRow"  markdown="1">
+
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Style
+
 Center modals vertically and horizontally in the browser window.
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 {% figure [caption:"Modal style"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/content-areas/modal/modal-specifications.svg)
 {% endfigure %}
+
 {% endcolumn %}
+
 </div>
 
+</section>
+
+<section class="static-section" markdown="1">
+
 <div class="hxRow"  markdown="1">
+
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Loading
+
 Use a simple loading spinner when loading data in a popover. Center the loading spinner horizontally and vertically within the popover component.
 
 Refer to the [Loading pattern]({{site.url}}/components/loading-indicators.html) for detailed specifications.
@@ -77,16 +108,25 @@ Refer to the [Loading pattern]({{site.url}}/components/loading-indicators.html) 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 {% figure [caption:"Loading indicator for the modal"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/content-areas/modal/modal-loading.svg)
 {% endfigure %}
+
 {% endcolumn %}
+
 </div>
 
+</section>
+
+<section class="static-section" markdown="1">
+
 <div class="hxRow"  markdown="1">
+
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Use Case: Confirmation
+
 Confirmation modals interrupt the user before they complete a given workflow and require a single decision from the user.
 
 The modal is triggered by the user submitting information or initiating a process that will have significant or destructive impact.
@@ -106,8 +146,13 @@ The modal is triggered by the user submitting information or initiating a proces
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 {% figure [caption:"Confirmation modal"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/content-areas/modal/modal-use-case-confirmations.svg)
 {% endfigure %}
+
 {% endcolumn %}
+
 </div>
+
+</section>

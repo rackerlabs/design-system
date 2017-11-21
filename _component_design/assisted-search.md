@@ -13,6 +13,8 @@ last-modified: 2017-11-07
 
 {% include toc.html %}
 
+<section class="static-section" markdown="1">
+
 ## Introduction
 
 <div class="hxRow" markdown="1">
@@ -33,6 +35,10 @@ When the user clicks the search box, show them a list of keywords that they can 
 {% endcolumn %}
 
 </div>
+
+</section>
+
+<section class="static-section" markdown="1">
 
 <div class="hxRow" markdown="1">
 
@@ -55,6 +61,10 @@ Append the keyword with colon to the search input when the user clicks on a keyw
 
 </div>
 
+</section>
+
+<section class="static-section" markdown="1">
+
 <div class="hxRow" markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
@@ -72,6 +82,10 @@ Divide search results into categories.
 {% endcolumn %}
 
 </div>
+
+</section>
+
+<section class="static-section" markdown="1">
 
 ## Assisted search states
 
@@ -96,6 +110,10 @@ User should still have instructions for how to search without autocompleted resu
 
 </div>
 
+</section>
+
+<section class="static-section" markdown="1">
+
 <div class="hxRow" markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
@@ -115,6 +133,10 @@ Clicking on a search result item, or pressing the enter key when a result item h
 {% endcolumn %}
 </div>
 
+</section>
+
+<section class="static-section" markdown="1">
+
 <div class="hxRow" markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
@@ -130,6 +152,10 @@ When a keyword is in active use, but the query has not been completed with searc
 {% endfigure %}
 {% endcolumn %}
 </div>
+
+</section>
+
+<section class="static-section" markdown="1">
 
 <div class="hxRow" markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
@@ -148,6 +174,10 @@ Do not apply the gray background color if keyed entries have not formed a comple
 
 </div>
 
+</section>
+
+<section class="static-section" markdown="1">
+
 <div class="hxRow" markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
@@ -165,6 +195,10 @@ When the user has typed the key and term and pressed enter, the search is comple
 
 </div>
 
+</section>
+
+<section class="static-section" markdown="1">
+
 <div class="hxRow" markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
@@ -181,3 +215,5 @@ Use backspace to delete a single character and not the entire query or search pi
 {% endcolumn %}
 
 </div>
+
+</section>
