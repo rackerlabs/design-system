@@ -13,9 +13,12 @@ last-modified: 2017-10-24
 
 {% include toc.html %}
 
+<section class="static-section" markdown="1">
+
 ## Introduction
 
 <div class="hxRow"  markdown="1">
+
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### When to use
@@ -37,16 +40,24 @@ Do not use a tooltip if users must repeatedly refer to a tooltip to understand a
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 {% figure [caption:"Meet the tooltip pattern"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/help/tooltips/tooltip-hero.svg)
 {% endfigure %}
+
 {% endcolumn %}
+
 </div>
 
-## Default composition
+</section>
+
+<section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
+
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+## Default composition
 
 Tooltips are composed of two primary elements, the tooltip container and the trigger:
 
@@ -58,16 +69,24 @@ The tooltip stands out from the background by using a lighter background color t
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 {% figure [caption:"Tooltip composition."] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/help/tooltips/tooltip-composition.svg)
 {% endfigure %}
+
 {% endcolumn %}
+
 </div>
 
-## Tooltip specifications
+</section>
+
+<section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
+
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+## Tooltip specifications
 
 ### Spacing
 
@@ -80,13 +99,21 @@ Tooltips have varying widths based on the amount of content; however, a tooltip 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 {% figure [caption:"Spacing specifications for tooltip component"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/help/tooltips/tooltip-spacing-1.svg)
 {% endfigure %}
+
 {% endcolumn %}
+
 </div>
 
+</section>
+
+<section class="static-section" markdown="1">
+
 <div class="hxRow"  markdown="1">
+
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Text values
@@ -97,20 +124,28 @@ Tooltips have varying widths based on the amount of content; however, a tooltip 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 {% figure [caption:"Text specifications for tooltip component"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/help/tooltips/tooltip-spacing-2.svg)
 {% endfigure %}
+
 {% endcolumn %}
+
 </div>
 
+</section>
+
+<section class="static-section" markdown="1">
+
 <div class="hxRow"  markdown="1">
+
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Pointer
 
-- The pointer is 16 px wide at the base.
-- The apex is 8 px from the side of the rectangle.
-- The pointer should start 12 px from the corner.
+- The pointer is 16px wide at the base.
+- The apex is 8px from the side of the rectangle.
+- The pointer should start 12px from the corner.
 - The side from which the pointer extends depends on the location of the trigger on the screen.
 
 #### Pointer placement:
@@ -119,22 +154,30 @@ Best practice pointer placement relies on the following:
 
 - Always have the tooltip protrude toward the center of the screen.
 - Ensure the tooltip does not hide important information.
-- The tooltip content should be repositioned so that it doesn’t extend off the boundaries of the current screen.
+- The tooltip content should be repositioned so that it doesn't extend off the boundaries of the current screen.
 - The depth and width of the remaining side of the tooltip is dynamic based on how large the box needs to be with a max width of 400 px.
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 {% figure [caption:"Variations of tooltip based on pointer placement"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/help/tooltips/tooltip-pointer-placement.svg)
 {% endfigure %}
+
 {% endcolumn %}
+
 </div>
 
-## Triggers
+</section>
+
+<section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
+
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+## Triggers
 
 Tooltips will only appear after be activated by a trigger. Triggers come in a variety of types.
 
@@ -148,16 +191,24 @@ Tooltips will only appear after be activated by a trigger. Triggers come in a va
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 {% figure [caption:"Examples of tooltips generated from various trigger types"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/help/tooltips/tooltip-triggers.svg)
 {% endfigure %}
+
 {% endcolumn %}
+
 </div>
 
-## Text conventions
+</section>
+
+<section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
+
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+## Text conventions
 
 - To keep the tooltip text concise, you should use short sentences and sentence fragments.
 - Try to keep your tooltips under three lines of text including a link if you need one.
@@ -165,16 +216,24 @@ Tooltips will only appear after be activated by a trigger. Triggers come in a va
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 {% figure [caption:"Most tooltips should be very short and only provide enough information for the user to better understand the context. Tooltips can also be used to reveal information that is truncated or hidden by default."] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/help/tooltips/tooltip-text-conventions-1.svg)
 {% endfigure %}
+
 {% endcolumn %}
+
 </div>
 
-## Tooltip variations
+</section>
+
+<section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
+
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+## Tooltip variations
 
 ### Help text with a link
 
@@ -189,10 +248,20 @@ Use this variation when a tooltip provides access to a singular external webpage
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 {% figure [caption:"Spacing for tooltip with an associated link"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/help/tooltips/tooltip-text-with-link.svg)
 {% endfigure %}
+
 {% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
@@ -203,29 +272,46 @@ Occasionally a tooltip needs to display a robust set of data that falls outside 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 {% figure [caption:"Some tooltips contain larger amounts of information, like definitions and pricing structure. Such tooltips **should be used sparingly**"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/help/tooltips/tooltip-large-tooltips.svg)
 {% endfigure %}
+
 {% endcolumn %}
+
 </div>
 
-## Loading state
+</section>
+
+<section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
+
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+## Loading state
 
 Loading states are rarely found when using the tooltip pattern. The loading state is applied exclusively when using data visualizations.
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 {% figure [caption:"Loading State"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/help/tooltips/tooltip-loading.svg)
 {% endfigure %}
+
 {% endcolumn %}
+
 </div>
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
 ## Interaction behaviors
 
@@ -233,7 +319,14 @@ Tooltips can be activated via either a hover or a click on the trigger element.
 
 {% endcolumn %}
 
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
 <div class="hxRow"  markdown="1">
+
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Hover interaction
@@ -248,10 +341,20 @@ Hover tooltips are best used on large breakpoints and desktop designs. Tooltips 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 {% figure [caption:"Tooltip hover lifecycle"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/help/tooltips/tooltip-hover.svg)
 {% endfigure %}
+
 {% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
@@ -262,15 +365,20 @@ Use click enabled tooltips for smaller breakpoints and mobile designs. Tooltips 
 - **Hidden:** The base state of a tooltip is to be hidden until the trigger is clicked by the pointer.
 - **Displayed:** Tooltips enter the displayed state once the pointer has clicked the trigger element.
 - **Persist:** Clickable tooltips persist until manually removed by a user.
- - **Removal:** Tooltips re-enter the hidden state once the pointer has either: 
+ - **Removal:** Tooltips re-enter the hidden state once the pointer has either:
   - re-clicked the trigger element.
   - clicked outside the tooltip.
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 {% figure [caption:"Tooltip click lifecycle"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/help/tooltips/tooltip-click.svg)
 {% endfigure %}
+
 {% endcolumn %}
+
 </div>
+
+</section>
