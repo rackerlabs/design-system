@@ -13,6 +13,8 @@ last-modified: 2017-11-07
 
 {% include toc.html %}
 
+<section class="static-section" markdown="1">
+
 ## Introduction
 
 <div class="hxRow" markdown="1">
@@ -35,18 +37,24 @@ Use key-value pairs when a key, an identifier for data, needs either a text or v
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 {% figure [caption:""] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/content-areas/key-pairs/key-value-hero.svg)
-
 {% endfigure %}
+
 {% endcolumn %}
 
 </div>
 
-## Specifications and states
+</section>
+
+<section class="static-section" markdown="1">
 
 <div class="hxRow" markdown="1">
+
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+## Specifications and states
 
 Key-value pairs include the following specifications and states:
 
@@ -59,12 +67,18 @@ To determine the indentation of key-value pairs, use two columns on the Helix gr
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 {% figure [caption:"This example uses a spacing guideline for a 1200px screen size. Spacing widths might vary depending on your screen size."] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/content-areas/key-pairs/keypairs-default-layout.svg)
-
 {% endfigure %}
+
 {% endcolumn %}
+
 </div>
+
+</section>
+
+<section class="static-section" markdown="1">
 
 <div class="hxRow" markdown="1">
 
@@ -77,11 +91,20 @@ In certain cases, key-value pair text can wrap to two lines. We recommend format
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 {% figure [caption:"A set of key-value pairs that use two lines"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/content-areas/key-pairs/keypairs-two-lines.svg)
-
 {% endfigure %}
+
 {% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
@@ -92,12 +115,18 @@ You can use icons, compact tertiary buttons, and text links in key-value pairs.
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 {% figure [caption:"key-value pairs that contain icons, buttons, and text links"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/content-areas/key-pairs/keypairs-other-elements.svg)
-
 {% endfigure %}
+
 {% endcolumn %}
+
 </div>
+
+</section>
+
+<section class="static-section" markdown="1">
 
 <div class="hxRow" markdown="1">
 
@@ -110,11 +139,20 @@ If a value is still being called, list the key label, and then the word "Loading
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 {% figure [caption:"A set of key-value pairs in a loading state"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/content-areas/key-pairs/keypairs-loading-state.svg)
-
 {% endfigure %}
+
 {% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
@@ -125,10 +163,13 @@ If multiple key-value pairs are listed next to each other on the body of the pag
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 {% figure [caption:"A vertical key pair set on a 1200px grid"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/content-areas/key-pairs/keypairs-vertical-keyvalue.svg)
-
 {% endfigure %}
+
 {% endcolumn %}
 
 </div>
+
+</section>

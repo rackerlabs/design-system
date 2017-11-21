@@ -13,9 +13,12 @@ last-modified: 2017-10-24
 
 {% include toc.html %}
 
+<section class="static-section" markdown="1">
+
 ## Introduction
 
 <div class="hxRow"  markdown="1">
+
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Best practices for footers
@@ -29,16 +32,24 @@ last-modified: 2017-10-24
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 {% figure [caption:"Place the footer at the bottom of every page."] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/content-areas/footer/footer-scope.svg)
 {% endfigure %}
+
 {% endcolumn %}
+
 </div>
 
-## Footer specifications
+</section>
+
+<section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
+
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+## Footer specifications
 
 - The footer must span the width of the page.
 - All footer content starts after the gutter at 20px.
@@ -49,8 +60,13 @@ last-modified: 2017-10-24
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 {% figure [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/content-areas/footer/footer-specs.svg)
 {% endfigure %}
+
 {% endcolumn %}
+
 </div>
+
+</section>

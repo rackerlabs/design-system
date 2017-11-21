@@ -16,9 +16,12 @@ helix-ui-javascript: true
 
 {% include toc.html %}
 
+<section class="static-section" markdown="1">
+
 ## Introduction
 
 <div class="hxRow"  markdown="1">
+
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### When to use checkboxes
@@ -31,14 +34,21 @@ helix-ui-javascript: true
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 {% figure [The checkbox component] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-hero.png){:width="1440px"}
 {% endfigure %}
+
 {% endcolumn %}
 
 </div>
 
+</section>
+
+<section class="static-section" markdown="1">
+
 <div class="hxRow"  markdown="1">
+
 {% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
 ### Best practices for checkboxes
@@ -62,11 +72,17 @@ Checkboxes allow users to make selections in a form, as follows:
 When a user needs to manage a group of items, checkboxes may be added to a list to allow for bulk actions.
 
 {% endcolumn %}
+
 </div>
+
+</section>
+
+<section class="static-section" markdown="1">
 
 ## Specifications
 
 <div class="hxRow"  markdown="1">
+
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Default layout
@@ -83,13 +99,21 @@ A checkbox group consists of a section label followed by pairs of checkboxes and
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 {% figure [caption:"Checkbox group composition and specifications"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-default.svg)
 {% endfigure %}
+
 {% endcolumn %}
+
 </div>
 
+</section>
+
+<section class="static-section" markdown="1">
+
 <div class="hxRow"  markdown="1">
+
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Checkbox group specifications
@@ -101,13 +125,21 @@ A checkbox group consists of a section label followed by pairs of checkboxes and
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 {% figure [caption:"Checkbox group spacing"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-group-image.svg)
 {% endfigure %}
+
 {% endcolumn %}
+
 </div>
 
+</section>
+
+<section class="static-section" markdown="1">
+
 <div class="hxRow"  markdown="1">
+
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### States
@@ -121,13 +153,21 @@ The checkbox component may be in the following states:
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 {% figure [caption:"Checkbox states"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-states-image.svg)
 {% endfigure %}
+
 {% endcolumn %}
+
 </div>
 
+</section>
+
+<section class="static-section" markdown="1">
+
 <div class="hxRow"  markdown="1">
+
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 #### Required group
@@ -137,13 +177,21 @@ Use a red asterisk to designate that a selection is required for a group of chec
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 {% figure [caption:"Designating a required checkbox field"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-required-group-image.svg)
 {% endfigure %}
+
 {% endcolumn %}
+
 </div>
 
+</section>
+
+<section class="static-section" markdown="1">
+
 <div class="hxRow"  markdown="1">
+
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 #### Group with an error
@@ -153,13 +201,21 @@ In the case of an error, always include an error message below the checkbox grou
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 {% figure [caption:"Error states"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-group-with-error-image.svg)
 {% endfigure %}
+
 {% endcolumn %}
+
 </div>
 
+</section>
+
+<section class="static-section" markdown="1">
+
 <div class="hxRow"  markdown="1">
+
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 #### Indeterminate
@@ -169,9 +225,14 @@ The indeterminate state is only used with bulk selections to indicate that one o
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 {% figure [caption:"When selecting multiple items from a table, an indeterminate
  checkbox may be used to show that several, but not all, items are selected."] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-indeterminate-image.svg)
 {% endfigure %}
+
 {% endcolumn %}
+
 </div>
+
+</section>

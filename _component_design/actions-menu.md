@@ -14,7 +14,7 @@ last-modified: 2017-11-03
 
 {% include toc.html %}
 
-<section class="static-section">
+<section class="static-section" markdown="1">
 
 ## Introduction
 
@@ -41,7 +41,7 @@ last-modified: 2017-11-03
 
 </section>
 
-<section class="static-section">
+<section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
 
@@ -75,7 +75,7 @@ last-modified: 2017-11-03
 
 </section>
 
-<section class="static-section">
+<section class="static-section" markdown="1">
 
 ## Specifications
 
@@ -105,7 +105,7 @@ The menu should span the length of the button. If an action name is longer than 
 
 </section>
 
-<section class="static-section">
+<section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
 
