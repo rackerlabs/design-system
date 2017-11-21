@@ -182,9 +182,9 @@ Use this variation when a tooltip provides access to a singular external webpage
 
 - This link should always be an external link and should open in a new tab.
 - Ensure you always include an external link icon.
-- If you need additional inputs or interactions on a tooltip, for example, a [drop-down]({{site.baseurl}}/dropdowns.html) or selector, use the larger popover pattern.
+- If you need additional inputs or interactions on a tooltip, for example, a [drop-down]({{site.baseurl}}/components/dropdowns.html) or selector, use the larger popover pattern.
 
-See [Help links]({{site.baseurl}}/components/help-link.html) for link specifications.
+<!--See [Help links]({{site.baseurl}}/components/help-link.html) for link specifications.-->
 
 {% endcolumn %}
 

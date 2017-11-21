@@ -23,6 +23,9 @@ nav.side {
     left: 0;
     bottom: 0;
     overflow-y: auto;
+    a {
+      font-weight: 400;
+    }
     .logo {
         display: block;
         position: relative;
