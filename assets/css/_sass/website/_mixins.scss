@@ -1,0 +1,53 @@
+@mixin box-shadow($sizing) {
+  -webkit-box-shadow: $sizing;
+     -moz-box-shadow: $sizing;
+          box-shadow: $sizing;
+}
+@mixin font-smoothing($smoothing) {
+  -webkit-font-smoothing: $smoothing;
+     -moz-font-smoothing: $smoothing;
+       -o-font-smoothing: $smoothing;
+}
+@mixin animation($animate) {
+  -webkit-animation: $animate;
+     -moz-animation: $animate;
+          animation: $animate;
+}
+// @mixin width-calc($calc){
+//   width: -webkit-calc($calc);
+//      width: -moz-calc($calc);
+//        width: -o-calc($calc);
+//           width: calc($calc);
+// }
+@mixin transition($transition1, $transition2){
+  -webkit-transition: $transition1, $transition2;
+          transition: $transition1, $transition2;
+}
+
+@mixin background-size($bgsize) {
+  -webkit-background-size: $bgsize;
+     -moz-background-size: $bgsize;
+       -o-background-size: $bgsize;
+          background-size: $bgsize;
+}
+
+$tablet-width: 768px;
+$desktop-width: 1024px;
+
+@mixin phone {
+  @media (max-width: #{$tablet-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (min-width: #{$tablet-width}) and (max-width: #{$desktop-width - 1px}) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}

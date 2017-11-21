@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="755px" height="264px" viewBox="0 0 755 264" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>actions-menu-hero</title>
+    <desc>Created with Sketch.</desc>
+    <style type="text/css">@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');</style>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="133" height="76"></rect>
+        <filter x="-8.3%" y="-9.2%" width="116.5%" height="128.9%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-3" x="0" y="0" width="134" height="32" rx="2"></rect>
+        <rect id="path-4" x="0" y="0" width="116" height="76"></rect>
+        <filter x="-9.5%" y="-9.2%" width="119.0%" height="128.9%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-6" x="0" y="0" width="121" height="75"></rect>
+        <filter x="-9.1%" y="-9.3%" width="118.2%" height="129.3%" filterUnits="objectBoundingBox" id="filter-7">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-8" x="0" y="0" width="121" height="167"></rect>
+        <filter x="-9.1%" y="-4.2%" width="118.2%" height="113.2%" filterUnits="objectBoundingBox" id="filter-9">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="3" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="actions-menu-hero">
+            <g id="actions-menu_overview" transform="translate(25.000000, 17.000000)">
+                <g id="Actions-Menu-images">
+                    <g id="Split-Button-Copy" transform="translate(189.000000, 0.000000)">
+                        <g id="dropdown" transform="translate(1.000000, 34.000000)">
+                            <g id="Rectangle">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                                <use fill="#F9FAFB" fill-rule="evenodd" xlink:href="#path-1"></use>
+                                <rect stroke="#E0E0E0" stroke-width="1" x="0.5" y="0.5" width="132" height="75"></rect>
+                            </g>
+                            <text id="Action-1-Action-2-Ac" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#0D74D1">
+                                <tspan x="13" y="21">Action 1</tspan>
+                                <tspan x="13" y="37">Action 2</tspan>
+                                <tspan x="13" y="53">Action 3</tspan>
+                            </text>
+                        </g>
+                        <g id="button">
+                            <g id="button-shapes/text">
+                                <g id="Rectangle-2">
+                                    <use fill="#0C7C84" fill-rule="evenodd" xlink:href="#path-3"></use>
+                                    <rect stroke="#0C7481" stroke-width="1" x="0.5" y="0.5" width="133" height="31" rx="2"></rect>
+                                </g>
+                                <text id="Button-Text" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" line-spacing="20" fill="#FFFFFF">
+                                    <tspan x="14.1762695" y="19">Button Text </tspan>
+                                </text>
+                                <path d="M97,0 L97,32" id="Line-2" stroke="#FFFFFF"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Cog-Copy" transform="translate(391.000000, 18.000000)">
+                        <g id="Cog-Dropdown" transform="translate(5.000000, 16.000000)">
+                            <g id="Dropdown---Cog">
+                                <g id="Rectangle">
+                                    <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                                    <use fill="#F9FAFB" fill-rule="evenodd" xlink:href="#path-4"></use>
+                                    <rect stroke="#E0E0E0" stroke-width="1" x="0.5" y="0.5" width="115" height="75"></rect>
+                                </g>
+                                <text id="Action-1-Action-2-Ac" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#0D74D1">
+                                    <tspan x="13" y="21">Action 1</tspan>
+                                    <tspan x="13" y="37">Action 2</tspan>
+                                    <tspan x="13" y="53">Action 3</tspan>
+                                </text>
+                            </g>
+                        </g>
+                        <text id="Cog-Icon" font-family="FontAwesome" font-size="16" font-weight="normal" fill="#434343">
+                            <tspan x="4.64285714" y="14"></tspan>
+                        </text>
+                    </g>
+                    <g id="Actions-Button-Copy">
+                        <g id="Flyout" transform="translate(1.000000, 33.000000)">
+                            <g id="Rectangle">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-7)" xlink:href="#path-6"></use>
+                                <use fill="#F9FAFB" fill-rule="evenodd" xlink:href="#path-6"></use>
+                                <rect stroke="#E0E0E0" stroke-width="1" x="0.5" y="0.5" width="120" height="74"></rect>
+                            </g>
+                            <text id="Action-1-Action-2-Ac" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#0D74D1">
+                                <tspan x="13" y="20">Action 1</tspan>
+                                <tspan x="13" y="36">Action 2</tspan>
+                                <tspan x="13" y="52">Action 3</tspan>
+                            </text>
+                        </g>
+                        <g id="Button" transform="translate(1.000000, 0.000000)" fill="#0C7481">
+                            <path d="M118.835866,0 L2.16413439,0 C0.969532207,0 0,0.954634846 0,2.13326222 L0,29.8667378 C0,31.0453652 0.969532207,32 2.16413439,32 L118.835866,32 C120.03155,32 121,31.0453652 121,29.8667378 L121,2.13326222 C121,0.954634846 120.03155,0 118.835866,0 M118.916438,1 C119.513481,1 120,1.47998286 120,2.07139031 L120,29.9286097 C120,30.5200171 119.513481,31 118.916438,31 L2.08356173,31 C1.48651922,31 1,30.5200171 1,29.9286097 L1,2.07139031 C1,1.47998286 1.48651922,1 2.08356173,1 L118.916438,1" id="Fill-27"></path>
+                            <g id="button-text-/-icons" transform="translate(12.000000, 7.000000)" font-size="14">
+                                <text id="" font-family="FontAwesome" font-weight="normal">
+                                    <tspan x="0" y="15"></tspan>
+                                </text>
+                                <text id="ACTIONS" font-family="Roboto-Medium, Roboto" font-weight="400">
+                                    <tspan x="20" y="13">ACTIONS</tspan>
+                                </text>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Actions-Button-Advanced-Copy" transform="translate(99.000000, 0.000000)">
+                        <g id="Flyout" transform="translate(481.000000, 33.000000)">
+                            <g id="Rectangle">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-9)" xlink:href="#path-8"></use>
+                                <use fill="#F9FAFB" fill-rule="evenodd" xlink:href="#path-8"></use>
+                                <rect stroke="#E0E0E0" stroke-width="1" x="0.5" y="0.5" width="120" height="166"></rect>
+                            </g>
+                            <text id="TITLE" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" fill="#9D9D9D">
+                                <tspan x="13" y="21">TITLE</tspan>
+                            </text>
+                            <text id="Action-1-Action-2-Ac" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#0D74D1">
+                                <tspan x="13" y="38">Action 1</tspan>
+                                <tspan x="13" y="54">Action 2</tspan>
+                                <tspan x="13" y="70">Action 3</tspan>
+                            </text>
+                            <text id="TITLE" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" fill="#9D9D9D">
+                                <tspan x="13" y="99">TITLE</tspan>
+                            </text>
+                            <text id="Action-1-Action-2-Ac" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" fill="#0D74D1">
+                                <tspan x="13" y="116">Action 1</tspan>
+                                <tspan x="13" y="132">Action 2</tspan>
+                                <tspan x="13" y="148">Action 3</tspan>
+                            </text>
+                        </g>
+                        <g id="Button" fill="#0C7481">
+                            <path d="M599.835866,0 L483.164134,0 C481.969532,0 481,0.954634846 481,2.13326222 L481,29.8667378 C481,31.0453652 481.969532,32 483.164134,32 L599.835866,32 C601.03155,32 602,31.0453652 602,29.8667378 L602,2.13326222 C602,0.954634846 601.03155,0 599.835866,0 M599.916438,1 C600.513481,1 601,1.47998286 601,2.07139031 L601,29.9286097 C601,30.5200171 600.513481,31 599.916438,31 L483.083562,31 C482.486519,31 482,30.5200171 482,29.9286097 L482,2.07139031 C482,1.47998286 482.486519,1 483.083562,1 L599.916438,1" id="Fill-27"></path>
+                            <g id="button-text-/-icons" transform="translate(0.000000, 7.000000)" font-size="14">
+                                <text id="" font-family="FontAwesome" font-weight="normal">
+                                    <tspan x="580" y="12"></tspan>
+                                    <tspan x="589" y="12" font-family="Roboto-Medium, Roboto" font-weight="400"> </tspan>
+                                </text>
+                                <text id="" font-family="FontAwesome" font-weight="normal">
+                                    <tspan x="0" y="12"></tspan>
+                                    <tspan x="9" y="12" font-family="Roboto-Medium, Roboto" font-weight="400"> </tspan>
+                                </text>
+                                <text id="" font-family="FontAwesome" font-weight="normal">
+                                    <tspan x="494" y="15"></tspan>
+                                </text>
+                                <text id="ACTIONS" font-family="Roboto-Medium, Roboto" font-weight="400">
+                                    <tspan x="514" y="13">ACTIONS</tspan>
+                                </text>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+            <text id="caption" font-family="Roboto-Light, Roboto" font-size="14" font-weight="300" line-spacing="23" fill="#616161">
+                <tspan x="21" y="162">Actions Menu Button</tspan>
+            </text>
+            <text id="caption-copy-3" font-family="Roboto-Light, Roboto" font-size="14" font-weight="300" line-spacing="23" fill="#616161">
+                <tspan x="592" y="240">Advanced Actions Menu</tspan>
+            </text>
+            <text id="caption-copy" font-family="Roboto-Light, Roboto" font-size="14" font-weight="300" line-spacing="23" fill="#616161">
+                <tspan x="238" y="162">Split Button</tspan>
+            </text>
+            <text id="caption-copy-2" font-family="Roboto-Light, Roboto" font-size="14" font-weight="300" line-spacing="23" fill="#616161">
+                <tspan x="460" y="162">Cog</tspan>
+            </text>
+            <polygon id="Path-2-Copy-7" fill="#FFFFFF" fill-rule="nonzero" points="325.05179 30.0753054 324 31.1611545 329.469884 38 335 31.0858491 333.94821 30 329.469884 35.5991265"></polygon>
+        </g>
+    </g>
+</svg>

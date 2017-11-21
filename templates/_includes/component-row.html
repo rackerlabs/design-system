@@ -1,0 +1,12 @@
+<div class="component-row">
+  <div class="hxRow">
+    <div class="hxCol-8 hxCol-xs-12 hxCol-sm-6 hxCol-md-8 hxCol-lg-8 hxCol-xl-8">
+      <h3 class="hxSubSectionTitle"><a href="{{site.url}}{{page.url}}.html" class="component-row-title">{{page.title}}</a></h3>
+      <div class="component-row-blurb">{{page.usage}}</div>
+      <div class="component-row-status hxSubBody hxSubdued">Last modified: {{page.last-modified | date:"%d %B %Y"}} | Component status: {{page.status}}</div>
+    </div>
+    <div class="hxCol-4 hxCol-xs-12 hxCol-sm-6 hxCol-md-4 hxCol-lg-4 hxCol-xl-4">
+      <a href="{{site.url}}{{page.url}}.html"><img class="component-row-hero-image" src="{{site.cdn_url}}/img/{{page.preview-image}}"/></a>
+    </div>
+  </div>
+</div>

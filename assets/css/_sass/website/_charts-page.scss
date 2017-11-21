@@ -1,0 +1,251 @@
+.ws-charts-h3{
+    padding: 32px 0 24px 0;
+  }
+
+.ws-chart-ex-con .ws-chart-row{
+  padding-top: 40px;
+}
+
+.ws-chart-ex-con .ws-chart-row:first-of-type{
+  padding-top:0px;
+}
+
+.ws-chart-color-chip{
+  width: 100%;
+  height: 40px;
+}
+
+#ws-chart-cyan700{
+  @include animation(cyan700 5s infinite);
+}
+
+@keyframes cyan700 { /* CSS3 */
+  0%   { background-color: $cyan700; }
+  20%  { background-color: rgb(113,121,161); }
+  50%  { background-color: rgb(113,121,161); }
+  70%  { background-color: $cyan700; }
+  100% { background-color: $cyan700; }
+}
+@-moz-keyframes cyan700 { /* Firefox */
+  0%   { background-color: $cyan700; }
+  20%  { background-color: rgb(113,121,161); }
+  50%  { background-color: rgb(113,121,161); }
+  70%  { background-color: $cyan700; }
+  100% { background-color: $cyan700; }
+}
+@-webkit-keyframes cyan700 { /* Webkit */
+  0%   { background-color: $cyan700; }
+  20%  { background-color: rgb(113,121,161); }
+  50%  { background-color: rgb(113,121,161); }
+  70%  { background-color: $cyan700; }
+  100% { background-color: $cyan700; }
+}
+
+#ws-chart-cyan500{
+  @include animation(cyan500 5s infinite);
+}
+
+@keyframes cyan500 { /* CSS3 */
+  0%   { background-color: $cyan500; }
+  20%  { background-color: rgb(142,154,210); }
+  50%  { background-color: rgb(142,154,210); }
+  70%  { background-color: $cyan500; }
+  100% { background-color: $cyan500; }
+}
+@-moz-keyframes cyan500 { /* Firefox */
+  0%   { background-color: $cyan500; }
+  20%  { background-color: rgb(142,154,210); }
+  50%  { background-color: rgb(142,154,210); }
+  70%  { background-color: $cyan500; }
+  100% { background-color: $cyan500; }
+}
+@-webkit-keyframes cyan500 { /* Webkit */
+  0%   { background-color: $cyan500; }
+  20%  { background-color: rgb(142,154,210); }
+  50%  { background-color: rgb(142,154,210); }
+  70%  { background-color: $cyan500; }
+  100% { background-color: $cyan500; }
+}
+
+#ws-chart-cyan100{
+  @include animation(cyan100 5s infinite);
+}
+
+@keyframes cyan100 { /* CSS3 */
+  0%   { background-color: $cyan100; }
+  20%  { background-color: rgb(209,213,233); }
+  50%  { background-color: rgb(209,213,233); }
+  70%  { background-color: $cyan100; }
+  100% { background-color: $cyan100; }
+}
+@-moz-keyframes cyan100 { /* Firefox */
+  0%   { background-color: $cyan100; }
+  20%  { background-color: rgb(209,213,233); }
+  50%  { background-color: rgb(209,213,233); }
+  70%  { background-color: $cyan100; }
+  100% { background-color: $cyan100; }
+}
+@-webkit-keyframes cyan100 { /* Webkit */
+  0%   { background-color: $cyan100; }
+  20%  { background-color: rgb(209,213,233); }
+  50%  { background-color: rgb(209,213,233); }
+  70%  { background-color: $cyan100; }
+  100% { background-color: $cyan100; }
+}
+
+#ws-chart-purple900{
+  @include animation(purple900 5s infinite);
+}
+
+@keyframes purple900 { /* CSS3 */
+  0%   { background-color: $purple900; }
+  20%  { background-color: rgb(13,36,95); }
+  50%  { background-color: rgb(13,36,95); }
+  70%  { background-color: $purple900; }
+  100% { background-color: $purple900; }
+}
+@-moz-keyframes purple900 { /* Firefox */
+  0%   { background-color: $purple900; }
+  20%  { background-color: rgb(13,36,95); }
+  50%  { background-color: rgb(13,36,95); }
+  70%  { background-color: $purple900; }
+  100% { background-color: $purple900; }
+}
+@-webkit-keyframes purple900 { /* Webkit */
+  0%   { background-color: $purple900; }
+  20%  { background-color: rgb(13,36,95); }
+  50%  { background-color: rgb(13,36,95); }
+  70%  { background-color: $purple900; }
+  100% { background-color: $purple900; }
+}
+
+#ws-chart-purple500{
+  @include animation(purple500 5s infinite);
+}
+
+@keyframes purple500 { /* CSS3 */
+  0%   { background-color: $purple500; }
+  20%  { background-color: rgb(22,62,162); }
+  50%  { background-color: rgb(22,62,162); }
+  70%  { background-color: $purple500; }
+  100% { background-color: $purple500; }
+}
+@-moz-keyframes purple500 { /* Firefox */
+  0%   { background-color: $purple500; }
+  20%  { background-color: rgb(22,62,162); }
+  50%  { background-color: rgb(22,62,162); }
+  70%  { background-color: $purple500; }
+  100% { background-color: $purple500; }
+}
+@-webkit-keyframes purple500 { /* Webkit */
+  0%   { background-color: $purple500; }
+  20%  { background-color: rgb(22,62,162); }
+  50%  { background-color: rgb(22,62,162); }
+  70%  { background-color: $purple500; }
+  100% { background-color: $purple500; }
+}
+
+#ws-chart-purple100{
+  @include animation(purple100 5s infinite);
+}
+
+@keyframes purple100 { /* CSS3 */
+  0%   { background-color: $purple100; }
+  20%  { background-color: rgb(90,109,182); }
+  50%  { background-color: rgb(90,109,182); }
+  70%  { background-color: $purple100; }
+  100% { background-color: $purple100; }
+}
+@-moz-keyframes purple100 { /* Firefox */
+  0%   { background-color: $purple100; }
+  20%  { background-color: rgb(90,109,182); }
+  50%  { background-color: rgb(90,109,182); }
+  70%  { background-color: $purple100; }
+  100% { background-color: $purple100; }
+}
+@-webkit-keyframes purple100 { /* Webkit */
+  0%   { background-color: $purple100; }
+  20%  { background-color: rgb(90,109,182); }
+  50%  { background-color: rgb(90,109,182); }
+  70%  { background-color: $purple100; }
+  100% { background-color: $purple100; }
+}
+
+#ws-chart-orange900{
+  @include animation(orange900 5s infinite);
+}
+
+@keyframes orange900 { /* CSS3 */
+  0%   { background-color: $orange900; }
+  20%  { background-color: rgb(122,111,0); }
+  50%  { background-color: rgb(122,111,0); }
+  70%  { background-color: $orange900; }
+  100% { background-color: $orange900; }
+}
+@-moz-keyframes orange900 { /* Firefox */
+  0%   { background-color: $orange900; }
+  20%  { background-color: rgb(122,111,0); }
+  50%  { background-color: rgb(122,111,0); }
+  70%  { background-color: $orange900; }
+  100% { background-color: $orange900; }
+}
+@-webkit-keyframes orange900 { /* Webkit */
+  0%   { background-color: $orange900; }
+  20%  { background-color: rgb(122,111,0); }
+  50%  { background-color: rgb(122,111,0); }
+  70%  { background-color: $orange900; }
+  100% { background-color: $orange900; }
+}
+
+#ws-chart-orange500{
+  @include animation(orange500 5s infinite);
+}
+
+@keyframes orange500 { /* CSS3 */
+  0%   { background-color: $orange500; }
+  20%  { background-color: rgb(170,154,0); }
+  50%  { background-color: rgb(170,154,0); }
+  70%  { background-color: $orange500; }
+  100% { background-color: $orange500; }
+}
+@-moz-keyframes orange500 { /* Firefox */
+  0%   { background-color: $orange500; }
+  20%  { background-color: rgb(170,154,0); }
+  50%  { background-color: rgb(170,154,0); }
+  70%  { background-color: $orange500; }
+  100% { background-color: $orange500; }
+}
+@-webkit-keyframes orange500 { /* Webkit */
+  0%   { background-color: $orange500; }
+  20%  { background-color: rgb(170,154,0); }
+  50%  { background-color: rgb(170,154,0); }
+  70%  { background-color: $orange500; }
+  100% { background-color: $orange500; }
+}
+
+#ws-chart-yellow700{
+  @include animation(yellow700 5s infinite);
+}
+/*
+@keyframes yellow700 { 
+  0%   { background-color: $gold700; }
+  20%  { background-color: rgb(255,237,53); }
+  50%  { background-color: rgb(255,237,53); }
+  70%  { background-color: $gold700; }
+  100% { background-color: $gold700; }
+}
+@-moz-keyframes yellow700 {
+  0%   { background-color: $gold700; }
+  20%  { background-color: rgb(255,237,53); }
+  50%  { background-color: rgb(255,237,53); }
+  70%  { background-color: $gold700; }
+  100% { background-color: $gold700; }
+}
+@-webkit-keyframes yellow700 {
+  0%   { background-color: $gold700; }
+  20%  { background-color: rgb(255,237,53); }
+  50%  { background-color: rgb(255,237,53); }
+  70%  { background-color: $gold700; }
+  100% { background-color: $gold700; }
+}
+*/

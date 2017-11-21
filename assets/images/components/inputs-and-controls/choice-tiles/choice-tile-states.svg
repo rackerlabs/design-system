@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="599px" height="2213px" viewBox="0 0 599 2213" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>choice-tile-states</title>
+    <desc>Created with Sketch.</desc>
+    <style type="text/css">@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');</style>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="220" height="135" rx="2"></rect>
+        <rect id="path-2" x="0" y="0" width="220" height="135" rx="2"></rect>
+        <rect id="path-3" x="0" y="0" width="220" height="135" rx="2"></rect>
+        <rect id="path-4" x="334" y="346" width="16" height="16" rx="2"></rect>
+        <rect id="path-5" x="0" y="0" width="220" height="135" rx="2"></rect>
+        <polygon id="path-6" points="7 3.5 0 7 0 0"></polygon>
+        <polygon id="path-7" points="7 3.5 0 7 0 0"></polygon>
+        <polygon id="path-8" points="7 3.5 0 7 0 0"></polygon>
+        <polygon id="path-9" points="7 3.5 0 7 0 0"></polygon>
+        <polygon id="path-10" points="7 3.5 0 7 0 0"></polygon>
+        <polygon id="path-11" points="7 3.5 0 7 0 0"></polygon>
+        <polygon id="path-12" points="7 3.5 0 7 0 0"></polygon>
+        <rect id="path-13" x="0" y="0" width="220" height="135" rx="2"></rect>
+        <rect id="path-14" x="0" y="0" width="220" height="135" rx="2"></rect>
+        <filter x="-2.5%" y="-2.6%" width="105.0%" height="108.1%" filterUnits="objectBoundingBox" id="filter-15">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.82745098   0 0 0 0 0.184313725   0 0 0 0 0.184313725  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-16" x="0" y="0" width="220" height="135" rx="2"></rect>
+        <rect id="path-17" x="0" y="0" width="220" height="135" rx="2"></rect>
+        <rect id="path-18" x="0.5" y="0" width="220" height="135" rx="2"></rect>
+        <rect id="path-19" x="0" y="0" width="220" height="135" rx="2"></rect>
+        <rect id="path-20" x="0" y="0" width="220" height="135" rx="2"></rect>
+        <filter x="-2.5%" y="-2.6%" width="105.0%" height="108.1%" filterUnits="objectBoundingBox" id="filter-21">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.82745098   0 0 0 0 0.184313725   0 0 0 0 0.184313725  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="choice-tile-states">
+            <g id="Group-5" transform="translate(-3.000000, 88.500000)">
+                <g id="specs-/-redlines-/-label-title-lg" transform="translate(60.000000, 46.000000)" font-size="20" font-family="Roboto-Regular, Roboto" fill="#9E9E9E" font-weight="normal">
+                    <text id="LARGE-LABEL">
+                        <tspan x="0" y="19">Default</tspan>
+                    </text>
+                </g>
+                <g id="specs-/-redlines-/-label-title-lg" transform="translate(70.500000, 215.000000)" font-size="20" font-family="Roboto-Regular, Roboto" fill="#9E9E9E" font-weight="normal">
+                    <text id="LARGE-LABEL">
+                        <tspan x="0" y="19">Hover</tspan>
+                    </text>
+                </g>
+                <g id="specs-/-redlines-/-label-title-lg" transform="translate(47.500000, 383.500000)" font-size="20" font-family="Roboto-Regular, Roboto" fill="#9E9E9E" font-weight="normal">
+                    <text id="LARGE-LABEL">
+                        <tspan x="0" y="19">Selected</tspan>
+                    </text>
+                </g>
+                <g id="specs-/-redlines-/-label-title-lg" transform="translate(45.500000, 535.000000)" font-size="20" font-family="Roboto-Regular, Roboto" fill="#9E9E9E" font-weight="normal">
+                    <text id="LARGE-LABEL">
+                        <tspan x="0" y="19">Subdued</tspan>
+                    </text>
+                </g>
+                <g id="Md" transform="translate(146.000000, 0.000000)">
+                    <g id="Md-Content">
+                        <g id="Rectangle-12-Copy">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            <rect stroke="#E0E0E0" stroke-width="1" x="0.5" y="0.5" width="219" height="134" rx="2"></rect>
+                        </g>
+                        <text id="file-image-o---FontAwesome" font-family="FontAwesome" font-size="28" font-weight="normal" fill="#757575">
+                            <tspan x="97" y="42.5"></tspan>
+                        </text>
+                        <text id="OPTION-1" font-family="Roboto-Bold, Roboto" font-size="16" font-weight="bold" line-spacing="18" fill="#333333">
+                            <tspan x="62.65625" y="70.6015625">OPTION 1</tspan>
+                        </text>
+                        <text id="A-short-description" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" line-spacing="18" fill="#333333">
+                            <tspan x="27.9038086" y="98.5">A short description or help </tspan>
+                            <tspan x="98.2490234" y="116.5">text</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="Subdued" transform="translate(146.500000, 490.000000)">
+                    <g id="Md-Content">
+                        <g id="panels-/-default">
+                            <g id="Rectangle-3-Copy-2">
+                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                                <rect stroke="#D8D8D8" stroke-width="1" x="0.5" y="0.5" width="219" height="134" rx="2"></rect>
+                            </g>
+                        </g>
+                        <text id="file-image-o---FontAwesome" font-family="FontAwesome" font-size="28" font-weight="normal" fill="#9E9E9E">
+                            <tspan x="95" y="41.5"></tspan>
+                        </text>
+                        <text id="OPTION-1" font-family="Roboto-Bold, Roboto" font-size="16" font-weight="bold" line-spacing="18" fill="#757575">
+                            <tspan x="60.65625" y="69.6015625">OPTION 1</tspan>
+                        </text>
+                        <text id="A-short-description" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" line-spacing="18" fill="#757575">
+                            <tspan x="25.9038086" y="97.5">A short description or help </tspan>
+                            <tspan x="96.2490234" y="115.5">text</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="specs-/-redlines-/-label-title-lg" transform="translate(48.000000, 699.000000)" font-size="20" font-family="Roboto-Regular, Roboto" fill="#9E9E9E" font-weight="normal">
+                    <text id="LARGE-LABEL">
+                        <tspan x="0" y="19">Disabled</tspan>
+                    </text>
+                </g>
+                <g id="specs-/-redlines-/-label-title-sm" transform="translate(43.500000, 561.000000)" font-size="10" font-family="Roboto-Regular, Roboto" fill="#9E9E9E" font-weight="normal">
+                    <text id="SMALL-LABEL">
+                        <tspan x="0" y="9">Single Select Only</tspan>
+                    </text>
+                </g>
+                <g id="specs-/-redlines-/-label-title-sm" transform="translate(73.500000, 908.500000)" font-size="10" font-family="Roboto-Regular, Roboto" fill="#9E9E9E" font-weight="normal">
+                    <text id="SMALL-LABEL">
+                        <tspan x="0" y="9">Unselected</tspan>
+                    </text>
+                </g>
+                <g id="specs-/-redlines-/-label-title-sm" transform="translate(73.500000, 1313.000000)" font-size="10" font-family="Roboto-Regular, Roboto" fill="#9E9E9E" font-weight="normal">
+                    <text id="SMALL-LABEL">
+                        <tspan x="0" y="9">Unselected</tspan>
+                    </text>
+                </g>
+                <g id="specs-/-redlines-/-label-title-sm" transform="translate(83.000000, 1493.000000)" font-size="10" font-family="Roboto-Regular, Roboto" fill="#9E9E9E" font-weight="normal">
+                    <text id="SMALL-LABEL">
+                        <tspan x="0" y="9">Selected</tspan>
+                    </text>
+                </g>
+                <g id="specs-/-redlines-/-label-title-sm" transform="translate(72.500000, 1756.500000)" font-size="10" font-family="Roboto-Regular, Roboto" fill="#9E9E9E" font-weight="normal">
+                    <text id="SMALL-LABEL">
+                        <tspan x="0" y="9">Unselected</tspan>
+                    </text>
+                </g>
+                <g id="specs-/-redlines-/-label-title-sm" transform="translate(82.000000, 1942.000000)" font-size="10" font-family="Roboto-Regular, Roboto" fill="#9E9E9E" font-weight="normal">
+                    <text id="SMALL-LABEL">
+                        <tspan x="0" y="9">Selected</tspan>
+                    </text>
+                </g>
+                <g id="specs-/-redlines-/-label-title-sm" transform="translate(83.000000, 1098.500000)" font-size="10" font-family="Roboto-Regular, Roboto" fill="#9E9E9E" font-weight="normal">
+                    <text id="SMALL-LABEL">
+                        <tspan x="0" y="9">Selected</tspan>
+                    </text>
+                </g>
+                <g id="Md-Copy-3" transform="translate(146.000000, 650.000000)">
+                    <g id="Md-Content">
+                        <g id="Rectangle-12-Copy">
+                            <use fill="#FAFAFA" fill-rule="evenodd" xlink:href="#path-3"></use>
+                            <rect stroke="#E0E0E0" stroke-width="1" x="0.5" y="0.5" width="219" height="134" rx="2"></rect>
+                        </g>
+                        <text id="file-image-o---FontAwesome" font-family="FontAwesome" font-size="28" font-weight="normal" fill="#BDBDBD">
+                            <tspan x="97" y="42.5"></tspan>
+                        </text>
+                        <text id="OPTION-1" font-family="Roboto-Bold, Roboto" font-size="16" font-weight="bold" line-spacing="18" fill="#6B6B6B">
+                            <tspan x="62.65625" y="70.6015625">OPTION 1</tspan>
+                        </text>
+                        <text id="A-short-description" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" line-spacing="18" fill="#6B6B6B">
+                            <tspan x="27.9038086" y="98.5">A short description or help </tspan>
+                            <tspan x="98.2490234" y="116.5">text</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="Rectangle-Copy-12">
+                    <use fill="#E4F9F9" fill-rule="evenodd" xlink:href="#path-4"></use>
+                    <rect stroke="#16B9D4" stroke-width="1" x="334.5" y="346.5" width="15" height="15" rx="2"></rect>
+                </g>
+                <text id="file-image-o---FontAwesome-Copy-3" font-family="FontAwesome" font-size="30" font-weight="normal" fill="#757575">
+                    <tspan x="243" y="372"></tspan>
+                </text>
+                <text id="OPTION-1-Copy-2" font-family="Roboto-Bold, Roboto" font-size="16" font-weight="bold" line-spacing="18" fill="#333333">
+                    <tspan x="208.65625" y="401.101562">OPTION 1</tspan>
+                </text>
+                <text id="A-short-description-Copy" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" line-spacing="18" fill="#333333">
+                    <tspan x="173.903809" y="429">A short description or help </tspan>
+                    <tspan x="244.249023" y="447">text</tspan>
+                </text>
+                <g id="Hover" transform="translate(146.000000, 160.000000)">
+                    <g id="Md-Content">
+                        <g id="panels-/-hover">
+                            <g id="Rectangle-3-Copy-2">
+                                <use fill="#E4F9F9" fill-rule="evenodd" xlink:href="#path-5"></use>
+                                <rect stroke="#16B9D4" stroke-width="1" x="0.5" y="0.5" width="219" height="134" rx="2"></rect>
+                            </g>
+                        </g>
+                        <path d="M194.738497,31.0431938 C194.336497,31.0431938 193.948497,30.8811938 193.664497,30.5901938 L188.426497,25.2151938 C187.847497,24.6221938 187.859497,23.6721938 188.453497,23.0941938 C189.046497,22.5151938 189.995497,22.5281938 190.574497,23.1221938 L194.498497,27.1471938 L201.239497,16.6881938 C201.688497,15.9901938 202.618497,15.7911938 203.312497,16.2391938 C204.009497,16.6881938 204.210497,17.6161938 203.760497,18.3131938 L195.999497,30.3561938 C195.752497,30.7391938 195.342497,30.9901938 194.887497,31.0351938 C194.838497,31.0401938 194.788497,31.0431938 194.738497,31.0431938" id="Fill-1" fill="#16B9D4"></path>
+                        <text id="file-image-o---FontAwesome" font-family="FontAwesome" font-size="28" font-weight="normal" fill="#757575">
+                            <tspan x="97" y="42.5"></tspan>
+                        </text>
+                        <text id="OPTION-1" font-family="Roboto-Bold, Roboto" font-size="16" font-weight="bold" line-spacing="18" fill="#424242">
+                            <tspan x="62.65625" y="70.6015625">OPTION 1</tspan>
+                        </text>
+                        <text id="A-short-description" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" line-spacing="18" fill="#333333">
+                            <tspan x="27.9038086" y="98.5">A short description or help </tspan>
+                            <tspan x="98.2490234" y="116.5">text</tspan>
+                        </text>
+                    </g>
+                </g>
+                <text id="redline-label-copy" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#EC407A">
+                    <tspan x="401" y="249">Border: 1px, #</tspan>
+                    <tspan x="474.371094" y="249">16B9D4</tspan>
+                    <tspan x="516.664062" y="249"> (cyan 500)</tspan>
+                    <tspan x="401" y="263">Background Color: #</tspan>
+                    <tspan x="509.474609" y="263">E4F9F9</tspan>
+                    <tspan x="549.775391" y="263"> (cyan 50)</tspan>
+                </text>
+                <text id="redline-label-copy-4" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#EC407A">
+                    <tspan x="401" y="183">Icon: Notifications: Success</tspan>
+                    <tspan x="401" y="197">Icon Color: #</tspan>
+                    <tspan x="468.716797" y="197">16B9D4</tspan>
+                    <tspan x="511.009766" y="197"> (cyan 500) </tspan>
+                </text>
+                <text id="redline-label-copy-5" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#EC407A">
+                    <tspan x="416" y="350">Icon: Notifications: Success</tspan>
+                    <tspan x="416" y="364">Icon Color: #</tspan>
+                    <tspan x="483.716797" y="364">0C7C84</tspan>
+                    <tspan x="526.291016" y="364"> (cyan 900)</tspan>
+                </text>
+                <text id="redline-label-copy-13" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#EC407A">
+                    <tspan x="420" y="1055">Icon: Notifications: Success</tspan>
+                    <tspan x="420" y="1069">Icon Color: #</tspan>
+                    <tspan x="487.716797" y="1069">D32F2F</tspan>
+                    <tspan x="529.066406" y="1069"> (red 900)</tspan>
+                </text>
+                <g id="specs-/-redlines-/-line-inclusive" transform="translate(380.000000, 252.000000) rotate(-180.000000) translate(-380.000000, -252.000000) translate(367.000000, 231.000000)">
+                    <path d="M0,20.79 L26,20.79" id="redline-line" stroke="#EC407A" stroke-width="1"></path>
+                    <g id="specs-/-redlines-/-line-end-/-arrow" transform="translate(19.000000, 17.290000)">
+                        <g id="redline-end">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-6"></use>
+                            <path stroke="#EC407A" stroke-width="1" d="M5.88196601,3.5 L0.5,0.809016994 L0.5,6.19098301 L5.88196601,3.5 Z"></path>
+                        </g>
+                    </g>
+                    <path d="M-0.236318408,0.21 L-0.236318408,41.79" id="Line" stroke="#F0367A" stroke-width="1" stroke-linecap="square"></path>
+                </g>
+                <text id="redline-label-copy-6" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#EC407A">
+                    <tspan x="418.5" y="437.5">Border: 1px, #</tspan>
+                    <tspan x="491.871094" y="437.5">0C7C84</tspan>
+                    <tspan x="534.445312" y="437.5"> (cyan 900)</tspan>
+                </text>
+                <text id="redline-label-copy-9" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#EC407A">
+                    <tspan x="418.5" y="396.5">Heading &amp; Icon Color:</tspan>
+                    <tspan x="418.5" y="410.5">#</tspan>
+                    <tspan x="425.888672" y="410.5">0C7C84</tspan>
+                    <tspan x="468.462891" y="410.5"> (cyan 900)</tspan>
+                </text>
+                <text id="redline-label-copy-11" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#EC407A">
+                    <tspan x="421" y="1096.5">Heading &amp; Icon Color:</tspan>
+                    <tspan x="421" y="1110.5">#</tspan>
+                    <tspan x="428.388672" y="1110.5">D32F2F</tspan>
+                    <tspan x="469.738281" y="1110.5"> (red 900)</tspan>
+                </text>
+                <text id="redline-label-copy-8" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" line-spacing="20" fill="#EC407A">
+                    <tspan x="404" y="748.5">Background Color: #</tspan>
+                    <tspan x="512.474609" y="748.5">FAFAFA</tspan>
+                    <tspan x="552.869141" y="748.5"> (gray 25)</tspan>
+                    <tspan x="404" y="768.5">Border: 1px, #</tspan>
+                    <tspan x="477.371094" y="768.5">0C7C84</tspan>
+                    <tspan x="519.945312" y="768.5"> (cyan 900)</tspan>
+                </text>
+                <g id="specs-/-redlines-/-line-inclusive" transform="translate(380.000000, 757.000000) rotate(-180.000000) translate(-380.000000, -757.000000) translate(367.000000, 738.500000)">
+                    <path d="M0,18.315 L26,18.315" id="redline-line" stroke="#EC407A" stroke-width="1"></path>
+                    <g id="specs-/-redlines-/-line-end-/-arrow" transform="translate(19.000000, 14.815000)">
+                        <g id="redline-end">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-7"></use>
+                            <path stroke="#EC407A" stroke-width="1" d="M5.88196601,3.5 L0.5,0.809016994 L0.5,6.19098301 L5.88196601,3.5 Z"></path>
+                        </g>
+                    </g>
+                    <path d="M-0.236318408,0.185 L-0.236318408,36.815" id="Line" stroke="#F0367A" stroke-width="1" stroke-linecap="square"></path>
+                </g>
+                <text id="redline-label-copy-30" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" line-spacing="20" fill="#EC407A">
+                    <tspan x="404" y="596">Background Color: #</tspan>
+                    <tspan x="512.474609" y="596">FFFFFF</tspan>
+                    <tspan x="552.271484" y="596"> (gray 0)</tspan>
+                    <tspan x="404" y="616">Border: 1px, #</tspan>
+                    <tspan x="477.371094" y="616">D8D8D8</tspan>
+                    <tspan x="521.193359" y="616"> (cyan 900)</tspan>
+                </text>
+                <g id="specs-/-redlines-/-line-inclusive" transform="translate(380.000000, 604.500000) rotate(-180.000000) translate(-380.000000, -604.500000) translate(367.000000, 586.000000)">
+                    <path d="M0,18.315 L26,18.315" id="redline-line" stroke="#EC407A" stroke-width="1"></path>
+                    <g id="specs-/-redlines-/-line-end-/-arrow" transform="translate(19.000000, 14.815000)">
+                        <g id="redline-end">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-8"></use>
+                            <path stroke="#EC407A" stroke-width="1" d="M5.88196601,3.5 L0.5,0.809016994 L0.5,6.19098301 L5.88196601,3.5 Z"></path>
+                        </g>
+                    </g>
+                    <path d="M-0.236318408,0.185 L-0.236318408,36.815" id="Line" stroke="#F0367A" stroke-width="1" stroke-linecap="square"></path>
+                </g>
+                <g id="specs-/-redlines-/-line-inclusive" transform="translate(364.000000, 992.500000) rotate(-180.000000) translate(-364.000000, -992.500000) translate(337.000000, 962.500000)">
+                    <path d="M0,29.7 L54,29.7" id="redline-line" stroke="#EC407A" stroke-width="1"></path>
+                    <g id="specs-/-redlines-/-line-end-/-arrow" transform="translate(47.000000, 26.200000)">
+                        <g id="redline-end">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-9"></use>
+                            <path stroke="#EC407A" stroke-width="1" d="M5.88196601,3.5 L0.5,0.809016994 L0.5,6.19098301 L5.88196601,3.5 Z"></path>
+                        </g>
+                    </g>
+                    <path d="M0.0422885572,0.3 L0.0422885572,59.7" id="Line" stroke="#F0367A" stroke-width="1" stroke-linecap="square"></path>
+                </g>
+                <text id="redline-label-copy-10" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" line-spacing="20" fill="#EC407A">
+                    <tspan x="422" y="936">Border: 2px, #</tspan>
+                    <tspan x="495.371094" y="936">D32F2F</tspan>
+                    <tspan x="536.720703" y="936"> (red 900)</tspan>
+                </text>
+                <text id="redline-label-copy-14" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" line-spacing="20" fill="#EC407A">
+                    <tspan x="424" y="1137.5">Border: 2px, #</tspan>
+                    <tspan x="497.371094" y="1137.5">D32F2F</tspan>
+                    <tspan x="538.720703" y="1137.5"> (red 900)</tspan>
+                </text>
+                <text id="redline-label-copy-12" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" line-spacing="20" fill="#EC407A">
+                    <tspan x="399" y="973">Text Color: #</tspan>
+                    <tspan x="466.511719" y="973">D32F2F</tspan>
+                    <tspan x="507.861328" y="973"> (red 900)</tspan>
+                    <tspan x="399" y="993">Icon: Notification: Error 16px</tspan>
+                    <tspan x="399" y="1013">Icon Color: #</tspan>
+                    <tspan x="466.716797" y="1013">D32F2F</tspan>
+                    <tspan x="508.066406" y="1013"> (red 900) </tspan>
+                </text>
+                <g id="specs-/-redlines-/-line-inclusive" transform="translate(382.500000, 1353.500000) rotate(-180.000000) translate(-382.500000, -1353.500000) translate(369.500000, 1338.500000)">
+                    <path d="M0,14.85 L26,14.85" id="redline-line" stroke="#EC407A" stroke-width="1"></path>
+                    <g id="specs-/-redlines-/-line-end-/-arrow" transform="translate(19.000000, 11.350000)">
+                        <g id="redline-end">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-10"></use>
+                            <path stroke="#EC407A" stroke-width="1" d="M5.88196601,3.5 L0.5,0.809016994 L0.5,6.19098301 L5.88196601,3.5 Z"></path>
+                        </g>
+                    </g>
+                    <path d="M-0.236318408,0.15 L-0.236318408,29.85" id="Line" stroke="#F0367A" stroke-width="1" stroke-linecap="square"></path>
+                </g>
+                <text id="redline-label-copy-15" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" line-spacing="20" fill="#EC407A">
+                    <tspan x="404.5" y="1344">Border: 2px, #</tspan>
+                    <tspan x="477.871094" y="1344">D32F2F</tspan>
+                    <tspan x="519.220703" y="1344"> (red 900)</tspan>
+                    <tspan x="404.5" y="1364">Background: #</tspan>
+                    <tspan x="481.533203" y="1364">FFCDD2</tspan>
+                    <tspan x="525.085938" y="1364"> (red 500)</tspan>
+                </text>
+                <g id="specs-/-redlines-/-line-inclusive" transform="translate(381.500000, 1742.500000) rotate(-180.000000) translate(-381.500000, -1742.500000) translate(368.500000, 1702.500000)">
+                    <path d="M0,39.6 L26,39.6" id="redline-line" stroke="#EC407A" stroke-width="1"></path>
+                    <g id="specs-/-redlines-/-line-end-/-arrow" transform="translate(19.000000, 36.100000)">
+                        <g id="redline-end">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-11"></use>
+                            <path stroke="#EC407A" stroke-width="1" d="M5.88196601,3.5 L0.5,0.809016994 L0.5,6.19098301 L5.88196601,3.5 Z"></path>
+                        </g>
+                    </g>
+                    <path d="M-0.236318408,0.4 L-0.236318408,79.6" id="Line" stroke="#F0367A" stroke-width="1" stroke-linecap="square"></path>
+                </g>
+                <text id="redline-label-copy-16" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" line-spacing="20" fill="#EC407A">
+                    <tspan x="403.5" y="1715">Border: 2px, #</tspan>
+                    <tspan x="476.871094" y="1715">D32F2F</tspan>
+                    <tspan x="518.220703" y="1715"> (red 900)</tspan>
+                    <tspan x="403.5" y="1735">Shadow: X 0, Y 2, Blur 3</tspan>
+                    <tspan x="403.5" y="1755">Shadow Color: #</tspan>
+                    <tspan x="491.091797" y="1755">D32F2F</tspan>
+                    <tspan x="532.441406" y="1755"> (red 900)</tspan>
+                    <tspan x="403.5" y="1775">Shadow Opacity: 50%</tspan>
+                </text>
+                <g id="specs-/-redlines-/-line-inclusive" transform="translate(391.500000, 2001.500000) rotate(-180.000000) translate(-391.500000, -2001.500000) translate(371.500000, 1972.000000)">
+                    <path d="M0,29.205 L40,29.205" id="redline-line" stroke="#EC407A" stroke-width="1"></path>
+                    <g id="specs-/-redlines-/-line-end-/-arrow" transform="translate(33.000000, 25.705000)">
+                        <g id="redline-end">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-12"></use>
+                            <path stroke="#EC407A" stroke-width="1" d="M5.88196601,3.5 L0.5,0.809016994 L0.5,6.19098301 L5.88196601,3.5 Z"></path>
+                        </g>
+                    </g>
+                    <path d="M-0.0970149254,0.295 L-0.0970149254,58.705" id="Line" stroke="#F0367A" stroke-width="1" stroke-linecap="square"></path>
+                </g>
+                <text id="redline-label-copy-21" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" line-spacing="16" fill="#EC407A">
+                    <tspan x="423.5" y="1980">Border: 2px, #</tspan>
+                    <tspan x="496.871094" y="1980">D32F2F</tspan>
+                    <tspan x="538.220703" y="1980"> (red 900)</tspan>
+                    <tspan x="423.5" y="1996">Shadow: X 0, Y 2, Blur 3</tspan>
+                    <tspan x="423.5" y="2012">Shadow Color: #</tspan>
+                    <tspan x="511.091797" y="2012">D32F2F</tspan>
+                    <tspan x="552.441406" y="2012"> (red 900)</tspan>
+                    <tspan x="423.5" y="2028">Shadow Opacity: 50%</tspan>
+                </text>
+                <g id="Selected" transform="translate(146.000000, 330.000000)">
+                    <g id="Md-Content">
+                        <g id="panels-/-selected">
+                            <g id="Rectangle-3-Copy-2">
+                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-13"></use>
+                                <rect stroke="#0C7C84" stroke-width="1" x="0.5" y="0.5" width="219" height="134" rx="2"></rect>
+                            </g>
+                        </g>
+                        <path d="M194.7384,31.043 C194.3364,31.043 193.9484,30.881 193.6644,30.59 L188.4264,25.215 C187.8474,24.622 187.8594,23.672 188.4534,23.094 C189.0464,22.515 189.9954,22.528 190.5744,23.122 L194.4984,27.147 L201.2394,16.688 C201.6884,15.99 202.6184,15.791 203.3124,16.239 C204.0094,16.688 204.2104,17.616 203.7604,18.313 L195.9994,30.356 C195.7524,30.739 195.3424,30.99 194.8874,31.035 C194.8384,31.04 194.7884,31.043 194.7384,31.043" id="Fill-1" fill="#0C7C84"></path>
+                        <text id="file-image-o---FontAwesome" font-family="FontAwesome" font-size="28" font-weight="normal" fill="#0C7C84">
+                            <tspan x="97" y="42.5"></tspan>
+                        </text>
+                        <text id="OPTION-1" font-family="Roboto-Bold, Roboto" font-size="16" font-weight="bold" line-spacing="18" fill="#0C7C84">
+                            <tspan x="62.65625" y="70.6015625">OPTION 1</tspan>
+                        </text>
+                        <text id="A-short-description" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" line-spacing="18" fill="#333333">
+                            <tspan x="27.9038086" y="98.5">A short description or help </tspan>
+                            <tspan x="98.2490234" y="116.5">text</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="specs-/-redlines-/-label-title-lg" transform="translate(79.000000, 882.500000)" font-size="20" font-family="Roboto-Regular, Roboto" fill="#9E9E9E" font-weight="normal">
+                    <text id="LARGE-LABEL">
+                        <tspan x="0" y="19">Error</tspan>
+                    </text>
+                </g>
+                <g id="specs-/-redlines-/-label-title-lg" transform="translate(22.500000, 1288.500000)" font-size="20" font-family="Roboto-Regular, Roboto" fill="#9E9E9E" font-weight="normal">
+                    <text id="LARGE-LABEL">
+                        <tspan x="0" y="19">Error Hover</tspan>
+                    </text>
+                </g>
+                <g id="specs-/-redlines-/-label-title-lg" transform="translate(0.000000, 1732.000000)" font-size="20" font-family="Roboto-Regular, Roboto" fill="#9E9E9E" font-weight="normal">
+                    <text id="LARGE-LABEL">
+                        <tspan x="0" y="19">Error Focused</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="specs-/-redlines-/-line-straight" transform="translate(387.500000, 1023.500000) rotate(-180.000000) translate(-387.500000, -1023.500000) translate(365.000000, 1018.500000)" stroke="#EC3F7A">
+                <path d="M10,5 L45,5" id="Stroke-8"></path>
+                <path d="M5.00099983,0 C7.76299974,0 10.0009997,2.239 9.99999967,5 C9.99999967,7.762 7.76199974,10 4.99999983,10 C2.23799993,10 0,7.761 0,5 C0.000999999967,2.238 2.23899992,0 5.00099983,0" id="Path" fill-opacity="0.3" fill="#F03F7B" fill-rule="evenodd"></path>
+            </g>
+            <g id="specs-/-redlines-/-line-straight" transform="translate(368.500000, 272.500000) rotate(-180.000000) translate(-368.500000, -272.500000) translate(346.000000, 267.500000)" stroke="#EC3F7A">
+                <path d="M10,5 L45,5" id="Stroke-8"></path>
+                <path d="M5.00099983,0 C7.76299974,0 10.0009997,2.239 9.99999967,5 C9.99999967,7.762 7.76199974,10 4.99999983,10 C2.23799993,10 0,7.761 0,5 C0.000999999967,2.238 2.23899992,0 5.00099983,0" id="Path" fill-opacity="0.3" fill="#F03F7B" fill-rule="evenodd"></path>
+            </g>
+            <g id="specs-/-redlines-/-line-straight" transform="translate(375.500000, 442.500000) rotate(-180.000000) translate(-375.500000, -442.500000) translate(346.000000, 437.500000)" stroke="#EC3F7A">
+                <path d="M10,5 L59,5" id="Stroke-8"></path>
+                <path d="M5.00099983,0 C7.76299974,0 10.0009997,2.239 9.99999967,5 C9.99999967,7.762 7.76199974,10 4.99999983,10 C2.23799993,10 0,7.761 0,5 C0.000999999967,2.238 2.23899992,0 5.00099983,0" id="Path" fill-opacity="0.3" fill="#F03F7B" fill-rule="evenodd"></path>
+            </g>
+            <g id="specs-/-redlines-/-line-straight" transform="translate(348.000000, 485.500000) rotate(-180.000000) translate(-348.000000, -485.500000) translate(288.000000, 480.500000)" stroke="#EC3F7A">
+                <path d="M10,5 L120,5" id="Stroke-8"></path>
+                <path d="M5.00099983,0 C7.76299974,0 10.0009997,2.239 9.99999967,5 C9.99999967,7.762 7.76199974,10 4.99999983,10 C2.23799993,10 0,7.761 0,5 C0.000999999967,2.238 2.23899992,0 5.00099983,0" id="Path" fill-opacity="0.3" fill="#F03F7B" fill-rule="evenodd"></path>
+            </g>
+            <g id="specs-/-redlines-/-line-straight" transform="translate(386.500000, 522.500000) rotate(-180.000000) translate(-386.500000, -522.500000) translate(364.000000, 517.500000)" stroke="#EC3F7A">
+                <path d="M10,5 L45,5" id="Stroke-8"></path>
+                <path d="M5.00099983,0 C7.76299974,0 10.0009997,2.239 9.99999967,5 C9.99999967,7.762 7.76199974,10 4.99999983,10 C2.23799993,10 0,7.761 0,5 C0.000999999967,2.238 2.23899992,0 5.00099983,0" id="Path" fill-opacity="0.3" fill="#F03F7B" fill-rule="evenodd"></path>
+            </g>
+            <text id="redline-label-copy" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#EC407A">
+                <tspan x="405" y="158.5">Roboto, Bold, 16px, </tspan>
+                <tspan x="405" y="172.5">#424242 (gray 900)</tspan>
+            </text>
+            <g id="specs-/-redlines-/-line-straight" transform="translate(344.000000, 154.500000) rotate(-180.000000) translate(-344.000000, -154.500000) translate(293.000000, 149.500000)" stroke="#EC3F7A">
+                <path d="M10,5 L102,5" id="Stroke-8"></path>
+                <path d="M5.00099983,0 C7.76299974,0 10.0009997,2.239 9.99999967,5 C9.99999967,7.762 7.76199974,10 4.99999983,10 C2.23799993,10 0,7.761 0,5 C0.000999999967,2.238 2.23899992,0 5.00099983,0" id="Path" fill-opacity="0.3" fill="#F03F7B" fill-rule="evenodd"></path>
+            </g>
+            <text id="redline-label-copy-22" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#EC407A">
+                <tspan x="405" y="129">Icon: 28x28px, #757575 (gray 700)</tspan>
+            </text>
+            <g id="specs-/-redlines-/-line-straight" transform="translate(331.500000, 125.000000) rotate(-180.000000) translate(-331.500000, -125.000000) translate(268.000000, 120.000000)" stroke="#EC3F7A">
+                <path d="M10,5 L127,5" id="Stroke-8"></path>
+                <path d="M5.00099983,0 C7.76299974,0 10.0009997,2.239 9.99999967,5 C9.99999967,7.762 7.76199974,10 4.99999983,10 C2.23799993,10 0,7.761 0,5 C0.000999999967,2.238 2.23899992,0 5.00099983,0" id="Path" fill-opacity="0.3" fill="#F03F7B" fill-rule="evenodd"></path>
+            </g>
+            <text id="redline-label-copy-2" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#EC407A">
+                <tspan x="405" y="191">Roboto, Regular, 16px, </tspan>
+                <tspan x="405" y="205">#424242 (gray 900)</tspan>
+            </text>
+            <g id="specs-/-redlines-/-line-straight" transform="translate(368.000000, 187.000000) rotate(-180.000000) translate(-368.000000, -187.000000) translate(341.000000, 182.000000)" stroke="#EC3F7A">
+                <path d="M10,5 L54,5" id="Stroke-8"></path>
+                <path d="M5.00099983,0 C7.76299974,0 10.0009997,2.239 9.99999967,5 C9.99999967,7.762 7.76199974,10 4.99999983,10 C2.23799993,10 0,7.761 0,5 C0.000999999967,2.238 2.23899992,0 5.00099983,0" id="Path" fill-opacity="0.3" fill="#F03F7B" fill-rule="evenodd"></path>
+            </g>
+            <text id="redline-label-copy-3" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#EC407A">
+                <tspan x="404" y="108.5">Border: 1px, #</tspan>
+                <tspan x="477.371094" y="108.5">E0E0E0</tspan>
+            </text>
+            <g id="specs-/-redlines-/-line-straight" transform="translate(378.500000, 104.500000) rotate(-180.000000) translate(-378.500000, -104.500000) translate(363.000000, 99.500000)" stroke="#EC3F7A">
+                <path d="M10,5 L31,5" id="Stroke-8"></path>
+                <path d="M5.00099983,0 C7.76299974,0 10.0009997,2.239 9.99999967,5 C9.99999967,7.762 7.76199974,10 4.99999983,10 C2.23799993,10 0,7.761 0,5 C0.000999999967,2.238 2.23899992,0 5.00099983,0" id="Path" fill-opacity="0.3" fill="#F03F7B" fill-rule="evenodd"></path>
+            </g>
+            <text id="redline-label-copy-27" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#EC407A">
+                <tspan x="404" y="94">Border-radius: 2px</tspan>
+            </text>
+            <g id="specs-/-redlines-/-line-straight" transform="translate(378.500000, 90.000000) rotate(-180.000000) translate(-378.500000, -90.000000) translate(363.000000, 85.000000)" stroke="#EC3F7A">
+                <path d="M10,5 L31,5" id="Stroke-8"></path>
+                <path d="M5.00099983,0 C7.76299974,0 10.0009997,2.239 9.99999967,5 C9.99999967,7.762 7.76199974,10 4.99999983,10 C2.23799993,10 0,7.761 0,5 C0.000999999967,2.238 2.23899992,0 5.00099983,0" id="Path" fill-opacity="0.3" fill="#F03F7B" fill-rule="evenodd"></path>
+            </g>
+            <g id="Group-Copy-3" transform="translate(145.000000, 1764.500000)">
+                <g id="panels-/-error-copy">
+                    <g id="Group-8">
+                        <g id="Rectangle-3-Copy-2">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-15)" xlink:href="#path-14"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-14"></use>
+                            <rect stroke="#D32F2F" stroke-width="2" x="1" y="1" width="218" height="133" rx="2"></rect>
+                        </g>
+                        <text id="file-image-o---FontAwesome-Copy-4" font-family="FontAwesome" font-size="28" font-weight="normal" fill="#757575">
+                            <tspan x="97" y="42.5"></tspan>
+                        </text>
+                        <text id="OPTION-1" font-family="Roboto-Bold, Roboto" font-size="16" font-weight="bold" line-spacing="18" fill="#424242">
+                            <tspan x="62.65625" y="70.6015625">OPTION 1</tspan>
+                        </text>
+                        <text id="A-short-description-Copy-2" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" line-spacing="18" fill="#333333">
+                            <tspan x="27.9038086" y="98.5">A short description or help </tspan>
+                            <tspan x="98.2490234" y="116.5">text</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+            <g id="Md-Copy-17" transform="translate(145.000000, 928.500000)">
+                <g id="Md-Content">
+                    <g id="panels-/-error">
+                        <g id="Rectangle-3-Copy-2">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-16"></use>
+                            <rect stroke="#D32F2F" stroke-width="2" x="1" y="1" width="218" height="133" rx="2"></rect>
+                        </g>
+                    </g>
+                    <text id="file-image-o---FontAwesome" font-family="FontAwesome" font-size="28" font-weight="normal" fill="#757575">
+                        <tspan x="97" y="42.5"></tspan>
+                    </text>
+                    <text id="OPTION-1" font-family="Roboto-Bold, Roboto" font-size="16" font-weight="bold" line-spacing="18" fill="#424242">
+                        <tspan x="62.65625" y="70.6015625">OPTION 1</tspan>
+                    </text>
+                    <text id="A-short-description" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" line-spacing="18" fill="#333333">
+                        <tspan x="27.9038086" y="98.5">A short description or help </tspan>
+                        <tspan x="98.2490234" y="116.5">text</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="Md-Copy-19" transform="translate(146.000000, 1121.500000)">
+                <g id="Md-Content">
+                    <g id="panels-/-error">
+                        <g id="Rectangle-3-Copy-2">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-17"></use>
+                            <rect stroke="#D32F2F" stroke-width="2" x="1" y="1" width="218" height="133" rx="2"></rect>
+                        </g>
+                    </g>
+                    <g id="specs-/-redlines-/-line-straight" transform="translate(234.500000, 23.500000) rotate(-180.000000) translate(-234.500000, -23.500000) translate(205.000000, 18.500000)" stroke="#EC3F7A">
+                        <path d="M10,5 L59,5" id="Stroke-8"></path>
+                        <path d="M5.00099983,0 C7.76299974,0 10.0009997,2.239 9.99999967,5 C9.99999967,7.762 7.76199974,10 4.99999983,10 C2.23799993,10 0,7.761 0,5 C0.000999999967,2.238 2.23899992,0 5.00099983,0" id="Path" fill-opacity="0.3" fill="#F03F7B" fill-rule="evenodd"></path>
+                    </g>
+                    <g id="specs-/-redlines-/-line-straight" transform="translate(207.000000, 66.500000) rotate(-180.000000) translate(-207.000000, -66.500000) translate(147.000000, 61.500000)" stroke="#EC3F7A">
+                        <path d="M10,5 L120,5" id="Stroke-8"></path>
+                        <path d="M5.00099983,0 C7.76299974,0 10.0009997,2.239 9.99999967,5 C9.99999967,7.762 7.76199974,10 4.99999983,10 C2.23799993,10 0,7.761 0,5 C0.000999999967,2.238 2.23899992,0 5.00099983,0" id="Path" fill-opacity="0.3" fill="#F03F7B" fill-rule="evenodd"></path>
+                    </g>
+                    <g id="specs-/-redlines-/-line-straight" transform="translate(245.500000, 103.500000) rotate(-180.000000) translate(-245.500000, -103.500000) translate(223.000000, 98.500000)" stroke="#EC3F7A">
+                        <path d="M10,5 L45,5" id="Stroke-8"></path>
+                        <path d="M5.00099983,0 C7.76299974,0 10.0009997,2.239 9.99999967,5 C9.99999967,7.762 7.76199974,10 4.99999983,10 C2.23799993,10 0,7.761 0,5 C0.000999999967,2.238 2.23899992,0 5.00099983,0" id="Path" fill-opacity="0.3" fill="#F03F7B" fill-rule="evenodd"></path>
+                    </g>
+                    <path d="M194.738497,31.0431938 C194.336497,31.0431938 193.948497,30.8811938 193.664497,30.5901938 L188.426497,25.2151938 C187.847497,24.6221938 187.859497,23.6721938 188.453497,23.0941938 C189.046497,22.5151938 189.995497,22.5281938 190.574497,23.1221938 L194.498497,27.1471938 L201.239497,16.6881938 C201.688497,15.9901938 202.618497,15.7911938 203.312497,16.2391938 C204.009497,16.6881938 204.210497,17.6161938 203.760497,18.3131938 L195.999497,30.3561938 C195.752497,30.7391938 195.342497,30.9901938 194.887497,31.0351938 C194.838497,31.0401938 194.788497,31.0431938 194.738497,31.0431938" id="Fill-1" fill="#D32F2F"></path>
+                    <text id="file-image-o---FontAwesome" font-family="FontAwesome" font-size="28" font-weight="normal" fill="#D32F2F">
+                        <tspan x="97" y="42.5"></tspan>
+                    </text>
+                    <text id="OPTION-1" font-family="Roboto-Bold, Roboto" font-size="16" font-weight="bold" line-spacing="18" fill="#D32F2F">
+                        <tspan x="62.65625" y="70.6015625">OPTION 1</tspan>
+                    </text>
+                    <text id="A-short-description" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" line-spacing="18" fill="#333333">
+                        <tspan x="27.9038086" y="98.5">A short description or help </tspan>
+                        <tspan x="98.2490234" y="116.5">text</tspan>
+                    </text>
+                </g>
+            </g>
+            <g id="Group-6-Copy" transform="translate(145.000000, 1070.500000)" fill="#D32F2F">
+                <text id="Please-select-an-opt" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal">
+                    <tspan x="21" y="15">Please select an option</tspan>
+                </text>
+                <path d="M9.163,10.45 L6.878,10.45 L6.689,4.182 L9.389,4.182 L9.163,10.45 Z M6.887,13.896 L9.172,13.896 L9.172,11.599 L6.887,11.599 L6.887,13.896 Z M8,1 C3.601,1 0,4.6 0,9 C0,13.4 3.601,17 8,17 C12.4,17 16,13.4 16,9 C16,4.6 12.4,1 8,1 L8,1 Z" id="Fill-1"></path>
+            </g>
+            <g id="Group-6-Copy-2" transform="translate(146.000000, 1263.500000)" fill="#D32F2F">
+                <text id="Please-select-an-opt" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal">
+                    <tspan x="21" y="15">Please select an option</tspan>
+                </text>
+                <path d="M9.163,10.45 L6.878,10.45 L6.689,4.182 L9.389,4.182 L9.163,10.45 Z M6.887,13.896 L9.172,13.896 L9.172,11.599 L6.887,11.599 L6.887,13.896 Z M8,1 C3.601,1 0,4.6 0,9 C0,13.4 3.601,17 8,17 C12.4,17 16,13.4 16,9 C16,4.6 12.4,1 8,1 L8,1 Z" id="Fill-1"></path>
+            </g>
+            <g id="Group-3-Copy" transform="translate(146.000000, 1331.500000)">
+                <g id="Md-Copy-10" transform="translate(0.000000, 190.000000)">
+                    <g id="Md-Content">
+                        <g id="panels-/-error">
+                            <g id="Rectangle-3-Copy-2">
+                                <use fill="#FFCDD2" fill-rule="evenodd" xlink:href="#path-18"></use>
+                                <rect stroke="#D32F2F" stroke-width="2" x="1.5" y="1" width="218" height="133" rx="2"></rect>
+                            </g>
+                            <path d="M195.238497,31.0431938 C194.836497,31.0431938 194.448497,30.8811938 194.164497,30.5901938 L188.926497,25.2151938 C188.347497,24.6221938 188.359497,23.6721938 188.953497,23.0941938 C189.546497,22.5151938 190.495497,22.5281938 191.074497,23.1221938 L194.998497,27.1471938 L201.739497,16.6881938 C202.188497,15.9901938 203.118497,15.7911938 203.812497,16.2391938 C204.509497,16.6881938 204.710497,17.6161938 204.260497,18.3131938 L196.499497,30.3561938 C196.252497,30.7391938 195.842497,30.9901938 195.387497,31.0351938 C195.338497,31.0401938 195.288497,31.0431938 195.238497,31.0431938" id="Fill-1" fill="#D32F2F"></path>
+                        </g>
+                        <text id="file-image-o---FontAwesome" font-family="FontAwesome" font-size="28" font-weight="normal" fill="#D32F2F">
+                            <tspan x="97.5" y="42.5"></tspan>
+                        </text>
+                        <text id="OPTION-1" font-family="Roboto-Bold, Roboto" font-size="16" font-weight="bold" line-spacing="18" fill="#D32F2F">
+                            <tspan x="63.15625" y="70.6015625">OPTION 1</tspan>
+                        </text>
+                        <text id="A-short-description" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" line-spacing="18" fill="#333333">
+                            <tspan x="28.4038086" y="98.5">A short description or help </tspan>
+                            <tspan x="98.7490234" y="116.5">text</tspan>
+                        </text>
+                    </g>
+                </g>
+                <g id="Md-Copy-10">
+                    <g id="Md-Content">
+                        <g id="panels-/-error">
+                            <g id="Rectangle-3-Copy-2">
+                                <use fill="#FFCDD2" fill-rule="evenodd" xlink:href="#path-19"></use>
+                                <rect stroke="#D32F2F" stroke-width="2" x="1" y="1" width="218" height="133" rx="2"></rect>
+                            </g>
+                        </g>
+                        <text id="file-image-o---FontAwesome" font-family="FontAwesome" font-size="28" font-weight="normal" fill="#757575">
+                            <tspan x="97" y="42.5"></tspan>
+                        </text>
+                        <text id="OPTION-1" font-family="Roboto-Bold, Roboto" font-size="16" font-weight="bold" line-spacing="18" fill="#424242">
+                            <tspan x="62.65625" y="71.1015625">OPTION 1</tspan>
+                        </text>
+                        <text id="A-short-description" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" line-spacing="18" fill="#333333">
+                            <tspan x="27.9038086" y="99">A short description or help </tspan>
+                            <tspan x="98.2490234" y="117">text</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+            <g id="Group-6-Copy-3" transform="translate(150.000000, 1474.500000)" fill="#D32F2F">
+                <text id="Please-select-an-opt" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal">
+                    <tspan x="21" y="15">Please select an option</tspan>
+                </text>
+                <path d="M9.163,10.45 L6.878,10.45 L6.689,4.182 L9.389,4.182 L9.163,10.45 Z M6.887,13.896 L9.172,13.896 L9.172,11.599 L6.887,11.599 L6.887,13.896 Z M8,1 C3.601,1 0,4.6 0,9 C0,13.4 3.601,17 8,17 C12.4,17 16,13.4 16,9 C16,4.6 12.4,1 8,1 L8,1 Z" id="Fill-1"></path>
+            </g>
+            <g id="Group-6-Copy-4" transform="translate(145.000000, 1664.500000)" fill="#D32F2F">
+                <text id="Please-select-an-opt" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal">
+                    <tspan x="21.5" y="15">Please select an option</tspan>
+                </text>
+                <path d="M9.663,10.45 L7.378,10.45 L7.189,4.182 L9.889,4.182 L9.663,10.45 Z M7.387,13.896 L9.672,13.896 L9.672,11.599 L7.387,11.599 L7.387,13.896 Z M8.5,1 C4.101,1 0.5,4.6 0.5,9 C0.5,13.4 4.101,17 8.5,17 C12.9,17 16.5,13.4 16.5,9 C16.5,4.6 12.9,1 8.5,1 L8.5,1 Z" id="Fill-1"></path>
+            </g>
+            <g id="Group-8" transform="translate(146.000000, 1966.500000)">
+                <g id="Rectangle-3-Copy-2">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-21)" xlink:href="#path-20"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-20"></use>
+                    <rect stroke="#D32F2F" stroke-width="2" x="1" y="1" width="218" height="133" rx="2"></rect>
+                </g>
+                <path d="M194.738497,31.0431938 C194.336497,31.0431938 193.948497,30.8811938 193.664497,30.5901938 L188.426497,25.2151938 C187.847497,24.6221938 187.859497,23.6721938 188.453497,23.0941938 C189.046497,22.5151938 189.995497,22.5281938 190.574497,23.1221938 L194.498497,27.1471938 L201.239497,16.6881938 C201.688497,15.9901938 202.618497,15.7911938 203.312497,16.2391938 C204.009497,16.6881938 204.210497,17.6161938 203.760497,18.3131938 L195.999497,30.3561938 C195.752497,30.7391938 195.342497,30.9901938 194.887497,31.0351938 C194.838497,31.0401938 194.788497,31.0431938 194.738497,31.0431938" id="Fill-1" fill="#D32F2F"></path>
+                <text id="file-image-o---FontAwesome-Copy-4" font-family="FontAwesome" font-size="28" font-weight="normal" fill="#D32F2F">
+                    <tspan x="97" y="42.5"></tspan>
+                </text>
+                <text id="OPTION-1" font-family="Roboto-Bold, Roboto" font-size="16" font-weight="bold" line-spacing="18" fill="#D32F2F">
+                    <tspan x="62.65625" y="70.6015625">OPTION 1</tspan>
+                </text>
+                <text id="A-short-description-Copy-2" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal" line-spacing="18" fill="#333333">
+                    <tspan x="27.9038086" y="98.5">A short description or help </tspan>
+                    <tspan x="98.2490234" y="116.5">text</tspan>
+                </text>
+            </g>
+            <g id="Group-6-Copy-5" transform="translate(145.000000, 1908.500000)" fill="#D32F2F">
+                <text id="Please-select-an-opt" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal">
+                    <tspan x="21" y="15">Please select an option</tspan>
+                </text>
+                <path d="M9.163,10.45 L6.878,10.45 L6.689,4.182 L9.389,4.182 L9.163,10.45 Z M6.887,13.896 L9.172,13.896 L9.172,11.599 L6.887,11.599 L6.887,13.896 Z M8,1 C3.601,1 0,4.6 0,9 C0,13.4 3.601,17 8,17 C12.4,17 16,13.4 16,9 C16,4.6 12.4,1 8,1 L8,1 Z" id="Fill-1"></path>
+            </g>
+            <g id="Group-6-Copy-6" transform="translate(145.000000, 2110.500000)" fill="#D32F2F">
+                <text id="Please-select-an-opt" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal">
+                    <tspan x="21" y="15">Please select an option</tspan>
+                </text>
+                <path d="M9.163,10.45 L6.878,10.45 L6.689,4.182 L9.389,4.182 L9.163,10.45 Z M6.887,13.896 L9.172,13.896 L9.172,11.599 L6.887,11.599 L6.887,13.896 Z M8,1 C3.601,1 0,4.6 0,9 C0,13.4 3.601,17 8,17 C12.4,17 16,13.4 16,9 C16,4.6 12.4,1 8,1 L8,1 Z" id="Fill-1"></path>
+            </g>
+            <text id="redline-label-copy-18" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#EC407A">
+                <tspan x="417" y="1543.5">Icon: Notifications: Success</tspan>
+                <tspan x="417" y="1557.5">Icon Color: #</tspan>
+                <tspan x="484.716797" y="1557.5">D32F2F</tspan>
+                <tspan x="526.066406" y="1557.5"> (red 900)</tspan>
+            </text>
+            <text id="redline-label-copy-17" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#EC407A">
+                <tspan x="418" y="1585.5">Heading &amp; Icon Color:</tspan>
+                <tspan x="418" y="1599.5">#</tspan>
+                <tspan x="425.388672" y="1599.5">D32F2F</tspan>
+                <tspan x="466.738281" y="1599.5"> (red 900)</tspan>
+            </text>
+            <g id="specs-/-redlines-/-line-straight" transform="translate(380.500000, 1545.500000) rotate(-180.000000) translate(-380.500000, -1545.500000) translate(351.000000, 1540.500000)" stroke="#EC3F7A">
+                <path d="M10,5 L59,5" id="Stroke-8"></path>
+                <path d="M5.00099983,0 C7.76299974,0 10.0009997,2.239 9.99999967,5 C9.99999967,7.762 7.76199974,10 4.99999983,10 C2.23799993,10 0,7.761 0,5 C0.000999999967,2.238 2.23899992,0 5.00099983,0" id="Path" fill-opacity="0.3" fill="#F03F7B" fill-rule="evenodd"></path>
+            </g>
+            <g id="specs-/-redlines-/-line-straight" transform="translate(353.000000, 1588.500000) rotate(-180.000000) translate(-353.000000, -1588.500000) translate(293.000000, 1583.500000)" stroke="#EC3F7A">
+                <path d="M10,5 L120,5" id="Stroke-8"></path>
+                <path d="M5.00099983,0 C7.76299974,0 10.0009997,2.239 9.99999967,5 C9.99999967,7.762 7.76199974,10 4.99999983,10 C2.23799993,10 0,7.761 0,5 C0.000999999967,2.238 2.23899992,0 5.00099983,0" id="Path" fill-opacity="0.3" fill="#F03F7B" fill-rule="evenodd"></path>
+            </g>
+            <text id="redline-label-copy-20" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#EC407A">
+                <tspan x="417" y="1990.5">Icon: Notifications: Success</tspan>
+                <tspan x="417" y="2004.5">Icon Color: #</tspan>
+                <tspan x="484.716797" y="2004.5">D32F2F</tspan>
+                <tspan x="526.066406" y="2004.5"> (red 900)</tspan>
+            </text>
+            <text id="redline-label-copy-19" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#EC407A">
+                <tspan x="418" y="2031.5">Heading &amp; Icon Color:</tspan>
+                <tspan x="418" y="2045.5">#</tspan>
+                <tspan x="425.388672" y="2045.5">D32F2F</tspan>
+                <tspan x="466.738281" y="2045.5"> (red 900)</tspan>
+            </text>
+            <g id="specs-/-redlines-/-line-straight" transform="translate(380.500000, 1991.500000) rotate(-180.000000) translate(-380.500000, -1991.500000) translate(351.000000, 1986.500000)" stroke="#EC3F7A">
+                <path d="M10,5 L59,5" id="Stroke-8"></path>
+                <path d="M5.00099983,0 C7.76299974,0 10.0009997,2.239 9.99999967,5 C9.99999967,7.762 7.76199974,10 4.99999983,10 C2.23799993,10 0,7.761 0,5 C0.000999999967,2.238 2.23899992,0 5.00099983,0" id="Path" fill-opacity="0.3" fill="#F03F7B" fill-rule="evenodd"></path>
+            </g>
+            <g id="specs-/-redlines-/-line-straight" transform="translate(353.000000, 2034.500000) rotate(-180.000000) translate(-353.000000, -2034.500000) translate(293.000000, 2029.500000)" stroke="#EC3F7A">
+                <path d="M10,5 L120,5" id="Stroke-8"></path>
+                <path d="M5.00099983,0 C7.76299974,0 10.0009997,2.239 9.99999967,5 C9.99999967,7.762 7.76199974,10 4.99999983,10 C2.23799993,10 0,7.761 0,5 C0.000999999967,2.238 2.23899992,0 5.00099983,0" id="Path" fill-opacity="0.3" fill="#F03F7B" fill-rule="evenodd"></path>
+            </g>
+            <text id="redline-label-copy-24" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#EC407A">
+                <tspan x="405" y="999.5">Roboto, Bold, 16px, #424242</tspan>
+            </text>
+            <g id="specs-/-redlines-/-line-straight" transform="translate(344.000000, 995.500000) rotate(-180.000000) translate(-344.000000, -995.500000) translate(293.000000, 990.500000)" stroke="#EC3F7A">
+                <path d="M10,5 L102,5" id="Stroke-8"></path>
+                <path d="M5.00099983,0 C7.76299974,0 10.0009997,2.239 9.99999967,5 C9.99999967,7.762 7.76199974,10 4.99999983,10 C2.23799993,10 0,7.761 0,5 C0.000999999967,2.238 2.23899992,0 5.00099983,0" id="Path" fill-opacity="0.3" fill="#F03F7B" fill-rule="evenodd"></path>
+            </g>
+            <text id="redline-label-copy-23" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#EC407A">
+                <tspan x="405" y="965.5">Icon: 28px, #757575</tspan>
+            </text>
+            <g id="specs-/-redlines-/-line-straight" transform="translate(333.500000, 962.500000) rotate(-180.000000) translate(-333.500000, -962.500000) translate(270.000000, 957.500000)" stroke="#EC3F7A">
+                <path d="M10,5 L127,5" id="Stroke-8"></path>
+                <path d="M5.00099983,0 C7.76299974,0 10.0009997,2.239 9.99999967,5 C9.99999967,7.762 7.76199974,10 4.99999983,10 C2.23799993,10 0,7.761 0,5 C0.000999999967,2.238 2.23899992,0 5.00099983,0" id="Path" fill-opacity="0.3" fill="#F03F7B" fill-rule="evenodd"></path>
+            </g>
+            <g id="specs-/-redlines-/-line-straight" transform="translate(338.500000, 803.500000) rotate(-180.000000) translate(-338.500000, -803.500000) translate(293.000000, 798.500000)" stroke="#EC3F7A">
+                <path d="M10,5 L91,5" id="Stroke-8"></path>
+                <path d="M5.00099983,0 C7.76299974,0 10.0009997,2.239 9.99999967,5 C9.99999967,7.762 7.76199974,10 4.99999983,10 C2.23799993,10 0,7.761 0,5 C0.000999999967,2.238 2.23899992,0 5.00099983,0" id="Path" fill-opacity="0.3" fill="#F03F7B" fill-rule="evenodd"></path>
+            </g>
+            <g id="specs-/-redlines-/-line-straight" transform="translate(333.500000, 770.500000) rotate(-180.000000) translate(-333.500000, -770.500000) translate(270.000000, 765.500000)" stroke="#EC3F7A">
+                <path d="M10,5 L127,5" id="Stroke-8"></path>
+                <path d="M5.00099983,0 C7.76299974,0 10.0009997,2.239 9.99999967,5 C9.99999967,7.762 7.76199974,10 4.99999983,10 C2.23799993,10 0,7.761 0,5 C0.000999999967,2.238 2.23899992,0 5.00099983,0" id="Path" fill-opacity="0.3" fill="#F03F7B" fill-rule="evenodd"></path>
+            </g>
+            <text id="Icon:-#BDBDBD" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" line-spacing="20" fill="#EC407A">
+                <tspan x="406" y="769.5">Icon: #</tspan>
+                <tspan x="442.275391" y="769.5">BDBDBD</tspan>
+            </text>
+            <text id="Text-Color:-#6B6B6B" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" line-spacing="20" fill="#EC407A">
+                <tspan x="392" y="804.5">Text Color: #</tspan>
+                <tspan x="459.511719" y="804.5">6B6B6B (gray 750)</tspan>
+            </text>
+            <g id="specs-/-redlines-/-line-straight" transform="translate(338.500000, 644.000000) rotate(-180.000000) translate(-338.500000, -644.000000) translate(293.000000, 639.000000)" stroke="#EC3F7A">
+                <path d="M10,5 L91,5" id="Stroke-8"></path>
+                <path d="M5.00099983,0 C7.76299974,0 10.0009997,2.239 9.99999967,5 C9.99999967,7.762 7.76199974,10 4.99999983,10 C2.23799993,10 0,7.761 0,5 C0.000999999967,2.238 2.23899992,0 5.00099983,0" id="Path" fill-opacity="0.3" fill="#F03F7B" fill-rule="evenodd"></path>
+            </g>
+            <g id="specs-/-redlines-/-line-straight" transform="translate(333.500000, 610.500000) rotate(-180.000000) translate(-333.500000, -610.500000) translate(270.000000, 605.500000)" stroke="#EC3F7A">
+                <path d="M10,5 L127,5" id="Stroke-8"></path>
+                <path d="M5.00099983,0 C7.76299974,0 10.0009997,2.239 9.99999967,5 C9.99999967,7.762 7.76199974,10 4.99999983,10 C2.23799993,10 0,7.761 0,5 C0.000999999967,2.238 2.23899992,0 5.00099983,0" id="Path" fill-opacity="0.3" fill="#F03F7B" fill-rule="evenodd"></path>
+            </g>
+            <text id="Icon:-#9e9e9e" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" line-spacing="20" fill="#EC407A">
+                <tspan x="406" y="611.5">Icon: #</tspan>
+                <tspan x="442.275391" y="611.5">9e9e9e</tspan>
+            </text>
+            <text id="Text-Color:-#757575" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" line-spacing="20" fill="#EC407A">
+                <tspan x="392" y="638.5">Text Color: #</tspan>
+                <tspan x="459.511719" y="638.5">757575 (gray 700)</tspan>
+            </text>
+            <text id="redline-label-copy-26" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#EC407A">
+                <tspan x="406" y="1402.5">Text: #424242 (gray 900)</tspan>
+            </text>
+            <g id="specs-/-redlines-/-line-straight" transform="translate(345.000000, 1398.500000) rotate(-180.000000) translate(-345.000000, -1398.500000) translate(294.000000, 1393.500000)" stroke="#EC3F7A">
+                <path d="M10,5 L102,5" id="Stroke-8"></path>
+                <path d="M5.00099983,0 C7.76299974,0 10.0009997,2.239 9.99999967,5 C9.99999967,7.762 7.76199974,10 4.99999983,10 C2.23799993,10 0,7.761 0,5 C0.000999999967,2.238 2.23899992,0 5.00099983,0" id="Path" fill-opacity="0.3" fill="#F03F7B" fill-rule="evenodd"></path>
+            </g>
+            <text id="redline-label-copy-25" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#EC407A">
+                <tspan x="406" y="1368.5">Icon: #757575</tspan>
+            </text>
+            <g id="specs-/-redlines-/-line-straight" transform="translate(334.500000, 1365.500000) rotate(-180.000000) translate(-334.500000, -1365.500000) translate(271.000000, 1360.500000)" stroke="#EC3F7A">
+                <path d="M10,5 L127,5" id="Stroke-8"></path>
+                <path d="M5.00099983,0 C7.76299974,0 10.0009997,2.239 9.99999967,5 C9.99999967,7.762 7.76199974,10 4.99999983,10 C2.23799993,10 0,7.761 0,5 C0.000999999967,2.238 2.23899992,0 5.00099983,0" id="Path" fill-opacity="0.3" fill="#F03F7B" fill-rule="evenodd"></path>
+            </g>
+        </g>
+    </g>
+</svg>

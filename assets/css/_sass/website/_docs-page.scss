@@ -1,0 +1,213 @@
+// New design
+.new-banner {
+  background-color: $cyan700;
+  color: $textcolorlight !important;
+  min-height: 168px;
+  padding: 28px 0;
+  .new-display {
+    width: 100%;
+    font-size: $font-size-7;
+    font-weight: $thin-weight;
+    color: $textcolorlight !important;
+    margin: 52px 0 8px 0;
+    text-align: left !important;
+  }
+}
+
+#markdown-toc {
+  font-size: $base-font-size !important;
+  color: $cyan700;
+  margin: 24px 0;
+  padding: 0px;
+  line-height: $base-line-height;
+  li {
+    line-height: $base-line-height;
+    padding: 0px !important;
+  }
+}
+.new-blurb {
+  background-color: #e5f4f7;
+  min-height: 280px;
+  padding: 28px 0;
+  .page-title {
+    width: 100%;
+    font-size: 1.75em;
+    font-weight: $light-weight;
+    color: $grey900;
+    margin: 36px 0 24px 0;
+    text-align: left !important;
+  }
+  .page-blurb {
+    font-size: $font-size-3;
+    color: $grey900;
+  }
+}
+
+/**
+ * Page specific styles
+ */
+
+/* Colors */
+
+  .ws-top-swatch{
+    height: 140px;
+    position: relative;
+  }
+
+  .ws-top-swatch div{
+    position: absolute;
+    bottom: 8px;
+    left: 8px;
+  }
+
+  .ws-top-swatch div:first-of-type{
+    top: 8px;
+  }
+
+  .ws-lesser-swatch{
+    padding: 8px 0;
+
+  }
+
+  .ws-lesser-swatch div{
+    padding-left: 8px;
+  }
+
+  .ws-light-type, .ws-color-name{
+    color:#fff;
+    @include font-smoothing(antialiased);
+  }
+
+  .ws-color-name{
+    font-weight: $medium-weight;
+  }
+
+  .ws-smaller-color-type{
+    font-size: $font-size-3;
+  }
+
+  .ws-dark-type{
+    color:$grey800;
+  }
+
+  .color-chip, .color-chip-alert {
+     width: 20%;
+     display: block;
+     box-sizing: border-box;
+     margin: 0 !important;
+     text-align: center;
+     float: left;
+     padding: 24px 0 !important;
+     span {
+       display: block;
+     }
+   }
+
+   .color-chip span:last-of-type{
+     font-size: $font-size-3;
+   }
+
+   .color-chip-alert{
+     width:25%;
+   }
+
+   .primary-color-chip{
+     width:100%;
+     border-bottom:4px solid #fff;
+   }
+
+   .color-chip-light{
+     color:#fff;
+   }
+
+  @media (min-width: 960px) {
+    #primary-colors .col-xs-12, #alert-colors .col-xs-12 {
+      margin-bottom: 0;
+    }
+  }
+
+/* Iconography */
+
+.icon-chip {
+  color: $grey900;
+  text-align: center;
+  padding-bottom: 8px;
+  display: block;
+}
+
+.icon-chip-text {
+  border-top: 1px solid $grey300;
+  padding: 8px 0 1.5rem 0;
+  font-size: 0.875em;
+  color: $grey900;
+  text-align: center;
+}
+
+/* Typography */
+
+.temp-remove-padding{
+  padding: 0;
+}
+
+.tempRobotoIntro{
+  display: inline-block;
+  width: 100%;
+  margin-top: 48px;
+}
+
+.headerDisplayList{
+  margin: 0;
+  padding:0;
+  vertical-align: middle;
+}
+
+.tempRobotoXL{
+  font-size: 40px;
+  line-height: 50px;
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+
+.tempLarger{
+  font-size: 112px;
+  line-height: 112px;
+  text-align: center;
+}
+
+.tempRobotoList{
+  /* Firefox */
+  width: -moz-calc(75% - 41px);
+  /* WebKit */
+  width: -webkit-calc(75% - 41px);
+  /* Opera */
+  width: -o-calc(75% - 41px);
+  /* Standard */
+  width: calc(75% - 41px);
+  padding-left: 40px;
+  border-left: 1px solid $grey300;
+  float: left;
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: $regular-weight;
+}
+
+.ws-type-desc, .ws-type-desc-last{
+  display: block;
+  font-size: $font-size-3;
+  color: $grey600;
+  padding-bottom: 16px;
+}
+
+.ws-type-desc-last{
+  padding-bottom: 0;
+}
+
+.color_group{
+  padding-bottom: 50px;
+  float: left;
+}
+
+.tempP{
+  float: left;
+}

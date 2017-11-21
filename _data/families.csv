@@ -1,0 +1,11 @@
+position,name,display,parent
+1,content-areas,Content Areas,Content Areas
+2,editing,Editing,Editing
+3,help,Help,Help
+4,inputs-controls,Inputs & Controls,Inputs and Controls
+5,nav,Navigation,Navigation
+6,notify,Notifications,Notifications
+7,selectors,Selectors,Selectors
+8,processing,Processing,Processing
+9,search-filters,Search & Filters,Search and Filters
+10,tables,Tables,Tables

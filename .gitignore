@@ -1,6 +1,21 @@
 .sass-cache
 _site
 .DS_Store
-.bundle/install.log
+.bundle
 Gemfile.lock
 downloads
+
+# node modules
+node_modules
+
+vendor
+
+# discards
+old/
+
+.remarkrc
+
+tar_staging.sh
+package.tgz
+
+design-system
