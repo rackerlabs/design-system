@@ -73,10 +73,16 @@ last-modified: 2017-11-03
 
 </div>
 
+</section>
+
+<section class="static-section">
+
 ## Specifications
+
 <div class="hxRow"  markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
 ### Actions menu - simple
 
 The most common uses of the actions menu are buttons labeled actions, split button, and cog.
@@ -97,9 +103,14 @@ The menu should span the length of the button. If an action name is longer than 
 
 </div>
 
+</section>
+
+<section class="static-section">
+
 <div class="hxRow"  markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
 ### Actions menu - advanced
 
 The advanced actions menu is a longer list of actions separated by labels. The use of labels on long lists adds clarity and breaks the list into segments that are easier to parse.
@@ -115,3 +126,5 @@ Use 8px of spacing between each section.
 {% endcolumn %}
 
 </div>
+
+</section>
