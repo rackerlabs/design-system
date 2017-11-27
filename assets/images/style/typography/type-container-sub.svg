@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="635px" height="385px" viewBox="0 0 635 385" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>type-container-sub</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M164,0 L248,0 L248,0 C249.104569,-2.02906125e-16 250,0.8954305 250,2 L250,32 L162,32 L162,2 L162,2 C162,0.8954305 162.895431,2.02906125e-16 164,0 Z" id="path-1"></path>
+        <polygon id="path-2" points="7 3.5 0 7 0 0"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="type-container-sub">
+            <g id="typography-container-sub-title" transform="translate(23.000000, 7.000000)">
+                <g id="bar" transform="translate(96.000000, 12.000000)" fill="#EAEAEA">
+                    <rect id="Rectangle" x="0" y="0" width="53" height="10" rx="5"></rect>
+                </g>
+                <g id="bar" transform="translate(262.000000, 12.000000)" fill="#EAEAEA">
+                    <rect id="Rectangle" x="0" y="0" width="53" height="10" rx="5"></rect>
+                </g>
+                <g id="bar" transform="translate(19.000000, 12.000000)" fill="#EAEAEA">
+                    <rect id="Rectangle" x="0" y="0" width="53" height="10" rx="5"></rect>
+                </g>
+                <g id="bar" transform="translate(21.000000, 61.000000)" fill="#EAEAEA">
+                    <rect id="Rectangle" x="0" y="0" width="155" height="19" rx="9.5"></rect>
+                </g>
+                <text id="Container-Sub-Title" font-family="Roboto-Medium, Roboto" font-size="16" font-weight="400" line-spacing="16" fill="#424242">
+                    <tspan x="20" y="232">Container Sub-Title</tspan>
+                </text>
+                <text id="Container-Sub-Title-Copy" font-family="Roboto-Medium, Roboto" font-size="16" font-weight="400" line-spacing="16" fill="#424242">
+                    <tspan x="349" y="232">Container Sub-Title</tspan>
+                </text>
+                <rect id="Rectangle-2-Copy" fill="#E5E5E5" opacity="0.5" x="44" y="259" width="58" height="12" rx="6"></rect>
+                <rect id="Rectangle-2-Copy-5" fill="#E5E5E5" opacity="0.5" x="44" y="288" width="58" height="12" rx="6"></rect>
+                <rect id="Rectangle-2-Copy-7" fill="#E5E5E5" opacity="0.5" x="44" y="317" width="58" height="12" rx="6"></rect>
+                <rect id="Rectangle-2-Copy-3" fill="#B2D1ED" x="20" y="179" width="129" height="12" rx="6"></rect>
+                <rect id="Rectangle-2-Copy-6" fill="#E5E5E5" x="113" y="259" width="162" height="12" rx="6"></rect>
+                <rect id="Rectangle-2-Copy-9" fill="#E5E5E5" x="113" y="288" width="162" height="12" rx="6"></rect>
+                <rect id="Rectangle-2-Copy-8" fill="#E5E5E5" x="113" y="317" width="162" height="12" rx="6"></rect>
+                <rect id="Rectangle-2-Copy-2" fill="#E5E5E5" x="21" y="134" width="332" height="14" rx="7"></rect>
+                <rect id="Rectangle-2-Copy" fill="#E5E5E5" x="21" y="110" width="331" height="13" rx="6.5"></rect>
+                <rect id="Rectangle-8" fill="#E0E0E0" x="0" y="31" width="592" height="1"></rect>
+                <g id="Rectangle-9">
+                    <use fill="#FAFAFA" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    <path stroke="#E0E0E0" stroke-width="1" d="M162.5,31.5 L249.5,31.5 L249.5,2 C249.5,1.17157288 248.828427,0.5 248,0.5 L164,0.5 C163.171573,0.5 162.5,1.17157288 162.5,2 L162.5,31.5 Z"></path>
+                </g>
+                <rect id="Rectangle" fill-opacity="0.400000006" fill="#0C7C84" x="176" y="12" width="61" height="10" rx="5"></rect>
+                <rect id="Rectangle-10" fill="#FAFAFA" x="163" y="31" width="86" height="1"></rect>
+                <rect id="Rectangle-11" fill="#EAEAEA" x="349" y="257" width="223" height="117"></rect>
+                <g id="specs-/-padding" transform="translate(20.000000, 233.000000)">
+                    <rect id="Rectangle-2-Copy" fill="#FBC02D" fill-rule="evenodd" x="0" y="0" width="139" height="24"></rect>
+                    <text id="label" font-family="Roboto-Medium, Roboto" font-size="12" font-weight="400" line-spacing="11" fill="#FFFFFF">
+                        <tspan x="47.5390625" y="15.3261719">24px</tspan>
+                    </text>
+                </g>
+                <g id="specs-/-padding" transform="translate(349.000000, 233.000000)">
+                    <rect id="Rectangle-2-Copy" fill="#FBC02D" fill-rule="evenodd" x="0" y="0" width="139" height="24"></rect>
+                    <text id="label" font-family="Roboto-Medium, Roboto" font-size="12" font-weight="400" line-spacing="11" fill="#FFFFFF">
+                        <tspan x="47.5390625" y="15.3261719">24px</tspan>
+                    </text>
+                </g>
+                <g id="specs-/-redlines-/-line-inclusive" transform="translate(478.000000, 193.000000) scale(-1, 1) rotate(-270.000000) translate(-478.000000, -193.000000) translate(458.000000, 105.000000)">
+                    <path d="M1,87.12 L40,87.12" id="redline-line" stroke="#EC407A" stroke-width="1"></path>
+                    <g id="specs-/-redlines-/-line-end-/-arrow" transform="translate(33.000000, 83.620000)">
+                        <g id="redline-end">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                            <path stroke="#EC407A" stroke-width="1" d="M5.88196601,3.5 L0.5,0.809016994 L0.5,6.19098301 L5.88196601,3.5 Z"></path>
+                        </g>
+                    </g>
+                    <path d="M-0.0970149254,0.88 L-0.0970149254,175.12" id="Line" stroke="#F0367A" stroke-width="1" stroke-linecap="square"></path>
+                </g>
+                <text id="Typeface:-Roboto-Wei" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" letter-spacing="0.328125" fill="#EC407A">
+                    <tspan x="390" y="81">Typeface: Roboto</tspan>
+                    <tspan x="390" y="95">Weight: Medium (500)</tspan>
+                    <tspan x="390" y="109">Size: 16px / 1rem</tspan>
+                    <tspan x="390" y="123">Color: Gray 900, #424242</tspan>
+                    <tspan x="390" y="137">Line Height: 1</tspan>
+                    <tspan x="390" y="151">Bottom Spacing: 24px / 1.5rem</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

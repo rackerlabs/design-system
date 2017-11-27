@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="635px" height="394px" viewBox="0 0 635 394" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>type-caption</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="7 3.5 0 7 0 0"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="type-caption">
+            <g id="typography-caption" transform="translate(43.000000, 22.000000)">
+                <rect id="Rectangle-2-Copy-13" fill="#E5E5E5" x="1" y="109" width="138" height="12" rx="6"></rect>
+                <rect id="Rectangle-2-Copy-14" fill="#E5E5E5" x="330" y="109" width="138" height="12" rx="6"></rect>
+                <rect id="Rectangle-2-Copy" fill="#E5E5E5" opacity="0.5" x="24" y="149" width="58" height="12" rx="6"></rect>
+                <rect id="Rectangle-2-Copy-5" fill="#E5E5E5" opacity="0.5" x="24" y="178" width="58" height="12" rx="6"></rect>
+                <rect id="Rectangle-2-Copy-7" fill="#E5E5E5" opacity="0.5" x="24" y="207" width="58" height="12" rx="6"></rect>
+                <rect id="Rectangle-2-Copy-3" fill="#0D74D1" opacity="0.300000012" x="0" y="69" width="129" height="12" rx="6"></rect>
+                <rect id="Rectangle-2-Copy-6" fill="#E5E5E5" x="93" y="149" width="162" height="12" rx="6"></rect>
+                <rect id="Rectangle-2-Copy-9" fill="#E5E5E5" x="93" y="178" width="162" height="12" rx="6"></rect>
+                <text id="Caption-text-to-desc" font-family="Roboto-Light, Roboto" font-size="14" font-weight="300" line-spacing="21" fill="#616161">
+                    <tspan x="329" y="307">Caption text to describe the image </tspan>
+                    <tspan x="329" y="328">above in a few, short words.</tspan>
+                </text>
+                <rect id="Rectangle-2-Copy-8" fill="#E5E5E5" x="93" y="207" width="162" height="12" rx="6"></rect>
+                <rect id="Rectangle-2-Copy-2" fill="#E5E5E5" x="1" y="24" width="332" height="14" rx="7"></rect>
+                <rect id="Rectangle-2-Copy" fill="#E5E5E5" x="1" y="0" width="524" height="13" rx="6.5"></rect>
+                <rect id="Rectangle-11" fill="#E0E0E0" x="329" y="147" width="223" height="137"></rect>
+                <text id="Typeface:-Roboto-Wei" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" line-spacing="18" fill="#EC407A">
+                    <tspan x="91" y="280">Typeface: Roboto</tspan>
+                    <tspan x="91" y="298">Weight: Light (300)</tspan>
+                    <tspan x="91" y="316">Size: 14px / 0.875rem</tspan>
+                    <tspan x="91" y="334">Color: Gray 800, #61616</tspan>
+                    <tspan x="91" y="352">Line Height:1.5</tspan>
+                </text>
+                <g id="specs-/-redlines-/-line-inclusive" transform="translate(225.000000, 269.000000)">
+                    <path d="M1,44.55 L100,44.55" id="redline-line" stroke="#EC407A" stroke-width="1"></path>
+                    <g id="specs-/-redlines-/-line-end-/-arrow" transform="translate(93.000000, 41.050000)">
+                        <g id="redline-end">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            <path stroke="#EC407A" stroke-width="1" d="M5.88196601,3.5 L0.5,0.809016994 L0.5,6.19098301 L5.88196601,3.5 Z"></path>
+                        </g>
+                    </g>
+                    <path d="M0.5,0.45 L0.5,89.55" id="Line" stroke="#F0367A" stroke-width="1" stroke-linecap="square"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
