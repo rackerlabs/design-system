@@ -137,28 +137,33 @@ Paragraphs inherit body text style by default, and have 20px of bottom spacing.
 <div class="hxRow" markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-### Subdued style
+### Link
 
-Use the subdued style to allow more important information stand out. For example:
-
-- Use the subdued style for keys in key-value lists to provide more visual prominenance to the value.
-- Use this style for non-critical information in lists, such as abbreviated dates, or as a second line of text in a cell
-
-Parameters for use: 
-
-- This style only applies Gray 750 color to the selected text, and does not affect font size or weight
-- This is not the same as inactive style for links or buttons
-- Use this style with text 14px or taller 
-- Do not subdue text on backgrounds darker than Gray 25 (#fafafa) or it will not pass accessibiity standards
+Links support styles for hover, active, and disabled states, and inherit size and spacing styles from the text to which they are applied. Helix does not support the visited state.
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/style/typography/type-subdued.png){:width="635px"}
+![]({{site.url}}/assets/images/style/typography/type-link.png){:width="635px"}
 {% endfigure %}
 {% endcolumn %}
+</div>
 
+<div class="hxRow" markdown="1">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### Caption
+
+Captions apply to images and visualizations. They should be used to clarify images and not introduce new, pertinent information.
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/style/typography/type-caption.png){:width="635px"}
+{% endfigure %}
+{% endcolumn %}
 </div>
 
 <div class="hxRow" markdown="1">
@@ -184,49 +189,28 @@ Use sub-body text sparingly, since it is the least readable size. For example us
 <div class="hxRow" markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-### Caption
+### Subdued style
 
-Captions apply to images and visualizations. They should be used to clarify images and not introduce new, pertinent information.
+Use the subdued style to allow more important information stand out. For example:
 
-{% endcolumn %}
+- Use the subdued style for keys in key-value lists to provide more visual prominenance to the value.
+- Use this style for non-critical information in lists, such as abbreviated dates, or as a second line of text in a cell
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% figure [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/style/typography/type-caption.png){:width="635px"}
-{% endfigure %}
-{% endcolumn %}
-</div>
+Parameters for use: 
 
-<div class="hxRow" markdown="1">
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-
-### Link
-
-Links support styles for hover, active, and disabled states, and inherit size and spacing styles from the text to which they are applied. Helix does not support the visited state.
+- This style only applies Gray 750 color to the selected text, and does not affect font size or weight
+- This is not the same as inactive style for links or buttons
+- Use this style with text 14px or taller 
+- Do not subdue text on backgrounds darker than Gray 25 (#fafafa) or it will not pass accessibiity standards
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/style/typography/type-link.png){:width="635px"}
+![]({{site.url}}/assets/images/style/typography/type-subdued.png){:width="635px"}
 {% endfigure %}
 {% endcolumn %}
-</div>
 
-<div class="hxRow" markdown="1">
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-
-### Link
-
-Links support styles for hover, active, and disabled states, and inherit size and spacing styles from the text to which they are applied. Helix does not support the visited state.
-
-{% endcolumn %}
-
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% figure [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/style/typography/type-link.png){:width="635px"}
-{% endfigure %}
-{% endcolumn %}
 </div>
 
 ## Lists
