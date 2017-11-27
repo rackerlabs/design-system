@@ -163,7 +163,7 @@ In this instance, a popover is preferable to a [tooltip]({{site.baseurl}}/compon
 
 ### Loading
 
-Use a simple loading circle to load a popover. Refer to the [Loading]({{site.baseurl}}/components/loading.html) pattern for more detailed specifications.
+Use a simple loading circle to load a popover. Refer to the [Loading]({{site.baseurl}}/components/loading-indicators.html) pattern for more detailed specifications.
 
 {% endcolumn %}
 
