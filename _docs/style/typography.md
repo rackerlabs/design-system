@@ -16,168 +16,259 @@ helix-ui-javascript: false
 ---
 
 {% include toc.html %}
-{% comment %}
-  <div class="tempRobotoIntro">
-    <div class="tempRobotoXL">
-      Roboto <br> <span class="tempLarger">Aa</span>
-    </div>
-    <div class="tempRobotoList">
-      ABCDEFGHIJKLMNOPQRSTUVWXYZ<br>
-      abcdefghijklmnopqrstuvwxyz<br>
-      1234567890(,.;:?!$&amp;\*)
-    </div>
-  </div>
-{% endcomment %}
-
 
 ## Header styles
 
-### Page title
-
 <div class="hxRow" markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### Page title
 
 Page titles are the highest level of hierarchy. There should only ever be one on any page.
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% include type-styles.html htmlexample='<h1 class="hxPageTitle">Page Title</h1>' typeface="Roboto" weight="Thin (100)" fontsize="48px / 3.0rem" csscode="Gray 900" hex="#424242" linespace="1" bottomspace="32px / 2rem" %}
+{% figure [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/style/typography/type-page-title.png){:width="635px"}
+{% endfigure %}
 {% endcolumn %}
 </div>
 
-### Section title
-
 <div class="hxRow" markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### Section title
 
 Use section titles for titles of page sections. For example, if your page title is **Billing**, and the page has **Overview**, **Trends**, and **Payment methods** section headings, each section heading would use section titles.
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% include type-styles.html htmlexample='<h2 class="hxSectionTitle">Section title</h2>' typeface="Roboto" weight="Light (300)" fontsize="30px / 1.875rem" csscode="Gray 900" hex="#424242" linespace="1" bottomspace="28px / 1.75rem" %}
+{% figure [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/style/typography/type-section-title.png){:width="635px"}
+{% endfigure %}
 {% endcolumn %}
 </div>
-
-### Sub-section title
 
 <div class="hxRow" markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-
-Sub-section titles are pretty versatile. Consider using them to title things like fieldsets, tables, Key-Value lists, and so on.
-
-{% endcolumn %}
-
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% include type-styles.html htmlexample='<h3 class="hxSubSectionTitle">Sub-section title</h3>' typeface="Roboto" weight="Regular (400)" fontsize="24px / 1.5rem" csscode="Gray 900" hex="#424242" linespace="1" bottomspace="24px / 1.5rem" %}
-{% endcolumn %}
-</div>
 
 ### Container title
 
-<div class="hxRow" markdown="1">
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+Container Titles are versatile and can be used to title content that exists inside a distinct visual container. For example:
 
-Container titles are good for titling within elements like cards, modals, and so on.
+- Title for tab content
+- Cards, [modals]({{site.baseurl}}/components/modal.html), or [fieldsets]({{site.baseurl}}/components/text-fields.html)
+- Sidebars and other distinct containers
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% include type-styles.html htmlexample='<h4 class="hxContainerTitle">Container title</h4>' typeface="Roboto" weight="Medium (500)" fontsize="16px / 1rem" csscode="Gray 900" hex="#424242" linespace="1" bottomspace="24px / 1.5rem" %}
+{% figure [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/style/typography/type-container-title.png){:width="635px"}
+{% endfigure %}
+{% endcolumn %}
+</div>
+
+<div class="hxRow" markdown="1">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### Container sub-title
+
+Container Sub-Title is a flexible style, and can be used for grouping information that exists in a titled container. For example use this typography style for the following:
+
+- The labeling of sub-sections within tab content.  
+- Labeling other tertiary content within a page, such as a small [popover]({{site.baseurl}}/components/popovers.html).
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [The checkbox component] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/style/typography/type-container-sub.png){:width="635px"}
+{% endfigure %}
+{% endcolumn %}
+</div>
+
+<div class="hxRow" markdown="1">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### Context title
+
+Use this typgraphic element to provide additional contextual labeling. For example use this typography style for the following:   
+
+- Adding a contextual title of “Cloud Server” above the server name on a device detail page.
+- Adding clarity to a report by adding a “Report Date” context title above the date field.
+- Labeling a price point with a plan name on an ordering form.
+
+Parameters for use:
+
+- **Do not** use the context title on backgrounds darker than the standard Gray 25 (#fafafa) or it will not pass accessibiity standards.
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [The checkbox component] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/style/typography/type-context-title.png){:width="635px"}
+{% endfigure %}
 {% endcolumn %}
 </div>
 
 ## Body styles
 
-### Body text
-
 <div class="hxRow" markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### Body text
 
 Body text is the default style and should be used across the interface for most information.
 
+Paragraphs inherit body text style by default, and have 20px of bottom spacing.
+
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% include type-styles.html htmlexample='<p>Body Text</p>' typeface="Roboto" weight="Regular (400)" fontsize="16px / 1rem" csscode="Gray 900" hex="#424242" bottomspace="24px / 1rem" linespace="1.5" %}
+{% figure [The checkbox component] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/style/typography/type-body.png){:width="635px"}
+{% endfigure %}
 {% endcolumn %}
 </div>
+
+<div class="hxRow" markdown="1">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Subdued style
 
-<div class="hxRow" markdown="1">
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+Use the subdued style to allow more important information stand out. For example:
 
-You can use the subdued style with any text 14px and taller, and is used to let more important text stand out. The subdued style is not the same as an inactive link or button.
+- Use the subdued style for keys in key-value lists to provide more visual prominenance to the value.
+- Use this style for non-critical information in lists, such as abbreviated dates, or as a second line of text in a cell
 
-*Do not subdue text on backgrounds darker than Gray 25 (#fafafa) or it will not pass accessibility standards.*
+Parameters for use: 
+
+- This style only applies Gray 750 color to the selected text, and does not affect font size or weight
+- This is not the same as inactive style for links or buttons
+- Use this style with text 14px or taller 
+- Do not subdue text on backgrounds darker than Gray 25 (#fafafa) or it will not pass accessibiity standards
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% include type-styles.html htmlexample='<p class="hxSubdued">Subdued Style</p>' typeface="Roboto" csscode="Gray 900" hex="#424242" %}
+{% figure [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/style/typography/type-subdued.png){:width="635px"}
+{% endfigure %}
 {% endcolumn %}
 
 </div>
+
+<div class="hxRow" markdown="1">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Sub-body text
 
-<div class="hxRow" markdown="1">
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+Use sub-body text sparingly, since it is the least readable size. For example use this typography style for the following:
 
-Use sub-body text sparingly, since it is the least readable size. You can use it when smaller text is appropriate, such as for icon labels.
+- Labeling iconography
+- Labeling the legend on visualizations
+- Providing tertiary details or cards and tiles
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% include type-styles.html htmlexample='<p class="hxSubBody">Sub-Body Text</p>' typeface="Roboto" weight="Regular (400)" fontsize="12px / 0.75rem" csscode="Gray 900" hex="#424242" linespace="1.5" %}
+{% figure [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/style/typography/type-sub-body.png){:width="635px"}
+{% endfigure %}
 {% endcolumn %}
 </div>
 
-### Caption
-
 <div class="hxRow" markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### Caption
 
 Captions apply to images and visualizations. They should be used to clarify images and not introduce new, pertinent information.
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% include type-styles.html htmlexample='<p class="hxCaption">Caption</p>' typeface="Roboto" weight="Light (300)" fontsize="14px / 0.875rem" csscode="Gray 800" hex="#616161" linespace="1.5" %}
+{% figure [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/style/typography/type-caption.png){:width="635px"}
+{% endfigure %}
 {% endcolumn %}
 </div>
 
-### Link
-
 <div class="hxRow" markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### Link
 
 Links support styles for hover, active, and disabled states, and inherit size and spacing styles from the text to which they are applied. Helix does not support the visited state.
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% include type-styles.html htmlexample='<a href="javascript:void(0);">Default</a><br><a class="hover" href="javascript:void(0);">Hover / Pressed</a><br><a class="disabled" disabled="disabled" href="javascript:void(0);">Disabled</a>' typeface="Roboto" default="Blue 700, #0d74d1" hover="Blue 500, #3391ff" disabled="Gray 800, #616161" %}
+{% figure [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/style/typography/type-link.png){:width="635px"}
+{% endfigure %}
 {% endcolumn %}
 </div>
-
-### Label
 
 <div class="hxRow" markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-Use this style for form input labels and as titles for radio groups or sets of checkboxes. Note that checkbox and radio button labels intentionally do not match this style.
+### Link
 
-*Do not use labels on backgrounds darker than Gray 25 (#fafafa) or it will not pass accessibility standards.*
+Links support styles for hover, active, and disabled states, and inherit size and spacing styles from the text to which they are applied. Helix does not support the visited state.
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% include type-styles.html htmlexample='<label class="hxLabel">Label</label>' typeface="Roboto" weight="Medium (500)" fontsize="14px / 0.875rem" csscode="Gray 750" hex="#6b6b6b" linespace="1.5"  %}
+{% figure [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/style/typography/type-link.png){:width="635px"}
+{% endfigure %}
 {% endcolumn %}
 </div>
+
+## Lists
+
+<div class="hxRow" markdown="1">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### Ordered lists
+
+Ordered lists are usually reserved for instances in which the items must occur in a specific order, such as steps in a procedure, or when keeping count is important, such as a top 10 list.
+
+If the order or the final count of the list items does not matter, don’t number them. Doing so creates confusion.
+
+For more information on when and how to use lists, check out the [Nielsen Norman Group’s article](https://www.nngroup.com/articles/presenting-bulleted-lists/) on this topic.
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/style/typography/type-ordered-list.png){:width="635px"}
+{% endfigure %}
+{% endcolumn %}
+</div>
+
+<div class="hxRow" markdown="1">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### Unordered lists
+
+Lists help break up large blocks of text, make complex articles and blog posts easier to grasp, and make key information stand out.
+
+Lists work best when they include related items. The items should share a similar level of importance. When possible, write bullet items to be approximately the same length, so that one doesn’t overpower another. Keeping a uniform shape is eye pleasing and makes the list appear less busy.
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/style/typography/type-unordered-list.png){:width="635px"}
+{% endfigure %}
+{% endcolumn %}
+</div>
+
 
 
 ## Readability

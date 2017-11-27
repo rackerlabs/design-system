@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="635px" height="392px" viewBox="0 0 635 392" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>type-page-title</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M185,193 L269,193 L269,193 C270.104569,193 271,193.895431 271,195 L271,225 L183,225 L183,195 L183,195 C183,193.895431 183.895431,193 185,193 Z" id="path-1"></path>
+        <polygon id="path-2" points="7 3.5 0 7 0 0"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="type-page-title">
+            <g id="typography-page-title" transform="translate(2.000000, 19.000000)">
+                <g id="Group">
+                    <rect id="context-title-bar" fill="#E5E5E5" x="22" y="9" width="80" height="10" rx="5"></rect>
+                    <g id="specs-/-padding" transform="translate(21.000000, 72.000000)">
+                        <rect id="Rectangle-2-Copy" fill="#FBC02D" fill-rule="evenodd" x="0" y="0" width="204" height="32"></rect>
+                        <text id="label" font-family="Roboto-Medium, Roboto" font-size="12" font-weight="400" line-spacing="11" fill="#FFFFFF">
+                            <tspan x="80.0390625" y="19.4928385">32px</tspan>
+                        </text>
+                    </g>
+                    <text id="Page-Title" font-family="Roboto-Thin, Roboto" font-size="48" font-style="condensed" font-weight="300" line-spacing="48" fill="#424242">
+                        <tspan x="17" y="69">Page Title</tspan>
+                    </text>
+                    <g id="bar" transform="translate(22.000000, 9.000000)" fill="#EAEAEA">
+                        <rect id="Rectangle" x="0" y="0" width="80" height="10" rx="5"></rect>
+                    </g>
+                    <g id="bar" transform="translate(21.000000, 137.000000)" fill="#EAEAEA">
+                        <rect id="Rectangle" x="0" y="0" width="171" height="24" rx="12"></rect>
+                    </g>
+                    <g id="bar" transform="translate(117.000000, 205.000000)" fill="#EAEAEA">
+                        <rect id="Rectangle" x="0" y="0" width="53" height="10" rx="5"></rect>
+                    </g>
+                    <g id="bar" transform="translate(283.000000, 205.000000)" fill="#EAEAEA">
+                        <rect id="Rectangle" x="0" y="0" width="53" height="10" rx="5"></rect>
+                    </g>
+                    <g id="bar" transform="translate(40.000000, 205.000000)" fill="#EAEAEA">
+                        <rect id="Rectangle" x="0" y="0" width="53" height="10" rx="5"></rect>
+                    </g>
+                    <g id="bar" transform="translate(42.000000, 255.000000)" fill="#EAEAEA">
+                        <rect id="Rectangle" x="0" y="0" width="155" height="17" rx="8.5"></rect>
+                    </g>
+                    <rect id="Rectangle-8-Copy" fill="#E0E0E0" x="0" y="104" width="633" height="1"></rect>
+                    <rect id="Rectangle-2-Copy-2" fill="#E5E5E5" x="42" y="327" width="332" height="14" rx="7"></rect>
+                    <rect id="Rectangle-2-Copy" fill="#E5E5E5" x="42" y="303" width="524" height="13" rx="6.5"></rect>
+                    <rect id="Rectangle-8" fill="#E0E0E0" x="21" y="224" width="592" height="1"></rect>
+                    <g id="Rectangle-9">
+                        <use fill="#FAFAFA" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        <path stroke="#E0E0E0" stroke-width="1" d="M183.5,224.5 L270.5,224.5 L270.5,195 C270.5,194.171573 269.828427,193.5 269,193.5 L185,193.5 C184.171573,193.5 183.5,194.171573 183.5,195 L183.5,224.5 Z"></path>
+                    </g>
+                    <rect id="Rectangle" fill-opacity="0.400000006" fill="#0C7C84" x="197" y="205" width="61" height="10" rx="5"></rect>
+                    <rect id="Rectangle-10" fill="#FAFAFA" x="184" y="224" width="86" height="1"></rect>
+                    <g id="bar" transform="translate(556.000000, 58.000000)" fill="#EAEAEA">
+                        <rect id="Rectangle" x="0" y="0" width="52" height="9" rx="4.5"></rect>
+                    </g>
+                    <g id="bar" transform="translate(558.000000, 2.000000)" fill="#EAEAEA">
+                        <rect id="Rectangle" x="0" y="0" width="48" height="48" rx="24"></rect>
+                    </g>
+                    <text id="Typeface:-Roboto-Wei-Copy" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" letter-spacing="0.328125" fill="#EC407A">
+                        <tspan x="366" y="11">Typeface: Roboto</tspan>
+                        <tspan x="366" y="25">Weight: Thin (100)</tspan>
+                        <tspan x="366" y="39">Size: 48px / 3.0rem</tspan>
+                        <tspan x="366" y="53">Color: Gray 900, #424242</tspan>
+                        <tspan x="366" y="67">Line Height: 1</tspan>
+                        <tspan x="366" y="81">Bottom Spacing: 32px / 2rem</tspan>
+                    </text>
+                    <g id="Group-11-Copy" transform="translate(230.000000, 4.000000)">
+                        <g id="specs-/-redlines-/-line-inclusive" transform="translate(65.500000, 46.000000) scale(-1, 1) translate(-65.500000, -46.000000) ">
+                            <path d="M1,45.54 L131,45.54" id="redline-line" stroke="#EC407A" stroke-width="1"></path>
+                            <g id="specs-/-redlines-/-line-end-/-arrow" transform="translate(124.000000, 42.040000)">
+                                <g id="redline-end">
+                                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                                    <path stroke="#EC407A" stroke-width="1" d="M5.88196601,3.5 L0.5,0.809016994 L0.5,6.19098301 L5.88196601,3.5 Z"></path>
+                                </g>
+                            </g>
+                            <path d="M0.808457711,0.46 L0.808457711,91.54" id="Line" stroke="#F0367A" stroke-width="1" stroke-linecap="square"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
