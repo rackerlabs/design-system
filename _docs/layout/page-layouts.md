@@ -11,11 +11,11 @@ resource: true
 
 {% include toc.html %}
 
-### Base layouts
-
+<section class="static-section"  markdown="1">
 <div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
+### Base layouts
 - Use the account navigation bar to navigate between applications,
   manage roles, and manage preferences on both the user and the account
   level.
@@ -48,16 +48,17 @@ content area."] [class:"image bg-light border"] %}
 {% endfigure %}
 {% endcolumn %}
 </div>
+</section>
+
+<section class="static-section"  markdown="1">
+<div class="hxRow"  markdown="1">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Content areas
 
 Build the content area using a 12 Column Grid. See [grid](/layout/grid) for more details.
 
 #### Full Width Content Area
-
-<div class="hxRow"  markdown="1">
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-
 - Navigation is not a part of the 12 Column Grid.
 - Content area background color: Gray 25, #FAFAFA
 
@@ -73,6 +74,11 @@ Build the content area using a 12 Column Grid. See [grid](/layout/grid) for more
 {% endfigure %}
 {% endcolumn %}
 </div>
+</section>
+
+<section class="static-section"  markdown="1">
+<div class="hxRow"  markdown="1">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Content area with right side rail
 
@@ -82,9 +88,6 @@ Build the content area using a 12 Column Grid. See [grid](/layout/grid) for more
 - Background color: Gray 25, #FAFAFA
 
 #### Right side rail
-
-<div class="hxRow"  markdown="1">
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 - 3 columns
 - Background color: Gray 100, #EEEEEE
@@ -101,6 +104,11 @@ Build the content area using a 12 Column Grid. See [grid](/layout/grid) for more
 {% endfigure %}
 {% endcolumn %}
 </div>
+</section>
+
+<section class="static-section"  markdown="1">
+<div class="hxRow"  markdown="1">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Content area with left side rail
 
@@ -110,10 +118,6 @@ Build the content area using a 12 Column Grid. See [grid](/layout/grid) for more
 - Background color: Gray 25, #FAFAFA
 
 #### Left side rail
-
-<div class="hxRow"  markdown="1">
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-
 - 3 columns
 - Background color: Gray 100, #EEEEEE
 
@@ -129,14 +133,17 @@ Build the content area using a 12 Column Grid. See [grid](/layout/grid) for more
 {% endfigure %}
 {% endcolumn %}
 </div>
+</section>
 
-### Dashboard content area
+<section class="static-section"  markdown="1">
 
-### Module content area
 
 <div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
+### Dashboard content area
+
+#### Module content area
 - 4 columns each
 - Canvas Height: variable
 - Background color: Gray 25, #FAFAFA
@@ -155,3 +162,4 @@ Build the content area using a 12 Column Grid. See [grid](/layout/grid) for more
 -->
 {% endcolumn %}
 </div>
+</section>

@@ -11,8 +11,11 @@ last-modified: 2017-10-24
 
 {% include toc.html %}
 
-## Accessibility for visual design
 
+
+<section class="static-section" markdown="1">
+
+## Accessibility for visual design
 <div class="hxRow"  markdown="1">
 
 {% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
@@ -27,7 +30,9 @@ By using the following best practices, you can help ensure your design is access
 
 {% endcolumn %}
 </div>
+</section>
 
+<section class="static-section" markdown="1">
 <div class="hxRow"  markdown="1">
 {% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
 
@@ -37,7 +42,6 @@ Color deficiency is a common issue faced in the design process. The most common 
 
 {% endcolumn %}
 </div>
-
 <div class="hxRow"  markdown="1">
 {% column right:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 {% figure [caption:"Helix colors as seen in normal vision"] [class:"image bg-light border"] %}
@@ -58,6 +62,7 @@ Color deficiency is a common issue faced in the design process. The most common 
 {% endcolumn %}
 </div>
 
+
 <div class="hxRow"  markdown="1">
 {% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
 
@@ -65,8 +70,10 @@ While color can be useful to convey information, color should not be the only wa
 
 {% endcolumn %}
 </div>
+</section>
 
 
+<section class="static-section"  markdown="1">
 <div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
@@ -88,7 +95,9 @@ Other optional indicators to consider are the following elements:
 {% endfigure %}
 {% endcolumn %}
 </div>
+</section>
 
+<section class="static-section"  markdown="1">
 <div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
@@ -112,7 +121,9 @@ Helix minimum contrast standards require the following elements:
 {% endfigure %}
 {% endcolumn %}
 </div>
+</section>
 
+<section class="static-section"  markdown="1">
 <div class="hxRow"  markdown="1">
 {% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
 
@@ -148,7 +159,9 @@ Helix minimum spacing standards require: 
 {% endcolumn %}
 </div>
 
+</section>
 
+<section class="static-section"  markdown="1">
 <div class="hxRow"  markdown="1">
 {% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
 
@@ -200,7 +213,9 @@ In this example, we provide a clear visual feedback that the focus has moved to 
 {% endfigure %}
 {% endcolumn %}
 </div>
+</section>
 
+<section class="static-section"  markdown="1">
 <div class="hxRow"  markdown="1">
 {% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
 
@@ -217,3 +232,4 @@ There are many tools that can help you with accessibility. Check them out to lea
 
 {% endcolumn %}
 </div>
+</section>

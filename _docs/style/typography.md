@@ -32,11 +32,11 @@ helix-ui-javascript: false
 
 ## Header styles
 
-### Page title
-
+<section class="static-section"  markdown="1">
 <div class="hxRow" markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
+### Page title
 Page titles are the highest level of hierarchy. There should only ever be one on any page.
 
 {% endcolumn %}
@@ -45,12 +45,13 @@ Page titles are the highest level of hierarchy. There should only ever be one on
 {% include type-styles.html htmlexample='<h1 class="hxPageTitle">Page Title</h1>' typeface="Roboto" weight="Thin (100)" fontsize="48px / 3.0rem" csscode="Gray 900" hex="#424242" linespace="1" bottomspace="32px / 2rem" %}
 {% endcolumn %}
 </div>
+</section>
 
-### Section title
-
+<section class="static-section"  markdown="1">
 <div class="hxRow" markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
+### Section title
 Use section titles for titles of page sections. For example, if your page title is **Billing**, and the page has **Overview**, **Trends**, and **Payment methods** section headings, each section heading would use section titles.
 
 {% endcolumn %}
@@ -59,12 +60,13 @@ Use section titles for titles of page sections. For example, if your page title 
 {% include type-styles.html htmlexample='<h2 class="hxSectionTitle">Section title</h2>' typeface="Roboto" weight="Light (300)" fontsize="30px / 1.875rem" csscode="Gray 900" hex="#424242" linespace="1" bottomspace="28px / 1.75rem" %}
 {% endcolumn %}
 </div>
+</section>
 
-### Sub-section title
-
+<section class="static-section"  markdown="1">
 <div class="hxRow" markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
+### Sub-section title
 Sub-section titles are pretty versatile. Consider using them to title things like fieldsets, tables, Key-Value lists, and so on.
 
 {% endcolumn %}
@@ -73,12 +75,13 @@ Sub-section titles are pretty versatile. Consider using them to title things lik
 {% include type-styles.html htmlexample='<h3 class="hxSubSectionTitle">Sub-section title</h3>' typeface="Roboto" weight="Regular (400)" fontsize="24px / 1.5rem" csscode="Gray 900" hex="#424242" linespace="1" bottomspace="24px / 1.5rem" %}
 {% endcolumn %}
 </div>
+</section>
 
-### Container title
-
+<section class="static-section"  markdown="1">
 <div class="hxRow" markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
+### Container title
 Container titles are good for titling within elements like cards, modals, and so on.
 
 {% endcolumn %}
@@ -87,14 +90,16 @@ Container titles are good for titling within elements like cards, modals, and so
 {% include type-styles.html htmlexample='<h4 class="hxContainerTitle">Container title</h4>' typeface="Roboto" weight="Medium (500)" fontsize="16px / 1rem" csscode="Gray 900" hex="#424242" linespace="1" bottomspace="24px / 1.5rem" %}
 {% endcolumn %}
 </div>
+</section>
+
 
 ## Body styles
 
-### Body text
-
+<section class="static-section"  markdown="1">
 <div class="hxRow" markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
+### Body text
 Body text is the default style and should be used across the interface for most information.
 
 {% endcolumn %}
@@ -103,12 +108,13 @@ Body text is the default style and should be used across the interface for most 
 {% include type-styles.html htmlexample='<p>Body Text</p>' typeface="Roboto" weight="Regular (400)" fontsize="16px / 1rem" csscode="Gray 900" hex="#424242" bottomspace="24px / 1rem" linespace="1.5" %}
 {% endcolumn %}
 </div>
+</section>
 
-### Subdued style
-
+<section class="static-section"  markdown="1">
 <div class="hxRow" markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
+### Subdued style
 You can use the subdued style with any text 14px and taller, and is used to let more important text stand out. The subdued style is not the same as an inactive link or button.
 
 *Do not subdue text on backgrounds darker than Gray 25 (#fafafa) or it will not pass accessibility standards.*
@@ -120,12 +126,13 @@ You can use the subdued style with any text 14px and taller, and is used to let 
 {% endcolumn %}
 
 </div>
+</section>
 
-### Sub-body text
-
+<section class="static-section"  markdown="1">
 <div class="hxRow" markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
+### Sub-body text
 Use sub-body text sparingly, since it is the least readable size. You can use it when smaller text is appropriate, such as for icon labels.
 
 {% endcolumn %}
@@ -134,12 +141,13 @@ Use sub-body text sparingly, since it is the least readable size. You can use it
 {% include type-styles.html htmlexample='<p class="hxSubBody">Sub-Body Text</p>' typeface="Roboto" weight="Regular (400)" fontsize="12px / 0.75rem" csscode="Gray 900" hex="#424242" linespace="1.5" %}
 {% endcolumn %}
 </div>
+</section>
 
-### Caption
-
+<section class="static-section"  markdown="1">
 <div class="hxRow" markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
+### Caption
 Captions apply to images and visualizations. They should be used to clarify images and not introduce new, pertinent information.
 
 {% endcolumn %}
@@ -148,12 +156,13 @@ Captions apply to images and visualizations. They should be used to clarify imag
 {% include type-styles.html htmlexample='<p class="hxCaption">Caption</p>' typeface="Roboto" weight="Light (300)" fontsize="14px / 0.875rem" csscode="Gray 800" hex="#616161" linespace="1.5" %}
 {% endcolumn %}
 </div>
+</section>
 
-### Link
-
+<section class="static-section"  markdown="1">
 <div class="hxRow" markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
+### Link
 Links support styles for hover, active, and disabled states, and inherit size and spacing styles from the text to which they are applied. Helix does not support the visited state.
 
 {% endcolumn %}
@@ -162,12 +171,13 @@ Links support styles for hover, active, and disabled states, and inherit size an
 {% include type-styles.html htmlexample='<a href="javascript:void(0);">Default</a><br><a class="hover" href="javascript:void(0);">Hover / Pressed</a><br><a class="disabled" disabled="disabled" href="javascript:void(0);">Disabled</a>' typeface="Roboto" default="Blue 700, #0d74d1" hover="Blue 500, #3391ff" disabled="Gray 800, #616161" %}
 {% endcolumn %}
 </div>
+</section>
 
-### Label
-
+<section class="static-section"  markdown="1">
 <div class="hxRow" markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
+### Label
 Use this style for form input labels and as titles for radio groups or sets of checkboxes. Note that checkbox and radio button labels intentionally do not match this style.
 
 *Do not use labels on backgrounds darker than Gray 25 (#fafafa) or it will not pass accessibility standards.*
@@ -178,7 +188,9 @@ Use this style for form input labels and as titles for radio groups or sets of c
 {% include type-styles.html htmlexample='<label class="hxLabel">Label</label>' typeface="Roboto" weight="Medium (500)" fontsize="14px / 0.875rem" csscode="Gray 750" hex="#6b6b6b" linespace="1.5"  %}
 {% endcolumn %}
 </div>
+</section>
 
+<section class="static-section"  markdown="1">
 
 ## Readability
 
