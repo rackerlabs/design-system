@@ -24,7 +24,7 @@ helix-ui-javascript: false
 
 ### Page title
 
-Page titles are the highest level of hierarchy. There should only ever be one on any page.
+Page titles are the highest level of hierarchy. Only use **one** page title per page.
 
 {% endcolumn %}
 
@@ -56,10 +56,10 @@ Use section titles for titles of page sections. For example, if your page title 
 
 ### Container title
 
-Container Titles are versatile and can be used to title content that exists inside a distinct visual container. For example:
+Use container titles to identify content that exists inside a distinct visual container. For example, use a container title in the following contexts:
 
 - Title for tab content
-- Cards, [modals]({{site.baseurl}}/components/modal.html), or [fieldsets]({{site.baseurl}}/components/text-fields.html)
+- Cards, [modals]({{site.baseurl}}/components/modal.html), or [sets of text fields]({{site.baseurl}}/components/text-fields.html)
 - Sidebars and other distinct containers
 
 {% endcolumn %}
@@ -76,15 +76,15 @@ Container Titles are versatile and can be used to title content that exists insi
 
 ### Container sub-title
 
-Container Sub-Title is a flexible style, and can be used for grouping information that exists in a titled container. For example use this typography style for the following:
+The container sub-title is a flexible style used for grouping information within a titled container. For example, use this typography style for the following contexts:
 
-- The labeling of sub-sections within tab content.  
-- Labeling other tertiary content within a page, such as a small [popover]({{site.baseurl}}/components/popovers.html).
+- The labeling of sub-sections within tab content
+- Labeling other tertiary content within a page, such as a small [popover]({{site.baseurl}}/components/popovers.html)
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% figure [The checkbox component] [class:"image bg-light border"] %}
+{% figure [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/style/typography/type-container-sub.png){:width="635px"}
 {% endfigure %}
 {% endcolumn %}
@@ -95,11 +95,11 @@ Container Sub-Title is a flexible style, and can be used for grouping informatio
 
 ### Context title
 
-Use this typgraphic element to provide additional contextual labeling. For example use this typography style for the following:   
+Use this typographic element to provide additional contextual labeling. For example, use this typography style for the following:   
 
-- Adding a contextual title of “Cloud Server” above the server name on a device detail page.
-- Adding clarity to a report by adding a “Report Date” context title above the date field.
-- Labeling a price point with a plan name on an ordering form.
+- Adding a contextual title of “Cloud Server” above the server name on a device detail page
+- Adding clarity to a report by adding a “Report Date” context title above the date field
+- Labeling a price point with a plan name on an ordering form
 
 Parameters for use:
 
@@ -108,7 +108,7 @@ Parameters for use:
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% figure [The checkbox component] [class:"image bg-light border"] %}
+{% figure [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/style/typography/type-context-title.png){:width="635px"}
 {% endfigure %}
 {% endcolumn %}
@@ -121,14 +121,14 @@ Parameters for use:
 
 ### Body text
 
-Body text is the default style and should be used across the interface for most information.
+Body text is the default style. Use this style across the interface for most information.
 
-Paragraphs inherit body text style by default, and have 20px of bottom spacing.
+Paragraphs inherit body text style by default and have 20px bottom margin.
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% figure [The checkbox component] [class:"image bg-light border"] %}
+{% figure [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/style/typography/type-body.png){:width="635px"}
 {% endfigure %}
 {% endcolumn %}
@@ -139,7 +139,7 @@ Paragraphs inherit body text style by default, and have 20px of bottom spacing.
 
 ### Link
 
-Links support styles for hover, active, and disabled states, and inherit size and spacing styles from the text to which they are applied. Helix does not support the visited state.
+Links support styles for hover, active, and disabled states and inherit size and spacing styles from the text to which they are applied. Helix does not support the visited state.
 
 {% endcolumn %}
 
@@ -155,7 +155,7 @@ Links support styles for hover, active, and disabled states, and inherit size an
 
 ### Caption
 
-Captions apply to images and visualizations. They should be used to clarify images and not introduce new, pertinent information.
+Use the caption style to clarify images, and do **not** introduce new, pertinent information with a caption.
 
 {% endcolumn %}
 
@@ -171,7 +171,7 @@ Captions apply to images and visualizations. They should be used to clarify imag
 
 ### Sub-body text
 
-Use sub-body text sparingly, since it is the least readable size. For example use this typography style for the following:
+Use sub-body text sparingly since it is the least readable size. For example, use this typography style for the following contexts:
 
 - Labeling iconography
 - Labeling the legend on visualizations
@@ -191,17 +191,14 @@ Use sub-body text sparingly, since it is the least readable size. For example us
 
 ### Subdued style
 
-Use the subdued style to allow more important information stand out. For example:
+Use the subdued style to allow more important information to stand out. For example, use the subdued style for keys in a key-value list to provide more visual prominence to the value or for non-critical information in lists, such as abbreviated dates or as a second line of text in a cell. 
 
-- Use the subdued style for keys in key-value lists to provide more visual prominenance to the value.
-- Use this style for non-critical information in lists, such as abbreviated dates, or as a second line of text in a cell
+Note the following parameters for the use of subdued text:
 
-Parameters for use: 
-
-- This style only applies Gray 750 color to the selected text, and does not affect font size or weight
-- This is not the same as inactive style for links or buttons
-- Use this style with text 14px or taller 
-- Do not subdue text on backgrounds darker than Gray 25 (#fafafa) or it will not pass accessibiity standards
+- This style only applies `gray750` color to the selected text and does not affect font size or weight.
+- This style is not the same as inactive style for links or buttons.
+- Use this style with text 14px or taller.
+- Do **not** subdue text on backgrounds darker than `gray25` (`#fafafa`), or the text will not pass accessibility standards.
 
 {% endcolumn %}
 
@@ -220,11 +217,9 @@ Parameters for use:
 
 ### Ordered lists
 
-Ordered lists are usually reserved for instances in which the items must occur in a specific order, such as steps in a procedure, or when keeping count is important, such as a top 10 list.
+Reserve ordered lists for instances in which the items must occur in a specific order, such as steps in a procedure, or when keeping count is important, such as a top 10 list.
 
 If the order or the final count of the list items does not matter, don’t number them. Doing so creates confusion.
-
-For more information on when and how to use lists, check out the [Nielsen Norman Group’s article](https://www.nngroup.com/articles/presenting-bulleted-lists/) on this topic.
 
 {% endcolumn %}
 
