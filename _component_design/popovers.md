@@ -55,11 +55,11 @@ You can use popovers for short create or edit workflows and are particularly use
 
 <section class="static-section" markdown="1">
 
+## Default layout
+
 <div class="hxRow"  markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-
-## Default layout
 
 The most defining aspects of a popover are the container and the pointer. The container appears on top of the canvas. The pointer points to the popover trigger. Pointers can be used on either side of the four corners.
 
@@ -82,11 +82,11 @@ The most defining aspects of a popover are the container and the pointer. The co
 
 <section class="static-section" markdown="1">
 
+## Pattern specifications
+
 <div class="hxRow"  markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-
-## Pattern specifications
 
 ### Popover Spacing
 
@@ -163,11 +163,11 @@ The pointer is 16px wide at the base. The apex is 8 px from the side of the rect
 
 <section class="static-section" markdown="1">
 
+## Types of popovers
+
 <div class="hxRow"  markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-
-## Types of popovers
 
 ### Small create or edit popover
 

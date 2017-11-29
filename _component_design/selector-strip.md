@@ -62,11 +62,11 @@ The selector strip component functions best when:
 
 <section class="static-section" markdown="1">
 
+## Default layout
+
 <div class="hxRow"  markdown="1">
 
 {% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-
-## Default layout
 
 The default layout has two main styles: single-select and multi-select. In both layouts, the unselected options have a white background with cyan text, and selected options have a cyan background with white text.
 
@@ -126,11 +126,11 @@ Multi-select selector strips have more squared edges and function like checkboxe
 
 <section class="static-section" markdown="1">
 
+## States
+
 <div class="hxRow"  markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-
-## States
 
 ### Pressed state
 

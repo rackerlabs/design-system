@@ -127,11 +127,11 @@ Use the following column widths for the small, medium, and large choice tiles. B
 
 <section class="static-section" markdown="1">
 
+## Visual specifications
+
 <div class="hxRow" markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-
-## Visual specifications
 
 - Small size choice tiles **cannot** have a description due to the smaller dimensions.
 - An optional description may be added medium and large size choice tiles. Its inclusion is recommended to inform more complex selections.
@@ -180,11 +180,11 @@ For selected states, the iconography changes color to match the given state. In 
 
 <section class="static-section" markdown="1">
 
+## Interactions
+
 <div class="hxRow" markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-
-## Interactions
 
 ### Single-select interaction
 
@@ -236,11 +236,11 @@ For selected states, the iconography changes color to match the given state. In 
 
 <section class="static-section" markdown="1">
 
+## Handling errors
+
 <div class="hxRow" markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-
-## Handling errors
 
 ### Single-select error
 

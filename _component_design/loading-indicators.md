@@ -17,7 +17,7 @@ last-modified: 2017-10-24
 
 ## Introduction
 
-<div class="hxRow"  markdown="1">
+<div class="hxRow" markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
@@ -59,11 +59,11 @@ Use loading indicators when you need to provide further visual feedback, such as
 
 <section class="static-section" markdown="1">
 
+## Types of indicators
+
 <div class="hxRow" markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-
-## Types of indicators
 
 Loading indicators can be displayed in the following ways:
 
@@ -97,9 +97,9 @@ A variety of spinner icon sizes are available.
 
 {% endcolumn %}
 
-</section>
+</div>
 
-<section class="static-section" markdown="1">
+<div class="hxRow" markdown="1">
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
@@ -109,9 +109,13 @@ A variety of spinner icon sizes are available.
 
 {% endcolumn %}
 
+</div>
+
 </section>
 
 <section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
@@ -129,9 +133,13 @@ When text is contained inside a spinner icon, the spinner matches the size of th
 
 {% endcolumn %}
 
+</div>
+
 </section>
 
 <section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
@@ -163,11 +171,11 @@ In certain instances, such as key-value pairs or other list style patterns, you 
 
 <section class="static-section" markdown="1">
 
+## Animation
+
 <div class="hxRow"  markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-
-## Animation
 
 Animation can be used in loading indicators to visually indicate that back-end systems are performing load operations. The following are best practice for animating spinner icons:
 
@@ -199,11 +207,11 @@ Animation can be used in loading indicators to visually indicate that back-end s
 
 <section class="static-section" markdown="1">
 
+## Layout
+
 <div class="hxRow"  markdown="1">
 
 {% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-
-## Layout
 
 We recommend centering the loading indicators within the component. The following are examples of loading indicators inside various components of the UI:
 
