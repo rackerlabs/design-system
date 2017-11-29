@@ -66,17 +66,17 @@ last-modified: 2017-11-04
 
 <section class="static-section" markdown="1">
 
+## Specifications
+
 <div class="hxRow" markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-
-## Specifications
 
 ### Composition
 
 A radio button group consists of a section label, followed by pairs of radio buttons and radio button labels.
 
-#### Labeling:
+#### Labeling
 
 - Labels should start with a capital letter.
 - Labels should not have punctuation at the end, such as a period, unless more than one sentence is used.
@@ -119,11 +119,11 @@ A title should always be located above the radio buttons. More context can be pr
 
 <section class="static-section" markdown="1">
 
+## States
+
 <div class="hxRow" markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-
-## States
 
 ### Overview
 

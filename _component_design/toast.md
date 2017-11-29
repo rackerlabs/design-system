@@ -63,11 +63,11 @@ last-modified: 2017-11-05
 
 <section class="static-section" markdown="1">
 
+## Specifications
+
 <div class="hxRow" markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-
-## Specifications
 
 ### Default layout
 
@@ -95,11 +95,11 @@ Icons are always centered vertically.
 
 <section class="static-section" markdown="1">
 
+## Variations
+
 <div class="hxRow" markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-
-## Variations
 
 ### Without a CTA
 
@@ -147,11 +147,11 @@ In the informational toast notification example here, the height of the toast in
 
 <section class="static-section" markdown="1">
 
+## Behaviors
+
 <div class="hxRow" markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-
-## Behaviors
 
 ### Placement, animations, and stacking
 

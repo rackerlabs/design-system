@@ -48,11 +48,11 @@ When an app supports large amounts of information, users can quickly locate cont
 
 <section class="static-section" markdown="1">
 
+## Specifications
+
 <div class="hxRow" markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-
-## Specifications
 
 ### Basic search bar
 

@@ -14,13 +14,13 @@ last-modified: 2017-09-21
 
 {% include toc.html %}
 
+## When to use
+
 <section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-
-## When to use
 
 Use drop-downs for selecting a single option from a known list of options. Selecting one region on the Cloud Server create form is one example.
 
@@ -44,13 +44,13 @@ Use drop-downs for selecting a single option from a known list of options. Selec
 
 </section>
 
+## Specifications
+
 <section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-
-## Specifications
 
 ### Default layout
 
