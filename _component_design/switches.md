@@ -50,11 +50,11 @@ Use a switch if the user is turning something on or off, or saying yes or no to 
 
 <section class="static-section" markdown="1">
 
+## Default layout
+
 <div class="hxRow"  markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-
-## Default layout
 
 The default switch does not contain text.
 
@@ -76,11 +76,11 @@ If text is used, it should be aligned vertically and horizontally within the spa
 
 <section class="static-section" markdown="1">
 
+## States
+
 <div class="hxRow"  markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-
-## States
 
 Enabled (default), hover, disabled, and error states. If you are not using any text, be sure to change the length to 56px.
 
@@ -104,11 +104,11 @@ Best practice form design does not allow a switch to exist in an error state, so
 
 <section class="static-section" markdown="1">
 
+## Context
+
 <div class="hxRow"  markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-
-## Context
 
 - Use the switch 12px to the left of the prompt and centered horizontally.
 - When using more than one switch in a form, align the switches vertically to the right. Ensure they are at least 12px from the end of the prompt.

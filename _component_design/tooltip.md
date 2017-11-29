@@ -53,11 +53,11 @@ Do not use a tooltip if users must repeatedly refer to a tooltip to understand a
 
 <section class="static-section" markdown="1">
 
+## Default composition
+
 <div class="hxRow"  markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-
-## Default composition
 
 Tooltips are composed of two primary elements, the tooltip container and the trigger:
 
@@ -82,11 +82,11 @@ The tooltip stands out from the background by using a lighter background color t
 
 <section class="static-section" markdown="1">
 
+## Tooltip specifications
+
 <div class="hxRow"  markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-
-## Tooltip specifications
 
 ### Spacing
 
@@ -148,7 +148,7 @@ Tooltips have varying widths based on the amount of content; however, a tooltip 
 - The pointer should start 12px from the corner.
 - The side from which the pointer extends depends on the location of the trigger on the screen.
 
-#### Pointer placement:
+#### Pointer placement
 
 Best practice pointer placement relies on the following:
 
@@ -173,11 +173,11 @@ Best practice pointer placement relies on the following:
 
 <section class="static-section" markdown="1">
 
+## Triggers
+
 <div class="hxRow"  markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-
-## Triggers
 
 Tooltips will only appear after be activated by a trigger. Triggers come in a variety of types.
 
@@ -204,11 +204,11 @@ Tooltips will only appear after be activated by a trigger. Triggers come in a va
 
 <section class="static-section" markdown="1">
 
+## Text conventions
+
 <div class="hxRow"  markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-
-## Text conventions
 
 - To keep the tooltip text concise, you should use short sentences and sentence fragments.
 - Try to keep your tooltips under three lines of text including a link if you need one.
@@ -229,11 +229,11 @@ Tooltips will only appear after be activated by a trigger. Triggers come in a va
 
 <section class="static-section" markdown="1">
 
+## Tooltip variations
+
 <div class="hxRow"  markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-
-## Tooltip variations
 
 ### Help text with a link
 
@@ -289,7 +289,7 @@ Occasionally a tooltip needs to display a robust set of data that falls outside 
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-## Loading state
+### Loading state
 
 Loading states are rarely found when using the tooltip pattern. The loading state is applied exclusively when using data visualizations.
 
@@ -309,11 +309,11 @@ Loading states are rarely found when using the tooltip pattern. The loading stat
 
 <section class="static-section" markdown="1">
 
+## Interaction behaviors
+
 <div class="hxRow"  markdown="1">
 
 {% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-
-## Interaction behaviors
 
 Tooltips can be activated via either a hover or a click on the trigger element.
 

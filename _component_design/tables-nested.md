@@ -63,11 +63,11 @@ Nested tables allow the nesting of additional levels of data within a table.
 
 <section class="static-section" markdown="1">
 
+## Variations
+
 <div class="hxRow"  markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-
-## Variations
 
 ### Explanatory text variation
 

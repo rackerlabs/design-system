@@ -51,11 +51,11 @@ Tables are the bread-and-butter component for displaying complex objects in a ne
 
 <section class="static-section" markdown="1">
 
+## Default layout
+
 <div class="hxRow" markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-
-## Default layout
 
 - Include the check box icon if a user needs to select or manipulate data within a table. This check box icon will always be the first element in a table row, see [table controls]({{site.baseurl}}/components/tables-controls.html).
 - Include the action cog menu if the objects in each row have two or more available actions.
@@ -82,11 +82,11 @@ Tables are the bread-and-butter component for displaying complex objects in a ne
 
 <section class="static-section" markdown="1">
 
+## Condensed table
+
 <div class="hxRow" markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-
-## Condensed table
 
 The use of a condensed table provides for views that display either many or few results.
 
@@ -122,11 +122,11 @@ If presenting a small amount of information, a condensed table format allows for
 
 <section class="static-section" markdown="1">
 
+## Table states
+
 <div class="hxRow" markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-
-## Table states
 
 ### Loading
 
@@ -191,11 +191,11 @@ When using the check box icon within a table, each row supports the following st
 
 <section class="static-section" markdown="1">
 
+## Variations
+
 <div class="hxRow" markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-
-## Variations
 
 ### Dual line text table
 

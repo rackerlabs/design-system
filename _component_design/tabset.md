@@ -23,12 +23,12 @@ helix-ui-javascript: true
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-### Problems Solved
+### Problems solved
 
 - Tabsets eliminate the need to scroll through long pages to find the right section. With tabs, it's easy to see what sections are available.
 - Tabsets eliminate the need to stack sections.
 
-### Best Practices
+### Best practices
 
 - There must be only one active tab per page.
 - The default view must always display the left-most tab.
@@ -55,11 +55,11 @@ helix-ui-javascript: true
 
 <section class="static-section" markdown="1">
 
+## Specifications
+
 <div class="hxRow"  markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-
-## Design Specs
 
 ### Tab menu
 
@@ -105,11 +105,11 @@ Pad the top and bottom of the content area by 24px. Pad the sides of the content
 
 <section class="static-section" markdown="1">
 
+## States
+
 <div class="hxRow"  markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-
-## States
 
 ### Hover state
 

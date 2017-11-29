@@ -49,7 +49,7 @@ last-modified: 2017-10-24
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-## Footer specifications
+### Footer specifications
 
 - The footer must span the width of the page.
 - All footer content starts after the gutter at 20px.

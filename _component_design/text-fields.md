@@ -48,11 +48,11 @@ helix-ui-javascript: false
 
 <section class="static-section" markdown="1">
 
+## Specifications
+
 <div class="hxRow"  markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-
-## Text inputs
 
 ### Basic layout
 
@@ -179,11 +179,11 @@ helix-ui-javascript: false
 
 <section class="static-section" markdown="1">
 
+## States overview
+
 <div class="hxRow"  markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-
-## States overview
 
 Validation for individual inputs should occur when the user shifts focus to another element (`onBlur`), and the entire form should go through a validation check on submit.
 
@@ -290,11 +290,11 @@ Validation for individual inputs should occur when the user shifts focus to anot
 
 <section class="static-section" markdown="1">
 
+## Input types
+
 <div class="hxRow"  markdown="1">
 
 {% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-
-## Input types
 
 Text fields can be formatted to indicate the types of data a field accepts by using placeholder text, a preset layout, and character limits. Text formatting should be displayed only when the field is focused or filled.
 
@@ -360,11 +360,11 @@ Password input is disguised by default. Midline ellipses are displayed to repres
 
 <section class="static-section" markdown="1">
 
+## Text Areas
+
 <div class="hxRow"  markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-
-## Text Areas
 
 ### Basic layout
 
