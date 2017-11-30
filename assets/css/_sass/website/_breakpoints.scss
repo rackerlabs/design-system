@@ -26,19 +26,19 @@ $hecto-width: 1025px;
 $kilo-width: 1281px;
 
 @mixin phone {
-  @media (min-width: #{$milli-width}) and (max-width: #{$tablet-screen - 1px}) {
+  @media (max-width: #{$deci-width}) {
     @content;
   }
 }
 
 @mixin tablet {
-  @media (min-width: #{$tablet-screen}) and (max-width: #{$desktop-screen - 1px}) {
+  @media (min-width: #{$deci-width + 1px}) and (max-width: #{$deca-width}) {
     @content;
   }
 }
 
 @mixin desktop {
-  @media (min-width: #{$desktop-screen}) {
+  @media (min-width: #{$deca-width}) {
     @content;
   }
 }

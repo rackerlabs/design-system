@@ -17,6 +17,20 @@ body {
 }
 
 nav.side {
+  @include phone {
+    min-height: 100vh;
+    max-height: $mobile-screen;
+    width: 12rem !important;
+  }
+  @include tablet {
+    min-height: 100vh;
+    max-height: $tablet-screen;
+    width: 12rem !important;
+  }
+  @include desktop {
+    min-height: $tablet-screen;
+    max-height: 100vh;
+  }
   padding-bottom: 2rem;
   position: fixed;
   height: 100%;

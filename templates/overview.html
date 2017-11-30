@@ -24,9 +24,13 @@
     <div class="hxApp__container overview-wrapper">
       {%- include nav.html -%}
       <main class="hxApp__content overview-content">
-        <div class="main-logo"><img src="assets/images/Helix_Logo_Homepage.svg" class="main-logo"></div>
-        <div class="overview-header display-font">{{ page.title }}</div>
-        {{ content }}
+        <div class="overview-top">
+          <div class="main-logo"><img src="assets/images/Helix_Logo_Homepage.svg" class="main-logo"></div>
+          <div class="overview-header display-font">{{ page.title }}</div>
+        </div>
+        <div class="overview-main">
+          {{ content }}
+        </div>
         {%- include overview-footer.html -%}
       </main>
     </div>

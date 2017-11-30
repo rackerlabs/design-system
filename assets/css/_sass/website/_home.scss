@@ -1,21 +1,13 @@
 // reference for queries: https://davidwalsh.name/write-media-queries-sass
 
 .overview-footer {
-  @include phone {
-    max-width: $tablet-screen;
-  }
-  @include tablet {
-    max-width: $tablet-screen;
-  }
-  @include desktop {
-    min-width: $tablet-screen;
-  }
   background-color: $grey900;
   text-align: center;
   display: flex;
+  order: 9999;
+  width: 100%;
   .footer-content {
     box-sizing: border-box;
-    width: calc(100vw - 76em);
     text-align: center;
     margin: 0px auto;
     padding: 0px 10px;
@@ -69,22 +61,21 @@
 
 .overview-content {
   @include phone {
-    max-width: $mobile-screen;
+    margin-left: 12rem;
   }
   @include tablet {
-    max-width: $tablet-screen;
+    margin-left: 12rem;
   }
   @include desktop {
-    min-width: $tablet-screen;
+    margin-left: 15rem;
   }
   box-sizing: border-box;
   text-align: center;
   overflowY: scroll;
-  margin-left: 15rem;
   padding: 0px 0px !important;
-  height: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   p {
     font-size: $base-font-size !important;
     font-weight: $light-weight;
@@ -181,5 +172,35 @@
   #right {
     float: right;
     margin-left: 0.625rem;
+  }
+  .overview-top {
+    @include phone {
+      width: calc(100% - 1rem);
+      margin: auto;
+    }
+    @include tablet {
+      width: calc(100% - 2rem);
+      margin: auto;
+    }
+    @include desktop {
+      width: calc(100% - 4rem);
+      margin: auto;
+    }
+    order: 1;
+  }
+  .overview-main {
+    @include phone {
+      width: calc(100% - 1rem);
+      margin: auto;
+    }
+    @include tablet {
+      width: calc(100% - 2rem);
+      margin: auto;
+    }
+    @include desktop {
+      width: calc(100% - 4rem);
+      margin: auto;
+    }
+    order: 2;
   }
 }
