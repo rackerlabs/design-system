@@ -46,7 +46,7 @@ last-modified: 2017-11-03
 - Links inside an actions menu must always initiate an action related to the current page and must never be used simply for navigation. Actions can include the following types: 
 
 	- Immediate actions on the current page
-	- Actions in [modals]({{site.baseurl}}/components/modals.html)
+	- Actions in [modals]({{site.baseurl}}/components/modal.html)
 	- Actions on a different page
 	- The start of a related workflow
 
@@ -77,7 +77,7 @@ The most common uses of the actions menu are buttons labeled actions, split butt
 
 Add a title in the action menus if it adds clarity. If there are more than seven actions in the list, the title is required.
 
-Buttons used to trigger an actions menu adhere to the [buttons]({{site.baseurl}}/componenets/buttons.html) design. When clicked, a [popover]({{site.baseurl}}/components/popover.html) menu appears above the canvas.
+Buttons used to trigger an actions menu adhere to the [buttons]({{site.baseurl}}/components/buttons.html) design. When clicked, a [popover]({{site.baseurl}}/components/popovers.html) menu appears above the canvas.
 
 The menu should span the length of the button. If an action name is longer than the length of the button, the menu can extend beyond the right side of the button. Add 12px of padding between the end of the action name and the edge of the flyout. If an action name is too long, consider truncating the name and showing the full name on hover.
 

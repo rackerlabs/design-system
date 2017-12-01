@@ -23,6 +23,9 @@ nav.side {
     left: 0;
     bottom: 0;
     overflow-y: auto;
+    a {
+      font-weight: 400;
+    }
     .logo {
         display: block;
         position: relative;
@@ -92,6 +95,10 @@ nav.side {
 
 .docs-content {
   margin: $paddingXL 0;
+}
+
+.static-section {
+  margin: 2rem 0;
 }
 
 a.anchor {

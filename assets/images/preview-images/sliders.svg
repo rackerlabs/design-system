@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="293px" height="195px" viewBox="0 0 293 195" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>sliders</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="105" y="78" width="27" height="7" rx="3.5"></rect>
+        <rect id="path-2" x="116" y="90" width="16" height="7" rx="3.5"></rect>
+        <rect id="path-3" x="91" y="102" width="41" height="7" rx="3.5"></rect>
+    </defs>
+    <g id="thumbnails" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-1566.000000, -323.000000)">
+            <g id="sliders" transform="translate(1566.000000, 323.000000)">
+                <g id="Group-5">
+                    <g id="drop-downs-copy">
+                        <g id="Group-4">
+                            <g id="Group-3">
+                                <g id="Group-2">
+                                    <g id="tabs">
+                                        <g id="application-frame">
+                                            <rect id="Rectangle" fill="#B6E3EB" fill-rule="evenodd" x="0" y="0" width="293" height="195"></rect>
+                                            <rect id="Rectangle-Copy" fill="#16B9D4" fill-rule="evenodd" x="0" y="0" width="48.8333333" height="195"></rect>
+                                            <rect id="Rectangle-Copy-2" fill="#0E94A6" fill-rule="evenodd" x="0" y="0" width="293" height="14.625"></rect>
+                                            <g id="overlay-/-hidden"></g>
+                                        </g>
+                                        <g id="box-/-content" transform="translate(63.483333, 43.875000)" fill="#FFFFFF">
+                                            <rect id="Rectangle" x="0" y="0" width="215" height="151"></rect>
+                                        </g>
+                                    </g>
+                                    <rect id="Rectangle-2" fill="#D8D8D8" x="75" y="53" width="92" height="14"></rect>
+                                </g>
+                            </g>
+                            <rect id="Rectangle-3-Copy-8" fill="#F57C00" x="78" y="78" width="54" height="7" rx="3.5"></rect>
+                            <rect id="Rectangle-3-Copy-9" fill="#F57C00" x="78" y="90" width="54" height="7" rx="3.5"></rect>
+                            <rect id="Rectangle-3-Copy-11" fill="#F57C00" x="78" y="102" width="54" height="7" rx="3.5"></rect>
+                            <g id="Rectangle-3-Copy-8">
+                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                                <rect stroke="#F57C00" stroke-width="1" x="105.5" y="78.5" width="26" height="6" rx="3"></rect>
+                            </g>
+                            <g id="Rectangle-3-Copy-10">
+                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                                <rect stroke="#F57C00" stroke-width="1" x="116.5" y="90.5" width="15" height="6" rx="3"></rect>
+                            </g>
+                            <g id="Rectangle-3-Copy-12">
+                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                                <rect stroke="#F57C00" stroke-width="1" x="91.5" y="102.5" width="40" height="6" rx="3"></rect>
+                            </g>
+                            <circle id="Oval" stroke="#F57C00" stroke-width="0.6" fill="#FFFFFF" transform="translate(107.560550, 81.560550) rotate(-1.000000) translate(-107.560550, -81.560550) " cx="107.56055" cy="81.5605504" r="3.5"></circle>
+                            <circle id="Oval-Copy" stroke="#F57C00" stroke-width="0.6" fill="#FFFFFF" transform="translate(119.560550, 93.560550) rotate(-1.000000) translate(-119.560550, -93.560550) " cx="119.56055" cy="93.5605504" r="3.5"></circle>
+                            <circle id="Oval-Copy-2" stroke="#F57C00" stroke-width="0.6" fill="#FFFFFF" transform="translate(94.560550, 105.560550) rotate(-1.000000) translate(-94.560550, -105.560550) " cx="94.5605504" cy="105.56055" r="3.5"></circle>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

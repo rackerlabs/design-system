@@ -9,6 +9,7 @@ resource: true
 
 {% include toc.html %}
 
+<section class="static-section"  markdown="1">
 ### Date
 
 <div class="hxRow">
@@ -30,8 +31,9 @@ Always use human-readable, international-friendly formatting when displaying dat
 
 {% endcolumn %}
 </div>
+</section>
 
-<hr>
+<section class="static-section"  markdown="1">
 
 ### Time
 
@@ -65,8 +67,10 @@ Always use human-readable, international-friendly formatting when displaying dat
 
 {% endcolumn %}
 </div>
+</section>
 
-<hr>
+
+<section class="static-section">
 
 <div class="hxRow" markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
@@ -88,8 +92,10 @@ Always use human-readable, international-friendly formatting when displaying dat
 
 {% endcolumn %}
 </div>
+</section>
 
-<hr>
+
+<section class="static-section"  markdown="1">
 
 ### Timeago
 
