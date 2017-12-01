@@ -1,7 +1,39 @@
 // reference for queries: https://davidwalsh.name/write-media-queries-sass
 
+nav.side {
+  @include phone {
+    max-height: $mobile-screen;
+    width: 100% !important;
+    order: 3;
+    text-align: left;
+  }
+  @include tablet {
+    max-height: $tablet-screen;
+    width: 100% !important;
+    order: 3;
+    text-align: left;
+  }
+  @include desktop {
+    min-height: $tablet-screen;
+    max-height: 100vh;
+    position: fixed;
+    page-break-after: always;
+    break-after: always;
+    order: 1;
+    text-align: left;
+  }
+}
+
 .overview-footer {
-  background-color: $grey900;
+  @include phone {
+    background-color: $grey975;
+  }
+  @include tablet {
+    background-color: $grey975;
+  }
+  @include desktop {
+    background-color: $grey900;
+  }
   text-align: center;
   display: flex;
   order: 9999;
@@ -41,13 +73,28 @@
     }
   };
 }
+
 .overview-wrapper {
-  // display: flex;
+  @include phone {
+    display: flex;
+    flex-direction: column wrap;
+    @include background-size(contain);
+  }
+  @include tablet {
+    display: flex;
+    flex-direction: column wrap;
+    @include background-size(contain);
+  }
+  @include desktop {
+    display: flex;
+    flex-direction: column wrap;
+    @include background-size(cover);
+  }
   background-image: url(../images/Helix_Homepage_Pattern.svg);
   background-color: $grey25;
   background-repeat: no-repeat;
-  @include background-size(cover);
 }
+
 .overview-header {
   margin: 28px auto 12px auto;
   text-align: center;
@@ -60,14 +107,9 @@
 }
 
 .overview-content {
-  @include phone {
-    margin-left: 12rem;
-  }
-  @include tablet {
-    margin-left: 12rem;
-  }
   @include desktop {
     margin-left: 15rem;
+    order: 2;
   }
   box-sizing: border-box;
   text-align: center;
