@@ -11,21 +11,22 @@ last-modified: 2017-10-24
 
 
 
-<section>
+<section class="static-section" markdown="1">
 <div class="hxRow" markdown="1">
 
 {% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
 ### Prerequisites
 
-To create mockups using the Helix design language, you will need Sketch. [Download Sketch here](http://www.sketchapp.com). You can learn more about Sketch by watching the following [playlist](https://www.youtube.com/watch?v=cEplnCnZuDM&list=PLWlUJU11tp4fEXI8deWhBQAHDv9R23WHB).
+- To create mockups using the Helix design language, you will need Sketch. [Download Sketch here](http://www.sketchapp.com).
+- You can learn more about Sketch by watching the following [playlist](https://www.youtube.com/watch?v=cEplnCnZuDM&list=PLWlUJU11tp4fEXI8deWhBQAHDv9R23WHB).
 
 {% endcolumn %}
 
 </div>
 </section>
 
-<section>
+<section class="static-section" markdown="1">
 <div class="hxRow" markdown="1">
 
 {% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
@@ -43,7 +44,7 @@ Use the following resources to communicate with the Helix designers and be infor
 </div>
 </section>
 
-<section>
+<section class="static-section" markdown="1">
 <div class="hxRow" markdown="1">
 
 {% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
@@ -61,7 +62,7 @@ Familiarize yourself with the concepts that define the Helix language. Through t
 </div>
 </section>
 
-<section>
+<section class="static-section" markdown="1">
 <div class="hxRow" markdown="1">
 
 {% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
@@ -70,7 +71,7 @@ Familiarize yourself with the concepts that define the Helix language. Through t
 
 The best way to bring Helix components into your designs is with the Helix Sketch Sticker Sheet. You can copy and paste elements from this sticker sheet into your own Sketch documents to use in your designs.
 
-<a class="hxBtn" id="link" href="#" disabled>Sticker sheet coming soon</a>
+<a class="hxBtn hxBtn--primary" id="link" href="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/sketch/helix_stickersheet_v0.1.sketch">Download Sticker Sheet</a>
 
 {% endcolumn %}
 

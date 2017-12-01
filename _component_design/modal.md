@@ -72,7 +72,7 @@ Center modals vertically and horizontally in the browser window.
 ### Loading
 Use a simple loading spinner when loading data in a popover. Center the loading spinner horizontally and vertically within the popover component.
 
-Refer to the [Loading pattern]({{site.url}}/components/loading.html) for detailed specifications.
+Refer to the [Loading pattern]({{site.url}}/components/loading-indicators.html) for detailed specifications.
 
 {% endcolumn %}
 

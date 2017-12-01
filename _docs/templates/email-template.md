@@ -11,11 +11,11 @@ resource: true
 
 {% include toc.html %}
 
-## Introduction
-
+<section class="static-section"  markdown="1">
 <div class="hxRow" markdown="1">
 {% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
+## Introduction
 These email templates provide a unified way to interact with customers from all our platforms. The more content we can provide on first contact the better, and if more information is needed links to control panels are provided.
 
 **Email Templates involve:**
@@ -30,7 +30,9 @@ These email templates are for external communications to customers related to co
 
 {% endcolumn %}
 </div>
+</section>
 
+<section class="static-section"  markdown="1">
 <div class="hxRow" markdown="1">
 
 {% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
@@ -44,8 +46,9 @@ These email templates are for external communications to customers related to co
 {% endcolumn %}
 
 </div>
+</section>
 
-
+<section class="static-section"  markdown="1">
 <div class="hxRow" markdown="1">
 
 {% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
@@ -59,7 +62,9 @@ These email templates are for external communications to customers related to co
 {% endcolumn %}
 
 </div>
+</section>
 
+<section class="static-section"  markdown="1">
 <div class="hxRow" markdown="1">
 
 {% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
@@ -92,11 +97,13 @@ Use the subject line to let the user know what the email is about, urgency (if a
 {% endcolumn %}
 
 </div>
+</section>
 
-## Email content
-
+<section class="static-section"  markdown="1">
 <div class="hxRow" markdown="1">
 {% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
+## Email content
 
 ### Alert status
 
@@ -146,9 +153,9 @@ Alert states are used to gain the users attention when there is action required 
 {% endcolumn%}
 
 </div>
+</section>
 
-
-
+<section class="static-section"  markdown="1">
 <div class="hxRow" markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
@@ -184,13 +191,15 @@ The header is an overview of where the email is coming from and what kind of mes
 {% endcolumn %}
 
 </div>
+</section>
+
+<section class="static-section"  markdown="1">
+<div class="hxRow"  markdown="1">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Sub-header
 
 To give the user more context about the message they are about to read the subheading will let them know what kind of notification or ticket has been sent. This includes notification types and ticket or notification statuses.
-
-<div class="hxRow"  markdown="1">
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 - **Notification types:** `Monitoring Alert`, `Billing`, `Maintenance`, etc.
 - **Ticket statuses:** `New`, `Update`, `Closed`, `Pending Customer`, etc.
@@ -205,7 +214,9 @@ To give the user more context about the message they are about to read the subhe
 {% endcolumn %}
 
 </div>
+</section>
 
+<section class="static-section"  markdown="1">
 ### Greetings and sign-off
 
 -   **Greetings** – Greetings should be used sparingly. This is only appropriate when responding to a customer directly via ticket.
@@ -213,7 +224,9 @@ To give the user more context about the message they are about to read the subhe
     -   There should be **no greeting for notifications**. Notification emails are not personal, and the user does not need us to address them by name when giving an update on services. It is best to get straight to the point, so no salutations for notifications.
 
 -   **Sign off** - The sign off should not include a closing, i.e.: Sincerely, Regards, Best, etc. If the email is a ticket, it is ok to include Racker name and title.
+</section>
 
+<section class="static-section"  markdown="1">
 ### Callouts
 
 When there is some action the user needs to take it should be prominently displayed and stand out from the rest of the email content. Callouts will allow the user to scan for pertinent information quickly.
@@ -251,7 +264,9 @@ When there is some action the user needs to take it should be prominently displa
 {% endcolumn %}
 </div>
 
+</section>
 
+<section class="static-section"  markdown="1">
 <div class="hxRow" markdown="1">
 {% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
@@ -287,7 +302,9 @@ They should never break up the content of an email, and there should never be mo
 
 {% endcolumn %}
 </div>
+</section>
 
+<section class="static-section"  markdown="1">
 <div class="hxRow" markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
@@ -307,12 +324,12 @@ In the first line, the word notifications or ticket should change based on the m
 {% endfigure %}
 {% endcolumn %}
 </div>
+</section>
 
-### Footer
-
+<section class="static-section"  markdown="1">
 <div class="hxRow" markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-
+### Footer
 Footer provides auxiliary information about how to contact support and edit notification preferences.
 
 -   **Contact Support** - should include phone number, email, or chat options.
@@ -327,7 +344,9 @@ Footer provides auxiliary information about how to contact support and edit noti
 {% endfigure %}
 {% endcolumn %}
 </div>
+</section>
 
+<section class="static-section"  markdown="1">
 ## UX guidance
 
 <div class="hxRow" markdown="1">
@@ -364,7 +383,9 @@ Do not display actual URL. All links should be hyperlinked text and follow forma
 
 {% endcolumn %}
 </div>
+</section>
 
+<section class="static-section"  markdown="1">
 <div class="hxRow"  markdown="1">
 {% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
@@ -387,13 +408,13 @@ and that helps customers accomplish their goals, use the
 {% endcolumn %}
 
 </div>
+</section>
 
-## Research
-
+<section class="static-section"  markdown="1">
 <div class="hxRow"  markdown="1">
 {% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
-
+## Research
 Previous research has been done for emails about notifications. The major finding was that email could help customers understand the difference between notifications and a ticket. Further research is needed to validate all use cases in email templates.
 
 For now, though, here are a few of the completed studies:
@@ -404,11 +425,15 @@ For now, though, here are a few of the completed studies:
 
 {% endcolumn %}
 </div>
+</section>
 
-## Visual examples
+<section class="static-section"  markdown="1">
+
 <div class="hxRow" markdown="1">
 
 {% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
+
+## Visual examples
 
 {% figure [caption:"Example of a billing email using these guidelines"] [class:"image bg-light border"] %}
 ![]({{site.baseurl}}/assets/images/templates/email/Email%20Detail.svg)

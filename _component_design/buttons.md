@@ -156,7 +156,7 @@ Compact buttons should be used when you have severe space constraints, such as i
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 - The loading icon animation should rotate time: 0.8 sec/revolution.
-- For further information regarding the loading pattern, see the [loading pattern]({{site.baseurl}}/components/loading.html).
+- For further information regarding the loading pattern, see the [loading pattern]({{site.baseurl}}/components/loading-indicators.html).
 
 
 {% endcolumn %}
