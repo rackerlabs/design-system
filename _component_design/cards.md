@@ -12,6 +12,14 @@ last-modified: 2017-08-17
 
 {% include toc.html %}
 
-# Cards
+<section class="static-section" markdown="1">
 
-# Dashboard Panels
+## Cards
+
+</section>
+
+<section class="static-section" markdown="1">
+
+## Dashboard Panels
+
+</section>

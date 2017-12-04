@@ -12,11 +12,17 @@ last-modified: 2017-08-17
 
 {% include toc.html %}
 
+<section class="static-section" markdown="1">
+
 # Structure
 
 {% figure [caption:""] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/components/status-indicators-structure.svg){:width="100%"}
 {% endfigure %}
+
+</section>
+
+<section class="static-section" markdown="1">
 
 ## [S1] Status Indicator Circle
 
@@ -35,6 +41,10 @@ Terminated, Approval Denied, Transferred, In Process, Pending”.
 ![]({{site.cdn_url}}/img/components/status-indicators-circle-null.svg){:width="100%"}
 {% endfigure %}
 
+</section>
+
+<section class="static-section" markdown="1">
+
 ## [S2] Status Text
 
 Status text is to provide additional context around the status, in a brief,
@@ -45,6 +55,10 @@ Pill should never stretch or shrink.
 {% figure [caption:""] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/components/status-indicators-text.svg){:width="100%"}
 {% endfigure %}
+
+</section>
+
+<section class="static-section" markdown="1">
 
 ## [S3] Status Container
 
@@ -58,14 +72,24 @@ shrunk from its given size.
 ![]({{site.cdn_url}}/img/components/status-indicators-container.svg){:width="100%"}
 {% endfigure %}
 
+</section>
+
+<section class="static-section" markdown="1">
+
 # Results List
 
 {% figure [caption:""] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/components/status-indicators-results-list.svg){:width="100%"}
 {% endfigure %}
 
+</section>
+
+<section class="static-section" markdown="1">
+
 # Content Headers
 
 {% figure [caption:""] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/components/status-indicators-content-headers.svg){:width="100%"}
 {% endfigure %}
+
+</section>

@@ -15,13 +15,21 @@ last-modified: 2017-08-30
 
 {% include toc.html %}
 
-Application navigation establishes a user's location within an application and shows the path forward to accomplish a goal. Consistent navigation patterns increase user confidence and efficiency. You can combine global navigation (using the eyebrow), application navigation (using side or top navigation), and breadcrumbs.
+<section class="static-section" markdown="1">
 
-# Primary navigation
+## Primary navigation
 
 Use primary navigation for the main sections of an application, or for drop-down categories that organize sections into higher-level groups.
 
+</section>
+
+<section class="static-section" markdown="1">
+
 ## Left navigation
+
+</section>
+
+<section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
 {% column left:"hxCol-4" %}
@@ -41,6 +49,10 @@ Use the left navigation component for web applications, unless there is a firm i
 {% endcolumn %}
 </div>
 
+</section>
+
+<section class="static-section" markdown="1">
+
 ## Left navigation color and typeface
 
 <div class="hxRow"  markdown="1">
@@ -59,6 +71,10 @@ Use the left navigation component for web applications, unless there is a firm i
 {% endcolumn %}
 </div>
 
+</section>
+
+<section class="static-section" markdown="1">
+
 ## Left navigation spacing
 
 <div class="hxRow"  markdown="1">
@@ -75,6 +91,10 @@ Use the left navigation component for web applications, unless there is a firm i
 {% endcolumn %}
 </div>
 
+</section>
+
+<section class="static-section" markdown="1">
+
 <div class="hxRow"  markdown="1">
 {% column left:"hxCol-4" %}
 
@@ -88,6 +108,10 @@ Use the left navigation component for web applications, unless there is a firm i
 {% endfigure %}
 {% endcolumn %}
 </div>
+
+</section>
+
+<section class="static-section" markdown="1">
 
 ### Tertiary left navigation
 
@@ -109,6 +133,10 @@ If you have a very large IA, you can use tertiary navigation elements. However, 
 {% endcolumn %}
 </div>
 
+</section>
+
+<section class="static-section" markdown="1">
+
 ## Top navigation
 
 <div class="hxRow"  markdown="1">
@@ -124,6 +152,10 @@ For additional flexibility, you can use top navigation elements. However, applic
 {% endfigure %}
 {% endcolumn %}
 </div>
+
+</section>
+
+<section class="static-section" markdown="1">
 
 ### Top navigation color and typeface
 
@@ -143,6 +175,10 @@ For additional flexibility, you can use top navigation elements. However, applic
 {% endfigure %}
 {% endcolumn %}
 </div>
+
+</section>
+
+<section class="static-section" markdown="1">
 
 ### Top navigation spacing
 
@@ -166,6 +202,10 @@ For additional flexibility, you can use top navigation elements. However, applic
 {% endcolumn %}
 </div>
 
+</section>
+
+<section class="static-section" markdown="1">
+
 <div class="hxRow"  markdown="1">
 {% column left:"hxCol-4" %}
 
@@ -181,6 +221,10 @@ For additional flexibility, you can use top navigation elements. However, applic
 {% endfigure %}
 {% endcolumn %}
 </div>
+
+</section>
+
+<section class="static-section" markdown="1">
 
 ### Top navigation drop-down menu color and typeface
 
@@ -207,6 +251,10 @@ Drop-down menus display secondary navigation elements below their primary naviga
 {% endfigure %}
 {% endcolumn %}
 </div>
+
+</section>
+
+<section class="static-section" markdown="1">
 
 ## Top navigation drop-down element spacing
 
@@ -236,6 +284,10 @@ Drop-down menus display secondary navigation elements below their primary naviga
 {% endcolumn %}
 </div>
 
+</section>
+
+<section class="static-section" markdown="1">
+
 # Eyebrow
 
 The eyebrow is the top menu bar across all breakpoints within the application frame of a Helix interface. The eyebrow provides access to platform-level services and aggregate information across a user's accounts at Rackspace. The eyebrow pattern is often referred to internally as *pilot nav* or *utility nav*.
@@ -251,6 +303,10 @@ The eyebrow expands and retracts based on the current user view port.
 {% endfigure %}
 {% endcolumn %}
 </div>
+
+</section>
+
+<section class="static-section" markdown="1">
 
 ## Eyebrow (left side)
 
@@ -271,6 +327,10 @@ The left side of the eyebrow contains the platform dashboard button and the prod
 {% endcolumn %}
 </div>
 
+</section>
+
+<section class="static-section" markdown="1">
+
 ### Eyebrow (left side) drop-down elements
 
 A drop-down menu appears when the user switches product lines.
@@ -290,6 +350,10 @@ A drop-down menu appears when the user switches product lines.
 {% endfigure %}
 {% endcolumn %}
 </div>
+
+</section>
+
+<section class="static-section" markdown="1">
 
 ## Eyebrow (right side)
 
@@ -319,6 +383,10 @@ The right side of the eyebrow menu shows the user name section and platform leve
 {% endcolumn %}
 </div>
 
+</section>
+
+<section class="static-section" markdown="1">
+
 ### Eyebrow (right side) drop-down elements
 
 <div class="hxRow"  markdown="1">
@@ -335,3 +403,5 @@ The right side of the eyebrow menu shows the user name section and platform leve
 {% endfigure %}
 {% endcolumn %}
 </div>
+
+</section>

@@ -4,7 +4,7 @@ parent: Notifications
 layout: component
 category: Components
 usage: >
-  A notification bar extends fully across the top of an content container within a Helix interface in order to provide the user with feedback relating to the status of the item. It can be scoped across the entirity of the content area (page level scoping) or scoped to extend across a singular section of the content area (element level scoping).
+  A notification bar extends fully across the top of an content container within a Helix interface in order to provide the user with feedback relating to the status of the item. It can be scoped across the entirety of the content area (page level scoping) or scoped to extend across a singular section of the content area (element level scoping).
 preview-image: preview-images/alert-bar.svg
 status: in-progress
 resource: true
@@ -15,10 +15,13 @@ helix-ui-javascript: false
 
 {% include toc.html %}
 
+<section class="static-section" markdown="1">
+
 ## Introduction
 
 <div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
 An alert bar can extend across the entirety of the content area (page level scoping) or across a singular section of the content area (element level scoping).
 
 ### When to Use
@@ -40,6 +43,10 @@ An alert bar can extend across the entirety of the content area (page level scop
 {% endfigure %}
 {% endcolumn %}
 </div>
+
+</section>
+
+<section class="static-section" markdown="1">
 
 ## Design Specs
 
@@ -71,6 +78,10 @@ optional:
 {% endcolumn %}
 </div>
 
+</section>
+
+<section class="static-section" markdown="1">
+
 <div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
@@ -87,6 +98,10 @@ Alert messages should be as concise and clear as possible. We recommend keeping 
 {% endcolumn %}
 </div>
 
+</section>
+
+<section class="static-section" markdown="1">
+
 <div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
@@ -102,3 +117,5 @@ The alert bar pattern enables users to assess status of a given section at a gla
 {% endfigure %}
 {% endcolumn %}
 </div>
+
+</section>

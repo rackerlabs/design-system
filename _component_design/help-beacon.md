@@ -14,10 +14,12 @@ last-modified: 2017-11-04
 
 {% include toc.html %}
 
+<section class="static-section" markdown="1">
 
 ## Introduction
 
 <div class="hxRow"  markdown="1">
+
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### When to use
@@ -35,9 +37,11 @@ There are some cases where beacons should not be used:
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 {% figure [caption:"Beacons continually follow this lifecycle, giving the impression of a pulse to draw user attention."] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/help/beacon/beacon-hero.svg)
 {% endfigure %}
+
 {% endcolumn %}
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
@@ -52,12 +56,18 @@ There are some cases where beacons should not be used:
 - Do **not** obscure the labeled item with the beacon.
 
 {% endcolumn %}
+
 </div>
 
-### Default layout
+</section>
+
+<section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
+
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### Default layout
 
 This example shows the multiple states for the beacon. The beacon animates on a loop to catch the user's eye. Once the user clicks the beacon, it disappears.
 
@@ -68,8 +78,13 @@ Ideally, track the clicks and drop-offs throughout the tour to improve usefulnes
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 {% figure [caption:"For full CSS specifications, view the developer documentation."] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/help/beacon/beacon-specs.svg)
 {% endfigure %}
+
 {% endcolumn %}
+
 </div>
+
+</section>
