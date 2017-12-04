@@ -12,4 +12,8 @@ last-modified: 2017-08-17
 
 {% include toc.html %}
 
+<section class="static-section" markdown="1">
+
 <!-- unknown -->
+
+</section>

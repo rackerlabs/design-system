@@ -14,9 +14,12 @@ last-modified: 2017-11-03
 
 {% include toc.html %}
 
+<section class="static-section" markdown="1">
+
 ## Introduction
 
 <div class="hxRow"  markdown="1">
+
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### When to use
@@ -30,12 +33,18 @@ last-modified: 2017-11-03
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 {% figure [caption:"Example actions menus from various triggers"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/inputs-and-controls/actions-menu/actions-menu-hero.svg)
 {% endfigure %}
+
 {% endcolumn %}
 
 </div>
+
+</section>
+
+<section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
 
@@ -43,12 +52,12 @@ last-modified: 2017-11-03
 
 ### Best practices
 
-- Links inside an actions menu must always initiate an action related to the current page and must never be used simply for navigation. Actions can include the following types: 
+- Links inside an actions menu must always initiate an action related to the current page and must never be used simply for navigation. Actions can include the following types:
 
-	- Immediate actions on the current page
-	- Actions in [modals]({{site.baseurl}}/components/modal.html)
-	- Actions on a different page
-	- The start of a related workflow
+  - Immediate actions on the current page
+  - Actions in [modals]({{site.baseurl}}/components/modals.html)
+  - Actions on a different page
+  - The start of a related workflow
 
 - An actions menu can be triggered by different elements including split buttons, buttons labeled 'actions', and cogs.
 
@@ -56,21 +65,27 @@ last-modified: 2017-11-03
 
   - **Simple**: a list of links with no labels
   - **Advanced**: a list of links separated and organized through the use of labels
-  
+
 - When using labels within an actions menu, consider the following practices:
-	- Use labels to segment actions into logical groups. 
-	- Consider using a single label if more than three actions are present and its inclusion provides additional clarity.
-	- Do **not** use a label when fewer than three actions are present.
-	- Use multiple labels on lists of more than seven action links to break apart the list and make it easier to understand. 
+  - Use labels to segment actions into logical groups.
+  - Consider using a single label if more than three actions are present and its inclusion provides additional clarity.
+  - Do **not** use a label when fewer than three actions are present.
+  - Use multiple labels on lists of more than seven action links to break apart the list and make it easier to understand.
 
 {% endcolumn %}
 
 </div>
 
+</section>
+
+<section class="static-section" markdown="1">
+
 ## Specifications
+
 <div class="hxRow"  markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
 ### Actions menu - simple
 
 The most common uses of the actions menu are buttons labeled actions, split button, and cog.
@@ -84,16 +99,23 @@ The menu should span the length of the button. If an action name is longer than 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 {% figure [caption:"An actions menu can be triggered by a variety of elements, including a button labeled actions, a split button, or a cog."] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/inputs-and-controls/actions-menu/actions-menu-simple.svg)
 {% endfigure %}
+
 {% endcolumn %}
-  
+
 </div>
+
+</section>
+
+<section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
 ### Actions menu - advanced
 
 The advanced actions menu is a longer list of actions separated by labels. The use of labels on long lists adds clarity and breaks the list into segments that are easier to parse.
@@ -103,9 +125,13 @@ Use 8px of spacing between each section.
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 {% figure [caption:"The advanced actions menu has actions separated into groups with titles."] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/inputs-and-controls/actions-menu/actions-menu-advanced.svg)
 {% endfigure %}
+
 {% endcolumn %}
-  
+
 </div>
+
+</section>
