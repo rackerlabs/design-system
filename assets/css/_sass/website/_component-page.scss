@@ -7,16 +7,16 @@
   font-size: $base-font-size;
   a {
     color: $grey25 !important;
-    &#link {
-      text-align: center;
-      font-weight: $regular-weight;
-      border: 1px solid $grey25 !important;
-    }
   }
 }
 .content-banner {
   background-color: #e5f4f7;
   min-height: 280px;
+
+  a {
+      text-align: center;
+      font-weight: $regular-weight;
+  }
 
   .content-wrapper {
     padding-top: 2.25rem;
