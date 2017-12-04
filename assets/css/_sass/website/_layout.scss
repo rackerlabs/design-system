@@ -17,32 +17,47 @@ body {
 }
 
 nav.side {
-    padding-bottom: 2rem;
-    position: fixed;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    overflow-y: auto;
+  @include phone {
+    min-height: 100vh;
+    max-height: $mobile-screen;
+    width: 12rem !important;
+  }
+  @include tablet {
+    min-height: 100vh;
+    max-height: $tablet-screen;
+    width: 12rem !important;
+  }
+  @include desktop {
+    min-height: $tablet-screen;
+    max-height: 100vh;
+  }
+  padding-bottom: 2rem;
+  position: fixed;
+  height: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  overflow-y: auto;
+  a {
+    font-weight: 400;
+  }
+  .logo {
+    display: block;
+    position: relative;
     a {
-      font-weight: 400;
+      padding: 0 !important;
+      &:hover {
+        background: $grey975 !important;
+        cursor: pointer;
+      }
     }
-    .logo {
-        display: block;
-        position: relative;
-        a {
-          padding: 0 !important;
-          &:hover {
-            background: $grey975 !important;
-            cursor: pointer;
-          }
-        }
-        img {
-          height: 26px;
-          width: 122px;
-          position: relative;
-          margin: 16px auto 28px auto;
-        }
+    img {
+      height: 26px;
+      width: 122px;
+      position: relative;
+      margin: 16px auto 28px auto;
     }
+  }
 }
 
 /**

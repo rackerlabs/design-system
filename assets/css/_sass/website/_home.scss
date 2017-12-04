@@ -1,10 +1,45 @@
+// reference for queries: https://davidwalsh.name/write-media-queries-sass
+
+nav.side {
+  @include phone {
+    max-height: $mobile-screen;
+    width: 100% !important;
+    order: 3;
+    text-align: left;
+  }
+  @include tablet {
+    max-height: $tablet-screen;
+    width: 100% !important;
+    order: 3;
+    text-align: left;
+  }
+  @include desktop {
+    min-height: $tablet-screen;
+    max-height: 100vh;
+    position: fixed;
+    page-break-after: always;
+    break-after: always;
+    order: 1;
+    text-align: left;
+  }
+}
+
 .overview-footer {
-  background-color: $grey900;
+  @include phone {
+    background-color: $grey975;
+  }
+  @include tablet {
+    background-color: $grey975;
+  }
+  @include desktop {
+    background-color: $grey900;
+  }
   text-align: center;
   display: flex;
+  order: 9999;
+  width: 100%;
   .footer-content {
     box-sizing: border-box;
-    width: calc(100vw - 76em);
     text-align: center;
     margin: 0px auto;
     padding: 0px 10px;
@@ -38,20 +73,28 @@
     }
   };
 }
+
 .overview-wrapper {
-  display: flex;
-  .overview-content {
-    box-sizing: border-box;
-    text-align: center;
-    overflowY: scroll;
-    flex: 1;
-    margin-left: 15rem;
-};
+  @include phone {
+    display: flex;
+    flex-direction: column wrap;
+    @include background-size(contain);
+  }
+  @include tablet {
+    display: flex;
+    flex-direction: column wrap;
+    @include background-size(contain);
+  }
+  @include desktop {
+    display: flex;
+    flex-direction: column wrap;
+    @include background-size(cover);
+  }
   background-image: url(../images/Helix_Homepage_Pattern.svg);
   background-color: $grey25;
   background-repeat: no-repeat;
-  @include background-size(cover);
 }
+
 .overview-header {
   margin: 28px auto 12px auto;
   text-align: center;
@@ -64,7 +107,17 @@
 }
 
 .overview-content {
+  @include desktop {
+    margin-left: 15rem;
+    order: 2;
+  }
+  box-sizing: border-box;
+  text-align: center;
+  overflowY: scroll;
   padding: 0px 0px !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   p {
     font-size: $base-font-size !important;
     font-weight: $light-weight;
@@ -162,28 +215,34 @@
     float: right;
     margin-left: 0.625rem;
   }
-}
-@include phone {
-  .overview-content {
-    max-width: $tablet-width;
+  .overview-top {
+    @include phone {
+      width: calc(100% - 1rem);
+      margin: auto;
+    }
+    @include tablet {
+      width: calc(100% - 2rem);
+      margin: auto;
+    }
+    @include desktop {
+      width: calc(100% - 4rem);
+      margin: auto;
+    }
+    order: 1;
   }
-  .overview-footer {
-    max-width: $tablet-width;
+  .overview-main {
+    @include phone {
+      width: calc(100% - 1rem);
+      margin: auto;
+    }
+    @include tablet {
+      width: calc(100% - 2rem);
+      margin: auto;
+    }
+    @include desktop {
+      width: calc(100% - 4rem);
+      margin: auto;
+    }
+    order: 2;
   }
-}
-@include tablet {
-  .overview-content {
-    max-width: $tablet-width;
-  }
-  .overview-footer {
-    max-width: $tablet-width;
-  }
-}
-@include desktop {
-  // .overview-content {
-  //   padding: 0px 20% 0px 10%;
-  // }
-  // .overview-footer {
-  //   padding: 0px 20% 0px 10%;
-  // }
 }
