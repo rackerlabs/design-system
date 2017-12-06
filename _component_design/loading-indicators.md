@@ -30,7 +30,7 @@ Use loading indicators when you need to provide further visual feedback, such as
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
 {% figure [caption:""] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/processing/loading-indicator/spinner-use.svg)
+![]({{site.url}}/assets/images/components/processing/loading-indicator/loading-hero.png){:width="1440px"}
 {% endfigure %}
 
 {% endcolumn %}
