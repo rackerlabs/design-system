@@ -38,7 +38,7 @@ $kilo-width: 1281px;
 }
 
 @mixin desktop {
-  @media (min-width: #{$deca-width}) {
+  @media (min-width: #{$deca-width + 1px}) {
     @content;
   }
 }

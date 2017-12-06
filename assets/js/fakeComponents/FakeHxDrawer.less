@@ -1,0 +1,26 @@
+@import "../HxElement";
+
+:host {
+  display: block;
+
+  &([open]) #content {
+    display: contents;
+  }
+}
+
+#content {
+  display: none;
+}
+
+#toggle {
+  background-color: transparent;
+  border: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  width: 100%;
+
+  &:hover {
+    cursor: pointer;
+  }
+}

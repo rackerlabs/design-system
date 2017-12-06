@@ -18,22 +18,24 @@ body {
 
 nav.side {
   @include phone {
-    min-height: 100vh;
+    // min-height: 100vh;
     max-height: $mobile-screen;
     width: 12rem !important;
+    height: 100%;
   }
   @include tablet {
-    min-height: 100vh;
+    // min-height: 100vh;
     max-height: $tablet-screen;
     width: 12rem !important;
+    height: 100%;
   }
   @include desktop {
     min-height: $tablet-screen;
     max-height: 100vh;
+    height: 100%;
   }
   padding-bottom: 2rem;
   position: fixed;
-  height: 100%;
   top: 0;
   left: 0;
   bottom: 0;

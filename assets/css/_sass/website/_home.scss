@@ -6,12 +6,16 @@ nav.side {
     width: 100% !important;
     order: 3;
     text-align: left;
+    position: relative;
+    height: auto;
   }
   @include tablet {
     max-height: $tablet-screen;
     width: 100% !important;
     order: 3;
     text-align: left;
+    position: relative;
+    height: auto;
   }
   @include desktop {
     min-height: $tablet-screen;
@@ -21,6 +25,7 @@ nav.side {
     break-after: always;
     order: 1;
     text-align: left;
+    height: 100%;
   }
 }
 
