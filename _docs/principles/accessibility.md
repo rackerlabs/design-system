@@ -221,7 +221,7 @@ In this example, we provide a clear visual feedback that the focus has moved to 
 
 ### Tools
 
-These best practices are not exhaustive, and they are not necessarily applicable to every situation. However, they do cover the major areas for concern when designing for visual accessibility. It is more important to take away the principles so that you can integrate them into your design processes. Ultimately, improving accessibility benefits all users by providing greater ease of use to everyone.
+These best practices are not exhaustive, and they are not necessarily applicable to every situation. However, they do cover the major areas for concern when designing for visual accessibility. It is more important to understand the principles so that you can integrate them into your design processes. Ultimately, improving accessibility benefits all users by providing greater ease of use to everyone.
 
 There are many tools that can help you with accessibility. Check them out to learn more:
 
