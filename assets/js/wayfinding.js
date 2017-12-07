@@ -18,6 +18,7 @@ var dict = {
   "Tables": "tables"
 };
 
+// borrowed from https://github.com/cferdinandi/getSiblings
 var getSiblings = function (elem) {
     var siblings = [];
     var sibling = elem.parentNode.firstChild;
@@ -27,6 +28,7 @@ var getSiblings = function (elem) {
     }
     return siblings;
 };
+//end borrow
 
 for (var key in dict){
   if (prevUrl.includes(dict[key])) {
