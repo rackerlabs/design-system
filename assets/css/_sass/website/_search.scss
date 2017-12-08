@@ -1,0 +1,13 @@
+form#search {
+  display: flex;
+  flex-direction: row;
+  input#search-box{
+    flex-grow: 2;
+  }
+}
+ul#search-results{
+  list-style-type: none;
+  li {
+    padding: 0 10px;
+  }
+}
