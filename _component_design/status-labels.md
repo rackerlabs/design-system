@@ -1,5 +1,5 @@
 ---
-title: Status Indicators
+title: Status Labels
 parent: Notifications
 layout: component
 category: Components
@@ -16,6 +16,8 @@ helix-ui-javascript: false
 {% include toc.html %}
 
 ## Introduction
+
+<section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
@@ -40,8 +42,12 @@ Use status labels to communicate the current state of an object or process. For 
 {% endcolumn %}
 </div>
 
+</section>
+
 
 ## Specifications
+
+<section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
@@ -61,23 +67,84 @@ Status labels differentiate themselves from buttons and links by utilizing 100% 
 {% endcolumn %}
 </div>
 
+</section>
+
+<section class="static-section" markdown="1">
+
 <div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-### Variations
+### Emphasis
 
-Status labels come in the following variations:
+The primary UX goal of the status label component is to emphasize or de-emphasize data within a UI. This is performed via the following properties: stroke, fill, and color.
 
-- **Subdued**: Use when...
-- **Default**: Use when...
-- **Emphasis gray**: Use when...
-- **Emphasis purple**: Use when...
+#### Stroke and fill
+
+- Using stroke (label only has an outline) de-emphasizes a status while using fill emphasizes a status. 
+- Use an all-stroke system if you want the status information to be available, but there is more important information on the screen.
+- Use an all-fill system if you want the status label to draw attention to itself.
+- If you are using an all-stroke system, you may use fill for a status if you want to draw attention to that status in particular.
+
+#### Color
+
+- Using subdued gray de-emphasizes a status while using emphasis gray or emphasis purple emphasizes a status. 
+- Only use emphasis gray to highlight important statuses since it draws a lot of attention to itself.
+- Only use emphasis purple for a status that is critical for a user to notice since it draws the most attention to itself.
+- Do not use any other color for your status labels unless your are communicating system or device health, in which case you should use a health status label.
+- Take note that on dark backgrounds, lighter colors  (e.g. subdued) will draw more attention than darker colors.
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% figure [caption:"Variations of the status label pattern"] [class:"image bg-light border"] %}
+{% figure [caption:"Emphasize and de-emphasize statuses within your system using stroke vs fill and color"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/notifications/status-labels/status-labels-variations.png){:width="499px"}
 {% endfigure %}
 {% endcolumn %}
 </div>
+
+</section>
+
+<!-- Section is commented out as the following designs are not finalized
+
+## Variations
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### Health status labels
+
+Use Health Status Labels when describing the health of a system or device or when communicating a discrete severity level.
+not meet the following criteria, do not use Health Status Labels.
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [caption:"Example: Monitoring Status Labels could be used within Encore for 3rd party cloud"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/notifications/status-labels/status-labels-variations.png){:width="499px"}
+{% endfigure %}
+{% endcolumn %}
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### Alternate status labels
+
+Alternatively, use Status Labels that include dot monitoring indicators with legacy and dark interfaces where this might be more appropriate.
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [caption:"Example: Monitoring Status Labels could be used within Encore for 3rd party cloud"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/notifications/status-labels/status-labels-variations.png){:width="499px"}
+{% endfigure %}
+{% endcolumn %}
+</div>
+
+</section> -->
