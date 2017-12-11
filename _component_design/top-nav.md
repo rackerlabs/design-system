@@ -4,7 +4,7 @@ parent: Navigation
 layout: component
 category: Components
 usage: >
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eget nisl enim. 
+  Top navigation is a variation of navigation that is used in lieu of left navigation. It establishes a user's location within an application and shows the path forward to accomplish a goal. Consistent navigation patterns increase user confidence and efficiency.
 preview-image: preview-images/top-nav.svg
 status: stable
 resource: true
@@ -21,13 +21,13 @@ last-modified: 2017-12-11
 ## Top navigation
 
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol-4" %}
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 For additional flexibility, you can use top navigation elements. However, applications that use top navigation do not strictly comply with the Helix design language. The preferred implementation is [left navigation](#left-navigation).
 
 {% endcolumn %}
 
-{% column right:"hxCol-8" %}
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:""] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/layout/navigation-top.svg)
 {% endfigure %}
@@ -41,7 +41,7 @@ For additional flexibility, you can use top navigation elements. However, applic
 ### Top navigation color and typeface
 
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol-4" %}
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 - Font: Roboto Bold 16px / 1em
 - Color: Gray 200 #e7e7e7
@@ -50,7 +50,7 @@ For additional flexibility, you can use top navigation elements. However, applic
 
 {% endcolumn %}
 
-{% column right:"hxCol-8" %}
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:""] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/layout/navigation-top-color-type.svg)
 {% endfigure %}
@@ -64,7 +64,7 @@ For additional flexibility, you can use top navigation elements. However, applic
 ### Top navigation spacing
 
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol-4" %}
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 -   Horizontal spacing includes 20px of left margin.
 
@@ -76,7 +76,7 @@ For additional flexibility, you can use top navigation elements. However, applic
 
 {% endcolumn %}
 
-{% column right:"hxCol-8" %}
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Vertical padding for primary navigation items"] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/layout/navigation-top-spacing-vertical.svg)
 {% endfigure %}
@@ -88,7 +88,7 @@ For additional flexibility, you can use top navigation elements. However, applic
 <section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol-4" %}
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 - The navigation bar extends across 100% of the view width.
 - Navigation wraps inside the navigation bar with 20px (1.25 em) padding on either side.
@@ -96,7 +96,7 @@ For additional flexibility, you can use top navigation elements. However, applic
 
 {% endcolumn %}
 
-{% column right:"hxCol-8" %}
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Horizontal padding specs for primary navigation items"] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/layout/navigation-top-spacing-horizontal.svg)
 {% endfigure %}
@@ -110,7 +110,7 @@ For additional flexibility, you can use top navigation elements. However, applic
 ### Top navigation drop-down menu color and typeface
 
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol-4" %}
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 Drop-down menus display secondary navigation elements below their primary navigation element.
 
@@ -126,7 +126,7 @@ Drop-down menus display secondary navigation elements below their primary naviga
 
 {% endcolumn %}
 
-{% column right:"hxCol-8" %}
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Drop-down font specs"] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/layout/navigation-dropdown-color-type.svg)
 {% endfigure %}
