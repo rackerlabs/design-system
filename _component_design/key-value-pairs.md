@@ -4,7 +4,7 @@ parent: Content Areas
 layout: component
 category: Components
 usage: >
-   Key-value pairs display a label (the key) with the corresponding to data (the value). Color and alignment of key-value pairs allow the user to scan the page quickly for relevant data.
+   Key-value pairs display a label (the key) with the corresponding data (the value). Color and alignment of key-value pairs allow the user to scan the page quickly for relevant data.
 preview-image: preview-images/key-value.svg
 resource: true
 status: stable
@@ -28,7 +28,7 @@ Use key-value pairs when a key (label) needs either text or a visual display of 
 ### Best practices
 
 - Ensure the key (label) corresponds with the data (value).
-- Limit key-value pairs to one line.
+- Try to limit key-value pairs to one line.
 - Follow the Helix grid guidelines for spacing and placement.
 - Use icons sparingly.
 - Use the vertical key pattern if key-value pair sections are arranged on the page side by side.
@@ -156,7 +156,7 @@ If a data value is still being called, list the key label, and then the word "Lo
 
 ### Vertical key values
 
-If multiple key-value pairs are listed next to each other on the body of the page, use vertical key-value pairs. Vertical key-value pairs list the key lable above the data value at a maximum width of four columns on the Helix grid. Do not place more than three vertical key-value pairs on the page.
+If multiple key-value pairs are listed next to each other on the body of the page, use vertical key-value pairs. Vertical key-value pairs list the key label above the data value at a maximum width of four columns on the Helix grid. Do not place more than three vertical key-value pairs on the page.
 
 {% endcolumn %}
 
