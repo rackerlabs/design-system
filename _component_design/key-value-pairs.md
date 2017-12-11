@@ -28,7 +28,7 @@ Use key-value pairs when a key (label) needs either text or a visual display of 
 ### Best practices
 
 - Ensure the key (label) corresponds with the data (value).
-- Try to limit key-value pairs to one line.
+- Limit key-value pairs to one line.
 - Follow the Helix grid guidelines for spacing and placement.
 - Use icons sparingly.
 - Use the vertical key pattern if key-value pair sections are arranged on the page side by side.
