@@ -125,6 +125,14 @@ If you have a very large IA, you can use tertiary navigation elements. However, 
 ![]({{site.cdn_url}}/img/layout/navigation-left-tertiary.svg)
 {% endfigure %}
 
+{% endcolumn %}
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8 hxOffset-4" %}
 {% figure [caption:"Tertiary navigation example with specs"] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/layout/navigation-left-tertiary-specs.svg)
 {% endfigure %}
