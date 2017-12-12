@@ -76,13 +76,13 @@ Status labels differentiate themselves from buttons and links by utilizing 100% 
 
 ### Emphasis
 
-The primary UX goal of the status label component is to emphasize or de-emphasize data within a UI. This is performed by modifying the stroke and fill or color property on a status label.
+The status label is used to communicate the status of an object or process. You can emphasize or de-emphasize that status data within a UI by modifying the stroke and fill or color property on a status label.
 
 #### Stroke vs fill
 
 - Applying stroke only to a status label de-emphasizes the content while using fill emphasizes the content. 
 - Use all-stroke only status labels when the information contained within is not the most important information on the screen.
-- Converselty, use an all-filled status label variation when the information contained within is the highly important on the screen.
+- Conversely, use an all-filled status label variation when the information is of high importance on the screen.
 - If you are using an all-stroke system, you may use fill for a status if you want to draw attention to that status in particular.
 
 #### Color
