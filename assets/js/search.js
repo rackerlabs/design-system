@@ -50,6 +50,12 @@ jsonCall("feed.json").done(function(data,textStatus,jqXHR) {
     // Add the item to a dictionary
     if (fulltext.match(queried2)) {
       var matchd = fulltext.match(queried2);
+      console.log(matchd.input);
+
+      //cleanup
+      matchd.input = matchd.input.replace(/«««#div.*»»»/gi," ");
+      matchd.input = matchd.input.replace(/«««#\/div#»»»/gi," ");
+
       // DONE: Identify how many times the string appears in each kv pairs
       if (fulltext.match(re)) {
         ranking = fulltext.match(re);
@@ -58,13 +64,13 @@ jsonCall("feed.json").done(function(data,textStatus,jqXHR) {
       else {
         const rankd = 1;
       }
-      if (matchd.index > 50){
-        preindex = matchd.index - 50;
+      if (matchd.index > 120){
+        preindex = matchd.index - 120;
       } else {
         preindex = 0;
       }
-      if (matchd.index + 50){
-        postindex = matchd.index + 50;
+      if (matchd.index + 120){
+        postindex = matchd.index + 120;
       } else {
         postindex = matchd.length;
       }
@@ -107,7 +113,12 @@ jsonCall("feed.json").done(function(data,textStatus,jqXHR) {
     results.forEach(function(result) {
       //ref: https://stackoverflow.com/questions/595808/is-it-possible-to-append-to-innerhtml-without-destroying-descendants-event-list#comment407853_595825
       var resultList = document.createElement("li");
-      resultList.innerHTML = `<p><a class='result-title hxContainerTitle' href="${result.url}">${result.title}</a></p><p class='result-summary hxSubdued'>${result.snippet}</p><p class='result-count hxSubBody'>There were ${result.rank} instances of <i>${escaped}</i> on this page.</p>`;
+      if (result.rank > 1) {
+        countedText = `There were ${result.rank} instances of <i>${escaped}</i> on this page.`;
+      } else {
+        countedText = `There was ${result.rank} instance of <i>${escaped}</i> on this page.`;
+      }
+      resultList.innerHTML = `<p><a class='result-title hxContainerTitle' href="${result.url}">${result.title}</a></p><p class='result-summary hxSubdued'>${result.snippet}</p><p class='result-count hxSubBody'>${countedText}</p>`;
       searchpg.appendChild(resultList);
       //endref
     });
