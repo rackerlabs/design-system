@@ -1,5 +1,5 @@
 ---
-title: Eyebrow
+title: Top Navigation
 layout: code
 category: Components Code
 code: null
