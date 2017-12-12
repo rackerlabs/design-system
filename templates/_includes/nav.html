@@ -38,10 +38,5 @@
     {%- endif -%}
   {%- endfor -%}
   <a href="{{site.url}}/status.html" {%- if currenturl == "/status" -%} class="current" {%- else -%} {%- endif -%}>STATUS</a>
-  <!--<a href="{{site.url}}/resources" {% if currenturl == "/resources" %} class="current" {% endif %}>Resources</a>-->
-  <!--<a href="{{site.url}}/contribute" {% if currenturl == "/contribute" %} class="current" {% endif %}>Contribute</a>-->
-  <!-- This adds the status page to the nav, it is commented out until we better define the use-case
-  <a href="{{site.url}}/status.html" {% if currenturl == "/contribute" %} class="active" {% else %} {% endif %}>Status</a> -->
-
-  <!--<a href="{{site.url}}/upcoming" {% if currenturl == "/upcoming" %} class="active" {% else %} {% endif %}>Upcoming</a>-->
+  <a href="{{site.url}}/search.html" {%- if currenturl == "/search" -%} class="current" {%- else -%} {%- endif -%}>SEARCH</a>
 </nav>

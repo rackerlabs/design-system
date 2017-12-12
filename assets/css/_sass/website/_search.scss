@@ -1,3 +1,4 @@
+// Search page only box
 form#search {
   display: flex;
   flex-direction: row;
@@ -5,6 +6,27 @@ form#search {
     flex-grow: 2;
   }
 }
+
+// Box for other pages
+form#search-all {
+  display: flex;
+  flex-direction: row;
+  width: 4.45rem;
+  &:focus-within {
+    width: 100%;
+    background: #ff8;
+  }
+  input#search-box{
+    flex-grow: 2;
+    width: 100%;
+  }
+}
+div.search-overview {
+  width: 90%;
+  margin: 0 auto;
+}
+
+
 ul#search-results{
   list-style-type: none;
   li {
