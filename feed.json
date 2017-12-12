@@ -16,11 +16,13 @@ layout: null
             "id": "{{ page.url | absolute_url | sha1 }}",
             "title": {{ page.title | jsonify }},
             "summary": {{ page.usage | jsonify }},
-            "content_text": {{ page.content | strip_html | strip_newlines | jsonify }},
+            "content_text": {{ page.content | strip_html | jsonify }},
             "content_html": {{ page.content | strip_newlines | jsonify }},
             {% if page.preview-image.size > 1 %}"image": {{ page.preview-image | jsonify }},{% endif %}
             {% if page.tags.size > 1 %}"tags": {{ page.tags | jsonify }},{% endif %}
             {% if page.last-modified.size > 1 %}"date_modified": "{{ page.last-modified | date_to_xmlschema }}",{% endif %}
+            {% if page.excerpt.size > 1 %}"excerpt": {{ page.excerpt | jsonify }},{% endif %}
+            {% if page.output.size > 1 %}"output": {{ page.output | jsonify }},{% endif %}
             "url": "{{ page.url | absolute_url }}"
         }{% if forloop.last == false %},{% endif %}
       {% endfor %}

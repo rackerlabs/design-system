@@ -8,6 +8,10 @@ form#search {
 ul#search-results{
   list-style-type: none;
   li {
-    padding: 0 10px;
+    padding: 10px 0px;
   }
+}
+
+#search-count {
+  padding: 5px 0;
 }
