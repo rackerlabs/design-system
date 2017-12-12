@@ -50,11 +50,18 @@ jsonCall("feed.json").done(function(data,textStatus,jqXHR) {
     // Add the item to a dictionary
     if (fulltext.match(queried2)) {
       var matchd = fulltext.match(queried2);
-      console.log(matchd.input);
+      var inputValue = matchd.input;
 
       //cleanup
-      matchd.input = matchd.input.replace(/«««#div.*»»»/gi," ");
-      matchd.input = matchd.input.replace(/«««#\/div#»»»/gi," ");
+      inputValue = inputValue.replace(/«««#\/div#»»»/gi," ");
+      inputValue = inputValue.replace(/«««#div.*#»»»/gi," ");
+      inputValue = inputValue.replace(/\n/gi," ");
+
+      if (inputValue.search(queried2) > 0){
+        indexValue = inputValue.search(queried2);
+      } else {
+        indexValue = inputValue.search(queriedupper);
+      }
 
       // DONE: Identify how many times the string appears in each kv pairs
       if (fulltext.match(re)) {
@@ -64,23 +71,33 @@ jsonCall("feed.json").done(function(data,textStatus,jqXHR) {
       else {
         const rankd = 1;
       }
-      if (matchd.index > 120){
-        preindex = matchd.index - 120;
+
+      // scale snippet size based on ranking
+      if (rankd > 10) {
+        snipdLength = 10 * rankd;
+      } else {
+        snipdLength = 100;
+      }
+
+      if (indexValue - snipdLength > 0){
+        preindex = indexValue - snipdLength;
       } else {
         preindex = 0;
       }
-      if (matchd.index + 120){
-        postindex = matchd.index + 120;
+
+      if (indexValue + snipdLength < inputValue.length){
+        postindex = indexValue + snipdLength;
       } else {
-        postindex = matchd.length;
+        postindex = inputValue.length;
       }
-      if (matchd.input.slice(preindex, postindex)){
-        snipd = matchd.input.slice(preindex, postindex);
+
+      if (inputValue.slice(preindex, postindex)){
+        snipd = inputValue.slice(preindex, postindex);
       } else {
-        snipd = "No relevant text here.";
+        snipd = "No relevant text here. Your query might be in an image.";
       }
-      snipd = snipd.replace(queried, `<b>${queried}</b>`);
-      snipd = snipd.replace(queriedupper, `<b>${queriedupper}</b>`);
+
+      snipd = snipd.replace(re, `<b>${queried}</b>`);
       results.push({
         "id": element.id,
         "title": element.title,
@@ -93,6 +110,7 @@ jsonCall("feed.json").done(function(data,textStatus,jqXHR) {
 
     }
   });
+  
   if (!queried || queried == undefined){
     return;
   } else {
