@@ -18,7 +18,7 @@ last-modified: 2017-12-11
 
 <section class="static-section" markdown="1">
 
-## Top navigation
+## Introduction
 
 <div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
@@ -38,10 +38,10 @@ For additional flexibility, you can use top navigation elements. However, applic
 
 <section class="static-section" markdown="1">
 
-### Top navigation color and typeface
-
 <div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### Top navigation color and typeface
 
 - Font: Roboto Bold 16px / 1em
 - Color: Gray 200 #e7e7e7
@@ -61,10 +61,10 @@ For additional flexibility, you can use top navigation elements. However, applic
 
 <section class="static-section" markdown="1">
 
-### Top navigation spacing
-
 <div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### Top navigation spacing
 
 -   Horizontal spacing includes 20px of left margin.
 
@@ -107,10 +107,10 @@ For additional flexibility, you can use top navigation elements. However, applic
 
 <section class="static-section" markdown="1">
 
-### Top navigation drop-down menu color and typeface
-
 <div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### Top navigation drop-down menu color and typeface
 
 Drop-down menus display secondary navigation elements below their primary navigation element.
 
