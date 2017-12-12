@@ -23,7 +23,8 @@ function getUrlVars()
 }
 //endref
 
-var queried = getUrlVars().q;
+var queried = getUrlVars().q.replace("+", " ");
+console.log(queried);
 var queriedupper = queried.replace(queried[0], queried[0].toUpperCase());
 var escaped = escape(queried);
 var queried2 = new RegExp("\\b" + queried + "\\b", 'i');
@@ -110,12 +111,12 @@ jsonCall("feed.json").done(function(data,textStatus,jqXHR) {
 
     }
   });
-  
+
   if (!queried || queried == undefined){
     return;
   } else {
     // Add search query as prefilled in the search box
-    searchBox.value = escaped;
+    searchBox.value = queried;
 
     searchcount.innerHTML=`Your search returned ${results.length} results.`;
 
@@ -132,9 +133,9 @@ jsonCall("feed.json").done(function(data,textStatus,jqXHR) {
       //ref: https://stackoverflow.com/questions/595808/is-it-possible-to-append-to-innerhtml-without-destroying-descendants-event-list#comment407853_595825
       var resultList = document.createElement("li");
       if (result.rank > 1) {
-        countedText = `There were ${result.rank} instances of <i>${escaped}</i> on this page.`;
+        countedText = `There were ${result.rank} instances of <i>${queried}</i> on this page.`;
       } else {
-        countedText = `There was ${result.rank} instance of <i>${escaped}</i> on this page.`;
+        countedText = `There was ${result.rank} instance of <i>${queried}</i> on this page.`;
       }
       resultList.innerHTML = `<p><a class='result-title hxContainerTitle' href="${result.url}">${result.title}</a></p><p class='result-summary hxSubdued'>${result.snippet}</p><p class='result-count hxSubBody'>${countedText}</p>`;
       searchpg.appendChild(resultList);
