@@ -4,7 +4,7 @@ parent: Notifications
 layout: component
 category: Components
 usage: >
-    Status Labels are wide tags that include short, brief, and helpful text communication regarding the progress of our users accounts.
+    Status labels are wide tags that include short, brief, and helpful text communication regarding the progress of our users' accounts.
 status: stable
 resource: true
 preview-image: preview-images/status-labels.svg
@@ -23,13 +23,13 @@ helix-ui-javascript: false
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### When to use
-Use status labels to communicate the current state of an object or process. For example, to communicate the status of a support ticket, or current health of a device.
+Use status labels to communicate the current state of an object or process, such as the status of a support ticket or the current health of a device.
 
 ### Best Practices
 
 - To reduce visual noise when using in a table or list, label width should be fixed at the width that best accomodates the longest label with a minimum padding of 8px. 
 - Adhere to a recommended max character limit of 20 characters.
-- Use color and stroke vs fill to control how much attention a given status label commands.
+- Use color and stroke versus fill to control how much attention a given status label commands.
 - Do not use other colors from the Helix color palette.
 
 
@@ -54,9 +54,9 @@ Use status labels to communicate the current state of an object or process. For 
 
 ### Default layout
 
-Status labels are wide tags that include short, brief, and helpful text communication regarding the progress of our users business.
+Status labels are wide tags that include short, brief, and helpful text communication regarding the progress of our users' business.
 
-Status labels differentiate themselves from buttons and links by utilizing 100% rounded border radius, in addition to, neutral or alert color strategy which differs from our default buttons and links.
+Status labels use a 100% rounded border radius and a neutral or alert color strategy, which differs from default buttons and links.
 
 {% endcolumn %}
 
@@ -78,7 +78,7 @@ Status labels differentiate themselves from buttons and links by utilizing 100% 
 
 The status label is used to communicate the status of an object or process. You can emphasize or de-emphasize that status data within a UI by modifying the stroke and fill or color property on a status label.
 
-#### Stroke vs fill
+#### Stroke versus fill
 
 - Applying stroke only to a status label de-emphasizes the content while using fill emphasizes the content. 
 - Use all-stroke only status labels when the information contained within is not the most important information on the screen.
@@ -88,15 +88,15 @@ The status label is used to communicate the status of an object or process. You 
 #### Color
 
 - Using subdued gray de-emphasizes a status while using emphasis gray or emphasis purple emphasizes a status. 
-- Only use emphasis gray to highlight important statuses since it draws a lot of attention to itself.
-- Only use emphasis purple for a status that is critical for a user to notice since it draws the most attention to itself.
-- Do not use any other color for your status labels unless your are communicating system or device health, in which case you should use a health status label.
-- Take note that on dark backgrounds, lighter colors  (e.g. subdued) will draw more attention than darker colors.
+- Only use emphasis gray to highlight important, but not critical, statuses.
+- Only use emphasis purple for a status that is critical for a user to notice.
+- Do not use any other color for your status labels unless you are communicating system or device health, in which case use a health status label.
+- On dark backgrounds, lighter or subdued colors will draw more attention than darker colors.
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% figure [caption:"Emphasize and de-emphasize statuses within your system using stroke vs fill and color"] [class:"image bg-light border"] %}
+{% figure [caption:"Emphasize and de-emphasize statuses within your system using stroke versus fill and color."] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/notifications/status-labels/status-labels-variations.png){:width="499px"}
 {% endfigure %}
 {% endcolumn %}
