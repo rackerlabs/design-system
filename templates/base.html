@@ -32,7 +32,7 @@
               <hx-icon class="delimiter" type="angle-right"></hx-icon>
                 {%- for item in site.component_design -%}
                   {%- if page.title == item.title -%}
-                    <a href="{{site.url}}/components/{{page.parent | slugify}}.html">{{item.parent}}</a>
+                    <a id="breadcrumbLink">{{item.parent}}</a>
                   {%- endif -%}
                 {%- endfor -%}
               <hx-icon class="delimiter" type="angle-right"></hx-icon>
