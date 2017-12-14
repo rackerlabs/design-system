@@ -27,9 +27,9 @@ Use status labels to communicate the current state of an object or process, such
 
 ### Best Practices
 
-- To reduce visual noise when using in a table or list, label width should be fixed at the width that best accomodates the longest label with a minimum padding of 8px. 
+- To reduce visual noise in tables or lists, use a fixed width that accommodates the longest status text.
 - Adhere to a recommended max character limit of 20 characters.
-- Adjust color scheme and or the form (stroke outline vs fill) of a status label to control how much attention the label commands.
+- Use lighter colors and outline styles for most statuses, and use darker colors and fills for highly urgent or important statuses.
 - Do not use other colors from the Helix color palette.
 
 
@@ -43,7 +43,6 @@ Use status labels to communicate the current state of an object or process, such
 </div>
 
 </section>
-
 
 ## Specifications
 
@@ -74,18 +73,17 @@ Status labels use a 100% rounded border radius and a neutral or alert color stra
 
 ### Emphasis
 
-The status label is used to communicate the status of an object or process. You can emphasize or de-emphasize that status data within a UI by modifying the stroke and fill or color property on a status label.
+You can emphasize or de-emphasize status data by modifying color and choosing stroke or fill on status labels.
 
 #### Stroke versus fill
 
-- Applying stroke only to a status label de-emphasizes the content while using fill emphasizes the content. 
-- Use all-stroke only status labels when the information contained within is not the most important information on the screen.
-- Conversely, use an all-filled status label variation when the information is of high importance on the screen.
-- If you are using an all-stroke system, you may use fill for a status if you want to draw attention to that status in particular.
+- Use outlined style to de-emphasizes the content and use fill to emphasize it.
+- Use outlined style when the information contained within is not the most important information on the screen.
+- Use filled style status labels when the information is of high importance.
+
 
 #### Color
 
-- Using subdued gray de-emphasizes a status while using emphasis gray or emphasis purple emphasizes a status. 
 - Only use emphasis gray to highlight important, but not critical, statuses.
 - Only use emphasis purple for a status that is critical for a user to notice.
 - Do not use any other color for your status labels unless you are communicating system or device health, in which case use a health status label.
