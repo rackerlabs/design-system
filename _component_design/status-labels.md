@@ -23,7 +23,7 @@ helix-ui-javascript: false
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### When to use
-Use status labels to communicate the current state of an object or process, such as the status of a support ticket or the current health of a device.
+Use status labels to communicate the current state of an object or process. For example, when expressing the status of a support ticket.
 
 ### Best Practices
 
@@ -86,7 +86,7 @@ You can emphasize or de-emphasize status data by modifying color and choosing st
 
 - Only use emphasis gray to highlight important, but not critical, statuses.
 - Only use emphasis purple for a status that is critical for a user to notice.
-- Do not use any other color for your status labels unless you are communicating system or device health, in which case use a health status label.
+- Do not use any other color for your status labels unless you are communicating system or device health, in which case use a health status label.=
 - On dark backgrounds, lighter or subdued colors will draw more attention than darker colors.
 
 {% endcolumn %}
