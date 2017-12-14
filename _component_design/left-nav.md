@@ -15,26 +15,17 @@ last-modified: 2017-12-11
 
 <section class="static-section" markdown="1">
 
-## Primary navigation
-
-Use primary navigation for the main sections of an application, or for drop-down categories that organize sections into higher-level groups.
-
-</section>
-
-<section class="static-section" markdown="1">
-
-## Left navigation
-
-</section>
-
-<section class="static-section" markdown="1">
+## Introduction
 
 <div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
+### When to use
+
 Use the left navigation component for web applications, unless there is a firm implementation constraint that requires top navigation.
 
-- This component can extend to fit any navigation information architecture (IA) by scrolling when the list of navigation items exceeds the screen view height. If there are many options to display, the left navigation is scroll-able so that users have access to all items.
+### Best practices
+
 - The preferred implementation includes only primary and secondary navigation links.
 - An alternative, non-preferred implementation includes [tertiary](#tertiary-left-navigation) navigation links.
 
@@ -51,10 +42,12 @@ Use the left navigation component for web applications, unless there is a firm i
 
 <section class="static-section" markdown="1">
 
-## Left navigation color and typeface
+## Specifications
 
 <div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### Style
 
 - Font: Roboto Regular 16px / 1em
 - Color: Gray 400 #D8D8D8
@@ -73,10 +66,10 @@ Use the left navigation component for web applications, unless there is a firm i
 
 <section class="static-section" markdown="1">
 
-## Left navigation spacing
-
 <div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### Spacing
 
 - The first primary navigation element begins 60px from the top of the containing `div`.
 
@@ -111,10 +104,12 @@ Use the left navigation component for web applications, unless there is a firm i
 
 <section class="static-section" markdown="1">
 
-### Tertiary left navigation
+## Tertiary left navigation
 
 <div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### When to use
 
 If you have a very large IA, you can use tertiary navigation elements. However, in most cases we recommend that you compress or sort the IA so that only primary and secondary links are needed.
 

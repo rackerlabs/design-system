@@ -80,7 +80,7 @@ The logo can only be clickable when the application has a default landing page, 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% figure [caption:"Logo states when the logo is clickable for navigation"] [class:"image bg-light border"] %}
+{% figure [caption:"Logo structure when the logo is clickable for navigation"] [class:"image bg-light border"] %}
 ![]({{site.baseurl}}/assets/images/components/navigation/eyebrow/logo-structure.png){:width="620px"}
 {% endfigure %}
 {% endcolumn %}

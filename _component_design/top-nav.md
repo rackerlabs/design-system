@@ -23,6 +23,8 @@ last-modified: 2017-12-11
 <div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
+### When to use
+
 For additional flexibility, you can use top navigation elements. However, applications that use top navigation do not strictly comply with the Helix design language. The preferred implementation is [left navigation]({{site.baseurl}}/components/left-nav.html).
 
 {% endcolumn %}
@@ -38,10 +40,12 @@ For additional flexibility, you can use top navigation elements. However, applic
 
 <section class="static-section" markdown="1">
 
+## Specifications
+
 <div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-### Top navigation color and typeface
+### Style
 
 - Font: Roboto Bold 16px / 1em
 - Color: Gray 200 #e7e7e7
@@ -64,7 +68,7 @@ For additional flexibility, you can use top navigation elements. However, applic
 <div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-### Top navigation spacing
+### Spacing
 
 -   Horizontal spacing includes 20px of left margin.
 
@@ -107,10 +111,12 @@ For additional flexibility, you can use top navigation elements. However, applic
 
 <section class="static-section" markdown="1">
 
+## Drop-down menu
+
 <div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-### Top navigation drop-down menu color and typeface
+### Style specifications
 
 Drop-down menus display secondary navigation elements below their primary navigation element.
 
@@ -137,10 +143,10 @@ Drop-down menus display secondary navigation elements below their primary naviga
 
 <section class="static-section" markdown="1">
 
-## Top navigation drop-down element spacing
+## Spacing specifications
 
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol" %}
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 -   Make drop-down menus at least the same width as the parent menu item, even if that leaves extra space to the right.
 
@@ -151,14 +157,11 @@ Drop-down menus display secondary navigation elements below their primary naviga
 
 {% endcolumn %}
 
-{% column right:"hxCol" %}
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:""] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/layout/navigation-dropdown-spacing-vertical.svg)
 {% endfigure %}
 
-{% endcolumn %}
-
-{% column right:"hxCol" %}
 {% figure [caption:""] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/layout/navigation-dropdown-spacing-horizontal.svg)
 {% endfigure %}
