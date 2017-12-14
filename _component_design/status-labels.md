@@ -36,7 +36,7 @@ Use status labels to communicate the current state of an object or process, such
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% figure [caption:"Status label within the CTUI project"] [class:"image bg-light border"] %}
+{% figure [caption:"Status label used to displayed a ticket status"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/notifications/status-labels/status-labels-hero.png){:width="1440px"}
 {% endfigure %}
 {% endcolumn %}
@@ -53,8 +53,6 @@ Use status labels to communicate the current state of an object or process, such
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Default layout
-
-Status labels are wide tags that include short, brief, and helpful text communication regarding the progress of our users' business.
 
 Status labels use a 100% rounded border radius and a neutral or alert color strategy, which differs from default buttons and links.
 
