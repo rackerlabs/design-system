@@ -29,7 +29,7 @@ Use status labels to communicate the current state of an object or process, such
 
 - To reduce visual noise when using in a table or list, label width should be fixed at the width that best accomodates the longest label with a minimum padding of 8px. 
 - Adhere to a recommended max character limit of 20 characters.
-- Use color and stroke versus fill to control how much attention a given status label commands.
+- Adjust color scheme and or the form (stroke outline vs fill) of a status label to control how much attention the label commands.
 - Do not use other colors from the Helix color palette.
 
 
