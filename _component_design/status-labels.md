@@ -86,7 +86,7 @@ You can emphasize or de-emphasize status data by modifying color and choosing st
 
 - Only use emphasis gray to highlight important, but not critical, statuses.
 - Only use emphasis purple for a status that is critical for a user to notice.
-- Do not use any other color for your status labels unless you are communicating system or device health, in which case use a health status label.=
+- Do not modify the color values for status labels.
 - On dark backgrounds, lighter or subdued colors will draw more attention than darker colors.
 
 {% endcolumn %}
