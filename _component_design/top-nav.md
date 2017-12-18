@@ -143,10 +143,10 @@ Drop-down menus display secondary navigation elements below their primary naviga
 
 <section class="static-section" markdown="1">
 
-## Spacing specifications
-
 <div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### Spacing specifications
 
 -   Make drop-down menus at least the same width as the parent menu item, even if that leaves extra space to the right.
 
