@@ -73,6 +73,8 @@ jsonCall("feed.json").done(function(data,textStatus,jqXHR) {
         const rankd = 1;
       }
 
+      // TODO: Scan titles and rank higher based on term in title.
+
       // scale snippet size based on ranking
       if (rankd > 10) {
         snipdLength = 10 * rankd;
@@ -96,7 +98,11 @@ jsonCall("feed.json").done(function(data,textStatus,jqXHR) {
         snipd = inputValue.slice(preindex, postindex);
       } else {
         snipd = "No relevant text here. Your query might be in an image.";
+        // TODO: Figure out if we can index images...
+        // TODO: Provide page sample instead of actual snippet if no clear example (e.g., the term is in the title).
       }
+
+      // TODO: Implement some sort of NOT feature.
 
       snipd = snipd.replace(re, `<b>${queried}</b>`);
       results.push({
