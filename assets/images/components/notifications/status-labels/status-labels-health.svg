@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="499px" height="307px" viewBox="0 0 499 307" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.1 (47250) - http://www.bohemiancoding.com/sketch -->
+    <title>status-labels-health</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="7 3.5 0 7 0 0"></polygon>
+        <polygon id="path-2" points="7 3.5 0 7 0 0"></polygon>
+        <polygon id="path-3" points="7 3.5 0 7 0 0"></polygon>
+        <polygon id="path-4" points="7 3.5 0 7 0 0"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="status-labels-health">
+            <text id="Ok" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" line-spacing="18" fill="#9E9E9E">
+                <tspan x="30" y="122">Ok</tspan>
+            </text>
+            <g id="Group" transform="translate(21.000000, 25.000000)">
+                <rect id="Label---Subdued-No-Fill" fill="#D32F2F" x="0" y="222" width="125" height="16" rx="8"></rect>
+                <text id="SUSPENDED" font-family="Roboto-Regular, Roboto" font-size="10" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="33.8652344" y="233">SUSPENDED</tspan>
+                </text>
+                <rect id="Label---Subdued-No-Fill" fill="#FBC02D" x="0" y="151" width="125" height="16" rx="8"></rect>
+                <text id="MAINTENANCE" font-family="Roboto-Regular, Roboto" font-size="10" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="27.1196289" y="162">MAINTENANCE</tspan>
+                </text>
+                <rect id="Label---Subdued-No-Fill" fill="#2E7D32" x="0" y="80" width="125" height="16" rx="8"></rect>
+                <text id="Active" font-family="Roboto-Regular, Roboto" font-size="10" font-weight="normal" fill="#FFFFFF">
+                    <tspan x="48.2353516" y="91">Active</tspan>
+                </text>
+                <rect id="Label---Subdued-No-Fill" stroke="#D8D8D8" x="0" y="9" width="125" height="16" rx="8"></rect>
+                <text id="Closed" font-family="Roboto-Regular, Roboto" font-size="10" font-weight="normal" fill="#D8D8D8">
+                    <tspan x="47.1337891" y="20">Closed</tspan>
+                </text>
+                <text id="Warning" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" line-spacing="18" fill="#9E9E9E">
+                    <tspan x="9" y="179">Warning</tspan>
+                </text>
+                <text id="Critical" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" line-spacing="18" fill="#9E9E9E">
+                    <tspan x="9" y="250">Critical</tspan>
+                </text>
+                <g id="specs-/-redlines-/-line-inclusive" transform="translate(208.000000, 18.000000) scale(-1, 1) translate(-208.000000, -18.000000) translate(158.000000, 4.000000)">
+                    <path d="M0,13.86 L100,13.86" id="redline-line" stroke="#EC407A" stroke-width="1"></path>
+                    <path d="M0.5,0.14 L0.5,27.86" id="Line" stroke="#F0367A" stroke-width="1" stroke-linecap="square"></path>
+                    <g id="specs-/-redlines-/-line-end-/-arrow" transform="translate(94.000000, 10.360000)">
+                        <g id="redline-end">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            <path stroke="#EC407A" stroke-width="1" d="M5.88196601,3.5 L0.5,0.809016994 L0.5,6.19098301 L5.88196601,3.5 Z"></path>
+                        </g>
+                    </g>
+                </g>
+                <text id="redline-label" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#EC407A">
+                    <tspan x="269" y="11">Text Color: #D8D8D8 (Gray 400)</tspan>
+                    <tspan x="269" y="25">Outline: 1px, #D8D8D8 (Gray 400)</tspan>
+                </text>
+                <g id="specs-/-redlines-/-line-inclusive" transform="translate(208.000000, 87.000000) scale(-1, 1) translate(-208.000000, -87.000000) translate(158.000000, 73.000000)">
+                    <path d="M0,13.86 L100,13.86" id="redline-line" stroke="#EC407A" stroke-width="1"></path>
+                    <path d="M0.5,0.14 L0.5,27.86" id="Line" stroke="#F0367A" stroke-width="1" stroke-linecap="square"></path>
+                    <g id="specs-/-redlines-/-line-end-/-arrow" transform="translate(94.000000, 10.360000)">
+                        <g id="redline-end">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+                            <path stroke="#EC407A" stroke-width="1" d="M5.88196601,3.5 L0.5,0.809016994 L0.5,6.19098301 L5.88196601,3.5 Z"></path>
+                        </g>
+                    </g>
+                </g>
+                <text id="redline-label" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#EC407A">
+                    <tspan x="269" y="80">Text Color: #ffffff (Gray 0)</tspan>
+                    <tspan x="269" y="94">Background: #2E7D32 (Green 900)</tspan>
+                </text>
+                <g id="specs-/-redlines-/-line-inclusive" transform="translate(208.000000, 158.000000) scale(-1, 1) translate(-208.000000, -158.000000) translate(158.000000, 144.000000)">
+                    <path d="M0,13.86 L100,13.86" id="redline-line" stroke="#EC407A" stroke-width="1"></path>
+                    <path d="M0.5,0.14 L0.5,27.86" id="Line" stroke="#F0367A" stroke-width="1" stroke-linecap="square"></path>
+                    <g id="specs-/-redlines-/-line-end-/-arrow" transform="translate(94.000000, 10.360000)">
+                        <g id="redline-end">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                            <path stroke="#EC407A" stroke-width="1" d="M5.88196601,3.5 L0.5,0.809016994 L0.5,6.19098301 L5.88196601,3.5 Z"></path>
+                        </g>
+                    </g>
+                </g>
+                <text id="redline-label" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#EC407A">
+                    <tspan x="269" y="151">Text Color: #ffffff (Gray 0)</tspan>
+                    <tspan x="269" y="165">Background: #FBC02D (Yellow 900)</tspan>
+                </text>
+                <g id="specs-/-redlines-/-line-inclusive" transform="translate(208.000000, 229.000000) scale(-1, 1) translate(-208.000000, -229.000000) translate(158.000000, 215.000000)">
+                    <path d="M0,13.86 L100,13.86" id="redline-line" stroke="#EC407A" stroke-width="1"></path>
+                    <path d="M0.5,0.14 L0.5,27.86" id="Line" stroke="#F0367A" stroke-width="1" stroke-linecap="square"></path>
+                    <g id="specs-/-redlines-/-line-end-/-arrow" transform="translate(94.000000, 10.360000)">
+                        <g id="redline-end">
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-4"></use>
+                            <path stroke="#EC407A" stroke-width="1" d="M5.88196601,3.5 L0.5,0.809016994 L0.5,6.19098301 L5.88196601,3.5 Z"></path>
+                        </g>
+                    </g>
+                </g>
+                <text id="redline-label" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" fill="#EC407A">
+                    <tspan x="269" y="222">Text Color: #ffffff (Gray 0)</tspan>
+                    <tspan x="269" y="236">Background: #D32F2F (Red 900)</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
