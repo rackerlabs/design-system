@@ -111,12 +111,12 @@ Use the left navigation component for web applications, unless there is a firm i
 
 ### When to use
 
-If you have a very large IA, you can use tertiary navigation elements. However, in most cases we recommend that you compress or sort the IA so that only primary and secondary links are needed.
+If you have a very large information architecture, you can use tertiary navigation elements. However, in most cases we recommend that you compress or sort the information architecture so that only primary and secondary links are needed.
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% figure [caption:"Tertiary navigation example using the MyRack application IA"] [class:"image bg-light border"] %}
+{% figure [caption:"Tertiary navigation example"] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/layout/navigation-left-tertiary.svg)
 {% endfigure %}
 

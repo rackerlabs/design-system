@@ -31,7 +31,7 @@ last-modified: 2017-08-30
 
 ### Best practice
 
-- The <a href="https://one.rackspace.com/display/reach/Pilot+Shared+Navigation">Pilot navigation API</a> is highly recommended for use in UIs which will be presented along side customer facing applications, such as MyRackspace, FAWS, or the Rackspace Cloud Control Panel.
+- The [Pilot navigation API](https://one.rackspace.com/display/reach/Pilot+Shared+Navigation) is highly recommended for use in UIs which will be presented along side customer facing applications, such as MyRackspace, FAWS, or the Rackspace Cloud Control Panel.
 - For UIs which will not be integrated with our customer facing product portfolio, the  guidelines in this article can be used to construct eyebrow navigation.
 
 
@@ -121,14 +121,14 @@ The logo can only be clickable when the application has a default landing page, 
 
 ### Structure
 
-- Nav items fill the height of the nav bar, and have 16 pixels of left and right padding.
-- The icon is 16 pixels, centered inside an 18 pixel space to facilitate better alignment for icons with different width and height ratios.
-- Icon nav items can spawn drop-down menus or just navigate the user directly to a new area.
+- Navigation items fill the height of the navigation bar, and have 16px of left and right padding.
+- The icon is 16px, centered inside an 18 px space to facilitate better alignment for icons with different width and height ratios.
+- Icon navigation items can spawn drop-down menus or just navigate the user directly to a new area.
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% figure [caption:"Nav item construction specifications"] [class:"image bg-light border"] %}
+{% figure [caption:"Navigation item construction specifications"] [class:"image bg-light border"] %}
 ![]({{site.baseurl}}/assets/images/components/navigation/eyebrow/nav-icon-structure.png){:width="620px"}
 {% endfigure %}
 {% endcolumn %}
@@ -146,18 +146,18 @@ The logo can only be clickable when the application has a default landing page, 
 ### States
 
 #### Hover & open
-- Hover state is also used as the “Open” state for nav items that spawn a dropdown.
+- Hover state is also used as the “Open” state for navigation items that spawn a dropdown.
 
 #### Disabled items
 
-- Disabled items receive the cursor: not-allowed style, to give an additional indicator that the user cannot access the hovered item.
-- Tooltips for disabled items are placed below the nav bar and must not go off screen.
+- Disabled items receive the `cursor: not-allowed` style, to give an additional indicator that the user cannot access the hovered item.
+- Tooltips for disabled items are placed below the navigation bar and must not go off screen.
 
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% figure [caption:"Nav item states"] [class:"image bg-light border"] %}
+{% figure [caption:"Navigation item states"] [class:"image bg-light border"] %}
 ![]({{site.baseurl}}/assets/images/components/navigation/eyebrow/nav-icon-states.png){:width="620px"}
 {% endfigure %}
 {% endcolumn %}
@@ -167,7 +167,7 @@ The logo can only be clickable when the application has a default landing page, 
 
 <section class="static-section" markdown="1">
 
-## Drop-down nav
+## Drop-down navigation
 
 <div class="hxRow"  markdown="1">
 
@@ -175,14 +175,14 @@ The logo can only be clickable when the application has a default landing page, 
 
 ### Structure
 
-- Nav items fill the height of the nav bar, and have 16 pixels of left and right padding.
-- The icon is 16 pixels, centered inside an 18 pixel space to facilitate better alignment for icons with different width and height ratios.
-- Icon nav items can spawn drop-down menus or just navigate the user directly to a new area.
+- Navigation items fill the height of the navigation bar, and have 16px of left and right padding.
+- The icon is 16 px, centered inside an 18px space to facilitate better alignment for icons with different width and height ratios.
+- Icon navigation items can spawn drop-down menus or just navigate the user directly to a new area.
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% figure [caption:"Username construction           "] [class:"image bg-light border"] %}
+{% figure [caption:"Username construction"] [class:"image bg-light border"] %}
 ![]({{site.baseurl}}/assets/images/components/navigation/eyebrow/drop-down-structure.png){:width="620px"}
 {% endfigure %}
 {% endcolumn %}
@@ -201,12 +201,12 @@ The logo can only be clickable when the application has a default landing page, 
 
 #### Hover & open
 
-- Hover state is also used as the “Open” state for nav items that spawn a dropdown.
+- Hover state is also used as the “Open” state for navigation items that spawn a dropdown.
 
 #### Disabled state
 
-- Disabled state receives the cursor: not-allowed style, to give an additional indicator that the user cannot access the hovered item.
-- Tooltips for disabled drop-downs are placed below the nav bar and must not go off screen.
+- Disabled state receives the `cursor: not-allowed` style, to give an additional indicator that the user cannot access the hovered item.
+- Tooltips for disabled drop-downs are placed below the navigation bar and must not go off screen.
 
 {% endcolumn %}
 
@@ -230,7 +230,7 @@ The logo can only be clickable when the application has a default landing page, 
 ### When to use
 
 - Use when the eyebrow item offers navigation to more than one destination.
-- Drop-down menus can be safely used with Icon Nav Items.
+- Drop-down menus can be safely used with icon navigation items.
 - Use drop-down menu items as direct links to any secondary sections of the destination
 
 
@@ -260,13 +260,13 @@ The logo can only be clickable when the application has a default landing page, 
 
 ### Structure
 
-- The drop-down menu has the same background color as the nav bar that spawned it.  In this case, the background is black: `#000000` (Gray 1000).
-- Menu’s can be divided into sections to enhance readability.
-- The top section has 20 pixels of space on top, with 16 pixels of space on bottom.
-- The bottom section has 16 pixels of space on top, and 20 pixels on bottom.
-- Any sections between top and bottom have 16 pixels of space on both top and bottom.
-- The minimum width of the menu is the width of the parent nav item.
-- The max-width is 280 pixels. At 280 pixels, menu item labels should truncate with the ellipses.
+- The drop-down menu has the same background color as the navigation bar that spawned it.  In this case, the background is black: `#000000` (Gray 1000).
+- Menus can be divided into sections to enhance readability.
+- The top section has 20px of space on top, with 16px of space on bottom.
+- The bottom section has 16px of space on top, and 20px on bottom.
+- Any sections between top and bottom have 16px of space on both top and bottom.
+- The minimum width of the menu is the width of the parent navigation item.
+- The max-width is 280px. At 280px, menu item labels should truncate with the ellipses.
 
 
 {% endcolumn %}
@@ -290,7 +290,7 @@ The logo can only be clickable when the application has a default landing page, 
 
 ### Structure
 
-- To achieve 20 pixels of space around the edge of the entire menu, each menu item has 20 pixels of left and right padding.
+- To achieve 20px of space around the edge of the entire menu, each menu item has 20px of left and right padding.
 
 {% endcolumn %}
 
@@ -314,10 +314,10 @@ The logo can only be clickable when the application has a default landing page, 
 
 #### Selected items
 - When the user has navigated to a specific section using the dropdown menu, the menu item for that section receives the selected state.
-- Selected state and hover share the same specifications, meaning that a selected nav item has no hover state.
+- Selected state and hover share the same specifications, meaning that a selected navigation item has no hover state.
 
 #### Disabled items
-- Disabled items receive the cursor: not-allowed style, to give an additional indicator that the user cannot access the hovered item.
+- Disabled items receive the `cursor: not-allowed` style, to give an additional indicator that the user cannot access the hovered item.
 - Tooltips for disabled items are placed to the left or right of the item and must not go off screen.
 
 
@@ -369,7 +369,7 @@ The logo can only be clickable when the application has a default landing page, 
 
 - Use key-value items when there is a need to present important info at a high level, such as account number in the account dropdown, or timezone in the user dropdown.
 - Key-value items in the menu are not navigable, meaning that they cannot be clicked on to navigate, and they do not feature interactive states.
-- Key value items should be selectable using the cursor, so that the user may copy and paste the info, such as account number.
+- Key-value items should be selectable using the cursor, so that the user may copy and paste the info, such as account number.
 
 
 {% endcolumn %}
@@ -393,7 +393,7 @@ The logo can only be clickable when the application has a default landing page, 
 ### Structure
 
 - When a single important action is presented in a drop-down menu, it is always positioned at the bottom of the menu.
-- The button is standard height but fills the available width of the container, allowing for 20 pixels of space on the left and right.
+- The button is standard height but fills the available width of the container, allowing for 20px of space on the left and right.
 - The most common use case for this is the log out button, which exists under the user dropdown in the Pilot navigation API.
 
 
