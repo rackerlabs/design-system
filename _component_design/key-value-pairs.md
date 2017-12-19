@@ -4,7 +4,7 @@ parent: Content Areas
 layout: component
 category: Components
 usage: >
-   Key-value pairs display data (the value) that corresponds to a label (the key). Color and alignment of key-value pairs allow the user to scan the page quickly for relevant data.
+   Key-value pairs display a label (the key) with the corresponding data (the value). Color and alignment of key-value pairs allow the user to scan the page quickly for relevant data.
 preview-image: preview-images/key-value.svg
 resource: true
 status: stable
@@ -23,15 +23,15 @@ last-modified: 2017-11-07
 
 ### When to use
 
-Use key-value pairs when a key, an identifier for data, needs either a text or visual display of that key's corresponding value.
+Use key-value pairs when a key (label) needs either text or a visual display of that key’s corresponding value (data).
 
 ### Best practices
 
-- Ensure key values correspond with the label used for the data.
-- Limit key values to one line.
+- Ensure the key (label) corresponds with the data (value).
+- Limit key-value pairs to one line.
 - Follow the Helix grid guidelines for spacing and placement.
 - Use icons sparingly.
-- Use the vertical key pattern if key value sections are arranged on the page side by side.
+- Use the vertical key pattern if key-value pair sections are arranged on the page side by side.
 - Consider breaking key-value pairs into subgroups if there are more than five sets of pairs.
 
 {% endcolumn %}
@@ -58,9 +58,9 @@ Use key-value pairs when a key, an identifier for data, needs either a text or v
 
 ### Default layout
 
-Key-value pairs are contained in the body of the page by default. Keys such as "Ticket ID" display on the left and are right-aligned. Values (such as "Summary" display on the right and are left-aligned.
+Key-value pairs are contained in the body of the page by default. Key labels such as "Ticket ID" display on the left and are right-aligned. Data values such as "Summary" display on the right and are left-aligned.
 
-To determine the indentation of key-value pairs, use two columns on the Helix grid for key values and four columns for data values. Space between the key and data values must align with the grid gutter between the second and third columns.
+To determine the indentation of key-value pairs, use two columns on the Helix grid for key labels and four columns for data values. Space between the key labels and data values must align with the grid gutter between the second and third columns.
 
 {% endcolumn %}
 
@@ -84,7 +84,7 @@ To determine the indentation of key-value pairs, use two columns on the Helix gr
 
 ### Two lines
 
-In certain cases, key-value pair text can wrap to two lines. We recommend formatting key labels across two columns and values across four.
+In certain cases, key-value pair text can wrap to two lines. We recommend formatting key labels across two columns and data  values across four columns.
 
 {% endcolumn %}
 
@@ -132,7 +132,7 @@ You can use icons, compact tertiary buttons, and text links in key-value pairs.
 
 ### Loading state
 
-If a value is still being called, list the key label, and then the word "Loading" followed by an ellipses for the value.
+If a data value is still being called, list the key label, and then the word "Loading" followed by an ellipses for the data value.
 
 {% endcolumn %}
 
@@ -156,7 +156,7 @@ If a value is still being called, list the key label, and then the word "Loading
 
 ### Vertical key values
 
-If multiple key-value pairs are listed next to each other on the body of the page, use vertical key-value pairs. Vertical key value pairs list the key value above the data value at a maximum width of four columns on the Helix grid. Do not place more than three vertical key-value pairs on the page.
+If multiple key-value pairs are listed next to each other on the body of the page, use vertical key-value pairs. Vertical key-value pairs list the key label above the data value at a maximum width of four columns on the Helix grid. Do not place more than three vertical key-value pairs on the page.
 
 {% endcolumn %}
 
