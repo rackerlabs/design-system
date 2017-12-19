@@ -15,9 +15,12 @@ helix-ui-javascript: false
 
 {% include toc.html %}
 
+<section class="static-section" markdown="1">
+
 ## Introduction
 
 <div class="hxRow"  markdown="1">
+
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### When to use
@@ -43,18 +46,27 @@ Nested tables allow the nesting of additional levels of data within a table.
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 {% figure [caption:"Meet the nested table pattern"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/tables/nested-tables/tables-nested-hero.svg)
 {% endfigure %}
+
 {% figure [caption:"Nested table interactions"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/tables/nested-tables/tables-nested-ixd.svg)
 {% endfigure %}
+
 {% endcolumn %}
+
 </div>
+
+</section>
+
+<section class="static-section" markdown="1">
 
 ## Variations
 
 <div class="hxRow"  markdown="1">
+
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Explanatory text variation
@@ -64,13 +76,21 @@ Use this variation of an expandable table to add additional supporting text to a
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 {% figure [caption:"Nested table IxD"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/tables/nested-tables/tables-explanatory.svg)
 {% endfigure %}
+
 {% endcolumn %}
+
 </div>
 
+</section>
+
+<section class="static-section" markdown="1">
+
 <div class="hxRow"  markdown="1">
+
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Key: Value variation
@@ -80,13 +100,21 @@ Use this variation of an expandable table to add additional key value pairs of a
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 {% figure [caption:"Key: Value expandable row. NOT TO SCALE"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/tables/nested-tables/tables-key-value.svg)
 {% endfigure %}
+
 {% endcolumn %}
+
 </div>
 
+</section>
+
+<section class="static-section" markdown="1">
+
 <div class="hxRow"  markdown="1">
+
 {% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
 
 ### Aggregate data variation
@@ -96,8 +124,13 @@ Use the aggregate data table to show primary, secondary, and tertiary values of 
 {% endcolumn %}
 
 {% column right:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
+
 {% figure [caption:"Aggregate nested table specs. NOT TO SCALE"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/tables/nested-tables/tables-aggregate.svg)
 {% endfigure %}
+
 {% endcolumn %}
+
 </div>
+
+</section>

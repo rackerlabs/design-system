@@ -5,7 +5,7 @@ layout: component
 category: Components
 usage: Teaser Text
 preview-image: preview-images/charts.svg
-resource: true
+resource: false
 status: in-progress
 need: charts
 last-modified: 2017-08-17

@@ -27,25 +27,17 @@
         <div class="base-top-bar">
           <div class="content-wrapper">
           <div class="hxRow">
-            <div class="hxCol-8">
-              <nav class="hxBreadcrumb">
-                <a href="{{site.url}}/components/index.html">{{page.category}}</a>
-                <hx-icon class="delimiter" type="angle-right"></hx-icon>
-                  {%- for item in site.component_design -%}
-                    {%- if page.title == item.title -%}
-                      <a href="{{site.url}}/components/{{page.parent | slugify}}.html">{{item.parent}}</a>
-                    {%- endif -%}
-                  {%- endfor -%}
-                <hx-icon class="delimiter" type="angle-right"></hx-icon>
-                <a href="{{page.url}}">{{page.title}}</a>
-              </nav>
-            </div>
-            <div class="hxCol-2 hxOffset-2">
-              <a class="hxBtn hxBtn--sm" id="link" href="https://github.com/rackerlabs/design-system/issues/new?title=Issue%20Regarding%20-%20{{page.url}}">Submit issue</a>
-            </div>
-            <!--<div class="hxCol-2">
-              <button class="hxBtn hxBtn--primary hxBtn--sm">Sketch template</button>
-            </div>-->
+            <nav class="hxBreadcrumb">
+              <a href="{{site.url}}/components/index.html">{{page.category}}</a>
+              <hx-icon class="delimiter" type="angle-right"></hx-icon>
+                {%- for item in site.component_design -%}
+                  {%- if page.title == item.title -%}
+                    <a id="breadcrumbLink">{{item.parent}}</a>
+                  {%- endif -%}
+                {%- endfor -%}
+              <hx-icon class="delimiter" type="angle-right"></hx-icon>
+              <a href="{{page.url}}">{{page.title}}</a>
+            </nav>
           </div>
         </div>
       </div>

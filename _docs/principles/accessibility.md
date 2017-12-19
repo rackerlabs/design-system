@@ -131,7 +131,7 @@ Helix minimum contrast standards require the following elements:
 
 The use of space in visual design provides for designs that are both clear and pleasing to the eyes. Space creates relationships, defines hierarchies, and emphasizes content. Always keep these in mind when considering how to reduce visual noise and create visual flow in your design.
 
-Some people with cognitive disabilities find it difficult to read text when the lines are close together. Providing extra space between lines and paragraphs allows them to better track the next line and to recognize when they have reached the end of a paragraph. The [WCAG](https://www.w3.org/TR/WCAG20/)prescribes prescribes that line spacing (leading) is at least space-and-a-half within paragraphs, and paragraph spacing is at least 1.5 times larger than the line spacing.
+Some people with cognitive disabilities find it difficult to read text when the lines are close together. Providing extra space between lines and paragraphs allows them to better track the next line and to recognize when they have reached the end of a paragraph. The [WCAG](https://www.w3.org/TR/WCAG20/) prescribes that line spacing (leading) is at least space-and-a-half within paragraphs, and paragraph spacing is at least 1.5 times larger than the line spacing.
 
 {% endcolumn %}
 
@@ -221,7 +221,7 @@ In this example, we provide a clear visual feedback that the focus has moved to 
 
 ### Tools
 
-These best practices are not exhaustive, and they are not necessarily applicable to every situation. However, they do cover the major areas for concern when designing for visual accessibility. It is more important to take away the principles so that you can integrate them into your design processes. Ultimately, improving accessibility benefits all users by providing greater ease of use to everyone.
+These best practices are not exhaustive, and they are not necessarily applicable to every situation. However, they do cover the major areas for concern when designing for visual accessibility. It is more important to understand the principles so that you can integrate them into your design processes. Ultimately, improving accessibility benefits all users by providing greater ease of use to everyone.
 
 There are many tools that can help you with accessibility. Check them out to learn more:
 

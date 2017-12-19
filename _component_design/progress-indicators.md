@@ -13,6 +13,8 @@ last-modified: 2017-08-17
 
 {% include toc.html %}
 
+<section class="static-section" markdown="1">
+
 <div class="misc-wrap">
   <div class="progChart -type-donut -label-centered">
     <canvas id="credsEarned">
@@ -28,3 +30,5 @@ last-modified: 2017-08-17
     <a href="#">CME credits available</a>.
   </p>
 </div>
+
+</section>

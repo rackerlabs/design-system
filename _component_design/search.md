@@ -13,12 +13,17 @@ last-modified: 2017-11-07
 
 {% include toc.html %}
 
+<section class="static-section" markdown="1">
+
 ## Introduction
 
 <div class="hxRow" markdown="1">
+
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
 ### When to use
-When an app supports large amounts of information, users can quickly locate content by searching
+
+When an app supports large amounts of information, users can quickly locate content by searching.
 
 ### Best practices
 
@@ -29,21 +34,27 @@ When an app supports large amounts of information, users can quickly locate cont
 
 {% endcolumn %}
 
-
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 {% figure [caption:"Search implemented in the support delivery platform UI"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/search-and-filters/search-bar/search-hero.svg)
 {% endfigure %}
+
 {% endcolumn %}
+
 </div>
 
+</section>
+
+<section class="static-section" markdown="1">
+
 ## Specifications
+
 <div class="hxRow" markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Basic search bar
-
 
 Search bars utilize the same text specifications defined in [text inputs]({{site.baseurl}}/components/text-fields.html).
 
@@ -52,12 +63,18 @@ By default, the search bar will extend across the full width of its container. W
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 {% figure [caption:"Basic search bar"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/search-and-filters/search-bar/search-basic.svg)
 {% endfigure %}
+
 {% endcolumn %}
 
 </div>
+
+</section>
+
+<section class="static-section" markdown="1">
 
 <div class="hxRow" markdown="1">
 
@@ -73,16 +90,21 @@ The basic search bar component has the following states:
 - **Error:** Displayed in the event an error occurs within the search.
 - **Error & focused:** After an error has occurred and a user has focused the search bar. The search bar will re-enter a focused state once the error is remedied.
 
-
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 {% figure [caption:"Basic search bar states"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/search-and-filters/search-bar/search-states.svg)
 {% endfigure %}
+
 {% endcolumn %}
 
 </div>
+
+</section>
+
+<section class="static-section" markdown="1">
 
 <div class="hxRow" markdown="1">
 
@@ -94,16 +116,21 @@ The basic search bar component has the following states:
 - Padding around edges of search box: 8px.
 - When displaying an error message or "no search results" message, place 4px below the search bar.
 
-
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 {% figure [caption:"Spacing specifications"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/search-and-filters/search-bar/search-spacing.svg)
 {% endfigure %}
+
 {% endcolumn %}
 
 </div>
+
+</section>
+
+<section class="static-section" markdown="1">
 
 <div class="hxRow" markdown="1">
 
@@ -116,9 +143,13 @@ The 'no results' state mimics the 'Idle & filled' state and displays a specializ
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 {% figure [caption:"No results state"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/search-and-filters/search-bar/search-no-results.svg)
 {% endfigure %}
+
 {% endcolumn %}
 
 </div>
+
+</section>

@@ -13,6 +13,8 @@ last-modified: 2017-11-05
 
 {% include toc.html %}
 
+<section class="static-section" markdown="1">
+
 ## Introductions
 
 <div class="hxRow" markdown="1">
@@ -28,14 +30,21 @@ last-modified: 2017-11-05
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 {% figure [caption:"The toast notification component"] [class:"image bg-light border"] %}
 ![]({{site.baseurl}}/assets/images/components/notifications/toasts/toast-hero.svg)
 {% endfigure %}
+
 {% endcolumn %}
 
 </div>
 
+</section>
+
+<section class="static-section" markdown="1">
+
 <div class="hxRow" markdown="1">
+
 {% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
 
 ### Best Practices
@@ -49,6 +58,10 @@ last-modified: 2017-11-05
 {% endcolumn %}
 
 </div>
+
+</section>
+
+<section class="static-section" markdown="1">
 
 ## Specifications
 
@@ -69,13 +82,18 @@ Icons are always centered vertically.
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 {% figure [caption:"Default toast notifications specifications"] [class:"image bg-light border"] %}
 ![]({{site.baseurl}}/assets/images/components/notifications/toasts/toast-specifications.svg)
 {% endfigure %}
+
 {% endcolumn %}
 
-
 </div>
+
+</section>
+
+<section class="static-section" markdown="1">
 
 ## Variations
 
@@ -90,12 +108,18 @@ Clicking on the “X” dismisses the toast notification. There are no other act
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 {% figure [caption:"Toast notifications without CTA"] [class:"image bg-light border"] %}
 ![]({{site.baseurl}}/assets/images/components/notifications/toasts/toast-wo-cta.svg)
 {% endfigure %}
+
 {% endcolumn %}
 
 </div>
+
+</section>
+
+<section class="static-section" markdown="1">
 
 <div class="hxRow" markdown="1">
 
@@ -110,12 +134,18 @@ In the informational toast notification example here, the height of the toast in
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 {% figure [caption:"Toast notifications with CTA"] [class:"image bg-light border"] %}
 ![]({{site.baseurl}}/assets/images/components/notifications/toasts/toast-w-cta.svg)
 {% endfigure %}
+
 {% endcolumn %}
 
 </div>
+
+</section>
+
+<section class="static-section" markdown="1">
 
 ## Behaviors
 
@@ -134,9 +164,13 @@ The toast fades into place over `400 ms`, sits in place for 8 s seconds, and fad
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 {% figure [caption:"Placement, animation, and stacking of toast notifications in context"] [class:"image bg-light border"] %}
 ![]({{site.baseurl}}/assets/images/components/notifications/toasts/toast-behaviors.png)
 {% endfigure %}
+
 {% endcolumn %}
 
 </div>
+
+</section>

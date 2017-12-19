@@ -15,9 +15,12 @@ last-modified: 2017-10-23
 
 {% include toc.html %}
 
+<section class="static-section" markdown="1">
+
 ## Introduction
 
 <div class="hxRow"  markdown="1">
+
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### When to use
@@ -34,15 +37,23 @@ Use a switch if the user is turning something on or off, or saying yes or no to 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 {% figure [caption:"Meet the switch component"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/inputs-and-controls/switches/switch-hero.svg)
 {% endfigure %}
+
 {% endcolumn %}
+
 </div>
+
+</section>
+
+<section class="static-section" markdown="1">
 
 ## Default layout
 
 <div class="hxRow"  markdown="1">
+
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 The default switch does not contain text.
@@ -52,15 +63,23 @@ If text is used, it should be aligned vertically and horizontally within the spa
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 {% figure [caption:"Switch sizing specs"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/inputs-and-controls/switches/switch-default-layout.svg)
 {% endfigure %}
+
 {% endcolumn %}
+
 </div>
+
+</section>
+
+<section class="static-section" markdown="1">
 
 ## States
 
 <div class="hxRow"  markdown="1">
+
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 Enabled (default), hover, disabled, and error states. If you are not using any text, be sure to change the length to 56px.
@@ -72,16 +91,23 @@ Best practice form design does not allow a switch to exist in an error state, so
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 {% figure [caption:"Detailed specifications for on and off states of a switch"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/inputs-and-controls/switches/switch-states.svg)
 {% endfigure %}
+
 {% endcolumn %}
 
 </div>
 
+</section>
+
+<section class="static-section" markdown="1">
+
 ## Context
 
 <div class="hxRow"  markdown="1">
+
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 - Use the switch 12px to the left of the prompt and centered horizontally.
@@ -92,8 +118,13 @@ Best practice form design does not allow a switch to exist in an error state, so
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 {% figure [caption:"Contextual placement of switches"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/inputs-and-controls/switches/switch-context.svg)
 {% endfigure %}
+
 {% endcolumn %}
+
 </div>
+
+</section>
