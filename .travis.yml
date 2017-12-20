@@ -14,11 +14,12 @@ addons:
     packages:
     - sshpass
 before_script:
+- if [ $TRAVIS_BRANCH = 'staging' ]; then sshpass -e ssh -T $DEPLOY_USER@$DEPLOY_STAGING_HOST; fi
+- if [ $TRAVIS_BRANCH = 'master' ]; then sshpass -e ssh -T $DEPLOY_USER@$DEPLOY_PROD_HOST; fi
 - bundle install
 script:
-  - if [ $TRAVIS_BRANCH = 'staging' ]; then bundle exec jekyll build --config _config.yml,_staging-config.yml; fi
-  - if [ $TRAVIS_BRANCH = 'master' ]; then bundle exec jekyll build --config _config.yml,_prod-config.yml; fi
-
+- if [ $TRAVIS_BRANCH = 'staging' ]; then bundle exec jekyll build --config _config.yml,_staging-config.yml; fi
+- if [ $TRAVIS_BRANCH = 'master' ]; then bundle exec jekyll build --config _config.yml,_prod-config.yml; fi
 after_success:
 - mv _site design-system
 - tar -czf package.tgz design-system
@@ -30,4 +31,7 @@ after_success:
 - test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "master" && sshpass -e ssh $DEPLOY_USER@$DEPLOY_PROD_HOST $DEPLOY_PATH/deploy-design-system.sh
 notifications:
   slack:
-    secure: pnmMkbxQt0rbioJRwL64lGEoryRqWDH0If4oCssVAP6+k+5h3CDMCeINpfkFhG3Oqro0pKVQnFjiXhDGTInFGX2cTjNm6khyOb0E4q1uRbEBJ2P4xWrfnLcjwq8JTszB1P78yXB/NkuWK2ZmTXWjFYw0FtLOgklvNzjARzxGQEzBn6LrcTmWGy/fxq2E0GdGNQ6xPFJt0Eof9+6Z7aoFUGpobZWHneqrR0yGSPO/CLLxB88jWOuMQLwrgGg3Ua/u/HLgNpdq6h5RhVh25PGZa+MB9pdXRRqbR5FuTIA5uxmG0lAemlcynonPDOvh1bUGKh0z0bhUJC54Nufe+pib2s2ySll+R/rHYdqp6qJ9p6VuMjwezdMq8OAmFKPzsA5isVj1MTW4qxja5zfsIWeRE558kHSvlTxu0MwUqdfM8CuBppUfJZ7QQ1lGpaeLsfJfHxbJbvUi6XeNnf+ffoYsCTKKfxA0JzcReLC5cq25nqMxC/dEEH4RY3VC519tdjjZDc+fYA8e2pO6QUbdXsUnnwOXBleKt1n556c7MWguAcaCwnifJrSFHC8GVPX4L61Ta75ul8TcuNQIMkY5DAgsUYg5+OnWfM2bu1p8kiGc8TthVtezJe5AfXxoLQBZQQdtX/uovCVZiUjaafpmapNGcMwhHIDmbPWwM7JdQgs8eH4=
+    matrix:
+    - secure: pnmMkbxQt0rbioJRwL64lGEoryRqWDH0If4oCssVAP6+k+5h3CDMCeINpfkFhG3Oqro0pKVQnFjiXhDGTInFGX2cTjNm6khyOb0E4q1uRbEBJ2P4xWrfnLcjwq8JTszB1P78yXB/NkuWK2ZmTXWjFYw0FtLOgklvNzjARzxGQEzBn6LrcTmWGy/fxq2E0GdGNQ6xPFJt0Eof9+6Z7aoFUGpobZWHneqrR0yGSPO/CLLxB88jWOuMQLwrgGg3Ua/u/HLgNpdq6h5RhVh25PGZa+MB9pdXRRqbR5FuTIA5uxmG0lAemlcynonPDOvh1bUGKh0z0bhUJC54Nufe+pib2s2ySll+R/rHYdqp6qJ9p6VuMjwezdMq8OAmFKPzsA5isVj1MTW4qxja5zfsIWeRE558kHSvlTxu0MwUqdfM8CuBppUfJZ7QQ1lGpaeLsfJfHxbJbvUi6XeNnf+ffoYsCTKKfxA0JzcReLC5cq25nqMxC/dEEH4RY3VC519tdjjZDc+fYA8e2pO6QUbdXsUnnwOXBleKt1n556c7MWguAcaCwnifJrSFHC8GVPX4L61Ta75ul8TcuNQIMkY5DAgsUYg5+OnWfM2bu1p8kiGc8TthVtezJe5AfXxoLQBZQQdtX/uovCVZiUjaafpmapNGcMwhHIDmbPWwM7JdQgs8eH4=
+    rooms:
+      secure: SgNa6IMFqW8jL40aIY52T2WPcq893ur8Gt6llqqnBfbCVIhfO1kXPfa4NmjqeOcNH801gHQhAptCSeo7sFt0sHeQpuHlHtAmHTyC6LbUutq51Vls/7IEBHKXc7ca0Vlku47Fy9dDglmaaoUfoPVQmsFYd/PtYULbO1oyGP3+6AsHQJROKf6gJR8a2Q8fmWfPfWHE9AqYej86TotnE81REDQdWyVQZmFtI2elG0N3pOsSWBtQmiwEuw32qLg3DdKwH5sM17hX1uJ9GohT8r9KWAqXbf++0d7OnC/zpCopG3VZQmoSwXbnW9aS2JrziSTFkBq9FhIOxm8wEO6D68xEzOEffohmzvjwWrVLY6KDrJw9lIviBJeL9A6Oa/b7jVXnOV7oP70FcLjIR3VgLPkUxT4qBLxKQN4wBQgWsP8i6nVtD26G5BjAf78qeiqoxA+GGyOO/fN46x613lHlT/8o2ipvPhCgkSTnz2W6f8NV4gg9j1ujYCuo3B/Q/hMM8Fqidey0jJDM9el47BS8Ox0rbC/WBTIlxqfnbijc03mvbOV2h5mjRKGu+EiSbZVZ70dHrcIcc0ZNMCVt/xkPgsHSyzfIVsNgi9sspbz2eLCLdRJwL6C81eHwQFTvTKAhQrvPEienVOaBHh17WaIWNsb0qGcPyzxN2SSpR69EIY0WvgY=
