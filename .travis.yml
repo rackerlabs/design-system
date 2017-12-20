@@ -25,7 +25,7 @@ script:
 after_success:
 - mv _site design-system
 - tar -czf package.tgz design-system
-- test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "staging" && export SSHPASS=$DEPLOY_PASS
+- if [ $TRAVIS_PULL_REQUEST == "false" && $TRAVIS_BRANCH == "staging"]; then export SSHPASS=$DEPLOY_PASS; fi
 - test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "staging" && sshpass -e scp -o StrictHostKeyChecking=no package.tgz $DEPLOY_USER@$DEPLOY_STAGING_HOST:$DEPLOY_PATH
 - test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "staging" && sshpass -e ssh $DEPLOY_USER@$DEPLOY_STAGING_HOST $DEPLOY_PATH/deploy-design-system.sh
 - test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "master" && export SSHPASS=$DEPLOY_PASS
