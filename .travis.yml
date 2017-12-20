@@ -16,8 +16,8 @@ addons:
 before_script:
 - if [ $TRAVIS_BRANCH = 'staging' ]; then export SSHPASS=$DEPLOY_PASS; fi
 - if [ $TRAVIS_BRANCH = 'master' ]; then export SSHPASS=$DEPLOY_PASS; fi
-- test $TRAVIS_BRANCH = 'staging' && sshpass -e ssh $DEPLOY_USER@$DEPLOY_STAGING_HOST echo "hi"
-- if [ $TRAVIS_BRANCH = 'master' ]; then sshpass -e ssh $DEPLOY_USER@$DEPLOY_PROD_HOST echo "hi"; fi
+- if [ $TRAVIS_BRANCH = 'staging' ]; then sshpass -e ssh $DEPLOY_USER@$DEPLOY_STAGING_HOST -p22 echo "hi"; fi
+- if [ $TRAVIS_BRANCH = 'master' ]; then sshpass -e ssh $DEPLOY_USER@$DEPLOY_PROD_HOST -p22 echo "hi"; fi
 - bundle install
 script:
 - if [ $TRAVIS_BRANCH = 'staging' ]; then bundle exec jekyll build --config _config.yml,_staging-config.yml; fi
