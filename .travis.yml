@@ -22,7 +22,7 @@ after_success:
 - mv _site design-system
 - tar -czf package.tgz design-system
 - if [ $TRAVIS_BRANCH = 'staging' ]; then export SSHPASS=$DEPLOY_PASS && echo "exported staging"; fi
-- if [ $TRAVIS_BRANCH = 'staging' ]; then sshpass -e ssh $DEPLOY_USER@$DEPLOY_STAGING_HOST -p22 echo "hi" && echo "sshtest staging complete"; fi
+- test $TRAVIS_BRANCH == "staging" &&  sshpass -e ssh $DEPLOY_USER@$DEPLOY_STAGING_HOST -p22 echo "hi" && echo "sshtest staging complete"
 - test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "staging" && sshpass -e scp -o StrictHostKeyChecking=no package.tgz $DEPLOY_USER@$DEPLOY_STAGING_HOST:$DEPLOY_PATH
 - test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "staging" && sshpass -e ssh $DEPLOY_USER@$DEPLOY_STAGING_HOST $DEPLOY_PATH/deploy-design-system.sh
 - if [ $TRAVIS_BRANCH = 'master' ]; then export SSHPASS=$DEPLOY_PASS && echo "exported prod"; fi
