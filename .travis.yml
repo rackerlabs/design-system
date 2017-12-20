@@ -16,7 +16,7 @@ addons:
 before_script:
 - bundle install
 - if [ $TRAVIS_BRANCH = 'staging' ]; then export SSHPASS=$DEPLOY_PASS && echo "exported staging"; fi
-- if [ $TRAVIS_BRANCH = 'staging' ]; then echo "sshpass -e ssh ${DEPLOY_USER}@${DEPLOY_STAGING_HOST} ${DEPLOY_PATH}/say-hi.sh" && echo "sshtest staging complete"; fi
+- if [ $TRAVIS_BRANCH = 'staging' ]; then echo "sshpass -e ssh DEPLOY_USER@DEPLOY_STAGING_HOST DEPLOY_PATH/say-hi.sh" && echo "sshtest staging complete"; fi
 - if [ $TRAVIS_BRANCH = 'master' ]; then export SSHPASS=$DEPLOY_PASS && echo "exported prod"; fi
 - if [ $TRAVIS_BRANCH = 'master' ]; then sshpass -e ssh $DEPLOY_USER@$DEPLOY_PROD_HOST $DEPLOY_PATH/say-hi.sh && echo "sshtest prod complete"; fi
 
@@ -27,6 +27,7 @@ after_success:
 - mv _site design-system
 - tar -czf package.tgz design-system
 - if [ $TRAVIS_BRANCH = 'staging' ]; then export SSHPASS=$DEPLOY_PASS && echo "exported staging"; fi
+- if [ $TRAVIS_BRANCH = 'staging' ]; then echo "${DEPLOY_USER}@${DEPLOY_STAGING_HOST} $DEPLOY_PATH"
 - test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "staging" && sshpass -e scp -o StrictHostKeyChecking=no package.tgz $DEPLOY_USER@$DEPLOY_STAGING_HOST:$DEPLOY_PATH
 - test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "staging" && sshpass -e ssh $DEPLOY_USER@$DEPLOY_STAGING_HOST $DEPLOY_PATH/deploy-design-system.sh
 - if [ $TRAVIS_BRANCH = 'master' ]; then export SSHPASS=$DEPLOY_PASS && echo "exported prod"; fi
