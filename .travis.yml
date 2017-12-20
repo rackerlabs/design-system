@@ -14,9 +14,9 @@ addons:
     packages:
     - sshpass
 before_script:
-- if [ $TRAVIS_BRANCH = 'staging' ]; then export SSHPASS=$DEPLOY_PASS; fi
-- if [ $TRAVIS_BRANCH = 'master' ]; then export SSHPASS=$DEPLOY_PASS; fi
-- if [ $TRAVIS_BRANCH = 'staging' ]; then sshpass -e ssh $DEPLOY_USER@$DEPLOY_STAGING_HOST -p22 echo "hi"; fi
+- if [ $TRAVIS_BRANCH = 'staging' ]; then export SSHPASS=$DEPLOY_PASS && echo "exported staging"; fi
+- if [ $TRAVIS_BRANCH = 'master' ]; then export SSHPASS=$DEPLOY_PASS && echo "exported prod"; fi
+- test $TRAVIS_BRANCH == "staging" && sshpass -e ssh $DEPLOY_USER@$DEPLOY_STAGING_HOST -p22 echo "hi" && echo "sshtest staging complete"
 - if [ $TRAVIS_BRANCH = 'master' ]; then sshpass -e ssh $DEPLOY_USER@$DEPLOY_PROD_HOST -p22 echo "hi"; fi
 - bundle install
 script:
