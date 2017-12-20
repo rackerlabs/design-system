@@ -15,25 +15,25 @@ addons:
     - sshpass
 before_script:
 - bundle install
-- if [ $TRAVIS_PULL_REQUEST = 'false' && $TRAVIS_BRANCH = 'staging' ]; then export SSHPASS=$DEPLOY_PASS && echo "exported staging"; fi
-- if [ $TRAVIS_PULL_REQUEST = 'false' && $TRAVIS_BRANCH = 'staging' ]; then sshpass -e ssh $DEPLOY_USER@$DEPLOY_STAGING_HOST $DEPLOY_PATH/say-hi.sh && echo "sshtest staging complete"; fi
-- if [ $TRAVIS_PULL_REQUEST = 'false' && $TRAVIS_BRANCH = 'master' ]; then export SSHPASS=$DEPLOY_PASS && echo "exported prod"; fi
-- if [ $TRAVIS_PULL_REQUEST = 'false' && $TRAVIS_BRANCH = 'master' ]; then sshpass -e ssh $DEPLOY_USER@$DEPLOY_PROD_HOST $DEPLOY_PATH/say-hi.sh && echo "sshtest prod complete"; fi
-
+- if [[ $TRAVIS_PULL_REQUEST = 'false' && $TRAVIS_BRANCH = 'staging' ]]; then export SSHPASS=$DEPLOY_PASS && echo "exported staging"; fi
+- if [[ $TRAVIS_PULL_REQUEST = 'false' && $TRAVIS_BRANCH = 'staging' ]]; then sshpass -e ssh $DEPLOY_USER@$DEPLOY_STAGING_HOST $DEPLOY_PATH/say-hi.sh && echo "sshtest staging complete"; fi
+- if [[ $TRAVIS_PULL_REQUEST = 'false' && $TRAVIS_BRANCH = 'master' ]]; then export SSHPASS=$DEPLOY_PASS && echo "exported prod"; fi
+- if [[ $TRAVIS_PULL_REQUEST = 'false' && $TRAVIS_BRANCH = 'master' ]]; then sshpass -e ssh $DEPLOY_USER@$DEPLOY_PROD_HOST $DEPLOY_PATH/say-hi.sh && echo "sshtest prod complete"; fi
 script:
 - if [ $TRAVIS_BRANCH = 'staging' ]; then bundle exec jekyll build --config _config.yml,_staging-config.yml; fi
 - if [ $TRAVIS_BRANCH = 'master' ]; then bundle exec jekyll build --config _config.yml,_prod-config.yml; fi
 after_success:
 - mv _site design-system
 - tar -czf package.tgz design-system
-- if [ $TRAVIS_PULL_REQUEST = 'false' && $TRAVIS_BRANCH = 'staging' ]; then export SSHPASS=$DEPLOY_PASS && echo "exported staging"; fi
-- if [ $TRAVIS_PULL_REQUEST = 'false' && $TRAVIS_BRANCH = 'staging' ]; then sshpass -e scp -o StrictHostKeyChecking=no package.tgz $DEPLOY_USER@$DEPLOY_STAGING_HOST:$DEPLOY_PATH; fi
-- if [ $TRAVIS_PULL_REQUEST = 'false' && $TRAVIS_BRANCH = 'staging' ]; then sshpass -e ssh $DEPLOY_USER@$DEPLOY_STAGING_HOST $DEPLOY_PATH/deploy-design-system.sh; fi
-- if [ $TRAVIS_PULL_REQUEST = 'false' && $TRAVIS_BRANCH = 'master' ]; then export SSHPASS=$DEPLOY_PASS && echo "exported prod"; fi
-- if [ $TRAVIS_PULL_REQUEST = 'false' && $TRAVIS_BRANCH = 'master' ]; then sshpass -e scp -o StrictHostKeyChecking=no package.tgz $DEPLOY_USER@$DEPLOY_PROD_HOST:$DEPLOY_PATH; fi
-- if [ $TRAVIS_PULL_REQUEST = 'false' && $TRAVIS_BRANCH = 'master' ]; then sshpass -e ssh $DEPLOY_USER@$DEPLOY_PROD_HOST $DEPLOY_PATH/deploy-design-system.sh; fi
+- if [[ $TRAVIS_PULL_REQUEST = 'false' && $TRAVIS_BRANCH = 'staging' ]]; then export SSHPASS=$DEPLOY_PASS && echo "exported staging"; fi
+- if [[ $TRAVIS_PULL_REQUEST = 'false' && $TRAVIS_BRANCH = 'staging' ]]; then sshpass -e scp -o StrictHostKeyChecking=no package.tgz $DEPLOY_USER@$DEPLOY_STAGING_HOST:$DEPLOY_PATH; fi
+- if [[ $TRAVIS_PULL_REQUEST = 'false' && $TRAVIS_BRANCH = 'staging' ]]; then sshpass -e ssh $DEPLOY_USER@$DEPLOY_STAGING_HOST $DEPLOY_PATH/deploy-design-system.sh; fi
+- if [[ $TRAVIS_PULL_REQUEST = 'false' && $TRAVIS_BRANCH = 'master' ]]; then export SSHPASS=$DEPLOY_PASS && echo "exported prod"; fi
+- if [[ $TRAVIS_PULL_REQUEST = 'false' && $TRAVIS_BRANCH = 'master' ]]; then sshpass -e scp -o StrictHostKeyChecking=no package.tgz $DEPLOY_USER@$DEPLOY_PROD_HOST:$DEPLOY_PATH; fi
+- if [[ $TRAVIS_PULL_REQUEST = 'false' && $TRAVIS_BRANCH = 'master' ]]; then sshpass -e ssh $DEPLOY_USER@$DEPLOY_PROD_HOST $DEPLOY_PATH/deploy-design-system.sh; fi
 notifications:
   slack:
+    on_pull_requests: true
     matrix:
     - secure: pnmMkbxQt0rbioJRwL64lGEoryRqWDH0If4oCssVAP6+k+5h3CDMCeINpfkFhG3Oqro0pKVQnFjiXhDGTInFGX2cTjNm6khyOb0E4q1uRbEBJ2P4xWrfnLcjwq8JTszB1P78yXB/NkuWK2ZmTXWjFYw0FtLOgklvNzjARzxGQEzBn6LrcTmWGy/fxq2E0GdGNQ6xPFJt0Eof9+6Z7aoFUGpobZWHneqrR0yGSPO/CLLxB88jWOuMQLwrgGg3Ua/u/HLgNpdq6h5RhVh25PGZa+MB9pdXRRqbR5FuTIA5uxmG0lAemlcynonPDOvh1bUGKh0z0bhUJC54Nufe+pib2s2ySll+R/rHYdqp6qJ9p6VuMjwezdMq8OAmFKPzsA5isVj1MTW4qxja5zfsIWeRE558kHSvlTxu0MwUqdfM8CuBppUfJZ7QQ1lGpaeLsfJfHxbJbvUi6XeNnf+ffoYsCTKKfxA0JzcReLC5cq25nqMxC/dEEH4RY3VC519tdjjZDc+fYA8e2pO6QUbdXsUnnwOXBleKt1n556c7MWguAcaCwnifJrSFHC8GVPX4L61Ta75ul8TcuNQIMkY5DAgsUYg5+OnWfM2bu1p8kiGc8TthVtezJe5AfXxoLQBZQQdtX/uovCVZiUjaafpmapNGcMwhHIDmbPWwM7JdQgs8eH4=
     rooms:
