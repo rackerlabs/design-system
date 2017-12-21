@@ -7,7 +7,12 @@
 //TODO: Set perm open and disabled for large breakpoints.
 //TODO: Set slide open/closed attr for small breakpoints.
 
+var slideButton = document.getElementsByClassName('fakeHxSlide__button');
+
 class FakeHXSlideNav extends HTMLElement {
+  static $define () {
+    customElements.define(this.is, this);
+  }
   // A getter/setter for an open property.
   get open() {
     return this.hasAttribute('open');
@@ -75,8 +80,29 @@ class FakeHXSlideNav extends HTMLElement {
   }
 
   toggleDrawer() {
-    this.open();
+    console.log("Element was clicked!");
+    if (this.open){
+      this.setAttribute('hidden', 'false');
+      slideButton.setAttribute('hidden', 'true');
+    } else {
+      this.setAttribute('hidden', 'true');
+      slideButton.setAttribute('hidden', 'false');
+    }
   }
 }
 
 customElements.define('fake-hx-slide-nav', FakeHXSlideNav);
+
+// slideButton.onclick(this.open);
+//
+// customElements.define('x-foo-with-markup', class extends HTMLElement {
+//   constructor() {
+//     // If you define a ctor, always call super() first!
+//     // This is specific to CE and required by the spec.
+//     super();
+//   }
+//   connectedCallback() {
+//     this.innerHTML = "<b>I'm an x-foo-with-markup!</b>";
+//     console.log('element called');
+//   }
+// });
