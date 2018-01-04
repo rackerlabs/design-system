@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/badges.svg
 resource: true
 status: stable
-last-modified: 2017-11-01
+last-modified: 2018-12-04
 ---
 
 {% include toc.html %}
@@ -30,7 +30,7 @@ Studies of social apps report that notification badges can trigger dopamine rele
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"The notification badge pattern"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/notifications/badges/badges-hero.png){:width="398px"}
+![]({{site.url}}/assets/images/components/notifications/badges/badges-hero.png){:width="1440px"}
 {% endfigure %}
 {% endcolumn %}
 
