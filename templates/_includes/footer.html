@@ -32,11 +32,11 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="{{site.url}}/assets/js/lightbox.js"></script>
 {%- if page.url contains '/components/'-%}
-  {# {%- assign urlStub == {{ site.data.families | jsonify }} -%}
-  {%- unless page.url == '{{site.url}}/components/{{urlStub.[0]}}.html' -%} #}
+  <!-- {%- assign urlStub == {{ site.data.families | jsonify }} -%}
+  {%- unless page.url == '{{site.url}}/components/{{urlStub.[0]}}.html' -%} -->
     <script src="{{site.url}}/assets/js/wayfinding.js"></script>
     <script src="{{site.url}}/assets/js/tooltip.js"></script>
-  {# {%- endunless -%} #}
+  <!-- {%- endunless -%} -->
 {%- endif -%}
 <script src="https://2d2bf231b82dfe76fe36-fa12562cfe810d69bedcc36a0ac289ef.ssl.cf1.rackcdn.com/javascript/helix-ui.js"></script>
 
