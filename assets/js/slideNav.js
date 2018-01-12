@@ -6,114 +6,63 @@
 //TODO: Decide on overlay over content or shift content for slide open/closed.
 //TODO: Set perm open and disabled for large breakpoints.
 //TODO: Set slide open/closed attr for small breakpoints.
-window.addEventListener('WebComponentsReady', function(e) {
-  // imports are loaded and elements have been registered
-  console.log('Components are ready');
 
-  var slideButton = document.getElementsByClassName('fakeHxSlide__button');
-  console.log(slideButton);
+const supportsCustomElementsV1 = 'customElements' in window;
+
+function loadScript(src) {
+ return new Promise(function(resolve, reject) {
+   const script = document.createElement('script');
+   script.src = src;
+   script.onload = resolve;
+   script.onerror = reject;
+   document.head.appendChild(script);
+ });
+}
+
+// Lazy load the polyfill if necessary.
+if (!supportsCustomElementsV1) {
+  console.log("no custom elements");
+  loadScript('https://rawgit.com/webcomponents/custom-elements/master/custom-elements.min.js').then(e => {
+    console.log("Polyfill loaded.");
+    var slideButton = document.getElementById('fakeHxSlide__button');
+
+    class FakeHXSlideNav extends HTMLElement {
+      constructor() {
+        super();
+        var navSection = this.querySelector('nav');
+        slideButton.addEventListener('click', e => {
+          this.classList.toggle("m-slideIn");
+          this.classList.toggle("m-slideOut");
+          slideButton.classList.toggle("b-slideOut");
+          slideButton.classList.toggle("b-slideIn");
+        });
+      }
+    }
+
+    customElements.define('fake-hx-slide-nav', FakeHXSlideNav);
+    customElements.whenDefined('fake-hx-slide-nav').then(() => {
+      console.log("loaded");
+    });
+  });
+} else {
+  console.log("custom elements supported");
+  var slideButton = document.getElementById('fakeHxSlide__button');
 
   class FakeHXSlideNav extends HTMLElement {
-    // static $define () {
-    //   customElements.define(this.is, this);
-    // }
-    // A getter/setter for an open property.
-    get open() {
-      return this.hasAttribute('open');
-    }
-
-    set open(val) {
-      // Reflect the value of the open property as an HTML attribute.
-      if (val) {
-        this.setAttribute('open', '');
-      } else {
-        this.removeAttribute('open');
-      }
-      this.toggleDrawer();
-    }
-
-    // A getter/setter for a disabled property.
-    get disabled() {
-      return this.hasAttribute('disabled');
-    }
-
-    set disabled(val) {
-      // Reflect the value of the disabled property as an HTML attribute.
-      if (val) {
-        this.setAttribute('disabled', '');
-      } else {
-        this.removeAttribute('disabled');
-      }
-    }
-
-    // Can define constructor arguments if you wish.
     constructor() {
-      // If you define a ctor, always call super() first!
-      // This is specific to CE and required by the spec.
       super();
-
-      // Setup a click listener on <app-drawer> itself.
-      this.addEventListener('click', e => {
-        // Don't toggle the drawer if it's disabled.
-        if (this.disabled) {
-          return;
-        }
-        this.toggleDrawer();
+      var navSection = this.querySelector('nav');
+      slideButton.addEventListener('click', e => {
+        this.classList.toggle("m-slideIn");
+        this.classList.toggle("m-slideOut");
+        slideButton.classList.toggle("b-slideOut");
+        slideButton.classList.toggle("b-slideIn");
       });
-    }
-
-    // connectedCallback() {
-    //   if
-    // }
-
-    // disconnectedCallback() {
-    //   ...
-    // }
-    //
-    // Only called for the disabled and open attributes due to observedAttributes
-    attributeChangedCallback(name, oldValue, newValue) {
-      // When the drawer is disabled, update keyboard/screen reader behavior.
-      if (this.disabled) {
-        this.setAttribute('tabindex', '-1');
-        this.setAttribute('aria-disabled', 'true');
-      } else {
-        this.setAttribute('tabindex', '0');
-        this.setAttribute('aria-disabled', 'false');
-      }
-      if (this.open) {
-        this.setAttribute('tabindex', '1');
-      } else {
-        this.setAttribute('tabindex', '0');
-      }
-    }
-
-    toggleDrawer() {
-      console.log("Element was clicked!");
-      if (this.open){
-        this.setAttribute('hidden', 'false');
-        slideButton.setAttribute('hidden', 'true');
-      } else {
-        this.setAttribute('hidden', 'true');
-        slideButton.setAttribute('hidden', 'false');
-      }
     }
   }
 
-  window.customElements.define('fake-hx-slide-nav', FakeHXSlideNav);
-
-  slideButton.onclick(function(event) {
-    alert("moot!");
+  customElements.define('fake-hx-slide-nav', FakeHXSlideNav);
+  customElements.whenDefined('fake-hx-slide-nav').then(() => {
+    console.log("loaded");
   });
-
-  // window.customElements.define('x-foo-with-markup', class extends HTMLElement {
-  //   constructor() {
-  //     // If you define a ctor, always call super() first!
-  //     // This is specific to CE and required by the spec.
-  //     super();
-  //   }
-  //   connectedCallback() {
-  //     this.innerHTML = "<b>I'm an x-foo-with-markup!</b>";
-  //     console.log('element called');
-  //   }
-  // });
-});
+}
