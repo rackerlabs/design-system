@@ -16,21 +16,13 @@ resource: true
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Base layouts
-- Use the account navigation bar to navigate between applications,
-  manage roles, and manage preferences on both the user and the account
-  level.
+- Use the 'Utility nav' to navigate between applications, manage roles, and manage preferences on both the user and the account level.
 
-- Use the main navigation to navigate between the main sections of the
-  application. Make sure your application consistently
-  uses either a top navigation or a side navigation, but never both. You can
-  use dropdown for subcategories, but be sure to only use one sub-level.
+- Use the main navigation to navigate between the main sections of the application. Make sure your application consistently uses either a top navigation or a side navigation, but never both. You can use dropdown for subcategories, but be sure to only use one sub-level.
 
-- Use the content area for the application's main data and interactions.
-  Make sure you always use breadcrumbs to help users orient themselves and
-  navigate the application.
+- Use the content area for the application's main data and interactions. Make sure you always use breadcrumbs to help users orient themselves and navigate the application.
 
-- Use the footer for legal information, application news, and feedback
-  links.
+- Use the footer for legal information, application news, and feedback links.
 
 {% endcolumn %}
 
