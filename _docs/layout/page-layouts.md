@@ -16,11 +16,11 @@ resource: true
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Base layouts
-- Use the 'Utility nav' to navigate between applications, manage roles, and manage preferences on both the user and the account level.
+- Use the Utility navigation (nav) to navigate between applications, manage roles, and manage preferences on both the user and the account level.
 
-- Use the main navigation to navigate between the main sections of the application. Make sure your application consistently uses either a top navigation or a side navigation, but never both. You can use dropdown for subcategories, but be sure to only use one sub-level.
+- Use the main navigation to navigate between the main sections of the application. Make sure your application consistently uses either a top navigation or a left navigation, but never both. You can use dropdown for subcategories, but be sure to only use one sub-level.
 
-- Use the content area for the application's main data and interactions. Make sure you always use breadcrumbs to help users orient themselves and navigate the application.
+- Use the content area for the application's main data and interactions. Make sure to always use breadcrumbs to help users orient themselves and navigate the application.
 
 - Use the footer for legal information, application news, and feedback links.
 
@@ -61,7 +61,7 @@ Build the content area using a 12 Column Grid. See [grid](/layout/grid) for more
 ![]({{site.url}}/assets/images/layout/page-layouts/layout-content-full-top-nav.png){:width="800px"}
 {% endfigure %}
 
-{% figure [caption:"Full width with side navigation"] [class:"image bg-light border"] %}
+{% figure [caption:"Full width with left navigation"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/layout/page-layouts/layout-content-full-side-nav.png){:width="800px"}
 {% endfigure %}
 {% endcolumn %}
@@ -91,7 +91,7 @@ Build the content area using a 12 Column Grid. See [grid](/layout/grid) for more
 ![]({{site.url}}/assets/images/layout/page-layouts/layout-right-side-rail-top-nav.png){:width="800px"}
 {% endfigure %}
 
-{% figure [caption:"Right side rail with side navigation"] [class:"image bg-light border"] %}
+{% figure [caption:"Right side rail with left navigation"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/layout/page-layouts/layout-right-side-rail-side-nav.png){:width="800px"}
 {% endfigure %}
 {% endcolumn %}
@@ -120,7 +120,7 @@ Build the content area using a 12 Column Grid. See [grid](/layout/grid) for more
 ![]({{site.url}}/assets/images/layout/page-layouts/layout-left-side-rail-top-nav.png){:width="800px"}
 {% endfigure %}
 
-{% figure [caption:"Left side rail with side navigation"] [class:"image bg-light border"] %}
+{% figure [caption:"Left side rail with left navigation"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/layout/page-layouts/layout-left-side-rail-side-nav.png){:width="800px"}
 {% endfigure %}
 {% endcolumn %}
@@ -133,9 +133,9 @@ Build the content area using a 12 Column Grid. See [grid](/layout/grid) for more
 
 ### Dual panel content area
 
-- Dual Layout enables two variable width panels, entitled primary and secondary, to operate adjacent to one another. User selections or interactions with the primary panel facilate information displayed on secondary panels. Although data is correlated between each panel, panels can scroll independently. Panel widths are defined through application implementation and cannot adjusted manually by the user.
+- Dual Layout enables two variable width panels, entitled primary and secondary, to operate adjacent to one another. User selections or interactions with the primary panel facilate information displayed on secondary panels. Although data is correlated between each panel, panels can scroll independently. Panel widths are defined through application implementation and cannot be adjusted manually by the user.
   - Panels are separated by a 1px solid line. Be sure to use our default canvass color #fafafa as your base.
-  - Below are suggested column breakdowns for dual panel implementation, but can be adjusted based on the density of information being displayed to ensure each panel is optimized for readablility. For additional information see the [helix-ui source code](https://rackerlabs.github.io/helix-ui/components/layouts/horizontal-layout-template.html)
+  - Use the following suggested column breakdowns for dual panel implementation. These columns can be adjusted based on the density of information displaying so each panel is optimized for readability. For additional information see the [helix-ui source code](https://rackerlabs.github.io/helix-ui/components/layouts/horizontal-layout-template.html)
 
 #### Primary panel
 
@@ -154,7 +154,7 @@ Build the content area using a 12 Column Grid. See [grid](/layout/grid) for more
 ![]({{site.url}}/assets/images/layout/page-layouts/dual-panel-topnav.png){:width="800px"}
 {% endfigure %}
 
-{% figure [caption:"Dual panel with side navigation"] [class:"image bg-light border"] %}
+{% figure [caption:"Dual panel with left navigation"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/layout/page-layouts/dual-panel-sidenav.png){:width="800px"}
 {% endfigure %}
 {% endcolumn %}
