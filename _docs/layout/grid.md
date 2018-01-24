@@ -2,7 +2,7 @@
 title: Grid
 layout: docs
 category: Layout
-usage: The Helix 12-column grid provides structure for website content.
+usage: The Helix 12 Column Grid provides structure for website content.
 preview-image: components/preview-grid.svg
 resource: true
 status: stable
@@ -122,4 +122,3 @@ Resize your browser to see how columns scale and stack on smaller devices.
     </div>
   </div>
   </section>
-

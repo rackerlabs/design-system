@@ -3,7 +3,7 @@ title: Progress Indicators
 parent: Processing
 layout: component
 category: Components
-usage: The Helix 12-column grid provides structure for website content.
+usage: The Helix 12 Column Grid provides structure for website content.
 preview-image: components-grid.svg
 need: progress-indicators
 status: unknown

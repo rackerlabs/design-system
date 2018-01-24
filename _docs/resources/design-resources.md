@@ -7,8 +7,7 @@ category: Resources
 # Adobe Illustrator
 
 The Adobe Illustrator library contains the Helix color palette, character
-styles, icons, and components. It available through Adobe Creative Cloud. You can download the library,
-[here](https://assets.adobe.com/link/e4a1e938-87a4-40e4-734d-d41c93f448ed)
+styles, icons, and components. It available through Adobe Creative Cloud. You can download the library [here](https://assets.adobe.com/link/e4a1e938-87a4-40e4-734d-d41c93f448ed)
 or <a href="mailto:Helix.designsystem@rackspace.com">contact the Helix team</a>.
 
 # Sketch
@@ -23,17 +22,17 @@ In order to use the full feature set of the Craft library or start from the
 latest version of the Sketch template, sync the shared
 OneDrive folder to your computer.
 
-### Syncing a Shared OneDrive folder
+### Syncing a shared OneDrive folder
 
 -   **Make sure that your version of OneDrive was downloaded from the Managed
 Software Center.** Rackspace has built an update to the program that enables  syncing shared folders. Downloading from another source will not
 work. If your computer does not have the Managed Software Center installed on
-it, you'll need to go to O'Fixies to install it.
+it, you'll need to go to O'Fixies to get it installed.
 
 <<<<<<#div class="hxRow" markdown="1">
 {%- column left:"hxCol-md-4" -%}
 
--   Visit the link above and click the "Sync" button.
+-   Visit the link above and click the Sync button.
 
 {%- endcolumn -%}
 
@@ -46,7 +45,7 @@ it, you'll need to go to O'Fixies to install it.
 {%- column left:"hxCol-md-4" -%}
 
 -   Sync the folder to create a second OneDrive folder on your computer.
-    This adds the folder as a second location to your OneDrive App.
+    This adds the folder as a second location to your OneDrive app.
 
     {%- include tip.html content="DO NOT rename these folders." -%}
 {%- endcolumn -%}
@@ -57,15 +56,15 @@ it, you'll need to go to O'Fixies to install it.
 
 ## How to use
 
-### Sketch Template
+### Sketch template
 
 <<<<<<#div class="hxRow"  markdown="1">
 {%- column left:"hxCol-md-4" -%}
 
 If you choose the Sketch template, you can create a new file from it and edit it
-as you wish without affecting the original document. Sketch maintains the link
+as you want to without affecting the original document. Sketch maintains the link
 to the template in your "New from Template" menu. So if you selected it from
-the shared drive above, it will always access the most up to date file.
+the shared drive above, it always accesses the most up to date file.
 
 {%- endcolumn -%}
 
@@ -74,14 +73,14 @@ the shared drive above, it will always access the most up to date file.
 {%- endcolumn -%}
 <<<<<<#/div>
 
-### Craft Library
+### Craft library
 
 <<<<<<#div class="hxRow"  markdown="1">
 {%- column left:"hxCol-md-4" -%}
 
 If you aren't familiar with Craft, it is a Sketch add-on that includes a
-feature for shared libraries. If imported into your project the Craft library
-will automatically alert you when new assets are available.
+feature for shared libraries. If imported into your project, the Craft library
+automatically alerts you when new assets are available.
 
 {%- endcolumn -%}
 
@@ -101,7 +100,7 @@ it before diving in:
 
 # Contribute
 
-Contributions to these resources are welcome, however, please make sure any
+Contributions to these resources are welcome, however, make sure any
 contributions align with the Helix website documentation. If you make a change
 to these resources, please
 <a href="mailto:Helix.designsystem@rackspace.com">inform the Helix team</a>.
