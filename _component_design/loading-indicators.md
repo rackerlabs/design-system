@@ -91,6 +91,10 @@ The spinner icon inherits the text color of the element or component in which it
 
 {% endcolumn %}
 
+</div>
+
+<div class="hxRow" markdown="1">
+
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 A variety of spinner icon sizes are available.

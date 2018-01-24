@@ -162,4 +162,5 @@ Build the content area using a 12 Column Grid. See [grid](/layout/grid) for more
 -->
 {% endcolumn %}
 </div>
+
 </section>

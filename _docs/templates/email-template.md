@@ -16,6 +16,7 @@ resource: true
 {% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
 ## Introduction
+
 These email templates provide a unified way to interact with customers from all our platforms. The more content we can provide on first contact the better, and if more information is needed, links to control panels are provided.
 
 **Email templates involve:**
@@ -201,6 +202,7 @@ The header is an overview of where the email is coming from and what kind of mes
 
 To give the user more context about the message they are about to read, the subheading lets them know what kind of notification or ticket has been sent. This includes notification types and ticket or notification statuses.
 
+
 - **Notification types:** `Monitoring Alert`, `Billing`, `Maintenance`, etc.
 - **Ticket statuses:** `New`, `Update`, `Closed`, `Pending Customer`, etc.
 - **Maintenance statuses:** `Started`, `Scheduled`, `Canceled`, or `Completed`
@@ -224,6 +226,7 @@ To give the user more context about the message they are about to read, the subh
     -   There should be **no greeting for notifications**. Notification emails are not personal, and the user does not need for us to address them by name when giving an update on services. It is best to get straight to the point - so no salutations for notifications.
 
 -   **Sign off** - The sign off should not include a closing, i.e.: Sincerely, Regards, Best, etc. If the email is a ticket, it is ok to include a Racker name and title.
+
 </section>
 
 <section class="static-section"  markdown="1">
@@ -330,9 +333,11 @@ In the first line, the word notifications or ticket should change based on the m
 <div class="hxRow" markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
+
 ### Footer
 
 The footer provides auxiliary information about how to contact support and edit notification preferences.
+
 
 -   **Contact Support** - should include phone number, email, or chat options.
 

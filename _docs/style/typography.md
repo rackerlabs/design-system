@@ -37,7 +37,9 @@ helix-ui-javascript: false
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Page title
+
 Page titles are the highest level of hierarchy. There should only be one on any page.
+
 
 {% endcolumn %}
 
@@ -52,7 +54,9 @@ Page titles are the highest level of hierarchy. There should only be one on any 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Section title
+
 Use section titles for titles of page sections. For example, if your page title is **Billing**, and the page has **Overview**, **Trends**, and **Payment methods** section headings, each section heading uses section titles.
+
 
 {% endcolumn %}
 
@@ -115,6 +119,7 @@ Body text is the default style and should be used across the interface for most 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Subdued style
+ts
 You can use the subdued style with any text 14px and taller. It is used to let more important text stand out. The subdued style is not the same as an inactive link or button.
 
 *Do not subdue text on backgrounds darker than Gray 25 (#fafafa) or it will not pass accessibility standards.*
@@ -133,6 +138,7 @@ You can use the subdued style with any text 14px and taller. It is used to let m
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Sub-body text
+
 Use sub-body text sparingly because it is the least readable size. You can use it when smaller text is appropriate, such as for icon labels.
 
 {% endcolumn %}
@@ -148,6 +154,7 @@ Use sub-body text sparingly because it is the least readable size. You can use i
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Caption
+
 Captions apply to images and visualizations. They should be used to clarify images and not to introduce new, pertinent information.
 
 {% endcolumn %}
