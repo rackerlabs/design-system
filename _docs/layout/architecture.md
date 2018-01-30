@@ -32,7 +32,7 @@ it is always visible, regardless of what the user is currently viewing. The
 global layer is best thought about as a collection of offscreen elements that
 remain hidden until some action is taken by the user. After an action is
 taken, the global layer serves contextually sensitive info and workflows
-for managing platform(global) services. View the
+for managing platform (global) services. View the
 [global layer](/layout/global-layer) page for more in-depth explanation of the
 global layer.
 
