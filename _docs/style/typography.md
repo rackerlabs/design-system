@@ -40,7 +40,6 @@ helix-ui-javascript: false
 
 Page titles are the highest level of hierarchy. There should only be one on any page.
 
-
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
@@ -56,7 +55,6 @@ Page titles are the highest level of hierarchy. There should only be one on any 
 ### Section title
 
 Use section titles for titles of page sections. For example, if your page title is **Billing**, and the page has **Overview**, **Trends**, and **Payment methods** section headings, each section heading uses section titles.
-
 
 {% endcolumn %}
 
