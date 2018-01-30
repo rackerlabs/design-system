@@ -101,10 +101,6 @@ A variety of spinner icon sizes are available.
 
 {% endcolumn %}
 
-</div>
-
-<div class="hxRow" markdown="1">
-
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
 {% figure [caption:"Spinner icons come in a variety of sizes from small, medium, large, and x-large."] [class:"image bg-light border"] %}
