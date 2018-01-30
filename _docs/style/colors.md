@@ -89,6 +89,5 @@ sure to use enough contrast between adjacent colors.
   {% include chips.html class="hxCol-xs-12 hxCol-md-3 color-chip" bg-color="#212121" color="#9e9e9e" csscode="Gray 600 on Gray 975" hex="#9E9E9E on #212121" ratio="6.0 : 1" %}
   {% include chips.html class="hxCol-xs-12 hxCol-md-3 color-chip" bg-color="#000000" color="#757575" csscode="Gray 700 on Gray 1000" hex="#757575 on #000000" ratio="4.6 : 1" %}
 </div>
-
 </section>
 
