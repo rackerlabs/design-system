@@ -18,7 +18,6 @@ helix-ui-javascript: true
 
 ### New requests
 If you need an additional icon, submit your request to the
-
 <a href="mailto:helix.designsystem@rackspace.com?subject=Icon Request">Helix Team</a>.
 </section>
 
@@ -48,7 +47,6 @@ links or match the color of body text dependent on the background color.
 
 ### Object icons
 
-
 Object icons should be used sparingly and consistently across Rackspace
 products. Their purpose is to provide a visual differentiator between items in
 a list or symbolize types of content.
@@ -66,7 +64,6 @@ a list or symbolize types of content.
   {% endfor %}
 </div>
 </section>
-
 
 <section class="static-section"  markdown="1">
 ### Validation icons
@@ -88,6 +85,5 @@ gray, or white, corresponding to the color of the body text of the background.
     {% endif %}
   {% endfor %}
 </div>
-
 </section>
 
