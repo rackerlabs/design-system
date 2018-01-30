@@ -3,7 +3,7 @@ title: Global Layer
 layout: docs
 category: Layout
 usage: |
-  The global layer is the application layer that enables a user to access
+  The global layer is the application layer that allows a user to access
   global features of the UI.
 preview-image:
 resource: false
@@ -26,7 +26,7 @@ layer better, we suggest trying the following
 The Global layer should be included on all applications using the Helix-UI
 language. This global layer provides the base configuration of a Helix
 application. A helix application can consider implementing their own Global
-layer (as a meaningful interaction model), or ideally integrate with
+layer (as a meaningful interaction model) or, ideally integrate with
 [Pilot](https://one.rackspace.com/pages/viewpage.action?pageId=185744979)
 to automatically get platform interactivity and allow for the use of platform
 services that extend across multiple product lines such as Ticketing or
@@ -45,7 +45,7 @@ Notifications, and Ticketing. For detailed specs, see the
 
 -   Extends across the top of the entire Helix-UI and is always visible
 
--   Contains links to platform-level services, account management,
+-   Contains links to platform level services, account management,
     product picker, and the [global dashboard](#global).
 
 -   Composed of 5 breakpoints that adapt to the users device and window size
@@ -73,10 +73,10 @@ Notifications, and Ticketing. For detailed specs, see the
 {% column left:"hxCol-md-4" %}
 The left side of the eyebrow is comprised of the platform dashboard button and
 product switcher dropdowns. The item currently displayed in the content area
-and the navigation section is reflected via the selected state beneath it.
+navigation section is reflected via the selected state beneath it.
 
 -   The Rackspace® logo serves as a button to trigger the
-    [global dashboard](#global).
+    [global dashboard](#global)
 
 -   Product name to the left of the logo serves as wayfinding to show the
     currently selected product.
@@ -94,7 +94,7 @@ and the navigation section is reflected via the selected state beneath it.
 <div class="hxRow"  markdown="1">
 {% column left:"hxCol-md-4" %}
 The right side of the eyebrow menu is comprised of the user name section and
-platform-level services button groups.
+platform level services button groups.
 
 -   A platform service is any service that extends across multiple product
     lines, such as
@@ -117,8 +117,8 @@ platform-level services button groups.
 <div class="hxRow"  markdown="1">
 {% column left:"hxCol-md-4" %}
 Offcanvas panels are panels that serve from the global layer. Panels can
-either be offcanvas left or right, depending on the type of content being
-displayed, and are triggered via interacting with the global eyebrow. Each panel
+either be offcanvas left or right dependent upon the type of content being
+displayed and are triggered via interacting with the global eyebrow. Each panel
 has three states: Hidden, Toggled, and Extended.
 {% endcolumn %}
 {% column right:"hxCol-md-8" %}
@@ -138,7 +138,7 @@ has three states: Hidden, Toggled, and Extended.
 {% column left:"hxCol-md-4" %}
 The Global Dashboard is an special offcanvas element that is toggled via the
 Global DB button (Rackspace logo), the left most element on the Global eyebrow.
-When toggled, the dashboard extends over the product and workflow layers.
+When toggled, the dashboard will extend over the product and workflow layers.
 {% endcolumn %}
 {% column right:"hxCol-md-8" %}
 {% figure [caption:"Global Dashboard - Hidden"] [class:"image bg-light border"] %}
