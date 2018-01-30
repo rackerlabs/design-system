@@ -23,7 +23,7 @@ resource: true
 - Use the main navigation to navigate between the main sections of the
   application. Make sure your application consistently
   uses either a top navigation or a side navigation, but never both. You can
-  use dropdowns for subcategories, but be sure to only use one sub-level.
+  use drop-downs for subcategories, but be sure to only use one sub-level.
 
 - Use the content area for the application's main data and interactions.
   Make sure you always use breadcrumbs to help users orient themselves and
@@ -162,5 +162,4 @@ Build the content area using a 12 Column Grid. See [grid](/layout/grid) for more
 -->
 {% endcolumn %}
 </div>
-
 </section>
