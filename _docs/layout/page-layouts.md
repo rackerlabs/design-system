@@ -16,7 +16,7 @@ resource: true
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Base layouts
-- Use the Utility navigation (nav) to navigate between applications, manage roles, and manage preferences on both the user and the account level.
+- Use the utility navigation (nav) to navigate between applications, manage roles, and manage preferences on both the user and the account level.
 
 - Use the main navigation to navigate between the main sections of the application. Make sure your application consistently uses either a top navigation or a left navigation, but never both. You can use dropdown for subcategories, but be sure to only use one sub-level.
 
@@ -50,7 +50,7 @@ content area."] [class:"image bg-light border"] %}
 
 Build the content area using a 12 Column Grid. See [grid](/layout/grid) for more details.
 
-#### Full Width Content Area
+#### Full width content area
 - Navigation is not a part of the 12 Column Grid.
 - Content area background color: Gray 25, `#FAFAFA`
 
@@ -133,8 +133,8 @@ Build the content area using a 12 Column Grid. See [grid](/layout/grid) for more
 
 ### Dual panel content area
 
-- Dual Layout enables two variable width panels, entitled primary and secondary, to operate adjacent to one another. User selections or interactions with the primary panel facilate information displayed on secondary panels. Although data is correlated between each panel, panels can scroll independently. Panel widths are defined through application implementation and cannot be adjusted manually by the user.
-  - Panels are separated by a 1px solid line. Be sure to use our default canvass color #fafafa as your base.
+- Dual layout enables two variable width panels, entitled primary and secondary, to operate adjacent to one another. User selections or interactions with the primary panel facilate information displayed on secondary panels. Although data is correlated between each panel, panels can scroll independently. Panel widths are defined through application implementation and cannot be adjusted manually by the user.
+  - Panels are separated by a 1px solid line. Be sure to use our default canvass color `#fafafa`as your base.
   - Use the following suggested column breakdowns for dual panel implementation. These columns can be adjusted based on the density of information displaying so each panel is optimized for readability. For additional information see the [helix-ui source code](https://rackerlabs.github.io/helix-ui/components/layouts/horizontal-layout-template.html)
 
 #### Primary panel
