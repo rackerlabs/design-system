@@ -117,7 +117,7 @@ Body text is the default style and should be used across the interface for most 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Subdued style
-ts
+
 You can use the subdued style with any text 14px and taller. It is used to let more important text stand out. The subdued style is not the same as an inactive link or button.
 
 *Do not subdue text on backgrounds darker than Gray 25 (#fafafa) or it will not pass accessibility standards.*
