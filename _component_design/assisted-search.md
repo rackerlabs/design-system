@@ -8,6 +8,8 @@ usage: >
 preview-image: preview-images/assisted-search.svg
 resource: true
 status: stable
+helix-ui-css: false
+helix-ui-javascript: false
 last-modified: 2018-02-12
 ---
 
@@ -46,7 +48,7 @@ Assistive search is a content container and a set of behaviors given to a search
 
 ### Active state
 
-When the search box is clicked and the cursor is active, a designer may choose to prompt the user with recent or suggested searches depending on their context. Recent Searches is just one example of content that can populate an assistive search box. 
+When the search box is clicked and the cursor is active, a designer may choose to prompt the user with recent or suggested searches depending on their context. Recent Searches is just one example of content that can populate an assistive search box.
 
 {% endcolumn %}
 
@@ -176,7 +178,7 @@ Clicking on a keyword in the menu fills the search input with the keyword and co
 
 </section>
 
-<!-- Commented out because search pills were put on hold for this pattern. 2/6/18-EN 
+<!-- Commented out because search pills were put on hold for this pattern. 2/6/18-EN
 
 <section class="static-section" markdown="1">
 

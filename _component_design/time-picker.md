@@ -8,6 +8,8 @@ preview-image: preview-images/time-picker.svg
 resource: true
 status: stable
 last-modified: 2017-10-24
+helix-ui-css: false
+helix-ui-javascript: false
 ---
 
 {% include toc.html %}

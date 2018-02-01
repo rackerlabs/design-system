@@ -9,6 +9,8 @@ preview-image: preview-images/key-value.svg
 resource: true
 status: stable
 last-modified: 2017-11-07
+helix-ui-css: false
+helix-ui-javascript: false
 ---
 
 {% include toc.html %}

@@ -10,6 +10,8 @@ preview-image: preview-images/help-beacon.svg
 status: stable
 resource: true
 last-modified: 2017-11-04
+helix-ui-css: false
+helix-ui-javascript: false
 ---
 
 {% include toc.html %}

@@ -10,6 +10,8 @@ preview-image: preview-images/popover.svg
 resource: true
 status: in-progress
 last-modified: 2017-10-22
+helix-ui-css: true
+helix-ui-javascript: true
 ---
 
 {% include toc.html %}
