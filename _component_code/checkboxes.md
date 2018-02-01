@@ -2,7 +2,7 @@
 title: Checkboxes
 layout: code
 category: Components Code
-code: elements/hx-checkbox/
+code: components/checkboxes
 ---
 
 {% include code-container.html %}
