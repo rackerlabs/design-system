@@ -2,7 +2,7 @@
 title: Drop-downs
 layout: code
 category: Components Code
-code: dropdown
+code: components/menus
 ---
 
 {% include code-container.html %}

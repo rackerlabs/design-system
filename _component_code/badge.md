@@ -1,5 +1,5 @@
 ---
-title: Key-value pairs
+title: Badges
 layout: code
 category: Components Code
 code: null

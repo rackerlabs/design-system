@@ -1,5 +1,5 @@
 ---
-title: Key-value pairs
+title: Choice Tiles
 layout: code
 category: Components Code
 code: null

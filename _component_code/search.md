@@ -1,5 +1,5 @@
 ---
-title: Key-value pairs
+title: Search Bar
 layout: code
 category: Components Code
 code: null

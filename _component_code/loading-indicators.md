@@ -1,5 +1,5 @@
 ---
-title: Key-value pairs
+title: Loading Indicators
 layout: code
 category: Components Code
 code: null

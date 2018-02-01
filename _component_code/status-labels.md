@@ -1,5 +1,5 @@
 ---
-title: Key-value pairs
+title: Status Labels
 layout: code
 category: Components Code
 code: null
