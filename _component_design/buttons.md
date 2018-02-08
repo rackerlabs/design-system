@@ -368,3 +368,57 @@ Split drop-down buttons are preferred when more than one action is associated wi
 </div>
 
 </section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### Download / export buttons
+
+- Download links **are always** formatted as: Download [noun] as [format]. 
+- Download is a word that focuses about the user's benefit because there is no ambiguity about the destination (the user's platform) and it will then be theirs.
+- Download links come in 4 layouts. The preferred layouts are the 1 and 2+ Download Options.
+- Use the condensed option in situations where space is too limited to use one of the preferred options.
+- The icon only option should be limited to use in toolbar.
+
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
+{% figure [caption:"Download button layouts"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/inputs-and-controls/buttons/download-buttons-overview.png){:width="571px"}
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+#### Specifications
+
+Specs are the same as those used in simple buttons and dropdown buttons, except a Download Icon is placed before the button label.
+
+In most situations download buttons should be secondary, but in situations where download is the primary action on a page, a primary button may be used.
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
+{% figure [caption:"Specifications for download links"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/inputs-and-controls/buttons/download-buttons-specs.png){:width="571px"}
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
