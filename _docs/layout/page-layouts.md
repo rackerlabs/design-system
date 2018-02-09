@@ -18,7 +18,10 @@ resource: true
 ### Base layouts
 - Use the utility navigation (nav) to navigate between applications, manage roles, and manage preferences on both the user and the account level.
 
-- Use the main navigation to navigate between the main sections of the application. Make sure your application consistently uses either a top navigation or a left navigation, but never both. You can use dropdown for subcategories, but be sure to only use one sub-level.
+- Use the main navigation to navigate between the main sections of the
+  application. Make sure your application consistently
+  uses either a top navigation or a side navigation, but never both. You can
+  use drop-downs for subcategories, but be sure to only use one sub-level.
 
 - Use the content area for the application's main data and interactions. Make sure to always use breadcrumbs to help users orient themselves and navigate the application.
 
