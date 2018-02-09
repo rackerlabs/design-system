@@ -10,8 +10,10 @@ var searchcount = document.getElementById("search-count");
 
 //ref https://stackoverflow.com/a/4656873
 // Read a page's GET URL variables and return them as an associative array.
-function getUrlVars()
-{
+
+// TODO: Implement some sort of NOT feature.
+
+function getUrlVars() {
   var vars = [], hash;
   var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
   for(var i = 0; i < hashes.length; i++) {
@@ -23,13 +25,33 @@ function getUrlVars()
 }
 //endref
 
+// DONE: Allow for plus and quotes.
+function cleanEntry(element) {
+  var entryMap = [{
+    "plus": /%2B/gi,
+    "quote": /%22/gi
+  }];
+  entryMap.forEach(function(mapped){
+    if (element.includes("%2B")){
+      element = element.replace(mapped.plus, " ");
+    }
+    if (element.includes("%22")){
+      element = element.replace(mapped.quote, "");
+    }
+  });
+  return element;
+}
+
 var queried = getUrlVars().q.replace("+", " ");
-console.log(queried);
 var queriedupper = queried.replace(queried[0], queried[0].toUpperCase());
-var escaped = escape(queried);
+// var escaped = escape(queried);
+
+queried = cleanEntry(queried);
+
 var queried2 = new RegExp("\\b" + queried + "\\b", 'i');
 
-var re = new RegExp("\\b" + queried + "\\b", 'gi');
+var re = new RegExp("\\b" + queried + "[s]?\\b", 'gi');
+var re2 = new RegExp(queried, 'gi');
 
 // Call the JSON feed as an object
 
@@ -46,7 +68,10 @@ jsonCall("feed.json").done(function(data,textStatus,jqXHR) {
 
   // Loop through the content_text kv pairs to find the query string.
   docArray.forEach(function(element) {
+
+    // TODO: Hide the TOC from the full text.
     var fulltext = element.content_text;
+    var titled = element.title;
 
     // Add the item to a dictionary
     if (fulltext.match(queried2)) {
@@ -73,9 +98,15 @@ jsonCall("feed.json").done(function(data,textStatus,jqXHR) {
         const rankd = 1;
       }
 
-      // TODO: Scan titles and rank higher based on term in title.
+      // DONE: Scan titles and rank higher based on term in title.
+      if (titled.search(re2) > -1) {
+        fullrank = rankd + 10;
+      } else {
+        fullrank = rankd;
+      }
 
       // scale snippet size based on ranking
+      // TODO: Cut off at word boundaries instead of by character count.
       if (rankd > 10) {
         snipdLength = 10 * rankd;
       } else {
@@ -102,7 +133,13 @@ jsonCall("feed.json").done(function(data,textStatus,jqXHR) {
         // TODO: Provide page sample instead of actual snippet if no clear example (e.g., the term is in the title).
       }
 
-      // TODO: Implement some sort of NOT feature.
+      if (element.image){
+        imaged = element.image;
+        imagedclass = "real";
+      } else {
+        imaged = "helix_icon.svg";
+        imagedclass = "example";
+      }
 
       snipd = snipd.replace(re, `<b>${queried}</b>`);
       results.push({
@@ -110,12 +147,23 @@ jsonCall("feed.json").done(function(data,textStatus,jqXHR) {
         "title": element.title,
         "url": element.url,
         "summary": element.summary,
-        "hero-image": element.image,
+        "image": imaged,
+        "imageClass": imagedclass,
         "snippet": snipd,
-        "rank": rankd
+        "counted": rankd,
+        "used": element.used,
+        "rank": fullrank
       });
 
     }
+  });
+
+  results.forEach(function(result) {
+    var indexed = results.indexOf(result);
+    if (result.used != "true") {
+      results.splice(indexed,1);
+    }
+    return;
   });
 
   if (!queried || queried == undefined){
@@ -136,16 +184,37 @@ jsonCall("feed.json").done(function(data,textStatus,jqXHR) {
     });
     // Return the dictionary to the search page as an HTML object
     results.forEach(function(result) {
-      //ref: https://stackoverflow.com/questions/595808/is-it-possible-to-append-to-innerhtml-without-destroying-descendants-event-list#comment407853_595825
-      var resultList = document.createElement("li");
-      if (result.rank > 1) {
-        countedText = `There were ${result.rank} instances of <i>${queried}</i> on this page.`;
+      if (result.used != "true") {
       } else {
-        countedText = `There was ${result.rank} instance of <i>${queried}</i> on this page.`;
+        // REF: https://stackoverflow.com/questions/595808/is-it-possible-to-append-to-innerhtml-without-destroying-descendants-event-list#comment407853_595825
+        var resultList = document.createElement("div");
+        resultList.setAttribute("id", "result-object");
+        if (result.rank > 1 && result.rank > result.counted) {
+          countedText = `<b>${queried}</b> appears ${result.counted} times in this article, and <b>${queried}</b> appears in the title.`;
+        } else if (result.rank > 1) {
+          countedText = `<b>${queried}</b> appears ${result.counted} times in this article.`;
+        } else {
+          countedText = `<b>${queried}</b> appears ${result.counted} time in this article.`;
+        }
+        resultList.innerHTML = `
+          <div class="hxRow">
+            <div class="hxCol-10 hxCol-xs-12 hxCol-sm-12 hxCol-md-10 hxCol-lg-10">
+              <p class='result-title'>
+                <a href="${result.url}">${result.title}</a>
+              </p>
+              <p class='result-summary'>${result.snippet}</p>
+              <p class='result-count'>${countedText}</p>
+            </div>
+            <div class="hxCol-2 hxCol-xs-12 hxCol-sm-12 hxCol-md-2 hxCol-lg-2">
+              <div class='side-image'>
+                <img class="${result.imageClass}" src="assets/images/${result.image}">
+              </div>
+            </div>
+          </div>
+        `;
+        searchpg.appendChild(resultList);
+        //endref
       }
-      resultList.innerHTML = `<p><a class='result-title hxContainerTitle' href="${result.url}">${result.title}</a></p><p class='result-summary hxSubdued'>${result.snippet}</p><p class='result-count hxSubBody'>${countedText}</p>`;
-      searchpg.appendChild(resultList);
-      //endref
     });
   }
 });

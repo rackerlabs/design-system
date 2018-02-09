@@ -1,6 +1,7 @@
 <nav class="hxApp__nav side">
   <div class="logo"><a href="{{site.url}}/"><img src="{{site.cdn_url}}/img/helix_logo_nav.svg" class="logo" class="logo"></a></div>
   {%- assign currenturl = page.url -%}
+  <div id="search-system" {%- if currenturl == "/search" -%} class="current" {%- else -%} {%- endif -%}>{%- include search-box.html -%}</div>
   {%- for item in site.component_design -%}
     {%- if page.title == item.title -%}
       {%- assign itemparent = item.parent -%}
@@ -38,5 +39,4 @@
     {%- endif -%}
   {%- endfor -%}
   <a href="{{site.url}}/status.html" {%- if currenturl == "/status" -%} class="current" {%- else -%} {%- endif -%}>STATUS</a>
-  <a href="{{site.url}}/search.html" {%- if currenturl == "/search" -%} class="current" {%- else -%} {%- endif -%}>SEARCH</a>
 </nav>

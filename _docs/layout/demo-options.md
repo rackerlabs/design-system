@@ -3,7 +3,6 @@ title: Demo Layouts
 layout: docs
 category: Layout
 usage:
-preview-image: null
 resource: false
 ---
 
