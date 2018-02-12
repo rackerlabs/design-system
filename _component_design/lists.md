@@ -8,10 +8,10 @@ usage: >
 preview-image: preview-images/list.svg
 resource: true
 status: stable
-last-modified: 2017-11-16
+last-modified: 2017-02-12
 ---
 
-<section class="static-section"  markdown="1">
+{% include toc.html %}
 
 ## Lists
 
@@ -22,7 +22,7 @@ last-modified: 2017-11-16
 
 ### Unordered lists
 
-Use unordered lists to group related items Items in a list should share a similar level of importance. When possible, write bullet items to be approximately the same length. Keeping a uniform length is pleasing to the eye and makes the list more consumable to a user.
+Use unordered lists to group related items. Items in a list should share a similar level of importance. When possible, write bullet items to be approximately the same length. Keeping a uniform length is pleasing to the eye and makes the list more consumable to a user.
 
 {% endcolumn %}
 
@@ -35,6 +35,8 @@ Use unordered lists to group related items Items in a list should share a simila
 
 </section>
 
+<section class="static-section"  markdown="1">
+
 <div class="hxRow" markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
@@ -42,7 +44,7 @@ Use unordered lists to group related items Items in a list should share a simila
 
 Use ordered lists for instances in which the items must occur in a specific order, such as steps in a procedure, or when counting items, such as a top 10 list.
 
-If list items do not occur in a specific order, or the final count or rank of list items does no matter, don't number them. Instead, use an unordered list.
+If list items do not occur in a specific order, or the final count or rank of list items does not matter, don't number them. Instead, use an unordered list.
 
 {% endcolumn %}
 
