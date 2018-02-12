@@ -51,7 +51,7 @@ Use the following resources to communicate with the Helix designers and be infor
 
 ### Learn the language
 
-Familiarize yourself with the concepts that define the Helix language. Through this site, you can see how they appear in the layouts, styles, and componenets used in Rackspace UIs. 
+Familiarize yourself with the concepts that define the Helix language. Through this site, you can see how they appear in the layouts, styles, and components used in Rackspace UIs. 
 
 - **Principles**: Ideas and guidelines for making good, consistent decisions when designing in Helix.
 - **Style**: Colors, typography, iconography, timestamps, and other stylistic standards.
