@@ -5,7 +5,7 @@ secondary: Editing
 layout: component
 category: Components
 usage: >
-  Pills are small, pill-shaped containers that indicate selection and can be removed. They are useful for their small size, and for the ease with which they can be removed. As selection indicators (not selectors themselves), they have a broad set of possible applications. 
+  Pills are small, pill-shaped containers that indicate selection. They are useful for their small size and for the ease with which they can be removed. As selection indicators (not selectors themselves), they have a broad set of possible applications. 
 preview-image: preview-images/pills.svg
 resource: true
 status: Stable
@@ -25,11 +25,11 @@ last-modified: 2018-02-07
 
 ### When to Use
 
-Pills are small, pill-shaped containers that indicate selection and can be removed. They are useful for their small size, and for the ease with which they can be removed. As selection indicators (not selectors themselves), they have a broad set of possible applications. 
+Pills are small, pill-shaped containers that indicate selection. They are useful for their small size and for the ease with which they can be removed. As selection indicators (not selectors themselves), they have a broad set of possible applications. 
 
 ### Best practices
 
-When using pills, make sure they are uniform in size, shape, and application. Pills may be modified with color if done carefully and intentionally. 
+When using pills, ensure they are uniform in size, shape, and application. Pills may be modified with color if done carefully and intentionally. 
 
 {% endcolumn %}
 
@@ -53,9 +53,9 @@ When using pills, make sure they are uniform in size, shape, and application. Pi
 
 ### Default layout
 
-Pills are a component with a variety of use cases, so you can throw more or less anything you want into them to indicate something has been selected: keyword search, input text search, the name of a server you’ve selected. If it can be selected, you can make a pill of it. 
+Pills are a component with a variety of use cases, so they can be used for many ways of indicating something has been selected: keyword search, input text search, the name of a server you’ve selected. If it can be selected, you can make a pill of it. 
 
-A pill is different than a tag in a variety of ways, most important of which that you cannot remove a tag.
+A pill is different than a tag in a variety of ways, with the most important being you cannot remove a tag.
 
 {% endcolumn %}
 
@@ -81,15 +81,15 @@ A pill is different than a tag in a variety of ways, most important of which tha
 
 ### Style
 
-While it is conceivable that pills are larger or smaller than body font, by and large they will exist at body font. 
+While pills may be larger or smaller than body font, generally use body font.
 
 Pills consist of a container, text, and an “x” icon to indicate removal. By default, they are `gray 400` background.
 
 ### Spacing
 
-Pills have 16px of space on either side for breathing room, and 8px below and beside them when grouped together. They begin just 4px beneath other components to which they are associated – use the best top spacing for your particular use case. We encourage the use of left justification for pills.
+Pills have 16px of space on either side and 8px below and beside when grouped together. Put pills 4px beneath other associated components&mdash;use the best top spacing for your particular use case. Unless there is a legitimate reason, justify pills to the left.
 
-If there are a lot of pills bunched together – more than 15 – consider an alternative pattern or contact the Helix team.
+If more than 15 pills are bunched together, consider an alternative pattern or contact the Helix team.
 
 {% endcolumn %}
 
@@ -113,9 +113,11 @@ If there are a lot of pills bunched together – more than 15 – consider an al
 
 ### States
 
-Pills have 16px of space on either side for breathing room, and 8px below and beside them when grouped together. They begin just 4px beneath other components to which they are associated – use the best top spacing for your particular use case. We encourage the use of left justification for pills.
+**Active:** This state indicates that a selection has been made. This is the default state for a pill.
 
-If there are a lot of pills bunched together – more than 15 – consider an alternative pattern or contact the Helix team.
+**Hover:** The user may hover over the pill to see that action can be taken upon it. While nothing will occur
+
+**Selected:** When a filter+search completion item have been selected. 
 
 {% endcolumn %}
 
