@@ -23,12 +23,12 @@ last-modified: 2018-01-30
 
 ### When to use
 
-- The stepper pattern is used for complex workflows that require multiple inputs from a user to complete. The complex workflow is segmented or chunked into thematic steps and then progressively revealed to the user via the stepper pattern. Vertical steppers fulfill the same need as a horizontal stepper, however the orientation yields itself to work within all screen sizes.
+- The stepper pattern is used for complex workflows that require multiple inputs from a user to complete. The complex workflow is segmented or chunked into thematic steps and then progressively revealed to the user via the stepper pattern. Vertical steppers fulfill the same need as a horizontal stepper; however, the orientation yields itself to work within all screen sizes.
 
 ### Best practices
 
 - Ensure a stepper has at minimum 3 steps and at maximum 5 steps.
-- Name each step thematically based on the inputs contained within a step. For example, a step dealing with inputs Username, First name, Address, etc. could be labeled Account Info or User Details. This ensures users are primed for the type of information that will be presented in a step when first skimming a stepper form.
+- Name each step thematically based on the inputs contained within a step. For example, a step dealing with inputs **Username**, **First name**, **Address**, etc. could be labeled **Account Info** or **User Details**. This ensures users are primed for the type of information that will be presented in a step when first skimming a stepper form.
 
 
 {% endcolumn %}
@@ -190,9 +190,11 @@ The stepper counter displays the sequential number of a step as well as the stat
 
 ### Submission controls
 
-As the stepper pattern isolates each sequential step within a multistep process a variance in the buttons displayed within each step will become apparent to the user. Dependent on which sequential step is displayed the following button(s) may be displayed.
+As the stepper pattern isolates each sequential step within a multistep process, a variance in the buttons displayed within each step will become apparent to the user. Dependent on which sequential step is displayed, the following buttons may be displayed.
 
-**First step:** Displays a primary button to move to the next step and tertiary button to cancel the form. Intermediate step(s): Displays primary and secondary buttons to move between steps and a tertiary button to cancel the form.
+**First step:** Displays a primary button to move to the next step and tertiary button to cancel the form. 
+
+**Intermediate step(s):** Displays primary and secondary buttons to move between steps and a tertiary button to cancel the form.
 
 **Final step:** Mimics the intermediate step, however the primary button is now used to complete the form and labeled according; For example, ‘Submit’ or ‘Confirm’.
 
