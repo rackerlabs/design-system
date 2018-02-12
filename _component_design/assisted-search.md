@@ -46,7 +46,7 @@ Assistive search is a content container and a set of behaviors given to a search
 
 ### Active state
 
-When the search box is clicked and the cursor is active, a designer may choose to prompt the user with recent or suggested searches depending on their context. Recent Searches is just one example of content that can populate an Assistive Search Box. 
+When the search box is clicked and the cursor is active, a designer may choose to prompt the user with recent or suggested searches depending on their context. Recent Searches is just one example of content that can populate an assistive search box. 
 
 {% endcolumn %}
 
@@ -66,7 +66,7 @@ When the search box is clicked and the cursor is active, a designer may choose t
 
 ### Post-entry state
 
-Follow the Search Box conventions for entered text within the text box. As text is entered in the search box, that text is represented in the Assistive Search Box in the first line: “Search for ‘item’”. The “X” to remove the search item appears as soon as any text is entered.
+Follow the [search box]({{site.baseurl}}/components/search.html) conventions for entered text within the text box. As text is entered in the search box, that text is represented in the Assistive Search Box in the first line: “Search for ‘item’”. The “X” to remove the search item appears as soon as any text is entered.
 
 {% endcolumn %}
 
@@ -88,12 +88,10 @@ Follow the Search Box conventions for entered text within the text box. As text 
 
 Use a [loading spinner]({{site.baseurl}}/components/loading-indicators.html) if results take need to be processed prior to display. As a default, use a height of 248px.
 
-User should still have instructions for how to search without autocompleted results (Enter).
-
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% figure [caption:"Assist search loading state"] [class:"image bg-light border"] %}
+{% figure [caption:"Assisted search loading state"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/search-and-filters/search-assisted/assisted-search-loading-state.png){: width="566px"}
 {% endfigure %}
 {% endcolumn %}
