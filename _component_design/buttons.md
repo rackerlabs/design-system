@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/buttons.svg
 status: stable
 resource: true
-last-modified: 2017-10-23
+last-modified: 2018-02-12
 helix-ui-css: true
 helix-ui-javascript: false
 ---
@@ -375,13 +375,13 @@ Split drop-down buttons are preferred when more than one action is associated wi
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-### Download / export buttons
+### Download or export buttons
 
-- Download links **are always** formatted as: Download [noun] as [format]. 
-- Download is a word that focuses about the user's benefit because there is no ambiguity about the destination (the user's platform) and it will then be theirs.
-- Download links come in 4 layouts. The preferred layouts are the 1 and 2+ Download Options.
-- Use the condensed option in situations where space is too limited to use one of the preferred options.
-- The icon only option should be limited to use in toolbar.
+- Download links are **always** formatted as: Download [noun] as [format]. 
+- Use the word **Download** because there is no ambiguity about the destination (the user's platform). The word focuses on the user's benefit because the downloaded object becomes the user's.
+- Download links come in 4 layouts. The preferred layouts are the 1- and 2+- Download options
+- Use a condensed button variation in situations where space is too limited to use one of the preferred options.
+- The icon-only variation should be limited to use in a toolbar.
 
 
 {% endcolumn %}
@@ -405,9 +405,9 @@ Split drop-down buttons are preferred when more than one action is associated wi
 
 #### Specifications
 
-Specs are the same as those used in simple buttons and dropdown buttons, except a Download Icon is placed before the button label.
+The specs are the same as those used in simple buttons and dropdown buttons, except a Download icon is placed before the button label.
 
-In most situations download buttons should be secondary, but in situations where download is the primary action on a page, a primary button may be used.
+In most situations, download buttons should be secondary, but when downloading is the primary action on a page, a primary button may be used.
 
 {% endcolumn %}
 

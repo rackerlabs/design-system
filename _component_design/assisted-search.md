@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/assisted-search.svg
 resource: true
 status: stable
-last-modified: 2017-11-07
+last-modified: 2018-02-12
 ---
 
 {% include toc.html %}
