@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="294px" height="196px" viewBox="0 0 294 196" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>help-link</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Family-Images-Helix" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1162.000000, -1217.000000)">
+        <g id="help-link" transform="translate(1162.000000, 1217.000000)">
+            <g id="Group-2" stroke-width="1">
+                <g id="Group-3">
+                    <g id="card-grid-copy">
+                        <g id="application-frame">
+                            <rect id="Rectangle" fill="#B6E3EB" fill-rule="evenodd" x="0" y="0" width="293" height="195"></rect>
+                            <rect id="Rectangle-Copy" fill="#16B9D4" fill-rule="evenodd" x="0" y="0" width="48.8333333" height="195"></rect>
+                            <rect id="Rectangle-Copy-2" fill="#0E94A6" fill-rule="evenodd" x="0" y="0" width="293" height="14.625"></rect>
+                            <g id="overlay-/-hidden"></g>
+                        </g>
+                    </g>
+                    <g id="box-/-content" transform="translate(63.000000, 37.000000)" fill="#FFFFFF">
+                        <rect id="Rectangle" x="0" y="0" width="164" height="158"></rect>
+                    </g>
+                    <g id="box-/-white-copy" transform="translate(226.500000, 37.000000)" fill="#F1EFEF">
+                        <rect id="Rectangle" x="0" y="0" width="67" height="158.125"></rect>
+                    </g>
+                </g>
+            </g>
+            <g id="pill-/-highlight" transform="translate(235.000000, 44.000000)" fill="#F57C00">
+                <rect id="Rectangle" x="0" y="0" width="36" height="8" rx="4"></rect>
+            </g>
+            <g id="pill-/-highlight" transform="translate(235.000000, 76.000000)" fill="#F57C00">
+                <rect id="Rectangle" x="0" y="0" width="36" height="8" rx="4"></rect>
+            </g>
+            <g id="pill-/-highlight" transform="translate(235.000000, 60.000000)" fill="#F57C00">
+                <rect id="Rectangle" x="0" y="0" width="30" height="8" rx="4"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
