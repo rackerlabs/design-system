@@ -113,11 +113,9 @@ If more than 15 pills are bunched together, consider an alternative pattern or c
 
 ### States
 
-**Active:** This state indicates that a selection has been made. This is the default state for a pill.
+**Active:** This state indicates that a selection has been made and is the default state for a pill.
 
-**Hover:** The user may hover over the pill to see that action can be taken upon it. While nothing will occur
-
-**Selected:** When a filter+search completion item have been selected. 
+**Hover:** The hover state indicates the pill may be interacted with to remove the selection.
 
 {% endcolumn %}
 
