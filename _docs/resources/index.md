@@ -4,4 +4,4 @@ layout: categories
 category: Resources
 ---
 
-Resources are materials and information that can be used for reference.
+Resources are materials and information used for reference.
