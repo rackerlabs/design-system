@@ -42,14 +42,14 @@ Always use human-readable, international-friendly formatting when displaying dat
 
 #### Best Practices
 
--   Timezone control flow: Always convert to local time based user preference.
-    If unavailable, use assumed time based on browser. Only use UTC when no
-    timezone preference can be determined or standardization across timezones
-    is necessary.
--   Always convert to local time based user preference. If unavailable, use
+-   Timezone control flow: Always convert to local time based on user
+    preference. If unavailable, use assumed time based on browser. Only use
+    UTC when no timezone preference can be determined or standardization
+    across timezones is necessary.
+-   Always convert to local time based on user preference. If unavailable, use
     assumed time based on browser. Only use UTC when no timezone preference can
     be determined or standardization across timezones is necessary.
--   Always offer users the ability to convert to UTC
+-   Always offer users the ability to convert to UTC.
 -   Add UTC offset to timezone only when that specificity is important (for
     example, "CST (UTC-6)").
 
@@ -77,7 +77,7 @@ Always use human-readable, international-friendly formatting when displaying dat
 
 #### Timestamp
 -   Add seconds or milliseconds to the time only when that level specificity is
-    important
+    important.
 
 {% endcolumn %}
 
@@ -102,9 +102,9 @@ Always use human-readable, international-friendly formatting when displaying dat
 <div class="hxRow" markdown="1">
 {% column left:"hxCol-8" %}
 
-Timeago details length of time that has elapsed since an event (for example, a
-monitoring alarm or ticket update). This is helpful for orienting users to the
-timeline of events.
+Timeago details the length of time that has elapsed since an event (for
+example, a monitoring alarm or ticket update). This is helpful for orienting
+users to the timeline of events.
 
 #### Best Practices
 
@@ -122,7 +122,3 @@ timeline of events.
 {% endcolumn %}
 
 </div>
-
-
-
-
