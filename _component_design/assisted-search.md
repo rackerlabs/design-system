@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/assisted-search.svg
 resource: true
 status: stable
-last-modified: 2017-11-07
+last-modified: 2018-02-06
 ---
 
 {% include toc.html %}
@@ -21,16 +21,16 @@ last-modified: 2017-11-07
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-### Assisted search drop-down
+### Pre-entry state
 
-When the user clicks the search box, show them a list of keywords that they can use to filter their search.
 
+Assistive search is a content container and a set of behaviors given to a search box. The assistive search container does not populate under text is entered, and is indistinguishable from a default search box state.
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% figure [caption:"Meet the assisted search drop-down menu"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/search-and-filters/search-assisted/assisted-search-drop-down-menu.png){: width="548px"}
+{% figure [caption:"Meet the assisted search menu"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/search-and-filters/search-assisted/assisted-search-pre-entry.png){:width="566px"}
 {% endfigure %}
 {% endcolumn %}
 
@@ -44,24 +44,19 @@ When the user clicks the search box, show them a list of keywords that they can 
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-### Layout specifications
+### Active state
 
-Separate groups of keywords using a horizontal divider.
-
-Append the keyword with colon to the search input when the user clicks on a keyword in the menu.
-
+When the search box is clicked and the cursor is active, a designer may choose to prompt the user with recent or suggested searches depending on their context. Recent Searches is just one example of content that can populate an assistive search box. 
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% figure [caption:"Assist search specifications"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/search-and-filters/search-assisted/assisted-search-layout-specifications.png){: width="548px"}
+{% figure [caption:"Assisted search specifications"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/search-and-filters/search-assisted/assisted-search-active.png){: width="633px"}
 {% endfigure %}
 {% endcolumn %}
 
 </div>
-
-</section>
 
 <section class="static-section" markdown="1">
 
@@ -69,25 +64,21 @@ Append the keyword with colon to the search input when the user clicks on a keyw
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-### Search results
+### Post-entry state
 
-Divide search results into categories.
+Follow the [search box]({{site.baseurl}}/components/search.html) conventions for entered text within the text box. As text is entered in the search box, that text is represented in the Assistive Search Box in the first line: “Search for ‘item’”. The “X” to remove the search item appears as soon as any text is entered.
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% figure [caption:"Assisted search - search results specifications"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/search-and-filters/search-assisted/assisted-search-predictive-results-list.png){: width="548px"}
+{% figure [caption:"Assisted search post-entry"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/search-and-filters/search-assisted/assisted-search-post-entry.png){: width="633px"}
 {% endfigure %}
 {% endcolumn %}
 
 </div>
 
 </section>
-
-<section class="static-section" markdown="1">
-
-## Assisted search states
 
 <div class="hxRow" markdown="1">
 
@@ -95,22 +86,97 @@ Divide search results into categories.
 
 ### Loading
 
-Use a [loading spinner]({{site.baseurl}}/components/loading-indicators.html) if results take need to be processed prior to display.
-
-User should still have instructions for how to search without autocompleted results (Enter).
-
+Use a [loading spinner]({{site.baseurl}}/components/loading-indicators.html) if results take need to be processed prior to display. As a default, use a height of 248px.
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% figure [caption:"Assist search loading state"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/search-and-filters/search-assisted/assisted-search-loading-state.png){: width="548px"}
+{% figure [caption:"Assisted search loading state"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/search-and-filters/search-assisted/assisted-search-loading-state.png){: width="566px"}
 {% endfigure %}
 {% endcolumn %}
 
 </div>
 
 </section>
+
+## Specifications
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### Layout
+
+Groups of available keywords are separated by a horizontal divider.
+
+Clicking on a keyword in the menu fills the search input with the keyword and colon, so that the user can then enter their search terms.
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [caption:"Assisted search specifications"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/search-and-filters/search-assisted/assisted-search-layout-specifications.png){: width="633px"}
+{% endfigure %}
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+## Container
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### Sizing and styling
+
+**Minimums:** The assistive search box should have a minimum height of 88px, enough to contain the Search reminder, the command tip, and one assistive search item. It should have a minimum width of the size of the search box itself.
+
+**Maximums:** It should have a maximum height of 328px so that it does not take over the entire screen. Populate an 8px scroll bar in the right gutter to navigate if options exceed 306px height. If the search box itself is small, the recommended width for an assistive search box is 548px, as shown here to the right.
+
+**Style:** The container uses `gray400` and 5px rounded corners.
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [caption:"Assisted search styling"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/search-and-filters/search-assisted/assisted-search-container.png){: width="648px"}
+{% endfigure %}
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### Elements
+
+**Elements:** Assistive search boxes consist of an indicator bar, divider line, and assistance at minimum. Category headers and the actual kind of assistive text are to be determined by your product’s needs. You may also include “Additional attributes” to help the user identify the category of the search result.
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [caption:"Assisted search container elements"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/search-and-filters/search-assisted/assisted-search-container-elements.png){: width="788px"}
+{% endfigure %}
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<!-- Commented out because search pills were put on hold for this pattern. 2/6/18-EN 
 
 <section class="static-section" markdown="1">
 
@@ -217,3 +283,4 @@ Use backspace to delete a single character and not the entire query or search pi
 </div>
 
 </section>
+-->
