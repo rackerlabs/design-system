@@ -54,13 +54,14 @@ last-modified: 2018-01-30
 ### Overview
 
 The vertical stepper component is comprised of the following pieces:
+
 - Steps
-  - Step content area (this can be comprised of any components from the inputs and controls section)
-  - Step counter
-  - Step dividers
-  - Step revealer
-  - Step selection	
-  - Step title	
+- Step content area (this can be comprised of any components from the inputs and controls section)
+- Step counter
+- Step dividers
+- Step revealer
+- Step selection	
+- Step title	
 
 
 {% endcolumn %}
