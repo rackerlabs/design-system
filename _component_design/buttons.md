@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/buttons.svg
 status: stable
 resource: true
-last-modified: 2017-10-23
+last-modified: 2018-02-12
 helix-ui-css: true
 helix-ui-javascript: false
 ---
@@ -361,6 +361,60 @@ Split drop-down buttons are preferred when more than one action is associated wi
 
 {% figure [caption:"Split drop-down button specifications"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/inputs-and-controls/buttons/split-drop-buttons-specs.svg)
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### Download or export buttons
+
+- Download links are **always** formatted as: Download [noun] as [format]. 
+- Use the word **Download** because there is no ambiguity about the destination (the user's platform). The word focuses on the user's benefit because the downloaded object becomes the user's.
+- Download links come in 4 layouts. The preferred layouts are the 1- and 2+- Download options
+- Use a condensed button variation in situations where space is too limited to use one of the preferred options.
+- The icon-only variation should be limited to use in a toolbar.
+
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
+{% figure [caption:"Download button layouts"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/inputs-and-controls/buttons/download-buttons-overview.png){:width="571px"}
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+#### Specifications
+
+The specs are the same as those used in simple buttons and dropdown buttons, except a Download icon is placed before the button label.
+
+In most situations, download buttons should be secondary, but when downloading is the primary action on a page, a primary button may be used.
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
+{% figure [caption:"Specifications for download links"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/inputs-and-controls/buttons/download-buttons-specs.png){:width="571px"}
 {% endfigure %}
 
 {% endcolumn %}
