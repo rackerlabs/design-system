@@ -23,7 +23,7 @@ last-modified: 2018-01-30
 
 ### When to use
 
-- The stepper pattern is used for complex workflows that require multiple inputs from a user to complete. The complex workflow is segmented or chunked into thematic steps and then progressively revealed to the user via the stepper pattern. Vertical steppers fulfill the same need as a horizontal stepper; however, the orientation yields itself to work within all screen sizes.
+- The stepper pattern is used for complex workflows that require multiple inputs from a user to complete. The complex workflow is segmented or chunked into thematic steps and then progressively revealed to the user using the stepper pattern. Vertical steppers fulfill the same need as a horizontal stepper; however, their vertical orientation yields itself to work within all screen sizes.
 
 ### Best practices
 
