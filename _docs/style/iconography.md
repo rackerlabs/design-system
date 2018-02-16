@@ -5,7 +5,6 @@ category: Style
 usage: |
   Helix icons are easily identifiable, simple shapes that visually
   represent abstract subject matter.
-preview-image: style/preview-icons.svg
 resource: true
 code-element: true
 status: stable
@@ -86,4 +85,3 @@ gray, or white, corresponding to the color of the body text of the background.
   {% endfor %}
 </div>
 </section>
-

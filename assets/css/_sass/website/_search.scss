@@ -1,0 +1,102 @@
+div.search-banner {
+  padding: 94px 0 36px 0;
+  background-color: $cyan700;
+  color: $textcolorlight !important;
+  min-height: 168px;
+}
+
+// For highlighting
+div#search-system {
+  &.current {
+    background-color: #424242;
+  }
+}
+
+// Box for nav
+form#search-all {
+  div#search-container {
+    color: $grey500;
+    background: $grey900;
+    margin-left: $paddingL;
+    margin-right: $paddingM;
+    margin-top: 56px;
+    margin-bottom: $paddingL;
+  }
+  div#icon-container {
+    padding-left: $paddingS;
+    padding-right: $paddingS;
+    font-size: $base-font-size;
+    float: left;
+    line-height: 2.25rem;
+  }
+  input#search-box {
+    border-radius: 2;
+    width: 11rem;
+    height: $font-size-6;
+    background: $grey900;
+    border: none;
+    color: $grey25;
+    &::placeholder {
+      color: $grey500;
+    }
+  }
+}
+
+div#search-results {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  div#result-object {
+    padding: 0 0 16px 0;
+    font-family: $base-font-family;
+    p.result-title {
+      line-height: $base-line-height;
+      font-size: $base-font-size;
+      a {
+        color: $blue500;
+      }
+      padding: 0 0 8px 0;
+      margin: 0
+    }
+    p.result-summary {
+      line-height: $base-line-height;
+      font-size: $font-size-3;
+      color: $grey900;
+      padding: 0 0 4px 0;
+      margin: 0
+    }
+    p.result-count {
+      line-height: $base-line-height;
+      font-size: $font-size-3;
+      color: $grey750;
+      &::first-letter {
+        text-transform: capitalize;
+      }
+      padding: 0;
+      margin: 0
+    }
+    div.side-image{
+      min-height: 110px;
+      width: 100%;
+      background-color: $grey400;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      img.example {
+        width: 64px;
+        filter: grayscale(100%) opacity(30%);
+      }
+      img.real {
+        width: 100%;
+      }
+    }
+  }
+}
+
+p#search-count {
+  padding-bottom: 20px;
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  color: $grey900;
+  line-height: $base-line-height;
+}

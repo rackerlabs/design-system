@@ -5,7 +5,6 @@ category: Layout
 usage: |
   The layout for all Rackspace control panels consists of 4 parts: the account
   navigation bar, the main navigation, the content area, and the footer.
-preview-image: layout/preview-images/page-layout.svg
 resource: true
 ---
 
