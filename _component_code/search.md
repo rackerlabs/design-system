@@ -1,5 +1,5 @@
 ---
-title: Help Link
+title: Search Bar
 layout: code
 category: Components Code
 code: null

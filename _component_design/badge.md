@@ -9,6 +9,8 @@ preview-image: preview-images/badges.svg
 resource: true
 status: stable
 last-modified: 2018-12-04
+helix-ui-css: false
+helix-ui-javascript: false
 ---
 
 {% include toc.html %}

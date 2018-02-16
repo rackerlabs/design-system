@@ -1,5 +1,5 @@
 ---
-title: Vertical Stepper
+title: Choice Tiles
 layout: code
 category: Components Code
 code: null

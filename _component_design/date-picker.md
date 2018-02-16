@@ -8,6 +8,8 @@ preview-image: preview-images/date-picker.svg
 status: stable
 resource: true
 last-modified: 2017-10-22
+helix-ui-css: false
+helix-ui-javascript: false
 ---
 
 {% include toc.html %}

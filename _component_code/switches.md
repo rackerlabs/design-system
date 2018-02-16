@@ -1,5 +1,5 @@
 ---
-title: Switches
+title: Switch
 layout: code
 category: Components Code
 code: null

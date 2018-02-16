@@ -1,5 +1,5 @@
 ---
-title: Sliders
+title: Selector Strip
 layout: code
 category: Components Code
 code: null

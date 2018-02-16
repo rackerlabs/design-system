@@ -9,6 +9,8 @@ preview-image: preview-images/footer-thumbnail.svg
 resource: true
 status: in-progress
 last-modified: 2017-10-24
+helix-ui-css: true
+helix-ui-javascript: true
 ---
 
 {% include toc.html %}
