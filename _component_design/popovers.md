@@ -8,7 +8,7 @@ usage: >
   Popovers present a small group of information or inputs that is presented in a panel. To preserve the user’s context, the panel is overlaid on top of the original page.
 preview-image: preview-images/popover.svg
 resource: true
-status: in-progress
+status: stable
 last-modified: 2017-10-22
 helix-ui-css: true
 helix-ui-javascript: true

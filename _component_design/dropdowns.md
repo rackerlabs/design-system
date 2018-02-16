@@ -7,7 +7,7 @@ usage: >
   Drop-downs are one of the core input mechanisms for selecting options on a form. Drop-downs are used to provide a user with options or actions that effect the output of the form as a whole.
 preview-image: preview-images/drop-downs.svg
 resource: true
-status: in-progress
+status: stable
 need: selectors
 last-modified: 2017-09-21
 helix-ui-css: false
