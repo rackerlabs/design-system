@@ -7,7 +7,7 @@ usage: |
   The footer lives at the bottom of every page to help visitors find globally applicable, non-critical information or navigation such as copyright info and links to legal terms.
 preview-image: preview-images/footer-thumbnail.svg
 resource: true
-status: in-progress
+status: stable
 last-modified: 2017-10-24
 helix-ui-css: true
 helix-ui-javascript: true
