@@ -1,5 +1,5 @@
 ---
-title: Tags
+title: Assisted Search
 layout: code
 category: Components Code
 code: null

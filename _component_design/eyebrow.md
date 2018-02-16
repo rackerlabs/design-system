@@ -15,7 +15,6 @@ last-modified: 2017-08-30
 
 <!-- {% include toc.html %} commented out due to the size of the doc -->
 
-
 <section class="static-section" markdown="1">
 
 ## Introduction
@@ -91,7 +90,7 @@ The logo can only be clickable when the application has a default landing page, 
 <section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
-    
+
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Logo states
@@ -140,7 +139,7 @@ The logo can only be clickable when the application has a default landing page, 
 <section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
-    
+
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### States
@@ -194,7 +193,7 @@ The logo can only be clickable when the application has a default landing page, 
 <section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
-    
+
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### States
@@ -255,7 +254,7 @@ The logo can only be clickable when the application has a default landing page, 
 <section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
-    
+
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Structure
@@ -307,7 +306,7 @@ The logo can only be clickable when the application has a default landing page, 
 <section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
-    
+
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### States
@@ -362,7 +361,7 @@ The logo can only be clickable when the application has a default landing page, 
 ## Key-value menu item
 
 <div class="hxRow"  markdown="1">
-    
+
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Specifications
@@ -387,7 +386,7 @@ The logo can only be clickable when the application has a default landing page, 
 ## CTA menu item
 
 <div class="hxRow"  markdown="1">
-    
+
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Structure
@@ -411,7 +410,7 @@ The logo can only be clickable when the application has a default landing page, 
 <section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
-    
+
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### States

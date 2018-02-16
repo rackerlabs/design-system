@@ -1,8 +1,8 @@
 ---
-title: Modals
+title: Modal
 layout: code
 category: Components Code
-code: modal
+code: null
 ---
 
-{% include code-container.html %}
+{% include todo.html content="Set up code." %}

@@ -1,5 +1,5 @@
 ---
-title: Growl
+title: Loading Indicators
 layout: code
 category: Components Code
 code: null

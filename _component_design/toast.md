@@ -9,6 +9,8 @@ preview-image: preview-images/toast.svg
 status: stable
 resource: true
 last-modified: 2017-11-05
+helix-ui-css: false
+helix-ui-javascript: false
 ---
 
 {% include toc.html %}

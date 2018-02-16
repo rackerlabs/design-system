@@ -6,8 +6,7 @@ usage: |
   Roboto is visually geometric and has a modern feel with a breadth of weights.
   It is an easily readable, accessible, and open-source font from Google Fonts. Included in the
   family are six weights that should be used for all headers, sub-headers, and
-  body text. Hierarchy can be established by using size and negative space.
-preview-image: style/preview-typography.svg
+  body text. Hierarchy can be established using size and negative space.
 resource: true
 status: in-progress
 code-element: true

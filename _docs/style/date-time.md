@@ -3,7 +3,6 @@ title: Date & Time
 layout: docs
 category: Style
 usage: Rackspace is a global company, so it is critical to ensure that we represent time as clearly and consistently as possible to our customers.
-preview-image:
 resource: true
 ---
 

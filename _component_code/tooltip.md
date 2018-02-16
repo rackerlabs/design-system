@@ -2,7 +2,7 @@
 title: Tooltip
 layout: code
 category: Components Code
-code: tooltip
+code: components/tooltips
 ---
 
 {% include code-container.html %}

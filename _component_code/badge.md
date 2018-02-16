@@ -1,5 +1,5 @@
 ---
-title: Notification Bar
+title: Badges
 layout: code
 category: Components Code
 code: null

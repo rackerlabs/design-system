@@ -8,7 +8,7 @@ var CODELIB = CODELIB || ( function() {
         _args = Args;
       },
       codeContainer : function() {
-        $.get("https://raw.githubusercontent.com/rackerlabs/helix-ui/master/source/components/" + _args[0] + "/index.html", function( data ) {
+        $.get("https://raw.githubusercontent.com/rackerlabs/helix-ui/master/docs/" + _args[0] + "/index.html", function( data ) {
           const object1 = /{% endblock %}/gi;
           var mappedClean = {
             obj1:object1,
