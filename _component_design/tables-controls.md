@@ -150,27 +150,28 @@ Apply sorting to table headers via a click interaction and an icon visual indica
 
 <section class="static-section" markdown="1">
 
+## Table controls - below
+{: id="below"}
+
 <div class="hxRow"  markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-## Table controls - below
-{: id="below"}
+The following controls can be located at the bottom of a table:
 
-The following controls can be found on the bottom of a table:
-
-- Primary actions
-- Secondary action
-- Pagination actions
-- Select actions
-- Number items displayed actions
+- Rows shown, and total rows
+- Pagination controls
+- Row count controls
+- Primary action button
+- Secondary action buttons
+- Number of selected items
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
 {% figure [caption:"Definition of actions on bottom of a table and spacing specifications. **not to scale**"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/tables/controls-tables/tables-controls-bottom.svg)
+![]({{site.url}}/assets/images/components/tables/controls-tables/tables-controls-bottom.png){: width="622px"}
 {% endfigure %}
 
 {% endcolumn %}
@@ -185,24 +186,111 @@ The following controls can be found on the bottom of a table:
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-### Pagination
+### Pagination controls
 
-The page you view is determined by the pagination controls group.
+* Pagination controls enable users to traverse large data sets by viewing one “page” of data at a time.
+* The pagination bar is centered below the table and facilitates up to five numerical page buttons.
+* The bar contains a back and next button so that the user can navigate to adjacent pages.
+* The bar contains first page and last page buttons so that the user can navigate to the first and last pages of data in the set.
+
 
 {% endcolumn %}
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
-{% figure [caption:"Filter regular/compact variations"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/tables/controls-tables/tables-pagination-1.svg)
+{% figure [caption:"Pagination bar specs and states"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/tables/controls-tables/table-controls-pagination-bar-specs-and-states.png){: width="565px"}
 {% endfigure %}
 
 {% endcolumn %}
 
+</div>
+
+<div class="hxRow"  markdown="1">
+
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-{% figure [caption:"Filter buttons trancated/truncated-compact variations"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/tables/controls-tables/tables-pagination-2.svg)
+#### The number of buttons
+
+* The pagination bar displays three page buttons by default, but can be configured to display up to five page buttons.
+* When there are five or less pages of data, the button bar shrinks to accommodate.
+* The back, next, first page, and last page buttons always remain visible, but are disabled depending on current page position.
+* The bar must remain centered in its position under the table.
+
+
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
+{% figure [caption:"Default to three page buttons"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/tables/controls-tables/table-controls-pagination-bar-page-button-options.png){: width="306px"}
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+#### Page button behaviors
+
+* When the first page is selected, the First Page and Back buttons are disabled.
+* When the last page is selected the Next and Last Page buttons are disabled.
+* The back, next, first page, and last page buttons always remain visible, but are disabled depending on current page position.
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
+{% figure [caption:"Pagination button bar behavior"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/tables/controls-tables/table-controls-pagination-bar-button-behaviors.png){: width="238px"}
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+#### Indeterminate page count
+
+Sometimes, a back-end system that serves data cannot determine the total number of pages.  In that scenario, the pagination bar behaves as follows:
+
+* The Last Page button is disabled
+* Change the cursor to “unavailable” when the user hovers over the button
+* Display a tooltip explaining why the button is not clickable.
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
+{% figure [caption:"Handling indeterminate page count"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/tables/controls-tables/table-controls-pagination-bar-indeterminate-page-count.png){: width="239px"}
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+#### Row count controls
+
+Row count controls are aligned to the right edge of the table.  The number in each option can be determined at implementation, and largely depends on the performance of the back-end system serving the data.
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
+{% figure [caption:"Row count control specs and states"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/tables/controls-tables/table-controls-pagination-row-count-controls.png){: width="404px"}
 {% endfigure %}
 
 {% endcolumn %}
