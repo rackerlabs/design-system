@@ -1,0 +1,9 @@
+fontStyle,fontSize,lineHeight
+Header One,48px,72px
+Header Two,32px,48px
+Header Three,24px,36px
+Header Four,16px,24px
+Header Five,12px,16px*
+Body,16px,24px
+Caption,14px,20px*
+Sub-Body,12px,16px*
