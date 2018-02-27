@@ -1,4 +1,8 @@
-
+---
+title: Install the Sketch Library
+layout: docs
+category: Resources
+---
 
 
 # About the Sketch Library
