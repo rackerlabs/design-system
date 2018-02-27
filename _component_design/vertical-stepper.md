@@ -222,7 +222,7 @@ As the stepper pattern isolates each sequential step within a multistep process,
 
 ### Error states
 
-Error states for the stepper will generally occur within the limited scope of the input and controls component used within the content area (see below). 
+Error states for the stepper will generally occur inline within the scope of the input and controls component used within the content area (see below). 
 
 However it may be possible that a completed step may encounter an error state in certain edge cases. For example, when a user paths back and forth between sections, one section may become invalidated by a modified value in a pervious section. In these cases the error icon and associated message will be applied to the selected value in that row (see right). 
 
@@ -245,9 +245,15 @@ However it may be possible that a completed step may encounter an error state in
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-### Loading state
+#### Inline errors
+
+For errors within an input and controls component error messages will take on the error message styling defined for that particular component. See [Inputs and controls]({{site.baseurl}}/components/inputs-and-controls.html) for more information
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
 {% figure [caption:"Error state applied to an input field within the content area"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/content-areas/vert-stepper/vert-stepper-error-2.png){: width="903px"}
