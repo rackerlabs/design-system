@@ -40,7 +40,7 @@ position,type,group
 39,minus,utility
 40,minus-circle,status
 41,monitoring,utility
-42,payment,utility
+42,payment,
 43,pencil,utility
 44,phone,object
 45,plus,utility
@@ -52,8 +52,8 @@ position,type,group
 51,sort-up,utility
 52,support,platform
 53,tag,object
-54,technical-change,utility
-55,technical-incident,utility
+54,technical-change,
+55,technical-incident,
 56,ticketing,platform
 57,times,utility
 58,times-circle,utility
