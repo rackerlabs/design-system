@@ -8,38 +8,39 @@ usage: >
   Popovers present a small group of information or inputs that is presented in a panel. To preserve the user’s context, the panel is overlaid on top of the original page.
 preview-image: preview-images/popover.svg
 resource: true
-status: stable
+status: in-progress
 last-modified: 2017-10-22
-helix-ui-css: true
-helix-ui-javascript: true
 ---
 
 {% include toc.html %}
 
 <section class="static-section" markdown="1">
 
-## Introduction
-
 <div class="hxRow"  markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-### When to Use
+## When to Use
 
-Popovers are triggered as a result of a user action and provide a user with additional context through language, actions through buttons, or both.
+A popover is a user interface element that shows notifications or other important information to users
+without the user losing the context of the current activity. Popovers allow users to make small changes, view additional detail, or take actions without leaving the page. In addition to preserving context, popovers declutter a webpage.
 
-You can use popovers for short create or edit workflows and are particularly useful if context from the page is needed while making the change. Consider creating a new page if a large workflow is required.
+<<Not sure what this means..."Popovers are triggered as a result of a user action and provide a user with additional context through language, actions through buttons, or both.">>
 
-### Best practices
+Use popovers for short create or edit workflows where background content is required. If a large workflow is
+required, consider creating a new page.
 
-- Avoid opening a popover from within another popover.
-- Open popovers by clicking them and never from a hover.
-- Avoid putting important or required information in a popover, since the content inside of a popover is not always visible.
-- Use popovers to make small changes with a small number of inputs.
+## Best practices
 
-### Problems being solved
+Consider the following best practices when designing a popover:
 
-- Popovers allow users to make small changes, view additional details, or take actions without leaving the page, which preserves context. In addition to preserving context, using popovers declutters a webpage.
+- Do not design a popover to open within another popover.
+- Design a popover to open when a user clicks a CTA. Do not design a popover to open when a user hovers over a CTA.
+- Because a popover is not always open, avoid including important or required information in a popover.
+- Use popovers when a user needs to make small changes with a limited number of inputs.
+- Design a popover to extend toward the center of the screen.
+- Do not place the popover so that it obstructs important background content.
+
 
 {% endcolumn %}
 
@@ -63,10 +64,10 @@ You can use popovers for short create or edit workflows and are particularly use
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-The most defining aspects of a popover are the container and the pointer. The container appears on top of the canvas. The pointer points to the popover trigger. Pointers can be used on either side of the four corners.
+A popover consists of a **container** and a **pointer**. The container appears on top of the canvas. The pointer points to the user interface element that triggers the popover. You can place a pointer on any corner of the popover.
 
-- Most popovers have a heading and submit/cancel buttons. If buttons are not needed, a popover should close when the user clicks outside of the popover.
-- The content area can include text, inputs, or interactive content like a table or visualization.
+- Most popovers include a heading and submit and cancel buttons. If buttons are not required, a popover should close when the user clicks outside of the popover.
+- The content area can include text, inputs, or interactive content such as a table or visualization.
 
 {% endcolumn %}
 
@@ -84,15 +85,13 @@ The most defining aspects of a popover are the container and the pointer. The co
 
 <section class="static-section" markdown="1">
 
-## Pattern specifications
-
 <div class="hxRow"  markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-### Popover Spacing
+## Inputs and controls
 
-See [inputs and controls]({{site.baseurl}}/components/inputs-and-controls.html) for specifications that describe laying out form fields and body text within a popover.
+See [inputs and controls]({{site.baseurl}}/components/inputs-and-controls.html) for specifications that describe adding form fields and body text within a popover.
 
 {% endcolumn %}
 
@@ -114,10 +113,12 @@ See [inputs and controls]({{site.baseurl}}/components/inputs-and-controls.html) 
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-### Popover specifications
+## Size and style
 
-- Popovers **always** have a `box-shadow` applied.
-- Popovers **should not** be larger than 500 x 500 px.
+Use the following guidelines when sizing and styling a popover:
+
+- **Always** apply `box-shadow` to a popover.
+- You **should not** create a popover larger than 500px x 500px.
 
 {% include note.html content="If more space is required, solve the design challenge with a different Helix pattern."%}
 
@@ -141,13 +142,14 @@ See [inputs and controls]({{site.baseurl}}/components/inputs-and-controls.html) 
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-### Pointer size and placement
+## Pointer size and placement
 
-The pointer is 16px wide at the base. The apex is 8 px from the side of the rectangle. The pointer should start 12px from the corner. The side from which the pointer protrudes depends on the location of the trigger on the screen.
+Use the following guidelines when designing the popover pointer:
 
-- Always have the popover protrude toward the center of the screen.
-- Do not hide important information with the popover.
-- The popover should not obstruct important information on the screen.
+- The base of the popover pointer is 16px wide.
+- The pointer apex is 8px from the side of the rectangle.
+- The pointer should start 12px from the corner.
+- The side on which the pointer is located depends on the location of the trigger on the screen.
 
 {% endcolumn %}
 
@@ -165,13 +167,11 @@ The pointer is 16px wide at the base. The apex is 8 px from the side of the rect
 
 <section class="static-section" markdown="1">
 
-## Types of popovers
-
 <div class="hxRow"  markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-### Small create or edit popover
+## Create and edit popovers
 
 You can use popovers for small create or edit workflows that must remain in context.
 
@@ -195,11 +195,11 @@ You can use popovers for small create or edit workflows that must remain in cont
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-### Large hidden content
+## Hidden content
 
-A popover may be used to reveal hidden content so the information is still accessible but doesn’t clutter the screen.
+Use a popover to reveal hidden content so that it is accessible, but doesn’t clutter the background screen.
 
-In this instance, a popover is preferable to a [tooltip]({{site.baseurl}}/components/tooltip.html) if the content is dynamic or interactive. For example, when presenting the user with a table or visualization.
+If the content is dynamic or interactive, a popover is preferable to a [tooltip]({{site.baseurl}}/components/tooltip.html). For example, use a popover when you present the user with a table or visualization that contain clickable areas.
 
 {% endcolumn %}
 
@@ -221,7 +221,7 @@ In this instance, a popover is preferable to a [tooltip]({{site.baseurl}}/compon
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-### Loading
+## Loading
 
 Use a simple loading circle to load a popover. Refer to the [Loading]({{site.baseurl}}/components/loading-indicators.html) pattern for more detailed specifications.
 

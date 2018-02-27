@@ -9,28 +9,28 @@ preview-image: preview-images/chip.svg
 resource: true
 status: stable
 last-modified: 2017-11-16
-helix-ui-css: false
-helix-ui-javascript: false
 ---
 
 {% include toc.html %}
 
 <section class="static-section" markdown="1">
 
-## Introduction
-
 <div class="hxRow" markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-### When to use
+## When to use
 
-Chips are best used with indicating a list of items that may be part of a different workflow. For example, adding or removing a list of requestors on a ticket.
+Chips represent a block of information, such as a user, a device, a filter term, or metadata. Chips provide the user with a visual understanding of the information, and the ability to interact with it. Contact information and tags are common types of chips.
 
-### Best practices
+Chips are best used when indicating a list of items that might be part of a different workflow. For example, use chips when users add or remove requestors to or from a ticket.
+
+## Best practices
+
+Consider the following best practices when designing a chip:
 
 - Avoid using chips in multiple locations on a page.
-- Ensure the user can concretely identify the item represented by the chip.
+- Label the chip so that the user can identify the item represented by the chip.
 
 {% endcolumn %}
 
@@ -52,9 +52,13 @@ Chips are best used with indicating a list of items that may be part of a differ
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-### Default chip
+## Default chip
 
-The default chip is a single circle that contains a preview of the item the chip represents. The preview can consist of the the following; letters to indicate the name, an image to indicate a user, or a product icon to indicate the type of device.
+The default chip is a single circle that contains a preview of the item the chip represents. The preview can consist of the following:
+
+- letters to indicate the name
+- an image to indicate a user
+- a product icon to indicate the type of device
 
 {% endcolumn %}
 

@@ -7,34 +7,42 @@ usage: Use modals to command the user's attention by obstructing the view of all
 resource: true
 status: stable
 preview-image: preview-images/modal.svg
-last-modified: 2017-11-08
-helix-ui-css: false
-helix-ui-javascript: false
+last-modified: 2018-02-22
 ---
 
 {% include toc.html %}
 
 <section class="static-section" markdown="1">
 
-## Introduction
-
 <div class="hxRow"  markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-### Best practices
+## When to use
+A modal is an element that **disables the main window** of an application until the user interacts with it. After a user interacts with a modal, the user returns to the main window and can continue working.
 
-- Use modals sparingly and only in situations where the user must confirm before continuing, or when the cost of an error is very high.
-- It's best to trigger a modal from a button, link, or other clickable item on the page.
-- Avoid opening modals unexpectedly.
-- Allow a user to close or cancel a modal by clicking outside of it.
-- The confirmation button **must always** reflect the action being confirmed, and follow the **Verb Noun** labeling convention. For example, if the modal title is **Permanently delete this server?**, label the confirmation button as **Delete Server**.
+Use modals when you want to **focus the attention of the user** by obstructing the view of all items not related to the action. Modals are useful when:
+
+- the user **action is irreversible**, such as deleting a server or resetting an API key.
+- you want the user to **enter required information** before continuing to work in an application.
+
+Modals come in many forms, including alerts, login forms, and contact forms. A confirmation modal is a commonly used type of modal.
+
+## Best practices
+
+Consider the following best practices when designing a modal:
+
+- **Use modals sparingly** and only when the user must confirm an action before continuing, or when the cost of an error is very high.
+- Trigger a modal from a button, link, or other clickable item on the page.
+- Avoid opening modals unexpectedly **<<Not sure what this means>>**.
+- Allow a user to close or cancel a modal by clicking outside of it. **<<Is this a best practice, or it's just a byproduct of the modal code?>>**
+- The confirmation button **must always** reflect the action being confirmed, and follow the **Verb Noun** labeling convention. For example, if the modal title is **Permanently delete this server?**, label the confirmation button **Delete Server**.
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
-{% figure [caption:"Meet the modal"] [class:"image bg-light border"] %}
+{% figure [caption:"Example modal"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/content-areas/modal/modal-hero-image.svg)
 {% endfigure %}
 
@@ -46,16 +54,16 @@ helix-ui-javascript: false
 
 <section class="static-section" markdown="1">
 
-## Specifications
-
 <div class="hxRow"  markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-### Spacing
+## Width and height
 
-- Minimum width is 400px.
-- Minimum height is 200px.
+Use the following specifications to size a modal:
+
+- Minimum width: 400px.
+- Minimum height: 200px.
 
 {% endcolumn %}
 
@@ -77,9 +85,9 @@ helix-ui-javascript: false
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-### Style
+## Placement
 
-Center modals vertically and horizontally in the browser window.
+Center-align modals vertically and horizontally.
 
 {% endcolumn %}
 
@@ -101,9 +109,9 @@ Center modals vertically and horizontally in the browser window.
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-### Loading
+## Loading
 
-Use a simple loading spinner when loading data in a popover. Center the loading spinner horizontally and vertically within the popover component.
+When depicting data loading in a popover, use a simple loading spinner. Center-align the loading spinner horizontally and vertically within the popover component.
 
 Refer to the [Loading pattern]({{site.url}}/components/loading-indicators.html) for detailed specifications.
 
@@ -127,22 +135,20 @@ Refer to the [Loading pattern]({{site.url}}/components/loading-indicators.html) 
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-### Use Case: Confirmation
+## Confirmation modals
 
-Confirmation modals interrupt the user before they complete a given workflow and require a single decision from the user.
+A confirmation modal interrupts a user and requires a decision before the user can continue working. The modal is triggered when the user initiates a process or submits information that can have a significant or destructive impact.
 
-The modal is triggered by the user submitting information or initiating a process that will have significant or destructive impact.
+**Confirmation scenarios include actions that result in:**
 
-**Confirmation scenarios include the following actions:**
-
-- Action that triggers deletion or overwriting of data
+- Deleting or overwriting data
 - Loss of unsaved data
-- Changes that will impact billing
+- Changes that impact billing
 
-**All confirmation modals include the following elements:**
+**Confirmation modals include:**
 
 - A heading that identifies the destructive process or the action required to proceed
-- Messaging that clearly describes the impact of proceeding with the workflow
+- A message that clearly describes the impact of proceeding with the action
 - Confirm and cancel buttons so the user can proceed or cancel the action
 
 {% endcolumn %}
