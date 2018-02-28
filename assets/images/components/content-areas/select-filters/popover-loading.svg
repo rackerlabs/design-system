@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="633px" height="391px" viewBox="0 0 633 391" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Custom Preset 3 Copy 7</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="466.444 9.43880195 457.265 0 448.087 9.43880195 0 9.43880195 0 28.3304085 0 46.6909137 0 330 500 330 500 9.43880195"></polygon>
+        <filter x="-1.3%" y="-1.1%" width="102.6%" height="104.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="3" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M248.67325,181.474125 C242.48325,185.656125 234.00425,185.010125 228.52525,179.531125 C222.31025,173.316125 222.31025,163.240125 228.52525,157.025125 C234.74025,150.810125 244.81625,150.810125 251.03125,157.025125 C254.90025,160.894125 256.35925,166.258125 255.41125,171.256125 L256.75325,171.503125 C257.77825,166.079125 256.19425,160.258125 251.99625,156.061125 C245.24825,149.313125 234.30825,149.313125 227.56025,156.060125 C220.81325,162.808125 220.81325,173.748125 227.56025,180.496125 C233.51225,186.447125 242.72325,187.146125 249.44425,182.599125 L248.67325,181.474125 Z" id="path-3"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Custom-Preset-3-Copy-7">
+            <g id="Popover-loading" transform="translate(67.000000, 31.000000)">
+                <g id="Fill-227-Copy-3">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use stroke="#E0E0E0" stroke-width="1" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="Fill-22">
+                    <use fill="#9E9E9E" fill-rule="evenodd" xlink:href="#path-3"></use>
+                    <path stroke="#9E9E9E" stroke-width="1" d="M248.537358,182.160303 C242.116586,186.221382 233.635645,185.348627 228.171697,179.884678 C221.761434,173.474416 221.761434,163.081834 228.171697,156.671572 C234.581959,150.261309 244.974541,150.261309 251.384803,156.671572 C255.151802,160.43857 256.804173,165.707646 255.988688,170.854006 L256.347181,170.919988 C257.183214,165.654768 255.494647,160.265711 251.642697,156.414678 C245.090105,149.862086 234.466667,149.861786 227.91383,156.413652 C221.362057,162.966396 221.362057,173.589854 227.913774,180.142542 C233.503193,185.731023 242.18013,186.620069 248.743197,182.460651 L248.537358,182.160303 Z"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

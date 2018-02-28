@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="633px" height="391px" viewBox="0 0 633 391" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Custom Preset 3 Copy 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="28 8 20 0 12 8 -5.68434189e-14 8 -5.68434189e-14 27 -5.68434189e-14 46 3.9221959e-12 205 356 205 356 8"></polygon>
+        <filter x="-1.8%" y="-1.8%" width="103.7%" height="106.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="3" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="1.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.16 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-3" x="0" y="0" width="16" height="16" rx="2"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Custom-Preset-3-Copy-4">
+            <g id="popover-default-layout" transform="translate(139.000000, 93.000000)">
+                <g id="Fill-227-Copy-8" transform="translate(178.000000, 102.500000) scale(-1, 1) translate(-178.000000, -102.500000) ">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use stroke="#E0E0E0" stroke-width="1" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <rect id="Rectangle-3" fill="#FFFFFF" x="21" y="52" width="315" height="85"></rect>
+                <g id="Group-25" transform="translate(21.000000, 28.000000)">
+                    <g id="Group-23" transform="translate(0.000000, 32.000000)">
+                        <g id="Group-22">
+                            <text id="STATUS" font-family="Roboto-Regular, Roboto" font-size="12" font-weight="normal" line-spacing="16" fill="#424242">
+                                <tspan x="0" y="11">S</tspan>
+                                <tspan x="7.11914062" y="11" letter-spacing="-0.5057">T</tspan>
+                                <tspan x="13.3107062" y="11" letter-spacing="-0.8151">A</tspan>
+                                <tspan x="19.5678719" y="11">TUS</tspan>
+                            </text>
+                            <g id="Group-5" transform="translate(0.000000, 24.000000)">
+                                <text id="Active" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="24" letter-spacing="0.005" fill="#424242">
+                                    <tspan x="24.6826" y="43.9419">Acti</tspan>
+                                    <tspan x="52.624475" y="43.9419" letter-spacing="-0.0894">v</tspan>
+                                    <tspan x="60.1835125" y="43.9419">e</tspan>
+                                </text>
+                                <text id="Error" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="24" letter-spacing="0.005" fill="#424242">
+                                    <tspan x="24.6826" y="15.9419">Er</tspan>
+                                    <tspan x="39.2004125" y="15.9419" letter-spacing="-0.1438">r</tspan>
+                                    <tspan x="44.314425" y="15.9419">or</tspan>
+                                </text>
+                                <g id="Group-24" transform="translate(0.000000, 4.000000)">
+                                    <path d="M2.6064,38.1011 C1.7794,38.1011 1.1064,37.4281 1.1064,36.6011 L1.1064,24.6011 C1.1064,23.7741 1.7794,23.1011 2.6064,23.1011 L14.6064,23.1011 C15.4334,23.1011 16.1064,23.7741 16.1064,24.6011 L16.1064,36.6011 C16.1064,37.4281 15.4334,38.1011 14.6064,38.1011 L2.6064,38.1011 Z" id="Fill-16" fill="#FFFFFF"></path>
+                                    <path d="M14.6064,27.6011 L2.6064,27.6011 C1.5024,27.6011 0.6064,28.4971 0.6064,29.6011 L0.6064,41.6011 C0.6064,42.7051 1.5024,43.6011 2.6064,43.6011 L14.6064,43.6011 C15.7104,43.6011 16.6064,42.7051 16.6064,41.6011 L16.6064,29.6011 C16.6064,28.4971 15.7104,27.6011 14.6064,27.6011 M14.6064,28.6011 C15.1584,28.6011 15.6064,29.0501 15.6064,29.6011 L15.6064,41.6011 C15.6064,42.1521 15.1584,42.6011 14.6064,42.6011 L2.6064,42.6011 C2.0544,42.6011 1.6064,42.1521 1.6064,41.6011 L1.6064,29.6011 C1.6064,29.0501 2.0544,28.6011 2.6064,28.6011 L14.6064,28.6011" id="Fill-18" fill="#BCBCBC"></path>
+                                    <path d="M3,15.5 C2.173,15.5 1.5,14.827 1.5,14 L1.5,2 C1.5,1.173 2.173,0.5 3,0.5 L15,0.5 C15.827,0.5 16.5,1.173 16.5,2 L16.5,14 C16.5,14.827 15.827,15.5 15,15.5 L3,15.5 Z" id="Fill-20" fill="#FFFFFF"></path>
+                                    <g id="checkbox" transform="translate(1.000000, 0.000000)">
+                                        <g>
+                                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-3"></use>
+                                            <rect stroke="#0C7C84" stroke-width="1" x="0.5" y="0.5" width="15" height="15" rx="2"></rect>
+                                        </g>
+                                        <path d="M6.75,12.375 C6.7725,12.375 6.79625,12.375 6.81875,12.37375 C7.17375,12.35375 7.50375,12.18375 7.72625,11.90625 L12.72625,5.65625 C12.91,5.425 13,5.15 13,4.875 C13,4.50875 12.84,4.14625 12.53125,3.89875 C12.3,3.715 12.025,3.625 11.75,3.625 C11.38375,3.625 11.02125,3.78625 10.77375,4.09375 L6.64625,9.25375 L5.13375,7.74125 C4.89,7.4975 4.57,7.375 4.25,7.375 C3.93,7.375 3.61,7.4975 3.36625,7.74125 C3.1225,7.985 3,8.305 3,8.625 C3,8.945 3.12125,9.265 3.36625,9.50875 L5.86625,12.00875 C6.10125,12.24375 6.42,12.375 6.75,12.375" id="check" fill="#0C7C84"></path>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <text id="Filter-Your-Data" font-family="Roboto-Medium, Roboto" font-size="16" font-weight="400" line-spacing="24" fill="#424242">
+                        <tspan x="0" y="15">Filter Your Data</tspan>
+                    </text>
+                </g>
+                <g id="Group-26" transform="translate(21.000000, 153.000000)">
+                    <g id="Button/Standard/Primary-Copy-5">
+                        <rect id="Rectangle-2" fill="#0C7C84" x="0" y="0" width="103" height="32" rx="2"></rect>
+                        <text id="Button-Text" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" line-spacing="20" fill="#FFFFFF">
+                            <tspan x="12.6069336" y="19">Apply Filters</tspan>
+                        </text>
+                    </g>
+                    <g id="Button/Standard/Primary-Copy-6" transform="translate(123.000000, 0.000000)">
+                        <rect id="Rectangle-2" stroke="#0C7C84" x="0.5" y="0.5" width="99" height="31" rx="2"></rect>
+                        <text id="Button-Text" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" line-spacing="20" fill="#0C7C84">
+                            <tspan x="12.3168945" y="19">Clear Filters</tspan>
+                        </text>
+                    </g>
+                    <g id="button:tertiary:default" transform="translate(243.000000, 0.000000)">
+                        <rect id="Rectangle-2" fill-opacity="0" fill="#FFFFFF" opacity="0" x="0" y="0" width="72" height="32" rx="2"></rect>
+                        <text id="Cancel" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" line-spacing="20" fill="#0C7481">
+                            <tspan x="14.5419922" y="19">Cancel</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

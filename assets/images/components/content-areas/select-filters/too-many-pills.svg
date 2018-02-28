@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="633px" height="391px" viewBox="0 0 633 391" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Custom Preset 3 Copy 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="633" height="391"></rect>
+        <filter x="-1.1%" y="-1.3%" width="102.2%" height="103.6%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <rect id="path-4" x="0" y="33" width="1461" height="991"></rect>
+        <path d="M2,0 L290,0 C291.104569,-2.02906125e-16 292,0.8954305 292,2 L292,30 C292,31.1045695 291.104569,32 290,32 L2,32 C0.8954305,32 1.3527075e-16,31.1045695 0,30 L0,2 C-1.3527075e-16,0.8954305 0.8954305,2.02906125e-16 2,0 Z" id="path-5"></path>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Custom-Preset-3-Copy-3">
+            <g id="Group-4">
+                <g id="Screen-Shot-2017-11-06-at-3.59.55-PM">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Mask">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
+                        <use fill="#F5F5F5" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="Group-20" mask="url(#mask-2)">
+                        <g transform="translate(-805.000000, -106.000000)" id="Group-19">
+                            <g>
+                                <g id="Rectangle-5">
+                                    <use fill="#FAFAFA" fill-rule="evenodd" xlink:href="#path-4"></use>
+                                    <rect stroke="#979797" stroke-width="1" x="0.5" y="33.5" width="1460" height="990"></rect>
+                                </g>
+                                <g id="Group-18">
+                                    <g id="Group-17">
+                                        <g id="Group-16"></g>
+                                        <g id="Group-14" transform="translate(260.000000, 77.000000)">
+                                            <g id="Group-4" transform="translate(1.000000, 70.000000)">
+                                                <g id="Table" transform="translate(0.000000, 88.000000)">
+                                                    <g id="Table-Header">
+                                                        <g id="Group-33" transform="translate(0.000000, 29.000000)" stroke="#E0E0E0">
+                                                            <path d="M0,1 L1158,1" id="Line" stroke-linecap="square"></path>
+                                                            <path d="M0,57.0806452 L1158,57.0806452" id="Stroke-11"></path>
+                                                            <path d="M0,113.080645 L1158,113.080645" id="Stroke-11"></path>
+                                                            <path d="M0,169.080645 L1158,169.080645" id="Stroke-11"></path>
+                                                            <path d="M0,225.080645 L1158,225.080645" id="Stroke-11"></path>
+                                                        </g>
+                                                        <g id="Group-29" transform="translate(420.000000, 0.000000)" fill="#333333" font-family="Roboto-Regular, Roboto" font-weight="normal">
+                                                            <g id="Group-31">
+                                                                <text id="Column-3-Label" font-size="12" line-spacing="25">
+                                                                    <tspan x="0" y="11">LOCATION</tspan>
+                                                                </text>
+                                                                <text id="Third-Column" font-size="16" line-spacing="20">
+                                                                    <tspan x="1" y="63">Chicago (ORD)</tspan>
+                                                                </text>
+                                                                <text id="Third-Column" font-size="16" line-spacing="20">
+                                                                    <tspan x="1" y="119">Miama (MIA)</tspan>
+                                                                </text>
+                                                                <text id="Third-Column" font-size="16" line-spacing="20">
+                                                                    <tspan x="1" y="175">Chicago (ORD)</tspan>
+                                                                </text>
+                                                                <text id="Third-Column" font-size="16" line-spacing="20">
+                                                                    <tspan x="1" y="231">Chicago (ORD)</tspan>
+                                                                </text>
+                                                            </g>
+                                                        </g>
+                                                        <g id="Group-27" transform="translate(926.000000, 0.000000)" fill="#333333" font-family="Roboto-Regular, Roboto" font-weight="normal">
+                                                            <text id="Column-4-Label" font-size="12" line-spacing="25">
+                                                                <tspan x="187.613281" y="11">SIZE</tspan>
+                                                            </text>
+                                                            <text id="Last-Column" font-size="16" line-spacing="20">
+                                                                <tspan x="161.226562" y="63">256 GB</tspan>
+                                                            </text>
+                                                            <text id="Last-Column" font-size="16" line-spacing="20">
+                                                                <tspan x="161.226562" y="119">256 GB</tspan>
+                                                            </text>
+                                                            <text id="Last-Column" font-size="16" line-spacing="20">
+                                                                <tspan x="161.226562" y="175">256 GB</tspan>
+                                                            </text>
+                                                            <text id="Last-Column" font-size="16" line-spacing="20">
+                                                                <tspan x="161.226562" y="231">256 GB</tspan>
+                                                            </text>
+                                                        </g>
+                                                    </g>
+                                                    <g id="Rows">
+                                                        <g id="Table-/-Row-/-Default" transform="translate(0.000000, 85.000000)"></g>
+                                                        <g id="Table-/-Row-/-Default" transform="translate(0.000000, 141.000000)"></g>
+                                                        <g id="Table-/-Row-/-Default" transform="translate(0.000000, 197.000000)"></g>
+                                                        <g id="Table-/-Row-/-Default" transform="translate(688.000000, 0.000000)" fill="#333333" font-family="Roboto-Regular, Roboto" font-weight="normal">
+                                                            <g id="Group-28">
+                                                                <text id="Column-3-Label" font-size="12" line-spacing="25">
+                                                                    <tspan x="0" y="11">SERVER ID</tspan>
+                                                                </text>
+                                                                <text id="Third-Column" font-size="16" line-spacing="20">
+                                                                    <tspan x="1" y="63">1.236474.2738</tspan>
+                                                                </text>
+                                                                <text id="Third-Column" font-size="16" line-spacing="20">
+                                                                    <tspan x="1" y="119">1.236474.2739</tspan>
+                                                                </text>
+                                                                <text id="Third-Column" font-size="16" line-spacing="20">
+                                                                    <tspan x="1" y="175">1.236474.2740</tspan>
+                                                                </text>
+                                                                <text id="Third-Column" font-size="16" line-spacing="20">
+                                                                    <tspan x="1" y="231">1.236474.2741</tspan>
+                                                                </text>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                                <g id="Group-Copy-2" transform="translate(1066.000000, 48.000000)">
+                                                    <rect id="Rectangle-279" fill="#D8D8D8" x="0" y="0" width="93" height="24" rx="12"></rect>
+                                                    <g id="Group-2" transform="translate(16.000000, 0.000000)">
+                                                        <text id="active" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="24" fill="#424242">
+                                                            <tspan x="0" y="15">active</tspan>
+                                                        </text>
+                                                        <path d="M56.8837224,12.0000781 L60.8167245,8.06701458 C61.0610918,7.8226434 61.0610918,7.42764957 60.8167245,7.18327839 C60.5723571,6.9389072 60.1773695,6.9389072 59.9330021,7.18327839 L56,11.1163419 L52.0669979,7.18327839 C51.8226305,6.9389072 51.4276429,6.9389072 51.1832755,7.18327839 C50.9389082,7.42764957 50.9389082,7.8226434 51.1832755,8.06701458 L55.1162776,12.0000781 L51.1832755,15.9331417 C50.9389082,16.1775129 50.9389082,16.5725067 51.1832755,16.8168779 C51.3051467,16.938751 51.4651417,17 51.6251367,17 C51.7851317,17 51.9451267,16.938751 52.0669979,16.8168779 L56,12.8838143 L59.9330021,16.8168779 C60.0548733,16.938751 60.2148683,17 60.3748633,17 C60.5348583,17 60.6948533,16.938751 60.8167245,16.8168779 C61.0610918,16.5725067 61.0610918,16.1775129 60.8167245,15.9331417 L56.8837224,12.0000781 Z" id="Fill-1" fill="#9E9E9E"></path>
+                                                    </g>
+                                                </g>
+                                                <g id="Group-Copy-2" transform="translate(917.000000, 48.000000)">
+                                                    <rect id="Rectangle-279" fill="#D8D8D8" x="0" y="0" width="141" height="24" rx="12"></rect>
+                                                    <g id="Group-2" transform="translate(16.000000, 0.000000)">
+                                                        <text id="Network-829" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="24" fill="#424242">
+                                                            <tspan x="0" y="15">Network 829</tspan>
+                                                        </text>
+                                                        <path d="M104.883722,12.0000781 L108.816724,8.06701458 C109.061092,7.8226434 109.061092,7.42764957 108.816724,7.18327839 C108.572357,6.9389072 108.177369,6.9389072 107.933002,7.18327839 L104,11.1163419 L100.066998,7.18327839 C99.8226305,6.9389072 99.4276429,6.9389072 99.1832755,7.18327839 C98.9389082,7.42764957 98.9389082,7.8226434 99.1832755,8.06701458 L103.116278,12.0000781 L99.1832755,15.9331417 C98.9389082,16.1775129 98.9389082,16.5725067 99.1832755,16.8168779 C99.3051467,16.938751 99.4651417,17 99.6251367,17 C99.7851317,17 99.9451267,16.938751 100.066998,16.8168779 L104,12.8838143 L107.933002,16.8168779 C108.054873,16.938751 108.214868,17 108.374863,17 C108.534858,17 108.694853,16.938751 108.816724,16.8168779 C109.061092,16.5725067 109.061092,16.1775129 108.816724,15.9331417 L104.883722,12.0000781 Z" id="Fill-1" fill="#9E9E9E"></path>
+                                                    </g>
+                                                </g>
+                                                <g id="Group-Copy-2" transform="translate(738.000000, 48.000000)">
+                                                    <rect id="Rectangle-279" fill="#D8D8D8" x="0" y="0" width="171" height="24" rx="12"></rect>
+                                                    <g id="Group-2" transform="translate(16.000000, 0.000000)">
+                                                        <text id="111.222.111.124" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" line-spacing="24" fill="#424242">
+                                                            <tspan x="0" y="15">111.222.111.124</tspan>
+                                                        </text>
+                                                        <path d="M134.883722,12.0000781 L138.816724,8.06701458 C139.061092,7.8226434 139.061092,7.42764957 138.816724,7.18327839 C138.572357,6.9389072 138.177369,6.9389072 137.933002,7.18327839 L134,11.1163419 L130.066998,7.18327839 C129.822631,6.9389072 129.427643,6.9389072 129.183276,7.18327839 C128.938908,7.42764957 128.938908,7.8226434 129.183276,8.06701458 L133.116278,12.0000781 L129.183276,15.9331417 C128.938908,16.1775129 128.938908,16.5725067 129.183276,16.8168779 C129.305147,16.938751 129.465142,17 129.625137,17 C129.785132,17 129.945127,16.938751 130.066998,16.8168779 L134,12.8838143 L137.933002,16.8168779 C138.054873,16.938751 138.214868,17 138.374863,17 C138.534858,17 138.694853,16.938751 138.816724,16.8168779 C139.061092,16.5725067 139.061092,16.1775129 138.816724,15.9331417 L134.883722,12.0000781 Z" id="Fill-1" fill="#9E9E9E"></path>
+                                                    </g>
+                                                </g>
+                                                <g id="Group-Copy-8" transform="translate(680.000000, 48.000000)">
+                                                    <rect id="Rectangle-279" fill="#D8D8D8" x="0" y="0" width="50" height="24" rx="12"></rect>
+                                                    <circle id="Oval" fill="#9E9E9E" cx="15" cy="12" r="3"></circle>
+                                                    <circle id="Oval" fill="#9E9E9E" cx="25" cy="12" r="3"></circle>
+                                                    <circle id="Oval" fill="#9E9E9E" cx="35" cy="12" r="3"></circle>
+                                                </g>
+                                                <g id="Group-3" transform="translate(764.000000, 0.000000)">
+                                                    <g id="Group">
+                                                        <g id="Button/Standard/Primary-Copy-6">
+                                                            <rect id="Rectangle-2" stroke="#0C7C84" x="0.5" y="0.5" width="81" height="31" rx="2"></rect>
+                                                            <text id="Filters" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" line-spacing="20" fill="#0C7C84">
+                                                                <tspan x="30" y="19">Filters</tspan>
+                                                            </text>
+                                                            <path d="M25.8105962,10.084 L20.9088868,14.986 L20.9088868,22.364 C20.9088868,22.622 20.7498962,22.851 20.5209098,22.95 C20.4419145,22.98 20.3519198,23 20.2719246,23 C20.1029346,23 19.943944,22.941 19.8249511,22.811 L17.280102,20.266 C17.1601091,20.147 17.0911132,19.988 17.0911132,19.818 L17.0911132,14.986 L12.1894038,10.084 C12.000415,9.905 11.950418,9.627 12.0504121,9.388 C12.1494062,9.159 12.3783926,9 12.6363773,9 L25.3636227,9 C25.6216074,9 25.8505938,9.159 25.9495879,9.388 C26.049582,9.627 25.999585,9.905 25.8105962,10.084" id="Fill-1" fill="#0C7C84"></path>
+                                                        </g>
+                                                    </g>
+                                                    <g id="Min-Search-Bar" transform="translate(102.000000, 0.000000)">
+                                                        <g id="Search-Icon">
+                                                            <g id="Rectangle-4">
+                                                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+                                                                <path stroke="#BDBDBD" stroke-width="1" d="M2,0.5 C1.17157288,0.5 0.5,1.17157288 0.5,2 L0.5,30 C0.5,30.8284271 1.17157288,31.5 2,31.5 L290,31.5 C290.828427,31.5 291.5,30.8284271 291.5,30 L291.5,2 C291.5,1.17157288 290.828427,0.5 290,0.5 L2,0.5 Z"></path>
+                                                            </g>
+                                                            <text id="Search…" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#9E9E9E">
+                                                                <tspan x="35" y="21">Search…</tspan>
+                                                            </text>
+                                                            <g id="Icons/Search" transform="translate(12.000000, 7.000000)" fill="#757575">
+                                                                <g id="search">
+                                                                    <g id="Layer_1" fill-rule="nonzero">
+                                                                        <path d="M15.9,14.6 L11.4,10.1 C12.2,9 12.7,7.7 12.7,6.3 C12.7,2.8 9.8,0 6.4,0 C2.9,0 0.1,2.8 0.1,6.3 C0.1,9.8 2.9,12.6 6.4,12.6 C7.7,12.6 9,12.2 10,11.5 L14.5,16 L15.9,14.6 Z M2.1,6.3 C2.1,3.9 4,2 6.4,2 C8.8,2 10.7,3.9 10.7,6.3 C10.7,8.7 8.8,10.6 6.4,10.6 C4,10.6 2.1,8.7 2.1,6.3 Z" id="Shape"></path>
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
