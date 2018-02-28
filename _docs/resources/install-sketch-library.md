@@ -48,15 +48,11 @@ Complete this task to move the shared library to My Drive.
 
 1. Log in to Google Drive, and click **Shared Drive**.
 
-{% figure [caption:""] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/install-sketch-library/shared-drive.png)
-{% endfigure %}
+   {% figure [caption:""] [class:"image bg-light border"] %}![]({{site.url}}/assets/images/install-sketch-library/shared-drive.png){% endfigure %}
 
 2. Right-click the helix library and select **Add to My Drive**.
 
-{% figure [caption:""] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/install-sketch-library/add-to-my-drive.png)
-{% endfigure %}
+   {% figure [caption:""] [class:"image bg-light border"] %}![]({{site.url}}/assets/images/install-sketch-library/add-to-my-drive.png){% endfigure %}
 
 ## Task 2: Install Google Backup and Sync
 Google Backup and Sync is a free product that you use to synchronize changes
@@ -81,19 +77,19 @@ not required.
 library. You can clear all checkboxes on the **My Laptop** panel, and click
 **Next**.
 
-{% figure [caption:""] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/install-sketch-library/backup-my-laptop.png)
-{% endfigure %}
+   {% figure [caption:""] [class:"image bg-light border"] %}
+   ![]({{site.url}}/assets/images/install-sketch-library/backup-my-laptop.png)
+   {% endfigure %}
 
 6. clicking **Sync only these folders**.
 
 7. From the list of folders, select the **Helix Library** folder, and click **Start**.
 
-{% figure [caption:""] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/install-sketch-library/sync-helix-folder.png)
-{% endfigure %}
+   {% figure [caption:""] [class:"image bg-light border"] %}
+   ![]({{site.url}}/assets/images/install-sketch-library/sync-helix-folder.png)
+   {% endfigure %}
 
-## Import the Helix Sketch library into Sketch
+## Task 3: Import the Helix Sketch library into Sketch
 xxxxxxxx. xxxxxxx.
 
 1. xxxxxxx
@@ -104,7 +100,9 @@ xxxxxxxx. xxxxxxx.
 
 
 # Install the Sketch library from your local machine
-xxxxx.
+If you do not want to use the Google Drive approach to installing the Sketch library, you can download the library to your local machine and then import it into Sketch.
+
+**Note:** When you import the Sketch library from your local machine, you do not receive automatic updates.
 
 ## Task 1: Download the Sketch library from the Helix website
 1. Go to http://helix.rax.io.
