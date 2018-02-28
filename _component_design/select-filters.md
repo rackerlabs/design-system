@@ -23,7 +23,7 @@ helix-ui-javascript: true
 
 ## When to use
 
-Use select filter when a user needs to narrow a data set using a limited number of possible filters. When a user selects and applies the filter, the user sees their desired data set. Select filters contrast with search filters, in that select filters allow the user to select from a set of existing filters, as opposed to a search filter, which filters data based on certain search terms and assistive search elements.
+Use select filters when a user needs to narrow a data set using a limited number of possible filters. When a user selects and applies the filter, the user sees their desired data set. This contrast with search filters, which filter data based on certain search terms and assistive search elements.
 
 {% endcolumn %}
 
@@ -55,11 +55,11 @@ Select filters use the following specifications and states:
 
 ### Select filter
 
-Select are toggled with a popover triggered by a button. Filters are selected using checkboxes, and are then applied with a "Apply Filters" button. The "Clear Filters" button removes all selected filters.
+Select are toggled with a popover triggered by a button. Filters are selected using checkboxes, and are then applied with a **Apply Filters** button. The **Clear Filters** button removes all selected filters.
 
-The "Cancel" button closes the popover with applying any filters, even if some were selected. Any filters that had been previously applied until the filter is removed by the user.
+The **Cancel** button closes the popover with applying any filters, even if some were selected. Any filters that had been previously applied until the filter is removed by the user.
 
-After a filter has been applied by the user, pills are placed on to the base page. A filter can be removed by clicking the "x" inside of that filter's pill.
+After a filter has been applied by the user, pills are placed on to the base page. A filter can be removed by clicking the **x** inside of that filter's pill.
 
 {% endcolumn %}
 
@@ -87,7 +87,7 @@ After a filter has been applied by the user, pills are placed on to the base pag
 
 ### Trigger button
 
-Filters are triggered by a secondary button which contains the filter icon and a "Filters" label. We recommend placing the filter button on the top right side of a data set, but it does not need to be the most right aligned element.
+Filters are triggered by a secondary button which contains the filter icon and a label named **Filters**. We recommend placing the filter button on the top right side of a data set, but it does not need to be the most right aligned element.
 
 {% endcolumn %}
 
@@ -111,7 +111,7 @@ Filters are triggered by a secondary button which contains the filter icon and a
 
 ### Popover element
 
-After the filter button is triggered, the popover element contain the filter checkboxes appears. Popover size is depends on the amount of filters that are selectable. If the size of the popover becomes to large, consider using a search filter.
+After the filter button is triggered, the popover element containing the filter checkboxes appears. Popover size is depends on the amount of filters that are selectable. If the size of the popover becomes too large, consider using a search filter.
 
 {% endcolumn %}
 
@@ -137,9 +137,9 @@ After the filter button is triggered, the popover element contain the filter che
 
 To see specifications for laying out form fields and body text within a popover, see the following patterns:
 
-- Popovers
-- Checkboxes
-- Typography
+- [Popovers](http://helix.rax.io/components/popovers.html)
+- [Checkboxes](http://helix.rax.io/components/checkboxes.html)
+- [Typography](http://helix.rax.io/style/typography.html)
 
 {% endcolumn %}
 
@@ -211,7 +211,7 @@ Use the multicolumn popover variation if you have multiple filter checkboxes in 
 
 ### Multi-category popover
 
-Use a multi-category when filters can be categorized. Use one column for each category. In this example, the user has categorized their checkboxes into three different categories, each with their own filter checkboxes and columns.
+Use a multi-category when filters can be categorized. Use one column for each category. In this example, the user has categorized their checkboxes into three different categories, each with their own column. The category title is placed at the top of the column with filter checkboxes placed underneath.
 
 {% endcolumn %}
 
@@ -235,7 +235,7 @@ Use a multi-category when filters can be categorized. Use one column for each ca
 
 ### Popover loading state
 
-Use a simple loading spinner while a popover loads. For detailed specifications, see Loading indicators.
+Use a simple loading spinner while a popover loads. For detailed specifications, see [Loading indicators](http://helix.rax.io/components/loading-indicators.html).
 
 {% endcolumn %}
 
@@ -261,7 +261,7 @@ Use a simple loading spinner while a popover loads. For detailed specifications,
 
 When a filter is applied in the filter popover, the applied filters are reflected by placing a pill 16 px below the control bar (shown as a filter button and search bar in the example) and 16 px above the data set (shown as a device table in the example). Select filters pills are right aligned.
 
-For more details on pills, see Pills documentation.
+For more details on pills, see [Pills documentation](http://helix.rax.io/components/pills.html).
 
 {% endcolumn %}
 
