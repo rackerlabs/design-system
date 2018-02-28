@@ -25,9 +25,9 @@ an update.
 
 **Note:** The Helix Team sends an email each time the Helix library is updated.
 If you are not a part of the Helix email distribution list, you can request
-access by email xxxxxxxxxx.
+access by emailing xxxxxxxxxx.
 
-# Install the Sketch library from your Google Drive
+# Install the Sketch library from  Google Drive
 Complete the following tasks to install the Sketch library from your Google
 Drive.
 
@@ -44,7 +44,7 @@ been made available to you, send an email to the Helix Team requesting access
 to the Helix Sketch library. The Helix Team will provide a copy of the library
 to your **Shared with me** folder.
 
-Complete this task to move the shared library to My Drive.
+Complete the following task to move the shared library to My Drive.
 
 1. Log in to Google Drive, and click **Shared Drive**.
 
@@ -67,6 +67,8 @@ not required.
 
 2. Download and install Google Backup and Sync.
 
+3. On the **Would you like to copy...** dialog box, click **Copy**.
+
 3. Start Google Backup and Sync, and on the **Welcome** dialog box, click
 **Get Started**.
 
@@ -81,7 +83,7 @@ library. You can clear all checkboxes on the **My Laptop** panel, and click
    ![]({{site.url}}/assets/images/install-sketch-library/backup-my-laptop.png)
    {% endfigure %}
 
-6. clicking **Sync only these folders**.
+6. Click **Sync only these folders**.
 
 7. From the list of folders, select the **Helix Library** folder, and click **Start**.
 
@@ -90,13 +92,26 @@ library. You can clear all checkboxes on the **My Laptop** panel, and click
    {% endfigure %}
 
 ## Task 3: Import the Helix Sketch library into Sketch
-xxxxxxxx. xxxxxxx.
+Complete the following steps to bring the Helix Sketch library into Sketch.
 
-1. xxxxxxx
+1. Open Sketch and click **Sketch > Preferences**.
 
-2. xxxxxxxx
+2. On the **Preferences** dialog box, click **Libraries**, and then click **Add Library**.
 
-3. xxxxxxxx
+   {% figure [caption:""] [class:"image bg-light border"] %}
+   ![]({{site.url}}/assets/images/install-sketch-library/Add-library-1.png)
+   {% endfigure %}
+
+3. Click **Google Drive > Helix Library Test > helix-library-test.sketch**.
+
+4. Click **Open**.
+
+   {% figure [caption:""] [class:"image bg-light border"] %}
+   ![]({{site.url}}/assets/images/install-sketch-library/Add-library-2.png){% endfigure %}
+
+   Sketch adds the Helix library to the list of libraries.
+
+   {% figure [caption:""] [class:"image bg-light border"] %}![]({{site.url}}/assets/images/install-sketch-library/Add-library-3.png){% endfigure %}
 
 
 # Install the Sketch library from your local machine
@@ -107,15 +122,30 @@ If you do not want to use the Google Drive approach to installing the Sketch lib
 ## Task 1: Download the Sketch library from the Helix website
 1. Go to http://helix.rax.io.
 
-2. Expand **Resources** and click Download Sketch Library.
+2. Expand **Resources** and click **Download Sketch Library**.
 
 3. Save the Sketch library to a location on your local machine.
 
-## Task 2: Import the Sketch library into sketch
-xxxxxx. xxxxx.
+## Task 2: Import the Helix Sketch library into sketch
+Complete the following steps to bring the Helix Sketch library into Sketch.
 
-1. xxxxxxxx
+1. Open Sketch and click **Sketch > Preferences**.
 
-2. xxxxxxxx
+2. On the **Preferences** dialog box, click **Libraries**, and then click **Add Library**.
 
-3. xxxxxxx
+   {% figure [caption:""] [class:"image bg-light border"] %}
+   ![]({{site.url}}/assets/images/install-sketch-library/Add-library-1.png)
+   {% endfigure %}
+
+3. Locate the library on your local machine, and click **helix-library-test.sketch**.
+
+4. Click **Open**.
+
+   {% figure [caption:""] [class:"image bg-light border"] %}
+   ![]({{site.url}}/assets/images/install-sketch-library/Add-library-4.png){% endfigure %}
+
+   Sketch adds the Helix library to the list of libraries.
+
+   {% figure [caption:""] [class:"image bg-light border"] %}
+   ![]({{site.url}}/assets/images/install-sketch-library/Add-library-3.png)
+   {% endfigure %}
