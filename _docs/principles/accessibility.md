@@ -91,7 +91,7 @@ Other optional indicators to consider are the following elements:
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/overview/accessibility/accessibility-alerts.svg)
+![]({{site.url}}/assets/images/overview/accessibility/accessibility-alerts.png){:width="598px"}
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -117,7 +117,7 @@ Helix minimum contrast standards require the following elements:
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption: "Helix typography styles with their corresponding contrast ratios. All ratios were calculated using a `#fafafa` (`gray 25`) background color."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/overview/accessibility/accessibility-typography.svg)
+![]({{site.url}}/assets/images/overview/accessibility/accessibility-typography.png){:width="598px"}
 {% endfigure %}
 {% endcolumn %}
 </div>
