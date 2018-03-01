@@ -8,8 +8,10 @@ usage: >
   Popovers present a small group of information or inputs that is presented in a panel. To preserve the user’s context, the panel is overlaid on top of the original page.
 preview-image: preview-images/popover.svg
 resource: true
-status: in-progress
-last-modified: 2017-10-22
+status: stable
+last-modified: 2018-03-01
+helix-ui-css: true
+helix-ui-javascript: true
 ---
 
 {% include toc.html %}
@@ -24,10 +26,9 @@ last-modified: 2017-10-22
 
 A popover is a user interface element that shows notifications or other important information to users without the user losing the context of the current activity. Popovers allow users to make small changes, view additional detail, or take action without leaving the page. In addition to preserving context, popovers declutter a webpage.
 
-<<Not sure what this means..."Popovers are triggered as a result of a user action and provide a user with additional context through language, actions through buttons, or both.">>
+Popovers are triggered as a result of a user action and provide a user with additional context through language, actions through buttons, or both.
 
-Use popovers for short create or edit workflows where background content is required. If a large workflow is
-required, consider creating a new page.
+Use popovers for short create or edit workflows where background content is required. If a large workflow is required, consider creating a new page.
 
 ## Best practices
 

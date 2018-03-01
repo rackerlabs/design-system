@@ -7,7 +7,9 @@ usage: Use modals to command the user's attention by obstructing the view of all
 resource: true
 status: stable
 preview-image: preview-images/modal.svg
-last-modified: 2018-02-22
+last-modified: 2018-03-01
+helix-ui-css: false
+helix-ui-javascript: false
 ---
 
 {% include toc.html %}
@@ -23,8 +25,8 @@ A modal is an element that **disables the main window** of an application until 
 
 Use modals when you want to **focus the attention of the user** by obstructing the view of all items not related to the action. Modals are useful when:
 
-- the user **action is irreversible**, such as deleting a server or resetting an API key.
-- you want the user to **enter required information** before continuing to work in an application.
+- The user **action is irreversible**, such as deleting a server or resetting an API key
+- You want the user to **enter required information** before continuing to work in an application
 
 Modals come in many forms, including alerts, login forms, and contact forms. A confirmation modal is a commonly used type of modal.
 
@@ -62,8 +64,8 @@ Consider the following best practices when designing a modal:
 
 Use the following specifications to size a modal:
 
-- Minimum width: 400px.
-- Minimum height: 200px.
+- Minimum width: 400px
+- Minimum height: 200px
 
 {% endcolumn %}
 

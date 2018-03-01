@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/tabs.svg
 resource: true
 status: stable
-last-modified: 2017-09-11
+last-modified: 2018-03-01
 helix-ui-css: true
 helix-ui-javascript: true
 ---
@@ -31,7 +31,7 @@ Use tabs when:
 - Users do not need to simultaneously view content from multiple tabs.
 - You want the content of a page to be scannable and easy to navigate. Tabs help users quickly find what they need.
 - You do not want to create a single, unified experience for the user. Tabsets eliminate the need for the user to scroll through long pages to find the right section.
-- You want to eliminate the need to stack sections **<<Not sure what this means>>**
+- You want to eliminate the need to stack sections.
 
 Do not use tabs:
 

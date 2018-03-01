@@ -8,7 +8,9 @@ usage: >
 preview-image: preview-images/key-value.svg
 resource: true
 status: stable
-last-modified: 2017-11-07
+last-modified: 2018-03-01
+helix-ui-css: true
+helix-ui-javascript: true
 ---
 
 {% include toc.html %}
@@ -23,7 +25,7 @@ last-modified: 2017-11-07
 
 A key-value pair is a group of two related data items. Key-value pairs display a label (the key) with the corresponding data (the value). Color and alignment of key-value pairs allow the user to scan the page quickly for relevant data.
 
-Use key-value pairs when a key (label) needs text or a visual display of that key’s corresponding value (data).**<<not entirely sure what this means...>>**
+Use key-value pairs when a key has a corresponding value that can be displayed visually or with text.
 
 ## Best practices
 

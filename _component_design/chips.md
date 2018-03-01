@@ -8,7 +8,9 @@ usage: >
 preview-image: preview-images/chip.svg
 resource: true
 status: stable
-last-modified: 2017-11-16
+last-modified: 2018-03-01
+helix-ui-css: false
+helix-ui-javascript: false
 ---
 
 {% include toc.html %}
@@ -56,9 +58,9 @@ Consider the following best practices when designing a chip:
 
 The default chip is a single circle that contains a preview of the item the chip represents. The preview can consist of the following:
 
-- letters to indicate the name
-- an image to indicate a user
-- a product icon to indicate the type of device
+- Letters to indicate the name
+- An image to indicate a user
+- A product icon to indicate the type of device
 
 {% endcolumn %}
 
