@@ -22,8 +22,7 @@ last-modified: 2017-10-22
 
 ## When to Use
 
-A popover is a user interface element that shows notifications or other important information to users
-without the user losing the context of the current activity. Popovers allow users to make small changes, view additional detail, or take actions without leaving the page. In addition to preserving context, popovers declutter a webpage.
+A popover is a user interface element that shows notifications or other important information to users without the user losing the context of the current activity. Popovers allow users to make small changes, view additional detail, or take action without leaving the page. In addition to preserving context, popovers declutter a webpage.
 
 <<Not sure what this means..."Popovers are triggered as a result of a user action and provide a user with additional context through language, actions through buttons, or both.">>
 
