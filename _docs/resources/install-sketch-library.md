@@ -75,7 +75,8 @@ not required.
 4. On the first wizard panel, sign in to your Google account.
 
 5. On the **My Laptop** panel, choose folders that you want to back up.
-**NOTE:** You do not need to use the back up feature to work with the Sketch
+
+   **NOTE:** You do not need to use the back up feature to work with the Sketch
 library. You can clear all checkboxes on the **My Laptop** panel, and click
 **Next**.
 
@@ -92,7 +93,7 @@ library. You can clear all checkboxes on the **My Laptop** panel, and click
    {% endfigure %}
 
 ## Task 3: Import the Helix Sketch library into Sketch
-Complete the following steps to bring the Helix Sketch library into Sketch.
+Complete the following steps to add the Helix Sketch library into Sketch.
 
 1. Open Sketch and click **Sketch > Preferences**.
 
@@ -122,9 +123,9 @@ If you do not want to use the Google Drive approach to installing the Sketch lib
 ## Task 1: Download the Sketch library from the Helix website
 1. Go to http://helix.rax.io.
 
-2. Expand **Resources** and click **Download Sketch Library**.
+2. Expand **Resources**, and click **Download Sketch Library**.
 
-3. Save the Sketch library to a location on your local machine.
+3. Save the Sketch library to your local machine.
 
 ## Task 2: Import the Helix Sketch library into sketch
 Complete the following steps to bring the Helix Sketch library into Sketch.
