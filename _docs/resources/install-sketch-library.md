@@ -25,7 +25,7 @@ an update.
 
 **Note:** The Helix Team sends an email each time the Helix library is updated.
 If you are not a part of the Helix email distribution list, you can request
-access by emailing xxxxxxxxxx.
+access by emailing helix@rackspace.com.
 
 # Install the Sketch library from  Google Drive
 Complete the following tasks to install the Sketch library from your Google
