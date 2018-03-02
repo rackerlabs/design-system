@@ -31,9 +31,3 @@ bundle exec jekyll serve --watch --config _config.yml,_dev-config.yml
 1. Browse the sample site.
 
 1. Once you're done, go to your terminal. Hit **CTRL+C**.
-
-1. Run the following command to get ready for the next time.
-
-```bash
-docker stop $(docker ps -a -q) && docker rm $(docker ps -a -q)
-```
