@@ -30,8 +30,7 @@ Use tabs when:
 - Users need to alternate between different views, while the context remains constant.
 - Users do not need to simultaneously view content from multiple tabs.
 - You want the content of a page to be scannable and easy to navigate. Tabs help users quickly find what they need.
-- You do not want to create a single, unified experience for the user. Tabsets eliminate the need for the user to scroll through long pages to find the right section.
-- You want to eliminate the need to stack sections.
+- You do not need to create a single, unified experience for the user. Tabsets eliminate the need for the user to scroll through long pages to find the right section.
 
 Do not use tabs:
 

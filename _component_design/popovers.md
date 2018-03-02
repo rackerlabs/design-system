@@ -26,7 +26,7 @@ helix-ui-javascript: true
 
 A popover is a user interface element that shows notifications or other important information to users without the user losing the context of the current activity. Popovers allow users to make small changes, view additional detail, or take action without leaving the page. In addition to preserving context, popovers declutter a webpage.
 
-Popovers are triggered as a result of a user action and provide a user with additional context through language, actions through buttons, or both.
+Popovers appear when a user interacts with an action link on a page. For example, when a user clicks an **Edit** link, a popover containing the parameters to edit opens.
 
 Use popovers for short create or edit workflows where background content is required. If a large workflow is required, consider creating a new page.
 
