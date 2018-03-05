@@ -36,7 +36,7 @@ Before you begin:
 - Ensure that you have a Google Drive account. If you have a Gmail account, you
 have access to a Google Drive. For more information, see https://www.google.com/drive/
 
-- Install a licensed copy of Sketch.
+- Install a licensed copy of Sketch. If you do not have a copy of Sketch, email helix@rackspace.com to request a license.
 
 ## Task 1: Move the shared Sketch library to your Google Drive account
 After you sign up for a Google Drive account, if the library has not already
