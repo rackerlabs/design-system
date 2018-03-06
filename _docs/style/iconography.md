@@ -151,6 +151,57 @@ The following icons should only be used for indicating keyboard commands. Avoid 
 </div>
 </section>
 
+<section class="static-section"  markdown="1">
+
+### Logos
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
+
+In addition to the icons provided by Helix, designers may also require access to Rackspace brand assets while creating an interface. These assets cannot be stored within a github repository for legal reasons. These assets instead will need to be sourced from their official CDN link.
+
+External parties **may not use** these assets without express written content. Such requests or more information can be ascertained by emailing the [rackspace public relations team](mailto:publicrelations@rackspace.com)
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section"  markdown="1">
+
+<div class="hxRow" markdown="1">
+
+
+{% column right:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+{% figure [caption: "Fanatiguy"][class:"image bg-light border"] %}
+![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/fanatiguy.svg){:width="100px"}
+{% endfigure %}
+
+{% endcolumn %}
+
+{% column right:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+{% figure [caption:"Rackspace logo - Gray"][class:"image bg-light border"] %}
+![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/rs-logo.svg){:width="286px"}
+{% endfigure %}
+
+{% endcolumn %}
+
+{% column right:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+{% figure [caption:"Rackspace logo - White"][class:"image bg-dark border"] %}{:style="background:#333333"}
+![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/rs-logo-white.svg){:width="286px"}
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
 ## Specifications
 
 <section class="static-section" markdown="1">
