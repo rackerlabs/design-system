@@ -4,8 +4,8 @@ parent: Content Areas
 layout: component
 category: Components
 usage: >
-  Select Filter narrows a data set using a limited number of possible filters chosen by the user.
-preview-image: null
+  Select filter narrows a data set using a limited number of possible filters chosen by the user.
+preview-image: preview-images/select-filter.svg
 resource: true
 status: stable
 last-modified: 2018-02-27
@@ -17,47 +17,47 @@ helix-ui-javascript: true
 
 <section class="static-section" markdown="1">
 
-<div class="hxRow" markdown="1">
-
-{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-
-## When to use
-
-Use select filters when a user needs to narrow a data set using a limited number of possible filters. When a user selects and applies the filter, the user sees their desired data set. This contrast with search filters, which filter data based on certain search terms and assistive search elements.
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow" markdown="1">
-
-{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-
-## Specifications
-
-Select filters use the following specifications and states:
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
+## Introduction
 
 <div class="hxRow" markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-### Select filter
+### When to use
 
-Select are toggled with a popover triggered by a button. Filters are selected using checkboxes, and are then applied with a **Apply Filters** button. The **Clear Filters** button removes all selected filters.
+Use select filters when a user needs to narrow a data set using a limited number of possible filters. When a user selects and applies the filter, the user sees their desired data set. This contrast with search filters, which filter data based on certain search terms and assistive search elements.
 
-The **Cancel** button closes the popover with applying any filters, even if some were selected. Any filters that had been previously applied until the filter is removed by the user.
+### Best practices
+
+- If a select filter popover becomes too large, consider using a search filter.
+
+- Select filter buttons should always be placed as a right-aligned element above a data set.
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% figure [caption:""] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/content-areas/select-filters/select-filter-hero.png){: width="633px"}
+{% endfigure %}
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+## Specifications
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### Elements
+
+Select filters found within a popover are triggered by a button. Filters are selected using checkboxes and are then applied with a **Apply Filters** button. The **Clear Filters** button removes all selected filters.
+
+The **Cancel** button closes the popover without applying any filters, even if some were selected. Any filters that had been previously applied remain until the filter is removed by the user.
 
 After a filter has been applied by the user, pills are placed on to the base page. A filter can be removed by clicking the **x** inside of that filter's pill.
 
@@ -66,11 +66,11 @@ After a filter has been applied by the user, pills are placed on to the base pag
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
 {% figure [caption:"The select filter popover consists of a panel, heading, filtering options and buttons."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/select-filters/filter-popovers.svg)
+![]({{site.url}}/assets/images/components/content-areas/select-filters/select-filter.png){: width="633px"}
 {% endfigure %}
 
-{% figure [caption:"The select filter popover consists of a panel, heading, filtering options and buttons."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/select-filters/filter-pills.svg)
+{% figure [caption:""] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/content-areas/select-filters/filter-pills.png){: width="633px"}
 {% endfigure %}
 
 {% endcolumn %}
@@ -87,14 +87,14 @@ After a filter has been applied by the user, pills are placed on to the base pag
 
 ### Trigger button
 
-Filters are triggered by a secondary button which contains the filter icon and a label named **Filters**. We recommend placing the filter button on the top right side of a data set, but it does not need to be the most right aligned element.
+Select filters are triggered by a secondary button which contains the filter icon and a label named **Filters**. We recommend placing the filter button on the top right side of a data set, but it does not need to be the most right aligned element.
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
 {% figure [caption:""] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/select-filters/filter-trigger-button.svg)
+![]({{site.url}}/assets/images/components/content-areas/select-filters/filter-button.png){: width="633px"}
 {% endfigure %}
 
 {% endcolumn %}
@@ -111,14 +111,14 @@ Filters are triggered by a secondary button which contains the filter icon and a
 
 ### Popover element
 
-After the filter button is triggered, the popover element containing the filter checkboxes appears. Popover size is depends on the amount of filters that are selectable. If the size of the popover becomes too large, consider using a search filter.
+After the filter button is triggered, the popover element containing the filter checkboxes appears. Popover size depends on the amount of filters that are selectable. If the size of the popover becomes too large, consider using a search filter.
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
 {% figure [caption:"The select filter popover consists of a panel, heading, filtering options and buttons."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/select-filters/filter-popover-elements.svg)
+![]({{site.url}}/assets/images/components/content-areas/select-filters/filter-elements.png){: width="633px"}
 {% endfigure %}
 
 {% endcolumn %}
@@ -146,7 +146,7 @@ To see specifications for laying out form fields and body text within a popover,
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
 {% figure [caption:""] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/select-filters/filter-popover-spacing.svg)
+![]({{site.url}}/assets/images/components/content-areas/select-filters/filter-popover-spacing.png){: width="633px"}
 {% endfigure %}
 
 {% endcolumn %}
@@ -170,7 +170,7 @@ Use a single column popover if a data set only has a small number of filters.
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
 {% figure [caption:"A popover in a loading state using a spinner."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/select-filters/popover-single-column.svg)
+![]({{site.url}}/assets/images/components/content-areas/select-filters/filter-single-column.png){: width="633px"}
 {% endfigure %}
 
 {% endcolumn %}
@@ -194,7 +194,7 @@ Use the multicolumn popover variation if you have multiple filter checkboxes in 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
 {% figure [caption:""] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/select-filters/popover-multicolumn.svg)
+![]({{site.url}}/assets/images/components/content-areas/select-filters/filter-multicolumn.png){: width="633px"}
 {% endfigure %}
 
 {% endcolumn %}
@@ -218,7 +218,7 @@ Use a multi-category when filters can be categorized. Use one column for each ca
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
 {% figure [caption:""] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/select-filters/popover-multicategory.svg)
+![]({{site.url}}/assets/images/components/content-areas/select-filters/filter-multicategory.png){: width="633px"}
 {% endfigure %}
 
 {% endcolumn %}
@@ -242,7 +242,7 @@ Use a simple loading spinner while a popover loads. For detailed specifications,
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
 {% figure [caption:""] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/select-filters/popover-loading.svg)
+![]({{site.url}}/assets/images/components/content-areas/select-filters/filter-loading-state.png){: width="633px"}
 {% endfigure %}
 
 {% endcolumn %}
@@ -259,7 +259,7 @@ Use a simple loading spinner while a popover loads. For detailed specifications,
 
 ### Post-filter pills
 
-When a filter is applied in the filter popover, the applied filters are reflected by placing a pill 16 px below the control bar (shown as a filter button and search bar in the example) and 16 px above the data set (shown as a device table in the example). Select filters pills are right aligned.
+When a filter is applied in the filter popover, the applied filters are reflected by placing a pill 16 px below the control bar (shown as a filter button and search bar in the example) and 16 px above the data set (shown as a device table in the example). Select filter pills are right aligned.
 
 For more details on pills, see [Pills documentation](http://helix.rax.io/components/pills.html).
 
@@ -267,8 +267,8 @@ For more details on pills, see [Pills documentation](http://helix.rax.io/compone
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
-{% figure [caption:"A pill containing an ellipsis can be used to show more filters as pills."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/select-filters/post-filter-popovers.svg)
+{% figure [caption:""] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/content-areas/select-filters/post-filter-pills.png){: width="633px"}
 {% endfigure %}
 
 {% endcolumn %}
@@ -291,8 +291,8 @@ If the amount of filter pills cannot fit a singe horizontal line above the data 
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
-{% figure [caption:""] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/select-filters/too-many-pills.svg)
+{% figure [caption:"A pill containing an ellipsis can be used to show more filters as pills."] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/content-areas/select-filters/too-many-pills.png){: width="633px"}
 {% endfigure %}
 
 {% endcolumn %}
