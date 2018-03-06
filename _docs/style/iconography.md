@@ -161,7 +161,7 @@ The following icons should only be used for indicating keyboard commands. Avoid 
 
 In addition to the icons provided by Helix, designers may also require access to Rackspace brand assets while creating an interface. These assets cannot be stored within a github repository for legal reasons. These assets instead will need to be sourced from their official CDN link.
 
-External parties **may not use** these assets without express written content. Such requests or more information can be ascertained by emailing the [rackspace public relations team](mailto:publicrelations@rackspace.com)
+Rackspace US, Inc. retains copyright and/or applicable rights to all text and graphic images supplied on the Rackspace websites. For additional information see [Copyrights & Trademarks](https://www.rackspace.com/information/legal/copyrights_trademarks)
 
 {% endcolumn %}
 
