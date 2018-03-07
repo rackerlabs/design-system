@@ -64,7 +64,7 @@ function jsonCall(urlValue){
   });
 }
 
-jsonCall("/feed.json").done(function(data,textStatus,jqXHR) {
+jsonCall(helixFeed).done(function(data,textStatus,jqXHR) {
   const docArray = data.items;
 
   // Loop through the content_text kv pairs to find the query string.
