@@ -5,6 +5,7 @@ var results = [];
 var searchpg = document.getElementById("search-results");
 var searchBox = document.getElementById("search-box");
 var searchcount = document.getElementById("search-count");
+var skeletonRows = document.querySelectorAll('.skeleton-row');
 
 // Take in query string
 
@@ -63,7 +64,7 @@ function jsonCall(urlValue){
   });
 }
 
-jsonCall("feed.json").done(function(data,textStatus,jqXHR) {
+jsonCall("/feed.json").done(function(data,textStatus,jqXHR) {
   const docArray = data.items;
 
   // Loop through the content_text kv pairs to find the query string.
@@ -135,10 +136,8 @@ jsonCall("feed.json").done(function(data,textStatus,jqXHR) {
 
       if (element.image){
         imaged = element.image;
-        imagedclass = "real";
       } else {
-        imaged = "helix_icon.svg";
-        imagedclass = "example";
+        imaged = "preview-images/helix_thumbnail_placeholder.svg";
       }
 
       snipd = snipd.replace(re, `<b>${queried}</b>`);
@@ -148,7 +147,6 @@ jsonCall("feed.json").done(function(data,textStatus,jqXHR) {
         "url": element.url,
         "summary": element.summary,
         "image": imaged,
-        "imageClass": imagedclass,
         "snippet": snipd,
         "counted": rankd,
         "used": element.used,
@@ -171,6 +169,10 @@ jsonCall("feed.json").done(function(data,textStatus,jqXHR) {
   } else {
     // Add search query as prefilled in the search box
     searchBox.value = queried;
+
+    skeletonRows.forEach(function(element) {
+      element.style.display = "none";
+    }); 
 
     searchcount.innerHTML=`Your search returned ${results.length} results.`;
 
@@ -207,7 +209,9 @@ jsonCall("feed.json").done(function(data,textStatus,jqXHR) {
             </div>
             <div class="hxCol-2 hxCol-xs-12 hxCol-sm-12 hxCol-md-2 hxCol-lg-2">
               <div class='side-image'>
-                <img class="${result.imageClass}" src="assets/images/${result.image}">
+                <a href="${result.url}">
+                  <img src="assets/images/${result.image}">
+                </a>
               </div>
             </div>
           </div>
