@@ -73,13 +73,13 @@ Content lives inside the container. Content is stacked vertically using line-hei
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-#### Baseline grid is multiples of four
+**Baseline grid is multiples of four.**
 Just like using columns as guides in your design, the baseline grid is a way to help you make decisions and build consistency into your layout based on multiples of four.
 
-#### Line-height ratio is 1.5
+**Line-height ratio is 1.5.**
 This ratio is taken from WCAG SC 1.4.8 guideline which states line-spacing is at least space-and-a-half (1.5) to enable people of different abilities to track and comprehend information more easily.
 
-#### Line-heights
+**Line-heights.**
 Line-heights across all font-sizes must be proportional to each other to create a good vertical rhythm. To accomplish this  we use the same base line-height / base font-size ratio for deriving all other line-heights (font-size X 1.5 line-height ratio = line-height). Use the following calculated line-height values. 
 
 {% endcolumn %}
@@ -183,9 +183,11 @@ By prescribing eight pixels between table text and table row borders, we get a t
 
 #### List items
 
-A list is a structure made of multiple items of homogenous data. It is important that the list items are not spaced apart like paragraphs, which typically hold heterogenous ideas.
+Lists contain multiple items of homogenous data. It is important that the list items are not spaced apart like paragraphs, which typically hold heterogenous ideas.
 
-To improve legibility, list items still need to be spaced apart. Many spacing values were considered before landing on four pixels.  
+To improve legibility, list items still need to be spaced apart. Many spacing values were considered before landing on four pixels.
+
+[Read more about Lists.]({{site.url}}/components/lists.html)
 
 {% endcolumn %}
 
@@ -241,7 +243,7 @@ We found that eight pixels of vertical space between consecutive, stacked inputs
 
 #### Paragraphs
 
-Paragraph line-height of twenty-four pixels was derived from visual explorations and validated using WCAG SC 1.4.8 guideline, which recommends a line-height of at least 1.5 within paragraphs. Spacing beloew paragraphs is sixteen pixels.
+Paragraph line-height of twenty-four pixels was derived from visual explorations and validated using WCAG SC 1.4.8 guidelines, which recommends a line-height of at least 1.5 within paragraphs. Spacing below paragraphs is sixteen pixels.
 
 {% endcolumn %}
 
