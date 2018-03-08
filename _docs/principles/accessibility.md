@@ -148,13 +148,13 @@ Helix minimum spacing standards require: 
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 {% figure [caption: "Little spacing and unclear relationships"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/overview/accessibility/accessibility-space-1.svg)
+![]({{site.url}}/assets/images/overview/accessibility/accessibility-space-1.png){: width="305px"}
 {% endfigure %}
 {% endcolumn %}
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 {% figure [caption: "More spacing and clear relationships"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/overview/accessibility/accessibility-space-2.svg)
+![]({{site.url}}/assets/images/overview/accessibility/accessibility-space-2.png){: width="305px"}
 {% endfigure %}
 {% endcolumn %}
 </div>
