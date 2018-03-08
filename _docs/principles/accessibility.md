@@ -140,7 +140,7 @@ Some people with cognitive disabilities find it difficult to read text when the 
 Helix minimum spacing standards require: 
 
 - Line spacing for Roboto Regular 16px is 24px.
-- Paragraph spacing is at least 36px.
+- Spacing below paragraphs is 16px.
 - Use whitespace and proximity to make relationships between content more apparent.
 - Style headings group content, reduce clutter, and make it easier to scan and understand.
 
