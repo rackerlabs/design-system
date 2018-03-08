@@ -1,0 +1,29 @@
+@-webkit-keyframes FADE-IN {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.skeleton {
+  background-color: $grey300;
+  display: block;
+  opacity: 0;
+
+  -webkit-animation: FADE-IN 0.25s normal 0.5s forwards; /* Safari 4+ */
+  -moz-animation:    FADE-IN 0.25s normal 0.5s forwards; /* Fx 5+ */
+  -o-animation:      FADE-IN 0.25s normal 0.5s forwards; /* Opera 12+ */
+  animation:         FADE-IN 0.25s normal 0.5s forwards; /* IE 10+, Fx 29+ */
+}
+
+.skeleton-body {
+  height: 1em;
+  border-radius: 0.5em;
+}
+
+.skeleton-image {
+  width: 100%;
+  border-radius: 0.5em;
+}
+
+p .skeleton {
+  margin-bottom: 0.5em;
+}
