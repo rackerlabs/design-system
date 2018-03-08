@@ -36,11 +36,11 @@ The table pattern has multiple controls that are used to interact with the conte
 {% column right:"hxCol-9 hxCol-xs-12 hxCol-sm-12 hxCol-md-9 hxCol-lg-9" %}
 
 {% figure [caption:"Table with controls placed on top"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/tables/controls-tables/tables-hero-top.svg)
+![]({{site.url}}/assets/images/components/tables/controls-tables/tables-hero-top.png)
 {% endfigure %}
 
 {% figure [caption:"Table with controls placed below"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/tables/controls-tables/tables-hero-bottom.svg)
+![]({{site.url}}/assets/images/components/tables/controls-tables/tables-hero-bottom.png)
 {% endfigure %}
 
 {% figure [caption:"Table with controls placed on rows"] [class:"image bg-light border"] %}
