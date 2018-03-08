@@ -1,3 +1,1 @@
-$('.ui.dropdown')
-  .dropdown()
-;
+//$('.ui.dropdown').dropdown();
