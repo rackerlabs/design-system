@@ -89,7 +89,3 @@ sure to use enough contrast between adjacent colors.
   {% include chips.html class="hxCol-xs-12 hxCol-md-3 color-chip" bg-color="#000000" color="#757575" csscode="Gray 700 on Gray 1000" hex="#757575 on #000000" ratio="4.6 : 1" %}
 </div>
 </section>
-<<<<<<< HEAD
-
-=======
->>>>>>> updating search prototype with current design
