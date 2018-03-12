@@ -1,3 +1,3 @@
 # Production site settings
-baseurl: "http://design.rax.io/design-system"
-url: "http://design.rax.io/design-system"
+baseurl: "http://helix.rax.io"
+url: "http://helix.rax.io"
