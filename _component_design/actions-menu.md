@@ -84,7 +84,7 @@ When using section headers within an actions menu, consider the following practi
 
 Section headers in the menu are optional. They are used if clarity is needed, or if there are more than seven actions in the list.
 
-There are eight pixels of space between each section.
+There are 8px of space between each section.
 
 Minimum menu width is 10 rem.  Maximum menu width is 20 rem.  
 
@@ -114,7 +114,7 @@ If an action label is too long, truncate the text, and show the full name on hov
 
 ### Cog button states
 
-When a cog is used on its own, it appears in gray 900 as a default state. Shown are the others states to consider in your designs.
+When a cog is used on its own, it appears in gray900 as a default state. Shown are the others states to consider in your designs.
 
 {% endcolumn %}
 
