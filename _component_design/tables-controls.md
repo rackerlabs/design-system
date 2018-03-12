@@ -161,12 +161,12 @@ Apply sorting to table headers via a click interaction and an icon visual indica
 
 The following controls can be located at the bottom of a table:
 
-- Rows shown, and total rows
-- Pagination controls
-- Row count controls
-- Primary action button
-- Secondary action buttons
-- Number of selected items
+* Rows shown, and total rows
+* Pagination controls
+* Row count controls
+* Primary action button
+* Secondary action buttons
+* Number of selected items
 
 {% endcolumn %}
 
