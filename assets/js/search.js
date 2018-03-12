@@ -1,5 +1,6 @@
+---
+---
 /* jshint esversion:6 */
-
 var results = [];
 
 var searchpg = document.getElementById("search-results");
@@ -64,7 +65,7 @@ function jsonCall(urlValue){
   });
 }
 
-jsonCall(helixFeed).done(function(data,textStatus,jqXHR) {
+jsonCall("{{ site.baseurl }}/feed.json").done(function(data,textStatus,jqXHR) {
   const docArray = data.items;
 
   // Loop through the content_text kv pairs to find the query string.
