@@ -91,7 +91,7 @@ Other optional indicators to consider are the following elements:
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/overview/accessibility/accessibility-alerts.svg)
+![]({{site.url}}/assets/images/overview/accessibility/accessibility-alerts.png){:width="598px"}
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -117,7 +117,7 @@ Helix minimum contrast standards require the following elements:
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption: "Helix typography styles with their corresponding contrast ratios. All ratios were calculated using a `#fafafa` (`gray 25`) background color."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/overview/accessibility/accessibility-typography.svg)
+![]({{site.url}}/assets/images/overview/accessibility/accessibility-typography.png){:width="598px"}
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -140,7 +140,7 @@ Some people with cognitive disabilities find it difficult to read text when the 
 Helix minimum spacing standards require: 
 
 - Line spacing for Roboto Regular 16px is 24px.
-- Paragraph spacing is at least 36px.
+- Spacing below paragraphs is 16px.
 - Use whitespace and proximity to make relationships between content more apparent.
 - Style headings group content, reduce clutter, and make it easier to scan and understand.
 
@@ -148,13 +148,13 @@ Helix minimum spacing standards require: 
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 {% figure [caption: "Little spacing and unclear relationships"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/overview/accessibility/accessibility-space-1.svg)
+![]({{site.url}}/assets/images/overview/accessibility/accessibility-space-1.png){: width="305px"}
 {% endfigure %}
 {% endcolumn %}
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 {% figure [caption: "More spacing and clear relationships"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/overview/accessibility/accessibility-space-2.svg)
+![]({{site.url}}/assets/images/overview/accessibility/accessibility-space-2.png){: width="305px"}
 {% endfigure %}
 {% endcolumn %}
 </div>
