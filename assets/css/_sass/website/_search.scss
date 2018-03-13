@@ -1,4 +1,4 @@
-div.search-banner {
+.search-banner {
   padding: 94px 0 36px 0;
   background-color: $cyan700;
   color: $textcolorlight !important;
@@ -6,32 +6,32 @@ div.search-banner {
 }
 
 // For highlighting
-div#search-system {
+#search-system {
   &.current {
     background-color: #424242;
   }
 }
 
 // Box for nav
-form#search-all {
-  div#search-container {
+#search {
+  #search-container {
+    position: relative;
     color: $grey500;
-    background: $grey900;
     margin-left: $paddingL;
     margin-right: $paddingM;
     margin-top: 56px;
     margin-bottom: $paddingL;
   }
-  div#icon-container {
-    padding-left: $paddingS;
-    padding-right: $paddingS;
-    font-size: $base-font-size;
-    float: left;
-    line-height: 2.25rem;
+  #search-input-icon {
+    position: absolute;
+    left: 8px;
+    top: 8px;
   }
-  input#search-box {
+  #search-box {
     border-radius: 2;
-    width: 11rem;
+    // width: 11rem;
+    background: $grey900;
+    border-radius: 2px;
     height: $font-size-6;
     background: $grey900;
     border: none;
@@ -39,17 +39,18 @@ form#search-all {
     &::placeholder {
       color: $grey500;
     }
+    text-indent: 20px;
   }
 }
 
-div#search-results {
+#search-results {
   list-style-type: none;
   padding: 0;
   margin: 0;
-  div#result-object {
+  #result-object {
     padding: 0 0 16px 0;
     font-family: $base-font-family;
-    p.result-title {
+    .result-title {
       line-height: $base-line-height;
       font-size: $base-font-size;
       a {
@@ -58,14 +59,14 @@ div#search-results {
       padding: 0 0 8px 0;
       margin: 0
     }
-    p.result-summary {
+    .result-summary {
       line-height: $base-line-height;
       font-size: $font-size-3;
       color: $grey900;
       padding: 0 0 4px 0;
       margin: 0
     }
-    p.result-count {
+    .result-count {
       line-height: $base-line-height;
       font-size: $font-size-3;
       color: $grey750;
@@ -75,28 +76,21 @@ div#search-results {
       padding: 0;
       margin: 0
     }
-    div.side-image{
+    .side-image{
       min-height: 110px;
       width: 100%;
-      background-color: $grey400;
       display: flex;
       align-items: center;
       justify-content: center;
-      img.example {
-        width: 64px;
-        filter: grayscale(100%) opacity(30%);
-      }
-      img.real {
+      img {
         width: 100%;
       }
     }
   }
 }
 
-p#search-count {
-  padding-bottom: 20px;
+#search-count {
   font-family: $base-font-family;
   font-size: $base-font-size;
-  color: $grey900;
   line-height: $base-line-height;
 }
