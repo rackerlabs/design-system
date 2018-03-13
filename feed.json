@@ -13,7 +13,7 @@ layout: null
     "items": [
       {% for page in site.documents %}
           {
-            "id": "{{ page.url | absolute_url | sha1 }}",
+            "id": "{{ site.baseurl }}{{ page.url | sha1 }}",
             "title": {{ page.title | jsonify }},
             "summary": {{ page.usage | jsonify }},
             "content_text": {{ page.content | strip_html | jsonify }},
@@ -23,7 +23,7 @@ layout: null
             {% if page.last-modified.size > 1 %}"date_modified": "{{ page.last-modified | date_to_xmlschema }}",{% endif %}
             {% if page.excerpt.size > 1 %}"excerpt": {{ page.excerpt | jsonify }},{% endif %}
             {% if page.output.size > 1 %}"output": {{ page.output | jsonify }},{% endif %}
-            "url": "{{ page.url | absolute_url }}",
+            "url": "{{ site.baseurl }}{{ page.url }}.html",
             "used": "{{ page.resource }}"
         }{% if forloop.last == false %},{% endif %}
       {% endfor %}
