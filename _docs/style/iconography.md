@@ -151,6 +151,57 @@ The following icons should only be used for indicating keyboard commands. Avoid 
 </div>
 </section>
 
+<section class="static-section"  markdown="1">
+
+### Logos
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
+
+In addition to the icons provided by Helix, designers may also require access to Rackspace brand assets while creating an interface. These assets cannot be stored within a public github repository for legal reasons. These assets instead will need to be sourced from their official CDN link.
+
+Rackspace US, Inc. retains copyright and/or applicable rights to all text and graphic images supplied on the Rackspace websites. For additional information see [Copyrights & Trademarks](https://www.rackspace.com/information/legal/copyrights_trademarks)
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section"  markdown="1">
+
+<div class="hxRow" markdown="1">
+
+
+{% column right:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+{% figure [caption: "<a target='_blank' href='http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/fanatiguy.svg'>Fanatiguy</a>"][class:"image bg-light border"] %}
+![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/fanatiguy.svg){:width="100px"}
+{% endfigure %}
+
+{% endcolumn %}
+
+{% column right:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+{% figure [caption:"<a target='_blank' href='http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/rs-logo.svg'>Rackspace logo - Gray</a>"][class:"image bg-light border center"] %}
+![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/rs-logo.svg){:width="286px"}
+{% endfigure %}
+
+{% endcolumn %}
+
+{% column right:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+{% figure [caption:"<a target='_blank' href='http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/rs-logo-white.svg'>Rackspace logo - White</a>"][class:"image bg-dark border center"] %}
+![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/rs-logo-white.svg){:width="286px"}
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
 ## Specifications
 
 <section class="static-section" markdown="1">

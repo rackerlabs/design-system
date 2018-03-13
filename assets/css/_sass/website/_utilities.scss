@@ -29,3 +29,12 @@
 .clear-right {
   clear: right;
 }
+
+/* Center image classes */
+
+.center {
+  img {
+    position: relative;
+    top: 25%;
+  }
+}
