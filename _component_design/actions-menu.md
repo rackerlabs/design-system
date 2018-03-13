@@ -114,7 +114,7 @@ If an action label is too long, truncate the text, and show the full name on hov
 
 ### Cog button states
 
-When a cog is used on its own, it appears in gray900 as a default state. Shown are the others states to consider in your designs.
+When a cog is used on its own, it appears in `gray900` as a default state. Shown are the others states to consider in your designs.
 
 {% endcolumn %}
 
