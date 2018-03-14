@@ -5,7 +5,6 @@ category: Layout
 usage: |
   The Helix design language uses the concept of application layers to identify
   where a product or service is located within the Helix UI application.
-preview-image:
 resource: false
 ---
 
@@ -30,9 +29,9 @@ Application.
 The global layer wraps around the entire Helix-UI and at least some portion of
 it is always visible, regardless of what the user is currently viewing. The
 global layer is best thought about as a collection of offscreen elements that
-will remain hidden until some action is taken by the user. Once an action is
-taken the global layer services up contextually sensitive info and workflows
-for managing platform(global) services. View the
+remain hidden until some action is taken by the user. After an action is
+taken, the global layer serves contextually sensitive info and workflows
+for managing platform (global) services. View the
 [global layer](/layout/global-layer) page for more in-depth explanation of the
 global layer.
 
@@ -49,7 +48,7 @@ global layer.
 <div class="hxRow"  markdown="1">
 {% column left:"hxCol-md-4" %}
 
--   Selecting the global dashboard toggle will trigger the global dashboard to
+-   Selecting the global dashboard toggle triggers the global dashboard to
     extend from the left, covering the current product layer (Fig 1a).
 
 {% endcolumn %}
@@ -64,7 +63,7 @@ global layer.
 <div class="hxRow"  markdown="1">
 {% column left:"hxCol-md-4" %}
 
--   Selecting a platform service, such as ticketing, will trigger the ticketing
+-   Selecting a platform service, such as ticketing, triggers the ticketing
     panel to extend from the right over the canvas (Fig 1b).
 
 {% endcolumn %}
@@ -96,15 +95,15 @@ global layer.
 The product layer resides below the Global layer and provides the content and
 navigation for the currently selected product line. It is easiest to understand
 the product layer as the view into the currently selected product line; think
-FAzure, FAWS, Managed, or Rackspace Cloud. Navigation and content will differ
+FAzure, FAWS, Managed, or Rackspace Cloud. Navigation and content differs
 based on which product line the user is currently viewing.
 
 <div class="hxRow"  markdown="1">
 {% column left:"hxCol-md-4" %}
 
--   Within the product layer the side navigation will update to display the
+-   Within the product layer, the side navigation updates to display the
     navigation unique to this product line. This is because the products within
-    each product line are unique and hence the navigation is as well.
+    each product line are unique, and hence the navigation is as well.
 
 {% endcolumn %}
 
@@ -131,14 +130,14 @@ based on which product line the user is currently viewing.
 
 ## Workflow Layer
 
-The workflow layer sits beneath the Product layer and is best thought of as the
+The workflow layer sits beneath the product layer and is best thought of as the
 collection of screens a customer views while completing a task (which is
-referred to as a workflow in UX). An arbitrary example would be a customer
-creating a Rackspace Cloud Server. To accomplish this workflow the customer
-selects the Rackspace Cloud Product layer, select the account to which they
+referred to as a workflow in UX). An arbitrary example is a customer
+creating a Rackspace Cloud Server. To accomplish this workflow, the customer
+selects the Rackspace Cloud product layer, selects the account to which they
 need to add the server, selects Cloud Servers from the navigation, and
-completes the server creation form. Each of these screens are contained within
-the Rackspace Cloud Product layer and can be viewed independently, however by
+completes the server creation form. Each of these screens is contained within
+the Rackspace Cloud product layer and can be viewed independently. However, by
 going through the above process, the user has performed a complete workflow.
 
 <div class="hxRow"  markdown="1">
@@ -151,7 +150,7 @@ going through the above process, the user has performed a complete workflow.
 
 ## Further Reading
 
-Now that you have a familiarity with the layers concept utilized within
+Now that you have a familiarity with the layers concept that is utilized within
 Helix-UI, you are ready to dig into how each layer interacts.
 
 - [Global Layer](/layout/global-layer)

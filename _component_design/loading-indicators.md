@@ -9,6 +9,8 @@ preview-image: preview-images/loading.svg
 resource: true
 status: stable
 last-modified: 2017-10-24
+helix-ui-css: false
+helix-ui-javascript: false
 ---
 
 {% include toc.html %}
@@ -90,6 +92,10 @@ The spinner icon inherits the text color of the element or component in which it
 {% endfigure %}
 
 {% endcolumn %}
+
+</div>
+
+<div class="hxRow" markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 

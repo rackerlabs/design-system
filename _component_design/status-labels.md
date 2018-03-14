@@ -10,7 +10,7 @@ resource: true
 preview-image: preview-images/status-labels.svg
 last-modified: 2017-12-01
 helix-ui-css: true
-helix-ui-javascript: false
+helix-ui-javascript: true
 ---
 
 {% include toc.html %}

@@ -3,8 +3,8 @@ title: Design Smarter. Ship Faster.
 layout: overview
 ---
 
-Helix is a Rackspace chartered effort to unify the look, feel, and
-functionality of our interfaces&mdash;one system composed of this Helix design
+Helix is a Rackspace-chartered effort to unify the look, feel, and
+functionality of our interfaces&mdash;one system, composed of this Helix design
 library for designers and a UI toolkit for developers. Together, we make
 customers happy.
 
@@ -28,7 +28,7 @@ customers happy.
     <div class="card-bottom">
       <ul>
         <li><a href="https://github.com/rackerlabs/helix-ui/">Code Repository <hx-icon type="external-link"></hx-icon></a></li>
-        <li><a href="https://rackerlabs.github.io/helix-ui/guides/install/" target="_blank">Installation Guide <hx-icon type="external-link"></hx-icon></a></li>
+        <li><a href="https://rackerlabs.github.io/helix-ui/guides/getting-started/" target="_blank">Installation Guide <hx-icon type="external-link"></hx-icon></a></li>
         <li><a href="https://rackerlabs.github.io/helix-ui/" target="_blank">Component Explorer <hx-icon type="external-link"></hx-icon></a></li>
       </ul>
     </div>

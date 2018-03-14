@@ -7,9 +7,11 @@ usage: >
   Drop-downs are one of the core input mechanisms for selecting options on a form. Drop-downs are used to provide a user with options or actions that effect the output of the form as a whole.
 preview-image: preview-images/drop-downs.svg
 resource: true
-status: in-progress
+status: stable
 need: selectors
 last-modified: 2017-09-21
+helix-ui-css: false
+helix-ui-javascript: false
 ---
 
 {% include toc.html %}
@@ -92,60 +94,6 @@ Drop-downs can be in the following states:
 
 {% figure [caption:"Drop-downs states."] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/content-areas/dropdowns/dropdowns-states.svg)
-{% endfigure %}
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow"  markdown="1">
-
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-
-### Option label
-
-Clicking a drop-down menu displays the options contained within the dropdown.
-
-{% endcolumn %}
-
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-
-{% figure [caption:"Drop-downs option label."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/dropdowns/dropdowns-option-label.svg)
-{% endfigure %}
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow"  markdown="1">
-
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-
-### Drop-down data states
-
-Once a drop-down menu is expanded, the options contained within have four
-states:
-
-- Default
-- Hovered
-- Selected
-- Selected and hovered
-
-{% endcolumn %}
-
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-
-{% figure [caption:"Drop-down data states."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/dropdowns/dropdowns-data-states.svg)
 {% endfigure %}
 
 {% endcolumn %}

@@ -2,7 +2,7 @@
 title: Text Fields
 layout: code
 category: Components Code
-code: text-input
+code: components/forms
 ---
 
 {% include code-container.html %}

@@ -7,7 +7,6 @@ usage: |
   It is an easily readable, accessible, and open-source font from Google Fonts. Included in the
   family are six weights that should be used for all headers, sub-headers, and
   body text. Hierarchy can be established using size and negative space.
-preview-image: style/preview-typography.svg
 resource: true
 status: in-progress
 code-element: true
@@ -37,7 +36,8 @@ helix-ui-javascript: false
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Page title
-Page titles are the highest level of hierarchy. There should only ever be one on any page.
+
+Page titles are the highest level of hierarchy. There should only be one on any page.
 
 {% endcolumn %}
 
@@ -52,7 +52,8 @@ Page titles are the highest level of hierarchy. There should only ever be one on
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Section title
-Use section titles for titles of page sections. For example, if your page title is **Billing**, and the page has **Overview**, **Trends**, and **Payment methods** section headings, each section heading would use section titles.
+
+Use section titles for titles of page sections. For example, if your page title is **Billing**, and the page has **Overview**, **Trends**, and **Payment methods** section headings, each section heading uses section titles.
 
 {% endcolumn %}
 
@@ -115,14 +116,15 @@ Body text is the default style and should be used across the interface for most 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Subdued style
-You can use the subdued style with any text 14px and taller, and is used to let more important text stand out. The subdued style is not the same as an inactive link or button.
+
+You can use the subdued style with any text 14px and taller. It is used to let more important text stand out. The subdued style is not the same as an inactive link or button.
 
 *Do not subdue text on backgrounds darker than Gray 25 (#fafafa) or it will not pass accessibility standards.*
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% include type-styles.html htmlexample='<p class="hxSubdued">Subdued Style</p>' typeface="Roboto" csscode="Gray 900" hex="#424242" %}
+{% include type-styles.html htmlexample='<p class="hxSubdued">Subdued Style</p>' typeface="Roboto" csscode="Gray 750" hex="#6b6b6b" %}
 {% endcolumn %}
 
 </div>
@@ -133,7 +135,8 @@ You can use the subdued style with any text 14px and taller, and is used to let 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Sub-body text
-Use sub-body text sparingly, since it is the least readable size. You can use it when smaller text is appropriate, such as for icon labels.
+
+Use sub-body text sparingly because it is the least readable size. You can use it when smaller text is appropriate, such as for icon labels.
 
 {% endcolumn %}
 
@@ -148,7 +151,8 @@ Use sub-body text sparingly, since it is the least readable size. You can use it
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Caption
-Captions apply to images and visualizations. They should be used to clarify images and not introduce new, pertinent information.
+
+Captions apply to images and visualizations. They should be used to clarify images and not to introduce new, pertinent information.
 
 {% endcolumn %}
 

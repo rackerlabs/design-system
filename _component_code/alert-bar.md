@@ -2,7 +2,7 @@
 title: Alert Bar
 layout: code
 category: Components Code
-code: alert
+code: components/alerts
 ---
 
 {% include code-container.html %}

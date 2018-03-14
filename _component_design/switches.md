@@ -9,8 +9,10 @@ usage: >
 preview-image: preview-images/switches.svg
 resource: true
 need: selectors
-status: in-progress
+status: stable
 last-modified: 2017-10-23
+helix-ui-css: false
+helix-ui-javascript: false
 ---
 
 {% include toc.html %}
