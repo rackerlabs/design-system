@@ -377,7 +377,7 @@ Split drop-down buttons are preferred when more than one action is associated wi
 
 ### Download or export buttons
 
-- Download links are **always** formatted as: Download [noun] as [format]. 
+- Download links are **always** formatted as: Download [noun] as [format].
 - Use the word **Download** because there is no ambiguity about the destination (the user's platform). The word focuses on the user's benefit because the downloaded object becomes the user's.
 - Download links come in 4 layouts. The preferred layouts are the 1- and 2+- Download options
 - Use a condensed button variation in situations where space is too limited to use one of the preferred options.

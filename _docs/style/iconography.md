@@ -24,10 +24,10 @@ helix-ui-javascript: true
 
 These guidelines are not exhaustive, and they are not necessarily applicable to every situation. However, they do cover the major areas for concern when using icons in your design:
 
-- Consider whether adding an icon to your interface increases usability and clarity. 
-- Use them to communicate status or to help differeniate objects in a list.
-- Properly used icons make it easier to intuit an experience. 
-- Do not use icons as aesthetic decoration, but rather for communication. 
+- Consider whether adding an icon to your interface increases usability and clarity.
+- Use them to communicate status or to help differentiate objects in a list.
+- Properly used icons make it easier to intuit an experience.
+- Do not use icons as aesthetic decoration, but rather for communication.
 - Avoid obscure metaphors, opting for text labels or annotations instead.
 - The more icons you use, the less attention they draw.
 
@@ -236,7 +236,7 @@ The Helix icon sets natural size is 16x16px. This is referred to as a base size.
 
 ### Color
 
-Helix icon colors are determined by the background color and in most cases correspond with text color (except for status icons). Refer tot he values in the table to maintain a 4.51 minimum contrast ratio. 
+Helix icon colors are determined by the background color and in most cases correspond with text color (except for status icons). Refer tot he values in the table to maintain a 4.51 minimum contrast ratio.
 
 {% endcolumn %}
 
@@ -260,7 +260,7 @@ Helix icon colors are determined by the background color and in most cases corre
 
 ### Status icon colors
 
-Status icons can be used to provide checks, errors, and warnings in forms. They also can be used to draw users' attention to statuses or alert messages. 
+Status icons can be used to provide checks, errors, and warnings in forms. They also can be used to draw users' attention to statuses or alert messages.
 
 {% endcolumn %}
 
@@ -334,10 +334,10 @@ Keyline shapes are the foundation of the grid. By using these core shapes as gui
 </section>
 
 <section class="static-section"  markdown="1">
- 
+
 ### Silhouette
 
-<div class="hxRow" markdown="1"> 
+<div class="hxRow" markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
@@ -365,9 +365,9 @@ Keyline shapes are the foundation of the grid. By using these core shapes as gui
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-Icons of the same size should have the same visual weight. 
+Icons of the same size should have the same visual weight.
 
-- Use a balance of positive and negative space to create the icon shape. 
+- Use a balance of positive and negative space to create the icon shape.
 
 {% endcolumn %}
 
@@ -382,4 +382,3 @@ Icons of the same size should have the same visual weight.
 </div>
 
 </section>
-

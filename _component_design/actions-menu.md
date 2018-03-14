@@ -88,7 +88,7 @@ There are 8px of space between each section.
 
 Minimum menu width is 10 rem.  Maximum menu width is 20 rem.  
 
-If an action name is longer than the length of the button the menu can extend beyond the right side of the button. 
+If an action name is longer than the length of the button the menu can extend beyond the right side of the button.
 
 If an action label is too long, truncate the text, and show the full name on hover.
 
