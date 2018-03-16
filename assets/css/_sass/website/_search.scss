@@ -94,3 +94,11 @@
   font-size: $base-font-size;
   line-height: $base-line-height;
 }
+
+/* 
+ Prevent iOS from restyling search inputs
+*/
+
+input[type="search"] {
+  -webkit-appearance: none;
+}
