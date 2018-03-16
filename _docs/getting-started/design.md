@@ -69,7 +69,7 @@ Familiarize yourself with the concepts that define the Helix language. Through t
 
 ### Sketch resources
 
-The best way to bring Helix components into your designs is with the Helix Sketch Sticker Sheet. You can copy and paste elements from this sticker sheet into your own Sketch documents to use in your designs. This resource is offered in both low and full fidelity variations.
+The best way to bring Helix components into your designs is with the Helix Sketch Sticker Sheet. You can copy and paste elements from this sticker sheet into your own Sketch documents to use in your designs. This resource is offered in both low and high fidelity variations.
 
 {% endcolumn %}
 
@@ -93,11 +93,11 @@ We recommend using the low-fi version of the sticker sheet when creating the ini
 
 {% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
-#### Full fidelity
+#### High fidelity
 
-Use the hi-fi sticker sheet once a design has been iterated and approved, and it’s time to start getting real clear about pixel-construction and behavior specifications.
+Use the hi-fi sticker sheet once a design has been iterated and approved, and it’s time to start getting real clear about construction and behavior specifications.
 
-<a class="hxBtn" id="link" href="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/sketch/helix_stickersheet_v0.1.sketch">Download Sticker Sheet</a>
+<a class="hxBtn" id="link" href="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/sketch/helix_stickersheet_v0.1.sketch">Download Hi-fi Sticker Sheet</a>
 
 {% endcolumn %}
 
