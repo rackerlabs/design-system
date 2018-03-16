@@ -16,7 +16,7 @@ customers happy.
     <div class="card-bottom">
       <ul>
         <li><a href="{{site.url}}/status.html">Pattern Guidelines</a></li>
-        <li><a href="{{site.cdn_url}}/sketch/helix_stickersheet_v0.1.sketch">Sketch Resources <hx-icon type="download"></hx-icon></a></li>
+        <li><a href="{{site.url}}/getting-started/design.html#sketch-resources">Sketch Resources </a></li>
         <li><a href="{{site.url}}/getting-started/design.html">Quick Start Guide</a></li>
       </ul>
     </div>
