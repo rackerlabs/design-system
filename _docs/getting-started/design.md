@@ -69,12 +69,39 @@ Familiarize yourself with the concepts that define the Helix language. Through t
 
 ### Design mockups in Helix
 
-The best way to bring Helix components into your designs is with the Helix Sketch Sticker Sheet. You can copy and paste elements from this sticker sheet into your own Sketch documents to use in your designs.
+The best way to bring Helix components into your designs is with the Helix Sketch Sticker Sheet. You can copy and paste elements from this sticker sheet into your own Sketch documents to use in your designs. This resource is offered in both low and full fidelity variations.
 
-<a class="hxBtn hxBtn--primary" id="link" href="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/sketch/helix_stickersheet_v0.1.sketch">Download Sticker Sheet</a>
+{% endcolumn %}
+
+</div>
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
+#### Low fidelity
+
+We recommend using the low-fi version of the sticker sheet when creating the initial designs for a project. This allows stakeholders and designers to focus on the higher-level experience and without getting mired in the weeds of pixel-perfection.
+
+<a class="hxBtn" id="link" href="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/sketch/low-fi_helix_stickersheet_v0.1.sketch">Download Low-fi Sticker Sheet</a>
+
+{% endcolumn %}
+
+</div>
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
+#### Full fidelity
+
+Use the hi-fi sticker sheet once a design has been iterated and approved, and it’s time to start getting real clear about pixel-construction and behavior specifications.
+
+<a class="hxBtn" id="link" href="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/sketch/helix_stickersheet_v0.1.sketch">Download Sticker Sheet</a>
 
 {% endcolumn %}
 
 </div>
 </section>
+
 
