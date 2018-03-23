@@ -37,7 +37,7 @@ helix-ui-javascript: false
 
 ### Heading one
 
-Heading one's are the highest level of hierarchy. There should only be one on any page.
+Heading ones are the highest level of hierarchy. There should only be one on any page.
 
 {% endcolumn %}
 
@@ -53,12 +53,12 @@ Heading one's are the highest level of hierarchy. There should only be one on an
 
 ### Heading two
 
-Use heading two's for titles of page sections. For example, if your Heading one is **Billing**, and the page has **Overview**, **Trends**, and **Payment methods** section headings, each section heading uses the heading two style.
+Use heading two's for titles of page sections. For example, if your heading one is **Billing**, and the page has **Overview**, **Trends**, and **Payment methods** section headings, each section heading uses the heading two style.
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% include type-styles.html htmlexample='<h2 class="hxSectionTitle">Heading two</h2>' typeface="Roboto" weight="Light (300)" fontsize="32px / 1.875rem" csscode="Gray 900" hex="#424242" linespace="1" bottomspace="28px / 1.75rem" %}
+{% include type-styles.html htmlexample='<h2 class="hxSectionTitle">Heading two</h2>' typeface="Roboto" weight="Light (300)" fontsize="32px / 1.875rem" csscode="Gray 900" hex="#424242" linespace="1" bottomspace="8px / 0.5rem" %}
 {% endcolumn %}
 </div>
 </section>
