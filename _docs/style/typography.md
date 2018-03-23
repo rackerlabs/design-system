@@ -53,7 +53,7 @@ Heading ones are the highest level of hierarchy. There should only be one on any
 
 ### Heading two
 
-Use heading two's for titles of page sections. For example, if your heading one is **Billing**, and the page has **Overview**, **Trends**, and **Payment methods** section headings, each section heading uses the heading two style.
+Use heading twos for titles of page sections. For example, if your heading one is **Billing**, and the page has **Overview**, **Trends**, and **Payment methods** section headings, each section heading uses the heading two style.
 
 {% endcolumn %}
 
