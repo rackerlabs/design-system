@@ -3,14 +3,13 @@ title: Demo Layouts
 layout: docs
 category: Layout
 usage:
-preview-image: null
 resource: false
 ---
 
 ### Full Width {% include inprogress.html %}
 
-'Go on with the next verse,' the Gryphon repeated impatiently: 'it begins "I
-passed by his garden."' Alice did not dare to disobey, though she felt sure it
+'Go on with the next verse,' the Gryphon repeated impatiently: 'It begins "I
+passed by his garden".' Alice did not dare to disobey, though she felt sure it
 would all come wrong, and she went on in a trembling voice:
 
 -   I passed by his garden, and marked, with one eye, How the Owl and the

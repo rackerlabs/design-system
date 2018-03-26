@@ -9,7 +9,7 @@ preview-image: preview-images/checkboxes.svg
 resource: true
 status: stable
 need: selectors
-last-modified: 2017-11-07
+last-modified: 2018-01-04
 helix-ui-css: true
 helix-ui-javascript: true
 ---
@@ -155,7 +155,7 @@ The checkbox component may be in the following states:
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
 {% figure [caption:"Checkbox states"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-states-image.svg)
+![]({{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-states-image.png)
 {% endfigure %}
 
 {% endcolumn %}

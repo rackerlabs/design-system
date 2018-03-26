@@ -7,7 +7,6 @@ usage: |
   It is an easily readable, accessible, and open-source font from Google Fonts. Included in the
   family are six weights that should be used for all headers, sub-headers, and
   body text. Hierarchy can be established using size and negative space.
-preview-image: style/preview-typography.svg
 resource: true
 status: in-progress
 code-element: true
@@ -36,13 +35,14 @@ helix-ui-javascript: false
 <div class="hxRow" markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-### Page title
-Page titles are the highest level of hierarchy. There should only ever be one on any page.
+### Heading one
+
+Heading ones are the highest level of hierarchy. There should only be one on any page.
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% include type-styles.html htmlexample='<h1 class="hxPageTitle">Page Title</h1>' typeface="Roboto" weight="Thin (100)" fontsize="48px / 3.0rem" csscode="Gray 900" hex="#424242" linespace="1" bottomspace="32px / 2rem" %}
+{% include type-styles.html htmlexample='<h1 class="hxPageTitle">Heading one</h1>' typeface="Roboto" weight="Thin (100)" fontsize="48px / 3.0rem" csscode="Gray 900" hex="#424242" linespace="1" bottomspace="32px / 2rem" %}
 {% endcolumn %}
 </div>
 </section>
@@ -51,13 +51,14 @@ Page titles are the highest level of hierarchy. There should only ever be one on
 <div class="hxRow" markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-### Section title
-Use section titles for titles of page sections. For example, if your page title is **Billing**, and the page has **Overview**, **Trends**, and **Payment methods** section headings, each section heading would use section titles.
+### Heading two
+
+Use heading twos for titles of page sections. For example, if your heading one is **Billing**, and the page has **Overview**, **Trends**, and **Payment methods** section headings, each section heading uses the heading two style.
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% include type-styles.html htmlexample='<h2 class="hxSectionTitle">Section title</h2>' typeface="Roboto" weight="Light (300)" fontsize="30px / 1.875rem" csscode="Gray 900" hex="#424242" linespace="1" bottomspace="28px / 1.75rem" %}
+{% include type-styles.html htmlexample='<h2 class="hxSectionTitle">Heading two</h2>' typeface="Roboto" weight="Light (300)" fontsize="32px / 1.875rem" csscode="Gray 900" hex="#424242" linespace="1" bottomspace="8px / 0.5rem" %}
 {% endcolumn %}
 </div>
 </section>
@@ -66,13 +67,13 @@ Use section titles for titles of page sections. For example, if your page title 
 <div class="hxRow" markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-### Sub-section title
-Sub-section titles are pretty versatile. Consider using them to title things like fieldsets, tables, Key-Value lists, and so on.
+### Heading three
+Heading threes are pretty versatile. Consider using them to title things like fieldsets, tables, Key-Value lists, and so on.
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% include type-styles.html htmlexample='<h3 class="hxSubSectionTitle">Sub-section title</h3>' typeface="Roboto" weight="Regular (400)" fontsize="24px / 1.5rem" csscode="Gray 900" hex="#424242" linespace="1" bottomspace="24px / 1.5rem" %}
+{% include type-styles.html htmlexample='<h3 class="hxSubSectionTitle">Heading three</h3>' typeface="Roboto" weight="Regular (400)" fontsize="24px / 1.5rem" csscode="Gray 900" hex="#424242" linespace="1" bottomspace="24px / 1.5rem" %}
 {% endcolumn %}
 </div>
 </section>
@@ -81,13 +82,28 @@ Sub-section titles are pretty versatile. Consider using them to title things lik
 <div class="hxRow" markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-### Container title
-Container titles are good for titling within elements like cards, modals, and so on.
+### Heading four
+Heading fours are good for titling within elements like cards, modals, and so on.
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% include type-styles.html htmlexample='<h4 class="hxContainerTitle">Container title</h4>' typeface="Roboto" weight="Medium (500)" fontsize="16px / 1rem" csscode="Gray 900" hex="#424242" linespace="1" bottomspace="24px / 1.5rem" %}
+{% include type-styles.html htmlexample='<h4 class="hxContainerTitle">Header four</h4>' typeface="Roboto" weight="Medium (500)" fontsize="16px / 1rem" csscode="Gray 900" hex="#424242" linespace="1" bottomspace="24px / 1.5rem" %}
+{% endcolumn %}
+</div>
+</section>
+
+<section class="static-section"  markdown="1">
+<div class="hxRow" markdown="1">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### Heading five
+Heading fives provide additional contextual labelling. For example, using a header five of “Cloud Server” above the server name on a device detail page or Labeling a price point with a plan name on an ordering form.
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% include type-styles.html htmlexample='<h4 class="hxHeading5">Header five</h4>' typeface="Roboto" weight="Regular (300)" fontsize="12px / 0.75rem" csscode="Gray 800" hex="#616161" linespace="1.5" bottomspace="8px / 0.5rem" %}
 {% endcolumn %}
 </div>
 </section>
@@ -115,14 +131,15 @@ Body text is the default style and should be used across the interface for most 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Subdued style
-You can use the subdued style with any text 14px and taller, and is used to let more important text stand out. The subdued style is not the same as an inactive link or button.
+
+You can use the subdued style with any text 14px and taller. It is used to let more important text stand out. The subdued style is not the same as an inactive link or button.
 
 *Do not subdue text on backgrounds darker than Gray 25 (#fafafa) or it will not pass accessibility standards.*
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% include type-styles.html htmlexample='<p class="hxSubdued">Subdued Style</p>' typeface="Roboto" csscode="Gray 900" hex="#424242" %}
+{% include type-styles.html htmlexample='<p class="hxSubdued">Subdued Style</p>' typeface="Roboto" csscode="Gray 750" hex="#6b6b6b" %}
 {% endcolumn %}
 
 </div>
@@ -133,7 +150,8 @@ You can use the subdued style with any text 14px and taller, and is used to let 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Sub-body text
-Use sub-body text sparingly, since it is the least readable size. You can use it when smaller text is appropriate, such as for icon labels.
+
+Use sub-body text sparingly because it is the least readable size. You can use it when smaller text is appropriate, such as for icon labels.
 
 {% endcolumn %}
 
@@ -148,7 +166,8 @@ Use sub-body text sparingly, since it is the least readable size. You can use it
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Caption
-Captions apply to images and visualizations. They should be used to clarify images and not introduce new, pertinent information.
+
+Captions apply to images and visualizations. They should be used to clarify images and not to introduce new, pertinent information.
 
 {% endcolumn %}
 

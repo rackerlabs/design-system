@@ -1,8 +1,8 @@
 ---
-title: Basic Tables
+title: Table
 layout: code
 category: Components Code
-code: table
+code: components/tables
 ---
 
 {% include code-container.html %}

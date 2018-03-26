@@ -6,3 +6,13 @@
     padding-top: 0;
   }
 }
+
+/* 
+* This will be removed when we move to version v0.3.0+ of the helix-ui code. The version currently used on the site does not have styling for the hxHeading-5 class. 
+*/
+
+.hxHeading5 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}

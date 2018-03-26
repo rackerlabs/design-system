@@ -10,6 +10,8 @@ preview-image: preview-images/selector-strip.svg
 status: stable
 resource: true
 last-modified: 2017-11-07
+helix-ui-css: false
+helix-ui-javascript: false
 ---
 
 {% include toc.html %}

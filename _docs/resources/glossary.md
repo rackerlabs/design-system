@@ -4,7 +4,6 @@ layout: docs
 category: Style
 usage: |
   This glossary provides common terms found in the Helix documentation.
-preview-image: null
 resource: false
 ---
 

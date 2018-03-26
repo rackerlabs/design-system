@@ -3,8 +3,7 @@ title: Color Palette
 layout: docs
 category: Style
 usage: |
-  The Helix color palette consists of deep modern hues juxtaposed with simple monocromatic environments. Our color palette has been selected to enhance usability while adhering to accessibility criteria. Guidelines for color usage are outlined for individual components.
-preview-image: style/preview-color.svg
+  The Helix color palette consists of deep modern hues juxtaposed with simple monochromatic environments. Our color palette has been selected to enhance usability while adhering to accessibility criteria. Guidelines for color usage are outlined for individual components.
 resource: true
 status: complete
 ---
@@ -15,7 +14,7 @@ status: complete
 ### Primary Colors
 
 Primary colors should be used sparingly for primary and secondary actions,
-alerts or data visualizations.
+alerts, or data visualizations.
   <div class="hxRow">
     {%for color_hash in site.data.colors%}
       {%assign color=color_hash[1]%}

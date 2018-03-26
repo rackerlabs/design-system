@@ -5,7 +5,6 @@ category: Layout
 usage: |
   The global layer is the application layer that allows a user to access
   global features of the UI.
-preview-image:
 resource: false
 ---
 
@@ -72,7 +71,7 @@ Notifications, and Ticketing. For detailed specs, see the
 <div class="hxRow"  markdown="1">
 {% column left:"hxCol-md-4" %}
 The left side of the eyebrow is comprised of the platform dashboard button and
-product switcher dropdowns. The item currently displayed in the content area +
+product switcher dropdowns. The item currently displayed in the content area
 navigation section is reflected via the selected state beneath it.
 
 -   The Rackspace® logo serves as a button to trigger the
@@ -138,7 +137,7 @@ has three states: Hidden, Toggled, and Extended.
 {% column left:"hxCol-md-4" %}
 The Global Dashboard is an special offcanvas element that is toggled via the
 Global DB button (Rackspace logo), the left most element on the Global eyebrow.
-When toggled the dashboard will extend over the product and workflow layers.
+When toggled, the dashboard will extend over the product and workflow layers.
 {% endcolumn %}
 {% column right:"hxCol-md-8" %}
 {% figure [caption:"Global Dashboard - Hidden"] [class:"image bg-light border"] %}

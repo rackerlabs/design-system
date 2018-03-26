@@ -3,8 +3,8 @@ title: Design Smarter. Ship Faster.
 layout: overview
 ---
 
-Helix is a Rackspace chartered effort to unify the look, feel, and
-functionality of our interfaces&mdash;one system composed of this Helix design
+Helix is a Rackspace-chartered effort to unify the look, feel, and
+functionality of our interfaces&mdash;one system, composed of this Helix design
 library for designers and a UI toolkit for developers. Together, we make
 customers happy.
 
@@ -16,7 +16,7 @@ customers happy.
     <div class="card-bottom">
       <ul>
         <li><a href="{{site.url}}/status.html">Pattern Guidelines</a></li>
-        <li><a href="{{site.cdn_url}}/sketch/helix_stickersheet_v0.1.sketch">Sketch Resources <hx-icon type="download"></hx-icon></a></li>
+        <li><a href="{{site.url}}/getting-started/design.html#sketch-resources">Sketch Resources </a></li>
         <li><a href="{{site.url}}/getting-started/design.html">Quick Start Guide</a></li>
       </ul>
     </div>
@@ -28,7 +28,7 @@ customers happy.
     <div class="card-bottom">
       <ul>
         <li><a href="https://github.com/rackerlabs/helix-ui/">Code Repository <hx-icon type="external-link"></hx-icon></a></li>
-        <li><a href="https://rackerlabs.github.io/helix-ui/guides/install/" target="_blank">Installation Guide <hx-icon type="external-link"></hx-icon></a></li>
+        <li><a href="https://rackerlabs.github.io/helix-ui/guides/getting-started/" target="_blank">Installation Guide <hx-icon type="external-link"></hx-icon></a></li>
         <li><a href="https://rackerlabs.github.io/helix-ui/" target="_blank">Component Explorer <hx-icon type="external-link"></hx-icon></a></li>
       </ul>
     </div>

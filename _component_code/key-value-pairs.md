@@ -1,8 +1,8 @@
 ---
-title: Key Value Pairs
+title: Key-value pairs
 layout: code
 category: Components Code
-code: null
+code: components/lists
 ---
 
-{% include todo.html content="Set up code." %}
+{% include code-container.html %}

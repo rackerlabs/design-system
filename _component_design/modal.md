@@ -8,6 +8,8 @@ resource: true
 status: stable
 preview-image: preview-images/modal.svg
 last-modified: 2017-11-08
+helix-ui-css: false
+helix-ui-javascript: false
 ---
 
 {% include toc.html %}
