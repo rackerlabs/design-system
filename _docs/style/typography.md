@@ -42,7 +42,7 @@ Heading ones are the highest level of hierarchy. There should only be one on any
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% include type-styles.html htmlexample='<h1 class="hxPageTitle">Heading one</h1>' typeface="Roboto" weight="Thin (100)" fontsize="48px / 3.0rem" csscode="Gray 900" hex="#424242" linespace="1" bottomspace="32px / 2rem" %}
+{% include type-styles.html htmlexample='<h1 class="hxPageTitle">Heading one</h1>' typeface="Roboto" weight="Thin (100)" fontsize="48px / 3.0rem" csscode="Gray 900" hex="#424242" linespace="1.5" bottomspace="8px / 0.5rem" %}
 {% endcolumn %}
 </div>
 </section>
@@ -58,7 +58,7 @@ Use heading twos for titles of page sections. For example, if your heading one i
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% include type-styles.html htmlexample='<h2 class="hxSectionTitle">Heading two</h2>' typeface="Roboto" weight="Light (300)" fontsize="32px / 1.875rem" csscode="Gray 900" hex="#424242" linespace="1" bottomspace="8px / 0.5rem" %}
+{% include type-styles.html htmlexample='<h2 class="hxSectionTitle">Heading two</h2>' typeface="Roboto" weight="Light (300)" fontsize="32px / 1.875rem" csscode="Gray 900" hex="#424242" linespace="1.5" bottomspace="8px / 0.5rem" %}
 {% endcolumn %}
 </div>
 </section>
@@ -73,7 +73,7 @@ Heading threes are pretty versatile. Consider using them to title things like fi
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% include type-styles.html htmlexample='<h3 class="hxSubSectionTitle">Heading three</h3>' typeface="Roboto" weight="Regular (400)" fontsize="24px / 1.5rem" csscode="Gray 900" hex="#424242" linespace="1" bottomspace="24px / 1.5rem" %}
+{% include type-styles.html htmlexample='<h3 class="hxSubSectionTitle">Heading three</h3>' typeface="Roboto" weight="Regular (400)" fontsize="24px / 1.5rem" csscode="Gray 900" hex="#424242" linespace="1.5" bottomspace="8px / 0.5rem" %}
 {% endcolumn %}
 </div>
 </section>
@@ -88,7 +88,7 @@ Heading fours are good for titling within elements like cards, modals, and so on
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% include type-styles.html htmlexample='<h4 class="hxContainerTitle">Header four</h4>' typeface="Roboto" weight="Medium (500)" fontsize="16px / 1rem" csscode="Gray 900" hex="#424242" linespace="1" bottomspace="24px / 1.5rem" %}
+{% include type-styles.html htmlexample='<h4 class="hxContainerTitle">Header four</h4>' typeface="Roboto" weight="Medium (500)" fontsize="16px / 1rem" csscode="Gray 900" hex="#424242" linespace="1.5" bottomspace="8px / 0.5rem" %}
 {% endcolumn %}
 </div>
 </section>
