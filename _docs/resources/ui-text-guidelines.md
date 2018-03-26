@@ -4,6 +4,8 @@ layout: docs
 category: Resources
 ---
 
+{% include toc.html %}
+
 Use these user interface (UI) text guidelines if you are a designer, developer, or contributor of content in Rackspace UIs. These UI text guidelines ensure that a Rackspace UI is usable, consistent, and concise.
 
 ## UI action labels
