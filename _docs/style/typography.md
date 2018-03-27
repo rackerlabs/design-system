@@ -88,7 +88,7 @@ Heading fours are good for titling within elements like cards, modals, and so on
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% include type-styles.html htmlexample='<h4 class="hxContainerTitle">Header four</h4>' typeface="Roboto" weight="Medium (500)" fontsize="16px / 1rem" csscode="Gray 900" hex="#424242" linespace="1.5" bottomspace="8px / 0.5rem" %}
+{% include type-styles.html htmlexample='<h4 class="hxContainerTitle">Heading four</h4>' typeface="Roboto" weight="Medium (500)" fontsize="16px / 1rem" csscode="Gray 900" hex="#424242" linespace="1.5" bottomspace="8px / 0.5rem" %}
 {% endcolumn %}
 </div>
 </section>
@@ -103,7 +103,7 @@ Heading fives provide additional contextual labelling. For example, using a head
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% include type-styles.html htmlexample='<h4 class="hxHeading5">Header five</h4>' typeface="Roboto" weight="Regular (300)" fontsize="12px / 0.75rem" csscode="Gray 800" hex="#616161" linespace="1.5" bottomspace="8px / 0.5rem" %}
+{% include type-styles.html htmlexample='<h4 class="hxHeading5">Heading five</h4>' typeface="Roboto" weight="Regular (300)" fontsize="12px / 0.75rem" csscode="Gray 800" hex="#616161" linespace="1.5" bottomspace="8px / 0.5rem" %}
 {% endcolumn %}
 </div>
 </section>
