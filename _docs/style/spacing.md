@@ -16,7 +16,7 @@ last-modified: 2018-03-28
 <section class="static-section" markdown="1">
 
 ## Introduction
-<div class="hxRow"  markdown="1">
+<div class="hxRow" markdown="1">
 
 {% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
 
