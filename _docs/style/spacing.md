@@ -37,7 +37,7 @@ For additional information on spacing vocabulary such as insets, stacks and inli
 <section class="static-section" markdown="1">
 
 ## Containers
-<div class="hxRow"  markdown="1">
+<div class="hxRow" markdown="1">
 
 {% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
 
