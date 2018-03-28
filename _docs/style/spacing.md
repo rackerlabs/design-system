@@ -6,7 +6,7 @@ usage: >
   Helix spacing system provides a logical set of values and limited application rules to better enable design and developent teams to use spacing deliberately for improved readability and consistency in product. 
 status: stable
 resource: true
-last-modified: 2018-02-16
+last-modified: 2018-03-28
 ---
 
 {% include toc.html %}
