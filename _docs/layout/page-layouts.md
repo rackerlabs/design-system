@@ -135,7 +135,7 @@ Build the content area using a 12 Column Grid. See [grid](/layout/grid) for more
 
 ### Dual panel content area
 
-- Dual layout enables two variable width panels, entitled primary and secondary, to operate adjacent to one another. User selections or interactions with the primary panel facilate information displayed on secondary panels. 
+- Dual layout enables two variable width panels, entitled primary and secondary, to operate adjacent to one another. User selections or interactions with the primary panel facilitate information displayed on secondary panels.
 - Although data is correlated between each panel, panels can scroll independently.
 - Panel widths cannot be adjusted manually by the user.
 - Panels are separated by a 1px solid line. Use the canvass color `#fafafa` as your background.

@@ -155,6 +155,9 @@ pre {
   &.bg-light {
     background-color: $grey25;
   }
+  &.bg-dark {
+    background-color: $grey950;
+  }
   &.border {
     border: 1px solid $grey400;
   }

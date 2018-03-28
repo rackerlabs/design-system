@@ -4,7 +4,7 @@ parent: Content Areas
 layout: component
 category: Components
 usage: >
-  Cards are good metaphors for cards in the real world. They are versatile, there can be many, and they allow us to see important information before digging in. As a content area, they can contain any kind of information. 
+  Cards are good metaphors for cards in the real world. They are versatile, there can be many, and they allow us to see important information before digging in. As a content area, they can contain any kind of information.
 preview-image: preview-images/cards.svg
 status: in-progress
 resource: true
@@ -53,7 +53,7 @@ Cards should be uniform in size. Don’t overcrowd your card. It is not a Dashbo
 ### Default layout
 
 
-The card pattern is composed of the following three elements: 
+The card pattern is composed of the following three elements:
 
 - **Header (optional):** The header sets the context for a card component and allows action on the card through the application of icons to it.
 - **Body (required):** The body contains the primary content associated with the card. The body section details the underlying object, of which the card is representing to the user.
@@ -168,7 +168,7 @@ Cards are applied to the helix-grid and have a variable width and height based o
 
 ### Card use
 
-- There is no limit to the number of cards that can be used, however, ensure the page use case justifies the data. For example, dashboards are meant to provide users with quick insights and clear paths forward to more robust data. Overusing cards data objects may have the opposite effect and leave users with to much to parse. 
+- There is no limit to the number of cards that can be used, however, ensure the page use case justifies the data. For example, dashboards are meant to provide users with quick insights and clear paths forward to more robust data. Overusing cards data objects may have the opposite effect and leave users with to much to parse.
 
 {% endcolumn %}
 
@@ -219,7 +219,7 @@ Cards the use all three of the underlying elements are referred to as a segmente
 
 Cards that opt to remove the header and footer elements and rely solely on the body element are referred to as open cards.
 
-Open cards have less containing shapes than segmented cards and are therefore better for representing more focused or less complex objects. 
+Open cards have less containing shapes than segmented cards and are therefore better for representing more focused or less complex objects.
 
 
 {% endcolumn %}
@@ -273,4 +273,3 @@ The empty card button is based on the [chip] component and is created by removin
 {% endfigure %}
 {% endcolumn %}
 </div>
-
