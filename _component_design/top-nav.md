@@ -31,7 +31,7 @@ For additional flexibility, you can use top navigation elements. However, applic
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:""] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/layout/navigation-top.svg)
+<embed src="{{site.cdn_url}}/img/layout/navigation-top.svg"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -56,7 +56,7 @@ For additional flexibility, you can use top navigation elements. However, applic
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:""] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/layout/navigation-top-color-type.svg)
+<embed src="{{site.cdn_url}}/img/layout/navigation-top-color-type.svg"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -82,7 +82,7 @@ For additional flexibility, you can use top navigation elements. However, applic
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Vertical padding for primary navigation items"] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/layout/navigation-top-spacing-vertical.svg)
+<embed src="{{site.cdn_url}}/img/layout/navigation-top-spacing-vertical.svg"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -102,7 +102,7 @@ For additional flexibility, you can use top navigation elements. However, applic
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Horizontal padding specs for primary navigation items"] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/layout/navigation-top-spacing-horizontal.svg)
+<embed src="{{site.cdn_url}}/img/layout/navigation-top-spacing-horizontal.svg"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -134,7 +134,7 @@ Drop-down menus display secondary navigation elements below their primary naviga
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Drop-down font specs"] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/layout/navigation-dropdown-color-type.svg)
+<embed src="{{site.cdn_url}}/img/layout/navigation-dropdown-color-type.svg"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -159,11 +159,11 @@ Drop-down menus display secondary navigation elements below their primary naviga
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:""] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/layout/navigation-dropdown-spacing-vertical.svg)
+<embed src="{{site.cdn_url}}/img/layout/navigation-dropdown-spacing-vertical.svg"/>
 {% endfigure %}
 
 {% figure [caption:""] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/layout/navigation-dropdown-spacing-horizontal.svg)
+<embed src="{{site.cdn_url}}/img/layout/navigation-dropdown-spacing-horizontal.svg"/>
 {% endfigure %}
 {% endcolumn %}
 </div>

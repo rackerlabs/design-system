@@ -39,7 +39,7 @@ When an app supports large amounts of information, users can quickly locate cont
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Search implemented in the support delivery platform UI"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/search-and-filters/search-bar/search-hero.svg)
+<embed src="{{site.url}}/assets/images/components/search-and-filters/search-bar/search-hero.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -67,7 +67,7 @@ By default, the search bar will extend across the full width of its container. W
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Basic search bar"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/search-and-filters/search-bar/search-basic.svg)
+<embed src="{{site.url}}/assets/images/components/search-and-filters/search-bar/search-basic.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -97,7 +97,7 @@ The basic search bar component has the following states:
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Basic search bar states"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/search-and-filters/search-bar/search-states.svg)
+<embed src="{{site.url}}/assets/images/components/search-and-filters/search-bar/search-states.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -123,7 +123,7 @@ The basic search bar component has the following states:
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Spacing specifications"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/search-and-filters/search-bar/search-spacing.svg)
+<embed src="{{site.url}}/assets/images/components/search-and-filters/search-bar/search-spacing.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -147,7 +147,7 @@ The 'no results' state mimics the 'Idle & filled' state and displays a specializ
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"No results state"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/search-and-filters/search-bar/search-no-results.svg)
+<embed src="{{site.url}}/assets/images/components/search-and-filters/search-bar/search-no-results.svg"/>
 {% endfigure %}
 
 {% endcolumn %}

@@ -32,13 +32,13 @@ resource: true
 
 {% figure [caption:"Using top navigation provides more horizontal real estate for
 your content area. However, this can limit the number of navigation items."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/layout/page-layouts/layout-navigation-top.png)
+<embed src="{{site.url}}/assets/images/layout/page-layouts/layout-navigation-top.png"/>
 {% endfigure %}
 
 {% figure [caption:"Using left navigation offers more flexibility for larger and
 more expansive menus. However, this constricts the horizontal real estate for your
 content area."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/layout/page-layouts/layout-navigation-side.png){:width="800px"}
+<embed src="{{site.url}}/assets/images/layout/page-layouts/layout-navigation-side.png" width="800"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -60,11 +60,11 @@ Build the content area using a 12 Column Grid. See [grid](/layout/grid) for more
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Full width with top navigation"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/layout/page-layouts/layout-content-full-top-nav.png){:width="800px"}
+<embed src="{{site.url}}/assets/images/layout/page-layouts/layout-content-full-top-nav.png" width="800"/>
 {% endfigure %}
 
 {% figure [caption:"Full width with left navigation"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/layout/page-layouts/layout-content-full-side-nav.png){:width="800px"}
+<embed src="{{site.url}}/assets/images/layout/page-layouts/layout-content-full-side-nav.png" width="800"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -90,11 +90,11 @@ Build the content area using a 12 Column Grid. See [grid](/layout/grid) for more
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Right side rail with top navigation"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/layout/page-layouts/layout-right-side-rail-top-nav.png){:width="800px"}
+<embed src="{{site.url}}/assets/images/layout/page-layouts/layout-right-side-rail-top-nav.png" width="800"/>
 {% endfigure %}
 
 {% figure [caption:"Right side rail with left navigation"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/layout/page-layouts/layout-right-side-rail-side-nav.png){:width="800px"}
+<embed src="{{site.url}}/assets/images/layout/page-layouts/layout-right-side-rail-side-nav.png" width="800"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -119,11 +119,11 @@ Build the content area using a 12 Column Grid. See [grid](/layout/grid) for more
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Left side rail with top navigation"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/layout/page-layouts/layout-left-side-rail-top-nav.png){:width="800px"}
+<embed src="{{site.url}}/assets/images/layout/page-layouts/layout-left-side-rail-top-nav.png" width="800"/>
 {% endfigure %}
 
 {% figure [caption:"Left side rail with left navigation"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/layout/page-layouts/layout-left-side-rail-side-nav.png){:width="800px"}
+<embed src="{{site.url}}/assets/images/layout/page-layouts/layout-left-side-rail-side-nav.png" width="800"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -157,11 +157,11 @@ Build the content area using a 12 Column Grid. See [grid](/layout/grid) for more
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Dual panel with top navigation"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/layout/page-layouts/dual-panel-topnav.png){:width="800px"}
+<embed src="{{site.url}}/assets/images/layout/page-layouts/dual-panel-topnav.png" width="800"/>
 {% endfigure %}
 
 {% figure [caption:"Dual panel with left navigation"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/layout/page-layouts/dual-panel-sidenav.png){:width="800px"}
+<embed src="{{site.url}}/assets/images/layout/page-layouts/dual-panel-sidenav.png" width="800"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -186,11 +186,11 @@ Build the content area using a 12 Column Grid. See [grid](/layout/grid) for more
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Dashboard layout with top navigation"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/layout/page-layouts/layout-dashboard-top-nav.png){:width="800px"}
+<embed src="{{site.url}}/assets/images/layout/page-layouts/layout-dashboard-top-nav.png" width="800"/>
 {% endfigure %}
 <!--
 {% figure [caption:"Dashboard layout with side navigation"] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/layout/layout-dashboard-side.png)
+<embed src="{{site.cdn_url}}/img/layout/layout-dashboard-side.png"/>
 {% endfigure %}
 -->
 {% endcolumn %}

@@ -35,7 +35,7 @@ You can use the date picker to apply date range filters to lists of events, logs
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/date-picker/date-picker-hero-image.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/date-picker/date-picker-hero-image.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -68,7 +68,7 @@ When the date picker is first triggered, it should default to the current month 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/date-picker/date-picker-specifications.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/date-picker/date-picker-specifications.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -92,7 +92,7 @@ Center text and icons vertically and horizontally.
 {% column right:"hxCol hxSpan-4 hxSpan-6-xs hxSpan-6-sm hxSpan-4-md hxSpan-4-lg" %}
 
 {% figure [caption:"Date picker button states"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/date-picker/date-picker-button-states-1.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/date-picker/date-picker-button-states-1.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -100,7 +100,7 @@ Center text and icons vertically and horizontally.
 {% column right:"hxCol hxSpan-4 hxSpan-6-xs hxSpan-6-sm hxSpan-4-md hxSpan-4-lg" %}
 
 {% figure [caption:"Month picker button states"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/date-picker/date-picker-button-states-2.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/date-picker/date-picker-button-states-2.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -124,7 +124,7 @@ The date picker element appears below the corresponding text input that controls
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/date-picker/date-picker-spacing.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/date-picker/date-picker-spacing.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -153,7 +153,7 @@ The date picker element appears below the corresponding text input that controls
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/date-picker/date-picker-single-date.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/date-picker/date-picker-single-date.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -177,7 +177,7 @@ The traditional method for date range selection is to use two separate fields, w
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/date-picker/date-picker-date-ranges-using-two-fields.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/date-picker/date-picker-date-ranges-using-two-fields.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -203,7 +203,7 @@ Selecting a start date fills the start date field value and shifts focus to the 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/date-picker/date-picker-start-date-picker.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/date-picker/date-picker-start-date-picker.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -227,7 +227,7 @@ Selecting an end date fills the end date field value and automatically hides the
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/date-picker/date-picker-end-date-picker.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/date-picker/date-picker-end-date-picker.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -249,7 +249,7 @@ Selecting an end date fills the end date field value and automatically hides the
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/date-picker/date-picker-date-range-selection-complete.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/date-picker/date-picker-date-range-selection-complete.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -288,7 +288,7 @@ In this design, the field width is extended to match the width of the picker, an
 {% column right:"hxCol hxSpan-12" %}
 
 {% figure [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/date-picker/date-picker-date-ranges-using-a-single-field-1.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/date-picker/date-picker-date-ranges-using-a-single-field-1.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -300,7 +300,7 @@ In this design, the field width is extended to match the width of the picker, an
 {% column right:"hxCol hxSpan-6" %}
 
 {% figure [caption:"Start date selected, with hover showing range"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/date-picker/date-picker-date-ranges-using-a-single-field-2.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/date-picker/date-picker-date-ranges-using-a-single-field-2.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -308,7 +308,7 @@ In this design, the field width is extended to match the width of the picker, an
 {% column right:"hxCol hxSpan-6" %}
 
 {% figure [caption:"End date selected, range is complete"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/date-picker/date-picker-date-ranges-using-a-single-field-3.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/date-picker/date-picker-date-ranges-using-a-single-field-3.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -336,7 +336,7 @@ If the user selects a start date in one month or year, and an end date in anothe
 {% column right:"hxCol hxSpan-4 hxSpan-6-xs hxSpan-6-sm hxSpan-4-md hxSpan-4-lg" %}
 
 {% figure [caption:"Start date selected in October"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/date-picker/date-picker-ranges-spanning-months-or-years-1.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/date-picker/date-picker-ranges-spanning-months-or-years-1.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -344,7 +344,7 @@ If the user selects a start date in one month or year, and an end date in anothe
 {% column right:"hxCol hxSpan-4 hxSpan-6-xs hxSpan-6-sm hxSpan-4-md hxSpan-4-lg" %}
 
 {% figure [caption:"End date selected in December"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/date-picker/date-picker-ranges-spanning-months-or-years-2.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/date-picker/date-picker-ranges-spanning-months-or-years-2.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -376,7 +376,7 @@ The month picker enables users to select a different month from the entire year 
 {% column right:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 {% figure [caption:"User hovers over header button"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/date-picker/date-picker-month-picker-1.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/date-picker/date-picker-month-picker-1.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -384,7 +384,7 @@ The month picker enables users to select a different month from the entire year 
 {% column right:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 {% figure [caption:"On click, the month picker slides down"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/date-picker/date-picker-month-picker-2.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/date-picker/date-picker-month-picker-2.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -392,7 +392,7 @@ The month picker enables users to select a different month from the entire year 
 {% column right:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 {% figure [caption:"User chooses a month, and the picker slides up"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/date-picker/date-picker-month-picker-3.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/date-picker/date-picker-month-picker-3.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -416,7 +416,7 @@ The month picker state maintains the same spacing considerations from the date s
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/date-picker/date-picker-month-picker-specifications.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/date-picker/date-picker-month-picker-specifications.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -440,7 +440,7 @@ The button text in the month picker is always horizontally and vertically center
 {% column right:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 {% figure [caption:"Month picker header button"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/date-picker/date-picker-month-picker-button-specifications-1.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/date-picker/date-picker-month-picker-button-specifications-1.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -448,7 +448,7 @@ The button text in the month picker is always horizontally and vertically center
 {% column right:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 {% figure [caption:"Month picker month buttons"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/date-picker/date-picker-month-picker-button-specifications-2.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/date-picker/date-picker-month-picker-button-specifications-2.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -476,7 +476,7 @@ When the user makes a selection, or clicks on the header button again, the month
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Slide down to show selector, and back up when selection is made."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/date-picker/date-picker-month-picker-animation.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/date-picker/date-picker-month-picker-animation.svg"/>
 {% endfigure %}
 
 {% endcolumn %}

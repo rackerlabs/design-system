@@ -37,7 +37,7 @@ Use drop-downs for selecting a single option from a known list of options. Selec
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Drop-downs hero"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/dropdowns/dropdowns-hero.svg)
+<embed src="{{site.url}}/assets/images/components/content-areas/dropdowns/dropdowns-hero.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -63,7 +63,7 @@ Drop-downs
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Default layout"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/dropdowns/dropdowns-default-layout.svg)
+<embed src="{{site.url}}/assets/images/components/content-areas/dropdowns/dropdowns-default-layout.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -93,7 +93,7 @@ Drop-downs can be in the following states:
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Drop-downs states."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/dropdowns/dropdowns-states.svg)
+<embed src="{{site.url}}/assets/images/components/content-areas/dropdowns/dropdowns-states.svg"/>
 {% endfigure %}
 
 {% endcolumn %}

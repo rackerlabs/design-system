@@ -41,7 +41,7 @@ These email templates are for external communications to customers related to co
 ## Quick view template and variable guide
 
 {% figure [caption:"Quick guide for template and variable options"] [class:"image bg-light border"] %}
-  ![]({{site.baseurl}}/assets/images/templates/email/EmailTemplate.svg)
+  <embed src="{{site.baseurl}}/assets/images/templates/email/EmailTemplate.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -57,7 +57,7 @@ These email templates are for external communications to customers related to co
 ## Typography and image guides
 
 {% figure [caption:"Quick guide for typography and image specifications"] [class:"image bg-light border"] %}
-  ![]({{site.baseurl}}/assets/images/templates/email/Email%20Detail%20-%20Spec.svg)
+  <embed src="{{site.baseurl}}/assets/images/templates/email/Email%20Detail%20-%20Spec.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -137,7 +137,7 @@ Alert states are used to gain the user's attention when there is action required
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:""] [class:"image bg-light border"] %}
-  ![]({{site.baseurl}}/assets/images/templates/email/Urgent%20Alert.svg)
+  <embed src="{{site.baseurl}}/assets/images/templates/email/Urgent%20Alert.svg"/>
 {% endfigure %}
 {% endcolumn %}
 
@@ -148,7 +148,7 @@ Alert states are used to gain the user's attention when there is action required
 {% column left:"hxCol hxSpan-12 hxSpan-12-xs hxSpan-12-sm hxSpan-12-md hxSpan-12-lg" %}
 
 {% figure [caption:"Alert banner typography, color, and spacing"] [class:"image bg-light border"] %}
-  ![]({{site.baseurl}}/assets/images/templates/email/Alert%20Specs.svg){:width=60%}
+  <embed src="{{site.baseurl}}/assets/images/templates/email/Alert%20Specs.svg"/>
 {% endfigure %}
 
 {% endcolumn%}
@@ -175,7 +175,7 @@ The header is an overview of where the email is coming from and what kind of mes
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Visual example of header and spacing"] [class:"image bg-light border"] %}
-  ![]({{site.baseurl}}/assets/images/templates/email/Header.svg)
+  <embed src="{{site.baseurl}}/assets/images/templates/email/Header.svg"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -186,7 +186,7 @@ The header is an overview of where the email is coming from and what kind of mes
 
 
 {% figure [caption:"Examples of content options. Replace only product name and switch between Notification or Ticket for message type."] [class:"image bg-light border"] %}
-![]({{site.baseurl}}/assets/images/templates/email/Header%20Details.svg)
+<embed src="{{site.baseurl}}/assets/images/templates/email/Header%20Details.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -211,7 +211,7 @@ To give the user more context about the message they are about to read, the subh
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Visual example of Sub-Header and spacing"] [class:"image bg-light border"] %}
-![]({{site.baseurl}}/assets/images/templates/email/Subheader.svg)
+<embed src="{{site.baseurl}}/assets/images/templates/email/Subheader.svg"/>
 {% endfigure %}
 {% endcolumn %}
 
@@ -248,7 +248,7 @@ When there is some action that the user needs to take, it should be prominently 
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Callout box used for workarounds and comments. Comment includes code block."] [class:"image bg-light border"] %}
-  ![]({{site.baseurl}}/assets/images/templates/email/Comment%20with%20CodeBlock.svg)
+  <embed src="{{site.baseurl}}/assets/images/templates/email/Comment%20with%20CodeBlock.svg"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -262,7 +262,7 @@ When there is some action that the user needs to take, it should be prominently 
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Code block visual examples and specifications"] [class:"image bg-light border"] %}
-  ![]({{site.baseurl}}/assets/images/templates/email/Code%20Block%20.svg)
+  <embed src="{{site.baseurl}}/assets/images/templates/email/Code%20Block%20.svg"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -289,7 +289,7 @@ They should never break up the content of an email, and there should never be mo
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Button and spacing specifications"] [class:"image bg-light border"] %}
-  ![]({{site.baseurl}}/assets/images/templates/email/Button.svg)
+  <embed src="{{site.baseurl}}/assets/images/templates/email/Button.svg"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -300,7 +300,7 @@ They should never break up the content of an email, and there should never be mo
 {% column left:"hxCol hxSpan-12 hxSpan-12-xs hxSpan-12-sm hxSpan-12-md hxSpan-12-lg" %}
 
 {% figure [caption:"Variation of button content. Message should always be clear and concise."] [class:"image bg-light border"] %}
-  ![]({{site.baseurl}}/assets/images/templates/email/Buttons.svg)
+  <embed src="{{site.baseurl}}/assets/images/templates/email/Buttons.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -323,7 +323,7 @@ In the first line, the word notifications or ticket should change based on the m
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Mobile app promotion and download links"] [class:"image bg-light border"] %}
-  ![]({{site.baseurl}}/assets/images/templates/email/Mobile%20LInks.svg)
+  <embed src="{{site.baseurl}}/assets/images/templates/email/Mobile%20LInks.svg"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -347,7 +347,7 @@ The footer provides auxiliary information about how to contact support and edit 
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Footer visual example and spacing specifications"] [class:"image bg-light border"] %}
-  ![]({{site.baseurl}}/assets/images/templates/email/Footer.svg)
+  <embed src="{{site.baseurl}}/assets/images/templates/email/Footer.svg"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -443,7 +443,7 @@ For now, here are a few of the completed studies:
 ## Visual examples
 
 {% figure [caption:"Example of a billing email using these guidelines"] [class:"image bg-light border"] %}
-![]({{site.baseurl}}/assets/images/templates/email/Email%20Detail.svg)
+<embed src="{{site.baseurl}}/assets/images/templates/email/Email%20Detail.svg"/>
 {% endfigure %}
 {% endcolumn %}
 

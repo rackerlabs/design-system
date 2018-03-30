@@ -58,11 +58,11 @@ Notifications, and Ticketing. For detailed specs, see the
 {% endcolumn %}
 {% column right:"hxCol hxSpan-8-md" %}
 {% figure [caption:"Eyebrow zones"] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/layout/eyebrow.svg){:width="100%"}
+<embed src="{{site.cdn_url}}/img/layout/eyebrow.svg"/>
 {% endfigure %}
 
 {% figure [caption:"Eyebrow breakpoints"] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/layout/eyebrow-states.svg){:width="100%"}
+<embed src="{{site.cdn_url}}/img/layout/eyebrow-states.svg"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -83,7 +83,7 @@ navigation section is reflected via the selected state beneath it.
 {% endcolumn %}
 {% column right:"hxCol hxSpan-8-md" %}
 {% figure [caption:"Eyebrow (leftside) zones"] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/layout/eye-left.svg){:width="100%"}
+<embed src="{{site.cdn_url}}/img/layout/eye-left.svg"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -107,7 +107,7 @@ platform level services button groups.
 {% endcolumn %}
 {% column right:"hxCol hxSpan-8-md" %}
 {% figure [caption:"Eyebrow (rightside) zones"] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/layout/eye-right.svg){:width="100%"}
+<embed src="{{site.cdn_url}}/img/layout/eye-right.svg"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -122,11 +122,11 @@ has three states: Hidden, Toggled, and Extended.
 {% endcolumn %}
 {% column right:"hxCol hxSpan-8-md" %}
 {% figure [caption:"Offcanvas panel right - toggled"] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/layout/global-layer/offcanvas-right-toggled.svg)
+<embed src="{{site.cdn_url}}/img/layout/global-layer/offcanvas-right-toggled.svg"/>
 {% endfigure %}
 
 {% figure [caption:"Ticketing right panel example"] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/layout/global-layer/offcanvas-right-example.svg)
+<embed src="{{site.cdn_url}}/img/layout/global-layer/offcanvas-right-example.svg"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -141,11 +141,11 @@ When toggled, the dashboard will extend over the product and workflow layers.
 {% endcolumn %}
 {% column right:"hxCol hxSpan-8-md" %}
 {% figure [caption:"Global Dashboard - Hidden"] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/layout/global-layer/globaldash-base.svg)
+<embed src="{{site.cdn_url}}/img/layout/global-layer/globaldash-base.svg"/>
 {% endfigure %}
 
 {% figure [caption:"Global Dashboard - Toggled"] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/layout/global-layer/globaldash-extended-full.svg)
+<embed src="{{site.cdn_url}}/img/layout/global-layer/globaldash-extended-full.svg"/>
 {% endfigure %}
 {% endcolumn %}
 </div>

@@ -38,7 +38,7 @@ last-modified: 2017-08-30
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"The eyebrow component"] [class:"image bg-light border"] %}
-![]({{site.baseurl}}/assets/images/components/navigation/eyebrow/eyebrow-hero.png){:width="1200px"}
+<embed src="{{site.baseurl}}/assets/images/components/navigation/eyebrow/eyebrow-hero.png" width="1200"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -55,7 +55,7 @@ last-modified: 2017-08-30
 ### Nav bar specifications
 
 {% figure [class:"image bg-light border"] %}
-![]({{site.baseurl}}/assets/images/components/navigation/eyebrow/nav-bar.png){:width="936px"}
+<embed src="{{site.baseurl}}/assets/images/components/navigation/eyebrow/nav-bar.png" width="936"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -80,7 +80,7 @@ The logo can only be clickable when the application has a default landing page, 
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Logo structure when the logo is clickable for navigation"] [class:"image bg-light border"] %}
-![]({{site.baseurl}}/assets/images/components/navigation/eyebrow/logo-structure.png){:width="620px"}
+<embed src="{{site.baseurl}}/assets/images/components/navigation/eyebrow/logo-structure.png" width="620"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -103,7 +103,7 @@ The logo can only be clickable when the application has a default landing page, 
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Logo states when the logo is clickable for navigation"] [class:"image bg-light border"] %}
-![]({{site.baseurl}}/assets/images/components/navigation/eyebrow/logo-states.png){:width="620px"}
+<embed src="{{site.baseurl}}/assets/images/components/navigation/eyebrow/logo-states.png" width="620"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -128,7 +128,7 @@ The logo can only be clickable when the application has a default landing page, 
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Navigation item construction specifications"] [class:"image bg-light border"] %}
-![]({{site.baseurl}}/assets/images/components/navigation/eyebrow/nav-icon-structure.png){:width="620px"}
+<embed src="{{site.baseurl}}/assets/images/components/navigation/eyebrow/nav-icon-structure.png" width="620"/>
 {% endfigure %}
 {% endcolumn %}
 
@@ -157,7 +157,7 @@ The logo can only be clickable when the application has a default landing page, 
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Navigation item states"] [class:"image bg-light border"] %}
-![]({{site.baseurl}}/assets/images/components/navigation/eyebrow/nav-icon-states.png){:width="620px"}
+<embed src="{{site.baseurl}}/assets/images/components/navigation/eyebrow/nav-icon-states.png" width="620"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -182,7 +182,7 @@ The logo can only be clickable when the application has a default landing page, 
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Username construction"] [class:"image bg-light border"] %}
-![]({{site.baseurl}}/assets/images/components/navigation/eyebrow/drop-down-structure.png){:width="620px"}
+<embed src="{{site.baseurl}}/assets/images/components/navigation/eyebrow/drop-down-structure.png" width="620"/>
 {% endfigure %}
 {% endcolumn %}
 
@@ -211,7 +211,7 @@ The logo can only be clickable when the application has a default landing page, 
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Drop-down states"] [class:"image bg-light border"] %}
-![]({{site.baseurl}}/assets/images/components/navigation/eyebrow/drop-down-states.png){:width="620px"}
+<embed src="{{site.baseurl}}/assets/images/components/navigation/eyebrow/drop-down-states.png" width="620"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -243,7 +243,7 @@ The logo can only be clickable when the application has a default landing page, 
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Username dropdown"] [class:"image bg-light border"] %}
-![]({{site.baseurl}}/assets/images/components/navigation/eyebrow/drop-down-menu.png){:width="620px"}
+<embed src="{{site.baseurl}}/assets/images/components/navigation/eyebrow/drop-down-menu.png" width="620"/>
 {% endfigure %}
 {% endcolumn %}
 
@@ -272,7 +272,7 @@ The logo can only be clickable when the application has a default landing page, 
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Username states"] [class:"image bg-light border"] %}
-![]({{site.baseurl}}/assets/images/components/navigation/eyebrow/drop-down-menu-structure.png){:width="620px"}
+<embed src="{{site.baseurl}}/assets/images/components/navigation/eyebrow/drop-down-menu-structure.png" width="620"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -295,7 +295,7 @@ The logo can only be clickable when the application has a default landing page, 
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Default menu item specifications"] [class:"image bg-light border"] %}
-![]({{site.baseurl}}/assets/images/components/navigation/eyebrow/drop-down-menu-item-structure.png){:width="620px"}
+<embed src="{{site.baseurl}}/assets/images/components/navigation/eyebrow/drop-down-menu-item-structure.png" width="620"/>
 {% endfigure %}
 {% endcolumn %}
 
@@ -324,7 +324,7 @@ The logo can only be clickable when the application has a default landing page, 
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Menu item states"] [class:"image bg-light border"] %}
-![]({{site.baseurl}}/assets/images/components/navigation/eyebrow/drop-down-menu-item-states.png){:width="620px"}
+<embed src="{{site.baseurl}}/assets/images/components/navigation/eyebrow/drop-down-menu-item-states.png" width="620"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -348,7 +348,7 @@ The logo can only be clickable when the application has a default landing page, 
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Menu section specificationsa"] [class:"image bg-light border"] %}
-![]({{site.baseurl}}/assets/images/components/navigation/eyebrow/drop-down-menu-section.png){:width="620px"}
+<embed src="{{site.baseurl}}/assets/images/components/navigation/eyebrow/drop-down-menu-section.png" width="620"/>
 {% endfigure %}
 {% endcolumn %}
 
@@ -375,7 +375,7 @@ The logo can only be clickable when the application has a default landing page, 
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Key-value item specifications"] [class:"image bg-light border"] %}
-![]({{site.baseurl}}/assets/images/components/navigation/eyebrow/kev-value-menu.png){:width="620px"}
+<embed src="{{site.baseurl}}/assets/images/components/navigation/eyebrow/kev-value-menu.png" width="620"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -400,7 +400,7 @@ The logo can only be clickable when the application has a default landing page, 
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Call-to-action specifications"] [class:"image bg-light border"] %}
-![]({{site.baseurl}}/assets/images/components/navigation/eyebrow/cta-menu-structure.png){:width="620px"}
+<embed src="{{site.baseurl}}/assets/images/components/navigation/eyebrow/cta-menu-structure.png" width="620"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -421,7 +421,7 @@ The logo can only be clickable when the application has a default landing page, 
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Call-to-action states"] [class:"image bg-light border"] %}
-![]({{site.baseurl}}/assets/images/components/navigation/eyebrow/cta-menu-states.png){:width="620px"}
+<embed src="{{site.baseurl}}/assets/images/components/navigation/eyebrow/cta-menu-states.png" width="620"/>
 {% endfigure %}
 {% endcolumn %}
 </div>

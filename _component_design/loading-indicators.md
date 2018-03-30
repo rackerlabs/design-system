@@ -32,7 +32,7 @@ Use loading indicators when you need to provide further visual feedback, such as
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:""] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/processing/loading-indicator/loading-hero.png){:width="1440px"}
+<embed src="{{site.url}}/assets/images/components/processing/loading-indicator/loading-hero.png" width="1440"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -80,7 +80,7 @@ The spinner icon inherits the text color of the element or component in which it
 {% column right:"hxCol hxSpan-4 hxSpan-6-xs hxSpan-6-sm hxSpan-4-md hxSpan-4-lg" %}
 
 {% figure [caption:"Spinner icons are centered"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/processing/loading-indicator/spinner-icon-centered.svg)
+<embed src="{{site.url}}/assets/images/components/processing/loading-indicator/spinner-icon-centered.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -88,7 +88,7 @@ The spinner icon inherits the text color of the element or component in which it
 {% column right:"hxCol hxSpan-4 hxSpan-6-xs hxSpan-6-sm hxSpan-4-md hxSpan-4-lg" %}
 
 {% figure [caption:"The spinner icon uses a 1px stroke width."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/processing/loading-indicator/spinner-icon-stroke.svg)
+<embed src="{{site.url}}/assets/images/components/processing/loading-indicator/spinner-icon-stroke.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -110,7 +110,7 @@ A variety of spinner icon sizes are available.
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Spinner icons come in a variety of sizes from small, medium, large, and x-large."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/processing/loading-indicator/spinner-size.svg)
+<embed src="{{site.url}}/assets/images/components/processing/loading-indicator/spinner-size.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -134,7 +134,7 @@ When text is contained inside a spinner icon, the spinner matches the size of th
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Loading spinner and text used in a primary button. Note that the loading text does not use an ellipses."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/processing/loading-indicator/spinner-text.svg)
+<embed src="{{site.url}}/assets/images/components/processing/loading-indicator/spinner-text.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -158,7 +158,7 @@ In certain instances, such as key-value pairs or other list style patterns, you 
 {% column right:"hxCol hxSpan-4 hxSpan-6-xs hxSpan-6-sm hxSpan-4-md hxSpan-4-lg" %}
 
 {% figure [caption:"Loading text shown in a key-value pair list. Note that loading text can occur in multiple instances simultaneously."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/processing/loading-indicator/spinner-text-only.svg)
+<embed src="{{site.url}}/assets/images/components/processing/loading-indicator/spinner-text-only.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -166,7 +166,7 @@ In certain instances, such as key-value pairs or other list style patterns, you 
 {% column right:"hxCol hxSpan-4 hxSpan-6-xs hxSpan-6-sm hxSpan-4-md hxSpan-4-lg" %}
 
 {% figure [caption:"Always use an ellipses when using loading text alone. By default, the text uses a type-size of 16px."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/processing/loading-indicator/spinner-text-font.svg)
+<embed src="{{site.url}}/assets/images/components/processing/loading-indicator/spinner-text-font.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -194,7 +194,7 @@ Animation can be used in loading indicators to visually indicate that back-end s
 {% column right:"hxCol hxSpan-4 hxSpan-6-xs hxSpan-6-sm hxSpan-4-md hxSpan-4-lg" %}
 
 {% figure [caption:"Spinner icons rotate 360 degrees in 0.8s."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/processing/loading-indicator/spinner-360.svg)
+<embed src="{{site.url}}/assets/images/components/processing/loading-indicator/spinner-360.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -202,7 +202,7 @@ Animation can be used in loading indicators to visually indicate that back-end s
 {% column right:"hxCol hxSpan-4 hxSpan-6-xs hxSpan-6-sm hxSpan-4-md hxSpan-4-lg" %}
 
 {% figure [caption:"Spinner icons must always rotate clockwise."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/processing/loading-indicator/spinner-rotate-clockwise.svg)
+<embed src="{{site.url}}/assets/images/components/processing/loading-indicator/spinner-rotate-clockwise.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -234,7 +234,7 @@ We recommend centering the loading indicators within the component. The followin
 {% column right:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 {% figure [caption:"Loading spinner in dashboard tiles."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/processing/loading-indicator/spinner-tiles.svg)
+<embed src="{{site.url}}/assets/images/components/processing/loading-indicator/spinner-tiles.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -242,7 +242,7 @@ We recommend centering the loading indicators within the component. The followin
 {% column right:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 {% figure [caption:"Loading spinner in cards."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/processing/loading-indicator/spinner-cards.svg)
+<embed src="{{site.url}}/assets/images/components/processing/loading-indicator/spinner-cards.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -250,7 +250,7 @@ We recommend centering the loading indicators within the component. The followin
 {% column right:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 {% figure [caption:"Loading spinner in modals."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/processing/loading-indicator/spinner-modals.svg)
+<embed src="{{site.url}}/assets/images/components/processing/loading-indicator/spinner-modals.svg"/>
 {% endfigure %}
 
 {% endcolumn %}

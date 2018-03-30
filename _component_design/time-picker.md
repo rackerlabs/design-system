@@ -37,7 +37,7 @@ Do not use the time picker if there are gaps between time options. For example, 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/assets/images/components/inputs-and-controls/time-picker/time-picker-hero-image.svg)
+<embed src="{{site.cdn_url}}/assets/images/components/inputs-and-controls/time-picker/time-picker-hero-image.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -64,7 +64,7 @@ Do not use the time picker if there are gaps between time options. For example, 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/assets/images/components/inputs-and-controls/time-picker/time-picker-default-state.svg)
+<embed src="{{site.cdn_url}}/assets/images/components/inputs-and-controls/time-picker/time-picker-default-state.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -100,7 +100,7 @@ Do not use the time picker if there are gaps between time options. For example, 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/assets/images/components/inputs-and-controls/time-picker/time-picker-focused-and-expanded-states.svg)
+<embed src="{{site.cdn_url}}/assets/images/components/inputs-and-controls/time-picker/time-picker-focused-and-expanded-states.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -125,7 +125,7 @@ Do not use the time picker if there are gaps between time options. For example, 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/assets/images/components/inputs-and-controls/time-picker/time-picker-invalid-states.svg)
+<embed src="{{site.cdn_url}}/assets/images/components/inputs-and-controls/time-picker/time-picker-invalid-states.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -150,7 +150,7 @@ Do not use the time picker if there are gaps between time options. For example, 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/assets/images/components/inputs-and-controls/time-picker/time-picker-idle-and-disabled-states.svg)
+<embed src="{{site.cdn_url}}/assets/images/components/inputs-and-controls/time-picker/time-picker-idle-and-disabled-states.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -176,7 +176,7 @@ Do not use the time picker if there are gaps between time options. For example, 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/assets/images/components/inputs-and-controls/time-picker/time-picker-time-zones.svg)
+<embed src="{{site.cdn_url}}/assets/images/components/inputs-and-controls/time-picker/time-picker-time-zones.svg"/>
 {% endfigure %}
 
 {% endcolumn %}

@@ -34,7 +34,7 @@ helix-ui-javascript: false
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"The toast notification component"] [class:"image bg-light border"] %}
-![]({{site.baseurl}}/assets/images/components/notifications/toasts/toast-hero.svg)
+<embed src="{{site.baseurl}}/assets/images/components/notifications/toasts/toast-hero.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -86,7 +86,7 @@ Icons are always centered vertically.
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Default toast notifications specifications"] [class:"image bg-light border"] %}
-![]({{site.baseurl}}/assets/images/components/notifications/toasts/toast-specifications.svg)
+<embed src="{{site.baseurl}}/assets/images/components/notifications/toasts/toast-specifications.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -112,7 +112,7 @@ Clicking on the “X” dismisses the toast notification. There are no other act
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Toast notifications without CTA"] [class:"image bg-light border"] %}
-![]({{site.baseurl}}/assets/images/components/notifications/toasts/toast-wo-cta.svg)
+<embed src="{{site.baseurl}}/assets/images/components/notifications/toasts/toast-wo-cta.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -138,7 +138,7 @@ In the informational toast notification example here, the height of the toast in
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Toast notifications with CTA"] [class:"image bg-light border"] %}
-![]({{site.baseurl}}/assets/images/components/notifications/toasts/toast-w-cta.svg)
+<embed src="{{site.baseurl}}/assets/images/components/notifications/toasts/toast-w-cta.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -168,7 +168,7 @@ The toast fades into place over `400 ms`, sits in place for 8 s seconds, and fad
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Placement, animation, and stacking of toast notifications in context"] [class:"image bg-light border"] %}
-![]({{site.baseurl}}/assets/images/components/notifications/toasts/toast-behaviors.png)
+<embed src="{{site.baseurl}}/assets/images/components/notifications/toasts/toast-behaviors.png"/>
 {% endfigure %}
 
 {% endcolumn %}

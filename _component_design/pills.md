@@ -5,7 +5,7 @@ secondary: Editing
 layout: component
 category: Components
 usage: >
-  Pills are small, pill-shaped containers that indicate selection. They are useful for their small size and for the ease with which they can be removed. As selection indicators (not selectors themselves), they have a broad set of possible applications. 
+  Pills are small, pill-shaped containers that indicate selection. They are useful for their small size and for the ease with which they can be removed. As selection indicators (not selectors themselves), they have a broad set of possible applications.
 preview-image: preview-images/pills.svg
 resource: true
 status: Stable
@@ -25,25 +25,25 @@ last-modified: 2018-02-07
 
 ### When to Use
 
-Pills are small, pill-shaped containers that indicate selection. They are useful for their small size and for the ease with which they can be removed. As selection indicators (not selectors themselves), they have a broad set of possible applications. 
+Pills are small, pill-shaped containers that indicate selection. They are useful for their small size and for the ease with which they can be removed. As selection indicators (not selectors themselves), they have a broad set of possible applications.
 
 ### Best practices
 
-When using pills, ensure they are uniform in size, shape, and application. Pills may be modified with color if done carefully and intentionally. 
+When using pills, ensure they are uniform in size, shape, and application. Pills may be modified with color if done carefully and intentionally.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"The pill pattern"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/pills/pills-hero.png){:width="1200px"}
+<embed src="{{site.url}}/assets/images/components/content-areas/pills/pills-hero.png" width="1200"/>
 {% endfigure %}
 
 {% endcolumn %}
 
 </div>
-  
-</section> 
+
+</section>
 
 <section class="static-section" markdown="1">
 
@@ -53,7 +53,7 @@ When using pills, ensure they are uniform in size, shape, and application. Pills
 
 ### Default layout
 
-Pills are a component with a variety of use cases, so they can be used for many ways of indicating something has been selected: keyword search, input text search, the name of a server you’ve selected. If it can be selected, you can make a pill of it. 
+Pills are a component with a variety of use cases, so they can be used for many ways of indicating something has been selected: keyword search, input text search, the name of a server you’ve selected. If it can be selected, you can make a pill of it.
 
 A pill is different than a tag in a variety of ways, with the most important being you cannot remove a tag.
 
@@ -62,14 +62,14 @@ A pill is different than a tag in a variety of ways, with the most important bei
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"The pill pattern"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/pills/pills-default.png){:width="499px"}
+<embed src="{{site.url}}/assets/images/components/content-areas/pills/pills-default.png" width="499"/>
 {% endfigure %}
 
 {% endcolumn %}
 
 </div>
-  
-</section> 
+
+</section>
 
 ## Specifications
 
@@ -96,14 +96,14 @@ If more than 15 pills are bunched together, consider an alternative pattern or c
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"The pill pattern"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/pills/pills-specs.png){:width="509px"}
+<embed src="{{site.url}}/assets/images/components/content-areas/pills/pills-specs.png" width="509"/>
 {% endfigure %}
 
 {% endcolumn %}
 
 </div>
-  
-</section> 
+
+</section>
 
 <section class="static-section" markdown="1">
 
@@ -122,11 +122,11 @@ If more than 15 pills are bunched together, consider an alternative pattern or c
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"The pill pattern"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/pills/pills-states.png){:width="499px"}
+<embed src="{{site.url}}/assets/images/components/content-areas/pills/pills-states.png" width="499"/>
 {% endfigure %}
 
 {% endcolumn %}
 
 </div>
-  
-</section> 
+
+</section>

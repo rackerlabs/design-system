@@ -37,7 +37,7 @@ Use select filters when a user needs to narrow a data set using a limited number
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:""] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/select-filters/select-filter-hero.png){: width="633px"}
+<embed src="{{site.url}}/assets/images/components/content-areas/select-filters/select-filter-hero.png" width="633px"/>
 {% endfigure %}
 {% endcolumn %}
 
@@ -66,11 +66,11 @@ After a filter has been applied by the user, pills are placed on to the base pag
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"The select filter popover consists of a panel, heading, filtering options and buttons."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/select-filters/select-filter.png){: width="633px"}
+<embed src="{{site.url}}/assets/images/components/content-areas/select-filters/select-filter.png" width="633"/>
 {% endfigure %}
 
 {% figure [caption:""] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/select-filters/filter-pills.png){: width="633px"}
+<embed src="{{site.url}}/assets/images/components/content-areas/select-filters/filter-pills.png" width="633"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -94,7 +94,7 @@ Select filters are triggered by a secondary button which contains the filter ico
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:""] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/select-filters/filter-button.png){: width="633px"}
+<embed src="{{site.url}}/assets/images/components/content-areas/select-filters/filter-button.png" width="633"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -118,7 +118,7 @@ After the filter button is triggered, the popover element containing the filter 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"The select filter popover consists of a panel, heading, filtering options and buttons."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/select-filters/filter-elements.png){: width="633px"}
+<embed src="{{site.url}}/assets/images/components/content-areas/select-filters/filter-elements.png" width="633"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -146,7 +146,7 @@ To see specifications for laying out form fields and body text within a popover,
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:""] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/select-filters/filter-popover-spacing.png){: width="633px"}
+<embed src="{{site.url}}/assets/images/components/content-areas/select-filters/filter-popover-spacing.png" width="633"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -170,7 +170,7 @@ Use a single column popover if a data set only has a small number of filters.
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"A popover in a loading state using a spinner."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/select-filters/filter-single-column.png){: width="633px"}
+<embed src="{{site.url}}/assets/images/components/content-areas/select-filters/filter-single-column.png" width="633"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -194,7 +194,7 @@ Use the multicolumn popover variation if you have multiple filter checkboxes in 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:""] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/select-filters/filter-multicolumn.png){: width="633px"}
+<embed src="{{site.url}}/assets/images/components/content-areas/select-filters/filter-multicolumn.png" width="633"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -218,7 +218,7 @@ Use a multi-category when filters can be categorized. Use one column for each ca
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:""] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/select-filters/filter-multicategory.png){: width="633px"}
+<embed src="{{site.url}}/assets/images/components/content-areas/select-filters/filter-multicategory.png" width="633"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -242,7 +242,7 @@ Use a simple loading spinner while a popover loads. For detailed specifications,
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:""] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/select-filters/filter-loading-state.png){: width="633px"}
+<embed src="{{site.url}}/assets/images/components/content-areas/select-filters/filter-loading-state.png" width="633"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -268,7 +268,7 @@ For more details on pills, see [Pills documentation](http://helix.rax.io/compone
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:""] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/select-filters/post-filter-pills.png){: width="633px"}
+<embed src="{{site.url}}/assets/images/components/content-areas/select-filters/post-filter-pills.png" width="633"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -292,7 +292,7 @@ If the amount of filter pills cannot fit a singe horizontal line above the data 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"A pill containing an ellipsis can be used to show more filters as pills."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/select-filters/too-many-pills.png){: width="633px"}
+<embed src="{{site.url}}/assets/images/components/content-areas/select-filters/too-many-pills.png" width="633"/>
 {% endfigure %}
 
 {% endcolumn %}

@@ -48,7 +48,7 @@ Use a button to launch a process or initiate an action. Do not use buttons for n
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Meet the button pattern"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-hero.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-hero.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -81,7 +81,7 @@ When using a simple button, specify both weight and size.
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"The three button weights"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-simple.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-simple.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -109,7 +109,7 @@ Compact buttons should be used when you have severe space constraints, such as i
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Button spacing specs"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-specs.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-specs.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -135,7 +135,7 @@ Compact buttons should be used when you have severe space constraints, such as i
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Button spacing specs"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-primary.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-primary.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -161,7 +161,7 @@ Compact buttons should be used when you have severe space constraints, such as i
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Button spacing specs"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-secondary.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-secondary.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -189,7 +189,7 @@ Compact buttons should be used when you have severe space constraints, such as i
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Button spacing specs"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-tertiary.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-tertiary.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -214,11 +214,11 @@ Compact buttons should be used when you have severe space constraints, such as i
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Button (loading state) spacing"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-loading-1.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-loading-1.svg"/>
 {% endfigure %}
 
 {% figure [caption:"Button (loading state) specifications for primary, secondary, and tertiary weights."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-loading-2.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-loading-2.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -250,15 +250,15 @@ When submitting forms:
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Button set spacing"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-sets-1.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-sets-1.svg"/>
 {% endfigure %}
 
 {% figure [caption:"Primary, secondary and tertiary button set"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-sets-2.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-sets-2.svg"/>
 {% endfigure %}
 
 {% figure [caption:"Primary and tertiary button set"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-sets-3.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-sets-3.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -284,7 +284,7 @@ A drop-down button is preferred when multiple actions are available, with no des
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"The drop-down button variation"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/buttons/drop-buttons-hero.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/drop-buttons-hero.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -311,7 +311,7 @@ A drop-down button is preferred when multiple actions are available, with no des
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Drop-down button specifications"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/buttons/drop-buttons-specs.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/drop-buttons-specs.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -360,7 +360,7 @@ Split drop-down buttons are preferred when more than one action is associated wi
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Split drop-down button specifications"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/buttons/split-drop-buttons-specs.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/split-drop-buttons-specs.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -389,7 +389,7 @@ Split drop-down buttons are preferred when more than one action is associated wi
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Download button layouts"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/buttons/download-buttons-overview.png){:width="571px"}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/download-buttons-overview.png" width="571"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -414,7 +414,7 @@ In most situations, download buttons should be secondary, but when downloading i
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Specifications for download links"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/buttons/download-buttons-specs.png){:width="571px"}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/download-buttons-specs.png" width="571"/>
 {% endfigure %}
 
 {% endcolumn %}

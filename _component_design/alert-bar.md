@@ -39,7 +39,7 @@ An alert bar can extend across the entirety of the content area (page level scop
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Page level scoping example"] [class:"image bg-light border"] %}
- ![]({{site.url}}/assets/images/components/content-areas/alerts/alert-bar-hero.svg){:width="80%"}
+ <embed src="{{site.url}}/assets/images/components/content-areas/alerts/alert-bar-hero.svg"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -69,11 +69,11 @@ optional:
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Alert bar composition"] [class:"image bg-light border"] %}
- ![]({{site.url}}/assets/images/components/content-areas/alerts/alert-bar-composition.png){:width="617px"}
+ <embed src="{{site.url}}/assets/images/components/content-areas/alerts/alert-bar-composition.png" width="617"/>
 {% endfigure %}
 
 {% figure [caption:"Alert bar specifications."] [class:"image bg-light border"] %}
- ![]({{site.url}}/assets/images/components/content-areas/alerts/alert-bar-specs.png){:width="617px"}
+ <embed src="{{site.url}}/assets/images/components/content-areas/alerts/alert-bar-specs.png" width="617"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -93,7 +93,7 @@ Alert messages should be as concise and clear as possible. We recommend keeping 
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Multiline alert wrapping behavior"] [class:"image bg-light border"] %}
- ![]({{site.url}}/assets/images/components/content-areas/alerts/alert-bar-multiline-alerts.png){:width="617px"}
+ <embed src="{{site.url}}/assets/images/components/content-areas/alerts/alert-bar-multiline-alerts.png" width="617"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -113,7 +113,7 @@ The alert bar pattern enables users to assess status of a given section at a gla
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Alert bar status types."] [class:"image bg-light border"] %}
- ![]({{site.url}}/assets/images/components/content-areas/alerts/alert-bar-status-types.png){:width="617px"}
+ <embed src="{{site.url}}/assets/images/components/content-areas/alerts/alert-bar-status-types.png" width="617px"/>
 {% endfigure %}
 {% endcolumn %}
 </div>

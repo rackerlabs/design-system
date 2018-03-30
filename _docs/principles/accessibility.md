@@ -45,19 +45,19 @@ Color deficiency is a common issue that is faced in the design process. The most
 <div class="hxRow"  markdown="1">
 {% column right:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 {% figure [caption:"Helix colors as seen in normal vision"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/overview/accessibility/accessibility-hero-1.svg)
+<embed src="{{site.url}}/assets/images/overview/accessibility/accessibility-hero-1.svg"/>
 {% endfigure %}
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 {% figure [caption:"Protanopia - reduced sensitivity to red"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/overview/accessibility/accessibility-hero-2.svg)
+<embed src="{{site.url}}/assets/images/overview/accessibility/accessibility-hero-2.svg"/>
 {% endfigure %}
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 {% figure [caption:"Deuteranopia - reduced sensitivity to green"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/overview/accessibility/accessibility-hero-3.svg)
+<embed src="{{site.url}}/assets/images/overview/accessibility/accessibility-hero-3.svg"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -91,7 +91,7 @@ Other optional indicators to consider are the following elements:
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/overview/accessibility/accessibility-alerts.png){:width="598px"}
+<embed src="{{site.url}}/assets/images/overview/accessibility/accessibility-alerts.png" width="598"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -117,7 +117,7 @@ Helix minimum contrast standards require the following elements:
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption: "Helix typography styles with their corresponding contrast ratios. All ratios were calculated using a `#fafafa` (`gray 25`) background color."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/overview/accessibility/accessibility-typography.png){:width="598px"}
+<embed src="{{site.url}}/assets/images/overview/accessibility/accessibility-typography.png" width="598"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -148,13 +148,13 @@ Helix minimum spacing standards require: 
 
 {% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 {% figure [caption: "Little spacing and unclear relationships"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/overview/accessibility/accessibility-space-1.png){: width="305px"}
+<embed src="{{site.url}}/assets/images/overview/accessibility/accessibility-space-1.png" width="305"/>
 {% endfigure %}
 {% endcolumn %}
 
 {% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 {% figure [caption: "More spacing and clear relationships"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/overview/accessibility/accessibility-space-2.png){: width="305px"}
+<embed src="{{site.url}}/assets/images/overview/accessibility/accessibility-space-2.png" width="305"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -183,13 +183,13 @@ It is important to reserve the prominent border at 2px for failed text input as 
 
 {% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 {% figure [caption:"Default state"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/overview/accessibility/accessibility-inputs-1.svg)
+<embed src="{{site.url}}/assets/images/overview/accessibility/accessibility-inputs-1.svg"/>
 {% endfigure %}
 {% endcolumn %}
 
 {% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 {% figure [caption:"Error state"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/overview/accessibility/accessibility-inputs-2.svg)
+<embed src="{{site.url}}/assets/images/overview/accessibility/accessibility-inputs-2.svg"/>
 {% endfigure %}
 {% endcolumn %}
 
@@ -203,13 +203,13 @@ In this example, we provide a clear visual feedback that the focus has moved to 
 
 {% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 {% figure [caption:"Default state"][class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/overview/accessibility/accessibility-inputs-3.svg)
+<embed src="{{site.url}}/assets/images/overview/accessibility/accessibility-inputs-3.svg"/>
 {% endfigure %}
 {% endcolumn %}
 
 {% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 {% figure [caption:"Focused state"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/overview/accessibility/accessibility-inputs-4.svg)
+<embed src="{{site.url}}/assets/images/overview/accessibility/accessibility-inputs-4.svg"/>
 {% endfigure %}
 {% endcolumn %}
 </div>

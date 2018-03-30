@@ -37,7 +37,7 @@ helix-ui-javascript: false
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-hero-image.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-hero-image.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -65,7 +65,7 @@ helix-ui-javascript: false
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-basic-layout.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-basic-layout.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -90,7 +90,7 @@ helix-ui-javascript: false
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-placeholder-text.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-placeholder-text.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -116,7 +116,7 @@ helix-ui-javascript: false
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-helper-text.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-helper-text.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -141,7 +141,7 @@ helix-ui-javascript: false
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-required.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-required.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -168,7 +168,7 @@ helix-ui-javascript: false
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-character-or-word-counter.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-character-or-word-counter.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -198,7 +198,7 @@ Validation for individual inputs should occur when the user shifts focus to anot
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-states-overview.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-states-overview.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -224,7 +224,7 @@ Validation for individual inputs should occur when the user shifts focus to anot
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-disabled.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-disabled.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -250,7 +250,7 @@ Validation for individual inputs should occur when the user shifts focus to anot
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-focused.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-focused.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -279,7 +279,7 @@ Validation for individual inputs should occur when the user shifts focus to anot
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-invalid.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-invalid.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -325,7 +325,7 @@ Characters can be formatted using:
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-prefixes-and-suffixes.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-prefixes-and-suffixes.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -349,7 +349,7 @@ Password input is disguised by default. Midline ellipses are displayed to repres
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-password-redaction.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-password-redaction.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -378,7 +378,7 @@ Password input is disguised by default. Midline ellipses are displayed to repres
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-area-basic-layout.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-area-basic-layout.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -402,7 +402,7 @@ Text area states also follow the same layout and behaviors as text inputs.
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-area-states-overview.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-area-states-overview.svg"/>
 {% endfigure %}
 
 {% endcolumn %}

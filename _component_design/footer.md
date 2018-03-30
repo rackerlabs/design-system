@@ -36,7 +36,7 @@ helix-ui-javascript: true
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Place the footer at the bottom of every page."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/footer/footer-scope.svg)
+<embed src="{{site.url}}/assets/images/components/content-areas/footer/footer-scope.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -64,7 +64,7 @@ helix-ui-javascript: true
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/footer/footer-specs.svg)
+<embed src="{{site.url}}/assets/images/components/content-areas/footer/footer-specs.svg"/>
 {% endfigure %}
 
 {% endcolumn %}

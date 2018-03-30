@@ -41,7 +41,7 @@ There are some cases where beacons should not be used:
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Beacons continually follow this lifecycle, giving the impression of a pulse to draw user attention."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/help/beacon/beacon-hero.svg)
+<embed src="{{site.url}}/assets/images/components/help/beacon/beacon-hero.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -82,7 +82,7 @@ Ideally, track the clicks and drop-offs throughout the tour to improve usefulnes
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"For full CSS specifications, view the developer documentation."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/help/beacon/beacon-specs.svg)
+<embed src="{{site.url}}/assets/images/components/help/beacon/beacon-specs.svg"/>
 {% endfigure %}
 
 {% endcolumn %}

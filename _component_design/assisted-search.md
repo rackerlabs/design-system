@@ -32,7 +32,7 @@ Assistive search is a content container and a set of behaviors given to a search
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Meet the assisted search menu"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/search-and-filters/search-assisted/assisted-search-pre-entry.png){:width="566px"}
+<embed src="{{site.url}}/assets/images/components/search-and-filters/search-assisted/assisted-search-pre-entry.png" width="566"/>
 {% endfigure %}
 {% endcolumn %}
 
@@ -54,7 +54,7 @@ When the search box is clicked and the cursor is active, a designer may choose t
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Assisted search specifications"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/search-and-filters/search-assisted/assisted-search-active.png){: width="633px"}
+<embed src="{{site.url}}/assets/images/components/search-and-filters/search-assisted/assisted-search-active.png" width="633"/>
 {% endfigure %}
 {% endcolumn %}
 
@@ -74,7 +74,7 @@ Follow the [search box]({{site.baseurl}}/components/search.html) conventions for
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Assisted search post-entry"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/search-and-filters/search-assisted/assisted-search-post-entry.png){: width="633px"}
+<embed src="{{site.url}}/assets/images/components/search-and-filters/search-assisted/assisted-search-post-entry.png" width="633"/>
 {% endfigure %}
 {% endcolumn %}
 
@@ -94,7 +94,7 @@ Use a [loading spinner]({{site.baseurl}}/components/loading-indicators.html) if 
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Assisted search loading state"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/search-and-filters/search-assisted/assisted-search-loading-state.png){: width="566px"}
+<embed src="{{site.url}}/assets/images/components/search-and-filters/search-assisted/assisted-search-loading-state.png" width="566"/>
 {% endfigure %}
 {% endcolumn %}
 
@@ -120,7 +120,7 @@ Clicking on a keyword in the menu fills the search input with the keyword and co
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Assisted search specifications"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/search-and-filters/search-assisted/assisted-search-layout-specifications.png){: width="633px"}
+<embed src="{{site.url}}/assets/images/components/search-and-filters/search-assisted/assisted-search-layout-specifications.png" width="633"/>
 {% endfigure %}
 {% endcolumn %}
 
@@ -148,7 +148,7 @@ Clicking on a keyword in the menu fills the search input with the keyword and co
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Assisted search styling"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/search-and-filters/search-assisted/assisted-search-container.png){: width="648px"}
+<embed src="{{site.url}}/assets/images/components/search-and-filters/search-assisted/assisted-search-container.png" width="648"/>
 {% endfigure %}
 {% endcolumn %}
 
@@ -170,7 +170,7 @@ Clicking on a keyword in the menu fills the search input with the keyword and co
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Assisted search container elements"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/search-and-filters/search-assisted/assisted-search-container-elements.png){: width="788px"}
+<embed src="{{site.url}}/assets/images/components/search-and-filters/search-assisted/assisted-search-container-elements.png" width="788"/>
 {% endfigure %}
 {% endcolumn %}
 
@@ -196,7 +196,7 @@ Clicking on a search result item, or pressing the enter key when a result item h
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Assisted search results specifications"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/search-and-filters/search-assisted/assisted-search-hover-and-focus.png){: width="548px"}
+<embed src="{{site.url}}/assets/images/components/search-and-filters/search-assisted/assisted-search-hover-and-focus.png" width="548"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -216,7 +216,7 @@ When a keyword is in active use, but the query has not been completed with searc
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Assisted search results - active state"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/search-and-filters/search-assisted/assisted-search-active-keyword.png){: width="548px"}
+<embed src="{{site.url}}/assets/images/components/search-and-filters/search-assisted/assisted-search-active-keyword.png" width="548/>
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -236,7 +236,7 @@ Do not apply the gray background color if keyed entries have not formed a comple
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Cyan search pills are used to display the active state."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/search-and-filters/search-assisted/assisted-search-active-and-entering-terms.png){: width="548px"}
+<embed src="{{site.url}}/assets/images/components/search-and-filters/search-assisted/assisted-search-active-and-entering-terms.png" width="548"/>
 {% endfigure %}
 {% endcolumn %}
 
@@ -257,7 +257,7 @@ When the user has typed the key and term and pressed enter, the search is comple
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Gray search pills are used to display the complete state."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/search-and-filters/search-assisted/assisted-search-completed-search.png){: width="548px"}
+<embed src="{{site.url}}/assets/images/components/search-and-filters/search-assisted/assisted-search-completed-search.png" width="548"/>
 {% endfigure %}
 {% endcolumn %}
 
@@ -278,7 +278,7 @@ Use backspace to delete a single character and not the entire query or search pi
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Backspace deletes single characters, and not the entire set."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/search-and-filters/search-assisted/assisted-search-deleting-terms.png){: width="548px"}
+<embed src="{{site.url}}/assets/images/components/search-and-filters/search-assisted/assisted-search-deleting-terms.png" width="548"/>
 {% endfigure %}
 {% endcolumn %}
 

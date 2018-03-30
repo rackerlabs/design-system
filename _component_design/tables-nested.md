@@ -48,11 +48,11 @@ Nested tables allow the nesting of additional levels of data within a table.
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Meet the nested table pattern"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/tables/nested-tables/tables-nested-hero.svg)
+<embed src="{{site.url}}/assets/images/components/tables/nested-tables/tables-nested-hero.svg"/>
 {% endfigure %}
 
 {% figure [caption:"Nested table interactions"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/tables/nested-tables/tables-nested-ixd.svg)
+<embed src="{{site.url}}/assets/images/components/tables/nested-tables/tables-nested-ixd.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -78,7 +78,7 @@ Use this variation of an expandable table to add additional supporting text to a
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Nested table IxD"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/tables/nested-tables/tables-explanatory.svg)
+<embed src="{{site.url}}/assets/images/components/tables/nested-tables/tables-explanatory.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -102,7 +102,7 @@ Use this variation of an expandable table to add additional key value pairs of a
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Key: Value expandable row. NOT TO SCALE"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/tables/nested-tables/tables-key-value.svg)
+<embed src="{{site.url}}/assets/images/components/tables/nested-tables/tables-key-value.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -126,7 +126,7 @@ Use the aggregate data table to show primary, secondary, and tertiary values of 
 {% column right:"hxCol hxSpan-12 hxSpan-12-xs hxSpan-12-sm hxSpan-12-md hxSpan-12-lg" %}
 
 {% figure [caption:"Aggregate nested table specs. NOT TO SCALE"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/tables/nested-tables/tables-aggregate.svg)
+<embed src="{{site.url}}/assets/images/components/tables/nested-tables/tables-aggregate.svg"/>
 {% endfigure %}
 
 {% endcolumn %}

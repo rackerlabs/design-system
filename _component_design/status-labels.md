@@ -37,7 +37,7 @@ Use status labels to communicate the current state of an object or process. For 
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Status label used to displayed a ticket status"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/notifications/status-labels/status-labels-hero.png){:width="1440px"}
+<embed src="{{site.url}}/assets/images/components/notifications/status-labels/status-labels-hero.png" width="1440"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -59,7 +59,7 @@ Status labels use a 100% rounded border radius and a neutral or alert color stra
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"A default status label specification"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/notifications/status-labels/status-labels-default.png){:width="499px"}
+<embed src="{{site.url}}/assets/images/components/notifications/status-labels/status-labels-default.png" width="499"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -93,7 +93,7 @@ You can emphasize or de-emphasize status data by modifying color and choosing st
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Emphasize and de-emphasize statuses within your system using stroke versus fill and color."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/notifications/status-labels/status-labels-variations.png){:width="499px"}
+<embed src="{{site.url}}/assets/images/components/notifications/status-labels/status-labels-variations.png" width="499"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -118,7 +118,7 @@ not meet the following criteria, do not use Health Status Labels.
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Example: Monitoring Status Labels could be used within Encore for 3rd party cloud"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/notifications/status-labels/status-labels-variations.png){:width="499px"}
+<embed src="{{site.url}}/assets/images/components/notifications/status-labels/status-labels-variations.png" width="499"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -138,7 +138,7 @@ Alternatively, use Status Labels that include dot monitoring indicators with leg
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Example: Monitoring Status Labels could be used within Encore for 3rd party cloud"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/notifications/status-labels/status-labels-variations.png){:width="499px"}
+<embed src="{{site.url}}/assets/images/components/notifications/status-labels/status-labels-variations.png" width="499"/>
 {% endfigure %}
 {% endcolumn %}
 </div>

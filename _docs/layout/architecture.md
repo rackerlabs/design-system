@@ -19,7 +19,7 @@ Application.
 <div class="hxRow"  markdown="1">
 {% column left:"hxCol" %}
 {% figure [caption:"Application layer framework within the Helix-UI application"] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/layout/architecture/layout-thesis_v5.svg)
+<embed src="{{site.cdn_url}}/img/layout/architecture/layout-thesis_v5.svg"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -38,7 +38,7 @@ global layer.
 <div class="hxRow"  markdown="1">
 {% column left:"hxCol" %}
 {% figure [caption:"Conceptual model for flexibility of the Global layer"] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/layout/architecture/layout-platform-layer.svg)
+<embed src="{{site.cdn_url}}/img/layout/architecture/layout-platform-layer.svg"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -55,7 +55,7 @@ global layer.
 
 {% column right:"hxCol hxSpan-8-md" %}
 {% figure [caption:"Fig 1a - Global dashboard contains varied content types always accessible from within the Helix-UI"] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/layout/architecture/globaldash.png)
+<embed src="{{site.cdn_url}}/img/layout/architecture/globaldash.png"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -70,7 +70,7 @@ global layer.
 
 {% column right:"hxCol hxSpan-8-md" %}
 {% figure [caption:"Fig 1b - Ticketing panel containing ticketing information, extended from offcanvas right"] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/layout/architecture/global-ticketing.svg)
+<embed src="{{site.cdn_url}}/img/layout/architecture/global-ticketing.svg"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -85,7 +85,7 @@ global layer.
 
 {% column right:"hxCol hxSpan-8-md" %}
 {% figure [caption:"Fig 1c - Ticketing panel after selecting a ticket, loads ticket information dynamically into the global ticketing panel."] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/layout/architecture/global-ticketing-extended.svg)
+<embed src="{{site.cdn_url}}/img/layout/architecture/global-ticketing-extended.svg"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -109,7 +109,7 @@ based on which product line the user is currently viewing.
 
 {% column right:"hxCol hxSpan-8-md" %}
 {% figure [caption:"Conceptual model for location of product layer, below global layer"] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/layout/architecture/layout-product-layer.svg)
+<embed src="{{site.cdn_url}}/img/layout/architecture/layout-product-layer.svg"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -123,7 +123,7 @@ based on which product line the user is currently viewing.
 
 {% column right:"hxCol hxSpan-8-md" %}
 {% figure [caption:"FAWS product layer with side navigation shown"] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/layout/architecture/product-faws.svg)
+<embed src="{{site.cdn_url}}/img/layout/architecture/product-faws.svg"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -143,7 +143,7 @@ going through the above process, the user has performed a complete workflow.
 <div class="hxRow"  markdown="1">
 {% column left:"hxCol" %}
 {% figure [caption:"Explanation of layers in the Helix-UI application"] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/layout/architecture/layout-workflow-layer.svg)
+<embed src="{{site.cdn_url}}/img/layout/architecture/layout-workflow-layer.svg"/>
 {% endfigure %}
 {% endcolumn %}
 </div>

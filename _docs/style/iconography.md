@@ -243,7 +243,7 @@ The Helix icon sets natural size is 16x16px. This is referred to as a base size.
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Scaling icons should be done proportionally in multiples of 8."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/style/icons/icon-sizing.png){:width="540px"}
+<embed src="{{site.url}}/assets/images/style/icons/icon-sizing.png" width="540"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -267,7 +267,7 @@ Helix icon colors are determined by the background color and in most cases corre
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/style/icons/icon-color.png){:width="660px"}
+<embed src="{{site.url}}/assets/images/style/icons/icon-color.png" width="660"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -291,7 +291,7 @@ Status icons can be used to provide checks, errors, and warnings in forms. They 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/style/icons/icon-alert-colors.png){:width="540px"}
+<embed src="{{site.url}}/assets/images/style/icons/icon-alert-colors.png" width="540"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -310,18 +310,18 @@ Status icons can be used to provide checks, errors, and warnings in forms. They 
 
 {% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-Helix icons are constructed on a 16x16 pixel grid. The icon grid is used to facilitate consistency and establish a clear set of rules for the positioning of graphic elements.  
+Helix icons are constructed on a 16x16 pixel grid. The icon grid is used to facilitate consistency and establish a clear set of rules for the positioning of graphic elements.
 
 Keep icon shape weighted towards the middle area of the grid, reserving the outer 1px margin for visual weighting and maintaining relative aspect ratios. This standardization results in a flexible but coherent system.  
 
-Keyline shapes are the foundation of the grid. By using these core shapes as guidelines, you can maintain a consistent visual proportion across all icons.    
+Keyline shapes are the foundation of the grid. By using these core shapes as guidelines, you can maintain a consistent visual proportion across all icons.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Differences in padding ensure that icons will look similar in size regardless of their shape."][class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/style/icons/icon-grid.png){:width="598px"}
+<embed src="{{site.url}}/assets/images/style/icons/icon-grid.png" width="598"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -348,7 +348,7 @@ Keyline shapes are the foundation of the grid. By using these core shapes as gui
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/style/icons/icon-shape.png){:width="598px"}
+<embed src="{{site.url}}/assets/images/style/icons/icon-shape.png" width="598"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -372,7 +372,7 @@ Keyline shapes are the foundation of the grid. By using these core shapes as gui
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/style/icons/icon-silhouette.png){:width="598px"}
+<embed src="{{site.url}}/assets/images/style/icons/icon-silhouette.png" width="598"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -398,7 +398,7 @@ Icons of the same size should have the same visual weight.
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/style/icons/icon-weight.png){:width="598px"}
+<embed src="{{site.url}}/assets/images/style/icons/icon-weight.png" width="598"/>
 {% endfigure %}
 
 {% endcolumn %}

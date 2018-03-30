@@ -41,7 +41,7 @@ Use a switch if the user is turning something on or off, or saying yes or no to 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Meet the switch component"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/switches/switch-hero.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/switches/switch-hero.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -67,7 +67,7 @@ If text is used, it should be aligned vertically and horizontally within the spa
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Switch sizing specs"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/switches/switch-default-layout.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/switches/switch-default-layout.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -95,7 +95,7 @@ Best practice form design does not allow a switch to exist in an error state, so
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Detailed specifications for on and off states of a switch"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/switches/switch-states.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/switches/switch-states.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -122,7 +122,7 @@ Best practice form design does not allow a switch to exist in an error state, so
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Contextual placement of switches"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/switches/switch-context.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/switches/switch-context.svg"/>
 {% endfigure %}
 
 {% endcolumn %}

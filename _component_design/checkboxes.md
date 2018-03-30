@@ -36,7 +36,7 @@ helix-ui-javascript: true
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [The checkbox component] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-hero.png){:width="1440px"}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-hero.png" width="1440"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -101,7 +101,7 @@ A checkbox group consists of a section label followed by pairs of checkboxes and
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Checkbox group composition and specifications"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-default.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-default.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -127,7 +127,7 @@ A checkbox group consists of a section label followed by pairs of checkboxes and
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Checkbox group spacing"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-group-image.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-group-image.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -155,7 +155,7 @@ The checkbox component may be in the following states:
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Checkbox states"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-states-image.png)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-states-image.png"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -179,7 +179,7 @@ Use a red asterisk to designate that a selection is required for a group of chec
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Designating a required checkbox field"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-required-group-image.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-required-group-image.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -203,7 +203,7 @@ In the case of an error, always include an error message below the checkbox grou
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Error states"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-group-with-error-image.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-group-with-error-image.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -228,7 +228,7 @@ The indeterminate state is only used with bulk selections to indicate that one o
 
 {% figure [caption:"When selecting multiple items from a table, an indeterminate
  checkbox may be used to show that several, but not all, items are selected."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-indeterminate-image.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-indeterminate-image.svg"/>
 {% endfigure %}
 
 {% endcolumn %}

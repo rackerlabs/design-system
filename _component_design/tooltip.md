@@ -44,7 +44,7 @@ Do not use a tooltip if users must repeatedly refer to a tooltip to understand a
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Meet the tooltip pattern"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/help/tooltips/tooltip-hero.svg)
+<embed src="{{site.url}}/assets/images/components/help/tooltips/tooltip-hero.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -73,7 +73,7 @@ The tooltip stands out from the background by using a lighter background color t
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Tooltip composition."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/help/tooltips/tooltip-composition.svg)
+<embed src="{{site.url}}/assets/images/components/help/tooltips/tooltip-composition.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -103,7 +103,7 @@ Tooltips have varying widths based on the amount of content; however, a tooltip 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Spacing specifications for tooltip component"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/help/tooltips/tooltip-spacing-1.svg)
+<embed src="{{site.url}}/assets/images/components/help/tooltips/tooltip-spacing-1.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -128,7 +128,7 @@ Tooltips have varying widths based on the amount of content; however, a tooltip 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Text specifications for tooltip component"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/help/tooltips/tooltip-spacing-2.svg)
+<embed src="{{site.url}}/assets/images/components/help/tooltips/tooltip-spacing-2.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -164,7 +164,7 @@ Best practice pointer placement relies on the following:
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Variations of tooltip based on pointer placement"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/help/tooltips/tooltip-pointer-placement.svg)
+<embed src="{{site.url}}/assets/images/components/help/tooltips/tooltip-pointer-placement.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -195,7 +195,7 @@ Tooltips will only appear after be activated by a trigger. Triggers come in a va
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Examples of tooltips generated from various trigger types"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/help/tooltips/tooltip-triggers.svg)
+<embed src="{{site.url}}/assets/images/components/help/tooltips/tooltip-triggers.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -220,7 +220,7 @@ Tooltips will only appear after be activated by a trigger. Triggers come in a va
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Most tooltips should be very short and only provide enough information for the user to better understand the context. Tooltips can also be used to reveal information that is truncated or hidden by default."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/help/tooltips/tooltip-text-conventions-1.svg)
+<embed src="{{site.url}}/assets/images/components/help/tooltips/tooltip-text-conventions-1.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -252,7 +252,7 @@ Use this variation when a tooltip provides access to a singular external webpage
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Spacing for tooltip with an associated link"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/help/tooltips/tooltip-text-with-link.svg)
+<embed src="{{site.url}}/assets/images/components/help/tooltips/tooltip-text-with-link.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -276,7 +276,7 @@ Occasionally a tooltip needs to display a robust set of data that falls outside 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Some tooltips contain larger amounts of information, like definitions and pricing structure. Such tooltips **should be used sparingly**"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/help/tooltips/tooltip-large-tooltips.svg)
+<embed src="{{site.url}}/assets/images/components/help/tooltips/tooltip-large-tooltips.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -300,7 +300,7 @@ Loading states are rarely found when using the tooltip pattern. The loading stat
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Loading State"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/help/tooltips/tooltip-loading.svg)
+<embed src="{{site.url}}/assets/images/components/help/tooltips/tooltip-loading.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -345,7 +345,7 @@ Hover tooltips are best used on large breakpoints and desktop designs. Tooltips 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Tooltip hover lifecycle"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/help/tooltips/tooltip-hover.svg)
+<embed src="{{site.url}}/assets/images/components/help/tooltips/tooltip-hover.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -376,7 +376,7 @@ Use click enabled tooltips for smaller breakpoints and mobile designs. Tooltips 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Tooltip click lifecycle"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/help/tooltips/tooltip-click.svg)
+<embed src="{{site.url}}/assets/images/components/help/tooltips/tooltip-click.svg"/>
 {% endfigure %}
 
 {% endcolumn %}

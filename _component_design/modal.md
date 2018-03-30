@@ -35,7 +35,7 @@ helix-ui-javascript: false
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Meet the modal"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/modal/modal-hero-image.svg)
+<embed src="{{site.url}}/assets/images/components/content-areas/modal/modal-hero-image.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -62,7 +62,7 @@ helix-ui-javascript: false
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Modal spacing and layout"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/modal/modal-spacing.svg)
+<embed src="{{site.url}}/assets/images/components/content-areas/modal/modal-spacing.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -86,7 +86,7 @@ Center modals vertically and horizontally in the browser window.
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Modal style"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/modal/modal-specifications.svg)
+<embed src="{{site.url}}/assets/images/components/content-areas/modal/modal-specifications.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -112,7 +112,7 @@ Refer to the [Loading pattern]({{site.url}}/components/loading-indicators.html) 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Loading indicator for the modal"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/modal/modal-loading.svg)
+<embed src="{{site.url}}/assets/images/components/content-areas/modal/modal-loading.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -150,7 +150,7 @@ The modal is triggered by the user submitting information or initiating a proces
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Confirmation modal"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/modal/modal-use-case-confirmations.svg)
+<embed src="{{site.url}}/assets/images/components/content-areas/modal/modal-use-case-confirmations.svg"/>
 {% endfigure %}
 
 {% endcolumn %}

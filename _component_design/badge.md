@@ -32,7 +32,7 @@ Studies of social apps report that notification badges can trigger dopamine rele
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"The notification badge pattern"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/notifications/badges/badges-hero.png){:width="1440px"}
+<embed src="{{site.url}}/assets/images/components/notifications/badges/badges-hero.png" width="1440"/>
 {% endfigure %}
 {% endcolumn %}
 
@@ -66,7 +66,7 @@ Use a 2px border on all sides between the number and the edge of the circle.
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Notification badges with icon"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/notifications/badges/badges-icon.png){:width="533px"}
+<embed src="{{site.url}}/assets/images/components/notifications/badges/badges-icon.png" width="533"/>
 {% endfigure %}
 {% endcolumn %}
 
@@ -91,7 +91,7 @@ The [tabs component]({{site.baseurl}}/components/tabset.html) states that there 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Notification badges in tabs"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/notifications/badges/badges-tabs.png){:width="463px"}
+<embed src="{{site.url}}/assets/images/components/notifications/badges/badges-tabs.png" width="463"/>
 {% endfigure %}
 
 {% endcolumn %}

@@ -29,12 +29,12 @@ site navigation.
 <div class="hxRow">
 {% column left:"hxCol hxSpan-6-md" %}
 {% figure [caption:"Application with left navigation"] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/layout/side-nav.svg)
+<embed src="{{site.cdn_url}}/img/layout/side-nav.svg"/>
 {% endfigure %}
 {% endcolumn %}
 {% column right:"hxCol hxSpan-6-md" %}
 {% figure [caption:"Application with top navigation"] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/layout/top-nav.svg)
+<embed src="{{site.cdn_url}}/img/layout/top-nav.svg"/>
 {% endfigure %}
 {% endcolumn %}
 </div>

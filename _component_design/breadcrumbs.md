@@ -65,7 +65,7 @@ Breadcrumbs offer a way to articulate the platform architecture in a way the use
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Detailed specifications for breadcrumbs."] [class:"image bg-light border"] %}
-![]({{site.baseurl}}/assets/images/components/navigation/bread-crumbs/standard-bc.svg)
+<embed src="{{site.baseurl}}/assets/images/components/navigation/bread-crumbs/standard-bc.svg"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -85,7 +85,7 @@ Breadcrumbs offer a way to articulate the platform architecture in a way the use
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"As depicted, limit your breadcrumb item name."] [class:"image bg-light border"] %}
-![]({{site.baseurl}}/assets/images/components/navigation/bread-crumbs/name-abbrev.svg)
+<embed src="{{site.baseurl}}/assets/images/components/navigation/bread-crumbs/name-abbrev.svg"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -106,7 +106,7 @@ Breadcrumbs offer a way to articulate the platform architecture in a way the use
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Jumping the Crumb. We put the ellipses here instead of an arrow, same spacing guidelines."] [class:"image bg-light border"] %}
-![]({{site.baseurl}}/assets/images/components/navigation/bread-crumbs/to-many.svg)
+<embed src="{{site.baseurl}}/assets/images/components/navigation/bread-crumbs/to-many.svg"/>
 {% endfigure %}
 {% endcolumn %}
 </div>

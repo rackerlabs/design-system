@@ -36,15 +36,15 @@ The table pattern has multiple controls that are used to interact with the conte
 {% column right:"hxCol hxSpan-9 hxSpan-12-xs hxSpan-12-sm hxSpan-9-md hxSpan-9-lg" %}
 
 {% figure [caption:"Table with controls placed on top"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/tables/controls-tables/tables-hero-top.png)
+<embed src="{{site.url}}/assets/images/components/tables/controls-tables/tables-hero-top.png"/>
 {% endfigure %}
 
 {% figure [caption:"Table with controls placed below"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/tables/controls-tables/tables-hero-bottom.png)
+<embed src="{{site.url}}/assets/images/components/tables/controls-tables/tables-hero-bottom.png"/>
 {% endfigure %}
 
 {% figure [caption:"Table with controls placed on rows"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/tables/controls-tables/tables-hero-row.svg)
+<embed src="{{site.url}}/assets/images/components/tables/controls-tables/tables-hero-row.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -76,7 +76,7 @@ The following controls may be found at the top of the table:
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Definition of actions on top of a table and spacing specifications. **not to scale**"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/tables/controls-tables/tables-controls-top.svg)
+<embed src="{{site.url}}/assets/images/components/tables/controls-tables/tables-controls-top.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -105,7 +105,7 @@ The filter button is a specialized button used on top of a table. It is **always
 {% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 {% figure [caption:"Filter regular/compact variations"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/tables/controls-tables/tables-filter-1.svg)
+<embed src="{{site.url}}/assets/images/components/tables/controls-tables/tables-filter-1.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -113,7 +113,7 @@ The filter button is a specialized button used on top of a table. It is **always
 {% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 {% figure [caption:"Filter buttons trancated/truncated-compact variations"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/tables/controls-tables/tables-filter-2.svg)
+<embed src="{{site.url}}/assets/images/components/tables/controls-tables/tables-filter-2.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -141,7 +141,7 @@ Apply sorting to table headers via a click interaction and an icon visual indica
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Sorting states and icons"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/tables/controls-tables/tables-sorting.svg)
+<embed src="{{site.url}}/assets/images/components/tables/controls-tables/tables-sorting.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -161,19 +161,19 @@ Apply sorting to table headers via a click interaction and an icon visual indica
 
 The following controls can be located at the bottom of a table:
 
-* Rows shown, and total rows
-* Pagination controls
-* Row count controls
-* Primary action button
-* Secondary action buttons
-* Number of selected items
+- Rows shown, and total rows
+- Pagination controls
+- Row count controls
+- Primary action button
+- Secondary action buttons
+- Number of selected items
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Definition of actions on bottom of a table and spacing specifications. **not to scale**"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/tables/controls-tables/tables-controls-bottom.png){: width="622px"}
+<embed src="{{site.url}}/assets/images/components/tables/controls-tables/tables-controls-bottom.png" width="622"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -201,7 +201,7 @@ The following controls can be located at the bottom of a table:
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Pagination bar specs and states"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/tables/controls-tables/table-controls-pagination-bar-specs-and-states.png){: width="565px"}
+<embed src="{{site.url}}/assets/images/components/tables/controls-tables/table-controls-pagination-bar-specs-and-states.png" width="565"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -214,10 +214,10 @@ The following controls can be located at the bottom of a table:
 
 #### The number of buttons
 
-* The pagination bar displays three page buttons by default, but can be configured to display up to five page buttons.
-* When there are five or less pages of data, the button bar shrinks to accommodate.
-* The back, next, first page, and last page buttons always remain visible, but are disabled depending on current page position.
-* The bar must remain centered in its position under the table.
+- The pagination bar displays three page buttons by default, but can be configured to display up to five page buttons.
+- When there are five or less pages of data, the button bar shrinks to accommodate.
+- The back, next, first page, and last page buttons always remain visible, but are disabled depending on current page position.
+- The bar must remain centered in its position under the table.
 
 
 
@@ -226,7 +226,7 @@ The following controls can be located at the bottom of a table:
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Default to three page buttons"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/tables/controls-tables/table-controls-pagination-bar-page-button-options.png){: width="306px"}
+<embed src="{{site.url}}/assets/images/components/tables/controls-tables/table-controls-pagination-bar-page-button-options.png" width="306"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -239,16 +239,16 @@ The following controls can be located at the bottom of a table:
 
 #### Page button behaviors
 
-* When the first page is selected, the First Page and Back buttons are disabled.
-* When the last page is selected the Next and Last Page buttons are disabled.
-* The back, next, first page, and last page buttons always remain visible, but are disabled depending on current page position.
+- When the first page is selected, the First Page and Back buttons are disabled.
+- When the last page is selected the Next and Last Page buttons are disabled.
+- The back, next, first page, and last page buttons always remain visible, but are disabled depending on current page position.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Pagination button bar behavior"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/tables/controls-tables/table-controls-pagination-bar-button-behaviors.png){: width="238px"}
+<embed src="{{site.url}}/assets/images/components/tables/controls-tables/table-controls-pagination-bar-button-behaviors.png" width="238"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -263,16 +263,16 @@ The following controls can be located at the bottom of a table:
 
 Sometimes, a back-end system that serves data cannot determine the total number of pages.  In that scenario, the pagination bar behaves as follows:
 
-* The Last Page button is disabled
-* Change the cursor to “unavailable” when the user hovers over the button
-* Display a tooltip explaining why the button is not clickable.
+- The Last Page button is disabled
+- Change the cursor to “unavailable” when the user hovers over the button
+- Display a tooltip explaining why the button is not clickable.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Handling indeterminate page count"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/tables/controls-tables/table-controls-pagination-bar-indeterminate-page-count.png){: width="239px"}
+<embed src="{{site.url}}/assets/images/components/tables/controls-tables/table-controls-pagination-bar-indeterminate-page-count.png" width="239"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -292,7 +292,7 @@ Row count controls are aligned to the right edge of the table.  The number in ea
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Row count control specs and states"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/tables/controls-tables/table-controls-pagination-row-count-controls.png){: width="404px"}
+<embed src="{{site.url}}/assets/images/components/tables/controls-tables/table-controls-pagination-row-count-controls.png" width="404"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -323,7 +323,7 @@ The following controls may be found inside a table:
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Spacing specifications for controls placed within a table row. **not to scale**"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/tables/controls-tables/tables-controls-within.svg)
+<embed src="{{site.url}}/assets/images/components/tables/controls-tables/tables-controls-within.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -353,7 +353,7 @@ To ensure proper use, follow these guidelines:
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Actions cog triggered. **not to scale**"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/tables/controls-tables/tables-actions-ixd.svg)
+<embed src="{{site.url}}/assets/images/components/tables/controls-tables/tables-actions-ixd.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -381,7 +381,7 @@ To ensure proper use, follow these guidelines:
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Variations best practices and spacing. **not to scale**"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/tables/controls-tables/tables-actions-spacing.svg)
+<embed src="{{site.url}}/assets/images/components/tables/controls-tables/tables-actions-spacing.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -421,7 +421,7 @@ Apply the primary and secondary action buttons to the row set after the selectio
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Bulk Selection interaction lifecycle. **not to scale**"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/tables/controls-tables/tables-bulk-select.svg)
+<embed src="{{site.url}}/assets/images/components/tables/controls-tables/tables-bulk-select.svg"/>
 {% endfigure %}
 
 {% endcolumn %}

@@ -45,7 +45,7 @@ For additional information on spacing vocabulary such as insets, stacks and inli
 Pages, cards, modals, panes, etc. are containers that frame content within a UI. Containers relate directly to the canvas / grid to create the layout of any page. For this reason, we defined a 20px-square inset inside all containers to be harmonious with our column gutters.
 
 {% figure [caption: "Container spacing of twenty pixels (square-inset)."][class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/style/spacing/spacing-system-rule-for-containers.png){: width="893px"}
+<embed src="{{site.url}}/assets/images/style/spacing/spacing-system-rule-for-containers.png" width="893"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -73,7 +73,7 @@ Exceptions are made for some elements such as dashboard panels and [cards]({{sit
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption: "Container spacing sizes."][class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/style/spacing/spacing-system-container-spacing-variants.png){: width="451px"}
+<embed src="{{site.url}}/assets/images/style/spacing/spacing-system-container-spacing-variants.png" width="451"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -160,7 +160,7 @@ Priyanka’s framework provides a solution for this using header and leaf-node m
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption: "Header margin (magenta) is stacked below content box (blue)."][class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/style/spacing/spacing-system-header-margins.png){: width="492px"}
+<embed src="{{site.url}}/assets/images/style/spacing/spacing-system-header-margins.png" width="492"/>
 {% endfigure %}
 {% endcolumn %}
 
@@ -201,7 +201,7 @@ By prescribing eight pixels between table text and table row borders, we get a t
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption: "Table leaf-node spacing"][class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/style/spacing/spacing-system-leaf-node-margins.png){: width="566px"}
+<embed src="{{site.url}}/assets/images/style/spacing/spacing-system-leaf-node-margins.png" width="566"/>
 {% endfigure %}
 {% endcolumn %}
 
@@ -223,7 +223,7 @@ To improve legibility, list items still need to be spaced apart. Many spacing va
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption: "List leaf-node spacing"][class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/style/spacing/spacing-system-lists.png){: width="531px"}
+<embed src="{{site.url}}/assets/images/style/spacing/spacing-system-lists.png" width="531"/>
 {% endfigure %}
 {% endcolumn %}
 
@@ -237,13 +237,13 @@ To improve legibility, list items still need to be spaced apart. Many spacing va
 
 A modification is made for list items that extend to the left and right edge of a visually bound container. The example is items in a drop-down menu.
 
-In cases like this the container does not receive a square inset.  To move the first item away from the top edge of the container, the first item gets a top space of four pixels.
+In cases like this the container does not receive a square inset. To move the first item away from the top edge of the container, the first item gets a top space of four pixels.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption: "Full-width items in a bound container"][class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/style/spacing/spacing-system-full-width-items-in-a-bound-container.png){: width="536px"}
+<embed src="{{site.url}}/assets/images/style/spacing/spacing-system-full-width-items-in-a-bound-container.png" width="536"/>
 {% endfigure %}
 {% endcolumn %}
 
@@ -261,7 +261,7 @@ We found that eight pixels of vertical space between consecutive, stacked inputs
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption: "Form element leaf-node spacing"][class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/style/spacing/spacing-system-forms.png){: width="462px"}
+<embed src="{{site.url}}/assets/images/style/spacing/spacing-system-forms.png" width="462"/>
 {% endfigure %}
 {% endcolumn %}
 
@@ -279,7 +279,7 @@ Paragraph line-height of twenty-four pixels was derived from visual explorations
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption: "Paragraph leaf-node spacing"][class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/style/spacing/spacing-system-paragraphs.png){: width="512px"}
+<embed src="{{site.url}}/assets/images/style/spacing/spacing-system-paragraphs.png" width="512"/>
 {% endfigure %}
 {% endcolumn %}
 
@@ -314,7 +314,7 @@ We used a simple rule of eight pixels of space between any two adjacent componen
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption: "Spacing inside components is shown in orange and external shown in green."][class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/style/spacing/spacing-system-rule-for-components.png){: width="505px"}
+<embed src="{{site.url}}/assets/images/style/spacing/spacing-system-rule-for-components.png" width="505"/>
 {% endfigure %}
 {% endcolumn %}
 

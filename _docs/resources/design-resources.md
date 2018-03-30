@@ -37,7 +37,7 @@ it, you'll need to go to O'Fixies to get it installed.
 {%- endcolumn -%}
 
 {%- column right:"hxCol hxSpan-7-md" -%}
-![](http://screenshots1234.s3.amazonaws.com/ybRVG6nQomLK085XPQRCjhAWmUzBz8Vtru.png)
+<embed src="http://screenshots1234.s3.amazonaws.com/ybRVG6nQomLK085XPQRCjhAWmUzBz8Vtru.png"/>
 {%- endcolumn -%}
 <<<<<<#/div>
 
@@ -50,7 +50,7 @@ it, you'll need to go to O'Fixies to get it installed.
     {%- include tip.html content="DO NOT rename these folders." -%}
 {%- endcolumn -%}
 {%- column right:"hxCol hxSpan-7-md" -%}
-![](http://design.rax.io/wp-content/uploads/2016/11/m9A3HvMcm91MlitWqEa1SrO4OZBmpVb8Rt.png)
+<embed src="http://design.rax.io/wp-content/uploads/2016/11/m9A3HvMcm91MlitWqEa1SrO4OZBmpVb8Rt.png"/>
 {%- endcolumn -%}
 <<<<<<#/div>
 
@@ -69,7 +69,7 @@ the shared drive above, it always accesses the most up to date file.
 {%- endcolumn -%}
 
 {%- column right:"hxCol hxSpan-7-md" -%}
-![](http://design.rax.io/wp-content/uploads/2016/08/Design-System-Sketch-2.png)
+<embed src="http://design.rax.io/wp-content/uploads/2016/08/Design-System-Sketch-2.png"/>
 {%- endcolumn -%}
 <<<<<<#/div>
 
@@ -85,7 +85,7 @@ automatically alerts you when new assets are available.
 {%- endcolumn -%}
 
 {%- column right:"hxCol hxSpan-7-md" -%}
-![](http://design.rax.io/wp-content/uploads/2016/08/Design-System-Sketch-3.png)
+<embed src="http://design.rax.io/wp-content/uploads/2016/08/Design-System-Sketch-3.png"/>
 {%- endcolumn -%}
 <<<<<<#/div>
 

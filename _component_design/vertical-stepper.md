@@ -36,7 +36,7 @@ last-modified: 2018-01-30
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"The vertical stepper component"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/vert-stepper/vert-stepper-hero.png){: width="1440px"}
+<embed src="{{site.url}}/assets/images/components/content-areas/vert-stepper/vert-stepper-hero.png" width="1440"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -69,7 +69,7 @@ The vertical stepper component is comprised of the following pieces:
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Vertical stepper composition (NOT TO SCALE)"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/vert-stepper/vert-stepper-composition.png){: width="900px"}
+<embed src="{{site.url}}/assets/images/components/content-areas/vert-stepper/vert-stepper-composition.png" width="900"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -89,7 +89,7 @@ The vertical stepper component is comprised of the following pieces:
 ### Spacing
 
 {% figure [caption:"Spacing specifications for the vertical stepper pattern"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/vert-stepper/vert-stepper-spacing.png){: width="903px"}
+<embed src="{{site.url}}/assets/images/components/content-areas/vert-stepper/vert-stepper-spacing.png" width="903"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -107,7 +107,7 @@ The vertical stepper component is comprised of the following pieces:
 ### Specifications
 
 {% figure [caption:"Spacing specifications for the vertical stepper pattern"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/vert-stepper/vert-stepper-specs.png){: width="903px"}
+<embed src="{{site.url}}/assets/images/components/content-areas/vert-stepper/vert-stepper-specs.png" width="903"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -132,7 +132,7 @@ The stepper counter displays the sequential number of a step as well as the stat
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Stepper counter states and specifications"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/vert-stepper/vert-stepper-counter.png){: width="580px"}
+<embed src="{{site.url}}/assets/images/components/content-areas/vert-stepper/vert-stepper-counter.png" width="580"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -154,7 +154,7 @@ The stepper counter displays the sequential number of a step as well as the stat
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Stepper expand / collapse clickable areas"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/vert-stepper/vert-stepper-clickable.png){: width="903px"}
+<embed src="{{site.url}}/assets/images/components/content-areas/vert-stepper/vert-stepper-clickable.png" width="903"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -172,7 +172,7 @@ The stepper counter displays the sequential number of a step as well as the stat
 ### Loading state
 
 {% figure [caption:"Stepper loading state"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/vert-stepper/vert-stepper-loading.png){: width="903px"}
+<embed src="{{site.url}}/assets/images/components/content-areas/vert-stepper/vert-stepper-loading.png" width="903"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -205,7 +205,7 @@ As the stepper pattern isolates each sequential step within a multistep process,
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Button displays based on currently displayed step."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/vert-stepper/vert-stepper-buttons.png){: width="580px"}
+<embed src="{{site.url}}/assets/images/components/content-areas/vert-stepper/vert-stepper-buttons.png" width="580"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -231,7 +231,7 @@ However it may be possible that a completed step may encounter an error state in
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Error state applied to a sequential step within a vertical stepper"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/vert-stepper/vert-stepper-error-1.png){: width="580px"}
+<embed src="{{site.url}}/assets/images/components/content-areas/vert-stepper/vert-stepper-error-1.png" width="580"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -256,7 +256,7 @@ For errors within an input and controls component error messages will take on th
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Error state applied to an input field within the content area"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/vert-stepper/vert-stepper-error-2.png){: width="903px"}
+<embed src="{{site.url}}/assets/images/components/content-areas/vert-stepper/vert-stepper-error-2.png" width="903"/>
 {% endfigure %}
 
 {% endcolumn %}

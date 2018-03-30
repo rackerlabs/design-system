@@ -40,7 +40,7 @@ Tables are the bread-and-butter component for displaying complex objects in a ne
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Meet the table pattern"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/tables/basic-tables/tables-hero.svg)
+<embed src="{{site.url}}/assets/images/components/tables/basic-tables/tables-hero.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -71,7 +71,7 @@ Tables are the bread-and-butter component for displaying complex objects in a ne
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Default table specifications"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/tables/basic-tables/tables-default.svg)
+<embed src="{{site.url}}/assets/images/components/tables/basic-tables/tables-default.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -95,7 +95,7 @@ The use of a condensed table provides for views that display either many or few 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Condensed table specifications"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/tables/basic-tables/tables-condensed.svg)
+<embed src="{{site.url}}/assets/images/components/tables/basic-tables/tables-condensed.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -111,7 +111,7 @@ If presenting a small amount of information, a condensed table format allows for
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Example: IP addresses currently applied in a cloud server"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/tables/basic-tables/tables-small-condensed.svg)
+<embed src="{{site.url}}/assets/images/components/tables/basic-tables/tables-small-condensed.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -137,7 +137,7 @@ Use a gray placeholder to represent loading text to inform the user that the dat
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Example of table in loading state"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/tables/basic-tables/tables-loading.svg)
+<embed src="{{site.url}}/assets/images/components/tables/basic-tables/tables-loading.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -161,7 +161,7 @@ Examples of this direction include:
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Example of an empty table"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/tables/basic-tables/tables-empty.svg)
+<embed src="{{site.url}}/assets/images/components/tables/basic-tables/tables-empty.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -180,7 +180,7 @@ When using the check box icon within a table, each row supports the following st
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Hover and selected row examples for default and condensed table rows"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/tables/basic-tables/tables-hover-selected.svg)
+<embed src="{{site.url}}/assets/images/components/tables/basic-tables/tables-hover-selected.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -213,7 +213,7 @@ This variation is used in the following situations:
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Dual line text table example. **not to scale**"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/tables/basic-tables/tables-dualline-overview.png){:width="580px"}
+<embed src="{{site.url}}/assets/images/components/tables/basic-tables/tables-dualline-overview.png" width="580"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -263,7 +263,7 @@ Using the dual-line text variation impacts standard table layout in the followin
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Dual-line text table specifications"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/tables/basic-tables/tables-dualline-specs.png){:width="580px"}
+<embed src="{{site.url}}/assets/images/components/tables/basic-tables/tables-dualline-specs.png" width="580"/>
 {% endfigure %}
 
 {% endcolumn %}

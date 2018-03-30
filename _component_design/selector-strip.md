@@ -53,7 +53,7 @@ The selector strip component functions best when:
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Meet the selector strip pattern"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/selector-strip/select-strip-hero.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/selector-strip/select-strip-hero.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -93,7 +93,7 @@ Single-select strips have rounded corners and function like a radio button; only
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Selector strip build specifications"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/selector-strip/select-strip-single.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/selector-strip/select-strip-single.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -117,7 +117,7 @@ Multi-select selector strips have more squared edges and function like checkboxe
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Selector strip build specifications"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/selector-strip/select-strip-multi.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/selector-strip/select-strip-multi.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -145,7 +145,7 @@ When the mouse button is pressed, the fill area changes to `cyan 700`. When the 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Selector strip in pressed state"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/selector-strip/select-strip-pressed.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/selector-strip/select-strip-pressed.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -169,7 +169,7 @@ When there is an error, the invalid selection has a red border. Text explaining 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Selector strip in error state"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/selector-strip/select-strip-error.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/selector-strip/select-strip-error.svg"/>
 {% endfigure %}
 
 {% endcolumn %}

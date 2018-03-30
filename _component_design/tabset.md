@@ -44,7 +44,7 @@ helix-ui-javascript: true
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"A generic tabset"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/tabs/tabs-lorem-ipsum.svg)
+<embed src="{{site.url}}/assets/images/components/content-areas/tabs/tabs-lorem-ipsum.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -70,7 +70,7 @@ The default layout must always have the left-most tab selected. In the example i
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Tab menu structure"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/tabs/tabs-menu.svg)
+<embed src="{{site.url}}/assets/images/components/content-areas/tabs/tabs-menu.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -94,7 +94,7 @@ Pad the top and bottom of the content area by 24px. Pad the sides of the content
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Tab content area structure"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/tabs/tabs-content-area.svg)
+<embed src="{{site.url}}/assets/images/components/content-areas/tabs/tabs-content-area.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -120,7 +120,7 @@ Hovering over another tab changes the color of the text. Hovering off the tab ch
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Tab hover state"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/tabs/tabs-hover-state.svg)
+<embed src="{{site.url}}/assets/images/components/content-areas/tabs/tabs-hover-state.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -144,7 +144,7 @@ Clicking the text on the tab changes the color by a few shades to visually confi
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Tab pressed state"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/tabs/tabs-pressed-state.svg)
+<embed src="{{site.url}}/assets/images/components/content-areas/tabs/tabs-pressed-state.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -168,7 +168,7 @@ Zero state messaging is centered both horizontally and vertically. Use a minimum
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Tab zero state"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/tabs/tabs-zero-state.svg)
+<embed src="{{site.url}}/assets/images/components/content-areas/tabs/tabs-zero-state.svg"/>
 {% endfigure %}
 
 {% endcolumn %}

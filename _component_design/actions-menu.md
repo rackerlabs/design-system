@@ -37,7 +37,7 @@ helix-ui-javascript: true
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Example actions menus from various triggers"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/actions-menu/actions-menu-hero.png){: width="469px"}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/actions-menu/actions-menu-hero.png" width="469"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -97,7 +97,7 @@ If an action label is too long, truncate the text, and show the full name on hov
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Menu specifications"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/actions-menu/actions-menu-menu-specifications.png){: width="px"}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/actions-menu/actions-menu-menu-specifications.png" width="558"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -121,7 +121,7 @@ When a cog is used on its own, it appears in `gray900` as a default state. Shown
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"The advanced actions menu has actions separated into groups with titles."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/actions-menu/actions-menu-cog-button-states.png){: width="558px"}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/actions-menu/actions-menu-cog-button-states.png" width="558"/>
 {% endfigure %}
 
 {% endcolumn %}
