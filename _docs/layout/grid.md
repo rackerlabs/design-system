@@ -56,7 +56,7 @@ site navigation.
 Resize your browser to see how columns scale and stack on smaller devices.
 
 <section class="static-section"  markdown="1">
-  <h4 class="hxContainerTitle">Single Column</h4>
+  <h4 class="hxHeading-4">Single Column</h4>
   <div class="hxRow">
     <div class="hxCol hxSpan-12-xs hxSpan-12-xs hxSpan-12-md">
       <div class="grid-bg">1/1</div>
@@ -65,7 +65,7 @@ Resize your browser to see how columns scale and stack on smaller devices.
 </section>
 
 <section class="static-section"  markdown="1">
-  <h4 class="hxContainerTitle">Two Columns</h4>
+  <h4 class="hxHeading-4">Two Columns</h4>
   <div class="hxRow">
     <div class="hxCol hxSpan-6-md">
       <div class="grid-bg">1/2</div>
@@ -77,7 +77,7 @@ Resize your browser to see how columns scale and stack on smaller devices.
 </section>
 
 <section class="static-section"  markdown="1">
-  <h4 class="hxContainerTitle">Three Columns</h4>
+  <h4 class="hxHeading-4">Three Columns</h4>
   <div class="hxRow">
     <div class="hxCol hxSpan-12-xs hxSpan-4-md">
       <div class="grid-bg">1/3</div>
@@ -92,7 +92,7 @@ Resize your browser to see how columns scale and stack on smaller devices.
 </section>
 
 <section class="static-section"  markdown="1">
-  <h4 class="hxContainerTitle">Four Columns</h4>
+  <h4 class="hxHeading-4">Four Columns</h4>
   <div class="hxRow">
     <div class="hxCol hxSpan-12-xs hxSpan-6-sm hxSpan-3-md">
       <div class="grid-bg">1/4</div>
@@ -110,7 +110,7 @@ Resize your browser to see how columns scale and stack on smaller devices.
 </section>
 
 <section class="static-section"  markdown="1">
-  <h4 class="hxContainerTitle">Mixed Columns</h4>
+  <h4 class="hxHeading-4">Mixed Columns</h4>
   <div class="hxRow">
     <div class="hxCol hxSpan-12-xs hxSpan-8-md">
       <div class="grid-bg">2/3</div>

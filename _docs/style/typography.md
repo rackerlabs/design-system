@@ -42,7 +42,7 @@ Heading ones are the highest level of hierarchy. There should only be one on any
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-{% include type-styles.html htmlexample='<h1 class="hxPageTitle">Heading one</h1>' typeface="Roboto" weight="Thin (100)" fontsize="48px / 3.0rem" csscode="Gray 900" hex="#424242" linespace="1.5" bottomspace="8px / 0.5rem" %}
+{% include type-styles.html htmlexample='<h1 class="hxHeading-1">Heading one</h1>' typeface="Roboto" weight="Thin (100)" fontsize="48px / 3.0rem" csscode="Gray 900" hex="#424242" linespace="1.5" bottomspace="8px / 0.5rem" %}
 {% endcolumn %}
 </div>
 </section>
@@ -58,7 +58,7 @@ Use heading twos for titles of page sections. For example, if your heading one i
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-{% include type-styles.html htmlexample='<h2 class="hxSectionTitle">Heading two</h2>' typeface="Roboto" weight="Light (300)" fontsize="32px / 1.875rem" csscode="Gray 900" hex="#424242" linespace="1.5" bottomspace="8px / 0.5rem" %}
+{% include type-styles.html htmlexample='<h2 class="hxHeading-2">Heading two</h2>' typeface="Roboto" weight="Light (300)" fontsize="32px / 1.875rem" csscode="Gray 900" hex="#424242" linespace="1.5" bottomspace="8px / 0.5rem" %}
 {% endcolumn %}
 </div>
 </section>
@@ -73,7 +73,7 @@ Heading threes are pretty versatile. Consider using them to title things like fi
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-{% include type-styles.html htmlexample='<h3 class="hxSubSectionTitle">Heading three</h3>' typeface="Roboto" weight="Regular (400)" fontsize="24px / 1.5rem" csscode="Gray 900" hex="#424242" linespace="1.5" bottomspace="8px / 0.5rem" %}
+{% include type-styles.html htmlexample='<h3 class="hxHeading-3">Heading three</h3>' typeface="Roboto" weight="Regular (400)" fontsize="24px / 1.5rem" csscode="Gray 900" hex="#424242" linespace="1.5" bottomspace="8px / 0.5rem" %}
 {% endcolumn %}
 </div>
 </section>
@@ -88,7 +88,7 @@ Heading fours are good for titling within elements like cards, modals, and so on
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-{% include type-styles.html htmlexample='<h4 class="hxContainerTitle">Heading four</h4>' typeface="Roboto" weight="Medium (500)" fontsize="16px / 1rem" csscode="Gray 900" hex="#424242" linespace="1.5" bottomspace="8px / 0.5rem" %}
+{% include type-styles.html htmlexample='<h4 class="hxHeading-4">Heading four</h4>' typeface="Roboto" weight="Medium (500)" fontsize="16px / 1rem" csscode="Gray 900" hex="#424242" linespace="1.5" bottomspace="8px / 0.5rem" %}
 {% endcolumn %}
 </div>
 </section>
@@ -204,7 +204,7 @@ Use this style for form input labels and as titles for radio groups or sets of c
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-{% include type-styles.html htmlexample='<label class="hxLabel">Label</label>' typeface="Roboto" weight="Medium (500)" fontsize="14px / 0.875rem" csscode="Gray 750" hex="#6b6b6b" linespace="1.5"  %}
+{% include type-styles.html htmlexample='<label class="hxHeading-5">Label</label>' typeface="Roboto" weight="Medium (500)" fontsize="14px / 0.875rem" csscode="Gray 750" hex="#6b6b6b" linespace="1.5"  %}
 {% endcolumn %}
 </div>
 </section>

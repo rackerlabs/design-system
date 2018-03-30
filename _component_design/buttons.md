@@ -239,7 +239,7 @@ Compact buttons should be used when you have severe space constraints, such as i
 - Button sets are most often used in Popovers, Modals or Create/Edit Forms to group the submit, back or next, and cancel buttons.
 - A button set should never contain more than one primary button.
 - Avoid using split buttons in a button set as it would complicate what should be a simple decision.
-- The cancel action must always be an `hxBtn--link` as shown in the example.
+- The cancel action must always be an `hxBtn.hxLink` as shown in the example.
 
 When submitting forms:
 
@@ -335,7 +335,7 @@ Split drop-down buttons are preferred when more than one action is associated wi
 {% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"The split drop-down button variation"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/buttons/split-drop-buttons-hero.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/split-drop-buttons-hero.svg"/>
 {% endfigure %}
 
 {% endcolumn %}

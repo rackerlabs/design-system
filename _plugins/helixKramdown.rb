@@ -13,13 +13,13 @@ module Kramdown
         @toc << [el.options[:level], attr['id'], el.children] if attr['id'] && in_toc?(el)
         level = output_header_level(el.options[:level])
         if level == 1
-          attr['class'] = 'hxPageTitle'
+          attr['class'] = 'hxHeading-1'
         elsif level == 2
-          attr['class'] = 'hxSectionTitle'
+          attr['class'] = 'hxHeading-2'
         elsif level == 3
-          attr['class'] = 'hxSubSectionTitle'
+          attr['class'] = 'hxHeading-3'
         elsif level == 4
-          attr['class'] = 'hxContainerTitle'
+          attr['class'] = 'hxHeading-4'
         else
           attr['class'] = 'none'
         end
