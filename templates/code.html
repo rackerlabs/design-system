@@ -5,7 +5,7 @@ layout: base
 <div class="content-banner">
     <div class="content-wrapper">
         <div class="hxRow">
-            <div class="hxCol-8">
+            <div class="hxCol hxSpan-8">
                 <div class="hxRow">
                     <div class="hxCol">
                       {%- for item in site.component_design -%}
@@ -15,7 +15,7 @@ layout: base
                     </div>
                 </div>
             </div>
-            <div class="hxCol-4">
+            <div class="hxCol hxSpan-4">
                 <img class="hero-image" src="{{site.url}}/assets/images/{{item.preview-image}}" />
             </div>
             {%- endif -%}

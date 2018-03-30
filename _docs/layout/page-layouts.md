@@ -12,7 +12,7 @@ resource: true
 
 <section class="static-section"  markdown="1">
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Base layouts
 - Use the utility navigation (nav) to navigate between applications, manage roles, and manage preferences on both the user and the account level.
@@ -28,7 +28,7 @@ resource: true
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Using top navigation provides more horizontal real estate for
 your content area. However, this can limit the number of navigation items."] [class:"image bg-light border"] %}
@@ -46,7 +46,7 @@ content area."] [class:"image bg-light border"] %}
 
 <section class="static-section"  markdown="1">
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Content areas
 
@@ -58,7 +58,7 @@ Build the content area using a 12 Column Grid. See [grid](/layout/grid) for more
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Full width with top navigation"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/layout/page-layouts/layout-content-full-top-nav.png){:width="800px"}
 {% endfigure %}
@@ -72,7 +72,7 @@ Build the content area using a 12 Column Grid. See [grid](/layout/grid) for more
 
 <section class="static-section"  markdown="1">
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Content area with right side rail
 
@@ -88,7 +88,7 @@ Build the content area using a 12 Column Grid. See [grid](/layout/grid) for more
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Right side rail with top navigation"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/layout/page-layouts/layout-right-side-rail-top-nav.png){:width="800px"}
 {% endfigure %}
@@ -102,7 +102,7 @@ Build the content area using a 12 Column Grid. See [grid](/layout/grid) for more
 
 <section class="static-section"  markdown="1">
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Content area with left side rail
 
@@ -117,7 +117,7 @@ Build the content area using a 12 Column Grid. See [grid](/layout/grid) for more
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Left side rail with top navigation"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/layout/page-layouts/layout-left-side-rail-top-nav.png){:width="800px"}
 {% endfigure %}
@@ -131,7 +131,7 @@ Build the content area using a 12 Column Grid. See [grid](/layout/grid) for more
 
 <section class="static-section"  markdown="1">
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Dual panel content area
 
@@ -155,7 +155,7 @@ Build the content area using a 12 Column Grid. See [grid](/layout/grid) for more
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Dual panel with top navigation"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/layout/page-layouts/dual-panel-topnav.png){:width="800px"}
 {% endfigure %}
@@ -172,7 +172,7 @@ Build the content area using a 12 Column Grid. See [grid](/layout/grid) for more
 
 
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Dashboard content area
 
@@ -184,7 +184,7 @@ Build the content area using a 12 Column Grid. See [grid](/layout/grid) for more
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Dashboard layout with top navigation"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/layout/page-layouts/layout-dashboard-top-nav.png){:width="800px"}
 {% endfigure %}

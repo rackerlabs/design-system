@@ -3,7 +3,7 @@ title: Spacing
 layout: docs
 category: Style
 usage: >
-  Helix spacing system provides a logical set of values and limited application rules to better enable design and developent teams to use spacing deliberately for improved readability and consistency in product. 
+  Helix spacing system provides a logical set of values and limited application rules to better enable design and developent teams to use spacing deliberately for improved readability and consistency in product.
 status: stable
 resource: true
 last-modified: 2018-03-28
@@ -18,15 +18,16 @@ last-modified: 2018-03-28
 ## Introduction
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
+{% column left:"hxCol hxSpan-12 hxSpan-12-xs hxSpan-12-sm hxSpan-12-md hxSpan-12-lg" %}
 
 The Helix spacing system was influenced by [Priyanka Godbole’s article](https://blog.prototypr.io/a-framework-for-creating-a-predictable-and-harmonious-spacing-system-8eee8aaf773c) in which she outlines steps for defining a system based on the **rule of three C’s**.
 
-- [**Containers**](#containers): A “square” inset of twenty pixels is applied to the top, right, bottom, and left sides of any container.
-- [**Content**](#content): A “stack” value is applied to the space below [headers](#headers) (eight pixels) and [leaf-nodes](#leaf-nodes) (four, eight, or sixteen pixels according to content type)
-- [**Components**](#components): “Inline” spacing values are appled to the space between components.  This rule uses eight pixels in most cases, and four pixels for close proximity association.
+- [**Containers**](#containers): A “square” inset of 20px is applied to the top, right, bottom, and left sides of any container.
+- [**Content**](#content): A “stack” value is applied to the space below [headers](#headers) (8px) and [leaf-nodes](#leaf-nodes) (4, 8, or 16px according to content type)
+- [**Components**](#components): “Inline” spacing values are applied to the space between components.  This rule uses 8px in most cases, and 4px for close proximity association.
 
 This framework enabled us to define the spacing system using a limited set of values and rules that facilitate information hierarchy and adhere to accessibility guidelines.
+
 For additional information on spacing vocabulary such as insets, stacks and inline, refer to Nathan Curtis’s article, [Space in Design Systems](https://medium.com/eightshapes-llc/space-in-design-systems-188bcbae0d62).
 
 {% endcolumn %}
@@ -39,9 +40,9 @@ For additional information on spacing vocabulary such as insets, stacks and inli
 ## Containers
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
+{% column left:"hxCol hxSpan-12 hxSpan-12-xs hxSpan-12-sm hxSpan-12-md hxSpan-12-lg" %}
 
-Pages, cards, modals, panes, etc. are containers  that frame content within a UI. Containers relate directly to the  canvas / grid to create the layout of any page. For this reason, we defined a twenty pixel square inset inside all containers to be harmonious with our column gutters.
+Pages, cards, modals, panes, etc. are containers that frame content within a UI. Containers relate directly to the canvas / grid to create the layout of any page. For this reason, we defined a 20px-square inset inside all containers to be harmonious with our column gutters.
 
 {% figure [caption: "Container spacing of twenty pixels (square-inset)."][class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/style/spacing/spacing-system-rule-for-containers.png){: width="893px"}
@@ -52,24 +53,24 @@ Pages, cards, modals, panes, etc. are containers  that frame content within a UI
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Container Spacing Variants
 
-Some cases may require different spacing to accommodate very small or large containers (see [choice-tiles]({{site.url}}/components/choice-tiles.html)). Therefore we have included  Small, Medium, and Large container spacing sizes to facilitate your content.  
+Some cases may require different spacing to accommodate very small or large containers (see [choice-tiles]({{site.url}}/components/choice-tiles.html)). Therefore we have included Small, Medium, and Large container spacing sizes to facilitate your content.  
 
-* **Extra-small (XS) = 12px** 
-* **Small (SM) = 12px** 
-* **Medium (MD) = 20px**
-* **Large (LG) = 32px**
-* **Extra-large (XL) = 48px**
-* **Extra-extra-large (XXL) = 72px**
+- **Extra-small (XS) = 12px**
+- **Small (SM) = 12px**
+- **Medium (MD) = 20px**
+- **Large (LG) = 32px**
+- **Extra-large (XL) = 48px**
+- **Extra-extra-large (XXL) = 72px**
 
 Exceptions are made for some elements such as dashboard panels and [cards]({{site.url}}/components/cards.html) which require no inset spacing when featuring edge-to-edge, body content.
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption: "Container spacing sizes."][class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/style/spacing/spacing-system-container-spacing-variants.png){: width="451px"}
@@ -84,14 +85,14 @@ Exceptions are made for some elements such as dashboard panels and [cards]({{sit
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-12" %}
+{% column left:"hxCol hxSpan-12" %}
 
 ## Content
 
 Content lives inside the container. Content is stacked vertically using line-heights and bottom margins (depending on type of content). Bottom margins add extra spacing that improves visually perceptible intervals, which is helpful for conveying hierarchy. Content contains:
 
-* Headers are at the highest level of hierarchy for content (page title, section title, sub-section title, container title)
-* Just below the header hierarchy is the data interspersed in the form of paragraphs, lists, forms, and tables that we will refer to as leaf-nodes.
+- Headers are at the highest level of hierarchy for content (page title, section title, sub-section title, container title)
+- Just below the header hierarchy is the data interspersed in the form of paragraphs, lists, forms, and tables that we will refer to as leaf-nodes.
 
 {% endcolumn %}
 
@@ -100,7 +101,7 @@ Content lives inside the container. Content is stacked vertically using line-hei
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 **Baseline grid is multiples of four.**
 Just like using columns as guides in your design, the baseline grid is a way to help you make decisions and build consistency into your layout based on multiples of four.
@@ -109,11 +110,11 @@ Just like using columns as guides in your design, the baseline grid is a way to 
 This ratio is taken from WCAG SC 1.4.8 guideline which states line-spacing is at least space-and-a-half (1.5) to enable people of different abilities to track and comprehend information more easily.
 
 **Line-heights.**
-Line-heights across all font-sizes must be proportional to each other to create a good vertical rhythm. To accomplish this  we use the same base line-height / base font-size ratio for deriving all other line-heights (font-size X 1.5 line-height ratio = line-height). Use the following calculated line-height values. 
+Line-heights across all font-sizes must be proportional to each other to create a good vertical rhythm. To accomplish this  we use the same base line-height / base font-size ratio for deriving all other line-heights (font-size X 1.5 line-height ratio = line-height). Use the following calculated line-height values.
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption: "\* Rounded to nearest multiple of four."][class:"image bg-light border"] %}
 <table class="hxTable hxTable--condensed" style="margin: 0;">
   <thead>
@@ -144,20 +145,20 @@ Line-heights across all font-sizes must be proportional to each other to create 
 </section>
 
 <section class="static-section" markdown="1">
-### Headers 
+### Headers
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 
-All content is stacked vertically, yet using line-height values alone does not convey enough visual hierarchy and can result in overly dense layouts. 
+All content is stacked vertically, yet using line-height values alone does not convey enough visual hierarchy and can result in overly dense layouts.
 
-Priyanka’s framework provides a solution for this using header and leaf-node margins. Following her example, we experimented with different spacing values, in several layouts, and found that a single spacing value of eight pixels worked best for all header margins. 
+Priyanka’s framework provides a solution for this using header and leaf-node margins. Following her example, we experimented with different spacing values, in several layouts, and found that a single spacing value of eight pixels worked best for all header margins.
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption: "Header margin (magenta) is stacked below content box (blue)."][class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/style/spacing/spacing-system-header-margins.png){: width="492px"}
 {% endfigure %}
@@ -170,16 +171,16 @@ Priyanka’s framework provides a solution for this using header and leaf-node m
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-12" %}
+{% column left:"hxCol hxSpan-12" %}
 
-### Leaf-nodes 
+### Leaf-nodes
 
 Next we defined spacing values for leaf-node content. Unlike header margins, it is impossible to use a single spacing value across all types of leaf-node content. For each type of leaf-node content, the spacing is as follows:
 
-* [Table cells](#table-cells): 8 pixels
-* [List items](#list-items): 4 pixels 
-* [Form elements](#form-elements): 4, 8, or 16 pixels, depending on the element
-* [Paragraphs](#paragraphs): 16 pixels
+- [Table cells](#table-cells): 8px
+- [List items](#list-items): 4px
+- [Form elements](#form-elements): 4, 8, or 16px, depending on the element
+- [Paragraphs](#paragraphs): 16px
 
 {% endcolumn %}
 
@@ -188,17 +189,17 @@ Next we defined spacing values for leaf-node content. Unlike header margins, it 
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 #### Table cells
 
-Tables are used when data is much more dense and has many attributes. Therefore, if the table’s data is spaced too close, it can be difficult to read through an entire row, without getting distracted by adjacent row data. 
+Tables are used when data is much more dense and has many attributes. Therefore, if the table’s data is spaced too close, it can be difficult to read through an entire row, without getting distracted by adjacent row data.
 
-By prescribing eight pixels between table text and table row borders, we get a total of sixteen pixels of space between text across two rows. 
+By prescribing eight pixels between table text and table row borders, we get a total of sixteen pixels of space between text across two rows.
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption: "Table leaf-node spacing"][class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/style/spacing/spacing-system-leaf-node-margins.png){: width="566px"}
 {% endfigure %}
@@ -208,7 +209,7 @@ By prescribing eight pixels between table text and table row borders, we get a t
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 #### List items
 
@@ -220,7 +221,7 @@ To improve legibility, list items still need to be spaced apart. Many spacing va
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption: "List leaf-node spacing"][class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/style/spacing/spacing-system-lists.png){: width="531px"}
 {% endfigure %}
@@ -230,17 +231,17 @@ To improve legibility, list items still need to be spaced apart. Many spacing va
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 #### Full-width items in a bound container
 
-A modification is made for list items that extend to the left and right edge of a visually bound container. The example is items in a drop-down menu. 
+A modification is made for list items that extend to the left and right edge of a visually bound container. The example is items in a drop-down menu.
 
 In cases like this the container does not receive a square inset.  To move the first item away from the top edge of the container, the first item gets a top space of four pixels.
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption: "Full-width items in a bound container"][class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/style/spacing/spacing-system-full-width-items-in-a-bound-container.png){: width="536px"}
 {% endfigure %}
@@ -250,7 +251,7 @@ In cases like this the container does not receive a square inset.  To move the f
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 #### Form elements
 
@@ -258,7 +259,7 @@ We found that eight pixels of vertical space between consecutive, stacked inputs
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption: "Form element leaf-node spacing"][class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/style/spacing/spacing-system-forms.png){: width="462px"}
 {% endfigure %}
@@ -268,7 +269,7 @@ We found that eight pixels of vertical space between consecutive, stacked inputs
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 #### Paragraphs
 
@@ -276,7 +277,7 @@ Paragraph line-height of twenty-four pixels was derived from visual explorations
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption: "Paragraph leaf-node spacing"][class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/style/spacing/spacing-system-paragraphs.png){: width="512px"}
 {% endfigure %}
@@ -288,7 +289,7 @@ Paragraph line-height of twenty-four pixels was derived from visual explorations
 <section class="static-section" markdown="1">
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-12" %}
+{% column left:"hxCol hxSpan-12" %}
 
 ## Components
 
@@ -299,11 +300,11 @@ Components are buttons, input fields, icons, and so on. Components are often pla
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 #### Spacing inside components
 
-For consistency, eight pixels was defined for left and right padding inside components. 
+For consistency, eight pixels was defined for left and right padding inside components.
 
 #### Spacing between components
 
@@ -311,7 +312,7 @@ We used a simple rule of eight pixels of space between any two adjacent componen
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption: "Spacing inside components is shown in orange and external shown in green."][class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/style/spacing/spacing-system-rule-for-components.png){: width="505px"}
 {% endfigure %}

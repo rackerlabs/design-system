@@ -6,7 +6,7 @@ layout: base
         {%- assign iconCount = 1 -%}
         {%- for component in site.pages -%}
             {%- if component.category == page.title -%}
-                    <div class="col-md-4">
+                    <div class="hxCol hxSpan-md-4">
                             <a href="{{site.baseurl}}{{component.url}}.html">
                                 <div class="category-card border bg-light">
                                   <h1>{{component.title}}</h1>

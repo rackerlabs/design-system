@@ -13,7 +13,7 @@ resource: true
 
 <section class="static-section"  markdown="1">
 <div class="hxRow" markdown="1">
-{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column left:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 ## Introduction
 
@@ -36,7 +36,7 @@ These email templates are for external communications to customers related to co
 <section class="static-section"  markdown="1">
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
+{% column left:"hxCol hxSpan-12 hxSpan-12-xs hxSpan-12-sm hxSpan-12-md hxSpan-12-lg" %}
 
 ## Quick view template and variable guide
 
@@ -52,7 +52,7 @@ These email templates are for external communications to customers related to co
 <section class="static-section"  markdown="1">
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
+{% column left:"hxCol hxSpan-12 hxSpan-12-xs hxSpan-12-sm hxSpan-12-md hxSpan-12-lg" %}
 
 ## Typography and image guides
 
@@ -68,7 +68,7 @@ These email templates are for external communications to customers related to co
 <section class="static-section"  markdown="1">
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column left:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 ### Email header
 
@@ -102,7 +102,7 @@ Use the subject line to let the user know what the email is about, urgency (if a
 
 <section class="static-section"  markdown="1">
 <div class="hxRow" markdown="1">
-{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column left:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 ## Email content
 
@@ -115,7 +115,7 @@ Alert states are used to gain the user's attention when there is action required
 </div>
 
 <div class="hxRow" markdown="1">
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 - Ticket status:
 
@@ -135,7 +135,7 @@ Alert states are used to gain the user's attention when there is action required
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:""] [class:"image bg-light border"] %}
   ![]({{site.baseurl}}/assets/images/templates/email/Urgent%20Alert.svg)
 {% endfigure %}
@@ -145,7 +145,7 @@ Alert states are used to gain the user's attention when there is action required
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
+{% column left:"hxCol hxSpan-12 hxSpan-12-xs hxSpan-12-sm hxSpan-12-md hxSpan-12-lg" %}
 
 {% figure [caption:"Alert banner typography, color, and spacing"] [class:"image bg-light border"] %}
   ![]({{site.baseurl}}/assets/images/templates/email/Alert%20Specs.svg){:width=60%}
@@ -159,7 +159,7 @@ Alert states are used to gain the user's attention when there is action required
 <section class="static-section"  markdown="1">
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Header
 
@@ -173,7 +173,7 @@ The header is an overview of where the email is coming from and what kind of mes
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Visual example of header and spacing"] [class:"image bg-light border"] %}
   ![]({{site.baseurl}}/assets/images/templates/email/Header.svg)
 {% endfigure %}
@@ -182,7 +182,7 @@ The header is an overview of where the email is coming from and what kind of mes
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
+{% column left:"hxCol hxSpan-12 hxSpan-12-xs hxSpan-12-sm hxSpan-12-md hxSpan-12-lg" %}
 
 
 {% figure [caption:"Examples of content options. Replace only product name and switch between Notification or Ticket for message type."] [class:"image bg-light border"] %}
@@ -196,7 +196,7 @@ The header is an overview of where the email is coming from and what kind of mes
 
 <section class="static-section"  markdown="1">
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Sub-header
 
@@ -209,7 +209,7 @@ To give the user more context about the message they are about to read, the subh
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Visual example of Sub-Header and spacing"] [class:"image bg-light border"] %}
 ![]({{site.baseurl}}/assets/images/templates/email/Subheader.svg)
 {% endfigure %}
@@ -235,7 +235,7 @@ To give the user more context about the message they are about to read, the subh
 When there is some action that the user needs to take, it should be prominently displayed and stand out from the rest of the email content. Callouts enables the user to scan for pertinent information quickly.
 
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 
 -   **Required Action** - Required actions consist of tickets that are waiting for a response or when the customer needs to take steps to resolve an issue. Required actions could range from copy and pasting code to following a list of instructions in a How-To article. These **required actions** do not include _pending customer_ tickets. For this use case, see Alerts below for use cases and styles.
@@ -246,7 +246,7 @@ When there is some action that the user needs to take, it should be prominently 
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Callout box used for workarounds and comments. Comment includes code block."] [class:"image bg-light border"] %}
   ![]({{site.baseurl}}/assets/images/templates/email/Comment%20with%20CodeBlock.svg)
 {% endfigure %}
@@ -254,13 +254,13 @@ When there is some action that the user needs to take, it should be prominently 
 </div>
 
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 -   **Code Blocks** - Code Blocks show user code in a human readable format, either as part of a workaround or just to display system content.
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Code block visual examples and specifications"] [class:"image bg-light border"] %}
   ![]({{site.baseurl}}/assets/images/templates/email/Code%20Block%20.svg)
 {% endfigure %}
@@ -271,7 +271,7 @@ When there is some action that the user needs to take, it should be prominently 
 
 <section class="static-section"  markdown="1">
 <div class="hxRow" markdown="1">
-{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column left:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 ### Buttons
 
@@ -281,13 +281,13 @@ Buttons should be used only as a gateway to control panels to view more detailed
 </div>
 
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 They should never break up the content of an email, and there should never be more than one button in the email. When adding buttons, only use the standard button styles, and text should be in all caps. Go to the [[Buttons page]({{site.url}}/components/buttons.html) for in-depth use cases and standards.
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Button and spacing specifications"] [class:"image bg-light border"] %}
   ![]({{site.baseurl}}/assets/images/templates/email/Button.svg)
 {% endfigure %}
@@ -297,7 +297,7 @@ They should never break up the content of an email, and there should never be mo
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
+{% column left:"hxCol hxSpan-12 hxSpan-12-xs hxSpan-12-sm hxSpan-12-md hxSpan-12-lg" %}
 
 {% figure [caption:"Variation of button content. Message should always be clear and concise."] [class:"image bg-light border"] %}
   ![]({{site.baseurl}}/assets/images/templates/email/Buttons.svg)
@@ -310,7 +310,7 @@ They should never break up the content of an email, and there should never be mo
 <section class="static-section"  markdown="1">
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### App link
 
@@ -320,7 +320,7 @@ In the first line, the word notifications or ticket should change based on the m
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Mobile app promotion and download links"] [class:"image bg-light border"] %}
   ![]({{site.baseurl}}/assets/images/templates/email/Mobile%20LInks.svg)
@@ -331,7 +331,7 @@ In the first line, the word notifications or ticket should change based on the m
 
 <section class="static-section"  markdown="1">
 <div class="hxRow" markdown="1">
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 
 ### Footer
@@ -345,7 +345,7 @@ The footer provides auxiliary information about how to contact support and edit 
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Footer visual example and spacing specifications"] [class:"image bg-light border"] %}
   ![]({{site.baseurl}}/assets/images/templates/email/Footer.svg)
 {% endfigure %}
@@ -357,7 +357,7 @@ The footer provides auxiliary information about how to contact support and edit 
 ## UX guidance
 
 <div class="hxRow" markdown="1">
-{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column left:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 ### Links
 
@@ -394,7 +394,7 @@ Do not display the actual URL. All links should be hyperlinked text and follow f
 
 <section class="static-section"  markdown="1">
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column left:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 ### Text guidelines
 
@@ -419,7 +419,7 @@ and that helps customers accomplish their goals, use the
 
 <section class="static-section"  markdown="1">
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column left:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 ## Research
 Previous research has been done for emails about notifications. The major finding was that email could help customers understand the difference between notifications and a ticket. Further research is needed to validate all use cases in email templates.
@@ -438,7 +438,7 @@ For now, here are a few of the completed studies:
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
+{% column left:"hxCol hxSpan-12 hxSpan-12-xs hxSpan-12-sm hxSpan-12-md hxSpan-12-lg" %}
 
 ## Visual examples
 

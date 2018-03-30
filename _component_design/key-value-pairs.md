@@ -19,7 +19,7 @@ helix-ui-javascript: true
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
+{% column left:"hxCol hxSpan-12 hxSpan-12-xs hxSpan-12-sm hxSpan-12-md hxSpan-12-lg" %}
 
 ## When to use
 
@@ -74,7 +74,7 @@ By default, key-value pairs appear in the body of a page. Key labels display rig
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Key-value pair composition"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/content-areas/key-pairs/keyvalue_composition.png)
@@ -90,7 +90,7 @@ By default, key-value pairs appear in the body of a page. Key labels display rig
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Style
 
@@ -98,7 +98,7 @@ To determine the indentation of key-value pairs, use two columns on the Helix gr
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Horizontal key-value pairs style"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/content-areas/key-pairs/keypairs-default-layout.svg)
@@ -114,7 +114,7 @@ To determine the indentation of key-value pairs, use two columns on the Helix gr
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Text wrapping
 
@@ -122,7 +122,7 @@ Restrict text wrapping to two columns for key labels and four columns for data v
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"A set of key-value pairs that use two lines"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/content-areas/key-pairs/keypairs-two-lines.svg)
@@ -138,7 +138,7 @@ Restrict text wrapping to two columns for key labels and four columns for data v
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Other elements
 
@@ -146,7 +146,7 @@ You can use icons, compact tertiary buttons, and text links in key-value pairs.
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Key-value pairs that contain icons, buttons, and text links"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/content-areas/key-pairs/keypairs-other-elements.svg)
@@ -162,7 +162,7 @@ You can use icons, compact tertiary buttons, and text links in key-value pairs.
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ## Vertical layout
 
@@ -188,7 +188,7 @@ Key labels and data values display left-aligned on the left.
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Vertical key-value pair composition"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/content-areas/key-pairs/key-value-vertical-composition.png)
@@ -204,7 +204,7 @@ Key labels and data values display left-aligned on the left.
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Style
 
@@ -212,7 +212,7 @@ Use the following redline specifications when you construct vertical layout key-
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Vertical key-value pairs style"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/content-areas/key-pairs/keypairs-vertical-keyvalue.svg)

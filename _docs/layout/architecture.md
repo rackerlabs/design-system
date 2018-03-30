@@ -46,14 +46,14 @@ global layer.
 ### Examples
 
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol-md-4" %}
+{% column left:"hxCol hxSpan-4-md" %}
 
 -   Selecting the global dashboard toggle triggers the global dashboard to
     extend from the left, covering the current product layer (Fig 1a).
 
 {% endcolumn %}
 
-{% column right:"hxCol-md-8" %}
+{% column right:"hxCol hxSpan-8-md" %}
 {% figure [caption:"Fig 1a - Global dashboard contains varied content types always accessible from within the Helix-UI"] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/layout/architecture/globaldash.png)
 {% endfigure %}
@@ -61,14 +61,14 @@ global layer.
 </div>
 
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol-md-4" %}
+{% column left:"hxCol hxSpan-4-md" %}
 
 -   Selecting a platform service, such as ticketing, triggers the ticketing
     panel to extend from the right over the canvas (Fig 1b).
 
 {% endcolumn %}
 
-{% column right:"hxCol-md-8" %}
+{% column right:"hxCol hxSpan-8-md" %}
 {% figure [caption:"Fig 1b - Ticketing panel containing ticketing information, extended from offcanvas right"] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/layout/architecture/global-ticketing.svg)
 {% endfigure %}
@@ -76,14 +76,14 @@ global layer.
 </div>
 
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol-md-4" %}
+{% column left:"hxCol hxSpan-4-md" %}
 
 -   Interacting with an extended panel can cause the behavior of the panel to
     change as additional content is loaded (Fig 1c).
 
 {% endcolumn %}
 
-{% column right:"hxCol-md-8" %}
+{% column right:"hxCol hxSpan-8-md" %}
 {% figure [caption:"Fig 1c - Ticketing panel after selecting a ticket, loads ticket information dynamically into the global ticketing panel."] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/layout/architecture/global-ticketing-extended.svg)
 {% endfigure %}
@@ -99,7 +99,7 @@ FAzure, FAWS, Managed, or Rackspace Cloud. Navigation and content differs
 based on which product line the user is currently viewing.
 
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol-md-4" %}
+{% column left:"hxCol hxSpan-4-md" %}
 
 -   Within the product layer, the side navigation updates to display the
     navigation unique to this product line. This is because the products within
@@ -107,7 +107,7 @@ based on which product line the user is currently viewing.
 
 {% endcolumn %}
 
-{% column right:"hxCol-md-8" %}
+{% column right:"hxCol hxSpan-8-md" %}
 {% figure [caption:"Conceptual model for location of product layer, below global layer"] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/layout/architecture/layout-product-layer.svg)
 {% endfigure %}
@@ -115,13 +115,13 @@ based on which product line the user is currently viewing.
 </div>
 
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol-md-4" %}
+{% column left:"hxCol hxSpan-4-md" %}
 
 -   The currently selected product line is viewable within the eyebrow.
 
 {% endcolumn %}
 
-{% column right:"hxCol-md-8" %}
+{% column right:"hxCol hxSpan-8-md" %}
 {% figure [caption:"FAWS product layer with side navigation shown"] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/layout/architecture/product-faws.svg)
 {% endfigure %}

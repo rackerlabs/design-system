@@ -21,7 +21,7 @@ last-modified: 2018-02-12
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Pre-entry state
 
@@ -30,7 +30,7 @@ Assistive search is a content container and a set of behaviors given to a search
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Meet the assisted search menu"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/search-and-filters/search-assisted/assisted-search-pre-entry.png){:width="566px"}
 {% endfigure %}
@@ -44,7 +44,7 @@ Assistive search is a content container and a set of behaviors given to a search
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Active state
 
@@ -52,7 +52,7 @@ When the search box is clicked and the cursor is active, a designer may choose t
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Assisted search specifications"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/search-and-filters/search-assisted/assisted-search-active.png){: width="633px"}
 {% endfigure %}
@@ -64,7 +64,7 @@ When the search box is clicked and the cursor is active, a designer may choose t
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Post-entry state
 
@@ -72,7 +72,7 @@ Follow the [search box]({{site.baseurl}}/components/search.html) conventions for
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Assisted search post-entry"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/search-and-filters/search-assisted/assisted-search-post-entry.png){: width="633px"}
 {% endfigure %}
@@ -84,7 +84,7 @@ Follow the [search box]({{site.baseurl}}/components/search.html) conventions for
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Loading
 
@@ -92,7 +92,7 @@ Use a [loading spinner]({{site.baseurl}}/components/loading-indicators.html) if 
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Assisted search loading state"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/search-and-filters/search-assisted/assisted-search-loading-state.png){: width="566px"}
 {% endfigure %}
@@ -108,7 +108,7 @@ Use a [loading spinner]({{site.baseurl}}/components/loading-indicators.html) if 
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Layout
 
@@ -118,7 +118,7 @@ Clicking on a keyword in the menu fills the search input with the keyword and co
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Assisted search specifications"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/search-and-filters/search-assisted/assisted-search-layout-specifications.png){: width="633px"}
 {% endfigure %}
@@ -134,7 +134,7 @@ Clicking on a keyword in the menu fills the search input with the keyword and co
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Sizing and styling
 
@@ -146,7 +146,7 @@ Clicking on a keyword in the menu fills the search input with the keyword and co
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Assisted search styling"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/search-and-filters/search-assisted/assisted-search-container.png){: width="648px"}
 {% endfigure %}
@@ -160,7 +160,7 @@ Clicking on a keyword in the menu fills the search input with the keyword and co
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Elements
 
@@ -168,7 +168,7 @@ Clicking on a keyword in the menu fills the search input with the keyword and co
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Assisted search container elements"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/search-and-filters/search-assisted/assisted-search-container-elements.png){: width="788px"}
 {% endfigure %}
@@ -184,7 +184,7 @@ Clicking on a keyword in the menu fills the search input with the keyword and co
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Hover and focus
 
@@ -194,7 +194,7 @@ Clicking on a search result item, or pressing the enter key when a result item h
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Assisted search results specifications"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/search-and-filters/search-assisted/assisted-search-hover-and-focus.png){: width="548px"}
 {% endfigure %}
@@ -206,7 +206,7 @@ Clicking on a search result item, or pressing the enter key when a result item h
 <section class="static-section" markdown="1">
 
 <div class="hxRow" markdown="1">
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Active keyword
 
@@ -214,7 +214,7 @@ When a keyword is in active use, but the query has not been completed with searc
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Assisted search results - active state"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/search-and-filters/search-assisted/assisted-search-active-keyword.png){: width="548px"}
 {% endfigure %}
@@ -226,7 +226,7 @@ When a keyword is in active use, but the query has not been completed with searc
 <section class="static-section" markdown="1">
 
 <div class="hxRow" markdown="1">
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Active keyword + no terms
 
@@ -234,7 +234,7 @@ Do not apply the gray background color if keyed entries have not formed a comple
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Cyan search pills are used to display the active state."] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/search-and-filters/search-assisted/assisted-search-active-and-entering-terms.png){: width="548px"}
 {% endfigure %}
@@ -247,7 +247,7 @@ Do not apply the gray background color if keyed entries have not formed a comple
 <section class="static-section" markdown="1">
 
 <div class="hxRow" markdown="1">
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Completed search
 
@@ -255,7 +255,7 @@ When the user has typed the key and term and pressed enter, the search is comple
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Gray search pills are used to display the complete state."] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/search-and-filters/search-assisted/assisted-search-completed-search.png){: width="548px"}
 {% endfigure %}
@@ -268,7 +268,7 @@ When the user has typed the key and term and pressed enter, the search is comple
 <section class="static-section" markdown="1">
 
 <div class="hxRow" markdown="1">
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Deleting terms
 
@@ -276,7 +276,7 @@ Use backspace to delete a single character and not the entire query or search pi
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Backspace deletes single characters, and not the entire set."] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/search-and-filters/search-assisted/assisted-search-deleting-terms.png){: width="548px"}
 {% endfigure %}

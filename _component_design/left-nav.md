@@ -18,7 +18,7 @@ last-modified: 2017-12-11
 ## Introduction
 
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### When to use
 
@@ -31,7 +31,7 @@ Use the left navigation component for web applications, unless there is a firm i
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:""] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/layout/navigation-left.svg)
 {% endfigure %}
@@ -45,7 +45,7 @@ Use the left navigation component for web applications, unless there is a firm i
 ## Specifications
 
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Style
 
@@ -55,7 +55,7 @@ Use the left navigation component for web applications, unless there is a firm i
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:""] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/layout/navigation-left-color-type.svg)
 {% endfigure %}
@@ -67,7 +67,7 @@ Use the left navigation component for web applications, unless there is a firm i
 <section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Spacing
 
@@ -75,7 +75,7 @@ Use the left navigation component for web applications, unless there is a firm i
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Containing `div` spacing specs"] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/layout/navigation-left-spacing-horizontal.svg)
 {% endfigure %}
@@ -87,13 +87,13 @@ Use the left navigation component for web applications, unless there is a firm i
 <section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 - 16px / 1em top and bottom padding for navigation elements
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Vertical spacing between navigation items"] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/layout/navigation-left-spacing-vertical.svg)
 {% endfigure %}
@@ -107,7 +107,7 @@ Use the left navigation component for web applications, unless there is a firm i
 ## Tertiary left navigation
 
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### When to use
 
@@ -115,7 +115,7 @@ If you have a very large information architecture, you can use tertiary navigati
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Tertiary navigation example"] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/layout/navigation-left-tertiary.svg)
 {% endfigure %}
@@ -127,7 +127,7 @@ If you have a very large information architecture, you can use tertiary navigati
 
 <section class="static-section" markdown="1">
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8 hxOffset-4" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg hxOffset-4" %}
 {% figure [caption:"Tertiary navigation example with specs"] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/layout/navigation-left-tertiary-specs.svg)
 {% endfigure %}

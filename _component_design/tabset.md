@@ -21,7 +21,7 @@ helix-ui-javascript: true
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Problems solved
 
@@ -41,7 +41,7 @@ helix-ui-javascript: true
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"A generic tabset"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/content-areas/tabs/tabs-lorem-ipsum.svg)
@@ -59,7 +59,7 @@ helix-ui-javascript: true
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Tab menu
 
@@ -67,7 +67,7 @@ The default layout must always have the left-most tab selected. In the example i
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Tab menu structure"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/content-areas/tabs/tabs-menu.svg)
@@ -83,7 +83,7 @@ The default layout must always have the left-most tab selected. In the example i
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Tab content area
 
@@ -91,7 +91,7 @@ Pad the top and bottom of the content area by 24px. Pad the sides of the content
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Tab content area structure"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/content-areas/tabs/tabs-content-area.svg)
@@ -109,7 +109,7 @@ Pad the top and bottom of the content area by 24px. Pad the sides of the content
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Hover state
 
@@ -117,7 +117,7 @@ Hovering over another tab changes the color of the text. Hovering off the tab ch
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Tab hover state"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/content-areas/tabs/tabs-hover-state.svg)
@@ -133,7 +133,7 @@ Hovering over another tab changes the color of the text. Hovering off the tab ch
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Pressed state
 
@@ -141,7 +141,7 @@ Clicking the text on the tab changes the color by a few shades to visually confi
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Tab pressed state"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/content-areas/tabs/tabs-pressed-state.svg)
@@ -157,7 +157,7 @@ Clicking the text on the tab changes the color by a few shades to visually confi
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Zero state
 
@@ -165,7 +165,7 @@ Zero state messaging is centered both horizontally and vertically. Use a minimum
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Tab zero state"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/content-areas/tabs/tabs-zero-state.svg)

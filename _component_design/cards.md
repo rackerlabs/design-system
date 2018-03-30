@@ -21,7 +21,7 @@ helix-ui-javascript: false
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### When to use
 
@@ -33,7 +33,7 @@ Cards should be uniform in size. Don’t overcrowd your card. It is not a Dashbo
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [class:"image bg-light border"] %}
  ![]({{site.url}}/assets/images/components/content-areas/cards/cards-hero.png){:width="600px"}
 {% endfigure %}
@@ -48,7 +48,7 @@ Cards should be uniform in size. Don’t overcrowd your card. It is not a Dashbo
 <section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Default layout
 
@@ -62,7 +62,7 @@ The card pattern is composed of the following three elements:
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [class:"image bg-light border"] %}
  ![]({{site.url}}/assets/images/components/content-areas/cards/card-default.png){:width="611px"}
 {% endfigure %}
@@ -74,7 +74,7 @@ The card pattern is composed of the following three elements:
 <section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Spacing
 
@@ -85,7 +85,7 @@ Small and large spacing values can be used for card variations but should not be
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [class:"image bg-light border"] %}
  ![]({{site.url}}/assets/images/components/content-areas/cards/card-spacing.png){:width="611px"}
 {% endfigure %}
@@ -97,7 +97,7 @@ Small and large spacing values can be used for card variations but should not be
 <section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Spacing
 
@@ -107,7 +107,7 @@ Small and large spacing values can be used for card variations but should not be
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [class:"image bg-light border"] %}
  ![]({{site.url}}/assets/images/components/content-areas/cards/card-spacing.png){:width="611px"}
 {% endfigure %}
@@ -121,7 +121,7 @@ Small and large spacing values can be used for card variations but should not be
 <section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Grid
 
@@ -132,7 +132,7 @@ Cards are applied to the helix-grid and have a variable width and height based o
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [class:"image bg-light border"] %}
  ![]({{site.url}}/assets/images/components/content-areas/cards/card-grid.png){:width="611px"}
 {% endfigure %}
@@ -144,7 +144,7 @@ Cards are applied to the helix-grid and have a variable width and height based o
 <section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Offset
 
@@ -152,7 +152,7 @@ Cards are applied to the helix-grid and have a variable width and height based o
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [class:"image bg-light border"] %}
  ![]({{site.url}}/assets/images/components/content-areas/cards/card-grid-offset.png){:width="624px"}
 {% endfigure %}
@@ -164,7 +164,7 @@ Cards are applied to the helix-grid and have a variable width and height based o
 <section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Card use
 
@@ -172,7 +172,7 @@ Cards are applied to the helix-grid and have a variable width and height based o
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [class:"image bg-light border"] %}
  ![]({{site.url}}/assets/images/components/content-areas/cards/card-use.png){:width="611px"}
 {% endfigure %}
@@ -186,7 +186,7 @@ Cards are applied to the helix-grid and have a variable width and height based o
 <section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Segemented card
 
@@ -200,7 +200,7 @@ Cards the use all three of the underlying elements are referred to as a segmente
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [class:"image bg-light border"] %}
  ![]({{site.url}}/assets/images/components/content-areas/cards/card-segmented.png){:width="611px"}
 {% endfigure %}
@@ -213,7 +213,7 @@ Cards the use all three of the underlying elements are referred to as a segmente
 <section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Open card
 
@@ -224,7 +224,7 @@ Open cards have less containing shapes than segmented cards and are therefore be
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [class:"image bg-light border"] %}
  ![]({{site.url}}/assets/images/components/content-areas/cards/card-open.png){:width="469px"}
 {% endfigure %}
@@ -236,7 +236,7 @@ Open cards have less containing shapes than segmented cards and are therefore be
 <section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Loading
 
@@ -245,7 +245,7 @@ If an individual card or set of cards is loading, use the Spinner Loading Indica
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [class:"image bg-light border"] %}
  ![]({{site.url}}/assets/images/components/content-areas/cards/card-loading.png){:width="469px"}
 {% endfigure %}
@@ -256,7 +256,7 @@ If an individual card or set of cards is loading, use the Spinner Loading Indica
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Empty card
 
@@ -267,7 +267,7 @@ The empty card button is based on the [chip] component and is created by removin
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [class:"image bg-light border"] %}
  ![]({{site.url}}/assets/images/components/content-areas/cards/card-add.png){:width="469px"}
 {% endfigure %}

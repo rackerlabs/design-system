@@ -19,7 +19,7 @@ last-modified: 2018-01-30
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### When to use
 
@@ -33,7 +33,7 @@ last-modified: 2018-01-30
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"The vertical stepper component"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/content-areas/vert-stepper/vert-stepper-hero.png){: width="1440px"}
@@ -49,7 +49,7 @@ last-modified: 2018-01-30
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Overview
 
@@ -66,7 +66,7 @@ The vertical stepper component is comprised of the following pieces:
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Vertical stepper composition (NOT TO SCALE)"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/content-areas/vert-stepper/vert-stepper-composition.png){: width="900px"}
@@ -84,7 +84,7 @@ The vertical stepper component is comprised of the following pieces:
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
+{% column left:"hxCol hxSpan-12 hxSpan-12-xs hxSpan-12-sm hxSpan-12-md hxSpan-12-lg" %}
 
 ### Spacing
 
@@ -102,7 +102,7 @@ The vertical stepper component is comprised of the following pieces:
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
+{% column left:"hxCol hxSpan-12 hxSpan-12-xs hxSpan-12-sm hxSpan-12-md hxSpan-12-lg" %}
 
 ### Specifications
 
@@ -120,7 +120,7 @@ The vertical stepper component is comprised of the following pieces:
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Stepper counter
 
@@ -129,7 +129,7 @@ The stepper counter displays the sequential number of a step as well as the stat
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Stepper counter states and specifications"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/content-areas/vert-stepper/vert-stepper-counter.png){: width="580px"}
@@ -145,13 +145,13 @@ The stepper counter displays the sequential number of a step as well as the stat
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Clickable area
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Stepper expand / collapse clickable areas"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/content-areas/vert-stepper/vert-stepper-clickable.png){: width="903px"}
@@ -167,7 +167,7 @@ The stepper counter displays the sequential number of a step as well as the stat
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
+{% column left:"hxCol hxSpan-12 hxSpan-12-xs hxSpan-12-sm hxSpan-12-md hxSpan-12-lg" %}
 
 ### Loading state
 
@@ -187,7 +187,7 @@ The stepper counter displays the sequential number of a step as well as the stat
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Submission controls
 
@@ -202,7 +202,7 @@ As the stepper pattern isolates each sequential step within a multistep process,
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Button displays based on currently displayed step."] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/content-areas/vert-stepper/vert-stepper-buttons.png){: width="580px"}
@@ -218,7 +218,7 @@ As the stepper pattern isolates each sequential step within a multistep process,
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Error states
 
@@ -228,7 +228,7 @@ However it may be possible that a completed step may encounter an error state in
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Error state applied to a sequential step within a vertical stepper"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/content-areas/vert-stepper/vert-stepper-error-1.png){: width="580px"}
@@ -245,7 +245,7 @@ However it may be possible that a completed step may encounter an error state in
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 #### Inline errors
 
@@ -253,7 +253,7 @@ For errors within an input and controls component error messages will take on th
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Error state applied to an input field within the content area"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/content-areas/vert-stepper/vert-stepper-error-2.png){: width="903px"}

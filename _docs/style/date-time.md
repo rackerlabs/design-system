@@ -12,13 +12,13 @@ resource: true
 ### Date
 
 <div class="hxRow">
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 Always use human-readable, international-friendly formatting when displaying date and time.
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Date format"] [class:"image bg-light border"] %}
 | Format | Examples |
@@ -37,7 +37,7 @@ Always use human-readable, international-friendly formatting when displaying dat
 ### Time
 
 <div class="hxRow" markdown="1">
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 #### Best Practices
 
@@ -54,7 +54,7 @@ Always use human-readable, international-friendly formatting when displaying dat
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Time format"] [class:"image bg-light border"] %}
 | Format | Examples |
@@ -72,7 +72,7 @@ Always use human-readable, international-friendly formatting when displaying dat
 <section class="static-section">
 
 <div class="hxRow" markdown="1">
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 #### Timestamp
 -   Add seconds or milliseconds to the time only when that level specificity is
@@ -80,7 +80,7 @@ Always use human-readable, international-friendly formatting when displaying dat
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Timestamp format"] [class:"image bg-light border"] %}
 | Format | Examples |
@@ -99,7 +99,7 @@ Always use human-readable, international-friendly formatting when displaying dat
 ### Timeago
 
 <div class="hxRow" markdown="1">
-{% column left:"hxCol-8" %}
+{% column left:"hxCol hxSpan-8" %}
 
 Timeago details the length of time that has elapsed since an event (for
 example, a monitoring alarm or ticket update). This is helpful for orienting

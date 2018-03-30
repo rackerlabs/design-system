@@ -22,7 +22,7 @@ helix-ui-javascript: false
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 Use drop-downs for selecting a single option from a known list of options. Selecting one region on the Cloud Server create form is one example.
 
@@ -34,7 +34,7 @@ Use drop-downs for selecting a single option from a known list of options. Selec
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Drop-downs hero"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/content-areas/dropdowns/dropdowns-hero.svg)
@@ -52,7 +52,7 @@ Use drop-downs for selecting a single option from a known list of options. Selec
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Default layout
 
@@ -60,7 +60,7 @@ Drop-downs
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Default layout"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/content-areas/dropdowns/dropdowns-default-layout.svg)
@@ -76,7 +76,7 @@ Drop-downs
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Drop-down states
 
@@ -90,7 +90,7 @@ Drop-downs can be in the following states:
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Drop-downs states."] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/content-areas/dropdowns/dropdowns-states.svg)

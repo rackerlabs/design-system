@@ -21,7 +21,7 @@ last-modified: 2017-12-11
 ## Introduction
 
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### When to use
 
@@ -29,7 +29,7 @@ For additional flexibility, you can use top navigation elements. However, applic
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:""] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/layout/navigation-top.svg)
 {% endfigure %}
@@ -43,7 +43,7 @@ For additional flexibility, you can use top navigation elements. However, applic
 ## Specifications
 
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Style
 
@@ -54,7 +54,7 @@ For additional flexibility, you can use top navigation elements. However, applic
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:""] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/layout/navigation-top-color-type.svg)
 {% endfigure %}
@@ -66,7 +66,7 @@ For additional flexibility, you can use top navigation elements. However, applic
 <section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Spacing
 
@@ -80,7 +80,7 @@ For additional flexibility, you can use top navigation elements. However, applic
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Vertical padding for primary navigation items"] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/layout/navigation-top-spacing-vertical.svg)
 {% endfigure %}
@@ -92,7 +92,7 @@ For additional flexibility, you can use top navigation elements. However, applic
 <section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 - The navigation bar extends across 100% of the view width.
 - Navigation wraps inside the navigation bar with 20px (1.25 em) padding on either side.
@@ -100,7 +100,7 @@ For additional flexibility, you can use top navigation elements. However, applic
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Horizontal padding specs for primary navigation items"] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/layout/navigation-top-spacing-horizontal.svg)
 {% endfigure %}
@@ -114,7 +114,7 @@ For additional flexibility, you can use top navigation elements. However, applic
 ## Drop-down menu
 
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Style specifications
 
@@ -132,7 +132,7 @@ Drop-down menus display secondary navigation elements below their primary naviga
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Drop-down font specs"] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/layout/navigation-dropdown-color-type.svg)
 {% endfigure %}
@@ -144,7 +144,7 @@ Drop-down menus display secondary navigation elements below their primary naviga
 <section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Spacing specifications
 
@@ -157,7 +157,7 @@ Drop-down menus display secondary navigation elements below their primary naviga
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:""] [class:"image bg-light border"] %}
 ![]({{site.cdn_url}}/img/layout/navigation-dropdown-spacing-vertical.svg)
 {% endfigure %}
