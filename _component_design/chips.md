@@ -4,7 +4,7 @@ parent: Content Areas
 layout: component
 category: Components
 usage: >
-  Chips represent a conceptual unit, such as a user, a device, a filter term, or a chunk of metadata and provide the user with the visual understanding of this conceptual unit as well as the ability to interact with them.
+  Chips represent a block of information, such as a user, a device, a filter term, or metadata. Chips provide the user with a visual understanding of the information, and the ability to interact with it. Contact information and tags are common types of chips.
 preview-image: preview-images/chip.svg
 resource: true
 status: stable
@@ -22,8 +22,6 @@ helix-ui-javascript: false
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ## When to use
-
-Chips represent a block of information, such as a user, a device, a filter term, or metadata. Chips provide the user with a visual understanding of the information, and the ability to interact with it. Contact information and tags are common types of chips.
 
 Chips are best used when indicating a list of items that might be part of a different workflow. For example, use chips when users add or remove requestors to or from a ticket.
 
