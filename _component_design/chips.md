@@ -23,11 +23,11 @@ helix-ui-javascript: false
 
 ## When to use
 
-Chips are best used when indicating a list of items that might be part of a different workflow. For example, use chips when users add or remove requestors to or from a ticket.
+Use chips to indicate that a list of items is part of a different workflow. For example, use chips when users add or remove requestors to or from a ticket.
 
 ## Best practices
 
-Consider the following best practices when designing a chip:
+Consider the following best practices when constructing a chip:
 
 - Avoid using chips in multiple locations on a page.
 - Label the chip so that the user can identify the item represented by the chip.
