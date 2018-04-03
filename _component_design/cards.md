@@ -4,7 +4,9 @@ parent: Content Areas
 layout: component
 category: Components
 usage: >
-  Cards are good metaphors for cards in the real world. They are versatile, there can be many, and they allow us to see important information before digging in. As a content area, they can contain any kind of information.
+A card is a user interface element that contains summary information and provides users the option to navigate to more detailed information. A card can contain content comprised of different elements, such as text, pictures, and UI controls.
+
+In contrast to the Lists pattern, cards allow the user to visually distinguish between sets of information.
 preview-image: preview-images/cards.svg
 status: in-progress
 resource: true
@@ -12,12 +14,6 @@ last-modified: 2018-04-02
 helix-ui-css: false
 helix-ui-javascript: false
 ---
-
-A card is a user interface element that contains summary information and provides users the option to navigate to more detailed information. A card can contain content comprised of different elements, such as text, pictures, and UI controls.
-
-In contrast to the Lists pattern, cards allow the user to visually distinguish between sets of information. Because users use cards in the real world, cards reflect a familiar metaphor and carry the expectation they are easy to use.
-
-cards reflect a familiar pattern Cards align with a familiar metaphor
 
 {% include toc.html %}
 
@@ -67,9 +63,9 @@ Use the following specifications when constructing cards.
 
 The card pattern is composed of the following three elements:
 
-- **Header (optional):** The header sets the context for a card component and allows action on the card through the application of icons to it.
-- **Body (required):** The body contains the primary content associated with the card. The body section details the underlying object, of which the card is representing to the user.
-- **Footer (optional):** The footer serves to provide users with the calls to action that a user need take upon a card when applicable.
+- **Header (optional):** The header establishes the context for a card component and contains icons (such as a cog) that allow the user to take action.
+- **Body (required):** The body contains the primary content associated with the card. The body section details the underlying object represented by the card.
+- **Footer (optional):** The footer provides calls to action that a user can take.
 
 
 {% endcolumn %}
@@ -111,7 +107,7 @@ Cards are applied to the helix-grid and have a variable width and height based o
 <div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-In instances where only few cards are present, a designer may choose to offset the location of the first card in a row for aesthetic purposes. For more information see the [helix-ui grid](https://rackerlabs.github.io/helix-ui/components/grid/)
+For aesthetic purposes and in instances where only few cards are present, you can offset the location of the first card in a row. For more information see the [helix-ui grid](https://rackerlabs.github.io/helix-ui/components/grid/)
 
 {% endcolumn %}
 
@@ -144,7 +140,7 @@ In instances where only few cards are present, a designer may choose to offset t
 
 Each section of a card uses medium container spacing, 20px, by default.
 
-Small and large spacing values can be used for card variations but should not be mixed and matched within a layout or card.
+Small and large spacing values can be used for card variations, but should not be mixed and matched within a layout or card.
 
 {% endcolumn %}
 
@@ -191,9 +187,9 @@ If an individual card or set of cards is loading, use the Spinner Loading Indica
 
 ### Empty card
 
-When the card grid is customizable by the user the Empty Card is where the user can add a new card.
+The empty card provides a space for a user to add a new card.
 
-The empty card button is based on the [chip] component and is created by removing the fill of a chip, adding a dotted stroke to the containing shape, and overlaying a helix plus icon
+The empty card button is based on the [chip] (https://rackerlabs.github.io/helix-ui/components/chips/) component and is created by removing the fill of a chip, adding a dotted stroke to the containing shape, and overlaying a helix plus icon.
 
 
 {% endcolumn %}
@@ -208,13 +204,13 @@ The empty card button is based on the [chip] component and is created by removin
 
 ## Sample: Segemented card
 
-Cards the use all three of the underlying elements are referred to as a segmented card.
+A segmented card makes use of all three underlying elements. In the following samples:
 
-- **The header:** may contain icons for card properties, card selection, duplication, deletion etc.
+- the **header** contains text that provides the context for the card and a cog that enables a user to take action.
 
-- **The body:** contains the meat of the card content. It contains some combination of text, images, icons, graphics or visualizations that detail the underlying object it represents.
+- the **body** contains a combination of text, images, icons, graphics or visualizations that detail the underlying object the card represents.
 
-- **The footer:** houses calls for a user to act on a card through the use of buttons or links.
+- the **footer** contains button and link calls to action.
 
 {% endcolumn %}
 
