@@ -19,3 +19,6 @@ tar_staging.sh
 package.tgz
 
 design-system
+
+# rbenv
+.ruby-version
