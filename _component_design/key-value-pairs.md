@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/key-value.svg
 resource: true
 status: stable
-last-modified: 2017-11-07
+last-modified: 2018-03-01
 helix-ui-css: true
 helix-ui-javascript: true
 ---
@@ -17,24 +17,26 @@ helix-ui-javascript: true
 
 <section class="static-section" markdown="1">
 
-## Introduction
-
 <div class="hxRow" markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-### When to use
+## When to use
 
-Use key-value pairs when a key (label) needs either text or a visual display of that key’s corresponding value (data).
+A key-value pair is a group of two related data items. Key-value pairs display a label (the key) with the corresponding data (the value). Color and alignment of key-value pairs allow the user to scan the page quickly for relevant data.
 
-### Best practices
+Use key-value pairs when a key has a corresponding value that can be displayed visually or with text.
+
+## Best practices
+
+Consider the following best practices when designing key-value pairs:
 
 - Ensure the key (label) corresponds with the data (value).
 - Limit key-value pairs to one line.
 - Follow the Helix grid guidelines for spacing and placement.
 - Use icons sparingly.
-- Use the vertical key pattern if key-value pair sections are arranged on the page side by side.
-- Consider breaking key-value pairs into subgroups if there are more than five sets of pairs.
+- Use the vertical key pattern if key-value pair sections are arranged on the page side-by-side.
+- If there are more than five sets of key-value pairs, consider dividing pairs into subgroups.
 
 {% endcolumn %}
 
@@ -52,15 +54,13 @@ Use key-value pairs when a key (label) needs either text or a visual display of 
 
 <section class="static-section" markdown="1">
 
-## Specifications and states
-
 <div class="hxRow" markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-### Default layout
+## Default layout
 
-Key-value pairs are contained in the body of the page by default. Key labels such as "Ticket ID" display on the left and are right-aligned. Data values such as "Summary" display on the right and are left-aligned.
+By default, key-value pairs appear in the body of a page. Key labels (for example, **Ticket ID**) are displayed on the left and are right-aligned. Data values (for example, **Summary**) are displayed on the right and are left-aligned.
 
 To determine the indentation of key-value pairs, use two columns on the Helix grid for key labels and four columns for data values. Space between the key labels and data values must align with the grid gutter between the second and third columns.
 
@@ -84,9 +84,9 @@ To determine the indentation of key-value pairs, use two columns on the Helix gr
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-### Two lines
+## Two line layout
 
-In certain cases, key-value pair text can wrap to two lines. We recommend formatting key labels across two columns and data  values across four columns.
+In some cases, key-value pair text wraps to two lines. We recommend formatting key labels across two columns and data values across four columns.
 
 {% endcolumn %}
 
@@ -108,7 +108,7 @@ In certain cases, key-value pair text can wrap to two lines. We recommend format
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-### Other elements
+## Other elements
 
 You can use icons, compact tertiary buttons, and text links in key-value pairs.
 
@@ -132,9 +132,9 @@ You can use icons, compact tertiary buttons, and text links in key-value pairs.
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-### Loading state
+## Loading state
 
-If a data value is still being called, list the key label, and then the word "Loading" followed by an ellipses for the data value.
+When a data value loads, the system should display the key label and the word **Loading...** (ellipses included) in the data value field.
 
 {% endcolumn %}
 
@@ -156,9 +156,9 @@ If a data value is still being called, list the key label, and then the word "Lo
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-### Vertical key values
+## Vertical key values
 
-If multiple key-value pairs are listed next to each other on the body of the page, use vertical key-value pairs. Vertical key-value pairs list the key label above the data value at a maximum width of four columns on the Helix grid. Do not place more than three vertical key-value pairs on the page.
+Use vertical key-value pairs when you position multiple pairs beside each other on the body of a page. Vertical key-value pairs list the key label above the data value at a maximum width of four columns on the Helix grid. Do not place more than three vertical key-value pairs on a page.
 
 {% endcolumn %}
 
