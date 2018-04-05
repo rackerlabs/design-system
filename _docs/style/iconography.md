@@ -24,10 +24,10 @@ helix-ui-javascript: true
 
 These guidelines are not exhaustive, and they are not necessarily applicable to every situation. However, they do cover the major areas for concern when using icons in your design:
 
-- Consider whether adding an icon to your interface increases usability and clarity. 
-- Use them to communicate status or to help differeniate objects in a list.
-- Properly used icons make it easier to intuit an experience. 
-- Do not use icons as aesthetic decoration, but rather for communication. 
+- Consider whether adding an icon to your interface increases usability and clarity.
+- Use them to communicate status or to help differentiate objects in a list.
+- Properly used icons make it easier to intuit an experience.
+- Do not use icons as aesthetic decoration, but rather for communication.
 - Avoid obscure metaphors, opting for text labels or annotations instead.
 - The more icons you use, the less attention they draw.
 
@@ -151,6 +151,81 @@ The following icons should only be used for indicating keyboard commands. Avoid 
 </div>
 </section>
 
+<section class="static-section"  markdown="1">
+
+### Logos
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
+
+In addition to the icons provided by Helix, designers may also require access to Rackspace brand assets while creating an interface. These assets cannot be stored within a public github repository for legal reasons. These assets instead will need to be sourced from their official CDN link.
+
+Rackspace US, Inc. retains copyright and/or applicable rights to all text and graphic images supplied on the Rackspace websites. For additional information see [Copyrights & Trademarks](https://www.rackspace.com/information/legal/copyrights_trademarks)
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section"  markdown="1">
+
+<div class="hxRow" markdown="1">
+
+
+{% column right:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+<!-- Do not use the embed tag on this image when we refactor SVGs -->
+{% figure [caption: "<a target='_blank' href='http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/fanatiguy-black.svg'>Fanatiguy - Black</a>"][class:"image bg-light border"] %}
+![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/fanatiguy-black.svg){:width="100px"}
+{% endfigure %}
+
+{% endcolumn %}
+
+{% column right:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+<!-- Do not use the embed tag on this image when we refactor SVGs -->
+{% figure [caption: "<a target='_blank' href='http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/fanatiguy-color.svg'>Fanatiguy - Color</a>"][class:"image bg-light border"] %}
+![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/fanatiguy-color.svg){:width="100px"}
+{% endfigure %}
+
+{% endcolumn %}
+
+{% column right:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+<!-- Do not use the embed tag on this image when we refactor SVGs -->
+{% figure [caption: "<a target='_blank' href='http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/fanatiguy-white.svg'>Fanatiguy - White</a>"][class:"image bg-dark border"] %}
+![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/fanatiguy-white.svg){:width="100px"}
+{% endfigure %}
+
+{% endcolumn %}
+
+{% column right:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+<!-- Do not use the embed tag on this image when we refactor SVGs -->
+{% figure [caption:"<a target='_blank' href='http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/corporate-logo-black.svg'>Rackspace logo - Black</a>"][class:"image bg-light border"] %}
+![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/corporate-logo-black.svg){:width="286px"}
+{% endfigure %}
+
+{% endcolumn %}
+
+{% column right:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+<!-- Do not use the embed tag on this image when we refactor SVGs -->
+{% figure [caption:"<a target='_blank' href='http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/corporate-logo-color.svg'>Rackspace logo - Color</a>"][class:"image bg-light border"] %}
+![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/corporate-logo-color.svg){:width="286px"}
+{% endfigure %}
+
+{% endcolumn %}
+
+{% column right:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+<!-- Do not use the embed tag on this image when we refactor SVGs -->
+{% figure [caption:"<a target='_blank' href='http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/corporate-logo-white.svg'>Rackspace logo - White</a>"][class:"image bg-dark border"] %}
+![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/corporate-logo-white.svg){:width="286px"}
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
 ## Specifications
 
 <section class="static-section" markdown="1">
@@ -185,7 +260,7 @@ The Helix icon sets natural size is 16x16px. This is referred to as a base size.
 
 ### Color
 
-Helix icon colors are determined by the background color and in most cases correspond with text color (except for status icons). Refer tot he values in the table to maintain a 4.51 minimum contrast ratio. 
+Helix icon colors are determined by the background color and in most cases correspond with text color (except for status icons). Refer tot he values in the table to maintain a 4.51 minimum contrast ratio.
 
 {% endcolumn %}
 
@@ -209,7 +284,7 @@ Helix icon colors are determined by the background color and in most cases corre
 
 ### Status icon colors
 
-Status icons can be used to provide checks, errors, and warnings in forms. They also can be used to draw users' attention to statuses or alert messages. 
+Status icons can be used to provide checks, errors, and warnings in forms. They also can be used to draw users' attention to statuses or alert messages.
 
 {% endcolumn %}
 
@@ -283,10 +358,10 @@ Keyline shapes are the foundation of the grid. By using these core shapes as gui
 </section>
 
 <section class="static-section"  markdown="1">
- 
+
 ### Silhouette
 
-<div class="hxRow" markdown="1"> 
+<div class="hxRow" markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
@@ -314,9 +389,9 @@ Keyline shapes are the foundation of the grid. By using these core shapes as gui
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-Icons of the same size should have the same visual weight. 
+Icons of the same size should have the same visual weight.
 
-- Use a balance of positive and negative space to create the icon shape. 
+- Use a balance of positive and negative space to create the icon shape.
 
 {% endcolumn %}
 
@@ -331,4 +406,3 @@ Icons of the same size should have the same visual weight.
 </div>
 
 </section>
-

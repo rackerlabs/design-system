@@ -60,8 +60,8 @@ The vertical stepper component is comprised of the following pieces:
 - Step counter
 - Step dividers
 - Step revealer
-- Step selection	
-- Step title	
+- Step selection
+- Step title
 
 
 {% endcolumn %}
@@ -124,7 +124,7 @@ The vertical stepper component is comprised of the following pieces:
 
 ### Stepper counter
 
-The stepper counter displays the sequential number of a step as well as the status of the step. 
+The stepper counter displays the sequential number of a step as well as the status of the step.
 
 
 {% endcolumn %}
@@ -193,7 +193,7 @@ The stepper counter displays the sequential number of a step as well as the stat
 
 As the stepper pattern isolates each sequential step within a multistep process, a variance in the buttons displayed within each step will become apparent to the user. Dependent on which sequential step is displayed, the following buttons may be displayed.
 
-**First step:** Displays a primary button to move to the next step and tertiary button to cancel the form. 
+**First step:** Displays a primary button to move to the next step and tertiary button to cancel the form.
 
 **Intermediate step(s):** Displays primary and secondary buttons to move between steps and a tertiary button to cancel the form.
 
@@ -222,9 +222,9 @@ As the stepper pattern isolates each sequential step within a multistep process,
 
 ### Error states
 
-Error states for the stepper will generally occur inline within the scope of the input and controls component used within the content area (see below). 
+Error states for the stepper will generally occur inline within the scope of the input and controls component used within the content area (see below).
 
-However it may be possible that a completed step may encounter an error state in certain edge cases. For example, when a user paths back and forth between sections, one section may become invalidated by a modified value in a pervious section. In these cases the error icon and associated message will be applied to the selected value in that row (see right). 
+However it may be possible that a completed step may encounter an error state in certain edge cases. For example, when a user paths back and forth between sections, one section may become invalidated by a modified value in a pervious section. In these cases the error icon and associated message will be applied to the selected value in that row (see right).
 
 {% endcolumn %}
 

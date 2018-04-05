@@ -151,9 +151,12 @@ pre {
 .image {
   text-align: center;
   height: 100%;
-  padding: 3rem 2rem;
+  padding: 2rem;
   &.bg-light {
     background-color: $grey25;
+  }
+  &.bg-dark {
+    background-color: $grey950;
   }
   &.border {
     border: 1px solid $grey400;

@@ -15,7 +15,8 @@ var dict = {
   "Selectors": "selectors",
   "Processing": "processing",
   "Search and Filters": "search-and-filters",
-  "Tables": "tables"
+  "Tables": "tables",
+  "Search Results": "search"
 };
 
 // borrowed from https://github.com/cferdinandi/getSiblings
