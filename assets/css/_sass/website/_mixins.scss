@@ -11,6 +11,7 @@
 @mixin animation($animate) {
   -webkit-animation: $animate;
      -moz-animation: $animate;
+       -o-animation: $animate;
           animation: $animate;
 }
 // @mixin width-calc($calc){
