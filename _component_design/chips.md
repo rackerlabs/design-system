@@ -78,7 +78,17 @@ A chip is a single circle that contains a preview of the item the chip represent
 
 ### Style
 
-Style text here.
+Use the following redline specifications when constructing chips:
+
+- **Height:** 40px
+- **Width:** 40px
+- Padding between a chip and surrounding elements is 8px
+
+If you are using a text identifier:
+
+- Use 20px font size
+- Color the text **#ffffff**
+- Color the background **#9b9b9b**
 
 {% endcolumn %}
 
