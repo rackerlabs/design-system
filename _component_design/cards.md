@@ -205,7 +205,7 @@ A segmented card makes use of all three underlying elements. In the following sa
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [class:"image bg-light border"] %}
 
-<embed src="{{site.url}}/assets/images/components/content-areas/cards/card-segmented.svg"/>
+![]({{site.url}}/assets/images/components/content-areas/cards/card-segmented.png){:width="469px"}
 
 {% endfigure %}
 {% endcolumn %}
