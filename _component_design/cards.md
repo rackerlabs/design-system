@@ -4,9 +4,9 @@ parent: Content Areas
 layout: component
 category: Components
 usage: >
-A card is a user interface element that contains summary information and provides users the option to navigate to more detailed information. A card can contain content comprised of different elements, such as text, pictures, and UI controls.
+  A card is a user interface element that contains summary information and provides users the option to navigate to more detailed information. A card can contain content comprised of different elements, such as text, pictures, and UI controls.
 
-In contrast to the Lists pattern, cards allow the user to visually distinguish between sets of information.
+  In contrast to the Lists pattern, cards allow the user to visually distinguish between sets of information.
 preview-image: preview-images/cards.svg
 status: in-progress
 resource: true
@@ -42,9 +42,7 @@ Use the following best practices when constructing cards:
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% figure [class:"image bg-light border"] %}
- ![]({{site.url}}/assets/images/components/content-areas/cards/cards-hero.png){:width="600px"}
-{% endfigure %}
+
 {% endcolumn %}
 
 </div>
@@ -125,6 +123,12 @@ For aesthetic purposes and in instances where only few cards are present, you ca
 <div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
+There is no limit to the number of cards that can be used, however, ensure the
+page use case justifies the data. For example, dashboards are meant to provide
+users with quick insights and clear paths forward to more robust data. Overusing
+cards data objects may have the opposite effect and leave users with to much to
+parse.
+
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
@@ -136,11 +140,17 @@ For aesthetic purposes and in instances where only few cards are present, you ca
 
 </section>
 
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
 ### Spacing
 
 Each section of a card uses medium container spacing, 20px, by default.
 
-Small and large spacing values can be used for card variations, but should not be mixed and matched within a layout or card.
+Small and large spacing values can be used for card variations, but should not
+be mixed and matched within a layout or card.
 
 {% endcolumn %}
 
@@ -160,10 +170,7 @@ Small and large spacing values can be used for card variations, but should not b
 
 ## States
 
-<section class="static-section" markdown="1">
-
-<div class="hxRow"  markdown="1">
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+Cards are presented to users in two primary states: loading and empty.
 
 ### Loading
 
@@ -179,10 +186,11 @@ If an individual card or set of cards is loading, use the Spinner Loading Indica
 {% endcolumn %}
 </div>
 
+</section>
+
 <section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
-
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Empty card
@@ -201,6 +209,12 @@ The empty card button is based on the [chip] (https://rackerlabs.github.io/helix
 {% endcolumn %}
 </div>
 
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ## Sample: Segemented card
 
