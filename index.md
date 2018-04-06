@@ -16,7 +16,7 @@ customers happy.
     <div class="card-bottom">
       <ul>
         <li><a href="{{site.url}}/status.html">Pattern Guidelines</a></li>
-        <li><a href="{{site.url}}/getting-started/design.html#sketch-resources">Sketch Resources </a></li>
+        <li><a href="{{site.url}}/getting-started/sketch-resources.html">Sketch Resources </a></li>
         <li><a href="{{site.url}}/getting-started/design.html">Quick Start Guide</a></li>
       </ul>
     </div>
