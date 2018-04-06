@@ -187,7 +187,7 @@ Tooltips will only appear after be activated by a trigger. Triggers come in a va
 
 - **Icon:** Use this trigger variation if a recognizable icon on the application informs a user that additional information is available for consumption if needed (for example, a **?** for help or a **$** for pricing).
 - **Table text:** This variation is used to reveal additional information within a table. By hiding information in tooltips in a table, the tables are easily consumable and only display additional information if required.
-    - **Note:** Can apply to both plain text cells and link text cells.
+    {% include note.html content="Can apply to both plain text cells and link text cells." %}
 - **Data visualization:** Use this trigger variation to present robust data sets aggregated into a data visualization.
 
 {% endcolumn %}
@@ -367,9 +367,9 @@ Use click enabled tooltips for smaller breakpoints and mobile designs. Tooltips 
 - **Hidden:** The base state of a tooltip is to be hidden until the trigger is clicked by the pointer.
 - **Displayed:** Tooltips enter the displayed state once the pointer has clicked the trigger element.
 - **Persist:** Clickable tooltips persist until manually removed by a user.
- - **Removal:** Tooltips re-enter the hidden state once the pointer has either:
-  - re-clicked the trigger element.
-  - clicked outside the tooltip.
+- **Removal:** Tooltips re-enter the hidden state once the pointer has either:
+    - re-clicked the trigger element.
+    - clicked outside the tooltip.
 
 {% endcolumn %}
 

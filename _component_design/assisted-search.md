@@ -8,9 +8,9 @@ usage: >
 preview-image: preview-images/assisted-search.svg
 resource: true
 status: stable
-helix-ui-css: false
-helix-ui-javascript: false
-last-modified: 2018-02-12
+helix-ui-css: true
+helix-ui-javascript: true
+last-modified: 2018-04-06
 ---
 
 {% include toc.html %}
