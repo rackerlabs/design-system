@@ -21,13 +21,13 @@ alerts, or data visualizations.
       <div class="hxCol hxSpan-12-xs hxSpan-4-sm hxSpan-2-md">
         {%for value_hash in color.colors%}
         {%assign value=value_hash[1]%}
-        <div class="ws-{{value.class}}-swatch" style="background-color:{{value.value}}">
+        <div class="{{value.class}}-swatch" style="background-color:{{value.value}}">
           {%if forloop.first == true%}
-          <div class="ws-color-name">{{color.name}}</div>
+          <div class="color-name">{{color.name}}</div>
           {%endif%}
-          <div class="ws-{{value.type}}-type">
+          <div class="{{value.type}}-type">
             {{value.number}}<br>
-            <span class="ws-smaller-color-type">{{value.value}}</span>
+            <span class="smaller-color-type">{{value.value}}</span>
           </div>
         </div>
         {%endfor%}
@@ -48,13 +48,13 @@ illustrations. They should never overpower the primary colors.
       <div class="hxCol hxSpan-12-xs hxSpan-4-sm hxSpan-2-md">
         {%for value_hash in color2.colors%}
         {%assign value2=value_hash[1]%}
-        <div class="ws-{{value2.class}}-swatch" style="background-color:{{value2.value}}">
+        <div class="{{value2.class}}-swatch" style="background-color:{{value2.value}}">
           {%if forloop.first == true%}
-          <div class="ws-color-name">{{color2.name}}</div>
+          <div class="color-name">{{color2.name}}</div>
           {%endif%}
-          <div class="ws-{{value2.type}}-type">
+          <div class="{{value2.type}}-type">
             {{value2.number}}<br>
-            <span class="ws-smaller-color-type">{{value2.value}}</span>
+            <span class="smaller-color-type">{{value2.value}}</span>
           </div>
         </div>
         {%endfor%}

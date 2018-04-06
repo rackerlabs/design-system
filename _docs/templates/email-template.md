@@ -408,9 +408,7 @@ In general, write in active voice rather than passive voice.
 
 Active voice sentences clarify the performer of an action and are easier to understand than passive-voice sentences. Passive voice is usually less engaging and more complicated than active voice. When you use the passive voice, the actions and responses of the software can be difficult to distinguish from those of the user. Also, passive voice usually requires more words than active voice.
 
-**Note:** If you want to write Rackspace content that is clear and consistent
-and that helps customers accomplish their goals, use the
-[basic writing guidelines](http://rackerlabs.github.io/docs-rackspace/style-guide/basic-writing-guidelines.html).
+{% include note.html content="If you want to write Rackspace content that is clear and consistent and that helps customers accomplish their goals, use the [basic writing guidelines](http://rackerlabs.github.io/docs-rackspace/style-guide/basic-writing-guidelines.html)." %}
 
 {% endcolumn %}
 

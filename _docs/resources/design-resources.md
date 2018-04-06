@@ -47,7 +47,7 @@ it, you'll need to go to O'Fixies to get it installed.
 -   Sync the folder to create a second OneDrive folder on your computer.
     This adds the folder as a second location to your OneDrive app.
 
-    {%- include tip.html content="DO NOT rename these folders." -%}
+    {%- include warning.html content="DO NOT rename these folders." -%}
 {%- endcolumn -%}
 {%- column right:"hxCol hxSpan-7-md" -%}
 <embed src="http://design.rax.io/wp-content/uploads/2016/11/m9A3HvMcm91MlitWqEa1SrO4OZBmpVb8Rt.png"/>
