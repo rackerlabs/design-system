@@ -36,10 +36,6 @@ Consider the following best practices when constructing a chip:
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
-{% figure [caption:"The chip component"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/chips/chips-hero.png){: width="1440px"}
-{% endfigure %}
-
 {% endcolumn %}
 
 </div>
