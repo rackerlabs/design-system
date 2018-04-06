@@ -47,7 +47,7 @@
     text-align: center;
     overflowY: scroll;
     flex: 1;
-    margin-left: 15rem;
+    // margin-left: 15rem;
 };
   background-image: url(../images/Helix_Homepage_Pattern.svg);
   background-color: $grey25;
@@ -173,6 +173,7 @@
 @include phone {
   .overview-content {
     max-width: $tablet-width;
+    margin-left: 0rem;
   }
   .overview-footer {
     max-width: $tablet-width;
@@ -181,16 +182,18 @@
 @include tablet {
   .overview-content {
     max-width: $tablet-width;
+    margin-left: 0rem;
   }
   .overview-footer {
     max-width: $tablet-width;
   }
 }
 @include desktop {
-  // .overview-content {
-  //   padding: 0px 20% 0px 10%;
-  // }
-  // .overview-footer {
-  //   padding: 0px 20% 0px 10%;
-  // }
+  .overview-content {
+    padding: 0px 20% 0px 10%;
+    margin-left: 15rem;
+  }
+  .overview-footer {
+    padding: 0px 20% 0px 10%;
+  }
 }

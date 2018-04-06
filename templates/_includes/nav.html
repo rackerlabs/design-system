@@ -1,42 +1,44 @@
-<nav class="hxApp__nav side">
-  <div class="logo"><a href="{{site.url}}/"><img src="{{site.cdn_url}}/img/helix_logo_nav.svg" class="logo" class="logo"></a></div>
-  {%- assign currenturl = page.url -%}
-  <div id="search-system">{%- include search-box.html -%}</div>
-  {%- for item in site.component_design -%}
-    {%- if page.title == item.title -%}
-      {%- assign itemparent = item.parent -%}
-    {%- endif -%}
-  {%- endfor -%}
-  <a href="{{site.url}}/" {%- if currenturl == "/" -%} class="current" {%- else -%} {%- endif -%}>HOME</a>
-  {%- for navItem in site.data.navigation -%}
-    {%- assign currentNav = navItem.name | slugify -%}
-    {%- if currentNav != "components" -%}
-      <hx-reveal {% if page.url contains currentNav %}open{% endif %}>
-        <header slot="summary">
-          {{navItem.display}}
-          <hx-icon class="toggle-icon" type="angle-down"></hx-icon>
-        </header>
-        {%- for collection in site.collections -%}
-          {%- assign theLabel = collection.label -%}
-          {%- for page in site.[theLabel] -%}
-            {%- if page.category == navItem.name and page.resource == true -%}
-              <a href="{{site.url}}{{page.url}}.html" {%- if currenturl contains page.url -%} class="current" {%- endif -%}>{{page.title}}</a>
-            {%- endif -%}
+<fake-hx-slide-nav>
+  <nav class="hxApp__nav side">
+    <div class="logo"><a href="{{site.url}}/"><img src="{{site.cdn_url}}/img/helix_logo_nav.svg" class="logo" class="logo"></a></div>
+    {%- assign currenturl = page.url -%}
+    <div id="search-system">{%- include search-box.html -%}</div>
+    {%- for item in site.component_design -%}
+      {%- if page.title == item.title -%}
+        {%- assign itemparent = item.parent -%}
+      {%- endif -%}
+    {%- endfor -%}
+    <a href="{{site.url}}/" {%- if currenturl == "/" -%} class="current" {%- else -%} {%- endif -%}>HOME</a>
+    {%- for navItem in site.data.navigation -%}
+      {%- assign currentNav = navItem.name | slugify -%}
+      {%- if currentNav != "components" -%}
+        <hx-reveal {% if page.url contains currentNav %}open{% endif %}>
+          <header slot="summary">
+            {{navItem.display}}
+            <hx-icon class="toggle-icon" type="angle-down"></hx-icon>
+          </header>
+          {%- for collection in site.collections -%}
+            {%- assign theLabel = collection.label -%}
+            {%- for page in site.[theLabel] -%}
+              {%- if page.category == navItem.name and page.resource == true -%}
+                <a href="{{site.url}}{{page.url}}.html" {%- if currenturl contains page.url -%} class="current" {%- endif -%}>{{page.title}}</a>
+              {%- endif -%}
+            {%- endfor -%}
           {%- endfor -%}
-        {%- endfor -%}
-      </hx-reveal>
-    {%- else -%}
-      <hx-reveal {% if page.url contains currentNav %}open{% endif %}>
-        <header slot="summary">
-          {{navItem.display}}
-          <hx-icon class="toggle-icon" type="angle-down"></hx-icon>
-        </header>
-        {%- for famItem in site.data.families -%}
-          {%- assign currentFam = famItem.parent | slugify -%}
-          <a href="{{site.url}}/components/{{currentFam}}.html" {%- if currenturl contains currentFam -%} class="current"{%- elsif page.parent contains famItem.parent -%} class="current"{%- elsif itemparent contains famItem.parent -%} class="current"{%- endif -%} id="{{currentFam}}">{{famItem.display}}</a>
-        {%- endfor -%}
-      </hx-reveal>
-    {%- endif -%}
-  {%- endfor -%}
-  <a href="{{site.url}}/status.html" {%- if currenturl == "/status" -%} class="current" {%- else -%} {%- endif -%}>STATUS</a>
-</nav>
+        </hx-reveal>
+      {%- else -%}
+        <hx-reveal {% if page.url contains currentNav %}open{% endif %}>
+          <header slot="summary">
+            {{navItem.display}}
+            <hx-icon class="toggle-icon" type="angle-down"></hx-icon>
+          </header>
+          {%- for famItem in site.data.families -%}
+            {%- assign currentFam = famItem.parent | slugify -%}
+            <a href="{{site.url}}/components/{{currentFam}}.html" {%- if currenturl contains currentFam -%} class="current"{%- elsif page.parent contains famItem.parent -%} class="current"{%- elsif itemparent contains famItem.parent -%} class="current"{%- endif -%} id="{{currentFam}}">{{famItem.display}}</a>
+          {%- endfor -%}
+        </hx-reveal>
+      {%- endif -%}
+    {%- endfor -%}
+    <a href="{{site.url}}/status.html" {%- if currenturl == "/status" -%} class="current" {%- else -%} {%- endif -%}>STATUS</a>
+  </nav>
+</fake-hx-slide-nav>

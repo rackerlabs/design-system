@@ -22,9 +22,10 @@
   </head>
   <body class="hxApp">
     <div class="hxApp__container page-wrapper">
-      {%- include nav.html -%}
+      <fake-hx-slide-nav class="m-slideIn">{%- include nav.html -%}</fake-hx-slide-nav>
       <main class="hxApp__content page-content">
         <div class="base-top-bar">
+          <button id="fakeHxSlide__button" class="b-slideIn">&#9776;</button>
           <div class="content-wrapper">
           <div class="hxRow">
             <nav class="hxBreadcrumb">
@@ -40,7 +41,6 @@
             </nav>
           </div>
         </div>
-      </div>
         {{ content }}
       </main>
     </div>

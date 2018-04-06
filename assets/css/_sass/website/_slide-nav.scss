@@ -1,0 +1,132 @@
+@include phone {
+  fake-hx-slide-nav {
+    position: absolute;
+    width: 240px;
+    background-color: black;
+    z-index: 999;
+    height: 100%;
+  }
+  #fakeHxSlide__button {
+    color: inherit;
+    background-color: inherit;
+    border: 0px;
+    margin: 0 0px;
+    font-size: 20px;
+    padding: 0px;
+    &:hover {
+      cursor: pointer;
+    }
+    &:focus {
+      outline: none;
+    }
+    float: left;
+    z-index: 998;
+  }
+  .m-slideIn {
+    visibility: hidden;
+    opacity: 0;
+    transition-property: transform visibility opacity;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+    transform: translateX(-240px);
+  }
+  .m-slideOut {
+    visibility: visible;
+    opacity: 1;
+    transition-property: transform visibility opacity;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+    transform: translateX(0px);
+  }
+  .b-slideIn {
+    transition-property: transform;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+    transform: translateX(10px);
+  }
+  .b-slideOut {
+    transition-property: transform;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+    transform: translateX(calc(100vw - 30px));
+  }
+}
+@include tablet {
+  fake-hx-slide-nav {
+    position: absolute;
+    width: 240px;
+    background-color: black;
+    z-index: 999;
+    height: 100%;
+  }
+  #fakeHxSlide__button {
+    color: inherit;
+    background-color: inherit;
+    border: 0px;
+    margin: 0 0px;
+    font-size: 20px;
+    padding: 0px;
+    &:hover {
+      cursor: pointer;
+    }
+    &:focus {
+      outline: none;
+    }
+    float: left;
+    z-index: 998;
+  }
+  .m-slideIn {
+    visibility: hidden;
+    opacity: 0;
+    transition-property: transform visibility opacity;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+    transform: translateX(-240px);
+  }
+  .m-slideOut {
+    visibility: visible;
+    opacity: 1;
+    transition-property: transform visibility opacity;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+    transform: translateX(0px);
+  }
+  .b-slideIn {
+    transition-property: transform;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+    transform: translateX(10px);
+  }
+  .b-slideOut {
+    transition-property: transform;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+    transform: translateX(calc(100vw - 30px));
+  }
+}
+@include desktop {
+  fake-hx-slide-nav {
+    visibility: visible;
+  }
+  #fakeHxSlide__button {
+    visibility: hidden;
+    float: left;
+    z-index: -1;
+  }
+  .m-slideIn {
+    visibility: visible;
+  }
+  .m-slideOut {
+    visibility: visible;
+  }
+  .b-slideIn {
+    visibility: hidden;
+    float: left;
+    z-index: -1;
+  }
+  .b-slideOut {
+    visibility: hidden;
+    float: left;
+    z-index: -1;
+  }
+}

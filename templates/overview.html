@@ -22,8 +22,9 @@
   </head>
   <body class="hxApp">
     <div class="hxApp__container overview-wrapper">
-      {%- include nav.html -%}
+      <fake-hx-slide-nav class="m-slideIn">{%- include nav.html -%}</fake-hx-slide-nav>
       <main class="hxApp__content overview-content">
+        <button id="fakeHxSlide__button" class="b-slideIn">&#9776;</button>
         <div class="main-logo"><img src="assets/images/Helix_Logo_Homepage.svg" class="main-logo"></div>
         <div class="overview-header display-font">{{ page.title }}</div>
         {{ content }}

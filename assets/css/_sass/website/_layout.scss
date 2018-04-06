@@ -57,7 +57,7 @@ nav.side {
     overflowY: scroll;
     flex: 1;
     padding: 0px 0px !important;
-    margin-left: 15rem;
+    // margin-left: 15rem;
   }
 };
 
@@ -68,7 +68,7 @@ nav.side {
   position: relative;
   max-width: 72rem;
   margin: 0 auto;
-  padding: 0 $paddingXL;
+  // padding: 0 $paddingXL;
   overflow: hidden;
 
   &:first-child {
@@ -274,5 +274,29 @@ pre {
 @media (min-width: 1280px) {
   .container-fluid {
     max-width: 1100px;
+  }
+}
+@include phone {
+  .page-wrapper {
+    margin-left: 0;
+  }
+  .content-wrapper {
+    padding: 0 $paddingM;
+  }
+}
+@include tablet {
+  .page-wrapper {
+    margin-left: 0;
+  }
+  .content-wrapper {
+    padding: 0 $paddingL;
+  }
+}
+@include desktop {
+  .page-wrapper {
+    margin-left: 15rem;
+  }
+  .content-wrapper {
+    padding: 0 $paddingXL;
   }
 }
