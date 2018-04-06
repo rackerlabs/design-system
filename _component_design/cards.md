@@ -21,7 +21,7 @@ helix-ui-javascript: false
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
 
 ## When to use
 
@@ -38,10 +38,6 @@ Use the following best practices when constructing cards:
 - Do not include too much information on a card. A card is not a Dashboard Card, which is a pattern that will be developed in the future.
 - Include only high-level information on a card, and link to more detailed information.
 - If the information is better presented in a list or table pattern, do not use cards. If you believe Card Grids appeal to some users, present both view options.
-
-{% endcolumn %}
-
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
 {% endcolumn %}
 
@@ -105,35 +101,13 @@ Cards are applied to the helix-grid and have a variable width and height based o
 <div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-For aesthetic purposes and in instances where only few cards are present, you can offset the location of the first card in a row. For more information see the [helix-ui grid](https://rackerlabs.github.io/helix-ui/components/grid/)
+For aesthetic purposes and in instances where only few cards are present, you can offset the location of the first card in a row. For more information see the [helix-ui grid](https://rackerlabs.github.io/helix-ui/components/grid/).
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [class:"image bg-light border"] %}
- ![]({{site.url}}/assets/images/components/content-areas/cards/card-grid-offset.png){:width="624px"}
-{% endfigure %}
-{% endcolumn %}
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow"  markdown="1">
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-
-There is no limit to the number of cards that can be used, however, ensure the
-page use case justifies the data. For example, dashboards are meant to provide
-users with quick insights and clear paths forward to more robust data. Overusing
-cards data objects may have the opposite effect and leave users with to much to
-parse.
-
-{% endcolumn %}
-
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% figure [class:"image bg-light border"] %}
- ![]({{site.url}}/assets/images/components/content-areas/cards/card-use.png){:width="611px"}
+ ![]({{site.url}}/assets/images/components/content-areas/cards/card-grid-offset.png){:width="611px"}
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -166,6 +140,7 @@ be mixed and matched within a layout or card.
 <section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
+
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ## States
@@ -199,7 +174,6 @@ The empty card provides a space for a user to add a new card.
 
 The empty card button is based on the [chip] (https://rackerlabs.github.io/helix-ui/components/chips/) component and is created by removing the fill of a chip, adding a dotted stroke to the containing shape, and overlaying a helix plus icon.
 
-
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
@@ -220,17 +194,17 @@ The empty card button is based on the [chip] (https://rackerlabs.github.io/helix
 
 A segmented card makes use of all three underlying elements. In the following samples:
 
-- the **header** contains text that provides the context for the card and a cog that enables a user to take action.
+- The **header** contains text that provides the context for the card and a cog that enables a user to take action.
 
-- the **body** contains a combination of text, images, icons, graphics or visualizations that detail the underlying object the card represents.
+- The **body** contains a combination of text, images, icons, graphics or visualizations that detail the underlying object the card represents.
 
-- the **footer** contains button and link calls to action.
+- The **footer** contains button and link calls to action.
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [class:"image bg-light border"] %}
- ![]({{site.url}}/assets/images/components/content-areas/cards/card-segmented.png){:width="611px"}
+ ![]({{site.url}}/assets/images/components/content-areas/cards/card-segmented.svg){:width="611px"}
 {% endfigure %}
 {% endcolumn %}
 </div>
