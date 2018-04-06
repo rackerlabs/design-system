@@ -175,25 +175,49 @@ Rackspace US, Inc. retains copyright and/or applicable rights to all text and gr
 
 
 {% column right:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-
-{% figure [caption: "<a target='_blank' href='http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/fanatiguy.svg'>Fanatiguy</a>"][class:"image bg-light border"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/fanatiguy.svg){:width="100px"}
+<!-- Do not use the embed tag on this image when we refactor SVGs -->
+{% figure [caption: "<a target='_blank' href='http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/fanatiguy-black.svg'>Fanatiguy - Black</a>"][class:"image bg-light border"] %}
+![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/fanatiguy-black.svg){:width="100px"}
 {% endfigure %}
 
 {% endcolumn %}
 
 {% column right:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-
-{% figure [caption:"<a target='_blank' href='http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/rs-logo.svg'>Rackspace logo - Gray</a>"][class:"image bg-light border center"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/rs-logo.svg){:width="286px"}
+<!-- Do not use the embed tag on this image when we refactor SVGs -->
+{% figure [caption: "<a target='_blank' href='http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/fanatiguy-color.svg'>Fanatiguy - Color</a>"][class:"image bg-light border"] %}
+![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/fanatiguy-color.svg){:width="100px"}
 {% endfigure %}
 
 {% endcolumn %}
 
 {% column right:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+<!-- Do not use the embed tag on this image when we refactor SVGs -->
+{% figure [caption: "<a target='_blank' href='http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/fanatiguy-white.svg'>Fanatiguy - White</a>"][class:"image bg-dark border"] %}
+![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/fanatiguy-white.svg){:width="100px"}
+{% endfigure %}
 
-{% figure [caption:"<a target='_blank' href='http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/rs-logo-white.svg'>Rackspace logo - White</a>"][class:"image bg-dark border center"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/rs-logo-white.svg){:width="286px"}
+{% endcolumn %}
+
+{% column right:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+<!-- Do not use the embed tag on this image when we refactor SVGs -->
+{% figure [caption:"<a target='_blank' href='http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/corporate-logo-black.svg'>Rackspace logo - Black</a>"][class:"image bg-light border"] %}
+![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/corporate-logo-black.svg){:width="286px"}
+{% endfigure %}
+
+{% endcolumn %}
+
+{% column right:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+<!-- Do not use the embed tag on this image when we refactor SVGs -->
+{% figure [caption:"<a target='_blank' href='http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/corporate-logo-color.svg'>Rackspace logo - Color</a>"][class:"image bg-light border"] %}
+![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/corporate-logo-color.svg){:width="286px"}
+{% endfigure %}
+
+{% endcolumn %}
+
+{% column right:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+<!-- Do not use the embed tag on this image when we refactor SVGs -->
+{% figure [caption:"<a target='_blank' href='http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/corporate-logo-white.svg'>Rackspace logo - White</a>"][class:"image bg-dark border"] %}
+![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/corporate-logo-white.svg){:width="286px"}
 {% endfigure %}
 
 {% endcolumn %}
