@@ -50,10 +50,6 @@ Consider the following best practices when constructing a chip:
 Refer to the following specifications when constructing chips.
 
 ### Composition
-Gap.
-
-### Style
-
 A chip is a single circle that contains a preview of the item the chip represents. The preview can consist of the following:
 
 - Letters to indicate the name
@@ -64,8 +60,32 @@ A chip is a single circle that contains a preview of the item the chip represent
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
-{% figure [caption:"Chip specifications"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/chips/chips-default.png){: width="580px"}
+{% figure [caption:"Chip composition"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/content-areas/chips/chips-composition.png){: width="580px"}
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### Style
+
+Style text here.
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
+{% figure [caption:"Chip style"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/content-areas/chips/chips-style.png){: width="580px"}
 {% endfigure %}
 
 {% endcolumn %}
