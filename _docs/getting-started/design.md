@@ -61,3 +61,17 @@ Familiarize yourself with the concepts that define the Helix language. Through t
 
 </div>
 </section>
+
+<section class="static-section" markdown="1">
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
+### Use the language
+
+Once you have familiarized yourself with the Helix language its time to start using it! The Helix team has created a collection of resources aimed at helping designers start designing or developing with Helix. This includes a sketch library, low-fidelity sticker sheet as well as `codepen` and `npm` resources. Find all this and more on the [resources page]({{site.baseurl}}/resources/index.html).
+
+{% endcolumn %}
+
+</div>
+</section>
