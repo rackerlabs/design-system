@@ -1,33 +1,13 @@
 ---
-title: Sketch Resources
+title: Sketch Library
 layout: docs
-category: Getting-Started
 status: stable
 resource: true
+category: resources
 last-modified: 2018-04-05
 usage: >
    The Helix team provides a rich set of preconfigured user interface (UI) components that you can use in Sketch design toolkit to design Rackspace Control Panels. These come in both high-fidelity (library) and low-fidelity variations (stickersheet).
 ---
-
-## Low fidelity stickersheet
-
-<section class="static-section" markdown="1">
-<div class="hxRow" markdown="1">
-
-{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-
-The best way to bring Helix components into your designs is with the Helix Sketch Sticker Sheet. You can copy and paste elements from this sticker sheet into your own Sketch documents to use in your designs. We recommend using this low-fi version sticker sheet when creating the initial designs for a project. This allows stakeholders and designers to focus on the higher-level experience without getting mired in the weeds of pixel-perfection.
-
-{% endcolumn %}
-
-{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-
-<a class="hxBtn" id="link" href="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/sketch/low-fi_helix_stickersheet_v0.1.sketch">Download Low-fi Sticker Sheet</a>
-
-{% endcolumn %}
-
-</div>
-</section>
 
 ## Sketch Library
 
@@ -93,9 +73,8 @@ to your **Shared with me** folder.
 
 Complete the following task to move the shared library to My Drive.
 
-1. Log in to Google Drive, and click **Shared Drive**.
+<p><b>1.</b> Log in to Google Drive, and click <b>Shared Driv</b>.</p>
 
-2. Right-click the helix library and select **Add to My Drive**.
 
 {% endcolumn %}
 
@@ -104,6 +83,16 @@ Complete the following task to move the shared library to My Drive.
    {% figure [caption:""] [class:"image bg-light border"] %}
    ![]({{site.url}}/assets/images/install-sketch-library/shared-drive.png)
    {% endfigure %}
+
+{% endcolumn %}
+
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+<p><b>2.</b> Right-click the helix library and select <b>Add to My Drive</b></p>
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
    {% figure [caption:""] [class:"image bg-light border"] %}
    ![]({{site.url}}/assets/images/install-sketch-library/add-to-my-drive.png)
