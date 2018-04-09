@@ -48,10 +48,21 @@ Use the following best practices when constructing cards:
 <section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
 
 ## Specifications
 Use the following specifications when constructing cards.
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Composition
 
@@ -60,7 +71,6 @@ The card pattern is composed of the following three elements:
 - **Header (optional):** The header establishes the context for a card component and contains icons (such as a cog) that allow the user to take action.
 - **Body (required):** The body contains the primary content associated with the card. The body section details the underlying object represented by the card.
 - **Footer (optional):** The footer provides calls to action that a user can take.
-
 
 {% endcolumn %}
 
