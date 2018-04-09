@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/key-value.svg
 resource: true
 status: stable
-last-modified: 2018-04-03
+last-modified: 2018-04-09
 helix-ui-css: true
 helix-ui-javascript: true
 ---
