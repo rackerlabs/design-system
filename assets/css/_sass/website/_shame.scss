@@ -16,3 +16,19 @@
   font-weight: 400;
   text-transform: uppercase;
 }
+
+/* 
+* This will be removed when we move to version to a new version of the helix-ui code that supports the card component
+*/
+
+
+.resource-card {
+	border: 1px solid #e0e0e0;
+	padding: 20px 20px;
+	background: #fafafa;
+    &:hover {
+      -webkit-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.16);
+      -moz-box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.16);
+	  box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.16);
+    }
+}
