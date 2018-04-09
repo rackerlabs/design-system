@@ -6,11 +6,11 @@ category: Components
 usage: >
   A card is a user interface element that contains summary information and provides users the option to navigate to more detailed information. A card can contain content comprised of different elements, such as text, pictures, and UI controls.
 
-  In contrast to the Lists pattern, cards allow the user to visually distinguish between sets of information.
+  In contrast to the lists pattern, cards allow the user to visually distinguish between sets of information.
 preview-image: preview-images/cards.svg
 status: in-progress
 resource: true
-last-modified: 2018-04-02
+last-modified: 2018-04-08
 helix-ui-css: false
 helix-ui-javascript: false
 ---
@@ -34,10 +34,10 @@ Do not use cards in place of robust data tables, or with a large quantity of dat
 Use the following best practices when constructing cards:
 
 - Construct cards so they are uniform in size.
-- There is no limit to the number of cards that can be used, however, ensure the page use case justifies the data. For example, dashboards are meant to provide users with quick insights and clear paths forward to more robust data. Overusing cards data objects might have the opposite effect and leave users with too much to parse.
+- There is no limit to the number of cards that can be used, however, ensure the page use case justifies the data. For example, dashboards are meant to provide users with quick insights and clear paths forward to more robust data. Overusing cards might have the opposite effect and leave users with too much information to parse.
 - Do not include too much information on a card. A card is not a Dashboard Card, which is a pattern that will be developed in the future.
 - Include only high-level information on a card, and link to more detailed information.
-- If the information is better presented in a list or table pattern, do not use cards. If you believe Card Grids appeal to some users, present both view options.
+- If the information is better presented in a list or table pattern, do not use cards. If you believe Card Grids appeal to some users, present both options.
 
 {% endcolumn %}
 
@@ -80,10 +80,10 @@ The card pattern is composed of the following three elements:
 
 ### Style
 
-Cards are applied to the helix-grid and have a variable width and height based on content, current view-port, and use case.  
+Cards are applied to the Helix Grid and have a variable width and height based on content, current view-port, and use case.  
 
-- Default cards are styled with a #FFFFFF background and should only go on darker backgrounds.
-- For more information see [the Helix-ui Grid](https://rackerlabs.github.io/helix-ui/components/grid/)
+- Default cards are styled with an #FFFFFF background and should only go on darker backgrounds.
+- For more information see the [Helix UI Grid](https://rackerlabs.github.io/helix-ui/components/grid/).
 
 {% endcolumn %}
 
@@ -101,7 +101,7 @@ Cards are applied to the helix-grid and have a variable width and height based o
 <div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-For aesthetic purposes and in instances where only few cards are present, you can offset the location of the first card in a row. For more information see the [helix-ui grid](https://rackerlabs.github.io/helix-ui/components/grid/).
+For aesthetic purposes and in instances where only a few cards are present, you can offset the location of the first card in a row. For more information see the [Helix UI Grid](https://rackerlabs.github.io/helix-ui/components/grid/).
 
 {% endcolumn %}
 
@@ -172,7 +172,7 @@ If an individual card or set of cards is loading, use the Spinner Loading Indica
 
 The empty card provides a space for a user to add a new card.
 
-The empty card button is based on the [chip] (https://rackerlabs.github.io/helix-ui/components/chips/) component and is created by removing the fill of a chip, adding a dotted stroke to the containing shape, and overlaying a helix plus icon.
+The empty card button is based on the [chip](http://helix.rax.io/components/chips.html) component and is created by removing the fill of a chip, adding a dotted stroke to the containing shape, and overlaying a Helix plus icon (+).
 
 {% endcolumn %}
 
@@ -204,7 +204,6 @@ A segmented card makes use of all three underlying elements. In the following sa
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [class:"image bg-light border"] %}
-
 ![]({{site.url}}/assets/images/components/content-areas/cards/card-segmented.png){:width="469px"}
 
 {% endfigure %}
