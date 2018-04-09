@@ -23,7 +23,7 @@ benefit of this approach is that you automatically receive updates made to the
 library.
 
 2. **You can install the Sketch library from your local machine.** This approach
-involves downloading a copy of the library from the Helix website, saving it to
+involves downloading a copy of the library from Github, saving it to
 your local machine, and then loading the library into Sketch. The primary
 benefit of this approach is that it is easier to set up, but you do not
 automatically receive updates and must download the library each time there is
@@ -50,7 +50,7 @@ Drive.
 Before you begin:
 
 - Ensure that you have a Google Drive account. If you have a Gmail account, you
-have access to a Google Drive. For more information, see https://www.google.com/drive/
+have access to a Google Drive. For more information, see [Google Drive](https://www.google.com/drive/)
 
 - Install a licensed copy of [Sketch](http://www.sketchapp.com). If you do not have a copy of Sketch, email helix@rackspace.com to request a license.
 
@@ -170,7 +170,7 @@ Complete the following steps to add the Helix Sketch library into Sketch.
 2. On the **Preferences** dialog box, click **Libraries**, and then click **Add Library**.
 
 
-3. Click **Google Drive > hxSketchLibrary > helix-ui-components.sketch**.
+3. Click **Google Drive > sketch_libraries > helix-ui-components.sketch**.
 
 4. Click **Open**.
 
@@ -251,7 +251,7 @@ Complete the following steps to bring the Helix Sketch library into Sketch.
 
 2. On the **Preferences** dialog box, click **Libraries**, and then click **Add Library**.
 
-3. Locate the library on your local machine, and click **helix-library-test.sketch**.
+3. Locate the library on your local machine, and click **helix-ui-components.sketch**.
 
 4. Click **Open**.
 
