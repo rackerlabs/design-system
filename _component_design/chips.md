@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/chip.svg
 resource: true
 status: stable
-last-modified: 2018-04-02
+last-modified: 2018-04-09
 helix-ui-css: false
 helix-ui-javascript: false
 ---
@@ -52,7 +52,7 @@ Refer to the following specifications when constructing chips.
 ### Composition
 A chip is a single circle that contains a preview of the item the chip represents. The preview can consist of the following:
 
-- Letters to indicate the name
+- Letters to indicate a name
 - An image to indicate a user
 - A product icon to indicate the type of device
 
@@ -82,11 +82,11 @@ Use the following redline specifications when constructing chips:
 
 - **Height:** 40px
 - **Width:** 40px
-- Padding between a chip and surrounding elements is 8px
+- **8px** padding between a chip and surrounding elements
 
 If you are using a text identifier:
 
-- Use 20px font size
+- Use 20px font
 - Color the text **#ffffff**
 - Color the background **#9b9b9b**
 
