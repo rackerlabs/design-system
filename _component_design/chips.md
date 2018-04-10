@@ -4,7 +4,7 @@ parent: Content Areas
 layout: component
 category: Components
 usage: >
-  Chips represent a block of information, such as a user, a device, a filter term, or metadata. Chips provide the user with a visual understanding of the information, and the ability to interact with it. Contact information and tags are common types of chips.
+  Chips represent a block of information, such as a contact, a device, a filter term, or metadata. Chips provide the user with a visual understanding of the information, and the ability to interact with it. Contact information and tags are common types of chips.
 preview-image: preview-images/chip.svg
 resource: true
 status: stable
@@ -23,7 +23,7 @@ helix-ui-javascript: false
 
 ## When to use
 
-Use chips to indicate that a list of items is part of a different workflow. For example, use chips when users add or remove requestors to or from a ticket.
+Use a chips to represent graphically a block of information. For example, use chips to represent a user or device.
 
 ## Best practices
 
@@ -43,14 +43,26 @@ Consider the following best practices when constructing a chip:
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
 
 
 ## Specifications
 Refer to the following specifications when constructing chips.
 
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
 ### Composition
-A chip is a single circle that contains a preview of the item the chip represents. The preview can consist of the following:
+A chip is a single circle that contains a preview of the item the chip represents. The identification information can consist of the following:
 
 - Letters to indicate a name
 - An image to indicate a user
