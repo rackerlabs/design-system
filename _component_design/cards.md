@@ -151,16 +151,26 @@ be mixed and matched within a layout or card.
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
 
 ## States
 
 Cards are presented to users in two primary states: loading and empty.
 
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
 ### Loading
 
 If an individual card or set of cards is loading, use the Spinner Loading Indicator centered vertically and horizontally within the card body element.
-
 
 {% endcolumn %}
 
