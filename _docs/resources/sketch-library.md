@@ -194,7 +194,7 @@ Complete the following steps to add the Helix Sketch Library into Sketch.
 
 If you do not want to use the Google Drive approach to installing the Sketch Library, you can download the library to your local machine and then import it into Sketch.
 
-{% include note.html content="When you import the Sketch library from your local machine, you do not receive automatic updates." %}"
+{% include note.html content="When you import the Sketch library from your local machine, you do not receive automatic updates." %}
 
 {% endcolumn %}
 
