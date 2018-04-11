@@ -18,11 +18,11 @@ usage: >
 
 There are two approaches to installing the Helix library:
 
-1. **You can install the Sketch Library from your Google Drive.** The primary
+1. **Use Google Drive sync on your computer** The primary
 benefit of this approach is that you automatically receive updates made to the
 library.
 
-2. **You can install the Sketch Library from your local machine.** This approach
+2. **Download directly from GitHub** This approach
 involves downloading a copy of the library from Github, saving it to
 your local machine, and then loading the library into Sketch. The primary
 benefit of this approach is that it is easier to set up, but you do not
@@ -122,9 +122,11 @@ not required.
 
 6. On the **My Laptop** panel, choose folders that you want to back up.
 
-   **NOTE:** You do not need to use the back up feature to work with the Sketch
+
+{% include note.html content="You do not need to use the back up feature to work with the Sketch
 library. You can clear all checkboxes on the **My Laptop** panel, and click
-**Next**.
+**Next**" %}
+
 
 7. Click **Sync only these folders**.
 

@@ -26,9 +26,9 @@ category: Resources
 
 <div class="resource-card">
   <div ><img src="{{site.baseurl}}/assets/images/lo-fi.svg" alt="low-fi icon"/>
-  	<h4>Low-fi Stickersheet</h4>
+  	<h4>Low-fi Sticker sheet</h4>
   </div>
-    <p>The low-fi stickersheet is a downloadable sketch file. Once downloaded, a designer can copy and paste elements from this file into your own Sketch documents to quickly prototype designs for stakeholders and designers. </p>
+    <p>We recommend using the low-fi sticker sheet to create initial designs for any project. This allows stakeholders and designers to focus on the higher-level experience without getting mired in the weeds of pixel-perfection. Download the file and then copy and paste low-fi elements into your designs to get started.</p>
     <a id="link" href="{{site.cdn_url}}/sketch/low-fi_helix_stickersheet_v0.1.sketch">Download Low-fi Sticker Sheet</a>
 </div>
 
@@ -50,8 +50,8 @@ category: Resources
   <div class="icon"><img src="{{site.baseurl}}/assets/images/palette-contrast.svg" alt="color palette icon"/>
     <h4>Palette contrast checker</h4>
   </div>
-    <p >When finalizing color schemes for a component or layout, accessibility is always a concern. This lightweight browser app lets you select a color from the Helix palette and check readability against different backgrounds.</p>
-    <a id="link" target="_blank" href="http://citguy.com/PaletteContrast">View the tool</a>
+    <p >When finalizing color schemes for a component or layout, accessibility is always a concern. This lightweight browser app lets you check any Helix color for readability on different backgrounds.</p>
+    <a id="link" target="_blank" href="http://citguy.com/PaletteContrast">View the tool <hx-icon type="external-link"></hx-icon></a>
 </div>
 
 {% endcolumn %}
@@ -62,8 +62,8 @@ category: Resources
   <div class="icon"><img src="{{site.baseurl}}/assets/images/codepen.svg" alt="codepen logo icon"/>
     <h4>Codepen Template</h4>
   </div>
-    <p >If you are looking to test out HelixUI web components, look no further than this pen. The Helix team has created a codepen template that requires all the necesary polyfills and HelixUI code for quick and easy testing.</p>
-    <a id="link" target="_blank" href="https://codepen.io/pen?template=YaRqQg">Create a pen</a>
+    <p>If you want an easy way to tinker with code in Helix UI, then look no further. This CodePen includes all the necessary polyfills for dropping in <a href="https://rackerlabs.github.io/helix-ui/">snippets from HelixUI</a>, or writing your own code.</p>
+    <a id="link" target="_blank" href="https://codepen.io/pen?template=YaRqQg">Create a pen  <hx-icon type="external-link"></hx-icon></a>
 </div>
 
 {% endcolumn %}
@@ -73,7 +73,7 @@ category: Resources
 
 <section class="static-section" markdown="1">
 
-## GitHub Repos
+## GitHub Repositories
 
 <div class="hxRow"  markdown="1">
 
@@ -81,10 +81,10 @@ category: Resources
 
 <div class="resource-card">
   <div class="icon"><img src="{{site.baseurl}}/assets/images/mark-github.svg" alt="GitHub logo icon"/>
-    <h4>Design system repo</h4>
+    <h4>Helix website repo</h4>
   </div>
     <p>The repository is used to generate the Helix documentation site (this site). Feel free to star, submit issues, or help. Note: You will need access to the rackerlabs organization on public GitHub to view.</p>
-    <a id="link" target="_blank" href="https://github.com/rackerlabs/design-system">View the repo</a>
+    <a id="link" target="_blank" href="https://github.com/rackerlabs/design-system">View the repo <hx-icon type="external-link"></hx-icon></a>
 </div>
 
 {% endcolumn %}
@@ -95,8 +95,8 @@ category: Resources
   <div class="icon"><img src="{{site.baseurl}}/assets/images/mark-github.svg" alt="GitHub logo icon"/>
     <h4>HelixUI repo</h4>
   </div>
-    <p>HelixUI is the public open-source implementation of the Helix language built using web components. </p>
-    <a id="link" target="_blank" href="https://github.com/rackerlabs/helix-ui">View the repo</a>
+    <p>HelixUI is the public open-source implementation of the Helix design language built using web components. </p>
+    <a id="link" target="_blank" href="https://github.com/rackerlabs/helix-ui">View the repo  <hx-icon type="external-link"></hx-icon></a>
 </div>
 
 {% endcolumn %}
@@ -105,10 +105,10 @@ category: Resources
 
 <div class="resource-card">
   <div class="icon"><img src="{{site.baseurl}}/assets/images/mark-github.svg" alt="GitHub logo icon"/>
-    <h4>hxSketchLibrary repo</h4>
+    <h4>Sketch library repo</h4>
   </div>
-    <p>The hxSketchLibrary repo is used to generate and maintain the Sketch Library. It deconstructs the library into nested json structures with a program called kactus.io. If you notice something amiss in the library, feel free to submit issues or pull requests here.</p>
-    <a id="link" target="_blank" href="https://github.com/technabors/hxSketchLibrary">View the repo</a>
+    <p>To manage Sketch assets in GitHub we use <a href="http://kactus.io">Kactus</a>, which converts Sketch files to JSON for easier storage. If you want to contribute to the Helix library, you must use Kactus to work with the repo. If you just want the latest library, we have included the most recent, generated Sketch files in the repo too..</p>
+    <a id="link" target="_blank" href="https://github.com/technabors/hxSketchLibrary">View the repo  <hx-icon type="external-link"></hx-icon></a>
 </div>
 
 {% endcolumn %}
