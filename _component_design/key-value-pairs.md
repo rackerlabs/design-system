@@ -23,7 +23,9 @@ helix-ui-javascript: true
 
 ## When to use
 
-Use key-value pairs to represent a single row of data. Do not use key-value pairs to represent multiple rows or columns of data.
+Use a key-value pair to represent a single row's worth of data, where the key represents a column header and the value represents a corresponding cell.
+
+Do not use key-value pairs to represent multiple rows or columns of data.
 
 ## Best practices
 
@@ -98,7 +100,7 @@ To determine the indentation of key-value pairs, use two columns on the Helix gr
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
-{% figure [caption:"This example uses a spacing guideline for a 1200px screen size. Spacing widths might vary depending on your screen size."] [class:"image bg-light border"] %}
+{% figure [caption:"Horizontal key-value pairs style"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/content-areas/key-pairs/keypairs-default-layout.svg)
 {% endfigure %}
 
@@ -212,7 +214,7 @@ Use the following redline specifications when constructing vertical layout key-v
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
-{% figure [caption:"A vertical key pair set on a 1200px grid"] [class:"image bg-light border"] %}
+{% figure [caption:"Vertical key-value pairs style"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/content-areas/key-pairs/keypairs-vertical-keyvalue.svg)
 {% endfigure %}
 
