@@ -4,9 +4,9 @@ parent: Content Areas
 layout: component
 category: Components
 usage: >
-  A card is a user interface element that contains summary information and provides users the option to navigate to more detailed information. A card can contain content comprised of different elements, such as text, pictures, and UI controls.
+  A card is a user interface element that contains summary information and provides users the option to navigate to more detailed information.
 
-  In contrast to the lists pattern, cards allow the user to visually distinguish between sets of information.
+  In contrast to the tables pattern, cards allow the user to visually distinguish between sets of information. Cards substitute for a single row of tabular data.
 preview-image: preview-images/cards.svg
 status: in-progress
 resource: true
@@ -25,19 +25,20 @@ helix-ui-javascript: false
 
 ## When to use
 
-Use cards to present a small amount of high-level information to users, and allow them a way access more detail information.
-
-Do not use cards in place of robust data tables, or with a large quantity of data entries.
+Use cards when you want to a visually distinct arrangement of tabular data, especially when it is helpful to provide summary information about that data object.
 
 ## Best practices
 
 Use the following best practices when constructing cards:
 
 - Construct cards so they are uniform in size.
-- There is no limit to the number of cards that can be used, however, ensure the page use case justifies the data. For example, dashboards are meant to provide users with quick insights and clear paths forward to more robust data. Overusing cards might have the opposite effect and leave users with too much information to parse.
-- Do not include too much information on a card. A card is not a Dashboard Card, which is a pattern that will be developed in the future.
+- Do not use cards in place of robust data tables, or with a large quantity of data entries.
+- There is no limit to the number of cards that can be used, however, ensure the page use case justifies the data. For example, dashboards are meant to provide users with quick insights and clear paths forward to more robust data.
+- Do not overuse cards in an application. Too many pages with cards can be confusing to users because they cannot intuitively determine the page they are on.
+- Do not include too much information on a card.
 - Include only high-level information on a card, and link to more detailed information.
-- If the information is better presented in a list or table pattern, do not use cards. If you believe Card Grids appeal to some users, present both options.
+- If the information is better presented in a list or table pattern, do not use cards. If you believe Card Grids might appeal to some users, you can present both layout options.
+- If you use a card grid as an alternate view to a table view (or, a **list view**), ensure you allow the user to switch to their preferred view.
 
 {% endcolumn %}
 
@@ -68,7 +69,7 @@ Use the following specifications when constructing cards.
 
 The card pattern is composed of the following three elements:
 
-- **Header (optional):** The header establishes the context for a card component and contains icons (such as a cog) that allow the user to take action.
+- **Header (optional):** The header establishes the context for a card and contains icons (such as a cog) that allow the user to take action.
 - **Body (required):** The body contains the primary content associated with the card. The body section details the underlying object represented by the card.
 - **Footer (optional):** The footer provides calls to action that a user can take.
 
@@ -134,7 +135,7 @@ For aesthetic purposes and in instances where only a few cards are present, you 
 Each section of a card uses medium container spacing, 20px, by default.
 
 Small and large spacing values can be used for card variations, but should not
-be mixed and matched within a layout or card.
+be mixed and matched within a single card grid layout or individual card.
 
 {% endcolumn %}
 
@@ -155,7 +156,7 @@ be mixed and matched within a layout or card.
 
 ## States
 
-Cards are presented to users in two primary states: loading and empty.
+Cards can exist in a loading an empty state.
 
 {% endcolumn %}
 
@@ -170,7 +171,7 @@ Cards are presented to users in two primary states: loading and empty.
 
 ### Loading
 
-If an individual card or set of cards is loading, use the Spinner Loading Indicator centered vertically and horizontally within the card body element.
+If an individual card or set of cards is loading, use the [Spinner Loading Indicator](http://helix.rax.io/components/loading-indicators.html) centered vertically and horizontally within the card body element.
 
 {% endcolumn %}
 
