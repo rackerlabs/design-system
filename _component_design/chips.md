@@ -4,7 +4,7 @@ parent: Content Areas
 layout: component
 category: Components
 usage: >
-  Chips represent a block of information, such as a contact, a device, a filter term, or metadata. Chips provide the user with a visual understanding of the information, and the ability to interact with it. Contact information and tags are common types of chips.
+  Chips represent a unit of information, such as a contact, a device, a filter term, or metadata. Chips provide the user with a visual understanding of the information, and the ability to interact with it. Contact information and tags are common types of chips.
 preview-image: preview-images/chip.svg
 resource: true
 status: stable
@@ -23,14 +23,14 @@ helix-ui-javascript: false
 
 ## When to use
 
-Use a chips to represent graphically a block of information. For example, use chips to represent a user or device.
+Use chips to represent graphically a unit of information. For example, use chips to represent a user or device.
 
 ## Best practices
 
 Consider the following best practices when constructing a chip:
 
 - Avoid using chips in multiple locations on a page.
-- Label the chip so that the user can identify the item represented by the chip.
+- Label the chip so that the user can identify the information represented by the chip.
 
 {% endcolumn %}
 
@@ -43,7 +43,7 @@ Consider the following best practices when constructing a chip:
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 
 ## Specifications
@@ -62,11 +62,13 @@ Refer to the following specifications when constructing chips.
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Composition
-A chip is a single circle that contains a preview of the item the chip represents. The identification information can consist of the following:
+A chip is composed of a container and an identifying element, known as the **identifier**. The identifier can consist of the following:
 
 - Letters to indicate a name
 - An image to indicate a user
 - A product icon to indicate the type of device
+
+An **extension** is an optional subcomponent that provides additional information about the chip, such as the name of the user or element to which the chip is attached.
 
 {% endcolumn %}
 
