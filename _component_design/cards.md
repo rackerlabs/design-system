@@ -211,9 +211,9 @@ The empty card button is based on the [chip](http://helix.rax.io/components/chip
 <div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-## Sample: Segemented card
+## Sample
 
-A segmented card makes use of all three underlying elements. In the following samples:
+A card makes use of all three underlying elements. In the following samples:
 
 - The **header** contains text that provides the context for the card and a cog that enables a user to take action.
 
