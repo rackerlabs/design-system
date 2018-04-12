@@ -60,7 +60,9 @@ Some cases may require different spacing to accommodate very small or large cont
 
 * **Small = 12px** 
 * **Medium = 20px**
-* **Large = 28px**
+* **Large = 32px**
+* **XL =48px**
+* **2XL = 72px**
 
 Exceptions are made for some elements such as dashboard panels and [cards]({{site.url}}/components/cards.html) which require no inset spacing when featuring edge-to-edge, body content.
 
@@ -68,8 +70,8 @@ Exceptions are made for some elements such as dashboard panels and [cards]({{sit
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
-{% figure [caption: "Small, Medium and Large container spacing sizes."][class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/style/spacing/spacing-system-container-spacing-variants.png){: width="466px"}
+{% figure [caption: "Container spacing sizes."][class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/style/spacing/spacing-system-container-spacing-variants.png){: width="451px"}
 {% endfigure %}
 
 {% endcolumn %}
