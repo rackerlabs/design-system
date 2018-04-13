@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/key-value.svg
 resource: true
 status: stable
-last-modified: 2018-04-09
+last-modified: 2018-04-13
 helix-ui-css: true
 helix-ui-javascript: true
 ---
@@ -23,7 +23,7 @@ helix-ui-javascript: true
 
 ## When to use
 
-Use a key-value pair to represent a single row's worth of data, where the key represents a column header and the value represents a corresponding cell.
+Use a key-value pair to represent a single row's worth of data, where the key represents a column header and the value represents a corresponding cell. Key-value pairs are often used to present identifying information.
 
 Do not use key-value pairs to represent multiple rows or columns of data.
 
