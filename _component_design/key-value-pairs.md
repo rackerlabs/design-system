@@ -29,16 +29,16 @@ Do not use key-value pairs to represent multiple rows or columns of data.
 
 ## Best practices
 
-Consider the following best practices when designing key-value pairs:
+Consider the following best practices when you design key-value pairs:
 
 - Use horizontal key-value pairs when you have tight vertical constraints.
-- Use vertical key-value pairs when you have tight horizontal constraints, are developing for a mobile device, or when viewing data inside an expanded table row.
+- Use vertical key-value pairs when you have tight horizontal constraints, are developing for a mobile device, or are viewing data inside an expanded table row.
 - Do not place more than three vertical key-value pairs on a page.
-- Ensure the key (label) corresponds with the data (value).
-- Limit key-value pairs to one line, if possible.
+- Ensure that the key (label) corresponds with the data (value).
+- If possible, limit key-value pairs to one line.
 - Follow the Helix grid guidelines for spacing and placement.
 - Use icons sparingly.
-- If there are more than five sets of key-value pairs, consider dividing pairs into subgroups.
+- For more than five sets of key-value pairs, consider dividing pairs into subgroups.
 
 {% endcolumn %}
 
@@ -54,7 +54,7 @@ Consider the following best practices when designing key-value pairs:
 
 ## Horizontal layout
 
-Use the following specifications when constructing horizontal key-value pairs.
+Use the following specifications when you construct horizontal key-value pairs.
 
 {% endcolumn %}
 
@@ -70,7 +70,7 @@ Use the following specifications when constructing horizontal key-value pairs.
 
 ### Composition
 
-By default, key-value pairs appear in the body of a page. Key labels are displayed on the left and are right-aligned. Data values are displayed on the right and are left-aligned.
+By default, key-value pairs appear in the body of a page. Key labels display right-aligned on the left side. Data values display left-aligned on the right side.
 
 {% endcolumn %}
 
@@ -118,7 +118,7 @@ To determine the indentation of key-value pairs, use two columns on the Helix gr
 
 ### Text wrapping
 
-Restrict text wrapping to two columns for key labels, and four columns for data values.
+Restrict text wrapping to two columns for key labels and four columns for data values.
 
 {% endcolumn %}
 
@@ -184,7 +184,7 @@ Use vertical key-value pairs when you position multiple pairs beside each other 
 
 Vertical key-value pairs list the key label above the data value at a maximum width of four columns on the Helix grid.
 
-Key labels and data values are displayed on the left and are left-aligned.
+Key labels and data values display left-aligned on the left.
 
 {% endcolumn %}
 
@@ -208,7 +208,7 @@ Key labels and data values are displayed on the left and are left-aligned.
 
 ### Style
 
-Use the following redline specifications when constructing vertical layout key-value pairs.
+Use the following redline specifications when you construct vertical layout key-value pairs.
 
 {% endcolumn %}
 
@@ -254,7 +254,7 @@ When a data value loads, the system should display the key label and the word **
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-When vertical key values load, they take on the same loading pattern as the horizontal key values by populating the value with **Loading…**, styled in active body font, Roboto Regular, #424242.
+When vertical key values load, they take the same loading pattern as the horizontal key values by populating the value with **Loading…**, styled in active body font, Roboto Regular, #424242.
 
 {% endcolumn %}
 
