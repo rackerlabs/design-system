@@ -17,7 +17,7 @@ category: Resources
     <h4>Sketch Library</h4>
   </div>
     <p>The Sketch Library is the preferred method for creating high-fidelity design deliverables in the Helix language. It is installed directly via Sketch and brings high-fidelity Helix sketch objects into your sketch files.</p>
-    <a id="link" href="{{site.baseurl}}/resources/sketch-library.html">Sketch Library set up instructions</a>
+    <a id="link" href="{{site.baseurl}}/resources/sketch-library.html">Install the Helix Sketch Library</a>
 </div>
 
 {% endcolumn %}
