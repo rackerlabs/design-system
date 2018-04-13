@@ -5,13 +5,14 @@ secondary: Editing
 layout: component
 category: Components
 usage: >
-  Pills are small, pill-shaped containers that indicate selection. They are useful for their small size and for the ease with which they can be removed. As selection indicators (not selectors themselves), they have a broad set of possible applications.
+  A pill is a small, oval-shaped component that indicates selection. Pills are often associated with tags, however, you can also apply pills to keyword search terms, input text search, or the name of a server selected by the user. You can represent any selectable object with a pill.
+
+  Not sure what this means "A pill is different than a tag in a variety of ways, with the most important being you cannot remove a tag."
 preview-image: preview-images/pills.svg
 resource: true
 status: Stable
-last-modified: 2018-02-07
+last-modified: 2018-04-13
 ---
-
 
 {% include toc.html %}
 
@@ -23,11 +24,11 @@ last-modified: 2018-02-07
 
 ## When to Use
 
-Pills are small, pill-shaped containers that indicate selection. They are useful for their small size and for the ease with which they can be removed. As selection indicators (not selectors themselves), they have a broad set of possible applications.
+Use pills when you want to indicate that a user has selected an object.
 
 ## Best practices
 
-When using pills, ensure they are uniform in size, shape, and application. Pills may be modified with color if done carefully and intentionally.
+When using pills, ensure they are uniform in size, shape, and application.
 
 {% endcolumn %}
 
@@ -58,9 +59,7 @@ Refer to the following specifications when constructing pills.
 
 ### Composition
 
-Pills are a component with a variety of use cases, so they can be used for many ways of indicating something has been selected: keyword search, input text search, the name of a server you’ve selected. If it can be selected, you can make a pill of it.
-
-A pill is different than a tag in a variety of ways, with the most important being you cannot remove a tag.
+Pills consist of a container, text, and an “x” icon that indicates the user can remove the pill.
 
 {% endcolumn %}
 
@@ -84,9 +83,24 @@ A pill is different than a tag in a variety of ways, with the most important bei
 
 ### Style
 
-While pills may be larger or smaller than body font, generally use body font.
+Pills can be larger or smaller than body font. In general, use body font.
 
-Pills consist of a container, text, and an “x” icon to indicate removal. By default, they are `gray 400` background.
+Use the following redline specifications when constructing pills:
+
+**Container**
+- Height: 24px
+- Width: variable
+- Border radius: 100px
+- Background color: #d8d8d8 (Gray 400)
+
+**Text**
+- Roboto, regular, 16px, #424242 (Gray 900)
+- Alignment: left, centered vertically
+- Line height: 24px
+
+**Icon**
+- Shape and size: Use an 'x' icon, 10x10, #9e9e9e (Gray 600)
+- Alignment: centered vertically
 
 {% endcolumn %}
 
