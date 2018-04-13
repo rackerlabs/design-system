@@ -69,7 +69,11 @@ Familiarize yourself with the concepts that define the Helix language. Through t
 
 ### Use the language
 
-Once you have familiarized yourself with the Helix language, it's time to start using it! The Helix team has created a collection of resources aimed at helping designers start designing or developing with Helix. This includes a sketch library and a low-fidelity sticker sheet, as well as `codepen` and `npm` resources. Find all this and more on the [resources page]({{site.baseurl}}/resources/index.html).
+Once you have familiarized yourself with the Helix language, it's time to start using it! 
+
+The Helix team has created a collection of resources aimed at helping designers start designing or developing with Helix. This includes a sketch library and a low-fidelity sticker sheet, as well as `codepen` and `npm` resources. 
+
+Find all this and more on the [resources page]({{site.baseurl}}/resources/index.html).
 
 {% endcolumn %}
 

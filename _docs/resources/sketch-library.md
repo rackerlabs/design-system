@@ -1,37 +1,31 @@
 ---
-title: Sketch Library
+title: Install the Helix Sketch Library
 layout: docs
 status: stable
 resource: true
-category: resources
+category: Resources
 last-modified: 2018-04-05
 usage: >
    The Helix team provides a rich set of preconfigured user interface (UI) components that you can use in Sketch design toolkit to design Rackspace Control Panels. These come in both high-fidelity (library) and low-fidelity variations (stickersheet).
 ---
-
-## Sketch Library
 
 <section class="static-section" markdown="1">
 <div class="hxRow" markdown="1">
 
 {% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
 
-There are two approaches to installing the Helix library:
+There are two options for installing the Helix Sketch library:
 
-1. **Use Google Drive sync on your computer** The primary
-benefit of this approach is that you automatically receive updates made to the
-library.
+**1. Use Google Drive sync on your computer**<br>The primary benefit of this approach is that you automatically receive updates made to the library.
 
-2. **Download directly from GitHub** This approach
-involves downloading a copy of the library from Github, saving it to
+**2. Download directly from GitHub**<br>This approach involves downloading a copy of the library from Github, saving it to
 your local machine, and then loading the library into Sketch. The primary
 benefit of this approach is that it is easier to set up, but you do not
 automatically receive updates and must download the library each time there is
 an update.
 
-{% include note.html content="The Helix Team sends an email each time the Helix library is updated.
-If you are not a part of the Helix email distribution list, you can request
-access by emailing [helix@rackspace.com](mailto:helix@rackspace.com)." %}
+**By the way,** we send an email any time the Helix library is updated. If you are not on the distribution list, you can request
+access in the <a href="https://rackspace.slack.com/messages/C1ZPBPYKZ/" target="_blank">#helix slack channel <hx-icon type="external-link"></hx-icon></a>
 
 {% endcolumn %}
 
@@ -43,7 +37,7 @@ access by emailing [helix@rackspace.com](mailto:helix@rackspace.com)." %}
 
 {% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12 %}
 
-### Install the Sketch Library from Google Drive
+### 1. Use Google Drive sync on your computer
 Complete the following tasks to install the Sketch Library from your Google
 Drive.
 
@@ -187,7 +181,7 @@ Complete the following steps to add the Helix Sketch Library into Sketch.
 </div>
 </section>
 
-### Install the Sketch Library from your local machine
+### Option 2: Download directly from GitHub
 
 <section class="static-section" markdown="1">
 <div class="hxRow" markdown="1">
