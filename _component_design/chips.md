@@ -4,11 +4,11 @@ parent: Content Areas
 layout: component
 category: Components
 usage: >
-  Chips represent a unit of information, such as a contact, a device, a filter term, or metadata. Chips provide the user with a visual understanding of the information, and the ability to interact with it. Contact information and tags are common types of chips.
+  Chips represent a unit of information, such as a contact, a device, a filter term, or metadata. Chips provide the user with a visual understanding of the information, and the ability to interact with it.
 preview-image: preview-images/chip.svg
 resource: true
 status: stable
-last-modified: 2018-04-09
+last-modified: 2018-04-13
 helix-ui-css: false
 helix-ui-javascript: false
 ---
@@ -23,7 +23,7 @@ helix-ui-javascript: false
 
 ## When to use
 
-Use chips to represent graphically a unit of information. For example, use chips to represent a user or device.
+Use chips to graphically represent a unit of information. For example, use chips to represent a user or device.
 
 ## Best practices
 
