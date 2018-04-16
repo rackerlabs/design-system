@@ -6,8 +6,6 @@ layout: component
 category: Components
 usage: >
   A pill is a small, oval-shaped component that indicates selection. Pills are often associated with tags, however, you can also apply pills to keyword search terms, input text search, or the name of a server selected by the user. You can represent any selectable object with a pill.
-
-  Not sure what this means "A pill is different than a tag in a variety of ways, with the most important being you cannot remove a tag."
 preview-image: preview-images/pills.svg
 resource: true
 status: Stable
@@ -85,22 +83,7 @@ Pills consist of a container, text, and an “x” icon that indicates the user 
 
 Pills can be larger or smaller than body font. In general, use body font.
 
-Use the following redline specifications when constructing pills:
-
-**Container**
-- Height: 24px
-- Width: variable
-- Border radius: 100px
-- Background color: #d8d8d8 (Gray 400)
-
-**Text**
-- Roboto, regular, 16px, #424242 (Gray 900)
-- Alignment: left, centered vertically
-- Line height: 24px
-
-**Icon**
-- Shape and size: Use an 'x' icon, 10x10, #9e9e9e (Gray 600)
-- Alignment: centered vertically
+Use the following redline specifications when you construct pills.
 
 {% endcolumn %}
 
@@ -124,9 +107,11 @@ Use the following redline specifications when constructing pills:
 
 ### Spacing
 
-Pills have 16px of space on either side and 8px below and beside when grouped together. Put pills 4px beneath other associated components&mdash;use the best top spacing for your particular use case. Unless there is a legitimate reason, justify pills to the left.
+Place 16px of horizontal space and 4px of vertical space between a pill an another component. Use the best top spacing for your particular use case.
 
-If more than 15 pills are bunched together, consider an alternative pattern or contact the Helix team.
+Unless you have a reason, justify pills to the left.
+
+If you group pills together, provide 8px of space below and next to a pill. If you group more than 15 pills together, consider an alternative pattern or contact the Helix team.
 
 {% endcolumn %}
 
@@ -150,9 +135,22 @@ If more than 15 pills are bunched together, consider an alternative pattern or c
 
 ## States
 
-**Active:** This state indicates that a selection has been made and is the default state for a pill.
+Pills can exist in an **active** state, or a **hover** state.
 
-**Hover:** The hover state indicates the pill may be interacted with to remove the selection.
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### Active
+The active state is the default state, and indicates that a user has made a selection.
 
 {% endcolumn %}
 
@@ -161,6 +159,21 @@ If more than 15 pills are bunched together, consider an alternative pattern or c
 {% figure [caption:"Pill states"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/content-areas/pills/pills-states.png){:width="499px"}
 {% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### Hover
+The hover state indicates that the user can remove the selection.
 
 {% endcolumn %}
 
