@@ -7,7 +7,7 @@ usage: A modal is an element that disables the main window of an application unt
 resource: true
 status: stable
 preview-image: preview-images/modal.svg
-last-modified: 2018-04-12
+last-modified: 2018-04-16
 helix-ui-css: false
 helix-ui-javascript: false
 ---
