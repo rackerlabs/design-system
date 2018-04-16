@@ -26,11 +26,11 @@ Use modals when you want to **focus the attention of the user** by obstructing t
 - The user **action is irreversible**, such as deleting a server or resetting an API key
 - You want the user to **enter required information** before continuing to work in an application
 
-Modals come in many forms, including alerts, login forms, and contact forms. A confirmation modal is a commonly used type of modal.
+Modals come in many forms, including alerts, login forms, and contact forms. A confirmation modal is a commonly used modal.
 
 ## Best practices
 
-Consider the following best practices when constructing a modal:
+Consider the following best practices when you construct a modal:
 
 - **Use modals sparingly** and only when the user must confirm an action before continuing, or when the cost of an error is very high.
 - Trigger a modal from a button, link, or other clickable item on the page.
@@ -50,8 +50,8 @@ Consider the following best practices when constructing a modal:
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-##Specifications
-Use the following specifications when constructing modals.
+## Specifications
+Use the following specifications when you construct modals.
 
 {% endcolumn %}
 
@@ -65,42 +65,22 @@ Use the following specifications when constructing modals.
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-###Composition
-Gap.
+### Composition
+A modal contains the following:
+
+- Header
+- Dot slide (optional)
+- Icon (optional)
+- Subheader (optional)
+- Detail
+- Action
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
-{% figure [caption:"Modal spacing and layout"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/modal/modal-spacing.svg)
-{% endfigure %}
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow"  markdown="1">
-
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-
-### Spacing
-
-Use the following specifications to size a modal:
-
-- Minimum width: 400px
-- Minimum height: 200px
-
-{% endcolumn %}
-
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-
-{% figure [caption:"Modal spacing and layout"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/modal/modal-spacing.svg)
+{% figure [caption:"Modal composition"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/content-areas/modal/modal-composition.png)
 {% endfigure %}
 
 {% endcolumn %}
@@ -117,7 +97,7 @@ Use the following specifications to size a modal:
 
 ### Style
 
-Center-align modals vertically and horizontally.
+Use the following specifications when you construct a modal.
 
 {% endcolumn %}
 
@@ -125,6 +105,34 @@ Center-align modals vertically and horizontally.
 
 {% figure [caption:"Modal style"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/content-areas/modal/modal-specifications.svg)
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### Spacing
+
+Use the following spacing guidelines when you construct a modal.
+
+- Center-align modals vertically and horizontally
+- Minimum width: 400px
+- Minimum height: 200px
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
+{% figure [caption:"Modal spacing and layout"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/content-areas/modal/modal-spacing.svg)
 {% endfigure %}
 
 {% endcolumn %}
@@ -179,7 +187,7 @@ A confirmation modal interrupts a user and requires a decision before the user c
 
 - A heading that identifies the destructive process or the action required to proceed
 - A message that clearly describes the impact of proceeding with the action
-- Confirm and cancel buttons so the user can proceed or cancel the action
+- **Confirm** and **Cancel** buttons so the user can proceed or cancel the action
 
 {% endcolumn %}
 
