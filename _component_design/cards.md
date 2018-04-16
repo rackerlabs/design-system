@@ -33,10 +33,9 @@ Use the following best practices when constructing cards:
 
 - Construct cards so they are uniform in size.
 - Do not use cards in place of robust data tables, or with a large quantity of data entries.
-- There is no limit to the number of cards that can be used, however, ensure the page use case justifies the data. For example, dashboards are meant to provide users with quick insights and clear paths forward to more robust data.
+- There is no limit to the number of cards that can be used, however, ensure the page use case justifies the data.
 - Do not overuse cards in an application. Too many pages with cards can be confusing to users because they cannot intuitively determine the page they are on.
-- Do not include too much information on a card.
-- Include only high-level information on a card, and link to more detailed information.
+- Do not include too much information on a card. Include only high-level information on a card, and link to more detailed information.
 - If the information is better presented in a list or table pattern, do not use cards. If you believe Card Grids might appeal to some users, you can present both layout options.
 - If you use a card grid as an alternate view to a table view (or, a **list view**), ensure you allow the user to switch to their preferred view.
 
@@ -200,33 +199,6 @@ The empty card button is based on the [chip](http://helix.rax.io/components/chip
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [class:"image bg-light border"] %}
  ![]({{site.url}}/assets/images/components/content-areas/cards/card-add.png){:width="469px"}
-{% endfigure %}
-{% endcolumn %}
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow"  markdown="1">
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-
-## Sample
-
-A card makes use of all three underlying elements. In the following samples:
-
-- The **header** contains text that provides the context for the card and a cog that enables a user to take action.
-
-- The **body** contains a combination of text, images, icons, graphics or visualizations that detail the underlying object the card represents.
-
-- The **footer** contains button and link calls to action.
-
-{% endcolumn %}
-
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% figure [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/cards/card-segmented.png){:width="469px"}
-
 {% endfigure %}
 {% endcolumn %}
 </div>
