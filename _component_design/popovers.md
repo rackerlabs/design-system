@@ -52,7 +52,7 @@ Consider the following best practices when constructing a popover:
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ## Specifications
-Refer to the following specifications when constructing popovers.
+Refer to the following specifications when you construct a popover.
 
 {% endcolumn %}
 
@@ -76,7 +76,7 @@ A popover consists of a **container** and a **pointer**. The container appears o
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
-{% figure [caption:"A popover consists of a panel, contextual pointer, heading, and buttons."] [class:"image bg-light border"] %}
+{% figure [caption:"Popover composition"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/content-areas/popovers/popover-default-layout.svg)
 {% endfigure %}
 
@@ -97,15 +97,15 @@ A popover consists of a **container** and a **pointer**. The container appears o
 Use the following guidelines when sizing and styling a popover:
 
 - **Always** apply `box-shadow` to a popover.
-- You **should not** create a popover larger than 500px x 500px.
+- **Do not** create a popover larger than 500px x 500px.
 
-{% include note.html content="If more space is required, solve the design challenge with a different Helix pattern."%}
+{% include note.html content="If you require more space, solve the design challenge with a different Helix pattern."%}
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
-{% figure [caption:"Popover redline specifications"] [class:"image bg-light border"] %}
+{% figure [caption:"Popover style"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/content-areas/popovers/popover-specs.svg)
 {% endfigure %}
 
@@ -129,7 +129,7 @@ See [inputs and controls]({{site.baseurl}}/components/inputs-and-controls.html) 
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
-{% figure [caption:"Popover spacing specifications"] [class:"image bg-light border"] %}
+{% figure [caption:"Popover spacing"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/content-areas/popovers/popover-spacing.svg)
 {% endfigure %}
 
@@ -147,7 +147,7 @@ See [inputs and controls]({{site.baseurl}}/components/inputs-and-controls.html) 
 
 ### Pointer size and placement
 
-Use the following guidelines when designing the popover pointer:
+Use the following guidelines when you construct the popover pointer:
 
 - The base of the popover pointer is 16px wide.
 - The pointer apex is 8px from the side of the rectangle.
@@ -158,7 +158,7 @@ Use the following guidelines when designing the popover pointer:
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
-{% figure [caption:"Pointer specifications and pointer placement variations"] [class:"image bg-light border"] %}
+{% figure [caption:"Pointer specifications and placement variations"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/content-areas/popovers/popover-pointer-size-placement.svg)
 {% endfigure %}
 
@@ -226,13 +226,13 @@ You can use popovers for small create or edit workflows that must remain in cont
 
 Use a popover to reveal hidden content so that it is accessible, but doesn’t clutter the background screen.
 
-If the content is dynamic or interactive, a popover is preferable to a [tooltip]({{site.baseurl}}/components/tooltip.html). For example, use a popover when you present the user with a table or visualization that contain clickable areas.
+If the content is dynamic or interactive, a popover is preferable to a [tooltip]({{site.baseurl}}/components/tooltip.html). For example, use a popover when you present the user with a table or visualization that contains clickable areas.
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
-{% figure [caption:"An interactive informational popover."] [class:"image bg-light border"] %}
+{% figure [caption:"An interactive informational popover"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/content-areas/popovers/popover-large-hidden-content.svg)
 {% endfigure %}
 
