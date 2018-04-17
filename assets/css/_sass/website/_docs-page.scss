@@ -1,7 +1,6 @@
 // New design
 .new-banner {
   background-color: $cyan700;
-  color: $textcolorlight !important;
   min-height: 168px;
   padding: 28px 0;
   .new-display {
@@ -11,6 +10,9 @@
     color: $textcolorlight !important;
     margin: 52px 0 8px 0;
     text-align: left !important;
+  }
+  h1 {
+    color: $textcolorlight !important;
   }
 }
 

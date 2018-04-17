@@ -1,10 +1,10 @@
 // New design
 .fam-banner {
   background-color: $cyan700;
-  color: $textcolorlight !important;
   min-height: 10.5rem;
   .hxHeading-1 {
     margin-top: 5rem;
+    color: $textcolorlight !important;
   }
 }
 
