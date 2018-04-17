@@ -61,7 +61,7 @@ Some cases may require different spacing to accommodate very small or large cont
 * **Small = 12px** 
 * **Medium = 20px**
 * **Large = 32px**
-* **XL =48px**
+* **XL = 48px**
 * **2XL = 72px**
 
 Exceptions are made for some elements such as dashboard panels and [cards]({{site.url}}/components/cards.html) which require no inset spacing when featuring edge-to-edge, body content.
