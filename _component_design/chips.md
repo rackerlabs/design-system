@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/chip.svg
 resource: true
 status: stable
-last-modified: 2018-04-13
+last-modified: 2018-04-19
 helix-ui-css: false
 helix-ui-javascript: false
 ---
@@ -68,8 +68,6 @@ A chip is composed of a container and an identifying element, known as the **ide
 - An image to indicate a user
 - A product icon to indicate the type of device
 
-An **extension** is an optional subcomponent that provides additional information about the chip, such as the name of the user or element to which the chip is attached.
-
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
@@ -92,17 +90,7 @@ An **extension** is an optional subcomponent that provides additional informatio
 
 ### Style
 
-Use the following redline specifications when constructing chips:
-
-- **Height:** 40px
-- **Width:** 40px
-- **8px** padding between a chip and surrounding elements
-
-If you are using a text identifier:
-
-- Use 20px font
-- Color the text **#ffffff**
-- Color the background **#9b9b9b**
+Use the following redline specifications when you construct chips:
 
 {% endcolumn %}
 
@@ -110,6 +98,30 @@ If you are using a text identifier:
 
 {% figure [caption:"Chip style"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/content-areas/chips/chips-style.png){: width="580px"}
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### Spacing
+
+Use the following spacing guidelines when you construct chips.
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
+{% figure [caption:"Chip spacing"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/content-areas/chips/chips-spacing.png){: width="580px"}
 {% endfigure %}
 
 {% endcolumn %}
