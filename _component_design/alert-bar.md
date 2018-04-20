@@ -69,11 +69,11 @@ optional:
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Alert bar composition"] [class:"image bg-light border"] %}
- ![]({{site.url}}/assets/images/components/content-areas/alerts/alert-bar-composition.svg)
+ ![]({{site.url}}/assets/images/components/content-areas/alerts/alert-bar-composition.png){:width="617px"}
 {% endfigure %}
 
 {% figure [caption:"Alert bar specifications."] [class:"image bg-light border"] %}
- ![]({{site.url}}/assets/images/components/content-areas/alerts/alert-bar-specs.svg)
+ ![]({{site.url}}/assets/images/components/content-areas/alerts/alert-bar-specs.png){:width="617px"}
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -93,7 +93,7 @@ Alert messages should be as concise and clear as possible. We recommend keeping 
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Multiline alert wrapping behavior"] [class:"image bg-light border"] %}
- ![]({{site.url}}/assets/images/components/content-areas/alerts/alert-bar-multiline-alerts.svg)
+ ![]({{site.url}}/assets/images/components/content-areas/alerts/alert-bar-multiline-alerts.png){:width="617px"}
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -113,7 +113,7 @@ The alert bar pattern enables users to assess status of a given section at a gla
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [caption:"Alert bar status types."] [class:"image bg-light border"] %}
- ![]({{site.url}}/assets/images/components/content-areas/alerts/alert-bar-status-types.svg)
+ ![]({{site.url}}/assets/images/components/content-areas/alerts/alert-bar-status-types.png){:width="617px"}
 {% endfigure %}
 {% endcolumn %}
 </div>

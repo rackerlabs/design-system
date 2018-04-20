@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>palette-contrast</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="16" cy="16" r="9"></circle>
+    </defs>
+    <g id="palette-contrast" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval" stroke="#0E94A6" fill="#0E94A6" cx="16" cy="16" r="15"></circle>
+        <path d="M16,24.5378842 C23.0037735,24.5378842 31,22.0096071 31,16 C31,9.99039286 22.9857152,6.98265522 16,6.98265522 C9.01428475,6.98265522 1,10.1219813 1,16 C1,21.8780187 8.99622649,24.5378842 16,24.5378842 Z" id="Oval" stroke="#0E94A6" fill="#FFFFFF"></path>
+        <g id="Oval-2">
+            <use fill="#B6E3EB" fill-rule="evenodd" xlink:href="#path-1"></use>
+            <circle stroke="#0E94A6" stroke-width="1" cx="16" cy="16" r="8.5"></circle>
+        </g>
+        <circle id="Oval-2" stroke="#333333" fill="#333333" cx="16" cy="16" r="3"></circle>
+    </g>
+</svg>
