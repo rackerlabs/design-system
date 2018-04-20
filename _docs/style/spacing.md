@@ -58,11 +58,12 @@ Pages, cards, modals, panes, etc. are containers  that frame content within a UI
 
 Some cases may require different spacing to accommodate very small or large containers (see [choice-tiles]({{site.url}}/components/choice-tiles.html)). Therefore we have included  Small, Medium, and Large container spacing sizes to facilitate your content.  
 
-* **Small = 12px** 
-* **Medium = 20px**
-* **Large = 32px**
-* **XL = 48px**
-* **2XL = 72px**
+* **Extra-small (XS) = 12px** 
+* **Small (SM) = 12px** 
+* **Medium (MD) = 20px**
+* **Large (LG) = 32px**
+* **Extra-large (XL) = 48px**
+* **Extra-extra-large (XXL) = 72px**
 
 Exceptions are made for some elements such as dashboard panels and [cards]({{site.url}}/components/cards.html) which require no inset spacing when featuring edge-to-edge, body content.
 
