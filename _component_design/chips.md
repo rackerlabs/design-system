@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/chip.svg
 resource: true
 status: stable
-last-modified: 2018-04-19
+last-modified: 2018-04-23
 helix-ui-css: false
 helix-ui-javascript: false
 ---
@@ -19,7 +19,7 @@ helix-ui-javascript: false
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
+{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
 ## When to use
 
@@ -43,11 +43,11 @@ Consider the following best practices when constructing a chip:
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
 
 ## Specifications
-Refer to the following specifications when constructing chips.
+Use the following specifications when you construct chips.
 
 {% endcolumn %}
 
@@ -62,7 +62,7 @@ Refer to the following specifications when constructing chips.
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Composition
-A chip is composed of a container and an identifying element, known as the **identifier**. The identifier can consist of the following:
+A chip is composed of a container and an identifying element, known as the **identifier**. The identifier can consist of the following elements:
 
 - Letters to indicate a name
 - An image to indicate a user
@@ -90,7 +90,7 @@ A chip is composed of a container and an identifying element, known as the **ide
 
 ### Style
 
-Use the following redline specifications when you construct chips:
+Use these redline specifications when you construct chips.
 
 {% endcolumn %}
 
@@ -114,7 +114,7 @@ Use the following redline specifications when you construct chips:
 
 ### Spacing
 
-Use the following spacing guidelines when you construct chips.
+Use these spacing guidelines when you construct chips.
 
 {% endcolumn %}
 
