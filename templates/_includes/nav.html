@@ -38,5 +38,6 @@
       </hx-reveal>
     {%- endif -%}
   {%- endfor -%}
+  <a href="{{site.url}}/resources/index.html" {%- if currenturl contains "/resources" -%} class="current" {%- else -%} {%- endif -%}>RESOURCES</a>
   <a href="{{site.url}}/status.html" {%- if currenturl == "/status" -%} class="current" {%- else -%} {%- endif -%}>STATUS</a>
 </nav>
