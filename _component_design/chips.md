@@ -73,7 +73,7 @@ A chip is composed of a container and an identifying element, known as the **ide
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
 {% figure [caption:"Chip composition"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/chips/chips-composition.png){: width="580px"}
+![]({{site.url}}/assets/images/components/content-areas/chips/chips-composition.png){: width="249px"}
 {% endfigure %}
 
 {% endcolumn %}
@@ -121,7 +121,7 @@ Use the following spacing guidelines when you construct chips.
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
 {% figure [caption:"Chip spacing"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/chips/chips-spacing.png){: width="580px"}
+![]({{site.url}}/assets/images/components/content-areas/chips/chips-spacing.png){: width="148px"}
 {% endfigure %}
 
 {% endcolumn %}
