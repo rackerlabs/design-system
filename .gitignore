@@ -6,7 +6,9 @@ Gemfile.lock
 downloads
 
 # node modules
-# node_modules
+node_modules/
+!node_modules/@webcomponents/*.js
+!node_modules/helix-ui/dist/**
 
 vendor
 
