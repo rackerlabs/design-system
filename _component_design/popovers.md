@@ -24,20 +24,21 @@ helix-ui-javascript: true
 
 ## When to use
 
-Use a popover for small Create, Read, Edit, or Delete workflows where there is no need to change context.
+Use a popover for small Create, Read, Edit, or Delete workflows that preserve context.
 
-Use popovers for short create or edit workflows where background content is required. If a large workflow is required, consider creating a new page.
+If a large workflow is required, consider creating a new page.
 
 ## Best practices
 
 Consider the following best practices when constructing a popover:
 
 - Do not design a popover to open within another popover.
-- Design a popover to open when a user clicks a CTA. Do not design a popover to open when a user hovers over a CTA.
+- Popovers should open on click and not open on hover.
 - Because a popover is not always open, avoid including important or required information in a popover.
 - Use popovers when a user needs to make small changes with a limited number of inputs.
-- Design a popover to extend toward the center of the screen.
+- Popovers always open toward the center of the screen.
 - Do not place the popover so that it obstructs important background content.
+- Place the popover within the content area of the page it is on.
 
 {% endcolumn %}
 
