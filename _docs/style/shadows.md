@@ -33,6 +33,22 @@ Shadows work in tandem with elevation. Layering and focusing shadow types live o
 {% endcolumn %}
 
 
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+The type of elevation used is determined by the components absolute or relative position to the application canvas and components currently called on the view.
+ 
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
+{% figure [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/style/shadows/elevation-graphic.png){: width="966px"}
+{% endfigure %}
+
+{% endcolumn %}
+
+
+
 </div>
 </section>
 
