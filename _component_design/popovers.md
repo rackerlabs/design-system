@@ -5,11 +5,11 @@ secondary: Editing
 layout: component
 category: Components
 usage: >
-  A popover is a user interface element that shows notifications or other important information to users without the user losing the context of the current activity. Popovers allow users to make small changes, view additional detail, or take action without leaving the page. In addition to preserving context, popovers declutter a webpage.
+  A popover is a user interface element that allow users to make small changes, view additional details, or take action without losing the context of the current page. For example, when a user clicks an Edit link, a popover containing the parameters to edit opens. In addition to preserving context, popovers declutter a webpage.
 preview-image: preview-images/popover.svg
 resource: true
 status: stable
-last-modified: 2018-04-13
+last-modified: 2018-04-24
 helix-ui-css: true
 helix-ui-javascript: true
 ---
@@ -22,9 +22,9 @@ helix-ui-javascript: true
 
 {% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
 
-## When to Use
+## When to use
 
-Popovers appear when a user interacts with an action link on a page. For example, when a user clicks an **Edit** link, a popover containing the parameters to edit opens.
+Use a popover for small Create, Read, Edit, or Delete workflows where there is no need to change context.
 
 Use popovers for short create or edit workflows where background content is required. If a large workflow is required, consider creating a new page.
 
@@ -222,7 +222,7 @@ You can use popovers for small create or edit workflows that must remain in cont
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-## Hidden content
+## Hidden content popovers
 
 Use a popover to reveal hidden content so that it is accessible, but doesn’t clutter the background screen.
 
