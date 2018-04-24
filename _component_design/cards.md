@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/cards.svg
 status: in-progress
 resource: true
-last-modified: 2018-04-23
+last-modified: 2018-04-24
 helix-ui-css: false
 helix-ui-javascript: false
 ---
@@ -75,7 +75,7 @@ The card pattern is composed of the following three elements:
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [class:"image bg-light border"] %}
- ![]({{site.url}}/assets/images/components/content-areas/cards/card-default.png){:width="611px"}
+ ![]({{site.url}}/assets/images/components/content-areas/cards/cards_composition.png){:width="477px"}
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -94,7 +94,7 @@ Use these redline specifications when you construct cards.
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [class:"image bg-light border"] %}
- ![]({{site.url}}/assets/images/components/content-areas/cards/card-default.png){:width="611px"}
+ ![]({{site.url}}/assets/images/components/content-areas/cards/cards_style.png){:width="524px"}
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -141,7 +141,7 @@ Cards are applied to the [Helix grid](https://rackerlabs.github.io/helix-ui/comp
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [class:"image bg-light border"] %}
- ![]({{site.url}}/assets/images/components/content-areas/cards/card-grid.png){:width="611px"}
+ ![]({{site.url}}/assets/images/components/content-areas/cards/card-grid.png){:width="624px"}
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -159,7 +159,7 @@ For aesthetic purposes and in instances where only a few cards are present, you 
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [class:"image bg-light border"] %}
- ![]({{site.url}}/assets/images/components/content-areas/cards/card-grid-offset.png){:width="611px"}
+ ![]({{site.url}}/assets/images/components/content-areas/cards/card-grid-offset.png){:width="624px"}
 {% endfigure %}
 {% endcolumn %}
 </div>
