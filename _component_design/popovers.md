@@ -20,7 +20,7 @@ helix-ui-javascript: true
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
+{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
 ## When to use
 
@@ -30,7 +30,7 @@ If a large workflow is required, consider creating a new page.
 
 ## Best practices
 
-Consider the following best practices when constructing a popover:
+Consider the following best practices when you construct a popover:
 
 - Do not design a popover to open within another popover.
 - Popovers should open on click and not open on hover.
@@ -50,10 +50,10 @@ Consider the following best practices when constructing a popover:
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
 ## Specifications
-Refer to the following specifications when you construct a popover.
+Use these specifications when you construct a popover.
 
 {% endcolumn %}
 
@@ -95,7 +95,7 @@ A popover consists of a **container** and a **pointer**. The container appears o
 
 ### Style
 
-Use the following guidelines when sizing and styling a popover:
+Use these guidelines when you size and style a popover:
 
 - **Always** apply `box-shadow` to a popover.
 - **Do not** create a popover larger than 500px x 500px.
@@ -177,7 +177,7 @@ Use the following guidelines when you construct the popover pointer:
 
 ## Loading state
 
-Use a simple loading circle to load a popover. Refer to the [Loading]({{site.baseurl}}/components/loading-indicators.html) pattern for more detailed specifications.
+Use a simple loading circle to load a popover. Refer to the [loading]({{site.baseurl}}/components/loading-indicators.html) pattern for more detailed specifications.
 
 {% endcolumn %}
 
