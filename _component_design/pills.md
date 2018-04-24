@@ -9,7 +9,7 @@ usage: >
 preview-image: preview-images/pills.svg
 resource: true
 status: Stable
-last-modified: 2018-04-13
+last-modified: 2018-04-24
 ---
 
 {% include toc.html %}
@@ -18,7 +18,7 @@ last-modified: 2018-04-13
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
+{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
 ## When to Use
 
@@ -38,10 +38,10 @@ When using pills, ensure they are uniform in size, shape, and application.
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol-8 xCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
 ## Specifications
-Refer to the following specifications when constructing pills.
+Use these specifications when you construct pills.
 
 {% endcolumn %}
 
@@ -64,7 +64,7 @@ Pills consist of a container, text, and an “x” icon that indicates the user 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
 {% figure [caption:"Pill composition"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/pills/pills-default.png){:width="499px"}
+![]({{site.url}}/assets/images/components/content-areas/pills/pills_composition.png){:width="343px"}
 {% endfigure %}
 
 {% endcolumn %}
@@ -83,14 +83,14 @@ Pills consist of a container, text, and an “x” icon that indicates the user 
 
 Pills can be larger or smaller than body font. In general, use body font.
 
-Use the following redline specifications when you construct pills.
+Use these redline specifications when you construct pills.
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
 {% figure [caption:"Pill style"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/pills/pills-specs.png){:width="509px"}
+![]({{site.url}}/assets/images/components/content-areas/pills/pills_style.png){:width="417px"}
 {% endfigure %}
 
 {% endcolumn %}
@@ -118,7 +118,7 @@ If you group pills together, provide 8px of space below and next to a pill. If y
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
 {% figure [caption:"Pill spacing"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/pills/pills-specs.png){:width="509px"}
+![]({{site.url}}/assets/images/components/content-areas/pills/pills_spacing.png){:width="418px"}
 {% endfigure %}
 
 {% endcolumn %}
@@ -131,11 +131,11 @@ If you group pills together, provide 8px of space below and next to a pill. If y
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
 ## States
 
-Pills can exist in an **active** state, or a **hover** state.
+Pills can exist in active, hover, too many, or too long states.
 
 {% endcolumn %}
 
@@ -156,8 +156,8 @@ The active state is the default state, and indicates that a user has made a sele
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
-{% figure [caption:"Pill states"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/pills/pills-states.png){:width="499px"}
+{% figure [caption:"Active state"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/content-areas/pills/pills_states_active.png){:width="464px"}
 {% endfigure %}
 
 {% endcolumn %}
@@ -174,6 +174,60 @@ The active state is the default state, and indicates that a user has made a sele
 
 ### Hover
 The hover state indicates that the user can remove the selection.
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
+{% figure [caption:"Hover state"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/content-areas/pills/pills_states_hover.png){:width="463px"}
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### Too many
+Use the too many state when there is a group of more than 15 pills.
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
+{% figure [caption:"Too many state"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/content-areas/pills/pills_states_toomany.png){:width="356px"}
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### Too long
+Sometimes selection values can be very long. For these pills, use a truncation pattern where the maximum length including ellipses and quotations (if applicable) is 31 characters – 14 characters on either side, and an ellipses in the middle.
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
+{% figure [caption:"Too long state"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/content-areas/pills/pills_states_toolong.png){:width="337px"}
+{% endfigure %}
 
 {% endcolumn %}
 
