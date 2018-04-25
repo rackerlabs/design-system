@@ -25,6 +25,16 @@ helix-ui-javascript: false
 
 Use cards when you want to a visually distinct arrangement of tabular data, especially when an informational summary of different data objects is helpful for the user.
 
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
 ## Best practices
 
