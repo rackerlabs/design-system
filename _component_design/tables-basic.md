@@ -21,7 +21,7 @@ helix-ui-javascript: false
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### When to use
 
@@ -37,7 +37,7 @@ Tables are the bread-and-butter component for displaying complex objects in a ne
 
 {% endcolumn %}
 
-{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Meet the table pattern"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/tables/basic-tables/tables-hero.svg"/>
@@ -55,7 +55,7 @@ Tables are the bread-and-butter component for displaying complex objects in a ne
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 - Include the check box icon if a user needs to select or manipulate data within a table. This check box icon will always be the first element in a table row, see [table controls]({{site.baseurl}}/components/tables-controls.html).
 - Include the action cog menu if the objects in each row have two or more available actions.
@@ -68,7 +68,7 @@ Tables are the bread-and-butter component for displaying complex objects in a ne
 
 {% endcolumn %}
 
-{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Default table specifications"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/tables/basic-tables/tables-default.svg"/>
@@ -86,13 +86,13 @@ Tables are the bread-and-butter component for displaying complex objects in a ne
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 The use of a condensed table provides for views that display either many or few results.
 
 {% endcolumn %}
 
-{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Condensed table specifications"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/tables/basic-tables/tables-condensed.svg"/>
@@ -100,7 +100,7 @@ The use of a condensed table provides for views that display either many or few 
 
 {% endcolumn %}
 
-{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Small tables
 
@@ -108,7 +108,7 @@ If presenting a small amount of information, a condensed table format allows for
 
 {% endcolumn %}
 
-{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Example: IP addresses currently applied in a cloud server"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/tables/basic-tables/tables-small-condensed.svg"/>
@@ -126,7 +126,7 @@ If presenting a small amount of information, a condensed table format allows for
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Loading
 
@@ -134,7 +134,7 @@ Use a gray placeholder to represent loading text to inform the user that the dat
 
 {% endcolumn %}
 
-{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Example of table in loading state"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/tables/basic-tables/tables-loading.svg"/>
@@ -142,7 +142,7 @@ Use a gray placeholder to represent loading text to inform the user that the dat
 
 {% endcolumn %}
 
-{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Empty
 
@@ -158,7 +158,7 @@ Examples of this direction include:
 
 {% endcolumn %}
 
-{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Example of an empty table"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/tables/basic-tables/tables-empty.svg"/>
@@ -166,7 +166,7 @@ Examples of this direction include:
 
 {% endcolumn %}
 
-{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Hover & selected row
 
@@ -177,7 +177,7 @@ When using the check box icon within a table, each row supports the following st
 
 {% endcolumn %}
 
-{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Hover and selected row examples for default and condensed table rows"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/tables/basic-tables/tables-hover-selected.svg"/>
@@ -195,7 +195,7 @@ When using the check box icon within a table, each row supports the following st
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Dual line text table
 
@@ -210,7 +210,7 @@ This variation is used in the following situations:
 
 {% endcolumn %}
 
-{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Dual line text table example. **not to scale**"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/tables/basic-tables/tables-dualline-overview.png" width="580"/>
@@ -226,7 +226,7 @@ This variation is used in the following situations:
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 #### Best practices
 
@@ -245,7 +245,7 @@ This variation is used in the following situations:
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 #### Spacing
 
@@ -260,7 +260,7 @@ Using the dual-line text variation impacts standard table layout in the followin
 
 {% endcolumn %}
 
-{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Dual-line text table specifications"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/tables/basic-tables/tables-dualline-specs.png" width="580"/>

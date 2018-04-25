@@ -26,7 +26,7 @@ Use breadcrumbs on Rackspace sub-pages to let the user know where they are in th
 ## Introduction
 
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 ### When to use
 
@@ -53,7 +53,7 @@ Breadcrumbs offer a way to articulate the platform architecture in a way the use
 ## Standard breadcrumbs
 
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Specifications
 
@@ -63,7 +63,7 @@ Breadcrumbs offer a way to articulate the platform architecture in a way the use
 
 {% endcolumn %}
 
-{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Detailed specifications for breadcrumbs."] [class:"image bg-light border"] %}
 <embed src="{{site.baseurl}}/assets/images/components/navigation/bread-crumbs/standard-bc.svg"/>
 {% endfigure %}
@@ -75,7 +75,7 @@ Breadcrumbs offer a way to articulate the platform architecture in a way the use
 <section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Naming and Abbreviations
 
@@ -83,7 +83,7 @@ Breadcrumbs offer a way to articulate the platform architecture in a way the use
 
 {% endcolumn %}
 
-{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"As depicted, limit your breadcrumb item name."] [class:"image bg-light border"] %}
 <embed src="{{site.baseurl}}/assets/images/components/navigation/bread-crumbs/name-abbrev.svg"/>
 {% endfigure %}
@@ -95,7 +95,7 @@ Breadcrumbs offer a way to articulate the platform architecture in a way the use
 <section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Too many items
 
@@ -104,7 +104,7 @@ Breadcrumbs offer a way to articulate the platform architecture in a way the use
 
 {% endcolumn %}
 
-{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Jumping the Crumb. We put the ellipses here instead of an arrow, same spacing guidelines."] [class:"image bg-light border"] %}
 <embed src="{{site.baseurl}}/assets/images/components/navigation/bread-crumbs/to-many.svg"/>
 {% endfigure %}

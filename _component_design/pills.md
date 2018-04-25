@@ -21,7 +21,7 @@ last-modified: 2018-02-07
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### When to Use
 
@@ -33,7 +33,7 @@ When using pills, ensure they are uniform in size, shape, and application. Pills
 
 {% endcolumn %}
 
-{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"The pill pattern"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/content-areas/pills/pills-hero.png" width="1200"/>
@@ -49,7 +49,7 @@ When using pills, ensure they are uniform in size, shape, and application. Pills
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Default layout
 
@@ -59,7 +59,7 @@ A pill is different than a tag in a variety of ways, with the most important bei
 
 {% endcolumn %}
 
-{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"The pill pattern"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/content-areas/pills/pills-default.png" width="499"/>
@@ -77,7 +77,7 @@ A pill is different than a tag in a variety of ways, with the most important bei
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Style
 
@@ -93,7 +93,7 @@ If more than 15 pills are bunched together, consider an alternative pattern or c
 
 {% endcolumn %}
 
-{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"The pill pattern"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/content-areas/pills/pills-specs.png" width="509"/>
@@ -109,7 +109,7 @@ If more than 15 pills are bunched together, consider an alternative pattern or c
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### States
 
@@ -119,7 +119,7 @@ If more than 15 pills are bunched together, consider an alternative pattern or c
 
 {% endcolumn %}
 
-{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"The pill pattern"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/content-areas/pills/pills-states.png" width="499"/>
