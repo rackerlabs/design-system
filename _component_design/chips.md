@@ -25,6 +25,18 @@ helix-ui-javascript: false
 
 Use chips to graphically represent a unit of information. For example, use chips to represent a user or device.
 
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 ## Best practices
 
 Consider the following best practices when constructing a chip:
