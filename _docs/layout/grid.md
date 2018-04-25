@@ -47,7 +47,7 @@ site navigation.
 |--|--|--|--|--|--|
 | Max container width | None (auto) | 540px | 720px | 960px | 1140px |
 | # of columns{::nomarkdown}</td><td colspan="5" style="text-align: center;">12</td></tr><tr><td>Gutter width</td><td colspan="5"style="text-align: center;">20px (10px on each side of a column)</td></tr></table>{:/nomarkdown}
-{:class="ui striped table" style="margin-bottom:3em;"}
+{:class="hxTable" }
 </section>
 
 

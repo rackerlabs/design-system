@@ -18,7 +18,7 @@ last-modified: 2017-10-24
 ## Accessibility for visual design
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol hxSpan-12 hxSpan-12-xs hxSpan-12-sm hxSpan-12-md hxSpan-12-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-12-md hxSpan-12-lg" %}
 
 Rackspace products must be made accessible for everyone&mdash;regardless of a person’s abilities. We can assume from the statistics that many of our users have some form of visual impairment. [Colour Blind Awareness](http://www.colourblindawareness.org/) estimates that:
 
@@ -34,7 +34,7 @@ By using the following best practices, you can help ensure that your design is a
 
 <section class="static-section" markdown="1">
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol hxSpan-12 hxSpan-12-xs hxSpan-12-sm hxSpan-12-md hxSpan-12-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-12-md hxSpan-12-lg" %}
 
 ### Do not rely on color alone to convey meaning
 
@@ -43,19 +43,19 @@ Color deficiency is a common issue that is faced in the design process. The most
 {% endcolumn %}
 </div>
 <div class="hxRow"  markdown="1">
-{% column right:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 {% figure [caption:"Helix colors as seen in normal vision"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/overview/accessibility/accessibility-hero-1.svg"/>
 {% endfigure %}
 {% endcolumn %}
 
-{% column right:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 {% figure [caption:"Protanopia - reduced sensitivity to red"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/overview/accessibility/accessibility-hero-2.svg"/>
 {% endfigure %}
 {% endcolumn %}
 
-{% column right:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 {% figure [caption:"Deuteranopia - reduced sensitivity to green"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/overview/accessibility/accessibility-hero-3.svg"/>
 {% endfigure %}
@@ -64,7 +64,7 @@ Color deficiency is a common issue that is faced in the design process. The most
 
 
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol hxSpan-12 hxSpan-12-xs hxSpan-12-sm hxSpan-12-md hxSpan-12-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-12-md hxSpan-12-lg" %}
 
 While color can be useful to convey information, color should not be the only way information is conveyed. When using color to differentiate elements, also provide additional identification that does not rely on color perception. There should always be a backup visual indicator for people with color blindness.
 
@@ -75,7 +75,7 @@ While color can be useful to convey information, color should not be the only wa
 
 <section class="static-section"  markdown="1">
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Alerts
 
@@ -89,7 +89,7 @@ Other optional indicators to consider are the following elements:
 
 {% endcolumn %}
 
-{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/overview/accessibility/accessibility-alerts.png" width="598"/>
 {% endfigure %}
@@ -99,7 +99,7 @@ Other optional indicators to consider are the following elements:
 
 <section class="static-section"  markdown="1">
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Color and contrast
 
@@ -115,7 +115,7 @@ Helix minimum contrast standards require the following elements:
 
 {% endcolumn %}
 
-{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption: "Helix typography styles with their corresponding contrast ratios. All ratios were calculated using a `#fafafa` (`gray 25`) background color."] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/overview/accessibility/accessibility-typography.png" width="598"/>
 {% endfigure %}
@@ -125,7 +125,7 @@ Helix minimum contrast standards require the following elements:
 
 <section class="static-section"  markdown="1">
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol hxSpan-12 hxSpan-12-xs hxSpan-12-sm hxSpan-12-md hxSpan-12-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-12-md hxSpan-12-lg" %}
 
 ### Use headings and spacing to group related content
 
@@ -135,7 +135,7 @@ Some people with cognitive disabilities find it difficult to read text when the 
 
 {% endcolumn %}
 
-{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 Helix minimum spacing standards require: 
 
@@ -146,13 +146,13 @@ Helix minimum spacing standards require: 
 
 {% endcolumn %}
 
-{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 {% figure [caption: "Little spacing and unclear relationships"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/overview/accessibility/accessibility-space-1.png" width="305"/>
 {% endfigure %}
 {% endcolumn %}
 
-{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 {% figure [caption: "More spacing and clear relationships"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/overview/accessibility/accessibility-space-2.png" width="305"/>
 {% endfigure %}
@@ -163,7 +163,7 @@ Helix minimum spacing standards require: 
 
 <section class="static-section"  markdown="1">
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol hxSpan-12 hxSpan-12-xs hxSpan-12-sm hxSpan-12-md hxSpan-12-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-12-md hxSpan-12-lg" %}
 
 ### Provide easily identifiable feedback
 
@@ -171,7 +171,7 @@ Provide feedback for interactions, such as confirming form submission, alerting 
 
 {% endcolumn %}
 
-{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 #### Failed text inputs
 
@@ -181,19 +181,19 @@ It is important to reserve the prominent border at 2px for failed text input as 
 
 {% endcolumn %}
 
-{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 {% figure [caption:"Default state"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/overview/accessibility/accessibility-inputs-1.svg"/>
 {% endfigure %}
 {% endcolumn %}
 
-{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 {% figure [caption:"Error state"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/overview/accessibility/accessibility-inputs-2.svg"/>
 {% endfigure %}
 {% endcolumn %}
 
-{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 #### Focus for Input Field
 
@@ -201,13 +201,13 @@ In this example, we provide a clear visual feedback that the focus has moved to 
 
 {% endcolumn %}
 
-{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 {% figure [caption:"Default state"][class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/overview/accessibility/accessibility-inputs-3.svg"/>
 {% endfigure %}
 {% endcolumn %}
 
-{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 {% figure [caption:"Focused state"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/overview/accessibility/accessibility-inputs-4.svg"/>
 {% endfigure %}
@@ -217,7 +217,7 @@ In this example, we provide a clear visual feedback that the focus has moved to 
 
 <section class="static-section"  markdown="1">
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol hxSpan-12 hxSpan-12-xs hxSpan-12-sm hxSpan-12-md hxSpan-12-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-12-md hxSpan-12-lg" %}
 
 ### Tools
 

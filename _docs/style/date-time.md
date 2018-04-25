@@ -12,20 +12,20 @@ resource: true
 ### Date
 
 <div class="hxRow">
-{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 Always use human-readable, international-friendly formatting when displaying date and time.
 
 {% endcolumn %}
 
-{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Date format"] [class:"image bg-light border"] %}
 | Format | Examples |
 | --- | --- |
 | {month (mixed case 3 letter abbr)} {numerical day}, {year (4 digit)} | Nov 28, 2016<br/>Apr 2, 2016 |
 | Use an en dash (&ndash;) to separate the dates in date ranges. | Nov 28, 2016&ndash;Nov 30, 2016 |
-{: class="ui very basic collapsing celled table"}
+{: class="hxTable"}
 {% endfigure %}
 
 {% endcolumn %}
@@ -37,7 +37,7 @@ Always use human-readable, international-friendly formatting when displaying dat
 ### Time
 
 <div class="hxRow" markdown="1">
-{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 #### Best Practices
 
@@ -54,14 +54,14 @@ Always use human-readable, international-friendly formatting when displaying dat
 
 {% endcolumn %}
 
-{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Time format"] [class:"image bg-light border"] %}
 | Format | Examples |
 | --- | --- |
 | {time (12 hour clock)} {AM/PM (capitalized)} | 7:58 PM CST |
 | {time (12 hour clock)} {timezone (capitalized 3 letter abbreviation)} | 12:59:16 AM CDT (UTC-5) |
-{: class="ui very basic collapsing celled table"}
+{: class="hxTable"}
 {% endfigure %}
 
 {% endcolumn %}
@@ -72,7 +72,7 @@ Always use human-readable, international-friendly formatting when displaying dat
 <section class="static-section">
 
 <div class="hxRow" markdown="1">
-{% column left:"hxCol hxSpan-4 hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 #### Timestamp
 -   Add seconds or milliseconds to the time only when that level specificity is
@@ -80,13 +80,13 @@ Always use human-readable, international-friendly formatting when displaying dat
 
 {% endcolumn %}
 
-{% column right:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Timestamp format"] [class:"image bg-light border"] %}
 | Format | Examples |
 | --- | --- |
 | {month (mixed case 3 letter abbr)} {numerical day}<br>{year (4 digit)} {time (12-hr)} {AM/PM (caps)} {timezone (caps 3 letter abbr)} | Nov 28, 2016 7:58 PM CST<br/>Apr 2, 2016 12:59:16 AM CDT (UTC-5) |
-{: class="ui very basic collapsing celled table"}
+{: class="hxTable"}
 {% endfigure %}
 
 {% endcolumn %}

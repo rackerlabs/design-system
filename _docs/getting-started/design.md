@@ -14,7 +14,7 @@ last-modified: 2017-10-24
 <section class="static-section" markdown="1">
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 ### Prerequisites
 
@@ -29,7 +29,7 @@ last-modified: 2017-10-24
 <section class="static-section" markdown="1">
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 ### Get in the loop
 
@@ -47,7 +47,7 @@ Use the following resources to communicate with the Helix designers and be infor
 <section class="static-section" markdown="1">
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 ### Learn the language
 
@@ -65,7 +65,7 @@ Familiarize yourself with the concepts that define the Helix language. Through t
 <section class="static-section" markdown="1">
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol hxSpan-8 hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 ### Use the language
 
