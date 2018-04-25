@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/key-value.svg
 resource: true
 status: stable
-last-modified: 2018-04-13
+last-modified: 2018-04-24
 helix-ui-css: true
 helix-ui-javascript: true
 ---
@@ -19,7 +19,7 @@ helix-ui-javascript: true
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
+{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
 ## When to use
 
@@ -50,7 +50,7 @@ Consider the following best practices when you design key-value pairs:
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
 ## Horizontal layout
 
@@ -76,8 +76,8 @@ By default, key-value pairs appear in the body of a page. Key labels display rig
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
-{% figure [caption:"Key-value pair composition"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/key-pairs/keyvalue_composition.png)
+{% figure [caption:"Horizontal key-value pairs composition"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/content-areas/key-pairs/kv_h_composition.png){: width="267px"}
 {% endfigure %}
 
 {% endcolumn %}
@@ -101,7 +101,7 @@ To determine the indentation of key-value pairs, use two columns on the Helix gr
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
 {% figure [caption:"Horizontal key-value pairs style"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/key-pairs/keypairs-default-layout.svg)
+![]({{site.url}}/assets/images/components/content-areas/key-pairs/kv_h_style.png){: width="473px"}
 {% endfigure %}
 
 {% endcolumn %}
@@ -124,8 +124,30 @@ Restrict text wrapping to two columns for key labels and four columns for data v
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
-{% figure [caption:"A set of key-value pairs that use two lines"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/key-pairs/keypairs-two-lines.svg)
+{% figure [caption:"Key-value pairs wrapped text"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/content-areas/key-pairs/kv_h_spacing_twoline.png){: width="330px"}
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+Use these spacing guidelines for single-line key-value pairs.
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
+{% figure [caption:"One line key-value pairs"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/content-areas/key-pairs/kv_h_spacing_oneline.png){: width="268px"}
 {% endfigure %}
 
 {% endcolumn %}
@@ -148,8 +170,8 @@ You can use icons, compact tertiary buttons, and text links in key-value pairs.
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
-{% figure [caption:"Key-value pairs that contain icons, buttons, and text links"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/key-pairs/keypairs-other-elements.svg)
+{% figure [caption:"Key-value pairs with icons, buttons, and text links"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/content-areas/key-pairs/kv_h_other.png){: width="512px"}
 {% endfigure %}
 
 {% endcolumn %}
@@ -162,7 +184,7 @@ You can use icons, compact tertiary buttons, and text links in key-value pairs.
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
 ## Vertical layout
 
@@ -191,7 +213,8 @@ Key labels and data values display left-aligned on the left.
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
 {% figure [caption:"Vertical key-value pair composition"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/key-pairs/key-value-vertical-composition.png)
+![]({{site.url}}/assets/images/components/content-areas/key-pairs/kv_v_composition.png)
+{: width="457px"}
 {% endfigure %}
 
 {% endcolumn %}
@@ -214,8 +237,9 @@ Use the following redline specifications when you construct vertical layout key-
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
-{% figure [caption:"Vertical key-value pairs style"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/key-pairs/keypairs-vertical-keyvalue.svg)
+{% figure [caption:"Vertical key-value pair style"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/content-areas/key-pairs/kv_v_style.png)
+{: width="612px"}
 {% endfigure %}
 
 {% endcolumn %}
@@ -238,8 +262,9 @@ When a data value loads, the system should display the key label and the word **
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
-{% figure [caption:"Horizontal key-value pairs in a loading state"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/key-pairs/keypairs-loading-state.svg)
+{% figure [caption:"Horizontal key-value pairs loading state"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/content-areas/key-pairs/kv_h_loading.png)
+{: width="431px"}
 {% endfigure %}
 
 {% endcolumn %}
@@ -254,14 +279,15 @@ When a data value loads, the system should display the key label and the word **
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-When vertical key values load, they take the same loading pattern as the horizontal key values by populating the value with **Loading…**, styled in active body font, Roboto Regular, #424242.
+When vertical key values load, they take the same loading pattern as the horizontal key values by populating the value with **Loading…**, styled in active body font, Roboto Regular, `#424242`.
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
-{% figure [caption:"Vertical key-value pairs in a loading state"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/key-pairs/key-value-vertical-loading.png)
+{% figure [caption:"Vertical key-value pairs loading state"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/content-areas/key-pairs/kv_v_loading.png)
+{: width="362px"}
 {% endfigure %}
 
 {% endcolumn %}
