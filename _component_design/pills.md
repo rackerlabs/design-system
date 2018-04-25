@@ -24,6 +24,18 @@ last-modified: 2018-04-24
 
 Use pills when you want to indicate that a user has selected an object.
 
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol-8 xCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 ## Best practices
 
 When using pills, ensure they are uniform in size, shape, and application.
