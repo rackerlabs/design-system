@@ -28,6 +28,18 @@ Use a popover for small Create, Read, Edit, or Delete workflows that preserve co
 
 If a large workflow is required, consider creating a new page.
 
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 ## Best practices
 
 Consider the following best practices when you construct a popover:
