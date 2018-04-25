@@ -27,6 +27,7 @@
     padding: 0px !important;
   }
 }
+
 .new-blurb {
   background-color: #e5f4f7;
   min-height: 280px;
@@ -143,6 +144,7 @@
   font-size: 0.875em;
   color: $grey900;
   text-align: center;
+  display: inherit;
 }
 
 /* Typography */

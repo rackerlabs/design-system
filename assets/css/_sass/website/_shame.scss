@@ -6,3 +6,36 @@
     padding-top: 0;
   }
 }
+
+/*
+* This will be removed when we move to version to a new version of the helix-ui code that supports the card component
+*/
+
+
+.resource-card {
+	border: 1px solid #e0e0e0;
+	padding: 20px 20px;
+	background: #fafafa;
+  min-height: 261px;
+  h4 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+  p {
+    margin-bottom: 16px;
+  }
+}
+
+// Fixing the spacing issues with headings for now
+h2 {
+  margin-bottom: 28px !important;
+}
+h3 {
+  margin-bottom: 24px !important;
+}
+
+
+// Paragraphs apparently have a fixed margin-bottom of 0 in the NPM library.
+p {
+  margin-bottom: 1em !important;
+}
