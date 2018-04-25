@@ -1,5 +1,5 @@
 ---
-title: Modal
+title: Modals
 parent: Content Areas
 layout: component
 category: Components
@@ -7,7 +7,7 @@ usage: A modal is an element that disables the main window of an application unt
 resource: true
 status: stable
 preview-image: preview-images/modal.svg
-last-modified: 2018-04-16
+last-modified: 2018-04-25
 helix-ui-css: false
 helix-ui-javascript: false
 ---
@@ -18,7 +18,7 @@ helix-ui-javascript: false
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
+{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
 ## When to use
 Use modals when you want to **focus the attention of the user** by obstructing the view of all items not related to the action. Modals are useful when:
@@ -48,7 +48,7 @@ Consider the following best practices when you construct a modal:
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
 ## Specifications
 Use the following specifications when you construct modals.
@@ -147,32 +147,6 @@ Use the following spacing guidelines when you construct a modal.
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-## Loading state
-
-When depicting data loading in a popover, use a simple loading spinner. Center-align the loading spinner horizontally and vertically within the popover component.
-
-Refer to the [Loading pattern]({{site.url}}/components/loading-indicators.html) for detailed specifications.
-
-{% endcolumn %}
-
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-
-{% figure [caption:"Loading indicator for the modal"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/modal/modal-loading.svg)
-{% endfigure %}
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow"  markdown="1">
-
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-
 ## Confirmation modals
 
 A confirmation modal interrupts a user and requires a decision before the user can continue working. The modal is triggered when the user initiates a process or submits information that can have a significant or destructive impact.
@@ -195,6 +169,141 @@ A confirmation modal interrupts a user and requires a decision before the user c
 
 {% figure [caption:"Confirmation modal"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/content-areas/modal/modal-use-case-confirmations.svg)
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+## Acknowledgment modals
+
+xxxxx.
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
+{% figure [caption:"Confirmation modal"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/content-areas/modal/modal-use-case-confirmations.svg)
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
+## Education modals
+
+Use the following specifications when you construct educational modals.
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### Composition
+xxxxx
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
+{% figure [caption:"Confirmation modal"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/content-areas/modal/modal-use-case-confirmations.svg)
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### Style
+xxxxx
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
+{% figure [caption:"Confirmation modal"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/content-areas/modal/modal-use-case-confirmations.svg)
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### Spacing
+xxxxx
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
+{% figure [caption:"Confirmation modal"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/content-areas/modal/modal-use-case-confirmations.svg)
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+## Loading state
+
+When depicting data loading in a popover, use a simple loading spinner. Center-align the loading spinner horizontally and vertically within the popover component.
+
+Refer to the [Loading pattern]({{site.url}}/components/loading-indicators.html) for detailed specifications.
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
+{% figure [caption:"Loading indicator for the modal"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/content-areas/modal/modal-loading.svg)
 {% endfigure %}
 
 {% endcolumn %}
