@@ -27,6 +27,18 @@ Use a key-value pair to represent a single row's worth of data, where the key re
 
 Do not use key-value pairs to represent multiple rows or columns of data.
 
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
 ## Best practices
 
 Consider the following best practices when you design key-value pairs:
