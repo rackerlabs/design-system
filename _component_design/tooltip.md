@@ -1,6 +1,6 @@
 ---
 title: Tooltip
-parent: Help
+parent: Content Areas
 layout: component
 category: Components
 usage: >
@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/tooltip.svg
 status: stable
 resource: true
-last-modified: 2017-10-24
+last-modified: 2018-04-26
 helix-ui-css: true
 helix-ui-javascript: true
 ---
