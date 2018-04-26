@@ -1,5 +1,5 @@
 ---
-title: Tabsets
+title: Tabs
 parent: Content Areas
 layout: component
 category: Components
@@ -61,14 +61,6 @@ Consider the following best practices when you construct tabs:
 - Clearly label tabs to differentiate them. Labels should be short, scannable, and (preferably) one word.
 - Write tab labels in camel case so that the first letter of each word is capitalized.
 - Wrap tab labels to a second line if needed. Truncate tab labels that exceed two lines.
-
-{% endcolumn %}
-
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-
-{% figure [caption:"A generic tabset"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/tabs/tabs-lorem-ipsum.svg)
-{% endfigure %}
 
 {% endcolumn %}
 
