@@ -21,14 +21,16 @@
     {%- include head-polyfills.html -%}
   </head>
   <body class="hxVertical">
-    <div class="app overview-wrapper">
+    <div id="app" class="overview-wrapper">
       {%- include nav.html -%}
-      <main class="stage overview-content">
-        <div class="main-logo"><img src="assets/images/Helix_Logo_Homepage.svg" class="main-logo"></div>
-        <div class="overview-header display-font">{{ page.title }}</div>
-        {{ content }}
-        {%- include overview-footer.html -%}
-      </main>
+      <div id="stage">
+        <main id="content" class="overview-content">
+          <div class="main-logo"><img src="assets/images/Helix_Logo_Homepage.svg" class="main-logo"></div>
+          <div class="overview-header display-font">{{ page.title }}</div>
+          {{ content }}
+          {%- include overview-footer.html -%}
+        </main>
+      </div>
     </div>
     {%- include footer.html -%}
   </body>

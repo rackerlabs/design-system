@@ -21,28 +21,30 @@
     {%- include head-polyfills.html -%}
   </head>
   <body class="hxVertical">
-    <div class="app page-wrapper">
+    <div id="app" class="app page-wrapper">
       {%- include nav.html -%}
-        <main class="stage page-content">
-          <div class="base-top-bar">
-            <div class="content-wrapper">
-            <div class="hxRow">
-              <nav class="hxBreadcrumb">
-                <a style="cursor:default;">{{page.category}}</a>
-                <hx-icon class="delimiter" type="angle-right"></hx-icon>
-                  {%- for item in site.component_design -%}
-                    {%- if page.title == item.title -%}
-                      <a id="breadcrumbLink">{{item.parent}}</a>
-                    {%- endif -%}
-                  {%- endfor -%}
-                <hx-icon class="delimiter" type="angle-right"></hx-icon>
-                <a href="{{page.url}}">{{page.title}}</a>
-              </nav>
+        <div id="stage">
+          <main id="content" class="page-content">
+            <div class="base-top-bar">
+              <div class="content-wrapper">
+              <div class="hxRow">
+                <nav class="hxBreadcrumb">
+                  <a style="cursor:default;">{{page.category}}</a>
+                  <hx-icon class="delimiter" type="angle-right"></hx-icon>
+                    {%- for item in site.component_design -%}
+                      {%- if page.title == item.title -%}
+                        <a id="breadcrumbLink">{{item.parent}}</a>
+                      {%- endif -%}
+                    {%- endfor -%}
+                  <hx-icon class="delimiter" type="angle-right"></hx-icon>
+                  <a href="{{page.url}}">{{page.title}}</a>
+                </nav>
+              </div>
             </div>
           </div>
-        </div>
           {{ content }}
         </main>
+      </div>
     </div>
     {%- include footer.html -%}
   </body>

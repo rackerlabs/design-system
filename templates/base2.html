@@ -21,11 +21,13 @@
     {%- include head-polyfills.html -%}
   </head>
   <body class="hxVertical">
-    <div class="app page-wrapper">
+    <div id="app" class="page-wrapper">
       {%- include nav.html -%}
-      <main class="stage page-content">
-        {{ content }}
-      </main>
+      <div id="stage">
+        <main class="page-content">
+          {{ content }}
+        </main>
+      </div>
     </div>
     {%- include footer.html -%}
   </body>
