@@ -208,7 +208,7 @@ The hover state indicates that the user can remove the selection.
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
 ### Too many
-Use the too many state when there is a group of more than 15 pills.
+Use the too many pattern when there is no more room in the container for more pills. For most cases, use the too many when there are greater than 10 pills. Because pills can be use in many contexts and can vary in length, use your judgement when you determine when to use the too many pattern.
 
 {% endcolumn %}
 
@@ -232,6 +232,8 @@ Use the too many state when there is a group of more than 15 pills.
 
 ### Too long
 Sometimes selection values can be very long. For these pills, use a truncation pattern where the maximum length including ellipses and quotations (if applicable) is 31 characters – 14 characters on either side, and an ellipses in the middle.
+
+Ensure you follow the truncation guidelines in Ellipses section of the Text Conventions.
 
 {% endcolumn %}
 
