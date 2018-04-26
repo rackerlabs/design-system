@@ -1,6 +1,6 @@
 ---
 title: Select filter
-parent: Content Areas
+parent: Search and Filters
 layout: component
 category: Components
 usage: >
