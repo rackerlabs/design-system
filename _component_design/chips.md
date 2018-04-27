@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/chip.svg
 resource: true
 status: stable
-last-modified: 2018-04-23
+last-modified: 2018-04-27
 helix-ui-css: false
 helix-ui-javascript: false
 ---
@@ -85,7 +85,7 @@ A chip is composed of a container and an identifying element, known as the **ide
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
 {% figure [caption:"Chip composition"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/chips/chips-composition.png){: width="249px"}
+![]({{site.url}}/assets/images/components/content-areas/chips/chips-composition.png){: width="234px"}
 {% endfigure %}
 
 {% endcolumn %}
@@ -109,7 +109,7 @@ Use these redline specifications when you construct chips.
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
 {% figure [caption:"Chip style"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/chips/chips-style.png){: width="580px"}
+![]({{site.url}}/assets/images/components/content-areas/chips/chips-style.png){: width="411px"}
 {% endfigure %}
 
 {% endcolumn %}
@@ -133,7 +133,7 @@ Use these spacing guidelines when you construct chips.
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
 {% figure [caption:"Chip spacing"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/chips/chips-spacing.png){: width="148px"}
+![]({{site.url}}/assets/images/components/content-areas/chips/chips-spacing.png){: width="327px"}
 {% endfigure %}
 
 {% endcolumn %}
