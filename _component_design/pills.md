@@ -9,7 +9,7 @@ usage: >
 preview-image: preview-images/pills.svg
 resource: true
 status: Stable
-last-modified: 2018-04-24
+last-modified: 2018-04-26
 ---
 
 {% include toc.html %}
