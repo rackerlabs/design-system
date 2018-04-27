@@ -7,8 +7,10 @@ downloads
 
 # node modules
 node_modules/
-!node_modules/@webcomponents/*.js
-!node_modules/@webcomponents/*.map
+# match loader, polyfills, and polyfill source maps
+!node_modules/@webcomponents/webcomponentsjs/webcomponents-*
+# match es5 adapter for modern browsers
+!node_modules/@webcomponents/webcomponentsjs/custom-elements-es5-adapter.js
 !node_modules/helix-ui/dist/**
 
 vendor
