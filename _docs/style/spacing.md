@@ -120,9 +120,9 @@ Line-heights across all font-sizes must be proportional to each other to create 
   <thead>
     <tr>
       <th>Font Style</th>
-      <th class="align-right">Size</th>
+      <th class="hxRight">Size</th>
       <th></th>
-      <th class="align-center">Ratio</th>
+      <th class="hxCenter">Ratio</th>
       <th></th>
       <th>line-height</th>
     </tr>
@@ -130,9 +130,9 @@ Line-heights across all font-sizes must be proportional to each other to create 
   <tbody>
     {% for style in site.data.typography-styles %}<tr>
       <td>{{style.fontStyle}}</td>
-      <td class="align-right">{{style.fontSize}}</td>
-      <td class="align-center">&times;</td>
-      <td class="align-center">1.5</td>
+      <td class="hxRight">{{style.fontSize}}</td>
+      <td class="hxCenter">&times;</td>
+      <td class="hxCenter">1.5</td>
       <td>=</td>
       <td>{{style.lineHeight}}</td>
     </tr>{% endfor %}

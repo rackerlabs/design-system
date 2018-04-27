@@ -13,9 +13,9 @@ usage: >
     <thead>
       <tr>
         <th>Helix Pattern</th>
-        <th class="align-center">Design Doc</th>
-        <th class="align-center">CSS</th>
-        <th class="align-center">JS</th>
+        <th class="hxCenter">Design Doc</th>
+        <th class="hxCenter">CSS</th>
+        <th class="hxCenter">JS</th>
       </tr>
     </thead>
     <tbody>
@@ -33,17 +33,17 @@ usage: >
       {%- assign component_list = component_list | sort: 'title' -%}
       {%- for page in component_list -%}<tr >
           <td><a href="{{site.baseurl}}{{page.url}}.html">{{page.title}}</a></td>
-          <td class="align-center">
+          <td class="hxCenter">
           {%- if page.status -%}
             <span class="status-label small {{page.status | replace: ' ','-'}}">{{page.status}}</span>
           {%- endif -%}
           </td>
-          <td class="align-center status-ok">
+          <td class="hxCenter status-ok">
             {%- if page.helix-ui-css -%}
             <hx-icon type="checkmark-circle"></hx-icon>
             {%- endif -%}
           </td>
-          <td class="align-center status-ok">
+          <td class="hxCenter status-ok">
             {%- if page.helix-ui-javascript -%}
             <hx-icon type="checkmark-circle"></hx-icon>
             {%- endif -%}
