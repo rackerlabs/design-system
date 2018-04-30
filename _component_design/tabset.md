@@ -28,7 +28,7 @@ Use tabs when:
 - Users need to alternate between different views, while the context remains constant.
 - Users do not need to simultaneously view content from multiple tabs.
 - You want the content of a page to be scannable and easy to navigate. Tabs help users quickly find what they need.
-- You do not need to create a single, unified experience for the user. Tabsets eliminate the need for the user to scroll through long pages to find the right section.
+- You do not need to create a single, unified experience for the user. Tabs eliminate the need for the user to scroll through long pages to find the right section.
 
 Do not use tabs:
 
@@ -54,11 +54,11 @@ Consider the following best practices when you construct tabs:
 - There can be only one active tab per page.
 - The default view must display the left-most tab.
 - Present tabs as a single row.
-- Do not include another set of tabbed content within a tab (no nested tabsets).
+- Do not construct nested tabs that include another set of tabbed content within a tab.
 - Highlight the tab corresponding to the visible content.
 - Provide all relevant contextual information and interface items so a user can perform a single task within the same tab.
-- Do not use tabsets for primary navigation.
-- Clearly label tabs to differentiate them. Labels should be short, scannable, and (preferably) one word.
+- Do not use tabs for primary navigation.
+- Clearly label tabs to differentiate them. Labels should be short, scannable, and preferably one word.
 - Write tab labels in camel case so that the first letter of each word is capitalized.
 - Wrap tab labels to a second line if needed. Truncate tab labels that exceed two lines.
 
@@ -168,7 +168,7 @@ Pad the top and bottom of the tab content area by 24px. Pad the sides of the tab
 
 ## States
 
-xxxxx.
+Tabs can exist in hover, pressed, or zero states.
 
 {% endcolumn %}
 
