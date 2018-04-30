@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/cards.svg
 status: in-progress
 resource: true
-last-modified: 2018-04-24
+last-modified: 2018-04-30
 helix-ui-css: false
 helix-ui-javascript: false
 ---
@@ -85,7 +85,7 @@ The card pattern is composed of the following three elements:
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [class:"image bg-light border"] %}
- ![]({{site.url}}/assets/images/components/content-areas/cards/cards_composition.png){:width="477px"}
+ ![]({{site.url}}/assets/images/components/content-areas/cards/cards-composition.png){:width="471px"}
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -104,7 +104,7 @@ Use these redline specifications when you construct cards.
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [class:"image bg-light border"] %}
- ![]({{site.url}}/assets/images/components/content-areas/cards/cards_style.png){:width="524px"}
+ ![]({{site.url}}/assets/images/components/content-areas/cards/cards-style.png){:width="528px"}
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -127,7 +127,7 @@ be mixed and matched within a single card grid layout or individual card.
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [class:"image bg-light border"] %}
- ![]({{site.url}}/assets/images/components/content-areas/cards/card-spacing.png){:width="611px"}
+ ![]({{site.url}}/assets/images/components/content-areas/cards/cards-spacing.png){:width="377px"}
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -151,7 +151,7 @@ Cards are applied to the [Helix grid](https://rackerlabs.github.io/helix-ui/comp
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [class:"image bg-light border"] %}
- ![]({{site.url}}/assets/images/components/content-areas/cards/card-grid.png){:width="624px"}
+ ![]({{site.url}}/assets/images/components/content-areas/cards/cards-layout-1.png){:width="580px"}
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -169,7 +169,7 @@ For aesthetic purposes and in instances where only a few cards are present, you 
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [class:"image bg-light border"] %}
- ![]({{site.url}}/assets/images/components/content-areas/cards/card-grid-offset.png){:width="624px"}
+ ![]({{site.url}}/assets/images/components/content-areas/cards/cards-layout-2.png){:width="580px"}
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -204,7 +204,7 @@ If an individual card or set of cards is loading, use the [spinner loading indic
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [class:"image bg-light border"] %}
- ![]({{site.url}}/assets/images/components/content-areas/cards/card-loading.png){:width="469px"}
+ ![]({{site.url}}/assets/images/components/content-areas/cards/cards-states-loading.png){:width="463px"}
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -216,7 +216,7 @@ If an individual card or set of cards is loading, use the [spinner loading indic
 <div class="hxRow"  markdown="1">
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-### Empty card
+### Empty
 
 The empty card provides a space for a user to add a new card.
 
@@ -226,7 +226,7 @@ The empty card button is based on the [chip](http://helix.rax.io/components/chip
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 {% figure [class:"image bg-light border"] %}
- ![]({{site.url}}/assets/images/components/content-areas/cards/card-add.png){:width="469px"}
+ ![]({{site.url}}/assets/images/components/content-areas/cards/cards-states-empty.png){:width="506px"}
 {% endfigure %}
 {% endcolumn %}
 </div>
