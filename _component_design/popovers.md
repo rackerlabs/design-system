@@ -9,7 +9,7 @@ usage: >
 preview-image: preview-images/popover.svg
 resource: true
 status: stable
-last-modified: 2018-04-24
+last-modified: 2018-04-30
 helix-ui-css: true
 helix-ui-javascript: true
 ---
@@ -90,7 +90,7 @@ A popover consists of a **container** and a **pointer**. The container appears o
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
 {% figure [caption:"Popover composition"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/popovers/popover-default-layout.svg)
+![]({{site.url}}/assets/images/components/content-areas/popovers/popovers-composition.png){: width="486px"}
 {% endfigure %}
 
 {% endcolumn %}
@@ -107,19 +107,16 @@ A popover consists of a **container** and a **pointer**. The container appears o
 
 ### Style
 
-Use these guidelines when you size and style a popover:
+Use these guidelines when you construct a popover.
 
-- **Always** apply `box-shadow` to a popover.
-- **Do not** create a popover larger than 500px x 500px.
-
-{% include note.html content="If you require more space, solve the design challenge with a different Helix pattern."%}
+{% include note.html content="Do not create a popover larger than 500px x 500px. If you require more space, solve the design challenge with a different Helix pattern."%}
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
 {% figure [caption:"Popover style"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/popovers/popover-specs.svg)
+![]({{site.url}}/assets/images/components/content-areas/popovers/popovers-style.png){: width="553px"}
 {% endfigure %}
 
 {% endcolumn %}
@@ -143,7 +140,7 @@ See [inputs and controls]({{site.baseurl}}/components/inputs-and-controls.html) 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
 {% figure [caption:"Popover spacing"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/popovers/popover-spacing.svg)
+![]({{site.url}}/assets/images/components/content-areas/popovers/popovers-spacing.png){: width="356px"}
 {% endfigure %}
 
 {% endcolumn %}
@@ -172,7 +169,7 @@ Use the following guidelines when you construct the popover pointer:
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
 {% figure [caption:"Pointer specifications and placement variations"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/popovers/popover-pointer-size-placement.svg)
+![]({{site.url}}/assets/images/components/content-areas/popovers/popovers-size-and-spacing.png){: width="401px"}
 {% endfigure %}
 
 {% endcolumn %}
@@ -189,14 +186,14 @@ Use the following guidelines when you construct the popover pointer:
 
 ## Loading state
 
-Use a simple loading circle to load a popover. Refer to the [loading]({{site.baseurl}}/components/loading-indicators.html) pattern for more detailed specifications.
+Use a simple loading circle to load a popover. Refer to the [loading indicator]({{site.baseurl}}/components/loading-indicators.html) pattern for more detailed specifications.
 
 {% endcolumn %}
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
-{% figure [caption:"A popover in loading state using a spinner"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/popovers/popover-loading.svg)
+{% figure [caption:"A popover in loading state"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/content-areas/popovers/popovers-loading-state.png){: width="356px"}
 {% endfigure %}
 
 {% endcolumn %}
@@ -220,7 +217,7 @@ You can use popovers for small create or edit workflows that must remain in cont
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
 {% figure [caption:"A popover with a small create workflow"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/popovers/popover-small-create-edit-popover.svg)
+![]({{site.url}}/assets/images/components/content-areas/popovers/popovers-small-create-edit-popover.png){: width="356px"}
 {% endfigure %}
 
 {% endcolumn %}
@@ -246,7 +243,7 @@ If the content is dynamic or interactive, a popover is preferable to a [tooltip]
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
 {% figure [caption:"An interactive informational popover"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/popovers/popover-large-hidden-content.svg)
+![]({{site.url}}/assets/images/components/content-areas/popovers/popovers-hidden-content-popover.png){: width="505px"}
 {% endfigure %}
 
 {% endcolumn %}
