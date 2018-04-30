@@ -17,35 +17,15 @@ helix-ui-javascript: true
 
 <section class="static-section" markdown="1">
 
-## Introduction
-
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
-### When to use
+## When to use
 
 Use a tooltip when you need to provide in-context help information. (for example, when describing what will happen when a workflow is initiated). A tooltip can also be used to reveal hidden information, provide extra or supplemental information to users, clarify uses when features could be misinterpreted, or explain an item on a page when it does not have a text label.
 
-### When not to use
-
 Do not use a tooltip if users must repeatedly refer to a tooltip to understand an option or to complete a workflow. We recommend you do not use a tooltip when users needs to interact with the tip's content, or when users integrate with the site on a mobile device.
-
-### Best practice
-
-- Tooltips are perfect for short sentences and sentence fragments that assist the user in their understanding.
-- The ideal tooltip is not obvious, nor does it repeat content that is already visible on the site.
-- Place a tooltip in a subtle location, and ensure it does not interfere with the user or obscure any objects of interest. - Use the tooltip on icon images, text, and table rows.
-- The maximum width for the tooltip is 400px.
-- Ensure there are no interactive controls inside the tooltip.
-
-{% endcolumn %}
-
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-
-{% figure [caption:"Meet the tooltip pattern"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/help/tooltips/tooltip-hero.svg)
-{% endfigure %}
 
 {% endcolumn %}
 
@@ -55,11 +35,47 @@ Do not use a tooltip if users must repeatedly refer to a tooltip to understand a
 
 <section class="static-section" markdown="1">
 
-## Default composition
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
+## Best practice
+
+- Tooltips are perfect for short sentences and sentence fragments that assist the user in their understanding.
+- The ideal tooltip is not obvious, nor does it repeat content that is already visible on the site.
+- Place a tooltip in a subtle location, and ensure it does not interfere with the user or obscure any objects of interest. - Use the tooltip on icon images, text, and table rows.
+- The maximum width for the tooltip is 400px.
+- Ensure there are no interactive controls inside the tooltip.
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
+## Specifications
+
+Use the following specifications when you construct tooltips.
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### Composition
 
 Tooltips are composed of two primary elements, the tooltip container and the trigger:
 
@@ -72,7 +88,7 @@ The tooltip stands out from the background by using a lighter background color t
 
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
-{% figure [caption:"Tooltip composition."] [class:"image bg-light border"] %}
+{% figure [caption:"Tooltip composition"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/help/tooltips/tooltip-composition.svg)
 {% endfigure %}
 
