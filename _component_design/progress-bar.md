@@ -25,19 +25,17 @@ helix-ui-javascript: false
 
 ### Minimal progress bar
 
-The Minimal Progress Bar offers a simple, no-nonsense way to indicate progress on a process visually. It only tells you what you need to know - based on fill, how far along am I?
-
-As is articulated below, it can and should be used with additional information when possible to provide the most value.
+The minimal progress var provides user with a simple visual to ascertain the status of a process. As a process moves forward the fill of the progress bar grows to indicate progress to a user.
 
 ### When to use
 
-- Use anytime you want to simply convey the progress of a process. They shine best in small spaces.
+- Use anytime you want to simply convey the progress of a process. 
 
 ### Best practice
 
-- A progress bar should have a `max-width` over 400px wide
-- Do not overclutter with information around it, as it reduces the simplicity and effectiveness of this pattern
-- Do not make the progress bar taller, it is useful in its leanness. 
+- A progress bar shines best in small spaces and **should not** have a `max-width` over `400px` wide.
+- **Do not** overclutter with information around it, as it reduces the simplicity and effectiveness of the pattern
+- **Do not** make the progress bar taller as the Y-axis of the progress bar conveys no visual information on progress.
 
 {% endcolumn %}
 
@@ -61,7 +59,7 @@ As is articulated below, it can and should be used with additional information w
 
 ### Composition
 
-The Minimal Progress Bar offers a small, extensible, flexible, non-nonsense way to indicate progress on a process visually. As is articulated below, it can and should be used with additional information when possible to provide the most value. 
+A progress bar is composed of a containing shape (empty fill) and a progress indicator (loading fill).
 
 {% endcolumn %}
 
@@ -85,7 +83,7 @@ The Minimal Progress Bar offers a small, extensible, flexible, non-nonsense way 
 
 ### Spacing
 
-In general, the minimal progress bar should have 8px of external padding around it at all times. It typically anchors left, in which case the left padding is optional.
+A minimal progress bar should have `8px` of `padding` around its container to allow for visual distinction. It typically anchors left, in which case the `padding-left` is optional.
 
 {% endcolumn %}
 
@@ -109,7 +107,7 @@ In general, the minimal progress bar should have 8px of external padding around 
 
 ### Specifications
 
-The Minimal Progress Bar is 8px tall with a cyan 500 loading fill and a gray 400 empty fill. It should never be more than 8px tall. There is no minimum or maximum length, though we advise not creating progress bars wider than 400px, both for aesthetic purposes and so the user may see the entire progress bar in a single glance, rather than have to track across the screen to understand the progress being made.  
+The minimal progress bar is `8px` tall with a `cyan 500` loading fill and a `gray 400` empty fill. There is no minimum or maximum length for progress bars, however, we advise the boundaries. No smaller than `240px` and no larger than `400px`. This is aesthetic purposes and for ease of user consumption. These dimensions allow a user to see the entire progress bar in a single glance, rather than have to track across the screen to understand the progress being made.  
 
 {% endcolumn %}
 
@@ -133,9 +131,9 @@ The Minimal Progress Bar is 8px tall with a cyan 500 loading fill and a gray 400
 
 ### Behavior and context
 
-The Minimal Progress Bar does not have state changes itself. When it appears, it appears with 100% empty fill and loads with the loading fill corresponding to its progress. When it is done loading, the loading bar disappears and the interface designers can replace this content with more useful content. Shown is
+The minimal progress bar does not have state changes itself. When it appears, it appears with 100% empty fill and loads with the loading fill corresponding to its progress. When it is done loading, the loading bar disappears and the interface designers can replace this content with more useful content.
 
-- **Contextual changes:** We advise, while the minimal progress bar is processing, to subdue the opacity of the surrounding elements to 60%, such as icons and text, so the user understands those elements are not fully “there” yet. Any buttons or controls that cannot be acted on should be hidden (if hiding is not an option, subdue them) until they can be acted on. Buttons or controls that *can* be acted on should remain at full opacity.
+- **Contextual changes:** While processing, subdue the opacity of the surrounding elements to 60%, such as icons and text, so the user understands processing elements are in a transient state. Any buttons or controls that cannot be acted on should be hidden (if hiding is not an option, subdue them) until they can be acted on. Buttons or controls that **can** be acted on should remain at full opacity.
 
 - **Error states:** If an item has trouble loading, the progress bar itself does not convert to error state, but the pattern that the progress bar is a part of does. That pattern should follow our general error state guidelines, which include presenting an error message with an error icon. From that error message, the user may choose to retry or eliminate the item processing.
 
