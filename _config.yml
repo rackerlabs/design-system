@@ -13,7 +13,7 @@ twitter_username: rackspace
 github_username:  rackerlabs
 permalink: /:categories/:slug
 # navigation: ['Style', 'Layout', 'Components', 'Templates']
-exclude: ['Gemfile', 'Gemfile.lock','README.md', 'vendor', 'node_modules', '_site']
+exclude: ['Gemfile', 'Gemfile.lock','README.md', 'vendor', '_site', 'build-me.sh', 'Dockerfile', 'ISSUE_TEMPLATE.md', 'package.json', 'package-lock.json', 'yarn.lock']
 
 # PATHING FOR WEBSITE AND DESIGN-SYSTEM
 websiteAssets: '/assets/'

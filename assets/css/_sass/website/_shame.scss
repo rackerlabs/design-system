@@ -7,25 +7,15 @@
   }
 }
 
-/* 
-* This will be removed when we move to version v0.3.0+ of the helix-ui code. The version currently used on the site does not have styling for the hxHeading-5 class. 
-*/
-
-.hxHeading5 {
-  font-size: 0.75rem;
-  font-weight: 400;
-  text-transform: uppercase;
-}
-
-/* 
+/*
 * This will be removed when we move to version to a new version of the helix-ui code that supports the card component
 */
 
 
 .resource-card {
-	border: 1px solid #e0e0e0;
-	padding: 20px 20px;
-	background: #fafafa;
+  border: 1px solid $grey300;
+  padding: 20px 20px;
+  background: $grey25;
   min-height: 261px;
   h4 {
     margin-top: 16px;
@@ -33,5 +23,27 @@
   }
   p {
     margin-bottom: 16px;
+  }
+}
+
+// Fixing the spacing issues with headings for now
+h2 {
+  margin-bottom: 28px !important;
+}
+h3 {
+  margin-bottom: 24px !important;
+}
+
+
+// Paragraphs apparently have a fixed margin-bottom of 0 in the NPM library.
+p {
+  margin-bottom: 1em !important;
+}
+
+// Submit issue button should look like a button (ref: educational modal discussion and slack decision)
+.issue {
+  color: $cyan900 !important;
+  &:hover {
+    color: $grey0 !important;
   }
 }

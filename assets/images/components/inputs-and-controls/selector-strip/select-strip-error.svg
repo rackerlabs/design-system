@@ -3,6 +3,10 @@
     <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
     <title>select-strip-error</title>
     <desc>Created with Sketch.</desc>
+    <style>
+      @import url("https://fonts.googleapis.com/css?family=Roboto:300,400");
+      @import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css")
+    </style>
     <defs>
         <polygon id="path-1" points="67 62 138.107 62 138.107 22 67 22"></polygon>
         <polygon id="path-2" points="7 3.5 0 7 0 0"></polygon>

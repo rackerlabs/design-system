@@ -2,7 +2,7 @@
 title: Assisted Search
 layout: code
 category: Components Code
-code: null
+code: components/search
 ---
 
-{% include todo.html content="Set up code." %}
+{% include code-container.html %}

@@ -21,7 +21,7 @@ helix-ui-javascript: false
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### When to use
 
@@ -34,10 +34,10 @@ helix-ui-javascript: false
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-hero-image.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-hero-image.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -52,7 +52,7 @@ helix-ui-javascript: false
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Basic layout
 
@@ -62,10 +62,10 @@ helix-ui-javascript: false
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-basic-layout.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-basic-layout.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -78,7 +78,7 @@ helix-ui-javascript: false
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Placeholder text
 
@@ -87,10 +87,10 @@ helix-ui-javascript: false
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-placeholder-text.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-placeholder-text.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -103,7 +103,7 @@ helix-ui-javascript: false
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Helper text
 
@@ -113,10 +113,10 @@ helix-ui-javascript: false
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-helper-text.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-helper-text.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -129,7 +129,7 @@ helix-ui-javascript: false
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Required fields
 
@@ -138,10 +138,10 @@ helix-ui-javascript: false
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-required.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-required.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -154,7 +154,7 @@ helix-ui-javascript: false
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Character or word counter
 
@@ -165,10 +165,10 @@ helix-ui-javascript: false
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-character-or-word-counter.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-character-or-word-counter.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -183,7 +183,7 @@ helix-ui-javascript: false
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 Validation for individual inputs should occur when the user shifts focus to another element (`onBlur`), and the entire form should go through a validation check on submit.
 
@@ -195,10 +195,10 @@ Validation for individual inputs should occur when the user shifts focus to anot
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-states-overview.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-states-overview.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -211,7 +211,7 @@ Validation for individual inputs should occur when the user shifts focus to anot
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Disabled state
 
@@ -221,10 +221,10 @@ Validation for individual inputs should occur when the user shifts focus to anot
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-disabled.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-disabled.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -237,7 +237,7 @@ Validation for individual inputs should occur when the user shifts focus to anot
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Focused
 
@@ -247,10 +247,10 @@ Validation for individual inputs should occur when the user shifts focus to anot
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-focused.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-focused.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -263,7 +263,7 @@ Validation for individual inputs should occur when the user shifts focus to anot
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Invalid
 
@@ -276,10 +276,10 @@ Validation for individual inputs should occur when the user shifts focus to anot
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-invalid.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-invalid.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -294,7 +294,7 @@ Validation for individual inputs should occur when the user shifts focus to anot
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 Text fields can be formatted to indicate the types of data a field accepts by using placeholder text, a preset layout, and character limits. Text formatting should be displayed only when the field is focused or filled.
 
@@ -312,7 +312,7 @@ Characters can be formatted using:
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Prefixes and suffixes
 
@@ -322,10 +322,10 @@ Characters can be formatted using:
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-prefixes-and-suffixes.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-prefixes-and-suffixes.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -338,7 +338,7 @@ Characters can be formatted using:
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Password redaction
 
@@ -346,10 +346,10 @@ Password input is disguised by default. Midline ellipses are displayed to repres
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-password-redaction.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-password-redaction.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -364,7 +364,7 @@ Password input is disguised by default. Midline ellipses are displayed to repres
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Basic layout
 
@@ -375,10 +375,10 @@ Password input is disguised by default. Midline ellipses are displayed to repres
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-area-basic-layout.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-area-basic-layout.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -391,7 +391,7 @@ Password input is disguised by default. Midline ellipses are displayed to repres
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Text area states
 
@@ -399,10 +399,10 @@ Text area states also follow the same layout and behaviors as text inputs.
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-area-states-overview.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-area-states-overview.svg"/>
 {% endfigure %}
 
 {% endcolumn %}

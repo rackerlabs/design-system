@@ -14,11 +14,6 @@
 <script src="{{site.url}}/assets/js/demo-progress-indicators.js"></script>
 {%- endif -%}
 
-{%- if page.need contains 'selectors' -%}
-<script src="{{site.url}}/assets/js/demo-selectors.js"></script>
-<script src="{{site.url}}/assets/js/demo-selectors-button-groups.js"></script>
-{%- endif -%}
-
 {%- if page.url contains 'components/code' -%}
 <script src="{{site.url}}/assets/js/codeContainer.js"></script>
 <script type="text/javascript">
@@ -27,17 +22,26 @@
 </script>
 {%- endif -%}
 <script src="{{site.url}}/assets/js/nav-accordion.js"></script>
+<!--<script src="{{site.url}}/assets/js/svgFix.js"></script>-->
 <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="{{site.url}}/assets/js/lightbox.js"></script>
 {%- if page.url contains '/components/'-%}
-  {# {%- assign urlStub == {{ site.data.families | jsonify }} -%}
-  {%- unless page.url == '{{site.url}}/components/{{urlStub.[0]}}.html' -%} #}
     <script src="{{site.url}}/assets/js/wayfinding.js"></script>
-    <script src="{{site.url}}/assets/js/tooltip.js"></script>
-  {# {%- endunless -%} #}
 {%- endif -%}
-<script src="https://2d2bf231b82dfe76fe36-fa12562cfe810d69bedcc36a0ac289ef.ssl.cf1.rackcdn.com/javascript/helix-ui.js"></script>
+<!-- Polyfill Loader -->
+<script src="{{ site.url }}/node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+<!-- intelligently load ES5 Adapter (if needed) -->
+<span id="ce-es5-adapter">
+  <script>
+    if (!window.customElements) {
+      var elAdapter = document.querySelector('#ce-es5-adapter');
+      elAdapter.parentElement.removeChild(elAdapter);
+    }
+  </script>
+  <script src="{{ site.url }}/node_modules/@webcomponents/webcomponentsjs/custom-elements-es5-adapter.js"></script>
+</span>
+
+<script src="{{site.url}}/node_modules/helix-ui/dist/scripts/helix-ui.browser.min.js"></script>
 
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

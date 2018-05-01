@@ -22,7 +22,7 @@ last-modified: 2017-08-17
 {% column left:"hxCol" %}
 
 {% figure [caption:"Default"] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/components/slider.svg)
+<embed src="{{site.cdn_url}}/img/components/slider.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -30,7 +30,7 @@ last-modified: 2017-08-17
 {% column left:"hxCol" %}
 
 {% figure [caption:"Deactivated"] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/components/slider-deactivated.svg)
+<embed src="{{site.cdn_url}}/img/components/slider-deactivated.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -38,7 +38,7 @@ last-modified: 2017-08-17
 {% column right:"hxCol" %}
 
 {% figure [caption:"Discreet"] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/components/slider-discrete.svg)
+<embed src="{{site.cdn_url}}/img/components/slider-discrete.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -53,7 +53,7 @@ last-modified: 2017-08-17
 {% column left:"hxCol" %}
 
 {% figure [caption:"Hover"] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/components/slider-hover.svg)
+<embed src="{{site.cdn_url}}/img/components/slider-hover.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -61,7 +61,7 @@ last-modified: 2017-08-17
 {% column left:"hxCol" %}
 
 {% figure [caption:"Markers"] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/components/slider-markers.svg)
+<embed src="{{site.cdn_url}}/img/components/slider-markers.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -69,7 +69,7 @@ last-modified: 2017-08-17
 {% column right:"hxCol" %}
 
 {% figure [caption:"Labels"] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/components/slider-label.svg)
+<embed src="{{site.cdn_url}}/img/components/slider-label.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -85,7 +85,7 @@ last-modified: 2017-08-17
 {% column left:"hxCol" %}
 
 {% figure [caption:"Ranged"] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/components/slider-ranged.svg)
+<embed src="{{site.cdn_url}}/img/components/slider-ranged.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -93,7 +93,7 @@ last-modified: 2017-08-17
 {% column left:"hxCol" %}
 
 {% figure [caption:"Ranged with Label"] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/components/slider-ranged-label.svg)
+<embed src="{{site.cdn_url}}/img/components/slider-ranged-label.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -101,7 +101,7 @@ last-modified: 2017-08-17
 {% column right:"hxCol" %}
 
 {% figure [caption:"Vertical"] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/components/slider-vertical.svg)
+<embed src="{{site.cdn_url}}/img/components/slider-vertical.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
