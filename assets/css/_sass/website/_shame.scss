@@ -13,9 +13,9 @@
 
 
 .resource-card {
-	border: 1px solid #e0e0e0;
-	padding: 20px 20px;
-	background: #fafafa;
+  border: 1px solid $grey300;
+  padding: 20px 20px;
+  background: $grey25;
   min-height: 261px;
   h4 {
     margin-top: 16px;
@@ -38,4 +38,12 @@ h3 {
 // Paragraphs apparently have a fixed margin-bottom of 0 in the NPM library.
 p {
   margin-bottom: 1em !important;
+}
+
+// Submit issue button should look like a button (ref: educational modal discussion and slack decision)
+.issue {
+  color: $cyan900 !important;
+  &:hover {
+    color: $grey0 !important;
+  }
 }

@@ -28,6 +28,19 @@
 {%- if page.url contains '/components/'-%}
     <script src="{{site.url}}/assets/js/wayfinding.js"></script>
 {%- endif -%}
+<!-- Polyfill Loader -->
+<script src="{{ site.url }}/node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+<!-- intelligently load ES5 Adapter (if needed) -->
+<span id="ce-es5-adapter">
+  <script>
+    if (!window.customElements) {
+      var elAdapter = document.querySelector('#ce-es5-adapter');
+      elAdapter.parentElement.removeChild(elAdapter);
+    }
+  </script>
+  <script src="{{ site.url }}/node_modules/@webcomponents/webcomponentsjs/custom-elements-es5-adapter.js"></script>
+</span>
+
 <script src="{{site.url}}/node_modules/helix-ui/dist/scripts/helix-ui.browser.min.js"></script>
 
 <script>
