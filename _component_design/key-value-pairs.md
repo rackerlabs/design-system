@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/key-value.svg
 resource: true
 status: stable
-last-modified: 2018-04-30
+last-modified: 2018-05-01
 helix-ui-css: true
 helix-ui-javascript: true
 ---
@@ -304,7 +304,7 @@ When a data value loads, the system should display the key label and the word **
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
 {% figure [caption:"Horizontal key-value pairs loading state"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/key-pairs/kv_h_loading.png)
+![]({{site.url}}/assets/images/components/content-areas/key-pairs/keyvalue-loading1.png)
 {: width="431px"}
 {% endfigure %}
 
@@ -327,7 +327,7 @@ When vertical key values load, they take the same loading pattern as the horizon
 {% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
 {% figure [caption:"Vertical key-value pairs loading state"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/key-pairs/key-value-vertical-loading.png)
+![]({{site.url}}/assets/images/components/content-areas/key-pairs/keyvalue-loading2.png)
 {: width="362px"}
 {% endfigure %}
 
