@@ -9,7 +9,7 @@ usage: >
 preview-image: preview-images/popover.svg
 resource: true
 status: stable
-last-modified: 2018-04-30
+last-modified: 2018-05-01
 helix-ui-css: true
 helix-ui-javascript: true
 ---
@@ -108,6 +108,8 @@ A popover consists of a **container** and a **pointer**. The container appears o
 ### Style
 
 Use these guidelines when you construct a popover.
+
+Refer to the [shadow system]({{site.baseurl}}/style/shadows.html) for guidelines on constructing shadows.
 
 {% include note.html content="Do not create a popover larger than 500px x 500px. If you require more space, solve the design challenge with a different Helix pattern."%}
 
