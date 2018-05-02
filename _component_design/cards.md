@@ -84,7 +84,7 @@ The card pattern is composed of the following three elements:
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-{% figure [class:"image bg-light border"] %}
+{% figure [caption:"Card composition"] [class:"image bg-light border"] %}
  <embed src="{{site.url}}/assets/images/components/content-areas/cards/cards-composition.png" width="471px"/>
 {% endfigure %}
 {% endcolumn %}
@@ -103,7 +103,7 @@ Use these redline specifications when you construct cards.
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-{% figure [class:"image bg-light border"] %}
+{% figure [caption:"Card style"] [class:"image bg-light border"] %}
  <embed src="{{site.url}}/assets/images/components/content-areas/cards/cards-style.png" width="528px"/>
 {% endfigure %}
 {% endcolumn %}
@@ -126,7 +126,7 @@ be mixed and matched within a single card grid layout or individual card.
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-{% figure [class:"image bg-light border"] %}
+{% figure [caption:"Card spacing"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/content-areas/cards/cards-spacing.png"
   width="377px"/>
 {% endfigure %}
@@ -151,7 +151,7 @@ Cards are applied to the [Helix grid](https://rackerlabs.github.io/helix-ui/comp
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-{% figure [class:"image bg-light border"] %}
+{% figure [caption:"Card layout"] [class:"image bg-light border"] %}
  <embed src="{{site.url}}/assets/images/components/content-areas/cards/cards-layout-1.png" width="580px"/>
 {% endfigure %}
 {% endcolumn %}
@@ -169,7 +169,7 @@ For aesthetic purposes and in instances where only a few cards are present, you 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-{% figure [class:"image bg-light border"] %}
+{% figure [caption:"Card offset layout"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/content-areas/cards/cards-layout-2.png" width="580px"/>
 {% endfigure %}
 {% endcolumn %}
@@ -204,7 +204,7 @@ If an individual card or set of cards is loading, use the [spinner loading indic
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-{% figure [class:"image bg-light border"] %}
+{% figure [caption:"Card loading state"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/content-areas/cards/cards-states-loading.png" width="463px"/>
 {% endfigure %}
 {% endcolumn %}
@@ -226,7 +226,7 @@ The empty card button is based on the [chip](http://helix.rax.io/components/chip
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-{% figure [class:"image bg-light border"] %}
+{% figure [caption:"Card empty state"] [class:"image bg-light border"] %}
  <embed src="{{site.url}}/assets/images/components/content-areas/cards/cards-states-empty.png" width="506px"/>
 {% endfigure %}
 {% endcolumn %}
