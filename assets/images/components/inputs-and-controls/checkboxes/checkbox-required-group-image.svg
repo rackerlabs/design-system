@@ -3,6 +3,10 @@
     <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
     <title>checkbox-required-group-image</title>
     <desc>Created with Sketch.</desc>
+    <style>
+      @import url("https://fonts.googleapis.com/css?family=Roboto:300,400");
+      @import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css")
+    </style>
     <defs>
         <polygon id="path-1" points="7 3.5 0 7 0 0"></polygon>
         <circle id="path-2" cx="3.5" cy="3.5" r="3.5"></circle>

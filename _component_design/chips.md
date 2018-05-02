@@ -19,7 +19,7 @@ helix-ui-javascript: false
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 ## When to use
 
@@ -35,7 +35,7 @@ Use chips to graphically represent a unit of information. For example, use chips
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 ## Best practices
 
@@ -46,7 +46,6 @@ Consider the following best practices when you construct chips:
 
 {% endcolumn %}
 
-
 </div>
 
 </section>
@@ -55,8 +54,7 @@ Consider the following best practices when you construct chips:
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 ## Specifications
 Use the following specifications when you construct chips.
@@ -71,7 +69,7 @@ Use the following specifications when you construct chips.
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Composition
 A chip is composed of a container and an identifying element that is known as the **identifier**. The identifier can consist of the following elements:
@@ -82,10 +80,10 @@ A chip is composed of a container and an identifying element that is known as th
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Chip composition"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/chips/chips-composition.png){: width="234px"}
+<embed src="({{site.url}}/assets/images/components/content-areas/chips/chips-composition.png" width="234px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -98,7 +96,7 @@ A chip is composed of a container and an identifying element that is known as th
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Style
 
@@ -106,10 +104,10 @@ Use these redline specifications when you construct chips.
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Chip style"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/chips/chips-style.png){: width="411px"}
+<embed src="{{site.url}}/assets/images/components/content-areas/chips/chips-style.png" width="411px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -122,7 +120,7 @@ Use these redline specifications when you construct chips.
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Spacing
 
@@ -130,10 +128,10 @@ Use these spacing guidelines when you construct chips.
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Chip spacing"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/chips/chips-spacing.png){: width="327px"}
+<embed src="{{site.url}}/assets/images/components/content-areas/chips/chips-spacing.png" width="327px"/>
 {% endfigure %}
 
 {% endcolumn %}

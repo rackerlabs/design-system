@@ -23,6 +23,13 @@
     font-weight: $regular-weight;
     color: $grey400 !important;
     margin: 12px auto !important;
+    a {
+      color: $grey400;
+      &:hover {
+        cursor: pointer;
+        color: $grey0;
+      }
+    };
   };
   hr {
     display: block;

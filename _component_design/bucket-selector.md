@@ -65,13 +65,13 @@ As shown here, the device picker component is specifically being used to help th
 ### Default unselected
 
 {% figure [caption:""] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/components/device-picker.svg)
+<embed src="{{site.cdn_url}}/img/components/device-picker.svg"/>
 {% endfigure %}
 
 ### Default selected
 
 {% figure [caption:""] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/components/device-picker-selected.svg)
+<embed src="{{site.cdn_url}}/img/components/device-picker-selected.svg"/>
 {% endfigure %}
 
 </section>

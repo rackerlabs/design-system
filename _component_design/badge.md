@@ -20,7 +20,7 @@ helix-ui-javascript: false
 ## Introduction
 
 <div class="hxRow" markdown="1">
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### When to use
 
@@ -30,13 +30,13 @@ Studies of social apps report that notification badges can trigger dopamine rele
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"The notification badge pattern"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/notifications/badges/badges-hero.png){:width="1440px"}
+<embed src="{{site.url}}/assets/images/components/notifications/badges/badges-hero.png" width="1440"/>
 {% endfigure %}
 {% endcolumn %}
 
-{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 ### Best Practices
 - Clicking on the badge takes the user into the section to which the badge is applied. Once the badge is clicked, remove the badge.
@@ -55,7 +55,7 @@ Studies of social apps report that notification badges can trigger dopamine rele
 ## Implementations
 
 <div class="hxRow" markdown="1">
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### With an icon
 The badge should overlap an icon by around 2px, but be sure you can still see what the icon represents. Notification badges should never have a “0” inside. In the event there are no notifications, a badge is not displayed. There is a character limit of 3 inside the badge: two numbers at most and a plus (+) sign.
@@ -64,9 +64,9 @@ Use a 2px border on all sides between the number and the edge of the circle.
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Notification badges with icon"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/notifications/badges/badges-icon.png){:width="533px"}
+<embed src="{{site.url}}/assets/images/components/notifications/badges/badges-icon.png" width="533"/>
 {% endfigure %}
 {% endcolumn %}
 
@@ -78,7 +78,7 @@ Use a 2px border on all sides between the number and the edge of the circle.
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### In tabs
 
@@ -88,10 +88,10 @@ The [tabs component]({{site.baseurl}}/components/tabset.html) states that there 
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Notification badges in tabs"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/notifications/badges/badges-tabs.png){:width="463px"}
+<embed src="{{site.url}}/assets/images/components/notifications/badges/badges-tabs.png" width="463"/>
 {% endfigure %}
 
 {% endcolumn %}
