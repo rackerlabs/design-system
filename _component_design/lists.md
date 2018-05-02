@@ -18,7 +18,7 @@ last-modified: 2017-02-12
 <section class="static-section"  markdown="1">
 
 <div class="hxRow" markdown="1">
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Unordered lists
 
@@ -26,9 +26,9 @@ Use unordered lists to group related items. Items in a list should share a simil
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/lists/unordered-list.png){:width="472px"}
+<embed src="{{site.url}}/assets/images/components/content-areas/lists/unordered-list.png" width="472"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -38,7 +38,7 @@ Use unordered lists to group related items. Items in a list should share a simil
 <section class="static-section"  markdown="1">
 
 <div class="hxRow" markdown="1">
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Ordered lists
 
@@ -48,9 +48,9 @@ If list items do not occur in a specific order, or the final count or rank of li
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/lists/ordered-list.png){:width="472px"}
+<embed src="{{site.url}}/assets/images/components/content-areas/lists/ordered-list.png" width="472"/>
 {% endfigure %}
 {% endcolumn %}
 </div>

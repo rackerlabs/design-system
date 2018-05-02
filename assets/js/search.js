@@ -173,7 +173,7 @@ jsonCall("{{ site.baseurl }}/feed.json").done(function(data,textStatus,jqXHR) {
 
     skeletonRows.forEach(function(element) {
       element.style.display = "none";
-    }); 
+    });
 
     searchcount.innerHTML=`Your search returned ${results.length} results.`;
 
@@ -201,14 +201,14 @@ jsonCall("{{ site.baseurl }}/feed.json").done(function(data,textStatus,jqXHR) {
         }
         resultList.innerHTML = `
           <div class="hxRow">
-            <div class="hxCol-10 hxCol-xs-12 hxCol-sm-12 hxCol-md-10 hxCol-lg-10">
+            <div class="hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-10-md hxSpan-10-lg">
               <p class='result-title'>
                 <a href="${result.url}">${result.title}</a>
               </p>
               <p class='result-summary'>${result.snippet}</p>
               <p class='result-count'>${countedText}</p>
             </div>
-            <div class="hxCol-2 hxCol-xs-12 hxCol-sm-12 hxCol-md-2 hxCol-lg-2">
+            <div class="hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-2-md hxSpan-2-lg">
               <div class='side-image'>
                 <a href="${result.url}">
                   <img src="assets/images/${result.image}">

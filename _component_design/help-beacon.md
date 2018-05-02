@@ -22,7 +22,7 @@ helix-ui-javascript: false
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### When to use
 
@@ -38,15 +38,15 @@ There are some cases where beacons should not be used:
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Beacons continually follow this lifecycle, giving the impression of a pulse to draw user attention."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/help/beacon/beacon-hero.svg)
+<embed src="{{site.url}}/assets/images/components/help/beacon/beacon-hero.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Best practice
 
@@ -67,7 +67,7 @@ There are some cases where beacons should not be used:
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Default layout
 
@@ -79,10 +79,10 @@ Ideally, track the clicks and drop-offs throughout the tour to improve usefulnes
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"For full CSS specifications, view the developer documentation."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/help/beacon/beacon-specs.svg)
+<embed src="{{site.url}}/assets/images/components/help/beacon/beacon-specs.svg"/>
 {% endfigure %}
 
 {% endcolumn %}

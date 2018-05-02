@@ -23,7 +23,7 @@ helix-ui-javascript: false
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### When to use
 
@@ -38,10 +38,10 @@ Use a switch if the user is turning something on or off, or saying yes or no to 
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Meet the switch component"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/switches/switch-hero.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/switches/switch-hero.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -56,7 +56,7 @@ Use a switch if the user is turning something on or off, or saying yes or no to 
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 The default switch does not contain text.
 
@@ -64,10 +64,10 @@ If text is used, it should be aligned vertically and horizontally within the spa
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Switch sizing specs"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/switches/switch-default-layout.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/switches/switch-default-layout.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -82,7 +82,7 @@ If text is used, it should be aligned vertically and horizontally within the spa
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 Enabled (default), hover, disabled, and error states. If you are not using any text, be sure to change the length to 56px.
 
@@ -92,10 +92,10 @@ Best practice form design does not allow a switch to exist in an error state, so
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Detailed specifications for on and off states of a switch"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/switches/switch-states.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/switches/switch-states.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -110,7 +110,7 @@ Best practice form design does not allow a switch to exist in an error state, so
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 - Use the switch 12px to the left of the prompt and centered horizontally.
 - When using more than one switch in a form, align the switches vertically to the right. Ensure they are at least 12px from the end of the prompt.
@@ -119,10 +119,10 @@ Best practice form design does not allow a switch to exist in an error state, so
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Contextual placement of switches"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/switches/switch-context.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/switches/switch-context.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
