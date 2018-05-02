@@ -125,13 +125,18 @@ figure:not(figcaption) {
   margin: 0 0 8px 0;
 }
 
+figure > embed {
+  max-width: 100%;
+  font-family: $base-font-family !important;
+}
+
 figcaption {
   color: $grey800;
   font-size: $font-size-1;
   margin: 0;
   line-height: $base-line-height;
   font-weight: $light-weight;
-  margin: 0 0 8px 0;
+  margin: 0 0 16px 0;
 }
 
 p {
@@ -150,7 +155,7 @@ pre {
 
 .image {
   text-align: center;
-  height: 100%;
+  // height: 100%;
   padding: 2rem;
   &.bg-light {
     background-color: $grey25;
@@ -264,10 +269,6 @@ pre {
       text-decoration: none !important;
     }
   }
-}
-
-.ws-sum-con{
-    padding: 20px;
 }
 
 @media (min-width: 1280px) {

@@ -19,7 +19,7 @@ helix-ui-javascript: false
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 ## When to use
 
@@ -34,7 +34,7 @@ Use cards when you want to a visually distinct arrangement of tabular data, espe
 <section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 ## Best practices
 
@@ -57,7 +57,7 @@ Use the following best practices when you construct cards:
 <section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 ## Specifications
 Use the following specifications when you construct cards.
@@ -71,7 +71,7 @@ Use the following specifications when you construct cards.
 <section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Composition
 
@@ -83,9 +83,9 @@ The card pattern is composed of the following three elements:
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [class:"image bg-light border"] %}
- ![]({{site.url}}/assets/images/components/content-areas/cards/cards-composition.png){:width="471px"}
+ <embed src="{{site.url}}/assets/images/components/content-areas/cards/cards-composition.png" width="471px"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -95,16 +95,16 @@ The card pattern is composed of the following three elements:
 <section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Style
 Use these redline specifications when you construct cards.
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [class:"image bg-light border"] %}
- ![]({{site.url}}/assets/images/components/content-areas/cards/cards-style.png){:width="528px"}
+ <embed src="{{site.url}}/assets/images/components/content-areas/cards/cards-style.png" width="528px"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -114,7 +114,7 @@ Use these redline specifications when you construct cards.
 <section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Spacing
 
@@ -125,9 +125,10 @@ be mixed and matched within a single card grid layout or individual card.
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [class:"image bg-light border"] %}
- ![]({{site.url}}/assets/images/components/content-areas/cards/cards-spacing.png){:width="377px"}
+<embed src="{{site.url}}/assets/images/components/content-areas/cards/cards-spacing.png"
+  width="377px"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -138,20 +139,20 @@ be mixed and matched within a single card grid layout or individual card.
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Layout
 
 Cards are applied to the [Helix grid](https://rackerlabs.github.io/helix-ui/components/grid/) and have a variable width and height based on content, current viewport, and use case.  
 
-- Default cards are styled with an `#FFFFFF` background and should only go on darker backgrounds.
+- Default cards are styled with an `#ffffff` background and should only go on darker backgrounds.
 - For more information see the [Helix grid](https://rackerlabs.github.io/helix-ui/components/grid/).
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [class:"image bg-light border"] %}
- ![]({{site.url}}/assets/images/components/content-areas/cards/cards-layout-1.png){:width="580px"}
+ <embed src="{{site.url}}/assets/images/components/content-areas/cards/cards-layout-1.png" width="580px"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -161,15 +162,15 @@ Cards are applied to the [Helix grid](https://rackerlabs.github.io/helix-ui/comp
 <section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 For aesthetic purposes and in instances where only a few cards are present, you can offset the location of the first card in a row. For more information see the [Helix grid](https://rackerlabs.github.io/helix-ui/components/grid/).
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [class:"image bg-light border"] %}
- ![]({{site.url}}/assets/images/components/content-areas/cards/cards-layout-2.png){:width="580px"}
+<embed src="{{site.url}}/assets/images/components/content-areas/cards/cards-layout-2.png" width="580px"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -179,7 +180,7 @@ For aesthetic purposes and in instances where only a few cards are present, you 
 <section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 ## States
 
@@ -194,7 +195,7 @@ Cards can exist in a loading and empty state.
 <section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Loading
 
@@ -202,9 +203,9 @@ If an individual card or set of cards is loading, use the [spinner loading indic
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [class:"image bg-light border"] %}
- ![]({{site.url}}/assets/images/components/content-areas/cards/cards-states-loading.png){:width="463px"}
+<embed src="{{site.url}}/assets/images/components/content-areas/cards/cards-states-loading.png" width="463px"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -214,7 +215,7 @@ If an individual card or set of cards is loading, use the [spinner loading indic
 <section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Empty
 
@@ -224,9 +225,9 @@ The empty card button is based on the [chip](http://helix.rax.io/components/chip
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [class:"image bg-light border"] %}
- ![]({{site.url}}/assets/images/components/content-areas/cards/cards-states-empty.png){:width="506px"}
+ <embed src="{{site.url}}/assets/images/components/content-areas/cards/cards-states-empty.png" width="506px"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
