@@ -83,7 +83,7 @@ A chip is composed of a container and an identifying element that is known as th
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Chip composition"] [class:"image bg-light border"] %}
-<embed src="({{site.url}}/assets/images/components/content-areas/chips/chips-composition.png" width="234px"/>
+<embed src="({{site.url}}/assets/images/components/content-areas/chips/chips-compo.png" width="234px"/>
 {% endfigure %}
 
 {% endcolumn %}
