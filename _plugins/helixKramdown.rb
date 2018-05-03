@@ -12,17 +12,6 @@ module Kramdown
         end
         @toc << [el.options[:level], attr['id'], el.children] if attr['id'] && in_toc?(el)
         level = output_header_level(el.options[:level])
-        if level == 1
-          attr['class'] = 'hxPageTitle'
-        elsif level == 2
-          attr['class'] = 'hxSectionTitle'
-        elsif level == 3
-          attr['class'] = 'hxSubSectionTitle'
-        elsif level == 4
-          attr['class'] = 'hxContainerTitle'
-        else
-          attr['class'] = 'none'
-        end
         format_as_block_html("h#{level}", attr, inner(el, indent), indent)
       end
     end

@@ -3,6 +3,10 @@
     <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
     <title>Custom Preset</title>
     <desc>Created with Sketch.</desc>
+    <style>
+      @import url("https://fonts.googleapis.com/css?family=Roboto:300,400");
+      @import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css")
+    </style>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Custom-Preset">
@@ -49,14 +53,10 @@
                     <tspan x="146" y="220">Loading…</tspan>
                 </text>
                 <text id="2GB-Standard-Instanc" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#333333">
-                    <tspan x="146" y="56">2GB Standa</tspan>
-                    <tspan x="229.78125" y="56" letter-spacing="-0.1696">r</tspan>
-                    <tspan x="234.877275" y="56">d Instance</tspan>
+                    <tspan x="146" y="56">2GB Standard Instance</tspan>
                 </text>
                 <text id="Resize-Copy" font-family="Roboto-Medium, Roboto" font-size="14" font-weight="400" fill="#127580">
-                    <tspan x="341" y="56">Resi</tspan>
-                    <tspan x="368.049805" y="56" letter-spacing="-0.1316">z</tspan>
-                    <tspan x="374.849845" y="56">e</tspan>
+                    <tspan x="341" y="56">Resize</tspan>
                 </text>
                 <polygon id="Fill-25-Copy" fill="#E6E6E5" points="146 99 308 99 308 87 146 87"></polygon>
                 <polygon id="Fill-27-Copy" fill="#CE3828" points="146 99 301 99 301 87 146 87"></polygon>

@@ -65,13 +65,13 @@ order. Link to the appropriate graphic rather than duplicating it.
 To reference image files in GitHub, use the following markup:
 
     {%- figure [caption:"<caption information>"] [class:"image bg-light border"] -%}
-    ![]({{site.url}}/assets/images/<relative-path>){:width="100%"}
+    <embed src="{{site.url}}/assets/images/<relative-path>"/>
     {%- endfigure -%}
 
 For example, if you are working on the Modal page:
 
     {%- figure [caption:"Diagram showing modal operation"] [class:"image bg-light border"] -%}
-    ![]({{site.url}}/assets/images/components/content-areas/modals/modal-diagram-1.svg){:width="100%"}
+    <embed src="{{site.url}}/assets/images/components/content-areas/modals/modal-diagram-1.svg"/>
     {%- endfigure -%}
 
 ### Columns

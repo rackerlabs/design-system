@@ -22,7 +22,7 @@ helix-ui-javascript: true
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### When to use checkboxes
 
@@ -33,10 +33,10 @@ helix-ui-javascript: true
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [The checkbox component] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-hero.png){:width="1440px"}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-hero.png" width="1440"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -49,7 +49,7 @@ helix-ui-javascript: true
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 ### Best practices for checkboxes
 
@@ -83,7 +83,7 @@ When a user needs to manage a group of items, checkboxes may be added to a list 
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Default layout
 
@@ -98,10 +98,10 @@ A checkbox group consists of a section label followed by pairs of checkboxes and
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Checkbox group composition and specifications"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-default.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-default.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -114,7 +114,7 @@ A checkbox group consists of a section label followed by pairs of checkboxes and
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Checkbox group specifications
 
@@ -124,10 +124,10 @@ A checkbox group consists of a section label followed by pairs of checkboxes and
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Checkbox group spacing"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-group-image.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-group-image.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -140,7 +140,7 @@ A checkbox group consists of a section label followed by pairs of checkboxes and
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### States
 
@@ -152,10 +152,10 @@ The checkbox component may be in the following states:
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Checkbox states"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-states-image.png)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-states-image.png"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -168,7 +168,7 @@ The checkbox component may be in the following states:
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 #### Required group
 
@@ -176,10 +176,10 @@ Use a red asterisk to designate that a selection is required for a group of chec
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Designating a required checkbox field"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-required-group-image.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-required-group-image.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -192,7 +192,7 @@ Use a red asterisk to designate that a selection is required for a group of chec
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 #### Group with an error
 
@@ -200,10 +200,10 @@ In the case of an error, always include an error message below the checkbox grou
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Error states"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-group-with-error-image.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-group-with-error-image.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -216,7 +216,7 @@ In the case of an error, always include an error message below the checkbox grou
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 #### Indeterminate
 
@@ -224,11 +224,11 @@ The indeterminate state is only used with bulk selections to indicate that one o
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"When selecting multiple items from a table, an indeterminate
  checkbox may be used to show that several, but not all, items are selected."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-indeterminate-image.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-indeterminate-image.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
