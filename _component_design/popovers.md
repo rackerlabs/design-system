@@ -80,10 +80,13 @@ Use these specifications when you construct a popover.
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Composition
-A popover consists of a **container** and a **pointer**. The container appears on top of the canvas. The pointer points to the user interface element that triggers the popover. You can place a pointer on any corner of the popover.
+The popover pattern is composed of the following elements:
 
-- Most popovers include a heading and submit and cancel buttons. If buttons are not required, a popover should close when the user clicks outside of the popover.
-- The content area can include text, inputs, or interactive content such as a table or visualization.
+- **Container (required)**: The container appears on top of the canvas.
+- **Pointer (required)**: The pointer points to the user interface element that triggers the popover. You can place a pointer on any corner of the popover.
+- **Header (optional)**: The header contains the popver title.
+- **Content area (required)**: The content area can include text, inputs, or interactive content such as a table or visualization.
+- **Submit and Cancel buttons (optional)**: If buttons are not required, a popover should close when the user clicks outside of the popover.
 
 {% endcolumn %}
 
@@ -165,6 +168,7 @@ Use the following guidelines when you construct the popover pointer:
 - The pointer apex is 8px from the side of the rectangle.
 - The pointer should start 12px from the corner.
 - The side on which the pointer is located depends on the location of the trigger on the screen.
+- Always open the popover towards the center of the screen.
 
 {% endcolumn %}
 
