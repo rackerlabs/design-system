@@ -3,6 +3,10 @@
     <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
     <title>select-strip-default</title>
     <desc>Created with Sketch.</desc>
+    <style>
+      @import url("https://fonts.googleapis.com/css?family=Roboto:300,400");
+      @import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css")
+    </style>
     <defs>
         <polygon id="path-1" points="7 3.5 0 7 0 0"></polygon>
         <path d="M2,58.2418301 L67,58.2418301 L67,23 L2,23 L2,23 C0.8954305,23 -1.3527075e-16,23.8954305 0,25 L0,56.2418301 L0,56.2418301 C4.05948992e-15,57.3463996 0.8954305,58.2418301 2,58.2418301 Z" id="path-2"></path>

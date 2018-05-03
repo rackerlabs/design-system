@@ -32,7 +32,7 @@ needed than to leave it empty and have someone fill it in later without knowing
 why it’s empty.
 
 ### General Layout
-Note any colors, fonts, borders, margins, padding, animation timing, etc..
+Note any colors, fonts, borders, margins, padding, animation timing, etc.
 Here’s an example of general layout specs for a popover:
 
 ## Base Interactions

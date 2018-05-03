@@ -1,7 +1,6 @@
 // New design
 .new-banner {
   background-color: $cyan700;
-  color: $textcolorlight !important;
   min-height: 168px;
   padding: 28px 0;
   .new-display {
@@ -11,6 +10,9 @@
     color: $textcolorlight !important;
     margin: 52px 0 8px 0;
     text-align: left !important;
+  }
+  h1 {
+    color: $textcolorlight !important;
   }
 }
 
@@ -25,6 +27,7 @@
     padding: 0px !important;
   }
 }
+
 .new-blurb {
   background-color: #e5f4f7;
   min-height: 280px;
@@ -49,44 +52,44 @@
 
 /* Colors */
 
-  .ws-top-swatch{
+  .top-swatch{
     height: 140px;
     position: relative;
   }
 
-  .ws-top-swatch div{
+  .top-swatch div{
     position: absolute;
     bottom: 8px;
     left: 8px;
   }
 
-  .ws-top-swatch div:first-of-type{
+  .top-swatch div:first-of-type{
     top: 8px;
   }
 
-  .ws-lesser-swatch{
+  .lesser-swatch{
     padding: 8px 0;
 
   }
 
-  .ws-lesser-swatch div{
+  .lesser-swatch div{
     padding-left: 8px;
   }
 
-  .ws-light-type, .ws-color-name{
+  .light-type, .color-name{
     color:#fff;
     @include font-smoothing(antialiased);
   }
 
-  .ws-color-name{
+  .color-name{
     font-weight: $medium-weight;
   }
 
-  .ws-smaller-color-type{
+  .smaller-color-type{
     font-size: $font-size-3;
   }
 
-  .ws-dark-type{
+  .dark-type{
     color:$grey800;
   }
 
@@ -141,6 +144,7 @@
   font-size: 0.875em;
   color: $grey900;
   text-align: center;
+  display: inherit;
 }
 
 /* Typography */
@@ -192,14 +196,14 @@
   font-weight: $regular-weight;
 }
 
-.ws-type-desc, .ws-type-desc-last{
+.type-desc, .type-desc-last{
   display: block;
   font-size: $font-size-3;
   color: $grey600;
   padding-bottom: 16px;
 }
 
-.ws-type-desc-last{
+.type-desc-last{
   padding-bottom: 0;
 }
 
