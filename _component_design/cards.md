@@ -98,7 +98,7 @@ The card pattern is composed of the following three elements:
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Style
-Use these redline specifications when you construct cards.
+Use these specifications when you construct cards.
 
 {% endcolumn %}
 
