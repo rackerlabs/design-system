@@ -4,11 +4,11 @@ parent: Content Areas
 layout: component
 category: Components
 usage: >
-  A card is a user interface element that contains summary information and provides users the option to navigate to more detailed information. In contrast to the tables pattern, cards allow the user to visually distinguish between sets of information. Cards substitute for a single row of tabular data.
+  A card contains summary information and provides users the option to navigate to more detailed information. In contrast to tables, cards allow the user to visually distinguish between sets of information. A card is a substitute for a single row of tabular data.
 preview-image: preview-images/cards.svg
 status: in-progress
 resource: true
-last-modified: 2018-04-30
+last-modified: 2018-05-03
 helix-ui-css: false
 helix-ui-javascript: false
 ---
@@ -23,7 +23,7 @@ helix-ui-javascript: false
 
 ## When to use
 
-Use cards when you want to a visually distinct arrangement of tabular data, especially when an informational summary of different data objects is helpful for the user.
+Use cards when you want a visually distinct arrangement of tabular data, and especially when an informational summary of different data objects is helpful for the user.
 
 {% endcolumn %}
 
@@ -42,10 +42,10 @@ Use the following best practices when you construct cards:
 
 - Construct cards so they are uniform in size.
 - Do not use cards in place of robust data tables or with a large quantity of data entries.
-- There is no limit to the number of cards that can be used; however, ensure the page use case justifies the data.
-- Do not overuse cards in an application. Too many pages with cards can be confusing to users because they cannot intuitively determine the page they are on.
+- The number of cards that you can use is unlimited. However, ensure that the page use case justifies the data.
+- Do not overuse cards in an application. Too many pages with cards might confuse users because they cannot intuitively determine the page that they are on.
 - Do not include too much information on a card. Include only high-level information on a card, and link to more detailed information.
-- If the information is better presented in a list or table pattern, do not use cards. If you believe card grids might appeal to some users, you can present both layout options.
+- If the information is better presented in a list or table, do not use cards. If you believe that card grids might appeal to some users, you can present both layout options.
 - If you use a card grid as an alternate view to a table view (or a list view), ensure you allow the user to switch to their preferred view.
 
 {% endcolumn %}
@@ -78,7 +78,7 @@ Use the following specifications when you construct cards.
 The card pattern is composed of the following three elements:
 
 - **Header (optional):** The header establishes the context for a card and contains icons (such as a cog) that allow the user to take action.
-- **Body (required):** The body contains the primary content associated with the card. The body section details the underlying object represented by the card.
+- **Body (required):** The body contains the primary content associated with the card. The body section details the underlying object that is represented by the card.
 - **Footer (optional):** The footer provides calls to action that a user can take.
 
 {% endcolumn %}
