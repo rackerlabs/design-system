@@ -14,7 +14,7 @@ last-modified: 2017-10-24
 <section class="static-section" markdown="1">
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 ### Prerequisites
 
@@ -29,7 +29,7 @@ last-modified: 2017-10-24
 <section class="static-section" markdown="1">
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 ### Get in the loop
 
@@ -47,11 +47,11 @@ Use the following resources to communicate with the Helix designers and be infor
 <section class="static-section" markdown="1">
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 ### Learn the language
 
-Familiarize yourself with the concepts that define the Helix language. Through this site, you can see how they appear in the layouts, styles, and components used in Rackspace UIs. 
+Familiarize yourself with the concepts that define the Helix language. Through this site, you can see how they appear in the layouts, styles, and components used in Rackspace UIs.
 
 - **Principles**: Ideas and guidelines for making good, consistent decisions when designing in Helix.
 - **Style**: Colors, typography, iconography, timestamps, and other stylistic standards.
@@ -65,43 +65,17 @@ Familiarize yourself with the concepts that define the Helix language. Through t
 <section class="static-section" markdown="1">
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-### Sketch resources
+### Use the language
 
-The best way to bring Helix components into your designs is with the Helix Sketch Sticker Sheet. You can copy and paste elements from this sticker sheet into your own Sketch documents to use in your designs. This resource is offered in both low and high fidelity variations.
+Once you have familiarized yourself with the Helix language, it's time to start using it!
 
-{% endcolumn %}
+The Helix team has created a collection of resources aimed at helping designers start designing or developing with Helix. This includes a sketch library and a low-fidelity sticker sheet, as well as `codepen` and `npm` resources.
 
-</div>
-
-<div class="hxRow" markdown="1">
-
-{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-
-#### Low fidelity
-
-We recommend using the low-fi version of the sticker sheet when creating the initial designs for a project. This allows stakeholders and designers to focus on the higher-level experience without getting mired in the weeds of pixel-perfection.
-
-<a class="hxBtn" id="link" href="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/sketch/low-fi_helix_stickersheet_v0.1.sketch">Download Low-fi Sticker Sheet</a>
-
-{% endcolumn %}
-
-</div>
-
-<div class="hxRow" markdown="1">
-
-{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-
-#### High fidelity
-
-Use the hi-fi sticker sheet once a design has been iterated and approved, and it’s time to start getting real clear about construction and behavior specifications.
-
-<a class="hxBtn" id="link" href="http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/sketch/helix_stickersheet_v0.1.sketch">Download Hi-fi Sticker Sheet</a>
+Find all this and more on the [resources page]({{site.baseurl}}/resources/index.html).
 
 {% endcolumn %}
 
 </div>
 </section>
-
-

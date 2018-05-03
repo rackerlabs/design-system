@@ -3,11 +3,12 @@ title: Modals
 parent: Content Areas
 layout: component
 category: Components
-usage: A modal is an element that disables the main window of an application until the user interacts with it. After a user interacts with a modal, the user returns to the main window and can continue working.
+usage: >
+  A modal is an element that disables the main window of an application until the  user interacts with it. After a user interacts with a modal, the user returns to the main window and can continue working.
 resource: true
 status: stable
 preview-image: preview-images/modal.svg
-last-modified: 2018-04-25
+last-modified: 2018-05-03
 helix-ui-css: false
 helix-ui-javascript: false
 ---
@@ -18,7 +19,7 @@ helix-ui-javascript: false
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 ## When to use
 Use modals when you want to **focus the attention of the user** by obstructing the view of all items not related to the action. Modals are useful when:
@@ -48,7 +49,7 @@ Consider the following best practices when you construct a modal:
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 ## Specifications
 Use the following specifications when you construct modals.
@@ -63,7 +64,7 @@ Use the following specifications when you construct modals.
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Composition
 A modal contains the following:
@@ -77,10 +78,10 @@ A modal contains the following:
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Modal composition"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/modal/modal-composition.png)
+<embed src="{{site.url}}/assets/images/components/content-areas/modal/modal-composition.png" width="500px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -93,7 +94,7 @@ A modal contains the following:
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Style
 
@@ -101,10 +102,10 @@ Use the following specifications when you construct a modal.
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Modal style"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/modal/modal-specifications.svg)
+<embed src="{{site.url}}/assets/images/components/content-areas/modal/modal-specifications.svg" width="500px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -117,7 +118,7 @@ Use the following specifications when you construct a modal.
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Spacing
 
@@ -129,10 +130,10 @@ Use the following spacing guidelines when you construct a modal.
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Modal spacing and layout"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/modal/modal-spacing.svg)
+<embed src="{{site.url}}/assets/images/components/content-areas/modal/modal-spacing.svg" width="500px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -145,7 +146,7 @@ Use the following spacing guidelines when you construct a modal.
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ## Confirmation modals
 
@@ -165,10 +166,10 @@ A confirmation modal interrupts a user and requires a decision before the user c
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Confirmation modal"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/modal/modal-use-case-confirmations.svg)
+<embed src="{{site.url}}/assets/images/components/content-areas/modal/modal-use-case-confirmations.svg" width="500px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -181,7 +182,7 @@ A confirmation modal interrupts a user and requires a decision before the user c
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ## Acknowledgment modals
 
@@ -189,10 +190,10 @@ xxxxx.
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Confirmation modal"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/modal/modal-use-case-confirmations.svg)
+<embed src="{{site.url}}/assets/images/components/content-areas/modal/modal-use-case-confirmations.svg" width="500px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -205,9 +206,9 @@ xxxxx.
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-## Education modals
+## Educational modals
 
 Use the following specifications when you construct educational modals.
 
@@ -221,17 +222,17 @@ Use the following specifications when you construct educational modals.
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Composition
 xxxxx
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Modal composition"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/modal/modal-composition.png)
+<embed src="{{site.url}}/assets/images/components/content-areas/modal/modal-composition.png" width="500px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -244,17 +245,17 @@ xxxxx
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Style
 xxxxx
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Confirmation modal"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/modal/modal-use-case-confirmations.svg)
+<embed src="{{site.url}}/assets/images/components/content-areas/modal/modal-use-case-confirmations.svg" width="500px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -267,17 +268,17 @@ xxxxx
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Spacing
 xxxxx
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Confirmation modal"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/modal/modal-use-case-confirmations.svg)
+<embed src="{{site.url}}/assets/images/components/content-areas/modal/modal-use-case-confirmations.svg" width="500px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -290,7 +291,7 @@ xxxxx
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ## Loading state
 
@@ -300,10 +301,10 @@ Refer to the [Loading pattern]({{site.url}}/components/loading-indicators.html) 
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Loading indicator for the modal"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/modal/modal-loading.svg)
+<embed src="{{site.url}}/assets/images/components/content-areas/modal/modal-loading.svg" width="500px"/>
 {% endfigure %}
 
 {% endcolumn %}
