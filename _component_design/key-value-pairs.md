@@ -320,7 +320,7 @@ When a data value loads, the system should display the key label and the word **
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-When vertical key values load, they take the same loading pattern as the horizontal key values by populating the value with **Loading…**, styled in active body font, Roboto Regular, `#424242`.
+When vertical key values load, they take the same loading pattern as the horizontal key values by populating the value with **Loading…**, styled in body font, Roboto Regular, `#424242`.
 
 {% endcolumn %}
 
