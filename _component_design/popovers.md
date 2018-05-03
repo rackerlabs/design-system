@@ -84,8 +84,9 @@ The popover pattern is composed of the following elements:
 
 - **Container (required)**: The container appears on top of the canvas.
 - **Pointer (required)**: The pointer points to the user interface element that triggers the popover. You can place a pointer on any corner of the popover.
-- **Header (optional)**: The header contains the popver title.
+- **Header (optional)**: The header contains the popover title.
 - **Content area (required)**: The content area can include text, inputs, or interactive content such as a table or visualization.
+- **Footer (optional)**: The footer contains the popover buttons.
 - **Submit and Cancel buttons (optional)**: If buttons are not required, a popover should close when the user clicks outside of the popover.
 
 {% endcolumn %}
