@@ -4,7 +4,7 @@ parent: Content Areas
 layout: component
 category: Components
 usage: >
-  Tabs enable users to easily switch between multiple sections of a page without losing context. Tabs help organize content at a high level, such as switching between views, data sets, or the functional aspects of an application.
+  A tab is a hidden section of content on a page. Tabs enable users to easily switch between multiple sections of a page without losing context. Tabs help organize content at a high level, such as switching between views, data sets, or the functional aspects of an application.
 preview-image: preview-images/tabs.svg
 resource: true
 status: stable
