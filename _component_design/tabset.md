@@ -58,9 +58,9 @@ Consider the following best practices when you construct tabs:
 - Highlight the tab corresponding to the visible content.
 - Provide all relevant contextual information and interface items so a user can perform a single task within the same tab.
 - Do not use tabs for primary navigation.
-- Clearly label tabs to differentiate them. Labels should be short, scannable, and preferably one word.
-- Write tab labels in camel case so that the first letter of each word is capitalized.
-- Wrap tab labels to a second line if needed. Truncate tab labels that exceed two lines.
+- Clearly name tabs to differentiate them. Names should be short, scannable, and preferably one word.
+- Capitalize the first letter of each word in a tab name.
+- If needed, wrap tab names to a second line. Truncate tab names that exceed two lines.
 
 {% endcolumn %}
 
@@ -92,18 +92,20 @@ Use the following specifications when you construct tabs.
 
 ### Composition
 
-By default, the left-most tab is selected. In the example image, **Notes** is the default tab.
+A tab consists of the following elements:
 
-Tabsets are contained in a transparent canvas specific to that tab. **<<not sure what this means>>**
+- **Tab shape (required)**: Contains the tab name.
+- **Tab name (required)**: Capitalize the first letter of each word in a tab name. If needed, wrap tab names to a second line. Truncate tab names that exceed two lines.
+- **Tab content area (required)**: Contains any content relevant to the title of the tab, including text and graphics.
+- **Tab bottom line (required)**: Extend top and bottom lines to the edge of the content area.
 
-The tab content area adopts the color of the content behind it. Top and bottom lines extend to the edge of the content area.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Tab menu structure"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/tabs/tabs-menu.svg" width="500px"/>
+<embed src="{{site.url}}/assets/images/components/content-areas/tabs/tabs-composition.png" width="539px"/>
 
 {% endfigure %}
 
@@ -121,14 +123,16 @@ The tab content area adopts the color of the content behind it. Top and bottom l
 
 ### Style
 
-Pad the top and bottom of the tab content area by 24px. Pad the sides of the tab content area by 20px.
+Construct tabs so that the left-most tab is selected, by default. In this example, **Notes** is the default tab.
+
+Place tabs on a transparent canvas so that the tab and the tab content area are the same color as the content behind it.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Tab content area structure"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/tabs/tabs-content-area.svg" width="500px"/>
+<embed src="{{site.url}}/assets/images/components/content-areas/tabs/tabs-style.png" width="545px"/>
 
 {% endfigure %}
 
@@ -148,12 +152,14 @@ Pad the top and bottom of the tab content area by 24px. Pad the sides of the tab
 
 Pad the top and bottom of the tab content area by 24px. Pad the sides of the tab content area by 20px.
 
+Pad the top of the tab name by 12px, and pad the bottom of the tab name by 8px. Pad the sides of the tab name by 12px.
+
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Tab content area structure"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/tabs/tabs-content-area.svg" width="500px"/>
+<embed src="{{site.url}}/assets/images/components/content-areas/tabs/tabs-spacing.png" width="539px"/>
 
 {% endfigure %}
 
@@ -187,14 +193,16 @@ Tabs can exist in hover, pressed, or zero states.
 
 ### Hover state
 
-The tab text color should change to hex color #16b9d4 when a user hovers over the tab. When a user moves off the tab, the text should change back to the default color.
+Construct the tab so that the text color changes to hex color #16b9d4 when a user hovers over the tab.
+
+When a user moves off the tab, the text should change back to the default color.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Tab hover state"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/tabs/tabs-hover-state.svg" width="500px"/>
+<embed src="{{site.url}}/assets/images/components/content-areas/tabs/tabs-state-hover.png" width="559px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -218,7 +226,7 @@ To visually confirm to a user that a tab is selected, change the color of the ta
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Tab pressed state"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/tabs/tabs-pressed-state.svg" width="500px"/>
+<embed src="{{site.url}}/assets/images/components/content-areas/tabs/tabs-state-pressed.png" width="552px"/>
 
 {% endfigure %}
 
@@ -236,14 +244,16 @@ To visually confirm to a user that a tab is selected, change the color of the ta
 
 ### Zero state
 
-Center zero state messaging horizontally and vertically. Use a minimum height of 220px for the container.
+Center zero state messaging horizontally and vertically.
+
+Use a minimum height of 220px for the container.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Tab zero state"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/tabs/tabs-zero-state.svg" width="500px"/>
+<embed src="{{site.url}}/assets/images/components/content-areas/tabs/tabs-state-zero.png" width="537px"/>
 
 {% endfigure %}
 
