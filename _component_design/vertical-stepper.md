@@ -8,36 +8,57 @@ usage: >
 preview-image: preview-images/vertical-stepper.svg
 resource: true
 status: in-progress
-last-modified: 2018-01-30
+last-modified: 2018-05-04
 ---
 
 {% include toc.html %}
 
 <section class="static-section" markdown="1">
 
-## Introduction
-
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-### When to use
+## When to use
 
-- The stepper pattern is used for complex workflows that require multiple inputs from a user to complete. The complex workflow is segmented or chunked into thematic steps and then progressively revealed to the user using the stepper pattern. Vertical steppers fulfill the same need as a horizontal stepper; however, their vertical orientation yields itself to work within all screen sizes.
+User a vertical stepper for complex workflows that require multiple inputs from a user to complete. The complex workflow is segmented or chunked into thematic steps and then progressively revealed to the user using the stepper pattern.
 
-### Best practices
+Vertical steppers fulfill the same need as a horizontal stepper; however, their vertical orientation yields itself to work within all screen sizes.
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+## Best practices
+
+Consider the following best practices when you construct a vertical stepper.
 
 - Ensure a stepper has at minimum 3 steps and at maximum 5 steps.
 - Name each step thematically based on the inputs contained within a step. For example, a step dealing with inputs **Username**, **First name**, **Address**, etc. could be labeled **Account Info** or **User Details**. This ensures users are primed for the type of information that will be presented in a step when first skimming a stepper form.
 
-
 {% endcolumn %}
 
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+</div>
 
-{% figure [caption:"The vertical stepper component"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/vert-stepper/vert-stepper-hero.png" width="1440"/>
-{% endfigure %}
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+## Specifications
+
+Refer to the following specifications when you construct a vertical stepper.
 
 {% endcolumn %}
 
@@ -51,7 +72,7 @@ last-modified: 2018-01-30
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Overview
+### Composition
 
 The vertical stepper component is comprised of the following pieces:
 
@@ -62,7 +83,6 @@ The vertical stepper component is comprised of the following pieces:
 - Step revealer
 - Step selection
 - Step title
-
 
 {% endcolumn %}
 
@@ -78,33 +98,19 @@ The vertical stepper component is comprised of the following pieces:
 
 </section>
 
-## Pattern specifications
-
 <section class="static-section" markdown="1">
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-12-md hxSpan-12-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Spacing
+### Style
 
-{% figure [caption:"Spacing specifications for the vertical stepper pattern"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/vert-stepper/vert-stepper-spacing.png" width="903"/>
-{% endfigure %}
+Words here about stepper style...
 
 {% endcolumn %}
 
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow" markdown="1">
-
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-12-md hxSpan-12-lg" %}
-
-### Specifications
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Spacing specifications for the vertical stepper pattern"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/content-areas/vert-stepper/vert-stepper-specs.png" width="903"/>
@@ -122,10 +128,9 @@ The vertical stepper component is comprised of the following pieces:
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Stepper counter
+#### Stepper counter
 
 The stepper counter displays the sequential number of a step as well as the status of the step.
-
 
 {% endcolumn %}
 
@@ -147,7 +152,7 @@ The stepper counter displays the sequential number of a step as well as the stat
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Clickable area
+#### Clickable area
 
 {% endcolumn %}
 
@@ -167,9 +172,55 @@ The stepper counter displays the sequential number of a step as well as the stat
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-12-md hxSpan-12-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Loading state
+### Spacing
+
+Text here on spacing...
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"Spacing specifications for the vertical stepper pattern"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/content-areas/vert-stepper/vert-stepper-spacing.png" width="903"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+## States
+
+Text here on states...
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+### Loading
+
+Here is some text on loading state...
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Stepper loading state"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/content-areas/vert-stepper/vert-stepper-loading.png" width="903"/>
@@ -181,46 +232,13 @@ The stepper counter displays the sequential number of a step as well as the stat
 
 </section>
 
-## Variances
-
 <section class="static-section" markdown="1">
 
 <div class="hxRow" markdown="1">
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Submission controls
-
-As the stepper pattern isolates each sequential step within a multistep process, a variance in the buttons displayed within each step will become apparent to the user. Dependent on which sequential step is displayed, the following buttons may be displayed.
-
-**First step:** Displays a primary button to move to the next step and tertiary button to cancel the form.
-
-**Intermediate step(s):** Displays primary and secondary buttons to move between steps and a tertiary button to cancel the form.
-
-**Final step:** Mimics the intermediate step, however the primary button is now used to complete the form and labeled according; For example, ‘Submit’ or ‘Confirm’.
-
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-{% figure [caption:"Button displays based on currently displayed step."] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/vert-stepper/vert-stepper-buttons.png" width="580"/>
-{% endfigure %}
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow" markdown="1">
-
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-### Error states
+### Error
 
 Error states for the stepper will generally occur inline within the scope of the input and controls component used within the content area (see below).
 
@@ -232,6 +250,7 @@ However it may be possible that a completed step may encounter an error state in
 
 {% figure [caption:"Error state applied to a sequential step within a vertical stepper"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/content-areas/vert-stepper/vert-stepper-error-1.png" width="580"/>
+
 {% endfigure %}
 
 {% endcolumn %}
@@ -239,7 +258,6 @@ However it may be possible that a completed step may encounter an error state in
 </div>
 
 </section>
-
 
 <section class="static-section" markdown="1">
 
@@ -257,6 +275,36 @@ For errors within an input and controls component error messages will take on th
 
 {% figure [caption:"Error state applied to an input field within the content area"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/content-areas/vert-stepper/vert-stepper-error-2.png" width="903"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+## Submission controls
+
+As the stepper pattern isolates each sequential step within a multistep process, a variance in the buttons displayed within each step will become apparent to the user. Dependent on which sequential step is displayed, the following buttons may be displayed.
+
+**First step:** Displays a primary button to move to the next step and tertiary button to cancel the form.
+
+**Intermediate step(s):** Displays primary and secondary buttons to move between steps and a tertiary button to cancel the form.
+
+**Final step:** Mimics the intermediate step, however the primary button is now used to complete the form and labeled according; For example, ‘Submit’ or ‘Confirm’.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"Button displays based on currently displayed step."] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/content-areas/vert-stepper/vert-stepper-buttons.png" width="580"/>
 {% endfigure %}
 
 {% endcolumn %}
