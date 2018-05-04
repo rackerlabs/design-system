@@ -19,7 +19,7 @@ helix-ui-javascript: true
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 ## When to use
 
@@ -45,7 +45,7 @@ Do not use tabs:
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 ## Best practices
 
@@ -72,7 +72,7 @@ Consider the following best practices when you construct tabs:
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 ## Specifications
 
@@ -88,7 +88,7 @@ Use the following specifications when you construct tabs.
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Composition
 
@@ -100,10 +100,10 @@ The tab content area adopts the color of the content behind it. Top and bottom l
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Tab menu structure"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/tabs/tabs-menu.svg)
+<embed src="{{site.url}}/assets/images/components/content-areas/tabs/tabs-menu.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -116,7 +116,7 @@ The tab content area adopts the color of the content behind it. Top and bottom l
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Style
 
@@ -124,10 +124,10 @@ Pad the top and bottom of the tab content area by 24px. Pad the sides of the tab
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Tab content area structure"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/tabs/tabs-content-area.svg)
+<embed src="{{site.url}}/assets/images/components/content-areas/tabs/tabs-content-area.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -140,7 +140,7 @@ Pad the top and bottom of the tab content area by 24px. Pad the sides of the tab
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Spacing
 
@@ -148,7 +148,7 @@ Pad the top and bottom of the tab content area by 24px. Pad the sides of the tab
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Tab content area structure"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/content-areas/tabs/tabs-content-area.svg)
@@ -164,7 +164,7 @@ Pad the top and bottom of the tab content area by 24px. Pad the sides of the tab
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 ## States
 
@@ -180,7 +180,7 @@ Tabs can exist in hover, pressed, or zero states.
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Hover state
 
@@ -188,10 +188,10 @@ The tab text color should change to hex color #16b9d4 when a user hovers over th
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Tab hover state"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/tabs/tabs-hover-state.svg)
+<embed src="{{site.url}}/assets/images/components/content-areas/tabs/tabs-hover-state.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -204,7 +204,7 @@ The tab text color should change to hex color #16b9d4 when a user hovers over th
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Pressed state
 
@@ -212,10 +212,10 @@ To visually confirm to a user that a tab is selected, change the color of the ta
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Tab pressed state"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/tabs/tabs-pressed-state.svg)
+<embed src="{{site.url}}/assets/images/components/content-areas/tabs/tabs-pressed-state.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -228,7 +228,7 @@ To visually confirm to a user that a tab is selected, change the color of the ta
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Zero state
 
@@ -236,10 +236,10 @@ Center zero state messaging horizontally and vertically. Use a minimum height of
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Tab zero state"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/tabs/tabs-zero-state.svg)
+<embed src="{{site.url}}/assets/images/components/content-areas/tabs/tabs-zero-state.svg"/>
 {% endfigure %}
 
 {% endcolumn %}

@@ -21,7 +21,7 @@ helix-ui-javascript: false
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### When to use
 
@@ -36,10 +36,10 @@ When an app supports large amounts of information, users can quickly locate cont
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Search implemented in the support delivery platform UI"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/search-and-filters/search-bar/search-hero.svg)
+<embed src="{{site.url}}/assets/images/components/search-and-filters/search-bar/search-hero.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -54,7 +54,7 @@ When an app supports large amounts of information, users can quickly locate cont
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Basic search bar
 
@@ -64,10 +64,10 @@ By default, the search bar will extend across the full width of its container. W
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Basic search bar"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/search-and-filters/search-bar/search-basic.svg)
+<embed src="{{site.url}}/assets/images/components/search-and-filters/search-bar/search-basic.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -80,7 +80,7 @@ By default, the search bar will extend across the full width of its container. W
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### States
 
@@ -94,10 +94,10 @@ The basic search bar component has the following states:
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Basic search bar states"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/search-and-filters/search-bar/search-states.svg)
+<embed src="{{site.url}}/assets/images/components/search-and-filters/search-bar/search-states.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -110,7 +110,7 @@ The basic search bar component has the following states:
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Spacing
 
@@ -120,10 +120,10 @@ The basic search bar component has the following states:
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Spacing specifications"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/search-and-filters/search-bar/search-spacing.svg)
+<embed src="{{site.url}}/assets/images/components/search-and-filters/search-bar/search-spacing.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -136,7 +136,7 @@ The basic search bar component has the following states:
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### No results
 
@@ -144,10 +144,10 @@ The 'no results' state mimics the 'Idle & filled' state and displays a specializ
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"No results state"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/search-and-filters/search-bar/search-no-results.svg)
+<embed src="{{site.url}}/assets/images/components/search-and-filters/search-bar/search-no-results.svg"/>
 {% endfigure %}
 
 {% endcolumn %}

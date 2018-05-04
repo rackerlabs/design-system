@@ -10,7 +10,7 @@ category: Resources
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-6 hxCol-xs-12 hxCol-sm-12 hxCol-md-6 hxCol-lg-6" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-6-md hxSpan-6-lg" %}
 
 <div class="resource-card">
   <div class="icon"><img src="{{site.baseurl}}/assets/images/sketch-library.svg" alt="sketch library icon"/>
@@ -22,7 +22,7 @@ category: Resources
 
 {% endcolumn %}
 
-{% column left:"hxCol-6 hxCol-xs-12 hxCol-sm-12 hxCol-md-6 hxCol-lg-6" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-6-md hxSpan-6-lg" %}
 
 <div class="resource-card">
   <div ><img src="{{site.baseurl}}/assets/images/lo-fi.svg" alt="low-fi icon"/>
@@ -44,7 +44,7 @@ category: Resources
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-6 hxCol-xs-12 hxCol-sm-12 hxCol-md-6 hxCol-lg-6" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-6-md hxSpan-6-lg" %}
 
 <div class="resource-card">
   <div class="icon"><img src="{{site.baseurl}}/assets/images/palette-contrast.svg" alt="color palette icon"/>
@@ -56,7 +56,7 @@ category: Resources
 
 {% endcolumn %}
 
-{% column left:"hxCol-6 hxCol-xs-12 hxCol-sm-12 hxCol-md-6 hxCol-lg-6" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-6-md hxSpan-6-lg" %}
 
 <div class="resource-card">
   <div class="icon"><img src="{{site.baseurl}}/assets/images/codepen.svg" alt="codepen logo icon"/>
@@ -77,7 +77,7 @@ category: Resources
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-6 hxCol-xs-12 hxCol-sm-12 hxCol-md-6 hxCol-lg-6" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-6-md hxSpan-6-lg" %}
 
 <div class="resource-card">
   <div class="icon"><img src="{{site.baseurl}}/assets/images/mark-github.svg" alt="GitHub logo icon"/>
@@ -89,7 +89,7 @@ category: Resources
 
 {% endcolumn %}
 
-{% column left:"hxCol-6 hxCol-xs-12 hxCol-sm-12 hxCol-md-6 hxCol-lg-6" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-6-md hxSpan-6-lg" %}
 
 <div class="resource-card">
   <div class="icon"><img src="{{site.baseurl}}/assets/images/mark-github.svg" alt="GitHub logo icon"/>
@@ -101,7 +101,7 @@ category: Resources
 
 {% endcolumn %}
 
-{% column left:"hxCol-6 hxCol-xs-12 hxCol-sm-12 hxCol-md-6 hxCol-lg-6" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-6-md hxSpan-6-lg" %}
 
 <div class="resource-card">
   <div class="icon"><img src="{{site.baseurl}}/assets/images/mark-github.svg" alt="GitHub logo icon"/>
@@ -116,5 +116,3 @@ category: Resources
 </div>
 
 </section>
-
-
