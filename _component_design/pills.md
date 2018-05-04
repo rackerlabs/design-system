@@ -93,9 +93,9 @@ Pills consist of a container, text, and an “x” icon that indicates the user 
 
 ### Style
 
-Pills can be larger or smaller than body font. In general, use body font.
+Use body font text when you construct pills. To address space constraints, you can scale pills up to 24px font size and down to 12px font size.
 
-Use these redline specifications when you construct pills.
+Use these specifications when you construct pills.
 
 {% endcolumn %}
 
@@ -119,9 +119,7 @@ Use these redline specifications when you construct pills.
 
 ### Spacing
 
-Place 16px of horizontal space and 4px of vertical space between a pill an another component. Use the best top spacing for your particular use case.
-
-Unless you have a reason, justify pills to the left.
+Place 16px of horizontal space and 4px of vertical space between a pill an another component. Use the best top spacing for your particular use case. Left-justify pills.
 
 If you group pills together, provide 8px of space below and next to a pill. If you group more than 15 pills together, consider an alternative pattern or contact the Helix team.
 
@@ -147,7 +145,7 @@ If you group pills together, provide 8px of space below and next to a pill. If y
 
 ## States
 
-Pills can exist in active, hover, too many, or too long states.
+Pills can exist in active, hover, or too long states.
 
 {% endcolumn %}
 
