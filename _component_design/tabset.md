@@ -103,7 +103,8 @@ The tab content area adopts the color of the content behind it. Top and bottom l
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Tab menu structure"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/tabs/tabs-menu.svg"/>
+<embed src="{{site.url}}/assets/images/components/content-areas/tabs/tabs-menu.svg" width="500px"/>
+
 {% endfigure %}
 
 {% endcolumn %}
@@ -127,7 +128,8 @@ Pad the top and bottom of the tab content area by 24px. Pad the sides of the tab
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Tab content area structure"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/tabs/tabs-content-area.svg"/>
+<embed src="{{site.url}}/assets/images/components/content-areas/tabs/tabs-content-area.svg" width="500px"/>
+
 {% endfigure %}
 
 {% endcolumn %}
@@ -151,7 +153,8 @@ Pad the top and bottom of the tab content area by 24px. Pad the sides of the tab
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Tab content area structure"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/tabs/tabs-content-area.svg)
+<embed src="{{site.url}}/assets/images/components/content-areas/tabs/tabs-content-area.svg" width="500px"/>
+
 {% endfigure %}
 
 {% endcolumn %}
@@ -191,7 +194,7 @@ The tab text color should change to hex color #16b9d4 when a user hovers over th
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Tab hover state"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/tabs/tabs-hover-state.svg"/>
+<embed src="{{site.url}}/assets/images/components/content-areas/tabs/tabs-hover-state.svg" width="500px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -215,7 +218,8 @@ To visually confirm to a user that a tab is selected, change the color of the ta
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Tab pressed state"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/tabs/tabs-pressed-state.svg"/>
+<embed src="{{site.url}}/assets/images/components/content-areas/tabs/tabs-pressed-state.svg" width="500px"/>
+
 {% endfigure %}
 
 {% endcolumn %}
@@ -239,7 +243,8 @@ Center zero state messaging horizontally and vertically. Use a minimum height of
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Tab zero state"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/tabs/tabs-zero-state.svg"/>
+<embed src="{{site.url}}/assets/images/components/content-areas/tabs/tabs-zero-state.svg" width="500px"/>
+
 {% endfigure %}
 
 {% endcolumn %}
