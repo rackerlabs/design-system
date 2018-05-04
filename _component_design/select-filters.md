@@ -19,7 +19,7 @@ helix-ui-javascript: true
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 ## When to use
 
@@ -37,7 +37,7 @@ Do not use a select filter on non-table data. To search non-table data, use a se
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 ## Best practices
 
@@ -56,7 +56,7 @@ Consider the following best practices when you construct a select filter.
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ## User interaction
 
@@ -64,10 +64,10 @@ xxxx.
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"xxx."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/select-filters/select-filter.png){: width="633px"}
+<embed src="{{site.url}}/assets/images/components/content-areas/select-filters/select-filter.png" width="633px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -80,7 +80,7 @@ xxxx.
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 ## Specifications
 
@@ -96,7 +96,7 @@ Use the following specifications when you construct a select filter.
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Composition
 
@@ -108,14 +108,14 @@ After a filter has been applied by the user, pills are placed on to the base pag
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"The select filter popover consists of a panel, heading, filtering options and buttons."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/select-filters/select-filter.png){: width="633px"}
+<embed src="{{site.url}}/assets/images/components/content-areas/select-filters/select-filter.png" width="633px"/>
 {% endfigure %}
 
 {% figure [caption:""] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/select-filters/filter-pills.png){: width="633px"}
+<embed src="{{site.url}}/assets/images/components/content-areas/select-filters/filter-pills.png" width="633px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -128,7 +128,7 @@ After a filter has been applied by the user, pills are placed on to the base pag
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Spacing
 
@@ -140,10 +140,10 @@ To see specifications for laying out form fields and body text within a popover,
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:""] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/select-filters/post-filter-pills.png){: width="633px"}
+<embed src="{{site.url}}/assets/images/components/content-areas/select-filters/post-filter-pills.png" width="633px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -156,7 +156,7 @@ To see specifications for laying out form fields and body text within a popover,
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ## Multi-category popover
 
@@ -168,10 +168,10 @@ Use a multi-category popovers when you can categorize filters. Use one column fo
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:""] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/select-filters/filter-multicategory.png){: width="633px"}
+<embed src="{{site.url}}/assets/images/components/content-areas/select-filters/filter-multicategory.png" width="633px"/>
 {% endfigure %}
 
 {% endcolumn %}

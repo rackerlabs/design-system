@@ -3,6 +3,10 @@
     <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
     <title>date-picker-month-picker-3</title>
     <desc>Created with Sketch.</desc>
+    <style>
+      @import url("https://fonts.googleapis.com/css?family=Roboto:300,400");
+      @import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css")
+    </style>
     <defs>
         <polygon id="path-1" points="0 280 256 280 256 0 0 0"></polygon>
         <filter x="-2.3%" y="-1.1%" width="104.7%" height="104.3%" filterUnits="objectBoundingBox" id="filter-2">

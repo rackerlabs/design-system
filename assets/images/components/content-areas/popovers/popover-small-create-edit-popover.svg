@@ -4,6 +4,12 @@
     <title>popover-small-create-edit-popover</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
+    <style>
+      @import url("https://fonts.googleapis.com/css?family=Roboto");
+      text {
+        font-family: "Roboto"
+      }
+    </style>
     <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g transform="translate(1.000000, 0.000000)">
             <g transform="translate(49.000000, 257.000000)" font-size="11" font-family="Roboto-Regular, Roboto" fill="#FFFFFF" font-weight="normal">
@@ -61,12 +67,12 @@
                             </g>
                             <rect stroke="#BDBDBD" x="0.6943128" y="0.5" width="249.805687" height="31" rx="2"></rect>
                         </g>
-                        <text fill="#616161" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal">
+                        <text fill="#616161" font-size="14" font-weight="normal">
                             <tspan x="0" y="15">Label</tspan>
                         </text>
                     </g>
                 </g>
-                <text fill="#616161" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal">
+                <text fill="#616161" font-size="14" font-weight="normal">
                     <tspan x="20" y="82">Label</tspan>
                 </text>
                 <g transform="translate(19.000000, 193.000000)">
@@ -77,19 +83,13 @@
                             </g>
                             <rect stroke="#BDBDBD" x="0.6943128" y="0.5" width="249.805687" height="31" rx="2"></rect>
                         </g>
-                        <text fill="#616161" font-family="Roboto-Regular, Roboto" font-size="14" font-weight="normal">
+                        <text fill="#616161" font-size="14" font-weight="normal">
                             <tspan x="0" y="15">Label</tspan>
                         </text>
                     </g>
                 </g>
-                <text fill="#616161" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal">
-                    <tspan x="32.2681" y="111.1308">Ma</tspan>
-                </text>
-                <text fill="#616161" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal">
-                    <tspan x="55.1196625" y="111.1308">k</tspan>
-                </text>
-                <text fill="#616161" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal">
-                    <tspan x="63.0081375" y="111.1308">e a selection</tspan>
+                <text fill="#616161" font-size="16" font-weight="normal">
+                    <tspan x="32.2681" y="111.1308">Make a selection</tspan>
                 </text>
                 <path d="M257.2422,103.1885 L255.6682,103.1885 C255.5762,103.1885 255.4912,103.0485 255.4282,103.1115 C255.3982,103.1425 255.3732,103.0905 255.3552,103.1325 C255.3032,103.2585 255.3322,103.3605 255.4282,103.4575 L258.2972,106.3035 C258.4292,106.4355 258.6432,106.4245 258.7752,106.2925 L261.6442,103.4175 C261.7412,103.3215 261.7702,103.1735 261.7172,103.0465 C261.7002,103.0055 261.6752,103.1435 261.6442,103.1125 C261.5822,103.0505 261.4962,103.1885 261.4052,103.1885 L259.8312,103.1885 L257.2422,103.1885 Z" fill="#989898" fill-rule="nonzero"></path>
             </g>

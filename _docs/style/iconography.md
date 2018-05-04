@@ -18,7 +18,7 @@ helix-ui-javascript: true
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-8" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-12-md hxSpan-8-lg" %}
 
 ### Best practices
 
@@ -54,11 +54,12 @@ If you need an additional icon, submit your request to the
 Utility icons are used in place of text to perform an action. They are based on
 commonly used, established metaphors. Utility icons share the color style of
 links or match the color of body text dependent on the background color.
+{:style="padding-bottom:14px"}
 
 <div class="hxRow">
   {% for icon in site.data.icons %}
     {% if icon.group == "utility" %}
-      <div class="hxCol-xs-12 hxCol-sm-6 hxCol-md-3 hxCol-lg-2">
+      <div class="hxCol hxSpan-12-xs hxSpan-6-sm hxSpan-3-md hxSpan-2-lg">
         <div class="icon-chip">
           <hx-icon type="{{icon.type}}"></hx-icon>
         </div>
@@ -76,11 +77,12 @@ links or match the color of body text dependent on the background color.
 Object icons should be used sparingly and consistently across Rackspace
 products. Their purpose is to provide a visual differentiator between items in
 a list or symbolize types of content.
+{:style="padding-bottom:14px"}
 
 <div class="hxRow">
   {% for icon in site.data.icons %}
     {% if icon.group == "object" %}
-    <div class="hxCol-xs-12 hxCol-sm-6 hxCol-md-3 hxCol-lg-2">
+    <div class="hxCol hxSpan-12-xs hxSpan-6-sm hxSpan-3-md hxSpan-2-lg">
       <div class="icon-chip">
         <hx-icon type="{{icon.type}}"></hx-icon>
       </div>
@@ -96,11 +98,12 @@ a list or symbolize types of content.
 ### Status icons
 
 Status icons can be used to provide checks, errors, and warnings in forms. They also can be used to draw users’ attention to statuses or messages. Use the appropriate alert colors to draw the users’ attention. Otherwise use the icons in black, gray, or white, corresponding to the color of the body text of the background.
+{:style="padding-bottom:14px"}
 
 <div class="hxRow">
   {% for icon in site.data.icons %}
     {% if icon.group == "status" %}
-    <div class="hxCol-xs-12 hxCol-sm-6 hxCol-md-3 hxCol-lg-2">
+    <div class="hxCol hxSpan-12-xs hxSpan-6-sm hxSpan-3-md hxSpan-2-lg">
       <div class="icon-chip">
         <hx-icon type="{{icon.type}}"></hx-icon>
       </div>
@@ -116,11 +119,12 @@ Status icons can be used to provide checks, errors, and warnings in forms. They 
 ### Platform icons
 
 Only use these icons to indicate the platform service for which it stands.
+{:style="padding-bottom:14px"}
 
 <div class="hxRow">
   {% for icon in site.data.icons %}
     {% if icon.group == "platform" %}
-    <div class="hxCol-xs-12 hxCol-sm-6 hxCol-md-3 hxCol-lg-2">
+    <div class="hxCol hxSpan-12-xs hxSpan-6-sm hxSpan-3-md hxSpan-2-lg">
       <div class="icon-chip">
         <hx-icon type="{{icon.type}}"></hx-icon>
       </div>
@@ -136,11 +140,12 @@ Only use these icons to indicate the platform service for which it stands.
 ### Keyboard interactions icons
 
 The following icons should only be used for indicating keyboard commands. Avoid using keyboard icons in the interface (except for in tooltips where appropriate). Use in help documentation
+{:style="padding-bottom:14px"}
 
 <div class="hxRow">
   {% for icon in site.data.icons %}
     {% if icon.group == "keyboard" %}
-    <div class="hxCol-xs-12 hxCol-sm-6 hxCol-md-3 hxCol-lg-2">
+    <div class="hxCol hxSpan-12-xs hxSpan-6-sm hxSpan-3-md hxSpan-2-lg">
       <div class="icon-chip">
         <hx-icon type="{{icon.type}}"></hx-icon>
       </div>
@@ -157,7 +162,7 @@ The following icons should only be used for indicating keyboard commands. Avoid 
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-12-md hxSpan-12-lg" %}
 
 In addition to the icons provided by Helix, designers may also require access to Rackspace brand assets while creating an interface. These assets cannot be stored within a public github repository for legal reasons. These assets instead will need to be sourced from their official CDN link.
 
@@ -174,7 +179,7 @@ Rackspace US, Inc. retains copyright and/or applicable rights to all text and gr
 <div class="hxRow" markdown="1">
 
 
-{% column right:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 <!-- Do not use the embed tag on this image when we refactor SVGs -->
 {% figure [caption: "<a target='_blank' href='http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/fanatiguy-black.svg'>Fanatiguy - Black</a>"][class:"image bg-light border"] %}
 ![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/fanatiguy-black.svg){:width="100px"}
@@ -182,7 +187,7 @@ Rackspace US, Inc. retains copyright and/or applicable rights to all text and gr
 
 {% endcolumn %}
 
-{% column right:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 <!-- Do not use the embed tag on this image when we refactor SVGs -->
 {% figure [caption: "<a target='_blank' href='http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/fanatiguy-color.svg'>Fanatiguy - Color</a>"][class:"image bg-light border"] %}
 ![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/fanatiguy-color.svg){:width="100px"}
@@ -190,7 +195,7 @@ Rackspace US, Inc. retains copyright and/or applicable rights to all text and gr
 
 {% endcolumn %}
 
-{% column right:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 <!-- Do not use the embed tag on this image when we refactor SVGs -->
 {% figure [caption: "<a target='_blank' href='http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/fanatiguy-white.svg'>Fanatiguy - White</a>"][class:"image bg-dark border"] %}
 ![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/fanatiguy-white.svg){:width="100px"}
@@ -198,7 +203,7 @@ Rackspace US, Inc. retains copyright and/or applicable rights to all text and gr
 
 {% endcolumn %}
 
-{% column right:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 <!-- Do not use the embed tag on this image when we refactor SVGs -->
 {% figure [caption:"<a target='_blank' href='http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/corporate-logo-black.svg'>Rackspace logo - Black</a>"][class:"image bg-light border"] %}
 ![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/corporate-logo-black.svg){:width="286px"}
@@ -206,7 +211,7 @@ Rackspace US, Inc. retains copyright and/or applicable rights to all text and gr
 
 {% endcolumn %}
 
-{% column right:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 <!-- Do not use the embed tag on this image when we refactor SVGs -->
 {% figure [caption:"<a target='_blank' href='http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/corporate-logo-color.svg'>Rackspace logo - Color</a>"][class:"image bg-light border"] %}
 ![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/corporate-logo-color.svg){:width="286px"}
@@ -214,7 +219,7 @@ Rackspace US, Inc. retains copyright and/or applicable rights to all text and gr
 
 {% endcolumn %}
 
-{% column right:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 <!-- Do not use the embed tag on this image when we refactor SVGs -->
 {% figure [caption:"<a target='_blank' href='http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/corporate-logo-white.svg'>Rackspace logo - White</a>"][class:"image bg-dark border"] %}
 ![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/corporate-logo-white.svg){:width="286px"}
@@ -232,7 +237,7 @@ Rackspace US, Inc. retains copyright and/or applicable rights to all text and gr
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Size
 
@@ -240,10 +245,10 @@ The Helix icon sets natural size is 16x16px. This is referred to as a base size.
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Scaling icons should be done proportionally in multiples of 8."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/style/icons/icon-sizing.png){:width="540px"}
+<embed src="{{site.url}}/assets/images/style/icons/icon-sizing.png" width="540"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -256,7 +261,7 @@ The Helix icon sets natural size is 16x16px. This is referred to as a base size.
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Color
 
@@ -264,10 +269,10 @@ Helix icon colors are determined by the background color and in most cases corre
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/style/icons/icon-color.png){:width="660px"}
+<embed src="{{site.url}}/assets/images/style/icons/icon-color.png" width="660"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -280,7 +285,7 @@ Helix icon colors are determined by the background color and in most cases corre
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Status icon colors
 
@@ -288,10 +293,10 @@ Status icons can be used to provide checks, errors, and warnings in forms. They 
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/style/icons/icon-alert-colors.png){:width="540px"}
+<embed src="{{site.url}}/assets/images/style/icons/icon-alert-colors.png" width="540"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -308,20 +313,20 @@ Status icons can be used to provide checks, errors, and warnings in forms. They 
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-Helix icons are constructed on a 16x16 pixel grid. The icon grid is used to facilitate consistency and establish a clear set of rules for the positioning of graphic elements.  
+Helix icons are constructed on a 16x16 pixel grid. The icon grid is used to facilitate consistency and establish a clear set of rules for the positioning of graphic elements.
 
 Keep icon shape weighted towards the middle area of the grid, reserving the outer 1px margin for visual weighting and maintaining relative aspect ratios. This standardization results in a flexible but coherent system.  
 
-Keyline shapes are the foundation of the grid. By using these core shapes as guidelines, you can maintain a consistent visual proportion across all icons.    
+Keyline shapes are the foundation of the grid. By using these core shapes as guidelines, you can maintain a consistent visual proportion across all icons.
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Differences in padding ensure that icons will look similar in size regardless of their shape."][class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/style/icons/icon-grid.png){:width="598px"}
+<embed src="{{site.url}}/assets/images/style/icons/icon-grid.png" width="598"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -336,7 +341,7 @@ Keyline shapes are the foundation of the grid. By using these core shapes as gui
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 - When lines principally shape your icon, use a 2px stroke for the foundation and a 1px line for extra details.
 - Use rounded end caps and rounded corners to keep the icon smooth and friendly.
@@ -345,10 +350,10 @@ Keyline shapes are the foundation of the grid. By using these core shapes as gui
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/style/icons/icon-shape.png){:width="598px"}
+<embed src="{{site.url}}/assets/images/style/icons/icon-shape.png" width="598"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -363,16 +368,16 @@ Keyline shapes are the foundation of the grid. By using these core shapes as gui
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 - A 1px corner radius is used on the silhouette form of the icon.
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/style/icons/icon-silhouette.png){:width="598px"}
+<embed src="{{site.url}}/assets/images/style/icons/icon-silhouette.png" width="598"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -387,7 +392,7 @@ Keyline shapes are the foundation of the grid. By using these core shapes as gui
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 Icons of the same size should have the same visual weight.
 
@@ -395,10 +400,10 @@ Icons of the same size should have the same visual weight.
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/style/icons/icon-weight.png){:width="598px"}
+<embed src="{{site.url}}/assets/images/style/icons/icon-weight.png" width="598"/>
 {% endfigure %}
 
 {% endcolumn %}

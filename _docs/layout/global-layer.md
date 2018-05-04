@@ -34,7 +34,7 @@ Notifications.
 ## Eyebrow (Utility Nav)
 
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol-md-4" %}
+{% column left:"hxCol hxSpan-4-md" %}
 The eyebrow is more commonly referred to as the Pilot API Nav Header within the
 application frame because it provides for easy switching between product lines
 and platform level services. Platform level services are any services that
@@ -56,20 +56,20 @@ Notifications, and Ticketing. For detailed specs, see the
     - Wrist: 0em ≤ x < 40em
 
 {% endcolumn %}
-{% column right:"hxCol-md-8" %}
+{% column right:"hxCol hxSpan-8-md" %}
 {% figure [caption:"Eyebrow zones"] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/layout/eyebrow.svg){:width="100%"}
+<embed src="{{site.cdn_url}}/img/layout/eyebrow.svg"/>
 {% endfigure %}
 
 {% figure [caption:"Eyebrow breakpoints"] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/layout/eyebrow-states.svg){:width="100%"}
+<embed src="{{site.cdn_url}}/img/layout/eyebrow-states.svg"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
 
 ### Eyebrow (left side)
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol-md-4" %}
+{% column left:"hxCol hxSpan-4-md" %}
 The left side of the eyebrow is comprised of the platform dashboard button and
 product switcher dropdowns. The item currently displayed in the content area
 navigation section is reflected via the selected state beneath it.
@@ -81,9 +81,9 @@ navigation section is reflected via the selected state beneath it.
     currently selected product.
 
 {% endcolumn %}
-{% column right:"hxCol-md-8" %}
+{% column right:"hxCol hxSpan-8-md" %}
 {% figure [caption:"Eyebrow (leftside) zones"] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/layout/eye-left.svg){:width="100%"}
+<embed src="{{site.cdn_url}}/img/layout/eye-left.svg"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -91,7 +91,7 @@ navigation section is reflected via the selected state beneath it.
 ### Eyebrow (right side)
 
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol-md-4" %}
+{% column left:"hxCol hxSpan-4-md" %}
 The right side of the eyebrow menu is comprised of the user name section and
 platform level services button groups.
 
@@ -105,28 +105,28 @@ platform level services button groups.
 -   When selected a platform service triggers an offcanvas right panel.
 
 {% endcolumn %}
-{% column right:"hxCol-md-8" %}
+{% column right:"hxCol hxSpan-8-md" %}
 {% figure [caption:"Eyebrow (rightside) zones"] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/layout/eye-right.svg){:width="100%"}
+<embed src="{{site.cdn_url}}/img/layout/eye-right.svg"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
 
 ## Off Canvas
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol-md-4" %}
+{% column left:"hxCol hxSpan-4-md" %}
 Offcanvas panels are panels that serve from the global layer. Panels can
 either be offcanvas left or right dependent upon the type of content being
 displayed and are triggered via interacting with the global eyebrow. Each panel
 has three states: Hidden, Toggled, and Extended.
 {% endcolumn %}
-{% column right:"hxCol-md-8" %}
+{% column right:"hxCol hxSpan-8-md" %}
 {% figure [caption:"Offcanvas panel right - toggled"] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/layout/global-layer/offcanvas-right-toggled.svg)
+<embed src="{{site.cdn_url}}/img/layout/global-layer/offcanvas-right-toggled.svg"/>
 {% endfigure %}
 
 {% figure [caption:"Ticketing right panel example"] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/layout/global-layer/offcanvas-right-example.svg)
+<embed src="{{site.cdn_url}}/img/layout/global-layer/offcanvas-right-example.svg"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -134,18 +134,18 @@ has three states: Hidden, Toggled, and Extended.
 ## Global Dashboard
 
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol-md-4" %}
+{% column left:"hxCol hxSpan-4-md" %}
 The Global Dashboard is an special offcanvas element that is toggled via the
 Global DB button (Rackspace logo), the left most element on the Global eyebrow.
 When toggled, the dashboard will extend over the product and workflow layers.
 {% endcolumn %}
-{% column right:"hxCol-md-8" %}
+{% column right:"hxCol hxSpan-8-md" %}
 {% figure [caption:"Global Dashboard - Hidden"] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/layout/global-layer/globaldash-base.svg)
+<embed src="{{site.cdn_url}}/img/layout/global-layer/globaldash-base.svg"/>
 {% endfigure %}
 
 {% figure [caption:"Global Dashboard - Toggled"] [class:"image bg-light border"] %}
-![]({{site.cdn_url}}/img/layout/global-layer/globaldash-extended-full.svg)
+<embed src="{{site.cdn_url}}/img/layout/global-layer/globaldash-extended-full.svg"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
