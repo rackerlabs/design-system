@@ -4,11 +4,11 @@ parent: Content Areas
 layout: component
 category: Components
 usage: >
-   A key-value pair is a group of two related data items. Key-value pairs display a label (the key) with the corresponding data (the value). Color and alignment of key-value pairs allow the user to scan the page quickly for relevant data.
+   A key-value pair is a group of two related data items. Key-value pairs display a label (the key) with the corresponding data (the value). Color and alignment of key-value pairs enable the user to scan the page quickly for relevant data.
 preview-image: preview-images/key-value.svg
 resource: true
 status: stable
-last-modified: 2018-05-01
+last-modified: 2018-05-04
 helix-ui-css: true
 helix-ui-javascript: true
 ---
@@ -23,7 +23,7 @@ helix-ui-javascript: true
 
 ## When to use
 
-Use a key-value pair to represent a single row's worth of data, where the key represents a column header and the value represents a corresponding cell. Key-value pairs are often used to present identifying information.
+Use a key-value pair to represent a single row's worth of data, where the key represents a column header and the value represents a corresponding cell. Key-value pairs are used to present identifying information.
 
 Do not use key-value pairs to represent multiple rows or columns of data.
 
@@ -46,7 +46,7 @@ Consider the following best practices when you design key-value pairs:
 - Use horizontal key-value pairs when you have tight vertical constraints.
 - Use vertical key-value pairs when you have tight horizontal constraints, are developing for a mobile device, or are viewing data inside an expanded table row.
 - Do not place more than three vertical key-value pairs on a page.
-- Ensure that the key (label) corresponds with the data (value).
+- Ensure that the key (label) corresponds with the value (data).
 - If possible, limit key-value pairs to one line.
 - Follow the Helix grid guidelines for spacing and placement.
 - Use icons sparingly.
@@ -180,7 +180,7 @@ You can use icons, compact tertiary buttons, and text links in key-value pairs.
 
 - Use icons to make the key value pairs easier to scan.
 - Use compact tertiary buttons when you want users to trigger an action.
-- Use a link text style when you want users to navigate.
+- Use a link when you want users to navigate.
 
 {% endcolumn %}
 
@@ -247,7 +247,7 @@ Key labels and data values display left-aligned on the left.
 
 ### Style
 
-Use these redline specifications when you construct vertical layout key-value pairs.
+Use these specifications when you construct key-value pairs in a vertical layout.
 
 {% endcolumn %}
 
