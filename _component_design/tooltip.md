@@ -39,7 +39,9 @@ Do not use a tooltip if users must repeatedly refer to a tooltip to understand a
 
 {% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
 
-## Best practice
+## Best practices
+
+Consider the following best practices when you construct tooltips.
 
 - Tooltips are perfect for short sentences and sentence fragments that assist the user in their understanding.
 - The ideal tooltip is not obvious, nor does it repeat content that is already visible on the site.
@@ -61,7 +63,7 @@ Do not use a tooltip if users must repeatedly refer to a tooltip to understand a
 
 ## Specifications
 
-Use the following specifications when you construct tooltips.
+Use these specifications when you construct tooltips.
 
 {% endcolumn %}
 
@@ -100,7 +102,29 @@ The tooltip stands out from the background by using a lighter background color t
 
 <section class="static-section" markdown="1">
 
-## Tooltip specifications
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+### Style
+
+xxxxx.
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
+{% figure [caption:"Spacing specifications for tooltip component"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/help/tooltips/tooltip-spacing-1.svg)
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
 
@@ -134,32 +158,7 @@ Tooltips have varying widths based on the amount of content; however, a tooltip 
 
 {% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
 
-### Text values
-
-- 14px Roboto Medium for headers
-- 14px Roboto Regular for body copy
-
-{% endcolumn %}
-
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-
-{% figure [caption:"Text specifications for tooltip component"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/help/tooltips/tooltip-spacing-2.svg)
-{% endfigure %}
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow"  markdown="1">
-
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-
-### Pointer
+### Pointer size and placement
 
 - The pointer is 16px wide at the base.
 - The apex is 8px from the side of the rectangle.
@@ -191,147 +190,11 @@ Best practice pointer placement relies on the following:
 
 <section class="static-section" markdown="1">
 
-## Triggers
-
-<div class="hxRow"  markdown="1">
-
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-
-Tooltips will only appear after be activated by a trigger. Triggers come in a variety of types.
-
-### Trigger types
-
-- **Icon:** Use this trigger variation if a recognizable icon on the application informs a user that additional information is available for consumption if needed (for example, a **?** for help or a **$** for pricing).
-- **Table text:** This variation is used to reveal additional information within a table. By hiding information in tooltips in a table, the tables are easily consumable and only display additional information if required.
-    - **Note:** Can apply to both plain text cells and link text cells.
-- **Data visualization:** Use this trigger variation to present robust data sets aggregated into a data visualization.
-
-{% endcolumn %}
-
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-
-{% figure [caption:"Examples of tooltips generated from various trigger types"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/help/tooltips/tooltip-triggers.svg)
-{% endfigure %}
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-## Text conventions
-
-<div class="hxRow"  markdown="1">
-
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-
-- To keep the tooltip text concise, you should use short sentences and sentence fragments.
-- Try to keep your tooltips under three lines of text including a link if you need one.
-
-{% endcolumn %}
-
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-
-{% figure [caption:"Most tooltips should be very short and only provide enough information for the user to better understand the context. Tooltips can also be used to reveal information that is truncated or hidden by default."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/help/tooltips/tooltip-text-conventions-1.svg)
-{% endfigure %}
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-## Tooltip variations
-
-<div class="hxRow"  markdown="1">
-
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-
-### Help text with a link
-
-Use this variation when a tooltip provides access to a singular external webpage.
-
-- This link should always be an external link and should open in a new tab.
-- Ensure you always include an external link icon.
-- If you need additional inputs or interactions on a tooltip, for example, a [drop-down]({{site.baseurl}}/components/dropdowns.html) or selector, use the larger popover pattern.
-
-<!--See [Help links]({{site.baseurl}}/components/help-link.html) for link specifications.-->
-
-{% endcolumn %}
-
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-
-{% figure [caption:"Spacing for tooltip with an associated link"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/help/tooltips/tooltip-text-with-link.svg)
-{% endfigure %}
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow"  markdown="1">
-
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-
-### Large tooltips
-
-Occasionally a tooltip needs to display a robust set of data that falls outside the bounds of traditional text conventions. The larger tooltips follow the same text conventions and sizing guidelines.
-
-{% endcolumn %}
-
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-
-{% figure [caption:"Some tooltips contain larger amounts of information, like definitions and pricing structure. Such tooltips **should be used sparingly**"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/help/tooltips/tooltip-large-tooltips.svg)
-{% endfigure %}
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow"  markdown="1">
-
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-
-### Loading state
-
-Loading states are rarely found when using the tooltip pattern. The loading state is applied exclusively when using data visualizations.
-
-{% endcolumn %}
-
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-
-{% figure [caption:"Loading State"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/help/tooltips/tooltip-loading.svg)
-{% endfigure %}
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-## Interaction behaviors
-
 <div class="hxRow"  markdown="1">
 
 {% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
+## Behaviors
 
 Tooltips can be activated via either a hover or a click on the trigger element.
 
@@ -393,6 +256,113 @@ Use click enabled tooltips for smaller breakpoints and mobile designs. Tooltips 
 
 {% figure [caption:"Tooltip click lifecycle"] [class:"image bg-light border"] %}
 ![]({{site.url}}/assets/images/components/help/tooltips/tooltip-click.svg)
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+## Triggers
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+Tooltips will only appear after be activated by a trigger. Triggers come in a variety of types.
+
+- **Icon:** Use this trigger variation if a recognizable icon on the application informs a user that additional information is available for consumption if needed (for example, a **?** for help or a **$** for pricing).
+- **Table text:** This variation is used to reveal additional information within a table. By hiding information in tooltips in a table, the tables are easily consumable and only display additional information if required.
+    - **Note:** Can apply to both plain text cells and link text cells.
+- **Data visualization:** Use this trigger variation to present robust data sets aggregated into a data visualization.
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
+{% figure [caption:"Examples of tooltips generated from various trigger types"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/help/tooltips/tooltip-triggers.svg)
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+## Help text with a link
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+Use this variation when a tooltip provides access to a singular external webpage.
+
+- This link should always be an external link and should open in a new tab.
+- Ensure you always include an external link icon.
+- If you need additional inputs or interactions on a tooltip, for example, a [drop-down]({{site.baseurl}}/components/dropdowns.html) or selector, use the larger popover pattern.
+
+<!--See [Help links]({{site.baseurl}}/components/help-link.html) for link specifications.-->
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
+{% figure [caption:"Spacing for tooltip with an associated link"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/help/tooltips/tooltip-text-with-link.svg)
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+## Large tooltips
+
+Occasionally a tooltip needs to display a robust set of data that falls outside the bounds of traditional text conventions. The larger tooltips follow the same text conventions and sizing guidelines.
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
+{% figure [caption:"Some tooltips contain larger amounts of information, like definitions and pricing structure. Such tooltips **should be used sparingly**"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/help/tooltips/tooltip-large-tooltips.svg)
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+
+## Loading state
+
+Loading states are rarely found when using the tooltip pattern. The loading state is applied exclusively when using data visualizations.
+
+{% endcolumn %}
+
+{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+
+{% figure [caption:"Loading State"] [class:"image bg-light border"] %}
+![]({{site.url}}/assets/images/components/help/tooltips/tooltip-loading.svg)
 {% endfigure %}
 
 {% endcolumn %}
