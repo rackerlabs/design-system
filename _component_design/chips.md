@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/chip.svg
 resource: true
 status: stable
-last-modified: 2018-05-01
+last-modified: 2018-05-07
 helix-ui-css: false
 helix-ui-javascript: false
 ---
