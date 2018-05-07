@@ -9,7 +9,7 @@ usage: >
 preview-image: preview-images/popover.svg
 resource: true
 status: stable
-last-modified: 2018-05-01
+last-modified: 2018-05-07
 helix-ui-css: true
 helix-ui-javascript: true
 ---
@@ -24,9 +24,7 @@ helix-ui-javascript: true
 
 ## When to use
 
-Use a popover for small Create, Read, Edit, or Delete workflows that preserve context.
-
-If a large workflow is required, consider creating a new page.
+Use a popover for small Create, Read, Edit, or Delete workflows that preserve context. If a large workflow is required, consider creating a new page.
 
 {% endcolumn %}
 
@@ -44,13 +42,13 @@ If a large workflow is required, consider creating a new page.
 
 Consider the following best practices when you construct a popover:
 
+- Use popovers when a user needs to make small changes with a limited number of inputs.
+- Because a popover is not always open, avoid including important or required information in a popover.
+- Popovers always open toward the center of the screen.
+- Place the popover within the content area of the page it is on.
+- Do not place the popover so that it obstructs important background content.
 - Do not design a popover to open within another popover.
 - Popovers should open on click and not open on hover.
-- Because a popover is not always open, avoid including important or required information in a popover.
-- Use popovers when a user needs to make small changes with a limited number of inputs.
-- Popovers always open toward the center of the screen.
-- Do not place the popover so that it obstructs important background content.
-- Place the popover within the content area of the page it is on.
 
 {% endcolumn %}
 
