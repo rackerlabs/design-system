@@ -3,6 +3,10 @@
     <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
     <title>checkbox-states-image</title>
     <desc>Created with Sketch.</desc>
+    <style>
+      @import url("https://fonts.googleapis.com/css?family=Roboto:300,400");
+      @import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css")
+    </style>
     <defs>
         <rect id="path-1" x="0" y="0" width="16" height="16" rx="2"></rect>
         <polygon id="path-2" points="7 3.5 0 7 0 0"></polygon>

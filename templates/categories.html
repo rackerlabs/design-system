@@ -6,11 +6,11 @@ layout: base
         {%- assign iconCount = 1 -%}
         {%- for component in site.pages -%}
             {%- if component.category == page.title -%}
-                    <div class="col-md-4">
+                    <div class="hxCol hxSpan-4-md">
                             <a href="{{site.baseurl}}{{component.url}}.html">
                                 <div class="category-card border bg-light">
                                   <h1>{{component.title}}</h1>
-                                    <img class="ws-preview-image" {%- if component.preview-image -%} src='{{site.url}}/assets/images/{{component.preview-image}}' {%- else -%} src='http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/placeholder.svg' {%- endif -%}>
+                                    <img class="preview-image" {%- if component.preview-image -%} src='{{site.url}}/assets/images/{{component.preview-image}}' {%- else -%} src='http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/placeholder.svg' {%- endif -%}>
                                     <!--<p>{{component.usage}}</p>-->
                                 </div>
                             </a>

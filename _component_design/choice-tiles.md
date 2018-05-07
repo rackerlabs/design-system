@@ -21,7 +21,7 @@ helix-ui-javascript: false
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### When to use
 
@@ -34,10 +34,10 @@ helix-ui-javascript: false
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"The choice tile pattern"] [class:"image bg-light border"] %}
-![]({{site.baseurl}}/assets/images/components/inputs-and-controls/choice-tiles/choice-tile-hero.png)
+<embed src="{{site.baseurl}}/assets/images/components/inputs-and-controls/choice-tiles/choice-tile-hero.png"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -50,7 +50,7 @@ helix-ui-javascript: false
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Composition
 
@@ -63,10 +63,10 @@ Cards are composed of the following:
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Standard layout for a choice tile."] [class:"image bg-light border"] %}
-![]({{site.baseurl}}/assets/images/components/inputs-and-controls/choice-tiles/choice-tile-default.png)
+<embed src="{{site.baseurl}}/assets/images/components/inputs-and-controls/choice-tiles/choice-tile-default.png"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -79,7 +79,7 @@ Cards are composed of the following:
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Layout options
 
@@ -91,10 +91,10 @@ Cards are composed of the following:
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Choice tiles on a full-width grid with no right sidebar"] [class:"image bg-light border"] %}
-![]({{site.baseurl}}/assets/images/components/inputs-and-controls/choice-tiles/choice-tile-layout.png)
+<embed src="{{site.baseurl}}/assets/images/components/inputs-and-controls/choice-tiles/choice-tile-layout.png"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -107,7 +107,7 @@ Cards are composed of the following:
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-10 hxCol-xs-12 hxCol-sm-12 hxCol-md-10 hxCol-lg-10" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-10-md hxSpan-10-lg" %}
 
 ### Responsive specifications
 
@@ -115,10 +115,10 @@ Use the following column widths for the small, medium, and large choice tiles. B
 
 {% endcolumn %}
 
-{% column right:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-12-md hxSpan-12-lg" %}
 
 {% figure [caption:"Choice tiles responsive options"] [class:"image bg-light border"] %}
-![]({{site.baseurl}}/assets/images/components/inputs-and-controls/choice-tiles/choice-tile-responsive.png)
+<embed src="{{site.baseurl}}/assets/images/components/inputs-and-controls/choice-tiles/choice-tile-responsive.png"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -133,7 +133,7 @@ Use the following column widths for the small, medium, and large choice tiles. B
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 - Small size choice tiles **cannot** have a description due to the smaller dimensions.
 - An optional description may be added medium and large size choice tiles. Its inclusion is recommended to inform more complex selections.
@@ -142,10 +142,10 @@ Use the following column widths for the small, medium, and large choice tiles. B
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Small, medium, and large sized choice tiles"] [class:"image bg-light border"] %}
-![]({{site.baseurl}}/assets/images/components/inputs-and-controls/choice-tiles/choice-tile-specs.png)
+<embed src="{{site.baseurl}}/assets/images/components/inputs-and-controls/choice-tiles/choice-tile-specs.png"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -158,7 +158,7 @@ Use the following column widths for the small, medium, and large choice tiles. B
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Basic states
 
@@ -168,10 +168,10 @@ For selected states, the iconography changes color to match the given state. In 
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Choice tile states"] [class:"image bg-light border"] %}
-![]({{site.baseurl}}/assets/images/components/inputs-and-controls/choice-tiles/choice-tile-states.png)
+<embed src="{{site.baseurl}}/assets/images/components/inputs-and-controls/choice-tiles/choice-tile-states.png"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -186,7 +186,7 @@ For selected states, the iconography changes color to match the given state. In 
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Single-select interaction
 
@@ -198,10 +198,10 @@ For selected states, the iconography changes color to match the given state. In 
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Group states for single select interactions"] [class:"image bg-light border"] %}
-![]({{site.baseurl}}/assets/images/components/inputs-and-controls/choice-tiles/choice-tile-single-select.png)
+<embed src="{{site.baseurl}}/assets/images/components/inputs-and-controls/choice-tiles/choice-tile-single-select.png"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -214,7 +214,7 @@ For selected states, the iconography changes color to match the given state. In 
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Multi-select interaction
 
@@ -224,10 +224,10 @@ For selected states, the iconography changes color to match the given state. In 
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Group states for multi select interactions"] [class:"image bg-light border"] %}
-![]({{site.baseurl}}/assets/images/components/inputs-and-controls/choice-tiles/choice-tile-multi-select.png)
+<embed src="{{site.baseurl}}/assets/images/components/inputs-and-controls/choice-tiles/choice-tile-multi-select.png"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -242,7 +242,7 @@ For selected states, the iconography changes color to match the given state. In 
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Single-select error
 
@@ -250,10 +250,10 @@ If there is an error on a selection, change that item to errored state and displ
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"A selection produced an error"] [class:"image bg-light border"] %}
-![]({{site.baseurl}}/assets/images/components/inputs-and-controls/choice-tiles/choice-tile-single-error.png)
+<embed src="{{site.baseurl}}/assets/images/components/inputs-and-controls/choice-tiles/choice-tile-single-error.png"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -266,7 +266,7 @@ If there is an error on a selection, change that item to errored state and displ
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Group-select error
 
@@ -274,10 +274,10 @@ If there is an error on the entire group, place the message above the group rath
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"A selection needs to be made within the group"] [class:"image bg-light border"] %}
-![]({{site.baseurl}}/assets/images/components/inputs-and-controls/choice-tiles/choice-tile-group-error.png)
+<embed src="{{site.baseurl}}/assets/images/components/inputs-and-controls/choice-tiles/choice-tile-group-error.png"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -290,7 +290,7 @@ If there is an error on the entire group, place the message above the group rath
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Required
 
@@ -298,10 +298,10 @@ If a selection is required, add an 4px asterisk to the left of the title, bleedi
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"A selection is required on a group"] [class:"image bg-light border"] %}
-![]({{site.baseurl}}/assets/images/components/inputs-and-controls/choice-tiles/choice-tile-required.png)
+<embed src="{{site.baseurl}}/assets/images/components/inputs-and-controls/choice-tiles/choice-tile-required.png"/>
 {% endfigure %}
 
 {% endcolumn %}

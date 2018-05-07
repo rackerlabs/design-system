@@ -4,8 +4,7 @@ layout: docs
 category: Upcoming
 ---
 
-**Note:** Contact <mailto://helix.designsystem@rackspace.com?subject=Collaboration Request>
-to contribute or request additional components.
+{% include note.html content="Contact <mailto://helix.designsystem@rackspace.com?subject=Collaboration Request> to contribute or request additional components." %}
 
 ### Component Batch 2
 
