@@ -24,7 +24,7 @@ helix-ui-javascript: true
 
 ## When to use
 
-Use a popover for small Create, Read, Edit, or Delete workflows that preserve context. If a large workflow is required, consider creating a new page.
+Use a popover for small Create, Read, Update (edit), or Delete (CRUD) workflows that preserve context. If a large workflow is required, consider creating a new page.
 
 {% endcolumn %}
 
@@ -42,13 +42,13 @@ Use a popover for small Create, Read, Edit, or Delete workflows that preserve co
 
 Consider the following best practices when you construct a popover:
 
-- Use popovers when a user needs to make small changes with a limited number of inputs.
+- Use a popover when a user needs to make small changes with a limited number of inputs.
 - Because a popover is not always open, avoid including important or required information in a popover.
-- Popovers always open toward the center of the screen.
+- A popovers always opens toward the center of the screen.
 - Place the popover within the content area of the page it is on.
 - Do not place the popover so that it obstructs important background content.
 - Do not design a popover to open within another popover.
-- Popovers should open on click and not open on hover.
+- A popover should open on click and not open on hover.
 
 {% endcolumn %}
 
@@ -85,7 +85,7 @@ The popover pattern is composed of the following elements:
 - **Header (optional)**: The header contains the popover title.
 - **Content area (required)**: The content area can include text, inputs, or interactive content such as a table or visualization.
 - **Footer (optional)**: The footer contains the popover buttons.
-- **Submit and Cancel buttons (optional)**: If buttons are not required, a popover should close when the user clicks outside of the popover.
+- **Submit and Cancel buttons (optional)**: If buttons are not used, a popover should close when the user clicks outside of the popover.
 
 {% endcolumn %}
 
@@ -161,7 +161,7 @@ See [inputs and controls]({{site.baseurl}}/components/inputs-and-controls.html) 
 
 ### Pointer size and placement
 
-Use the following guidelines when you construct the popover pointer:
+Use the following guidelines when you construct a popover pointer:
 
 - The base of the popover pointer is 16px wide.
 - The pointer apex is 8px from the side of the rectangle.
@@ -239,7 +239,7 @@ You can use popovers for small create or edit workflows that must remain in cont
 
 ## Hidden content popovers
 
-Use a popover to reveal hidden content so that it is accessible, but doesn’t clutter the background screen.
+Use a popover to reveal hidden content so that it is accessible but doesn’t clutter the background screen.
 
 If the content is dynamic or interactive, a popover is preferable to a [tooltip]({{site.baseurl}}/components/tooltip.html). For example, use a popover when you present the user with a table or visualization that contains clickable areas.
 
