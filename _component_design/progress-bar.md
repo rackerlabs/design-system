@@ -21,7 +21,7 @@ helix-ui-javascript: false
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Minimal progress bar
 
@@ -39,10 +39,10 @@ The minimal progress var provides user with a simple visual to ascertain the sta
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/processing/progress-bar/progress-overview.png){: width="570px"}
+<embed src="{{site.url}}/assets/images/components/processing/progress-bar/progress-overview.png" width="570px" />
 {% endfigure %}
 
 {% endcolumn %}
@@ -55,7 +55,7 @@ The minimal progress var provides user with a simple visual to ascertain the sta
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Composition
 
@@ -63,10 +63,10 @@ A progress bar is composed of a containing shape (empty fill) and a progress ind
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/processing/progress-bar/progress-composition.png){: width="570px"}
+<embed src="{{site.url}}/assets/images/components/processing/progress-bar/progress-composition.png" width="570px" />
 {% endfigure %}
 
 {% endcolumn %}
@@ -79,7 +79,7 @@ A progress bar is composed of a containing shape (empty fill) and a progress ind
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Spacing
 
@@ -87,10 +87,10 @@ A minimal progress bar should have `8px` of `padding` around its container to al
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/processing/progress-bar/progress-spacing.png){: width="570px"}
+<embed src="{{site.url}}/assets/images/components/processing/progress-bar/progress-spacing.png" width="570px" />
 {% endfigure %}
 
 {% endcolumn %}
@@ -103,7 +103,7 @@ A minimal progress bar should have `8px` of `padding` around its container to al
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Specifications
 
@@ -111,10 +111,10 @@ The minimal progress bar is `8px` tall with a `cyan 500` loading fill and a `gra
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/processing/progress-bar/progress-specs.png){: width="570px"}
+<embed src="{{site.url}}/assets/images/components/processing/progress-bar/progress-specs.png" width="570px" />
 {% endfigure %}
 
 {% endcolumn %}
@@ -127,7 +127,7 @@ The minimal progress bar is `8px` tall with a `cyan 500` loading fill and a `gra
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Behavior and context
 
@@ -141,10 +141,10 @@ The minimal progress bar does not have state changes itself. When it appears, it
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/processing/progress-bar/progress-behavior.png){: width="570px"}
+<embed src="{{site.url}}/assets/images/components/processing/progress-bar/progress-behavior.png" width="570px"/>
 {% endfigure %}
 
 {% endcolumn %}
