@@ -104,7 +104,7 @@ A tab consists of the following elements:
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Tab menu structure"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/tabs/tabs-composition.png" width="539px"/>
+<embed src="{{site.url}}/assets/images/components/content-areas/tabs/tabs_composition.png" width="539px"/>
 
 {% endfigure %}
 
