@@ -23,16 +23,16 @@ helix-ui-javascript: true
 
 ## When to use
 
-Use tabs when:
+Use tabs in the following situations:
 
 - Users need to alternate between different views, while the context remains constant.
 - You want the content of a page to be scannable and easy to navigate. Tabs help users quickly find what they need.
 - You do not need to create a single, unified experience for the user. Tabs eliminate the need for the user to scroll through long pages to find the right section.
 
-Do not use tabs:
+Do not use tabs for the following situations:
 
-- For navigation
-- When users need to view content from multiple tabs simultaneously
+- Tabs are not suited for use for navigation
+- Tabs are not viable when users need to view content from multiple tabs simultaneously
 
 {% endcolumn %}
 
@@ -50,7 +50,7 @@ Do not use tabs:
 
 Consider the following best practices when you construct tabs:
 
-- There can be only one active tab per page.
+- Only one active tab per page is allowed.
 - The default view must display the left-most tab.
 - Present tabs as a single row.
 - Do not construct nested tabs that include another set of tabbed content within a tab.
@@ -59,7 +59,7 @@ Consider the following best practices when you construct tabs:
 - Do not use tabs for primary navigation.
 - Clearly name tabs to differentiate them. Names should be short, scannable, and preferably one word.
 - Capitalize the first letter of each word in a tab name.
-- If needed, wrap tab names to a second line. Truncate tab names that exceed two lines.
+- If necessary, wrap tab names to a second line. Truncate tab names that exceed two lines.
 
 {% endcolumn %}
 
@@ -93,9 +93,9 @@ Use the following specifications when you construct tabs.
 
 A tab consists of the following elements:
 
-- **Tab shape (required)**: Contains the tab name.
-- **Tab name (required)**: Capitalize the first letter of each word in a tab name. If needed, wrap tab names to a second line. Truncate tab names that exceed two lines.
-- **Tab content area (required)**: Contains any content relevant to the title of the tab, including text and graphics.
+- **Tab shape (required)**: The tab shape contains the tab name.
+- **Tab name (required)**: Capitalize the first letter of each word in a tab name. If necessary, wrap tab names to a second line. Truncate tab names that exceed two lines.
+- **Tab content area (required)**: Any content relevant to the title of the tab, including text and graphics, is included in the tab content area.
 - **Tab bottom line (required)**: Extend top and bottom lines to the edge of the content area.
 
 
@@ -122,7 +122,7 @@ A tab consists of the following elements:
 
 ### Style
 
-Construct tabs so that the left-most tab is selected, by default. In this example, **Notes** is the default tab.
+Construct tabs so that the left-most tab is selected by default. In this example, **Notes** is the default tab.
 
 Place tabs on a transparent canvas so that the tab and the tab content area are the same color as the content behind it.
 
@@ -151,7 +151,7 @@ Place tabs on a transparent canvas so that the tab and the tab content area are 
 
 Pad the top and bottom of the tab content area by 24px. Pad the sides of the tab content area by 20px.
 
-Pad the top of the tab name by 12px, and pad the bottom of the tab name by 8px. Pad the sides of the tab name by 12px.
+Pad the top of the tab name by 12px. Pad the bottom of the tab name by 8px. Pad the sides of the tab name by 12px.
 
 {% endcolumn %}
 
@@ -244,7 +244,7 @@ To visually reinforce tab selection, change the color of the tab text to the pre
 
 ### Zero state
 
-Center zero state messaging horizontally and vertically.
+Center the zero state messaging horizontally and vertically.
 
 Use a minimum height of 220px for the container.
 
