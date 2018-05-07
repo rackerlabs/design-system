@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/tabs.svg
 resource: true
 status: stable
-last-modified: 2018-04-25
+last-modified: 2018-05-07
 helix-ui-css: true
 helix-ui-javascript: true
 ---
@@ -26,7 +26,6 @@ helix-ui-javascript: true
 Use tabs when:
 
 - Users need to alternate between different views, while the context remains constant.
-- Users do not need to simultaneously view content from multiple tabs.
 - You want the content of a page to be scannable and easy to navigate. Tabs help users quickly find what they need.
 - You do not need to create a single, unified experience for the user. Tabs eliminate the need for the user to scroll through long pages to find the right section.
 
@@ -56,7 +55,7 @@ Consider the following best practices when you construct tabs:
 - Present tabs as a single row.
 - Do not construct nested tabs that include another set of tabbed content within a tab.
 - Highlight the tab corresponding to the visible content.
-- Provide all relevant contextual information and interface items so a user can perform a single task within the same tab.
+- Provide all relevant contextual information and interface items so a user can perform a single task within a tab.
 - Do not use tabs for primary navigation.
 - Clearly name tabs to differentiate them. Names should be short, scannable, and preferably one word.
 - Capitalize the first letter of each word in a tab name.
