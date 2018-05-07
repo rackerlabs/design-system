@@ -74,7 +74,7 @@ Refer to the following specifications when you construct a vertical stepper.
 
 ### Composition
 
-The vertical stepper component is comprised of the following pieces:
+The vertical stepper component is comprised of the following elements:
 
 - Steps
 - Step content area (this can be comprised of any components from the inputs and controls section)
