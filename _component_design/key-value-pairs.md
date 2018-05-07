@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/key-value.svg
 resource: true
 status: stable
-last-modified: 2018-05-04
+last-modified: 2018-05-07
 helix-ui-css: true
 helix-ui-javascript: true
 ---
@@ -24,8 +24,6 @@ helix-ui-javascript: true
 ## When to use
 
 Use a key-value pair to represent a single row's worth of data, where the key represents a column header and the value represents a corresponding cell. Key-value pairs are used to present identifying information.
-
-Do not use key-value pairs to represent multiple rows or columns of data.
 
 {% endcolumn %}
 
@@ -43,6 +41,7 @@ Do not use key-value pairs to represent multiple rows or columns of data.
 
 Consider the following best practices when you design key-value pairs:
 
+- Do not use key-value pairs to represent multiple rows or columns of data.
 - Use horizontal key-value pairs when you have tight vertical constraints.
 - Use vertical key-value pairs when you have tight horizontal constraints, are developing for a mobile device, or are viewing data inside an expanded table row.
 - Do not place more than three vertical key-value pairs on a page.
