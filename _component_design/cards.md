@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/cards.svg
 status: in-progress
 resource: true
-last-modified: 2018-05-03
+last-modified: 2018-05-07
 helix-ui-css: false
 helix-ui-javascript: false
 ---
@@ -45,7 +45,7 @@ Use the following best practices when you construct cards:
 - The number of cards that you can use is unlimited. However, ensure that the page use case justifies the data.
 - Do not overuse cards in an application. Too many pages with cards might confuse users because they cannot intuitively determine the page that they are on.
 - Do not include too much information on a card. Include only high-level information on a card, and link to more detailed information.
-- If the information is better presented in a list or table, do not use cards. If you believe that card grids might appeal to some users, you can present both layout options.
+- If the information is better presented in a list or table, do not use cards. If the option to view a tabular data as a card grid is useful, you can present both layout options.
 - If you use a card grid as an alternate view to a table view (or a list view), ensure you allow the user to switch to their preferred view.
 
 {% endcolumn %}
