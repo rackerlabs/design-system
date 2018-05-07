@@ -192,9 +192,8 @@ Tabs can exist in hover, pressed, or zero states.
 
 ### Hover state
 
-Construct the tab so that the text color changes to hex color #16b9d4 when a user hovers over the tab.
+When the user moves the cursor over any part of an unselected tab, change the tab to the hover state. When the user moves the cursor off the tab, the text should change back to the default color.
 
-When a user moves off the tab, the text should change back to the default color.
 
 {% endcolumn %}
 
@@ -219,6 +218,8 @@ When a user moves off the tab, the text should change back to the default color.
 ### Pressed state
 
 To visually confirm to a user that a tab is selected, change the color of the tab text by a few shades.
+
+To visually reinforce tab selection, change the color of the tab text to the pressed state for the duration of the click. Change the tab text to the selected state after the user clicks the tab.
 
 {% endcolumn %}
 
