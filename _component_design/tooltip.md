@@ -4,11 +4,13 @@ parent: Content Areas
 layout: component
 category: Components
 usage: >
+  A tooltip is a message that appears when a user places a cursor over an image, icon, hyperlink or other user interface element.
+
   Use the tooltip when you want to convey brief snippets of information, to explain an element a bit more, or to display truncated text.
 preview-image: preview-images/tooltip.svg
 status: stable
 resource: true
-last-modified: 2018-04-26
+last-modified: 2018-05-08
 helix-ui-css: true
 helix-ui-javascript: true
 ---
@@ -23,9 +25,16 @@ helix-ui-javascript: true
 
 ## When to use
 
-Use a tooltip when you need to provide in-context help information. (for example, when describing what will happen when a workflow is initiated). A tooltip can also be used to reveal hidden information, provide extra or supplemental information to users, clarify uses when features could be misinterpreted, or explain an item on a page when it does not have a text label.
+Use a tooltip in the following scenarios.
 
-Do not use a tooltip if users must repeatedly refer to a tooltip to understand an option or to complete a workflow. We recommend you do not use a tooltip when users needs to interact with the tip's content, or when users integrate with the site on a mobile device.
+- You want to provide in-context help information to the user. For example, use a tooltip to describe what happens when a user initiates a workflow.
+- To reveal hidden information, or provide extra or supplemental information to users.
+- To clarify uses when features could be misinterpreted, or explain an item on a page when it does not have a text label.
+
+Do not use a tooltip in the following scenarios.
+
+- Do not use a tooltip if users must repeatedly refer to a tooltip to understand an option or to complete a workflow.
+- Do not use a tooltip when users need to interact with the tooltip content, or when users are working on a mobile device.
 
 {% endcolumn %}
 
@@ -43,11 +52,12 @@ Do not use a tooltip if users must repeatedly refer to a tooltip to understand a
 
 Consider the following best practices when you construct tooltips.
 
-- Tooltips are perfect for short sentences and sentence fragments that assist the user in their understanding.
-- The ideal tooltip is not obvious, nor does it repeat content that is already visible on the site.
-- Place a tooltip in a subtle location, and ensure it does not interfere with the user or obscure any objects of interest. - Use the tooltip on icon images, text, and table rows.
-- The maximum width for the tooltip is 400px.
-- Ensure there are no interactive controls inside the tooltip.
+- Use tooltips on icon images, text, and table rows.
+- Tooltips are ideal for short sentences and sentence fragments that clarify the meaning of icons, text input fields, or other user interface elements.
+- A tooltip should not be obvious or repeat content already visible on the page.
+- Place a tooltip in a subtle location, and ensure it does not interfere with the user or obscure any objects of interest.
+- Do not place interactive controls in a tooltip.
+- Use large tooltips sparingly.
 
 {% endcolumn %}
 
@@ -196,7 +206,7 @@ Best practice pointer placement relies on the following:
 
 ## Behaviors
 
-Tooltips can be activated via either a hover or a click on the trigger element.
+A tooltip is activated by hovering over or clicking the trigger element.
 
 {% endcolumn %}
 
@@ -212,12 +222,14 @@ Tooltips can be activated via either a hover or a click on the trigger element.
 
 ### Hover interaction
 
-Hover tooltips are best used on large breakpoints and desktop designs. Tooltips can have both hover and click interactions on the same tooltip across breakpoints. Hover-enabled tooltips go through the following interaction lifecycle:
+Hover tooltips are best used on large breakpoints and desktop designs. Tooltips can have both hover and click interactions on the same tooltip across breakpoints.
 
-- **Hidden:** The base state of a tooltip is to be hidden until the trigger is engaged by the pointer.
-- **Displayed:** Tooltips enter the display state once the pointer has hovered over the trigger element for 500 ms.
-- **Persist:** While a pointer is hovered inside a tooltip, the tooltip will persist indefinitely to allow for user consumption.
-- **Removal:** After the pointer leaves either the trigger or the tooltip, the tooltip is ready for removal. Once the tooltip is ready, the tooltip disappears after 1600 ms.
+Hover-enabled tooltips progress ]through the following interaction lifecycle:
+
+- **Hidden:** The base state of a tooltip is hidden until the trigger is engaged by the pointer.
+- **Displayed:** Tooltips enter the display state after the pointer has hovered over the trigger element for 500 milliseconds.
+- **Persist:** While a pointer is hovered inside a tooltip, the tooltip persists until the pointer moves off of the trigger or the tooltip.
+- **Removal:** The tooltip is removed 1600 milliseconds after the pointer moves off of the trigger or the tooltip.
 
 {% endcolumn %}
 
@@ -241,14 +253,14 @@ Hover tooltips are best used on large breakpoints and desktop designs. Tooltips 
 
 ### Click interaction
 
-Use click enabled tooltips for smaller breakpoints and mobile designs. Tooltips can have both hover and click interactions on the same tooltip across breakpoints. Click enabled tooltips go through the following interaction lifecycle:
+Use click-enabled tooltips for smaller breakpoints and mobile designs. Tooltips can have both hover and click interactions on the same tooltip across breakpoints.
 
-- **Hidden:** The base state of a tooltip is to be hidden until the trigger is clicked by the pointer.
-- **Displayed:** Tooltips enter the displayed state once the pointer has clicked the trigger element.
+Click-enabled tooltips progress through the following interaction lifecycle:
+
+- **Hidden:** The base state of a tooltip is hidden until the trigger is clicked by the pointer.
+- **Displayed:** Tooltips enter the displayed state after the pointer has clicked the trigger element.
 - **Persist:** Clickable tooltips persist until manually removed by a user.
- - **Removal:** Tooltips re-enter the hidden state once the pointer has either:
-  - re-clicked the trigger element.
-  - clicked outside the tooltip.
+ - **Removal:** Tooltips re-enter the hidden state after the pointer has clicked the trigger element or clicked outside the tooltip.
 
 {% endcolumn %}
 
@@ -337,7 +349,7 @@ Occasionally a tooltip needs to display a robust set of data that falls outside 
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Some tooltips contain larger amounts of information, like definitions and pricing structure. Such tooltips **should be used sparingly**"] [class:"image bg-light border"] %}
+{% figure [caption:"Large tooltips"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/help/tooltips/tooltip-large-tooltips.svg" width="500px"/>
 {% endfigure %}
 
@@ -361,7 +373,7 @@ Loading states are rarely found when using the tooltip pattern. The loading stat
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Loading State"] [class:"image bg-light border"] %}
+{% figure [caption:"Loading state"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/help/tooltips/tooltip-loading.svg" width="500px"/>
 {% endfigure %}
 
