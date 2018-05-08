@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/tabs.svg
 resource: true
 status: stable
-last-modified: 2018-05-07
+last-modified: 2018-05-08
 helix-ui-css: true
 helix-ui-javascript: true
 ---
@@ -31,8 +31,8 @@ Use tabs in the following situations:
 
 Do not use tabs for the following situations:
 
-- Tabs are not suited for use for navigation
-- Tabs are not viable when users need to view content from multiple tabs simultaneously
+- Tabs are not suited for use as primary navigation for an entire page.
+- Tabs are not viable when users need to view content from multiple tabs simultaneously.
 
 {% endcolumn %}
 
@@ -56,10 +56,10 @@ Consider the following best practices when you construct tabs:
 - Do not construct nested tabs that include another set of tabbed content within a tab.
 - Highlight the tab corresponding to the visible content.
 - Provide all relevant contextual information and interface items so a user can perform a single task within a tab.
-- Do not use tabs for primary navigation.
 - Clearly name tabs to differentiate them. Names should be short, scannable, and preferably one word.
-- Capitalize the first letter of each word in a tab name.
-- If necessary, wrap tab names to a second line. Truncate tab names that exceed two lines.
+- Tab names must follow title case capitalization.
+- Avoid using lengthy tab names. Do not allow text to wrap or truncate.
+- Do not use tab sets in multiple areas of the same page.
 
 {% endcolumn %}
 
