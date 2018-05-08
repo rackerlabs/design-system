@@ -1,7 +1,9 @@
 .search-banner {
   padding: 94px 0 36px 0;
   background-color: $cyan700;
-  color: $textcolorlight !important;
+  h1 {
+    color: $textcolorlight !important;
+  }
   min-height: 168px;
 }
 
@@ -57,14 +59,14 @@
         color: $blue500;
       }
       padding: 0 0 8px 0;
-      margin: 0
+      margin: 0 !important
     }
     .result-summary {
       line-height: $base-line-height;
       font-size: $font-size-3;
       color: $grey900;
       padding: 0 0 4px 0;
-      margin: 0
+      margin: 0 !important
     }
     .result-count {
       line-height: $base-line-height;
@@ -74,7 +76,7 @@
         text-transform: capitalize;
       }
       padding: 0;
-      margin: 0
+      margin: 0 !important
     }
     .side-image{
       min-height: 110px;
@@ -95,7 +97,7 @@
   line-height: $base-line-height;
 }
 
-/* 
+/*
  Prevent iOS from restyling search inputs
 */
 

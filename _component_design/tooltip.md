@@ -19,7 +19,7 @@ helix-ui-javascript: true
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 ## When to use
 
@@ -37,7 +37,7 @@ Do not use a tooltip if users must repeatedly refer to a tooltip to understand a
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 ## Best practices
 
@@ -59,7 +59,7 @@ Consider the following best practices when you construct tooltips.
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 ## Specifications
 
@@ -75,7 +75,7 @@ Use these specifications when you construct tooltips.
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Composition
 
@@ -88,10 +88,10 @@ The tooltip stands out from the background by using a lighter background color t
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Tooltip composition"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/help/tooltips/tooltip-composition.svg)
+<embed src={{site.url}}/assets/images/components/help/tooltips/tooltip-composition.svg" width="500px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -104,7 +104,7 @@ The tooltip stands out from the background by using a lighter background color t
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Style
 
@@ -112,10 +112,10 @@ xxxxx.
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Spacing specifications for tooltip component"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/help/tooltips/tooltip-spacing-1.svg)
+<embed src="{{site.url}}/assets/images/components/help/tooltips/tooltip-spacing-1.svg" width="500px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -128,7 +128,7 @@ xxxxx.
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Spacing
 
@@ -140,10 +140,10 @@ Tooltips have varying widths based on the amount of content; however, a tooltip 
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Spacing specifications for tooltip component"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/help/tooltips/tooltip-spacing-1.svg)
+<embed src="{{site.url}}/assets/images/components/help/tooltips/tooltip-spacing-1.svg" width="500px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -156,7 +156,7 @@ Tooltips have varying widths based on the amount of content; however, a tooltip 
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Pointer size and placement
 
@@ -176,10 +176,10 @@ Best practice pointer placement relies on the following:
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Variations of tooltip based on pointer placement"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/help/tooltips/tooltip-pointer-placement.svg)
+<embed src="{{site.url}}/assets/images/components/help/tooltips/tooltip-pointer-placement.svg" width="500px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -192,7 +192,7 @@ Best practice pointer placement relies on the following:
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 ## Behaviors
 
@@ -208,7 +208,7 @@ Tooltips can be activated via either a hover or a click on the trigger element.
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Hover interaction
 
@@ -221,10 +221,10 @@ Hover tooltips are best used on large breakpoints and desktop designs. Tooltips 
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Tooltip hover lifecycle"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/help/tooltips/tooltip-hover.svg)
+<embed src="{{site.url}}/assets/images/components/help/tooltips/tooltip-hover.svg" width="500px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -237,7 +237,7 @@ Hover tooltips are best used on large breakpoints and desktop designs. Tooltips 
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Click interaction
 
@@ -252,10 +252,10 @@ Use click enabled tooltips for smaller breakpoints and mobile designs. Tooltips 
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Tooltip click lifecycle"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/help/tooltips/tooltip-click.svg)
+<embed src="{{site.url}}/assets/images/components/help/tooltips/tooltip-click.svg" width="500px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -270,7 +270,7 @@ Use click enabled tooltips for smaller breakpoints and mobile designs. Tooltips 
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 Tooltips will only appear after be activated by a trigger. Triggers come in a variety of types.
 
@@ -281,10 +281,10 @@ Tooltips will only appear after be activated by a trigger. Triggers come in a va
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Examples of tooltips generated from various trigger types"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/help/tooltips/tooltip-triggers.svg)
+<embed src="{{site.url}}/assets/images/components/help/tooltips/tooltip-triggers.svg" width="500px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -299,7 +299,7 @@ Tooltips will only appear after be activated by a trigger. Triggers come in a va
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 Use this variation when a tooltip provides access to a singular external webpage.
 
@@ -311,10 +311,10 @@ Use this variation when a tooltip provides access to a singular external webpage
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Spacing for tooltip with an associated link"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/help/tooltips/tooltip-text-with-link.svg)
+<embed src="{{site.url}}/assets/images/components/help/tooltips/tooltip-text-with-link.svg" width="500px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -327,7 +327,7 @@ Use this variation when a tooltip provides access to a singular external webpage
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ## Large tooltips
 
@@ -335,10 +335,10 @@ Occasionally a tooltip needs to display a robust set of data that falls outside 
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Some tooltips contain larger amounts of information, like definitions and pricing structure. Such tooltips **should be used sparingly**"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/help/tooltips/tooltip-large-tooltips.svg)
+<embed src="{{site.url}}/assets/images/components/help/tooltips/tooltip-large-tooltips.svg" width="500px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -351,7 +351,7 @@ Occasionally a tooltip needs to display a robust set of data that falls outside 
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ## Loading state
 
@@ -359,10 +359,10 @@ Loading states are rarely found when using the tooltip pattern. The loading stat
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Loading State"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/help/tooltips/tooltip-loading.svg)
+<embed src="{{site.url}}/assets/images/components/help/tooltips/tooltip-loading.svg" width="500px"/>
 {% endfigure %}
 
 {% endcolumn %}

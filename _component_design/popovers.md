@@ -22,7 +22,7 @@ helix-ui-javascript: true
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### When to Use
 
@@ -43,10 +43,10 @@ You can use popovers for short create or edit workflows and are particularly use
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Meet the popover pattern"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/popovers/popover-hero-image.svg)
+<embed src="{{site.url}}/assets/images/components/content-areas/popovers/popover-hero-image.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -61,7 +61,7 @@ You can use popovers for short create or edit workflows and are particularly use
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 The most defining aspects of a popover are the container and the pointer. The container appears on top of the canvas. The pointer points to the popover trigger. Pointers can be used on either side of the four corners.
 
@@ -70,10 +70,10 @@ The most defining aspects of a popover are the container and the pointer. The co
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"A popover consists of a panel, contextual pointer, heading, and buttons."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/popovers/popover-default-layout.svg)
+<embed src="{{site.url}}/assets/images/components/content-areas/popovers/popover-default-layout.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -88,7 +88,7 @@ The most defining aspects of a popover are the container and the pointer. The co
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Popover Spacing
 
@@ -96,10 +96,10 @@ See [inputs and controls]({{site.baseurl}}/components/inputs-and-controls.html) 
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Popover spacing specifications"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/popovers/popover-spacing.svg)
+<embed src="{{site.url}}/assets/images/components/content-areas/popovers/popover-spacing.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -112,7 +112,7 @@ See [inputs and controls]({{site.baseurl}}/components/inputs-and-controls.html) 
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Popover specifications
 
@@ -123,10 +123,10 @@ See [inputs and controls]({{site.baseurl}}/components/inputs-and-controls.html) 
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Popover redline specifications"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/popovers/popover-specs.svg)
+<embed src="{{site.url}}/assets/images/components/content-areas/popovers/popover-specs.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -139,7 +139,7 @@ See [inputs and controls]({{site.baseurl}}/components/inputs-and-controls.html) 
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Pointer size and placement
 
@@ -151,10 +151,10 @@ The pointer is 16px wide at the base. The apex is 8 px from the side of the rect
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Pointer specifications and pointer placement variations"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/popovers/popover-pointer-size-placement.svg)
+<embed src="{{site.url}}/assets/images/components/content-areas/popovers/popover-pointer-size-placement.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -169,7 +169,7 @@ The pointer is 16px wide at the base. The apex is 8 px from the side of the rect
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Small create or edit popover
 
@@ -177,10 +177,10 @@ You can use popovers for small create or edit workflows that must remain in cont
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"A popover with a small create workflow"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/popovers/popover-small-create-edit-popover.svg)
+<embed src="{{site.url}}/assets/images/components/content-areas/popovers/popover-small-create-edit-popover.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -193,7 +193,7 @@ You can use popovers for small create or edit workflows that must remain in cont
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Large hidden content
 
@@ -203,10 +203,10 @@ In this instance, a popover is preferable to a [tooltip]({{site.baseurl}}/compon
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"An interactive informational popover."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/popovers/popover-large-hidden-content.svg)
+<embed src="{{site.url}}/assets/images/components/content-areas/popovers/popover-large-hidden-content.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -219,7 +219,7 @@ In this instance, a popover is preferable to a [tooltip]({{site.baseurl}}/compon
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Loading
 
@@ -227,10 +227,10 @@ Use a simple loading circle to load a popover. Refer to the [Loading]({{site.bas
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"A popover in loading state using a spinner"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/popovers/popover-loading.svg)
+<embed src="{{site.url}}/assets/images/components/content-areas/popovers/popover-loading.svg"/>
 {% endfigure %}
 
 {% endcolumn %}

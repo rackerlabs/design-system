@@ -67,39 +67,3 @@
   text-align: center;
   padding: 40px 0;
 }
-
-/* Tooltip */
-
-.ws-beacons{
-  height: 100px;
-}
-
-.ws-beacon-con{
-  /* Firefox */
-  width: -moz-calc(33.3333% - 28px);
-  /* WebKit */
-  width: -webkit-calc(33.3333% - 28px);
-  /* Opera */
-  width: -o-calc(33.3333% - 28px);
-  /* Standard */
-  width: calc(33.3333% - 28px);
-  display:block;
-  float:left;
-  border-left: 1px solid $grey300;
-  padding-left: 40px;
-}
-
-.ws-beacon-con:first-child{
-  border-left:none;
-  padding-left: 0px;
-}
-
-.align-left {
-  text-align: left !important;
-}
-.align-right {
-  text-align: right !important;
-}
-.align-center {
-  text-align: center !important;
-}
