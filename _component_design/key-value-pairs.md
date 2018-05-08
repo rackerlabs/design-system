@@ -4,11 +4,11 @@ parent: Content Areas
 layout: component
 category: Components
 usage: >
-   A key-value pair is a group of two related data items. Key-value pairs display a label (the key) with the corresponding data (the value). Color and alignment of key-value pairs allow the user to scan the page quickly for relevant data.
+   A key-value pair is a group of two related data items. Key-value pairs display a label (the key) with the corresponding data (the value). Color and alignment of key-value pairs enable the user to scan the page quickly for relevant data.
 preview-image: preview-images/key-value.svg
 resource: true
 status: stable
-last-modified: 2018-04-13
+last-modified: 2018-05-07
 helix-ui-css: true
 helix-ui-javascript: true
 ---
@@ -19,22 +19,33 @@ helix-ui-javascript: true
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-12-md hxSpan-12-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 ## When to use
 
-Use a key-value pair to represent a single row's worth of data, where the key represents a column header and the value represents a corresponding cell. Key-value pairs are often used to present identifying information.
+Use a key-value pair to represent a single row's worth of data, where the key represents a column header and the value represents a corresponding cell. Key-value pairs are used to present identifying information.
 
-Do not use key-value pairs to represent multiple rows or columns of data.
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 ## Best practices
 
 Consider the following best practices when you design key-value pairs:
 
+- Do not use key-value pairs to represent multiple rows or columns of data.
 - Use horizontal key-value pairs when you have tight vertical constraints.
 - Use vertical key-value pairs when you have tight horizontal constraints, are developing for a mobile device, or are viewing data inside an expanded table row.
 - Do not place more than three vertical key-value pairs on a page.
-- Ensure that the key (label) corresponds with the data (value).
+- Ensure that the key (label) corresponds with the value (data).
 - If possible, limit key-value pairs to one line.
 - Follow the Helix grid guidelines for spacing and placement.
 - Use icons sparingly.
@@ -76,8 +87,8 @@ By default, key-value pairs appear in the body of a page. Key labels display rig
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:""] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/key-pairs/keyvalue_composition.png"/>
+{% figure [caption:"Horizontal key-value pairs composition"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/content-areas/key-pairs/keyvalue-horizontal-composition.png" width="264px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -101,7 +112,7 @@ To determine the indentation of key-value pairs, use two columns on the Helix gr
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Horizontal key-value pairs style"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/key-pairs/keypairs-default-layout.svg"/>
+<embed src="{{site.url}}/assets/images/components/content-areas/key-pairs/keyvalue-horizontal-style.png" width="448px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -124,8 +135,30 @@ Restrict text wrapping to two columns for key labels and four columns for data v
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"A set of key-value pairs that use two lines"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/key-pairs/keypairs-two-lines.svg"/>
+{% figure [caption:"Key-value pairs wrapped text"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/content-areas/key-pairs/keyvalue-horizontal-textwrapping.png" width="330px"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+Use these spacing guidelines for single-line key-value pairs.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"Single line key-value pairs"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/content-areas/key-pairs/keyvalue-horizontal-spacing.png" width="310px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -144,12 +177,16 @@ Restrict text wrapping to two columns for key labels and four columns for data v
 
 You can use icons, compact tertiary buttons, and text links in key-value pairs.
 
+- Use icons to make the key value pairs easier to scan.
+- Use compact tertiary buttons when you want users to trigger an action.
+- Use a link when you want users to navigate.
+
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Key-value pairs that contain icons, buttons, and text links"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/key-pairs/keypairs-other-elements.svg"/>
+{% figure [caption:"Key-value pairs with icons, buttons, and text links"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/content-areas/key-pairs/keyvalue-horizontal-otherelements.png" width="431px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -191,7 +228,8 @@ Key labels and data values display left-aligned on the left.
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Vertical key-value pair composition"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/key-pairs/key-value-vertical-composition.png"/>
+<embed src="{{site.url}}/assets/images/components/content-areas/key-pairs/keyvalue-vertical-composition.png"
+ width="472px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -208,14 +246,40 @@ Key labels and data values display left-aligned on the left.
 
 ### Style
 
-Use the following redline specifications when you construct vertical layout key-value pairs.
+Use these specifications when you construct key-value pairs in a vertical layout.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Vertical key-value pairs style"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/key-pairs/keypairs-vertical-keyvalue.svg"/>
+{% figure [caption:"Vertical key-value pair style"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/content-areas/key-pairs/keyvalue-vertical-style.png"
+ width="410px"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+### Spacing
+
+Use these spacing guidelines when you construct vertical key-value pairs.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"Vertical key-value pair spacing"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/content-areas/key-pairs/keyvalue-vertical-spacing.png"
+ width="612px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -238,8 +302,9 @@ When a data value loads, the system should display the key label and the word **
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Horizontal key-value pairs in a loading state"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/key-pairs/keypairs-loading-state.svg"/>
+{% figure [caption:"Horizontal key-value pairs loading state"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/content-areas/key-pairs/keyvalue-loading1.png"
+ width="431px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -254,14 +319,15 @@ When a data value loads, the system should display the key label and the word **
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-When vertical key values load, they take the same loading pattern as the horizontal key values by populating the value with **Loading…**, styled in active body font, Roboto Regular, `#424242`.
+When vertical key values load, they take the same loading pattern as the horizontal key values by populating the value with **Loading…**, styled in body font, Roboto Regular, `#424242`.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Vertical key-value pairs in a loading state"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/key-pairs/key-value-vertical-loading.png"/>
+{% figure [caption:"Vertical key-value pairs loading state"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/content-areas/key-pairs/keyvalue-loading2.png"
+ width="362px"/>
 {% endfigure %}
 
 {% endcolumn %}
