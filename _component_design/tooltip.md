@@ -91,7 +91,7 @@ The tooltip stands out from the background by using a lighter background color t
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Tooltip composition"] [class:"image bg-light border"] %}
-<embed src={{site.url}}/assets/images/components/help/tooltips/tooltip-composition.svg" width="500px"/>
+<embed src="{{site.url}}/assets/images/components/help/tooltips/tooltip-composition.svg" width="500px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -108,13 +108,13 @@ The tooltip stands out from the background by using a lighter background color t
 
 ### Style
 
-xxxxx.
+Use these specifications when you construct tooltips.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Spacing specifications for tooltip component"] [class:"image bg-light border"] %}
+{% figure [caption:"Tooltip style"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/help/tooltips/tooltip-spacing-1.svg" width="500px"/>
 {% endfigure %}
 
@@ -142,7 +142,7 @@ Tooltips have varying widths based on the amount of content; however, a tooltip 
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Spacing specifications for tooltip component"] [class:"image bg-light border"] %}
+{% figure [caption:"Tooltip spacing"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/help/tooltips/tooltip-spacing-1.svg" width="500px"/>
 {% endfigure %}
 
