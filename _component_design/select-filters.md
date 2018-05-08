@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/select-filter.svg
 resource: true
 status: stable
-last-modified: 2018-04-26
+last-modified: 2018-05-08
 helix-ui-css: true
 helix-ui-javascript: true
 ---
@@ -60,14 +60,14 @@ Consider the following best practices when you construct a select filter.
 
 ## User interaction
 
-xxxx.
+This user interaction illustrates the steps a user takes when using a select filter.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"xxx."] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/select-filters/select-filter.png" width="633px"/>
+{% figure [caption:""] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/content-areas/select-filters/selectfilter_videoflow_02.mov" width="1148px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -100,22 +100,43 @@ Use the following specifications when you construct a select filter.
 
 ### Composition
 
-Select filters found within a popover are triggered by a button. Filters are selected using checkboxes and are then applied with a **Apply Filters** button. The **Clear Filters** button removes all selected filters.
+A select filter is composed of the following elements:
 
-The **Cancel** button closes the popover without applying any filters, even if some were selected. Any filters that had been previously applied remain until the filter is removed by the user.
-
-After a filter has been applied by the user, pills are placed on to the base page. A filter can be removed by clicking the **x** inside of that filter's pill.
+- **Popover (required)**: A popover provides the container for the select filter. See [popovers](http://helix.rax.io/components/popovers.html) for information on constructing a popover.
+- **Filter button (required)**: When a user clicks the filter button, the select filter popover opens. See [bottons](http://helix.rax.io/components/buttons.html) for information on constructing buttons.
+- **Checkboxes (required)**: Checkboxes represent filter values that can be selected by a user. See [checkboxes](http://helix.rax.io/components/checkboxes.html) for information on constructing checkboxes.
+- **Button set**: Filters are selected using checkboxes and are then applied with a **Apply Filters** button. The **Clear Filters** button removes all selected filters. The **Cancel** button closes the popover without applying any filters. A filter remains until the filter is removed by the user. See [buttons](http://helix.rax.io/components/buttons.html) for information on constructing button sets.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"The select filter popover consists of a panel, heading, filtering options and buttons."] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/select-filters/select-filter.png" width="633px"/>
+{% figure [caption:"Select filter composition"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/content-areas/select-filters/selectfilter-composition01.png" width="587px"/>
 {% endfigure %}
 
-{% figure [caption:""] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/select-filters/filter-pills.png" width="633px"/>
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+After a filter has been applied by the user, pills are placed on the base page. A user can remove the filter by clicking the **x** inside of a filter pill.
+
+See [pills](helix.rax.io/components/pills.html) for information on contructing pills.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"Select filter pills"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/content-areas/select-filters/selectfilter-composition02-image.png" width="618px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -132,18 +153,14 @@ After a filter has been applied by the user, pills are placed on to the base pag
 
 ### Spacing
 
-To see specifications for laying out form fields and body text within a popover, see the following patterns:
-
-- [Popovers](http://helix.rax.io/components/popovers.html)
-- [Checkboxes](http://helix.rax.io/components/checkboxes.html)
-- [Typography](http://helix.rax.io/style/typography.html)
+Apply 16px of padding above and below filter pills.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:""] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/select-filters/post-filter-pills.png" width="633px"/>
+{% figure [caption:"Filter pill spacing"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/content-areas/select-filters/selectfilter-spacing.png" width="635px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -164,14 +181,14 @@ Use a single column popover when a data set has five or fewer filters.
 
 Use a multi-column popover when a data set has greater than five filters. Size each column equally. Place checkboxes according to the bounding box of the checkbox itself.
 
-Use a multi-category popovers when you can categorize filters. Use one column for each category. In the example, filters are organized into three categories, each category with its own column. The category title is placed at the top of the column with filter checkboxes placed beneath.
+Use a multi-category popover when you can categorize filters. Use one column for each category. In the example, filters are organized into three categories, each category with its own column. The category title is placed at the top of the column with filter checkboxes placed beneath.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:""] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/select-filters/filter-multicategory.png" width="633px"/>
+{% figure [caption:"Mult-category select filter"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/content-areas/select-filters/selectfilter-variation-multicategory.png" width="508px"/>
 {% endfigure %}
 
 {% endcolumn %}
