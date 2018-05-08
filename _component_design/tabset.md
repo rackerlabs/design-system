@@ -1,14 +1,14 @@
 ---
-title: Tabset
+title: Tabs
 parent: Content Areas
 layout: component
 category: Components
 usage: >
-  Tabs provide users with the ability to access multiple sections of content seperated by tabs. This seperation makes it easy to explore and switch between different views. Tabs enable content organization at a high level, such as switching between views, data sets, or functional aspects of an app.
+  A tab is a hidden section of content on a page. Tabs enable users to easily switch between multiple sections of a page without losing context. Tabs help organize content at a high level, such as switching between views, data sets, or the functional aspects of an application.
 preview-image: preview-images/tabs.svg
 resource: true
 status: stable
-last-modified: 2017-09-11
+last-modified: 2018-05-08
 helix-ui-css: true
 helix-ui-javascript: true
 ---
@@ -17,35 +17,22 @@ helix-ui-javascript: true
 
 <section class="static-section" markdown="1">
 
-## Introduction
-
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-### Problems solved
+## When to use
 
-- Tabsets eliminate the need to scroll through long pages to find the right section. With tabs, it's easy to see what sections are available.
-- Tabsets eliminate the need to stack sections.
+Use tabs in the following situations:
 
-### Best practices
+- Users need to alternate between different views, while the context remains constant.
+- You want the content of a page to be scannable and easy to navigate. Tabs help users quickly find what they need.
+- You do not need to create a single, unified experience for the user. Tabs eliminate the need for the user to scroll through long pages to find the right section.
 
-- There must be only one active tab per page.
-- The default view must always display the left-most tab.
-- Present tabs as a single row. Wrap tab labels to a second line if needed, and then truncate.
-- Do not include another set of tabbed content within a tab (no nested tabsets).
-- Highlight the tab corresponding to the visible content.
-- Provide all relevant contextual information and interface items to perform a single task within the same tab.
-- Do not use tabsets for primary navigation.
-- Clearly label tabs to differentiate them. Labels should be short, scannable, and (preferably) one word.
+Do not use tabs for the following situations:
 
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-{% figure [caption:"A generic tabset"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/tabs/tabs-lorem-ipsum.svg"/>
-{% endfigure %}
+- Tabs are not suited for use as primary navigation for an entire page.
+- Tabs are not viable when users need to view content from multiple tabs simultaneously.
 
 {% endcolumn %}
 
@@ -55,22 +42,70 @@ helix-ui-javascript: true
 
 <section class="static-section" markdown="1">
 
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+## Best practices
+
+Consider the following best practices when you construct tabs:
+
+- Only one active tab per page is allowed.
+- The default view must display the left-most tab.
+- Present tabs as a single row.
+- Do not construct nested tabs that include another set of tabbed content within a tab.
+- Highlight the tab corresponding to the visible content.
+- Provide all relevant contextual information and interface items so a user can perform a single task within a tab.
+- Clearly name tabs to differentiate them. Names should be short, scannable, and preferably one word.
+- Tab names must follow title case capitalization.
+- Avoid using lengthy tab names. Do not allow text to wrap or truncate.
+- Do not use tab sets in multiple areas of the same page.
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
 ## Specifications
+
+Use the following specifications when you construct tabs.
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Tab menu
+### Composition
 
-The default layout must always have the left-most tab selected. In the example image that follows, **Notes** is the default. Tabsets are contained in a transparent canvas specific to that the tab. The tab content area adopts the color of the content behind it. Top and bottom lines extend to the edge of the content area.
+A tab consists of the following elements:
+
+- **Tab shape (required)**: The tab shape contains the tab name.
+- **Tab name (required)**: Capitalize the first letter of each word in a tab name. If necessary, wrap tab names to a second line. Truncate tab names that exceed two lines.
+- **Tab content area (required)**: Any content relevant to the title of the tab, including text and graphics, is included in the tab content area.
+- **Tab bottom line (required)**: Extend top and bottom lines to the edge of the content area.
+
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Tab menu structure"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/tabs/tabs-menu.svg"/>
+<embed src="{{site.url}}/assets/images/components/content-areas/tabs/tabs_composition.png" width="539px"/>
+
 {% endfigure %}
 
 {% endcolumn %}
@@ -85,16 +120,19 @@ The default layout must always have the left-most tab selected. In the example i
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Tab content area
+### Style
 
-Pad the top and bottom of the content area by 24px. Pad the sides of the content area by 20px.
+Construct tabs so that the left-most tab is selected by default. In this example, **Notes** is the default tab.
+
+Place tabs on a transparent canvas so that the tab and the tab content area are the same color as the content behind it.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Tab content area structure"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/tabs/tabs-content-area.svg"/>
+<embed src="{{site.url}}/assets/images/components/content-areas/tabs/tabs-style.png" width="545px"/>
+
 {% endfigure %}
 
 {% endcolumn %}
@@ -105,7 +143,48 @@ Pad the top and bottom of the content area by 24px. Pad the sides of the content
 
 <section class="static-section" markdown="1">
 
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+### Spacing
+
+Pad the top and bottom of the tab content area by 24px. Pad the sides of the tab content area by 20px.
+
+Pad the top of the tab name by 12px. Pad the bottom of the tab name by 8px. Pad the sides of the tab name by 12px.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"Tab content area structure"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/content-areas/tabs/tabs-spacing.png" width="539px"/>
+
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
 ## States
+
+Tabs can exist in hover, pressed, or zero states.
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
 
@@ -113,14 +192,15 @@ Pad the top and bottom of the content area by 24px. Pad the sides of the content
 
 ### Hover state
 
-Hovering over another tab changes the color of the text. Hovering off the tab changes it back to the default color.
+When the user moves the cursor over any part of an unselected tab, change the tab to the hover state. When the user moves the cursor off the tab, the text should change back to the default color.
+
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Tab hover state"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/tabs/tabs-hover-state.svg"/>
+<embed src="{{site.url}}/assets/images/components/content-areas/tabs/tabs-state-hover.png" width="559px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -137,14 +217,17 @@ Hovering over another tab changes the color of the text. Hovering off the tab ch
 
 ### Pressed state
 
-Clicking the text on the tab changes the color by a few shades to visually confirm an action.
+To visually confirm to a user that a tab is selected, change the color of the tab text by a few shades.
+
+To visually reinforce tab selection, change the color of the tab text to the pressed state for the duration of the click. Change the tab text to the selected state after the user clicks the tab.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Tab pressed state"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/tabs/tabs-pressed-state.svg"/>
+<embed src="{{site.url}}/assets/images/components/content-areas/tabs/tabs-state-pressed.png" width="552px"/>
+
 {% endfigure %}
 
 {% endcolumn %}
@@ -161,14 +244,17 @@ Clicking the text on the tab changes the color by a few shades to visually confi
 
 ### Zero state
 
-Zero state messaging is centered both horizontally and vertically. Use a minimum height of 220px for the container.
+Center the zero state messaging horizontally and vertically.
+
+Use a minimum height of 220px for the container.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Tab zero state"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/tabs/tabs-zero-state.svg"/>
+<embed src="{{site.url}}/assets/images/components/content-areas/tabs/tabs-state-zero.png" width="537px"/>
+
 {% endfigure %}
 
 {% endcolumn %}
