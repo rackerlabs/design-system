@@ -1,7 +1,6 @@
 ---
 title: Actions Menu
 parent: Inputs and Controls
-secondary: Editing
 layout: component
 category: Components
 usage: >
@@ -9,7 +8,7 @@ usage: >
 preview-image: preview-images/actions-menu.svg
 status: stable
 resource: true
-last-modified: 2017-11-03
+last-modified: 2018-05-09
 helix-ui-css: true
 helix-ui-javascript: true
 ---
@@ -18,27 +17,15 @@ helix-ui-javascript: true
 
 <section class="static-section" markdown="1">
 
-## Introduction
-
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-### When to use
+## When to use
 
-- Use actions menus to consolidate multiple related actions into a single menu.
+Use actions menus to consolidate multiple related actions into a single menu.
 
-### When not to use
-
-- If a table object has only a limited number of associated actions (such as create and delete), use table controls at the top of the table. For more information, see the [tables]({{site.baseurl}}/components/tables.html) documentation.
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-{% figure [caption:"Example actions menus from various triggers"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/actions-menu/actions-menu-hero.png" width="469"/>
-{% endfigure %}
+Do not use actions menus when a table object has only a limited number of associated actions, such as create and delete. When a table object has small number of actions, use table controls at the top of the table. For more information, see [tables]({{site.baseurl}}/components/tables.html).
 
 {% endcolumn %}
 
@@ -52,7 +39,7 @@ helix-ui-javascript: true
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-### Best practices
+## Best practices
 
 Items in the actions menu must always initiate an action and must never be used for simple navigation. Actions can include the following types:
 
@@ -78,9 +65,11 @@ When using section headers within an actions menu, consider the following practi
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-### Specifications
+## Specifications
+
+Use the following specifications when you construct actions menus.
 
 Section headers in the menu are optional. They are used if clarity is needed, or if there are more than seven actions in the list.
 
@@ -94,9 +83,25 @@ If an action label is too long, truncate the text, and show the full name on hov
 
 {% endcolumn %}
 
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+### Composition
+
+Composition text here...
+
+{% endcolumn %}
+
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Menu specifications"] [class:"image bg-light border"] %}
+{% figure [caption:"Actions menu composition"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/inputs-and-controls/actions-menu/actions-menu-menu-specifications.png" width="558"/>
 {% endfigure %}
 
@@ -112,7 +117,55 @@ If an action label is too long, truncate the text, and show the full name on hov
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Cog button states
+### Style
+
+Style text here...
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"Actions menu style"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/actions-menu/actions-menu-menu-specifications.png" width="558"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+### Spacing
+
+Spacing text here...
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"Actions menu spacing"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/actions-menu/actions-menu-menu-specifications.png" width="558"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+## Cog button states
 
 When a cog is used on its own, it appears in `gray900` as a default state. Shown are the others states to consider in your designs.
 
