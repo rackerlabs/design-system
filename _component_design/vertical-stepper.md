@@ -4,11 +4,13 @@ parent: Content Areas
 layout: component
 category: Components
 usage: >
-  Vertical steppers progressively disclose form inputs through a set of sequentially numbered steps. The design of the vertical stepper pattern lend it for use during complex or difficult workflows.
+  A vertical stepper progressively discloses form inputs to a user through a set of numbered steps.
 preview-image: preview-images/vertical-stepper.svg
 resource: true
 status: in-progress
-last-modified: 2018-05-04
+last-modified: 2018-05-09
+helix-ui-css: true
+helix-ui-javascript: true
 ---
 
 {% include toc.html %}
@@ -21,9 +23,10 @@ last-modified: 2018-05-04
 
 ## When to use
 
-User a vertical stepper for complex workflows that require multiple inputs from a user to complete. The complex workflow is segmented or chunked into thematic steps and then progressively revealed to the user using the stepper pattern.
+Use a vertical stepper to help a user complete complex workflows that require multiple inputs. Divide the workflow into thematic steps and then use the stepper pattern to progressively reveal workflow steps to the user.
 
-Vertical steppers fulfill the same need as a horizontal stepper; however, their vertical orientation yields itself to work within all screen sizes.
+A vertical stepper fulfills the same need as a horizontal stepper. Unlike a horizontal stepper, a vertical stepper can work with all screen sizes.
+
 
 {% endcolumn %}
 
@@ -41,8 +44,8 @@ Vertical steppers fulfill the same need as a horizontal stepper; however, their 
 
 Consider the following best practices when you construct a vertical stepper.
 
-- Ensure a stepper has at minimum 3 steps and at maximum 5 steps.
-- Name each step thematically based on the inputs contained within a step. For example, a step dealing with inputs **Username**, **First name**, **Address**, etc. could be labeled **Account Info** or **User Details**. This ensures users are primed for the type of information that will be presented in a step when first skimming a stepper form.
+- Ensure a stepper has a minimum of three of three steps and a maximum of five steps.
+- Name each step thematically based on the inputs contained within a step. For example, a step  with inputs such as **Username**, **First name**, and **Address** can be labeled **User Details**. Thematically labeling steps primes users for the type of information required to complete the step.
 
 {% endcolumn %}
 
@@ -74,7 +77,7 @@ Refer to the following specifications when you construct a vertical stepper.
 
 ### Composition
 
-The vertical stepper component is comprised of the following elements:
+A vertical stepper is comprised of the following elements:
 
 - Steps
 - Step content area (this can be comprised of any components from the inputs and controls section)
@@ -104,9 +107,39 @@ The vertical stepper component is comprised of the following elements:
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
+#### Submission controls
+
+As the stepper pattern isolates each sequential step within a multistep process, a variance in the buttons displayed within each step will become apparent to the user. Dependent on which sequential step is displayed, the following buttons may be displayed.
+
+**First step:** Displays a primary button to move to the next step and tertiary button to cancel the form.
+
+**Intermediate step(s):** Displays primary and secondary buttons to move between steps and a tertiary button to cancel the form.
+
+**Final step:** Mimics the intermediate step, however the primary button is now used to complete the form and labeled according; For example, ‘Submit’ or ‘Confirm’.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"Button displays based on currently displayed step."] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/content-areas/vert-stepper/vert-stepper-buttons.png" width="580"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
 ### Style
 
-Words here about stepper style...
+Refer to these specifications when you construct a vertical stepper.
 
 {% endcolumn %}
 
@@ -130,7 +163,7 @@ Words here about stepper style...
 
 #### Stepper counter
 
-The stepper counter displays the sequential number of a step as well as the status of the step.
+The stepper counter displays the sequential number of a step and the status of the step.
 
 {% endcolumn %}
 
@@ -153,6 +186,8 @@ The stepper counter displays the sequential number of a step as well as the stat
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 #### Clickable area
+
+Words here about the clickable area...
 
 {% endcolumn %}
 
@@ -182,8 +217,32 @@ Text here on spacing...
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Spacing specifications for the vertical stepper pattern"] [class:"image bg-light border"] %}
+{% figure [caption:"Vertical stepper spacing"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/content-areas/vert-stepper/vert-stepper-spacing.png" width="903"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+### Behavior
+
+Need to get with Drew about this text...
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"xxx"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/content-areas/vert-stepper/vert-stepper-loading.png" width="903"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -275,36 +334,6 @@ For errors within an input and controls component error messages will take on th
 
 {% figure [caption:"Error state applied to an input field within the content area"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/content-areas/vert-stepper/vert-stepper-error-2.png" width="903"/>
-{% endfigure %}
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow" markdown="1">
-
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-## Submission controls
-
-As the stepper pattern isolates each sequential step within a multistep process, a variance in the buttons displayed within each step will become apparent to the user. Dependent on which sequential step is displayed, the following buttons may be displayed.
-
-**First step:** Displays a primary button to move to the next step and tertiary button to cancel the form.
-
-**Intermediate step(s):** Displays primary and secondary buttons to move between steps and a tertiary button to cancel the form.
-
-**Final step:** Mimics the intermediate step, however the primary button is now used to complete the form and labeled according; For example, ‘Submit’ or ‘Confirm’.
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-{% figure [caption:"Button displays based on currently displayed step."] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/vert-stepper/vert-stepper-buttons.png" width="580"/>
 {% endfigure %}
 
 {% endcolumn %}
