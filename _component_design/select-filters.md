@@ -64,12 +64,11 @@ This user interaction illustrates the steps a user takes when using a select fil
 
 {% endcolumn %}
 
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-{% figure [caption:""] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/select-filters/selectfilter_videoflow_02.mov" width="1148px"/>
-{% endfigure %}
-
+{% column right:“hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg” %}
+<video width=“1280" preload=“none” autoplay=“autoplay” loop=“loop”>
+   <source src=“{{site.url}}/assets/images/components/search-and-filters/select-filters/selectfilter_flow.mp4" type=“video/mp4”>
+   <source src=“{{site.url}}/assets/images/components/search-and-filters/select-filters/selectfilter_flow.webm” type=“video/webm”>
+</video>
 {% endcolumn %}
 
 </div>
@@ -112,7 +111,7 @@ A select filter is composed of the following elements:
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Select filter composition"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/select-filters/selectfilter-composition01.png" width="587px"/>
+<embed src="{{site.url}}/assets/images/components/search-and-filters/select-filters/selectfilter-composition01.png" width="587px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -136,7 +135,7 @@ See [pills](helix.rax.io/components/pills.html) for information on contructing p
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Select filter pills"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/select-filters/selectfilter-composition02-image.png" width="618px"/>
+<embed src="{{site.url}}/assets/images/components/search-and-filters/select-filters/selectfilter-composition02-image.png" width="618px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -160,7 +159,7 @@ Apply 16px of padding above and below filter pills.
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Filter pill spacing"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/select-filters/selectfilter-spacing.png" width="635px"/>
+<embed src="{{site.url}}/assets/images/components/search-and-filters/select-filters/selectfilter-spacing.png" width="635px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -187,8 +186,8 @@ Use a multi-category popover when you can categorize filters. Use one column for
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Mult-category select filter"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/select-filters/selectfilter-variation-multicategory.png" width="508px"/>
+{% figure [caption:"Multi-category select filter"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/search-and-filters/select-filters/selectfilter-variation-multicategory.png" width="508px"/>
 {% endfigure %}
 
 {% endcolumn %}
