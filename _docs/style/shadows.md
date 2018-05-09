@@ -6,7 +6,7 @@ usage: >
   The visual design of Helix is quite flat and thus has minimal use of shadow. Shadows are only used to imply elevation so users understand when an object is layered on top of others. Helix shadow system is comprised of layering and focusing shadows. Additional shadow levels will be assessed as needed.
 status: stable
 resource: true
-last-modified: 2018-03-28
+last-modified: 2018-05-09
 ---
 
 {% include toc.html %}
