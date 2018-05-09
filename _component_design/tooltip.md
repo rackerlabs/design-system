@@ -5,8 +5,6 @@ layout: component
 category: Components
 usage: >
   A tooltip is a message that appears when a user places a cursor over an image, icon, hyperlink or other user interface element.
-
-  Use the tooltip when you want to convey brief snippets of information, to explain an element a bit more, or to display truncated text.
 preview-image: preview-images/tooltip.svg
 status: stable
 resource: true
@@ -89,12 +87,10 @@ Use these specifications when you construct tooltips.
 
 ### Composition
 
-Tooltips are composed of two primary elements, the tooltip container and the trigger:
+Tooltips are composed of the following elements:
 
-- The trigger is the element that displays the tooltip component when interacted with from a user. (See the [trigger types]({{page.url}}#trigger-types) section.)
-- The container houses the border, pointer, and content.
-
-The tooltip stands out from the background by using a lighter background color than the interface background, a rule or line around the tooltip box, and a shadow around the tooltip so it appears raised from the items below.
+- **Tooltip container (required)**: The container houses the tooltip border, pointer, and content.
+- **Trigger (required)**: The trigger is the element that displays the tooltip component when interacted with from a user. See [trigger types]({{page.url}}#trigger-types) for more information on tooltip triggers.
 
 {% endcolumn %}
 
@@ -117,6 +113,8 @@ The tooltip stands out from the background by using a lighter background color t
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Style
+
+A tooltip stands out from the background by using a lighter background color than the interface background, a rule or line around the tooltip box, and a shadow around the tooltip so it appears raised from the items below.
 
 Use these specifications when you construct tooltips.
 
@@ -142,11 +140,11 @@ Use these specifications when you construct tooltips.
 
 ### Spacing
 
-Tooltips have varying widths based on the amount of content; however, a tooltip relies on the following consistent spacing specifications:
+Use the following spacing guidelines when you construct a tooltip.
 
-- 8px between vertical elements
-- 12px between unrelated elements
-- 400px for max width
+- Space between vertical elements: **8px**
+- Space between unrelated elements: **12px**
+- The **width** of a tooltip can vary, but **cannot be greater than 400px**
 
 {% endcolumn %}
 
@@ -204,9 +202,9 @@ Best practice pointer placement relies on the following:
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-## Behaviors
+### Behaviors
 
-A tooltip is activated by hovering over or clicking the trigger element.
+A user activates a tooltip by hovering over or clicking the trigger element.
 
 {% endcolumn %}
 
@@ -220,7 +218,7 @@ A tooltip is activated by hovering over or clicking the trigger element.
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Hover interaction
+#### Hover interaction
 
 Hover tooltips are best used on large breakpoints and desktop designs. Tooltips can have both hover and click interactions on the same tooltip across breakpoints.
 
@@ -251,7 +249,7 @@ Hover-enabled tooltips progress ]through the following interaction lifecycle:
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Click interaction
+#### Click interaction
 
 Use click-enabled tooltips for smaller breakpoints and mobile designs. Tooltips can have both hover and click interactions on the same tooltip across breakpoints.
 
