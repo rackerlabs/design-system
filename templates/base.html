@@ -13,7 +13,7 @@
 
     <link rel="icon" type="image/png" href="{{site.url}}/favicon.png">
 
-    {%- include head-styles.html -%}
+    {%- include head-assets.html -%}
 
     <link rel="canonical" href="{{ page.url | replace:'index.html','' }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}/feed.xml">
@@ -45,6 +45,6 @@
         </main>
       </div>
     </div>
-    {%- include footer.html -%}
+    {%- include body-assets.html -%}
   </body>
 </html>
