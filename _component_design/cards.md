@@ -4,11 +4,11 @@ parent: Content Areas
 layout: component
 category: Components
 usage: >
-  Cards are good metaphors for cards in the real world. They are versatile, there can be many, and they allow us to see important information before digging in. As a content area, they can contain any kind of information.
+  A card contains summary information and provides users the option to navigate to more detailed information. In contrast to tables, cards allow the user to visually distinguish between sets of information. A card is a substitute for a single row of tabular data.
 preview-image: preview-images/cards.svg
 status: in-progress
 resource: true
-last-modified: 2018-02-28
+last-modified: 2018-05-07
 helix-ui-css: false
 helix-ui-javascript: false
 ---
@@ -17,57 +17,94 @@ helix-ui-javascript: false
 
 <section class="static-section" markdown="1">
 
-## Introduction
-
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-### When to use
+## When to use
 
-Cards allow the user to distinguish between sets of information more visually than the [Lists](lists) pattern. By providing the user with a familiar metaphor&emdash;i.e., we use cards in the real world,&emdash;it comes with sets of expectations that make them easy to use.
+Use cards when you want a visually distinct arrangement of tabular data, and especially when an informational summary of different data objects is helpful for the user.
 
-Use cards to present minimal high level information that allows the user to dig deeper. Do not use cards in place of hyper-robust data tables; also, be wary of using cards with a large quantity of data entries.
-
-### Best practices
-
-- Cards should be uniform in size.
-- Don’t overcrowd your card. It is not meant to hold a wealth of information, but high level views to dig deeper into.
-- Cards are not always the right solution to displaying information. If the information would be better presented in a list or table, do so, or present both a list or table and a [grid](#grids) options.
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-{% figure [class:"image bg-light border"] %}
- <embed src="{{site.url}}/assets/images/components/content-areas/cards/cards-hero.png" width="600"/>
-{% endfigure %}
 {% endcolumn %}
 
 </div>
 
 </section>
 
-## Overview
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+## Best practices
+
+Use the following best practices when you construct cards:
+
+- Construct cards so they are uniform in size.
+- Do not use cards in place of robust data tables or with a large quantity of data entries.
+- The number of cards that you can use is unlimited. However, ensure that the page use case justifies the data.
+- Do not overuse cards in an application. Too many pages with cards might confuse users because they cannot intuitively determine the page that they are on.
+- Do not include too much information on a card. Include only high-level information on a card, and link to more detailed information.
+- If the information is better presented in a list or table, do not use cards. If the option to view a tabular data as a card grid is useful, you can present both layout options.
+- If you use a card grid as an alternate view to a table view (or a list view), ensure you allow the user to switch to their preferred view.
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+## Specifications
+Use the following specifications when you construct cards.
+
+{% endcolumn %}
+
+</div>
+
+</section>
 
 <section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Default layout
+### Composition
 
 The card pattern is composed of the following three elements:
 
-- **Header (optional):** The header sets the context for a card component and allows action on the card through the application of icons to it.
-- **Body (required):** The body contains the primary content associated with the card. The body section details the underlying object, of which the card is representing to the user.
-- **Footer (optional):** The footer serves to provide users with the calls to action that a user need take upon a card when applicable.
-
+- **Header (optional):** The header establishes the context for a card and contains icons (such as a cog) that allow the user to take action.
+- **Body (required):** The body contains the primary content associated with the card. The body section details the underlying object that is represented by the card.
+- **Footer (optional):** The footer provides calls to action that a user can take.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-{% figure [class:"image bg-light border"] %}
- <embed src="{{site.url}}/assets/images/components/content-areas/cards/card-default.png" width="611"/>
+{% figure [caption:"Card composition"] [class:"image bg-light border"] %}
+ <embed src="{{site.url}}/assets/images/components/content-areas/cards/cards-composition.png" width="471px"/>
+{% endfigure %}
+{% endcolumn %}
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+### Style
+Use these specifications when you construct cards.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+{% figure [caption:"Card style"] [class:"image bg-light border"] %}
+ <embed src="{{site.url}}/assets/images/components/content-areas/cards/cards-style.png" width="528px"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -83,14 +120,39 @@ The card pattern is composed of the following three elements:
 
 Each section of a card uses medium container spacing, 20px, by default.
 
-Small and large spacing values can be used for card variations but should not be mixed and matched within a layout or card.
-
+Small and large spacing values can be used for card variations, but should not
+be mixed and matched within a single card grid layout or individual card.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-{% figure [class:"image bg-light border"] %}
- <embed src="{{site.url}}/assets/images/components/content-areas/cards/card-spacing.png" width="611"/>
+{% figure [caption:"Card spacing"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/content-areas/cards/cards-spacing.png"
+  width="377px"/>
+{% endfigure %}
+{% endcolumn %}
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+### Layout
+
+Cards are applied to the [Helix grid](https://rackerlabs.github.io/helix-ui/components/grid/) and have a variable width and height based on content, current viewport, and use case.  
+
+- Default cards are styled with an `#ffffff` background and should only go on darker backgrounds.
+- For more information see the [Helix grid](https://rackerlabs.github.io/helix-ui/components/grid/).
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+{% figure [caption:"Card layout"] [class:"image bg-light border"] %}
+ <embed src="{{site.url}}/assets/images/components/content-areas/cards/cards-layout-1.png" width="580px"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -102,42 +164,13 @@ Small and large spacing values can be used for card variations but should not be
 <div class="hxRow"  markdown="1">
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Spacing
-
-Each section of a card uses medium container spacing, 20px, by default.
-
-Small and large spacing values can be used for card variations but should not be mixed and matched within a layout or card.
+For aesthetic purposes and in instances where only a few cards are present, you can offset the location of the first card in a row. For more information see the [Helix grid](https://rackerlabs.github.io/helix-ui/components/grid/).
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-{% figure [class:"image bg-light border"] %}
- <embed src="{{site.url}}/assets/images/components/content-areas/cards/card-spacing.png" width="611"/>
-{% endfigure %}
-{% endcolumn %}
-</div>
-
-</section>
-
-## Layout
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow"  markdown="1">
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-### Grid
-
-Cards are applied to the [Helix grid](layouts/grid) and have a variable width and height based on content, current view-port, and use case.
-
-- Default cards are styled with a `#FFFFFF` background and should only go on darker backgrounds.
-- For more technical information, see [the HelixUI grid](https://rackerlabs.github.io/helix-ui/components/grid/).
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-{% figure [class:"image bg-light border"] %}
- <embed src="{{site.url}}/assets/images/components/content-areas/cards/card-grid.png" width="611"/>
+{% figure [caption:"Card offset layout"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/content-areas/cards/cards-layout-2.png" width="580px"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -147,94 +180,17 @@ Cards are applied to the [Helix grid](layouts/grid) and have a variable width an
 <section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-### Offset
-
-- In instances where only few cards are present, a designer may choose to offset the location of the first card in a row for aesthetic purposes. For more technical information, see [the HelixUI grid](https://rackerlabs.github.io/helix-ui/components/grid/).
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-{% figure [class:"image bg-light border"] %}
- <embed src="{{site.url}}/assets/images/components/content-areas/cards/card-grid-offset.png" width="624"/>
-{% endfigure %}
-{% endcolumn %}
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow"  markdown="1">
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-### Card use
-
-There is no limit to the number of cards that can be used; however, ensure the page use case justifies the data. For example, dashboards are meant to provide users with quick insights and clear paths forward to more robust data. Overusing cards as data objects may have the opposite effect and leave users with too much to parse.
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-{% figure [class:"image bg-light border"] %}
- <embed src="{{site.url}}/assets/images/components/content-areas/cards/card-use.png" width="611"/>
-{% endfigure %}
-{% endcolumn %}
-</div>
-
-</section>
-
-## Variations
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow"  markdown="1">
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-### Segemented card
-
-Cards that use all three of the underlying elements are referred to as a segmented card.
-
-- **The header** may contain icons for card properties, card selection, duplication, deletion, etc.
-
-- **The body** contains the meat of the card content. It contains some combination of text, images, icons, graphics or visualizations that detail the underlying object it represents.
-
-- **The footer** houses calls for a user to act on a card through the use of buttons or links.
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-{% figure [class:"image bg-light border"] %}
- <embed src="{{site.url}}/assets/images/components/content-areas/cards/card-segmented.png" width="611"/>
-{% endfigure %}
-{% endcolumn %}
-</div>
-
-</section>
-
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow"  markdown="1">
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-### Open card
-
-Cards that opt to remove the header and footer elements and rely solely on the body element are referred to as open cards.
-
-Open cards have fewer containing shapes than segmented cards and are therefore better for representing more focused or less complex objects.
-
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-{% figure [class:"image bg-light border"] %}
- <embed src="{{site.url}}/assets/images/components/content-areas/cards/card-open.png" width="469"/>
-{% endfigure %}
-{% endcolumn %}
-</div>
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 ## States
+
+Cards can exist in a loading and empty state.
+
+{% endcolumn %}
+
+</div>
+
+</section>
 
 <section class="static-section" markdown="1">
 
@@ -243,34 +199,37 @@ Open cards have fewer containing shapes than segmented cards and are therefore b
 
 ### Loading
 
-If an individual card or set of cards is loading, use the [spinner loading indicator](loading-indicators) centered vertically and horizontally within the card body element.
-
+If an individual card or set of cards is loading, use the [spinner loading indicator](http://helix.rax.io/components/loading-indicators.html) centered vertically and horizontally within the card body element.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-{% figure [class:"image bg-light border"] %}
- <embed src="{{site.url}}/assets/images/components/content-areas/cards/card-loading.png" width="469"/>
+{% figure [caption:"Card loading state"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/content-areas/cards/cards-states-loading.png" width="463px"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
+
+</section>
 
 <section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
-
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Empty card
+### Empty
 
-When the card grid is user-customizable, the user interacts with the empty card to add a new card.
+The empty card provides a space for a user to add a new card.
 
+The empty card button is based on the [chip](http://helix.rax.io/components/chips.html) component and is created by removing the fill of a chip, adding a dotted stroke to the containing shape, and overlaying a Helix plus icon (+).
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-{% figure [class:"image bg-light border"] %}
- <embed src="{{site.url}}/assets/images/components/content-areas/cards/card-add.png" width="469"/>
+{% figure [caption:"Card empty state"] [class:"image bg-light border"] %}
+ <embed src="{{site.url}}/assets/images/components/content-areas/cards/cards-states-empty.png" width="506px"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
+
+</section>
