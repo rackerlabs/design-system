@@ -64,11 +64,12 @@ This user interaction illustrates the steps a user takes when using a select fil
 
 {% endcolumn %}
 
-{% column right:“hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg” %}
-<video width=“1280" preload=“none” autoplay=“autoplay” loop=“loop”>
-   <source src=“{{site.url}}/assets/images/components/search-and-filters/select-filters/selectfilter_flow.mp4" type=“video/mp4”>
-   <source src=“{{site.url}}/assets/images/components/search-and-filters/select-filters/selectfilter_flow.webm” type=“video/webm”>
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+<video width="1280" preload="none" autoplay="autoplay" loop="loop">
+   <source src="{{site.url}}/assets/images/components/search-and-filters/select-filters/selectfilter_flow.mp4" type="video/mp4">
+   <source src="{{site.url}}/assets/images/components/search-and-filters/select-filters/selectfilter_flow.webm" type="video/webm">
 </video>
+
 {% endcolumn %}
 
 </div>
