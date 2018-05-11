@@ -8,7 +8,7 @@ usage: >
 resource: true
 status: stable
 preview-image: preview-images/modal.svg
-last-modified: 2018-05-03
+last-modified: 2018-05-11
 helix-ui-css: false
 helix-ui-javascript: false
 ---
@@ -81,7 +81,7 @@ A modal contains the following:
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Modal composition"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/modal/modal-composition.png" width="500px"/>
+<embed src="{{site.url}}/assets/images/components/content-areas/modal/modal-composition.png" width="557px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -105,7 +105,7 @@ Use the following specifications when you construct a modal.
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Modal style"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/modal/modal-specifications.svg" width="500px"/>
+<embed src="{{site.url}}/assets/images/components/content-areas/modal/modals-style.png" width="585px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -133,7 +133,7 @@ Use the following spacing guidelines when you construct a modal.
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Modal spacing and layout"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/modal/modal-spacing.svg" width="500px"/>
+<embed src="{{site.url}}/assets/images/components/content-areas/modal/modals-spacing.png" width="633px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -148,7 +148,7 @@ Use the following spacing guidelines when you construct a modal.
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-## Confirmation modals
+## Confirmation modal
 
 A confirmation modal interrupts a user and requires a decision before the user can continue working. The modal is triggered when the user initiates a process or submits information that can have a significant or destructive impact.
 
@@ -169,7 +169,7 @@ A confirmation modal interrupts a user and requires a decision before the user c
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Confirmation modal"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/modal/modal-use-case-confirmations.svg" width="500px"/>
+<embed src="{{site.url}}/assets/images/components/content-areas/modal/modals-confirmation-modals.png" width="633px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -184,7 +184,7 @@ A confirmation modal interrupts a user and requires a decision before the user c
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-## Acknowledgment modals
+## Acknowledgment modal
 
 xxxxx.
 
@@ -192,7 +192,7 @@ xxxxx.
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Confirmation modal"] [class:"image bg-light border"] %}
+{% figure [caption:"Acknowledgment modal"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/content-areas/modal/modal-use-case-confirmations.svg" width="500px"/>
 {% endfigure %}
 
@@ -232,7 +232,7 @@ xxxxx
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Modal composition"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/modal/modal-composition.png" width="500px"/>
+<embed src="{{site.url}}/assets/images/components/content-areas/modal/modals-educational-modal-composition.png" width="662px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -255,7 +255,7 @@ xxxxx
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Confirmation modal"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/modal/modal-use-case-confirmations.svg" width="500px"/>
+<embed src="{{site.url}}/assets/images/components/content-areas/modal/modals-educational-modal-style.png" width="667px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -278,7 +278,30 @@ xxxxx
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Confirmation modal"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/modal/modal-use-case-confirmations.svg" width="500px"/>
+<embed src="{{site.url}}/assets/images/components/content-areas/modal/modals-educational-modal-spacing.png" width="638x"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+### Educational modal grid
+xxxxx
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"Confirmation modal"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/content-areas/modal/modals-educational-modal-grid.png" width="638x"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -304,7 +327,7 @@ Refer to the [Loading pattern]({{site.url}}/components/loading-indicators.html) 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Loading indicator for the modal"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/modal/modal-loading.svg" width="500px"/>
+<embed src="{{site.url}}/assets/images/components/content-areas/modal/modal-loading.png" width="633px"/>
 {% endfigure %}
 
 {% endcolumn %}
