@@ -81,7 +81,7 @@ A modal contains the following:
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Modal composition"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/modal/modal-composition.png" width="557px"/>
+<embed src="{{site.url}}/assets/images/components/content-areas/modal/modals-composition.png" width="557px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -231,7 +231,7 @@ xxxxx
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Modal composition"] [class:"image bg-light border"] %}
+{% figure [caption:"Educational modal composition"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/content-areas/modal/modals-educational-modal-composition.png" width="662px"/>
 {% endfigure %}
 
@@ -254,7 +254,7 @@ xxxxx
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Confirmation modal"] [class:"image bg-light border"] %}
+{% figure [caption:"Educational modal style"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/content-areas/modal/modals-educational-modal-style.png" width="667px"/>
 {% endfigure %}
 
@@ -277,7 +277,7 @@ xxxxx
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Confirmation modal"] [class:"image bg-light border"] %}
+{% figure [caption:"Educational modal spacing"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/content-areas/modal/modals-educational-modal-spacing.png" width="638x"/>
 {% endfigure %}
 
@@ -300,7 +300,7 @@ xxxxx
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Confirmation modal"] [class:"image bg-light border"] %}
+{% figure [caption:"Educational modal grid"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/content-areas/modal/modals-educational-modal-grid.png" width="638x"/>
 {% endfigure %}
 
@@ -326,8 +326,8 @@ Refer to the [Loading pattern]({{site.url}}/components/loading-indicators.html) 
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Loading indicator for the modal"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/modal/modal-loading.png" width="633px"/>
+{% figure [caption:"Modal loading state"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/content-areas/modal/modals-loading.png" width="633px"/>
 {% endfigure %}
 
 {% endcolumn %}
