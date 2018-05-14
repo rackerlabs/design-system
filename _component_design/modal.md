@@ -215,7 +215,7 @@ Construct an acknowledgment modal so that modal is removed when the user clicks 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Acknowledgment modal"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/modal/modal-use-case-confirmations.svg" width="500px"/>
+<embed src="{{site.url}}/assets/images/components/content-areas/modal/modals-acknowledgement-modal.png" width="633px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -230,11 +230,12 @@ Construct an acknowledgment modal so that modal is removed when the user clicks 
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-## Educational modals
+## Educational modal
 
-Use educational modals to introduce a new feature or guide users through a learning process. Educational modals require on a more approachable, less data-dense layout, and include significantly increased spacing of elements.
+Use an educational modal to introduce a new feature or guide users through a learning process. Educational modals require on a more approachable, less data-dense layout, and include significantly increased spacing of elements.
 
 **Best Practice**
+
 When you have multiple ideas to present, use a carousel to let the user step through the details, rather than including multiple bullet points in the modal. Keep ideas clear and focused. When you just have one idea to present, include a button at the bottom that removes the modal.
 
 Use the following specifications when you construct educational modals.
