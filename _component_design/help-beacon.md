@@ -1,7 +1,6 @@
 ---
 title: Help Beacon
-parent: Help
-secondary: Notifications
+parent: Notifications
 layout: component
 category: Components
 usage: >
@@ -9,7 +8,7 @@ usage: >
 preview-image: preview-images/help-beacon.svg
 status: stable
 resource: true
-last-modified: 2017-11-04
+last-modified: 2018-05-15
 helix-ui-css: false
 helix-ui-javascript: false
 ---
@@ -18,13 +17,11 @@ helix-ui-javascript: false
 
 <section class="static-section" markdown="1">
 
-## Introduction
-
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-### When to use
+## When to use
 
 Use a beacon in the following scenarios:
 
@@ -38,17 +35,17 @@ There are some cases where beacons should not be used:
 
 {% endcolumn %}
 
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+</div>
 
-{% figure [caption:"Beacons continually follow this lifecycle, giving the impression of a pulse to draw user attention."] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/help/beacon/beacon-hero.svg"/>
-{% endfigure %}
+</section>
 
-{% endcolumn %}
+<section class="static-section" markdown="1">
 
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+<div class="hxRow"  markdown="1">
 
-### Best practice
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+## Best practices
 
 - Place the beacon to the right or left of navigation items to show location and label.
 - Place the beacon next to labels or section headers.
@@ -69,13 +66,101 @@ There are some cases where beacons should not be used:
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Default layout
+## Specifications
 
 This example shows the multiple states for the beacon. The beacon animates on a loop to catch the user's eye. Once the user clicks the beacon, it disappears.
 
 To create a tour experience for more advanced features, string together beacons. In this scenario, beacons appear one at a time. Ensure you prioritize demonstrating the most important or impactful feature first. Provide an opt-out option on each [popover]({{site.baseurl}}/components/popovers.html) at every step in the tour.
 
 Ideally, track the clicks and drop-offs throughout the tour to improve usefulness for the end user.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"For full CSS specifications, view the developer documentation."] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/help/beacon/beacon-specs.svg"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+### Composition
+
+Text here...
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"For full CSS specifications, view the developer documentation."] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/help/beacon/beacon-specs.svg"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+### Style
+
+Text here...
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"For full CSS specifications, view the developer documentation."] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/help/beacon/beacon-specs.svg"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+### Spacing
+
+Text here of why no spacing graphic...
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+### Behavior
+
+Text here...
 
 {% endcolumn %}
 
