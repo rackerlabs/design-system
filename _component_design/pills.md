@@ -1,7 +1,6 @@
 ---
 title: Pills
 parent: Content Areas
-secondary: Editing
 layout: component
 category: Components
 usage: >
@@ -9,7 +8,10 @@ usage: >
 preview-image: preview-images/pills.svg
 resource: true
 status: Stable
-last-modified: 2018-05-03
+last-modified: 2018-05-15
+helix-ui-css: true
+helix-ui-javascript: true
+
 ---
 
 {% include toc.html %}
