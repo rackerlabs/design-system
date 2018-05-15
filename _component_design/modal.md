@@ -4,11 +4,11 @@ parent: Content Areas
 layout: component
 category: Components
 usage: >
-  A modal is an element that disables the main window of an application until the  user interacts with it. After a user interacts with a modal, the user returns to the main window and can continue working.
+  A modal is an element that disables the main window of an application until a user interacts with it. After the user interacts with a modal, the user returns to the main window and can continue working.
 resource: true
 status: stable
 preview-image: preview-images/modal.svg
-last-modified: 2018-05-13
+last-modified: 2018-05-15
 helix-ui-css: false
 helix-ui-javascript: false
 ---
@@ -23,12 +23,12 @@ helix-ui-javascript: false
 
 ## When to use
 
-Use modals when you want to **focus the attention of the user** by obstructing the view of all items not related to the action. Modals are useful when:
+Use modals when you want to **focus the attention of the user** by obstructing the view of all items not related to the action. Modals are useful in the following scenarios:
 
-- The user **action is irreversible**, such as deleting a server or resetting an API key
-- You want the user to **enter required information** before continuing to work in an application
+- The user **action is irreversible**, such as deleting a server or resetting an API key.
+- You want the user to **enter required information** before continuing to work in an application.
 
-Modals come in many forms, including alerts, login forms, and contact forms. Confirmation, acknowledgment, and educational modal are commonly-used modals.
+Modals come in many forms, including alerts, login forms, and contact forms. Confirmation, acknowledgment, and educational modals are commonly-used modals.
 
 {% endcolumn %}
 
@@ -49,8 +49,8 @@ Consider the following best practices when you construct a modal:
 - **Use modals sparingly** and only when the user must confirm an action before continuing, or when the cost of an error is very high.
 - Trigger a modal from a button, link, or other clickable item on the page.
 - Avoid constructing modals to open unexpectedly.
-- For an acknowledgment modal, allow a user to close or cancel a modal by clicking outside of it.
-- The confirmation button **must always** reflect the action being confirmed, and follow the **Verb Noun** labeling convention. For example, if the modal title is **Permanently delete this server?**, label the confirmation button **Delete Server**.
+- For an acknowledgment modal, allow the user to close or cancel a modal by clicking outside of it.
+- The confirmation button **must always** reflect the action being confirmed and follow the **Verb Noun** labeling convention. For example, if the modal title is **Permanently delete this server?**, label the confirmation button **Delete Server**.
 
 {% endcolumn %}
 
@@ -66,7 +66,7 @@ Consider the following best practices when you construct a modal:
 
 ## Specifications
 
-Use the following specifications when you construct modals.
+Use the following specifications when you construct a modal.
 
 {% endcolumn %}
 
@@ -85,7 +85,7 @@ A modal contains the following elements:
 
 - **Container**: The container establishes the size of the modal and holds its contents.
 - **Header**: The header includes the title and the close button.
-- **Title** Write the modal title to help the user understand the purpose of the modal and the actions the user can take.
+- **Title**: Write the modal title to help the user understand the purpose of the modal and the actions the user can take.
 - **Close button**: For some modals, the user can click a **Close** button to cancel the modal.
 - **Body**: The body contains the primary content associated with the modal. Body text describes the result of the action associated with the modal.
 - **Footer**: The footer contains the calls to action buttons.
@@ -141,8 +141,8 @@ Use these specifications when you construct a modal.
 Use the following spacing guidelines when you construct a modal.
 
 - Center-align modals vertically and horizontally
-- Minimum width: **400px**
-- Minimum height: **200px**
+- Use a minimum width of **400px**.
+- Use a minimum height of **200px**.
 
 {% endcolumn %}
 
@@ -170,13 +170,13 @@ A confirmation modal interrupts a user and requires a decision before the user c
 
 A user cannot click out of a confirmation modal; the user must make a choice.
 
-**Confirmation scenarios include actions that result in:**
+**Confirmation scenarios include actions that cause the following results:**
 
 - Deleting or overwriting data
-- Loss of unsaved data
-- Changes that impact billing
+- Losing unsaved data
+- Changing billing
 
-**Confirmation modals include:**
+**Confirmation modals include the following parts:**
 
 - A heading that identifies the destructive process or the action required to proceed
 - A message that clearly describes the impact of proceeding with the action
@@ -204,11 +204,11 @@ A user cannot click out of a confirmation modal; the user must make a choice.
 
 ## Acknowledgment modal
 
-Use an acknowledgment modal when a user must confirm they understand the modal message before continuing. An End User License Agreement (EULA) is a common form of acknowledgment modal.
+Use an acknowledgment modal when a user must confirm that they understand the modal message before continuing. An End User License Agreement (EULA) is a common form of acknowledgment modal.
 
 An acknowledgment modal is similar in construction to the confirmation modal except that it requires the user to provide an input, such as a selecting a checkbox, before the user can click the primary button. Construct the modal so that the primary button is enabled only after the user selects the input checkbox.
 
-Construct an acknowledgment modal so that modal is removed when the user clicks outside of it.
+Construct an acknowledgment modal so the modal is removed when the user clicks outside of it.
 
 {% endcolumn %}
 
@@ -232,13 +232,23 @@ Construct an acknowledgment modal so that modal is removed when the user clicks 
 
 ## Educational modal
 
-Use an educational modal to introduce a new feature or guide users through a learning process. Educational modals require on a more approachable, less data-dense layout, and include significantly increased spacing of elements.
+Use an educational modal to introduce a new feature or guide users through a learning process. Educational modals require a more approachable, less data-dense layout, and include significantly increased spacing of elements.
 
-**Best Practice**
+{% endcolumn %}
 
-When you have multiple ideas to present, use a carousel to let the user step through the details, rather than including multiple bullet points in the modal. Keep ideas clear and focused. When you just have one idea to present, include a button at the bottom that removes the modal.
+</div>
 
-Use the following specifications when you construct educational modals.
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+### Best practices
+
+When you have multiple ideas to present, use a carousel to let the user step through the details, rather than including multiple bullet points in the modal. Keep ideas clear and focused. When you just have only one idea to present, include a button at the bottom that removes the modal.
 
 {% endcolumn %}
 
@@ -254,13 +264,13 @@ Use the following specifications when you construct educational modals.
 
 ### Composition
 
-An education modal is comprised of:
+An education modal is comprised of the following parts:
 
-- **Header (required)**: The header includes the highest level message that you want to communicate to the user.
+- **Header (required)**: The header includes the highest-level message that you want to communicate to the user.
 - **Dot slider (optional)**: If the modal includes multiple steps, include a dot slider.
 - **Illustrative icon (optional)**: An illustrative icon enhances the messaging of the educational modal.
-- **Subheader (optional) and description**: The subheader and description includes detail that provides tactical direction and explanation to the user.
-- **Button set (required)**: If the modal requires action, include a button set at the bottom that describes the action the user can take. If there is no user action, construct a tertiary **Dismiss** or **Got It** button.
+- **Subheader (optional) and description**: The subheader and description include details that provide tactical direction and explanation to the user.
+- **Button set (required)**: If the modal requires action, include a button set at the bottom that describes the action that the user can take. If there is no user action, construct a tertiary **Dismiss** or **Got It** button.
 
 {% endcolumn %}
 
@@ -314,7 +324,7 @@ Do not include screenshots of the user interface (UI) because it is difficult to
 
 The educational modal uses increased white space to facilitate easier reading of non-data content.
 
-The modal container features extra-large, 48px spacing inset on all sides.
+The modal container features extra-large 48px spacing inset on all sides.
 
 Provide 16px of space below a header, and if you include an illustration, provide 32px of space above and below the image.
 
@@ -342,7 +352,7 @@ Provide 16px of space below a header, and if you include an illustration, provid
 
 Increased spacing in an educational modal results in a greater distance between the left and right edges of the modal and its content.
 
-In this example, content is restricted to the four middle columns of a six column layout. This specific layout will not work in all situations. Depending on the
+In this example, content is restricted to the four middle columns of a six-column layout. This specific layout will not work in all situations. Depending on the
 dimensions of your modal and content, you can choose different column settings.
 
 In general, be generous with the space between the left and right edges of the modal and its content.
@@ -371,7 +381,7 @@ In general, be generous with the space between the left and right edges of the m
 
 When depicting data loading in a popover, use a simple loading spinner. Center-align the loading spinner horizontally and vertically within the popover component.
 
-Refer to the [Loading pattern]({{site.url}}/components/loading-indicators.html) for detailed specifications.
+Refer to [Loading pattern]({{site.url}}/components/loading-indicators.html) for detailed specifications.
 
 {% endcolumn %}
 
