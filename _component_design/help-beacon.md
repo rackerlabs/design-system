@@ -4,7 +4,7 @@ parent: Notifications
 layout: component
 category: Components
 usage: >
-  The beacon can be used to identify the location of products or features in the control panel. It can also be used to indicate advanced functionality to existing features
+  A help beacon is an animation that attracts a user's attention to a new feature or advanced functionality in a control panel. A help beacon disappears after a user clicks it.
 preview-image: preview-images/help-beacon.svg
 status: stable
 resource: true
@@ -23,15 +23,15 @@ helix-ui-javascript: false
 
 ## When to use
 
-Use a beacon in the following scenarios:
+Use a help beacon when you want to:
 
-- Showing a user new products or features that improve existing functionality.
-- Showing new users the location of commonly used features to aid them in getting started.
+- Call attention to new products or features that improve existing functionality
+- Help new users get started by showing them the location of commonly-used features
 
-There are some cases where beacons should not be used:
+Do not:
 
-- Do **not** use multiple beacons at one time.
-- Do **not** use the beacon to alert users of warnings or alerts.
+- Use multiple help beacons simultaneously
+- Use a help beacon to notify users of warnings or alerts
 
 {% endcolumn %}
 
@@ -47,10 +47,10 @@ There are some cases where beacons should not be used:
 
 ## Best practices
 
-- Place the beacon to the right or left of navigation items to show location and label.
-- Place the beacon next to labels or section headers.
+- Place the beacon to the right or left of navigation items of interest.
+- Place the beacon next to labels or section headers of interest.
 - Use the beacon in conjunction with the directional [popover]({{site.baseurl}}/components/popovers.html).
-- Do **not** use the beacon in lieu of user experience best practices about affordance.
+- Do **not** use the beacon in lieu of user experience affordance best practices.
 - Do **not** use other forms of notification to deliver the context, such as automatic [tooltips]({{site.baseurl}}/components/tooltip.html) or directional [popovers]({{site.baseurl}}/components/popovers.html).
 - Do **not** obscure the labeled item with the beacon.
 
