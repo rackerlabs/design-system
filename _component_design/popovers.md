@@ -1,7 +1,6 @@
 ---
 title: Popovers
 parent: Content Areas
-secondary: Editing
 layout: component
 category: Components
 usage: >
@@ -9,7 +8,7 @@ usage: >
 preview-image: preview-images/popover.svg
 resource: true
 status: stable
-last-modified: 2018-05-07
+last-modified: 2018-05-15
 helix-ui-css: true
 helix-ui-javascript: true
 ---
