@@ -1,10 +1,10 @@
 ---
-title: Help Beacon
+title: Beacon
 parent: Notifications
 layout: component
 category: Components
 usage: >
-  A help beacon is an animation that attracts a user's attention to a new feature or advanced functionality in a control panel. A help beacon disappears after a user clicks it.
+  A beacon is an animation that attracts a user's attention to a new feature or advanced functionality in a control panel. A help beacon disappears after a user clicks it.
 preview-image: preview-images/help-beacon.svg
 status: stable
 resource: true
@@ -23,15 +23,15 @@ helix-ui-javascript: false
 
 ## When to use
 
-Use a help beacon when you want to:
+Use a beacon when you want to:
 
 - Call attention to new products or features that improve existing functionality
 - Help new users get started by showing them the location of commonly-used features
 
 Do not:
 
-- Use multiple help beacons simultaneously
-- Use a help beacon to notify users of warnings or alerts
+- Use multiple beacons simultaneously
+- Use a beacon to notify users of warnings or alerts
 
 {% endcolumn %}
 
