@@ -45,7 +45,7 @@ A vertical stepper fulfills the same need as a horizontal stepper. Unlike a hori
 Consider the following best practices when you construct a vertical stepper.
 
 - Ensure a stepper has a minimum of three of three steps and a maximum of five steps.
-- Name each step thematically based on the inputs contained within a step. For example, a step  with inputs such as **Username**, **First name**, and **Address** can be labeled **User Details**. Thematically labeling steps primes users for the type of information required to complete the step.
+- Name each step thematically based on the inputs contained within a step. For example, a step  with inputs such as **Username**, **First name**, and **Address** can be labeled **User Details**. Labeling steps thematically primes users for the type of information required to complete the step.
 
 {% endcolumn %}
 
