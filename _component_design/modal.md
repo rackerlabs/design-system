@@ -267,7 +267,7 @@ When you have multiple ideas to present, use a carousel to let the user step thr
 An education modal is comprised of the following parts:
 
 - **Header (required)**: The header includes the highest-level message that you want to communicate to the user.
-- **Dot slider (optional)**: If the modal includes multiple steps, include a dot slider.
+- **Carousel indicator (optional)**: If the modal includes multiple steps, include a carousel indicator.
 - **Illustrative icon (optional)**: An illustrative icon enhances the messaging of the educational modal.
 - **Subheader (optional) and description**: The subheader and description include details that provide tactical direction and explanation to the user.
 - **Button set (required)**: If the modal requires action, include a button set at the bottom that describes the action that the user can take. If there is no user action, construct a tertiary **Dismiss** or **Got It** button.
@@ -277,7 +277,7 @@ An education modal is comprised of the following parts:
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Educational modal composition"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/modal/modals-educational-modal-composition.png" width="662px"/>
+<embed src="{{site.url}}/assets/images/components/content-areas/modal/modals-educational-modal-composition.png" width="655px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -352,8 +352,7 @@ Provide 16px of space below a header, and if you include an illustration, provid
 
 Increased spacing in an educational modal results in a greater distance between the left and right edges of the modal and its content.
 
-In this example, content is restricted to the four middle columns of a six-column layout. This specific layout will not work in all situations. Depending on the
-dimensions of your modal and content, you can choose different column settings.
+In this example, content is restricted to the four middle columns of a six-column layout. This specific layout will not work in all situations. Depending on the dimensions of your modal and content, you can choose different column settings.
 
 In general, be generous with the space between the left and right edges of the modal and its content.
 
