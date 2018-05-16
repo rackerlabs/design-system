@@ -4,11 +4,11 @@ parent: Inputs and Controls
 layout: component
 category: Components
 usage: >
-  An actions menu is used any time a group of actions can be performed on a specific object on the current page. By grouping these actions within an actions menu, it allows users to have a single location to trigger multiple types of actions.
+  An actions menu contains a group of operations that a user can take on an object on the current page. Items appear in an actions menu when a user clicks a button.
 preview-image: preview-images/actions-menu.svg
 status: stable
 resource: true
-last-modified: 2018-05-09
+last-modified: 2018-05-16
 helix-ui-css: true
 helix-ui-javascript: true
 ---
@@ -23,9 +23,13 @@ helix-ui-javascript: true
 
 ## When to use
 
-Use actions menus to consolidate multiple related actions into a single menu.
+Use an actions menus to consolidate multiple related actions into a single menu. Use an action menu in the following situations:
 
-Do not use actions menus when a table object has only a limited number of associated actions, such as create and delete. When a table object has small number of actions, use table controls at the top of the table. For more information, see [tables]({{site.baseurl}}/components/tables.html).
+  - When a user takes action on the current page or in a [modals]({{site.baseurl}}/components/modals.html)
+  - The user creates or edits items on a different page
+  - The user starts a workflow
+
+Do not use an actions menu for objects with a small number of actions. For example, do not use an actions menu for table objects that have only a create and delete action. When a table object has small number of actions, use table controls at the top of the table. For more information, see [tables]({{site.baseurl}}/components/tables.html).
 
 {% endcolumn %}
 
@@ -41,19 +45,17 @@ Do not use actions menus when a table object has only a limited number of associ
 
 ## Best practices
 
-Items in the actions menu must always initiate an action and must never be used for simple navigation. Actions can include the following types:
+Consider the following best practices when you construct an actions menu.
 
-  - Immediate actions on the current page
-  - Actions in [modals]({{site.baseurl}}/components/modals.html)
-  - Creating and editing items on a different page
-  - The start of a related workflow
+- Items in the actions menu must initiate an action. Do not use an actions menu for navigation.
+- If an action name is longer than the length of the button, extend the menu beyond the right side of the button.
+- If an action label is too long, truncate the text and display the entire name when the users hover over the label.
 
-When using section headers within an actions menu, consider the following practices:
+Consider the following best practices when you construct an actions menu that contains many items.
 
-  - Use headers to segment actions into logical groups.
-  - Consider using a single header if more than three actions are present and its inclusion provides additional clarity.
-  - Do **not** use a header when fewer than three actions are present.
-  - Use multiple headers on menus of more than seven items to make the list easier to read.
+- Group related items into headers. Headers provide clarity and help users locate menu items of interest.
+- Use a header when the actions menu includes greater than three actions. Do **not** use a header when the actions menu includes three or fewer actions.
+- Use multiple headers on an actions menu with greater than seven items.
 
 {% endcolumn %}
 
@@ -69,17 +71,7 @@ When using section headers within an actions menu, consider the following practi
 
 ## Specifications
 
-Use the following specifications when you construct actions menus.
-
-Section headers in the menu are optional. They are used if clarity is needed, or if there are more than seven actions in the list.
-
-There are 8px of space between each section.
-
-Minimum menu width is 10 rem.  Maximum menu width is 20 rem.  
-
-If an action name is longer than the length of the button the menu can extend beyond the right side of the button.
-
-If an action label is too long, truncate the text, and show the full name on hover.
+Use the following specifications when you construct an actions menu.
 
 {% endcolumn %}
 
@@ -95,14 +87,19 @@ If an action label is too long, truncate the text, and show the full name on hov
 
 ### Composition
 
-Composition text here...
+An actions menu is comprised of the following elements:
+
+- **Trigger button (required)**: When the user clicks the trigger button, the actions menu opens and displays the menu items.
+- **Section header (optional)**: Use a section header to group related menu items.
+- **Menu item (required)**: A menu item is an action the user can take on an object.
+- **Menu container (required)**: The menu container holds the menu items and if used, the section header.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Actions menu composition"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/actions-menu/actions-menu-menu-specifications.png" width="558"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/actions-menu/actions-menu-composition.png" width="249"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -119,14 +116,14 @@ Composition text here...
 
 ### Style
 
-Style text here...
+Use these specifications when you construct an actions menu.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Actions menu style"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/actions-menu/actions-menu-menu-specifications.png" width="558"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/actions-menu/actions-menu-menu-specifications.png" width="541"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -143,14 +140,16 @@ Style text here...
 
 ### Spacing
 
-Spacing text here...
+There are 8px of space between each section.
+
+Minimum menu width is 10 rem.  Maximum menu width is 20 rem.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Actions menu spacing"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/actions-menu/actions-menu-menu-specifications.png" width="558"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/actions-menu/actions-menu-spacing.png" width="132"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -174,7 +173,7 @@ When a cog is used on its own, it appears in `gray900` as a default state. Shown
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"The advanced actions menu has actions separated into groups with titles."] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/actions-menu/actions-menu-cog-button-states.png" width="558"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/actions-menu/actions-menu-states-cog.png" width="560"/>
 {% endfigure %}
 
 {% endcolumn %}
