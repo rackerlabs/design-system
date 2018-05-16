@@ -1,5 +1,5 @@
 ---
-title: Buttons
+title: Simple buttons
 parent: Inputs and Controls
 layout: component
 category: Components
@@ -17,23 +17,34 @@ helix-ui-javascript: false
 
 <section class="static-section" markdown="1">
 
-## Introduction
-
-Buttons provide the mechanism for users to perform actions within a Helix UI. Each button has a weight (primary, secondary, and tertiary), a size (regular, large, compact), as well as a type (simple, drop-down).
-
 </section>
 
 <section class="static-section" markdown="1">
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-### When to use
+## When to use
+
+Buttons provide the mechanism for users to perform actions within a Helix UI. Each button has a weight (primary, secondary, and tertiary), a size (regular, large, compact), as well as a type (simple, drop-down).
 
 Use a button to launch a process or initiate an action. Do not use buttons for navigation.  When the user needs to get from one page to another, use a text link.
 
-### Best practice
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+
+## Best practices
 
 - Button Text style should always be Title Case where the first letter of each word is capitalized.
 - Buttons should always use the labeling convention of "Noun Verb", with no articles. For example, use "Create Server", not “Create a Server”.
@@ -42,14 +53,6 @@ Use a button to launch a process or initiate an action. Do not use buttons for n
 - There should only be one primary button in a form.
 - The primary button should always represent an inherently apparent next step such as **Create Server**, **Add Selected**, **Confirm Deletion**, **Submit**, or **Next**.
 - If you have multiple buttons on a page, there can only be one primary button.
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-{% figure [caption:"Meet the button pattern"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-hero.svg"/>
-{% endfigure %}
 
 {% endcolumn %}
 
@@ -98,7 +101,7 @@ When using a simple button, specify both weight and size.
 
 ### Spacing and specs
 
-For most desktop use cases, you should use a standard button size.   
+For most desktop use cases, you should use a standard button size.  
 
 Large buttons should be used in mobile designs to accommodate the ideal touch target size. 
 
@@ -150,7 +153,7 @@ Compact buttons should be used when you have severe space constraints, such as i
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Secondary buttons
+## Secondary buttons
 
 - The secondary button can be used alone or in conjuction with a primary button or a tertiary button.
 - Use secondary buttons when there are multiple buttons on the same screen.
@@ -176,7 +179,7 @@ Compact buttons should be used when you have severe space constraints, such as i
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Tertiary buttons
+## Tertiary buttons
 
 - The tertiary button can be used alone or in conjuction with other buttons.
 - Use alone when you want to deemphasize the action or when you have a list of actions.
@@ -204,7 +207,7 @@ Compact buttons should be used when you have severe space constraints, such as i
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Loading states
+## Loading states
 
 - The loading icon animation should rotate time: 0.8 sec/revolution.
 - For further information regarding the loading pattern, see the [loading pattern]({{site.baseurl}}/components/loading-indicators.html).
@@ -233,7 +236,7 @@ Compact buttons should be used when you have severe space constraints, such as i
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Button sets
+## Button sets
 
 - Buttons should be aligned in order of primary, secondary, and tertiary.
 - Button sets are most often used in Popovers, Modals or Create/Edit Forms to group the submit, back or next, and cancel buttons.
