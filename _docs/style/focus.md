@@ -156,7 +156,7 @@ Where a shape has no clear bounding shape and does not otherwise impeded the con
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/style/focus/focus-button@2x.png" width="501"/>
+<embed src="{{site.url}}/assets/images/style/focus/focus-buttons.png" width="501"/>
 {% endfigure %}
 {% endcolumn %}
 
@@ -182,7 +182,7 @@ IN most instances a container has selectable sub-components container within it.
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [class:"image bg-light border"] %}
-<embed src="" width="501"/>
+<embed src="{{site.url}}/assets/images/style/focus/focus-container.png" width="501"/>
 {% endfigure %}
 {% endcolumn %}
 
@@ -223,7 +223,7 @@ Beacon comes with shadows and glow already baken in, so when it it focused, thos
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [class:"image bg-light border"] %}
-<embed src="" width="501"/>
+<embed src="{{site.url}}/assets/images/style/focus/focus-control.png" width="631"/>
 {% endfigure %}
 {% endcolumn %}
 
@@ -246,7 +246,7 @@ IN these instances, the child takes on a dotted, `2px` rounded container with th
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [class:"image bg-light border"] %}
-<embed src="" width="501"/>
+<embed src="{{site.url}}/assets/images/style/focus/focus-child.png" width="631"/>
 {% endfigure %}
 {% endcolumn %}
 
