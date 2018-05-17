@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/help-beacon.svg
 status: stable
 resource: true
-last-modified: 2018-05-15
+last-modified: 2018-05-17
 helix-ui-css: false
 helix-ui-javascript: false
 ---
@@ -53,6 +53,7 @@ Do not:
 - Do **not** use the beacon in lieu of user experience affordance best practices.
 - Do **not** use other forms of notification to deliver the context, such as automatic [tooltips]({{site.baseurl}}/components/tooltip.html) or directional [popovers]({{site.baseurl}}/components/popovers.html).
 - Do **not** obscure the labeled item with the beacon.
+- You can string multiple beacons together to create a tour experience. In this scenario, beacons appear one at a time. Ensure that you prioritize the most important or impactful features first. Provide an opt-out option on each [popover]({{site.baseurl}}/components/popovers.html) at each step in the tour.
 
 {% endcolumn %}
 
@@ -64,23 +65,11 @@ Do not:
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 ## Specifications
 
-This example shows the multiple states for the beacon. The beacon animates on a loop to catch the user's eye. Once the user clicks the beacon, it disappears.
-
-To create a tour experience for more advanced features, string together beacons. In this scenario, beacons appear one at a time. Ensure you prioritize demonstrating the most important or impactful feature first. Provide an opt-out option on each [popover]({{site.baseurl}}/components/popovers.html) at every step in the tour.
-
-Ideally, track the clicks and drop-offs throughout the tour to improve usefulness for the end user.
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-{% figure [caption:"For full CSS specifications, view the developer documentation."] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/help/beacon/beacon-specs.svg"/>
-{% endfigure %}
+Use the following specifications when you construct a beacon.
 
 {% endcolumn %}
 
@@ -96,14 +85,17 @@ Ideally, track the clicks and drop-offs throughout the tour to improve usefulnes
 
 ### Composition
 
-Text here...
+A beacon consists of the following elements:
+
+- **Beacon (required)**: The beacon is the light source that you place next to the user interface element to which you want to attract the user's attention.
+- **Pulse (required)**: The pulse is the animation that attracts the user's attention. The pulse flashes on and off in one-second intervals.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"For full CSS specifications, view the developer documentation."] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/help/beacon/beacon-specs.svg"/>
+{% figure [caption:"Beacon composition"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/notifications/beacon/beacon-composition.png" weight="164"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -120,14 +112,14 @@ Text here...
 
 ### Style
 
-Text here...
+Use these specifications when you construct a beacon.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"For full CSS specifications, view the developer documentation."] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/help/beacon/beacon-specs.svg"/>
+{% figure [caption:"Beacon style"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/notifications/beacon/beacon-style.png" weight="397"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -144,7 +136,7 @@ Text here...
 
 ### Spacing
 
-Text here of why no spacing graphic...
+Because a beacon overlays all user interface elements, there are no specific spacing guidelines.
 
 {% endcolumn %}
 
@@ -160,14 +152,16 @@ Text here of why no spacing graphic...
 
 ### Behavior
 
-Text here...
+A beacon attracts the user's attention with a two-second, looped animation. The beacon pulses for one second, and then remains still for one second. This pattern repeats.
+
+The beacon disappears after the user clicks it.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"For full CSS specifications, view the developer documentation."] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/help/beacon/beacon-specs.svg"/>
+{% figure [caption:"Beacon behavior"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/notifications/beacon/beacon-behavior.png" weight="474"/>
 {% endfigure %}
 
 {% endcolumn %}
