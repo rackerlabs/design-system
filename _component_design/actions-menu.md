@@ -23,9 +23,9 @@ helix-ui-javascript: true
 
 ## When to use
 
-Use an actions menus to consolidate multiple related actions into a single menu. Use an action menu in the following situations:
+An actions menu consolidates multiple related actions into a single menu. Use an actions menu in the following situations:
 
-  - When a user takes action on the current page or in a [modals]({{site.baseurl}}/components/modals.html)
+  - When a user takes action on the current page or in a [modal]({{site.baseurl}}/components/modals.html)
   - The user creates or edits items on a different page
   - The user starts a workflow
 
@@ -54,8 +54,8 @@ Consider the following best practices when you construct an actions menu.
 Consider the following best practices when you construct an actions menu that contains many items.
 
 - Group related items into headers. Headers provide clarity and help users locate menu items of interest.
-- Use a header when the actions menu includes greater than three actions. Do **not** use a header when the actions menu includes three or fewer actions.
-- Use multiple headers on an actions menu with greater than seven items.
+- Use a header when the actions menu includes more than three actions. Do **not** use a header when the actions menu includes three or fewer actions.
+- Use multiple headers on an actions menu with more than seven items.
 
 {% endcolumn %}
 
@@ -89,7 +89,7 @@ Use the following specifications when you construct an actions menu.
 
 An actions menu is comprised of the following elements:
 
-- **Trigger button (required)**: When the user clicks the trigger button, the actions menu opens and displays the menu items.
+- **Trigger button (required)**: When the user clicks the trigger button, the actions menu opens and displays the menu items. See [drop-down buttons]({{site.baseurl}}/components/drop-down buttons.html) for more information on constructing buttons.
 - **Section header (optional)**: Use a section header to group related menu items.
 - **Menu item (required)**: A menu item is an action the user can take on an object.
 - **Menu container (required)**: The menu container holds the menu items and if used, the section header.
@@ -140,9 +140,12 @@ Use these specifications when you construct an actions menu.
 
 ### Spacing
 
-There are 8px of space between each section.
+Use the following spacing guidelines when you construct an actions menu:
 
-Minimum menu width is 10 rem.  Maximum menu width is 20 rem.
+- Provide 12px of padding around the actions menu button and the list of menu items.
+- Provide 8px of space between a section header and a menu item.
+- Separate menu items by 4px of space.
+
 
 {% endcolumn %}
 
@@ -166,13 +169,15 @@ Minimum menu width is 10 rem.  Maximum menu width is 20 rem.
 
 ## Cog button states
 
-When a cog is used on its own, it appears in `gray900` as a default state. Shown are the others states to consider in your designs.
+By default, a cog appears in `gray900`.
+
+Use these guidelines when you construct a cog in **focused**, **hover**, and **disabled** states.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"The advanced actions menu has actions separated into groups with titles."] [class:"image bg-light border"] %}
+{% figure [caption:"Actions menu cog button states"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/inputs-and-controls/actions-menu/actions-menu-states-cog.png" width="560"/>
 {% endfigure %}
 
