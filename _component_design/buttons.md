@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/buttons.svg
 status: stable
 resource: true
-last-modified: 2018-02-12
+last-modified: 2018-05-17
 helix-ui-css: true
 helix-ui-javascript: false
 ---
@@ -66,7 +66,7 @@ Use a button to launch a process or initiate an action. Do not use buttons for n
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-## Simple buttons
+## Specifications
 
 When using a simple button, specify both weight and size.
 
@@ -99,7 +99,7 @@ When using a simple button, specify both weight and size.
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Spacing and specs
+### Style
 
 For most desktop use cases, you should use a standard button size.  
 
@@ -127,7 +127,31 @@ Compact buttons should be used when you have severe space constraints, such as i
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Primary buttons
+### Spacing
+
+Spacing text here...
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"Button spacing specs"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-specs.svg"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+## Primary buttons
 
 - Use the primary button to prompt the user to take action.
 - Use only one primary button per page.
@@ -262,162 +286,6 @@ When submitting forms:
 
 {% figure [caption:"Primary and tertiary button set"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-sets-3.svg"/>
-{% endfigure %}
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-## Variations
-
-<div class="hxRow" markdown="1">
-
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-### Drop-down buttons
-
-A drop-down button is preferred when multiple actions are available, with no designated primary action. All actions are accessed through the drop-down menu.
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-{% figure [caption:"The drop-down button variation"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/drop-buttons-hero.svg"/>
-{% endfigure %}
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow" markdown="1">
-
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-#### Specifications
-
-- Drop-down buttons have the same size specifications as simple buttons.
-- The secondary button can be used in conjunction with the primary button or when there are multiple buttons on the same screen.
-- The same sizing rules apply to both secondary and primary buttons.
-- Drop-down buttons and split drop-down buttons feature the same state changes as simple buttons. Refer to [simple button]({{page.url}}#simple-buttons) for specifications.
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-{% figure [caption:"Drop-down button specifications"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/drop-buttons-specs.svg"/>
-{% endfigure %}
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow" markdown="1">
-
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-### Split drop-down buttons
-
-Split drop-down buttons are preferred when more than one action is associated with a button. The primary action is visible and available on the button itself, while the secondary actions are accessed through the drop-down menu. See the [actions menu]({{site.baseurl}}/components/actions-menu.html) for drop-down design specifications.
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-{% figure [caption:"The split drop-down button variation"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/split-drop-buttons-hero.svg"/>
-{% endfigure %}
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow" markdown="1">
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-#### Specifications
-
-- Split drop-down buttons have the same size specifications as simple buttons.
-- The secondary button can be used in conjunction with the primary button or when there are multiple buttons on the same screen.
-- The same sizing rules apply to both secondary and primary buttons.
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-{% figure [caption:"Split drop-down button specifications"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/split-drop-buttons-specs.svg"/>
-{% endfigure %}
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow" markdown="1">
-
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-### Download or export buttons
-
-- Download links are **always** formatted as: Download [noun] as [format].
-- Use the word **Download** because there is no ambiguity about the destination (the user's platform). The word focuses on the user's benefit because the downloaded object becomes the user's.
-- Download links come in 4 layouts. The preferred layouts are the 1- and 2+- Download options
-- Use a condensed button variation in situations where space is too limited to use one of the preferred options.
-- The icon-only variation should be limited to use in a toolbar.
-
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-{% figure [caption:"Download button layouts"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/download-buttons-overview.png" width="571"/>
-{% endfigure %}
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow" markdown="1">
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-#### Specifications
-
-The specs are the same as those used in simple buttons and dropdown buttons, except a Download icon is placed before the button label.
-
-In most situations, download buttons should be secondary, but when downloading is the primary action on a page, a primary button may be used.
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-{% figure [caption:"Specifications for download links"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/download-buttons-specs.png" width="571"/>
 {% endfigure %}
 
 {% endcolumn %}
