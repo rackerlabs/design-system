@@ -212,7 +212,7 @@ For search filters whcere the user can select certain search criteria, we treat 
 
 #### Tabs
 
-When tabbing through the interface, the user will tab to the active tab, creating a focu around it. They can then arrow between tabs to acti vcate different tabs, but an inactive tab cannot be focused. This is worth emphasizing &mdash; ** inactive items cannot be focused.**
+When tabbing through the interface, the user will tab to the active tab, creating a focu around it. They can then arrow between tabs to acti vcate different tabs, but an inactive tab cannot be focused. This is worth emphasizing &mdash; **inactive items cannot be focused.**
 
 #### Beacon
 
@@ -240,7 +240,7 @@ Beacon comes with shadows and glow already baken in, so when it it focused, thos
 
 There are some instnaces in which a user can focus on a smaller ememnt ("child") within a larger element ("parent") without that larger element losing the ability to be focused. For example, the search input component.
 
-IN these instances, the child takes on a dotted, `2px` rounded container with the base Cyan 700 focus. This container will follow the defined rules for inversion and reversion. The cyan child element focus color is independent of the color of its parent elment.
+In these instances, the child takes on a dotted, `2px` rounded container with the base Cyan 700 focus. This container will follow the defined rules for inversion and reversion. The cyan child element focus color is independent of the color of its parent elment.
 
 {% endcolumn %}
 
