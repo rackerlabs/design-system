@@ -4,11 +4,11 @@ parent: Notifications
 layout: component
 category: Components
 usage: >
-  A beacon is an animation that attracts a user's attention to a new feature or advanced functionality in a control panel. A help beacon disappears after a user clicks it.
+  A beacon is an animation that attracts a user's attention to a new feature or advanced functionality in a control panel. A beacon disappears after a user clicks it.
 preview-image: preview-images/help-beacon.svg
 status: stable
 resource: true
-last-modified: 2018-05-17
+last-modified: 2018-05-18
 helix-ui-css: false
 helix-ui-javascript: false
 ---
@@ -46,6 +46,8 @@ Do not:
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 ## Best practices
+
+Consider the following best practices when you construct a beacon.
 
 - Place the beacon to the right or left of navigation items of interest.
 - Place the beacon next to labels or section headers of interest.
