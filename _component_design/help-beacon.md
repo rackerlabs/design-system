@@ -95,7 +95,7 @@ A beacon consists of the following elements:
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Beacon composition"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/notifications/beacon/beacon-composition.png" widtht="164"/>
+<embed src="{{site.url}}/assets/images/components/notifications/beacon/beacon-composition.png" width="164"/>
 {% endfigure %}
 
 {% endcolumn %}
