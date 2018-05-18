@@ -95,7 +95,7 @@ A beacon consists of the following elements:
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Beacon composition"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/notifications/beacon/beacon-composition.png" weight="164"/>
+<embed src="{{site.url}}/assets/images/components/notifications/beacon/beacon-composition.png" widtht="164"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -119,7 +119,7 @@ Use these specifications when you construct a beacon.
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Beacon style"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/notifications/beacon/beacon-style.png" weight="397"/>
+<embed src="{{site.url}}/assets/images/components/notifications/beacon/beacon-style.png" width="397"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -161,7 +161,7 @@ The beacon disappears after the user clicks it.
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Beacon behavior"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/notifications/beacon/beacon-behavior.png" weight="474"/>
+<embed src="{{site.url}}/assets/images/components/notifications/beacon/beacon-behavior.png" width="474"/>
 {% endfigure %}
 
 {% endcolumn %}
