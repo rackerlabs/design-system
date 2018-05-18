@@ -6,7 +6,7 @@ usage: >
   The visual design of Helix is quite flat and thus has minimal use of shadow. Shadows are only used to imply elevation so users understand when an object is layered on top of others. Helix shadow system is comprised of layering and focusing shadows. Additional shadow levels will be assessed as needed.
 status: stable
 resource: true
-last-modified: 2018-05-09
+last-modified: 2018-03-28
 ---
 
 {% include toc.html %}
@@ -15,19 +15,23 @@ last-modified: 2018-05-09
 
 <section class="static-section" markdown="1">
 
-## Elevation
+## Shadow types
 <div class="hxRow" markdown="1">
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-Shadows work in tandem with elevation. Layering and focusing shadow types live on a different imagined plane of the UI, giving each its own distinct elevation. Elevation is the depth, or distance, between two surfaces. The effect of the elevation on a layer is defined by the intensity and depth of the shadow it casts.
+Helix currently features Focusing Shadows and Layering Shadows.
+
+Focusing Shadows apply to objects that overlay the application and are not in close proximity to the element that triggered their appearance.
+
+Layering Shadows apply to objects that overlay content and remain in close proximity to the element that triggered their appearance.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/style/shadows/shadows-elevation.png" width="638px"/>
+<embed src="{{site.url}}/assets/images/style/shadows/shadows-elevation.png" width="522px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -35,14 +39,17 @@ Shadows work in tandem with elevation. Layering and focusing shadow types live o
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-The type of elevation used is determined by the component's absolute or relative position to the application canvas and components currently called on the view.
+The type of shadow is not determined by the z-index of the element.  Instead, the shadow is determined by the component's relation to the content that triggered it and to the application canvas.
+
+The illustration to the right demonstrates that the Tooltip, which has the highest z-index, does not cast the biggest shadow.  Rather, it casts a Layering shadow because it was triggered by content on the modal.
+
  
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/style/shadows/elevation-graphic.png" width="966px"/>
+<embed src="{{site.url}}/assets/images/style/shadows/elevation-graphic.png" width="705px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -60,11 +67,11 @@ The type of elevation used is determined by the component's absolute or relative
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-Layering shadows are used to show one object on top of another object within context. Use this type of shadow when the element is associated with specific content.
-Layering shadow depths are above their given source or parent object.
+Use layering shadows to show one object on top of another object within context. Use this type of shadow when the element is associated with specific content.
 
 Layering shadow values are used for:
 
+- [Navigation drop-downs]({{site.baseurl}}/components/eyebrow.html)
 - [Popovers]({{site.baseurl}}/components/popovers.html)
 - [Tooltips]({{site.baseurl}}/components/tooltip.html)
 - [Action menus]({{site.baseurl}}/components/actions-menu.html)
@@ -94,13 +101,12 @@ Layering shadow values are used for:
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-Focusing shadow depths are measured from the canvas. This shadow helps indicate hierarchy and is used when an element overlays all other UI elements.
+Focusing shadows are used when an element overlays most of the UI and does not need to be closely associated with the element that triggered its appearance.
 
-Focusing shadow values are used for the following components:
+Focusing shadows are used for the following components:
  
-- [Pilot drop-downs]({{site.baseurl}}/components/eyebrow.html)
 - [Modals]({{site.baseurl}}/components/modal.html)
-- [Toast-notifications]({{site.baseurl}}/components/toast.html)
+- [Toast notifications]({{site.baseurl}}/components/toast.html)
 
 {% endcolumn %}
 
