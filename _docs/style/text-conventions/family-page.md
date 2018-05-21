@@ -1,12 +1,12 @@
 ---
 title: Text conventions
 layout: docs
-category: Principles
+category: Style
 usage: >
-  Visual accessibility standards enable users with varied levels of color impairment to successfully navigate and use a Helix-based UI.
+  xxxx.
 status: stable
 resource: true
-last-modified: 2017-10-24
+last-modified: 2018-05-21
 ---
 
 {% include toc.html %}
@@ -19,7 +19,7 @@ last-modified: 2017-10-24
 
 {% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
 
-## Helper text and descriptions
+## [Helper text]({{site.URL}}/_docs/style/text-conventions/helper-text.html/)
 
 A short intro here...
 

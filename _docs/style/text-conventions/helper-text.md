@@ -1,7 +1,7 @@
 ---
-title: Helper text and descriptions
+title: Helper text
 layout: docs
-category: Style
+category: Text conventions
 usage: |
   Helper text helps the user understand  what a user interface (UI) element is, and how it can be used. Helper text can be displayed on the page persistently, or can be displayed when the user hovers over a UI element.
 resource: true
@@ -80,12 +80,14 @@ Active voice makes the performer of the action (usually the user) the subject of
 
 Active-voice sentences are more engaging, less complicated, less wordy, and easier to understand than passive-voice sentences. With active voice, the actions and responses of the user are easier to distinguish from the actions and responses of the technology.
 
-|  Use (active)                      | Avoid (passive)                   |
-|------------------------------------|-----------------------------------|
-| After you install the software, start the computer | After the software has been installed, the computer can be started.|
-| Click OK to save the configuration.|The configuration is saved when the OK button is clicked.|
-| Create a server.                   |A server is created by you.        |
-| Rackspace products and services solve your business problems.|Your business problems are solved by Rackspace products and services.|
+| Use (active) | Avoid (passive) |
+| --- | --- |
+| After you install the software, start the computer. | After the software has been installed, the computer can be started. |
+| Click **OK** to save the configuration. | The configuration is saved when the **OK** button is clicked. |
+| Create a server. | A server is created by you. |
+| Rackspace products and services solve your business problems. | Your business problems are solved by Rackspace products and services. |
+
+
 
 {% endcolumn %}
 
