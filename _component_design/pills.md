@@ -4,11 +4,11 @@ parent: Content Areas
 layout: component
 category: Components
 usage: >
-  A pill is a small, oval-shaped component that indicates selection. Pills are often associated with tags, however, you can also apply pills to keyword search terms, input text search, or the name of a server selected by the user. You can represent any selectable object with a pill.
+  A pill is a small, dismissible, oval-shaped component that indicates selection. Use pills to provide feedback of selected keyword search terms, input text search, or the name of a server selected by the user. You can represent any selectable object with a pill.
 preview-image: preview-images/pills.svg
 resource: true
 status: Stable
-last-modified: 2018-05-15
+last-modified: 2018-05-21
 helix-ui-css: true
 helix-ui-javascript: true
 
@@ -40,7 +40,7 @@ Use pills when you want to indicate that a user has selected an object.
 
 ## Best practices
 
-When using pills, ensure they are uniform in size, shape, and application.
+Ensure that pills are uniform in size and shape.
 
 {% endcolumn %}
 
