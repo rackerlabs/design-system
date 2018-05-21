@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/actions-menu.svg
 status: stable
 resource: true
-last-modified: 2018-05-16
+last-modified: 2018-05-21
 helix-ui-css: true
 helix-ui-javascript: true
 ---
@@ -26,8 +26,8 @@ helix-ui-javascript: true
 An actions menu consolidates multiple related actions into a single menu. Use an actions menu in the following situations:
 
   - When a user takes action on the current page or in a [modal]({{site.baseurl}}/components/modals.html)
-  - The user creates or edits items on a different page
-  - The user starts a workflow
+  - To launch the user into an editing process on a different page
+  - To initiate a workflow
 
 Do not use an actions menu for objects with a small number of actions. For example, do not use an actions menu for table objects that have only a create and delete action. When a table object has small number of actions, use table controls at the top of the table. For more information, see [tables]({{site.baseurl}}/components/tables.html).
 
@@ -47,14 +47,14 @@ Do not use an actions menu for objects with a small number of actions. For examp
 
 Consider the following best practices when you construct an actions menu.
 
-- Items in the actions menu must initiate an action. Do not use an actions menu for navigation.
+- Items in the actions menu must only initiate processes for changing settings or system objects. Do not use items in the actions menu for navigating to a different location.
 - If an action name is longer than the length of the button, extend the menu beyond the right side of the button.
-- If an action label is too long, truncate the text and display the entire name when the users hover over the label.
+- Avoid lengthy action labels. Keep them to three short words or less.
 
 Consider the following best practices when you construct an actions menu that contains many items.
 
 - Group related items into headers. Headers provide clarity and help users locate menu items of interest.
-- Use a header when the actions menu includes more than three actions. Do **not** use a header when the actions menu includes three or fewer actions.
+- Use a header when the actions menu includes more than three actions.
 - Use multiple headers on an actions menu with more than seven items.
 
 {% endcolumn %}
@@ -123,7 +123,7 @@ Use these specifications when you construct an actions menu.
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Actions menu style"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/actions-menu/actions-menu-menu-specifications.png" width="541"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/actions-menu/actions-menu-style.png" width="361"/>
 {% endfigure %}
 
 {% endcolumn %}
