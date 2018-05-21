@@ -46,12 +46,12 @@ We've identified five broad categories of focus syles that can be broadly applie
 
 ### The glow
 
-The Helix focus glow is standardied across the platform, and is as follows:
+The Helix focus glow is standardized across the langauge, and has the following values:
 
 #### Standard cases
 - **Stroke(where applicable)** &mdash; Color: `#0e94a6 (cyan 700)`
 - **Shape fill (where applicable)** &mdash; Color: `#ffffff (gray 0)`, opacity: 0%
-- **Glow (shadow)** &mdash; Color: `#0e94a6 (cyan 700)`, x: 0, y: 0, blur: 4, spread: 0
+- **Glow (shadow)** &mdash; Color: `#0e94a6 (cyan 700)`, x: 0, y: 0, blur: 4, spread: 0, opacity: 50%
 
 {% endcolumn %}
 
@@ -68,7 +68,7 @@ The Helix focus glow is standardied across the platform, and is as follows:
 #### Adoptive cases
 - **General adoption** &mdash; Where the component uses a non-cyan 700 border or fill, the flow will adopt the fill or border color of the element with same box-shadow values defined under standard cases glow.
 
-- **Error** &mdash; Ensure your implementation matches the specs defined for that pattern, but typically Error-Focus will hav ea `2px` inside border of `#d32f2f (red 900)`.
+- **Error** &mdash; Ensure error values match the specs defined for the pattern to which they are applied. Typically error-focus will have a `2px` inside border of `#d32f2f (red 900)`.
 
 {% endcolumn %}
 
@@ -88,7 +88,7 @@ The Helix focus glow is standardied across the platform, and is as follows:
 #### Augmentive cases
 - **Reversion** &mdash; In Helix, we use some light color values that, if adopted that color for the Focus gloa, would be indiscernible. Therefore, as a general rule, for color values below 500 on any pallette, the flow should revert to our baseline cyan 700 value and adopt the cyan 700 glow, as shown in "reversion".
 
-- **Inversion** &mdash; It is possible to hav ea cyan 700 textual glow on a cyan 700 background or another dark colored background, rendering the state indiscernible. Therefore, for dark backgrounds with anything darker than a 400 value, we invert the focus glow color to `#ffffff (gray 0)` and add a `1px` inside gray 0 outline.
+- **Inversion** &mdash; It is possible to have a cyan 700 textual glow on a cyan 700 background or another dark colored background, rendering the state indiscernible. Therefore, for dark backgrounds with anything darker than a 400 value, we invert the focus glow color to `#ffffff (gray 0)` and add a `1px` inside gray 0 outline.
 
 {% endcolumn %}
 
@@ -113,7 +113,13 @@ The Helix focus glow is standardied across the platform, and is as follows:
 Text links and actions are focused in a standard glow container. The boundaries of the focus container directly map to the line height of the text. In thiscase, as the type size is 15, the focus container is 20px, as per our line-height rules in our [spacing system]({{site.baseurl}}/style/spacing.html).
 
 #### Multi-line text focus
-The focus container has a rounded corner of 2px and top left and bottom left where the container ultimately end. If the focus container goes to a second or third line, we indicate continuation by making a 
+The focus container has a rounded corner of 2px and top left and bottom left where the container ultimately end. If the focus container goes to a second or third line, we indicate continuation by making a 0px rounded border at the end of of the given line as well as the start of the new line.
+
+#### Coverage
+Items covered in link focus: 
+- [Links]({{site.baseurl}}/style/typography.html#link)
+- [Navigation text]({{site.baseurl}}/components/navigation.html)
+- [Breadcrumbs]({{site.baseurl}}/components/breadcrumbs.html)
 
 {% endcolumn %}
 
