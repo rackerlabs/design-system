@@ -117,6 +117,7 @@ The focus container has a rounded corner of 2px and top left and bottom left whe
 
 #### Coverage
 Items covered in link focus: 
+
 - [Links]({{site.baseurl}}/style/typography.html#link)
 - [Navigation text]({{site.baseurl}}/components/navigation.html)
 - [Breadcrumbs]({{site.baseurl}}/components/breadcrumbs.html)
