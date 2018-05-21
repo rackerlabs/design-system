@@ -3,7 +3,7 @@ title: Helper text
 layout: docs
 category: Text conventions
 usage: |
-  Helper text helps the user understand  what a user interface (UI) element is, and how it can be used. Helper text can be displayed on the page persistently, or can be displayed when the user hovers over a UI element.
+  Helper text helps the user understand what a user interface (UI) element is, and how it can be used. Helper text can be displayed on the page persistently, or can be displayed when the user hovers over a UI element.
 resource: true
 status: complete
 ---
@@ -42,7 +42,7 @@ Helper text guidelines are most relevant to the following helix patterns:
 
 ## Writing guidelines
 
-Intro on what's in this section...
+This section includes guidelines for you to consider when you write help text and descriptions in a control panel.
 
 {% endcolumn %}
 
@@ -87,8 +87,6 @@ Active-voice sentences are more engaging, less complicated, less wordy, and easi
 | Create a server. | A server is created by you. |
 | Rackspace products and services solve your business problems. | Your business problems are solved by Rackspace products and services. |
 
-
-
 {% endcolumn %}
 
 </div>
@@ -101,9 +99,15 @@ Active-voice sentences are more engaging, less complicated, less wordy, and easi
 
 {% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
 
-### Don't use humor or jargon
+### Write clearly and objectively
 
-xxxxxxxxx.
+Use the following guidelines to help you write clearly and objectively:
+
+- Choose language that is clear and easy to understand. When possible, use fewer words. Every word should demonstrate value to the user.
+- Help users avoid errors and roadblocks. Make sure content helps users recover quickly if those things happen.
+- Alert users if they can't undo changes.
+- Avoid non sequiturs, obscure references, or non-standard turns of phrase that might confuse or interrupt.
+- Do not use humor, jargon, exclamation marks, idioms, metaphors, and other colloquialisms.
 
 {% endcolumn %}
 
@@ -119,21 +123,14 @@ xxxxxxxxx.
 
 ### Use second person
 
-{% endcolumn %}
+Users are more engaged with content when it talks to them directly. You talk to users directly by using second person, addressing the user as you. Second person also promotes a friendly tone.
 
-</div>
-
-</section>
-
-<section class="static-section"  markdown="1">
-
-<div class="hxRow" markdown="1">
-
-{% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
-
-### Alert users if the can't undo changes
-
-xxxxxxxxx
+| Use | Avoid  |
+| --- | --- |
+| To create a server, specify a name, flavor, and image. | Creating a server involves specifying a name, flavor, and image. |
+| Click **Yes** to accept the license agreement. | The license agreement is accepted when the user clicks **Yes**. |
+| We offer you a comprehensive portfolio of hosting options. | Rackspace offers a comprehensive portfolio of hosting options for the enterprise buyer. |
+| Cloud Backup uses block-level deduplication, which means that only those parts of a file that have changed are saved. | Cloud Backup uses block-level deduplication, which means we save only those parts of a file that have changed. |
 
 {% endcolumn %}
 
@@ -149,7 +146,25 @@ xxxxxxxxx
 
 ## Voice and tone
 
-xxxxxx.
+The primary job of the words in a UI is to help users complete tasks with no
+confusion and minimal interruption. However, the voice and tone that we use
+with words in a UI also influence how people think and feel about Rackspace.
+
+Voice is our style, our point of view, and our personality. Tone is our
+attitude and how we are perceived by those who read (and hear) our words. Voice
+determines how we write. Tone determines our attitude to the subject and
+audience, and how we're perceived by our audience.
+
+The words we choose — and the ways we use them — should reflect our goals:
+building trust, inspiring confidence, making things easier, and developing a
+relationship with Rackspace users.
+
+| Voice attributes | Tone attributes  |
+| --- | --- |
+| xxxx | xxxx |
+| xxxx | xxxx |
+| xxxx | xxxx |
+
 
 {% endcolumn %}
 
@@ -165,7 +180,12 @@ xxxxxx.
 
 ## Capitalization
 
-xxxxxx.
+In general, use sentence-style capitalization when you write helper text and other in-product text and descriptions.
+
+For sentence-style capitalization, most words are lowercase, with the following exceptions.
+
+- Capitalize only the first word of the text element.
+- Capitalize any other words that you would normally capitalize, such as proper nouns.
 
 {% endcolumn %}
 

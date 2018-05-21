@@ -3,7 +3,7 @@ title: Text conventions
 layout: docs
 category: Style
 usage: >
-  xxxx.
+  Use these user interface (UI) text conventions if you are a designer, developer, or contributor of content in Rackspace UIs. These UI text guidelines ensure that a Rackspace UI is usable, consistent, and concise..
 status: stable
 resource: true
 last-modified: 2018-05-21
@@ -19,7 +19,7 @@ last-modified: 2018-05-21
 
 {% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
 
-## [Helper text]({{site.URL}}/_docs/style/text-conventions/helper-text.html/)
+## [Helper text]({{site.URL}}/components/helper-text.html/)
 
 A short intro here...
 
