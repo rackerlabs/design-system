@@ -45,7 +45,7 @@ Do not use an actions menu for objects with a small number of actions. For examp
 
 ## Best practices
 
-Consider the following best practices when you construct an actions menu.
+Consider the following best practices when you construct an actions menu:
 
 - Items in the actions menu must only initiate processes for changing settings or system objects. Do not use items in the actions menu for navigating to a different location.
 - If an action name is longer than the length of the button, extend the menu beyond the right side of the button.
