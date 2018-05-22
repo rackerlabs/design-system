@@ -19,9 +19,11 @@ last-modified: 2018-05-21
 
 {% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
 
-## [Helper text]({{site.URL}}/components/helper-text.html/)
+## [Helper text]({{site.baseurl}}/style/helper-text.html#helper-text)
 
 A short intro here...
+
+[Helper text]({{site.baseurl}}/style/helper-text.html#helper-text)
 
 {% endcolumn %}
 

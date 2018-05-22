@@ -42,7 +42,7 @@ Helper text guidelines are most relevant to the following helix patterns:
 
 ## Writing guidelines
 
-This section includes guidelines for you to consider when you write help text and descriptions in a control panel.
+This section includes guidelines for you to follow when you write help text and descriptions in a control panel.
 
 {% endcolumn %}
 
