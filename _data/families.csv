@@ -3,7 +3,6 @@ position,name,display,parent,urlStub
 2,inputs-controls,Inputs & Controls,Inputs and Controls,inputs-and-controls
 3,nav,Navigation,Navigation,navigation
 4,notify,Notifications,Notifications,notifications
-5,selectors,Selectors,Selectors,selectors
-6,processing,Processing,Processing,processing
-7,search-filters,Search & Filters,Search and Filters,search-and-filters
-8,tables,Tables,Tables,tables
+5,processing,Processing,Processing,processing
+6,search-filters,Search & Filters,Search and Filters,search-and-filters
+7,tables,Tables,Tables,tables
