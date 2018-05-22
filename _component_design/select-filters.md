@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/select-filter.svg
 resource: true
 status: stable
-last-modified: 2018-05-08
+last-modified: 2018-05-22
 helix-ui-css: true
 helix-ui-javascript: true
 ---
@@ -65,10 +65,10 @@ This user interaction illustrates the steps a user takes when using a select fil
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-<video width="1280" preload="none" autoplay="autoplay" loop="loop">
-   <source src="{{site.url}}/assets/images/components/search-and-filters/select-filters/selectfilter_flow.mp4" type="video/mp4">
-   <source src="{{site.url}}/assets/images/components/search-and-filters/select-filters/selectfilter_flow.webm" type="video/webm">
-</video>
+
+{% figure [caption: "Select filter workflow"] [class:"image bg-light border"] %}
+   <img src="{{site.url}}/assets/images/components/search-and-filters/select-filters/selectfilter_flow.gif" width="658px"/>
+{% endfigure %}
 
 {% endcolumn %}
 
@@ -102,10 +102,10 @@ Use the following specifications when you construct a select filter.
 
 A select filter is composed of the following elements:
 
-- **Popover (required)**: A popover provides the container for the select filter. See [popovers](http://helix.rax.io/components/popovers.html) for information on constructing a popover.
-- **Filter button (required)**: When a user clicks the filter button, the select filter popover opens. See [bottons](http://helix.rax.io/components/buttons.html) for information on constructing buttons.
-- **Checkboxes (required)**: Checkboxes represent filter values that can be selected by a user. See [checkboxes](http://helix.rax.io/components/checkboxes.html) for information on constructing checkboxes.
-- **Button set**: Filters are selected using checkboxes and are then applied with a **Apply Filters** button. The **Clear Filters** button removes all selected filters. The **Cancel** button closes the popover without applying any filters. A filter remains until the filter is removed by the user. See [buttons](http://helix.rax.io/components/buttons.html) for information on constructing button sets.
+- **Popover (required)**: A popover provides the container for the select filter. See [popovers]({{site.url}}/components/popovers.html) for information on constructing a popover.
+- **Filter button (required)**: When a user clicks the filter button, the select filter popover opens. See [buttons]({{site.url}}/components/buttons.html) for information on constructing buttons.
+- **Checkboxes (required)**: Checkboxes represent filter values that can be selected by a user. See [checkboxes]({{site.url}}/components/checkboxes.html) for information on constructing checkboxes.
+- **Button set**: Filters are selected using checkboxes and are then applied with a **Apply Filters** button. The **Clear Filters** button removes all selected filters. The **Cancel** button closes the popover without applying any filters. A filter remains until the filter is removed by the user. See [buttons]({{site.url}}/components/buttons.html) for information on constructing button sets.
 
 {% endcolumn %}
 
@@ -129,7 +129,7 @@ A select filter is composed of the following elements:
 
 After a filter has been applied by the user, pills are placed on the base page. A user can remove the filter by clicking the **x** inside of a filter pill.
 
-See [pills](helix.rax.io/components/pills.html) for information on contructing pills.
+See [pills]({{site.url}}/components/pills.html) for information on contructing pills.
 
 {% endcolumn %}
 
