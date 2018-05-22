@@ -4,11 +4,11 @@ parent: Content Areas
 layout: component
 category: Components
 usage: >
-  Chips represent a conceptual unit, such as a user, a device, a filter term, or a chunk of metadata and provide the user with the visual understanding of this conceptual unit as well as the ability to interact with them.
+  Chips represent a unit of information, such as a contact, a device, a filter term, or metadata. Chips provide the user with a visual understanding of the information and the ability to interact with it.
 preview-image: preview-images/chip.svg
 resource: true
 status: stable
-last-modified: 2017-11-16
+last-modified: 2018-05-07
 helix-ui-css: false
 helix-ui-javascript: false
 ---
@@ -17,27 +17,73 @@ helix-ui-javascript: false
 
 <section class="static-section" markdown="1">
 
-## Introduction
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+## When to use
+
+Use chips to graphically represent a unit of information. For example, use chips to represent a user or device.
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+## Best practices
+
+Consider the following best practices when you construct chips:
+
+- Avoid using chips in multiple locations on a page.
+- Label the chip to enable the user to identify the information represented by the chip.
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+## Specifications
+Use the following specifications when you construct chips.
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
 
 <div class="hxRow" markdown="1">
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### When to use
+### Composition
+A chip is composed of a container and an identifying element that is known as the **identifier**. The identifier can consist of the following elements:
 
-Chips are best used with indicating a list of items that may be part of a different workflow. For example, adding or removing a list of requestors on a ticket.
-
-### Best practices
-
-- Avoid using chips in multiple locations on a page.
-- Ensure the user can concretely identify the item represented by the chip.
+- Letters to indicate a name
+- An image to indicate a user
+- A product icon to indicate the type of device
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"The chip component"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/chips/chips-hero.png" width="1440"/>
+{% figure [caption:"Chip composition"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/content-areas/chips/chips-composition.png" width="234px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -52,16 +98,40 @@ Chips are best used with indicating a list of items that may be part of a differ
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Default chip
+### Style
 
-The default chip is a single circle that contains a preview of the item the chip represents. The preview can consist of the the following; letters to indicate the name, an image to indicate a user, or a product icon to indicate the type of device.
+Use these redline specifications when you construct chips.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Default chip specifications"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/chips/chips-default.png" width="580"/>
+{% figure [caption:"Chip style"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/content-areas/chips/chips-style.png" width="411px"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+### Spacing
+
+Use these spacing guidelines when you construct chips.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"Chip spacing"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/content-areas/chips/chips-spacing.png" width="327px"/>
 {% endfigure %}
 
 {% endcolumn %}

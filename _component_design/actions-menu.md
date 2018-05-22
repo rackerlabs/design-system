@@ -1,15 +1,14 @@
 ---
 title: Actions Menu
 parent: Inputs and Controls
-secondary: Editing
 layout: component
 category: Components
 usage: >
-  An actions menu is used any time a group of actions can be performed on a specific object on the current page. By grouping these actions within an actions menu, it allows users to have a single location to trigger multiple types of actions.
+  An actions menu contains a group of operations that a user can take on an object on the current page. Items appear in an actions menu when a user clicks a button.
 preview-image: preview-images/actions-menu.svg
 status: stable
 resource: true
-last-modified: 2017-11-03
+last-modified: 2018-05-21
 helix-ui-css: true
 helix-ui-javascript: true
 ---
@@ -18,27 +17,19 @@ helix-ui-javascript: true
 
 <section class="static-section" markdown="1">
 
-## Introduction
-
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-### When to use
+## When to use
 
-- Use actions menus to consolidate multiple related actions into a single menu.
+An actions menu consolidates multiple related actions into a single menu. Use an actions menu in the following situations:
 
-### When not to use
+  - When a user takes action on the current page or in a [modal]({{site.baseurl}}/components/modals.html)
+  - To launch the user into an editing process on a different page
+  - To initiate a workflow
 
-- If a table object has only a limited number of associated actions (such as create and delete), use table controls at the top of the table. For more information, see the [tables]({{site.baseurl}}/components/tables.html) documentation.
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-{% figure [caption:"Example actions menus from various triggers"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/actions-menu/actions-menu-hero.png" width="469"/>
-{% endfigure %}
+Do not use an actions menu for objects with a small number of actions. For example, do not use an actions menu for table objects that have only a create and delete action. When a table object has small number of actions, use table controls at the top of the table. For more information, see [tables]({{site.baseurl}}/components/tables.html).
 
 {% endcolumn %}
 
@@ -52,21 +43,35 @@ helix-ui-javascript: true
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-### Best practices
+## Best practices
 
-Items in the actions menu must always initiate an action and must never be used for simple navigation. Actions can include the following types:
+Consider the following best practices when you construct an actions menu.
 
-  - Immediate actions on the current page
-  - Actions in [modals]({{site.baseurl}}/components/modals.html)
-  - Creating and editing items on a different page
-  - The start of a related workflow
+- Items in the actions menu must only initiate processes for changing settings or system objects. Do not use items in the actions menu for navigating to a different location.
+- If an action name is longer than the length of the button, extend the menu beyond the right side of the button.
+- Avoid lengthy action labels. Keep them to three short words or less.
 
-When using section headers within an actions menu, consider the following practices:
+Consider the following best practices when you construct an actions menu that contains many items.
 
-  - Use headers to segment actions into logical groups.
-  - Consider using a single header if more than three actions are present and its inclusion provides additional clarity.
-  - Do **not** use a header when fewer than three actions are present.
-  - Use multiple headers on menus of more than seven items to make the list easier to read.
+- Group related items into headers. Headers provide clarity and help users locate menu items of interest.
+- Use a header when the actions menu includes more than three actions.
+- Use multiple headers on an actions menu with more than seven items.
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+## Specifications
+
+Use the following specifications when you construct an actions menu.
 
 {% endcolumn %}
 
@@ -80,24 +85,21 @@ When using section headers within an actions menu, consider the following practi
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Specifications
+### Composition
 
-Section headers in the menu are optional. They are used if clarity is needed, or if there are more than seven actions in the list.
+An actions menu is comprised of the following elements:
 
-There are 8px of space between each section.
-
-Minimum menu width is 10 rem.  Maximum menu width is 20 rem.  
-
-If an action name is longer than the length of the button the menu can extend beyond the right side of the button.
-
-If an action label is too long, truncate the text, and show the full name on hover.
+- **Trigger button (required)**: When the user clicks the trigger button, the actions menu opens and displays the menu items. See [drop-down buttons]({{site.baseurl}}/components/drop-down buttons.html) for more information on constructing buttons.
+- **Section header (optional)**: Use a section header to group related menu items.
+- **Menu item (required)**: A menu item is an action the user can take on an object.
+- **Menu container (required)**: The menu container holds the menu items and if used, the section header.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Menu specifications"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/actions-menu/actions-menu-menu-specifications.png" width="558"/>
+{% figure [caption:"Actions menu composition"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/actions-menu/actions-menu-composition.png" width="249"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -112,16 +114,71 @@ If an action label is too long, truncate the text, and show the full name on hov
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Cog button states
+### Style
 
-When a cog is used on its own, it appears in `gray900` as a default state. Shown are the others states to consider in your designs.
+Use these specifications when you construct an actions menu.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"The advanced actions menu has actions separated into groups with titles."] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/actions-menu/actions-menu-cog-button-states.png" width="558"/>
+{% figure [caption:"Actions menu style"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/actions-menu/actions-menu-style.png" width="361"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+### Spacing
+
+Use the following spacing guidelines when you construct an actions menu:
+
+- Provide 12px of padding around the actions menu button and the list of menu items.
+- Provide 8px of space between a section header and a menu item.
+- Separate menu items by 4px of space.
+
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"Actions menu spacing"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/actions-menu/actions-menu-spacing.png" width="132"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+## Cog button states
+
+By default, a cog appears in `gray900`.
+
+Use these guidelines when you construct a cog in **focused**, **hover**, and **disabled** states.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"Actions menu cog button states"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/actions-menu/actions-menu-states-cog.png" width="560"/>
 {% endfigure %}
 
 {% endcolumn %}
