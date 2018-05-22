@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/tooltip.svg
 status: stable
 resource: true
-last-modified: 2018-05-09
+last-modified: 2018-05-22
 helix-ui-css: true
 helix-ui-javascript: true
 ---
@@ -98,7 +98,7 @@ Tooltips are composed of the following elements:
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Tooltip composition"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/help/tooltips/tooltip-composition.svg" width="500px"/>
+<embed src="{{site.url}}/assets/images/components/content-areas/tooltips/tooltips-composition.png" width="197px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -124,7 +124,7 @@ Use these specifications when you construct tooltips.
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Tooltip style"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/help/tooltips/tooltip-spacing-1.svg" width="500px"/>
+<embed src="{{site.url}}/assets/images/components/content-areas/tooltips/tooltips-style.png" width="542px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -152,7 +152,7 @@ Use the following spacing guidelines when you construct a tooltip.
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Tooltip spacing"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/help/tooltips/tooltip-spacing-1.svg" width="500px"/>
+<embed src="{{site.url}}/assets/images/components/content-areas/tooltips/tooltips-spacing.png" width="218px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -181,8 +181,8 @@ Use the following guidelines when you construct a popover pointer:
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Variations of tooltip based on pointer placement"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/help/tooltips/tooltip-pointer-placement.svg" width="500px"/>
+{% figure [caption:"Tooltip pointer size and placement"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/content-areas/tooltips/tooltips-style-pointer.png" width="545px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -229,7 +229,7 @@ Hover-enabled tooltips progress through the following interaction lifecycle:
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Tooltip hover lifecycle"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/help/tooltips/tooltip-hover.svg" width="500px"/>
+<embed src="{{site.url}}/assets/images/components/content-areas/tooltips/tooltips-behavior-hover.png" width="576px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -260,7 +260,7 @@ Click-enabled tooltips progress through the following interaction lifecycle:
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Tooltip click lifecycle"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/help/tooltips/tooltip-click.svg" width="500px"/>
+<embed src="{{site.url}}/assets/images/components/content-areas/tooltips/tooltips-behavior-click.png" width="562px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -287,8 +287,8 @@ Tooltips appear after a user activates a trigger. You can apply a trigger to an 
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Examples of tooltips generated from various trigger types"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/help/tooltips/tooltip-triggers.svg" width="500px"/>
+{% figure [caption:"Tooltip trigger types"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/content-areas/tooltips/tooltips-examples.png" width="520px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -317,8 +317,8 @@ Add help text to a link when a tooltip provides access to an external webpage. U
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Spacing for tooltip with an associated link"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/help/tooltips/tooltip-text-with-link.svg" width="500px"/>
+{% figure [caption:"Tooltip with a link"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/content-areas/tooltips/tooltips-variations-link.png" width="376px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -342,7 +342,7 @@ You can create a large tooltip to display more information than is typically inc
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Large tooltips"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/help/tooltips/tooltip-large-tooltips.svg" width="500px"/>
+<embed src="{{site.url}}/assets/images/components/content-areas/tooltips/tooltips-variations-large.png" width="396px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -366,7 +366,7 @@ Apply a tooltip loading state exclusively to data visualizations.
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Loading state"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/help/tooltips/tooltip-loading.svg" width="500px"/>
+<embed src="{{site.url}}/assets/images/components/content-areas/tooltips/tooltips-state-loading.png" width="486px"/>
 {% endfigure %}
 
 {% endcolumn %}
