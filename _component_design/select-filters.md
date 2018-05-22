@@ -102,10 +102,10 @@ Use the following specifications when you construct a select filter.
 
 A select filter is composed of the following elements:
 
-- **Popover (required)**: A popover provides the container for the select filter. See [popovers]({{site.url}}/components/popovers.html) for information on constructing a popover.
-- **Filter button (required)**: When a user clicks the filter button, the select filter popover opens. See [buttons]({{site.url}}/components/buttons.html) for information on constructing buttons.
-- **Checkboxes (required)**: Checkboxes represent filter values that can be selected by a user. See [checkboxes]({{site.url}}/components/checkboxes.html) for information on constructing checkboxes.
-- **Button set**: Filters are selected using checkboxes and are then applied with a **Apply Filters** button. The **Clear Filters** button removes all selected filters. The **Cancel** button closes the popover without applying any filters. A filter remains until the filter is removed by the user. See [buttons]({{site.url}}/components/buttons.html) for information on constructing button sets.
+- **Popover (required)**: A popover provides the container for the select filter. See [popovers]({{site.url}}/components/popovers.html) for information about constructing a popover.
+- **Filter button (required)**: When a user clicks the filter button, the select filter popover opens. See [buttons]({{site.url}}/components/buttons.html) for information about constructing buttons.
+- **Checkboxes (required)**: Checkboxes represent filter values that can be selected by a user. See [checkboxes]({{site.url}}/components/checkboxes.html) for information about constructing checkboxes.
+- **Button set**: Filters are selected using checkboxes and are then applied with an **Apply Filters** button. The **Clear Filters** button removes all selected filters. The **Cancel** button closes the popover without applying any filters. A filter remains until the filter is removed by the user. See [buttons]({{site.url}}/components/buttons.html) for information about constructing button sets.
 
 {% endcolumn %}
 
@@ -129,7 +129,7 @@ A select filter is composed of the following elements:
 
 After a filter has been applied by the user, pills are placed on the base page. A user can remove the filter by clicking the **x** inside of a filter pill.
 
-See [pills]({{site.url}}/components/pills.html) for information on contructing pills.
+See [pills]({{site.url}}/components/pills.html) for information about contructing pills.
 
 {% endcolumn %}
 
@@ -177,11 +177,11 @@ Apply 16px of padding above and below filter pills.
 
 ## Multi-category popover
 
-Use a single column popover when a data set has five or fewer filters.
+Use a single-column popover when a data set has five or fewer filters.
 
 Use a multi-column popover when a data set has greater than five filters. Size each column equally. Place checkboxes according to the bounding box of the checkbox itself.
 
-Use a multi-category popover when you can categorize filters. Use one column for each category. In the example, filters are organized into three categories, each category with its own column. The category title is placed at the top of the column with filter checkboxes placed beneath.
+Use a multi-category popover when you can categorize filters. Use one column for each category. In the example, filters are organized into three categories. Each category has its own column. The category title is placed at the top of the column with filter checkboxes placed beneath it.
 
 {% endcolumn %}
 
