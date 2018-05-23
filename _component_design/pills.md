@@ -4,7 +4,7 @@ parent: Content Areas
 layout: component
 category: Components
 usage: >
-  A pill is a small, dismissible, oval-shaped component that indicates selection. Use pills to provide feedback of selected keyword search terms, input text search, or the name of a server selected by the user. You can represent any selectable object with a pill.
+  A pill is a small, dismissible, oval-shaped component that indicates selection. Use pills to provide feedback for selected keyword search terms, an input text search, or the name of a server selected by the user. You can represent any selectable object with a pill.
 preview-image: preview-images/pills.svg
 resource: true
 status: Stable
@@ -22,7 +22,7 @@ helix-ui-javascript: true
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-## When to Use
+## When to use
 
 Use pills when you want to indicate that a user has selected an object.
 
@@ -71,7 +71,7 @@ Use these specifications when you construct pills.
 
 ### Composition
 
-Pills consist of a container, text, and an “x” icon that indicates the user can remove the pill.
+Pills consist of a container, text, and an “x” icon that indicates that the user can remove the pill.
 
 {% endcolumn %}
 
@@ -119,7 +119,7 @@ Use body font text when you construct pills. To address space constraints, you c
 
 ### Spacing
 
-Place 16px of horizontal space and 4px of vertical space between a pill and another component. Use the best top spacing for your particular use case. Left-justify pills.
+Place 16px of horizontal space and 4px of vertical space between a pill and another component. Use the best top spacing for your particular use case. Left-align pills.
 
 If you group pills together, provide 8px of space below and next to a pill. If you group more than 15 pills together, consider an alternative pattern or contact the Helix team.
 
@@ -161,7 +161,7 @@ Pills can exist in active, hover, or too long states.
 
 ### Active
 
-The active state is the default state, and indicates that a user has made a selection.
+The active state is the default state and indicates that a user has made a selection.
 
 {% endcolumn %}
 
@@ -207,9 +207,9 @@ The hover state indicates that the user can remove the selection.
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Too long
-Sometimes selection values can be very long. For these pills, use a truncation pattern where the maximum length including ellipses and quotations (if applicable) is 31 characters – 14 characters on either side, and an ellipses in the middle.
+Selection values are sometimes very long. For these pills, use a truncation pattern where the maximum length, including ellipses and quotations (if applicable), is 31 characters that are made up of 14 characters on either side and an ellipsis in the middle.
 
-Ensure you follow the truncation guidelines in the Ellipses section of the Text Conventions.
+Ensure that you follow the truncation guidelines in the Ellipses section of the text conventions.
 
 {% endcolumn %}
 
