@@ -1,11 +1,13 @@
 ---
 title: Helper text
 layout: docs
-category: Text conventions
+parent: Text
+category: style
 usage: |
   Helper text helps the user understand what a user interface (UI) element is, and how it can be used. Helper text can be displayed on the page persistently, or can be displayed when the user hovers over a UI element.
 resource: true
 status: complete
+last-modified: 2018-05-24
 ---
 
 {% include toc.html %}

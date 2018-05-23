@@ -1,7 +1,8 @@
 ---
 title: Labels
 layout: docs
-category: Text conventions
+parent: Text
+category: style
 usage: |
   xxxxx.
 resource: true
