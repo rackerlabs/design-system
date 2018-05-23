@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/tooltip.svg
 status: stable
 resource: true
-last-modified: 2018-05-22
+last-modified: 2018-05-23
 helix-ui-css: true
 helix-ui-javascript: true
 ---
@@ -90,8 +90,10 @@ Use these specifications when you construct tooltips.
 
 Tooltips are composed of the following elements:
 
-- **Tooltip container (required)**: The container houses the tooltip border, pointer, and content.
-- **Trigger (required)**: The trigger is the element that displays the tooltip component when interacted with from a user. See [trigger types]({{page.url}}#trigger-types) for more information on tooltip triggers.
+- **Container (required)**: The container houses the tooltip border, pointer, and content.
+- **Text/content (required)**: The text contains the tooltip message.
+- **Pointer (required)**: The tooltip pointer extends from the trigger to the tooltip.
+- **Trigger (required)**: The trigger is the element that displays the tooltip component when interacted with from a user. See [Triggers]({{page.url}}#triggers) for more information on tooltip triggers.
 
 {% endcolumn %}
 
@@ -115,9 +117,7 @@ Tooltips are composed of the following elements:
 
 ### Style
 
-A tooltip stands out from the background by using a lighter background color than the interface background, a rule or line around the tooltip box, and a shadow around the tooltip so it appears raised from the items below.
-
-Use these specifications when you construct tooltips.
+A tooltip stands out from the background by using a lighter background color than the interface background, a rule or line around the tooltip box, and a [shadow]({{site.url}}/style/shadows.html) around the tooltip so it appears raised from the items below.
 
 {% endcolumn %}
 
@@ -171,9 +171,9 @@ Use the following spacing guidelines when you construct a tooltip.
 
 Use the following guidelines when you construct a popover pointer:
 
-- The base of the popover pointer is 16px wide.
-- The pointer apex is 8px from the side of the rectangle.
-- The pointer should start 12px from the corner.
+- The base of the popover pointer is **16px** wide.
+- The pointer apex is **8px** from the side of the rectangle.
+- The pointer should start **12px** from the corner.
 - The side on which the pointer is located depends on the location of the trigger on the screen.
 - Always open the popover towards the center of the screen.
 
@@ -219,10 +219,10 @@ Hover tooltips are best used on large breakpoints and desktop designs. Tooltips 
 
 Hover-enabled tooltips progress through the following interaction lifecycle:
 
-- **Hidden:** A tooltip is hidden until the trigger is engaged by the pointer.
-- **Displayed:** After a pointer hovers over the trigger element for 500 milliseconds, the tooltip displays the tooltip content.
-- **Persist:** While a pointer is hovered inside a tooltip, the tooltip persists until the pointer moves off of the trigger or the tooltip.
-- **Removal:** After the pointer moves off of the trigger or the tooltip for 1600 milliseconds, the tooltip closes.
+- **Hidden**: A tooltip is hidden until the user hovers the pointer over the trigger.
+- **Displayed**: After the user hovers the pointer over the trigger element for 500 milliseconds (ms), the tooltip displays the tooltip content.
+- **Persist**: A tooltip persists when the user hovers the pointer inside the tooltip.
+- **Removal**: A tooltip closes after the user moves the pointer off of the trigger or the tooltip for 1600 ms.
 
 {% endcolumn %}
 
@@ -250,10 +250,10 @@ Use click-enabled tooltips for smaller breakpoints and mobile designs. Tooltips 
 
 Click-enabled tooltips progress through the following interaction lifecycle:
 
-- **Hidden:** A tooltip is hidden until the the pointer clicks the trigger.
-- **Displayed:** After a pointer clicks the trigger, a tooltip displays the tooltip content.
-- **Persist:** Clickable tooltips persist until manually removed by a user.
- - **Removal:** After the pointer has clicked the trigger or clicked outside of the tooltip, the tooltip closes.
+- **Hidden:** A tooltip is hidden until the user clicks the trigger.
+- **Displayed:** After the user clicks the trigger, a tooltip displays the tooltip content.
+- **Persist:** A tooltip persists until the user clicks the trigger or clicks outside the tooltip.
+- **Removal:** A tooltip closes after the user clicks the trigger or clicks outside of the tooltip.
 
 {% endcolumn %}
 
@@ -309,7 +309,7 @@ Add help text to a link when a tooltip provides access to an external webpage. U
 
 - The link should always be external and open in a new tab.
 - Ensure you include an external link icon.
-- If you need additional inputs or interactions on a tooltip, for example, a [drop-down]({{site.baseurl}}/components/dropdowns.html) or [selector](({{site.baseurl}}/components/selector-strip.html)), use a large tooltip.
+- If you need additional inputs or interactions on a tooltip, for example, a [drop-down]({{site.baseurl}}/components/dropdowns.html) or [selector]({{site.baseurl}}/components/selector-strip.html), use a large tooltip.
 
 <!--See [Help links]({{site.baseurl}}/components/help-link.html) for link specifications.-->
 
