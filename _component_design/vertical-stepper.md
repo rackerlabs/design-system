@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/vertical-stepper.svg
 resource: true
 status: in-progress
-last-modified: 2018-05-09
+last-modified: 2018-05-23
 helix-ui-css: true
 helix-ui-javascript: true
 ---
@@ -79,13 +79,14 @@ Refer to the following specifications when you construct a vertical stepper.
 
 A vertical stepper is comprised of the following elements:
 
-- Steps
-- Step content area (this can be comprised of any components from the inputs and controls section)
-- Step counter
-- Step dividers
-- Step revealer
-- Step selection
-- Step title
+- **Workflow title (required)**: Use a Heading 1 to label the vertical stepper. Label the vertical stepper so that it reflects the workflow.
+- **Step counter (required)**: The step counter displays the sequential number of a step and the status of the step.
+- **Title (required)**: The title is the name of the step.
+- **Selection (required)**: After the user enters data and moves to the next step, the selection area displays the entered data. The user can refer to the selection area to understand the context in which they are making decisions in the following steps.
+- **Content area (required)**: The user enters data or completes an action in the content area. The content area can be comprised of any [inputs and controls]({{site.url}}/components/inputs-and-controls.html).
+- **Revealer (required)**: The user can click the revealer to expand and contract a step.
+- **Button set (required)**: The user clicks buttons to navigates to the next step, back to a previous step, or to complete the vertical stepper.
+- **Divider line (required)**: The upper and lower divider line separates steps.
 
 {% endcolumn %}
 
@@ -109,13 +110,13 @@ A vertical stepper is comprised of the following elements:
 
 #### Button logic
 
-As the stepper pattern isolates each sequential step within a multistep process, a variance in the buttons displayed within each step will become apparent to the user. Dependent on which sequential step is displayed, the following buttons may be displayed.
+The buttons displayed in the button set vary based on the step the user is completing.
 
-**First step:** Displays a primary button to move to the next step and tertiary button to cancel the form.
+**First step**: The first step displays a primary button that the user clicks to move to the next step and a tertiary button to cancel the form.
 
-**Intermediate step(s):** Displays primary and secondary buttons to move between steps and a tertiary button to cancel the form.
+**Intermediate step(s)**: Each intermediate step displays a primary and secondary button to move between steps and a tertiary button to cancel the form.
 
-**Final step:** Mimics the intermediate step, however the primary button is now used to complete the form and labeled according; For example, ‘Submit’ or ‘Confirm’.
+**Final step**: The final step is similar to the intermediate step, except that the primary button is used to complete the form. For example, **Submit** and **Confirm** are common final step button names.
 
 {% endcolumn %}
 
@@ -123,6 +124,7 @@ As the stepper pattern isolates each sequential step within a multistep process,
 
 {% figure [caption:"Button displays based on currently displayed step."] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/content-areas/vert-stepper/vstepper-composition-buttonlogic.png" width="416"/>
+
 {% endfigure %}
 
 {% endcolumn %}
@@ -147,6 +149,7 @@ Refer to these specifications when you construct a vertical stepper.
 
 {% figure [caption:"Spacing specifications for the vertical stepper pattern"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/content-areas/vert-stepper/vstepper-style-generic.png" width="596"/>
+
 {% endfigure %}
 
 {% endcolumn %}
@@ -161,9 +164,16 @@ Refer to these specifications when you construct a vertical stepper.
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-#### Stepper counter
+#### Step counters
 
-The stepper counter displays the sequential number of a step and the status of the step.
+The step counters display the sequential number of a step and the status of the step.
+
+The step counters exist in the following states:
+
+- Default
+- Pressed
+- Hover
+- Incomplete
 
 {% endcolumn %}
 
@@ -171,6 +181,7 @@ The stepper counter displays the sequential number of a step and the status of t
 
 {% figure [caption:"Stepper counter states and specifications"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/content-areas/vert-stepper/vstepper-style-counter.png" width="546"/>
+
 {% endfigure %}
 
 {% endcolumn %}
@@ -187,7 +198,9 @@ The stepper counter displays the sequential number of a step and the status of t
 
 #### Clickable area
 
-Words here about the clickable area...
+The clickable area includes the row header bound by the upper and lower divider.
+
+When the user clicks in the clickable area of a collapsed step, the step expands. When the user clicks in the clickable area of an expanded step, the step collapses.
 
 {% endcolumn %}
 
@@ -195,6 +208,7 @@ Words here about the clickable area...
 
 {% figure [caption:"Stepper expand / collapse clickable areas"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/content-areas/vert-stepper/vstepper-style-clickablearea.png" width="566"/>
+
 {% endfigure %}
 
 {% endcolumn %}
@@ -211,7 +225,10 @@ Words here about the clickable area...
 
 ### Spacing
 
-Text here on spacing...
+Use the following spacing guidelines when you construct a vertical stepper:
+
+- Place 16px space between the vertical stepper and any other user interface element.
+- 20px of space between
 
 {% endcolumn %}
 
