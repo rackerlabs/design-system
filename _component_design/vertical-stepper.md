@@ -146,7 +146,7 @@ Refer to these specifications when you construct a vertical stepper.
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Spacing specifications for the vertical stepper pattern"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/vert-stepper/vstepper-style-clickablearea.png" width="566"/>
+<embed src="{{site.url}}/assets/images/components/content-areas/vert-stepper/vstepper-style-generic.png" width="596"/>
 {% endfigure %}
 
 {% endcolumn %}
