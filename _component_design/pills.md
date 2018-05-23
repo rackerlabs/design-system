@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/pills.svg
 resource: true
 status: Stable
-last-modified: 2018-05-21
+last-modified: 2018-05-23
 helix-ui-css: true
 helix-ui-javascript: true
 
@@ -78,7 +78,7 @@ Pills consist of a container, text, and an “x” icon that indicates the user 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg"" %}
 
 {% figure [caption:"Pill composition"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/pills/pills-composition.png" width="343px"/>
+<embed src="{{site.url}}/assets/images/components/content-areas/pills/pills-composition.png" width="352px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -97,14 +97,12 @@ Pills consist of a container, text, and an “x” icon that indicates the user 
 
 Use body font text when you construct pills. To address space constraints, you can scale pills up to 24px font size and down to 12px font size.
 
-Use these specifications when you construct pills.
-
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Pill style"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/pills/pills-style.png" width="417px"/>
+<embed src="{{site.url}}/assets/images/components/content-areas/pills/pills-style.png" width="411px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -121,7 +119,7 @@ Use these specifications when you construct pills.
 
 ### Spacing
 
-Place 16px of horizontal space and 4px of vertical space between a pill an another component. Use the best top spacing for your particular use case. Left-justify pills.
+Place 16px of horizontal space and 4px of vertical space between a pill and another component. Use the best top spacing for your particular use case. Left-justify pills.
 
 If you group pills together, provide 8px of space below and next to a pill. If you group more than 15 pills together, consider an alternative pattern or contact the Helix team.
 
@@ -162,6 +160,7 @@ Pills can exist in active, hover, or too long states.
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Active
+
 The active state is the default state, and indicates that a user has made a selection.
 
 {% endcolumn %}
@@ -169,7 +168,7 @@ The active state is the default state, and indicates that a user has made a sele
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Active state"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/pills/pills-states-active.png" width="464px"/>
+<embed src="{{site.url}}/assets/images/components/content-areas/pills/pills-states-active.png" width="448px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -192,7 +191,7 @@ The hover state indicates that the user can remove the selection.
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Hover state"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/pills/pills-states-hover.png" width="463px"/>
+<embed src="{{site.url}}/assets/images/components/content-areas/pills/pills-states-hover.png" width="445px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -217,7 +216,7 @@ Ensure you follow the truncation guidelines in the Ellipses section of the Text 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Too long state"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/pills/pills-states-toolong.png" width="337px"/>
+<embed src="{{site.url}}/assets/images/components/content-areas/pills/pills-too_long.png" width="337px"/>
 {% endfigure %}
 
 {% endcolumn %}
