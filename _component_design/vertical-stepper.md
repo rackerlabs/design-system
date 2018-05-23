@@ -92,7 +92,7 @@ A vertical stepper is comprised of the following elements:
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Vertical stepper composition (NOT TO SCALE)"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/vert-stepper/vert-stepper-composition.png" width="900"/>
+<embed src="{{site.url}}/assets/images/components/content-areas/vert-stepper/vstepper-composition.png" width="577"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -107,7 +107,7 @@ A vertical stepper is comprised of the following elements:
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-#### Submission controls
+#### Button logic
 
 As the stepper pattern isolates each sequential step within a multistep process, a variance in the buttons displayed within each step will become apparent to the user. Dependent on which sequential step is displayed, the following buttons may be displayed.
 
@@ -122,7 +122,7 @@ As the stepper pattern isolates each sequential step within a multistep process,
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Button displays based on currently displayed step."] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/vert-stepper/vert-stepper-buttons.png" width="580"/>
+<embed src="{{site.url}}/assets/images/components/content-areas/vert-stepper/vstepper-composition-buttonlogic.png" width="416"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -146,7 +146,7 @@ Refer to these specifications when you construct a vertical stepper.
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Spacing specifications for the vertical stepper pattern"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/vert-stepper/vert-stepper-specs.png" width="903"/>
+<embed src="{{site.url}}/assets/images/components/content-areas/vert-stepper/vstepper-style-clickablearea.png" width="566"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -170,7 +170,7 @@ The stepper counter displays the sequential number of a step and the status of t
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Stepper counter states and specifications"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/vert-stepper/vert-stepper-counter.png" width="580"/>
+<embed src="{{site.url}}/assets/images/components/content-areas/vert-stepper/vstepper-style-counter.png" width="546"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -194,7 +194,7 @@ Words here about the clickable area...
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Stepper expand / collapse clickable areas"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/vert-stepper/vert-stepper-clickable.png" width="903"/>
+<embed src="{{site.url}}/assets/images/components/content-areas/vert-stepper/vstepper-style-clickablearea.png" width="566"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -218,7 +218,7 @@ Text here on spacing...
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Vertical stepper spacing"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/vert-stepper/vert-stepper-spacing.png" width="903"/>
+<embed src="{{site.url}}/assets/images/components/content-areas/vert-stepper/vstepper-spacing.png" width="490"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -242,7 +242,7 @@ Need to get with Drew about this text...
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"xxx"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/vert-stepper/vert-stepper-loading.png" width="903"/>
+<embed src="{{site.url}}/assets/images/components/content-areas/vert-stepper/vstepper-spacing.png" width="490"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -282,7 +282,7 @@ Here is some text on loading state...
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Stepper loading state"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/vert-stepper/vert-stepper-loading.png" width="903"/>
+<embed src="{{site.url}}/assets/images/components/content-areas/vert-stepper/vstepper-state-loading.png" width="510"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -299,7 +299,7 @@ Here is some text on loading state...
 
 ### Error
 
-Error states for the stepper will generally occur inline within the scope of the input and controls component used within the content area (see below).
+Error states for the stepper will generally occur inline within the scope of the input and controls component used within the content area (see below). For errors within an input and controls component error messages will take on the error message styling defined for that particular component. See [Inputs and controls]({{site.baseurl}}/components/inputs-and-controls.html) for more information.
 
 However it may be possible that a completed step may encounter an error state in certain edge cases. For example, when a user paths back and forth between sections, one section may become invalidated by a modified value in a pervious section. In these cases the error icon and associated message will be applied to the selected value in that row (see right).
 
@@ -308,32 +308,8 @@ However it may be possible that a completed step may encounter an error state in
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Error state applied to a sequential step within a vertical stepper"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/vert-stepper/vert-stepper-error-1.png" width="580"/>
+<embed src="{{site.url}}/assets/images/components/content-areas/vert-stepper/vstepper-states-error.png" width="489"/>
 
-{% endfigure %}
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow" markdown="1">
-
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-#### Inline errors
-
-For errors within an input and controls component error messages will take on the error message styling defined for that particular component. See [Inputs and controls]({{site.baseurl}}/components/inputs-and-controls.html) for more information
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-{% figure [caption:"Error state applied to an input field within the content area"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/vert-stepper/vert-stepper-error-2.png" width="903"/>
 {% endfigure %}
 
 {% endcolumn %}
