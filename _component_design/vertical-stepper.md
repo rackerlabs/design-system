@@ -44,8 +44,9 @@ A vertical stepper fulfills the same need as a horizontal stepper. Unlike a hori
 
 Consider the following best practices when you construct a vertical stepper.
 
-- Ensure a stepper has a minimum of three of three steps and a maximum of five steps.
+- Ensure a stepper has a minimum of three steps and a maximum of five steps.
 - Name each step thematically based on the inputs contained within a step. For example, a step  with inputs such as **Username**, **First name**, and **Address** can be labeled **User Details**. Labeling steps thematically primes users for the type of information required to complete the step.
+- Present a confirmation modal when the user enters data that invalidates data entered in another step.
 
 {% endcolumn %}
 
@@ -225,10 +226,7 @@ When the user clicks in the clickable area of a collapsed step, the step expands
 
 ### Spacing
 
-Use the following spacing guidelines when you construct a vertical stepper:
-
-- Place 16px space between the vertical stepper and any other user interface element.
-- 20px of space between
+Use these spacing guidelines when you construct a vertical stepper.
 
 {% endcolumn %}
 
@@ -252,7 +250,10 @@ Use the following spacing guidelines when you construct a vertical stepper:
 
 ### Behavior
 
-Need to get with Drew about this text...
+Construct a vertical stepper so that the user can expanded only one step at a time. When a user clicks to expand a step, any expanded step collapses. Limiting a vertical stepper to a single expanded step offers the following benefits:
+
+- One expanded step reduces page clutter and confusion that the user might encounter when presented with multiple primary CTAs.
+- Often times data in one step is dependent on data entered in another step. Restricting the vertical stepper to one expanded step allows for content to be dynamically loaded based on a previous selection.
 
 {% endcolumn %}
 
@@ -276,7 +277,7 @@ Need to get with Drew about this text...
 
 ## States
 
-Text here on states...
+A vertical stepper can occur in a loading state and an error state.
 
 {% endcolumn %}
 
@@ -292,7 +293,7 @@ Text here on states...
 
 ### Loading
 
-Here is some text on loading state...
+The vertical stepper uses the [spinner loading indicator]({{base.url}}/components/loading-indicators.html).
 
 {% endcolumn %}
 
@@ -316,9 +317,9 @@ Here is some text on loading state...
 
 ### Error
 
-Error states for the stepper will generally occur inline within the scope of the input and controls component used within the content area (see below). For errors within an input and controls component error messages will take on the error message styling defined for that particular component. See [Inputs and controls]({{site.baseurl}}/components/inputs-and-controls.html) for more information.
+Error states occur inline within the scope of the input and controls component used within the content area. Error messages take on the error message styling defined for that particular component. See [Inputs and controls]({{site.baseurl}}/components/inputs-and-controls.html) for more information.
 
-However it may be possible that a completed step may encounter an error state in certain edge cases. For example, when a user paths back and forth between sections, one section may become invalidated by a modified value in a pervious section. In these cases the error icon and associated message will be applied to the selected value in that row (see right).
+A completed step can also encounter an error when a user invalidates previously-entered data. In these cases use a confirmation modal to warn a user that previously-entered data will be deleted.
 
 {% endcolumn %}
 
