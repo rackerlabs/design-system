@@ -1,10 +1,10 @@
 ---
-title: Helper text
+title: On-page instructions and descriptions
 layout: docs
 parent: Text
 category: style
 usage: |
-  Helper text helps the user understand what a user interface (UI) element is, and how it can be used. Helper text can be displayed on the page persistently, or can be displayed when the user hovers over a UI element.
+  On-page instructions and descriptions is any text that appears in a Control Panel that helps the user understand what a feature is or how to complete a task. On-page instructions and descriptions can include welcome text for a new feature, text that describes procedural steps, and field-level help text that appears in tooltips. On-page instructions and description can be displayed on the page persistently, or can be displayed when the user hovers over a UI element.
 resource: true
 status: complete
 last-modified: 2018-05-24
@@ -20,7 +20,7 @@ last-modified: 2018-05-24
 
 ## Related patterns
 
-Helper text guidelines are most relevant to the following helix patterns:
+On-page instructions and descriptions appear in wide variety of UI patterns including, but not limited to:
 
 - Modals
 - Popovers
@@ -44,7 +44,7 @@ Helper text guidelines are most relevant to the following helix patterns:
 
 ## Writing guidelines
 
-This section includes guidelines for you to follow when you write help text and descriptions in a control panel.
+This section includes guidelines for you to follow when you write on-page text for a Control Panel.
 
 {% endcolumn %}
 
@@ -82,12 +82,16 @@ Active voice makes the performer of the action (usually the user) the subject of
 
 Active-voice sentences are more engaging, less complicated, less wordy, and easier to understand than passive-voice sentences. With active voice, the actions and responses of the user are easier to distinguish from the actions and responses of the technology.
 
+{% figure [caption:"Active voice examples"] [class:"image bg-light border"] %}
 | Use (active) | Avoid (passive) |
 | --- | --- |
 | After you install the software, start the computer. | After the software has been installed, the computer can be started. |
 | Click **OK** to save the configuration. | The configuration is saved when the **OK** button is clicked. |
 | Create a server. | A server is created by you. |
 | Rackspace products and services solve your business problems. | Your business problems are solved by Rackspace products and services. |
+{: class="ui very basic collapsing celled table"}
+{% endfigure %}
+
 
 {% endcolumn %}
 
