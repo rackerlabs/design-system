@@ -4,11 +4,11 @@ parent: Content Areas
 layout: component
 category: Components
 usage: >
-  A tooltip is a message that appears when a user places a cursor over an image, icon, hyperlink or other user interface element.
+  A tooltip is a message that appears when a user places a cursor over an image, icon, hyperlink, or other user interface element.
 preview-image: preview-images/tooltip.svg
 status: stable
 resource: true
-last-modified: 2018-05-23
+last-modified: 2018-06-01
 helix-ui-css: true
 helix-ui-javascript: true
 ---
@@ -25,14 +25,14 @@ helix-ui-javascript: true
 
 Use a tooltip in the following scenarios.
 
-- You want to provide in-context help information to the user. For example, use a tooltip to describe what happens when a user initiates a workflow.
-- To reveal hidden information, or provide extra or supplemental information to users.
-- To clarify uses when features could be misinterpreted, or explain an item on a page when it does not have a text label.
+- To provide in-context help information to the user. For example, use a tooltip to describe what happens when a user initiates a workflow.
+- To reveal hidden information or provide extra or supplemental information to users.
+- To clarify uses when features could be misinterpreted or explain an item on a page when it does not have a text label.
 
 Do not use a tooltip in the following scenarios.
 
-- Do not use a tooltip if users must repeatedly refer to a tooltip to understand an option or to complete a workflow.
-- Do not use a tooltip when users need to interact with the tooltip content, or when users are working on a mobile device.
+- If users must repeatedly refer to a tooltip to understand an option or to complete a workflow.
+- When users need to interact with the tooltip content, or when users are working on a mobile device.
 
 {% endcolumn %}
 
@@ -54,7 +54,7 @@ Consider the following best practices when you construct tooltips.
 - Tooltips are ideal for short sentences and sentence fragments that clarify the meaning of icons, text input fields, or other user interface elements.
 - A tooltip should not be obvious or repeat content already visible on the page.
 - A tooltip cannot extend beyond the boundaries of the screen.
-- Place a tooltip in a subtle location, and ensure it does not interfere with the user or obscure any objects of interest.
+- Place a tooltip in a subtle location and ensure it does not interfere with the user or obscure any objects of interest.
 - Do not place interactive controls in a tooltip.
 - Use large tooltips sparingly.
 
@@ -91,9 +91,9 @@ Use these specifications when you construct tooltips.
 Tooltips are composed of the following elements:
 
 - **Container (required)**: The container houses the tooltip border, pointer, and content.
-- **Text/content (required)**: The text contains the tooltip message.
+- **Text or content (required)**: The text contains the tooltip message.
 - **Pointer (required)**: The tooltip pointer extends from the trigger to the tooltip.
-- **Trigger (required)**: The trigger is the element that displays the tooltip component when interacted with from a user. See [Triggers]({{page.url}}#triggers) for more information on tooltip triggers.
+- **Trigger (required)**: The trigger is the element that displays the tooltip component when a user interacts with it. See [Triggers]({{page.url}}#triggers) for more information on tooltip triggers.
 
 {% endcolumn %}
 
@@ -305,10 +305,10 @@ Tooltips appear after a user activates a trigger. You can apply a trigger to an 
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-Add help text to a link when a tooltip provides access to an external webpage. Use the following guidelines adding help text to a link.
+Add help text to a link when a tooltip provides access to an external web page. Use the following guidelines to add help text to a link.
 
 - The link should always be external and open in a new tab.
-- Ensure you include an external link icon.
+- Ensure that you include an external link icon.
 - If you need additional inputs or interactions on a tooltip, for example, a [drop-down]({{site.baseurl}}/components/dropdowns.html) or [selector]({{site.baseurl}}/components/selector-strip.html), use a large tooltip.
 
 <!--See [Help links]({{site.baseurl}}/components/help-link.html) for link specifications.-->
@@ -335,7 +335,7 @@ Add help text to a link when a tooltip provides access to an external webpage. U
 
 ## Large tooltips
 
-You can create a large tooltip to display more information than is typically included in a tooltip. Follow the same text conventions and sizing guidelines when you construct large tooltips.
+You can create a large tooltip to display more information than is typically included in a tooltip. Follow the same text conventions and sizing guidelines that are provided earlier when you construct large tooltips.
 
 {% endcolumn %}
 
