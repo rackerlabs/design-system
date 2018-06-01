@@ -3,6 +3,10 @@
     <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
     <title>alert-bar-hero</title>
     <desc>Created with Sketch.</desc>
+    <style>
+      @import url("https://fonts.googleapis.com/css?family=Roboto:300,400");
+      @import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css")
+    </style>
     <defs>
         <polygon id="path-1" points="219 760 946.266146 760 946.266146 1039.5 219 1039.5"></polygon>
         <filter x="-0.1%" y="-0.4%" width="100.6%" height="101.4%" filterUnits="objectBoundingBox" id="filter-2">

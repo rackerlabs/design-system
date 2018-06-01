@@ -21,7 +21,7 @@ helix-ui-javascript: false
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### When to use
 
@@ -32,10 +32,10 @@ helix-ui-javascript: false
 
 {% endcolumn %}
 
-{% column right:"hxCol-6 hxCol-xs-12 hxCol-sm-12 hxCol-md-6 hxCol-lg-6" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-6-md hxSpan-6-lg" %}
 
 {% figure [caption="The radio button pattern"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/radio-buttons/radio-hero.png){:width="432px"}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/radio-buttons/radio-hero.png" width="432"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -48,7 +48,7 @@ helix-ui-javascript: false
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}  
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-12-md hxSpan-12-lg" %}  
 
 ### Best practices
 
@@ -72,7 +72,7 @@ helix-ui-javascript: false
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Composition
 
@@ -85,10 +85,10 @@ A radio button group consists of a section label, followed by pairs of radio but
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Radio button group composition"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/radio-buttons/radio-composition.png){:width="404px"}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/radio-buttons/radio-composition.png" width="404"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -101,7 +101,7 @@ A radio button group consists of a section label, followed by pairs of radio but
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 #### Spacing
 
@@ -109,9 +109,9 @@ A title should always be located above the radio buttons. More context can be pr
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Radio button spacing"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/radio-buttons/radio-spacing.png){:width="580px"}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/radio-buttons/radio-spacing.png" width="580"/>
 {% endfigure %}
 {% endcolumn %}
 
@@ -125,7 +125,7 @@ A title should always be located above the radio buttons. More context can be pr
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Overview
 
@@ -133,10 +133,10 @@ Form design best practices prohibit a radio button from existing in an error sta
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Radio button states"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/radio-buttons/radio-states.png){:width="561px"}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/radio-buttons/radio-states.png" width="561"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -149,7 +149,7 @@ Form design best practices prohibit a radio button from existing in an error sta
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 #### Error state - expanded
 
@@ -163,10 +163,10 @@ The error message should be 40-80 characters per line, and may wrap if needed.
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Radio button error state details"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/radio-buttons/radio-error.png){:width="482px"}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/radio-buttons/radio-error.png" width="482"/>
 {% endfigure %}
 
 {% endcolumn %}
