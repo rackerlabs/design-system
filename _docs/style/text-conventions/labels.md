@@ -7,6 +7,7 @@ usage: |
   A label is a graphical control element that displays text on control panel page. Use a label to identify a text input control, navigation menu item, and tables rows and columns. A label can be interactive, as is the case with a button control, or static, like the name of a checkbox or radio button.
 resource: true
 status: complete
+last-modified: 2018-06-01
 ---
 
 {% include toc.html %}

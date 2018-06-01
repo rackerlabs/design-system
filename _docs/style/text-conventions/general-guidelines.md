@@ -7,7 +7,7 @@ usage: |
   These general writing guidelines includes rules for how to write instructions and descriptions that appear in a Control Panel. Consult these guidelines to write text that is clear, helpful, and grammatically correct.
 resource: true
 status: complete
-last-modified: 2018-05-24
+last-modified: 2018-06-01
 ---
 
 {% include toc.html %}

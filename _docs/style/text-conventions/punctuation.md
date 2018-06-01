@@ -4,7 +4,7 @@ layout: docs
 parent: Text
 category: style
 usage: |
-  Use punctuation consistently throughout a user interface to maintain a user-friendly and professional look..
+  Use punctuation consistently throughout a user interface to maintain a user-friendly and professional look.
 resource: true
 status: complete
 last-modified: 2018-05-24
