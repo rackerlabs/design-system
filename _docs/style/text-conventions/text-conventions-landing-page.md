@@ -6,7 +6,7 @@ usage: >
   Use these user interface (UI) text conventions if you are a designer, developer, or contributor of content in Rackspace UIs. These UI text guidelines ensure that a Rackspace UI is usable, consistent, and concise.
 status: stable
 resource: true
-last-modified: 2018-05-21
+last-modified: 2018-06-01
 ---
 
 {% for page in site.docs %}
