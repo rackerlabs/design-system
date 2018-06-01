@@ -1,15 +1,14 @@
 ---
-title: Help Beacon
-parent: Help
-secondary: Notifications
+title: Beacon
+parent: Notifications
 layout: component
 category: Components
 usage: >
-  The beacon can be used to identify the location of products or features in the control panel. It can also be used to indicate advanced functionality to existing features
+  A beacon is an animation that attracts a user's attention to a new feature or advanced functionality in a control panel. A beacon disappears after a user clicks it.
 preview-image: preview-images/help-beacon.svg
 status: stable
 resource: true
-last-modified: 2017-11-04
+last-modified: 2018-05-18
 helix-ui-css: false
 helix-ui-javascript: false
 ---
@@ -18,44 +17,21 @@ helix-ui-javascript: false
 
 <section class="static-section" markdown="1">
 
-## Introduction
-
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-### When to use
+## When to use
 
-Use a beacon in the following scenarios:
+Use a beacon when you want to:
 
-- Showing a user new products or features that improve existing functionality.
-- Showing new users the location of commonly used features to aid them in getting started.
+- Call attention to new products or features that improve existing functionality
+- Help new users get started by showing them the location of commonly-used features
 
-There are some cases where beacons should not be used:
+Do not:
 
-- Do **not** use multiple beacons at one time.
-- Do **not** use the beacon to alert users of warnings or alerts.
-
-{% endcolumn %}
-
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-
-{% figure [caption:"Beacons continually follow this lifecycle, giving the impression of a pulse to draw user attention."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/help/beacon/beacon-hero.svg)
-{% endfigure %}
-
-{% endcolumn %}
-
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
-
-### Best practice
-
-- Place the beacon to the right or left of navigation items to show location and label.
-- Place the beacon next to labels or section headers.
-- Use the beacon in conjunction with the directional [popover]({{site.baseurl}}/components/popovers.html).
-- Do **not** use the beacon in lieu of user experience best practices about affordance.
-- Do **not** use other forms of notification to deliver the context, such as automatic [tooltips]({{site.baseurl}}/components/tooltip.html) or directional [popovers]({{site.baseurl}}/components/popovers.html).
-- Do **not** obscure the labeled item with the beacon.
+- Use multiple beacons simultaneously
+- Use a beacon to notify users of warnings or alerts
 
 {% endcolumn %}
 
@@ -67,22 +43,127 @@ There are some cases where beacons should not be used:
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-### Default layout
+## Best practices
 
-This example shows the multiple states for the beacon. The beacon animates on a loop to catch the user's eye. Once the user clicks the beacon, it disappears.
+Consider the following best practices when you construct a beacon.
 
-To create a tour experience for more advanced features, string together beacons. In this scenario, beacons appear one at a time. Ensure you prioritize demonstrating the most important or impactful feature first. Provide an opt-out option on each [popover]({{site.baseurl}}/components/popovers.html) at every step in the tour.
-
-Ideally, track the clicks and drop-offs throughout the tour to improve usefulness for the end user.
+- Place the beacon to the right or left of navigation items of interest.
+- Place the beacon next to labels or section headers of interest.
+- Use the beacon in conjunction with the directional [popover]({{site.baseurl}}/components/popovers.html).
+- Do **not** use the beacon in lieu of user experience affordance best practices.
+- Do **not** use other forms of notification to deliver the context, such as automatic [tooltips]({{site.baseurl}}/components/tooltip.html) or directional [popovers]({{site.baseurl}}/components/popovers.html).
+- Do **not** obscure the labeled item with the beacon.
+- You can string multiple beacons together to create a tour experience. In this scenario, beacons appear one at a time. Ensure that you prioritize the most important or impactful features first. Provide an opt-out option on each [popover]({{site.baseurl}}/components/popovers.html) at each step in the tour.
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+</div>
 
-{% figure [caption:"For full CSS specifications, view the developer documentation."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/help/beacon/beacon-specs.svg)
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+## Specifications
+
+Use the following specifications when you construct a beacon.
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+### Composition
+
+A beacon consists of the following elements:
+
+- **Beacon (required)**: The beacon is the light source that you place next to the user interface element to which you want to attract the user's attention.
+- **Pulse (required)**: The pulse is the animation that attracts the user's attention. The pulse flashes on and off in one-second intervals.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"Beacon composition"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/notifications/beacon/beacon-composition.png" width="164"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+### Style
+
+Use these specifications when you construct a beacon.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"Beacon style"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/notifications/beacon/beacon-style.png" width="397"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+### Spacing
+
+Because a beacon overlays all user interface elements, there are no specific spacing guidelines.
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+### Behavior
+
+A beacon attracts the user's attention with a two-second, looped animation. The beacon pulses for one second, and then remains still for one second. This pattern repeats.
+
+The beacon disappears after the user clicks it.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"Beacon behavior"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/notifications/beacon/beacon-behavior.png" width="474"/>
 {% endfigure %}
 
 {% endcolumn %}

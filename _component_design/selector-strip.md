@@ -22,7 +22,7 @@ helix-ui-javascript: false
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 ### When to use
 
@@ -38,7 +38,7 @@ Use a selector strip on forms requiring a user to select from a small group of a
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Best practice
 
@@ -50,10 +50,10 @@ The selector strip component functions best when:
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Meet the selector strip pattern"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/selector-strip/select-strip-hero.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/selector-strip/select-strip-hero.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -68,7 +68,7 @@ The selector strip component functions best when:
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 The default layout has two main styles: single-select and multi-select. In both layouts, the unselected options have a white background with cyan text, and selected options have a cyan background with white text.
 
@@ -82,7 +82,7 @@ The default layout has two main styles: single-select and multi-select. In both 
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Single-select  selector strips
 
@@ -90,10 +90,10 @@ Single-select strips have rounded corners and function like a radio button; only
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Selector strip build specifications"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/selector-strip/select-strip-single.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/selector-strip/select-strip-single.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -106,7 +106,7 @@ Single-select strips have rounded corners and function like a radio button; only
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Multi-select selector strips
 
@@ -114,10 +114,10 @@ Multi-select selector strips have more squared edges and function like checkboxe
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Selector strip build specifications"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/selector-strip/select-strip-multi.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/selector-strip/select-strip-multi.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -132,7 +132,7 @@ Multi-select selector strips have more squared edges and function like checkboxe
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Pressed state
 
@@ -142,10 +142,10 @@ When the mouse button is pressed, the fill area changes to `cyan 700`. When the 
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Selector strip in pressed state"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/selector-strip/select-strip-pressed.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/selector-strip/select-strip-pressed.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -158,7 +158,7 @@ When the mouse button is pressed, the fill area changes to `cyan 700`. When the 
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Error states
 
@@ -166,10 +166,10 @@ When there is an error, the invalid selection has a red border. Text explaining 
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Selector strip in error state"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/selector-strip/select-strip-error.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/selector-strip/select-strip-error.svg"/>
 {% endfigure %}
 
 {% endcolumn %}

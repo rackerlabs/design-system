@@ -1,132 +1,226 @@
 ---
 title: Pills
 parent: Content Areas
-secondary: Editing
 layout: component
 category: Components
 usage: >
-  Pills are small, pill-shaped containers that indicate selection. They are useful for their small size and for the ease with which they can be removed. As selection indicators (not selectors themselves), they have a broad set of possible applications. 
+  A pill is a small, dismissible, oval-shaped component that indicates selection. Use pills to provide feedback for selected keyword search terms, an input text search, or the name of a server selected by the user. You can represent any selectable object with a pill.
 preview-image: preview-images/pills.svg
 resource: true
 status: Stable
-last-modified: 2018-02-07
----
+last-modified: 2018-05-23
+helix-ui-css: true
+helix-ui-javascript: true
 
+---
 
 {% include toc.html %}
 
 <section class="static-section" markdown="1">
 
-## Introduction
-
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-### When to Use
+## When to use
 
-Pills are small, pill-shaped containers that indicate selection. They are useful for their small size and for the ease with which they can be removed. As selection indicators (not selectors themselves), they have a broad set of possible applications. 
-
-### Best practices
-
-When using pills, ensure they are uniform in size, shape, and application. Pills may be modified with color if done carefully and intentionally. 
-
-{% endcolumn %}
-
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-
-{% figure [caption:"The pill pattern"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/pills/pills-hero.png){:width="1200px"}
-{% endfigure %}
+Use pills when you want to indicate that a user has selected an object.
 
 {% endcolumn %}
 
 </div>
-  
-</section> 
+
+</section>
 
 <section class="static-section" markdown="1">
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-### Default layout
+## Best practices
 
-Pills are a component with a variety of use cases, so they can be used for many ways of indicating something has been selected: keyword search, input text search, the name of a server you’ve selected. If it can be selected, you can make a pill of it. 
-
-A pill is different than a tag in a variety of ways, with the most important being you cannot remove a tag.
-
-{% endcolumn %}
-
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-
-{% figure [caption:"The pill pattern"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/pills/pills-default.png){:width="499px"}
-{% endfigure %}
+Ensure that pills are uniform in size and shape.
 
 {% endcolumn %}
 
 </div>
-  
-</section> 
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 ## Specifications
+Use these specifications when you construct pills.
+
+{% endcolumn %}
+
+</div>
+
+</section>
 
 <section class="static-section" markdown="1">
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+### Composition
+
+Pills consist of a container, text, and an “x” icon that indicates that the user can remove the pill.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg"" %}
+
+{% figure [caption:"Pill composition"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/content-areas/pills/pills-composition.png" width="352px"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Style
 
-While pills may be larger or smaller than body font, generally use body font.
-
-Pills consist of a container, text, and an “x” icon to indicate removal. By default, they are `gray 400` background.
-
-### Spacing
-
-Pills have 16px of space on either side and 8px below and beside when grouped together. Put pills 4px beneath other associated components&mdash;use the best top spacing for your particular use case. Unless there is a legitimate reason, justify pills to the left.
-
-If more than 15 pills are bunched together, consider an alternative pattern or contact the Helix team.
+Use body font text when you construct pills. To address space constraints, you can scale pills up to 24px font size and down to 12px font size.
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"The pill pattern"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/pills/pills-specs.png){:width="509px"}
+{% figure [caption:"Pill style"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/content-areas/pills/pills-style.png" width="411px"/>
 {% endfigure %}
 
 {% endcolumn %}
 
 </div>
-  
-</section> 
+
+</section>
 
 <section class="static-section" markdown="1">
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### States
+### Spacing
 
-**Active:** This state indicates that a selection has been made and is the default state for a pill.
+Place 16px of horizontal space and 4px of vertical space between a pill and another component. Use the best top spacing for your particular use case. Left-align pills.
 
-**Hover:** The hover state indicates the pill may be interacted with to remove the selection.
+If you group pills together, provide 8px of space below and next to a pill. If you group more than 15 pills together, consider an alternative pattern or contact the Helix team.
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"The pill pattern"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/content-areas/pills/pills-states.png){:width="499px"}
+{% figure [caption:"Pill spacing"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/content-areas/pills/pills-spacing.png" width="418px"/>
 {% endfigure %}
 
 {% endcolumn %}
 
 </div>
-  
-</section> 
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg"" %}
+
+## States
+
+Pills can exist in active, hover, or too long states.
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+### Active
+
+The active state is the default state and indicates that a user has made a selection.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"Active state"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/content-areas/pills/pills-states-active.png" width="448px"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+### Hover
+The hover state indicates that the user can remove the selection.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"Hover state"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/content-areas/pills/pills-states-hover.png" width="445px"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+### Too long
+Selection values are sometimes very long. For these pills, use a truncation pattern where the maximum length, including ellipses and quotations (if applicable), is 31 characters that are made up of 14 characters on either side and an ellipsis in the middle.
+
+Ensure that you follow the truncation guidelines in the Ellipses section of the text conventions.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"Too long state"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/content-areas/pills/pills-too_long.png" width="337px"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>

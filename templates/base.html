@@ -13,37 +13,38 @@
 
     <link rel="icon" type="image/png" href="{{site.url}}/favicon.png">
 
-    {%- include head-styles.html -%}
+    {%- include head-assets.html -%}
 
     <link rel="canonical" href="{{ page.url | replace:'index.html','' }}">
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}/feed.xml">
 
-    {%- include head-polyfills.html -%}
   </head>
-  <body class="hxApp">
-    <div class="hxApp__container page-wrapper">
-      {%- include nav.html -%}
-      <main class="hxApp__content page-content">
-        <div class="base-top-bar">
-          <div class="content-wrapper">
-          <div class="hxRow">
-            <nav class="hxBreadcrumb">
-              <a style="cursor:default;">{{page.category}}</a>
-              <hx-icon class="delimiter" type="angle-right"></hx-icon>
-                {%- for item in site.component_design -%}
-                  {%- if page.title == item.title -%}
-                    <a id="breadcrumbLink">{{item.parent}}</a>
-                  {%- endif -%}
-                {%- endfor -%}
-              <hx-icon class="delimiter" type="angle-right"></hx-icon>
-              <a href="{{page.url}}">{{page.title}}</a>
-            </nav>
+  <body class="hxVertical">
+    <div id="app" class="page-wrapper">
+        <div id="stage">
+          {%- include nav.html -%}
+          <main id="content" class="page-content">
+            <div class="base-top-bar">
+              <div class="content-wrapper">
+              <div class="hxRow">
+                <nav class="hxBreadcrumb">
+                  <a style="cursor:default;">{{page.category}}</a>
+                  <hx-icon class="delimiter" type="angle-right"></hx-icon>
+                    {%- for item in site.component_design -%}
+                      {%- if page.title == item.title -%}
+                        <a id="breadcrumbLink">{{item.parent}}</a>
+                      {%- endif -%}
+                    {%- endfor -%}
+                  <hx-icon class="delimiter" type="angle-right"></hx-icon>
+                  <a href="{{page.url}}">{{page.title}}</a>
+                </nav>
+              </div>
+            </div>
           </div>
-        </div>
+          {{ content }}
+        </main>
       </div>
-        {{ content }}
-      </main>
     </div>
-    {%- include footer.html -%}
+    {%- include body-assets.html -%}
   </body>
 </html>

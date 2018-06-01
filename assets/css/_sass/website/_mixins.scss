@@ -6,7 +6,6 @@
 @mixin font-smoothing($smoothing) {
   -webkit-font-smoothing: $smoothing;
      -moz-font-smoothing: $smoothing;
-       -o-font-smoothing: $smoothing;
 }
 @mixin animation($animate) {
   -webkit-animation: $animate;
@@ -16,7 +15,6 @@
 // @mixin width-calc($calc){
 //   width: -webkit-calc($calc);
 //      width: -moz-calc($calc);
-//        width: -o-calc($calc);
 //           width: calc($calc);
 // }
 @mixin transition($transition1, $transition2){
@@ -27,7 +25,6 @@
 @mixin background-size($bgsize) {
   -webkit-background-size: $bgsize;
      -moz-background-size: $bgsize;
-       -o-background-size: $bgsize;
           background-size: $bgsize;
 }
 

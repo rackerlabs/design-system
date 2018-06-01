@@ -21,7 +21,7 @@ helix-ui-javascript: false
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### When to use
 
@@ -29,10 +29,10 @@ Use loading indicators when you need to provide further visual feedback, such as
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:""] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/processing/loading-indicator/loading-hero.png){:width="1440px"}
+<embed src="{{site.url}}/assets/images/components/processing/loading-indicator/loading-hero.png" width="1440"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -45,7 +45,7 @@ Use loading indicators when you need to provide further visual feedback, such as
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 ### Best practice
 
@@ -65,7 +65,7 @@ Use loading indicators when you need to provide further visual feedback, such as
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 Loading indicators can be displayed in the following ways:
 
@@ -77,18 +77,18 @@ The spinner icon inherits the text color of the element or component in which it
 
 {% endcolumn %}
 
-{% column right:"hxCol-4 hxCol-xs-6 hxCol-sm-6 hxCol-md-4 hxCol-lg-4" %}
+{% column right:"hxCol hxSpan-6-xs hxSpan-6-sm hxSpan-4-md hxSpan-4-lg" %}
 
 {% figure [caption:"Spinner icons are centered"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/processing/loading-indicator/spinner-icon-centered.svg)
+<embed src="{{site.url}}/assets/images/components/processing/loading-indicator/spinner-icon-centered.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
 
-{% column right:"hxCol-4 hxCol-xs-6 hxCol-sm-6 hxCol-md-4 hxCol-lg-4" %}
+{% column right:"hxCol hxSpan-6-xs hxSpan-6-sm hxSpan-4-md hxSpan-4-lg" %}
 
 {% figure [caption:"The spinner icon uses a 1px stroke width."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/processing/loading-indicator/spinner-icon-stroke.svg)
+<embed src="{{site.url}}/assets/images/components/processing/loading-indicator/spinner-icon-stroke.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -97,7 +97,7 @@ The spinner icon inherits the text color of the element or component in which it
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 A variety of spinner icon sizes are available.
 
@@ -107,10 +107,10 @@ A variety of spinner icon sizes are available.
 
 <div class="hxRow" markdown="1">
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Spinner icons come in a variety of sizes from small, medium, large, and x-large."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/processing/loading-indicator/spinner-size.svg)
+<embed src="{{site.url}}/assets/images/components/processing/loading-indicator/spinner-size.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -123,7 +123,7 @@ A variety of spinner icon sizes are available.
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Loading spinner with text
 
@@ -131,10 +131,10 @@ When text is contained inside a spinner icon, the spinner matches the size of th
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Loading spinner and text used in a primary button. Note that the loading text does not use an ellipses."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/processing/loading-indicator/spinner-text.svg)
+<embed src="{{site.url}}/assets/images/components/processing/loading-indicator/spinner-text.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -147,7 +147,7 @@ When text is contained inside a spinner icon, the spinner matches the size of th
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Loading text
 
@@ -155,18 +155,18 @@ In certain instances, such as key-value pairs or other list style patterns, you 
 
 {% endcolumn %}
 
-{% column right:"hxCol-4 hxCol-xs-6 hxCol-sm-6 hxCol-md-4 hxCol-lg-4" %}
+{% column right:"hxCol hxSpan-6-xs hxSpan-6-sm hxSpan-4-md hxSpan-4-lg" %}
 
 {% figure [caption:"Loading text shown in a key-value pair list. Note that loading text can occur in multiple instances simultaneously."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/processing/loading-indicator/spinner-text-only.svg)
+<embed src="{{site.url}}/assets/images/components/processing/loading-indicator/spinner-text-only.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
 
-{% column right:"hxCol-4 hxCol-xs-6 hxCol-sm-6 hxCol-md-4 hxCol-lg-4" %}
+{% column right:"hxCol hxSpan-6-xs hxSpan-6-sm hxSpan-4-md hxSpan-4-lg" %}
 
 {% figure [caption:"Always use an ellipses when using loading text alone. By default, the text uses a type-size of 16px."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/processing/loading-indicator/spinner-text-font.svg)
+<embed src="{{site.url}}/assets/images/components/processing/loading-indicator/spinner-text-font.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -181,7 +181,7 @@ In certain instances, such as key-value pairs or other list style patterns, you 
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 Animation can be used in loading indicators to visually indicate that back-end systems are performing load operations. The following are best practice for animating spinner icons:
 
@@ -191,18 +191,18 @@ Animation can be used in loading indicators to visually indicate that back-end s
 
 {% endcolumn %}
 
-{% column right:"hxCol-4 hxCol-xs-6 hxCol-sm-6 hxCol-md-4 hxCol-lg-4" %}
+{% column right:"hxCol hxSpan-6-xs hxSpan-6-sm hxSpan-4-md hxSpan-4-lg" %}
 
 {% figure [caption:"Spinner icons rotate 360 degrees in 0.8s."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/processing/loading-indicator/spinner-360.svg)
+<embed src="{{site.url}}/assets/images/components/processing/loading-indicator/spinner-360.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
 
-{% column right:"hxCol-4 hxCol-xs-6 hxCol-sm-6 hxCol-md-4 hxCol-lg-4" %}
+{% column right:"hxCol hxSpan-6-xs hxSpan-6-sm hxSpan-4-md hxSpan-4-lg" %}
 
 {% figure [caption:"Spinner icons must always rotate clockwise."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/processing/loading-indicator/spinner-rotate-clockwise.svg)
+<embed src="{{site.url}}/assets/images/components/processing/loading-indicator/spinner-rotate-clockwise.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -217,7 +217,7 @@ Animation can be used in loading indicators to visually indicate that back-end s
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 We recommend centering the loading indicators within the component. The following are examples of loading indicators inside various components of the UI:
 
@@ -231,26 +231,26 @@ We recommend centering the loading indicators within the component. The followin
 
 <div class="hxRow"  markdown="1">
 
-{% column right:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 {% figure [caption:"Loading spinner in dashboard tiles."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/processing/loading-indicator/spinner-tiles.svg)
+<embed src="{{site.url}}/assets/images/components/processing/loading-indicator/spinner-tiles.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
 
-{% column right:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 {% figure [caption:"Loading spinner in cards."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/processing/loading-indicator/spinner-cards.svg)
+<embed src="{{site.url}}/assets/images/components/processing/loading-indicator/spinner-cards.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
 
-{% column right:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 {% figure [caption:"Loading spinner in modals."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/processing/loading-indicator/spinner-modals.svg)
+<embed src="{{site.url}}/assets/images/components/processing/loading-indicator/spinner-modals.svg"/>
 {% endfigure %}
 
 {% endcolumn %}

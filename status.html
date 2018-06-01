@@ -7,15 +7,15 @@ usage: >
 ---
 
 <div class="hxRow">
-<div class="hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8">
+<div class="hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg">
 
 <table class="hxTable hxTable--condensed hxTable--bordered" id="design-status-table">
     <thead>
       <tr>
         <th>Helix Pattern</th>
-        <th class="align-center">Design Doc</th>
-        <th class="align-center">CSS</th>
-        <th class="align-center">JS</th>
+        <th class="hxCenter">Design Doc</th>
+        <th class="hxCenter">CSS</th>
+        <th class="hxCenter">JS</th>
       </tr>
     </thead>
     <tbody>
@@ -33,17 +33,17 @@ usage: >
       {%- assign component_list = component_list | sort: 'title' -%}
       {%- for page in component_list -%}<tr >
           <td><a href="{{site.baseurl}}{{page.url}}.html">{{page.title}}</a></td>
-          <td class="align-center">
+          <td class="hxCenter">
           {%- if page.status -%}
             <span class="status-label small {{page.status | replace: ' ','-'}}">{{page.status}}</span>
           {%- endif -%}
           </td>
-          <td class="align-center status-ok">
+          <td class="hxCenter status-ok">
             {%- if page.helix-ui-css -%}
             <hx-icon type="checkmark-circle"></hx-icon>
             {%- endif -%}
           </td>
-          <td class="align-center status-ok">
+          <td class="hxCenter status-ok">
             {%- if page.helix-ui-javascript -%}
             <hx-icon type="checkmark-circle"></hx-icon>
             {%- endif -%}
@@ -54,8 +54,8 @@ usage: >
 
 </div>
 
-<div class="hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4">
-<h4 class="hxContainerTitle">Legend</h4>
+<div class="hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg">
+<h4>Legend</h4>
 
       {%- for status_hash in site.data.design-status -%}
       {%- assign status = status_hash[1]-%}

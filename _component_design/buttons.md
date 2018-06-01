@@ -27,7 +27,7 @@ Buttons provide the mechanism for users to perform actions within a Helix UI. Ea
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### When to use
 
@@ -45,10 +45,10 @@ Use a button to launch a process or initiate an action. Do not use buttons for n
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Meet the button pattern"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-hero.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-hero.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -61,7 +61,7 @@ Use a button to launch a process or initiate an action. Do not use buttons for n
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ## Simple buttons
 
@@ -78,10 +78,10 @@ When using a simple button, specify both weight and size.
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"The three button weights"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-simple.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-simple.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -94,7 +94,7 @@ When using a simple button, specify both weight and size.
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Spacing and specs
 
@@ -106,10 +106,10 @@ Compact buttons should be used when you have severe space constraints, such as i
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Button spacing specs"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-specs.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-specs.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -122,7 +122,7 @@ Compact buttons should be used when you have severe space constraints, such as i
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Primary buttons
 
@@ -132,10 +132,10 @@ Compact buttons should be used when you have severe space constraints, such as i
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Button spacing specs"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-primary.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-primary.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -148,7 +148,7 @@ Compact buttons should be used when you have severe space constraints, such as i
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Secondary buttons
 
@@ -158,10 +158,10 @@ Compact buttons should be used when you have severe space constraints, such as i
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Button spacing specs"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-secondary.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-secondary.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -174,7 +174,7 @@ Compact buttons should be used when you have severe space constraints, such as i
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Tertiary buttons
 
@@ -186,10 +186,10 @@ Compact buttons should be used when you have severe space constraints, such as i
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Button spacing specs"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-tertiary.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-tertiary.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -202,7 +202,7 @@ Compact buttons should be used when you have severe space constraints, such as i
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Loading states
 
@@ -211,14 +211,14 @@ Compact buttons should be used when you have severe space constraints, such as i
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Button (loading state) spacing"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-loading-1.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-loading-1.svg"/>
 {% endfigure %}
 
 {% figure [caption:"Button (loading state) specifications for primary, secondary, and tertiary weights."] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-loading-2.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-loading-2.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -231,7 +231,7 @@ Compact buttons should be used when you have severe space constraints, such as i
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Button sets
 
@@ -239,7 +239,7 @@ Compact buttons should be used when you have severe space constraints, such as i
 - Button sets are most often used in Popovers, Modals or Create/Edit Forms to group the submit, back or next, and cancel buttons.
 - A button set should never contain more than one primary button.
 - Avoid using split buttons in a button set as it would complicate what should be a simple decision.
-- The cancel action must always be an `hxBtn--link` as shown in the example.
+- The cancel action must always be an `hxBtn.hxLink` as shown in the example.
 
 When submitting forms:
 
@@ -247,18 +247,18 @@ When submitting forms:
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Button set spacing"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-sets-1.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-sets-1.svg"/>
 {% endfigure %}
 
 {% figure [caption:"Primary, secondary and tertiary button set"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-sets-2.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-sets-2.svg"/>
 {% endfigure %}
 
 {% figure [caption:"Primary and tertiary button set"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-sets-3.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-sets-3.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -273,7 +273,7 @@ When submitting forms:
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Drop-down buttons
 
@@ -281,10 +281,10 @@ A drop-down button is preferred when multiple actions are available, with no des
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"The drop-down button variation"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/buttons/drop-buttons-hero.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/drop-buttons-hero.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -297,7 +297,7 @@ A drop-down button is preferred when multiple actions are available, with no des
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 #### Specifications
 
@@ -308,10 +308,10 @@ A drop-down button is preferred when multiple actions are available, with no des
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Drop-down button specifications"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/buttons/drop-buttons-specs.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/drop-buttons-specs.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -324,7 +324,7 @@ A drop-down button is preferred when multiple actions are available, with no des
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Split drop-down buttons
 
@@ -332,10 +332,10 @@ Split drop-down buttons are preferred when more than one action is associated wi
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"The split drop-down button variation"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/buttons/split-drop-buttons-hero.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/split-drop-buttons-hero.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -347,7 +347,7 @@ Split drop-down buttons are preferred when more than one action is associated wi
 <section class="static-section" markdown="1">
 
 <div class="hxRow" markdown="1">
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 #### Specifications
 
@@ -357,10 +357,10 @@ Split drop-down buttons are preferred when more than one action is associated wi
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Split drop-down button specifications"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/buttons/split-drop-buttons-specs.svg)
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/split-drop-buttons-specs.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -373,7 +373,7 @@ Split drop-down buttons are preferred when more than one action is associated wi
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Download or export buttons
 
@@ -386,10 +386,10 @@ Split drop-down buttons are preferred when more than one action is associated wi
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Download button layouts"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/buttons/download-buttons-overview.png){:width="571px"}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/download-buttons-overview.png" width="571"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -401,7 +401,7 @@ Split drop-down buttons are preferred when more than one action is associated wi
 <section class="static-section" markdown="1">
 
 <div class="hxRow" markdown="1">
-{% column left:"hxCol-4 hxCol-xs-12 hxCol-sm-12 hxCol-md-4 hxCol-lg-4" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 #### Specifications
 
@@ -411,10 +411,10 @@ In most situations, download buttons should be secondary, but when downloading i
 
 {% endcolumn %}
 
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Specifications for download links"] [class:"image bg-light border"] %}
-![]({{site.url}}/assets/images/components/inputs-and-controls/buttons/download-buttons-specs.png){:width="571px"}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/download-buttons-specs.png" width="571"/>
 {% endfigure %}
 
 {% endcolumn %}
