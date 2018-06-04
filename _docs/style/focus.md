@@ -16,93 +16,115 @@ last-modified: 2018-05-10
 ## Introduction
 
 <div class="hxRow" markdown="1">
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 Focus is received by interactive components when the user clicks on them.  Focus is also applied to clickable elements when the user presses the tab key to traverse the UI using the keyboard.
 
 {% endcolumn %}
 
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-{% figure [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/style/focus/focus-hero@2x.png" width="304"/>
-{% endfigure %}
-{% endcolumn %}
-
 </div>
 
 </section>
 
 <section class="static-section" markdown="1">
 
+## Composition
 
 <div class="hxRow" markdown="1">
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Focus styles
+Two visual features make up the focus indicator:
 
-Focus style is modified for elements with different visual properties.  The following cases describe Helix logic for applying focus styles:
-
-#### Standard
-- **With border:** When the element has a border, the stroke color is `#0e94a6 (Cyan 700)` and the element gets the focus glow.
-- **Without border:** When the element does not have a border, it only gets the focus glow.
-- **Glow (shadow)** &mdash; Color: `#0e94a6 (Cyan 700)`, x: 0, y: 0, blur: 4, spread: 0, opacity: 50%
+1. **The Glow** is applied to any focused element.
+2. **The Border** is applied, in addition to the glow, to elements that have a border.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/style/focus/focus-standard@2x.png" width="304"/>
-{% endfigure %}
-{% endcolumn %}
-
-</div>
-<div class="hxRow" markdown="1">
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-#### Adoptive
-- **General adoption** &mdash; Where the component uses a non-cyan 700 border or fill, the flow will adopt the fill or border color of the element with same box-shadow values defined under standard cases glow.
-
-- **Error** &mdash; Ensure error values match the specs defined for the pattern to which they are applied. Typically error-focus will have a `2px` inside border of `#d32f2f (red 900)`.
-
-{% endcolumn %}
-
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-{% figure [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/style/focus/focus-adaptive@2x.png" width="304"/>
+<img src="{{site.url}}/assets/images/style/focus/focus-standard@2x.png" width="304"/>
 {% endfigure %}
 {% endcolumn %}
 
 </div>
 
-<div class="hxRow" markdown="1">
+## Style
 
+<div class="hxRow" markdown="1">
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-#### Augmentive
-- **Reversion** &mdash; In Helix, we use some light color values that, if adopted that color for the Focus gloa, would be indiscernible. Therefore, as a general rule, for color values below 500 on any pallette, the flow should revert to our baseline cyan 700 value and adopt the cyan 700 glow, as shown in "reversion".
+### Standard focus
 
-- **Inversion** &mdash; It is possible to have a cyan 700 textual glow on a cyan 700 background or another dark colored background, rendering the state indiscernible. Therefore, for dark backgrounds with anything darker than a 400 value, we invert the focus glow color to `#ffffff (gray 0)` and add a `1px` inside gray 0 outline.
+Standard focus color is **#0e94a6 (Cyan 700)**
+
+#### For borderless elements:
+If the element's fill color is lighter than 500, apply the glow using the standard focus color.
+
+#### For elements with a border:
+If the element's border color lighter than 500, apply the standard glow and change the border to standard focus color.
 
 {% endcolumn %}
 
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/style/focus/focus-augmentive@2x.png" width="304"/>
+<img src="{{site.url}}/assets/images/style/focus/focus-adaptive@2x.png" width="304"/>
 {% endfigure %}
 {% endcolumn %}
 
 </div>
+
+<div class="hxRow" markdown="1">
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+### Adopted focus color
+
+Adopt the element color when its fill or border color is 500 or darker.
+
+#### For borderless elements:
+If the focused element's fill color is 500 or darker, use the element's fill color for the glow.
+
+#### For elements with a border:
+If the focused element's border color is 500 or darker, use the existing border color for the glow and border.
+
+{% endcolumn %}
+
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+{% figure [class:"image bg-light border"] %}
+<img src="{{site.url}}/assets/images/style/focus/focus-adaptive@2x.png" width="304"/>
+{% endfigure %}
+{% endcolumn %}
+</div>
+
+<div class="hxRow" markdown="1">
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+### Reversed focus color
+
+If the focused element is contained in a background color that is 500 or darker, change the glow and border to #ffffff (Gray 0).
+
+{% endcolumn %}
+
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+{% figure [class:"image bg-light border"] %}
+<img src="{{site.url}}/assets/images/style/focus/focus-adaptive@2x.png" width="304"/>
+{% endfigure %}
+{% endcolumn %}
+</div>
+
 
 </section>
 
 <section class="static-section" markdown="1">
 
+## Focusable elements
+
 <div class="hxRow" markdown="1">
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Textual focus
+### Text
 
 Text links and actions are focused in a standard glow container. The boundaries of the focus container directly map to the line height of the text. In thiscase, as the type size is 15, the focus container is 20px, as per our line-height rules in our [spacing system]({{site.baseurl}}/style/spacing.html).
 
@@ -120,7 +142,7 @@ Items covered in link focus:
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/style/focus/focus-textual@2x.png" width="501"/>
+<img src="{{site.url}}/assets/images/style/focus/focus-textual@2x.png" width="501"/>
 {% endfigure %}
 {% endcolumn %}
 
@@ -132,7 +154,7 @@ Items covered in link focus:
 <div class="hxRow" markdown="1">
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Button Focus
+### Buttons
 
 This is perhaps the most common and most widely applied focus principle. Buttons prompt an action of some kind, and a cyan glow is applied.
 
@@ -157,7 +179,7 @@ Where a shape has no clear bounding shape and does not otherwise impeded the con
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/style/focus/focus-buttons.png" width="501"/>
+<img src="{{site.url}}/assets/images/style/focus/focus-buttons.png" width="501"/>
 {% endfigure %}
 {% endcolumn %}
 
@@ -169,7 +191,7 @@ Where a shape has no clear bounding shape and does not otherwise impeded the con
 <div class="hxRow" markdown="1">
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Container Focus
+### Containers
 
 #### Full container focus
 
@@ -183,7 +205,7 @@ IN most instances a container has selectable sub-components container within it.
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/style/focus/focus-container.png" width="501"/>
+<img src="{{site.url}}/assets/images/style/focus/focus-container.png" width="501"/>
 {% endfigure %}
 {% endcolumn %}
 
@@ -192,10 +214,11 @@ IN most instances a container has selectable sub-components container within it.
 
 <section class="static-section" markdown="1">
 
+
 <div class="hxRow" markdown="1">
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Control focus (variable)
+### Controls
 
 Control focus are non-standard focuses that apply to the following patterns:
 
@@ -224,7 +247,7 @@ Beacon comes with shadows and glow already baken in, so when it it focused, thos
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/style/focus/focus-control.png" width="631"/>
+<img src="{{site.url}}/assets/images/style/focus/focus-control.png" width="631"/>
 {% endfigure %}
 {% endcolumn %}
 
@@ -234,10 +257,11 @@ Beacon comes with shadows and glow already baken in, so when it it focused, thos
 
 <section class="static-section" markdown="1">
 
+
 <div class="hxRow" markdown="1">
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Child element focus
+### Child elements
 
 There are some instnaces in which a user can focus on a smaller ememnt ("child") within a larger element ("parent") without that larger element losing the ability to be focused. For example, the search input component.
 
@@ -247,7 +271,7 @@ In these instances, the child takes on a dotted, `2px` rounded container with th
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/style/focus/focus-child.png" width="631"/>
+<img src="{{site.url}}/assets/images/style/focus/focus-child.png" width="631"/>
 {% endfigure %}
 {% endcolumn %}
 
@@ -256,11 +280,12 @@ In these instances, the child takes on a dotted, `2px` rounded container with th
 
 
 <section class="static-section" markdown="1">
+## Non-focusable elements
 
 <div class="hxRow" markdown="1">
 {% column left:"hxCol hxSpan-8-xs hxSpan-8-sm hxSpan-8-md hxSpan-8-lg" %}
 
-### No focus
+
 
 Items that do not have feedback when interacted with via mouse are not focused. As a result, focus is unavailable on the following patterns: 
 
