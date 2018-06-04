@@ -4,11 +4,11 @@ parent: Inputs and Controls
 layout: component
 category: Components
 usage: >
-  Buttons direct user attention to important actions that can be performed from the current page. Base the use of various types of buttons on the importance of each action.
+  A button provides a mechanism for a user to perform an action or initiate a process on a Control Panel page. A button directs the user's attention to important actions. The weight of a button (primary, secondary, or tertiary) highlight the relative importance of the action.
 preview-image: preview-images/buttons.svg
 status: stable
 resource: true
-last-modified: 2018-05-17
+last-modified: 2018-06-04
 helix-ui-css: true
 helix-ui-javascript: false
 ---
@@ -27,9 +27,9 @@ helix-ui-javascript: false
 
 ## When to use
 
-Buttons provide the mechanism for users to perform actions within a Helix UI. Each button has a weight (primary, secondary, and tertiary), a size (regular, large, compact), as well as a type (simple, drop-down).
+Add a button when you want the user to launch a process or initiate an action.
 
-Use a button to launch a process or initiate an action. Do not use buttons for navigation.  When the user needs to get from one page to another, use a text link.
+Do not use buttons for navigation. When the user needs to navigate from one page to another, use a text link.
 
 {% endcolumn %}
 
@@ -46,13 +46,30 @@ Use a button to launch a process or initiate an action. Do not use buttons for n
 
 ## Best practices
 
-- Button Text style should always be Title Case where the first letter of each word is capitalized.
-- Buttons should always use the labeling convention of "Noun Verb", with no articles. For example, use "Create Server", not “Create a Server”.
-- Keep your text labels as short as possible while also fully communicating what action the button will trigger.
-- When choosing which button size to use, consider the context. In most cases, use a standard button.
-- There should only be one primary button in a form.
-- The primary button should always represent an inherently apparent next step such as **Create Server**, **Add Selected**, **Confirm Deletion**, **Submit**, or **Next**.
-- If you have multiple buttons on a page, there can only be one primary button.
+Consider the following best practices when you construct a button:
+
+- Use title case when you label a button. Capitalize the first letter of each word in a button label.
+- Use a **noun verb** combination when you label a button. Do not include articles. For example, use **Create Server**. Do not use **Create a Server**.
+- Write button labels in as few words as possible while still communicating the action the button triggers.
+- Consider the context when you size a button. For most desktop use cases, use a **standard button** size.   To accommodate the ideal touch target size in mobile devices, use a **large button**.  Use a **compact button** when you have severe space constraints, such as a button in a table or in a dashboard widget.
+- A page can contain only one primary button.
+- The primary button should always represent a next step, such as **Create Server**, **Add Selected**, **Confirm Deletion**, **Submit**, or **Next**.
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+## Specifications
+
+Use the following specifications when you construct a simple button.
 
 {% endcolumn %}
 
@@ -66,25 +83,19 @@ Use a button to launch a process or initiate an action. Do not use buttons for n
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-## Specifications
+### Composition
 
-When using a simple button, specify both weight and size.
+A simple button contains the following elements:
 
-- Weights:   
-    - Primary
-    - Secondary
-    - Tertiary
-- Sizes:
-    - Large
-    - Standard
-    - Compact
+- **Container (required)**: The container holds the call-to-action text.
+- **Call-to-action (required)**: The call-to-action text describes the act initiated when the user clicks the button.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"The three button weights"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-simple.svg"/>
+{% figure [caption:"Simple button composition"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/simple-buttons/buttons-simple-composition.png" width="280"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -101,18 +112,14 @@ When using a simple button, specify both weight and size.
 
 ### Style
 
-For most desktop use cases, you should use a standard button size.  
-
-Large buttons should be used in mobile designs to accommodate the ideal touch target size. 
-
-Compact buttons should be used when you have severe space constraints, such as inside of a table or in a dashboard widget.
+Use these specifications when you construct a simple button.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Button spacing specs"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-specs.svg"/>
+{% figure [caption:"Simple button style"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/simple-buttons/buttons-simple-style.png" width="404"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -129,14 +136,14 @@ Compact buttons should be used when you have severe space constraints, such as i
 
 ### Spacing
 
-Spacing text here...
+Use these spacing guidelines when you construct a simple button.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Button spacing specs"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-specs.svg"/>
+{% figure [caption:"Simple button spacing"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/simple-buttons/buttons-simple-spacing.png" width="303"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -151,18 +158,18 @@ Spacing text here...
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-## Primary buttons
+## Primary button
 
-- Use the primary button to prompt the user to take action.
-- Use only one primary button per page.
-- Simple buttons, drop-down buttons, and split drop-down buttons all share the same properties for state changes.
+A primary button indicates the primary action on a page. Use only one primary button per page.
+
+A primary button can exist in the following states: default, hover, pressed, disabled.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Button spacing specs"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-primary.svg"/>
+{% figure [caption:"Primary button"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/simple-buttons/buttons-simple-variations-primary.png" width="411"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -177,18 +184,18 @@ Spacing text here...
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-## Secondary buttons
+## Secondary button
 
-- The secondary button can be used alone or in conjuction with a primary button or a tertiary button.
-- Use secondary buttons when there are multiple buttons on the same screen.
-- Simple buttons, drop-down buttons, and split drop-down buttons all share the same properties for state changes.
+You can use a secondary button alone or with a primary button or tertiary button. Use a secondary button when there are multiple buttons on a page.
+
+A secondary button can exist in the following states: default, hover, pressed, disabled.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Button spacing specs"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-secondary.svg"/>
+{% figure [caption:"Secondary button"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/simple-buttons/buttons-simple-variations-secondary.png" width="414"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -203,20 +210,63 @@ Spacing text here...
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-## Tertiary buttons
+## Tertiary button
 
-- The tertiary button can be used alone or in conjuction with other buttons.
-- Use alone when you want to deemphasize the action or when you have a list of actions.
-- Use in conjunction with a primary or secondary button when there are two options, but you want to de-emphasize one of them. For example, in a dialog box with two options, use “Submit” (primary) and “Cancel” (tertiary).
-- The primary button sizing rules also apply to tertiary buttons.
-- Tertiary buttons have a transparent background.
+You can use a tertiary button alone or with other button types.
+
+- Use a tertiary button alone when you want to de-emphasize an action or when you have a list of actions.
+- Use a tertiary button with a primary button or secondary button when there are two options and you want to de-emphasize one of them. For example, in a dialog box with two options, use **Submit** (primary) and **Cancel** (tertiary).
+
+A tertiary button has a transparent background and can exist in the following states: default, hover, pressed, disabled.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Button spacing specs"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-tertiary.svg"/>
+{% figure [caption:"Tertiary button"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/simple-buttons/buttons-simple-variations-tertiary.png" width="350"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+## States
+
+This section describes the simple button loading state and focus state.
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+### Loading
+
+When a button loads, a spinner icon appears 8px to the right of the loading text. Size the spinner icon so that it is the same size as the button label text. For example, if the button label text size is 16px, then the spinner icon is 16px tall and 16px wide.
+
+For more information about the loading spinner, see [loading indicator]({{site.baseurl}}/components/loading-indicators.html).
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"Simple button loading state"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/simple-buttons/buttons-simple-states-loading.png" width="295"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -231,21 +281,16 @@ Spacing text here...
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-## Loading states
+### Focus
 
-- The loading icon animation should rotate time: 0.8 sec/revolution.
-- For further information regarding the loading pattern, see the [loading pattern]({{site.baseurl}}/components/loading-indicators.html).
+When in focus, a button takes on the focus properties as outlined in [focus states]({{site.baseurl}}/style/focus-states.html).
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Button (loading state) spacing"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-loading-1.svg"/>
-{% endfigure %}
-
-{% figure [caption:"Button (loading state) specifications for primary, secondary, and tertiary weights."] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-loading-2.svg"/>
+{% figure [caption:"Simple button focus state"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/simple-buttons/buttons-simple-states-focus.png" width="105"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -262,30 +307,23 @@ Spacing text here...
 
 ## Button sets
 
-- Buttons should be aligned in order of primary, secondary, and tertiary.
-- Button sets are most often used in Popovers, Modals or Create/Edit Forms to group the submit, back or next, and cancel buttons.
-- A button set should never contain more than one primary button.
-- Avoid using split buttons in a button set as it would complicate what should be a simple decision.
-- The cancel action must always be an `hxBtn.hxLink` as shown in the example.
+A button set enables the user to select one object from a group of objects.
 
-When submitting forms:
+Consider the following best practices when constructing a button set:
 
-- Disable all buttons, and change the primary button to loading state.
+- Button sets are most often used to group submit, back or next, and cancel buttons in popovers, modals, and create and edit forms.
+- Align buttons in a button set in order of primary, secondary, and tertiary buttons.
+- Do not add more than one primary button to a button set.
+- Do not use split buttons in a button set. Split buttons can complicate what should be a simple decision for the user.
+- The cancel action must always be an `hxBtn.hxLink`.
+- When the user submits a form, disable all buttons and change the primary button to loading state.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Button set spacing"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-sets-1.svg"/>
-{% endfigure %}
-
-{% figure [caption:"Primary, secondary and tertiary button set"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-sets-2.svg"/>
-{% endfigure %}
-
-{% figure [caption:"Primary and tertiary button set"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-sets-3.svg"/>
+{% figure [caption:"Button sets"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/simple-buttons/buttons-simple-variations-buttonsets.png" width="439"/>
 {% endfigure %}
 
 {% endcolumn %}
