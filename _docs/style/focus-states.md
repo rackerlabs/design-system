@@ -148,7 +148,7 @@ Examples of this are tertiary buttons, hyperlinks, and button icons such as the 
 
 ### Hyperlinks and text
 
-Hyperlinks and focusable text are styled using the standard glow, with a 2px corner radius. The height of the glow is determined the line height of the text. 
+Hyperlinks and focusable text are styled using the standard glow, with a 2px corner radius. The height of the glow is determined by the line height of the text. 
 
 #### Multi-line text focus
 If the text breaks across multiple lines, indicate continuation by using 0px corners at the end of the preceding line and the start of the subsequent line.
@@ -377,7 +377,7 @@ Some elements, such as [Choice Tiles]() feature a clickable container. In these 
 
 ### Focusable child elements
 
-There are some instances in which a user can set focus on the child emement of focusable parent element without that parent losing focus.
+There are some instances in which a user can set focus on the child emement of a focusable parent element and that parent does not lose focus.
 
 Using the search input as an example, the clear button (child) takes on a dotted, 2px rounded border with the standard Cyan 700 focus color.
 
