@@ -44,7 +44,7 @@ Use serial commas (also called Oxford commas).
 | Use | Don't use  |
 | --- | --- |
 | The success of the internet as a public resource depends upon interoperability, innovation, and decentralized participation worldwide. | The success of the internet as a public resource depends upon interoperability, innovation and decentralized participation worldwide. |
-{: class="ui very basic collapsing celled table"}
+{: class="hxTable"}
 
 {% endfigure %}
 
@@ -108,8 +108,8 @@ Consider the following best practices when you use ellipses:
 - Use ellipses with Button or Menu components when the action requires additional user input, usually with a dialog, an alert, or a move to another window or part of the UI.
 - Do not use an ellipsis in a link to indicate that more information is available at the destination.
 - In general, do not use ellipses in body copy.
-- **Best practice for truncating ellipses**
-
+- To truncate text in the middle of a word or phrase, the total length of the pattern is 31 characters comprised of 14 characters on either side of the ellipses in the middle.
+- If the amount of text exceeds the space available in the container, then use end truncation. Place a minimum of seven characters before the ellipses. The maximum number of characters you can place before the ellipses is equal to the length of the container minus three characters.
 {% endcolumn %}
 
 </div>

@@ -4,10 +4,10 @@ layout: docs
 parent: Text
 category: style
 usage: |
-  Alerts and messages inform users about progress that they make or problems that they encounter in the UI. They must be clearly written, be free from grammar and punctuation problems, and follow the style and terminology for guidelines in this guide. Users gain understanding from the content of the messages (text, icons, color) as well as the context (where on the screen and when in the user flow the messages appear). So users can recover quickly, alerts and messages should provide essential information to help them understand and address issues.
+  Alerts and messages inform users about progress that they make or problems that they encounter in the UI. They must be clearly written, be free from grammar and punctuation problems, and follow the style and terminology for guidelines in this section. Users gain understanding from the content of the messages (text, icons, color) as well as the context (where on the screen and when in the user flow the messages appear). So users can recover quickly, alerts and messages should provide essential information to help them understand and address issues.
 resource: true
 status: complete
-last-modified: 2018-06-01
+last-modified: 2018-06-05
 ---
 
 {% include toc.html %}
@@ -24,10 +24,8 @@ When writing alerts and messages, use the following rules:
 
 - Be courteous and do not blame the user.
 - Use present tense to describe conditions that currently exist, or use past tense to describe a specific event that occurred in the past.
-- Guide users with the imperative voice (Enter a valid email.) or the active voice (The Control Panel is not responding.) where possible.
-- Keep sentences short but helpful.
-- Alerts and messages must be accurate, complete, and helpful.
-- Adhere to the guidelines in the Messages section of the Rackspace Style Guide for writing alerts and messages.
+- Where possible, guide users with the imperative voice (Enter a valid email.) or the active voice (The Control Panel is not responding.).
+- Alerts and messages must be short, accurate, complete, and helpful.
 
 {% endcolumn %}
 
@@ -43,8 +41,9 @@ When writing alerts and messages, use the following rules:
 
 ## Message guidelines and examples
 
-Use the guidelines in this section if you write the message text for a product.
+Use the guidelines in this section when you write the message text for a product.
 
+{% figure [caption:"Amplified voice and tone attributes"] [class:"image bg-light border"] %}
 | Guideline | Example  | Comments |
 | --- | --- | ---|
 | Use complete sentences, when possible. | Use: The authentication <br/>token isn't valid. <br/> <br/>Avoid: Invalid authentication <br/>token | Include articles (a, an, the) to make the sentence complete. If possible, use active voice. <br/> <br/>**Note**: Message text that serves as a heading or label (such as Elapsed:hh:mm:ss, which indicates elapsed time) is acceptable as a fragment. |
@@ -55,6 +54,8 @@ Use the guidelines in this section if you write the message text for a product.
 | Use n to represent an unspecified or generic number. Use x to represent an unknown version number. | The rate limit has been reached (n requests in 24 hours). Please try again later. <br/> <br/>This option is available only for Ubuntu 12.x. | None.|
 | Avoid blaming the user. | Use: The request couldn't be understood by the server because of malformed syntax. <br/> <br/>Avoid: You entered bad request syntax. | Rewrite messages that imply fault on the part of the user. Use passive voice when necessary. |
 | When possible, use positive statements. | Use: The given limit must be positive and must be less than 50. <br/> <br/>Avoid: The given limit can't be negative and can't be greater than 50. | Positive statements are easier to understand than negative statements. |
+{: class="hxTable"}
+{% endfigure %}
 
 {% endcolumn %}
 
@@ -73,15 +74,15 @@ Use the guidelines in this section if you write the message text for a product.
 The following types are messages are the most common:
 
 - **Error**: Use error messages to inform users that a problem in the system or application occurred. Users or systems cannot continue their tasks until the problem is resolved.
-  - Example: `The file could not be found.`.
+  - Example: `The file could not be found.`
 - **Warning**: Use warning messages to alert users about a condition that might cause problems in the future. The user can generally continue with their tasks, but those tasks might not be completed in a way that is expected.
-  - Example: `The service could not open all documents. Some documents were skipped.`.
+  - Example: `The service could not open all documents. Some documents were skipped.`
 - **Information**: Use information messages to provide information about normal conditions and operations.
-  - Example: `Updates are being processed.`.
+  - Example: `Updates are being processed.`
 - **Confirmation**: Use confirmation messages to ask users to verify an action that the users or sometimes the system initiated. Also, use confirmation prompts to ask users for additional information to complete a step or to ask whether to save information for future use.
-  - Example: `Do you want to close this document without saving your changes?`.
+  - Example: `Do you want to close this document without saving your changes?`
 - **Success**: Use success messages to tell users that an action successfully completed.
-  - Example: `Server successfully deleted.`.
+  - Example: `Server successfully deleted.`
 
 {% endcolumn %}
 

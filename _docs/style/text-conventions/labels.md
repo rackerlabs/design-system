@@ -36,31 +36,11 @@ Refer to the following table when writing action labels:
 | Manage | Modifies existing object settings or options. |
 | Save | Saves data entered when you create an object. |
 | Update | Automatically changes the data of an existing object. |
-{: class="ui very basic collapsing celled table"}
-
+{: class="hxTable"}
 {% endfigure %}
 
 {% endcolumn %}
 
 </div>
 
-</section>
-
-<section class="static-section"  markdown="1">
-
-<div class="hxRow" markdown="1">
-
-{% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
-
-## Style
-Use this style for form input labels and as titles for radio groups or sets of checkboxes. Note that checkbox and radio button labels intentionally do not match this style.
-
-*Do not use labels on backgrounds darker than Gray 25 (#fafafa) or it will not pass accessibility standards.*
-
-{% endcolumn %}
-
-{% column right:"hxCol-8 hxCol-xs-12 hxCol-sm-12 hxCol-md-8 hxCol-lg-8" %}
-{% include type-styles.html htmlexample='<label class="hxLabel">Label</label>' typeface="Roboto" weight="Medium (500)" fontsize="14px / 0.875rem" csscode="Gray 750" hex="#6b6b6b" linespace="1.5"  %}
-{% endcolumn %}
-</div>
 </section>

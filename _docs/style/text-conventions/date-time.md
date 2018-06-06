@@ -7,17 +7,14 @@ usage: |
   Rackspace is a global company, so it is critical to ensure that we represent time as clearly and consistently as possible to our customers.
 resource: true
 status: complete
-last-modified: 2018-06-04
+last-modified: 2018-06-05
 ---
-
-{% include toc.html %}
-
 
 {% include toc.html %}
 
 <section class="static-section"  markdown="1">
 
-<div class="hxRow">
+<div class="hxRow" markdown="1">
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
@@ -53,10 +50,9 @@ Always use human-readable, international-friendly formatting when displaying dat
 
 Consider the following best practices when formatting time:
 
-- Timezone control flow: Always convert to local time based on user preference. If unavailable, use assumed time based on browser. Only use UTC when no timezone preference can be determined or standardization across timezones is necessary.
-- Always convert to local time based on user preference. If unavailable, use assumed time based on browser. Only use UTC when no timezone preference can be determined or standardization across timezones is necessary.
+- When possible, display the local time as specified in user preferences. If time preferences have not been set, use the assumed time based on the browser. Only use UTC when no timezone preference can be determined or standardization across timezones is necessary.
 - Always offer users the ability to convert to UTC.
-- Add UTC offset to timezone only when that specificity is important (for example, "CST (UTC-6)").
+- Add a UTC offset to the timezone only when that level of specificity is important (for example, **CST (UTC-6)**).
 
 {% endcolumn %}
 
