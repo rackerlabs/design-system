@@ -67,6 +67,39 @@ Consider the following best practices when you construct a button:
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
+## Button labels
+
+Use consistent labels across an action for a UI.
+
+Refer to the following table when writing button labels:
+
+{% figure [caption:"Button action labels"] [class:"image bg-light border"] %}
+| Action label | Typical usage  |
+| --- | --- |
+| Create | Creates a new object. |
+| Delete | Destroys an existing object. The label can include the object being deleted, such as Delete Image. |
+| Download | Transfers a file to a user's local system. |
+| Edit | Allows data or values to be modified. Edit does not imply the object is automatically updated. In most cases, you still must update in order for the change to occur. |
+| Filter | Changes view to only include objects that match the filter criteria. |
+| Import | Includes objects from an external source. |
+| Manage | Modifies existing object settings or options. |
+| Save | Saves data entered when you create an object. |
+| Update | Automatically changes the data of an existing object. |
+{: class="hxTable"}
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
 ## Specifications
 
 Use the following specifications when you construct a simple button.
