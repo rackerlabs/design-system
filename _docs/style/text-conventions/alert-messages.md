@@ -1,11 +1,11 @@
 ---
 title: Alert and message guidelines
 layout: docs
-parent: Text
-category: style
+parent: Text Conventions
+category: Style
 usage: |
   Alerts and messages inform users about progress that they make or problems that they encounter in the UI. They must be clearly written, be free from grammar and punctuation problems, and follow the style and terminology for guidelines in this section. Users gain understanding from the content of the messages (text, icons, color) as well as the context (where on the screen and when in the user flow the messages appear). So users can recover quickly, alerts and messages should provide essential information to help them understand and address issues.
-resource: true
+resource: false
 status: complete
 last-modified: 2018-06-05
 ---
@@ -20,7 +20,7 @@ last-modified: 2018-06-05
 
 ## General guidelines
 
-When writing alerts and messages, use the following rules:
+When writing alerts and messages, consider the following guidelines:
 
 - Be courteous and do not blame the user.
 - Use present tense to describe conditions that currently exist, or use past tense to describe a specific event that occurred in the past.

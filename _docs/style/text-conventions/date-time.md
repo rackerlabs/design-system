@@ -1,11 +1,11 @@
 ---
 title: Date and time
 layout: docs
-parent: Text
-category: style
+parent: Text Conventions
+category: Style
 usage: |
   Rackspace is a global company, so it is critical to ensure that we represent time as clearly and consistently as possible to our customers.
-resource: true
+resource: false
 status: complete
 last-modified: 2018-06-05
 ---

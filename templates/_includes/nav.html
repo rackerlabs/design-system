@@ -10,12 +10,25 @@
   <a href="{{site.url}}/" {%- if currenturl == "/" -%} class="current" {%- else -%} {%- endif -%}>HOME</a>
   {%- for navItem in site.data.navigation -%}
     {%- assign currentNav = navItem.name | slugify -%}
-    {%- if currentNav != "components" -%}
       <hx-disclosure aria-controls="{{ navItem.name | slugify }}">
         {{navItem.display}}
         <hx-icon class="toggle-icon" type="angle-down"></hx-icon>
       </hx-disclosure>
-      <hx-reveal id="{{ navItem.name | slugify }}" {% if page.url contains currentNav %}open{% endif %}>
+      <hx-reveal id="{{ navItem.name | slugify }}" {% if page.url contains currentNav %}open{% endif %}>   
+      {%- if currentNav == "style" -%}
+        {%- for article in site.docs -%}
+          {%- if article.category == "Style" -%}
+            {%- if article.category == navItem.name and article.resource == true -%}
+            <a href="{{site.url}}{{article.url}}.html" {%- if currenturl contains article.url or page.parent == article.title -%} class="current" {%- endif -%}>{{article.title}}</a>
+            {%- endif -%}
+          {%- endif -%}
+        {%- endfor -%}
+      {%- elsif currentNav == "components" -%}
+        {%- for famItem in site.data.families -%}
+          {%- assign currentFam = famItem.parent | slugify -%}
+          <a href="{{site.url}}/components/{{currentFam}}.html" {%- if currenturl contains currentFam -%} class="current"{%- elsif page.parent contains famItem.parent -%} class="current"{%- elsif itemparent contains famItem.parent -%} class="current"{%- endif -%} id="{{currentFam}}">{{famItem.display}}</a>
+        {%- endfor -%}
+      {%- else -%}
         {%- for collection in site.collections -%}
           {%- assign theLabel = collection.label -%}
           {%- for page in site.[theLabel] -%}
@@ -24,19 +37,8 @@
             {%- endif -%}
           {%- endfor -%}
         {%- endfor -%}
+      {%- endif -%}
       </hx-reveal>
-    {%- else -%}
-      <hx-disclosure aria-controls="{{ navItem.name | slugify }}">
-        {{navItem.display}}
-        <hx-icon class="toggle-icon" type="angle-down"></hx-icon>
-      </hx-disclosure>
-      <hx-reveal id="{{ navItem.name | slugify }}" {% if page.url contains currentNav %}open{% endif %}>
-        {%- for famItem in site.data.families -%}
-          {%- assign currentFam = famItem.parent | slugify -%}
-          <a href="{{site.url}}/components/{{currentFam}}.html" {%- if currenturl contains currentFam -%} class="current"{%- elsif page.parent contains famItem.parent -%} class="current"{%- elsif itemparent contains famItem.parent -%} class="current"{%- endif -%} id="{{currentFam}}">{{famItem.display}}</a>
-        {%- endfor -%}
-      </hx-reveal>
-    {%- endif -%}
   {%- endfor -%}
   <a href="{{site.url}}/resources/index.html" {%- if currenturl contains "/resources" -%} class="current" {%- else -%} {%- endif -%}>RESOURCES</a>
   <a href="{{site.url}}/status.html" {%- if currenturl == "/status" -%} class="current" {%- else -%} {%- endif -%}>STATUS</a>

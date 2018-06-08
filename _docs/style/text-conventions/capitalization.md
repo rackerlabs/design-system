@@ -1,11 +1,11 @@
 ---
 title: Capitalization
 layout: docs
-parent: Text
-category: style
+parent: Text Conventions
+category: Style
 usage: |
   User interface (UI) elements use a combination of title-style capitalization and sentence-style capitalization. When you use different capitalization styles for different types of content you can improve scannability, organize information, and guide users to key actions. It is important to apply these capitalization guidelines consistently to make the UI clear and succinct.
-resource: true
+resource: false
 status: complete
 last-modified: 2018-06-05
 ---

@@ -1,11 +1,11 @@
 ---
 title: Lists
 layout: docs
-parent: Text
-category: style
+parent: Text Conventions
+category: Style
 usage: |
   Lists help break up large blocks of text, make complex articles and blog posts easier to grasp, and make key information stand out.
-resource: true
+resource: false
 status: complete
 last-modified: 2018-06-04
 ---

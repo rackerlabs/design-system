@@ -1,11 +1,11 @@
 ---
 title: Voice and tone
 layout: docs
-parent: Text
-category: style
+parent: Text Conventions
+category: Style
 usage: |
   Use these guidelines to write in-product text that is friendly, helpful, and inspires confidence.
-resource: true
+resource: false
 status: complete
 last-modified: 2018-06-01
 ---

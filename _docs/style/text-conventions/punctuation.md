@@ -1,11 +1,11 @@
 ---
 title: Punctuation
 layout: docs
-parent: Text
-category: style
+parent: Text Conventions
+category: Style
 usage: |
   Use punctuation consistently throughout a user interface to maintain a user-friendly and professional look.
-resource: true
+resource: false
 status: complete
 last-modified: 2018-06-01
 ---

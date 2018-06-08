@@ -1,11 +1,11 @@
 ---
 title: General writing guidelines
 layout: docs
-parent: Text
-category: style
+parent: Text Conventions
+category: Style
 usage: |
   These general writing guidelines includes rules for how to write instructions and descriptions that appear in a Control Panel. Consult these guidelines to write text that is clear, helpful, and grammatically correct.
-resource: true
+resource: false
 status: complete
 last-modified: 2018-06-01
 ---
@@ -115,14 +115,27 @@ Unless an abbreviation is common, spell out the words of the abbreviation on the
 
 ## Maintain parallel construction
 
-Use a parallel structure to present options. Don’t ask users to choose from unrelated values.
+Parallel construction means that each part of a sentence uses the same grammatical structure. When writing a series, it is important that each element in the series performs the same function, that of the object of the verb. For example:
 
-{% figure [caption:"Parallel construction example"] [class:"image bg-light border"] %}
+{% figure [caption:"Provide context example"] [class:"image bg-light border"] %}
 | Use | Avoid  |
 | --- | --- |
-| The radio button labels are Always, Only with streaming, and Never. | The radio button labels are Always, Only with streaming, and Blocked. |
+| This stack includes a Cloud Load Balancer, a Cloud Database, and a Master server (plus optional secondary servers). | This stack includes a Cloud Load Balancer, Cloud Database, and a Master server (plus optional secondary servers). |
 {: class="hxTable"}
 {% endfigure %}
+
+In the correct example, notice the **a** before Cloud Database.
+
+Parallel structure also applies to options you present to users. Don't ask users to choose from unrelated values. For example, when providing radio button options:
+
+ {% figure [caption:"Provide context example"] [class:"image bg-light border"] %}
+ | Use | Avoid  |
+ | --- | --- |
+ | **Always**, **Only with streaming**, and **Never**. | **Always**, **Only with streaming**, and **Blocked**. |
+ {: class="hxTable"}
+ {% endfigure %}
+
+In this example, **Always** and **Never** are opposites. **Always** and **Blocked** are not opposites.
 
 {% endcolumn %}
 
@@ -138,7 +151,7 @@ Use a parallel structure to present options. Don’t ask users to choose from un
 
 ## Provide context
 
-Provide meaningful descriptions in the interface. Don't use Rackspace-created terms as a substitute for clearly explaining options.
+Provide meaningful descriptions for key features and state their importance to help users understand the benefits. Don't use Rackspace-created terms as a substitute for clearly explaining options.
 
 {% figure [caption:"Provide context example"] [class:"image bg-light border"] %}
 | Use | Avoid  |
@@ -159,16 +172,20 @@ Provide meaningful descriptions in the interface. Don't use Rackspace-created te
 
 {% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
 
-## User over program
+## Focus on user goals
 
-Explain how to use Rackspace features and options, not what a Rackspace service is doing.
+Create content that anticipates user needs and explains how a Rackspace feature or option helps the user accomplish a goal. Don't explain the technical details of what a Rackspace service is doing.
 
-{% figure [caption:"User over program example"] [class:"image bg-light border"] %}
+For example:
+
+{% figure [caption:"Focus on user goals"] [class:"image bg-light border"] %}
 | Use | Avoid  |
 | --- | --- |
-| Choose the default search engine to use in the address bar and search bar. | Choose your default search engine. Rackspace uses it in the location bar, search bar, and start page. |
+| Link your existing ObjectRocket account to your Rackspace Cloud account and get easy navigation between control panels. | When you link your existing ObjectRocket account to your Rackspace Cloud account the system provides multiple control panels for a single user ID. |
 {: class="hxTable"}
 {% endfigure %}
+
+Aligning in-product text with user goals requires that you understand the subtleties of your audience and how a feature supports what the user is trying to do.
 
 {% endcolumn %}
 
