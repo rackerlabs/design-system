@@ -4,11 +4,11 @@ parent: Inputs and Controls
 layout: component
 category: Components
 usage: >
-  Text here on what a drop-down button is...
+  A drop-down button is an element that reveals additional content when clicked by a user. There are two types of drop-down buttons: a basic drop-down button and a split drop-down button.
 preview-image: preview-images/buttons.svg
 status: stable
 resource: true
-last-modified: 2018-05-16
+last-modified: 2018-06-11
 helix-ui-css: true
 helix-ui-javascript: false
 ---
@@ -27,7 +27,9 @@ helix-ui-javascript: false
 
 ## When to use
 
-To include when to use drop-down vs. split drop-down vs. download/export..
+Use a basic drop-down button when there are multiple actions associated with a button but there is no designated primary action. When the user clicks a drop-down button, all actions appear in an actions menu.
+
+Use a split drop-down button when there are multiple actions associated with a button but only one primary action. The primary action is visible and available on the button itself, while the secondary actions are accessed through the drop-down menu. See the [actions menu]({{site.baseurl}}/components/actions-menu.html) for drop-down design specifications.
 
 {% endcolumn %}
 
@@ -41,15 +43,30 @@ To include when to use drop-down vs. split drop-down vs. download/export..
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-## Best practice
+## Best practices
 
-- Button Text style should always be Title Case where the first letter of each word is capitalized.
-- Buttons should always use the labeling convention of "Noun Verb", with no articles. For example, use "Create Server", not “Create a Server”.
-- Keep your text labels as short as possible while also fully communicating what action the button will trigger.
-- When choosing which button size to use, consider the context. In most cases, use a standard button.
-- There should only be one primary button in a form.
-- The primary button should always represent an inherently apparent next step such as **Create Server**, **Add Selected**, **Confirm Deletion**, **Submit**, or **Next**.
-- If you have multiple buttons on a page, there can only be one primary button.
+In addition to the best practices outlined in [simple buttons]({{site.baseURL}}/components/buttons.html), consider the following best practices when you construct a drop-down button:
+
+- While a drop-down button reduces the clutter on a page, drop-down buttons require the user to complete more steps. Consider listing all options as an alternative to concealing options within a button.
+- xxx.
+- xxx.
+- xxx.
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+## Basic drop-down button specifications
+
+Use the following specifications when you construct a basic drop-down button.
 
 {% endcolumn %}
 
@@ -63,16 +80,20 @@ To include when to use drop-down vs. split drop-down vs. download/export..
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-## Drop-down buttons
+### Composition
 
-A drop-down button is preferred when multiple actions are available, with no designated primary action. All actions are accessed through the drop-down menu.
+A basic drop-down button contains the following elements:
+
+- **Simple button (required)**: Refer to [simple buttons]({{site.baseURL}}/components/buttons.html) for more information about constructing a simple button.
+- **Angle down (required)**: The drop-down menu appears when the user clicks the angle down icon.
+- **Menu (required)**: The menu contains the list of actions from which the user can select.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"The drop-down button variation"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/drop-buttons-hero.svg"/>
+{% figure [caption:"Basic drop-down button composition"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/drop-down-buttons/buttons-dropdown-composition.png" width="397"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -87,19 +108,16 @@ A drop-down button is preferred when multiple actions are available, with no des
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Specifications
+### Style
 
-- Drop-down buttons have the same size specifications as simple buttons.
-- The secondary button can be used in conjunction with the primary button or when there are multiple buttons on the same screen.
-- The same sizing rules apply to both secondary and primary buttons.
-- Drop-down buttons and split drop-down buttons feature the same state changes as simple buttons. Refer to [simple button]({{page.url}}#simple-buttons) for specifications.
+Use these specifications when you construct a basic drop-down button.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Drop-down button specifications"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/drop-buttons-specs.svg"/>
+{% figure [caption:"Basic drop-down button style"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/drop-down-buttons/buttons-dropdown-style.png" width="487"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -114,16 +132,16 @@ A drop-down button is preferred when multiple actions are available, with no des
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-## Split drop-down buttons
+### Spacing
 
-Split drop-down buttons are preferred when more than one action is associated with a button. The primary action is visible and available on the button itself, while the secondary actions are accessed through the drop-down menu. See the [actions menu]({{site.baseurl}}/components/actions-menu.html) for drop-down design specifications.
+In addition to the spacing specifications documented in [simple buttons]({{site.baseURL}}/components/buttons.html), use these spacing guidelines when you construct a basic drop-down button.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"The split drop-down button variation"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/split-drop-buttons-hero.svg"/>
+{% figure [caption:"Basic drop-down button spacing"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/drop-down-buttons/buttons-dropdown-spacing.png" width="278"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -135,21 +153,12 @@ Split drop-down buttons are preferred when more than one action is associated wi
 <section class="static-section" markdown="1">
 
 <div class="hxRow" markdown="1">
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Specifications
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-- Split drop-down buttons have the same size specifications as simple buttons.
-- The secondary button can be used in conjunction with the primary button or when there are multiple buttons on the same screen.
-- The same sizing rules apply to both secondary and primary buttons.
+## Split drop-down button specifications
 
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-{% figure [caption:"Split drop-down button specifications"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/split-drop-buttons-specs.svg"/>
-{% endfigure %}
+Use the following specifications when you construct a split drop-down button.
 
 {% endcolumn %}
 
@@ -163,21 +172,19 @@ Split drop-down buttons are preferred when more than one action is associated wi
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-## Download or export buttons
+### Composition
 
-- Download links are **always** formatted as: Download [noun] as [format].
-- Use the word **Download** because there is no ambiguity about the destination (the user's platform). The word focuses on the user's benefit because the downloaded object becomes the user's.
-- Download links come in 4 layouts. The preferred layouts are the 1- and 2+- Download options
-- Use a condensed button variation in situations where space is too limited to use one of the preferred options.
-- The icon-only variation should be limited to use in a toolbar.
+A split drop-down button contains the following elements:
 
+- **Drop-down button (required)**: See [basic drop-down button specifications]({{page.url}}#Basic-drop-down-button-specifications) for more information about constructing a basic drop-down button.
+- **Divider (required)**: A divider separates the button label and the angle down icon.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Download button layouts"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/download-buttons-overview.png" width="571"/>
+{% figure [caption:"Split drop-down button composition"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/drop-down-buttons/buttons-dropdown-split-composition.png" width="337"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -189,21 +196,60 @@ Split drop-down buttons are preferred when more than one action is associated wi
 <section class="static-section" markdown="1">
 
 <div class="hxRow" markdown="1">
+
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Specifications
+### Style
 
-The specs are the same as those used in simple buttons and dropdown buttons, except a Download icon is placed before the button label.
-
-In most situations, download buttons should be secondary, but when downloading is the primary action on a page, a primary button may be used.
+Use these specifications when you construct a split drop-down button.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Specifications for download links"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/download-buttons-specs.png" width="571"/>
+{% figure [caption:"Split drop-down button style"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/drop-down-buttons/buttons-dropdown-split-style.png" width="401"/>
 {% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+### Spacing
+
+In addition to the spacing specifications documented in [simple buttons]({{site.baseURL}}/components/buttons.html), use these spacing guidelines when you construct a split drop-down button.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"Split drop-down button spacing"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/drop-down-buttons/buttons-dropdown-split-spacing.png" width="287"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+## States
+
+Basic drop-down buttons and split drop-down buttons feature the same state changes as simple buttons. Refer to [simple buttons]({{site.baseURL}}/components/buttons.html) for specifications.
 
 {% endcolumn %}
 
