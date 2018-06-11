@@ -4,7 +4,7 @@ layout: docs
 parent: Text Conventions
 category: Style
 usage: |
-  A label is a graphical control element that displays text on control panel page. Use a label to identify a text input control, navigation menu item, and tables rows and columns. A label can be interactive, as is the case with a button control, or static, like the name of a checkbox or radio button.
+  A label is a graphical element that displays text on control panel page. Use a label to identify sections on a page and navigation menu items.
 resource: false
 status: complete
 last-modified: 2018-06-01
@@ -18,16 +18,19 @@ last-modified: 2018-06-01
 
 {% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
 
-## Content labels
+## Menu labels
 
-Content labels are any labels on a page or a section of a page. Page titles, section titles, and subsection titles are examples of content labels.
+A menu contains menu items that users use to navigate the pages of a control panel.
 
-When writing content labels, consider the following guidelines:
+Consider the following guidelines when labeling menu items:
 
-- xxxxx
-- xxxxxx
-- xxxxxx
-- xxxxxx
+- Label menu items concisely and accurately.
+- Avoid long lists of menu items. Limit the menu to no greater than seven menu items.
+- Use groups to organize longer lists of menu items.
+- Organize menu item groups logically.
+- If possible, limit groups to five menu items. Seven is the upper limit of the number of menu items you can include in a group.
+- If multiple groups have only one item, then rethink the menu item naming convention.
+- When using groups, each menu item must belong to a group. Orphan menu items are not permitted.
 
 {% endcolumn %}
 
@@ -41,20 +44,16 @@ When writing content labels, consider the following guidelines:
 
 {% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
 
-## Menu labels
+## Content labels
 
-xxxxxx
+Content labels are any labels on a page or a section of a page. Page titles, section titles, and subsection titles are examples of content labels.
 
-Menu labels possess the following characteristics:
+When writing content labels, consider the following guidelines:
 
-- Label menu items concisely and accurately.
-- Avoid long lists of menu items. Limit the menu to no greater than seven menu items.
-- Use groups to organize longer lists of menu items.
-- Organize menu item groups logically.
-- If possible, limit groups to five menu items. Seven is the upper limit of the number of menu items you can include in a group.
-- If multiple groups have only one item, then rethink the menu item naming convention.
-- When using groups, each menu item must belong to a group. Orphan menu items are not permitted.
-
+- Label content areas concisely. Use fewer words in a label to help the scannability of the content on a page.
+- Write accurate labels that reflect the content the label introduces.
+- Write descriptive labels. Descriptive labels communicate better with users than non-descriptive labels.
+- Use parallel construction when labeling the sections of a control panel.
 
 {% endcolumn %}
 
