@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/buttons.svg
 status: stable
 resource: true
-last-modified: 2018-06-11
+last-modified: 2018-06-12
 helix-ui-css: true
 helix-ui-javascript: false
 ---
@@ -29,7 +29,7 @@ helix-ui-javascript: false
 
 Use a basic drop-down button when there are multiple actions associated with a button but there is no designated primary action. When the user clicks a drop-down button, all actions appear in an actions menu.
 
-Use a split drop-down button when there are multiple actions associated with a button but only one primary action. The primary action is visible and available on the button itself, while the secondary actions are accessed through the drop-down menu. See the [actions menu]({{site.baseurl}}/components/actions-menu.html) for drop-down design specifications.
+Use a split drop-down button when there are multiple actions associated with a button but only one primary action. The primary action is visible and available on the button, while the secondary actions are accessed through the drop-down menu. See the [actions menu]({{site.baseurl}}/components/actions-menu.html) for drop-down menu specifications.
 
 {% endcolumn %}
 
@@ -45,7 +45,7 @@ Use a split drop-down button when there are multiple actions associated with a b
 
 ## Best practices
 
-In addition to the best practices outlined in [simple buttons]({{site.baseURL}}/components/buttons.html), consider the following best practices when you construct a drop-down button:
+In addition to the best practices outlined in [simple buttons]({{site.baseURL}}/components/buttons.html) and [actions menu]({{site.baseURL}}/components/actions-menu.html), consider the following best practices when you construct a drop-down button:
 
 - While a drop-down button reduces the clutter on a page, drop-down buttons require the user to complete more steps. Consider listing all options as an alternative to concealing options within a button.
 - xxx.
@@ -63,6 +63,8 @@ In addition to the best practices outlined in [simple buttons]({{site.baseURL}}/
 <div class="hxRow"  markdown="1">
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+<a name="basic-specs"></a>
 
 ## Basic drop-down button specifications
 
@@ -134,7 +136,7 @@ Use these specifications when you construct a basic drop-down button.
 
 ### Spacing
 
-In addition to the spacing specifications documented in [simple buttons]({{site.baseURL}}/components/buttons.html), use these spacing guidelines when you construct a basic drop-down button.
+In addition to the spacing specifications documented in [simple buttons]({{site.baseURL}}/components/buttons.html) and [actions menu]({{site.baseURL}}/components/actions-menu.html), use these spacing guidelines when you construct a basic drop-down button.
 
 {% endcolumn %}
 
@@ -176,7 +178,7 @@ Use the following specifications when you construct a split drop-down button.
 
 A split drop-down button contains the following elements:
 
-- **Drop-down button (required)**: See [basic drop-down button specifications]({{page.url}}#Basic-drop-down-button-specifications) for more information about constructing a basic drop-down button.
+- **Drop-down button (required)**: See [basic drop-down button specifications](#basic-specs) for more information about constructing a basic drop-down button.
 - **Divider (required)**: A divider separates the button label and the angle down icon.
 
 {% endcolumn %}
@@ -225,7 +227,7 @@ Use these specifications when you construct a split drop-down button.
 
 ### Spacing
 
-In addition to the spacing specifications documented in [simple buttons]({{site.baseURL}}/components/buttons.html), use these spacing guidelines when you construct a split drop-down button.
+In addition to the spacing specifications documented in [simple buttons]({{site.baseURL}}/components/buttons.html) and [actions menu]({{site.baseURL}}/components/actions-menu.html), use these spacing guidelines when you construct a split drop-down button.
 
 {% endcolumn %}
 
