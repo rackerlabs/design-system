@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/buttons.svg
 status: stable
 resource: true
-last-modified: 2018-06-11
+last-modified: 2018-06-12
 helix-ui-css: true
 helix-ui-javascript: false
 ---
@@ -27,9 +27,9 @@ helix-ui-javascript: false
 
 ## When to use
 
-Add a button when you want the user to launch a process or initiate an action.
+Use a button when you want the user to launch a process or initiate an action.
 
-Do not use buttons for navigation. When the user needs to navigate from one page to another, use a text link.
+Do not use buttons for navigation. When the user needs to navigate from one page to another, use a [text link]({{site.baseURL}}/style/typography.html#link).
 
 {% endcolumn %}
 
@@ -49,7 +49,7 @@ Do not use buttons for navigation. When the user needs to navigate from one page
 Consider the following best practices when you construct a button:
 
 - Use title case when you label a button. Capitalize the first letter of each word in a button label.
-- Use a **noun verb** combination when you label a button. Do not include articles. For example, use **Create Server**. Do not use **Create a Server**.
+- Use a **verb noun** combination when you label a button. Do not include articles. For example, use **Create Server**. Do not use **Create a Server**.
 - Write button labels in as few words as possible while still communicating the action the button triggers.
 - Consider the context when you size a button. For most desktop use cases, use a **standard button** size.   To accommodate the ideal touch target size in mobile devices, use a **large button**.  Use a **compact button** when you have severe space constraints, such as a button in a table or in a dashboard widget.
 - A page can contain only one primary button.
@@ -69,9 +69,7 @@ Consider the following best practices when you construct a button:
 
 ## Button labels
 
-Use consistent labels across an action for a UI.
-
-Refer to the following table when writing button labels:
+Use consistent labels across an action for a UI. Refer to the following table when you write button labels:
 
 {% figure [caption:"Button action labels"] [class:"image bg-light border"] %}
 | Action label | Typical usage  |
@@ -98,7 +96,7 @@ Refer to the following table when writing button labels:
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 ## Specifications
 
@@ -152,7 +150,7 @@ Use these specifications when you construct a simple button.
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Simple button style"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/simple-buttons/buttons-simple-style.png" width="404"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/simple-buttons/buttons-simple-style.png" width="412"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -171,12 +169,14 @@ Use these specifications when you construct a simple button.
 
 Use these spacing guidelines when you construct a simple button.
 
+**Note**: Do not add internal padding to a tertiary button.
+
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Simple button spacing"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/simple-buttons/buttons-simple-spacing.png" width="303"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/simple-buttons/buttons-simple-spacing.png" width="377"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -219,7 +219,7 @@ A primary button can exist in the following states: default, hover, pressed, dis
 
 ## Secondary button
 
-You can use a secondary button alone or with a primary button or tertiary button. Use a secondary button when there are multiple buttons on a page.
+You can use a secondary button alone or with a primary button and/or tertiary button. Use a secondary button when there are multiple buttons on a page.
 
 A secondary button can exist in the following states: default, hover, pressed, disabled.
 
@@ -299,7 +299,7 @@ For more information about the loading spinner, see [loading indicator]({{site.b
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Simple button loading state"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/simple-buttons/buttons-simple-states-loading.png" width="295"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/simple-buttons/buttons-simple-states-loading.png" width="296"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -356,7 +356,7 @@ Consider the following best practices when constructing a button set:
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Button sets"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/simple-buttons/buttons-simple-variations-buttonsets.png" width="439"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/simple-buttons/buttons-simple-variations-buttonsets.png" width="316"/>
 {% endfigure %}
 
 {% endcolumn %}
