@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/radio-buttons.svg
 resource: true
 status: stable
-last-modified: 2017-11-04
+last-modified: 2018-06-13
 helix-ui-css: false
 helix-ui-javascript: false
 ---
@@ -17,26 +17,16 @@ helix-ui-javascript: false
 
 <section class="static-section" markdown="1">
 
-## Introduction
-
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-### When to use
+## When to use
 
 - Radio buttons should be used when a user has to select **only one option** in a list.
 - If multiple options can be selected, use [checkboxes]({{site.baseurl}}/components/checkboxes.html) instead.
 - Radio buttons are useful when you have a small set of options and want to show all of them. If you’re using more than five options, strongly consider the dropdown pattern.
 - Consider using a [switch]({{site.baseurl}}/components/switches.html) component if a singular input can be used to enable or disable a feature (in place of two yes/no radio buttons).
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-6-md hxSpan-6-lg" %}
-
-{% figure [caption="The radio button pattern"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/radio-buttons/radio-hero.png" width="432"/>
-{% endfigure %}
 
 {% endcolumn %}
 
@@ -48,9 +38,9 @@ helix-ui-javascript: false
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-12-md hxSpan-12-lg" %}  
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}  
 
-### Best practices
+## Best practices
 
 - Always use a label above the available options.
 - Keep the number of options to between two and five choices.
@@ -59,6 +49,11 @@ helix-ui-javascript: false
 - Radio buttons should only be used when the list can be vertical. If space is not available, consider a dropdown menu.
 - List options in an order that makes logical sense. Depending on the context, the order could be alphabetical or from most common to least common. For example, if listing accounts by name, list them alphabetically. In billing, paying the amount due should be listed above letting the user enter a custom payment amount.
 - Use checkboxes and radio buttons only to change settings, not as action buttons that make something happen.
+
+Consider the following best practices when you label a radio button:
+
+- Labels should start with a capital letter.
+- Labels should not have punctuation at the end, such as a period, unless more than one sentence is used.
 
 {% endcolumn %}
 
@@ -70,18 +65,20 @@ helix-ui-javascript: false
 
 ## Specifications
 
+Refer to the following specifications when you construct a radio button.
+
 <div class="hxRow" markdown="1">
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Composition
 
+A radio button consists of the following elements:
+
+- **xxxx (required)**: xxxxx
+- **xxxxx (required)**: xxxxx
+
 A radio button group consists of a section label, followed by pairs of radio buttons and radio button labels.
-
-#### Labeling
-
-- Labels should start with a capital letter.
-- Labels should not have punctuation at the end, such as a period, unless more than one sentence is used.
 
 {% endcolumn %}
 
@@ -103,7 +100,31 @@ A radio button group consists of a section label, followed by pairs of radio but
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-#### Spacing
+### Style
+
+Use these specifications when you construct a radio button.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"Radio button group composition"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/radio-buttons/radio-composition.png" width="404"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+### Spacing
 
 A title should always be located above the radio buttons. More context can be provided under the title or subtitle, but it is optional (shown here as “Select an option” on left).
 
@@ -113,6 +134,7 @@ A title should always be located above the radio buttons. More context can be pr
 {% figure [caption:"Radio button spacing"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/inputs-and-controls/radio-buttons/radio-spacing.png" width="580"/>
 {% endfigure %}
+
 {% endcolumn %}
 
 </div>
@@ -121,11 +143,13 @@ A title should always be located above the radio buttons. More context can be pr
 
 <section class="static-section" markdown="1">
 
-## States
-
 <div class="hxRow" markdown="1">
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+## States
+
+A radio button can exist in xxx, and xxx states.
 
 ### Overview
 
