@@ -4,7 +4,7 @@ parent: Inputs and Controls
 layout: component
 category: Components
 usage: >
-  A button provides a mechanism for a user to perform an action or initiate a process on a Control Panel page. A button directs the user's attention to important actions. The weight of a button (primary, secondary, or tertiary) highlight the relative importance of the action.
+  A button enables a user to perform an action or initiate a process on a Control Panel page. A button directs the user's attention to important actions. The weight of a button (primary, secondary, or tertiary) highlight the relative importance of the action.
 preview-image: preview-images/buttons.svg
 status: stable
 resource: true
@@ -52,7 +52,6 @@ Consider the following best practices when you construct a button:
 - Use a **verb noun** combination when you label a button. Do not include articles. For example, use **Create Server**. Do not use **Create a Server**.
 - Write button labels in as few words as possible while still communicating the action the button triggers.
 - Consider the context when you size a button. For most desktop use cases, use a **standard button** size.   To accommodate the ideal touch target size in mobile devices, use a **large button**.  Use a **compact button** when you have severe space constraints, such as a button in a table or in a dashboard widget.
-- A page can contain only one primary button.
 - The primary button should always represent a next step, such as **Create Server**, **Add Selected**, **Confirm Deletion**, **Submit**, or **Next**.
 
 {% endcolumn %}
@@ -250,7 +249,7 @@ A secondary button can exist in the following states: default, hover, pressed, d
 You can use a tertiary button alone or with other button types.
 
 - Use a tertiary button alone when you want to de-emphasize an action or when you have a list of actions.
-- Use a tertiary button with a primary button or secondary button when there are two options and you want to de-emphasize one of them. For example, in a dialog box with two options, use **Submit** (primary) and **Cancel** (tertiary).
+- Use a tertiary button with a primary button or secondary button when there are two options and you want to de-emphasize one of them. For example, in a confirmation modal with two options, use **Submit** (primary) and **Cancel** (tertiary).
 
 A tertiary button has a transparent background and can exist in the following states: default, hover, pressed, disabled.
 
