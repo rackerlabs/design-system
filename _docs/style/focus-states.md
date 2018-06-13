@@ -3,7 +3,7 @@ title: Focus States
 layout: docs
 category: Style
 usage: |
-  Focus states allow the user to see what element is the current element-of-interest in the ingterface by drawing attention to it. In this way, the user cna shift focus between one element and another. Only elments that can be interacted with via mouse can be focused. Additionally, focus states allow someone operating with only a keyboard to access the funtionality of a page.
+  Focused state allows the user to see what element has been clicked on or navigated to using the keyboard. Only elments that can be interacted with can receive focus.
 resource: true
 status: complete
 last-modified: 2018-05-10
