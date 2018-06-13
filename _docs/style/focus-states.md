@@ -3,7 +3,7 @@ title: Focus States
 layout: docs
 category: Style
 usage: |
-  Focused state allows the user to see what element has been clicked on or navigated to using the keyboard. Only elments that can be interacted with can receive focus.
+  Focused state allows the user to see what interactive element has been clicked on or navigated to using the keyboard. Only elements that can be interacted with can receive focus.
 resource: true
 status: complete
 last-modified: 2018-05-10
