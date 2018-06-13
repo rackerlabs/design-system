@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/buttons.svg
 status: stable
 resource: true
-last-modified: 2018-06-12
+last-modified: 2018-06-13
 helix-ui-css: true
 helix-ui-javascript: false
 ---
@@ -193,9 +193,11 @@ Use these spacing guidelines when you construct a simple button.
 
 ## Primary button
 
-A primary button indicates the primary action on a page. Use only one primary button per page.
+A primary button indicates the primary action a user can take and is designed to command the attention of users more than any other content on a page.
 
-A primary button can exist in the following states: default, hover, pressed, disabled.
+Do not use multiple primary buttons in the same view. Multiple primary buttons can cause visual confusion and increase cognitive load while decreasing the efficacy of the button to direct user attention to a single action.
+
+For example, do not use primary buttons in a dashboard widget because it attracts too much attention and the user cannot settle and focus on a single widget.
 
 {% endcolumn %}
 
