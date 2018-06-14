@@ -7,8 +7,8 @@ usage: >
   A vertical stepper progressively discloses form inputs to a user through a set of numbered steps.
 preview-image: preview-images/vertical-stepper.svg
 resource: true
-status: in-progress
-last-modified: 2018-05-23
+status: Stable
+last-modified: 2018-06-14
 helix-ui-css: true
 helix-ui-javascript: true
 ---
@@ -233,33 +233,6 @@ Use these spacing guidelines when you construct a vertical stepper.
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Vertical stepper spacing"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/vert-stepper/vstepper-spacing.png" width="490"/>
-{% endfigure %}
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow" markdown="1">
-
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-### Behavior
-
-Construct a vertical stepper so that the user can expand only one step at a time. When a user clicks to expand a step, any expanded step collapses. Limiting a vertical stepper to a single expanded step offers the following benefits:
-
-- One expanded step reduces page clutter and confusion that the user might encounter when presented with multiple primary CTAs.
-- Often times data in one step is dependent on data entered in another step. Restricting the vertical stepper to one expanded step allows for content to be dynamically loaded based on a previous selection.
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-{% figure [caption:"xxx"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/content-areas/vert-stepper/vstepper-spacing.png" width="490"/>
 {% endfigure %}
 
