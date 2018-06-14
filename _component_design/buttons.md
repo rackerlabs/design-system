@@ -198,6 +198,8 @@ Do not use multiple primary buttons in the same view. Multiple primary buttons c
 
 For example, do not use primary buttons in a dashboard widget because it attracts too much attention and the user cannot settle and focus on a single widget.
 
+A primary button can exist in one of the following states: default, hover, pressed, or disabled
+
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
