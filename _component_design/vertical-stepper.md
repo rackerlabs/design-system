@@ -277,7 +277,7 @@ Construct a vertical stepper so that the user can expand only one step at a time
 
 ## States
 
-A vertical stepper can occur in a loading state and an error state.
+A vertical stepper can exist in a loading state and an error state.
 
 {% endcolumn %}
 
