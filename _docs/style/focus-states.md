@@ -383,7 +383,7 @@ Some elements, such as [Choice Tiles]() feature a clickable container. In these 
 
 ### Focusable child elements
 
-There are some instances in which a user can set focus on the child emement of a focusable parent element and that parent does not lose focus.
+There are some instances in which a user can set focus on the child element of a focusable parent element and that parent does not lose focus.
 
 Using the search input as an example, the clear button (child) takes on a dotted, 2px rounded border with the standard Cyan 700 focus color.
 
