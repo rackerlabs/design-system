@@ -7,7 +7,7 @@ usage: |
   User interface (UI) elements use a combination of title-style capitalization and sentence-style capitalization. When you use different capitalization styles for different types of content you can improve scannability, organize information, and guide users to key actions. It is important to apply these capitalization guidelines consistently to make the UI clear and succinct.
 resource: false
 status: complete
-last-modified: 2018-06-05
+last-modified: 2018-06-15
 ---
 
 {% include toc.html %}
@@ -41,14 +41,15 @@ The following table shows examples for title-style capitalization:
 
 The following elements use title-style capitalization:
 
+- Button labels
 - Chart titles
-- Dialog box titles
+- Field group names
 - Icon labels
 - Links used for an action or navigation
 - Menu items (both menu bar and context menus)
 - Menu titles
+- Modal titles
 - Page titles
-- Button labels
 - Section headings
 - Step titles
 - Table column headers
@@ -71,10 +72,10 @@ The following elements use title-style capitalization:
 
 ## Sentence-style capitalization
 
-For sentence-style capitalization, most words are lowercase, with the following exceptions.
+For sentence-style capitalization, most words are lowercase, with the following exceptions:
 
-- Capitalize only the first word of the text element.
-- Capitalize any other words that you would normally capitalize, such as proper nouns.
+- Capitalize the first letter of the first word of the text element.
+- Capitalize the first letter of any other words that you would normally capitalize, such as proper nouns.
 
 The following table shows examples for sentence-style capitalization:
 
@@ -88,10 +89,10 @@ The following table shows examples for sentence-style capitalization:
 
 The following elements use sentence-style capitalization:
 
-- Check box labels
-- Field labels
+- Checkbox field names
+- Field help text
+- Field names
 - File names
-- Group box labels
 - Headings for groups of radio buttons or check boxes
 - Hover help text
 - Input hints
@@ -99,8 +100,8 @@ The following elements use sentence-style capitalization:
 - List box labels
 - Messages (information, warning, and error)
 - Page instructions or descriptions
-- Progress bar label
-- Radio button labels
+- Progress bar labels
+- Radio button field names
 - Status bar text
 
 {% endcolumn %}
@@ -121,9 +122,10 @@ In rare cases, all caps might be used to visually distinguish a secondary, less 
 
 The following use all caps capitalization:
 
-- xxx
-- xxx
-- xxx
+- Header 5
+- Table column headers
+- Alert bar messages
+- Alert Bar action links
 
 {% endcolumn %}
 
