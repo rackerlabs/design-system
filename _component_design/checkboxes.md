@@ -4,7 +4,7 @@ parent: Inputs and Controls
 layout: component
 category: Components
 usage: >
-  A check box is a square box on a Control Panel panel page that a user can select to indicate an answer to a question or to enable a setting. Checkboxes can be grouped or can be stand-alone.
+  A check box is a square box on a Control Panel panel page that a user can select to indicate an answer to a question or to enable a setting. You can construct a stand-alone checkbox or a group of checkboxes.
 preview-image: preview-images/checkboxes.svg
 resource: true
 status: stable
@@ -169,7 +169,7 @@ Refer to these spacing guidelines when you construct a checkbox.
 
 ## States
 
-A checkbox can exist in **enabled**, **disabled**, **error**, **group error**, and **indeterminate** states.
+A checkbox can exist in **enabled**, **disabled**, **error**, **group error**, **group required**, and **indeterminate** states.
 
 {% endcolumn %}
 
@@ -262,6 +262,30 @@ Refer to [focus states]({{site.baseURL}}/style/focus-states.html), for guidance 
 In the case of an error, include an error message below the checkbox group and highlight the input that the user must change. Don’t highlight all checkboxes in an error group.
 
 Use a red asterisk to designate that a selection is required for a group of checkboxes. The label should remain in vertical alignment. The asterisk floats to the left of the text in the margin and is vertically aligned with the text.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"Group error state"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-default.svg"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+### Required group
+
+xxxxx.
 
 {% endcolumn %}
 
