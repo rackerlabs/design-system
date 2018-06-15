@@ -16,10 +16,16 @@ last-modified: 2018-05-10
 ## Introduction
 
 <div class="hxRow" markdown="1">
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 Focus is received by interactive components when the user clicks on them.  Focus is also applied to clickable elements when the user presses the tab key to traverse the UI using the keyboard.
 
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+{% figure [class:"image bg-light border"] %}
+<img src="{{site.url}}/assets/images/style/focus-states/focus-states-introduction.png" width="475"/>
+{% endfigure %}
 {% endcolumn %}
 
 </div>
