@@ -12,8 +12,8 @@ and Jekyll, and design submission information can be found there.
 We use labels to indicate many things in this repo. Here is a general list of
 labels and when to use them on issues or pull requests (PR).
 
-| -- | -- |
 | Label | Use |
+| --- | --- |
 | `browser-*` | (_Bugs only_) The named browser is affected by this bug. |
 | `prio-*` | This issue or PR should be prioritized specifically as noted. We generally only use these on issues that have not been groomed for sprints. |
 | `status-approved` | (_PRs only_) The PR is approved for merge. Use this label if you created the PR and need someone else to merge it as we do not do self-merges on this project. |
