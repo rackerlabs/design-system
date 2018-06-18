@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/vertical-stepper.svg
 resource: true
 status: Stable
-last-modified: 2018-06-14
+last-modified: 2018-06-18
 helix-ui-css: true
 helix-ui-javascript: true
 ---
@@ -93,7 +93,7 @@ A vertical stepper is comprised of the following elements:
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Vertical stepper composition (NOT TO SCALE)"] [class:"image bg-light border"] %}
+{% figure [caption:"Vertical stepper composition"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/content-areas/vert-stepper/vstepper-composition.png" width="577"/>
 {% endfigure %}
 
@@ -123,7 +123,7 @@ The buttons displayed in the button set vary based on the step the user is compl
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Button displays based on currently displayed step."] [class:"image bg-light border"] %}
+{% figure [caption:"Vertical stepper button logic"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/content-areas/vert-stepper/vstepper-composition-buttonlogic.png" width="416"/>
 
 {% endfigure %}
@@ -148,8 +148,8 @@ Refer to these specifications when you construct a vertical stepper.
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Spacing specifications for the vertical stepper pattern"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/vert-stepper/vstepper-style-generic.png" width="596"/>
+{% figure [caption:"Vertical stepper style"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/content-areas/vert-stepper/vstepper-generic.png" width="596"/>
 
 {% endfigure %}
 
@@ -180,7 +180,7 @@ The step counters exist in the following states:
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Stepper counter states and specifications"] [class:"image bg-light border"] %}
+{% figure [caption:"Counter states and specifications"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/content-areas/vert-stepper/vstepper-style-counter.png" width="546"/>
 
 {% endfigure %}
@@ -207,7 +207,7 @@ When the user clicks in the clickable area of a collapsed step, the step expands
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Stepper expand / collapse clickable areas"] [class:"image bg-light border"] %}
+{% figure [caption:"Expand and collapse clickable areas"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/content-areas/vert-stepper/vstepper-style-clickablearea.png" width="566"/>
 
 {% endfigure %}
@@ -272,7 +272,7 @@ The vertical stepper uses the [spinner loading indicator]({{base.url}}/component
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Stepper loading state"] [class:"image bg-light border"] %}
+{% figure [caption:"Loading state"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/content-areas/vert-stepper/vstepper-state-loading.png" width="510"/>
 {% endfigure %}
 
@@ -298,7 +298,7 @@ A completed step can also encounter an error when a user invalidates previously-
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Error state applied to a sequential step within a vertical stepper"] [class:"image bg-light border"] %}
+{% figure [caption:"Error state"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/content-areas/vert-stepper/vstepper-states-error.png" width="489"/>
 
 {% endfigure %}
