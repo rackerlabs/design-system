@@ -149,18 +149,30 @@ A title should always be located above the radio buttons. More context can be pr
 
 ## States
 
-A radio button can exist in xxx, and xxx states.
+A checkbox can exist in **enabled**, **disabled**, **error**, **group error**, **group required**, and **indeterminate** states.
 
-### Overview
+{% endcolumn %}
 
-Form design best practices prohibit a radio button from existing in an error state. Avoid this situation.
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+### Enabled
+
+A user can select or de-select a checkbox in the enabled state.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Radio button states"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/radio-buttons/radio-states.png" width="561"/>
+{% figure [caption:"Enabled state"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-default.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -171,26 +183,96 @@ Form design best practices prohibit a radio button from existing in an error sta
 
 <section class="static-section" markdown="1">
 
-<div class="hxRow" markdown="1">
+<div class="hxRow"  markdown="1">
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-#### Error state - expanded
+### Disabled
 
-The question with the error receives an asterisk. The asterisk position floats to the left, in the margin, not in vertical alignment with the text. The section label should remain in its natural vertical alignment.
-
-Only the option with the error receives error styling.
-
-The error icon is positioned to the left of the error message.
-
-The error message should be 40-80 characters per line, and may wrap if needed.
+A user can't select or de-select a checkbox in the disabled state. In the disabled state, the checkbox is locked and cannot be changed.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Radio button error state details"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/radio-buttons/radio-error.png" width="482"/>
+{% figure [caption:"Disabled state"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-default.svg"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+### Error
+
+An error state can apply to checkboxes when the user selects, de-selects, and hovers over a checkbox.
+
+Refer to [focus states]({{site.baseURL}}/style/focus-states.html), for guidance in constructing in focus checkboxes in an error state.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"Error state"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-default.svg"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+### Group error
+
+In the case of an error, include an error message below the checkbox group and highlight the input that the user must change. Don’t highlight all checkboxes in an error group.
+
+Use a red asterisk to designate that a selection is required for a group of checkboxes. The label should remain in vertical alignment. The asterisk floats to the left of the text in the margin and is vertically aligned with the text.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"Group error state"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-default.svg"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+### Required group
+
+xxxxx.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"Group error state"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-default.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
