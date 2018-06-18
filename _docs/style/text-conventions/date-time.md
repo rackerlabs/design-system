@@ -7,7 +7,7 @@ usage: |
   Rackspace is a global company, so it is critical to ensure that we represent time as clearly and consistently as possible to our customers.
 resource: false
 status: complete
-last-modified: 2018-06-05
+last-modified: 2018-06-18
 ---
 
 {% include toc.html %}
@@ -18,7 +18,40 @@ last-modified: 2018-06-05
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-## Date
+## Date - New
+
+Dates are displayed differently in different countries, so you must use a date format that's explicit and consistent and that global users can't misinterpret.
+
+Unless space is limited, always show dates in the following format: month day, year. Always spell out the month.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"Date format examples"] [class:"image bg-light border"] %}
+| Use | Avoid |
+| --- | --- |
+| November 12, 2018 | 12 Nov 2018 |
+|  | 11/12/2018 |
+|  | 11/12/18 |
+|  | 12/11/18 |
+|  | 18-11-12 |
+
+
+
+{: class="hxTable"}
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+
+
+
+## Date - Old
 
 Always use human-readable, international-friendly formatting when displaying date and time.
 
@@ -61,7 +94,7 @@ Consider the following best practices when formatting time:
 {% figure [caption:"Time format examples"] [class:"image bg-light border"] %}
 | Format | Examples |
 | --- | --- |
-| {time (12 hour clock)} {AM/PM (capitalized)} | 7:58 PM CST |
+| {time (12 hour clock)} {AM/PM (capitalized)} {timezone (capitalized 3 letter abbreviation)} | 7:58 PM CST |
 | {time (12 hour clock)} {timezone (capitalized 3 letter abbreviation)} | 12:59:16 AM CDT (UTC-5) |
 {: class="hxTable"}
 {% endfigure %}
