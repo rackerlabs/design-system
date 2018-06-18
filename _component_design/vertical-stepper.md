@@ -1,10 +1,10 @@
 ---
-title: Vertical Stepper
+title: Vertical stepper
 parent: Content Areas
 layout: component
 category: Components
 usage: >
-  A vertical stepper progressively discloses form inputs to a user through a set of numbered steps.
+  A vertical stepper progressively discloses form inputs to the user through a set of numbered steps.
 preview-image: preview-images/vertical-stepper.svg
 resource: true
 status: Stable
@@ -23,9 +23,9 @@ helix-ui-javascript: true
 
 ## When to use
 
-Use a vertical stepper to help a user complete complex workflows that require multiple inputs. Divide the workflow into thematic steps and then use the stepper pattern to progressively reveal workflow steps to the user.
+Use a vertical stepper to help the user complete complex workflows that require multiple inputs. Divide the workflow into thematic steps and then use the stepper pattern to progressively reveal workflow the steps to the user.
 
-A vertical stepper fulfills the same need as a horizontal stepper. Unlike a horizontal stepper, a vertical stepper can work with all screen sizes.
+A vertical stepper fulfills the same function as a horizontal stepper. Unlike a horizontal stepper, a vertical stepper can work with all screen sizes.
 
 
 {% endcolumn %}
@@ -45,7 +45,7 @@ A vertical stepper fulfills the same need as a horizontal stepper. Unlike a hori
 Consider the following best practices when you construct a vertical stepper.
 
 - Ensure a stepper has a minimum of three steps and a maximum of five steps.
-- Name each step thematically based on the inputs contained within a step. For example, a step  with inputs such as **Username**, **First name**, and **Address** can be labeled **User Details**. Labeling steps thematically primes users for the type of information required to complete the step.
+- Name each step thematically based on the inputs contained within a step. For example, a step  with inputs such as **Username**, **First name**, and **Address** can be labeled **User details**. Labeling steps thematically prepares users for the type of information required to complete the step.
 - Present a confirmation modal when the user enters data that invalidates data entered in another step.
 
 {% endcolumn %}
@@ -78,13 +78,13 @@ Refer to the following specifications when you construct a vertical stepper.
 
 ### Composition
 
-A vertical stepper is comprised of the following elements:
+A vertical stepper is composed of the following elements:
 
 - **Workflow title (required)**: Use a Heading 1 to label the vertical stepper. Label the vertical stepper so that it reflects the workflow.
-- **Step counter (required)**: The step counter displays the sequential number of a step and the status of the step.
+- **Step counter (required)**: The step counter displays the sequential number and status of a step.
 - **Title (required)**: The title is the name of the step.
-- **Selection (required)**: After the user enters data and moves to the next step, the selection area displays the entered data. The user can refer to the selection area to understand the context in which they are making decisions in the following steps.
-- **Content area (required)**: The user enters data or completes an action in the content area. The content area can be comprised of any [inputs and controls]({{site.url}}/components/inputs-and-controls.html).
+- **Selection (required)**: After the user enters data and moves to the next step, the selection area displays the entered data. The user can refer to the selection area to understand the context in which they are making decisions in the steps that follow.
+- **Content area (required)**: The user enters data or completes an action in the content area. The content area includes [inputs and controls]({{site.url}}/components/inputs-and-controls.html).
 - **Revealer (required)**: The user can click the revealer to expand and contract a step.
 - **Button set (required)**: The user clicks buttons to navigates to the next step, back to a previous step, or to complete the vertical stepper.
 - **Divider line (required)**: The upper and lower divider line separates steps.
@@ -111,7 +111,7 @@ A vertical stepper is comprised of the following elements:
 
 #### Button logic
 
-The buttons displayed in the button set vary based on the step the user is completing.
+The buttons displayed in the button set vary based on the step that the user is completing.
 
 **First step**: The first step displays a primary button that the user clicks to move to the next step and a tertiary button to cancel the form.
 
@@ -167,7 +167,7 @@ Refer to these specifications when you construct a vertical stepper.
 
 #### Step counters
 
-The step counters display the sequential number of a step and the status of the step.
+The step counters display the sequential number and status of a step.
 
 The step counters exist in the following states:
 
@@ -290,9 +290,9 @@ The vertical stepper uses the [spinner loading indicator]({{base.url}}/component
 
 ### Error
 
-Error states occur inline within the scope of the input and controls component used within the content area. Error messages take on the error message styling defined for that particular component. See [Inputs and controls]({{site.baseurl}}/components/inputs-and-controls.html) for more information.
+Error states occur inline within the scope of the input and controls component that is used in the content area. Error messages take on the error message styling defined for that particular component. See [Inputs and controls]({{site.baseurl}}/components/inputs-and-controls.html) for more information.
 
-A completed step can also encounter an error when a user invalidates previously-entered data. In these cases use a confirmation modal to warn a user that previously-entered data will be deleted.
+A completed step can also encounter an error when the user invalidates previously entered data. In these cases, use a confirmation modal to warn the user that previously entered data will be deleted.
 
 {% endcolumn %}
 
