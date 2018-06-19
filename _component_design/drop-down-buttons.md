@@ -1,5 +1,5 @@
 ---
-title: Drop-down buttons
+title: Drop-down Buttons
 parent: Inputs and Controls
 layout: component
 category: Components
@@ -14,10 +14,6 @@ helix-ui-javascript: false
 ---
 
 {% include toc.html %}
-
-<section class="static-section" markdown="1">
-
-</section>
 
 <section class="static-section" markdown="1">
 
@@ -61,8 +57,6 @@ In addition to the best practices outlined in [simple buttons]({{site.baseURL}}/
 <div class="hxRow"  markdown="1">
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-<a name="basic-specs"></a>
 
 ## Basic drop-down button specifications
 
@@ -134,7 +128,7 @@ Use these specifications when you construct a basic drop-down button.
 
 ### Spacing
 
-In addition to the spacing specifications documented in [simple buttons]({{site.baseURL}}/components/buttons.html) and [actions menu]({{site.baseURL}}/components/actions-menu.html), use these spacing guidelines when you construct a basic drop-down button.
+In addition to the spacing specifications documented in [simple buttons]({{site.baseURL}}/components/buttons.html), use these spacing guidelines when you construct a basic drop-down button.
 
 {% endcolumn %}
 
@@ -176,7 +170,7 @@ Use the following specifications when you construct a split drop-down button.
 
 A split drop-down button contains the following elements:
 
-- **Basic drop-down button (required)**: See [basic drop-down button specifications](#basic-specs) for more information about constructing a basic drop-down button.
+- **Basic drop-down button (required)**: See [basic drop-down button specifications](#basic-drop-down-button-specifications) for more information about constructing a basic drop-down button.
 - **Divider (required)**: A divider separates the button label and the angle down icon.
 
 {% endcolumn %}
@@ -245,7 +239,7 @@ In addition to the spacing specifications documented in [simple buttons]({{site.
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 ## States
 
