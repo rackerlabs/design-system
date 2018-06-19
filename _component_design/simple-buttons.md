@@ -8,16 +8,12 @@ usage: >
 preview-image: preview-images/buttons.svg
 status: stable
 resource: true
-last-modified: 2018-06-13
+last-modified: 2018-06-19
 helix-ui-css: true
 helix-ui-javascript: false
 ---
 
 {% include toc.html %}
-
-<section class="static-section" markdown="1">
-
-</section>
 
 <section class="static-section" markdown="1">
 
@@ -39,10 +35,9 @@ Do not use buttons for navigation. When the user needs to navigate from one page
 
 <section class="static-section" markdown="1">
 
-<div class="hxRow"  markdown="1">
+<div class="hxRow" markdown="1">
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
 
 ## Best practices
 
@@ -62,7 +57,7 @@ Consider the following best practices when you construct a button:
 
 <section class="static-section" markdown="1">
 
-<div class="hxRow"  markdown="1">
+<div class="hxRow" markdown="1">
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
@@ -93,7 +88,7 @@ Use consistent labels across an action for a UI. Refer to the following table wh
 
 <section class="static-section" markdown="1">
 
-<div class="hxRow"  markdown="1">
+<div class="hxRow" markdown="1">
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
@@ -109,7 +104,7 @@ Use the following specifications when you construct a simple button.
 
 <section class="static-section" markdown="1">
 
-<div class="hxRow"  markdown="1">
+<div class="hxRow" markdown="1">
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
@@ -136,7 +131,7 @@ A simple button contains the following elements:
 
 <section class="static-section" markdown="1">
 
-<div class="hxRow"  markdown="1">
+<div class="hxRow" markdown="1">
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
@@ -160,7 +155,7 @@ Use these specifications when you construct a simple button.
 
 <section class="static-section" markdown="1">
 
-<div class="hxRow"  markdown="1">
+<div class="hxRow" markdown="1">
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
@@ -186,7 +181,7 @@ Use these spacing guidelines when you construct a simple button.
 
 <section class="static-section" markdown="1">
 
-<div class="hxRow"  markdown="1">
+<div class="hxRow" markdown="1">
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
@@ -198,7 +193,7 @@ Do not use multiple primary buttons in the same view. Multiple primary buttons c
 
 For example, do not use primary buttons in a dashboard widget because it attracts too much attention and the user cannot settle and focus on a single widget.
 
-A primary button can exist in one of the following states: default, hover, pressed, or disabled
+A primary button can exist in one of the following states: default, hover, pressed, or disabled.
 
 {% endcolumn %}
 
@@ -216,7 +211,7 @@ A primary button can exist in one of the following states: default, hover, press
 
 <section class="static-section" markdown="1">
 
-<div class="hxRow"  markdown="1">
+<div class="hxRow" markdown="1">
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
@@ -242,7 +237,7 @@ A secondary button can exist in one of the following states: default, hover, pre
 
 <section class="static-section" markdown="1">
 
-<div class="hxRow"  markdown="1">
+<div class="hxRow" markdown="1">
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
@@ -271,7 +266,7 @@ A tertiary button has a transparent background and can exist in one of the follo
 
 <section class="static-section" markdown="1">
 
-<div class="hxRow"  markdown="1">
+<div class="hxRow" markdown="1">
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
@@ -287,7 +282,7 @@ This section describes the simple button loading state and focus state.
 
 <section class="static-section" markdown="1">
 
-<div class="hxRow"  markdown="1">
+<div class="hxRow" markdown="1">
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
@@ -313,7 +308,7 @@ For more information about the loading spinner, see [loading indicator]({{site.b
 
 <section class="static-section" markdown="1">
 
-<div class="hxRow"  markdown="1">
+<div class="hxRow" markdown="1">
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
@@ -337,7 +332,7 @@ When in focus, a button takes on the focus properties as outlined in [focus stat
 
 <section class="static-section" markdown="1">
 
-<div class="hxRow"  markdown="1">
+<div class="hxRow" markdown="1">
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
