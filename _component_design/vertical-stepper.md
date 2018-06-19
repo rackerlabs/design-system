@@ -7,7 +7,7 @@ usage: >
   A vertical stepper progressively discloses form inputs to the user through a set of numbered steps.
 preview-image: preview-images/vertical-stepper.svg
 resource: true
-status: Stable
+status: stable
 last-modified: 2018-06-18
 helix-ui-css: true
 helix-ui-javascript: true
@@ -17,7 +17,7 @@ helix-ui-javascript: true
 
 <section class="static-section" markdown="1">
 
-<div class="hxRow"  markdown="1">
+<div class="hxRow" markdown="1">
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
@@ -26,7 +26,6 @@ helix-ui-javascript: true
 Use a vertical stepper to help the user complete complex workflows that require multiple inputs. Divide the workflow into thematic steps and then use the stepper pattern to progressively reveal workflow the steps to the user.
 
 A vertical stepper fulfills the same function as a horizontal stepper. Unlike a horizontal stepper, a vertical stepper can work with all screen sizes.
-
 
 {% endcolumn %}
 
