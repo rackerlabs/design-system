@@ -4,11 +4,11 @@ parent: Inputs and Controls
 layout: component
 category: Components
 usage: >
-  A drop-down button is an element that reveals additional content when clicked by a user. There are two types of drop-down buttons: a basic drop-down button and a split drop-down button.
+  A drop-down button is an element that, when clicked, reveals additional options to launch a process or initiate an action. There are two types of drop-down buttons: a basic drop-down button and a split drop-down button.
 preview-image: preview-images/buttons.svg
 status: stable
 resource: true
-last-modified: 2018-06-12
+last-modified: 2018-06-19
 helix-ui-css: true
 helix-ui-javascript: false
 ---
@@ -29,7 +29,7 @@ helix-ui-javascript: false
 
 Use a basic drop-down button when there are multiple actions associated with a button but there is no designated primary action. When the user clicks a drop-down button, all actions appear in an actions menu.
 
-Use a split drop-down button when there are multiple actions associated with a button but only one primary action. The primary action is visible and available on the button, while the secondary actions are accessed through the drop-down menu. See the [actions menu]({{site.baseurl}}/components/actions-menu.html) for drop-down menu specifications.
+Use a split drop-down button when there are multiple actions associated with a button but only one primary action. The primary action is visible and available on the button, while the secondary actions are accessed through the drop-down menu.
 
 {% endcolumn %}
 
@@ -45,12 +45,10 @@ Use a split drop-down button when there are multiple actions associated with a b
 
 ## Best practices
 
-In addition to the best practices outlined in [simple buttons]({{site.baseURL}}/components/buttons.html) and [actions menu]({{site.baseURL}}/components/actions-menu.html), consider the following best practices when you construct a drop-down button:
+In addition to the best practices outlined in [simple buttons]({{site.baseURL}}/components/buttons.html), consider the following best practices when you construct a drop-down button:
 
-- While a drop-down button reduces the clutter on a page, drop-down buttons require the user to complete more steps. Consider listing all options as an alternative to concealing options within a button.
-- xxx.
-- xxx.
-- xxx.
+- While a drop-down button reduces the clutter on a page, drop-down buttons conceal user options. Consider listing all options as an alternative to concealing options within a button.
+- Ensure that you label a basic drop-down button accurately. A user should be able to predict the options available in the drop-down menu.
 
 {% endcolumn %}
 
@@ -203,7 +201,7 @@ A split drop-down button contains the following elements:
 
 ### Style
 
-Use these specifications when you construct a split drop-down button.
+The divider adopts the color of the text.
 
 {% endcolumn %}
 
@@ -227,7 +225,7 @@ Use these specifications when you construct a split drop-down button.
 
 ### Spacing
 
-In addition to the spacing specifications documented in [simple buttons]({{site.baseURL}}/components/buttons.html) and [actions menu]({{site.baseURL}}/components/actions-menu.html), use these spacing guidelines when you construct a split drop-down button.
+In addition to the spacing specifications documented in [simple buttons]({{site.baseURL}}/components/buttons.html), use these spacing guidelines when you construct a split drop-down button.
 
 {% endcolumn %}
 
