@@ -1,5 +1,5 @@
 ---
-title: Drop-Down Buttons
+title: Drop-down buttons
 parent: Inputs and Controls
 layout: component
 category: Components
