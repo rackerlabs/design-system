@@ -16,7 +16,7 @@ last-modified: 2018-06-18
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 ## Date - New
 
@@ -25,10 +25,6 @@ Dates are displayed differently in different countries, so you must use a date f
 Unless space is limited, always show dates in the following format: month day, year. Always spell out the month.
 
 {% include note.html content="Don't use ordinal numbers for dates. For example, don't use **January 1st**; use **January 1** instead." %}
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Date format examples"] [class:"image bg-light border"] %}
 | Use | Avoid |
@@ -52,13 +48,9 @@ Unless space is limited, always show dates in the following format: month day, y
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 When the month, day, and year are embedded in a sentence, use a comma before and after the year. When only the month and year are embedded in a sentence, omit the commas unless the syntax would ordinarily require a comma following the year.
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Date format examples"] [class:"image bg-light border"] %}
 | Use |
@@ -80,7 +72,7 @@ When the month, day, and year are embedded in a sentence, use a comma before and
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 Use an all-numeric date only in the following situations:
 
@@ -89,14 +81,107 @@ Use an all-numeric date only in the following situations:
 
 Because all-numeric dates are interpreted differently in different countries, explain the format of a numeric date, and use a consistent format throughout the documentation. If possible, use the ISO 8601 format, which is yyyy-mm-dd (for example, 2012-11-10 for November 10, 2012).
 
+{% figure [caption:"Date format examples"] [class:"image bg-light border"] %}
+| Use |
+| --- |
+| The value that's shown for 8/19/10 represents the average number of extents from data collections beginning August 19, 2010. |
+{: class="hxTable"}
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section"  markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-12-md hxSpan-12-lg" %}
+
+## Time - New
+
+You can show time by using either the 24-hour or 12-hour clock.
+
+- If the interface that you're documenting shows or uses the 12-hour clock, then be consistent with the interface and use the 12-hour clock.
+- The 24-hour clock is the preferred format for international audiences and the format used in most computer systems, so use the 24-hour clock when possible.
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section"  markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+### 12-hour clock
+
+When you use the 12-hour clock to show time, use the following guidelines:
+
+- Use a colon to separate the hours and minutes. If the minutes are 00, you don't need to show them unless you're showing a span of time that includes a time with minutes.
+
+- Use lowercase letters for abbreviations of ante meridiem (a.m.) and post meridiem (p.m.). Separate these abbreviations from the time with a space. Use periods in the abbreviations.
+
+- When specifying time zones, show both the spelled-out name and the abbreviation. Show the name in lowercase letters; use uppercase letters and no periods for the abbreviation.
+
+- Avoid references to standard and daylight saving time because the appropriate designation changes frequently. However, if you need to include such a reference, insert *S* (for standard) or *D* (for daylight) as the second character in the abbreviation.
+
+- When referring to 12 a.m., use **12 midnight** or just **midnight**. When referring to 12 p.m., use **12 noon** or just **noon**.
+
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Date format examples"] [class:"image bg-light border"] %}
-| Use |
+| Examples |
 | --- |
-| The value that's shown for 8/19/10 represents the average number of extents from data collections beginning August 19, 2010. |
+| 10:29 a.m. |
+| 6 p.m. |
+| 6:00 p.m. to 8:30 p.m. |
+| 10:30 a.m. central time (CT) |
+| 1:30 p.m. central standard time (CST) |
+| midnight |
+{: class="hxTable"}
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section"  markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+### 24-hour clock
+
+When you use the 24-hour clock to show time, use the following guidelines:
+
+- Use a colon to separate the hours, minutes, and seconds.
+- Show the hours, minutes, and seconds with two digits each, even if the leading digit is 0.
+- If you need to show a time zone, use Coordinated Universal Time (UTC), and indicate the time-zone offset from UTC.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"Date format examples"] [class:"image bg-light border"] %}
+| Examples |
+| --- |
+| 08:29:37 |
+| 18:30:59 |
+| 18:00:00 to 20:30:00 |
+| 10:30:00 (UTC -6) (refers to CT) |
+| 12:00:00 (noon) |
+| 00:00:00 (midnight) |
 {: class="hxTable"}
 {% endfigure %}
 
@@ -125,50 +210,6 @@ Always use human-readable, international-friendly formatting when displaying dat
 | --- | --- |
 | {month (mixed case 3 letter abbr)} {numerical day}, {year (4 digit)} | Nov 28, 2016<br/>Apr 2, 2016 |
 | Use an en dash (&ndash;) to separate the dates in date ranges. | Nov 28, 2016&ndash;Nov 30, 2016 |
-{: class="hxTable"}
-{% endfigure %}
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section"  markdown="1">
-
-<div class="hxRow" markdown="1">
-
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-## Time - New
-
-If the technology or interface that you're documenting shows or uses the 12-hour clock, then be consistent with the interface and use the 12-hour clock.
-
-When you use the 12-hour clock to show time, use the following guidelines:
-
-- Use a colon to separate the hours and minutes. If the minutes are 00, you don't need to show them unless you're showing a span of time that includes a time with minutes.
-
-- Use lowercase letters for abbreviations of ante meridiem (a.m.) and post meridiem (p.m.). Separate these abbreviations from the time with a space. Use periods in the abbreviations.
-
-- When specifying time zones, show both the spelled-out name and the abbreviation. Show the name in lowercase letters; use uppercase letters and no periods for the abbreviation.
-
-- Avoid references to standard and daylight saving time because the appropriate designation changes frequently. However, if you need to include such a reference, insert *S* (for standard) or *D* (for daylight) as the second character in the abbreviation.
-
-- When referring to 12 a.m., use **12 midnight** or just **midnight**. When referring to 12 p.m., use **12 noon** or just **noon**.
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-{% figure [caption:"Date format examples"] [class:"image bg-light border"] %}
-| Examples |
-| --- |
-| 10:29 a.m. |
-| 6 p.m. |
-| 6:00 p.m. to 8:30 p.m. |
-| 10:30 a.m. central time (CT) |
-| 1:30 p.m. central standard time (CST) |
-| midnight |
 {: class="hxTable"}
 {% endfigure %}
 
