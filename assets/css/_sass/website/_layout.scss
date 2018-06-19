@@ -75,7 +75,7 @@ nav.side {
     border-bottom: none;
   }
   /* border-bottom: 1px solid $grey300; this will be uncommented once the rest of the content is edited to use less article tags on a page, the border-bottom segmentation works best when articles have multiple rows and plenty of content */
-  ul {
+  ul, ol {
     font-size: $font-size-3;
     -webkit-margin-before: 0;
     margin-before: 0;
@@ -85,7 +85,7 @@ nav.side {
       padding-bottom: 0.6em;
       line-height: $base-line-height;
     }
-    ul {
+    ul, ol {
       font-size: $font-size-3;
       li {
         font-size: $font-size-3;

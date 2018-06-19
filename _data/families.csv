@@ -1,11 +1,8 @@
 position,name,display,parent,urlStub
 1,content-areas,Content Areas,Content Areas,content-areas
-2,editing,Editing,Editing,editing
-3,help,Help,Help,help
-4,inputs-controls,Inputs & Controls,Inputs and Controls,inputs-and-controls
-5,nav,Navigation,Navigation,navigation
-6,notify,Notifications,Notifications,notifications
-7,selectors,Selectors,Selectors,selectors
-8,processing,Processing,Processing,processing
-9,search-filters,Search & Filters,Search and Filters,search-and-filters
-10,tables,Tables,Tables,tables
+2,inputs-controls,Inputs & Controls,Inputs and Controls,inputs-and-controls
+3,nav,Navigation,Navigation,navigation
+4,notify,Notifications,Notifications,notifications
+5,processing,Processing,Processing,processing
+6,search-filters,Search & Filters,Search and Filters,search-and-filters
+7,tables,Tables,Tables,tables
