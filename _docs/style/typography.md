@@ -181,8 +181,6 @@ Captions apply to images and visualizations. They should be used to clarify imag
 <div class="hxRow" markdown="1">
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-<a name="link"></a>
-
 ### Link
 Links support styles for hover, active, and disabled states, and inherit size and spacing styles from the text to which they are applied. Helix does not support the visited state.
 
