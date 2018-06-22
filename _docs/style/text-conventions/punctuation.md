@@ -7,7 +7,7 @@ usage: |
   Use punctuation consistently throughout a user interface to maintain a user-friendly and professional look.
 resource: false
 status: complete
-last-modified: 2018-06-01
+last-modified: 2018-06-22
 ---
 
 {% include toc.html %}
@@ -22,7 +22,7 @@ last-modified: 2018-06-01
 
 End all sentences with a period, even if they're only two words. Put one space, not two, after a period.
 
-Don’t use end punctuation in tooltips.
+Don’t use end punctuation in a tooltip.
 
 {% endcolumn %}
 
@@ -62,7 +62,32 @@ Use serial commas (also called Oxford commas).
 
 ## Apostrophes and quotation marks
 
-Use the typographic characters (also called smart quotes, or curly quotes) for apostrophes and quotation marks.
+Use apostrophes to indicate possession and use quotation marks to refer to text literally. Apostrophes and quotation marks come in two forms: curly quotes and straight quotes.
+
+Curly quotes are preferred to straight quotes because curly quotes are more leg­i­ble on the page and match the other char­ac­ters bet­ter.
+
+There are four curly quote char­ac­ters:
+
+- open­ing sin­gle quote (&lsquo;)
+- clos­ing sin­gle quote (&rsquo;)
+- open­ing dou­ble quote (&#8220;)
+- clos­ing dou­ble quote (&#8221;)
+
+If curly quotes are not an option, use straight quotes. Straight quotes are the two generic vertical quotation marks located near the return key:
+
+- straight single quote ( ' )
+- straight double quote ( " )
+
+Consider the following examples when you include apostrophes and quotation marks on a control panel page.
+{% figure [caption:"Curly quotes vs. straight quotes"] [class:"image bg-light border"] %}
+| Use | Avoid |
+| --- | --- |
+| You don&rsquo;t have any notifications. | You don't have any notifications. |
+| Are you sure you want to delete server &ldquo;MDO-1255&rdquo;? | Are you sure you want to delete server "MDO-1255"? |
+{: class="hxTable"}
+
+{% endfigure %}
+
 
 {% endcolumn %}
 

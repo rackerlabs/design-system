@@ -1,13 +1,13 @@
 ---
-title: Date and time
+title: Date and Time
 layout: docs
 parent: Text Conventions
 category: Style
 usage: |
-  Rackspace is a global company, so it is critical to ensure that we represent time as clearly and consistently as possible to our customers.
+  Rackspace is a global company, so it is critical to ensure that we represent date and time as clearly and consistently as possible to our customers.
 resource: false
 status: complete
-last-modified: 2018-06-18
+last-modified: 2018-06-21
 ---
 
 {% include toc.html %}
@@ -16,7 +16,7 @@ last-modified: 2018-06-18
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-12-md hxSpan-12-lg" %}
 
 ## Date
 
@@ -33,7 +33,7 @@ For example, use the following convention for date:
 - 11/12/2018
 - 11/12/18
 - 12/11/18
-- 18-11-12
+- 11-12-18
 
 {% include note.html content="Don't use ordinal numbers for dates. For example, don't use **January 1st**; use **January 1** instead." %}
 
@@ -47,7 +47,7 @@ For example, use the following convention for date:
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-12-md hxSpan-12-lg" %}
 
 ### Dates in sentences
 
@@ -69,7 +69,7 @@ Consider the following examples for sentences that contain a date:
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-12-md hxSpan-12-lg" %}
 
 ### All-numeric dates
 
@@ -109,7 +109,7 @@ You can show time by using either the 24-hour or 12-hour clock.
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-12-md hxSpan-12-lg" %}
 
 ### 12-hour clock
 

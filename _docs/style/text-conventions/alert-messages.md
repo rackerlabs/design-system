@@ -7,7 +7,7 @@ usage: |
   Alerts and messages inform users about progress that they make or problems that they encounter in the UI. They must be clearly written, be free from grammar and punctuation problems, and follow the style and terminology for guidelines in this section. Users gain understanding from the content of the messages (text, icons, color) as well as the context (where on the screen and when in the user flow the messages appear). So users can recover quickly, alerts and messages should provide essential information to help them understand and address issues.
 resource: false
 status: complete
-last-modified: 2018-06-15
+last-modified: 2018-06-21
 ---
 
 {% include toc.html %}
@@ -41,7 +41,7 @@ When writing alerts and messages, consider the following guidelines:
 
 ## Message guidelines and examples
 
-Use the guidelines in this section when you write the message text for a product.
+Use these guidelines when you write messages in a control panel.
 
 {% figure [caption:"Message guidelines and examples"] [class:"image bg-light border"] %}
 | Guideline | Example  | Comments |

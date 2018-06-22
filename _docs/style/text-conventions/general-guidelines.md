@@ -4,10 +4,10 @@ layout: docs
 parent: Text Conventions
 category: Style
 usage: |
-  These general writing guidelines includes rules for how to write instructions and descriptions that appear in a Control Panel. Consult these guidelines to write text that is clear, helpful, and grammatically correct.
+  These general writing guidelines include rules for how to write instructions and descriptions in a control panel that are clear, helpful, and grammatically correct.
 resource: false
 status: complete
-last-modified: 2018-06-01
+last-modified: 2018-06-21
 ---
 
 {% include toc.html %}
@@ -27,10 +27,10 @@ Active-voice sentences are more engaging, less complicated, less wordy, and easi
 {% figure [caption:"Active voice examples"] [class:"image bg-light border"] %}
 | Use (active) | Avoid (passive) |
 | --- | --- |
-| After you install the software, start the computer. | After the software has been installed, the computer can be started. |
+| To create a stack, start by selecting a template. | A stack is created by selecting a template. |
+| Confirm the following account information. | The following account information should be confirmed. |
 | Click **OK** to save the configuration. | The configuration is saved when the **OK** button is clicked. |
 | Create a server. | A server is created by you. |
-| Rackspace products and services solve your business problems. | Your business problems are solved by Rackspace products and services. |
 {: class="hxTable"}
 {% endfigure %}
 
@@ -50,12 +50,12 @@ Active-voice sentences are more engaging, less complicated, less wordy, and easi
 
 Use the following guidelines to help you write clearly and objectively:
 
-- Choose language that is clear and easy to understand. When possible, use fewer words. Every word should demonstrate value to the user.
-- Help users avoid errors and roadblocks. Make sure content helps users recover quickly if those things happen.
-- Alert users if they can't undo changes. Explain consequences and alternatives.
-- Avoid non sequiturs, obscure references, or non-standard turns of phrase that might confuse or interrupt.
-- Do not use humor, jargon, exclamation marks, idioms, metaphors, and other colloquialisms.
 - Consider a user’s likely goal, desire, or state of mind. Anticipate confusion or frustration and respond appropriately.
+- Choose language that is clear and easy to understand. When possible, use fewer words. Every word should provide valuable information to the user.
+- Do not use humor, jargon, exclamation marks, idioms, metaphors, and other colloquialisms.
+- Avoid non sequiturs, obscure references, or non-standard turns of phrase that might confuse or interrupt.
+- Help users avoid errors and roadblocks. Make sure content helps users recover quickly if those things happen.
+- Inform users if they can't undo changes before they make the change. Explain consequences and alternatives.
 
 {% endcolumn %}
 
@@ -71,15 +71,15 @@ Use the following guidelines to help you write clearly and objectively:
 
 ## Use second person
 
-Users are more engaged with content when it talks to them directly. You talk to users directly by using second person, addressing the user as you. Second person also promotes a friendly tone.
+Users are more engaged with content when it talks to them directly. You talk to users directly by using second person, addressing the user as **you**. Second person also promotes a friendly tone.
 
 {% figure [caption:"Second person examples"] [class:"image bg-light border"] %}
 | Use | Avoid  |
 | --- | --- |
+| The credit card you have configured as your default (recurring) payment method has expired. | The credit card that is  configured as the default (recurring) payment method has expired. |
+| To receive your invoice by email, select the recipients to receive a PDF invoice delivered by email. | To receive the  invoice by email, select the recipients to receive a PDF invoice delivered by email. |
 | To create a server, specify a name, flavor, and image. | Creating a server involves specifying a name, flavor, and image. |
 | Click **Yes** to accept the license agreement. | The license agreement is accepted when the user clicks **Yes**. |
-| We offer you a comprehensive portfolio of hosting options. | Rackspace offers a comprehensive portfolio of hosting options for the enterprise buyer. |
-| Cloud Backup uses block-level deduplication, which means that only those parts of a file that have changed are saved. | Cloud Backup uses block-level deduplication, which means we save only those parts of a file that have changed. |
 {: class="hxTable"}
 {% endfigure %}
 
@@ -128,7 +128,7 @@ In the correct example, notice the **a** before Cloud Database.
 
 Parallel structure also applies to options you present to users. Don't ask users to choose from unrelated values. For example, when providing radio button options:
 
- {% figure [caption:"Provide context example"] [class:"image bg-light border"] %}
+ {% figure [caption:"Maintain parallel construction example"] [class:"image bg-light border"] %}
  | Use | Avoid  |
  | --- | --- |
  | **Always**, **Only with streaming**, and **Never**. | **Always**, **Only with streaming**, and **Blocked**. |
@@ -176,16 +176,39 @@ Provide meaningful descriptions for key features and state their importance to h
 
 Create content that anticipates user needs and explains how a Rackspace feature or option helps the user accomplish a goal. Don't explain the technical details of what a Rackspace service is doing.
 
+Aligning in-product text with user goals requires that you understand the subtleties of your audience and how a feature supports what the user is trying to do.
+
 For example:
 
-{% figure [caption:"Focus on user goals"] [class:"image bg-light border"] %}
+{% figure [caption:"Focus on user goals example"] [class:"image bg-light border"] %}
 | Use | Avoid  |
 | --- | --- |
 | Link your existing ObjectRocket account to your Rackspace Cloud account and get easy navigation between control panels. | When you link your existing ObjectRocket account to your Rackspace Cloud account the system provides multiple control panels for a single user ID. |
 {: class="hxTable"}
 {% endfigure %}
 
-Aligning in-product text with user goals requires that you understand the subtleties of your audience and how a feature supports what the user is trying to do.
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section"  markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
+
+## Write accurate and descriptive labels
+
+A label is a static element that displays text on a control panel page. Page titles, section titles, and subsection titles are examples of labels.
+
+When writing labels, consider the following guidelines:
+
+- Label content areas concisely. Use fewer words in a label to help the scannability of the content on a page.
+- Write accurate labels that reflect the content the label introduces.
+- Write descriptive labels. Descriptive labels communicate better with users than non-descriptive labels.
+- Use parallel construction when labeling the sections of a control panel.
 
 {% endcolumn %}
 

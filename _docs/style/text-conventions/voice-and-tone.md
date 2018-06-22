@@ -4,7 +4,7 @@ layout: docs
 parent: Text Conventions
 category: Style
 usage: |
-  Use these guidelines to write in-product text that is friendly, helpful, and inspires confidence.
+  Use these guidelines to write user interface text that is friendly, helpful, and inspires confidence.
 resource: false
 status: complete
 last-modified: 2018-06-01
@@ -22,10 +22,8 @@ The primary job of the words in a UI is to help users complete tasks with no
 confusion and minimal interruption. However, the voice and tone that we use
 with words in a UI also influence how people think and feel about Rackspace.
 
-Voice is our style, our point of view, and our personality. Tone is our
-attitude and how we are perceived by those who read (and hear) our words. Voice
-determines how we write. Tone determines our attitude to the subject and
-audience, and how we're perceived by our audience.
+Voice is our style, and communicates our personality to the user. Tone is our mood,
+and communicates our attitude about the subject to the user.
 
 The words we choose — and the ways we use them — should reflect our goals: building trust, inspiring confidence, making things easier, and developing a relationship with Rackspace users.
 
@@ -43,7 +41,60 @@ The words we choose — and the ways we use them — should reflect our goals: b
 
 ## Best practices
 
-Consider the following voice and tone best practices when you write in-product text:
+Consider the following voice and tone best practices when you write user interface text:
+
+#### Write in a way that the user wants to be spoken to. Use helpful words and phrases that are informative, simple, clear and easy to understand.
+
+- Use: The IP address of the server still needs to be entered. Click the My Server button to complete the configuration.
+- Don't use: The monitoring engine couldn't connect to the server. Make sure the information is correctly entered.
+<br>
+<br>
+
+#### Temper the enthusiasm conveyed in confirmation messages.
+
+- Use: You have successfully configured databases for monitoring.
+- Don't use: Congratulations!! ALL of your databases are now being monitored!!
+<br>
+<br>
+
+#### Be careful about laying blame. Don't take the blame for a negative situation. Don't lay the blame of the negative situation on the user.
+
+- Use: The system could not validate your account. Please enter your credentials again.
+- Don't use: Either you didn't enter your credentials correctly, or the system timed out. Please enter your credentials again.
+<br>
+<br>
+
+#### In positive situations, be encouraging and offer next steps. Don't take credit for the user's success.
+
+- Use: Great job. You can now commission and decommission servers on-demand..
+- Don't use: Great job. Our system is so easy to use that you are now able to commission and decommission servers on-demand.
+
+
+
+
+
+
+
+
+
+{% figure [class:"image bg-light border"] %}
+| Use | Don't use |
+| --- | --- |
+| The IP address of the server still needs to be entered. Click the My Server button to complete the configuration. | The monitoring engine couldn't connect to the server. Make sure the information is correctly entered. |
+{: class="hxTable"}
+{% endfigure %}
+
+
+Temper the enthusiasm conveyed in confirmation messages.
+{% figure [class:"image bg-light border"] %}
+| Use | Don't use |
+| --- | --- |
+| You have successfully configured databases for monitoring. | Congratulations!! ALL of your databases are now being monitored!! |
+{: class="hxTable"}
+{% endfigure %}
+
+
+
 
 {% figure [caption:"Voice and tone attributes"] [class:"image bg-light border"] %}
 | Description | Use | Don't use |
