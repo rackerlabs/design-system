@@ -39,7 +39,7 @@ The words we choose — and the ways we use them — should reflect our goals: b
 
 {% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
 
-## Best practices
+## Best practices - no table
 
 Consider the following voice and tone best practices when you write user interface text:
 
@@ -66,16 +66,25 @@ Consider the following voice and tone best practices when you write user interfa
 
 #### In positive situations, be encouraging and offer next steps. Don't take credit for the user's success.
 
-- Use: Great job. You can now commission and decommission servers on-demand..
-- Don't use: Great job. Our system is so easy to use that you are now able to commission and decommission servers on-demand.
+- Use: Configuration successful. You can now commission and decommission servers on-demand..
+- Don't use: Congrats! Our system is so easy to use that you are now able to commission and decommission servers on-demand.
+<br>
+<br>
 
+#### In negative situations, be clear about the problem and how the user can fix it. Don't ask the user to trust us without providing more information.
 
+- Use: Your account details and database IP address range don't match. Ensure that the IP addresses on the Account Details page are correct.
+- Don't use: The database configuration failed.
+<br>
+<br>
 
+## Best practices - multiple tables
 
+Consider the following voice and tone best practices when you write user interface text:
+<br>
+<br>
 
-
-
-
+Write in a way that the user wants to be spoken to. Use helpful words and phrases that are informative, simple, clear and easy to understand
 
 {% figure [class:"image bg-light border"] %}
 | Use | Don't use |
@@ -83,7 +92,8 @@ Consider the following voice and tone best practices when you write user interfa
 | The IP address of the server still needs to be entered. Click the My Server button to complete the configuration. | The monitoring engine couldn't connect to the server. Make sure the information is correctly entered. |
 {: class="hxTable"}
 {% endfigure %}
-
+<br>
+<br>
 
 Temper the enthusiasm conveyed in confirmation messages.
 {% figure [class:"image bg-light border"] %}
@@ -92,9 +102,42 @@ Temper the enthusiasm conveyed in confirmation messages.
 | You have successfully configured databases for monitoring. | Congratulations!! ALL of your databases are now being monitored!! |
 {: class="hxTable"}
 {% endfigure %}
+<br>
+<br>
 
+Be careful about laying blame. Don't take the blame for a negative situation. Don't lay the blame of the negative situation on the user.
+{% figure [class:"image bg-light border"] %}
+| Use | Don't use |
+| --- | --- |
+| The system could not validate your account. Please enter your credentials again. | Either you didn't enter your credentials correctly, or the system timed out. Please enter your credentials again. |
+{: class="hxTable"}
+{% endfigure %}
+<br>
+<br>
 
+In positive situations, be encouraging and offer next steps. Don't take credit for the user's success.
+{% figure [class:"image bg-light border"] %}
+| Use | Don't use |
+| --- | --- |
+| Configuration successful. You can now commission and decommission servers on-demand. | Congrats! Our system is so easy to use that you are now able to commission and decommission servers on-demand. |
+{: class="hxTable"}
+{% endfigure %}
+<br>
+<br>
 
+In negative situations, be clear about the problem and how the user can fix it. Don't ask the user to trust us without providing more information.
+{% figure [class:"image bg-light border"] %}
+| Use | Don't use |
+| --- | --- |
+| Your account details and database IP address range don't match. Ensure that the IP addresses on the Account Details page are correct. | The database configuration failed. |
+{: class="hxTable"}
+{% endfigure %}
+<br>
+<br>
+
+## Best practices - Single table (original)
+
+Consider the following voice and tone best practices when you write user interface text:
 
 {% figure [caption:"Voice and tone attributes"] [class:"image bg-light border"] %}
 | Description | Use | Don't use |
@@ -102,7 +145,7 @@ Temper the enthusiasm conveyed in confirmation messages.
 | Write in a way that the user wants to be spoken to. Use helpful words and phrases that are informative, simple, clear and easy to understand. | The IP address of the server still needs to be entered. Click the My Server button to complete the configuration. | The monitoring engine couldn't connect to the server. Make sure the information is correctly entered. |
 | Temper the enthusiasm conveyed in confirmation messages. | You have successfully configured databases for monitoring. | Congratulations!! ALL of your databases are now being monitored!! |
 | Be careful about laying blame. Don't take the blame for a negative situation. Don't lay the blame of the negative situation on the user. | The system could not validate your account. Please enter your credentials again. | Either you didn't enter your credentials correctly, or the system timed out. Please enter your credentials again. |
-| In positive situations, be encouraging and offer next steps. Don't take credit for the user's success. | Congrats! You can now commission and decommission servers on-demand. | Congrats! Our system is so easy to use that you are now able to commission and decommission servers on-demand. |
+| In positive situations, be encouraging and offer next steps. Don't take credit for the user's success. | Configuration successful. You can now commission and decommission servers on-demand. | Congrats! Our system is so easy to use that you are now able to commission and decommission servers on-demand. |
 | In negative situations, be clear about the problem and how the user can fix it. Don't ask the user to trust us without providing more information. | Your account details and database IP address range don't match. Ensure that the IP addresses on the Account Details page are correct. | The database configuration failed. |
 {: class="hxTable"}
 {% endfigure %}
@@ -121,7 +164,7 @@ Temper the enthusiasm conveyed in confirmation messages.
 
 ## Voice and tone attributes
 
-When you write in-product text, use words that reflect the following voice and tone attributes:
+When you write user interface text, use words that reflect the following voice and tone attributes:
 
 {% figure [caption:"Voice and tone attributes"] [class:"image bg-light border"] %}
 | Voice attributes | Tone attributes  |

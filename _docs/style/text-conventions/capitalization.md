@@ -26,9 +26,9 @@ For title-style capitalization, capitalize the first letter of nouns, adjectives
 - Coordinating conjunctions (and, or).
 - Prepositions with fewer than five letters (to, on, at, by, from) unless they are the first or last words of the element.
 - Infinitives (to, in, an).
-- Capitalize the second word in a hyphenated compound if it would normally be capitalized as a single word. For example, you would capitalize both words in Quick-Find Options, but you would only capitalize Add in Add-on Choices.
+- Capitalize the second word in a hyphenated compound if it would normally be capitalized as a single word. For example, you would capitalize both words in **Quick-Find** Options, but you would only capitalize **Add** in Add-on Choices.
 
-The following table shows examples for title-style capitalization:
+The following table includes examples for title-style capitalization:
 
 {% figure [caption:"Title-style capitalization examples"] [class:"image bg-light border"] %}
 | Use | Don't use  |

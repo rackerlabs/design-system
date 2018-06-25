@@ -4,10 +4,10 @@ layout: docs
 parent: Text Conventions
 category: Style
 usage: |
-  Alerts and messages inform users about progress that they make or problems that they encounter in the UI. They must be clearly written, be free from grammar and punctuation problems, and follow the style and terminology for guidelines in this section. Users gain understanding from the content of the messages (text, icons, color) as well as the context (where on the screen and when in the user flow the messages appear). So users can recover quickly, alerts and messages should provide essential information to help them understand and address issues.
+  Alerts and messages inform users about progress that they make or problems that they encounter in the UI. They must be clearly written, be free from grammar and punctuation problems, and follow the style and terminology guidelines in this section. Users gain understanding from the content of the messages (text, icons, color) as well as the context (where on the screen and when in the user flow the messages appear). So users can recover quickly, alerts and messages should provide essential information to help them understand and address issues.
 resource: false
 status: complete
-last-modified: 2018-06-21
+last-modified: 2018-06-25
 ---
 
 {% include toc.html %}
@@ -71,17 +71,17 @@ Use these guidelines when you write messages in a control panel.
 
 ## Message types
 
-The following types of messages are the most common:
+The following list includes the most common types of error messages:
 
-- **Error**: Use error messages to inform users that a problem in the system or application occurred. Users or systems cannot continue their tasks until the problem is resolved.
+- **Error**: Use error messages to inform the user that a problem in the system or application occurred. The user or system cannot continue the task until the problem is resolved.
   - Example: `The file could not be found.`
 - **Warning**: Use warning messages to alert users about a condition that might cause problems in the future. The user can generally continue with their tasks, but those tasks might not be completed in a way that is expected.
   - Example: `The service could not open all documents. Some documents were skipped.`
 - **Information**: Use information messages to provide information about normal conditions and operations.
   - Example: `Updates are being processed.`
-- **Confirmation**: Use confirmation messages to ask users to verify an action that the users or sometimes the system initiated. Also, use confirmation prompts to ask users for additional information to complete a step or to ask whether to save information for future use.
+- **Confirmation**: Use confirmation messages to ask the user to verify an action that the user or the system initiated. Use a confirmation prompt to ask the user for additional information to complete a step or to ask whether to save information for future use.
   - Example: `Do you want to close this document without saving your changes?`
-- **Success**: Use success messages to tell users that an action successfully completed.
+- **Success**: Use success messages to tell the user that an action successfully completed.
   - Example: `Server successfully deleted.`
 
 {% endcolumn %}
