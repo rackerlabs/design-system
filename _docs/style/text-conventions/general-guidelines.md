@@ -77,7 +77,7 @@ Users are more engaged with content when it talks to them directly. You talk to 
 | Use | Avoid  |
 | --- | --- |
 | The credit card you have configured as your default (recurring) payment method has expired. | The credit card that is  configured as the default (recurring) payment method has expired. |
-| To receive your invoice by email, select the recipients to receive a PDF invoice delivered by email. | To receive the  invoice by email, select the recipients to receive a PDF invoice delivered by email. |
+| To receive your invoice by email, select the recipients to receive a PDF invoice delivered by email. | To receive the invoice by email, select the recipients to receive a PDF invoice delivered by email. |
 | To create a server, specify a name, flavor, and image. | Creating a server involves specifying a name, flavor, and image. |
 | Click **Yes** to accept the license agreement. | The license agreement is accepted when the user clicks **Yes**. |
 {: class="hxTable"}
@@ -97,7 +97,7 @@ Users are more engaged with content when it talks to them directly. You talk to 
 
 ## Avoid abbreviations
 
-Avoid abbreviations, acronyms, and slang. Use an abbreviation only if it is better known than the word that it stands for or if space savings is critical.
+Avoid abbreviations, acronyms, and slang. Use an abbreviation only if it is better known than the word that it stands for or if saving space is critical.
 
 Unless an abbreviation is common, spell out the words of the abbreviation on the first use. Show the abbreviation in parentheses after the spelled-out term; for example, access control list (ACL). On subsequent uses, use the abbreviation. If you introduce an abbreviation, use it; don't alternate between the abbreviation and the spelled-out term.
 
@@ -176,14 +176,14 @@ Provide meaningful descriptions for key features and state their importance to h
 
 Create content that anticipates user needs and explains how a Rackspace feature or option helps the user accomplish a goal. Don't explain the technical details of what a Rackspace service is doing.
 
-Aligning in-product text with user goals requires that you understand the subtleties of your audience and how a feature supports what the user is trying to do.
+Aligning user interface text with user goals requires that you understand the subtleties of your audience and how a feature supports what the user is trying to do.
 
 For example:
 
 {% figure [caption:"Focus on user goals example"] [class:"image bg-light border"] %}
 | Use | Avoid  |
 | --- | --- |
-| Link your existing ObjectRocket account to your Rackspace Cloud account and get easy navigation between control panels. | When you link your existing ObjectRocket account to your Rackspace Cloud account the system provides multiple control panels for a single user ID. |
+| Link your existing ObjectRocket account to your Rackspace Cloud account and easily navigation between control panels. | When you link your existing ObjectRocket account to your Rackspace Cloud account the system provides multiple control panels for a single user ID. |
 {: class="hxTable"}
 {% endfigure %}
 

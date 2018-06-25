@@ -4,10 +4,10 @@ layout: docs
 parent: Text Conventions
 category: Style
 usage: |
-  User interface (UI) elements use a combination of title-style capitalization and sentence-style capitalization. When you use different capitalization styles for different types of content you can improve scannability, organize information, and guide users to key actions. It is important to apply these capitalization guidelines consistently to make the UI clear and succinct.
+  User interface (UI) elements use a combination of title-style, sentence-style, and all caps capitalization. When you use different capitalization styles for different types of content you can improve scannability, organize information, and guide users to key actions. It is important to apply these capitalization guidelines consistently to make the UI clear and succinct.
 resource: false
 status: complete
-last-modified: 2018-06-15
+last-modified: 2018-06-25
 ---
 
 {% include toc.html %}
@@ -120,12 +120,12 @@ The following elements use sentence-style capitalization:
 
 In rare cases, all caps might be used to visually distinguish a secondary, less important text element - for example, **GENERAL** as a menu heading.
 
-The following use all caps capitalization:
+The following elements use all caps capitalization:
 
 - Header 5
 - Table column headers
 - Alert bar messages
-- Alert Bar action links
+- Alert bar action links
 
 {% endcolumn %}
 

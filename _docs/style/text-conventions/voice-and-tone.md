@@ -37,54 +37,29 @@ The words we choose — and the ways we use them — should reflect our goals: b
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-12-md hxSpan-12-lg" %}
 
-## Best practices - no table
-
-Consider the following voice and tone best practices when you write user interface text:
-
-#### Write in a way that the user wants to be spoken to. Use helpful words and phrases that are informative, simple, clear and easy to understand.
-
-- Use: The IP address of the server still needs to be entered. Click the My Server button to complete the configuration.
-- Don't use: The monitoring engine couldn't connect to the server. Make sure the information is correctly entered.
-<br>
-<br>
-
-#### Temper the enthusiasm conveyed in confirmation messages.
-
-- Use: You have successfully configured databases for monitoring.
-- Don't use: Congratulations!! ALL of your databases are now being monitored!!
-<br>
-<br>
-
-#### Be careful about laying blame. Don't take the blame for a negative situation. Don't lay the blame of the negative situation on the user.
-
-- Use: The system could not validate your account. Please enter your credentials again.
-- Don't use: Either you didn't enter your credentials correctly, or the system timed out. Please enter your credentials again.
-<br>
-<br>
-
-#### In positive situations, be encouraging and offer next steps. Don't take credit for the user's success.
-
-- Use: Configuration successful. You can now commission and decommission servers on-demand..
-- Don't use: Congrats! Our system is so easy to use that you are now able to commission and decommission servers on-demand.
-<br>
-<br>
-
-#### In negative situations, be clear about the problem and how the user can fix it. Don't ask the user to trust us without providing more information.
-
-- Use: Your account details and database IP address range don't match. Ensure that the IP addresses on the Account Details page are correct.
-- Don't use: The database configuration failed.
-<br>
-<br>
-
-## Best practices - multiple tables
+## Best practices
 
 Consider the following voice and tone best practices when you write user interface text:
-<br>
-<br>
 
-Write in a way that the user wants to be spoken to. Use helpful words and phrases that are informative, simple, clear and easy to understand
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section"  markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+Write in a way that the user wants to be spoken to. Use helpful words and phrases that are informative, simple, clear and easy to understand.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
 | Use | Don't use |
@@ -92,61 +67,104 @@ Write in a way that the user wants to be spoken to. Use helpful words and phrase
 | The IP address of the server still needs to be entered. Click the My Server button to complete the configuration. | The monitoring engine couldn't connect to the server. Make sure the information is correctly entered. |
 {: class="hxTable"}
 {% endfigure %}
-<br>
-<br>
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section"  markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 Temper the enthusiasm conveyed in confirmation messages.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
 {% figure [class:"image bg-light border"] %}
 | Use | Don't use |
 | --- | --- |
 | You have successfully configured databases for monitoring. | Congratulations!! ALL of your databases are now being monitored!! |
 {: class="hxTable"}
 {% endfigure %}
-<br>
-<br>
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section"  markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 Be careful about laying blame. Don't take the blame for a negative situation. Don't lay the blame of the negative situation on the user.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
 {% figure [class:"image bg-light border"] %}
 | Use | Don't use |
 | --- | --- |
 | The system could not validate your account. Please enter your credentials again. | Either you didn't enter your credentials correctly, or the system timed out. Please enter your credentials again. |
 {: class="hxTable"}
 {% endfigure %}
-<br>
-<br>
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section"  markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 In positive situations, be encouraging and offer next steps. Don't take credit for the user's success.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
 {% figure [class:"image bg-light border"] %}
 | Use | Don't use |
 | --- | --- |
 | Configuration successful. You can now commission and decommission servers on-demand. | Congrats! Our system is so easy to use that you are now able to commission and decommission servers on-demand. |
 {: class="hxTable"}
 {% endfigure %}
-<br>
-<br>
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section"  markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 In negative situations, be clear about the problem and how the user can fix it. Don't ask the user to trust us without providing more information.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
 {% figure [class:"image bg-light border"] %}
 | Use | Don't use |
 | --- | --- |
 | Your account details and database IP address range don't match. Ensure that the IP addresses on the Account Details page are correct. | The database configuration failed. |
-{: class="hxTable"}
-{% endfigure %}
-<br>
-<br>
-
-## Best practices - Single table (original)
-
-Consider the following voice and tone best practices when you write user interface text:
-
-{% figure [caption:"Voice and tone attributes"] [class:"image bg-light border"] %}
-| Description | Use | Don't use |
-| --- | --- | --- |
-| Write in a way that the user wants to be spoken to. Use helpful words and phrases that are informative, simple, clear and easy to understand. | The IP address of the server still needs to be entered. Click the My Server button to complete the configuration. | The monitoring engine couldn't connect to the server. Make sure the information is correctly entered. |
-| Temper the enthusiasm conveyed in confirmation messages. | You have successfully configured databases for monitoring. | Congratulations!! ALL of your databases are now being monitored!! |
-| Be careful about laying blame. Don't take the blame for a negative situation. Don't lay the blame of the negative situation on the user. | The system could not validate your account. Please enter your credentials again. | Either you didn't enter your credentials correctly, or the system timed out. Please enter your credentials again. |
-| In positive situations, be encouraging and offer next steps. Don't take credit for the user's success. | Configuration successful. You can now commission and decommission servers on-demand. | Congrats! Our system is so easy to use that you are now able to commission and decommission servers on-demand. |
-| In negative situations, be clear about the problem and how the user can fix it. Don't ask the user to trust us without providing more information. | Your account details and database IP address range don't match. Ensure that the IP addresses on the Account Details page are correct. | The database configuration failed. |
 {: class="hxTable"}
 {% endfigure %}
 
