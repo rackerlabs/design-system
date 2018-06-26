@@ -43,7 +43,7 @@ The following elements use title-style capitalization:
 
 - Button labels
 - Chart titles
-- Field group names
+- Checkbox and radio button field names
 - Icon labels
 - Links used for an action or navigation
 - Menu items (both menu bar and context menus)
@@ -89,19 +89,19 @@ The following table shows examples for sentence-style capitalization:
 
 The following elements use sentence-style capitalization:
 
-- Checkbox field names
+- Checkbox and radio button help text
 - Field help text
 - Field names
 - File names
-- Headings for groups of radio buttons or check boxes
+- Headings for groups of radio buttons or checkboxes
 - Hover help text
 - Input hints
 - List box, drop-down list, and combination box entries
 - List box labels
 - Messages (information, warning, and error)
+- Option labels
 - Page instructions or descriptions
 - Progress bar labels
-- Radio button field names
 - Status bar text
 
 {% endcolumn %}

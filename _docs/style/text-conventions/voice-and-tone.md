@@ -16,7 +16,7 @@ last-modified: 2018-06-01
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-12-md hxSpan-12-lg" %}
 
 The primary job of the words in a UI is to help users complete tasks with no
 confusion and minimal interruption. However, the voice and tone that we use

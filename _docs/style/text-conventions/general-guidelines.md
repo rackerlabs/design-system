@@ -7,7 +7,7 @@ usage: |
   These general writing guidelines include rules for how to write instructions and descriptions in a control panel that are clear, helpful, and grammatically correct.
 resource: false
 status: complete
-last-modified: 2018-06-21
+last-modified: 2018-06-26
 ---
 
 {% include toc.html %}
@@ -16,35 +16,7 @@ last-modified: 2018-06-21
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
-
-## Write with active voice
-
-Active voice makes the performer of the action (usually the user) the subject of the sentence. Passive voice makes the recipient of the action (not the performer) the subject of the sentence.
-
-Active-voice sentences are more engaging, less complicated, less wordy, and easier to understand than passive-voice sentences. With active voice, the actions and responses of the user are easier to distinguish from the actions and responses of the technology.
-
-{% figure [caption:"Active voice examples"] [class:"image bg-light border"] %}
-| Use (active) | Avoid (passive) |
-| --- | --- |
-| To create a stack, start by selecting a template. | A stack is created by selecting a template. |
-| Confirm the following account information. | The following account information should be confirmed. |
-| Click **OK** to save the configuration. | The configuration is saved when the **OK** button is clicked. |
-| Create a server. | A server is created by you. |
-{: class="hxTable"}
-{% endfigure %}
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section"  markdown="1">
-
-<div class="hxRow" markdown="1">
-
-{% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-12-md hxSpan-12-lg" %}
 
 ## Write clearly and objectively
 
@@ -67,14 +39,50 @@ Use the following guidelines to help you write clearly and objectively:
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+## Write with active voice
+
+Active voice makes the performer of the action (usually the user) the subject of the sentence. Passive voice makes the recipient of the action (not the performer) the subject of the sentence.
+
+Active-voice sentences are more engaging, less complicated, less wordy, and easier to understand than passive-voice sentences. With active voice, the actions and responses of the user are easier to distinguish from the actions and responses of the technology.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [class:"image bg-light border"] %}
+| <hx-icon type="checkmark"></hx-icon> | <hx-icon type="times"></hx-icon> |
+| --- | --- |
+| To create a stack, start by selecting a template. | A stack is created by selecting a template. |
+| Confirm the following account information. | The following account information should be confirmed. |
+| Click **OK** to save the configuration. | The configuration is saved when the **OK** button is clicked. |
+| Create a server. | A server is created by you. |
+{: class="hxTable"}
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section"  markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ## Use second person
 
 Users are more engaged with content when it talks to them directly. You talk to users directly by using second person, addressing the user as **you**. Second person also promotes a friendly tone.
 
-{% figure [caption:"Second person examples"] [class:"image bg-light border"] %}
-| Use | Avoid  |
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [class:"image bg-light border"] %}
+| <hx-icon type="checkmark"></hx-icon> | <hx-icon type="times"></hx-icon> |
 | --- | --- |
 | The credit card you have configured as your default (recurring) payment method has expired. | The credit card that is  configured as the default (recurring) payment method has expired. |
 | To receive your invoice by email, select the recipients to receive a PDF invoice delivered by email. | To receive the invoice by email, select the recipients to receive a PDF invoice delivered by email. |
@@ -93,49 +101,47 @@ Users are more engaged with content when it talks to them directly. You talk to 
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
-
-## Avoid abbreviations
-
-Avoid abbreviations, acronyms, and slang. Use an abbreviation only if it is better known than the word that it stands for or if saving space is critical.
-
-Unless an abbreviation is common, spell out the words of the abbreviation on the first use. Show the abbreviation in parentheses after the spelled-out term; for example, access control list (ACL). On subsequent uses, use the abbreviation. If you introduce an abbreviation, use it; don't alternate between the abbreviation and the spelled-out term.
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section"  markdown="1">
-
-<div class="hxRow" markdown="1">
-
-{% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ## Maintain parallel construction
 
-Parallel construction means that each part of a sentence uses the same grammatical structure. When writing a series, it is important that each element in the series performs the same function, that of the object of the verb. For example:
+Parallel construction means that each part of a sentence uses the same grammatical structure. When writing a series, it is important that each element in the series performs the same function, that of the object of the verb. In the correct example, notice the **a** before Cloud Database.
 
-{% figure [caption:"Provide context example"] [class:"image bg-light border"] %}
-| Use | Avoid  |
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [class:"image bg-light border"] %}
+| <hx-icon type="checkmark"></hx-icon> | <hx-icon type="times"></hx-icon> |
 | --- | --- |
 | This stack includes a Cloud Load Balancer, a Cloud Database, and a Master server (plus optional secondary servers). | This stack includes a Cloud Load Balancer, Cloud Database, and a Master server (plus optional secondary servers). |
 {: class="hxTable"}
 {% endfigure %}
 
-In the correct example, notice the **a** before Cloud Database.
+{% endcolumn %}
 
-Parallel structure also applies to options you present to users. Don't ask users to choose from unrelated values. For example, when providing radio button options:
+</div>
 
- {% figure [caption:"Maintain parallel construction example"] [class:"image bg-light border"] %}
- | Use | Avoid  |
- | --- | --- |
- | **Always**, **Only with streaming**, and **Never**. | **Always**, **Only with streaming**, and **Blocked**. |
- {: class="hxTable"}
- {% endfigure %}
+</section>
 
-In this example, **Always** and **Never** are opposites. **Always** and **Blocked** are not opposites.
+<section class="static-section"  markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+Parallel structure also applies to options you present to users. Don't ask users to choose from unrelated values. In this example, **Always** and **Never** are opposites. **Always** and **Blocked** are not opposites.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [class:"image bg-light border"] %}
+| <hx-icon type="checkmark"></hx-icon> | <hx-icon type="times"></hx-icon> |
+| --- | --- |
+| **Always**, **Only with streaming**, and **Never**. | **Always**, **Only with streaming**, and **Blocked**. |
+{: class="hxTable"}
+{% endfigure %}
 
 {% endcolumn %}
 
@@ -147,14 +153,18 @@ In this example, **Always** and **Never** are opposites. **Always** and **Blocke
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ## Provide context
 
 Provide meaningful descriptions for key features and state their importance to help users understand the benefits. Don't use Rackspace-created terms as a substitute for clearly explaining options.
 
-{% figure [caption:"Provide context example"] [class:"image bg-light border"] %}
-| Use | Avoid  |
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [class:"image bg-light border"] %}
+| <hx-icon type="checkmark"></hx-icon> | <hx-icon type="times"></hx-icon> |
 | --- | --- |
 | Monitoring keeps your applications up and running. You can use monitoring to track and gather information about the applications that you run to prevent downtime. | Use Rackspace Monitoring to prevent downtime. |
 {: class="hxTable"}
@@ -170,7 +180,7 @@ Provide meaningful descriptions for key features and state their importance to h
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ## Focus on user goals
 
@@ -178,10 +188,12 @@ Create content that anticipates user needs and explains how a Rackspace feature 
 
 Aligning user interface text with user goals requires that you understand the subtleties of your audience and how a feature supports what the user is trying to do.
 
-For example:
+{% endcolumn %}
 
-{% figure [caption:"Focus on user goals example"] [class:"image bg-light border"] %}
-| Use | Avoid  |
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [class:"image bg-light border"] %}
+| <hx-icon type="checkmark"></hx-icon> | <hx-icon type="times"></hx-icon> |
 | --- | --- |
 | Link your existing ObjectRocket account to your Rackspace Cloud account and easily navigation between control panels. | When you link your existing ObjectRocket account to your Rackspace Cloud account the system provides multiple control panels for a single user ID. |
 {: class="hxTable"}
@@ -197,7 +209,7 @@ For example:
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-12-md hxSpan-12-lg" %}
 
 ## Write accurate and descriptive labels
 
@@ -209,6 +221,24 @@ When writing labels, consider the following guidelines:
 - Write accurate labels that reflect the content the label introduces.
 - Write descriptive labels. Descriptive labels communicate better with users than non-descriptive labels.
 - Use parallel construction when labeling the sections of a control panel.
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section"  markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-12-md hxSpan-12-lg" %}
+
+## Avoid abbreviations
+
+Avoid abbreviations, acronyms, and slang. Use an abbreviation only if it is better known than the word that it stands for or if saving space is critical.
+
+Unless an abbreviation is common, spell out the words of the abbreviation on the first use. Show the abbreviation in parentheses after the spelled-out term; for example, access control list (ACL). On subsequent uses, use the abbreviation. If you introduce an abbreviation, use it; don't alternate between the abbreviation and the spelled-out term.
 
 {% endcolumn %}
 

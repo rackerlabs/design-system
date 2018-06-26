@@ -7,7 +7,7 @@ usage: |
   Rackspace is a global company, so it is critical to ensure that we represent date and time as clearly and consistently as possible to our customers.
 resource: false
 status: complete
-last-modified: 2018-06-21
+last-modified: 2018-06-26
 ---
 
 {% include toc.html %}
@@ -115,20 +115,12 @@ You can show time by using either the 24-hour or 12-hour clock.
 
 When you use the 12-hour clock to show time, use the following guidelines:
 
-- Use a colon to separate the hours and minutes. If the minutes are 00, you don't need to show them unless you're showing a span of time that includes a time with minutes.
-- Use lowercase letters for abbreviations of ante meridiem (a.m.) and post meridiem (p.m.). Separate these abbreviations from the time with a space. Use periods in the abbreviations.
-- When specifying time zones, show both the spelled-out name and the abbreviation. Show the name in lowercase letters; use uppercase letters and no periods for the abbreviation.
-- Avoid references to standard and daylight saving time because the appropriate designation changes frequently. However, if you need to include such a reference, insert *S* (for standard) or *D* (for daylight) as the second character in the abbreviation.
+- Use a colon to separate the hours and minutes. For example, use **10:29 a.m.**
+- If the minutes are 00, you don't need to show them unless you're showing a span of time that includes a time with minutes. For example, use **6 p.m.** and **6:00 p.m. to 8:30 p.m.**
+- Use lowercase letters for abbreviations of ante meridiem (a.m.) and post meridiem (p.m.). Separate these abbreviations from the time with a space. Use periods in the abbreviations. For example, use **6:00 p.m.** and **10:21 a.m.**
+- When specifying time zones, show both the spelled-out name and the abbreviation. Show the name in lowercase letters; use uppercase letters and no periods for the abbreviation. For example, use **10:30 a.m. central time (CT)**.
+- Avoid references to standard and daylight saving time because the appropriate designation changes frequently. However, if you need to include such a reference, insert *S* (for standard) or *D* (for daylight) as the second character in the abbreviation. For example, use **1:30 p.m. central standard time (CST)**.
 - When referring to 12 a.m., use **12 midnight** or just **midnight**. When referring to 12 p.m., use **12 noon** or just **noon**.
-
-Consider the following examples for 12-hour clock time:
-
-- 10:29 a.m.
-- 6 p.m.
-- 6:00 p.m. to 8:30 p.m.
-- 10:30 a.m. central time (CT)
-- 1:30 p.m. central standard time (CST)
-- midnight
 
 {% endcolumn %}
 
@@ -146,19 +138,12 @@ Consider the following examples for 12-hour clock time:
 
 When you use the 24-hour clock to show time, use the following guidelines:
 
-- Use a colon to separate the hours, minutes, and seconds.
-- Show the hours, minutes, and seconds with two digits each, even if the leading digit is 0.
+- Use a colon to separate the hours, minutes, and seconds. For example, use **18:30:59**.
+- Show the hours, minutes, and seconds with two digits each, even if the leading digit is 0. For example, use **08:29:37**.
 - When possible, display the local time as specified in user preferences. If time preferences have not been set, use the assumed time based on the browser. Only use UTC when no timezone preference can be determined or standardization across timezones is necessary.
-- If you need to show a time zone, use Coordinated Universal Time (UTC), and indicate the time-zone offset from UTC.
-
-Consider the following examples for 24-hour clock time:
-
-- 08:29:37
-- 18:30:59
-- 18:00:00 to 20:30:00
-- 10:30:00 (UTC -6) (refers to CT)
-- 12:00:00 (noon)
-- 00:00:00 (midnight)
+- If you need to show a time zone, use Coordinated Universal Time (UTC), and indicate the time-zone offset from UTC. For example, use **10:30:00 (UTC -6) (refers to CT)**.
+- When you refer to 12 p.m., add **(noon)** to the time. For example, use **12:00:00 (noon)**.
+- When you refer to 12 a.m., add **(midnight)** to the time. For example, use **00:00:00 (midnight)**.
 
 {% endcolumn %}
 
@@ -176,9 +161,7 @@ Consider the following examples for 24-hour clock time:
 
 Add seconds or milliseconds to the time only when that level specificity is important.
 
-For example, use the following convention for timestamp:
-
-- Apr 2, 2016 12:59:16 AM CDT (UTC-5).
+For example, use **April 2, 2018 12:59:16 AM CDT (UTC-5)**.
 
 {% endcolumn %}
 
@@ -206,7 +189,7 @@ Use the following conventions for elapsed time:
 - After second hour: **\<#\> hrs**
 - After 24 hours: **1 day**
 - After 48 hours: **\<month (mixed case 3 letter abbreviation)\> \<numerical day\>** (for example, "Nov 3")
-- Hover tooltip with **\<timestamp\>**
+- Hover tooltip with **\<timestamp\>**: Construct timeago tooltips to reveal the timestamp of the event. This approach reduces the need for the user to search for the timestamp information.
 
 {% endcolumn %}
 
