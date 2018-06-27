@@ -9,7 +9,7 @@ usage: >
 preview-image: preview-images/selector-strip.svg
 status: stable
 resource: true
-last-modified: 2017-11-07
+last-modified: 2018-06-27
 helix-ui-css: false
 helix-ui-javascript: false
 ---
@@ -18,13 +18,11 @@ helix-ui-javascript: false
 
 <section class="static-section" markdown="1">
 
-## Overview
-
 <div class="hxRow"  markdown="1">
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-### When to use
+## When to use
 
 Use a selector strip on forms requiring a user to select from a small group of action. Selector strips function similarly to [radio buttons]({{site.baseurl}}/components/radio-buttons.html) or [check-boxes]({{site.baseurl}}/components/checkboxes.html) depending on the variation used: single-select or multi-select. Selector strips are best used in situations where the selection alters the data options presented on the page, or when seeking to more visual prominence to group a of options.
 
@@ -38,9 +36,9 @@ Use a selector strip on forms requiring a user to select from a small group of a
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-### Best practice
+## Best practices
 
 The selector strip component functions best when:
 
@@ -50,11 +48,19 @@ The selector strip component functions best when:
 
 {% endcolumn %}
 
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+</div>
 
-{% figure [caption:"Meet the selector strip pattern"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/selector-strip/select-strip-hero.svg"/>
-{% endfigure %}
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+## Single selector strip
+
+Single-select strips have rounded corners and function like a radio button; only one option can be selected at a time. Selecting another option deselects the previously selected option. Single select always starts with one option selected. There are no alternative focus states on single-select strips, because you cannot focus on an item without selecting it.
 
 {% endcolumn %}
 
@@ -64,13 +70,13 @@ The selector strip component functions best when:
 
 <section class="static-section" markdown="1">
 
-## Default layout
-
 <div class="hxRow"  markdown="1">
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-The default layout has two main styles: single-select and multi-select. In both layouts, the unselected options have a white background with cyan text, and selected options have a cyan background with white text.
+### Specifications
+
+Consider the following specifications when you construct a single selector strip.
 
 {% endcolumn %}
 
@@ -84,15 +90,15 @@ The default layout has two main styles: single-select and multi-select. In both 
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Single-select  selector strips
+#### Composition
 
-Single-select strips have rounded corners and function like a radio button; only one option can be selected at a time. Selecting another option deselects the previously selected option. Single select always starts with one option selected. There are no alternative focus states on single-select strips, because you cannot focus on an item without selecting it.
+The default layout has two main styles: single-select and multi-select. In both layouts, the unselected options have a white background with cyan text, and selected options have a cyan background with white text.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Selector strip build specifications"] [class:"image bg-light border"] %}
+{% figure [caption:"Single selector strip composition"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/inputs-and-controls/selector-strip/select-strip-single.svg"/>
 {% endfigure %}
 
@@ -108,16 +114,16 @@ Single-select strips have rounded corners and function like a radio button; only
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Multi-select selector strips
+#### Style
 
-Multi-select selector strips have more squared edges and function like checkboxes so more than one option can be selected at a time. The primary use-case for multi-select is selecting days of the week.
+Use these specifications when you construct a single selector strip.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Selector strip build specifications"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/selector-strip/select-strip-multi.svg"/>
+{% figure [caption:"Single selector strip composition"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/selector-strip/select-strip-single.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -128,7 +134,149 @@ Multi-select selector strips have more squared edges and function like checkboxe
 
 <section class="static-section" markdown="1">
 
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+#### Spacing
+
+Intro to spacing ...
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"Single selector spacing"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/selector-strip/select-strip-single.svg"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+## Multi-selector strip
+
+Multi-select selector strips have more squared edges and function like checkboxes so more than one option can be selected at a time. The primary use-case for multi-select is selecting days of the week.
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+### Specifications
+
+Consider the following specifications when you construct a multi-selector strip.
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+#### Composition
+
+Intro text ...
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"Multi-selector strip composition"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/selector-strip/select-strip-single.svg"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+#### Style
+
+Use these specifications when you construct a multi-selector strip.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"Multi-selector strip composition"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/selector-strip/select-strip-single.svg"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+#### Spacing
+
+Intro text ...
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"Multi-selector strip composition"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/selector-strip/select-strip-single.svg"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
 ## States
+
+Intro text ...
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
 
