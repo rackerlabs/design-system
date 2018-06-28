@@ -56,11 +56,27 @@ Consider the following best practices when you construct a switch:
 
 <section class="static-section" markdown="1">
 
-## Default layout
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+## Specifications
+
+Use the following specifications when you construct a switch.
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+### Composition
 
 The default switch does not contain text.
 
@@ -82,11 +98,62 @@ If text is used, it should be aligned vertically and horizontally within the spa
 
 <section class="static-section" markdown="1">
 
-## States
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+### Style
+
+Use these specifications when you construct a switch.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"Switch sizing specs"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/switches/switch-default-layout.svg"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+### Spacing
+
+- Use the switch 12px to the left of the prompt and centered horizontally.
+- When using more than one switch in a form, align the switches vertically to the right. Ensure they are at least 12px from the end of the prompt.
+- Error text should appear 12px below the last line of the prompt.
+- If the switch is disabled, ensure the prompt text is disabled also.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"Contextual placement of switches"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/switches/switch-context.svg"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+## States
 
 Enabled (default), hover, disabled, and error states. If you are not using any text, be sure to change the length to 56px.
 
@@ -100,33 +167,6 @@ Best practice form design does not allow a switch to exist in an error state, so
 
 {% figure [caption:"Detailed specifications for on and off states of a switch"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/inputs-and-controls/switches/switch-states.svg"/>
-{% endfigure %}
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-## Context
-
-<div class="hxRow"  markdown="1">
-
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-- Use the switch 12px to the left of the prompt and centered horizontally.
-- When using more than one switch in a form, align the switches vertically to the right. Ensure they are at least 12px from the end of the prompt.
-- Error text should appear 12px below the last line of the prompt.
-- If the switch is disabled, ensure the prompt text is disabled also.
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-{% figure [caption:"Contextual placement of switches"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/switches/switch-context.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
