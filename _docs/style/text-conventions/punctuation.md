@@ -7,7 +7,7 @@ usage: |
   Use punctuation consistently throughout a user interface to maintain a user-friendly and professional look.
 resource: false
 status: complete
-last-modified: 2018-06-22
+last-modified: 2018-06-27
 ---
 
 {% include toc.html %}
@@ -41,7 +41,7 @@ Don’t use end punctuation in a tooltip.
 Use serial commas (also called Oxford commas).
 
 {% figure [caption:"Oxford comma example"] [class:"image bg-light border"] %}
-| Use | Don't use  |
+| <hx-icon type="checkmark"></hx-icon> Use | <hx-icon type="times"></hx-icon> Don't use  |
 | --- | --- |
 | The success of the internet as a public resource depends upon interoperability, innovation, and decentralized participation worldwide. | The success of the internet as a public resource depends upon interoperability, innovation and decentralized participation worldwide. |
 {: class="hxTable"}
@@ -68,10 +68,10 @@ Curly quotes are preferred to straight quotes because curly quotes are more leg�
 
 There are four curly quote char­ac­ters:
 
-- open­ing sin­gle quote (&lsquo;)
-- clos­ing sin­gle quote (&rsquo;)
-- open­ing dou­ble quote (&#8220;)
-- clos­ing dou­ble quote (&#8221;)
+- open­ing sin­gle quote ( &lsquo; )
+- clos­ing sin­gle quote ( &rsquo; )
+- open­ing dou­ble quote ( &#8220; )
+- clos­ing dou­ble quote ( &#8221; )
 
 If curly quotes are not an option, use straight quotes. Straight quotes are the two generic vertical quotation marks located near the return key:
 
@@ -79,8 +79,9 @@ If curly quotes are not an option, use straight quotes. Straight quotes are the 
 - straight double quote ( " )
 
 Consider the following examples when you include apostrophes and quotation marks on a control panel page.
+
 {% figure [caption:"Curly quotes vs. straight quotes"] [class:"image bg-light border"] %}
-| Use | Avoid |
+| <hx-icon type="checkmark"></hx-icon> Use | <hx-icon type="times"></hx-icon> Don't use |
 | --- | --- |
 | You don&rsquo;t have any notifications. | You don't have any notifications. |
 | Are you sure you want to delete server &ldquo;MDO-1255&rdquo;? | Are you sure you want to delete server "MDO-1255"? |
@@ -105,14 +106,14 @@ Consider the following examples when you include apostrophes and quotation marks
 
 Use the following rules for hyphens and dashes:
 
-- Use hyphens (-) to create a single idea out of two or more words.
-  - Don’t add a space before or after the hyphen.
-- Use en dashes (–) for ranges, like numbers (such as, 1–9) and dates.
-  - Don’t add a space before of after the en dash.
-- Use em dashes (—), the longest dashes, to set off a long qualifier in the middle of a sentence if the use of commas would hinder readability.
-  - Don’t add a space before of after the en dash.
-  - Don’t capitalize the word following an em dash, unless the word is proper.
-  - Don’t use an em dash to separate a long sentence into two parts. Instead, create two sentences.
+{% figure [caption:"Hyphens and dashes"] [class:"image bg-light border"] %}
+| Element | Description | Guideline |
+| --- | --- | --- |
+| Hyphen | Use hyphens (-) to create a single idea out of two or more words. | Don’t add a space before or after the hyphen. |
+| En dash | Use en dashes (–) for ranges, like numbers (such as, 1–9) and dates. | Don’t add a space before of after the en dash. |
+| Em dash | Use em dashes (—), the longest dashes, to set off a long qualifier in the middle of a sentence if the use of commas would hinder readability. | Don’t add a space before of after the en dash.<br><br> Don’t capitalize the word following an em dash, unless the word is proper. <br><br> Don’t use an em dash to separate a long sentence into two parts. Instead, create two sentences. |
+{: class="hxTable"}
+{% endfigure %}
 
 {% endcolumn %}
 

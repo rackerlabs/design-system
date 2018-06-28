@@ -1,5 +1,5 @@
 ---
-title: General writing guidelines
+title: Writing Guidelines
 layout: docs
 parent: Text Conventions
 category: Style
@@ -52,7 +52,7 @@ Active-voice sentences are more engaging, less complicated, less wordy, and easi
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-| <hx-icon type="checkmark"></hx-icon> | <hx-icon type="times"></hx-icon> |
+| <hx-icon type="checkmark"></hx-icon> Use | <hx-icon type="times"></hx-icon> Don't use |
 | --- | --- |
 | To create a stack, start by selecting a template. | A stack is created by selecting a template. |
 | Confirm the following account information. | The following account information should be confirmed. |
@@ -82,7 +82,7 @@ Users are more engaged with content when it talks to them directly. You talk to 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-| <hx-icon type="checkmark"></hx-icon> | <hx-icon type="times"></hx-icon> |
+| <hx-icon type="checkmark"></hx-icon> Use | <hx-icon type="times"></hx-icon> Don't use |
 | --- | --- |
 | The credit card you have configured as your default (recurring) payment method has expired. | The credit card that is  configured as the default (recurring) payment method has expired. |
 | To receive your invoice by email, select the recipients to receive a PDF invoice delivered by email. | To receive the invoice by email, select the recipients to receive a PDF invoice delivered by email. |
@@ -101,20 +101,34 @@ Users are more engaged with content when it talks to them directly. You talk to 
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-12-md hxSpan-12-lg" %}
 
 ## Maintain parallel construction
 
-Parallel construction means that each part of a sentence uses the same grammatical structure. When writing a series, it is important that each element in the series performs the same function, that of the object of the verb. In the correct example, notice the **a** before Cloud Database.
+Parallel construction means that parallel ideas must be presented in parallel grammatical form. This means that each part of a sentence or sentence fragment that serves the same function uses the same grammatical structure.
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section"  markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+When writing a series, it is important that each element in the series performs the same function, that of the object of the verb.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-| <hx-icon type="checkmark"></hx-icon> | <hx-icon type="times"></hx-icon> |
+| <hx-icon type="checkmark"></hx-icon> Use | <hx-icon type="times"></hx-icon> Don't use |
 | --- | --- |
-| This stack includes a Cloud Load Balancer, a Cloud Database, and a Master server (plus optional secondary servers). | This stack includes a Cloud Load Balancer, Cloud Database, and a Master server (plus optional secondary servers). |
+| This stack includes a Cloud Load Balancer, a Cloud Database, and a Master server. | This stack includes a Cloud Load Balancer, a Cloud Database, and Master server. |
 {: class="hxTable"}
 {% endfigure %}
 
@@ -130,16 +144,20 @@ Parallel construction means that each part of a sentence uses the same grammatic
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-Parallel structure also applies to options you present to users. Don't ask users to choose from unrelated values. In this example, **Always** and **Never** are opposites. **Always** and **Blocked** are not opposites.
+Parallel structure also applies to options you present to users. Don't ask users to choose from unrelated values.
+
+In this example, **Always** and **Never** are opposites. **Always** and **Blocked** are not opposites.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-| <hx-icon type="checkmark"></hx-icon> | <hx-icon type="times"></hx-icon> |
+| <hx-icon type="checkmark"></hx-icon> Use | <hx-icon type="times"></hx-icon> Don't use |
 | --- | --- |
-| **Always**, **Only with streaming**, and **Never**. | **Always**, **Only with streaming**, and **Blocked**. |
+| <input type="radio" name=""><label for="always"> Always</label> | <input type="radio" name=""><label for="always"> Always</label> |
+| <input type="radio" name=""><label for="stream"> Only with streaming</label> | <input type="radio" name=""><label for="stream"> Only with streaming</label> |
+| <input type="radio" name=""><label for="never"> Never</label> | <input type="radio" name=""><label for="blocked"> Blocked</label> |
 {: class="hxTable"}
 {% endfigure %}
 
@@ -148,6 +166,34 @@ Parallel structure also applies to options you present to users. Don't ask users
 </div>
 
 </section>
+
+<section class="static-section"  markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+When you document a procedure, ensure that each step of the procedure begins with a verb and contains an object.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [class:"image bg-light border"] %}
+| <hx-icon type="checkmark"></hx-icon> Use | <hx-icon type="times"></hx-icon> Don't use |
+| --- | --- |
+| 1. Download form. | 1. Download form. |
+| 2. Complete form. | 2. Complete form. |
+| 3. Submit form. | 3. Form submittal. |
+{: class="hxTable"}
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
 
 <section class="static-section"  markdown="1">
 
@@ -164,7 +210,7 @@ Provide meaningful descriptions for key features and state their importance to h
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-| <hx-icon type="checkmark"></hx-icon> | <hx-icon type="times"></hx-icon> |
+| <hx-icon type="checkmark"></hx-icon> Use | <hx-icon type="times"></hx-icon> Don't use |
 | --- | --- |
 | Monitoring keeps your applications up and running. You can use monitoring to track and gather information about the applications that you run to prevent downtime. | Use Rackspace Monitoring to prevent downtime. |
 {: class="hxTable"}
@@ -193,7 +239,7 @@ Aligning user interface text with user goals requires that you understand the su
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-| <hx-icon type="checkmark"></hx-icon> | <hx-icon type="times"></hx-icon> |
+| <hx-icon type="checkmark"></hx-icon> Use | <hx-icon type="times"></hx-icon> Don't use |
 | --- | --- |
 | Link your existing ObjectRocket account to your Rackspace Cloud account and easily navigation between control panels. | When you link your existing ObjectRocket account to your Rackspace Cloud account the system provides multiple control panels for a single user ID. |
 {: class="hxTable"}

@@ -1,5 +1,5 @@
 ---
-title: Voice and tone
+title: Voice and Tone
 layout: docs
 parent: Text Conventions
 category: Style
@@ -7,7 +7,7 @@ usage: |
   Use these guidelines to write user interface text that is friendly, helpful, and inspires confidence.
 resource: false
 status: complete
-last-modified: 2018-06-01
+last-modified: 2018-06-27
 ---
 
 {% include toc.html %}
@@ -26,6 +26,16 @@ Voice is our style, and communicates our personality to the user. Tone is our mo
 and communicates our attitude about the subject to the user.
 
 The words we choose — and the ways we use them — should reflect our goals: building trust, inspiring confidence, making things easier, and developing a relationship with Rackspace users.
+
+When you write user interface text, use words that reflect the following attributes:
+
+- Human
+- Trustworthy
+- Knowledgeable
+- Accurate
+- Professional
+- Approachable
+- Helpful
 
 {% endcolumn %}
 
@@ -62,7 +72,7 @@ Write in a way that the user wants to be spoken to. Use helpful words and phrase
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-| Use | Don't use |
+| <hx-icon type="checkmark"></hx-icon> Use | <hx-icon type="times"></hx-icon> Don't use |
 | --- | --- |
 | The IP address of the server still needs to be entered. Click the My Server button to complete the configuration. | The monitoring engine couldn't connect to the server. Make sure the information is correctly entered. |
 {: class="hxTable"}
@@ -87,7 +97,7 @@ Temper the enthusiasm conveyed in confirmation messages.
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-| Use | Don't use |
+| <hx-icon type="checkmark"></hx-icon> Use | <hx-icon type="times"></hx-icon> Don't use |
 | --- | --- |
 | You have successfully configured databases for monitoring. | Congratulations!! ALL of your databases are now being monitored!! |
 {: class="hxTable"}
@@ -112,7 +122,7 @@ Be careful about laying blame. Don't take the blame for a negative situation. Do
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-| Use | Don't use |
+| <hx-icon type="checkmark"></hx-icon> Use | <hx-icon type="times"></hx-icon> Don't use |
 | --- | --- |
 | The system could not validate your account. Please enter your credentials again. | Either you didn't enter your credentials correctly, or the system timed out. Please enter your credentials again. |
 {: class="hxTable"}
@@ -137,7 +147,7 @@ In positive situations, be encouraging and offer next steps. Don't take credit f
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-| Use | Don't use |
+| <hx-icon type="checkmark"></hx-icon> Use | <hx-icon type="times"></hx-icon> Don't use |
 | --- | --- |
 | Configuration successful. You can now commission and decommission servers on-demand. | Congrats! Our system is so easy to use that you are now able to commission and decommission servers on-demand. |
 {: class="hxTable"}
@@ -162,37 +172,9 @@ In negative situations, be clear about the problem and how the user can fix it. 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-| Use | Don't use |
+| <hx-icon type="checkmark"></hx-icon> Use | <hx-icon type="times"></hx-icon> Don't use |
 | --- | --- |
 | Your account details and database IP address range don't match. Ensure that the IP addresses on the Account Details page are correct. | The database configuration failed. |
-{: class="hxTable"}
-{% endfigure %}
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section"  markdown="1">
-
-<div class="hxRow" markdown="1">
-
-{% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
-
-## Voice and tone attributes
-
-When you write user interface text, use words that reflect the following voice and tone attributes:
-
-{% figure [caption:"Voice and tone attributes"] [class:"image bg-light border"] %}
-| Voice attributes | Tone attributes  |
-| --- | --- |
-| Trustworthy | Helpful |
-| Knowledgeable | Approachable |
-| Friendly | Accurate |
-| Confident | Professional |
-| Human | Honest |
-| Conversational | Smart |
 {: class="hxTable"}
 {% endfigure %}
 

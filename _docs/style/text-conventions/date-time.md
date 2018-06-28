@@ -16,7 +16,7 @@ last-modified: 2018-06-26
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-12-md hxSpan-12-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ## Date
 
@@ -24,21 +24,22 @@ Dates are displayed differently in different countries, so you must use a date f
 
 Unless space is limited, always show dates in the following format: month day, year. Always spell out the month.
 
-For example, use the following convention for date:
-
-- November 12, 2018
-
-**Do not** use the following conventions for date:
-
-- 11/12/2018
-- 11/12/18
-- 12/11/18
-- 11-12-18
-
-{% include note.html content="Don't use ordinal numbers for dates. For example, don't use **January 1st**; use **January 1** instead." %}
-
 {% endcolumn %}
 
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [class:"image bg-light border"] %}
+| <hx-icon type="checkmark"></hx-icon> Use | <hx-icon type="times"></hx-icon> Don't Use |
+| --- | --- |
+| November 12, 2018 | November 12th, 2018 |
+|  | 11/12/2018 |
+|  | 11/12/18 |
+|  | 11-12-18 |
+|  | 12/11/18 |
+{: class="hxTable"}
+{% endfigure %}
+
+{% endcolumn %}
 </div>
 
 </section>
@@ -132,7 +133,7 @@ When you use the 12-hour clock to show time, use the following guidelines:
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-12-md hxSpan-12-lg" %}
 
 ### 24-hour clock
 
@@ -155,7 +156,7 @@ When you use the 24-hour clock to show time, use the following guidelines:
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-12-md hxSpan-12-lg" %}
 
 ## Timestamp
 
@@ -173,7 +174,7 @@ For example, use **April 2, 2018 12:59:16 AM CDT (UTC-5)**.
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-12-md hxSpan-12-lg" %}
 
 ## Timeago
 
