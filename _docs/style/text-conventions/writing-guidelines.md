@@ -52,7 +52,7 @@ Active-voice sentences are more engaging, less complicated, less wordy, and easi
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-| <hx-icon type="checkmark"></hx-icon> Use | <hx-icon type="times"></hx-icon> Don't use |
+| <hx-icon type="checkmark" class="good-idea"></hx-icon> Use | <hx-icon type="times" class="bad-idea"></hx-icon> Don't Use |
 | --- | --- |
 | To create a stack, start by selecting a template. | A stack is created by selecting a template. |
 | Confirm the following account information. | The following account information should be confirmed. |
@@ -82,7 +82,7 @@ Users are more engaged with content when it talks to them directly. You talk to 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-| <hx-icon type="checkmark"></hx-icon> Use | <hx-icon type="times"></hx-icon> Don't use |
+| <hx-icon type="checkmark" class="good-idea"></hx-icon> Use | <hx-icon type="times" class="bad-idea"></hx-icon> Don't Use |
 | --- | --- |
 | The credit card you have configured as your default (recurring) payment method has expired. | The credit card that is  configured as the default (recurring) payment method has expired. |
 | To create a server, specify a name, flavor, and image. | Creating a server involves specifying a name, flavor, and image. |
@@ -125,7 +125,7 @@ When writing a series, it is important that each element in the series performs 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-| <hx-icon type="checkmark"></hx-icon> Use | <hx-icon type="times"></hx-icon> Don't use |
+| <hx-icon type="checkmark" class="good-idea"></hx-icon> Use | <hx-icon type="times" class="bad-idea"></hx-icon> Don't Use |
 | --- | --- |
 | This stack includes a Cloud Load Balancer, a Cloud Database, and a Master server. | This stack includes a Cloud Load Balancer, a Cloud Database, and Master server. |
 {: class="hxTable"}
@@ -152,7 +152,7 @@ In this example, **Always** and **Never** are opposites. **Always** and **Blocke
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-| <hx-icon type="checkmark"></hx-icon> Use | <hx-icon type="times"></hx-icon> Don't use |
+| <hx-icon type="checkmark" class="good-idea"></hx-icon> Use | <hx-icon type="times" class="bad-idea"></hx-icon> Don't Use |
 | --- | --- |
 | <input type="radio" name=""><label for="always"> Always</label> | <input type="radio" name=""><label for="always"> Always</label> |
 | <input type="radio" name=""><label for="stream"> Only with streaming</label> | <input type="radio" name=""><label for="stream"> Only with streaming</label> |
@@ -179,7 +179,7 @@ When you document a procedure, ensure that each step of the procedure begins wit
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-| <hx-icon type="checkmark"></hx-icon> Use | <hx-icon type="times"></hx-icon> Don't use |
+| <hx-icon type="checkmark" class="good-idea"></hx-icon> Use | <hx-icon type="times" class="bad-idea"></hx-icon> Don't Use |
 | --- | --- |
 | 1. Download form. | 1. Download form. |
 | 2. Complete form. | 2. Complete form. |
@@ -209,7 +209,7 @@ Provide meaningful descriptions for key features and state their importance to h
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-| <hx-icon type="checkmark"></hx-icon> Use | <hx-icon type="times"></hx-icon> Don't use |
+| <hx-icon type="checkmark" class="good-idea"></hx-icon> Use | <hx-icon type="times" class="bad-idea"></hx-icon> Don't Use |
 | --- | --- |
 | Monitoring keeps your applications up and running. You can use monitoring to track and gather information about the applications that you run to prevent downtime. | Use Rackspace Monitoring to prevent downtime. |
 {: class="hxTable"}
@@ -238,7 +238,7 @@ Aligning UI text with user goals requires that you understand the subtleties of 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-| <hx-icon type="checkmark"></hx-icon> Use | <hx-icon type="times"></hx-icon> Don't use |
+| <hx-icon type="checkmark" class="good-idea"></hx-icon> Use | <hx-icon type="times" class="bad-idea"></hx-icon> Don't Use |
 | --- | --- |
 | Link your existing ObjectRocket account to your Rackspace Cloud account and easily navigation between control panels. | When you link your existing ObjectRocket account to your Rackspace Cloud account the system provides multiple control panels for a single user ID. |
 {: class="hxTable"}
@@ -262,7 +262,7 @@ A label is a static element that displays text on a control panel page. Page tit
 
 When writing labels, consider the following guidelines:
 
-- Label content areas concisely. Use fewer words in a label to help the scannability of the content on a page.
+- Label content areas concisely. Use fewer words in a label to help the scanability of the content on a page.
 - Write accurate labels that reflect the content the label introduces.
 - Write descriptive labels. Descriptive labels communicate better with users than non-descriptive labels.
 - Use parallel construction when labeling the sections of a control panel.

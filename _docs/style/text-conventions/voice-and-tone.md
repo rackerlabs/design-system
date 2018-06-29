@@ -72,7 +72,7 @@ Write in a way that the user wants to be spoken to. Use helpful words and phrase
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-| <hx-icon type="checkmark"></hx-icon> Use | <hx-icon type="times"></hx-icon> Don't use |
+| <hx-icon type="checkmark" class="good-idea"></hx-icon> Use | <hx-icon type="times" class="bad-idea"></hx-icon> Don't Use |
 | --- | --- |
 | The IP address of the server still needs to be entered. Click the My Server button to complete the configuration. | The monitoring engine couldn't connect to the server. Make sure the information is correctly entered. |
 {: class="hxTable"}
@@ -97,7 +97,7 @@ Temper the enthusiasm conveyed in confirmation messages.
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-| <hx-icon type="checkmark"></hx-icon> Use | <hx-icon type="times"></hx-icon> Don't use |
+| <hx-icon type="checkmark" class="good-idea"></hx-icon> Use | <hx-icon type="times" class="bad-idea"></hx-icon> Don't Use |
 | --- | --- |
 | You have successfully configured databases for monitoring. | Congratulations!! ALL of your databases are now being monitored!! |
 {: class="hxTable"}
@@ -122,7 +122,7 @@ Be careful about laying blame. Don't take the blame for a negative situation. Do
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-| <hx-icon type="checkmark"></hx-icon> Use | <hx-icon type="times"></hx-icon> Don't use |
+| <hx-icon type="checkmark" class="good-idea"></hx-icon> Use | <hx-icon type="times" class="bad-idea"></hx-icon> Don't Use |
 | --- | --- |
 | The system could not validate your account. Please enter your credentials again. | Either you didn't enter your credentials correctly, or the system timed out. Please enter your credentials again. |
 {: class="hxTable"}
@@ -147,7 +147,7 @@ In positive situations, be encouraging and offer next steps. Don't take credit f
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-| <hx-icon type="checkmark"></hx-icon> Use | <hx-icon type="times"></hx-icon> Don't use |
+| <hx-icon type="checkmark" class="good-idea"></hx-icon> Use | <hx-icon type="times" class="bad-idea"></hx-icon> Don't Use |
 | --- | --- |
 | Configuration successful. You can now commission and decommission servers on-demand. | Congrats! Our system is so easy to use that you are now able to commission and decommission servers on-demand. |
 {: class="hxTable"}
@@ -172,7 +172,7 @@ In negative situations, be clear about the problem and how the user can fix it. 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-| <hx-icon type="checkmark"></hx-icon> Use | <hx-icon type="times"></hx-icon> Don't use |
+| <hx-icon type="checkmark" class="good-idea"></hx-icon> Use | <hx-icon type="times" class="bad-idea"></hx-icon> Don't Use |
 | --- | --- |
 | Your account details and database IP address range don't match. Ensure that the IP addresses on the Account Details page are correct. | The database configuration failed. |
 {: class="hxTable"}
