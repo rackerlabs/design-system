@@ -3,7 +3,7 @@ title: Text Conventions
 layout: docs
 category: Style
 usage: >
-  Use these user interface (UI) text conventions if you are a designer, developer, or contributor of content in Rackspace UIs. These UI text guidelines ensure that a Rackspace UI is usable, consistent, and concise.
+  Use these user interface (UI) text conventions if you are a designer, developer, or contributor of content in Rackspace UIs. These conventions ensure that a Rackspace UI is usable, consistent, and concise.
 status: stable
 resource: true
 last-modified: 2018-06-06

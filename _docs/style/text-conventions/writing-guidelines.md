@@ -4,7 +4,7 @@ layout: docs
 parent: Text Conventions
 category: Style
 usage: |
-  These general writing guidelines include rules for how to write instructions and descriptions in a control panel that are clear, helpful, and grammatically correct.
+  These writing guidelines include rules for how to write instructions and descriptions in a control panel that are clear, helpful, and grammatically correct.
 resource: false
 status: complete
 last-modified: 2018-06-26
@@ -85,7 +85,6 @@ Users are more engaged with content when it talks to them directly. You talk to 
 | <hx-icon type="checkmark"></hx-icon> Use | <hx-icon type="times"></hx-icon> Don't use |
 | --- | --- |
 | The credit card you have configured as your default (recurring) payment method has expired. | The credit card that is  configured as the default (recurring) payment method has expired. |
-| To receive your invoice by email, select the recipients to receive a PDF invoice delivered by email. | To receive the invoice by email, select the recipients to receive a PDF invoice delivered by email. |
 | To create a server, specify a name, flavor, and image. | Creating a server involves specifying a name, flavor, and image. |
 | Click **Yes** to accept the license agreement. | The license agreement is accepted when the user clicks **Yes**. |
 {: class="hxTable"}
@@ -232,7 +231,7 @@ Provide meaningful descriptions for key features and state their importance to h
 
 Create content that anticipates user needs and explains how a Rackspace feature or option helps the user accomplish a goal. Don't explain the technical details of what a Rackspace service is doing.
 
-Aligning user interface text with user goals requires that you understand the subtleties of your audience and how a feature supports what the user is trying to do.
+Aligning UI text with user goals requires that you understand the subtleties of your audience and how a feature supports what the user is trying to do.
 
 {% endcolumn %}
 

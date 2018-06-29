@@ -25,9 +25,9 @@ with words in a UI also influence how people think and feel about Rackspace.
 Voice is our style, and communicates our personality to the user. Tone is our mood,
 and communicates our attitude about the subject to the user.
 
-The words we choose — and the ways we use them — should reflect our goals: building trust, inspiring confidence, making things easier, and developing a relationship with Rackspace users.
+The words we choose—and the ways we use them—should reflect our goals: building trust, inspiring confidence, making things easier, and developing a relationship with Rackspace users.
 
-When you write user interface text, use words that reflect the following attributes:
+When you write UI text, use words that reflect the following attributes:
 
 - Human
 - Trustworthy
@@ -51,7 +51,7 @@ When you write user interface text, use words that reflect the following attribu
 
 ## Best practices
 
-Consider the following voice and tone best practices when you write user interface text:
+Consider the following best practices for voice and tone when you write UI text:
 
 {% endcolumn %}
 
@@ -65,7 +65,7 @@ Consider the following voice and tone best practices when you write user interfa
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-Write in a way that the user wants to be spoken to. Use helpful words and phrases that are informative, simple, clear and easy to understand.
+Write in a way that the user wants to be spoken to. Use helpful words and phrases that are informative, simple, clear, and easy to understand.
 
 {% endcolumn %}
 

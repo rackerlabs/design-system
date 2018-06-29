@@ -22,7 +22,7 @@ last-modified: 2018-06-27
 
 End all sentences with a period, even if they're only two words. Put one space, not two, after a period.
 
-Don’t use end punctuation in a tooltip.
+Note: An exception is that you don’t use end punctuation in a tooltip.
 
 {% endcolumn %}
 
@@ -38,7 +38,7 @@ Don’t use end punctuation in a tooltip.
 
 ## Commas
 
-Use serial commas (also called Oxford commas).
+For clarity, use serial commas (also called Oxford commas).
 
 {% figure [caption:"Oxford comma example"] [class:"image bg-light border"] %}
 | <hx-icon type="checkmark"></hx-icon> Use | <hx-icon type="times"></hx-icon> Don't use  |
@@ -109,9 +109,9 @@ Use the following rules for hyphens and dashes:
 {% figure [caption:"Hyphens and dashes"] [class:"image bg-light border"] %}
 | Element | Description | Guideline |
 | --- | --- | --- |
-| Hyphen | Use hyphens (-) to create a single idea out of two or more words. | Don’t add a space before or after the hyphen. |
-| En dash | Use en dashes (–) for ranges, like numbers (such as, 1–9) and dates. | Don’t add a space before of after the en dash. |
-| Em dash | Use em dashes (—), the longest dashes, to set off a long qualifier in the middle of a sentence if the use of commas would hinder readability. | Don’t add a space before of after the en dash.<br><br> Don’t capitalize the word following an em dash, unless the word is proper. <br><br> Don’t use an em dash to separate a long sentence into two parts. Instead, create two sentences. |
+| Hyphen | Use a hyphen (-) to create a single idea out of two or more words. | Don’t add a space before or after the hyphen. |
+| En dash | Use an en dash (–) for ranges, like numbers (such as, 1–9) and dates. | Don’t add a space before or after the en dash. |
+| Em dash | Use an em dash (—), the longest dash, to set off a long qualifier in the middle of a sentence if the use of commas would hinder readability. | Don’t add a space before or after the en dash.<br><br> Don’t capitalize the word following an em dash, unless the word is proper. <br><br> Don’t use an em dash to separate a long sentence into two parts. Instead, create two sentences. |
 {: class="hxTable"}
 {% endfigure %}
 
@@ -150,7 +150,7 @@ Consider the following best practices when you use ellipses:
 
 ## Exclamation points
 
-Avoid using use exclamation points. If you must use them, use them sparingly - when the text reflects genuine excitement, not as a way to create excitement.
+Avoid using exclamation points. If you must use them, use them sparingly—when the text reflects genuine excitement, not as a way to create excitement.
 
 {% endcolumn %}
 
