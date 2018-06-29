@@ -31,7 +31,7 @@ For title-style capitalization, capitalize the first letter of nouns, adjectives
 The following table includes examples for title-style capitalization:
 
 {% figure [caption:"Title-style capitalization examples"] [class:"image bg-light border"] %}
-| <hx-icon type="checkmark"></hx-icon> Use | <hx-icon type="times"></hx-icon> Don't use  |
+| <hx-icon type="checkmark" class="good-idea"></hx-icon> Use | <hx-icon type="times" class="bad-idea"></hx-icon> Don't Use  |
 | --- | --- |
 | Restore Defaults | Restore defaults |
 | Allocate to Project | Allocate to project |
@@ -80,7 +80,7 @@ For sentence-style capitalization, most words are lowercase, with the following 
 The following table shows examples for sentence-style capitalization:
 
 {% figure [caption:"Sentence-style capitalization examples"] [class:"image bg-light border"] %}
-| <hx-icon type="checkmark"></hx-icon> Use | <hx-icon type="times"></hx-icon> Don't use  |
+| <hx-icon type="checkmark" class="good-idea"></hx-icon> Use | <hx-icon type="times" class="bad-idea"></hx-icon> Don't Use  |
 | --- | --- |
 | Maximum number of downloads | Maximum Number of Downloads |
 | Allocate to project | Allocate to Project |

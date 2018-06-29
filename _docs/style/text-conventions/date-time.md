@@ -29,7 +29,7 @@ Unless space is limited, always show dates in the following format: month day, y
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-| <hx-icon type="checkmark"></hx-icon> Use | <hx-icon type="times"></hx-icon> Don't Use |
+| <hx-icon type="checkmark" class="good-idea"></hx-icon> Use | <hx-icon type="times" class="bad-idea"></hx-icon> Don't Use |
 | --- | --- |
 | November 12, 2018 | November 12th, 2018 |
 |  | 11/12/2018 |

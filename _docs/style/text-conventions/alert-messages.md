@@ -64,7 +64,7 @@ Use complete sentences, when possible. Include articles (a, an, the) to make the
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-| <hx-icon type="checkmark"></hx-icon> Use | <hx-icon type="times"></hx-icon> Don't Use |
+| <hx-icon type="checkmark" class="good-idea"></hx-icon> Use | <hx-icon type="times" class="bad-idea"></hx-icon> Don't Use |
 | --- | --- |
 | The authentication token isn't valid. | Invalid authentication token |
 {: class="hxTable"}
@@ -91,7 +91,7 @@ Write brief and simple sentences that clearly state the problem. Separate the se
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-| <hx-icon type="checkmark"></hx-icon> Use | <hx-icon type="times"></hx-icon> Don't Use |
+| <hx-icon type="checkmark" class="good-idea"></hx-icon> Use | <hx-icon type="times" class="bad-idea"></hx-icon> Don't Use |
 | --- | --- |
 | Provide a name for each domain. *null* isn't a valid domain name. | You must provide a name for each domain and *null* isn't a valid name. |
 {: class="hxTable"}
@@ -118,7 +118,7 @@ Lines with excessive capitalization are hard to read. Use all uppercase letters 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-| <hx-icon type="checkmark"></hx-icon> Use | <hx-icon type="times"></hx-icon> Don't Use |
+| <hx-icon type="checkmark" class="good-idea"></hx-icon> Use | <hx-icon type="times" class="bad-idea"></hx-icon> Don't Use |
 | --- | --- |
 | The requested image $UUID has automatic disk resizing disabled. | THE REQUESTED IMAGE $UUID HAS AUTOMATIC DISK RESIZING DISABLED. |
 {: class="hxTable"}
@@ -145,7 +145,7 @@ Messages should provide specific information about how the user should continue.
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-| <hx-icon type="checkmark"></hx-icon> Use | <hx-icon type="times"></hx-icon> Don't Use |
+| <hx-icon type="checkmark" class="good-idea"></hx-icon> Use | <hx-icon type="times" class="bad-idea"></hx-icon> Don't Use |
 | --- | --- |
 | The system is out of virtual IP addresses. Contact Support so they can allocate more virtual IP addresses. <br/> <br/>The value -1.0 can't be accepted. Specify a positive integer value for the volume size. <br/> <br/> | The system is out of virtual IP addresses. <br/> <br/>The value -1.0 can't be accepted. |
 {: class="hxTable"}
@@ -170,7 +170,7 @@ Be specific and provide as much detailed information as possible.
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-| <hx-icon type="checkmark"></hx-icon> Use | <hx-icon type="times"></hx-icon> Don't Use |
+| <hx-icon type="checkmark" class="good-idea"></hx-icon> Use | <hx-icon type="times" class="bad-idea"></hx-icon> Don't Use |
 | --- | --- |
 | The live migration of instance 89a5e582-d3f3-4665-ate2-03c2114f0bib to host compute2 failed. | Live migration failed. |
 {: class="hxTable"}
@@ -197,7 +197,7 @@ Using *n* and *x* consistently reduces the confusion users might experience with
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-| <hx-icon type="checkmark"></hx-icon> Use | <hx-icon type="checkmark"></hx-icon> Use |
+| <hx-icon type="checkmark" class="good-idea"></hx-icon> Use | <hx-icon type="checkmark" class="good-idea"></hx-icon> Use |
 | --- | --- |
 | The rate limit has been reached (*n* requests in 24 hours). Try again later. | This option is available only for Ubuntu 12.x. |
 {: class="hxTable"}
@@ -224,7 +224,7 @@ Rewrite messages that imply fault on the part of the user. Use passive voice whe
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-| <hx-icon type="checkmark"></hx-icon> Use | <hx-icon type="times"></hx-icon> Don't Use |
+| <hx-icon type="checkmark" class="good-idea"></hx-icon> Use | <hx-icon type="times" class="bad-idea"></hx-icon> Don't Use |
 | --- | --- |
 | The request couldn't be understood by the server because of malformed syntax. | You entered bad request syntax. |
 {: class="hxTable"}
@@ -251,7 +251,7 @@ Positive statements are easier to understand than negative statements.
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-| <hx-icon type="checkmark"></hx-icon> Use | <hx-icon type="times"></hx-icon> Don't Use |
+| <hx-icon type="checkmark" class="good-idea"></hx-icon> Use | <hx-icon type="times" class="bad-idea"></hx-icon> Don't Use |
 | --- | --- |
 | The given limit must be less than 50. | The given limit can't be greater than 50. |
 {: class="hxTable"}

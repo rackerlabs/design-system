@@ -41,7 +41,7 @@ Note: An exception is that you don’t use end punctuation in a tooltip.
 For clarity, use serial commas (also called Oxford commas).
 
 {% figure [caption:"Oxford comma example"] [class:"image bg-light border"] %}
-| <hx-icon type="checkmark"></hx-icon> Use | <hx-icon type="times"></hx-icon> Don't use  |
+| <hx-icon type="checkmark" class="good-idea"></hx-icon> Use | <hx-icon type="times" class="bad-idea"></hx-icon> Don't Use  |
 | --- | --- |
 | The success of the internet as a public resource depends upon interoperability, innovation, and decentralized participation worldwide. | The success of the internet as a public resource depends upon interoperability, innovation and decentralized participation worldwide. |
 {: class="hxTable"}
@@ -68,23 +68,23 @@ Curly quotes are preferred to straight quotes because curly quotes are more leg�
 
 There are four curly quote char­ac­ters:
 
-- open­ing sin­gle quote ( &lsquo; )
-- clos­ing sin­gle quote ( &rsquo; )
-- open­ing dou­ble quote ( &#8220; )
-- clos­ing dou­ble quote ( &#8221; )
+- open­ing sin­gle quote ( <span markdown='0'>&lsquo;</span> )
+- clos­ing sin­gle quote ( <span markdown='0'>&rsquo;</span> )
+- open­ing dou­ble quote ( <span markdown='0'>&ldquo;</span> )
+- clos­ing dou­ble quote ( <span markdown='0'>&rdquo;</span> )
 
 If curly quotes are not an option, use straight quotes. Straight quotes are the two generic vertical quotation marks located near the return key:
 
-- straight single quote ( ' )
-- straight double quote ( " )
+- straight single quote ( <span markdown='0'>'</span> )
+- straight double quote ( <span markdown='0'>"</span> )
 
 Consider the following examples when you include apostrophes and quotation marks on a control panel page.
 
 {% figure [caption:"Curly quotes vs. straight quotes"] [class:"image bg-light border"] %}
-| <hx-icon type="checkmark"></hx-icon> Use | <hx-icon type="times"></hx-icon> Don't use |
+| <hx-icon type="checkmark" class="good-idea"></hx-icon> Use | <hx-icon type="times" class="bad-idea"></hx-icon> Don't Use |
 | --- | --- |
-| You don&rsquo;t have any notifications. | You don't have any notifications. |
-| Are you sure you want to delete server &ldquo;MDO-1255&rdquo;? | Are you sure you want to delete server "MDO-1255"? |
+| You don<span markdown='0'>&rsquo;</span>t have any notifications. | You don<span markdown='0'>'</span>t have any notifications. |
+| Are you sure you want to delete server <span markdown='0'>&ldquo;</span>MDO-1255<span markdown='0'>&rdquo;</span>? | Are you sure you want to delete server <span markdown='0'>"</span>MDO-1255<span markdown='0'>"</span>? |
 {: class="hxTable"}
 
 {% endfigure %}
