@@ -57,8 +57,6 @@ Use the following guidelines when you write messages in a control panel.
 
 Use complete sentences, when possible. Include articles (a, an, the) to make the sentence complete. If possible, use active voice.
 
-**Note**: Message text that serves as a heading or label (such as **Elapsed:hh:mm:ss**, which indicates elapsed time) is acceptable as a sentence fragment.
-
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
@@ -172,7 +170,7 @@ Be specific and provide as much detailed information as possible.
 {% figure [class:"image bg-light border"] %}
 | <hx-icon type="checkmark" class="good-idea"></hx-icon> Use | <hx-icon type="times" class="bad-idea"></hx-icon> Don't Use |
 | --- | --- |
-| The live migration of instance 89a5e582-d3f3-4665-ate2-03c2114f0bib to host compute2 failed. | Live migration failed. |
+| The live migration of instance <br>89a5e582-d3f3-4665-ate2-03c2114f0bib<br> to host compute2 failed. | Live migration failed. |
 {: class="hxTable"}
 {% endfigure %}
 

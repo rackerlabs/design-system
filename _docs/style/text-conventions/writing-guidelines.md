@@ -154,9 +154,7 @@ In this example, **Always** and **Never** are opposites. **Always** and **Blocke
 {% figure [class:"image bg-light border"] %}
 | <hx-icon type="checkmark" class="good-idea"></hx-icon> Use | <hx-icon type="times" class="bad-idea"></hx-icon> Don't Use |
 | --- | --- |
-| <input type="radio" name=""><label for="always"> Always</label> | <input type="radio" name=""><label for="always"> Always</label> |
-| <input type="radio" name=""><label for="stream"> Only with streaming</label> | <input type="radio" name=""><label for="stream"> Only with streaming</label> |
-| <input type="radio" name=""><label for="never"> Never</label> | <input type="radio" name=""><label for="blocked"> Blocked</label> |
+| <input type="radio" name=""><label for="always"> Always</label> <br><br> <input type="radio" name=""><label for="stream"> Only with streaming</label> <br><br> <input type="radio" name=""><label for="never"> Never</label> | <input type="radio" name=""><label for="always"> Always</label> <br><br> <input type="radio" name=""><label for="stream"> Only with streaming</label> <br><br> <input type="radio" name=""><label for="blocked"> Blocked</label> |
 {: class="hxTable"}
 {% endfigure %}
 
@@ -181,9 +179,7 @@ When you document a procedure, ensure that each step of the procedure begins wit
 {% figure [class:"image bg-light border"] %}
 | <hx-icon type="checkmark" class="good-idea"></hx-icon> Use | <hx-icon type="times" class="bad-idea"></hx-icon> Don't Use |
 | --- | --- |
-| 1. Download form. | 1. Download form. |
-| 2. Complete form. | 2. Complete form. |
-| 3. Submit form. | 3. Form submittal. |
+| 1. Download form. <br><br> 2. Complete form. <br><br> 3. Submit form. | 1. Download form. <br><br> 2. Complete form. <br><br> 3. Form submittal. |
 {: class="hxTable"}
 {% endfigure %}
 

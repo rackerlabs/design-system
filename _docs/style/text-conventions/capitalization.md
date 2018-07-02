@@ -52,7 +52,6 @@ The following elements use title-style capitalization:
 - Page titles
 - Section headings
 - Step titles
-- Table column headers
 - Tab titles
 - Table titles
 - Toolbar buttons
@@ -89,6 +88,7 @@ The following table shows examples for sentence-style capitalization:
 
 The following elements use sentence-style capitalization:
 
+- Alert description
 - Checkbox and radio button help text
 - Field help text
 - Field names
@@ -124,8 +124,8 @@ The following elements use all-caps capitalization:
 
 - Header 5
 - Table column headers
-- Alert bar messages
-- Alert bar action links
+- Alert types
+- Alert action links
 
 {% endcolumn %}
 

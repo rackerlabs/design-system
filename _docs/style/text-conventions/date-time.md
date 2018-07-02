@@ -58,7 +58,7 @@ Consider the following examples for sentences that contain a date:
 
 - Any sites that are using MySQL 4 after November 1, 2018, will be automatically migrated to MySQL 5.
 - The Alert Logic Security Research Team used 12 months of security event data captured from July 2017 through June 2018.
-- As of September 2018, a subset of customer accounts weren't being billed for actual usage in comparison to their preselected SQL Server storage allocations.
+- As of September 2018, a subset of customer accounts will not be billed for actual usage in comparison to their preselected SQL Server storage allocations.
 
 {% endcolumn %}
 

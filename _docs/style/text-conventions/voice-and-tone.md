@@ -174,7 +174,7 @@ In negative situations, be clear about the problem and how the user can fix it. 
 {% figure [class:"image bg-light border"] %}
 | <hx-icon type="checkmark" class="good-idea"></hx-icon> Use | <hx-icon type="times" class="bad-idea"></hx-icon> Don't Use |
 | --- | --- |
-| Your account details and database IP address range don't match. Ensure that the IP addresses on the Account Details page are correct. | The database configuration failed. |
+| Your account details and database <br>IP address range don't match. <br>Ensure that the IP addresses <br>on the Account Details page are <br>correct. | The database configuration failed. |
 {: class="hxTable"}
 {% endfigure %}
 
