@@ -1,30 +1,42 @@
 ---
-title: Drop-downs
+title: Selector
 parent: Inputs and Controls
 layout: component
 category: Components
 usage: >
-  Drop-downs are one of the core input mechanisms for selecting options on a form. Drop-downs are used to provide a user with options or actions that effect the output of the form as a whole.
+  A selector is one of the core input mechanisms for selecting options on a form. Drop-downs are used to provide a user with options or actions that effect the output of the form as a whole.
 preview-image: preview-images/drop-downs.svg
 resource: true
 status: stable
 need: selectors
-last-modified: 2017-09-21
+last-modified: 2018-07-03
 helix-ui-css: false
 helix-ui-javascript: false
 ---
 
 {% include toc.html %}
 
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
 ## When to use
+
+Use drop-downs for selecting a single option from a known list of options. Selecting one region on the Cloud Server create form is one example.
+
+{% endcolumn %}
+
+</div>
+
+</section>
 
 <section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-Use drop-downs for selecting a single option from a known list of options. Selecting one region on the Cloud Server create form is one example.
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 ## Best practices
 
@@ -34,11 +46,19 @@ Use drop-downs for selecting a single option from a known list of options. Selec
 
 {% endcolumn %}
 
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+</div>
 
-{% figure [caption:"Drop-downs hero"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/dropdowns/dropdowns-hero.svg"/>
-{% endfigure %}
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+## Specifications
+
+Use these specifications when you construct a selector.
 
 {% endcolumn %}
 
@@ -46,17 +66,15 @@ Use drop-downs for selecting a single option from a known list of options. Selec
 
 </section>
 
-## Specifications
-
 <section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Default layout
+### Composition
 
-Drop-downs
+Intro text here...
 
 {% endcolumn %}
 
@@ -78,7 +96,55 @@ Drop-downs
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Drop-down states
+### Style
+
+Intro text here...
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"Default layout"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/content-areas/dropdowns/dropdowns-default-layout.svg"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+### Spacing
+
+Intro text here...
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"Default layout"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/content-areas/dropdowns/dropdowns-default-layout.svg"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+## States
 
 Drop-downs can be in the following states:
 
