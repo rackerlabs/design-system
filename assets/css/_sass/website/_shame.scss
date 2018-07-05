@@ -47,3 +47,24 @@ p {
     color: $grey0 !important;
   }
 }
+
+// Icons for Do/Don't Use aren't aligned with the test. Will be fixed by v0.7.0 of helixUI
+.good-idea {
+  vertical-align: text-bottom;
+}
+.bad-idea {
+  vertical-align: text-bottom;
+}
+
+// fixing line spacing on hxTables for documentation
+.docTable {
+  tbody > tr > td {
+    line-height: 1.5em;
+  }
+  table-layout: fixed;
+}
+.docTableFluid {
+  tbody > tr > td {
+    line-height: 1.5em;
+  }
+}

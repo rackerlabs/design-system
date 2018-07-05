@@ -65,7 +65,7 @@ Use complete sentences, when possible. Include articles (a, an, the) to make the
 | <hx-icon type="checkmark" class="good-idea"></hx-icon> Use | <hx-icon type="times" class="bad-idea"></hx-icon> Don't Use |
 | --- | --- |
 | The authentication token isn't valid. | Invalid authentication token |
-{: class="hxTable"}
+{: .hxTable .docTable}
 {% endfigure %}
 
 {% endcolumn %}
@@ -92,7 +92,7 @@ Write brief and simple sentences that clearly state the problem. Separate the se
 | <hx-icon type="checkmark" class="good-idea"></hx-icon> Use | <hx-icon type="times" class="bad-idea"></hx-icon> Don't Use |
 | --- | --- |
 | Provide a name for each domain. *null* isn't a valid domain name. | You must provide a name for each domain and *null* isn't a valid name. |
-{: class="hxTable"}
+{: .hxTable .docTable}
 {% endfigure %}
 
 {% endcolumn %}
@@ -119,7 +119,7 @@ Lines with excessive capitalization are hard to read. Use all uppercase letters 
 | <hx-icon type="checkmark" class="good-idea"></hx-icon> Use | <hx-icon type="times" class="bad-idea"></hx-icon> Don't Use |
 | --- | --- |
 | The requested image $UUID has automatic disk resizing disabled. | THE REQUESTED IMAGE $UUID HAS AUTOMATIC DISK RESIZING DISABLED. |
-{: class="hxTable"}
+{: .hxTable .docTable}
 {% endfigure %}
 
 {% endcolumn %}
@@ -145,8 +145,9 @@ Messages should provide specific information about how the user should continue.
 {% figure [class:"image bg-light border"] %}
 | <hx-icon type="checkmark" class="good-idea"></hx-icon> Use | <hx-icon type="times" class="bad-idea"></hx-icon> Don't Use |
 | --- | --- |
-| The system is out of virtual IP addresses. Contact Support so they can allocate more virtual IP addresses. <br/> <br/>The value -1.0 can't be accepted. Specify a positive integer value for the volume size. <br/> <br/> | The system is out of virtual IP addresses. <br/> <br/>The value -1.0 can't be accepted. |
-{: class="hxTable"}
+| The system is out of virtual IP addresses. Contact Support so they can allocate more virtual IP addresses. | The system is out of virtual IP addresses. |
+|The value -1.0 can't be accepted. Specify a positive integer value for the volume size. | The value -1.0 can't be accepted. |
+{: .hxTable .docTable}
 {% endfigure %}
 
 {% endcolumn %}
@@ -170,8 +171,8 @@ Be specific and provide as much detailed information as possible.
 {% figure [class:"image bg-light border"] %}
 | <hx-icon type="checkmark" class="good-idea"></hx-icon> Use | <hx-icon type="times" class="bad-idea"></hx-icon> Don't Use |
 | --- | --- |
-| The live migration of instance <br>89a5e582-d3f3-4665-ate2-03c2114f0bib<br> to host compute2 failed. | Live migration failed. |
-{: class="hxTable"}
+| The live migration of instance <br />89a5e582-d3f3-4665-ate2-03c2114f0bib<br /> to host compute2 failed. | Live migration failed. |
+{: .hxTable .docTable}
 {% endfigure %}
 
 {% endcolumn %}
@@ -198,7 +199,7 @@ Using *n* and *x* consistently reduces the confusion users might experience with
 | <hx-icon type="checkmark" class="good-idea"></hx-icon> Use | <hx-icon type="checkmark" class="good-idea"></hx-icon> Use |
 | --- | --- |
 | The rate limit has been reached (*n* requests in 24 hours). Try again later. | This option is available only for Ubuntu 12.x. |
-{: class="hxTable"}
+{: .hxTable .docTable}
 {% endfigure %}
 
 {% endcolumn %}
@@ -225,7 +226,7 @@ Rewrite messages that imply fault on the part of the user. Use passive voice whe
 | <hx-icon type="checkmark" class="good-idea"></hx-icon> Use | <hx-icon type="times" class="bad-idea"></hx-icon> Don't Use |
 | --- | --- |
 | The request couldn't be understood by the server because of malformed syntax. | You entered bad request syntax. |
-{: class="hxTable"}
+{: .hxTable .docTable}
 {% endfigure %}
 
 {% endcolumn %}
@@ -252,7 +253,7 @@ Positive statements are easier to understand than negative statements.
 | <hx-icon type="checkmark" class="good-idea"></hx-icon> Use | <hx-icon type="times" class="bad-idea"></hx-icon> Don't Use |
 | --- | --- |
 | The given limit must be less than 50. | The given limit can't be greater than 50. |
-{: class="hxTable"}
+{: .hxTable .docTable}
 {% endfigure %}
 
 {% endcolumn %}
@@ -279,7 +280,7 @@ The following table includes the most common types of error messages:
 | Information | Use information messages to provide information about normal conditions and operations. | Updates are being processed. |
 | Confirmation | Use confirmation messages to ask the user to verify an action that the user or the system initiated. Use a confirmation prompt to ask the user for additional information to complete a step or to ask whether to save information for future use. | Do you want to close this document without saving your changes? |
 | Success | Use success messages to tell the user that an action successfully completed. | Server successfully deleted. |
-{: class="hxTable"}
+{: .hxTable .docTableFluid}
 {% endfigure %}
 
 {% endcolumn %}
