@@ -58,7 +58,7 @@ Active-voice sentences are more engaging, less complicated, less wordy, and easi
 | Confirm the following account information. | The following account information should be confirmed. |
 | Click **OK** to save the configuration. | The configuration is saved when the **OK** button is clicked. |
 | Create a server. | A server is created by you. |
-{: class="hxTable"}
+{: .hxTable .docTable}
 {% endfigure %}
 
 {% endcolumn %}
@@ -87,7 +87,7 @@ Users are more engaged with content when it talks to them directly. You talk to 
 | The credit card you have configured as your default (recurring) payment method has expired. | The credit card that is  configured as the default (recurring) payment method has expired. |
 | To create a server, specify a name, flavor, and image. | Creating a server involves specifying a name, flavor, and image. |
 | Click **Yes** to accept the license agreement. | The license agreement is accepted when the user clicks **Yes**. |
-{: class="hxTable"}
+{: .hxTable .docTable}
 {% endfigure %}
 
 {% endcolumn %}
@@ -128,7 +128,7 @@ When writing a series, it is important that each element in the series performs 
 | <hx-icon type="checkmark" class="good-idea"></hx-icon> Use | <hx-icon type="times" class="bad-idea"></hx-icon> Don't Use |
 | --- | --- |
 | This stack includes a Cloud Load Balancer, a Cloud Database, and a Master server. | This stack includes a Cloud Load Balancer, a Cloud Database, and Master server. |
-{: class="hxTable"}
+{: .hxTable .docTable}
 {% endfigure %}
 
 {% endcolumn %}
@@ -154,8 +154,8 @@ In this example, **Always** and **Never** are opposites. **Always** and **Blocke
 {% figure [class:"image bg-light border"] %}
 | <hx-icon type="checkmark" class="good-idea"></hx-icon> Use | <hx-icon type="times" class="bad-idea"></hx-icon> Don't Use |
 | --- | --- |
-| <input type="radio" name=""><label for="always"> Always</label> <br><br> <input type="radio" name=""><label for="stream"> Only with streaming</label> <br><br> <input type="radio" name=""><label for="never"> Never</label> | <input type="radio" name=""><label for="always"> Always</label> <br><br> <input type="radio" name=""><label for="stream"> Only with streaming</label> <br><br> <input type="radio" name=""><label for="blocked"> Blocked</label> |
-{: class="hxTable"}
+| <label><input type="radio" name="sample-set1" id="sample-1" value="sample1" />Always</label><br /><label><input type="radio" name="sample-set1" id="sample-2" value="sample2" />Only with streaming</label><br /><label><input type="radio" name="sample-set1" id="sample-3" value="sample3" >Never</label> | <label><input type="radio" name="sample-set2" id="sample-21" value="sample21" />Always</label><br /><label><input type="radio" name="sample-set2" id="sample-22" value="sample22" />Only with streaming</label><br /><label><input type="radio" name="sample-set2" id="sample-23" value="sample23" />Blocked</label> |
+{: .hxTable .docTable}
 {% endfigure %}
 
 {% endcolumn %}
@@ -179,8 +179,8 @@ When you document a procedure, ensure that each step of the procedure begins wit
 {% figure [class:"image bg-light border"] %}
 | <hx-icon type="checkmark" class="good-idea"></hx-icon> Use | <hx-icon type="times" class="bad-idea"></hx-icon> Don't Use |
 | --- | --- |
-| 1. Download form. <br><br> 2. Complete form. <br><br> 3. Submit form. | 1. Download form. <br><br> 2. Complete form. <br><br> 3. Form submittal. |
-{: class="hxTable"}
+| 1. Download form.<br />2. Complete form.<br />3. Submit form. | 1. Download form.<br />2. Complete form.<br />3. Form submittal. |
+{: .hxTable .docTable}
 {% endfigure %}
 
 {% endcolumn %}
@@ -208,7 +208,7 @@ Provide meaningful descriptions for key features and state their importance to h
 | <hx-icon type="checkmark" class="good-idea"></hx-icon> Use | <hx-icon type="times" class="bad-idea"></hx-icon> Don't Use |
 | --- | --- |
 | Monitoring keeps your applications up and running. You can use monitoring to track and gather information about the applications that you run to prevent downtime. | Use Rackspace Monitoring to prevent downtime. |
-{: class="hxTable"}
+{: .hxTable .docTable}
 {% endfigure %}
 
 {% endcolumn %}
@@ -236,8 +236,8 @@ Aligning UI text with user goals requires that you understand the subtleties of 
 {% figure [class:"image bg-light border"] %}
 | <hx-icon type="checkmark" class="good-idea"></hx-icon> Use | <hx-icon type="times" class="bad-idea"></hx-icon> Don't Use |
 | --- | --- |
-| Link your existing ObjectRocket account to your Rackspace Cloud account and easily navigation between control panels. | When you link your existing ObjectRocket account to your Rackspace Cloud account the system provides multiple control panels for a single user ID. |
-{: class="hxTable"}
+| Link your existing ObjectRocket account to your Rackspace Cloud account and easily navigation between control panels. | When you link your existing ObjectRocket account to your Rackspace Cloud account, the system provides multiple control panels for a single user ID. |
+{: .hxTable .docTable}
 {% endfigure %}
 
 {% endcolumn %}

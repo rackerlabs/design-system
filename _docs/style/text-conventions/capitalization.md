@@ -36,7 +36,7 @@ The following table includes examples for title-style capitalization:
 | Restore Defaults | Restore defaults |
 | Allocate to Project | Allocate to project |
 | Show Add-on in Menu | Show Add-On in Menu |
-{: class="hxTable"}
+{: .hxTable .docTableFluid}
 {% endfigure %}
 
 The following elements use title-style capitalization:
@@ -83,7 +83,7 @@ The following table shows examples for sentence-style capitalization:
 | --- | --- |
 | Maximum number of downloads | Maximum Number of Downloads |
 | Allocate to project | Allocate to Project |
-{: class="hxTable"}
+{: .hxTable .docTableFluid}
 {% endfigure %}
 
 The following elements use sentence-style capitalization:

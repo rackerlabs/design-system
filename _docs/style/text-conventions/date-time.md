@@ -31,12 +31,8 @@ Unless space is limited, always show dates in the following format: month day, y
 {% figure [class:"image bg-light border"] %}
 | <hx-icon type="checkmark" class="good-idea"></hx-icon> Use | <hx-icon type="times" class="bad-idea"></hx-icon> Don't Use |
 | --- | --- |
-| November 12, 2018 | November 12th, 2018 |
-|  | 11/12/2018 |
-|  | 11/12/18 |
-|  | 11-12-18 |
-|  | 12/11/18 |
-{: class="hxTable"}
+| November 12, 2018 | November 12th, 2018<br />11/12/2018<br />11/12/18<br />11-12-18<br />12/11/18 |
+{: .hxTable .docTable}
 {% endfigure %}
 
 {% endcolumn %}
