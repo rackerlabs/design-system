@@ -24,7 +24,7 @@ When you write alerts and messages, consider the following guidelines:
 
 - Be courteous and do not blame the user.
 - Use present tense to describe conditions that currently exist, or use past tense to describe a specific event that occurred in the past.
-- Where possible, guide users with the imperative voice (for example, "Enter a valid email."") or the active voice (such as "The Control Panel is not responding.").
+- Where possible, guide users with the imperative voice (for example, "Enter a valid email.") or the active voice (such as "The Control Panel is not responding.").
 - Alerts and messages must be short, accurate, complete, and helpful.
 
 {% endcolumn %}
@@ -55,7 +55,7 @@ Use the following guidelines when you write messages in a control panel.
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-Use complete sentences, when possible. Include articles (a, an, the) to make the sentence complete. If possible, use active voice.
+Use complete sentences, when possible. Include articles (*a*, *an*, *the*) to make the sentence complete. If possible, use active voice.
 
 {% endcolumn %}
 
@@ -118,7 +118,7 @@ Lines with excessive capitalization are hard to read. Use all uppercase letters 
 {% figure [class:"image bg-light border"] %}
 | <hx-icon type="checkmark" class="good-idea"></hx-icon> Use | <hx-icon type="times" class="bad-idea"></hx-icon> Don't Use |
 | --- | --- |
-| The requested image $UUID has automatic disk resizing disabled. | THE REQUESTED IMAGE $UUID HAS AUTOMATIC DISK RESIZING DISABLED. |
+| The requested image `$UUID` has automatic disk resizing disabled. | THE REQUESTED IMAGE `$UUID` HAS AUTOMATIC DISK RESIZING DISABLED. |
 {: .hxTable .docTable}
 {% endfigure %}
 
@@ -187,7 +187,11 @@ Be specific and provide as much detailed information as possible.
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-Use *n* to represent an unspecified or generic number. Use *x* to represent an unknown version number.
+To represent an unspecified or generic number, use *n* as the variable
+and apply italics.
+
+To represent an unspecified or unknown version number, use *x* for each
+digit and apply italics.
 
 Using *n* and *x* consistently reduces the confusion users might experience with these conventions.
 
@@ -198,7 +202,7 @@ Using *n* and *x* consistently reduces the confusion users might experience with
 {% figure [class:"image bg-light border"] %}
 | <hx-icon type="checkmark" class="good-idea"></hx-icon> Use | <hx-icon type="checkmark" class="good-idea"></hx-icon> Use |
 | --- | --- |
-| The rate limit has been reached (*n* requests in 24 hours). Try again later. | This option is available only for Ubuntu 12.x. |
+| The rate limit has been reached (*n* requests in 24 hours). Try again later. | This option is available only for Ubuntu 12.*x*. |
 {: .hxTable .docTable}
 {% endfigure %}
 
@@ -266,7 +270,7 @@ Positive statements are easier to understand than negative statements.
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol-12 hxCol-xs-12 hxCol-sm-12 hxCol-md-12 hxCol-lg-12" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-12-md hxSpan-12-lg" %}
 
 ## Message types
 
