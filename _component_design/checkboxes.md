@@ -4,12 +4,12 @@ parent: Inputs and Controls
 layout: component
 category: Components
 usage: >
-  A check box is a square box on a Control Panel panel page that a user can select to indicate an answer to a question or to enable a setting. You can construct a stand-alone checkbox or a group of checkboxes.
+  A checkbox is a square box on a control panel page that a user can select to indicate an answer to a question or to enable a setting. You can construct a checkbox group or a single checkbox.
 preview-image: preview-images/checkboxes.svg
 resource: true
 status: stable
 need: selectors
-last-modified: 2018-06-12
+last-modified: 2018-07-11
 helix-ui-css: true
 helix-ui-javascript: true
 ---
@@ -26,9 +26,10 @@ helix-ui-javascript: true
 
 Use checkboxes in the following situations:
 
-- Use a checkbox group when the user can select any number of choices, including zero, one, or several choices. If a user can only select one option, use a radio button or a drop-down list.
-- Use a stand-alone checkbox for a single option that the user can turn on or off. For example, use a stand-alone checkbox when a user accepts the terms of an End User License Agreement (EULA).
-- Use checkboxes when it is important for the user to compare all options simultaneously. If it is not important for the user to compare all options at the same time, consider using a multi-select drop-down menu. A multi-select drop-down menu uses less space than a checkbox group, but introduces greater cognitive load and are more difficult to navigate for users who have difficulty making precise mouse movements.
+- When the user needs to answer a question or wants to change a control panel setting. Do not use a checkbox to trigger another process or workflow.
+- When the user can select any number of choices, including zero, one, or several choices. If a user can only select one option, use a radio button or a drop-down list.
+- When the user can turn on or turn off a single option. For example, use a single checkbox when a user accepts the terms of an End User License Agreement (EULA).
+- When it is important for the user to compare all options simultaneously. If it is not important for the user to compare all options at the same time, consider using a multi-select drop-down menu. A multi-select drop-down menu uses less space than a checkbox group (but introduces greater cognitive load) and is more difficult to navigate for users who have difficulty making precise mouse movements.
 
 {% endcolumn %}
 
@@ -44,19 +45,21 @@ Use checkboxes in the following situations:
 
 ## Best practices
 
-Consider the following best practices when you construct a checkbox:
+Consider the following best practices when you construct a checkbox group or single checkbox:
 
-- When a user needs to manage a group of items, add checkboxes to a list to allow for bulk actions.
+- List checkbox options vertically, with one choice per line. If you must use a horizontal layout, consider using a checkbox button group instead.
 - Construct a checkbox input so that it is independent from all other inputs in the list. A selected checkbox does not de-select any other checkboxes.
-- Use checkboxes and radio buttons only to change settings and not as action buttons that trigger another process or workflow.
+- When a user needs to manage a group of items, add checkboxes to a list to allow for bulk actions.
 - In most cases, there is no default checkbox selected. However, if Rackspace recommends an option, make that option the default selection.
+- Ensure that you separate groups and checkbox options from other groups and options on the same page.
+- With sub-heads, users might misunderstand each sub-group as a separate set of options. With checkboxes, each box is an independent choice.
 
-Consider the following best practices when you label a checkbox:
+Consider the following best practices when you label a checkbox option:
 
-- Use positive and active wording for checkbox labels. Avoid negations such as **Don't send me more email**. Negative labels on checkboxes indicate that the user must select the checkbox in order for something *not to happen*.
-- Write a checkbox label so that a user understands what happens when the checkbox is selected, and what will *not* happen if the checkbox is not selected. If you can't write a clear label, use two radio buttons instead: one radio button for turning the feature on and one radio button for turning the feature off. Ensure you write clear labels for each of the two cases.
+- Use positive and active wording for option labels. Avoid negations such as **Don't send me more email**. Negative option labels indicate that the user must select the checkbox in order for something *not to happen*.
+- Write an option label so that a user understands what happens when the checkbox is selected, and what will *not* happen if the checkbox is not selected. If you can't write a clear label, use two radio buttons instead: one radio button for turning the feature on and one radio button for turning the feature off. Ensure you write clear labels for each of the two cases.
 
-{% include note.html content="Allow users to select an option by clicking on either the button, the box itself, or the label. A bigger target is easier to click." %}
+{% include note.html content="Allow users to select an option by clicking on the checkbox or the option label. A larger target is easier to click." %}
 
 {% endcolumn %}
 
@@ -70,7 +73,7 @@ Consider the following best practices when you label a checkbox:
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-## specifications
+## Specifications
 
 Refer to the following specifications when you construct a checkbox.
 
@@ -90,17 +93,17 @@ Refer to the following specifications when you construct a checkbox.
 
 A checkbox contains the following elements:
 
-- **Field group name (optional)**: Use a field group name when you group checkboxes. A checkbox group consists of a field group name followed by pairs of checkboxes and checkbox labels.
+- **Field name (optional)**: The field name represents the question being asked of the user, or a system setting that the user can configure. Use a field name to group checkboxes. A checkbox group contains pairs of checkboxes and option labels.
+- **Option label (required)**: The option label indicates the user's answer to the question asked or the setting the user is enabling.
+- **Help text (optional)**: Use help text to provide the user with information about a checkbox option.
 - **Checkbox (required)**: The user selects or de-selects the checkbox.
-- **Field name (required)**: The field name indicates the user's answer to the question asked or the setting the user is enabling.
-
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Checkbox composition"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-default.svg"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkboxes-composition.png" width="259"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -119,16 +122,12 @@ A checkbox contains the following elements:
 
 Use these specifications when you construct a checkbox.
 
-- Visually present groups, and clearly separate the choices from other groups on the same page.
-- With sub-heads, users might misunderstand each sub-group as a separate set of options. With checkboxes, each box is an independent choice.
-- Arrange lists vertically, with one choice per line. If you must use a horizontal layout, consider using a checkbox button group instead.
-
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Checkbox style"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-default.svg"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkboxes-style.png" width="366"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -145,14 +144,14 @@ Use these specifications when you construct a checkbox.
 
 ### Spacing
 
-Refer to these spacing guidelines when you construct a checkbox.
+Refer to these spacing guidelines when you construct a checkbox group or a single checkbox.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Checkbox spacing"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-default.svg"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkboxes-spacing.png" width="190"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -187,12 +186,14 @@ A checkbox can exist in **enabled**, **disabled**, **error**, **group error**, *
 
 A user can select or de-select a checkbox in the enabled state.
 
+See [focus states]({{site.baseURL}}/style/focus-states.html), for guidance in constructing in focus checkboxes in an enabled state.
+
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Enabled state"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-default.svg"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkboxes-states-enabled.png" width="398"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -216,7 +217,7 @@ A user can't select or de-select a checkbox in the disabled state. In the disabl
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Disabled state"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-default.svg"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkboxes-states-disabled.png" width="439"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -235,14 +236,14 @@ A user can't select or de-select a checkbox in the disabled state. In the disabl
 
 An error state can apply to checkboxes when the user selects, de-selects, and hovers over a checkbox.
 
-Refer to [focus states]({{site.baseURL}}/style/focus-states.html), for guidance in constructing in focus checkboxes in an error state.
+See [focus states]({{site.baseURL}}/style/focus-states.html), for guidance in constructing in focus checkboxes in an error state.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Error state"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-default.svg"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkboxes-states-error.png" width="432"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -257,18 +258,16 @@ Refer to [focus states]({{site.baseURL}}/style/focus-states.html), for guidance 
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Group error
+### Group checkbox error
 
-In the case of an error, include an error message below the checkbox group and highlight the input that the user must change. Don’t highlight all checkboxes in an error group.
-
-Use a red asterisk to designate that a selection is required for a group of checkboxes. The label should remain in vertical alignment. The asterisk floats to the left of the text in the margin and is vertically aligned with the text.
+In the case of a group checkbox error, include an error message below the checkbox group and highlight the input that the user must change. Don’t highlight all checkboxes in an error group.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Group error state"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-default.svg"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkboxes-states-error-group.png" width="432"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -285,14 +284,14 @@ Use a red asterisk to designate that a selection is required for a group of chec
 
 ### Required group
 
-xxxxx.
+Use a red asterisk to designate that a selection is required for a checkbox group. The asterisk floats to the left of the text in the margin and is vertically aligned with the text.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Group error state"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-default.svg"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkboxes-states-error-required.png" width="328"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -309,14 +308,14 @@ xxxxx.
 
 ### Indeterminate
 
-Use an indeterminate state with nested checkboxes that provide for bulk selections. An indeterminate checkbox indicates that the user has selected one or more, but not all, options in a nested group. Refer to  [tables]({{site.baseurl}}/components/tables.html) for more information.
+Use an indeterminate state with nested checkboxes that provide for bulk selections. An indeterminate checkbox indicates that the user has selected one or more, but not all, options in a nested group. See  [tables]({{site.baseurl}}/components/tables.html) for more information about checkboxes in tables.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Indeterminate state"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-default.svg"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkboxes-states-indeterminate.png" width="612"/>
 {% endfigure %}
 
 {% endcolumn %}
