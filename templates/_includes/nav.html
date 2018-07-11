@@ -17,7 +17,7 @@
       <hx-reveal id="{{ navItem.name | slugify }}" {% if page.url contains currentNav %}open{% endif %}>   
       {%- if currentNav == "style" or currentNav == "resources" -%}
         {%- for article in site.docs -%}
-          {%- if article.category | slugify == currentNav" -%}
+          {%- if article.category | slugify == currentNav -%}
             {%- if article.category == navItem.name and article.resource == true -%}
             <a href="{{site.url}}{{article.url}}.html" {%- if currenturl contains article.url or page.parent == article.title -%} class="current" {%- endif -%}>{{article.title}}</a>
             {%- endif -%}
