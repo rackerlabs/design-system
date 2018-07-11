@@ -6,7 +6,7 @@ resource: true
 category: Resources
 last-modified: 2018-07-11
 usage: >
-   The long and short of it is that you should reach out the the Helix team anytime the team might be helpful to you, but it’s not always easy to know what that is. Use the following scenarios as a guide for when you should contact the Helix team
+   The long and short of it is that you should reach out the the Helix team anytime the team might be helpful to you, but it’s not always easy to know what that is. Use the following scenarios as a guide for when you should contact the Helix team.
 ---
 
 ## When to engage
