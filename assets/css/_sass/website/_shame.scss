@@ -40,6 +40,10 @@ p {
   margin-bottom: 1em !important;
 }
 
+strong {
+  font-weight: 500;
+}
+
 // Submit issue button should look like a button (ref: educational modal discussion and slack decision)
 .issue {
   color: $cyan900 !important;
