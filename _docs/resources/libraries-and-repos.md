@@ -1,5 +1,5 @@
 ---
-title: Libraries & Repo's
+title: Libraries & Repos
 layout: docs
 status: stable
 resource: true
