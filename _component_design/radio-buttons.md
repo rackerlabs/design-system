@@ -4,6 +4,10 @@ parent: Inputs and Controls
 layout: component
 category: Components
 usage: >
+  A radio button is a graphical control element that allows the user to choose only one of a predefined set of mutually exclusive options.
+
+  radio groups—collections of radio buttons describing a set of related options.
+
   Radio buttons are used when the user is only allowed to select one option from a list. A minimum of one choice is required, and one is preselected by default.
 preview-image: preview-images/radio-buttons.svg
 resource: true
@@ -23,6 +27,9 @@ helix-ui-javascript: false
 
 ## When to use
 
+Radio buttons are used when there is a list of two or more options that are mutually exclusive and the user must select exactly one choice. In other words, clicking a non-selected radio button will deselect whatever other button was previously selected in the list.
+
+
 - Radio buttons should be used when a user has to select **only one option** in a list.
 - If multiple options can be selected, use [checkboxes]({{site.baseurl}}/components/checkboxes.html) instead.
 - Radio buttons are useful when you have a small set of options and want to show all of them. If you’re using more than five options, strongly consider the dropdown pattern.
@@ -41,6 +48,8 @@ helix-ui-javascript: false
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}  
 
 ## Best practices
+
+Consider the following best practices when you construct a radio button:
 
 - Always use a label above the available options.
 - Keep the number of options to between two and five choices.
@@ -85,7 +94,7 @@ A radio button group consists of a section label, followed by pairs of radio but
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Radio button group composition"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/radio-buttons/radio-composition.png" width="404"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/radio-buttons/radiobuttons-composition.png" width="265"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -109,7 +118,7 @@ Use these specifications when you construct a radio button.
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Radio button group composition"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/radio-buttons/radio-composition.png" width="404"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/radio-buttons/radiobuttons-style.png" width="363"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -132,7 +141,7 @@ A title should always be located above the radio buttons. More context can be pr
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Radio button spacing"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/radio-buttons/radio-spacing.png" width="580"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/radio-buttons/radiobuttons-spacing.png" width="194"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -145,7 +154,7 @@ A title should always be located above the radio buttons. More context can be pr
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 ## States
 
@@ -172,7 +181,7 @@ A user can select or de-select a checkbox in the enabled state.
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Enabled state"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-default.svg"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/radio-buttons/radiobuttons-states-enabled.png" width="412"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -196,7 +205,7 @@ A user can't select or de-select a checkbox in the disabled state. In the disabl
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Disabled state"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-default.svg"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/radio-buttons/radiobuttons-states-disabled.png" width="411"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -222,7 +231,7 @@ Refer to [focus states]({{site.baseURL}}/style/focus-states.html), for guidance 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Error state"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-default.svg"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/radio-buttons/radiobuttons-states-error.png" width="407"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -248,7 +257,7 @@ Use a red asterisk to designate that a selection is required for a group of chec
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Group error state"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-default.svg"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/radio-buttons/radiobuttons-states-error-group.png" width="441"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -272,7 +281,7 @@ xxxxx.
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Group error state"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-default.svg"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/radio-buttons/radiobuttons-states-error-required.png" width="331"/>
 {% endfigure %}
 
 {% endcolumn %}
