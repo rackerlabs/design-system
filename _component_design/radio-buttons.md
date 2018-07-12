@@ -5,10 +5,6 @@ layout: component
 category: Components
 usage: >
   A radio button is a user interface (UI) element that allows the user to choose only one of a predefined set of mutually exclusive options.
-
-  radio groups—collections of radio buttons describing a set of related options.
-
-  Radio buttons are used when the user is only allowed to select one option from a list. A minimum of one choice is required, and one is preselected by default.
 preview-image: preview-images/radio-buttons.svg
 resource: true
 status: stable
