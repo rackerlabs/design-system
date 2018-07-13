@@ -15,7 +15,7 @@
         <hx-icon class="toggle-icon" type="angle-down"></hx-icon>
       </hx-disclosure>
       <hx-reveal id="{{ navItem.name | slugify }}" {% if page.url contains currentNav %}open{% endif %}>   
-      {%- if currentNav == "style" or currentNav == "resources" -%}
+      {%- if currentNav == "style" -%}
         {%- for article in site.docs -%}
           {%- if article.category | slugify == currentNav -%}
             {%- if article.category == navItem.name and article.resource == true -%}
@@ -40,5 +40,7 @@
       {%- endif -%}
       </hx-reveal>
   {%- endfor -%}
+  <a href="{{site.url}}/resources/index.html" {%- if currenturl contains "/resources" -%} class="current" {%- else -%} {%- endif -%}>RESOURCES</a>
+  <a href="{{site.url}}/contact-us/index.html" {%- if currenturl contains "/contact-us" -%} class="current" {%- else -%} {%- endif -%}>CONTACT US</a>
   <a href="{{site.url}}/status.html" {%- if currenturl == "/status" -%} class="current" {%- else -%} {%- endif -%}>STATUS</a>
 </nav>
