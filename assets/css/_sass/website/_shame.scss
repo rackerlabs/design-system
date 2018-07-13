@@ -72,3 +72,28 @@ strong {
     line-height: 1.5em;
   }
 }
+
+
+.avatar-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.avatar-item {
+  width: 100%;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.avatar-item-image {
+  order: 1;
+  width: 4rem;
+  margin-right: 0.5rem;
+}
+
+.avatar-item-description {
+  order: 2;
+}
