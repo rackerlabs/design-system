@@ -16,7 +16,7 @@ customers happy.
     <div class="card-bottom">
       <ul>
         <li><a href="{{site.url}}/status.html">Pattern Status</a></li>
-        <li><a href="{{site.url}}/resources/libraries-and-repos.html">Design Resources</a></li>
+        <li><a href="{{site.url}}/resources/index.html">Design Resources</a></li>
         <li><a href="{{site.url}}/getting-started/design.html">Quick Start Guide</a></li>
       </ul>
     </div>
