@@ -34,7 +34,7 @@ Use the following scenarios as a guide for when you should contact the Helix tea
 {% column left:"hxCol hxSpan-4" %}
 
 <div class="thumbnail {{illustrations.color}}">
-  <img src="{{site.url}}/assets/images/resources/engaging-helix/{{illo.image}}.png" class="thumbnail-image">
+  <img src="{{site.url}}/assets/images/contact-us/{{illo.image}}.png" class="thumbnail-image">
   <div class="thumbnail-caption">{{illo.caption}}</div>
 </div>
 
@@ -107,7 +107,7 @@ Submit a request through GitHub and we'll get back to you asap with next steps a
 <div class="avatar-list">
 {% for member in sub %}
 <div class="avatar-item">
-  <img class="avatar-item-image" src="{{site.url}}/assets/images/resources/engaging-helix/{{ member[1] | downcase | replace: ' ','-' }}.png">
+  <img class="avatar-item-image" src="{{site.url}}/assets/images/contact-us/{{ member[1] | downcase | replace: ' ','-' }}.png">
   <div class="avatar-item-description">
     <h5 class="hxHeading-5">{{ member[0] }}</h5>
     {{ member[1] }}
