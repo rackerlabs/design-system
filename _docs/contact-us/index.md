@@ -5,107 +5,48 @@ resource: true
 category: Contact-Us
 last-modified: 2018-07-11
 ---
+
 <section class="static-section" markdown="1" style="margin-bottom:4rem;">
 {% include toc.html %}
 </section>
+
+
+
+
 
 ## When to contact us
 
 Use the following scenarios as a guide for when you should contact the Helix team.
 
+{% for illoSection in site.data.contact-helix-illos %}
+{% assign sectionTitle = illoSection[0] %}
+{% assign illustrations = illoSection[1]%}
+
 <section class="static-section" markdown="1">
 
-### Feedback &amp; review
+### {{sectionTitle}}
 
 <div class="hxRow" markdown="1" style="margin-bottom:4rem;">
 
-{% column left:"hxCol hxSpan-4" %}
-
-![When I want to know if I’m using Helix correctly]({{site.url}}/assets/images/resources/engaging-helix/feedback-and-review-using-helix-correctly.png){: width="100%"}
-
-**When I want to know if I’m using Helix correctly**{: style="display:block; text-align: center; font-size:16px;"}
-
-{% endcolumn %}
+{% for illoHash in illustrations.items %}
+{% assign illo = illoHash[1]%}
 
 {% column left:"hxCol hxSpan-4" %}
 
-![When I’m tweaking a Helix design]({{site.url}}/assets/images/resources/engaging-helix/feedback-and-review-tweaking-helix.png){: width="100%"}
-
-**When I’m tweaking a Helix design**{: style="display:block; text-align: center; font-size:16px;"}
-
-{% endcolumn %}
-
-{% column left:"hxCol hxSpan-4" %}
-
-![When Helix looks ugly in my designs]({{site.url}}/assets/images/resources/engaging-helix/feedback-and-review-helix-looks-ugly.png){: width="100%"}
-
-**When Helix looks ugly in my designs**{: style="display:block; text-align: center; font-size:16px;"}
+<div class="thumbnail {{illustrations.color}}">
+  <img src="{{site.url}}/assets/images/resources/engaging-helix/{{illo.image}}.png" class="thumbnail-image">
+  <div class="thumbnail-caption">{{illo.caption}}</div>
+</div>
 
 {% endcolumn %}
+
+{% endfor %}
 
 </div>
 
 </section>
 
-<section class="static-section" markdown="1" style="margin-bottom:4rem;">
-
-### Identified a gap
-
-<div class="hxRow" markdown="1">
-
-{% column left:"hxCol hxSpan-4" %}
-
-![When I’m creating a new component, layout, or interaction model]({{site.url}}/assets/images/resources/engaging-helix/identified-a-gap-creating-something-new.png){: width="100%"}
-
-**When I’m creating a new component, layout, or interaction model**{: style="display:block; text-align: center; font-size:16px;"}
-
-{% endcolumn %}
-
-{% column left:"hxCol hxSpan-4" %}
-
-![When my content doesn’t fit into existing Helix specifications]({{site.url}}/assets/images/resources/engaging-helix/identified-a-gap-content-does-not-fit.png){: width="100%"}
-
-**When my content doesn’t fit into existing Helix specifications**{: style="display:block; text-align: center; font-size:16px;"}
-
-{% endcolumn %}
-
-{% column left:"hxCol hxSpan-4" %}
-
-![When I find a bug in Helix components, documentation, or design assets]({{site.url}}/assets/images/resources/engaging-helix/identified-a-gap-found-a-bug.png){: width="100%"}
-
-**When I find a bug in Helix components, documentation, or design assets**{: style="display:block; text-align: center; font-size:16px;"}
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1" style="margin-bottom:8rem;">
-
-### Awareness
-
-<div class="hxRow" markdown="1">
-
-{% column left:"hxCol hxSpan-4" %}
-
-![When I’m ready to convert user flow diagrams into screen flows]({{site.url}}/assets/images/resources/engaging-helix/awareness-ready-to-design.png){: width="100%"}
-
-**When I’m ready to convert user flow diagrams into screen flows**{: style="display:block; text-align: center; font-size:16px;"}
-
-{% endcolumn %}
-
-{% column left:"hxCol hxSpan-4" %}
-
-![When I want a member of Helix included in a meeting, project, or decision]({{site.url}}/assets/images/resources/engaging-helix/awareness-include-helix-member.png){: width="100%"}
-
-**When I want a member of Helix included in a meeting, project, or decision**{: style="display:block; text-align: center; font-size:16px;"}
-
-{% endcolumn %}
-
-</div>
-
-</section>
+{% endfor %}
 
 ## How to contact us
 
