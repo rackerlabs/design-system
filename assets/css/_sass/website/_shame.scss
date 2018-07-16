@@ -97,3 +97,44 @@ strong {
 .avatar-item-description {
   order: 2;
 }
+
+
+.thumbnail {
+  position: relative;
+  display: block;
+
+  &.cyan {
+    .thumbnail-caption {
+      background-color: rgba(22,185,212,0.7);
+    }
+  }
+
+  &.purple {
+    .thumbnail-caption {
+      background-color: rgba(59,68,159,0.7);
+    }
+  }
+
+  &.blue {
+    .thumbnail-caption {
+      background-color: rgba(51,145,255,0.7);
+    }
+  }
+}
+
+.thumbnail-image {
+  width: 100%;
+  display: block;
+}
+
+.thumbnail-caption {
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  color: $grey0;
+  min-height: 4rem;
+  border-bottom-left-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
