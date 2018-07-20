@@ -30,6 +30,7 @@ Use checkboxes in the following situations:
 - When the user can select any number of choices, including zero, one, or several choices. If a user can only select one option, use a radio button or an input selector.
 - When the user can turn on or turn off a single option. For example, use a single checkbox when a user accepts the terms of an End User License Agreement (EULA).
 - When it is important for the user to compare all options simultaneously. If it is not important for the user to compare all options at the same time, consider using an input selector. An input selector uses less space than a checkbox group (but introduces greater cognitive load), and is more difficult to navigate for users who have difficulty making precise mouse movements.
+- When the user needs to select an object in a table row and then use a control to act on that item.
 
 {% endcolumn %}
 
@@ -306,7 +307,7 @@ Use a red asterisk to designate that a selection is required for a checkbox grou
 
 ## Indeterminate checkboxes
 
-Use an indeterminate state with a nested group that provides for bulk selection. An indeterminate checkbox indicates that the user has selected one or more, but not all, options in a nested group. See  [tables]({{site.baseurl}}/components/tables.html) for more information about checkboxes in tables.
+Use an indeterminate state only in table header checkbox. An indeterminate checkbox indicates that the user has selected one or more, but not all, of the child checkboxes in the table. See  [tables]({{site.baseurl}}/components/tables.html) for more information about checkboxes in tables.
 
 {% endcolumn %}
 
