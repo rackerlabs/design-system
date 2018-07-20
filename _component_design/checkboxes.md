@@ -9,7 +9,7 @@ preview-image: preview-images/checkboxes.svg
 resource: true
 status: stable
 need: selectors
-last-modified: 2018-07-11
+last-modified: 2018-07-19
 helix-ui-css: true
 helix-ui-javascript: true
 ---
@@ -27,9 +27,9 @@ helix-ui-javascript: true
 Use checkboxes in the following situations:
 
 - When the user needs to answer a question or wants to change a control panel setting. Do not use a checkbox to trigger another process or workflow.
-- When the user can select any number of choices, including zero, one, or several choices. If a user can only select one option, use a radio button or a drop-down list.
+- When the user can select any number of choices, including zero, one, or several choices. If a user can only select one option, use a radio button or an input selector.
 - When the user can turn on or turn off a single option. For example, use a single checkbox when a user accepts the terms of an End User License Agreement (EULA).
-- When it is important for the user to compare all options simultaneously. If it is not important for the user to compare all options at the same time, consider using a multi-select drop-down menu. A multi-select drop-down menu uses less space than a checkbox group (but introduces greater cognitive load) and is more difficult to navigate for users who have difficulty making precise mouse movements.
+- When it is important for the user to compare all options simultaneously. If it is not important for the user to compare all options at the same time, consider using an input selector. An input selector uses less space than a checkbox group (but introduces greater cognitive load) and is more difficult to navigate for users who have difficulty making precise mouse movements.
 
 {% endcolumn %}
 
@@ -45,14 +45,12 @@ Use checkboxes in the following situations:
 
 ## Best practices
 
-Consider the following best practices when you construct a checkbox group or single checkbox:
+Consider using the following best practices when you construct a checkbox group or single checkbox:
 
-- List checkbox options vertically, with one choice per line. If you must use a horizontal layout, consider using a checkbox button group instead.
+- List checkbox options vertically, with one choice per line. If you must use a horizontal layout, consider using a selector strip.
 - Construct a checkbox input so that it is independent from all other inputs in the list. A selected checkbox does not de-select any other checkboxes.
-- When a user needs to manage a group of items, add checkboxes to a list to allow for bulk actions.
+- When you want to enable the user to select or deselect all visible checkboxes in a list, use a header checkbox that when selected also selects all checkboxes in the list.
 - In most cases, there is no default checkbox selected. However, if Rackspace recommends an option, make that option the default selection.
-- Ensure that you separate groups and checkbox options from other groups and options on the same page.
-- With sub-heads, users might misunderstand each sub-group as a separate set of options. With checkboxes, each box is an independent choice.
 
 Consider the following best practices when you label a checkbox option:
 
@@ -168,7 +166,7 @@ Refer to these spacing guidelines when you construct a checkbox group or a singl
 
 ## States
 
-A checkbox can exist in **enabled**, **disabled**, **error**, **group error**, **group required**, and **indeterminate** states.
+A checkbox can exist in **enabled**, **disabled**, **error**, **group error**, and **group required** states.
 
 {% endcolumn %}
 
@@ -306,9 +304,9 @@ Use a red asterisk to designate that a selection is required for a checkbox grou
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Indeterminate
+## Indeterminate checkboxes
 
-Use an indeterminate state with nested checkboxes that provide for bulk selections. An indeterminate checkbox indicates that the user has selected one or more, but not all, options in a nested group. See  [tables]({{site.baseurl}}/components/tables.html) for more information about checkboxes in tables.
+Use an indeterminate state with a nested group that provides for bulk selection. An indeterminate checkbox indicates that the user has selected one or more, but not all, options in a nested group. See  [tables]({{site.baseurl}}/components/tables.html) for more information about checkboxes in tables.
 
 {% endcolumn %}
 
