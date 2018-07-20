@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/radio-buttons.svg
 resource: true
 status: stable
-last-modified: 2018-07-12
+last-modified: 2018-07-20
 helix-ui-css: false
 helix-ui-javascript: false
 ---
@@ -216,7 +216,7 @@ A user can't select a radio button in the disabled state. In the disabled state,
 
 ### Error
 
-An error state can apply to radio buttons when the user selects, deselects, and hovers over a checkbox.
+An error state can apply to radio buttons when the user selects, deselects, and hovers over a radio button.
 
 Refer to [Focus States]({{site.baseURL}}/style/focus-states.html) for guidance in constructing in focus radio buttons in an error state.
 
