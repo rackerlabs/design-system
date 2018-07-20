@@ -29,7 +29,7 @@ Use checkboxes in the following situations:
 - When the user needs to answer a question or wants to change a control panel setting. Do not use a checkbox to trigger another process or workflow.
 - When the user can select any number of choices, including zero, one, or several choices. If a user can only select one option, use a radio button or an input selector.
 - When the user can turn on or turn off a single option. For example, use a single checkbox when a user accepts the terms of an End User License Agreement (EULA).
-- When it is important for the user to compare all options simultaneously. If it is not important for the user to compare all options at the same time, consider using an input selector. An input selector uses less space than a checkbox group (but introduces greater cognitive load) and is more difficult to navigate for users who have difficulty making precise mouse movements.
+- When it is important for the user to compare all options simultaneously. If it is not important for the user to compare all options at the same time, consider using an input selector. An input selector uses less space than a checkbox group (but introduces greater cognitive load), and is more difficult to navigate for users who have difficulty making precise mouse movements.
 
 {% endcolumn %}
 
@@ -48,14 +48,14 @@ Use checkboxes in the following situations:
 Consider using the following best practices when you construct a checkbox group or single checkbox:
 
 - List checkbox options vertically, with one choice per line. If you must use a horizontal layout, consider using a selector strip.
-- Construct a checkbox input so that it is independent from all other inputs in the list. A selected checkbox does not de-select any other checkboxes.
-- When you want to enable the user to select or deselect all visible checkboxes in a list, use a header checkbox that when selected also selects all checkboxes in the list.
+- Construct a checkbox input so that it is independent from all other inputs in the list. A selected checkbox does not deselect any other checkboxes.
+- When you want to enable the user to select or deselect all visible checkboxes in a list, use a header checkbox that, when selected, also selects all checkboxes in the list.
 - In most cases, there is no default checkbox selected. However, if Rackspace recommends an option, make that option the default selection.
 
 Consider the following best practices when you label a checkbox option:
 
-- Use positive and active wording for option labels. Avoid negations such as **Don't send me more email**. Negative option labels indicate that the user must select the checkbox in order for something *not to happen*.
-- Write an option label so that a user understands what happens when the checkbox is selected, and what will *not* happen if the checkbox is not selected. If you can't write a clear label, use two radio buttons instead: one radio button for turning the feature on and one radio button for turning the feature off. Ensure you write clear labels for each of the two cases.
+- Use positive and active wording for option labels. Avoid negations such as **Don't send me more email**. Negative option labels indicate that the user must select the checkbox in order for something *to not happen*.
+- Write an option label so that a user understands what happens when the checkbox is selected, and what will *not* happen if the checkbox is *not* selected. If you can't write a clear label, use two radio buttons instead: one radio button for turning the feature on and one radio button for turning the feature off. Ensure that you write clear labels for each of the two cases.
 
 {% include note.html content="Allow users to select an option by clicking on the checkbox or the option label. A larger target is easier to click." %}
 
@@ -94,7 +94,7 @@ A checkbox contains the following elements:
 - **Field name (optional)**: The field name represents the question being asked of the user, or a system setting that the user can configure. Use a field name to group checkboxes. A checkbox group contains pairs of checkboxes and option labels.
 - **Option label (required)**: The option label indicates the user's answer to the question asked or the setting the user is enabling.
 - **Help text (optional)**: Use help text to provide the user with information about a checkbox option.
-- **Checkbox (required)**: The user selects or de-selects the checkbox.
+- **Checkbox (required)**: The user selects or deselects the checkbox.
 
 {% endcolumn %}
 
@@ -182,9 +182,9 @@ A checkbox can exist in **enabled**, **disabled**, **error**, **group error**, a
 
 ### Enabled
 
-A user can select or de-select a checkbox in the enabled state.
+A user can select or deselect a checkbox in the enabled state.
 
-See [focus states]({{site.baseURL}}/style/focus-states.html), for guidance in constructing in focus checkboxes in an enabled state.
+See [focus states]({{site.baseURL}}/style/focus-states.html) for guidance in constructing focused checkboxes in an enabled state.
 
 {% endcolumn %}
 
@@ -208,7 +208,7 @@ See [focus states]({{site.baseURL}}/style/focus-states.html), for guidance in co
 
 ### Disabled
 
-A user can't select or de-select a checkbox in the disabled state. In the disabled state, the checkbox is locked and cannot be changed.
+A user can't select or deselect a checkbox in the disabled state. In the disabled state, the checkbox is locked and cannot be changed.
 
 {% endcolumn %}
 
@@ -232,9 +232,9 @@ A user can't select or de-select a checkbox in the disabled state. In the disabl
 
 ### Error
 
-An error state can apply to checkboxes when the user selects, de-selects, and hovers over a checkbox.
+An error state can apply to checkboxes when the user selects, deselects, and hovers over a checkbox.
 
-See [focus states]({{site.baseURL}}/style/focus-states.html), for guidance in constructing in focus checkboxes in an error state.
+See [focus states]({{site.baseURL}}/style/focus-states.html) for guidance in constructing focused checkboxes in an error state.
 
 {% endcolumn %}
 
