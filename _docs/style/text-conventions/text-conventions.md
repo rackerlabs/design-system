@@ -10,6 +10,6 @@ last-modified: 2018-06-06
 ---
 
 {% for article in site.docs %}{% if article.parent == 'Text Conventions' %}
-- [{{article.title}}]({{site.baseurl}}{{article.url}}){% endif %}{% endfor %}
+- [{{article.title}}]({{site.baseurl}}{{article.url}}.html){% endif %}{% endfor %}
 
 For more information about writing at Rackspace, see [Rackspace Style Guide for Technical Content](https://developer.rackspace.com/docs/style-guide/).
