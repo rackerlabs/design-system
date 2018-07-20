@@ -6,7 +6,7 @@ category: Resources
 
 <section class="static-section" markdown="1">
 
-## Sketch Resources
+### Sketch Resources
 
 <div class="hxRow"  markdown="1">
 
@@ -26,7 +26,7 @@ category: Resources
 
 <div class="resource-card">
   <div ><img src="{{site.baseurl}}/assets/images/lo-fi.svg" alt="low-fi icon"/>
-  	<h4>Low-fi Sticker sheet</h4>
+    <h4>Low-fi Sticker sheet</h4>
   </div>
     <p>We recommend using the low-fi sticker sheet to create initial designs for any project. This allows stakeholders and designers to focus on the higher-level experience without getting mired in the weeds of pixel-perfection. Download the file and then copy and paste low-fi elements into your designs to get started.</p>
     <a id="link" href="{{site.cdn_url}}/sketch/low-fi_helix_stickersheet_v0.1.sketch">Download Low-fi Sticker Sheet</a>
@@ -40,7 +40,7 @@ category: Resources
 
 <section class="static-section" markdown="1">
 
-## Online Tools
+### Online Tools
 
 <div class="hxRow"  markdown="1">
 
@@ -73,7 +73,7 @@ category: Resources
 
 <section class="static-section" markdown="1">
 
-## GitHub Repositories
+### GitHub Repositories
 
 <div class="hxRow"  markdown="1">
 

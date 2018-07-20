@@ -1,0 +1,33 @@
+Feedback and review:
+ color: cyan
+ items:
+  1:
+   caption: 'When I want to know if I’m using Helix correctly'
+   image: feedback-and-review-using-helix-correctly
+  2:
+   caption: 'When I’m tweaking a Helix design'
+   image: feedback-and-review-tweaking-helix
+  3:
+   caption: 'When Helix looks ugly in my designs'
+   image: feedback-and-review-helix-looks-ugly
+Identified a gap:
+ color: purple
+ items: 
+  1:
+   caption: 'When I’m creating a new component, layout, or interaction model'
+   image: identified-a-gap-creating-something-new
+  2:
+   caption: 'When my content doesn’t fit into existing Helix specifications'
+   image: identified-a-gap-content-does-not-fit
+  3:
+   caption: 'When I find a bug in Helix components, documentation, or design assets'
+   image: identified-a-gap-found-a-bug
+Awareness:
+ color: blue
+ items:
+  1:
+   caption: 'When I’m ready to convert user flow diagrams into screen flows'
+   image: awareness-ready-to-design
+  2:
+   caption: 'When I want Helix included in a meeting, project, or decision'
+   image: awareness-include-helix-member

@@ -2,9 +2,10 @@
 title: Install the Helix Sketch Library
 layout: docs
 status: stable
-resource: true
+resource: false
 category: Resources
-last-modified: 2018-04-05
+parent: Libraries & Repos
+last-modified: 2018-07-11
 usage: >
    The Helix team provides a rich set of preconfigured user interface (UI) components that you can use in Sketch design toolkit to design Rackspace Control Panels. These come in both high-fidelity (library) and low-fidelity variations (stickersheet).
 ---

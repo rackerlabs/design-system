@@ -1,0 +1,64 @@
+.avatar-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.avatar-item {
+  width: 100%;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.avatar-item-image {
+  order: 1;
+  width: 4rem;
+  margin-right: 0.5rem;
+}
+
+.avatar-item-description {
+  order: 2;
+}
+
+
+.illustration-thumbnail {
+  position: relative;
+  display: block;
+
+  &.cyan {
+    .illustration-thumbnail-caption {
+      background-color: rgba(22,185,212,0.7);
+    }
+  }
+
+  &.purple {
+    .illustration-thumbnail-caption {
+      background-color: rgba(59,68,159,0.7);
+    }
+  }
+
+  &.blue {
+    .illustration-thumbnail-caption {
+      background-color: rgba(51,145,255,0.7);
+    }
+  }
+}
+
+.illustration-thumbnail-image {
+  width: 100%;
+  display: block;
+}
+
+.illustration-thumbnail-caption {
+  display: block;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  color: $grey0;
+  min-height: 4rem;
+  border-bottom-left-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
