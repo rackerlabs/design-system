@@ -102,7 +102,7 @@ Submit a request through GitHub and we'll get back to you ASAP with next steps a
 <div class="avatar-list">
 {% for member in sub %}
 <div class="avatar-item">
-  <img class="avatar-item-image" src="{{site.url}}/assets/images/contact-us/{{ member[1] | downcase | replace: ' ','-' }}.png">
+  <img class="avatar-item-image" src="{{site.cdn_url}}/assets/images/contact-us/{{ member[1] | downcase | replace: ' ','-' }}.png">
   <div class="avatar-item-description">
     <h5 class="hxHeading-5">{{ member[0] }}</h5>
     {{ member[1] }}
