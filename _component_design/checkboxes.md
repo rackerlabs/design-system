@@ -9,7 +9,7 @@ preview-image: preview-images/checkboxes.svg
 resource: true
 status: stable
 need: selectors
-last-modified: 2018-07-19
+last-modified: 2018-07-23
 helix-ui-css: true
 helix-ui-javascript: true
 ---
@@ -185,7 +185,7 @@ A checkbox can exist in **enabled**, **disabled**, **error**, **group error**, a
 
 A user can select or deselect a checkbox in the enabled state.
 
-See [focus states]({{site.baseURL}}/style/focus-states.html) for guidance in constructing focused checkboxes in an enabled state.
+See [focus states]({{site.baseurl}}/style/focus-states.html) for guidance in constructing focused checkboxes in an enabled state.
 
 {% endcolumn %}
 
@@ -235,7 +235,7 @@ A user can't select or deselect a checkbox in the disabled state. In the disable
 
 An error state can apply to checkboxes when the user selects, deselects, and hovers over a checkbox.
 
-See [focus states]({{site.baseURL}}/style/focus-states.html) for guidance in constructing focused checkboxes in an error state.
+See [focus states]({{site.baseurl}}/style/focus-states.html) for guidance in constructing focused checkboxes in an error state.
 
 {% endcolumn %}
 
