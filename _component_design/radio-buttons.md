@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/radio-buttons.svg
 resource: true
 status: stable
-last-modified: 2018-07-20
+last-modified: 2018-07-23
 helix-ui-css: false
 helix-ui-javascript: false
 ---
@@ -46,15 +46,15 @@ Consider the following best practices when you construct a radio button:
 
 - By default, the radio button at the top of the list is selected. The user can then make a different selection, if required.
 - When the user clicks a radio button, the previously selected button is deselected.
-- Keep the number of options to between two and five choices. If you’re providing more than five options, consider using a drop-down list.
+- Keep the number of options to two and five choices. If you’re providing more than five options, consider using a drop-down list.
 - List radio button options vertically, with one choice per line. If space is not available, consider using a drop-down list.
-- List radio button options in logical order. Depending on the context, the order could be alphabetical or from most common to least common. For example, if listing accounts by name, list them alphabetically. In billing, place the paying the amount due option above the enter a custom payment amount option.
+- List radio button options in logical order. Depending on the context, the order could be alphabetical or from most common to least common. For example, if listing accounts by name, list them alphabetically. In billing, place the payment amount due option above the option to enter a custom payment amount.
 - Consider using a [switch]({{site.baseurl}}/components/switches.html) component if a singular input can be used to enable or disable a feature (in place of two yes/no radio buttons).
 
 Consider the following best practices when you label a radio button option:
 
-- Use positive and active wording for option labels. Avoid negations such as **Don't send me more email**. Negative option labels indicate that the user must select the radio button in order for something *not to happen*.
-- Write an option label so that the user understands what happens when the radio button is selected, and what will *not* happen if the radio button is not selected.
+- Use positive and active wording for option labels. Avoid negations such as **Don't send me more email**. Negative option labels indicate that the user must select the radio button in order for something *to not happen*.
+- Write an option label so that the user understands what happens when the radio button is selected, and what will *not* happen if the radio button is *not* selected.
 
 {% endcolumn %}
 
@@ -168,7 +168,7 @@ A radio button can exist in **enabled**, **disabled**, **error**, **group error*
 
 A user can select a radio button in the enabled state.
 
-See [Focus States]({{site.baseURL}}/style/focus-states.html) for guidance in constructing in focus radio buttons in an enabled state.
+See [Focus States]({{site.baseURL}}/style/focus-states.html) for guidance in constructing focused radio buttons in an enabled state.
 
 {% endcolumn %}
 
@@ -218,7 +218,7 @@ A user can't select a radio button in the disabled state. In the disabled state,
 
 An error state can apply to radio buttons when the user selects, deselects, and hovers over a radio button.
 
-Refer to [Focus States]({{site.baseURL}}/style/focus-states.html) for guidance in constructing in focus radio buttons in an error state.
+Refer to [Focus States]({{site.baseURL}}/style/focus-states.html) for guidance in constructing focused radio buttons in an error state.
 
 {% endcolumn %}
 
@@ -246,7 +246,7 @@ In the case of an error, include an error message below the radio button group a
 
 Position the error icon to the left of the error message.
 
-Wrap the error message text to fixed upper and lower bounds, so as to adhere to 40-80 characters per line.
+Wrap the error message text to fixed upper and lower bounds to adhere to 40-80 characters per line.
 
 {% endcolumn %}
 
