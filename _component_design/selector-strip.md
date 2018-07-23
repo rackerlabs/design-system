@@ -9,7 +9,7 @@ usage: >
 preview-image: preview-images/selector-strip.svg
 status: stable
 resource: true
-last-modified: 2018-07-13
+last-modified: 2018-07-23
 helix-ui-css: false
 helix-ui-javascript: false
 ---
@@ -30,7 +30,7 @@ There are two types of selector strips:
 - **Multi-select strip**: A multi-select selector strip has squared edges and functions like checkboxes where more than one option can be selected at a time. The primary use-case for multi-select is selecting days of the week.
 
 {% figure [caption:"Selector strip types"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/selector-strip/select-strip-single.svg"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/selector-strip/selectorstrip-overview.png" width="288"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -119,7 +119,7 @@ A single select strip contains the following elements:
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Single selector strip composition"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/selector-strip/select-strip-single.svg"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/selector-strip/selectorstrip-single-composition.png" width="347"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -143,7 +143,7 @@ Use these specifications when you construct a single select strip.
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Single selector strip composition"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/selector-strip/select-strip-single.svg"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/selector-strip/selectorstrip-single-style.png" width="336"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -167,7 +167,7 @@ Use these spacing specifications when you construct a single select strip.
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Single selector spacing"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/selector-strip/select-strip-single.svg"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/selector-strip/selectorstrip-single-spacing.png" width="174"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -207,7 +207,7 @@ xxxxx.
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Single selector spacing"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/selector-strip/select-strip-single.svg"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/selector-strip/selectorstrip-single-states-enabled.png" width="429"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -231,7 +231,7 @@ xxxxx.
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Single selector spacing"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/selector-strip/select-strip-single.svg"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/selector-strip/selectorstrip-single-states-disabled.png" width="424"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -255,7 +255,7 @@ xxxxx.
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Single selector spacing"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/selector-strip/select-strip-single.svg"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/selector-strip/selectorstrip-single-states-error.png" width="451"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -299,7 +299,7 @@ A multi-select strip contains the following elements:
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Multi-selector strip composition"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/selector-strip/select-strip-single.svg"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/selector-strip/selectorstrip-multi-composition.png" width="464"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -323,7 +323,7 @@ Use these specifications when you construct a multi-select strip.
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Multi-selector strip composition"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/selector-strip/select-strip-single.svg"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/selector-strip/selectorstrip-multi-style.png" width="449"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -347,7 +347,7 @@ Use these spacing specifications when you construct a multi-select strip.
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Multi-selector strip composition"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/selector-strip/select-strip-single.svg"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/selector-strip/selectorstrip-multi-spacing.png" width="288"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -389,7 +389,7 @@ When the mouse button is pressed, the fill area changes to `cyan 700`. When the 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Selector strip in pressed state"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/selector-strip/select-strip-pressed.svg"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/selector-strip/selectorstrip-multi-states-enabled.png" width="426"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -413,7 +413,7 @@ xxxxx.
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Selector strip in pressed state"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/selector-strip/select-strip-pressed.svg"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/selector-strip/selectorstrip-multi-states-disabled.png" width="424"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -437,7 +437,31 @@ When there is an error, the invalid selection has a red border. Text explaining 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Selector strip in error state"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/selector-strip/select-strip-error.svg"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/selector-strip/selectorstrip-multi-states-error.png" width="451"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+## Selector strips in a form
+
+xxxxx.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"Selector strip in error state"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/selector-strip/selectorstrip-inaform.png" width="351"/>
 {% endfigure %}
 
 {% endcolumn %}
