@@ -5,7 +5,7 @@ secondary: Selectors
 layout: component
 category: Components
 usage: >
-  A selector strip is a component that enables the user to make a selection from a group of options. This pattern is a more visually prominent alternative to check boxes (multi-select) or radio buttons (single-select).
+  A selector strip is a component that enables the user to make a selection from a group of options. This pattern is acmore visually prominent alternative to checkboxes (multi-select) and radio buttons (single-select).
 preview-image: preview-images/selector-strip.svg
 status: stable
 resource: true
@@ -26,8 +26,8 @@ helix-ui-javascript: false
 
 There are two types of selector strips:
 
-- **Single select strip**: A single-select strip has rounded corners and functions like a radio button; only one option can be selected at a time. Selecting another option deselects the previously selected option.
-- **Multi-select strip**: A multi-select selector strip has squared edges and functions like checkboxes where more than one option can be selected at a time. The primary use-case for multi-select is selecting days of the week.
+- **Single select strip**: A single-select strip has rounded corners and functions like a radio button; the user can only select one option. Selecting another option deselects the previously selected option.
+- **Multi-select strip**: A multi-select selector strip has squared edges and functions like checkboxes; the user can select multiple options. Enabling a user to schedule a job to run multiple days of the week is a common use case for multi-select strips.
 
 {% figure [caption:"Selector strip types"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/inputs-and-controls/selector-strip/selectorstrip-overview.png" width="288"/>
@@ -72,11 +72,11 @@ Use selector strips in the following situations:
 
 Consider the following best practices when you construct a selector strip:
 
-- **A selector strip can be used as an input or a control. As an input, a selector strip provides data entry fields based on the option selected. As a control, a selector strip option can also ...**
+- A selector strip can be used as an input or a control. As an input, a selector strip provides data entry fields based on the option selected. As a control, a selector strip option can change the view of a graph to show daily, weekly, or monthly data.
 - For single select strips, one option is selected by default.
 - A selector strip should contain no greater than seven options. It is important to balance the length of the option labels with the number of options listed.
 - Use short option labels (for example, three words maximum and up to 10 characters) so that the number of options can fit horizontally on a small screen.
-- If they are commonly understood, use abbreviations. For example, in a credit card selector strip the user understands that *AmEx* stands for *American Express*.
+- If they are commonly understood, use abbreviations. For example, on a credit card selector strip the user understands that *AmEx* stands for *American Express*.
 
 {% endcolumn %}
 
@@ -110,15 +110,15 @@ Consider the following specifications when you construct a single select strip.
 
 A single select strip contains the following elements:
 
-- **Strip container (required)**: The selector strip container holds the select
+- **Strip container (required)**: The selector strip container holds the options.
 - **Selected option container (required)**: The selected option container expands to include the option label.
-- **Option label (required)**: The user makes a choice by selecting an option label. Ensure you consider best practices when writing option labels.
+- **Option label (required)**: The user makes a choice by selecting an option. Ensure you consider best practices when writing option labels.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Single selector strip composition"] [class:"image bg-light border"] %}
+{% figure [caption:"Single select strip composition"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/inputs-and-controls/selector-strip/selectorstrip-single-composition.png" width="347"/>
 {% endfigure %}
 
@@ -142,7 +142,7 @@ Use these specifications when you construct a single select strip.
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Single selector strip composition"] [class:"image bg-light border"] %}
+{% figure [caption:"Single select strip style"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/inputs-and-controls/selector-strip/selectorstrip-single-style.png" width="336"/>
 {% endfigure %}
 
@@ -166,7 +166,7 @@ Use these spacing specifications when you construct a single select strip.
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Single selector spacing"] [class:"image bg-light border"] %}
+{% figure [caption:"Single select strip spacing"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/inputs-and-controls/selector-strip/selectorstrip-single-spacing.png" width="174"/>
 {% endfigure %}
 
@@ -200,13 +200,15 @@ A single select strip can be in *enabled*, *disabled*, or *error state*.
 
 ### Enabled
 
-xxxxx.
+A user can select or deselect a single select option in the enabled state.
+
+See [focus states]({{site.baseurl}}/style/focus-states.html) for guidance in constructing focused single select options in an enabled state.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Single selector spacing"] [class:"image bg-light border"] %}
+{% figure [caption:"Single select strip enabled state"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/inputs-and-controls/selector-strip/selectorstrip-single-states-enabled.png" width="429"/>
 {% endfigure %}
 
@@ -224,13 +226,13 @@ xxxxx.
 
 ### Disabled
 
-xxxxx.
+A user can't select or deselect a single select option in the disabled state. In the disabled state, the option is locked and cannot be changed.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Single selector spacing"] [class:"image bg-light border"] %}
+{% figure [caption:"Single select strip disabled state"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/inputs-and-controls/selector-strip/selectorstrip-single-states-disabled.png" width="424"/>
 {% endfigure %}
 
@@ -248,13 +250,15 @@ xxxxx.
 
 ### Error
 
-xxxxx.
+An error state can apply to a single select option when the user selects, deselects, and hovers over the option.
+
+See [focus states]({{site.baseurl}}/style/focus-states.html) for guidance in constructing a focused single select option in an error state.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Single selector spacing"] [class:"image bg-light border"] %}
+{% figure [caption:"Single select strip error state"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/inputs-and-controls/selector-strip/selectorstrip-single-states-error.png" width="451"/>
 {% endfigure %}
 
@@ -290,15 +294,15 @@ Consider the following specifications when you construct a multi-select strip.
 
 A multi-select strip contains the following elements:
 
-- **Strip container (required)**: The selector strip container holds the select
+- **Strip container (required)**: The selector strip container holds the select options.
 - **Selected option container (required)**: The selected option container expands to include the option label.
-- **Option label (required)**: The user makes a choice by selecting an option label. Ensure you consider best practices when writing option labels.
+- **Option label (required)**: The user makes a choice by selecting an option. Ensure you consider best practices when writing option labels.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Multi-selector strip composition"] [class:"image bg-light border"] %}
+{% figure [caption:"Multi-select strip composition"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/inputs-and-controls/selector-strip/selectorstrip-multi-composition.png" width="464"/>
 {% endfigure %}
 
@@ -322,7 +326,7 @@ Use these specifications when you construct a multi-select strip.
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Multi-selector strip composition"] [class:"image bg-light border"] %}
+{% figure [caption:"Multi-select strip style"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/inputs-and-controls/selector-strip/selectorstrip-multi-style.png" width="449"/>
 {% endfigure %}
 
@@ -346,7 +350,7 @@ Use these spacing specifications when you construct a multi-select strip.
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Multi-selector strip composition"] [class:"image bg-light border"] %}
+{% figure [caption:"Multi-select strip spacing"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/inputs-and-controls/selector-strip/selectorstrip-multi-spacing.png" width="288"/>
 {% endfigure %}
 
@@ -378,17 +382,17 @@ A multi-select strip can be *enabled*, *disabled*, or in *error* state.
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Enabled (Pressed)
+### Enabled
 
-There are no hover states for selector strips. Unlike buttons, when a selection is made the selector strip remains in the same place. Having a hover state would immediately cover the selected area after a selection is made.
+A user can select or deselect a multi-select options in the enabled state.
 
-When the mouse button is pressed, the fill area changes to `cyan 700`. When the mouse button is released, the fill changes to `cyan 900` or white, depending on if the option is being selected or deselected (multi-select only).
+See [focus states]({{site.baseurl}}/style/focus-states.html) for guidance in constructing focused multi-select options in an enabled state.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Selector strip in pressed state"] [class:"image bg-light border"] %}
+{% figure [caption:"Multi-select strip enabled state"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/inputs-and-controls/selector-strip/selectorstrip-multi-states-enabled.png" width="426"/>
 {% endfigure %}
 
@@ -406,13 +410,13 @@ When the mouse button is pressed, the fill area changes to `cyan 700`. When the 
 
 ### Disabled
 
-xxxxx.
+A user can't select or deselect a multi-select option in the disabled state. In the disabled state, the option is locked and cannot be changed.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Selector strip in pressed state"] [class:"image bg-light border"] %}
+{% figure [caption:"Multi-select strip disabled state"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/inputs-and-controls/selector-strip/selectorstrip-multi-states-disabled.png" width="424"/>
 {% endfigure %}
 
@@ -430,13 +434,15 @@ xxxxx.
 
 ### Error
 
-When there is an error, the invalid selection has a red border. Text explaining the reason for the error appears below and left aligned to the element also in red.
+An error state can apply to a multi-select option when the user selects, deselects, and hovers over the option.
+
+See [focus states]({{site.baseurl}}/style/focus-states.html) for guidance in constructing a focused multi-select option in an error state.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Selector strip in error state"] [class:"image bg-light border"] %}
+{% figure [caption:"Multi-select strip error state"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/inputs-and-controls/selector-strip/selectorstrip-multi-states-error.png" width="451"/>
 {% endfigure %}
 
@@ -454,13 +460,13 @@ When there is an error, the invalid selection has a red border. Text explaining 
 
 ## Selector strips in a form
 
-xxxxx.
+When you add a selector strip to a form, include a description between item selection and the selector strip. Write the description to clarify the action the user is taking.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Selector strip in error state"] [class:"image bg-light border"] %}
+{% figure [caption:"Selector strips in a form"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/inputs-and-controls/selector-strip/selectorstrip-inaform.png" width="351"/>
 {% endfigure %}
 
