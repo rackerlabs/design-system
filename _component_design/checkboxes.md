@@ -9,7 +9,7 @@ preview-image: preview-images/checkboxes.svg
 resource: true
 status: stable
 need: selectors
-last-modified: 2018-07-23
+last-modified: 2018-07-25
 helix-ui-css: true
 helix-ui-javascript: true
 ---
@@ -27,7 +27,7 @@ helix-ui-javascript: true
 Use checkboxes in the following situations:
 
 - When the user needs to answer a question or wants to change a control panel setting. Do not use a checkbox to trigger another process or workflow.
-- When the user can select any number of choices, including zero, one, or several choices. If a user can only select one option, use a radio button or an input selector.
+- When the user can select any number of choices, including zero, one, or several choices. If a user can only select one option, use a radio or an input selector.
 - When the user can turn on or turn off a single option. For example, use a single checkbox when a user accepts the terms of an End User License Agreement (EULA).
 - When it is important for the user to compare all options simultaneously. If it is not important for the user to compare all options at the same time, consider using an input selector. An input selector uses less space than a checkbox group (but introduces greater cognitive load), and is more difficult to navigate for users who have difficulty making precise mouse movements.
 - When the user needs to select an object in a table row and then use a control to act on that item.
@@ -56,7 +56,7 @@ Consider using the following best practices when you construct a checkbox group 
 Consider the following best practices when you label a checkbox option:
 
 - Use positive and active wording for option labels. Avoid negations such as **Don't send me more email**. Negative option labels indicate that the user must select the checkbox in order for something *to not happen*.
-- Write an option label so that a user understands what happens when the checkbox is selected, and what will *not* happen if the checkbox is *not* selected. If you can't write a clear label, use two radio buttons instead: one radio button for turning the feature on and one radio button for turning the feature off. Ensure that you write clear labels for each of the two cases.
+- Write an option label so that a user understands what happens when the checkbox is selected, and what will *not* happen if the checkbox is *not* selected. If you can't write a clear label, use two radios instead: one radio for turning the feature on and one radio for turning the feature off. Ensure that you write clear labels for each of the two cases.
 
 {% include note.html content="Allow users to select an option by clicking on the checkbox or the option label. A larger target is easier to click." %}
 
