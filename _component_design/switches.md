@@ -4,7 +4,7 @@ parent: Inputs and Controls
 layout: component
 category: Components
 usage: >
-  A switch enables a user to make a binary decision that are characteristic of yes or no, and on or off decisions.
+  A switch enables the user to make a binary decision (such as yes or no, and on and off) when configuring a setting or preference.
 preview-image: preview-images/switches.svg
 resource: true
 need: selectors
@@ -26,8 +26,8 @@ helix-ui-javascript: false
 
 Use a switch in the following situations:
 
-- When you want to enable to user to make a binary decision, such as when turning a setting on or off. A switch does not contain a neutral option. Modifying preferences and settings is a prime use case for this component.
-- Use a switch when the user needs to modify settings or enable billing and notification preferences. If your use case is outside of these three areas, consider a radio or checkbox.
+- When you want to enable to user to make a binary decision, such as turning a setting on or off. A switch does not contain a neutral option. Modifying preferences and settings is a prime use case for this component.
+- Use a switch when the user needs to modify settings or enable billing and notification preferences. If your use case is outside of these three areas, consider a [radio]({{site.baseurl}}/components/radio-buttons.html) or [checkbox]({{site.baseurl}}/components/checkboxes.html).
 
 {% endcolumn %}
 
@@ -45,9 +45,10 @@ Use a switch in the following situations:
 
 Consider the following best practices when you construct a switch:
 
-- Save any changes to the state of the switch immediately. Use a check-box or radio if the user has to perform extra steps for changes to be effective (for example, if the user must click a "submit" or "next" button to apply changes). Use check-boxes when the user can select multiple items that are related to a single setting or feature.
-- The switch changes state when the user clicks it. Do not construct a switch that changes state when the user clicks and drags the button. You can include an animation that shows the user the switch behavior.
-- The text status is only one word no more than xx characters. Use words that clearly indicate the status of the option.
+- After a change, save the state of the switch immediately. Use a checkbox or radio if the user performs additional steps for changes to be effective. For example, use a radio or checkbox if the user must click a **Submit** or **Next** button to apply changes.
+- A switch changes state when the user clicks it. Do not construct a switch that changes state when the user *clicks and drags* the knob.
+- For clarity, consider including animation that shows the user the switch behavior.
+- The option label is only one word and no more than 10 characters. Use words that clearly indicate the status of the option.
 - When there is a long list of settings, consider adding switches to a table. This approach provides clarity and enhances the user experience.
 
 {% endcolumn %}
@@ -80,24 +81,18 @@ Use the following specifications when you construct a switch.
 
 ### Composition
 
-You can add an option status and description to a switch. The default switch does not contain status or descriptive text.
-
 A switch contains the following elements:
 
-- **Switch container**: The switch container hold the switch knob.
-- **Switch knob**: When the user clicks the switch knob it moves from side to side within the switch container.
-- **Option status**: The option status indicates the state of the setting or preference.
-- **Description**: The description is the setting or preferences option the user is modifying.
-
-
-If text is used, it should be aligned vertically and horizontally within the space beside the white circle; no closer than 4px to the knob and 8px from the opposite edge.
+- **Switch container**: The switch container holds the switch knob.
+- **Knob**: The knob moves from side to side within the container when the user clicks it.
+- **Option label (Optional)**: The option label indicates the state of the setting or preference. The default switch does not contain an option label.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Switch composition"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/switches/switch-default-layout.svg"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/switches/switch-composition.png" width="274"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -121,7 +116,7 @@ Use these specifications when you construct a switch.
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Switch style"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/switches/switch-default-layout.svg"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/switches/switch-style.png" width="425"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -143,12 +138,14 @@ Use these specifications when you construct a switch.
 - Error text should appear 12px below the last line of the prompt.
 - If the switch is disabled, ensure the prompt text is disabled also.
 
+If text is used, it should be aligned vertically and horizontally within the space beside the white circle; no closer than 4px to the knob and 8px from the opposite edge.
+
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Switch spacing"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/switches/switch-context.svg"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/switches/switch-spacing.png" width="206"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -194,7 +191,7 @@ Intro text here...
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Switch enabled state"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/switches/switch-states.svg"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/switches/switch-states-enabled.png" width="330"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -218,7 +215,7 @@ Intro text here...
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Switch disabled state"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/switches/switch-states.svg"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/switches/switch-states-disabled.png" width="322"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -242,7 +239,55 @@ Intro text here...
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Switch error state"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/switches/switch-states.svg"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/switches/switch-states-error.png" width="384"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+## Switch in a form
+
+Intro text here...
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"Switch error state"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/switches/switch-example-inaform.png" width="264"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+## Switch in a table
+
+Intro text here...
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"Switch error state"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/switches/switch-example-inatable.png" width="605"/>
 {% endfigure %}
 
 {% endcolumn %}
