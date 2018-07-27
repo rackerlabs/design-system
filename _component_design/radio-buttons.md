@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/radio-buttons.svg
 resource: true
 status: stable
-last-modified: 2018-07-23
+last-modified: 2018-07-26
 helix-ui-css: false
 helix-ui-javascript: false
 ---
@@ -168,7 +168,7 @@ A radio can exist in **enabled**, **disabled**, **error**, **group error**, and 
 
 A user can select a radio in the enabled state.
 
-See [Focus States]({{site.baseURL}}/style/focus-states.html) for guidance in constructing focused radios in an enabled state.
+See [Focus States]({{site.baseurl}}/style/focus-states.html) for guidance in constructing focused radios in an enabled state.
 
 {% endcolumn %}
 
@@ -218,7 +218,7 @@ A user can't select a radio in the disabled state. In the disabled state, the ra
 
 An error state can apply to radios when the user selects, deselects, and hovers over a radio.
 
-Refer to [Focus States]({{site.baseURL}}/style/focus-states.html) for guidance in constructing focused radios in an error state.
+Refer to [Focus States]({{site.baseurl}}/style/focus-states.html) for guidance in constructing focused radios in an error state.
 
 {% endcolumn %}
 
