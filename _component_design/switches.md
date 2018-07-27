@@ -135,10 +135,6 @@ Use these specifications when you construct a switch.
 
 - Use the switch 12px to the left of the prompt and centered horizontally.
 - When using more than one switch in a form, align the switches vertically to the right. Ensure they are at least 12px from the end of the prompt.
-- Error text should appear 12px below the last line of the prompt.
-- If the switch is disabled, ensure the prompt text is disabled also.
-
-If text is used, it should be aligned vertically and horizontally within the space beside the white circle; no closer than 4px to the knob and 8px from the opposite edge.
 
 {% endcolumn %}
 
@@ -164,12 +160,6 @@ If text is used, it should be aligned vertically and horizontally within the spa
 
 A switch can be in an *enabled*, *disabled*, and an *error* state.
 
-Enabled (default), hover, disabled, and error states. If you are not using any text, be sure to change the length to 56px.
-
-The switch component responds to both mouse and tap click interactions. Upon clicking or tapping an enabled switch, the component transitions to the opposite state. Disabled switches do not respond to these interactions.
-
-Best practice form design does not allow a switch to exist in an error state, so avoid it at all costs.
-
 {% endcolumn %}
 
 </div>
@@ -184,7 +174,10 @@ Best practice form design does not allow a switch to exist in an error state, so
 
 ### Enabled
 
-Intro text here...
+A user can click a switch in the enabled state.
+
+See [Focus States]({{site.baseurl}}/style/focus-states.html) for guidance in constructing focused switches in an enabled state.
+
 
 {% endcolumn %}
 
@@ -208,8 +201,7 @@ Intro text here...
 
 ### Disabled
 
-Intro text here...
-
+A user can't select a switch in the disabled state. In the disabled state, the switch is locked and cannot be changed.
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
@@ -232,7 +224,10 @@ Intro text here...
 
 ### Error
 
-Intro text here...
+An error state can apply to switches when the user clicks a switch.
+
+Refer to [Focus States]({{site.baseurl}}/style/focus-states.html) for guidance in constructing focused switches in an error state.
+
 
 {% endcolumn %}
 
