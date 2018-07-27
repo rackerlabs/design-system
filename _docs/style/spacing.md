@@ -55,9 +55,9 @@ Pages, cards, modals, panes, etc. are containers that frame content within a UI.
 
 ### Container Spacing Variants
 
-Some cases may require different spacing to accommodate very small or large containers (see [choice-tiles]({{site.url}}/components/choice-tiles.html)). Therefore we have included Small, Medium, and Large container spacing sizes to facilitate your content.  
+Some cases may require different spacing to accommodate very small or large containers (see [choice-tiles]({{site.url}}/components/choice-tiles.html)). Therefore we have included Small, Medium, and Large container spacing sizes to facilitate your content.
 
-- **Extra-small (XS) = 12px**
+- **Extra-small (XS) = 8px**
 - **Small (SM) = 12px**
 - **Medium (MD) = 20px**
 - **Large (LG) = 32px**
