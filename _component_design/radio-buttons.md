@@ -47,10 +47,9 @@ Consider the following best practices when you construct radios:
 - By default, the radio at the top of the list is selected. The user can then make a different selection, if required.
 - When the user clicks a radio, the previously selected radio is deselected.
 - Keep the number of options to two and five choices. If you’re providing more than five options, consider using a drop-down.
-- List radio options vertically, with one choice per line. If space is not available, consider using a drop-down.
+- List radio options vertically, with one choice per line.  If space is not available, consider using a [drop-down selector]({{site.baseurl}}/components/dropdowns.html) or [single select strip]({{site.baseurl}}/components/selector-strip.html).
 - List radio options in logical order. Depending on the context, the order could be alphabetical or from most common to least common. For example, if listing accounts by name, list them alphabetically. In billing, place the payment amount due option above the option to enter a custom payment amount.
 - Consider using a [switch]({{site.baseurl}}/components/switches.html) component if a singular input can be used to enable or disable a feature (in place of two yes/no radios).
-- Consider using a [single select strip]({{site.baseurl}}/components/selector-strip.html) when you want text input fields on a form to dynamically change based on the user's selection.
 
 Consider the following best practices when you label a radio option:
 
