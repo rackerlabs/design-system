@@ -9,7 +9,7 @@ preview-image: preview-images/switches.svg
 resource: true
 need: selectors
 status: stable
-last-modified: 2018-07-16
+last-modified: 2018-07-27
 helix-ui-css: false
 helix-ui-javascript: false
 ---
@@ -27,7 +27,7 @@ helix-ui-javascript: false
 Use a switch in the following situations:
 
 - When you want to enable to user to make a binary decision, such as when turning a setting on or off. A switch does not contain a neutral option. Modifying preferences and settings is a prime use case for this component.
-- Use a switch when the user needs to modify settings or enable billing and notification preferences. If your use case is outside of these three areas, consider a radio button or checkbox.
+- Use a switch when the user needs to modify settings or enable billing and notification preferences. If your use case is outside of these three areas, consider a radio or checkbox.
 
 {% endcolumn %}
 
@@ -45,7 +45,7 @@ Use a switch in the following situations:
 
 Consider the following best practices when you construct a switch:
 
-- Save any changes to the state of the switch immediately. Use a check-box or radio button if the user has to perform extra steps for changes to be effective (for example, if the user must click a "submit" or "next" button to apply changes). Use check-boxes when the user can select multiple items that are related to a single setting or feature.
+- Save any changes to the state of the switch immediately. Use a check-box or radio if the user has to perform extra steps for changes to be effective (for example, if the user must click a "submit" or "next" button to apply changes). Use check-boxes when the user can select multiple items that are related to a single setting or feature.
 - The switch changes state when the user clicks it. Do not construct a switch that changes state when the user clicks and drags the button. You can include an animation that shows the user the switch behavior.
 - The text status is only one word no more than xx characters. Use words that clearly indicate the status of the option.
 - When there is a long list of settings, consider adding switches to a table. This approach provides clarity and enhances the user experience.
@@ -96,7 +96,7 @@ If text is used, it should be aligned vertically and horizontally within the spa
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Switch sizing specs"] [class:"image bg-light border"] %}
+{% figure [caption:"Switch composition"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/inputs-and-controls/switches/switch-default-layout.svg"/>
 {% endfigure %}
 
@@ -120,7 +120,7 @@ Use these specifications when you construct a switch.
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Switch sizing specs"] [class:"image bg-light border"] %}
+{% figure [caption:"Switch style"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/inputs-and-controls/switches/switch-default-layout.svg"/>
 {% endfigure %}
 
@@ -147,7 +147,7 @@ Use these specifications when you construct a switch.
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Contextual placement of switches"] [class:"image bg-light border"] %}
+{% figure [caption:"Switch spacing"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/inputs-and-controls/switches/switch-context.svg"/>
 {% endfigure %}
 
@@ -193,7 +193,7 @@ Intro text here...
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Detailed specifications for on and off states of a switch"] [class:"image bg-light border"] %}
+{% figure [caption:"Switch enabled state"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/inputs-and-controls/switches/switch-states.svg"/>
 {% endfigure %}
 
@@ -217,7 +217,7 @@ Intro text here...
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Detailed specifications for on and off states of a switch"] [class:"image bg-light border"] %}
+{% figure [caption:"Switch disabled state"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/inputs-and-controls/switches/switch-states.svg"/>
 {% endfigure %}
 
@@ -241,7 +241,7 @@ Intro text here...
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Detailed specifications for on and off states of a switch"] [class:"image bg-light border"] %}
+{% figure [caption:"Switch error state"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/inputs-and-controls/switches/switch-states.svg"/>
 {% endfigure %}
 
