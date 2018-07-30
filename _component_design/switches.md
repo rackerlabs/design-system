@@ -9,7 +9,7 @@ preview-image: preview-images/switches.svg
 resource: true
 need: selectors
 status: stable
-last-modified: 2018-07-27
+last-modified: 2018-07-30
 helix-ui-css: false
 helix-ui-javascript: false
 ---
@@ -45,7 +45,7 @@ Use a switch in the following situations:
 
 Consider the following best practices when you construct a switch:
 
-- After a change, save the state of the switch immediately. Use a checkbox or radio if the user performs additional steps for changes to be effective. For example, use a radio or checkbox if the user must click a **Submit** or **Next** button to apply changes.
+- Construct the switch so that any change to its state is immediately saved. Use a checkbox or radio if the user performs additional steps for changes to be effective. For example, use a radio or checkbox if the user must click a **Submit** or **Next** button to apply changes.
 - A switch changes state when the user clicks it. Do not construct a switch that changes state when the user *clicks and drags* the knob.
 - For clarity, consider including animation that shows the user the switch behavior.
 - The option label is only one word and no more than 10 characters. Use words that clearly indicate the status of the option.
@@ -84,7 +84,7 @@ Use the following specifications when you construct a switch.
 A switch contains the following elements:
 
 - **Switch container**: The switch container holds the switch knob.
-- **Knob**: The knob moves from side to side within the container when the user clicks it.
+- **Knob**: TWhen the user clicks the knob, it moves to the other side of the container.
 - **Option label (Optional)**: The option label indicates the state of the setting or preference. The default switch does not contain an option label.
 
 {% endcolumn %}
@@ -200,6 +200,7 @@ See [Focus States]({{site.baseurl}}/style/focus-states.html) for guidance in con
 ### Disabled
 
 A user can't select a switch in the disabled state. In the disabled state, the switch is locked and cannot be changed.
+
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
@@ -226,7 +227,6 @@ An error state can apply to switches when the user clicks a switch.
 
 Refer to [Focus States]({{site.baseurl}}/style/focus-states.html) for guidance in constructing focused switches in an error state.
 
-
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
@@ -249,7 +249,7 @@ Refer to [Focus States]({{site.baseurl}}/style/focus-states.html) for guidance i
 
 ## Switch in a form
 
-Intro text here...
+When you add a switch to a form, you can add a description between the option and the switch. Use the description to clarify the settings or preference that the user is modifying.
 
 {% endcolumn %}
 
@@ -273,10 +273,9 @@ Intro text here...
 
 ## Switch in a table
 
-When there is a long list of settings, consider adding switches to a table. This approach provides clarity and enhances the user experience.
+When there is a long list of settings, consider adding switches to a table. This approach provides clarity to the user and enhances the user experience.
 
 In a table, right-justify the switch.
-
 
 {% endcolumn %}
 
