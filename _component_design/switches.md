@@ -133,8 +133,7 @@ Use these specifications when you construct a switch.
 
 ### Spacing
 
-- Use the switch 12px to the left of the prompt and centered horizontally.
-- When using more than one switch in a form, align the switches vertically to the right. Ensure they are at least 12px from the end of the prompt.
+Refer to these spacing guidelines when you construct a switch.
 
 {% endcolumn %}
 
@@ -177,7 +176,6 @@ A switch can be in an *enabled*, *disabled*, and an *error* state.
 A user can click a switch in the enabled state.
 
 See [Focus States]({{site.baseurl}}/style/focus-states.html) for guidance in constructing focused switches in an enabled state.
-
 
 {% endcolumn %}
 
@@ -275,7 +273,10 @@ Intro text here...
 
 ## Switch in a table
 
-Intro text here...
+When there is a long list of settings, consider adding switches to a table. This approach provides clarity and enhances the user experience.
+
+In a table, right-justify the switch.
+
 
 {% endcolumn %}
 
