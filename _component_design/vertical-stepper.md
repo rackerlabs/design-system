@@ -1,5 +1,5 @@
 ---
-title: Vertical stepper
+title: Vertical Stepper
 parent: Content Areas
 layout: component
 category: Components
@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/vertical-stepper.svg
 resource: true
 status: stable
-last-modified: 2018-06-18
+last-modified: 2018-08-02
 helix-ui-css: true
 helix-ui-javascript: true
 ---
@@ -123,7 +123,7 @@ The buttons displayed in the button set vary based on the step that the user is 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Vertical stepper button logic"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/vert-stepper/vstepper-composition-buttonlogic.png" width="416"/>
+<embed src="{{site.url}}/assets/images/components/content-areas/vert-stepper/vstepper-composition-buttonlogic.png" width="279"/>
 
 {% endfigure %}
 
@@ -180,7 +180,7 @@ The step counters exist in the following states:
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Counter states and specifications"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/vert-stepper/vstepper-style-counter.png" width="546"/>
+<embed src="{{site.url}}/assets/images/components/content-areas/vert-stepper/vstepper-style-counter.png" width="269"/>
 
 {% endfigure %}
 
