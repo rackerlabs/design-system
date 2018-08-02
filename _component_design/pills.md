@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/pills.svg
 resource: true
 status: Stable
-last-modified: 2018-05-23
+last-modified: 2018-08-02
 helix-ui-css: true
 helix-ui-javascript: true
 
@@ -145,7 +145,7 @@ If you group pills together, provide 8px of space below and next to a pill. If y
 
 ## States
 
-Pills can exist in active, hover, or too long states.
+Pills can exist in active, hover, too long, or too many states.
 
 {% endcolumn %}
 
@@ -191,7 +191,7 @@ The hover state indicates that the user can remove the selection.
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Hover state"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/pills/pills-states-hover.png" width="445px"/>
+<embed src="{{site.url}}/assets/images/components/content-areas/pills/pills-states-hover.png" width="464px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -217,6 +217,31 @@ Ensure that you follow the truncation guidelines in the Ellipses section of the 
 
 {% figure [caption:"Too long state"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/content-areas/pills/pills-too_long.png" width="337px"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+### Too many
+When you have 10 or more pills, use the too many pill to indicate to the user that there are additional pills.
+
+Style the too many pill with an ellipsis that provides 4px of space between dots.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"Too many state"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/content-areas/pills/pills-states-toomany.png" width="356px"/>
 {% endfigure %}
 
 {% endcolumn %}
