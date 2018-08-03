@@ -10,8 +10,9 @@ preview-image: preview-images/selector-strip.svg
 status: stable
 resource: true
 last-modified: 2018-08-30
-helix-ui-css: false
-helix-ui-javascript: false
+helix-ui-css: true
+helix-ui-javascript: true
+pagelink: https://rackerlabs.github.io/helix-ui/components/selector-strips/
 ---
 
 {% include toc.html %}

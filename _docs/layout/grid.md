@@ -7,8 +7,9 @@ resource: true
 status: stable
 code-element: true
 helix-ui-css: true
-helix-ui-javascript: false
+helix-ui-javascript: na
 helix-ui-name: grid
+pagelink: https://rackerlabs.github.io/helix-ui/components/grid/
 ---
 
 {% include toc.html %}

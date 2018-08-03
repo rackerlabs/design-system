@@ -10,7 +10,8 @@ status: stable
 resource: true
 last-modified: 2018-08-27
 helix-ui-css: true
-helix-ui-javascript: false
+helix-ui-javascript: na
+pagelink: https://rackerlabs.github.io/helix-ui/components/buttons/#basic-button
 ---
 
 {% include toc.html %}

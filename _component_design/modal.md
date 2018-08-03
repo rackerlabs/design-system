@@ -9,8 +9,9 @@ resource: true
 status: stable
 preview-image: preview-images/modal.svg
 last-modified: 2018-05-15
-helix-ui-css: false
-helix-ui-javascript: false
+helix-ui-css: true
+helix-ui-javascript: true
+pagelink: https://rackerlabs.github.io/helix-ui/components/modals/
 ---
 
 {% include toc.html %}
