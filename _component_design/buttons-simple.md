@@ -371,7 +371,7 @@ Consider the following best practices when you construct a button set:
 - Align buttons in a button set in order of primary, secondary, and tertiary buttons.
 - Do not add more than one primary button to a button set.
 - Do not use split buttons in a button set. Split buttons can complicate what should be a simple decision for the user.
-- The cancel action must always be an `hxBtn.hxLink`.
+- The cancel action must always be an `.hxBtn .hxTertiary`.
 - When the user submits a form, disable all buttons and change the primary button to loading state.
 
 {% endcolumn %}
