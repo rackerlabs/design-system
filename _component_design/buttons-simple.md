@@ -1,5 +1,5 @@
 ---
-title: Simple buttons
+title: Buttons (Simple)
 parent: Inputs and Controls
 layout: component
 category: Components
@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/buttons.svg
 status: stable
 resource: true
-last-modified: 2018-06-19
+last-modified: 2018-08-03
 helix-ui-css: true
 helix-ui-javascript: false
 ---
@@ -48,6 +48,26 @@ Consider the following best practices when you construct a button:
 - Write button labels in as few words as possible while still communicating the action that the button triggers.
 - Consider the context when you size a button. For most desktop use cases, use a **standard button** size. To accommodate the ideal touch target size in mobile devices, use a **large button**. Use a **compact button** when you have severe space constraints, such as a button in a table or in a dashboard widget.
 - The primary button should always represent a next step, such as **Create Server**, **Add Selected**, **Confirm Deletion**, **Submit**, or **Next**.
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+## Simple button types
+
+Simple buttons types include *primary*, *secondary*, and *tertiary* buttons.
+
+{% figure [caption:"Simple button composition"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/simple-buttons/buttons-simple-hero.png" width="569"/>
+{% endfigure %}
 
 {% endcolumn %}
 
@@ -144,7 +164,7 @@ Use these specifications when you construct a simple button.
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Simple button style"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/simple-buttons/buttons-simple-style.png" width="412"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/simple-buttons/buttons-simple-style.png" width="247"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -170,7 +190,7 @@ Use these spacing guidelines when you construct a simple button.
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Simple button spacing"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/simple-buttons/buttons-simple-spacing.png" width="377"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/simple-buttons/buttons-simple-spacing.png" width="207"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -321,7 +341,7 @@ When in focus, a button takes on the focus properties as outlined in [focus stat
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Simple button focus state"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/simple-buttons/buttons-simple-states-focus.png" width="105"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/simple-buttons/buttons-simple-states-focus.png" width="168"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -354,7 +374,7 @@ Consider the following best practices when you construct a button set:
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Button sets"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/simple-buttons/buttons-simple-variations-buttonsets.png" width="316"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/simple-buttons/buttons-simple-variations-buttonsets.png" width="317"/>
 {% endfigure %}
 
 {% endcolumn %}
