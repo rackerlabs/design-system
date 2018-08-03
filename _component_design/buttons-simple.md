@@ -65,7 +65,7 @@ Consider the following best practices when you construct a button:
 
 Simple buttons types include *primary*, *secondary*, and *tertiary* buttons.
 
-{% figure [caption:"Simple button composition"] [class:"image bg-light border"] %}
+{% figure [caption:"Simple button types"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/inputs-and-controls/simple-buttons/buttons-simple-hero.png" width="569"/>
 {% endfigure %}
 
