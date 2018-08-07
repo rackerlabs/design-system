@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/buttons.svg
 status: stable
 resource: true
-last-modified: 2018-08-03
+last-modified: 2018-08-07
 helix-ui-css: true
 helix-ui-javascript: false
 ---
@@ -81,9 +81,29 @@ Simple buttons types include *primary*, *secondary*, and *tertiary* buttons.
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-## Button labels
+## Specifications
 
-Use consistent labels across an action for a UI. Refer to the following table when you write button labels:
+Use the following specifications when you construct a simple button.
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+### Button labels
+
+Use consistent labels across an action for a UI. Refer to this table when you write button labels.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Button action labels"] [class:"image bg-light border"] %}
 | Action label | Typical usage  |
@@ -99,22 +119,6 @@ Use consistent labels across an action for a UI. Refer to the following table wh
 | Update | Automatically changes the data of an existing object. |
 {: class="hxTable"}
 {% endfigure %}
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow" markdown="1">
-
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-## Specifications
-
-Use the following specifications when you construct a simple button.
 
 {% endcolumn %}
 
