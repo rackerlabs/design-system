@@ -285,3 +285,27 @@ xxx.
 </div>
 
 </section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+## Iconography
+
+xxx.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"Group error state"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkboxes-states-error-required.png" width="328"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
