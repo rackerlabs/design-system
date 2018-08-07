@@ -241,6 +241,97 @@ In addition to the spacing specifications documented in [simple buttons]({{site.
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
+## Cog button specifications
+
+Use the following specifications when you construct a split drop-down button.
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+### Composition
+
+A cog button contains the following elements:
+
+- **Basic drop-down button (required)**: See [basic drop-down button specifications](#basic-drop-down-button-specifications) for more information about constructing a basic drop-down button.
+- **Divider (required)**: A divider separates the button label and the angle down icon.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"Split drop-down button composition"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/drop-down-buttons/buttons-dropdown-split-composition.png" width="337"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+### Style
+
+The divider adopts the color of the text.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"Split drop-down button style"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/drop-down-buttons/buttons-dropdown-split-style.png" width="401"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+### Spacing
+
+In addition to the spacing specifications documented in [simple buttons]({{site.baseURL}}/components/buttons.html), use these spacing guidelines when you construct a cog button.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"Split drop-down button spacing"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/drop-down-buttons/buttons-dropdown-split-spacing.png" width="287"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
 ## States
 
 Basic drop-down buttons and split drop-down buttons feature the same state changes as simple buttons. Refer to [simple buttons]({{site.baseURL}}/components/buttons.html) for specifications.
