@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/pills.svg
 resource: true
 status: Stable
-last-modified: 2018-08-02
+last-modified: 2018-08-08
 helix-ui-css: true
 helix-ui-javascript: true
 
@@ -145,7 +145,7 @@ If you group pills together, provide 8px of space below and next to a pill. If y
 
 ## States
 
-Pills can exist in active, hover, too long, or too many states.
+Pills can exist in *active*, *hover*, *too long*, or *too many* states.
 
 {% endcolumn %}
 
@@ -168,7 +168,7 @@ The active state is the default state and indicates that a user has made a selec
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Active state"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/pills/pills-states-active.png" width="448px"/>
+<embed src="{{site.url}}/assets/images/components/content-areas/pills/pills-states-active.png" width="464px"/>
 {% endfigure %}
 
 {% endcolumn %}
