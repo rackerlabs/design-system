@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/buttons.svg
 status: stable
 resource: true
-last-modified: 2018-08-07
+last-modified: 2018-08-08
 helix-ui-css: true
 helix-ui-javascript: false
 ---
