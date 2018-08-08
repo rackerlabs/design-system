@@ -47,7 +47,7 @@ Consider the following best practices when you construct a switch:
 - Construct the switch so that any change to its state is immediately saved. Use a checkbox or radio if the user performs additional steps for changes to be effective. For example, use a radio or checkbox if the user must click a **Submit** or **Next** button to apply changes.
 - A switch changes state when the user clicks it. Do not construct a switch that changes state when the user *clicks and drags* the knob.
 - For clarity, consider including animation that shows the knob changing position.
-- The option label is only one word and no more than 10 characters. Use words that clearly indicate the status of the option.
+- The option label can only be on/off or yes/no. For any other options, use a selector title or input description that clearly indicates the impact of both binary states on the system. Ensure the impact of both binary states on the system is clear.
 - When there is a long list of settings, consider adding switches to a table. This approach provides clarity and enhances the user experience.
 
 {% endcolumn %}
@@ -82,9 +82,9 @@ Use the following specifications when you construct a switch.
 
 A switch contains the following elements:
 
-- **Switch container**: The switch container holds the switch knob.
-- **Knob**: TWhen the user clicks the knob, it moves to the other side of the container.
-- **Option label (Optional)**: The option label indicates the state of the setting or preference. The default switch does not contain an option label.
+- **Switch container (required)**: The switch container holds the switch knob.
+- **Knob (required)**: When the user clicks the knob, it moves to the other side of the container.
+- **Option label (optional)**: The option label indicates the state of the setting or preference. The default switch does not contain an option label.
 
 {% endcolumn %}
 
@@ -198,7 +198,7 @@ See [Focus States]({{site.baseurl}}/style/focus-states.html) for guidance in con
 
 ### Disabled
 
-A user can't select a switch in the disabled state. In the disabled state, the switch is locked and cannot be changed.
+In the disabled state, the switch is locked and cannot be changed.
 
 {% endcolumn %}
 
