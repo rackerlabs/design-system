@@ -9,7 +9,7 @@ preview-image: preview-images/switches.svg
 resource: true
 need: selectors
 status: stable
-last-modified: 2018-07-30
+last-modified: 2018-08-08
 helix-ui-css: false
 helix-ui-javascript: false
 ---
@@ -24,10 +24,9 @@ helix-ui-javascript: false
 
 ## When to use
 
-Use a switch in the following situations:
+Use a switch when a user needs to make a binary decision, such as turning a setting on or off or setting a preference enabling or disabling a device or system.
 
-- When you want to enable to user to make a binary decision, such as turning a setting on or off. A switch does not contain a neutral option. Modifying preferences and settings is a prime use case for this component.
-- Use a switch when the user needs to modify settings or enable billing and notification preferences. If your use case is outside of these three areas, consider a [radio]({{site.baseurl}}/components/radio-buttons.html) or [checkbox]({{site.baseurl}}/components/checkboxes.html).
+If your use case is outside of these areas, consider a [radio]({{site.baseurl}}/components/radio-buttons.html),  [checkbox]({{site.baseurl}}/components/checkboxes.html), or [select strip]({{site.baseurl}}/components/selector-strip.html).
 
 {% endcolumn %}
 
@@ -47,7 +46,7 @@ Consider the following best practices when you construct a switch:
 
 - Construct the switch so that any change to its state is immediately saved. Use a checkbox or radio if the user performs additional steps for changes to be effective. For example, use a radio or checkbox if the user must click a **Submit** or **Next** button to apply changes.
 - A switch changes state when the user clicks it. Do not construct a switch that changes state when the user *clicks and drags* the knob.
-- For clarity, consider including animation that shows the user the switch behavior.
+- For clarity, consider including animation that shows the knob changing position.
 - The option label is only one word and no more than 10 characters. Use words that clearly indicate the status of the option.
 - When there is a long list of settings, consider adding switches to a table. This approach provides clarity and enhances the user experience.
 
