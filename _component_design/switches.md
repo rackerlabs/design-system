@@ -4,7 +4,7 @@ parent: Inputs and Controls
 layout: component
 category: Components
 usage: >
-  A switch enables the user to make a binary decision (such as yes or no, and on and off) when configuring a setting or preference.
+  A switch enables the user to make a binary decision (such as yes or no, and on or off) when configuring a setting or preference.
 preview-image: preview-images/switches.svg
 resource: true
 need: selectors
@@ -26,7 +26,7 @@ helix-ui-javascript: false
 
 Use a switch when a user needs to make a binary decision, such as turning a setting on or off or setting a preference enabling or disabling a device or system.
 
-If your use case is outside of these areas, consider a [radio]({{site.baseurl}}/components/radio-buttons.html),  [checkbox]({{site.baseurl}}/components/checkboxes.html), or [select strip]({{site.baseurl}}/components/selector-strip.html).
+If your use case is outside of these areas, consider a [radio]({{site.baseurl}}/components/radio-buttons.html),  [checkbox]({{site.baseurl}}/components/checkboxes.html), or [selector strip]({{site.baseurl}}/components/selector-strip.html).
 
 {% endcolumn %}
 
@@ -47,7 +47,7 @@ Consider the following best practices when you construct a switch:
 - Construct the switch so that any change to its state is immediately saved. Use a checkbox or radio if the user performs additional steps for changes to be effective. For example, use a radio or checkbox if the user must click a **Submit** or **Next** button to apply changes.
 - A switch changes state when the user clicks it. Do not construct a switch that changes state when the user *clicks and drags* the knob.
 - For clarity, consider including animation that shows the knob changing position.
-- The option label can only be on/off or yes/no. For any other options, use a selector title or input description that clearly indicates the impact of both binary states on the system. Ensure the impact of both binary states on the system is clear.
+- The option label can only be **on/off** or **yes/no**. For any other options, use a selector title or input description that clearly indicates the impact of both binary states on the system. Ensure that the impact of both binary states on the system is clear.
 - When there is a long list of settings, consider adding switches to a table. This approach provides clarity and enhances the user experience.
 
 {% endcolumn %}
@@ -156,7 +156,7 @@ Refer to these spacing guidelines when you construct a switch.
 
 ## States
 
-A switch can be in an *enabled*, *disabled*, and an *error* state.
+A switch can be in an *enabled*, *disabled*, or an *error* state.
 
 {% endcolumn %}
 
@@ -174,7 +174,7 @@ A switch can be in an *enabled*, *disabled*, and an *error* state.
 
 A user can click a switch in the enabled state.
 
-See [Focus States]({{site.baseurl}}/style/focus-states.html) for guidance in constructing focused switches in an enabled state.
+See [Focus States]({{site.baseurl}}/style/focus-states.html) for guidance about constructing focused switches in an enabled state.
 
 {% endcolumn %}
 
@@ -224,7 +224,7 @@ In the disabled state, the switch is locked and cannot be changed.
 
 An error state can apply to switches when the user clicks a switch.
 
-Refer to [Focus States]({{site.baseurl}}/style/focus-states.html) for guidance in constructing focused switches in an error state.
+Refer to [Focus States]({{site.baseurl}}/style/focus-states.html) for guidance about constructing focused switches in an error state.
 
 {% endcolumn %}
 
