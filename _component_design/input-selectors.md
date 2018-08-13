@@ -4,12 +4,12 @@ parent: Inputs and Controls
 layout: component
 category: Components
 usage: >
-  An input selector enables the user to select one value from a list. When the input selector is inactive, it displays a single value. When the input selector is activated by the user, it displays a list of values from which the user can select.
+  An input selector enables the user to select one value from a list. When the input selector is inactive, it displays a single value. When the input selector is activated by the user, it displays a list of values from which the user can choose.
 preview-image: preview-images/drop-downs.svg
 resource: true
 status: stable
 need: selectors
-last-modified: 2018-08-07
+last-modified: 2018-08-13
 helix-ui-css: false
 helix-ui-javascript: false
 ---
@@ -28,7 +28,7 @@ Use an input selector in the following situations:
 
 - When you want to enable users to select one option from a list of options.
 - When you want to conserve screen space.
-- When you want to prevent users from entering erroneous data, as an input selector shows only valid choices.
+- When you want to prevent users from entering erroneous data. An input selector shows only valid choices.
 
 {% endcolumn %}
 
@@ -46,10 +46,10 @@ Use an input selector in the following situations:
 
 Consider the following best practices when you construct an input selector:
 
-- Limit the number of input selector options to 15 choices. Long lists of options can be difficult for the user to scan.
+- Limit the number of input selector options to 15 choices. Long lists of options are difficult for the user to scan.
 - Consider using a [text field]({{site.baseurl}}/components/text-fields.html) with auto-complete for long lists of choices.
 - Consider using [radios]({{site.baseurl}}/components/radio-buttons.html) when you provide the user with seven or fewer options. This enables the user to immediately scan the options without clicking to reveal this information.
-- To remind the user of the data set they are working with, ensure the selected option is viewable through all input selector states.
+- To remind the user of the data set they are working with, ensure that the selected option is viewable through all input selector states.
 - Add a meaningful label to the input selector that clearly communicates what the user is selecting. For example, use *Select a Region* and don't use *Select an Option*.
 - Apply the disabled state to any input selector option that is not available to the user.
 
@@ -86,8 +86,8 @@ Use the following specifications when you construct an input selector.
 An input selector consists of the following elements:
 
 - **Container (required)**: The container holds the trigger and input selector options.
-- **Trigger (required)**: The list of input selector options appears when the user clicks the trigger.
-- **Selected option (required)**: The user clicks an option to select it.
+- **Trigger (required)**: When the user clicks the trigger, the list of input selector options appears.
+- **Selected option (required)**: To select an option, the user clicks on it.
 
 {% endcolumn %}
 
@@ -135,7 +135,7 @@ Use these specifications when you construct an input selector.
 
 ### Spacing
 
-The width of an input selector can vary, although it should be a multiple of four.
+Although the width of an input selector should be a multiple of four, the width can vary.
 
 The height of an input selector is a static 32px with 8px above and below the vertically centered text.
 
