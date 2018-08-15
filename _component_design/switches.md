@@ -9,7 +9,7 @@ preview-image: preview-images/switches.svg
 resource: true
 need: selectors
 status: stable
-last-modified: 2018-08-08
+last-modified: 2018-08-15
 helix-ui-css: false
 helix-ui-javascript: false
 ---
@@ -47,8 +47,8 @@ Consider the following best practices when you construct a switch:
 - Construct the switch so that any change to its state is immediately saved. Use a checkbox or radio if the user performs additional steps for changes to be effective. For example, use a radio or checkbox if the user must click a **Submit** or **Next** button to apply changes.
 - A switch changes state when the user clicks it. Do not construct a switch that changes state when the user *clicks and drags* the knob.
 - For clarity, consider including animation that shows the knob changing position.
-- The option label can only be **on/off** or **yes/no**. For any other options, use a selector title or input description that clearly indicates the impact of both binary states on the system. Ensure that the impact of both binary states on the system is clear.
-- When there is a long list of settings, consider adding switches to a table. This approach provides clarity and enhances the user experience.
+- The option label can only be **on/off** or **yes/no**. For any other options, use a selector title or input description that clearly indicates the impact of both binary states on the system.
+- When there is a long list of settings that can be turned **on/off**, consider putting them in a table with a switch control right-aligned in each row. This improves scanability and reduces cognitive load.
 
 {% endcolumn %}
 
