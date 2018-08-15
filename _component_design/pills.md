@@ -8,10 +8,9 @@ usage: >
 preview-image: preview-images/pills.svg
 resource: true
 status: Stable
-last-modified: 2018-05-23
+last-modified: 2018-08-08
 helix-ui-css: true
 helix-ui-javascript: true
-
 ---
 
 {% include toc.html %}
@@ -145,7 +144,7 @@ If you group pills together, provide 8px of space below and next to a pill. If y
 
 ## States
 
-Pills can exist in active, hover, or too long states.
+Pills can exist in *active*, *hover*, *too long*, or *too many* states.
 
 {% endcolumn %}
 
@@ -168,7 +167,7 @@ The active state is the default state and indicates that a user has made a selec
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Active state"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/pills/pills-states-active.png" width="448px"/>
+<embed src="{{site.url}}/assets/images/components/content-areas/pills/pills-states-active.png" width="464px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -191,7 +190,7 @@ The hover state indicates that the user can remove the selection.
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Hover state"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/pills/pills-states-hover.png" width="445px"/>
+<embed src="{{site.url}}/assets/images/components/content-areas/pills/pills-states-hover.png" width="464px"/>
 {% endfigure %}
 
 {% endcolumn %}
