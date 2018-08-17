@@ -4,12 +4,12 @@ parent: Content Areas
 layout: component
 category: Components
 usage: >
-  A file tile is a XXXXX.
+  A file tile displays the name, type, and size of an uploaded file. An uploaded file can be downloaded by a user.
 preview-image: preview-images/checkboxes.svg
 resource: true
 status: stable
 need: selectors
-last-modified: 2018-08-06
+last-modified: 2018-08-17
 helix-ui-css: true
 helix-ui-javascript: true
 ---
@@ -24,11 +24,12 @@ helix-ui-javascript: true
 
 ## When to use
 
-Use a file tile in the following situations:
+A file tile is part of a file handling workflow and one approach you can use to indicate that a file has been uploaded to a control panel page. Use a file tile when you want to make the file more visually prominent. A file tile is also easier for a user to interact with.
 
-- xxxxx.
-- xxxxx.
-- xxxxx.
+*Use a file tile when you want to in the following situations:
+
+- When you want to provide a file upload process where the user either drags and drop a file to be uploaded, or browses to a file to be uploaded.
+- When you want to enable a user to see a list of files without the ability to upload new files. When there is a file available for download.*
 
 {% endcolumn %}
 
@@ -44,12 +45,12 @@ Use a file tile in the following situations:
 
 ## Best practices
 
-Consider using the following best practices when you construct a file tile:
+Consider the following best practices when you construct a file tile:
 
-- xxxx.
-- xxxx.
-- xxxx.
-- xxxx.
+- Include an icon in the file tile to represent the file format. Only use icons available in the [Helix Toolkit](https://rackerlabs.github.io/helix-ui/components/icons/#available-icons).
+- Do not use branded icons.
+- Consider where you place file tiles in a view. Avoid making the user scroll down a long list of file tiles to see important information.
+- Only allow the user who uploaded a file to remove it from a page.
 
 {% endcolumn %}
 
@@ -81,10 +82,19 @@ Refer to the following specifications when you construct a file tile.
 
 ### Composition
 
+This component stands in for a file. It represent a file and contains information about the file.
+
+*You can remove it or you can click it to download it.
+- If just viewing files and can't download or upload, is there a Remove X?.
+- xxxx.*
+
 A file tile contains the following elements:
 
-- **xxxx (required)**: xxx.
-- **xxxx (required)**: xxx.
+- **Container (required)**: The container holds the file icon, file name, file size, and remove X. *stuff here about clicking anywhere in the container initiates download?*
+- **File icon (required)**: The file icon represents the file format.
+- **File name (required)**: The file name displays the name of the file.
+- **File size (required)**: The file size displays the size of the file.
+- **Remove X (required)**: When the user clicks **X**, the file is removed from the page.
 
 {% endcolumn %}
 
