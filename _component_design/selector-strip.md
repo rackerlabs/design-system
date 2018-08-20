@@ -9,7 +9,7 @@ usage: >
 preview-image: preview-images/selector-strip.svg
 status: stable
 resource: true
-last-modified: 2018-07-23
+last-modified: 2018-08-17
 helix-ui-css: false
 helix-ui-javascript: false
 ---
