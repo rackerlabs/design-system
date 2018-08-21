@@ -8,8 +8,7 @@ usage: >
 preview-image: preview-images/drop-downs.svg
 resource: true
 status: stable
-need: selectors
-last-modified: 2018-08-13
+last-modified: 2018-08-21
 helix-ui-css: false
 helix-ui-javascript: false
 ---
