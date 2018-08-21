@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/vertical-stepper.svg
 resource: true
 status: stable
-last-modified: 2018-08-03
+last-modified: 2018-08-021
 helix-ui-css: true
 helix-ui-javascript: true
 ---
@@ -252,7 +252,7 @@ Use these spacing guidelines when you construct a vertical stepper.
 Construct a vertical stepper so that the user can expand only one step at a time. When a user clicks to expand a step, any expanded step collapses. Limiting a vertical stepper to a single expanded step offers the following benefits:
 
 - One expanded step reduces page clutter and confusion that the user might encounter when presented with multiple primary CTAs.
-- Often times data in one step is dependent on data entered in another step. Restricting the vertical stepper to one expanded step allows for content to be dynamically loaded based on a previous selection.
+- Data in one step is often dependent on data entered in another step. Restricting the vertical stepper to one expanded step allows for content to be dynamically loaded based on a previous selection.
 
 {% endcolumn %}
 
