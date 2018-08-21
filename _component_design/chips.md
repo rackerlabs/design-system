@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/chip.svg
 resource: true
 status: stable
-last-modified: 2018-05-07
+last-modified: 2018-08-03
 helix-ui-css: false
 helix-ui-javascript: false
 ---
@@ -131,7 +131,7 @@ Use these spacing guidelines when you construct chips.
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Chip spacing"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/chips/chips-spacing.png" width="327px"/>
+<embed src="{{site.url}}/assets/images/components/content-areas/chips/chips-spacing.png" width="134px"/>
 {% endfigure %}
 
 {% endcolumn %}
