@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/vertical-stepper.svg
 resource: true
 status: stable
-last-modified: 2018-08-021
+last-modified: 2018-08-21
 helix-ui-css: true
 helix-ui-javascript: true
 ---
