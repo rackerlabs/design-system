@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/popover.svg
 resource: true
 status: stable
-last-modified: 2018-05-15
+last-modified: 2018-08-02
 helix-ui-css: true
 helix-ui-javascript: true
 ---
@@ -172,7 +172,7 @@ Use the following guidelines when you construct a popover pointer:
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Pointer specifications and placement variations"] [class:"image bg-light border"] %}
+{% figure [caption:"Pointer size and placement variations"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/content-areas/popovers/popovers-size-and-spacing.png" width="401px"/>
 {% endfigure %}
 

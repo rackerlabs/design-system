@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/cards.svg
 status: in-progress
 resource: true
-last-modified: 2018-05-07
+last-modified: 2018-08-02
 helix-ui-css: false
 helix-ui-javascript: false
 ---
@@ -152,7 +152,7 @@ Cards are applied to the [Helix grid](https://rackerlabs.github.io/helix-ui/comp
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Card layout"] [class:"image bg-light border"] %}
- <embed src="{{site.url}}/assets/images/components/content-areas/cards/cards-layout-1.png" width="580px"/>
+ <embed src="{{site.url}}/assets/images/components/content-areas/cards/cards-layout-01.png" width="580px"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -170,7 +170,7 @@ For aesthetic purposes and in instances where only a few cards are present, you 
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Card offset layout"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/cards/cards-layout-2.png" width="580px"/>
+<embed src="{{site.url}}/assets/images/components/content-areas/cards/cards-layout-02.png" width="580px"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
