@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/buttons.svg
 status: stable
 resource: true
-last-modified: 2018-08-08
+last-modified: 2018-08-22
 helix-ui-css: true
 helix-ui-javascript: false
 ---
@@ -67,6 +67,7 @@ Simple buttons types include *primary*, *secondary*, and *tertiary* buttons.
 
 {% figure [caption:"Simple button types"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/inputs-and-controls/simple-buttons/buttons-simple-hero.png" width="569"/>
+
 {% endfigure %}
 
 {% endcolumn %}
@@ -358,7 +359,7 @@ When in focus, a button takes on the focus properties as outlined in [focus stat
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ## Button sets
 
@@ -372,70 +373,6 @@ Consider the following best practices when you construct a button set:
 - Do not use split buttons in a button set. Split buttons can complicate what should be a simple decision for the user.
 - The cancel action must always be an `hxBtn.hxLink`.
 - When the user submits a form, disable all buttons and change the primary button to loading state.
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow" markdown="1">
-
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-### Composition
-
-Composition text here...
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-{% figure [caption:"Button sets"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/simple-buttons/buttons-simple-variations-buttonsets.png" width="317"/>
-{% endfigure %}
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow" markdown="1">
-
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-### Style
-
-Style text here...
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-{% figure [caption:"Button sets"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/simple-buttons/buttons-simple-variations-buttonsets.png" width="317"/>
-{% endfigure %}
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow" markdown="1">
-
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-### Spacing
-
-Spacing text here...
 
 {% endcolumn %}
 
