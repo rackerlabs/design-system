@@ -5,10 +5,10 @@ layout: component
 category: Components
 usage: >
   A drop-down button is an element that, when clicked, reveals additional options to launch a process or initiate an action.
-preview-image: preview-images/buttons.svg
+preview-image: preview-images/buttons-dropdown-thumbnail.svg
 status: stable
 resource: true
-last-modified: 2018-08-17
+last-modified: 2018-08-22
 helix-ui-css: true
 helix-ui-javascript: false
 ---
@@ -77,15 +77,17 @@ Use the following specifications when you construct a drop-down button.
 A drop-down button contains the following elements:
 
 - **Simple button (required)**: Refer to [simple buttons]({{site.baseURL}}/components/buttons.html) for more information about constructing a simple button.
-- **Angle down (required)**: The drop-down menu appears when the user clicks the angle down icon.
-- **Menu (required)**: The menu contains the list of actions from which the user can select.
+- **Trigger (required)**: The drop-down menu appears when the user clicks the trigger.
+- **Section header (optional)**: Include a section header to organize menu items into logical groups. Consider using section headers when the menu container contains many items.
+- **Menu item (required)**: A menu item is an action that a user can select.
+- **Menu container (required)**: The menu container includes the section header and menu items.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Basic drop-down button composition"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/drop-down-buttons/buttons-dropdown-composition.png" width="397"/>
+{% figure [caption:"Drop-down button composition"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/drop-down-buttons/buttons-dropdown-composition.png" width="314"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -108,8 +110,8 @@ Use these specifications when you construct a drop-down button.
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Basic drop-down button style"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/drop-down-buttons/buttons-dropdown-style.png" width="487"/>
+{% figure [caption:"Drop-down button style"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/drop-down-buttons/buttons-dropdown-style.png" width="360"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -132,8 +134,8 @@ In addition to the spacing specifications documented in [simple buttons]({{site.
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Basic drop-down button spacing"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/drop-down-buttons/buttons-dropdown-spacing.png" width="278"/>
+{% figure [caption:"Drop-down button spacing"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/drop-down-buttons/buttons-dropdown-spacing.png" width="260"/>
 {% endfigure %}
 
 {% endcolumn %}
