@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/buttons.svg
 status: stable
 resource: true
-last-modified: 2018-08-22
+last-modified: 2018-08-24
 helix-ui-css: true
 helix-ui-javascript: false
 ---
@@ -61,11 +61,11 @@ Consider the following best practices when you construct a button:
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-## Simple button types
+## Simple button weights
 
-Simple buttons types include *primary*, *secondary*, and *tertiary* buttons.
+Simple button weights include *primary*, *secondary*, and *tertiary* buttons.
 
-{% figure [caption:"Simple button types"] [class:"image bg-light border"] %}
+{% figure [caption:"Simple button weights"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/inputs-and-controls/simple-buttons/buttons-simple-hero.png" width="569"/>
 
 {% endfigure %}
@@ -210,7 +210,7 @@ Use these spacing guidelines when you construct a simple button.
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-## Primary button
+## Primary button weight
 
 A primary button indicates the primary action a user can take and is designed to command the attention of users more than any other content on a page.
 
@@ -240,7 +240,7 @@ A primary button can exist in one of the following states: default, hover, press
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-## Secondary button
+## Secondary button weight
 
 You can use a secondary button alone or with a primary button, a tertiary button, or both. Use a secondary button when there are multiple buttons on a page.
 
@@ -266,9 +266,9 @@ A secondary button can exist in one of the following states: default, hover, pre
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-## Tertiary button
+## Tertiary button weight
 
-You can use a tertiary button alone or with other button types.
+You can use a tertiary button alone or with other button weights.
 
 - Use a tertiary button alone when you want to de-emphasize an action or when you have a list of actions.
 - Use a tertiary button with a primary button or secondary button when there are two options and you want to de-emphasize one of them. For example, in a confirmation modal with two options, use **Submit** (primary) and **Cancel** (tertiary).
