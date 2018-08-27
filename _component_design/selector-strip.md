@@ -5,11 +5,11 @@ secondary: Selectors
 layout: component
 category: Components
 usage: >
-  A selector strip is a component that enables the user to make a selection from a group of options. A selector strip conserves vertical space, is more modern, and is flexible as it can be used as a input and a control.
+  A selector strip enables the user to make a selection from a group of options and can be used as a form input.
 preview-image: preview-images/selector-strip.svg
 status: stable
 resource: true
-last-modified: 2018-08-17
+last-modified: 2018-08-27
 helix-ui-css: false
 helix-ui-javascript: false
 ---
@@ -27,7 +27,7 @@ helix-ui-javascript: false
 There are two types of selector strips:
 
 - **Single select strip**: A single-select strip has rounded corners and functions like a radio; the user can only select one option. Selecting another option deselects the previously selected option.
-- **Multi-select strip**: A multi-select selector strip has squared corners and functions like checkboxes; the user can select multiple options. Enabling a user to schedule a job to run multiple days of the week is a common use case for multi-select strips.
+- **Multi-select strip**: A multi-select strip has squared corners and functions like checkboxes; the user can select multiple options. Enabling a user to schedule a job to run multiple days of the week is a common use case for multi-select strips.
 
 {% figure [caption:"Selector strip types"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/inputs-and-controls/selector-strip/selectorstrip-overview.png" width="288"/>
@@ -52,7 +52,6 @@ Use selector strips in the following situations:
 - When the selector strip is the only input on a form.
 - When vertical spacing isn't available and you want to make use of horizontal spacing. A selector strip can function similarly to [radios]({{site.baseurl}}/components/radio-buttons.html) (single select strip) or [checkboxes]({{site.baseurl}}/components/checkboxes.html) (multi-select strip).
 - When the user's selection alters the data input options presented on the page. For example, use a selector strip when the user selects credit card as the payment option. The fields on the form are dependent on the selected credit card option.
-- When you want to use a selector strip as a control, such as providing the option for the user to view data in a day, week, or month view.
 - When you want an operation to recur periodically. For example, use a selector strip when the user needs to schedule maintenance by selecting from preset days and times.
 - When you want to provide more visual prominence to a group of options.
 
@@ -72,7 +71,6 @@ Use selector strips in the following situations:
 
 Consider the following best practices when you construct a selector strip:
 
-- A selector strip can be used as an input or a control. As an input, a selector strip provides data entry fields based on the option selected. As a control, a selector strip option can change the view and orientation of information on a page. For example, selector strip options can change a graph to show daily, weekly, or monthly data.
 - For single select strips, one option is selected by default.
 - A selector strip should contain no more than seven options. It is important to balance the length of the option labels with the number of options listed.
 - Use short option labels (for example, three words maximum and up to 10 characters) so that the number of options can fit horizontally on a small screen.
