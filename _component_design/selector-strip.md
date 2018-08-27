@@ -467,7 +467,7 @@ When you add a selector strip to a form, include a description between item sele
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Selector strips in a form"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/selector-strip/selectorstrip-inaform.png" width="351"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/selector-strip/selectorstrip-inaform.png" width="288"/>
 {% endfigure %}
 
 {% endcolumn %}
