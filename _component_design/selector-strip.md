@@ -111,7 +111,7 @@ Consider the following specifications when you construct a single select strip.
 A single select strip contains the following elements:
 
 - **Strip container (required)**: The selector strip container holds the options.
-- **Selected option container (required)**: The selected option container expands to include the option label.
+- **Selected option container (required)**: The selected option container surrounds the selected option label.
 - **Option label (required)**: The user makes a choice by selecting an option. Ensure you consider best practices when writing option labels.
 
 {% endcolumn %}
