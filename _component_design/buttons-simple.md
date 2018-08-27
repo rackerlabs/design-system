@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/buttons.svg
 status: stable
 resource: true
-last-modified: 2018-08-24
+last-modified: 2018-08-27
 helix-ui-css: true
 helix-ui-javascript: false
 ---
@@ -107,7 +107,7 @@ Use consistent labels across an action for a UI. Refer to this table when you wr
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Button action labels"] [class:"image bg-light border"] %}
-| Action label | Typical usage  |
+| Action&nbsp;label | Typical usage  |
 | --- | --- |
 | Create | Creates a new object. |
 | Delete | Deletes an existing object. The label can include the object being deleted, such as **Delete Image**. |
@@ -118,7 +118,7 @@ Use consistent labels across an action for a UI. Refer to this table when you wr
 | Manage | Modifies existing object settings or options. |
 | Save | Saves data entered when the user creates an object. |
 | Update | Automatically changes the data of an existing object. |
-{: class="hxTable"}
+{: .hxTable .docTableFluid }
 {% endfigure %}
 
 {% endcolumn %}
