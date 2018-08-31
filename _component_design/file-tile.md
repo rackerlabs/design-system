@@ -9,7 +9,7 @@ preview-image: preview-images/checkboxes.svg
 resource: true
 status: stable
 need: selectors
-last-modified: 2018-08-17
+last-modified: 2018-08-31
 helix-ui-css: true
 helix-ui-javascript: true
 ---
@@ -100,8 +100,8 @@ A file tile contains the following elements:
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Checkbox composition"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkboxes-composition.png" width="259"/>
+{% figure [caption:"File tile composition"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/content-areas/file-tiles/filetiles-composition.png" width="419"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -124,8 +124,8 @@ Use these specifications when you construct a file tile.
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Checkbox style"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkboxes-style.png" width="366"/>
+{% figure [caption:"File tile style"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/content-areas/file-tiles/filetiles-style.png" width="544"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -148,8 +148,8 @@ Refer to these spacing guidelines when you construct a file tile.
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Checkbox spacing"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkboxes-spacing.png" width="190"/>
+{% figure [caption:"File tile spacing"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/content-areas/file-tiles/filetiles-spacing.png" width="255"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -166,31 +166,7 @@ Refer to these spacing guidelines when you construct a file tile.
 
 ## States
 
-A checkbox can exist in *default*, *loading*, *error*, *focus*, and *hover* states.
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow"  markdown="1">
-
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-### Default
-
-xxxx.
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-{% figure [caption:"Enabled state"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkboxes-states-enabled.png" width="398"/>
-{% endfigure %}
+A checkbox can exist in a *loading*, *error*, *focus*, *hover*, and *read-only* state.
 
 {% endcolumn %}
 
@@ -206,14 +182,14 @@ xxxx.
 
 ### Loading
 
-xxxx.
+When a file tile loads, use the loading bar to indicate progress.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Disabled state"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkboxes-states-disabled.png" width="439"/>
+{% figure [caption:"Loading state"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/content-areas/file-tiles/filetiles-states-loading.png" width="548"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -230,16 +206,15 @@ xxxx.
 
 ### Error
 
-An error state can apply to a file tile when the user selects, deselects, and hovers over a checkbox.??
+An error state can apply to a file tile when the file tile loads.
 
-See [focus states]({{site.baseurl}}/style/focus-states.html) for guidance in constructing focused checkboxes in an error state.
-
+When the user clicks the **Retry** button, the file tile loads again.
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Error state"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkboxes-states-error.png" width="432"/>
+<embed src="{{site.url}}/assets/images/components/content-areas/file-tiles/filetiles-states-error.png" width="551"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -256,14 +231,16 @@ See [focus states]({{site.baseurl}}/style/focus-states.html) for guidance in con
 
 ### Focus
 
-xxx.
+The focus state provides keyboard accessibility and indicates that the user can press Enter to download or remove the file.
+
+See [focus states]({{site.baseurl}}/style/focus-states.html) for guidance in constructing focused file tiles.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Group error state"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkboxes-states-error-group.png" width="432"/>
+{% figure [caption:"Focus state"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/content-areas/file-tiles/filetiles-states-focus.png" width="477"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -274,20 +251,20 @@ xxx.
 
 <section class="static-section" markdown="1">
 
-<div class="hxRow"  markdown="1">
+<div class="hxRow" markdown="1">
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Hover
 
-xxx.
+The hover state indicates that the user can download the file or remove the file.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Group error state"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkboxes-states-error-required.png" width="328"/>
+{% figure [caption:"Hover state"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/content-areas/file-tiles/filetiles-states-hover.png" width="575"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -298,20 +275,46 @@ xxx.
 
 <section class="static-section" markdown="1">
 
-<div class="hxRow"  markdown="1">
+<div class="hxRow" markdown="1">
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-## Iconography
+### Read-only
 
-xxx.
+The read-only state indicates that the file can only be download. A user cannot remove a read-only file.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Group error state"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkboxes-states-error-required.png" width="328"/>
+{% figure [caption:"Read-only state"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/content-areas/file-tiles/filetiles-states-readonly.png" width="255"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+## Iconography
+
+Use these icons to represent the file format.
+
+Use a paperclip icon when there is no file extension or the file format is unknown.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"File type icons"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/content-areas/file-tiles/filetiles-composition-icon.png" width="530"/>
 {% endfigure %}
 
 {% endcolumn %}
