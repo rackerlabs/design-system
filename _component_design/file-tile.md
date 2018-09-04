@@ -200,6 +200,7 @@ When a file tile loads, use the loading bar to indicate progress.
 An error state can apply to a file tile when the file tile loads.
 
 When the user clicks the **Retry** button, the file tile loads again.
+
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
