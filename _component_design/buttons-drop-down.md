@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/buttons-dropdown-thumbnail.svg
 status: stable
 resource: true
-last-modified: 2018-08-22
+last-modified: 2018-09-04
 helix-ui-css: true
 helix-ui-javascript: false
 ---
@@ -77,7 +77,7 @@ Use the following specifications when you construct a drop-down button.
 A drop-down button contains the following elements:
 
 - **Simple button (required)**: Refer to [simple buttons]({{site.baseURL}}/components/buttons.html) for more information about constructing a simple button.
-- **Trigger (required)**: The drop-down menu appears when the user clicks the trigger.
+- **Angle-down icon (required)**: The drop-down menu appears when the user clicks the angle-down icon. See the [Icons](https://rackerlabs.github.io/helix-ui/components/icons/) page of the Helix Toolkit for information about the angle-down icon.
 - **Section header (optional)**: Include a section header to organize menu items into logical groups. Consider using section headers when the menu container contains many items.
 - **Menu item (required)**: A menu item is an action that a user can select.
 - **Menu container (required)**: The menu container includes the section header and menu items.
