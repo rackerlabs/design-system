@@ -1,14 +1,15 @@
 ---
-title: Buttons Bar
+title: Buttons (Bar)
 parent: Inputs and Controls
 layout: component
 category: Components
 usage: >
-  A button bar....
-preview-image: preview-images/buttons.svg
+  A buttons bar consolidates multiple related actions into one or more simple buttons, and a drop-down button. When the user
+  clicks the drop-down button a drop-down menu appears.
+preview-image: preview-images/buttons-bar.svg
 status: stable
 resource: true
-last-modified: 2018-08-20
+last-modified: 2018-09-05
 helix-ui-css: true
 helix-ui-javascript: false
 ---
@@ -23,7 +24,16 @@ helix-ui-javascript: false
 
 ## When to use
 
-Use a button bar when .....
+Use a buttons bar in the following situations:
+
+- When there is a primary action represented by a simple button and you want to list additional actions in a drop-down menu.
+- To display a number of options in one place, rather than placing multiple buttons horizontally. A buttons bar conserves
+space.
+- To launch the user into an editing process on a different page.
+- To initiate a workflow.
+- When a user takes action on the current page or in a [modal]({{site.baseurl}}/components/modals.html).
+
+Do not use a buttons bar for objects with a small number of actions. For example, do not use a buttons bar for table objects that have only a create and delete action. When a table object has small number of actions, use table controls at the top of the table. For more information, see [tables]({{site.baseurl}}/components/tables.html).
 
 {% endcolumn %}
 
@@ -39,10 +49,14 @@ Use a button bar when .....
 
 ## Best practices
 
-Consider the following best practices when you construct a button bar:
+In addition to the [Simple Buttons]({{site.baseurl}}/components/simple-buttons.html) best practices,
+consider the following best practices when you construct a buttons bar:
 
-- xxxxx.
-- xxxxx.
+- Do not mix button weights or sizes in a buttons bar.
+- The drop-down button should always be the last button in the bar.
+- Do not include destructive actions in a buttons bar because destructive action buttons are often
+disabled until the user has selected an object to destroy.
+- Do not use tertiary buttons in a buttons bar.
 
 {% endcolumn %}
 
@@ -58,7 +72,7 @@ Consider the following best practices when you construct a button bar:
 
 ## Specifications
 
-Use the following specifications when you construct a simple button.
+Use the following specifications when you construct a buttons bar.
 
 {% endcolumn %}
 
@@ -74,17 +88,19 @@ Use the following specifications when you construct a simple button.
 
 ### Composition
 
-A button bar contains the following elements:
+A buttons bar contains the following elements:
 
-- **xxx (required)**: xxxx.
-- **xxx (required)**: xxxx.
+- **Simple button (required)**: The simple button represents the primary action that the user can take. A buttons bar can contain multiple simple buttons.
+- **Drop-down button (required)**: When the user clicks the drop-down buttons, additional actions appear on a drop-down menu.
+- **Drop-down menu (required)**: The drop-down menu contains the additional actions a user can take on an object.
+- **Divider (required)**: The divider separates the simple button and the drop-down button.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Simple button composition"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/simple-buttons/buttons-simple-composition.png" width="280"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons-bar/buttons-simple-composition.png" width="280"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -101,14 +117,14 @@ A button bar contains the following elements:
 
 ### Style
 
-Use these specifications when you construct a button bar.
+Use these specifications when you construct a buttons bar.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Simple button style"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/simple-buttons/buttons-simple-style.png" width="412"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons-bar/buttons-simple-style.png" width="412"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -125,31 +141,15 @@ Use these specifications when you construct a button bar.
 
 ### Spacing
 
-Use these spacing guidelines when you construct a button bar.
+Use these spacing guidelines when you construct a buttons bar.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Simple button spacing"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/simple-buttons/buttons-simple-spacing.png" width="377"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons-bar/buttons-simple-spacing.png" width="377"/>
 {% endfigure %}
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow" markdown="1">
-
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-## States
-
-A button bar can exist in *enabled*, *hover*, *pressed*, and *disabled* states.
 
 {% endcolumn %}
 
@@ -163,176 +163,16 @@ A button bar can exist in *enabled*, *hover*, *pressed*, and *disabled* states.
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Enabled
+## Primary button bar
 
-xxx.
+You can use primary buttons in a buttons bar. Do not include tertiary buttons in a buttons bar.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Simple button loading state"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/simple-buttons/buttons-simple-states-loading.png" width="296"/>
-{% endfigure %}
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow" markdown="1">
-
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-### Hover
-
-xxxx.
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-{% figure [caption:"Simple button focus state"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/simple-buttons/buttons-simple-states-focus.png" width="105"/>
-{% endfigure %}
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow" markdown="1">
-
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-### Pressed
-
-xxx.
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-{% figure [caption:"Button sets"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/simple-buttons/buttons-simple-variations-buttonsets.png" width="316"/>
-{% endfigure %}
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow" markdown="1">
-
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-### Disabled
-
-xxx.
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-{% figure [caption:"Button sets"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/simple-buttons/buttons-simple-variations-buttonsets.png" width="316"/>
-{% endfigure %}
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow" markdown="1">
-
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-## Drop-down button variant
-
-xxx.
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow" markdown="1">
-
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-### Composition
-
-xxx.
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-{% figure [caption:"Simple button loading state"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/simple-buttons/buttons-simple-states-loading.png" width="296"/>
-{% endfigure %}
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow" markdown="1">
-
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-### Style
-
-xxxx.
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-{% figure [caption:"Simple button focus state"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/simple-buttons/buttons-simple-states-focus.png" width="105"/>
-{% endfigure %}
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow" markdown="1">
-
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-### Spacing
-
-xxx.
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-{% figure [caption:"Button sets"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/simple-buttons/buttons-simple-variations-buttonsets.png" width="316"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons-bar/buttons-simple-states-loading.png" width="296"/>
 {% endfigure %}
 
 {% endcolumn %}
