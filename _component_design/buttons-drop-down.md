@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/buttons-dropdown-thumbnail.svg
 status: stable
 resource: true
-last-modified: 2018-09-04
+last-modified: 2018-09-06
 helix-ui-css: true
 helix-ui-javascript: false
 ---
@@ -39,7 +39,7 @@ Use a drop-down button when there are multiple actions associated with a button 
 
 ## Best practices
 
-In addition to the best practices outlined in [simple buttons]({{site.baseURL}}/components/buttons.html), consider the following best practices when you construct a drop-down button:
+In addition to the best practices outlined in [simple buttons]({{site.baseurl}}/components/buttons-simple.html), consider the following best practices when you construct a drop-down button:
 
 - Ensure that you label a drop-down button accurately. The user should be able to predict the options that are available in the drop-down menu.
 - While a drop-down button reduces the clutter on a page, drop-down buttons conceal user options. Consider listing all options as an alternative to concealing options within a button.
@@ -76,7 +76,7 @@ Use the following specifications when you construct a drop-down button.
 
 A drop-down button contains the following elements:
 
-- **Simple button (required)**: Refer to [simple buttons]({{site.baseURL}}/components/buttons.html) for more information about constructing a simple button.
+- **Simple button (required)**: Refer to [simple buttons]({{site.baseurl}}/components/buttons-simple.html) for more information about constructing a simple button.
 - **Angle-down icon (required)**: The drop-down menu appears when the user clicks the angle-down icon. See the [Icons](https://rackerlabs.github.io/helix-ui/components/icons/) page of the Helix Toolkit for information about the angle-down icon.
 - **Section header (optional)**: Include a section header to organize menu items into logical groups. Consider using section headers when the menu container contains many items.
 - **Menu item (required)**: A menu item is an action that a user can select.
@@ -128,7 +128,7 @@ Use these specifications when you construct a drop-down button.
 
 ### Spacing
 
-In addition to the spacing specifications documented in [simple buttons]({{site.baseURL}}/components/buttons.html), use these spacing guidelines when you construct a drop-down button.
+In addition to the spacing specifications documented in [simple buttons]({{site.baseurl}}/components/buttons-simple.html), use these spacing guidelines when you construct a drop-down button.
 
 {% endcolumn %}
 
