@@ -9,7 +9,7 @@ preview-image: preview-images/checkboxes.svg
 resource: true
 status: stable
 need: selectors
-last-modified: 2018-09-04
+last-modified: 2018-09-07
 helix-ui-css: true
 helix-ui-javascript: true
 ---
