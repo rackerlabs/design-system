@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="596px" height="399px" viewBox="0 0 596 399" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="588" height="391"></rect>
+        <filter x="-1.2%" y="-1.3%" width="102.4%" height="103.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <path d="M3.7525,5.35081875 L0.145625,1.02519375 C-0.07625,0.76019375 -0.04,0.36581875 0.224375,0.14456875 C0.490625,-0.07605625 0.884375,-0.03980625 1.105,0.22456875 L3.7525,3.39894375 L6.395625,0.22956875 C6.615625,-0.03480625 7.00875,-0.07105625 7.275625,0.15019375 C7.540625,0.37081875 7.57625,0.76519375 7.355,1.03019375 L3.7525,5.35081875 Z" id="path-3"></path>
+    </defs>
+    <g id="*Document*" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1)-Overview" transform="translate(-214.000000, -553.000000)">
+            <g id="Section-Hero-Image" transform="translate(0.000000, 523.000000)">
+                <g id="Group" transform="translate(218.000000, 32.000000)">
+                    <g id="documentation-/-img-container">
+                        <g id="img-container-span-8">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        </g>
+                    </g>
+                    <g id="buttons-dropdown-hero">
+                        <g id="card-grid-copy">
+                            <g id="application-frame">
+                                <rect id="Rectangle" fill="#B6E3EB" x="0" y="0" width="588" height="391"></rect>
+                                <rect id="Rectangle-Copy" fill="#16B9D4" x="0" y="0" width="97.9999999" height="391"></rect>
+                                <rect id="Rectangle-Copy-2" fill="#0E94A6" x="0" y="0" width="588" height="29.325"></rect>
+                            </g>
+                            <g id="pill-/-highlight" transform="translate(214.730375, 174.446154)" fill="#F57C00" fill-rule="nonzero">
+                                <rect id="Rectangle" x="0" y="0" width="72.2457338" height="20.0512821" rx="2"></rect>
+                            </g>
+                            <g id="pill-/-highlight" transform="translate(293.996587, 175.446154)" stroke="#F57C00">
+                                <rect id="Rectangle" x="0.00341296928" y="0.00256410256" width="70.2389078" height="18.0461538" rx="2"></rect>
+                            </g>
+                        </g>
+                        <g id="box-/-content" transform="translate(126.000000, 74.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                            <rect id="Rectangle" x="0" y="0" width="433" height="317"></rect>
+                        </g>
+                        <g id="pill-/-highlight" transform="translate(144.000000, 90.000000)">
+                            <rect id="Rectangle" fill="#F57C00" fill-rule="nonzero" x="0" y="0" width="72" height="20" rx="2"></rect>
+                            <g id="angle/down" transform="translate(56.000000, 5.000000)">
+                                <g id="Style:-Colors-/-Gray-/-Gray-975-(#212121)" transform="translate(1.250000, 2.500000)">
+                                    <mask id="mask-4" fill="white">
+                                        <use xlink:href="#path-3"></use>
+                                    </mask>
+                                    <use id="Mask" fill="#000000" xlink:href="#path-3"></use>
+                                    <g id="Style:-Colors-/-Gray-/-Gray-0-(#FFFFFF-)" mask="url(#mask-4)" fill="#FFFFFF">
+                                        <g transform="translate(-3.750000, -5.625000)" id="Gray-0">
+                                            <rect x="0" y="0" width="16" height="16"></rect>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="pill-/-highlight" transform="translate(145.000000, 112.000000)">
+                            <rect id="Rectangle" stroke="#F57C00" x="0" y="0" width="70" height="90" rx="2"></rect>
+                            <rect id="Rectangle-3" fill="#E0E0E0" x="5" y="5" width="60" height="8" rx="4"></rect>
+                            <rect id="Rectangle-3" fill="#E0E0E0" x="5" y="45" width="60" height="8" rx="4"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
