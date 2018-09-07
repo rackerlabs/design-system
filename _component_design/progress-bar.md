@@ -9,8 +9,9 @@ preview-image: preview-images/progress-bar.svg
 resource: true
 status: stable
 last-modified: 2018-04-26
-helix-ui-css: false
-helix-ui-javascript: false
+helix-ui-css: true
+helix-ui-javascript: true
+pagelink: https://rackerlabs.github.io/helix-ui/components/loaders/#progress-bar
 ---
 
 {% include toc.html %}
@@ -29,7 +30,7 @@ The minimal progress bar provides the user with a simple visual to ascertain the
 
 ### When to use
 
-Use anytime you want to simply convey the progress of a process. 
+Use anytime you want to simply convey the progress of a process.
 
 ### Best practice
 

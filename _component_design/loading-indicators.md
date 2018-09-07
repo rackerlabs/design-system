@@ -9,8 +9,9 @@ preview-image: preview-images/loading.svg
 resource: true
 status: stable
 last-modified: 2017-10-24
-helix-ui-css: false
-helix-ui-javascript: false
+helix-ui-css: true
+helix-ui-javascript: true
+pagelink: https://rackerlabs.github.io/helix-ui/components/loaders/#busy
 ---
 
 {% include toc.html %}

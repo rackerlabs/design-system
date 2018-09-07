@@ -8,6 +8,9 @@ usage: >
 preview-image: preview-images/list.svg
 resource: true
 status: stable
+helix-ui-css: true
+helix-ui-javascript: na
+pagelink: https://rackerlabs.github.io/helix-ui/components/lists/
 last-modified: 2017-02-12
 ---
 

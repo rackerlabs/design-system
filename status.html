@@ -11,8 +11,16 @@ usage: >
 
 <table class="hxTable hxTable--condensed hxTable--bordered" id="design-status-table">
     <thead>
+      <colgroup>
+         <col style="width: 25%;" span="1">
+         <col style="width: 25%;" span="1">
+         <col style="width: 10%;" span="1">
+         <col span="1">
+         <col span="1">
+      </colgroup>
       <tr>
         <th>Helix Pattern</th>
+        <th>HelixUI Link</th>
         <th class="hxCenter">Design Doc</th>
         <th class="hxCenter">CSS</th>
         <th class="hxCenter">JS</th>
@@ -33,19 +41,30 @@ usage: >
       {%- assign component_list = component_list | sort: 'title' -%}
       {%- for page in component_list -%}<tr >
           <td><a href="{{site.baseurl}}{{page.url}}.html">{{page.title}}</a></td>
+          <td>
+          {%- if page.pagelink -%}
+            <a href="{{page.pagelink}}" target="_blank">Code <hx-icon type="external-link"></hx-icon></a>
+          {%- elsif page.helix-ui-note -%}
+            <span class="hxSubBody">{{page.helix-ui-note}}</span>
+          {%- endif -%}
+          </td>
           <td class="hxCenter">
           {%- if page.status -%}
             <span class="status-label small {{page.status | replace: ' ','-'}}">{{page.status}}</span>
           {%- endif -%}
           </td>
-          <td class="hxCenter status-ok">
-            {%- if page.helix-ui-css -%}
-            <hx-icon type="checkmark-circle"></hx-icon>
+          <td class="hxCenter">
+            {%- if page.helix-ui-css == true -%}
+            <hx-icon type="checkmark-circle" class="status-ok"></hx-icon>
+            {%- elsif page.helix-ui-css == "na"-%}
+            <hx-icon type="minus-circle" class="status-disabled"></hx-icon>
             {%- endif -%}
           </td>
-          <td class="hxCenter status-ok">
-            {%- if page.helix-ui-javascript -%}
-            <hx-icon type="checkmark-circle"></hx-icon>
+          <td class="hxCenter">
+            {%- if page.helix-ui-javascript == true -%}
+            <hx-icon type="checkmark-circle" class="status-ok"></hx-icon>
+            {%- elsif page.helix-ui-javascript == "na"-%}
+            <hx-icon type="minus-circle" class="status-disabled"></hx-icon>
             {%- endif -%}
           </td>
         </tr>{%- endfor -%}

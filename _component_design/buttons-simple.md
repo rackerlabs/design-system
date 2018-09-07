@@ -1,5 +1,5 @@
 ---
-title: Simple buttons
+title: Buttons (Simple)
 parent: Inputs and Controls
 layout: component
 category: Components
@@ -8,9 +8,10 @@ usage: >
 preview-image: preview-images/buttons.svg
 status: stable
 resource: true
-last-modified: 2018-06-19
+last-modified: 2018-08-27
 helix-ui-css: true
-helix-ui-javascript: false
+helix-ui-javascript: na
+pagelink: https://rackerlabs.github.io/helix-ui/components/buttons/#basic-button
 ---
 
 {% include toc.html %}
@@ -61,23 +62,13 @@ Consider the following best practices when you construct a button:
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-## Button labels
+## Simple button weights
 
-Use consistent labels across an action for a UI. Refer to the following table when you write button labels:
+Simple button weights include *primary*, *secondary*, and *tertiary* buttons.
 
-{% figure [caption:"Button action labels"] [class:"image bg-light border"] %}
-| Action label | Typical usage  |
-| --- | --- |
-| Create | Creates a new object. |
-| Delete | Deletes an existing object. The label can include the object being deleted, such as **Delete Image**. |
-| Download | Transfers a file to a user's local system. |
-| Edit | Allows the user to modify data or values. Edit does not imply that the object is automatically updated. In most cases, you still must update in order for the change to occur. |
-| Filter | Changes view to include only objects that match the filter criteria. |
-| Import | Includes objects from an external source. |
-| Manage | Modifies existing object settings or options. |
-| Save | Saves data entered when the user creates an object. |
-| Update | Automatically changes the data of an existing object. |
-{: class="hxTable"}
+{% figure [caption:"Simple button weights"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/simple-buttons/buttons-simple-hero.png" width="569"/>
+
 {% endfigure %}
 
 {% endcolumn %}
@@ -95,6 +86,41 @@ Use consistent labels across an action for a UI. Refer to the following table wh
 ## Specifications
 
 Use the following specifications when you construct a simple button.
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+### Button labels
+
+Use consistent labels across an action for a UI. Refer to this table when you write button labels.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"Button action labels"] [class:"image bg-light border"] %}
+| Action&nbsp;label | Typical usage  |
+| --- | --- |
+| Create | Creates a new object. |
+| Delete | Deletes an existing object. The label can include the object being deleted, such as **Delete Image**. |
+| Download | Transfers a file to a user's local system. |
+| Edit | Allows the user to modify data or values. Edit does not imply that the object is automatically updated. In most cases, you still must update in order for the change to occur. |
+| Filter | Changes view to include only objects that match the filter criteria. |
+| Import | Includes objects from an external source. |
+| Manage | Modifies existing object settings or options. |
+| Save | Saves data entered when the user creates an object. |
+| Update | Automatically changes the data of an existing object. |
+{: .hxTable .docTableFluid }
+{% endfigure %}
 
 {% endcolumn %}
 
@@ -144,7 +170,7 @@ Use these specifications when you construct a simple button.
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Simple button style"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/simple-buttons/buttons-simple-style.png" width="412"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/simple-buttons/buttons-simple-style.png" width="247"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -170,7 +196,7 @@ Use these spacing guidelines when you construct a simple button.
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Simple button spacing"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/simple-buttons/buttons-simple-spacing.png" width="377"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/simple-buttons/buttons-simple-spacing.png" width="207"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -185,7 +211,7 @@ Use these spacing guidelines when you construct a simple button.
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-## Primary button
+## Primary button weight
 
 A primary button indicates the primary action a user can take and is designed to command the attention of users more than any other content on a page.
 
@@ -215,7 +241,7 @@ A primary button can exist in one of the following states: default, hover, press
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-## Secondary button
+## Secondary button weight
 
 You can use a secondary button alone or with a primary button, a tertiary button, or both. Use a secondary button when there are multiple buttons on a page.
 
@@ -241,9 +267,9 @@ A secondary button can exist in one of the following states: default, hover, pre
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-## Tertiary button
+## Tertiary button weight
 
-You can use a tertiary button alone or with other button types.
+You can use a tertiary button alone or with other button weights.
 
 - Use a tertiary button alone when you want to de-emphasize an action or when you have a list of actions.
 - Use a tertiary button with a primary button or secondary button when there are two options and you want to de-emphasize one of them. For example, in a confirmation modal with two options, use **Submit** (primary) and **Cancel** (tertiary).
@@ -321,7 +347,7 @@ When in focus, a button takes on the focus properties as outlined in [focus stat
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Simple button focus state"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/simple-buttons/buttons-simple-states-focus.png" width="105"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/simple-buttons/buttons-simple-states-focus.png" width="168"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -346,7 +372,7 @@ Consider the following best practices when you construct a button set:
 - Align buttons in a button set in order of primary, secondary, and tertiary buttons.
 - Do not add more than one primary button to a button set.
 - Do not use split buttons in a button set. Split buttons can complicate what should be a simple decision for the user.
-- The cancel action must always be an `hxBtn.hxLink`.
+- The cancel action must always be an `.hxBtn .hxTertiary`.
 - When the user submits a form, disable all buttons and change the primary button to loading state.
 
 {% endcolumn %}
@@ -354,7 +380,7 @@ Consider the following best practices when you construct a button set:
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Button sets"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/simple-buttons/buttons-simple-variations-buttonsets.png" width="316"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/simple-buttons/buttons-simple-variations-buttonsets.png" width="317"/>
 {% endfigure %}
 
 {% endcolumn %}
