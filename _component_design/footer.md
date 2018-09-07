@@ -9,8 +9,9 @@ preview-image: preview-images/footer-thumbnail.svg
 resource: true
 status: stable
 last-modified: 2017-10-24
-helix-ui-css: true
-helix-ui-javascript: true
+helix-ui-css: na
+helix-ui-javascript: na
+helix-ui-note: Implemented by Pilot
 ---
 
 {% include toc.html %}

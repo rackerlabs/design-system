@@ -8,8 +8,9 @@ usage: >
 preview-image: preview-images/top-nav.svg
 status: stable
 resource: true
-helix-ui-css: true
-helix-ui-javascript: true
+helix-ui-css: false
+helix-ui-javascript: false
+helix-ui-note: Implemented by Pilot
 last-modified: 2017-12-11
 ---
 

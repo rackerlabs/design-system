@@ -8,8 +8,9 @@ usage: >
 preview-image: preview-images/eyebrow.svg
 status: stable
 resource: true
-helix-ui-css: true
-helix-ui-javascript: true
+helix-ui-css: na
+helix-ui-javascript: na
+helix-ui-note: Implemented by Pilot
 last-modified: 2017-08-30
 ---
 
