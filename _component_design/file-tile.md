@@ -9,7 +9,7 @@ preview-image: preview-images/checkboxes.svg
 resource: true
 status: stable
 need: selectors
-last-modified: 2018-09-07
+last-modified: 2018-09-10
 helix-ui-css: true
 helix-ui-javascript: true
 ---
@@ -26,7 +26,7 @@ helix-ui-javascript: true
 
 A file tile is part of a file handling workflow and is one approach you can use to indicate that a file has been uploaded to a control panel page.
 
-Use a file tile when you want to make the file more visually prominent. A file tile is also easier for a user to interact with.
+Use a file tile when you want to make the file more visually prominent. A file tile is also easy for a user to interact with.
 
 {% endcolumn %}
 
@@ -44,7 +44,7 @@ Use a file tile when you want to make the file more visually prominent. A file t
 
 Consider the following best practices when you construct a file tile:
 
-- Include an icon in the file tile to represent the file format. Only use icons available in the [Helix Toolkit](https://rackerlabs.github.io/helix-ui/components/icons/#available-icons).
+- Include an icon in the file tile to represent the file format. Use only icons available in the [Helix Toolkit](https://rackerlabs.github.io/helix-ui/components/icons/#available-icons).
 - Do not use branded icons.
 - Consider where you place file tiles in a view. Avoid making the user scroll down a long list of file tiles to see important information.
 - Only the user who uploaded the file can remove it. A file tile should be read-only for all other users.
@@ -81,7 +81,7 @@ Refer to the following specifications when you construct a file tile.
 
 A file tile contains the following elements:
 
-- **Container (required)**: The container holds the file icon, file name, file size, and remove X. The file download process starts when the user clicks anywhere in the container *except the Remove X*.
+- **Container (required)**: The container holds the file icon, file name, file size, and the Remove X. The file download process starts when the user clicks anywhere in the container *except on the Remove X*.
 - **File icon (required)**: The file icon represents the file format.
 - **File name (required)**: The file name displays the name of the file.
 - **File size (required)**: The file size displays the size of the file.
@@ -157,7 +157,7 @@ Refer to these spacing guidelines when you construct a file tile.
 
 ## States
 
-A checkbox can exist in a *loading*, *error*, *focus*, *hover*, and *read-only* state.
+A checkbox can exist in a *loading*, *error*, *focus*, *hover*, or *read-only* state.
 
 {% endcolumn %}
 
@@ -249,7 +249,7 @@ See [focus states]({{site.baseurl}}/style/focus-states.html) for guidance in con
 
 ### Hover
 
-The hover state indicates that the user can download the file or remove the file.
+The hover state indicates that the user can download or remove the file.
 
 {% endcolumn %}
 
