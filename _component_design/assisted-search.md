@@ -11,6 +11,7 @@ status: stable
 helix-ui-css: true
 helix-ui-javascript: true
 last-modified: 2018-04-06
+pagelink: https://rackerlabs.github.io/helix-ui/components/search/#search-assistance
 ---
 
 {% include toc.html %}
