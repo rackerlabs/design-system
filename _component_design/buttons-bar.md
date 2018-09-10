@@ -33,7 +33,7 @@ space.
 - To initiate a workflow.
 - When a user takes action on the current page or in a [modal]({{site.baseurl}}/components/modals.html).
 
-Do not use a buttons bar for objects with a small number of actions. For example, do not use a buttons bar for table objects that have only a create and delete action. When a table object has small number of actions, use table controls at the top of the table. For more information, see [tables]({{site.baseurl}}/components/tables.html).
+Do not use a buttons bar for objects with a small number of actions. For example, do not use a buttons bar for table objects that have only a create and delete action. When a table object has a small number of actions, use table controls at the top of the table. For more information, see [tables]({{site.baseurl}}/components/tables.html).
 
 {% endcolumn %}
 
@@ -92,15 +92,14 @@ A buttons bar contains the following elements:
 
 - **Simple button (required)**: The simple button represents the primary action that the user can take. A buttons bar can contain multiple simple buttons.
 - **Drop-down button (required)**: When the user clicks the drop-down buttons, additional actions appear on a drop-down menu.
-- **Drop-down menu (required)**: The drop-down menu contains the additional actions a user can take on an object.
 - **Divider (required)**: The divider separates the simple button and the drop-down button.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Simple button composition"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons-bar/buttons-simple-composition.png" width="280"/>
+{% figure [caption:"Buttons bar composition"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons-bar/buttonbar-composition.png" width="284"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -123,8 +122,8 @@ Use these specifications when you construct a buttons bar.
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Simple button style"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons-bar/buttons-simple-style.png" width="412"/>
+{% figure [caption:"Buttons bar style"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons-bar/buttonbar-style.png" width="404"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -147,8 +146,8 @@ Use these spacing guidelines when you construct a buttons bar.
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Simple button spacing"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons-bar/buttons-simple-spacing.png" width="377"/>
+{% figure [caption:"Buttons bar spacing"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons-bar/buttonbar-spacing.png" width="137"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -171,8 +170,8 @@ You can use primary buttons in a buttons bar. Do not include tertiary buttons in
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Simple button loading state"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons-bar/buttons-simple-states-loading.png" width="296"/>
+{% figure [caption:"Primary buttons bar"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons-bar/buttonbar-variations-primary.png" width="137"/>
 {% endfigure %}
 
 {% endcolumn %}
