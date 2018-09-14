@@ -9,7 +9,7 @@ usage: >
 preview-image: preview-images/buttons-bar.svg
 status: stable
 resource: true
-last-modified: 2018-09-05
+last-modified: 2018-09-14
 helix-ui-css: true
 helix-ui-javascript: false
 ---
