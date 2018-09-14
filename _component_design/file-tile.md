@@ -9,7 +9,7 @@ preview-image: preview-images/checkboxes.svg
 resource: true
 status: stable
 need: selectors
-last-modified: 2018-09-10
+last-modified: 2018-09-14
 helix-ui-css: true
 helix-ui-javascript: true
 ---
@@ -157,7 +157,7 @@ Refer to these spacing guidelines when you construct a file tile.
 
 ## States
 
-A checkbox can exist in a *loading*, *error*, *focus*, *hover*, or *read-only* state.
+A file tile can exist in a *loading*, *error*, *focus*, *hover*, or *read-only* state.
 
 {% endcolumn %}
 
@@ -173,7 +173,7 @@ A checkbox can exist in a *loading*, *error*, *focus*, *hover*, or *read-only* s
 
 ### Loading
 
-When a file tile loads, use the loading bar to indicate progress.
+While the file is being uploaded, use the loading bar to indicate progress.
 
 {% endcolumn %}
 
@@ -197,9 +197,9 @@ When a file tile loads, use the loading bar to indicate progress.
 
 ### Error
 
-An error state can apply to a file tile when the file tile loads.
+An error state can apply to a file tile when the file fails to load.
 
-When the user clicks the **Retry** button, the file tile loads again.
+When the user clicks the **Retry** button, the file loads again.
 
 {% endcolumn %}
 
@@ -249,7 +249,7 @@ See [focus states]({{site.baseurl}}/style/focus-states.html) for guidance in con
 
 ### Hover
 
-The hover state indicates that the user can download or remove the file.
+The hover state indicates that the user can click to download or remove the file.
 
 {% endcolumn %}
 
