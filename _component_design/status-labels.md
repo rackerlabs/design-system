@@ -11,6 +11,7 @@ preview-image: preview-images/status-labels.svg
 last-modified: 2017-12-01
 helix-ui-css: true
 helix-ui-javascript: true
+pagelink: https://rackerlabs.github.io/helix-ui/components/pills/#status-pill
 ---
 
 {% include toc.html %}

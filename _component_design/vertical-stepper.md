@@ -1,5 +1,5 @@
 ---
-title: Vertical stepper
+title: Vertical Stepper
 parent: Content Areas
 layout: component
 category: Components
@@ -8,9 +8,10 @@ usage: >
 preview-image: preview-images/vertical-stepper.svg
 resource: true
 status: stable
-last-modified: 2018-06-18
+last-modified: 2018-08-21
 helix-ui-css: true
 helix-ui-javascript: true
+pagelink: https://rackerlabs.github.io/helix-ui/components/accordions/
 ---
 
 {% include toc.html %}
@@ -123,7 +124,7 @@ The buttons displayed in the button set vary based on the step that the user is 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Vertical stepper button logic"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/vert-stepper/vstepper-composition-buttonlogic.png" width="416"/>
+<embed src="{{site.url}}/assets/images/components/content-areas/vert-stepper/vstepper-composition-buttonlogic.png" width="279"/>
 
 {% endfigure %}
 
@@ -180,7 +181,7 @@ The step counters exist in the following states:
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Counter states and specifications"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/vert-stepper/vstepper-style-counter.png" width="546"/>
+<embed src="{{site.url}}/assets/images/components/content-areas/vert-stepper/vstepper-style-counter.png" width="269"/>
 
 {% endfigure %}
 
@@ -233,6 +234,33 @@ Use these spacing guidelines when you construct a vertical stepper.
 
 {% figure [caption:"Vertical stepper spacing"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/content-areas/vert-stepper/vstepper-spacing.png" width="490"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+### Behavior
+
+Construct a vertical stepper so that the user can expand only one step at a time. When a user clicks to expand a step, any expanded step collapses. Limiting a vertical stepper to a single expanded step offers the following benefits:
+
+- One expanded step reduces page clutter and confusion that the user might encounter when presented with multiple primary CTAs.
+- Data in one step is often dependent on data entered in another step. Restricting the vertical stepper to one expanded step allows for content to be dynamically loaded based on a previous selection.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"Vertical stepper spacing"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/content-areas/vert-stepper/vstepper-behavior.png" width="490"/>
 {% endfigure %}
 
 {% endcolumn %}

@@ -11,6 +11,7 @@ resource: true
 helix-ui-css: true
 helix-ui-javascript: true
 last-modified: 2017-12-11
+pagelink: https://rackerlabs.github.io/helix-ui/components/navigation/
 ---
 
 <section class="static-section" markdown="1">
