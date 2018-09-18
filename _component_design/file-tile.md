@@ -5,7 +5,7 @@ layout: component
 category: Components
 usage: >
   A file tile displays the name, type, and size of an uploaded file. An uploaded file can be downloaded by a user.
-preview-image: preview-images/checkboxes.svg
+preview-image: preview-images/file-tiles_thumbnail.svg
 resource: true
 status: stable
 need: selectors
