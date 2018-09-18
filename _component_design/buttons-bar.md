@@ -9,7 +9,7 @@ usage: >
 preview-image: preview-images/buttons-bar.svg
 status: stable
 resource: true
-last-modified: 2018-09-14
+last-modified: 2018-09-18
 helix-ui-css: true
 helix-ui-javascript: false
 ---
@@ -33,8 +33,6 @@ space.
 - To initiate a workflow.
 - When a user takes action on the current page or in a [modal]({{site.baseurl}}/components/modals.html).
 
-Do not use a buttons bar for objects with a small number of actions. For example, do not use a buttons bar for table objects that have only a create and delete action. When a table object has a small number of actions, use table controls at the top of the table. For more information, see [tables]({{site.baseurl}}/components/tables.html).
-
 {% endcolumn %}
 
 </div>
@@ -52,10 +50,10 @@ Do not use a buttons bar for objects with a small number of actions. For example
 In addition to the [Simple Buttons]({{site.baseurl}}/components/simple-buttons.html) best practices,
 consider the following best practices when you construct a buttons bar:
 
+- Do not use a buttons bar for objects with a small number of actions. For example, do not use a buttons bar for table objects that have only a create and delete action. When a table object has a small number of actions, use table controls at the top of the table. For more information, see [tables]({{site.baseurl}}/components/tables.html).
 - Do not mix button weights or sizes in a buttons bar.
 - The drop-down button should always be the last button in the bar.
-- Do not include destructive actions in a buttons bar because destructive action buttons are often
-disabled until the user has selected an object to destroy.
+- Destructive actions should be placed inside the drop-down menu, and not as a visible button in the bar.
 - Do not use tertiary buttons in a buttons bar.
 
 {% endcolumn %}
@@ -164,7 +162,9 @@ Use these spacing guidelines when you construct a buttons bar.
 
 ## Primary button bar
 
-You can use primary buttons in a buttons bar. Do not include tertiary buttons in a buttons bar.
+A primary button bar is useful when you want to present a generic action in the primary button and specific options in the drop-down menu. For example, you can construct a **Create Database** primary button and a drop-down menu that contains **Standalone MySQL** and **HA MySQL**.
+
+Do not include tertiary buttons in a buttons bar.
 
 {% endcolumn %}
 
