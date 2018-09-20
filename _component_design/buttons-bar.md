@@ -26,8 +26,7 @@ helix-ui-javascript: false
 Use a button bar in the following situations:
 
 - When there is a primary action represented by a simple button and you want to list additional actions in a drop-down menu.
-- To display a number of options in one place, rather than placing multiple buttons horizontally. A button bar conserves
-space.
+- To offer a number of action buttons at once and conserve horizontal space.
 
 {% endcolumn %}
 
