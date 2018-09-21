@@ -4,7 +4,7 @@ parent: Inputs and Controls
 layout: component
 category: Components
 usage: >
-  A button bar consolidates multiple simple buttons into one multi-button component. You can combine multiple simple buttons and a single drop-down button.
+  A button bar consolidates multiple buttons into one multi-button component. You can combine multiple buttons and a single drop-down button.
 preview-image: preview-images/buttons-bar.svg
 status: stable
 resource: true
@@ -25,7 +25,7 @@ helix-ui-javascript: false
 
 Use a button bar in the following situations:
 
-- When there is a primary action represented by a simple button and you want to list additional actions in a drop-down menu.
+- When there is a primary action represented by a button and you want to list additional actions in a drop-down menu.
 - To offer a number of action buttons at once and conserve horizontal space.
 
 {% endcolumn %}
@@ -42,7 +42,7 @@ Use a button bar in the following situations:
 
 ## Best practices
 
-In addition to the [Simple Buttons]({{site.baseurl}}/components/simple-buttons.html) best practices,
+In addition to the [Buttons]({{site.baseurl}}/components/simple-buttons.html) best practices,
 consider the following best practices when you construct a button bar:
 
 - Do not use a button bar for objects with a small number of actions. For example, do not use a button bar for table objects that have only a create and delete action. When a table object has a small number of actions, use table controls at the top of the table. For more information, see [tables]({{site.baseurl}}/components/tables.html).
@@ -83,7 +83,7 @@ Use the following specifications when you construct a button bar.
 
 A button bar contains the following elements:
 
-- **Simple button (required)**: The simple button represents the primary action that the user can take. A button bar can contain multiple simple buttons.
+- **Button (required)**: A button represents the primary action that the user can take. A button bar can contain multiple  buttons.
 - **Drop-down button (optional)**: When the user clicks the drop-down button, additional actions appear on a drop-down menu. Include only one drop-down button in a button bar.
 - **Divider (required)**: The divider separates the buttons in a button bar.
 
