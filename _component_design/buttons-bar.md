@@ -45,9 +45,9 @@ Use a button bar in the following situations:
 In addition to the [Buttons]({{site.baseurl}}/components/simple-buttons.html) best practices,
 consider the following best practices when you construct a button bar:
 
-- Do not use a button bar for objects with a small number of actions. For example, do not use a button bar for table objects that have only a create and delete action. When a table object has a small number of actions, use table controls at the top of the table. For more information, see [tables]({{site.baseurl}}/components/tables.html).
 - Do not mix button weights or sizes in a button bar.
 - Place the drop-down button as the last button in the bar.
+- Do not include destructive actions in a button bar unless they are in the drop-down menu of actions. This is because most of the time the destructive action is disabled.
 - Destructive actions should be placed inside the drop-down menu, and not as a visible button in the bar.
 - Do not use a tertiary button in a button bar.
 
@@ -158,8 +158,6 @@ Depending on the location of the button bar on the page, ensure the drop-down me
 ## Primary button bar
 
 A primary button bar is useful when you want to present a generic action in the primary button and specific options in the drop-down menu. For example, you can construct a **Create Database** primary button and a drop-down menu that contains **Standalone MySQL** and **HA MySQL**.
-
-Do not include tertiary buttons in a button bar.
 
 {% endcolumn %}
 
