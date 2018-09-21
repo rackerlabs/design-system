@@ -10,7 +10,8 @@ status: stable
 resource: true
 last-modified: 2017-11-14
 helix-ui-css: true
-helix-ui-javascript: false
+helix-ui-javascript: na
+pagelink: https://rackerlabs.github.io/helix-ui/components/breadcrumbs/
 ---
 
 {% include toc.html %}

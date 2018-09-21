@@ -9,8 +9,9 @@ preview-image: preview-images/search.svg
 resource: true
 status: stable
 last-modified: 2017-11-07
-helix-ui-css: false
-helix-ui-javascript: false
+helix-ui-css: true
+helix-ui-javascript: true
+pagelink: https://rackerlabs.github.io/helix-ui/components/search/
 ---
 
 {% include toc.html %}

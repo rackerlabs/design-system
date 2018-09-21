@@ -10,6 +10,7 @@ code-element: true
 status: stable
 helix-ui-css: true
 helix-ui-javascript: true
+pagelink: https://rackerlabs.github.io/helix-ui/components/icons/
 ---
 
 {% include toc.html %}
@@ -124,6 +125,48 @@ Only use these icons to indicate the platform service for which it stands.
 <div class="hxRow">
   {% for icon in site.data.icons %}
     {% if icon.group == "platform" %}
+    <div class="hxCol hxSpan-12-xs hxSpan-6-sm hxSpan-3-md hxSpan-2-lg">
+      <div class="icon-chip">
+        <hx-icon type="{{icon.type}}"></hx-icon>
+      </div>
+      <span class="icon-chip-text">{{icon.type}}</span>
+    </div>
+    {% endif %}
+  {% endfor %}
+</div>
+</section>
+
+<section class="static-section"  markdown="1">
+
+### Filetype icons
+
+Only use these icons to indicate different filetypes.
+{:style="padding-bottom:14px"}
+
+<div class="hxRow">
+  {% for icon in site.data.icons %}
+    {% if icon.group == "filetype" %}
+    <div class="hxCol hxSpan-12-xs hxSpan-6-sm hxSpan-3-md hxSpan-2-lg">
+      <div class="icon-chip">
+        <hx-icon type="{{icon.type}}"></hx-icon>
+      </div>
+      <span class="icon-chip-text">{{icon.type}}</span>
+    </div>
+    {% endif %}
+  {% endfor %}
+</div>
+</section>
+
+<section class="static-section"  markdown="1">
+
+### Deprecated icons
+
+These icons have been deprecated and should be removed from designs and development.
+{:style="padding-bottom:14px"}
+
+<div class="hxRow">
+  {% for icon in site.data.icons %}
+    {% if icon.group == "deprecated" %}
     <div class="hxCol hxSpan-12-xs hxSpan-6-sm hxSpan-3-md hxSpan-2-lg">
       <div class="icon-chip">
         <hx-icon type="{{icon.type}}"></hx-icon>

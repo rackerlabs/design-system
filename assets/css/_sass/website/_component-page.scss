@@ -36,6 +36,9 @@
     color: $grey900;
     line-height: $base-line-height;
   }
+  .hero-image {
+    max-width: 292px;
+  }
 }
 .com-code {
   font-size: $font-size-3;
