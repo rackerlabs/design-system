@@ -1,14 +1,14 @@
 ---
-title: Buttons (Iconography)
+title: Button Icons
 parent: Inputs and Controls
 layout: component
 category: Components
 usage: >
-  A button with icon....
+  An icon button enables a user to perform an action or initiate a process on a Control Panel page. A button directs the user's attention to important actions.
 preview-image: preview-images/buttons.svg
 status: stable
 resource: true
-last-modified: 2018-08-20
+last-modified: 2018-09-24
 helix-ui-css: true
 helix-ui-javascript: false
 ---
@@ -23,7 +23,7 @@ helix-ui-javascript: false
 
 ## When to use
 
-Use a button bar when .....
+Add an icon to a button when you want to visually represent an action to the user.
 
 {% endcolumn %}
 
@@ -39,10 +39,14 @@ Use a button bar when .....
 
 ## Best practices
 
-Consider the following best practices when you construct a button bar:
+Consider the following best practices when you construct a button that includes an icon:
 
-- xxxxx.
-- xxxxx.
+- Do not add a icon to a button unless it is immediately recognizable to the user. Icons are often culturally defined. For example, shopping carts don’t exist in all areas of the world.
+- Unless an icon is an established standard, pair the icon with text to convey meaning.
+- Except drop-down indicator icons, place the icon to the left of the button text.
+- If there is an established meaning to an icon, don’t use it to mean something else. For example, don’t use a cog for Settings. A cog should only be used for a drop-down menu of actions.
+- Don’t mix buttons with and without icons in a [button set]({{site.baseurl}}/components/buttons-simple.html) or [button bar]({{site.baseurl}}/component/buttons-bar.html).
+- Don’t deviate from the established secondary button color or tertiary button color.
 
 {% endcolumn %}
 
@@ -56,9 +60,9 @@ Consider the following best practices when you construct a button bar:
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-## Text and icon specifications
+## Text and icon button specifications
 
-Use the following specifications when you construct a simple button.
+Use the following specifications when you construct a text and icon button.
 
 {% endcolumn %}
 
@@ -74,10 +78,11 @@ Use the following specifications when you construct a simple button.
 
 ### Composition
 
-A button bar contains the following elements:
+A text and icon button contains the following elements:
 
-- **xxx (required)**: xxxx.
-- **xxx (required)**: xxxx.
+- **Container (required)**: The container holds the icon and the call-to-action text.
+- **Icon (required)**: The icon visually represents the act that is initiated when the user clicks the button.
+- **Call-to-action (required)**: The call-to-action text describes the act that is initiated when the user clicks the button.
 
 {% endcolumn %}
 
@@ -101,7 +106,7 @@ A button bar contains the following elements:
 
 ### Style
 
-Use these specifications when you construct a button bar.
+Use these specifications when you construct a text and icon button.
 
 {% endcolumn %}
 
@@ -125,7 +130,7 @@ Use these specifications when you construct a button bar.
 
 ### Spacing
 
-Use these spacing guidelines when you construct a button bar.
+Use these spacing guidelines when you construct a text and icon button.
 
 {% endcolumn %}
 
@@ -147,121 +152,9 @@ Use these spacing guidelines when you construct a button bar.
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-## Icon only specifications (simple)
+## Icon-only button specifications
 
-A button bar can exist in *enabled*, *hover*, *pressed*, and *disabled* states.
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow" markdown="1">
-
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-### Close X
-
-xxx.
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-{% figure [caption:"Simple button loading state"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/simple-buttons/buttons-simple-states-loading.png" width="296"/>
-{% endfigure %}
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow" markdown="1">
-
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-### Filter
-
-xxxx.
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-{% figure [caption:"Simple button focus state"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/simple-buttons/buttons-simple-states-focus.png" width="105"/>
-{% endfigure %}
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow" markdown="1">
-
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-### Search
-
-xxx.
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-{% figure [caption:"Button sets"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/simple-buttons/buttons-simple-variations-buttonsets.png" width="316"/>
-{% endfigure %}
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow" markdown="1">
-
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-### Upload and download
-
-xxx.
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-{% figure [caption:"Button sets"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/simple-buttons/buttons-simple-variations-buttonsets.png" width="316"/>
-{% endfigure %}
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow" markdown="1">
-
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-## Icon only specifications (drop-down)
-
-xxx.
+Use the following specifications when you construct an icon-only button.
 
 {% endcolumn %}
 
@@ -277,7 +170,10 @@ xxx.
 
 ### Composition
 
-xxx.
+An icon-only button contains the following elements:
+
+- **Container (required)**: The container holds the icon.
+- **Icon (required)**: The icon visually represents the action initiated when the user clicks the button.
 
 {% endcolumn %}
 
@@ -301,7 +197,7 @@ xxx.
 
 ### Style
 
-xxxx.
+Use these specifications when you construct an icon-only button.
 
 {% endcolumn %}
 
@@ -325,7 +221,35 @@ xxxx.
 
 ### Spacing
 
-xxx.
+Use these spacing guidelines when you construct an icon-only button.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"Button sets"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/simple-buttons/buttons-simple-variations-buttonsets.png" width="316"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+## States
+
+Icon-only buttons can exist in *default*, *hover*, *disabled*, and *focus* states.
+
+Rather than using Cyan 900 to color the tertiary buttons, use #424242 to make them more subdued and less overwhelming to the user.
+
+See [focus states]({{site.baseurl}}/style/focus-states.html) for guidance in constructing focused state icon buttons.
 
 {% endcolumn %}
 
@@ -347,9 +271,9 @@ xxx.
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-## Cog specifications
+## Examples
 
-xxx.
+This section includes examples of common icon buttons that you can use when constructing a control panel page.
 
 {% endcolumn %}
 
@@ -363,7 +287,31 @@ xxx.
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Style
+### Common icon buttons
+
+Choose from a variety of standard icon buttons. See the [Helix Toolkit](https://rackerlabs.github.io/helix-ui/components/icons/) for more information about icons.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"Simple button loading state"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/simple-buttons/buttons-simple-states-loading.png" width="296"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+### Secondary filter
 
 xxxx.
 
@@ -387,9 +335,9 @@ xxxx.
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Spacing
+### Cog
 
-xxx.
+The cog is the most prevalent workflow-based icon button used in Rackspace Systems. When the user clicks a cog, a drop-down menu of actions appears.  
 
 {% endcolumn %}
 
