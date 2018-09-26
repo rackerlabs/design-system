@@ -43,10 +43,9 @@ Consider the following best practices when you construct a button that includes 
 
 - Do not add a icon to a button unless it is immediately recognizable to the user. Icons are often culturally defined. For example, shopping carts don’t exist in all areas of the world.
 - Unless an icon is an established standard, pair the icon with text to convey meaning.
-- Be consistent in your use of iconography in a button bar. Don’t mix text with icon button with text-only buttons.
+- Be consistent in your use of iconography in a [button bar]({{site.baseurl}}/component/buttons-bar.html). Don’t mix text and icon buttons with text-only buttons.
 - Except drop-down indicator icons, place the icon to the left of the button text.
 - If there is an established meaning to an icon, don’t use it to mean something else. For example, don’t use a cog for Settings. A cog should only be used for a drop-down menu of actions.
-- Don’t mix buttons with and without icons in a [button set]({{site.baseurl}}/components/buttons-simple.html) or [button bar]({{site.baseurl}}/component/buttons-bar.html).
 - Don’t deviate from the established secondary button color or tertiary button color.
 
 {% endcolumn %}
@@ -89,7 +88,7 @@ A text and icon button contains the following elements:
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Simple button composition"] [class:"image bg-light border"] %}
+{% figure [caption:"Text and icon button composition"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/inputs-and-controls/button-iconography/buttoniconography-txtwicon-composition.png" width="278"/>
 {% endfigure %}
 
@@ -113,7 +112,7 @@ Use these specifications when you construct a text and icon button.
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Simple button style"] [class:"image bg-light border"] %}
+{% figure [caption:"Text and icon button style"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/inputs-and-controls/button-iconography/buttoniconography-txtwicon-style.png" width="331"/>
 {% endfigure %}
 
@@ -137,7 +136,7 @@ Use these spacing guidelines when you construct a text and icon button.
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Simple button spacing"] [class:"image bg-light border"] %}
+{% figure [caption:"Text and icon button spacing"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/inputs-and-controls/button-iconography/buttoniconography-txtwicon-spacing.png" width="171"/>
 {% endfigure %}
 
@@ -180,7 +179,7 @@ An icon-only button contains the following elements:
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Simple button loading state"] [class:"image bg-light border"] %}
+{% figure [caption:"Icon-only button composition"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/inputs-and-controls/button-iconography/buttoniconography-icononly-composition.png" width="240"/>
 {% endfigure %}
 
@@ -204,7 +203,7 @@ Use these specifications when you construct an icon-only button.
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Simple button focus state"] [class:"image bg-light border"] %}
+{% figure [caption:"Icon-only button style"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/inputs-and-controls/button-iconography/buttoniconography-icononly-style.png" width="271"/>
 {% endfigure %}
 
@@ -228,7 +227,7 @@ Use these spacing guidelines when you construct an icon-only button.
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Button sets"] [class:"image bg-light border"] %}
+{% figure [caption:"Icon-only button spacing"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/inputs-and-controls/button-iconography/buttoniconography-icononly-spacing.png" width="239"/>
 {% endfigure %}
 
@@ -256,7 +255,7 @@ See [focus states]({{site.baseurl}}/style/focus-states.html) for guidance in con
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Button sets"] [class:"image bg-light border"] %}
+{% figure [caption:"Icon-only button states"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/inputs-and-controls/button-iconography/buttoniconography-icononly-states-modtertiary.png" width="270"/>
 {% endfigure %}
 
@@ -296,7 +295,7 @@ Choose from a variety of standard icon buttons. See the [Helix Toolkit](https://
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Simple button loading state"] [class:"image bg-light border"] %}
+{% figure [caption:"Common icon buttons"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/inputs-and-controls/button-iconography/buttoniconography-icononly-examples-common.png" width="440"/>
 {% endfigure %}
 
@@ -314,14 +313,14 @@ Choose from a variety of standard icon buttons. See the [Helix Toolkit](https://
 
 ### Secondary filter
 
-xxxx.
+When you add a filter button to a page, ensure it is a secondary button. Do not use a primary button for a filter.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Simple button focus state"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/button-iconography/buttoniconography-icononly-examples-secondary-filter.png" width="641"/>
+{% figure [caption:"Secondary filter buttons"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/button-iconography/buttoniconography-icononly-examples-secondary-filter.png" width="633"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -344,8 +343,8 @@ The cog is the most prevalent workflow-based icon button used in Rackspace Syste
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Button sets"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/button-iconography/buttoniconography-icononly-examples-modtert-cog.png.png" width="641"/>
+{% figure [caption:"Cog buttons"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/button-iconography/buttoniconography-icononly-examples-modtert-cog.png" width="633"/>
 {% endfigure %}
 
 {% endcolumn %}
