@@ -5,10 +5,10 @@ layout: component
 category: Components
 usage: >
   An icon button enables a user to perform an action or initiate a process on a Control Panel page. A button directs the user's attention to important actions.
-preview-image: preview-images/buttons.svg
+preview-image: preview-images/button-icon_thumbnail.svg
 status: stable
 resource: true
-last-modified: 2018-09-24
+last-modified: 2018-09-28
 helix-ui-css: true
 helix-ui-javascript: false
 ---
