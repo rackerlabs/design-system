@@ -42,7 +42,7 @@ Use a button bar in the following situations:
 
 ## Best practices
 
-In addition to the [Buttons]({{site.baseurl}}/components/simple-buttons.html) best practices,
+In addition to the [Buttons]({{site.baseurl}}/components/buttons.html) best practices,
 consider the following best practices when you construct a button bar:
 
 - Do not mix button weights or sizes in a button bar.
