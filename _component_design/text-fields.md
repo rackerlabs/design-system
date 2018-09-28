@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/text-inputs.svg
 resource: true
 status: stable
-last-modified: 2017-10-24
+last-modified: 2018-09-27
 helix-ui-css: true
 helix-ui-javascript: na
 pagelink: https://rackerlabs.github.io/helix-ui/components/text-inputs/
@@ -18,17 +18,15 @@ pagelink: https://rackerlabs.github.io/helix-ui/components/text-inputs/
 
 <section class="static-section" markdown="1">
 
-## Introduction
-
 <div class="hxRow"  markdown="1">
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### When to use
+## When to use
 
-- Use text fields to enable users to enter text, numbers, passwords, emails, logging in, copying API keys, and any other data pertinent to accomplishing their tasks.
+Use text fields to enable users to enter text, numbers, passwords, emails, logging in, copying API keys, and any other data pertinent to accomplishing their tasks.
 
-### Best practices
+## Best practices
 
 - Text fields should indicate state&emdash;whether enabled or disabled, empty or filled, valid or invalid&emdash;with clear label, input, and assistive text.
 - Text fields should guide the user with data type, format, or other parameters the information should include.
