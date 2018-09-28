@@ -1,10 +1,10 @@
 ---
-title: Button Icons
+title: Button Iconography
 parent: Inputs and Controls
 layout: component
 category: Components
 usage: >
-  An icon button enables a user to perform an action or initiate a process on a Control Panel page. A button directs the user's attention to important actions.
+  Button iconography refers to the use of icons in buttons.
 preview-image: preview-images/button-icon_thumbnail.svg
 status: stable
 resource: true
@@ -41,12 +41,12 @@ Add an icon to a button when you want to visually represent an action to the use
 
 Consider the following best practices when you construct a button that includes an icon:
 
-- Do not add a icon to a button unless it is immediately recognizable to the user. Icons are often culturally defined. For example, shopping carts don’t exist in all areas of the world.
+- Do not add a icon to a button unless it is immediately recognizable to the user. Icons are often culturally defined. For example, mailboxes look very different in various countries whereas envelopes look similar. Therefore, an envelope use an when you represent an email program.
 - Unless an icon is an established standard, pair the icon with text to convey meaning.
 - Be consistent in your use of iconography in a [button bar]({{site.baseurl}}/component/buttons-bar.html). Don’t mix text and icon buttons with text-only buttons.
-- Except drop-down indicator icons, place the icon to the left of the button text.
+- Except for a drop-down indicator icon, place the icon to the left of the button text.
 - If there is an established meaning to an icon, don’t use it to mean something else. For example, don’t use a cog for Settings. A cog should only be used for a drop-down menu of actions.
-- Don’t deviate from the established secondary button color or tertiary button color.
+- Don’t deviate from the established button color.
 
 {% endcolumn %}
 
