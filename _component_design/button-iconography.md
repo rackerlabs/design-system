@@ -41,11 +41,11 @@ Add an icon to a button when you want to visually represent an action to the use
 
 Consider the following best practices when you construct a button that includes an icon:
 
-- Do not add a icon to a button unless it is immediately recognizable to the user. Icons are often culturally defined. For example, mailboxes look very different in various countries whereas envelopes look similar. Therefore, an envelope use an when you represent an email program.
-- Unless an icon is an established standard, pair the icon with text to convey meaning.
+- Do not add an icon to a button unless it is immediately recognizable to the user. Icons are often culturally defined. For example, mailboxes look very different in various countries whereas envelopes look similar. Therefore, use the image of an envelope to represent an email program.
+- Unless an icon is an established standard, pair the icon with text to reinforce its meaning.
 - Be consistent in your use of iconography in a [button bar]({{site.baseurl}}/component/buttons-bar.html). Don’t mix text and icon buttons with text-only buttons.
 - Except for a drop-down indicator icon, place the icon to the left of the button text.
-- If there is an established meaning to an icon, don’t use it to mean something else. For example, don’t use a cog for Settings. A cog should only be used for a drop-down menu of actions.
+- If there is an established meaning to an icon, don’t use it to mean something else. For example, don’t use a cog for **Settings**. A cog should only be used for a drop-down menu of actions.
 - Don’t deviate from the established button color.
 
 {% endcolumn %}
@@ -337,7 +337,7 @@ When you add a filter button to a page, ensure it is a secondary button. Do not 
 
 ### Cog
 
-The cog is the most prevalent workflow-based icon button used in Rackspace Systems. When the user clicks a cog, a drop-down menu of actions appears.  
+The cog is the most prevalent workflow-based icon button used in Rackspace systems. When the user clicks a cog, a drop-down menu of actions appears.  
 
 {% endcolumn %}
 
