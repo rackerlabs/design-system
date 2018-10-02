@@ -7,7 +7,7 @@ usage: The time picker enables users to select a specific time or window from a 
 preview-image: preview-images/time-picker.svg
 resource: true
 status: stable
-last-modified: 2017-10-24
+last-modified: 2018-10-02
 helix-ui-css: false
 helix-ui-javascript: false
 ---
@@ -16,11 +16,9 @@ helix-ui-javascript: false
 
 <section class="static-section" markdown="1">
 
-## Introduction
-
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 ### When to use
 
@@ -28,17 +26,37 @@ Use the time picker if the list of times are sequential, such as 9 a.m., 10 a.m.
 
 Do not use the time picker if there are gaps between time options. For example, if 9 a.m., 12 p.m., and 3 p.m. are the options, use radio buttons.
 
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
 ### Best practices
 
 - Times in a list should be incremental, usually by every 30 minutes or 1 hour, but 10- or 15-minute increments may be used depending on the use case.
 
 {% endcolumn %}
 
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+</div>
 
-{% figure [class:"image bg-light border"] %}
-<embed src="{{site.cdn_url}}/assets/images/components/inputs-and-controls/time-picker/time-picker-hero-image.svg"/>
-{% endfigure %}
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+## Specifications
+
+intro text here...
 
 {% endcolumn %}
 
@@ -52,9 +70,7 @@ Do not use the time picker if there are gaps between time options. For example, 
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-## Specifications
-
-### Default state
+### Composition
 
 - Tabbing to a time picker will set focus on the time picker but not trigger the menu.
 - Keyboard input or clicking anywhere on the element triggers the drop-down menu.
@@ -79,28 +95,16 @@ Do not use the time picker if there are gaps between time options. For example, 
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Focused and expanded
+### Style
 
-#### Predictive behavior
-
-- When the user enters a number on the keypad, the menu will jump to that number.
-- For example, if the user types “7”, 7:00 p.m. will be scrolled to the top of the menu.
-
-#### Default time shown
-
-- The default times shown in the drop-down menu start at 12:00 p.m.
-- If specific times are available, the earliest one would show first, chronologically followed by later times.
-
-#### Default number of visible items
-
-- The number of items visible in the menu is four, unless the use case requires otherwise
+intro text here...
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-<embed src="{{site.cdn_url}}/assets/images/components/inputs-and-controls/time-picker/time-picker-focused-and-expanded-states.svg"/>
+<embed src="{{site.cdn_url}}/assets/images/components/inputs-and-controls/time-picker/time-picker-default-state.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -115,7 +119,105 @@ Do not use the time picker if there are gaps between time options. For example, 
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Invalid states
+### Spacing
+
+Intro text here...
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [class:"image bg-light border"] %}
+<embed src="{{site.cdn_url}}/assets/images/components/inputs-and-controls/time-picker/time-picker-default-state.svg"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+## States
+
+intro text here...
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+### Default
+
+Default time shown
+
+- The default times shown in the drop-down menu start at 12:00 p.m.
+- If specific times are available, the earliest one would show first, chronologically followed by later times.
+
+Default number of visible items
+
+- The number of items visible in the menu is four, unless the use case requires otherwise
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [class:"image bg-light border"] %}
+<embed src="{{site.cdn_url}}/assets/images/components/inputs-and-controls/time-picker/time-picker-default-state.svg"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+### Focused and expanded
+
+Predictive behavior
+
+- When the user enters a number on the keypad, the menu will jump to that number.
+- For example, if the user types “7”, 7:00 p.m. will be scrolled to the top of the menu.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [class:"image bg-light border"] %}
+<embed src="{{site.cdn_url}}/assets/images/components/inputs-and-controls/time-picker/time-picker-default-state.svg"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+### Invalid
 
 - If an invalid entry occurs, stack the error icon and message underneath the help text.
 - When the user replaces the invalid entry with a valid one, hide the error message and icon.
@@ -165,7 +267,7 @@ Do not use the time picker if there are gaps between time options. For example, 
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Time zones
+## Time zones
 
 - It is important to be specific about the time zone because Rackspace is a global company with users around the world.
 - If you want to include a time zone, you can expand the width of the input box and drop-down.
