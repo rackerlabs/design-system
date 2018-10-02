@@ -4,11 +4,11 @@ parent: Inputs and Controls
 layout: component
 category: Components
 usage: >
-  Text fields, including text inputs and text areas, allow users to input, edit, and select text, numbers and passwords.  Text inputs facilitate validation and can be surrounded with help and error information, to instruct the user on filling in information.
+  Text fields allow users to input, edit, and select text, numbers and passwords. Text inputs are validated to ensure input value format is correct.
 preview-image: preview-images/text-inputs.svg
 resource: true
 status: stable
-last-modified: 2018-09-27
+last-modified: 2018-10-01
 helix-ui-css: true
 helix-ui-javascript: na
 pagelink: https://rackerlabs.github.io/helix-ui/components/text-inputs/
@@ -20,24 +20,11 @@ pagelink: https://rackerlabs.github.io/helix-ui/components/text-inputs/
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 ## When to use
 
-Use text fields to enable users to enter text, numbers, passwords, emails, logging in, copying API keys, and any other data pertinent to accomplishing their tasks.
-
-## Best practices
-
-- Text fields should indicate state&emdash;whether enabled or disabled, empty or filled, valid or invalid&emdash;with clear label, input, and assistive text.
-- Text fields should guide the user with data type, format, or other parameters the information should include.
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-{% figure [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-hero-image.svg"/>
-{% endfigure %}
+Use text fields to enable users to enter text, numbers, passwords, emails, log in credentials, an API key, and any other data required by the user to complete a task.
 
 {% endcolumn %}
 
@@ -47,17 +34,54 @@ Use text fields to enable users to enter text, numbers, passwords, emails, loggi
 
 <section class="static-section" markdown="1">
 
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+## Best practices
+
+Consider the following best practices when you construct a text field:
+
+- Text fields should convey the data type of format of the expected input value entered by the user.
+- Consider including required fields on a primary create form, and placing non-required fields in an optional, post-creation workflow.
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
 ## Specifications
+
+Refer to the following specifications when you construct a text field.
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Basic layout
+### Composition
 
-- Labels display the type of input a field requires. Every text field should have a label.
-- Labels are placed above and are left aligned with the input box.
-- Labels should always be visible. Avoid using placeholder text for labeling.
+A text field consists of the following elements:
+
+- **Container (required)**: The container holds the input value.
+- **Label (required)**: The label displays the type of input value the user should enter. Place the label above and left aligned with the container.
+- **Input value (required)**: The user enters an input value.
+- **Helper text (optionl)**: Use helper text to provide clear instructions such as examples, syntax, or other parameters required for validation. If possible, keep helper text to a single line. If more than two lines are required, consider using a tooltip.
+- **Character counter (optional)**: Use a character or word counter when there is a character or word limit on a text field. Right justify the counter with the container. Display the counter as a ratio of characters used to the character limit for the text field. Use the format `characters used / character limit`. For example, `5/10`.
 
 {% endcolumn %}
 
@@ -79,88 +103,9 @@ Use text fields to enable users to enter text, numbers, passwords, emails, loggi
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Placeholder text
+### Style
 
-- Placeholder text can be displayed in an empty text field until input is entered.
-- The placeholder can be instructive text or an example, such as a phone number or email address.
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-{% figure [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-placeholder-text.svg"/>
-{% endfigure %}
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow"  markdown="1">
-
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-### Helper text
-
-- Use helper text to provide clear instructions such as examples, syntax, or other parameters required for validation.
-- Keep text to a single line if possible, though two lines are acceptable.
-- If more than two lines of help text are needed, consider using a tooltip instead.
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-{% figure [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-helper-text.svg"/>
-{% endfigure %}
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow"  markdown="1">
-
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-### Required fields
-
-- Indicate that a field is required by displaying an asterisk `*` to the left of the label.
-- To aid recognition, the asterisk should overhang the space to the left of the group by 4 pixels.
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-{% figure [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-required.svg"/>
-{% endfigure %}
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow"  markdown="1">
-
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-### Character or word counter
-
-- Use character or word counters if there is a character or word limit on the input.
-- Justify the counter to the right within the control group.
-- Display the counter as a ratio of characters used to the character limit for the input field.
-- **Format:** `characters used / character limit`. For example, `5/10`.
+Use these specifications when you construct a text field.
 
 {% endcolumn %}
 
@@ -178,27 +123,39 @@ Use text fields to enable users to enter text, numbers, passwords, emails, loggi
 
 <section class="static-section" markdown="1">
 
-## States overview
-
 <div class="hxRow"  markdown="1">
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-Validation for individual inputs should occur when the user shifts focus to another element (`onBlur`), and the entire form should go through a validation check on submit.
+### Spacing
 
-### Are non-required fields always necessary?
-
-- **Design goal**: Enable users to get what they need with as few up-front choices as possible.
-- In our industry, complex resources often have fields that are configurable AFTER the resource is created.
-- Consider only including required fields in the main create form, and placing non-required fields in an optional, post-creation workflow.
+Refer to these spacing specifications when you construct a text field.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-states-overview.svg"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-character-or-word-counter.svg"/>
 {% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+## States
+
+Text fields can be in an *enabled*, *disabled*, and *error* state.
+
+Input value validation occurs when the user shifts focus to another element (`onBlur`). The page is validated when the user clicks submit.
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 {% endcolumn %}
 
@@ -212,11 +169,17 @@ Validation for individual inputs should occur when the user shifts focus to anot
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Disabled state
+### Enabled
 
-- Disabled text fields are not editable. They have a slightly darker background fill, lighter border, and lighter input text.
-- Disabled fields are also indicated with a cursor change to “not-allowed”, reinforcing the state for the user.
-- When a field is disabled, consider changing the help text so the user understands why it is disabled.
+Consider the following guidelines when you construct an enabled text field:
+
+- A text field begins in the inactive and empty state.
+- Use placeholder to provide instructive text or an example, such as a phone number or email address.
+- When the user clicks in the text field, the placeholder text remains until the user types. The placeholder text reappears when the user deletes an input value.
+- A text field remains enabled until the user makes a selection outside of the field.
+- Place an asterisk to the left of the label when you want to indicate that a field is required. To aid recognition, overhang the asterisk in the space to the left of the label by 4 pixels.
+
+See [focus states]({{site.baseurl}}/components/focus-states.html) for guidance in constructing focused text fields in an enabled state.
 
 {% endcolumn %}
 
@@ -238,18 +201,18 @@ Validation for individual inputs should occur when the user shifts focus to anot
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Focused
+### Disabled
 
-- When a text field is selected, the border color changes to `cyan 700` and is raised by a shadow to give the user an indication of where they are in the form.
-- The field remains in a focused state as long as the user inputs text or doesn't make a selection outside of the field.
-- As the user types into the text field, input text replaces any placeholder text.
+In a disabled state, a text field cannot be edited by the user and the not-allowed style is applied to the cursor. The not-allowed cursor style prevents the user from clicking in the text field.
+
+When a field is disabled, consider changing the helper text so the user understands why it is disabled.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-focused.svg"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-disabled.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -264,21 +227,22 @@ Validation for individual inputs should occur when the user shifts focus to anot
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Invalid
+### Error
 
-- The input border changes color and thickness to reflect the invalid state.
-- Stack error messages below any helper text.
-- The error message must be preceded by the error icon.
-- Error text should fit on a single line.
-- When focused, the input box gains a shadow, matching the red error color.
-- Once the input contains valid data, it returns to default state and the error message is removed.
+Consider the following guidelines when you construct an error state text field:
+
+- The text field container changes color to reflect the invalid state.
+- Place the error icon to the left of the error message.
+- Place the error message below the helper text.
+- When the user enters a valid value, the text field returns to the enabled state and the error message is removed.
+- Extended error message text extends to the right edge of the text field container.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-invalid.svg"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-disabled.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -289,17 +253,15 @@ Validation for individual inputs should occur when the user shifts focus to anot
 
 <section class="static-section" markdown="1">
 
-## Input types
-
 <div class="hxRow"  markdown="1">
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-Text fields can be formatted to indicate the types of data a field accepts by using placeholder text, a preset layout, and character limits. Text formatting should be displayed only when the field is focused or filled.
+## Variations
 
-Characters can be formatted using:
-- Prefixes and suffixes
-- Password redaction
+You can format text fields to accept only certain kinds of data. For example, you can add the dollar sign (**$**) prefix to a text field to indicate that the user should enter numeric values.
+
+This section includes specifications for prefix and suffix text fields, password redaction text fields, and multi-line text fields.
 
 {% endcolumn %}
 
@@ -315,9 +277,9 @@ Characters can be formatted using:
 
 ### Prefixes and suffixes
 
-- Prefixes and suffixes can be used to clarify units or to add input in advance.
-- Prefixes are left justified in the text field; suffixes are right justified.
-- Text fields can have both prefixes and suffixes.
+Use a prefix or suffix to clarify units or to add input in advance. Left justify a prefix; right justify a suffix.
+
+A text field can have a prefix and a suffix.
 
 {% endcolumn %}
 
@@ -341,7 +303,7 @@ Characters can be formatted using:
 
 ### Password redaction
 
-Password input is disguised by default. Midline ellipses are displayed to represent each character of a password entered (such as `•••••••`).
+Use password redaction when you want to disguise an input value. Use midline ellipses to represent each character of a password entered (such as `•••••••`).
 
 {% endcolumn %}
 
@@ -359,18 +321,21 @@ Password input is disguised by default. Midline ellipses are displayed to repres
 
 <section class="static-section" markdown="1">
 
-## Text Areas
-
 <div class="hxRow"  markdown="1">
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Basic layout
+### Text Areas
 
-- Layout specs for text areas are the same as for text inputs.
+Use a text area when you want the user to enter long-form content up to a predetermined limit.
+
+Consider the following guidelines when you construct a multi-line text area:
+
 - Text areas are taller than text fields and wrap overflow text onto a new line.
 - Text areas scroll vertically when the cursor reaches the bottom of the field.
-- They can include an optional draggable resize icon in the lower corner.
+- A text area can include an optional draggable resize icon in the lower corner.
+- All text field specifications apply to a text area.
+- Text area states follow the same layout and behaviors as text fields.
 
 {% endcolumn %}
 
@@ -378,30 +343,6 @@ Password input is disguised by default. Midline ellipses are displayed to repres
 
 {% figure [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-area-basic-layout.svg"/>
-{% endfigure %}
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow"  markdown="1">
-
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-### Text area states
-
-Text area states also follow the same layout and behaviors as text inputs.
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-{% figure [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-area-states-overview.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
