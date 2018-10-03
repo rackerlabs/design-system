@@ -3,11 +3,11 @@ title: Time Picker
 parent: Inputs and Controls
 layout: component
 category: Components
-usage: The time picker enables users to select a specific time or window from a sequential list. The time picker is often accompanied by a date picker for the purpose of creating a date range filter.
+usage: The time picker enables the user to select a time from a list of values. The time picker is often accompanied by a date picker that a user can use to create a date range filter.
 preview-image: preview-images/time-picker.svg
 resource: true
 status: stable
-last-modified: 2018-10-02
+last-modified: 2018-10-03
 helix-ui-css: false
 helix-ui-javascript: false
 ---
@@ -20,9 +20,9 @@ helix-ui-javascript: false
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-### When to use
+## When to use
 
-Use the time picker if the list of times are sequential, such as 9 a.m., 10 a.m., 11 a.m., and so on.
+Use the time picker when the list of times is sequential, such as 9 a.m., 10 a.m., 11 a.m., and so on.
 
 Do not use the time picker if there are gaps between time options. For example, if 9 a.m., 12 p.m., and 3 p.m. are the options, use radio buttons.
 
@@ -38,9 +38,11 @@ Do not use the time picker if there are gaps between time options. For example, 
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-### Best practices
+## Best practices
 
-- Times in a list should be incremental, usually by every 30 minutes or 1 hour, but 10- or 15-minute increments may be used depending on the use case.
+Consider the following best practices when you construct a time picker:
+
+- Depending on the use case, provide 10-minute, 15-minute, 30-minute or 1-hour time increments in a time picker.
 
 {% endcolumn %}
 
@@ -56,7 +58,7 @@ Do not use the time picker if there are gaps between time options. For example, 
 
 ## Specifications
 
-intro text here...
+Consider the following specifications when you construct a time picker.
 
 {% endcolumn %}
 
