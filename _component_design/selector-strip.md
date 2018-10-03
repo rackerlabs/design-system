@@ -77,7 +77,7 @@ Consider the following best practices when you construct a selector strip:
 - Use short option labels (for example, three words maximum and up to 10 characters) so that the number of options can fit horizontally on a small screen.
 - If they are commonly understood, use abbreviations. For example, on a credit card selector strip the user understands that *AmEx* stands for *American Express*.
 - A selector strip should not wrap.
-- Do not use a selector strip to trigger an action. If you need multiple triggers alongside each other, consider a [button bar]({{site.baseurl}}/components/buttons-bar.html) or a [button set]({{site.baseurl}}/components/buttons.html).
+- Do not use a selector strip to trigger an action. If you need multiple triggers alongside each other, consider a [button bar]({{site.baseurl}}/components/button-bars.html) or a [button set]({{site.baseurl}}/components/buttons.html).
 
 {% endcolumn %}
 

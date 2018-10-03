@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/buttons.svg
 status: stable
 resource: true
-last-modified: 2018-09-27
+last-modified: 2018-10-03
 helix-ui-css: true
 helix-ui-javascript: na
 pagelink: https://rackerlabs.github.io/helix-ui/components/buttons/#basic-button
@@ -26,7 +26,7 @@ pagelink: https://rackerlabs.github.io/helix-ui/components/buttons/#basic-button
 
 Use a button when you want the user to launch a process or initiate an action.
 
-Do not use buttons for navigation. When the user needs to navigate from one page to another, use a [text link]({{site.baseURL}}/style/typography.html#link).
+Do not use buttons for navigation. When the user needs to navigate from one page to another, use a [text link]({{site.baseurl}}/style/typography.html#link).
 
 {% endcolumn %}
 

@@ -1,5 +1,5 @@
 ---
-title: Buttons (Drop-down)
+title: Buttons Drop-down
 parent: Inputs and Controls
 layout: component
 category: Components
@@ -39,7 +39,7 @@ Use a drop-down button when there are multiple actions associated with a button 
 
 ## Best practices
 
-In addition to the best practices outlined in [Buttons]({{site.baseurl}}/components/buttons.html), consider the following best practices when you construct a drop-down button:
+In addition to the best practices outlined in [buttons]({{site.baseurl}}/components/buttons.html), consider the following best practices when you construct a drop-down button:
 
 - Ensure that you label a drop-down button accurately. The user should be able to predict the options that are available in the drop-down menu.
 - While a drop-down button reduces the clutter on a page, drop-down buttons conceal user options. Consider listing all options as an alternative to concealing options within a button.
@@ -76,7 +76,7 @@ Use the following specifications when you construct a drop-down button.
 
 A drop-down button contains the following elements:
 
-- **Button (required)**: Refer to [Buttons]({{site.baseurl}}/components/buttons.html) for more information about constructing a button.
+- **Button (required)**: Refer to [buttons]({{site.baseurl}}/components/buttons.html) for more information about constructing a button.
 - **Angle-down icon (required)**: The drop-down menu appears when the user clicks the angle-down icon. See the [Icons](https://rackerlabs.github.io/helix-ui/components/icons/) page of the Helix Toolkit for information about the angle-down icon.
 - **Section header (optional)**: Include a section header to organize menu items into logical groups. Consider using section headers when the menu container contains many items.
 - **Menu item (required)**: A menu item is an action that a user can select.
