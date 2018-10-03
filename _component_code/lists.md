@@ -1,8 +1,8 @@
 ---
-title: Search Bar
+title: Lists
 layout: code
 category: Components Code
-code: components/search
+code: components/lists
 ---
 
 {% include code-container.html %}

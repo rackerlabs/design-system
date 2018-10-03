@@ -1,8 +1,8 @@
 ---
-title: Action Menus
+title: Pills
 layout: code
 category: Components Code
-code: components/menus
+code: components/pills
 ---
 
 {% include code-container.html %}

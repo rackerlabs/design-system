@@ -2,7 +2,7 @@
 title: Toast
 layout: code
 category: Components Code
-code: null
+code: components/toasts
 ---
 
-{% include todo.html content="Set up code." %}
+{% include code-container.html %}
