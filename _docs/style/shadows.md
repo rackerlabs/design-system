@@ -43,7 +43,7 @@ The type of shadow is not determined by the z-index of the element.  Instead, th
 
 The illustration to the right demonstrates that the Tooltip, which has the highest z-index, does not cast the biggest shadow.  Rather, it casts a Layering shadow because it was triggered by content on the modal.
 
- 
+
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
@@ -74,8 +74,6 @@ Layering shadow values are used for:
 - [Navigation drop-downs]({{site.baseurl}}/components/eyebrow.html)
 - [Popovers]({{site.baseurl}}/components/popovers.html)
 - [Tooltips]({{site.baseurl}}/components/tooltip.html)
-- [Action menus]({{site.baseurl}}/components/actions-menu.html)
-
 
 
 {% endcolumn %}
@@ -104,7 +102,7 @@ Layering shadow values are used for:
 Focusing shadows are used when an element overlays most of the UI and does not need to be closely associated with the element that triggered its appearance.
 
 Focusing shadows are used for the following components:
- 
+
 - [Modals]({{site.baseurl}}/components/modal.html)
 - [Toast notifications]({{site.baseurl}}/components/toast.html)
 
