@@ -1,8 +1,8 @@
 ---
-title: Search Bar
+title: Vertical Stepper
 layout: code
 category: Components Code
-code: components/search
+code: components/accordions
 ---
 
 {% include code-container.html %}

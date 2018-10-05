@@ -1,5 +1,5 @@
 ---
-title: Charts
+title: Input Selectors
 layout: code
 category: Components Code
 code: null
