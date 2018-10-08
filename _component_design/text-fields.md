@@ -4,11 +4,11 @@ parent: Inputs and Controls
 layout: component
 category: Components
 usage: >
-  Text fields allow users to input, edit, and select text, numbers and passwords. Text inputs are validated to ensure input value format is correct.
+  Text fields allow users to input, edit, and select text, numbers and passwords. Text inputs are validated to ensure that the input value format is correct.
 preview-image: preview-images/text-inputs.svg
 resource: true
 status: stable
-last-modified: 2018-10-01
+last-modified: 2018-10-08
 helix-ui-css: true
 helix-ui-javascript: na
 pagelink: https://rackerlabs.github.io/helix-ui/components/text-inputs/
@@ -42,7 +42,7 @@ Use text fields to enable users to enter text, numbers, passwords, emails, log i
 
 Consider the following best practices when you construct a text field:
 
-- Text fields should convey the data type of format of the expected input value entered by the user.
+- Text fields should convey the the data type format of the input value entered by the user.
 - Consider including required fields on a primary create form, and placing non-required fields in an optional, post-creation workflow.
 
 {% endcolumn %}
@@ -177,7 +177,7 @@ Consider the following guidelines when you construct an enabled text field:
 - Use placeholder to provide instructive text or an example, such as a phone number or email address.
 - When the user clicks in the text field, the placeholder text remains until the user types. The placeholder text reappears when the user deletes an input value.
 - A text field remains enabled until the user makes a selection outside of the field.
-- Place an asterisk to the left of the label when you want to indicate that a field is required. To aid recognition, overhang the asterisk in the space to the left of the label by 4 pixels.
+- Place an asterisk to the left of the label to indicate a required field. To aid recognition, overhang the asterisk 4 pixels to the left of the label.
 
 See [focus states]({{site.baseurl}}/components/focus-states.html) for guidance in constructing focused text fields in an enabled state.
 
@@ -203,7 +203,7 @@ See [focus states]({{site.baseurl}}/components/focus-states.html) for guidance i
 
 ### Disabled
 
-In a disabled state, a text field cannot be edited by the user and the not-allowed style is applied to the cursor. The not-allowed cursor style prevents the user from clicking in the text field.
+In a disabled state, a text field cannot be edited by the user and the ``not-allowed`` style is applied to the cursor. The not-allowed cursor style prevents the user from clicking in the text field.
 
 When a field is disabled, consider changing the helper text so the user understands why it is disabled.
 
@@ -277,7 +277,7 @@ This section includes specifications for prefix and suffix text fields, password
 
 ### Prefixes and suffixes
 
-Use a prefix or suffix to clarify units or to add input in advance. Left justify a prefix; right justify a suffix.
+Use a prefix or suffix to clarify the meaning of the numeric input value entered by the user. Left justify a prefix and right justify a suffix.
 
 A text field can have a prefix and a suffix.
 
