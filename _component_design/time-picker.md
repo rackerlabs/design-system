@@ -3,11 +3,11 @@ title: Time Picker
 parent: Inputs and Controls
 layout: component
 category: Components
-usage: The time picker enables the user to select a time from a list of values. The time picker is often accompanied by a date picker that a user can use to create a date range filter.
+usage: The time picker enables the user to select a time from a list of values. The time picker is often accompanied by a date picker that a user can use to select a date.
 preview-image: preview-images/time-picker.svg
 resource: true
 status: stable
-last-modified: 2018-10-03
+last-modified: 2018-10-08
 helix-ui-css: false
 helix-ui-javascript: false
 ---
@@ -22,9 +22,9 @@ helix-ui-javascript: false
 
 ## When to use
 
-Use the time picker when the list of times is sequential, such as 9 a.m., 10 a.m., 11 a.m., and so on.
+Use the time picker when you want to enable a user to select any time from a 24-hour clock.
 
-Do not use the time picker if there are gaps between time options. For example, if 9 a.m., 12 p.m., and 3 p.m. are the options, use radio buttons.
+If you want the user to select a time from a list of predetermined times, consider using [radios]({{site.baseurl}}\components\radios.html).
 
 {% endcolumn %}
 
@@ -42,7 +42,7 @@ Do not use the time picker if there are gaps between time options. For example, 
 
 Consider the following best practices when you construct a time picker:
 
-- Depending on the use case, provide 10-minute, 15-minute, 30-minute or 1-hour time increments in a time picker.
+- Depending on the use case, provide 10-minute, 15-minute, or 30-minute increments in a time picker.
 
 {% endcolumn %}
 
@@ -99,7 +99,7 @@ Consider the following specifications when you construct a time picker.
 
 ### Style
 
-intro text here...
+Use these specifications when you construct a time picker.
 
 {% endcolumn %}
 
@@ -123,7 +123,7 @@ intro text here...
 
 ### Spacing
 
-Intro text here...
+Use these spacing guidelines when you construct a time picker.
 
 {% endcolumn %}
 
@@ -147,7 +147,7 @@ Intro text here...
 
 ## States
 
-intro text here...
+A time picker can exist in a *default*, *focused and expanded*, *invalid*, and *idle and disabled* states.
 
 {% endcolumn %}
 
@@ -271,9 +271,10 @@ Predictive behavior
 
 ## Time zones
 
-- It is important to be specific about the time zone because Rackspace is a global company with users around the world.
-- If you want to include a time zone, you can expand the width of the input box and drop-down.
-- Consider using instructional help text below the picker to note the user's timezone offset.
+Rackspace is a global company with users around the world. Consider the following guidelines when you include a time zone indicator when you construct a time picker:
+
+- When you add a time zone indicator, expand the width of the input box and drop-down.
+- Use helper text below the picker to note the user's timezone offset.
 
 {% endcolumn %}
 
