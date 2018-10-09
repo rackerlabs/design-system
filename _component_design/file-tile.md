@@ -9,7 +9,7 @@ preview-image: preview-images/file-tiles_thumbnail.svg
 resource: true
 status: stable
 need: selectors
-last-modified: 2018-09-14
+last-modified: 2018-09-15
 helix-ui-css: true
 helix-ui-javascript: true
 pagelink: https://rackerlabs.github.io/helix-ui/components/files/#file-tile
