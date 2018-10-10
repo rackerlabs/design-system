@@ -344,7 +344,7 @@ Consider the following guidelines when you construct a multi-line text area:
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-area-basic-layout.svg"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/text-fields/textfields-variations-textareas.png" width="208"/>
 {% endfigure %}
 
 {% endcolumn %}
