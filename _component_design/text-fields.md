@@ -80,7 +80,7 @@ A text field consists of the following elements:
 - **Container (required)**: The container holds the input value.
 - **Label (required)**: The label displays the type of input value the user should enter. Place the label above and left aligned with the container.
 - **Input value (required)**: The user enters an input value.
-- **Helper text (optionl)**: Use helper text to provide clear instructions such as examples, syntax, or other parameters required for validation. If possible, keep helper text to a single line. If more than two lines are required, consider using a tooltip.
+- **Helper text (optional)**: Use helper text to provide clear instructions such as examples, syntax, or other parameters required for validation. If possible, keep helper text to a single line. If more than two lines are required, consider using a tooltip.
 - **Character counter (optional)**: Use a character or word counter when there is a character or word limit on a text field. Right justify the counter with the container. Display the counter as a ratio of characters used to the character limit for the text field. Use the format `characters used / character limit`. For example, `5/10`.
 
 {% endcolumn %}
@@ -88,7 +88,7 @@ A text field consists of the following elements:
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-basic-layout.svg"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/text-fields/textfields-composition.png" width="398"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -112,7 +112,7 @@ Use these specifications when you construct a text field.
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-character-or-word-counter.svg"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/text-fields/textfields-style.png" width="453"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -136,7 +136,7 @@ Refer to these spacing specifications when you construct a text field.
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-character-or-word-counter.svg"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/text-fields/textfields-spacing.png" width="314"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -174,10 +174,10 @@ Input value validation occurs when the user shifts focus to another element (`on
 Consider the following guidelines when you construct an enabled text field:
 
 - A text field begins in the inactive and empty state.
-- Use placeholder to provide instructive text or an example, such as a phone number or email address.
-- When the user clicks in the text field, the placeholder text remains until the user types. The placeholder text reappears when the user deletes an input value.
-- A text field remains enabled until the user makes a selection outside of the field.
-- Place an asterisk to the left of the label to indicate a required field. To aid recognition, overhang the asterisk 4 pixels to the left of the label.
+- Use an optional placeholder to provide instructive text or an example, such as a phone number or email address.
+- When the user clicks in the text field, the text field becomes active. Placeholder text remains visible until the user types and reappears when the user deletes an input value.
+- A text field remains active until the user clicks outside of the field.
+- To indicate a required field, place an asterisk to the left of the label. To aid recognition, overhang the asterisk 4 pixels to the left of the label.
 
 See [focus states]({{site.baseurl}}/components/focus-states.html) for guidance in constructing focused text fields in an enabled state.
 
@@ -186,7 +186,7 @@ See [focus states]({{site.baseurl}}/components/focus-states.html) for guidance i
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-disabled.svg"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/text-fields/textfields-states-enabled.png" width="389"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -212,7 +212,7 @@ When a field is disabled, consider changing the helper text so the user understa
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-disabled.svg"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/text-fields/testfields-disabled.png" width="400"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -229,6 +229,8 @@ When a field is disabled, consider changing the helper text so the user understa
 
 ### Error
 
+An inactive and error state occurs when the user closes or submits a form and a required field is empty.
+
 Consider the following guidelines when you construct an error state text field:
 
 - The text field container changes color to reflect the invalid state.
@@ -242,7 +244,7 @@ Consider the following guidelines when you construct an error state text field:
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-disabled.svg"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/text-fields/textfields-states-error.png" width="428"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -259,7 +261,7 @@ Consider the following guidelines when you construct an error state text field:
 
 ## Variations
 
-You can format text fields to accept only certain kinds of data. For example, you can add the dollar sign (**$**) prefix to a text field to indicate that the user should enter numeric values.
+You can format text fields to accept only certain types of data. For example, you can add the dollar sign (**$**) prefix to a text field to indicate that the user should enter numeric values.
 
 This section includes specifications for prefix and suffix text fields, password redaction text fields, and multi-line text fields.
 
@@ -286,7 +288,7 @@ A text field can have a prefix and a suffix.
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-prefixes-and-suffixes.svg"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/text-fields/textfields-variations-prefixes.png" width="400"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -310,7 +312,7 @@ Use password redaction when you want to disguise an input value. Use midline ell
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/text-fields/text-fields-text-input-password-redaction.svg"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/text-fields/textfields-variations-redaction.png" width="400"/>
 {% endfigure %}
 
 {% endcolumn %}
