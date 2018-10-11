@@ -2,7 +2,7 @@
 title: Selector Strip
 layout: code
 category: Components Code
-code: null
+code: components/selector-strips
 ---
 
-{% include todo.html content="Set up code." %}
+{% include code-container.html %}

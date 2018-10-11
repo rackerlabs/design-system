@@ -8,9 +8,10 @@ usage: >
 preview-image: preview-images/tooltip.svg
 status: stable
 resource: true
-last-modified: 2018-06-01
+last-modified: 2018-08-02
 helix-ui-css: true
 helix-ui-javascript: true
+pagelink: https://rackerlabs.github.io/helix-ui/components/tooltips/
 ---
 
 {% include toc.html %}
@@ -141,7 +142,7 @@ A tooltip stands out from the background by using a lighter background color tha
 
 ### Spacing
 
-Use the following spacing guidelines when you construct a tooltip.
+Use these spacing guidelines when you construct a tooltip.
 
 - Space between vertical elements: **8px**
 - Space between unrelated elements: **12px**
@@ -152,7 +153,7 @@ Use the following spacing guidelines when you construct a tooltip.
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Tooltip spacing"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/tooltips/tooltips-spacing.png" width="218px"/>
+<embed src="{{site.url}}/assets/images/components/content-areas/tooltips/tooltip-spacing.png" width="222px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -182,7 +183,7 @@ Use the following guidelines when you construct a popover pointer:
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Tooltip pointer size and placement"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/tooltips/tooltips-style-pointer.png" width="545px"/>
+<embed src="{{site.url}}/assets/images/components/content-areas/tooltips/tooltip-style-pointer.png" width="545px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -288,7 +289,7 @@ Tooltips appear after a user activates a trigger. You can apply a trigger to an 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Tooltip trigger types"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/tooltips/tooltips-examples.png" width="520px"/>
+<embed src="{{site.url}}/assets/images/components/content-areas/tooltips/tooltips-examples.png" width="362px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -366,7 +367,7 @@ Apply a tooltip loading state exclusively to data visualizations.
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Loading state"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/tooltips/tooltips-state-loading.png" width="486px"/>
+<embed src="{{site.url}}/assets/images/components/content-areas/tooltips/tooltips-state-loading.png" width="362px"/>
 {% endfigure %}
 
 {% endcolumn %}

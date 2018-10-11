@@ -12,6 +12,7 @@ need: selectors
 last-modified: 2018-07-25
 helix-ui-css: true
 helix-ui-javascript: true
+pagelink: https://rackerlabs.github.io/helix-ui/components/checkboxes/
 ---
 
 {% include toc.html %}

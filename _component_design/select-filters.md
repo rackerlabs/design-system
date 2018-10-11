@@ -9,8 +9,8 @@ preview-image: preview-images/select-filter.svg
 resource: true
 status: stable
 last-modified: 2018-05-22
-helix-ui-css: true
-helix-ui-javascript: true
+helix-ui-css: false
+helix-ui-javascript: false
 ---
 
 {% include toc.html %}

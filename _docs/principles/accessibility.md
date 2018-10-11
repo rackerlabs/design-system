@@ -11,11 +11,10 @@ last-modified: 2017-10-24
 
 {% include toc.html %}
 
-
-
 <section class="static-section" markdown="1">
 
 ## Accessibility for visual design
+
 <div class="hxRow"  markdown="1">
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-12-md hxSpan-12-lg" %}
@@ -29,11 +28,15 @@ Rackspace products must be made accessible for everyone&mdash;regardless of a pe
 By using the following best practices, you can help ensure that your design is accessible for the visually impaired.
 
 {% endcolumn %}
+
 </div>
+
 </section>
 
 <section class="static-section" markdown="1">
+
 <div class="hxRow"  markdown="1">
+
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-12-md hxSpan-12-lg" %}
 
 ### Do not rely on color alone to convey meaning
@@ -41,40 +44,53 @@ By using the following best practices, you can help ensure that your design is a
 Color deficiency is a common issue that is faced in the design process. The most common form of color blindness is known as red and green color deficiency, and most color deficient people suffer from either Protanopia (less sensitivity to red light) or Deuteranopia (less sensitivity to green light). Red and green color deficiency can mean that those affected have troubles distinguishing certain hues of red and green. For example, an individual with red or green color deficiency can confuse blue and purple because they might not be able to distinguish the red element of purple.
 
 {% endcolumn %}
+
 </div>
+
 <div class="hxRow"  markdown="1">
+
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
 {% figure [caption:"Helix colors as seen in normal vision"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/overview/accessibility/accessibility-hero-1.svg"/>
 {% endfigure %}
+
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
 {% figure [caption:"Protanopia - reduced sensitivity to red"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/overview/accessibility/accessibility-hero-2.svg"/>
 {% endfigure %}
+
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
 {% figure [caption:"Deuteranopia - reduced sensitivity to green"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/overview/accessibility/accessibility-hero-3.svg"/>
 {% endfigure %}
+
 {% endcolumn %}
+
 </div>
 
-
 <div class="hxRow"  markdown="1">
+
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-12-md hxSpan-12-lg" %}
 
 While color can be useful to convey information, color should not be the only way information is conveyed. When using color to differentiate elements, also provide additional identification that does not rely on color perception. There should always be a backup visual indicator for people with color blindness.
 
 {% endcolumn %}
+
 </div>
+
 </section>
 
-
 <section class="static-section"  markdown="1">
+
 <div class="hxRow"  markdown="1">
+
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Alerts
@@ -90,22 +106,28 @@ Other optional indicators to consider are the following elements:
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
 {% figure [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/overview/accessibility/accessibility-alerts.png" width="598"/>
 {% endfigure %}
+
 {% endcolumn %}
+
 </div>
+
 </section>
 
 <section class="static-section"  markdown="1">
+
 <div class="hxRow"  markdown="1">
+
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Color and contrast
 
 Readability requires sufficient contrast between the text and its background. Low contrast is especially problematic for users with low vision who also often have contrast sensitivity.
 
-To ensure text is readable, Helix adheres to the accessibility standards defined by [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG21/). These standards are based on contrast ratios calculated from text size, text color, and background color.  
+To ensure text is readable, Helix adheres to the accessibility standards defined by [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG21/). These standards are based on contrast ratios calculated from text size, text color, and background color. 
 
 Helix minimum contrast standards require the following elements:
 
@@ -116,15 +138,21 @@ Helix minimum contrast standards require the following elements:
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
 {% figure [caption: "Helix typography styles with their corresponding contrast ratios. All ratios were calculated using a `#fafafa` (`gray 25`) background color."] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/overview/accessibility/accessibility-typography.png" width="598"/>
 {% endfigure %}
+
 {% endcolumn %}
+
 </div>
+
 </section>
 
 <section class="static-section"  markdown="1">
+
 <div class="hxRow"  markdown="1">
+
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-12-md hxSpan-12-lg" %}
 
 ### Use headings and spacing to group related content
@@ -147,22 +175,29 @@ Helix minimum spacing standards require: 
 {% endcolumn %}
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
 {% figure [caption: "Little spacing and unclear relationships"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/overview/accessibility/accessibility-space-1.png" width="305"/>
 {% endfigure %}
+
 {% endcolumn %}
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
 {% figure [caption: "More spacing and clear relationships"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/overview/accessibility/accessibility-space-2.png" width="305"/>
 {% endfigure %}
+
 {% endcolumn %}
+
 </div>
 
 </section>
 
 <section class="static-section"  markdown="1">
+
 <div class="hxRow"  markdown="1">
+
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-12-md hxSpan-12-lg" %}
 
 ### Provide easily identifiable feedback
@@ -182,15 +217,19 @@ It is important to reserve the prominent border at 2px for failed text input as 
 {% endcolumn %}
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
 {% figure [caption:"Default state"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/overview/accessibility/accessibility-inputs-1.svg"/>
 {% endfigure %}
+
 {% endcolumn %}
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
 {% figure [caption:"Error state"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/overview/accessibility/accessibility-inputs-2.svg"/>
 {% endfigure %}
+
 {% endcolumn %}
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
@@ -202,21 +241,29 @@ In this example, we provide a clear visual feedback that the focus has moved to 
 {% endcolumn %}
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
 {% figure [caption:"Default state"][class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/overview/accessibility/accessibility-inputs-3.svg"/>
 {% endfigure %}
+
 {% endcolumn %}
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
 {% figure [caption:"Focused state"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/overview/accessibility/accessibility-inputs-4.svg"/>
 {% endfigure %}
+
 {% endcolumn %}
+
 </div>
+
 </section>
 
 <section class="static-section"  markdown="1">
+
 <div class="hxRow"  markdown="1">
+
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-12-md hxSpan-12-lg" %}
 
 ### Tools
@@ -231,5 +278,7 @@ There are many tools that can help you with accessibility. Check them out to lea
 - [How to convert a whole design to grayscale](http://www.sketchtips.info/articles/how-to-convert-a-whole-design-to-grayscale): Guide to quickly apply grayscale to designs from within Sketch.
 
 {% endcolumn %}
+
 </div>
+
 </section>

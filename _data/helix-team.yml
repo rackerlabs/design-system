@@ -1,14 +1,29 @@
 User Experience:
- Manager: Andrew Raiford
- Lead Designer: Bart Renner
- Designer: Roman Gonzalez
- Developer: Laura Santamaria
+  - title: Manager
+    name: Andrew Raiford
+  - title: Lead Designer
+    name: Bart Renner
+  - title: Designer
+    name: Roman Gonzalez
+  - title: Developer
+    name: Laura Santamaria
 Engineering:
- Manager: Satish Chandrasekaran
- Project Manager: Mia Chung
- Lead Developer: Ryan Johnson
- Developer: Cathy Siller
- Quality Engineering: Shaleen Agarwal
-Information Development:
- Lead Info-Dev: Christopher Moyer
- Info-Dev: Nate Archer
+  - title: Manager
+    name: Satish Chandrasekaran
+  - title: Project Manager
+    name: Mia Chung
+  - title: Lead Developer
+    name: Ryan Johnson
+  - title: Developer
+    name: Cathy Siller
+  - title: Developer
+    name: James Thompson
+  - title: Developer - QE/Testing
+    name: Shaleen Agarwal
+Small:
+  - Information Development:
+    - title: Lead Information Developer
+      name: Christopher Moyer
+  - Product:
+    - title: Product Manager
+      name: Richard Goodwin

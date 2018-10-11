@@ -9,8 +9,9 @@ preview-image: preview-images/choice-tile.svg
 status: stable
 resource: true
 last-modified: 2017-11-12
-helix-ui-css: false
-helix-ui-javascript: false
+helix-ui-css: true
+helix-ui-javascript: true
+pagelink: https://rackerlabs.github.io/helix-ui/components/choice-tiles/
 ---
 
 {% include toc.html %}

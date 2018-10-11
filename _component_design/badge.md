@@ -9,8 +9,9 @@ preview-image: preview-images/badges.svg
 resource: true
 status: stable
 last-modified: 2018-12-04
-helix-ui-css: false
-helix-ui-javascript: false
+helix-ui-css: true
+helix-ui-javascript: na
+pagelink: https://rackerlabs.github.io/helix-ui/components/badges/
 ---
 
 {% include toc.html %}

@@ -11,7 +11,8 @@ resource: true
 status: in-progress
 code-element: true
 helix-ui-css: true
-helix-ui-javascript: false
+helix-ui-javascript: na
+pagelink: https://rackerlabs.github.io/helix-ui/components/typography/
 ---
 
 {% include toc.html %}

@@ -10,7 +10,8 @@ resource: true
 status: stable
 last-modified: 2017-10-24
 helix-ui-css: true
-helix-ui-javascript: false
+helix-ui-javascript: na
+pagelink: https://rackerlabs.github.io/helix-ui/components/text-inputs/
 ---
 
 {% include toc.html %}
@@ -29,7 +30,7 @@ helix-ui-javascript: false
 
 ### Best practices
 
-- Text fields should indicate state&emdash;whether enabled or disabled, empty or filled, valid or invalid&emdash;with clear label, input,  and assistive text.
+- Text fields should indicate state&emdash;whether enabled or disabled, empty or filled, valid or invalid&emdash;with clear label, input, and assistive text.
 - Text fields should guide the user with data type, format, or other parameters the information should include.
 
 {% endcolumn %}
@@ -318,7 +319,7 @@ Characters can be formatted using:
 
 - Prefixes and suffixes can be used to clarify units or to add input in advance.
 - Prefixes are left justified in the text field; suffixes are right justified.
-- Text fields can have both prefixes  and suffixes.
+- Text fields can have both prefixes and suffixes.
 
 {% endcolumn %}
 
