@@ -8,9 +8,10 @@ usage: >
 preview-image: preview-images/button-icon_thumbnail.svg
 status: stable
 resource: true
-last-modified: 2018-10-08
+last-modified: 2018-10-11
 helix-ui-css: true
 helix-ui-javascript: false
+pagelink: https://rackerlabs.github.io/helix-ui/components/menus/
 ---
 
 {% include toc.html %}
@@ -247,7 +248,7 @@ Use these spacing guidelines when you construct an icon-only button.
 
 Icon-only buttons can exist in *default*, *hover*, *disabled*, and *focus* states.
 
-Rather than using Cyan 900 to color the tertiary buttons, use `#424242` to make them more subdued and less overwhelming to the user.
+Rather than using `cyan 900` to color the tertiary buttons, use `#424242` to make them more subdued and less overwhelming to the user.
 
 See [focus states]({{site.baseurl}}/style/focus-states.html) for guidance in constructing focused state icon buttons.
 
@@ -337,7 +338,7 @@ When you add a filter button to a page, ensure it is a secondary button. Do not 
 
 ### Cog
 
-The cog is the most prevalent workflow-based icon button used in Rackspace systems. When the user clicks a cog, a drop-down menu of actions appears.  
+The cog is a commonly used workflow-based icon. When the user clicks a cog, a drop-down menu of actions appears.  
 
 {% endcolumn %}
 
