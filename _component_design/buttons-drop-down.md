@@ -10,7 +10,7 @@ status: stable
 resource: true
 last-modified: 2018-09-06
 helix-ui-css: true
-helix-ui-javascript: false
+helix-ui-javascript: na
 pagelink: https://rackerlabs.github.io/helix-ui/components/menus/#grouped-menu
 ---
 
