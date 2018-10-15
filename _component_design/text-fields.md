@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/text-inputs.svg
 resource: true
 status: stable
-last-modified: 2018-10-08
+last-modified: 2018-10-15
 helix-ui-css: true
 helix-ui-javascript: na
 pagelink: https://rackerlabs.github.io/helix-ui/components/text-inputs/
@@ -24,7 +24,7 @@ pagelink: https://rackerlabs.github.io/helix-ui/components/text-inputs/
 
 ## When to use
 
-Use text fields to enable users to enter text, numbers, passwords, emails, log in credentials, an API key, and any other data required by the user to complete a task.
+Use text fields to enable users to enter text, numbers, passwords, emails, login credentials, an API key, and any other data required by the user to complete a task.
 
 {% endcolumn %}
 
@@ -87,7 +87,7 @@ A text field consists of the following elements:
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [class:"image bg-light border"] %}
+{% figure [caption:"Text input composition"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/inputs-and-controls/text-fields/textfields-composition.png" width="398"/>
 {% endfigure %}
 
@@ -111,7 +111,7 @@ Use these specifications when you construct a text field.
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [class:"image bg-light border"] %}
+{% figure [caption:"Text input style"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/inputs-and-controls/text-fields/textfields-style.png" width="453"/>
 {% endfigure %}
 
@@ -135,7 +135,7 @@ Refer to these spacing specifications when you construct a text field.
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [class:"image bg-light border"] %}
+{% figure [caption:"Text input spacing"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/inputs-and-controls/text-fields/textfields-spacing.png" width="314"/>
 {% endfigure %}
 
@@ -185,7 +185,7 @@ See [focus states]({{site.baseurl}}/components/focus-states.html) for guidance i
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [class:"image bg-light border"] %}
+{% figure [caption:"Text input enabled state"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/inputs-and-controls/text-fields/textfields-states-enabled.png" width="389"/>
 {% endfigure %}
 
@@ -211,7 +211,7 @@ When a field is disabled, consider changing the helper text so the user understa
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [class:"image bg-light border"] %}
+{% figure [caption:"Text input disabled state"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/inputs-and-controls/text-fields/testfields-disabled.png" width="400"/>
 {% endfigure %}
 
@@ -243,7 +243,7 @@ Consider the following guidelines when you construct an error state text field:
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [class:"image bg-light border"] %}
+{% figure [caption:"Text input error state"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/inputs-and-controls/text-fields/textfields-states-error.png" width="428"/>
 {% endfigure %}
 
@@ -287,7 +287,7 @@ A text field can have a prefix and a suffix.
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [class:"image bg-light border"] %}
+{% figure [caption:"Prefixes and suffixes"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/inputs-and-controls/text-fields/textfields-variations-prefixes.png" width="400"/>
 {% endfigure %}
 
@@ -311,7 +311,7 @@ Use password redaction when you want to disguise an input value. Use midline ell
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [class:"image bg-light border"] %}
+{% figure [caption:"Password redaction"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/inputs-and-controls/text-fields/textfields-variations-redaction.png" width="400"/>
 {% endfigure %}
 
@@ -343,7 +343,7 @@ Consider the following guidelines when you construct a multi-line text area:
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [class:"image bg-light border"] %}
+{% figure [caption:"Text areas"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/inputs-and-controls/text-fields/textfields-variations-textareas.png" width="208"/>
 {% endfigure %}
 
