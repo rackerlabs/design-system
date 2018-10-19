@@ -279,7 +279,7 @@ This section includes specifications for prefix and suffix text inputs, password
 
 ### Prefixes and suffixes
 
-Use a prefix or suffix to clarify the meaning of the numeric input value entered by the user. Left justify a prefix and right justify a suffix.
+Use a prefix or suffix to clarify the meaning of the numeric input value entered by the user. Left align a prefix and right align a suffix.
 
 A text input can have a prefix and a suffix.
 
