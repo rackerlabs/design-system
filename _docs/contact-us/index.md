@@ -95,6 +95,8 @@ Submit a request through GitHub and we'll get back to you ASAP with next steps a
 {% for subTeam in site.data.helix-team %}
 {% assign sub = subTeam[1] %}
 
+{% if subTeam[0] != "Small" %}
+
 {% column left:"hxCol hxSpan-4" %}
 
 ### {{subTeam[0]}}
@@ -113,7 +115,41 @@ Submit a request through GitHub and we'll get back to you ASAP with next steps a
 
 {% endcolumn %}
 
+{% endif %}
+
 {% endfor %}
+
+{% column left:"hxCol hxSpan-4" %}
+
+{% for team in site.data.helix-team %}
+
+{% if team[0] == "Small" %}
+
+{% for subTeam in team[1] %}
+{% assign teamName = subTeam.first.first %}
+{% assign sub = subTeam.first.last %}
+
+### {{teamName}}
+
+<div class="avatar-list">
+{% for member in sub %}
+<div class="avatar-item">
+  <img class="avatar-item-image" src="{{site.cdn_url}}/assets/images/contact-us/{{ member.name | downcase | replace: ' ','-' }}.png">
+  <div class="avatar-item-description">
+    <h5 class="hxHeading-5">{{ member.title }}</h5>
+    {{ member.name }}
+  </div>
+</div>
+{% endfor %}
+</div>
+<br /><br />
+{% endfor %}
+
+{% endif %}
+
+{% endfor %}
+
+{% endcolumn %}
 
 </div>
 

@@ -8,8 +8,6 @@ User Experience:
   - title: Developer
     name: Laura Santamaria
 Engineering:
-  - title: Manager
-    name: Satish Chandrasekaran
   - title: Project Manager
     name: Mia Chung
   - title: Lead Developer
@@ -18,8 +16,10 @@ Engineering:
     name: Cathy Siller
   - title: Developer
     name: James Thompson
-  - title: Developer - QE/Testing
-    name: Shaleen Agarwal
-Information Development:
-  - title: Lead Information Developer
-    name: Christopher Moyer
+Small:
+  - Information Development:
+    - title: Lead Information Developer
+      name: Christopher Moyer
+  - Product:
+    - title: Product Manager
+      name: Richard Goodwin
