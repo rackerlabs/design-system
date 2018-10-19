@@ -1,5 +1,5 @@
 ---
-title: Button Bar
+title: Button Bars
 parent: Inputs and Controls
 layout: component
 category: Components
@@ -10,7 +10,8 @@ status: stable
 resource: true
 last-modified: 2018-09-20
 helix-ui-css: true
-helix-ui-javascript: false
+helix-ui-javascript: na
+pagelink: https://rackerlabs.github.io/helix-ui/components/menus/#split-menu
 ---
 
 {% include toc.html %}
@@ -42,7 +43,7 @@ Use a button bar in the following situations:
 
 ## Best practices
 
-In addition to the [Buttons]({{site.baseurl}}/components/simple-buttons.html) best practices,
+In addition to the [buttons]({{site.baseurl}}/components/buttons.html) best practices,
 consider the following best practices when you construct a button bar:
 
 - Do not mix button weights or sizes in a button bar.
@@ -92,7 +93,7 @@ A button bar contains the following elements:
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Button bar composition"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons-bar/buttonbar-composition.png" width="284"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/button-bars/buttonbar-composition.png" width="284"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -116,7 +117,7 @@ Use these specifications when you construct a button bar.
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Button bar style"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons-bar/buttonbar-style.png" width="404"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/button-bars/buttonbar-style.png" width="404"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -140,7 +141,7 @@ Depending on the location of the button bar on the page, ensure the drop-down me
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Button bar spacing"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons-bar/buttonbar-spacing.png" width="137"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/button-bars/buttonbar-spacing.png" width="137"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -164,7 +165,7 @@ A primary button bar is useful when you want to present a generic action in the 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Primary button bar"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons-bar/buttonbar-variations-primary.png" width="137"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/button-bars/buttonbar-variations-primary.png" width="137"/>
 {% endfigure %}
 
 {% endcolumn %}
