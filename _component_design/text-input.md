@@ -203,7 +203,7 @@ See [focus states]({{site.baseurl}}/components/focus-states.html) for guidance i
 
 ### Disabled
 
-In a disabled state, a text input cannot be edited by the user and the ``not-allowed`` style is applied to the cursor. The not-allowed cursor style prevents the user from clicking in the text input.
+In a disabled state, a text input cannot be edited by the user and the `not-allowed` style is applied to the cursor. The not-allowed cursor style prevents the user from clicking in the text input.
 
 When a field is disabled, consider changing the helper text so the user understands why it is disabled.
 
