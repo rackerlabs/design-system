@@ -59,7 +59,7 @@ When an app supports large amounts of information, users can quickly locate cont
 
 ### Basic search bar
 
-Search bars utilize the same text specifications defined in [text inputs]({{site.baseurl}}/components/text-fields.html).
+Search bars utilize the same text specifications defined in [text inputs]({{site.baseurl}}/components/text-input.html).
 
 By default, the search bar will extend across the full width of its container. We recommend a minimum search bar width of 294px so that the user can see their input text.
 

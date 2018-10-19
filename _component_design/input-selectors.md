@@ -46,7 +46,7 @@ Use an input selector in the following situations:
 Consider the following best practices when you construct an input selector:
 
 - Limit the number of input selector options to 15 choices. Long lists of options are difficult for the user to scan.
-- Consider using a [text field]({{site.baseurl}}/components/text-fields.html) with auto-complete for long lists of choices.
+- Consider using a [text input]({{site.baseurl}}/components/text-input.html) with auto-complete for long lists of choices.
 - Consider using [radios]({{site.baseurl}}/components/radio-buttons.html) when you provide the user with seven or fewer options. This enables the user to immediately scan the options without clicking to reveal this information.
 - To remind the user of the data set they are working with, ensure that the selected option is viewable through all input selector states.
 - Add a meaningful label to the input selector that clearly communicates what the user is selecting. For example, use *Select a Region* and don't use *Select an Option*.
