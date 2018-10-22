@@ -23,7 +23,7 @@ helix-ui-javascript: false
 
 ## When to use
 
-Use an drop-down selector in the following situations:
+Use a drop-down selector in the following situations:
 
 - When you want to enable users to select one option from a list of options.
 - When you want to conserve screen space.
@@ -43,7 +43,7 @@ Use an drop-down selector in the following situations:
 
 ## Best practices
 
-Consider the following best practices when you construct an drop-down selector:
+Consider the following best practices when you construct a drop-down selector:
 
 - Limit the number of drop-down selector options to 15 choices. Long lists of options are difficult for the user to scan.
 - Consider using a [text input]({{site.baseurl}}/components/text-input.html) with auto-complete for long lists of choices.
@@ -66,7 +66,7 @@ Consider the following best practices when you construct an drop-down selector:
 
 ## Specifications
 
-Use the following specifications when you construct an drop-down selector.
+Use the following specifications when you construct a drop-down selector.
 
 {% endcolumn %}
 
@@ -110,7 +110,7 @@ An drop-down selector consists of the following elements:
 
 ### Style
 
-Use these specifications when you construct an drop-down selector.
+Use these specifications when you construct a drop-down selector.
 
 {% endcolumn %}
 
@@ -134,9 +134,9 @@ Use these specifications when you construct an drop-down selector.
 
 ### Spacing
 
-Although the width of an drop-down selector should be a multiple of four, the width can vary.
+Although the width of a drop-down selector should be a multiple of four, the width can vary.
 
-The height of an drop-down selector is a static 32px with 8px above and below the vertically centered text.
+The height of a drop-down selector is a static 32px with 8px above and below the vertically centered text.
 
 {% endcolumn %}
 
