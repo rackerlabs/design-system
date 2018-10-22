@@ -4,7 +4,7 @@ parent: Inputs and Controls
 layout: component
 category: Components
 usage: >
-  An drop-down selector enables the user to select one value from a list. When the drop-down selector is inactive, it displays a single value. When the drop-down selector is activated by the user, it displays a list of values from which the user can choose.
+  A drop-down selector enables the user to select one value from a list. When the drop-down selector is inactive, it displays a single value. When the drop-down selector is activated by the user, it displays a list of values from which the user can choose.
 preview-image: preview-images/drop-downs.svg
 resource: true
 status: stable
@@ -27,7 +27,7 @@ Use a drop-down selector in the following situations:
 
 - When you want to enable users to select one option from a list of options.
 - When you want to conserve screen space.
-- When you want to prevent users from entering erroneous data. An drop-down selector shows only valid choices.
+- When you want to prevent users from entering erroneous data. A drop-down selector shows only valid choices.
 
 {% endcolumn %}
 
@@ -82,7 +82,7 @@ Use the following specifications when you construct a drop-down selector.
 
 ### Composition
 
-An drop-down selector consists of the following elements:
+A drop-down selector consists of the following elements:
 
 - **Container (required)**: The container holds the trigger and drop-down selector options.
 - **Trigger (required)**: When the user clicks the trigger, the list of drop-down selector options appears.
