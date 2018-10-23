@@ -28,9 +28,9 @@ pagelink: https://rackerlabs.github.io/helix-ui/components/checkboxes/
 Use checkboxes in the following situations:
 
 - When the user needs to answer a question or wants to change a control panel setting. Do not use a checkbox to trigger another process or workflow.
-- When the user can select any number of choices, including zero, one, or several choices. If a user can only select one option, use a radio or an input selector.
+- When the user can select any number of choices, including zero, one, or several choices. If a user can only select one option, use a radio or a drop-down selector.
 - When the user can turn on or turn off a single option. For example, use a single checkbox when a user accepts the terms of an End User License Agreement (EULA).
-- When it is important for the user to compare all options simultaneously. If it is not important for the user to compare all options at the same time, consider using an input selector. An input selector uses less space than a checkbox group (but introduces greater cognitive load), and is more difficult to navigate for users who have difficulty making precise mouse movements.
+- When it is important for the user to compare all options simultaneously. If it is not important for the user to compare all options at the same time, consider using a drop-down selector. A drop-down selector uses less space than a checkbox group (but introduces greater cognitive load), and is more difficult to navigate for users who have difficulty making precise mouse movements.
 - When the user needs to select an object in a table row and then use a control to act on that item.
 
 {% endcolumn %}
