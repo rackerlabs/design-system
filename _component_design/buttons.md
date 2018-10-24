@@ -1,5 +1,5 @@
 ---
-title: Buttons (Simple)
+title: Buttons
 parent: Inputs and Controls
 layout: component
 category: Components
@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/buttons.svg
 status: stable
 resource: true
-last-modified: 2018-08-27
+last-modified: 2018-10-03
 helix-ui-css: true
 helix-ui-javascript: na
 pagelink: https://rackerlabs.github.io/helix-ui/components/buttons/#basic-button
@@ -26,7 +26,7 @@ pagelink: https://rackerlabs.github.io/helix-ui/components/buttons/#basic-button
 
 Use a button when you want the user to launch a process or initiate an action.
 
-Do not use buttons for navigation. When the user needs to navigate from one page to another, use a [text link]({{site.baseURL}}/style/typography.html#link).
+Do not use buttons for navigation. When the user needs to navigate from one page to another, use a [text link]({{site.baseurl}}/style/typography.html#link).
 
 {% endcolumn %}
 
@@ -62,12 +62,12 @@ Consider the following best practices when you construct a button:
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-## Simple button weights
+## Button weights
 
-Simple button weights include *primary*, *secondary*, and *tertiary* buttons.
+Button weights include *primary*, *secondary*, and *tertiary* buttons.
 
-{% figure [caption:"Simple button weights"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/simple-buttons/buttons-simple-hero.png" width="569"/>
+{% figure [caption:"Button weights"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-hero.png" width="569"/>
 
 {% endfigure %}
 
@@ -85,7 +85,7 @@ Simple button weights include *primary*, *secondary*, and *tertiary* buttons.
 
 ## Specifications
 
-Use the following specifications when you construct a simple button.
+Use the following specifications when you construct a button.
 
 {% endcolumn %}
 
@@ -136,7 +136,7 @@ Use consistent labels across an action for a UI. Refer to this table when you wr
 
 ### Composition
 
-A simple button contains the following elements:
+A button contains the following elements:
 
 - **Container (required)**: The container holds the call-to-action text.
 - **Call-to-action (required)**: The call-to-action text describes the act that is initiated when the user clicks the button.
@@ -145,8 +145,8 @@ A simple button contains the following elements:
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Simple button composition"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/simple-buttons/buttons-simple-composition.png" width="280"/>
+{% figure [caption:"Button composition"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-composition.png" width="280"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -163,14 +163,14 @@ A simple button contains the following elements:
 
 ### Style
 
-Use these specifications when you construct a simple button.
+Use these specifications when you construct a button.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Simple button style"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/simple-buttons/buttons-simple-style.png" width="247"/>
+{% figure [caption:"Button style"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-style.png" width="247"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -187,7 +187,7 @@ Use these specifications when you construct a simple button.
 
 ### Spacing
 
-Use these spacing guidelines when you construct a simple button.
+Use these spacing guidelines when you construct a button.
 
 **Note**: Do not add internal padding to a tertiary button.
 
@@ -195,8 +195,8 @@ Use these spacing guidelines when you construct a simple button.
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Simple button spacing"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/simple-buttons/buttons-simple-spacing.png" width="207"/>
+{% figure [caption:"Button spacing"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-spacing.png" width="207"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -226,7 +226,7 @@ A primary button can exist in one of the following states: default, hover, press
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Primary button"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/simple-buttons/buttons-simple-variations-primary.png" width="411"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-variations-primary.png" width="411"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -252,7 +252,7 @@ A secondary button can exist in one of the following states: default, hover, pre
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Secondary button"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/simple-buttons/buttons-simple-variations-secondary.png" width="414"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-variations-secondary.png" width="414"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -281,7 +281,7 @@ A tertiary button has a transparent background and can exist in one of the follo
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Tertiary button"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/simple-buttons/buttons-simple-variations-tertiary.png" width="350"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-variations-tertiary.png" width="350"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -298,7 +298,7 @@ A tertiary button has a transparent background and can exist in one of the follo
 
 ## States
 
-This section describes the simple button loading state and focus state.
+This section describes the button loading state and focus state.
 
 {% endcolumn %}
 
@@ -322,8 +322,8 @@ For more information about the loading spinner, see [loading indicator]({{site.b
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Simple button loading state"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/simple-buttons/buttons-simple-states-loading.png" width="296"/>
+{% figure [caption:"Button loading state"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-states-loading.png" width="296"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -346,8 +346,8 @@ When in focus, a button takes on the focus properties as outlined in [focus stat
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Simple button focus state"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/simple-buttons/buttons-simple-states-focus.png" width="168"/>
+{% figure [caption:"Button focus state"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-states-focus.png" width="168"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -380,7 +380,7 @@ Consider the following best practices when you construct a button set:
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Button sets"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/simple-buttons/buttons-simple-variations-buttonsets.png" width="317"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-variations-buttonsets.png" width="317"/>
 {% endfigure %}
 
 {% endcolumn %}

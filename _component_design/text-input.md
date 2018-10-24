@@ -203,7 +203,11 @@ See [focus states]({{site.baseurl}}/components/focus-states.html) for guidance i
 
 ### Disabled
 
+<<<<<<< HEAD
 In a disabled state, a text input cannot be edited by the user and the ``not-allowed`` style is applied to the cursor. The ``not-allowed`` cursor style prevents the user from clicking in the text input.
+=======
+In a disabled state, a text input cannot be edited by the user and the `not-allowed` style is applied to the cursor. The not-allowed cursor style prevents the user from clicking in the text input.
+>>>>>>> 6a4b485abdc4a7272b9e77331900dc6b405f96c3
 
 When a field is disabled, consider changing the helper text so the user understands why it is disabled.
 
@@ -279,7 +283,7 @@ This section includes specifications for prefix and suffix text inputs, password
 
 ### Prefixes and suffixes
 
-Use a prefix or suffix to clarify the meaning of the numeric input value entered by the user. Left justify a prefix and right justify a suffix.
+Use a prefix or suffix to clarify the meaning of the numeric input value entered by the user. Left align a prefix and right align a suffix.
 
 A text input can have a prefix and a suffix.
 

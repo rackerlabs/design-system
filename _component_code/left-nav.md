@@ -2,8 +2,7 @@
 title: Left Navigation
 layout: code
 category: Components Code
-code: components/layouts/
-part: left-navigation
+code: components/navigation
 ---
 
 {% include code-container.html %}
