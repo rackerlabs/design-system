@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/text-inputs.svg
 resource: true
 status: stable
-last-modified: 2018-10-25
+last-modified: 2018-10-26
 helix-ui-css: true
 helix-ui-javascript: na
 pagelink: https://rackerlabs.github.io/helix-ui/components/text-inputs/
