@@ -337,7 +337,7 @@ Consider the following guidelines when you construct a multi-line text area:
 - Text areas scroll vertically when the cursor reaches the bottom of the field.
 - A text area can include an optional draggable resize icon in the lower corner.
 - All text input specifications apply to a text area.
-- Text area states follow the same layout and behaviors as [text input states]({{site.baseurl}}/components/text-input.html/#states).
+- Text area states follow the same layout and behaviors as [text input states]({{site.baseurl}}/components/text-input.html#states).
 
 {% endcolumn %}
 
