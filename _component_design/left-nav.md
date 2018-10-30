@@ -155,7 +155,7 @@ Refer to these spacing specifications when you construct a left navigation pane.
 
 A left navigation item can exist in a *hover*, *selected*, *disabled*, and *disabled hover* state.
 
-**<<Do we want to say anything about the disabled hover popover?>>**
+For the disabled hover state, add a tooltip that explains why the navigation item is not available and, if appropriate, a description of how to get access to the navigation item.
 
 {% endcolumn %}
 
