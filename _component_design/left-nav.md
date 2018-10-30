@@ -40,9 +40,8 @@ Use the left navigation component for web applications, unless there is a firm i
 
 Consider the following best practices when you construct a left navigation pane:
 
-- Implement only primary and secondary navigation links.
-- If you have a very large information architecture, you can use tertiary navigation elements. However, in most cases we recommend that you compress or sort the information architecture so that only primary and secondary links are needed.
-- **how to label navigation items?**
+- Implement only primary and secondary navigation items.
+- If you have a very large information architecture, you can use tertiary navigation items. However, in most cases we recommend that you compress or sort the information architecture so that only primary and secondary links are needed.
 - Use title case when you write the navigation item. With title case, the first letter of each word is capitalized, except for articles (*a*, *an*, *the*) and short prepositions (*to*, *by*, *with*).
 
 {% endcolumn %}
@@ -155,7 +154,7 @@ Refer to these spacing specifications when you construct a left navigation pane.
 
 A left navigation item can exist in a *hover*, *selected*, *disabled*, and *disabled hover* state.
 
-For the disabled hover state, add a tooltip that explains why the navigation item is not available and, if appropriate, a description of how to get access to the navigation item.
+For the disabled hover state, add a [tooltip]({{site.baseurl}}/components/tooltip.html) that explains why the navigation item is not available and, if appropriate, a description of how to get access to the navigation item.
 
 {% endcolumn %}
 
