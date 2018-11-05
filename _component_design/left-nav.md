@@ -22,7 +22,7 @@ pagelink: https://rackerlabs.github.io/helix-ui/components/navigation/
 
 ## When to use
 
-Use the left navigation component for web applications, unless there is a firm implementation constraint that requires top navigation.
+Unless a firm implementation constraint requires top navigation, use the left navigation component for web applications.
 
 {% endcolumn %}
 
@@ -152,7 +152,7 @@ Refer to these spacing specifications when you construct the left navigation.
 
 ## States
 
-A left navigation item can exist in a *hover*, *selected*, *disabled*, and *disabled hover* state.
+A left navigation item can exist in a *hover*, *selected*, *disabled*, or *disabled hover* state.
 
 For the disabled hover state, add a [tooltip]({{site.baseurl}}/components/tooltip.html) that explains why the navigation item is not available and, if appropriate, a description of how to get access to the navigation item.
 
