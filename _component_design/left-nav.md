@@ -4,13 +4,13 @@ parent: Navigation
 layout: component
 category: Components
 usage: >
-  The left navigation pane provides a menu of navigation items that a user clicks to move to another page or location within the application they are using. Because it is easier for user to scan, left navigation is preferred over top navigation. Consistent navigation patterns increase user confidence and efficiency.
+  The left navigation provides a menu of navigation items that a user clicks to move to another page or location within the application they are using. Because it is easier for user to scan, left navigation is preferred over top navigation. Consistent navigation patterns increase user confidence and efficiency.
 preview-image: preview-images/side-nav.svg
 status: stable
 resource: true
 helix-ui-css: true
 helix-ui-javascript: true
-last-modified: 2018-10-30
+last-modified: 2018-11-05
 pagelink: https://rackerlabs.github.io/helix-ui/components/navigation/
 ---
 
@@ -38,7 +38,7 @@ Use the left navigation component for web applications, unless there is a firm i
 
 ## Best practices
 
-Consider the following best practices when you construct a left navigation pane:
+Consider the following best practices when you construct the left navigation:
 
 - Implement only primary and secondary navigation items.
 - If you have a very large information architecture, you can use tertiary navigation items. However, in most cases we recommend that you compress or sort the information architecture so that only primary and secondary links are needed.
@@ -58,7 +58,7 @@ Consider the following best practices when you construct a left navigation pane:
 
 ## Specifications
 
-Use these specifications when you construct a left navigation pane.
+Use these specifications when you construct the left navigation.
 
 {% endcolumn %}
 
@@ -74,11 +74,11 @@ Use these specifications when you construct a left navigation pane.
 
 ### Composition
 
-A left navigation pane contains the following elements:
+The left navigation contains the following elements:
 
 - **Container (required):** The container holds the navigation items.
-- **Primary navigation item (required):** When the user clicks the primary navigation item, they are directed to a primary page. A primary navigation item can contain secondary navigation items.
-- **Drop-down carat (optional):** The drop-down carat reveals the secondary or tertiary navigation items.
+- **Primary navigation item (required):** When the user clicks the primary navigation item, they are directed to a page. A primary navigation item can contain secondary navigation items.
+- **Vertical expand icon (optional):** The vertical expand icon reveals the secondary or tertiary navigation items.
 - **Secondary navigation item (optional):** A secondary navigation item is a child page of the primary navigation item.
 - **Tertiary navigation item (discouraged):** A tertiary navigation item is a child page of a secondary navigation item. Using tertiary navigation items is discouraged.
 
@@ -104,7 +104,7 @@ A left navigation pane contains the following elements:
 
 ### Style
 
-Use these specifications when you construct a left navigation pane.
+Use these specifications when you construct the left navigation.
 
 {% endcolumn %}
 
@@ -128,7 +128,7 @@ Use these specifications when you construct a left navigation pane.
 
 ### Spacing
 
-Refer to these spacing specifications when you construct a left navigation pane.
+Refer to these spacing specifications when you construct the left navigation.
 
 {% endcolumn %}
 
