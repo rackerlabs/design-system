@@ -10,7 +10,7 @@ status: stable
 resource: true
 helix-ui-css: true
 helix-ui-javascript: true
-last-modified: 2018-11-05
+last-modified: 2018-11-07
 pagelink: https://rackerlabs.github.io/helix-ui/components/navigation/
 ---
 
@@ -41,7 +41,7 @@ Unless a firm implementation constraint requires top navigation, use the left na
 Consider the following best practices when you construct the left navigation:
 
 - Implement only primary and secondary navigation items.
-- If you have a very large information architecture, you can use tertiary navigation items. However, in most cases we recommend that you compress or sort the information architecture so that only primary and secondary links are needed.
+- If you have a very large information architecture, you can use tertiary navigation items. However, in most cases we recommend that you refactor the information architecture so that only two levels (primary and secondary) are needed.
 - Use title case when you write the navigation item. With title case, the first letter of each word is capitalized, except for articles (*a*, *an*, *the*) and short prepositions (*to*, *by*, *with*).
 
 {% endcolumn %}
