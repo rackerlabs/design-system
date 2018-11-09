@@ -4,7 +4,7 @@ parent: Tables
 layout: component
 category: Components
 usage: >
-  Table controls are elements which allow users to interact with the data contained in a table. These controls include elements such as search bars, buttons, pagination controls, and action cogs among others.
+  Table controls are elements which allow users to interact with the data contained in a table. These controls include elements such as search bars, buttons, pagination controls, and action cogs among others. Table controls appear at the top and the bottom of the table and in the table header and table rows.
 preview-image: preview-images/tables-controls.svg
 status: stable
 resource: true
@@ -23,8 +23,7 @@ helix-ui-javascript: false
 
 ## When to use
 
-The table pattern has multiple controls that are used to interact with the contents displayed within a table. Controls may be placed in three primary locations:
-
+Use controls when you want the user to interact with table data.
 
 {% endcolumn %}
 
@@ -40,7 +39,11 @@ The table pattern has multiple controls that are used to interact with the conte
 
 ## Best practices
 
-xxxxx
+Consider the following best practices when you construction a table control:
+
+- xxxxxx.
+- xxxxxx.
+- xxxxxx
 
 {% endcolumn %}
 
@@ -56,7 +59,7 @@ xxxxx
 
 ## Table top control specifications
 
-xxxxx.
+Use the following specifications when you construct table controls.
 
 {% endcolumn %}
 
@@ -72,6 +75,20 @@ xxxxx.
 
 ### Composition
 
+The top of the table can include the following controls:
+
+- **Primary button (Required/Optional)**: xxxxx.
+- **Secondary button (Required/Optional)**: xxxxx.
+- **Tertiary button (Required/Optional)**: xxxxx.
+- **Filter button (Required/Optional)**: xxxxx.
+- **Select all (Required/Optional)**: xxxxx.
+- **Number selected (Required/Optional)**: xxxxx.
+- **Search (Required/Optional)**: xxxxx.
+- **Show Hide (Required/Optional)**: xxxxx.
+- **Range indicator (Required/Optional)**: xxxxx.
+
+
+OLD CONTENT
 The filter button is a specialized button used on top of a table. It is **always** the final button in a button group. Filter buttons come in the following variations:
 
 - Regular
@@ -101,6 +118,10 @@ The filter button is a specialized button used on top of a table. It is **always
 
 ### Style
 
+Use these specifications when you construct table top controls.
+
+
+OLD STUFF...
 Apply sorting to table headers via a click interaction and an icon visual indicator. The icon may take the following states:
 
 - Ascending
@@ -129,7 +150,7 @@ Apply sorting to table headers via a click interaction and an icon visual indica
 
 ### Spacing
 
-xxxxx.
+Refer to these spacing guidelines when you construct table top controls.
 
 {% endcolumn %}
 
