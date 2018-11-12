@@ -4,16 +4,11 @@ parent: Tables
 layout: component
 category: Components
 usage: >
-  A table displays data or other information in cells, which are the intersections of rows and columns. Especially with respect to data presentation, tables make comparing and contrasting data easier.
-
-  A table is an arrangement of information in rows and columns containing cells that make comparing and contrasting information easier.
-
-
-  Tables present data on nearly every page in Helix control panels. Tables are highly valuable, but always run the risk of putting too high a cognitive load on users. Our goal with tables should always be to decrease cognitive load so users can get the data they need quickly and easily.
+  A table displays data or other information in rows and columns. Tables make parsing data and comparing and contrasting data much easier.
 preview-image: preview-images/tables.svg
 status: stable
 resource: true
-last-modified: 2018-11-08
+last-modified: 2018-11-12
 helix-ui-css: true
 helix-ui-javascript: na
 pagelink: https://rackerlabs.github.io/helix-ui/components/tables/#basic-table
@@ -31,7 +26,7 @@ pagelink: https://rackerlabs.github.io/helix-ui/components/tables/#basic-table
 
 There are four table types for you to consider:
 
-- **Condensed table**: Use a condensed table when you want to...
+- **Condensed table**: Use a condensed table when you want to show a limited amount of data in a small area.
 - **Dual-line table**: A dual-line table contains text that wraps into multiple lines of text.
 - **Dual-layout tables**: Dual-layout tables display one table on the left, and one table on the right.
 - **Responsive table**: Responsive tables adjust in size to accommodate the display size of the customer.
@@ -70,7 +65,7 @@ There are four table types for you to consider:
 
 ## When to use
 
-Use a table when you want to clearly display a large amount of data and any time you want to aggregate that data. Tables make working with data much for the customer.
+Use a table when you want to clearly display a large amount of data and any time you want to aggregate that data. Tables make working with data much easier for the user.
 
 {% endcolumn %}
 
@@ -94,6 +89,9 @@ Consider the following best practices when you construct a table:
 - Order columns left to right, from most important to least important.
 - Include filter and sort controls to allow users to find the most important information.
 - If you are presenting a small amount of information, consider using a condensed table. A condensed table provides a concise presentation and is preferred over bulleted lists or key-value pairs.
+- Left-justify text, right-justify numbers. Center-align the null and undefined (-) character, not applicable (n/a), and icons.
+- Only use units in row if they differ row by row and cannot be standardized. Units in body rows appear without parentheses.
+- Truncated text should appear in a [tooltip]({{site.baseurl}}/components/tooltip.html), which displays text on hover or click.
 
 {% endcolumn %}
 
@@ -132,16 +130,6 @@ A table header is comprised of the following elements:
 - **Column heading label (Required)**: The column heading label is the name of the column.
 - **Bulk selection (Optional)**: Click the bulk selection checkbox to select all items in the table.
 - **Sort (Optional)**: Sorting enables the user to determine the order of the rows that appear in the table. For example, a column that contains text can be sorted alphabetically. Sorting helps users find data quickly and easily.
-
-OLD INFORMATION...
-- Include the check box icon if a user needs to select or manipulate data within a table. This check box icon will always be the first element in a table row, see [table controls]({{site.baseurl}}/components/tables-controls.html).
-- Include the action cog menu if the objects in each row have two or more available actions.
-- Text justification within each cell is content specific.
-  - Text should be left justified.
-  - Center justify columns that contain null/undefined (–), not applicable (n/a), or icons.
-  - Numbers should be right justified.
-- Only use units in row if they differ row by row and cannot be standardized. Units in body rows appear without parentheses.
-- Truncated text should appear in a [tooltip]({{site.baseurl}}/components/tooltip.html), enabling display on hover or click.
 
 {% endcolumn %}
 
@@ -209,7 +197,7 @@ Refer to these spacing specifications when you construct a table header.
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 ## Table row specifications
 
@@ -233,13 +221,13 @@ Use the following specifications when you construct a table row.
 
 A table row is comprised of the following elements:
 
-- **Select checkbox (Required/Optional)**: The select checkbox selects an object for editing or deletion. The user clicks the checkbox and then clicks a button or selects an action from a cog.
-- **Summary rows (Required/Optional)**:
+- **Select checkbox (Required/Optional)**: Include a checkbox if a user needs to select or manipulate data within a table. Always list the checkbox as the first element in the table row. See [table controls]({{site.baseurl}}/components/tables-controls.html). The user clicks the checkbox and then clicks a button or selects an action from a cog.
+- **Summary rows (Required/Optional)**: You can add a summary row at the bottom of the table that displays column summary information such as totals.
 - **Bulk selection (Required/Optional)**: Include bulk selection when you want the user to select or deselect all objects in the table.
-- **Totaling (Required/Optional)**:
+- **Totaling (Required/Optional)**: Totaling is the sum of all column summaries. Totaling is used to calculate a grand total.
 - **Reveal (Required/Optional)**: Some table rows can contain a lot of information, including data and text. If you construct a table row with reveal, then the user can expand or collapse the row, which hides or shows more data. By providing the ability to hide information, reveal allows for a more optimum use of table space.  
 - **Heartbeat (Required/Optional)**: When the user edits an object in the table, the edited rows glows briefly (the *heartbeart*) when the user saves the change. As the table refreshes, the heartbeat focuses the users' eyes on the change they made.
-- **Cog (Required/Optional)**: The cog contains a list of actions from which the user can select.
+- **Cog (Required/Optional)**: The cog contains a list of actions from which the user can select. Include the action cog menu if the objects in each row have two or more available actions.
 - **Status indicator (Optional)**: If the objects in the table are services, use a status indicator icon to communicate service status.
 
 {% endcolumn %}
