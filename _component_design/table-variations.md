@@ -4,11 +4,11 @@ parent: Tables
 layout: component
 category: Components
 usage: >
-  Intro here about what table types are...
+  Depending on your use case, you can consider adding a condensed, dual-line, dual-layout, or responsive table to the page.
 preview-image: preview-images/popover.svg
 resource: true
 status: stable
-last-modified: 2018-08-02
+last-modified: 2018-11-12
 helix-ui-css: true
 helix-ui-javascript: true
 pagelink: https://rackerlabs.github.io/helix-ui/components/popovers/
@@ -22,9 +22,37 @@ pagelink: https://rackerlabs.github.io/helix-ui/components/popovers/
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
+## Table variations
+
+xxxxxx.
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
 ## When to use
 
-xxxxx.
+Use the following guidelines when you consider which table variation to construct.
+
+Use a *condensed table* when you present a small amount of information. The condensed table format presents data concisely and is preferred over a bulleted list or a key-value list.
+
+Use a *dual-line* table when the text in a cell wraps to two or more lines. For example, use a dual-line table when two values are meaningfully related to each other and should be displayed in the same cell.
+
+
+Use a *dual-layout* table when...XXXX.
+
+Use a responsive table when:
+
+- xxxxx.
+- xxxxxx.
 
 {% endcolumn %}
 
@@ -40,9 +68,19 @@ xxxxx.
 
 ## Best practices
 
-Consider the following best practices when you construct xxxxx:
+Consider the following best practices when you construct any table variation:
 
 - xxxxx.
+
+
+Dual-line best practices
+
+Best practices:
+- **Rule**: (**Important**) Each cell with more than one line of text must have a designated primary and secondary value.
+- **Rule**: In rows with the [table controls]({{site.baseurl}}/components/tables-controls.html) sorting pattern applied, the pattern will always sort based on the primary key.
+- **Suggestion**: Increase the `font-weight` between the primary and secondary values in dual-line rows to make the sorting function more clear to a user.
+- **Suggestion**: Due to the amount of information presented with this pattern, consider pairing it with [assisted search]({{site.baseurl}}/components/assisted-search.html) to allow more robust filtering of table content.
+
 
 {% endcolumn %}
 
@@ -57,11 +95,7 @@ Consider the following best practices when you construct xxxxx:
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 ## Condensed table specifications
-Use these specifications when you construct a xxxxx.
-
-The use of a condensed table provides for views that display either many or few results.
-
-If presenting a small amount of information, a condensed table format allows for particular and concise presentation. In cases such as this, tables are preferred over bullet lists, or key-value lists.
+Use these specifications when you construct a condensed table.
 
 {% endcolumn %}
 
@@ -78,7 +112,10 @@ If presenting a small amount of information, a condensed table format allows for
 ### Composition
 The condensed table is composed of the following elements:
 
-- xxxx.
+- **xxxxx (Required/Optional)**: xxxxx.
+- **xxxxx (Required/Optional)**: xxxxx.
+- **xxxxx (Required/Optional)**: xxxxx.
+- **xxxxx (Required/Optional)**: xxxxx.
 
 {% endcolumn %}
 
@@ -102,7 +139,7 @@ The condensed table is composed of the following elements:
 
 ### Style
 
-Use these guidelines when you construct a condensed table.
+Use these specifications when you construct a condensed table.
 
 Refer to the [shadow system]({{site.baseurl}}/style/shadows.html) for guidelines on constructing shadows.
 
@@ -128,7 +165,7 @@ Refer to the [shadow system]({{site.baseurl}}/style/shadows.html) for guidelines
 
 ### Spacing
 
-intro text here...
+Use these spacing specifications when you construct a condensed table.
 
 {% endcolumn %}
 
@@ -151,22 +188,8 @@ intro text here...
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 ## Dual-line table specifications
-Use these specifications when you construct a xxxxx.
 
-This variation of the basic table pattern is designed to allow the display of two lines of text.
-
-This variation is used in the following situations:
-
-- When a key has two values that are meaningfully related to each other and require display within the same cell. For example, last updated cell in the image to the right.
-- When two independent key:values are more meaningful displayed together.
-
-Best practices:
-- **Rule**: (**Important**) Each cell with more than one line of text must have a designated primary and secondary value.
-- **Rule**: In rows with the [table controls]({{site.baseurl}}/components/tables-controls.html) sorting pattern applied, the pattern will always sort based on the primary key.
-- **Suggestion**: Increase the `font-weight` between the primary and secondary values in dual-line rows to make the sorting function more clear to a user.
-- **Suggestion**: Due to the amount of information presented with this pattern, consider pairing it with [assisted search]({{site.baseurl}}/components/assisted-search.html) to allow more robust filtering of table content.
-
-
+Use these specifications when you construct a dual-line table.
 
 {% endcolumn %}
 
@@ -181,9 +204,12 @@ Best practices:
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Composition
-The xxx table is composed of the following elements:
+The dual-line table is composed of the following elements:
 
-- xxxx.
+- **xxxxx (Required/Optional)**: xxxxx.
+- **xxxxx (Required/Optional)**: xxxxx.
+- **xxxxx (Required/Optional)**: xxxxx.
+- **xxxxx (Required/Optional)**: xxxxx.
 
 {% endcolumn %}
 
@@ -207,7 +233,7 @@ The xxx table is composed of the following elements:
 
 ### Style
 
-Use these guidelines when you construct a xxxx table.
+Use these specifications when you construct a dual-line table.
 
 Refer to the [shadow system]({{site.baseurl}}/style/shadows.html) for guidelines on constructing shadows.
 
@@ -233,6 +259,9 @@ Refer to the [shadow system]({{site.baseurl}}/style/shadows.html) for guidelines
 
 ### Spacing
 
+Use these spacing specifications when you construct a dual-line table.
+
+OLD STUFF...
 Using the dual-line text variation impacts standard table layout in the following ways:
 
 - The top and bottom padding for cells moves from 20px to 16px.
@@ -264,7 +293,8 @@ Using the dual-line text variation impacts standard table layout in the followin
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 ## Dual-layout table specifications
-Use these specifications when you construct a xxxxx.
+
+Use these specifications when you construct a dual-layout table.
 
 {% endcolumn %}
 
@@ -279,9 +309,13 @@ Use these specifications when you construct a xxxxx.
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Composition
-The xxx table is composed of the following elements:
 
-- xxxx.
+The dual-layout table is composed of the following elements:
+
+- **xxxxx (Required/Optional)**: xxxxx.
+- **xxxxx (Required/Optional)**: xxxxx.
+- **xxxxx (Required/Optional)**: xxxxx.
+- **xxxxx (Required/Optional)**: xxxxx.
 
 {% endcolumn %}
 
@@ -305,7 +339,7 @@ The xxx table is composed of the following elements:
 
 ### Style
 
-Use these guidelines when you construct a xxxx table.
+Use these specifications when you construct a dual-layout table.
 
 Refer to the [shadow system]({{site.baseurl}}/style/shadows.html) for guidelines on constructing shadows.
 
@@ -331,7 +365,7 @@ Refer to the [shadow system]({{site.baseurl}}/style/shadows.html) for guidelines
 
 ### Spacing
 
-intro text here...
+Use these spacing specifications when you construct a dual-layout table.
 
 {% endcolumn %}
 
@@ -354,7 +388,8 @@ intro text here...
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 ## Responsive layout table specifications
-Use these specifications when you construct a xxxxx.
+
+Use these specifications when you construct a responsive table.
 
 {% endcolumn %}
 
@@ -369,9 +404,13 @@ Use these specifications when you construct a xxxxx.
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Composition
-The xxx table is composed of the following elements:
 
-- xxxx.
+The responsive table is composed of the following elements:
+
+- **xxxxx (Required/Optional)**: xxxxx.
+- **xxxxx (Required/Optional)**: xxxxx.
+- **xxxxx (Required/Optional)**: xxxxx.
+- **xxxxx (Required/Optional)**: xxxxx.
 
 {% endcolumn %}
 
@@ -395,7 +434,7 @@ The xxx table is composed of the following elements:
 
 ### Style
 
-Use these guidelines when you construct a xxxx table.
+Use these specifications when you construct a responsive table.
 
 Refer to the [shadow system]({{site.baseurl}}/style/shadows.html) for guidelines on constructing shadows.
 
@@ -421,7 +460,7 @@ Refer to the [shadow system]({{site.baseurl}}/style/shadows.html) for guidelines
 
 ### Spacing
 
-intro text here...
+Use these spacing specifications when you construct a responsive table.
 
 {% endcolumn %}
 
