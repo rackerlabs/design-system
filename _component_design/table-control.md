@@ -4,11 +4,11 @@ parent: Tables
 layout: component
 category: Components
 usage: >
-  Table controls are elements which allow users to interact with the data contained in a table. These controls include elements such as search bars, buttons, pagination controls, and action cogs among others. Table controls appear at the top and the bottom of the table and in the table header and table rows.
+  Table controls are elements that allow users to interact with the data contained in a table. These controls include elements such as search bars, buttons, pagination controls, and action cogs among others. Table controls appear at the top and the bottom of the table and in the table header and table rows.
 preview-image: preview-images/tables-controls.svg
 status: stable
 resource: true
-last-modified: 2018-11-08
+last-modified: 2018-11-12
 helix-ui-css: false
 helix-ui-javascript: false
 ---
@@ -39,10 +39,11 @@ Use controls when you want the user to interact with table data.
 
 ## Best practices
 
-Consider the following best practices when you construction a table control:
+Consider the following best practices when you construct a table control:
 
-- xxxxxx.
-- xxxxxx.
+- On the top of the table, a filter button is always the last button in a button group.
+- If you add checkboxes to table rows, list the checkbox first. If you include a cog and not a checkbox, list the cog first.
+xxxxxx.
 - xxxxxx
 
 {% endcolumn %}
@@ -77,24 +78,15 @@ Use the following specifications when you construct table top controls.
 
 The top of the table can include the following controls:
 
-- **Primary button (Required/Optional)**: xxxxx.
-- **Secondary button (Required/Optional)**: xxxxx.
-- **Tertiary button (Required/Optional)**: xxxxx.
-- **Filter button (Required/Optional)**: xxxxx.
-- **Select all (Required/Optional)**: xxxxx.
-- **Number selected (Required/Optional)**: xxxxx.
-- **Search (Required/Optional)**: xxxxx.
-- **Show Hide (Required/Optional)**: xxxxx.
-- **Range indicator (Required/Optional)**: xxxxx.
-
-
-OLD CONTENT
-The filter button is a specialized button used on top of a table. It is **always** the final button in a button group. Filter buttons come in the following variations:
-
-- Regular
-- Compact
-- Truncated
-- Truncated-compact
+- **Primary button (Required)**: The primary button indicates the primary action a user can take on a selected object in the table. The primary button commands user's attention.
+- **Secondary button (Required)**: The secondary button indicates other, less frequently used actions a users can take on a selected object.
+- **Tertiary button (Optional)**: Use a tertiary button with a primary button or secondary button when there are two options and you want to de-emphasize one of them. For example, in a confirmation modal with two options, use **Submit** (primary) and **Cancel** (tertiary).
+- **Filter button (Optional)**: When the user clicks the filter button, the data set in the table is reduced based on the selected criteria. Filter buttons come in the following variations: regular, compact, truncated, and truncated-compact.
+- **Select all (Required/Optional)**: When the user clicks **Select All**, all records in the table or page are selected.
+- **Number selected (Required/Optional)**: The number selected show the number of objects selected in the table. For example, **3 Selected** means that out of 10 records displayed in the table, three of those records are currently selected by the user.
+- **Search (Optional)**: The top of the table can include a search bar that a user can use to locate records.
+- **Show/Hide (Required/Optional)**: The user can select to show or hide columns from view. Show/hide enables the user to select which data they want to view.
+- **Range indicator (Required/Optional)**: The range indicator displays which records are displayed currently in the table. For example, **Showing 20-30 of 450** means that out of 450 objects, the only ones being displayed are records 20 through 30.
 
 {% endcolumn %}
 
@@ -119,14 +111,6 @@ The filter button is a specialized button used on top of a table. It is **always
 ### Style
 
 Use these specifications when you construct table top controls.
-
-
-OLD STUFF...
-Apply sorting to table headers via a click interaction and an icon visual indicator. The icon may take the following states:
-
-- Ascending
-- Descending
-- Hover
 
 {% endcolumn %}
 
@@ -192,16 +176,8 @@ Use the following specifications when you construct table header controls.
 
 The header of the table can include the following controls:
 
-- **Bulk selection (Optional)**:
-- **Sorting (Optional)**:
-
-OLD CONTENT
-The filter button is a specialized button used on top of a table. It is **always** the final button in a button group. Filter buttons come in the following variations:
-
-- Regular
-- Compact
-- Truncated
-- Truncated-compact
+- **Bulk selection (Optional)**: When the user clicks the bulk selection checkbox, all records in on the current page are selected.
+- **Sorting (Optional)**: Users can sort the table rows to appear either in ascending order or descending order.
 
 {% endcolumn %}
 
@@ -291,29 +267,8 @@ Use the following specifications when you construct table row controls.
 
 The row of the table can include the following controls:
 
-- **Bulk selection (Optional)**:
-- **Reveal (Optional)**:
-
-OLD CONTENT
-The actions cog allows user's to quickly initiate a number of create and edit workflows on an item in a table without clicking into an item’s detail page. These available actions are hidden behind the cog icon, allowing a user to interact with the cog to execute these actions. In obscuring these options behind a user click, the actions cog does not overload the users view of the table data.
-
-To ensure proper use, follow these guidelines:
-
-- Only use a cog if you have three or more actions that may be performed on a table row.
-- Keep the actions list to seven or fewer actions.
-- Group like actions in the drop-down together through the use of a title. Multiple groupings may occur, but avoid exceeding seven actions.
-
-
-Apply the primary and secondary action buttons to the row set after the selection process. Bulk selection has the following states:
-- indeterminiate
-- none Selected
-- all selected
-
-To ensure proper use, follow these guidelines:
-
-- If a check-box is present, it is **always** the first option for clarity.
-- If the actions cog is present and a check-box is not present, the cog becomes the **first** option.
-- Icons should be 16px wide with 20px spacing on both sides.
+- **Bulk selection (Optional)**: When the user clicks the bulk selection checkbox, all records in on the current page are selected.
+- **Reveal (Optional)**: The reveal option enables the use to expand the height of the rows to display more data.
 
 {% endcolumn %}
 
@@ -403,45 +358,13 @@ Use the following specifications when you construct table bottom controls.
 
 The bottom of the table can include the following controls:
 
-- **Primary button (Required)**:
-- **Secondary button (Optional)**:
-- **Tertiary button (Optional)**:
-- **Select all button (Optional)**:
-- **Pagination (Optional)**:
-- **Selection bucket (Optional)**:
-- **Number selected (Optional)**:
-
-
-OLD STUFF...
-Pagination controls enable users to traverse large data sets by viewing one “page” of data at a time.
-* The pagination bar is centered below the table and facilitates up to five numerical page buttons.
-* The bar contains a back and next button so that the user can navigate to adjacent pages.
-* The bar contains first page and last page buttons so that the user can navigate to the first and last pages of data in the set
-
-The number of buttons
-
-- The pagination bar displays three page buttons by default, but can be configured to display up to five page buttons.
-- When there are five or less pages of data, the button bar shrinks to accommodate.
-- The back, next, first page, and last page buttons always remain visible, but are disabled depending on current page position.
-- The bar must remain centered in its position under the table.
-
-Page button behaviors
-
-- When the first page is selected, the First Page and Back buttons are disabled.
-- When the last page is selected the Next and Last Page buttons are disabled.
-- The back, next, first page, and last page buttons always remain visible, but are disabled depending on current page position.
-
-Indeterminate page count
-
-Sometimes, a back-end system that serves data cannot determine the total number of pages.  In that scenario, the pagination bar behaves as follows:
-
-- The Last Page button is disabled
-- Change the cursor to “unavailable” when the user hovers over the button
-- Display a tooltip explaining why the button is not clickable.
-
-Row count controls
-
-Row count controls are aligned to the right edge of the table.  The number in each option can be determined at implementation, and largely depends on the performance of the back-end system serving the data.
+- **Primary button (Required)**: The primary button indicates the primary action a user can take on a selected object in the table. The primary button commands user's attention.
+- **Secondary button (Required)**: The secondary button indicates other, less frequently used actions a users can take on a selected object.
+- **Tertiary button (Optional)**: Use a tertiary button with a primary button or secondary button when there are two options and you want to de-emphasize one of them. For example, in a confirmation modal with two options, use **Submit** (primary) and **Cancel** (tertiary).
+- **Select all (Required/Optional)**: When the user clicks **Select All**, all records in the current page page are selected.
+- **Pagination (Optional)**: Pagination controls enable users to navigate large data sets by viewing one page of data at a time.
+- **Selection bucket (Optional)**: The selection bucket shows all objects that the user has selected across all pages. The user can use the selection bucket to deselect records.
+- **Number selected (Required/Optional)**: The number selected show the number of objects selected in the table. For example, **3 Selected** means that out of 10 records displayed in the table, three of those records are currently selected by the user.
 
 {% endcolumn %}
 
