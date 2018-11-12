@@ -22,9 +22,9 @@ pagelink: https://rackerlabs.github.io/helix-ui/components/popovers/
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-## Table variations
+## Table variations/types
 
-xxxxxx.
+Take content from the Table component page.
 
 {% endcolumn %}
 
@@ -46,13 +46,9 @@ Use a *condensed table* when you present a small amount of information. The cond
 
 Use a *dual-line* table when the text in a cell wraps to two or more lines. For example, use a dual-line table when two values are meaningfully related to each other and should be displayed in the same cell.
 
+Use a *dual-layout* table when you need to display data in two tables, one on the left and one on the right.
 
-Use a *dual-layout* table when...XXXX.
-
-Use a responsive table when:
-
-- xxxxx.
-- xxxxxx.
+Use a *responsive table* when the table should adjust in size to accommodate the users' device display size.
 
 {% endcolumn %}
 
@@ -68,19 +64,90 @@ Use a responsive table when:
 
 ## Best practices
 
-Consider the following best practices when you construct any table variation:
+Consider the following best practices when you construct table variations.
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+### Condensed table best practices
+
+Consider the following best practices when you construct a condensed table:
 
 - xxxxx.
+- xxxxx.
+- xxxxx.
+- xxxxx.
 
+{% endcolumn %}
 
-Dual-line best practices
+</div>
 
-Best practices:
-- **Rule**: (**Important**) Each cell with more than one line of text must have a designated primary and secondary value.
-- **Rule**: In rows with the [table controls]({{site.baseurl}}/components/tables-controls.html) sorting pattern applied, the pattern will always sort based on the primary key.
-- **Suggestion**: Increase the `font-weight` between the primary and secondary values in dual-line rows to make the sorting function more clear to a user.
-- **Suggestion**: Due to the amount of information presented with this pattern, consider pairing it with [assisted search]({{site.baseurl}}/components/assisted-search.html) to allow more robust filtering of table content.
+</section>
 
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+### Dual-line table best practices
+
+Consider the following best practices when you construct a dual-line table:
+
+- In lines displaying two independent text rows, emphasize the primary line (on top) by increasing its font weight and adding **bold**.
+- If you use the sort control in the table header, ensure that the sort is based on the primary key.
+- Due to the amount of information that can be displayed in a dual-line table, consider pairing the table with [assisted search]({{site.baseurl}}/components/assisted-search.html). Assisted search provides more robust filtering of table content.
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+### Dual-layout table best practices
+
+Consider the following best practices when you construct a dual-layout table:
+
+- xxxx
+- xxxx.
+- xxxx.
+- xxxx.
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+### Responsive table best practices
+
+Consider the following best practices when you construct a responsive table:
+
+- xxxxx.
+- xxxxx.
+- xxxxx.
+- xxxxx.
 
 {% endcolumn %}
 
@@ -95,6 +162,7 @@ Best practices:
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 ## Condensed table specifications
+
 Use these specifications when you construct a condensed table.
 
 {% endcolumn %}
@@ -204,6 +272,7 @@ Use these specifications when you construct a dual-line table.
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Composition
+
 The dual-line table is composed of the following elements:
 
 - **xxxxx (Required/Optional)**: xxxxx.
@@ -261,16 +330,14 @@ Refer to the [shadow system]({{site.baseurl}}/style/shadows.html) for guidelines
 
 Use these spacing specifications when you construct a dual-line table.
 
-OLD STUFF...
+**OLD STUFF...**
 Using the dual-line text variation impacts standard table layout in the following ways:
 
 - The top and bottom padding for cells moves from 20px to 16px.
 - Spacing between lines in dual-line rows are 10px apart.
-  - Suggested implementation: apply 1.5em line height to dual-line rows
+- Suggested implementation: apply 1.5em line height to dual-line rows
 - Independent text rows have a line-height of 12px and get truncated instead of wrapping.
-- In lines displaying two independent text rows, emphasize the primary line (on top) by increasing its font weight to **bold**.
 - In lines that include a contextual icon, the supporting icon is spaced 4px from the adjacent text. The icon is the same size as surrounding text: 16x16px.
-
 
 {% endcolumn %}
 
