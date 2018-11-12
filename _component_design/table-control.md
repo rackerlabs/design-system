@@ -59,7 +59,7 @@ Consider the following best practices when you construction a table control:
 
 ## Table top control specifications
 
-Use the following specifications when you construct table controls.
+Use the following specifications when you construct table top controls.
 
 {% endcolumn %}
 
@@ -172,9 +172,9 @@ Refer to these spacing guidelines when you construct table top controls.
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-## Table header specifications
+## Table header control specifications
 
-xxxxx.
+Use the following specifications when you construct table header controls.
 
 {% endcolumn %}
 
@@ -190,6 +190,12 @@ xxxxx.
 
 ### Composition
 
+The header of the table can include the following controls:
+
+- **Bulk selection (Optional)**:
+- **Sorting (Optional)**:
+
+OLD CONTENT
 The filter button is a specialized button used on top of a table. It is **always** the final button in a button group. Filter buttons come in the following variations:
 
 - Regular
@@ -219,7 +225,7 @@ The filter button is a specialized button used on top of a table. It is **always
 
 ### Style
 
-xxxxx.
+Use these specifications when you construct table header controls.
 
 {% endcolumn %}
 
@@ -243,7 +249,7 @@ xxxxx.
 
 ### Spacing
 
-xxxxx.
+Refer to these spacing guidelines when you construct table header controls.
 
 {% endcolumn %}
 
@@ -265,9 +271,9 @@ xxxxx.
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-## Table row specifications
+## Table row control specifications
 
-xxxxx.
+Use the following specifications when you construct table row controls.
 
 {% endcolumn %}
 
@@ -283,6 +289,12 @@ xxxxx.
 
 ### Composition
 
+The row of the table can include the following controls:
+
+- **Bulk selection (Optional)**:
+- **Reveal (Optional)**:
+
+OLD CONTENT
 The actions cog allows user's to quickly initiate a number of create and edit workflows on an item in a table without clicking into an item’s detail page. These available actions are hidden behind the cog icon, allowing a user to interact with the cog to execute these actions. In obscuring these options behind a user click, the actions cog does not overload the users view of the table data.
 
 To ensure proper use, follow these guidelines:
@@ -325,7 +337,7 @@ To ensure proper use, follow these guidelines:
 
 ### Style
 
-xxxxx.
+Use these specifications when you construct table row controls.
 
 {% endcolumn %}
 
@@ -349,7 +361,7 @@ xxxxx.
 
 ### Spacing
 
-xxxxx.
+Refer to these spacing guidelines when you construct table row controls.
 
 {% endcolumn %}
 
@@ -371,9 +383,9 @@ xxxxx.
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-## Table bottom specifications
+## Table bottom control specifications
 
-xxxxx.
+Use the following specifications when you construct table bottom controls.
 
 {% endcolumn %}
 
@@ -389,6 +401,18 @@ xxxxx.
 
 ### Composition
 
+The bottom of the table can include the following controls:
+
+- **Primary button (Required)**:
+- **Secondary button (Optional)**:
+- **Tertiary button (Optional)**:
+- **Select all button (Optional)**:
+- **Pagination (Optional)**:
+- **Selection bucket (Optional)**:
+- **Number selected (Optional)**:
+
+
+OLD STUFF...
 Pagination controls enable users to traverse large data sets by viewing one “page” of data at a time.
 * The pagination bar is centered below the table and facilitates up to five numerical page buttons.
 * The bar contains a back and next button so that the user can navigate to adjacent pages.
@@ -441,7 +465,7 @@ Row count controls are aligned to the right edge of the table.  The number in ea
 
 ### Style
 
-xxxxx.
+Use these specifications when you construct table bottom controls.
 
 {% endcolumn %}
 
@@ -465,7 +489,7 @@ xxxxx.
 
 ### Spacing
 
-xxxxx.
+Refer to these spacing guidelines when you construct table bottom controls.
 
 {% endcolumn %}
 
