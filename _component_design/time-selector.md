@@ -7,7 +7,7 @@ usage: The time selector enables the user to select a time from a list of values
 preview-image: preview-images/time-selector.svg
 resource: true
 status: stable
-last-modified: 2018-11-07
+last-modified: 2018-11-13
 helix-ui-css: false
 helix-ui-javascript: false
 ---
@@ -22,7 +22,7 @@ helix-ui-javascript: false
 
 ## When to use
 
-Use the time selector when you want to enable a user to select a time from a list of values. The time selected includes an hour value and a minute value. The hour value can include 12-hour clock values, or 24-hour clock values. Minutes are grouped into 10-minute, 15-minute, or 30-minute intervals. For example, a user can select a time of **1:00 PM**, **1:10 PM**, **1:15 PM**, or **1:30 PM**, but cannot select any other minute values.
+Use the time selector when you want to enable a user to select a time from a list of values. The time selected includes an hour value and a minute value.
 
 If you want the user to select a time from a limited list of predetermined times, consider using [radios]({{site.baseurl}}\components\radios.html).
 
@@ -42,8 +42,8 @@ If you want the user to select a time from a limited list of predetermined times
 
 Consider the following best practices when you construct a time selector:
 
-- Depending on the use case, provide 10-minute, 15-minute, or 30-minute increments in a time selector.
-- If you are using a 12-hour clock, add **AM** and **PM** in the drop-down selector. **AM** and **PM** are not required for a 24-hour clock.
+ - The hour value can include 12-hour clock values, or 24-hour clock values. If you are using a 12-hour clock, add **AM** and **PM** in the drop-down selector. **AM** and **PM** are not required for a 24-hour clock. See [Date and Time]({{site.baseurl}}/style/date-time.html) for more information on formatting date and time values.
+ - Minutes are grouped into 10-minute, 15-minute, or 30-minute intervals. For example, a user can select a time of **1:00 PM**, **1:10 PM**, **1:15 PM**, or **1:30 PM**, but cannot select any other minute values.
 - Construct the time selector so that the user can tab to it, which focuses the time selector without triggering the drop-down selector.
 
 {% endcolumn %}
@@ -78,7 +78,7 @@ Consider the following specifications when you construct a time selector.
 
 A time selector is comprised of the following elements:
 
-- **Drop-down selector (required)**: All possible minute and hour combinations appear on a drop-down list that the user accesses by clicking the drop-down selector. The drop-down selector can be activated by keyboard input or when the user clicks anywhere on the time selector. See [drop-down selector]({{site.baseurl}}\components\drop-down-selector.html) for construction guidelines.
+- **Drop-down selector (required)**: Selectable minute and hour combinations appear on a drop-down list that the user accesses by clicking the drop-down selector. The drop-down selector can be activated by keyboard input or when the user clicks anywhere on the time selector. See [drop-down selector]({{site.baseurl}}\components\drop-down-selector.html) for construction guidelines.
 - **Clock icon (required)**: Use the clock icon as a visual aid to remind the user that they are using a time selector. See the [Helix Toolkit](https://rackerlabs.github.io/helix-ui/components/icons/) for more information about icons.
 
 {% endcolumn %}
@@ -153,7 +153,7 @@ Use these spacing guidelines when you construct a time selector.
 
 Rackspace is a global company with users around the world.
 
-If you need to show a time zone, use Coordinated Universal Time (UTC), and indicate the time-zone offset from UTC. For example, use **10:30 (UTC -6)** (refers to CT).
+If you need to show a time zone, use Coordinated Universal Time (UTC), and indicate the time-zone offset from UTC. For example, use **10:30 (UTC -6)** (refers to CT). See [Date and Time]({{site.baseurl}}/style/date-time.html) for more information on formatting time zones.
 
 {% endcolumn %}
 
