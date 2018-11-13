@@ -153,7 +153,7 @@ Use these spacing guidelines when you construct a time selector.
 
 Rackspace is a global company with users around the world.
 
-If you need to show a time zone, use Coordinated Universal Time (UTC), and indicate the time-zone offset from UTC. For example, use **10:30 (UTC -6)** (refers to CT). See [Date and Time]({{site.baseurl}}/style/date-time.html) for more information on formatting time zones.
+If you need to show a time zone, use Coordinated Universal Time (UTC), and indicate the time-zone offset from UTC. For example, use **10:30 (UTC -6)** (refers to U.S. Central Time). See [Date and Time]({{site.baseurl}}/style/date-time.html) for more information on formatting time zones.
 
 {% endcolumn %}
 
