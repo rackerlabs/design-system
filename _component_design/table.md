@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/tables.svg
 status: stable
 resource: true
-last-modified: 2018-11-12
+last-modified: 2018-11-15
 helix-ui-css: true
 helix-ui-javascript: na
 pagelink: https://rackerlabs.github.io/helix-ui/components/tables/#basic-table
