@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/popover.svg
 resource: true
 status: stable
-last-modified: 2018-11-12
+last-modified: 2018-11-15
 helix-ui-css: true
 helix-ui-javascript: true
 pagelink: https://rackerlabs.github.io/helix-ui/components/popovers/
@@ -24,7 +24,7 @@ pagelink: https://rackerlabs.github.io/helix-ui/components/popovers/
 
 ## Table variations/types
 
-Take content from the Table component page.
+Note to Chris and Bart: This section will include content taken from the Table page.
 
 {% endcolumn %}
 
@@ -330,7 +330,7 @@ Refer to the [shadow system]({{site.baseurl}}/style/shadows.html) for guidelines
 
 Use these spacing specifications when you construct a dual-line table.
 
-**OLD STUFF...**
+**OLD STUFF...KEEP FOR NOW**
 Using the dual-line text variation impacts standard table layout in the following ways:
 
 - The top and bottom padding for cells moves from 20px to 16px.
