@@ -24,31 +24,22 @@ pagelink: https://rackerlabs.github.io/helix-ui/components/tables/#basic-table
 
 ## Table types
 
-There are four table types for you to consider:
+There are three table types for you to consider:
 
-- **Condensed table**: Use a condensed table when you want to show a limited amount of data in a small area.
 - **Dual-line table**: A dual-line table contains text that wraps into multiple lines of text.
-- **Dual-layout tables**: Dual-layout tables display one table on the left, and one table on the right.
-- **Responsive table**: Responsive tables adjust in size to accommodate the display size of the customer.
+- **Dual-layout table**: Dual-layout tables display one table on the left, and one table on the right.
+- **Expanded table**: xxx.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Table header composition"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/tables/basic-tables/tables-default.svg"/>
+<embed src="{{site.url}}/assets/images/components/tables/table/placeholder-image.png" width="444"/>
 {% endfigure %}
 
 {% figure [caption:"Table header composition"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/tables/basic-tables/tables-default.svg"/>
-{% endfigure %}
-
-{% figure [caption:"Table header composition"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/tables/basic-tables/tables-default.svg"/>
-{% endfigure %}
-
-{% figure [caption:"Table header composition"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/tables/basic-tables/tables-default.svg"/>
+<embed src="{{site.url}}/assets/images/components/tables/table/placeholder-image.png" width="444"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -136,7 +127,7 @@ A table header is comprised of the following elements:
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Table header composition"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/tables/basic-tables/tables-default.svg"/>
+<embed src="{{site.url}}/assets/images/components/tables/table/placeholder-image.png" width="444"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -160,7 +151,7 @@ Use these specifications when you construct a table header.
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Table header style"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/tables/basic-tables/tables-condensed.svg"/>
+<embed src="{{site.url}}/assets/images/components/tables/table/placeholder-image.png" width="444"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -184,7 +175,7 @@ Refer to these spacing specifications when you construct a table header.
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Table header spacing"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/tables/basic-tables/tables-small-condensed.svg"/>
+<embed src="{{site.url}}/assets/images/components/tables/table/placeholder-image.png" width="444"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -235,7 +226,7 @@ A table row is comprised of the following elements:
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Table row composition"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/tables/basic-tables/tables-loading.svg"/>
+<embed src="{{site.url}}/assets/images/components/tables/table/placeholder-image.png" width="444"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -259,7 +250,7 @@ Use these specifications when you construct a table row.
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Table row style"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/tables/basic-tables/tables-loading.svg"/>
+<embed src="{{site.url}}/assets/images/components/tables/table/placeholder-image.png" width="444"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -283,7 +274,7 @@ Refer to these spacing specifications when you construct a table row.
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Table row spacing"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/tables/basic-tables/tables-loading.svg"/>
+<embed src="{{site.url}}/assets/images/components/tables/table/placeholder-image.png" width="444"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -307,7 +298,7 @@ Some text here on cell width...
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Cell width spacing"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/tables/basic-tables/tables-loading.svg"/>
+<embed src="{{site.url}}/assets/images/components/tables/table/placeholder-image.png" width="444"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -346,7 +337,7 @@ When using the check box icon within a table, each row supports the following st
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Table states"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/tables/basic-tables/tables-empty.svg"/>
+<embed src="{{site.url}}/assets/images/components/tables/table/placeholder-image.png" width="444"/>
 {% endfigure %}
 
 {% endcolumn %}
