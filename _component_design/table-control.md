@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/tables-controls.svg
 status: stable
 resource: true
-last-modified: 2018-11-12
+last-modified: 2018-11-15
 helix-ui-css: false
 helix-ui-javascript: false
 ---
@@ -43,8 +43,6 @@ Consider the following best practices when you construct a table control:
 
 - On the top of the table, a filter button is always the last button in a button group.
 - If you add checkboxes to table rows, list the checkbox first. If you include a cog and not a checkbox, list the cog first.
-xxxxxx.
-- xxxxxx
 
 {% endcolumn %}
 
