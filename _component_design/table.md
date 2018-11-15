@@ -26,17 +26,13 @@ pagelink: https://rackerlabs.github.io/helix-ui/components/tables/#basic-table
 
 There are three table types for you to consider:
 
-- **Dual-line table**: A dual-line table contains text that wraps into multiple lines of text.
+- **Multi-line table**: A multi-line table contains text that wraps into multiple lines of text.
 - **Dual-layout table**: Dual-layout tables display one table on the left, and one table on the right.
 - **Expanded table**: xxx.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-{% figure [caption:"Table header composition"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/tables/table/placeholder-image.png" width="444"/>
-{% endfigure %}
 
 {% figure [caption:"Table header composition"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/tables/table/placeholder-image.png" width="444"/>
