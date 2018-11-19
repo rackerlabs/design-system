@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/tables-controls.svg
 status: stable
 resource: true
-last-modified: 2018-11-15
+last-modified: 2018-11-19
 helix-ui-css: false
 helix-ui-javascript: false
 ---
@@ -91,7 +91,7 @@ The top of the table can include the following controls:
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Filter buttons trancated/truncated-compact variations"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/tables/controls-tables/tables-filter-2.svg"/>
+<embed src="{{site.url}}/assets/images/components/tables/table-controls/placeholder-image.png" width="444"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -115,7 +115,7 @@ Use these specifications when you construct table top controls.
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Sorting states and icons"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/tables/controls-tables/tables-sorting.svg"/>
+<embed src="{{site.url}}/assets/images/components/tables/table-controls/placeholder-image.png" width="444"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -139,7 +139,7 @@ Refer to these spacing guidelines when you construct table top controls.
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Sorting states and icons"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/tables/controls-tables/tables-sorting.svg"/>
+<embed src="{{site.url}}/assets/images/components/tables/table-controls/placeholder-image.png" width="444"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -182,7 +182,7 @@ The header of the table can include the following controls:
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Filter buttons trancated/truncated-compact variations"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/tables/controls-tables/tables-filter-2.svg"/>
+<embed src="{{site.url}}/assets/images/components/tables/table-controls/placeholder-image.png" width="444"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -206,7 +206,7 @@ Use these specifications when you construct table header controls.
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Sorting states and icons"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/tables/controls-tables/tables-sorting.svg"/>
+<embed src="{{site.url}}/assets/images/components/tables/table-controls/placeholder-image.png" width="444"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -230,7 +230,7 @@ Refer to these spacing guidelines when you construct table header controls.
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Sorting states and icons"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/tables/controls-tables/tables-sorting.svg"/>
+<embed src="{{site.url}}/assets/images/components/tables/table-controls/placeholder-image.png" width="444"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -273,7 +273,7 @@ The row of the table can include the following controls:
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Filter buttons trancated/truncated-compact variations"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/tables/controls-tables/tables-filter-2.svg"/>
+<embed src="{{site.url}}/assets/images/components/tables/table-controls/placeholder-image.png" width="444""/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -297,7 +297,7 @@ Use these specifications when you construct table row controls.
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Sorting states and icons"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/tables/controls-tables/tables-sorting.svg"/>
+<embed src="{{site.url}}/assets/images/components/tables/table-controls/placeholder-image.png" width="444"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -321,7 +321,7 @@ Refer to these spacing guidelines when you construct table row controls.
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Sorting states and icons"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/tables/controls-tables/tables-sorting.svg"/>
+<embed src="{{site.url}}/assets/images/components/tables/table-controls/placeholder-image.png" width="444"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -369,7 +369,7 @@ The bottom of the table can include the following controls:
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Filter buttons trancated/truncated-compact variations"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/tables/controls-tables/tables-filter-2.svg"/>
+<embed src="{{site.url}}/assets/images/components/tables/table-controls/placeholder-image.png" width="444"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -393,7 +393,7 @@ Use these specifications when you construct table bottom controls.
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Sorting states and icons"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/tables/controls-tables/tables-sorting.svg"/>
+<embed src="{{site.url}}/assets/images/components/tables/table-controls/placeholder-image.png" width="444"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -417,7 +417,7 @@ Refer to these spacing guidelines when you construct table bottom controls.
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Sorting states and icons"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/tables/controls-tables/tables-sorting.svg"/>
+<embed src="{{site.url}}/assets/images/components/tables/table-controls/placeholder-image.png" width="444"/>
 {% endfigure %}
 
 {% endcolumn %}
