@@ -1,5 +1,5 @@
 ---
-title: Table Types
+title: Table Variations
 parent: Tables
 layout: component
 category: Components
@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/popover.svg
 resource: true
 status: stable
-last-modified: 2018-11-15
+last-modified: 2018-11-19
 helix-ui-css: true
 helix-ui-javascript: true
 pagelink: https://rackerlabs.github.io/helix-ui/components/popovers/
@@ -22,7 +22,7 @@ pagelink: https://rackerlabs.github.io/helix-ui/components/popovers/
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-## Table variations/types
+## Table variations
 
 Note to Chris and Bart: This section will include content taken from the Table page.
 
@@ -42,13 +42,9 @@ Note to Chris and Bart: This section will include content taken from the Table p
 
 Use the following guidelines when you consider which table variation to construct.
 
-Use a *condensed table* when you present a small amount of information. The condensed table format presents data concisely and is preferred over a bulleted list or a key-value list.
+- Use a *multi-line* table when the text in a cell wraps to two or more lines. For example, use a dual-line table when two values are meaningfully related to each other and should be displayed in the same cell.
 
-Use a *dual-line* table when the text in a cell wraps to two or more lines. For example, use a dual-line table when two values are meaningfully related to each other and should be displayed in the same cell.
-
-Use a *dual-layout* table when you need to display data in two tables, one on the left and one on the right.
-
-Use a *responsive table* when the table should adjust in size to accommodate the users' device display size.
+- Use a *dual-layout* table when you need to display data in two tables, one on the left and one on the right.
 
 {% endcolumn %}
 
@@ -78,28 +74,7 @@ Consider the following best practices when you construct table variations.
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-### Condensed table best practices
-
-Consider the following best practices when you construct a condensed table:
-
-- xxxxx.
-- xxxxx.
-- xxxxx.
-- xxxxx.
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow"  markdown="1">
-
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-### Dual-line table best practices
+### Multi-line table best practices
 
 Consider the following best practices when you construct a dual-line table:
 
@@ -140,122 +115,7 @@ Consider the following best practices when you construct a dual-layout table:
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-### Responsive table best practices
-
-Consider the following best practices when you construct a responsive table:
-
-- xxxxx.
-- xxxxx.
-- xxxxx.
-- xxxxx.
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow"  markdown="1">
-
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-## Condensed table specifications
-
-Use these specifications when you construct a condensed table.
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow"  markdown="1">
-
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-### Composition
-The condensed table is composed of the following elements:
-
-- **xxxxx (Required/Optional)**: xxxxx.
-- **xxxxx (Required/Optional)**: xxxxx.
-- **xxxxx (Required/Optional)**: xxxxx.
-- **xxxxx (Required/Optional)**: xxxxx.
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-{% figure [caption:"Popover composition"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/popovers/popovers-composition.png" width="486px"/>
-{% endfigure %}
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow"  markdown="1">
-
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-### Style
-
-Use these specifications when you construct a condensed table.
-
-Refer to the [shadow system]({{site.baseurl}}/style/shadows.html) for guidelines on constructing shadows.
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-{% figure [caption:"Popover style"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/popovers/popovers-style.png" width="553px"/>
-{% endfigure %}
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow"  markdown="1">
-
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-### Spacing
-
-Use these spacing specifications when you construct a condensed table.
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-{% figure [caption:"Popover spacing"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/popovers/popovers-spacing.png" width="356px"/>
-{% endfigure %}
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow"  markdown="1">
-
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-## Dual-line table specifications
+## Multi-line table specifications
 
 Use these specifications when you construct a dual-line table.
 
@@ -433,101 +293,6 @@ Refer to the [shadow system]({{site.baseurl}}/style/shadows.html) for guidelines
 ### Spacing
 
 Use these spacing specifications when you construct a dual-layout table.
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-{% figure [caption:"Popover spacing"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/popovers/popovers-spacing.png" width="356px"/>
-{% endfigure %}
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow"  markdown="1">
-
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-## Responsive layout table specifications
-
-Use these specifications when you construct a responsive table.
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow"  markdown="1">
-
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-### Composition
-
-The responsive table is composed of the following elements:
-
-- **xxxxx (Required/Optional)**: xxxxx.
-- **xxxxx (Required/Optional)**: xxxxx.
-- **xxxxx (Required/Optional)**: xxxxx.
-- **xxxxx (Required/Optional)**: xxxxx.
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-{% figure [caption:"Popover composition"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/popovers/popovers-composition.png" width="486px"/>
-{% endfigure %}
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow"  markdown="1">
-
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-### Style
-
-Use these specifications when you construct a responsive table.
-
-Refer to the [shadow system]({{site.baseurl}}/style/shadows.html) for guidelines on constructing shadows.
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-{% figure [caption:"Popover style"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/popovers/popovers-style.png" width="553px"/>
-{% endfigure %}
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow"  markdown="1">
-
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-### Spacing
-
-Use these spacing specifications when you construct a responsive table.
 
 {% endcolumn %}
 
