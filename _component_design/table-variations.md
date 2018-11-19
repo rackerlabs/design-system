@@ -145,7 +145,7 @@ The dual-line table is composed of the following elements:
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Popover composition"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/popovers/popovers-composition.png" width="486px"/>
+<embed src="{{site.url}}/assets/images/components/tables/table-variations/placeholder-image.png" width="444px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -171,7 +171,7 @@ Refer to the [shadow system]({{site.baseurl}}/style/shadows.html) for guidelines
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Popover style"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/popovers/popovers-style.png" width="553px"/>
+<embed src="{{site.url}}/assets/images/components/tables/table-variations/placeholder-image.png" width="444px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -204,7 +204,7 @@ Using the dual-line text variation impacts standard table layout in the followin
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Popover spacing"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/popovers/popovers-spacing.png" width="356px"/>
+<embed src="{{site.url}}/assets/images/components/tables/table-variations/placeholder-image.png" width="444px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -249,7 +249,7 @@ The dual-layout table is composed of the following elements:
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Popover composition"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/popovers/popovers-composition.png" width="486px"/>
+<embed src="{{site.url}}/assets/images/components/tables/table-variations/placeholder-image.png" width="444px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -275,7 +275,7 @@ Refer to the [shadow system]({{site.baseurl}}/style/shadows.html) for guidelines
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Popover style"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/popovers/popovers-style.png" width="553px"/>
+<embed src="{{site.url}}/assets/images/components/tables/table-variations/placeholder-image.png" width="444px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -299,7 +299,7 @@ Use these spacing specifications when you construct a dual-layout table.
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Popover spacing"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/popovers/popovers-spacing.png" width="356px"/>
+<embed src="{{site.url}}/assets/images/components/tables/table-variations/placeholder-image.png" width="444px"/>
 {% endfigure %}
 
 {% endcolumn %}
