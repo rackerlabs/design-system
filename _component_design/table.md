@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/tables.svg
 status: stable
 resource: true
-last-modified: 2018-11-15
+last-modified: 2018-11-19
 helix-ui-css: true
 helix-ui-javascript: na
 pagelink: https://rackerlabs.github.io/helix-ui/components/tables/#basic-table
@@ -28,7 +28,7 @@ There are three table types for you to consider:
 
 - **Multi-line table**: A multi-line table contains text that wraps into multiple lines of text.
 - **Dual-layout table**: Dual-layout tables display one table on the left, and one table on the right.
-- **Expanded table**: xxx.
+- **Expanded table**: An expanded table provides a reveal option expands and collapses the height of a row .
 
 {% endcolumn %}
 
