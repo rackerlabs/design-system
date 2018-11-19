@@ -4,7 +4,7 @@ parent: Tables
 layout: component
 category: Components
 usage: >
-  Depending on your use case, you can consider adding a condensed, dual-line, dual-layout, or responsive table to the page.
+  Depending on your use case, you can consider adding a dual-line or dual-layout table to the page.
 preview-image: preview-images/popover.svg
 resource: true
 status: stable
