@@ -78,7 +78,7 @@ Consider the following specifications when you construct a time selector.
 
 A time selector is comprised of the following elements:
 
-- **Drop-down selector (required)**: Selectable minute and hour combinations appear on a drop-down list that the user accesses by clicking the drop-down selector. The drop-down selector can be activated by keyboard input or when the user clicks anywhere on the time selector. See [drop-down selector]({{site.baseurl}}\components\drop-down-selector.html) for construction guidelines.
+- **Drop-down selector (required)**: Selectable minute and hour combinations appear on a drop-down list that the user accesses by clicking the drop-down selector. The drop-down selector can be activated by keyboard input or when the user clicks anywhere on the time selector. See [drop-down selector]({{site.baseurl}}/components/drop-down-selector.html) for construction guidelines.
 - **Clock icon (required)**: Use the clock icon as a visual aid to remind the user that they are using a time selector. See the [Helix Toolkit](https://rackerlabs.github.io/helix-ui/components/icons/) for more information about icons.
 
 {% endcolumn %}
