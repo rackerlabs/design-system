@@ -24,7 +24,7 @@ helix-ui-javascript: false
 
 Use the time selector to enable a user to choose a specific hour in the 24-hour range. The time selected includes an hour value and a minute value.
 
-If you want the user to select a time from a limited list of predetermined times, consider using [radios]({{site.baseurl}}\components\radios.html).
+If you want the user to select a time from a limited list of predetermined times, consider using [radios]({{site.baseurl}}/components/radio-buttons.html).
 
 {% endcolumn %}
 
