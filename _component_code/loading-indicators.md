@@ -2,7 +2,8 @@
 title: Loading Indicators
 layout: code
 category: Components Code
-code: null
+code: components/loaders/
+part: busy
 ---
 
-{% include todo.html content="Set up code." %}
+{% include code-container.html %}

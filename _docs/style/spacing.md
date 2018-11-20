@@ -20,9 +20,9 @@ last-modified: 2018-03-28
 
 The Helix spacing system was influenced by [Priyanka Godbole’s article](https://blog.prototypr.io/a-framework-for-creating-a-predictable-and-harmonious-spacing-system-8eee8aaf773c) in which she outlines steps for defining a system based on the **rule of three C’s**.
 
-- [**Containers**](#containers): A “square” inset of 20px is applied to the top, right, bottom, and left sides of any container.
+- [**Container**](#container): A “square” inset of 20px is applied to the top, right, bottom, and left sides of any container.
 - [**Content text**](#content-text): A “stack” value is applied to the space below [headers](#headers) (8px) and [leaf-nodes](#leaf-nodes) (4, 8, or 16px according to content type).
-- [**Components**](#components): “Inline” spacing values are applied to the space between components.  This rule uses 8px in most cases, and 4px for close proximity association.
+- [**Component**](#component): “Inline” spacing values are applied to the space between components.  This rule uses 8px in most cases, and 4px for close proximity association.
 
 This framework enabled us to define the spacing system using a limited set of values and rules that facilitate information hierarchy and adhere to accessibility guidelines.
 
@@ -35,7 +35,7 @@ For additional information on spacing vocabulary such as insets, stacks and inli
 
 <section class="static-section" markdown="1">
 
-## Containers
+## Container
 <div class="hxRow" markdown="1">
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-12-md hxSpan-12-lg" %}
@@ -291,7 +291,7 @@ Paragraph line-height of twenty-four pixels was derived from visual explorations
 
 {% column left:"hxCol hxSpan-12" %}
 
-## Components
+## Component
 
 Components are buttons, input fields, icons, and so on. Components are often placed next to each other horizontally (inline). All components sizing and spacing is defined in multiples of four.
 
