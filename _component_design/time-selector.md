@@ -7,7 +7,7 @@ usage: The time selector enables the user to select a time from a list of values
 preview-image: preview-images/time-selector.svg
 resource: true
 status: stable
-last-modified: 2018-11-13
+last-modified: 2018-11-20
 helix-ui-css: false
 helix-ui-javascript: false
 ---
@@ -22,7 +22,7 @@ helix-ui-javascript: false
 
 ## When to use
 
-Use the time selector when you want to enable a user to select a time from a list of values. The time selected includes an hour value and a minute value.
+Use the time selector to enable a user to choose a specific hour in the 24-hour range. The time selected includes an hour value and a minute value.
 
 If you want the user to select a time from a limited list of predetermined times, consider using [radios]({{site.baseurl}}\components\radios.html).
 
