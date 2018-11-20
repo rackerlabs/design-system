@@ -319,7 +319,7 @@
                     <tspan x="16" y="20">Select a Date Range</tspan>
                 </text>
             </g>
-            <g id="Time-Picker/Default" transform="translate(981.000000, 524.000000)">
+            <g id="Time-Selector/Default" transform="translate(981.000000, 524.000000)">
                 <path d="M107.28644,30.77 L0.937816514,30.77 C0.572862385,30.77 0.277266055,29.874 0.277266055,28.77 L0.277266055,2.77 C0.277266055,1.666 0.572862385,0.77 0.937816514,0.77 L107.28644,0.77 C107.651394,0.77 107.946991,1.666 107.946991,2.77 L107.946991,28.77 C107.946991,29.874 107.651394,30.77 107.28644,30.77 L107.28644,30.77 Z" id="Stroke-6" stroke="#BDBDBD" stroke-width="1"></path>
                 <text id="−-:-−−" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#333333">
                     <tspan x="9.5" y="20.5">− : −−  </tspan>

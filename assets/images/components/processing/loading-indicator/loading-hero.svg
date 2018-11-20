@@ -313,7 +313,7 @@
                     <tspan x="16.3804" y="20.035625">Select a Date Range</tspan>
                 </text>
             </g>
-            <g id="Time-Picker/Default" transform="translate(981.000000, 466.000000)">
+            <g id="Time-Selector/Default" transform="translate(981.000000, 466.000000)">
                 <path d="M107.28644,30.77 L0.937816514,30.77 C0.572862385,30.77 0.277266055,29.874 0.277266055,28.77 L0.277266055,2.77 C0.277266055,1.666 0.572862385,0.77 0.937816514,0.77 L107.28644,0.77 C107.651394,0.77 107.946991,1.666 107.946991,2.77 L107.946991,28.77 C107.946991,29.874 107.651394,30.77 107.28644,30.77 L107.28644,30.77 Z" id="Stroke-6" stroke="#BDBDBD" stroke-width="1"></path>
                 <text id="−-:-−−" font-family="Roboto-Regular, Roboto" font-size="16" font-weight="normal" fill="#333333">
                     <tspan x="9.5" y="20.5">− : −−  </tspan>
@@ -699,7 +699,7 @@
                         <text id="Select-a-Date-Range" stroke="none" fill="none" font-family="Roboto-Regular, Roboto" font-size="17.784" font-weight="normal">
                             <tspan x="784.08" y="532.96" fill="#616161">Select a Date Range</tspan>
                         </text>
-                        <g id="Time-Picker/Default" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(1038.240000, 507.600000)">
+                        <g id="Time-Selector/Default" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(1038.240000, 507.600000)">
                             <path d="M146.76785,41.37336 L1.28293299,41.37336 C0.783675743,41.37336 0.379299963,40.147632 0.379299963,38.63736 L0.379299963,3.06936 C0.379299963,1.559088 0.783675743,0.33336 1.28293299,0.33336 L146.76785,0.33336 C147.267108,0.33336 147.671483,1.559088 147.671483,3.06936 L147.671483,38.63736 C147.671483,40.147632 147.267108,41.37336 146.76785,41.37336 L146.76785,41.37336 Z" id="Stroke-6" stroke="#BDBDBD" stroke-width="1.368"></path>
                             <text id="−-:-−−" font-family="Roboto-Regular, Roboto" font-size="21.888" font-weight="normal" fill="#333333">
                                 <tspan x="12.996" y="26.804">− : −−  </tspan>
