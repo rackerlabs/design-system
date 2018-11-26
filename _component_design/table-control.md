@@ -1,5 +1,5 @@
 ---
-title: Table Control
+title: Table Controls
 parent: Tables
 layout: component
 category: Components
@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/tables-controls.svg
 status: stable
 resource: true
-last-modified: 2018-11-19
+last-modified: 2018-11-26
 helix-ui-css: false
 helix-ui-javascript: false
 ---
@@ -273,7 +273,7 @@ The row of the table can include the following controls:
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Filter buttons trancated/truncated-compact variations"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/tables/table-controls/placeholder-image.png" width="444""/>
+<embed src="{{site.url}}/assets/images/components/tables/table-controls/placeholder-image.png" width="444"/>
 {% endfigure %}
 
 {% endcolumn %}
