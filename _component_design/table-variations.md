@@ -4,11 +4,11 @@ parent: Tables
 layout: component
 category: Components
 usage: >
-  Depending on your use case, you can consider adding a dual-line or dual-layout table to the page.
+  Depending on your use case, you can consider adding a multi-value row or dual-layout table to the page.
 preview-image: preview-images/popover.svg
 resource: true
 status: stable
-last-modified: 2018-11-19
+last-modified: 2018-11-26
 helix-ui-css: true
 helix-ui-javascript: true
 pagelink: https://rackerlabs.github.io/helix-ui/components/popovers/
@@ -40,11 +40,12 @@ Note to Chris and Bart: This section will include content taken from the Table p
 
 ## When to use
 
-Use the following guidelines when you consider which table variation to construct.
+Use the following guidelines when you decide which table variation to construct.
 
-- Use a *multi-line* table when the text in a cell wraps to two or more lines. For example, use a dual-line table when two values are meaningfully related to each other and should be displayed in the same cell.
+- Construct a table that includes *multi-value rows* when you want to include multiple data points in a single table cell. The user can sort on the primary data point (for example, **Name**) or any secondary data point (for example, **ID**) but not both. Don't use multi-value rows when the user needs to sort on primary data and secondary data independently.
+- Use a *dual-layout* table when you need to display data in two tables, one on the left and one on the right of the page.
 
-- Use a *dual-layout* table when you need to display data in two tables, one on the left and one on the right.
+If your use case does not require multi-value rows or a dual-layout table, consider constructing a [table]({{site.baseurl}}/components/table.html).
 
 {% endcolumn %}
 
@@ -62,25 +63,9 @@ Use the following guidelines when you consider which table variation to construc
 
 Consider the following best practices when you construct table variations.
 
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow"  markdown="1">
-
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-### Multi-line table best practices
-
-Consider the following best practices when you construct a dual-line table:
-
-- In lines displaying two independent text rows, emphasize the primary line (on top) by increasing its font weight and adding **bold**.
+- In multi-value rows, increase the font weight and use **bold** to emphasize the primary data point.
 - If you use the sort control in the table header, ensure that the sort is based on the primary key.
-- Due to the amount of information that can be displayed in a dual-line table, consider pairing the table with [assisted search]({{site.baseurl}}/components/assisted-search.html). Assisted search provides more robust filtering of table content.
+- Due to the amount of information that can be displayed in a multi-value row, consider pairing the table with [assisted search]({{site.baseurl}}/components/assisted-search.html). Assisted search provides more robust filtering of table content.
 
 {% endcolumn %}
 
@@ -94,30 +79,9 @@ Consider the following best practices when you construct a dual-line table:
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-### Dual-layout table best practices
+## Multi-value row specifications
 
-Consider the following best practices when you construct a dual-layout table:
-
-- xxxx
-- xxxx.
-- xxxx.
-- xxxx.
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow"  markdown="1">
-
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-## Multi-line table specifications
-
-Use these specifications when you construct a dual-line table.
+Use these specifications when you construct a multi-value row table.
 
 {% endcolumn %}
 
@@ -133,12 +97,10 @@ Use these specifications when you construct a dual-line table.
 
 ### Composition
 
-The dual-line table is composed of the following elements:
+A multi-value row is composed of the following elements:
 
-- **xxxxx (Required/Optional)**: xxxxx.
-- **xxxxx (Required/Optional)**: xxxxx.
-- **xxxxx (Required/Optional)**: xxxxx.
-- **xxxxx (Required/Optional)**: xxxxx.
+- **Primary data point (required)**: A primary data point is any data that is of most interest to the user.
+- **Secondary data point (required)**: A secondary data point provides supporting information about the primary data point. For example, if the primary data point is **Name**, then **ID** could be a secondary data point.
 
 {% endcolumn %}
 
@@ -162,7 +124,7 @@ The dual-line table is composed of the following elements:
 
 ### Style
 
-Use these specifications when you construct a dual-line table.
+Use these specifications when you construct a multi-value row.
 
 Refer to the [shadow system]({{site.baseurl}}/style/shadows.html) for guidelines on constructing shadows.
 
@@ -188,7 +150,7 @@ Refer to the [shadow system]({{site.baseurl}}/style/shadows.html) for guidelines
 
 ### Spacing
 
-Use these spacing specifications when you construct a dual-line table.
+Use these spacing specifications when you construct a multi-value row.
 
 **OLD STUFF...KEEP FOR NOW**
 Using the dual-line text variation impacts standard table layout in the following ways:
