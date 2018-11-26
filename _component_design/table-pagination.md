@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/tables-controls.svg
 status: stable
 resource: true
-last-modified: 2018-11-20
+last-modified: 2018-11-26
 helix-ui-css: false
 helix-ui-javascript: false
 ---
@@ -74,7 +74,7 @@ xxxxx.
 xxxxx.
 
 
-OLD STUFF...
+**OLD STUFF...**
 
 Pagination controls
 
@@ -270,7 +270,7 @@ xxxx.
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ## States
-To include: 
+To include:
 
 * Loading
 * Default
