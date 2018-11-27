@@ -5,7 +5,7 @@ layout: component
 category: Components
 usage: >
   A selection bucket....
-preview-image: preview-images/need.svg
+preview-image: preview-images/selector-strip.svg
 status: stable
 resource: true
 last-modified: 2018-11-26
@@ -144,7 +144,7 @@ xxxx.
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ## States
 
