@@ -4,7 +4,7 @@ parent: Tables
 layout: component
 category: Components
 usage: >
-  Nested tables come in a variety of forms and allow users to drill into additional data within a table row. By hiding this data behind a user interaction, the interface adheres to the low cognitive load goals of the table pattern, while allowing for more data rich layouts.
+  Table rows can be expanded to show the user additional data. By hiding some table data that can only be accessed at the request of the user, expanded tables provide for more data rich layouts without increasing the complexity for the user.
 preview-image: preview-images/tables-nested.svg
 status: stable
 resource: true
@@ -23,7 +23,7 @@ helix-ui-javascript: false
 
 ## When to use
 
-Nested tables allow the nesting of additional levels of data within a table.
+Use expanded tables when you want to include additional levels of data within a table.
 
 {% endcolumn %}
 
@@ -39,18 +39,20 @@ Nested tables allow the nesting of additional levels of data within a table.
 
 ## Best practices
 
-- All rows should be closed by default.
+Consider the following best practices when you construct expanded tables:
+
+- All rows should be collapsed by default.
 - The expanded area inherits the styling of the parent row (for example, bound or unbound and zebra-stripe color).
-- There can only be one expandable content area per row.
-- Expand may be triggered in three ways:
-  - Clicking anywhere within the row that is not a link
-  - Clicking the down-caret icon
-  - Clicking a badge icon
-- Collapse may be triggered in two ways:
-  - Clicking anywhere in the parent row
-  - Clicking directly on the collapse icon (either in a parent row or at the bottom of an expanded area)
 - Rows remain expanded until collapsed by the user.
-- Include a collapse icon in the bottom right corner of the expanded area in addition to the collapse icon in the parent row.
+- There can only be one expandable area per row.
+- A user can expand a row by:
+  - Clicking anywhere in the row that is not a link.
+  - Clicking the angle-down icon.
+  - Clicking a badge icon.
+- A user can collapse a row by:
+  - Clicking anywhere in the parent row.
+  - Clicking directly on the angle-up icon in a parent row or at the bottom of an expanded area.
+- In addition to the parent row, include an angle-up icon in the bottom right corner of the expanded area.
 - The viewport remains unchanged with expansion and collapse.
 
 {% endcolumn %}
@@ -85,10 +87,9 @@ Use this variation of an expandable table to add additional supporting text to a
 
 A table that includes explanatory text contains the following elements:
 
-- **xxxxx (optional/required)**: xxxxx
-- **xxxxx (optional/required)**: xxxxx
-- **xxxxx (optional/required)**: xxxxx
-- **xxxxx (optional/required)**: xxxxx
+- **Angle-down icon (required)**: The table row expands when the user clicks the angle-down icon.
+- **Explanatory text (required)**: Explanatory text appears when the table row expands. Text can be a single line or can wrap to multiple lines.
+- **Angle-up icon (optional/required)**: The table row collapses when the user clicks the angle-up icon.
 
 {% endcolumn %}
 
@@ -112,7 +113,7 @@ A table that includes explanatory text contains the following elements:
 
 ### Style
 
-xxxxx.
+Use these specifications when you construct an expanded table that includes explanatory text.
 
 {% endcolumn %}
 
@@ -136,7 +137,7 @@ xxxxx.
 
 ### Spacing
 
-xxxx.
+Refer to these spacing specifications when you construct an expanded table that includes explanatory text.
 
 {% endcolumn %}
 
