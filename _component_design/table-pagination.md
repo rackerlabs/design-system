@@ -4,11 +4,11 @@ parent: Tables
 layout: component
 category: Components
 usage: >
-  Table pagination...
+  Table pagination refers to the controls that enable a user to traverse large data sets by viewing one page of table data at a time. Each page of data contains a set number of table rows (for example, 10). Users can navigate to Next and Previous pages.  
 preview-image: preview-images/tables-controls.svg
 status: stable
 resource: true
-last-modified: 2018-11-26
+last-modified: 2018-11-28
 helix-ui-css: false
 helix-ui-javascript: false
 ---
@@ -23,7 +23,9 @@ helix-ui-javascript: false
 
 ## When to use
 
-xxxxx.
+Pagination is one way of dealing with large data sets. Use pagination when you wan to display a specific number of rows on a page and provide a way for the user to navigate from page to page.
+
+Another approach to address large data sets is the **Load More** button that when clicked scrolls the next set of rows into the current view.
 
 {% endcolumn %}
 
@@ -39,7 +41,13 @@ xxxxx.
 
 ## Best practices
 
-xxxxx.
+Consider the following best practices when you construct a pagination bar:
+
+- xxxxx.
+- xxxxx.
+- xxxxx.
+
+NOTE: Need to formulate a best practice around the number of page buttons show..1, 3 or 5..
 
 {% endcolumn %}
 
@@ -55,7 +63,7 @@ xxxxx.
 
 ## Pagination bar specifications
 
-xxxxx.
+Refer to the following specifications when you construct a pagination bar.
 
 {% endcolumn %}
 
@@ -71,42 +79,12 @@ xxxxx.
 
 ### Composition
 
-xxxxx.
+The pagination bar contains the following elements:
 
-
-**OLD STUFF...**
-
-Pagination controls
-
-* Pagination controls enable users to traverse large data sets by viewing one “page” of data at a time.
-* The pagination bar is centered below the table and facilitates up to five numerical page buttons.
-* The bar contains a back and next button so that the user can navigate to adjacent pages.
-* The bar contains first page and last page buttons so that the user can navigate to the first and last pages of data in the set.
-
-The number of buttons
-
-- The pagination bar displays three page buttons by default, but can be configured to display up to five page buttons.
-- When there are five or less pages of data, the button bar shrinks to accommodate.
-- The back, next, first page, and last page buttons always remain visible, but are disabled depending on current page position.
-- The bar must remain centered in its position under the table
-
-Page button behaviors
-
-- When the first page is selected, the First Page and Back buttons are disabled.
-- When the last page is selected the Next and Last Page buttons are disabled.
-- The back, next, first page, and last page buttons always remain visible, but are disabled depending on current page position.
-
-Indeterminate page count
-
-Sometimes, a back-end system that serves data cannot determine the total number of pages.  In that scenario, the pagination bar behaves as follows:
-
-- The Last Page button is disabled
-- Change the cursor to “unavailable” when the user hovers over the button
-- Display a tooltip explaining why the button is not clickable.
-
-Row count controls
-
-Row count controls are aligned to the right edge of the table.  The number in each option can be determined at implementation, and largely depends on the performance of the back-end system serving the data.
+- **Page number (required)**: The pagination bar displays three page buttons by default, and up to five page numbers. A user can click a page number to navigate to that page of results. When there are five or less pages of data, the button bar shrinks to accommodate.
+- **First** and **Last (required)**: The user can navigate to the first and last pages in the data set. The **First** and **Last** buttons always remain visible, but can be disabled based on the current page position.
+- **Next** and **Back (required)**: The user can click the **Next** and **Back** buttons to navigate to adjacent pages in the data set. The **Back** and **Next** buttons always remain visible, but can be disabled based on the current page position.
+- **Showing (required)**: Displays the range of results currently shown and the total number of records. For example, **Showing 1-10 of 1,234** means that the first 10 records of 1,234 records are  displayed.
 
 {% endcolumn %}
 
@@ -130,7 +108,7 @@ Row count controls are aligned to the right edge of the table.  The number in ea
 
 ### Style
 
-xxxxx.
+Use these specifications when you construct a pagination bar.
 
 {% endcolumn %}
 
@@ -154,7 +132,36 @@ xxxxx.
 
 ### Spacing
 
-xxxx.
+The pagination bar is centered below the table.
+
+Refer to these spacing specifications when you construct a pagination bar.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"xxx"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/tables/table-pagination/placeholder-image.png" width="444"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+### Behavior
+
+Use the following behavior guidelines when you construct a pagination bar.
+
+- When the first page is selected, the **First Page** and **Back** buttons are visible and disabled.
+- When the last page is selected the **Next** and **Last Page** buttons are visible and disabled.
 
 {% endcolumn %}
 
@@ -178,7 +185,7 @@ xxxx.
 
 ## Row count control specifications
 
-xxxxx.
+Refer to the following specifications when you construct row count controls.
 
 {% endcolumn %}
 
@@ -194,12 +201,10 @@ xxxxx.
 
 ### Composition
 
-xxxxx.
+Row count controls contain the following elements:
 
-Row count controls
-
-Row count controls are aligned to the right edge of the table.  The number in each option can be determined at implementation, and largely depends on the performance of the back-end system serving the data.
-
+- **Rows (required)**: Rows is a text label placed to the left of the number of row count controls.
+- **Row count controls (required)**: The user can click a row count control to change the number of records displayed on a page. The number in each option can be determined at implementation, and largely depends on the performance of the back-end system serving the data.
 
 {% endcolumn %}
 
@@ -223,7 +228,7 @@ Row count controls are aligned to the right edge of the table.  The number in ea
 
 ### Style
 
-xxxxx.
+Use these specifications when you construct row count controls.
 
 {% endcolumn %}
 
@@ -247,7 +252,9 @@ xxxxx.
 
 ### Spacing
 
-xxxx.
+Row count controls are aligned to the right edge of the table.
+
+Refer to these spacing specifications when you construct a pagination bar.
 
 {% endcolumn %}
 
@@ -277,7 +284,13 @@ To include:
 * Hover
 * Pressed
 * Selected
-* Indeterminate
+* Indeterminate - Sometimes, a back-end system that serves data cannot determine the total number of pages.  In that scenario, the pagination bar behaves as follows:
+
+- The Last Page button is disabled
+- Change the cursor to “unavailable” when the user hovers over the button
+- Display a tooltip explaining why the button is not clickable.
+
+
 
 {% endcolumn %}
 
