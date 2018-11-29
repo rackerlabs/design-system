@@ -87,9 +87,10 @@ Use this variation of an expandable table to add additional supporting text to a
 
 A table that includes explanatory text contains the following elements:
 
-- **Angle-down icon (required)**: The table row expands when the user clicks the angle-down icon.
+- **Expand (required)**: The table row expands when the user clicks the angle-down icon.
 - **Explanatory text (required)**: Explanatory text appears when the table row expands. Text can be a single line or can wrap to multiple lines.
-- **Angle-up icon (optional/required)**: The table row collapses when the user clicks the angle-up icon.
+- **Supporting explanatory text (optional)**: You can add supporting text, such as the date and time a comment was updated.
+- **Collapse (required)**: The table row collapses when the user clicks the angle-up icon.
 
 {% endcolumn %}
 
@@ -161,7 +162,7 @@ Refer to these spacing specifications when you construct an expanded table that 
 
 ## Key-value pair specifications
 
-Use this variation of an expandable table to add additional key value pairs of associated meta data to a table row.
+Use this variation of an expandable table to add key value pairs to a table row.
 
 {% endcolumn %}
 
@@ -177,7 +178,11 @@ Use this variation of an expandable table to add additional key value pairs of a
 
 ### Composition
 
-xxxxx.
+An expandable table that includes key-value pairs contains the following elements:
+
+- **Expand (required)**: The table row expands when the user clicks the angle-down icon.
+- **Key-value pair (required)**: The row can expand to include one or more key-value pairs. Limit the number of key-value pairs to eight.
+- **Collapse (required)**: The table row collapses when the user clicks the angle-up icon.
 
 {% endcolumn %}
 
@@ -201,7 +206,7 @@ xxxxx.
 
 ### Style
 
-xxxxx.
+Use these specifications when you construct an expandable table that includes key-value pairs.
 
 {% endcolumn %}
 
@@ -225,95 +230,7 @@ xxxxx.
 
 ### Spacing
 
-xxxx.
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-{% figure [caption:"xxxx"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/tables/table-expansion/placeholder-image.png" width="444"/>
-{% endfigure %}
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow"  markdown="1">
-
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-## Nested table specifications
-
-xxxxx.
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow"  markdown="1">
-
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-### Composition
-
-xxxxx.
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-{% figure [caption:"xxx"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/tables/table-expansion/placeholder-image.png" width="444"/>
-{% endfigure %}
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow"  markdown="1">
-
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-### Style
-
-xxxxx.
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-{% figure [caption:"xxxx"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/tables/table-expansion/placeholder-image.png" width="444"/>
-{% endfigure %}
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow"  markdown="1">
-
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-### Spacing
-
-xxxx.
+Refer to these spacing specifications when you construct an expandable table that includes key-value pairs.
 
 {% endcolumn %}
 
@@ -337,7 +254,7 @@ xxxx.
 
 ## Data aggregation specifications
 
-Use the aggregate data table to show primary, secondary, and tertiary values of some aggregate total.
+Use the aggregate data table to show primary, secondary, and tertiary values of an aggregate total.
 
 {% endcolumn %}
 
@@ -353,7 +270,16 @@ Use the aggregate data table to show primary, secondary, and tertiary values of 
 
 ### Composition
 
-xxxxx.
+A table that includes data aggregation contains the following elements:
+
+- **Expand (required)**: Table rows expand when the user clicks the angle-down icon.
+- **Primary object (required)**: xxxx.
+- **Primary object summary value (required)**: xxxx.
+- **Secondary object (required)**: xxxx.
+- **Secondary object summary value (required)**: xxxx.
+- **Tertiary object (required)**: xxxx.
+- **Tertiary object value (required)**: xxxx.
+- **Collapse (required)**: The table row collapses when the user clicks the angle-up icon.
 
 {% endcolumn %}
 
@@ -377,7 +303,7 @@ xxxxx.
 
 ### Style
 
-xxxxx.
+Use these specifications when you construct an expandable table that includes aggregation.
 
 {% endcolumn %}
 
@@ -401,7 +327,7 @@ xxxxx.
 
 ### Spacing
 
-xxxx.
+Refer to these spacing specifications when you construct an expandable table that includes aggregation.
 
 {% endcolumn %}
 
