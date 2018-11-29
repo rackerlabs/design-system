@@ -4,11 +4,11 @@ parent: Tables
 layout: component
 category: Components
 usage: >
-  A selection bucket....
+  A selection bucket contain pills of values the user selects in a table. The selection bucket holds all selected values, across all table pages. The user can remove selected values from the selection bucket.
 preview-image: preview-images/selector-strip.svg
 status: stable
 resource: true
-last-modified: 2018-11-26
+last-modified: 2018-11-29
 helix-ui-css: false
 helix-ui-javascript: false
 ---
@@ -23,7 +23,7 @@ helix-ui-javascript: false
 
 ## When to use
 
-xxxx.
+Use a selection bucket when the user can select table values across multiple pages of results. A selection bucket helps remind the user of prior selections, and provides a way for the user to easily deselect those values.
 
 {% endcolumn %}
 
@@ -39,7 +39,11 @@ xxxx.
 
 ## Best practices
 
-xxxx.
+Consider the following best practices when you construct a selection bucket:
+
+- Only use a selection bucket when the table spans multiple pages.
+- xxxxx.
+- xxxxx.
 
 {% endcolumn %}
 
@@ -55,7 +59,7 @@ xxxx.
 
 ## Specifications
 
-xxx.
+Consider the following specifications when you construct a selection bucket.
 
 {% endcolumn %}
 
@@ -73,10 +77,9 @@ xxx.
 
 A selection bucket contains the following elements:
 
-- **xxxxx (optional/required)**: xxxxx
-- **xxxxx (optional/required)**: xxxxx
-- **xxxxx (optional/required)**: xxxxx
-- **xxxxx (optional/required)**: xxxxx
+- **Container (required)**: The container holds the selection pills and if applicable, the scrollbar.
+- **Pill (required)**: When the user makes a selection in the table, a pill appears in the selection bucket. The user can deselect the value by removing the pill.
+- **Scroll bar (optional)**: Add a scrollbar when the user can select more values than there is space to display the pills.
 
 {% endcolumn %}
 
@@ -100,7 +103,7 @@ A selection bucket contains the following elements:
 
 ### Style
 
-xxxxx.
+Use these specifications when you construct a selection bucket.
 
 {% endcolumn %}
 
@@ -124,7 +127,7 @@ xxxxx.
 
 ### Spacing
 
-xxxx.
+Use these spacing specifications when you construct a selection bucket.
 
 {% endcolumn %}
 
