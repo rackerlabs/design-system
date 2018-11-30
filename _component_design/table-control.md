@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/tables-controls.svg
 status: stable
 resource: true
-last-modified: 2018-11-26
+last-modified: 2018-11-30
 helix-ui-css: false
 helix-ui-javascript: false
 ---
@@ -180,7 +180,7 @@ Use the following specifications when you construct table header controls.
 
 The header of the table can include the following controls:
 
-- **Bulk selection (optional)**: When the user clicks the bulk selection checkbox, all records in on the current page are selected. See [checkbox]({{site.baseurl}}\components\checkbox.html) for more information on constructing checkboxes.
+- **Bulk selection (optional)**: When the user clicks the bulk selection checkbox, all records in on the current page are selected. See [checkbox]({{site.baseurl}}\components\checkboxes.html) for more information on constructing checkboxes.
 - **Sorting (optional)**: Users can sort the table rows to appear either in ascending order or descending order. During construction, you must select a default sort column. Choose the default sort column based on the information needs of the user. For example, if a table contains a list of tickets, then use **Date** as the default sort so that tickets are listed from least to most recent. The down arrow sorts rows in descending order. The up arrow sorts rows in ascending order.
 
 {% endcolumn %}
@@ -271,7 +271,7 @@ Use the following specifications when you construct table row controls.
 
 The row of the table can include the following controls:
 
-- **Bulk selection (optional)**: When the user clicks the bulk selection checkbox, all records on the current page are selected. See [bulk selection]({{site.baseurl}}\components\table-expansion.html) for more information.
+- **Bulk selection (optional)**: When the user clicks the bulk selection checkbox, all records on the current page are selected. See [bulk selection]({{site.baseurl}}\components\bulk-selection.html) for more information.
 - **Expand (optional)**: This option enables the use to expand the height of the rows to display more data. See [table expansion]({{site.baseurl}}\components\table-expansion.html) for more information on constructing expanded tables.
 
 {% endcolumn %}
