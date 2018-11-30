@@ -180,7 +180,7 @@ Use the following specifications when you construct table header controls.
 
 The header of the table can include the following controls:
 
-- **Bulk selection (optional)**: When the user clicks the bulk selection checkbox, all records in on the current page are selected. See [checkbox]({{site.baseurl}}\components\checkboxes.html) for more information on constructing checkboxes.
+- **Parent checkbox (optional)**: When the user clicks the parent checkbox, all records on the current page are selected. See [checkbox]({{site.baseurl}}\components\checkboxes.html) for more information on constructing checkboxes.
 - **Sorting (optional)**: Users can sort the table rows to appear either in ascending order or descending order. During construction, you must select a default sort column. Choose the default sort column based on the information needs of the user. For example, if a table contains a list of tickets, then use **Date** as the default sort so that tickets are listed from least to most recent. The down arrow sorts rows in descending order. The up arrow sorts rows in ascending order.
 
 {% endcolumn %}
