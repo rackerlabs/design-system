@@ -5,6 +5,10 @@ layout: component
 category: Components
 usage: >
   A selection bucket contain pills of values the user selects in a table. The selection bucket holds all selected values, across all table pages. The user can remove selected values from the selection bucket.
+
+  ********
+
+  Bucket Selector is helpful when you are selecting multiple objects from large option sets within a larger workflow. The bucket area (located below the table) operates as a holding area where users can view all their selections, regardless of the table content. This allows users to search and/or filter the table to locate items to select without losing visibility into what they have selected.
 preview-image: preview-images/selector-strip.svg
 status: stable
 resource: true
@@ -42,8 +46,11 @@ Use a selection bucket when the user can select table values across multiple pag
 Consider the following best practices when you construct a selection bucket:
 
 - Only use a selection bucket when the table spans multiple pages.
-- xxxxx.
-- xxxxx.
+
+
+- On-hover these tags will display the full device ID.
+- Default state for current selection area when no items are selected is a disabled ‘deselect all’ link.
+- Allows user to deselect all current selections
 
 {% endcolumn %}
 
@@ -78,8 +85,19 @@ Consider the following specifications when you construct a selection bucket.
 A selection bucket contains the following elements:
 
 - **Container (required)**: The container holds the selection pills and if applicable, the scrollbar.
+Uncollapsed Current Selection
+
+This area is for use when a user needs to verify their current selection and quickly make edits to it.
+
+- When uncollapsed shows user the items that have been currently selected from within the table.
+- The current selection area is collapsed on default.
+
+
 - **Pill (required)**: When the user makes a selection in the table, a pill appears in the selection bucket. The user can deselect the value by removing the pill.
+- **Expand / Collapse (optional)**: xxxx.
 - **Scroll bar (optional)**: Add a scrollbar when the user can select more values than there is space to display the pills.
+- **Number selected (optional)**: ???
+- **Select / Deselect All (optional)**: ??
 
 {% endcolumn %}
 
