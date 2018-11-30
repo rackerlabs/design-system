@@ -23,15 +23,9 @@ helix-ui-javascript: false
 
 ## When to use
 
-Include bulk selection any time the table includes data that the user can updated. If the information you are presenting in a table is read-only, you do not need to include bulk selection.
+Include bulk selection any time the table includes data that the user can update. If the information you are presenting in a table is read-only, do not include bulk selection.
 
-includes checkboxes. When compared to selecting children checkboxes individually, bulk selection is a more convenient approach for the user to select all rows in a table.
-
-**NOT SURE WHAT TO DO WITH THIS INFORMATION, IF ANYTHING.**
-Ways you can bulk select:
-* bulk select checkboxes
-* Select All/Deselect All
-* click rows separately, but work with that data as a group.
+When compared to selecting children checkboxes individually, bulk selection is a more convenient approach for the user to select or deselect all visible rows.
 
 {% endcolumn %}
 
@@ -84,13 +78,13 @@ Use the following specifications when you construct basic bulk selection.
 
 ### Composition
 
-Basic bulk selection contains the following elements:
+Bulk selection contains the following elements:
 
 - **Checkbox (required)**: When the user selects the bulk selection checkbox, all children checkboxes are selected. When the user deselects the bulk selection checkbox, all children checkboxes are deselected.
 - **Select All (optional)**: When the user clicks **Select All**, all records on the current page are selected.
 - **Deselect All (optional)**: When the user click **Deselect All**, all records on the current page are deselected.
-- **Number selected (optional)**: xxxxxx
-- **Selection bucket (optional)**: xxxl
+- **Number selected (optional)**: The number selected show the number of objects selected in the table. For example, **3 Selected** means that out of 10 records displayed in the table, three of those records are currently selected by the user.
+- **Selection bucket (optional)**: You can add a [selection bucket]({{site.baseurl}}/components/selection-bucket.html) to help the user manage table selections across multiple pages.
 
 {% endcolumn %}
 
@@ -114,7 +108,7 @@ Basic bulk selection contains the following elements:
 
 ### Style
 
-Use these specifications when you construct basic bulk selection.
+Use these specifications when you construct bulk selection.
 
 {% endcolumn %}
 
@@ -138,7 +132,7 @@ Use these specifications when you construct basic bulk selection.
 
 ### Spacing
 
-Use these spacing guidelines when you construct basic bulk selection.
+Use these spacing guidelines when you construct bulk selection.
 
 {% endcolumn %}
 
@@ -162,13 +156,13 @@ Use these spacing guidelines when you construct basic bulk selection.
 
 ### Behaviors
 
-Ensure that the user interactions support the following behaviors:
+Ensure that the bulk selection user interactions support the following behaviors:
 
 - When the user selects multiple (but not all) checkboxes individually, the bulk selection checkbox changes to the indeterminate state and the **Select All** control becomes active.
 - When some checkboxes are selected and the user selects the bulk selection checkbox, all children values become selected and the **Select All** control changes to the **Deselect All** control.
 - When all rows are selected, the user can deselect those rows by deselecting the bulk selection checkbox or clicking **Deselect All**.
 - When all rows are selected and the user deselects one or more rows individually, the bulk selection checkbox changes to the indeterminate state and the **Select All** control becomes active.
-- If a user selects all currently viewed table rows, the bulk selection checkbox becomes selected and the **Select All** control is active.
+- If a user selects all currently visible rows individually, the bulk selection checkbox becomes selected and the **Select All** control changes to the **Deselect All** control.
 
 {% endcolumn %}
 
@@ -194,9 +188,9 @@ Ensure that the user interactions support the following behaviors:
 
 States include:
 
-- Selected
-- Deselected
-- Indeterminate
+- Selected: When the bulk selection checkbox is selected, all visible records are selected.
+- Deselected: When the bulk selection checkbox is deselected, all visible records are deselected.
+- Indeterminate: When some, but not all, records are selected, the bulk selection checkbox changes to the indeterminate state.
 
 {% endcolumn %}
 
