@@ -12,7 +12,7 @@ usage: >
 preview-image: preview-images/selector-strip.svg
 status: stable
 resource: true
-last-modified: 2018-11-29
+last-modified: 2018-11-30
 helix-ui-css: false
 helix-ui-javascript: false
 ---
@@ -174,6 +174,19 @@ A selection bucket can exist in the following states:
 - Selected
 - Unselected
 - Hover
+
+**OLD STUFF...**
+
+Use the default state when selecting and searching for multiple items from a large dataset and displaying those selections for user verification.
+
+- Default sort should be the first column within the table
+    - For Rackers this is done by device ID
+    - For Customers this is done by the device nickname
+- Sort should be available for other table columns
+- Current Selection area is collapsed on default
+- Default selection for table is 10 items with options to select 25 and 50
+- Displays number of items as well as number currently viewing
+- Select all check box selects everything from the current page.
 
 {% endcolumn %}
 
