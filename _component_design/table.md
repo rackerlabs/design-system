@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/tables.svg
 status: stable
 resource: true
-last-modified: 2018-11-26
+last-modified: 2018-11-30
 helix-ui-css: true
 helix-ui-javascript: na
 pagelink: https://rackerlabs.github.io/helix-ui/components/tables/#basic-table
@@ -42,10 +42,9 @@ Use a table when you want to clearly display a large amount of data. Tables make
 
 Consider the following best practices when you construct a table:
 
-- When organizing content in a table, focus on the user's primary task.
+- When determining the order of the columns, focus on the user's primary task and place the most important data in the first column, and use the right-most column for important secondary information. For example, in a billing application the last column is **Total** which indicates row total. Remaining columns can be ordered from most important to least important.
 - If possible, do not construct a table with more than seven columns.
 - Because tables are visually complex, keep the visual noise around a table to a minimum.
-- In general, order columns left to right, from most important to least important. You can reserve the right-most column for important secondary information, especially if it is critical to users tasks. For example, in a billing application the last column is **Total** which indicates row total.
 - Include filter and sort controls to allow users to quickly find important information organize the data set.
 - If you are presenting a small amount of information, consider using a condensed table. A condensed table provides a concise presentation and is preferred over bulleted lists or key-value pairs.
 - Left-justify text.
@@ -182,11 +181,11 @@ Use the following specifications when you construct a table row.
 
 A table row is comprised of the following elements:
 
-- **Select checkbox (optional)**: Include a checkbox if a user needs to select or manipulate data within a table. Always list the checkbox as the first element in the table row. See [table controls]({{site.baseurl}}/components/tables-controls.html). The user clicks the checkbox and then clicks a button or selects an action from a cog.
+- **Checkbox (optional)**: Include a checkbox if a user needs to select or manipulate data within a table. Always list the checkbox as the first element in the table row. The user clicks the checkbox and then can click an action button or select an action from a cog. See [checkboxes]({{site.baseurl}}\components\checkboxes.html) for guidance in constructing checkboxes.
 - **Summary rows (optional)**: You can add a summary row at the bottom of the table that displays column summary information such as totals. You can also add summary rows to an [expanded table]({{site.baseurl}}/components/table-expansion.html)
-- **Bulk selection (optional)**: Include bulk selection when you want the user to select or deselect all objects in the table.
+- **Parent checkbox (optional)**: Include a parent checkbox when you want the user to select or deselect all visible table rows.
 - **Totaling (optional)**: Totaling is the sum of all column summaries. Totaling is used to calculate a grand total.
-- **Reveal (optional)**: Some table rows can contain a lot of information, including data and text. If you construct a table row with reveal, then the user can expand or collapse the row, which hides or shows more data. By providing the ability to hide information, reveal allows for a more optimum use of table space.  
+- **Expand (optional)**: Some table rows can contain a lot of information, including data and text. You can construct a table row to expand or collapse, which hides or shows more data. By providing the ability to hide information, expand and collapse allows for a more optimum use of table space.
 - **Heartbeat (optional)**: When the user edits an object in the table, the edited rows glows briefly (the *heartbeart*) when the user saves the change. As the table refreshes, the heartbeat focuses the users' eyes on the change they made.
 - **Cog (optional)**: The cog contains a list of actions from which the user can select. Include the action cog menu if the objects in each row have two or more available actions.
 
@@ -237,6 +236,8 @@ Use these specifications when you construct a table row.
 ### Spacing
 
 Refer to these spacing specifications when you construct a table row.
+
+Note: Need to explore where expand and collapse should be placed. Either left or right unless there are select checkboxes in which case they should go on the right.
 
 {% endcolumn %}
 
