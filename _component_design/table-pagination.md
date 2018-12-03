@@ -23,9 +23,7 @@ helix-ui-javascript: false
 
 ## When to use
 
-Pagination is one way of dealing with large data sets. Use pagination when you wan to display a specific number of rows on a page and provide a way for the user to navigate from page to page.
-
-Another approach to address large data sets is the **Load More** button that when clicked scrolls the next set of rows into the current view.
+Consider using pagination when a table spans multiple pages. You can also address large data sets by adding a **Load More** button that when clicked, scrolls the next group of table results up and into view.
 
 {% endcolumn %}
 
@@ -81,10 +79,10 @@ Refer to the following specifications when you construct a pagination bar.
 
 The pagination bar contains the following elements:
 
-- **Page number (required)**: The pagination bar displays three page buttons by default, and up to five page numbers. A user can click a page number to navigate to that page of results. When there are five or less pages of data, the button bar shrinks to accommodate.
-- **First** and **Last (required)**: The user can navigate to the first and last pages in the data set. The **First** and **Last** buttons always remain visible, but can be disabled based on the current page position.
-- **Next** and **Back (required)**: The user can click the **Next** and **Back** buttons to navigate to adjacent pages in the data set. The **Back** and **Next** buttons always remain visible, but can be disabled based on the current page position.
-- **Showing (required)**: Displays the range of results currently shown and the total number of records. For example, **Showing 1-10 of 1,234** means that the first 10 records of 1,234 records are  displayed.
+- **Page number (required)**: Sometimes data sets are large and span multiple pages of results. A user can click a page number button to navigate to that page of results. By default, the pagination bar displays three pages, although you can include up to five pages. When there are five or less pages of data, the button bar shrinks to accommodate the number of pages.
+- **First** and **Last (required)**: The user can navigate to the first and last pages in the data set. The **First** and **Last** buttons always remain visible, but can become disabled based on the current page position.
+- **Next** and **Back (required)**: The user can click the **Next** and **Back** buttons to navigate to adjacent pages in the data set. The **Back** and **Next** buttons always remain visible, but can become disabled based on the current page position.
+- **Showing (required)**: Displays the range of results shown and the total number of records. For example, **Showing 1-10 of 1,234** means that the first 10 records of 1,234 records are displayed.
 
 {% endcolumn %}
 
@@ -161,7 +159,7 @@ Refer to these spacing specifications when you construct a pagination bar.
 Use the following behavior guidelines when you construct a pagination bar.
 
 - When the first page is selected, the **First Page** and **Back** buttons are visible and disabled.
-- When the last page is selected the **Next** and **Last Page** buttons are visible and disabled.
+- When the last page is selected, the **Next** and **Last Page** buttons are visible and disabled.
 
 {% endcolumn %}
 
@@ -203,8 +201,8 @@ Refer to the following specifications when you construct row count controls.
 
 Row count controls contain the following elements:
 
-- **Rows (required)**: Rows is a text label placed to the left of the number of row count controls.
-- **Row count controls (required)**: The user can click a row count control to change the number of records displayed on a page. The number in each option can be determined at implementation, and largely depends on the performance of the back-end system serving the data.
+- **Rows (required)**: Rows is a text label placed to the left of the row count controls.
+- **Row count controls (required)**: The user can click a row count control value to change the number of records displayed on a page. The number of records can be determined at implementation, and largely depends on the performance of the back-end system serving the data.
 
 {% endcolumn %}
 
@@ -289,8 +287,6 @@ To include:
 - The Last Page button is disabled
 - Change the cursor to “unavailable” when the user hovers over the button
 - Display a tooltip explaining why the button is not clickable.
-
-
 
 {% endcolumn %}
 
