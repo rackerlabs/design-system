@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/tables-nested.svg
 status: stable
 resource: true
-last-modified: 2018-11-26
+last-modified: 2018-12-03
 helix-ui-css: false
 helix-ui-javascript: false
 ---
@@ -273,12 +273,12 @@ Use the aggregate data table to show primary, secondary, and tertiary values of 
 A table that includes data aggregation contains the following elements:
 
 - **Expand (required)**: Table rows expand when the user clicks the angle-down icon.
-- **Primary object (required)**: xxxx.
-- **Primary object summary value (required)**: xxxx.
-- **Secondary object (required)**: xxxx.
-- **Secondary object summary value (required)**: xxxx.
-- **Tertiary object (required)**: xxxx.
-- **Tertiary object value (required)**: xxxx.
+- **Primary object (required)**: The name of the primary object.
+- **Primary object summary value (required)**: The numeric, primary object value. The primary object value is an aggregate of secondary object values.
+- **Secondary object (required)**: The name of the secondary object.
+- **Secondary object summary value (required)**: The numeric, secondary object value. A secondary object value is an aggregate of tertiary object values.
+- **Tertiary object (required)**: The name of the tertiary object.
+- **Tertiary object value (required)**: The numeric, tertiary object value. Tertiary objects aggregate into secondary object values.
 - **Collapse (required)**: The table row collapses when the user clicks the angle-up icon.
 
 {% endcolumn %}
