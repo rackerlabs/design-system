@@ -44,6 +44,7 @@ Consider the following best practices when you construct a selection bucket:
 - Only use a selection bucket when the table spans multiple pages.
 
 **NOT SURE IF ANY OF THESE ARE RELEVANT...**
+
 - On-hover these tags will display the full device ID.
 - Default state for current selection area when no items are selected is a disabled ‘deselect all’ link.
 - Allows user to deselect all current selections
@@ -81,14 +82,6 @@ Consider the following specifications when you construct a selection bucket.
 A selection bucket contains the following elements:
 
 - **Container (required)**: The container holds the selection pills and if applicable, the scrollbar.
-Uncollapsed Current Selection
-
-This area is for use when a user needs to verify their current selection and quickly make edits to it.
-
-- When uncollapsed shows user the items that have been currently selected from within the table.
-- The current selection area is collapsed on default.
-
-
 - **Pill (required)**: When the user makes a selection in the table, a pill appears in the selection bucket. The user can deselect the value by removing the pill.
 - **Expand (optional)**: The user can expand the selection bucket to see selected value, or collapse it to hide the selections.
 - **Scroll bar (optional)**: Add a scrollbar when the user can select more values than there is space to display the pills.
