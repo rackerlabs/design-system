@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/selector-strip.svg
 status: stable
 resource: true
-last-modified: 2018-12-03
+last-modified: 2018-12-10
 helix-ui-css: false
 helix-ui-javascript: false
 ---
@@ -23,7 +23,7 @@ helix-ui-javascript: false
 
 ## When to use
 
-Use a selection bucket when the user can select table values across multiple pages of results. A selection bucket helps remind the user of prior selections, and provides a way for the user to easily deselect those values.
+Use a selection bucket when the table spans multiple pages. A selection bucket helps remind the user of prior selections, and provides a way for the user to easily deselect those values.
 
 {% endcolumn %}
 
@@ -42,12 +42,12 @@ Use a selection bucket when the user can select table values across multiple pag
 Consider the following best practices when you construct a selection bucket:
 
 - Only use a selection bucket when the table spans multiple pages.
+- By default, the selection bucket is collapsed.
+- When no items are selected, the **Deselect All** option is disabled by default.
 
-**NOT SURE IF ANY OF THESE ARE RELEVANT...**
+**NOT SURE IF THIS IS RELEVANT...**
 
 - On-hover these tags will display the full device ID.
-- Default state for current selection area when no items are selected is a disabled ‘deselect all’ link.
-- Allows user to deselect all current selections
 
 {% endcolumn %}
 
@@ -83,10 +83,11 @@ A selection bucket contains the following elements:
 
 - **Container (required)**: The container holds the selection pills and if applicable, the scrollbar.
 - **Pill (required)**: When the user makes a selection in the table, a pill appears in the selection bucket. The user can deselect the value by removing the pill.
-- **Expand (optional)**: The user can expand the selection bucket to see selected value, or collapse it to hide the selections.
+- **Vertical expand (optional)**: The user can expand the selection bucket to see selected value, or collapse it to hide the selections.
 - **Scroll bar (optional)**: Add a scrollbar when the user can select more values than there is space to display the pills.
 - **Number selected (optional)**: The number selected show the number of objects selected in the table. For example, **3 Selected** means that out of 10 records displayed in the table, three of those records are currently selected by the user.
 - **Select All (optional)**: When the user clicks **Select All**, all records in the current page are selected.
+- **Deselect All (optional)**: The user can remove all current selections by clicking **Deselect All**.
 
 {% endcolumn %}
 
@@ -163,18 +164,6 @@ A selection bucket can exist in the following states:
 - Selected
 - Unselected
 - Hover
-
-**OLD STUFF...**
-Use the default state when selecting and searching for multiple items from a large dataset and displaying those selections for user verification.
-
-- Default sort should be the first column within the table
-    - For Rackers this is done by device ID
-    - For Customers this is done by the device nickname
-- Sort should be available for other table columns
-- Current Selection area is collapsed on default
-- Default selection for table is 10 items with options to select 25 and 50
-- Displays number of items as well as number currently viewing
-- Select all check box selects everything from the current page.
 
 {% endcolumn %}
 
