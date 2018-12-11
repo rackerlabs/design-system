@@ -83,7 +83,7 @@ Bulk selection contains the following elements:
 - **Parent checkbox (required)**: When the user selects the parent checkbox, all children checkboxes are selected. When the user deselects the parent checkbox, all children checkboxes are deselected.
 - **Select All (optional)**: When the user clicks **Select All**, all records on the current page are selected.
 - **Deselect All (optional)**: When the user click **Deselect All**, all records on the current page are deselected.
-- **Number selected (optional)**: The number selected shows the number of objects selected in the table. For example, **3 Selected** means that out of 10 records displayed in the table, three of those records are currently selected by the user.
+- **Number selected (optional)**: The number selected shows the number of objects selected in the table. For example, **3 Selected** means that out of 10 records displayed in the table, three of those records are currently selected by the user. If you include number selected, then also include the **Select All** option.
 - **Selection bucket (optional)**: You can add a [selection bucket]({{site.baseurl}}/components/selection-bucket.html) to help the user manage table selections across multiple pages.
 
 {% endcolumn %}
