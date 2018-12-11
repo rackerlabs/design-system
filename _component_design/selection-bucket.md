@@ -4,7 +4,7 @@ parent: Tables
 layout: component
 category: Components
 usage: >
-  A selection bucket contains lists of table values selected by the user. Each time a user selects a table value, a pill representing the selected value appears in the selection bucket. The selection bucket is located below the table and holds all selected values, across all table pages. The user can remove selected values from the selection bucket.
+  A selection bucket is located below the table and contains all selected values across all table pages. Each time a user selects a table value, a pill representing the selected value appears in the selection bucket. The user can remove selected values from the selection bucket.
 preview-image: preview-images/selector-strip.svg
 status: stable
 resource: true
@@ -23,7 +23,7 @@ helix-ui-javascript: false
 
 ## When to use
 
-Use a selection bucket when the table spans multiple pages. A selection bucket helps remind the user of prior selections, and provides a way for the user to easily deselect those values.
+Use a selection bucket to help the user manage bulk selection across multiple pages of table data. A selection bucket reminds the user of prior selections, and provides a way for the user to efficiently deselect those values, if required. Without a selection bucket the user must navigate to the specific page in order to deselect a value.
 
 {% endcolumn %}
 
@@ -41,13 +41,10 @@ Use a selection bucket when the table spans multiple pages. A selection bucket h
 
 Consider the following best practices when you construct a selection bucket:
 
-- Only use a selection bucket when the table spans multiple pages.
-- By default, the selection bucket is collapsed.
-- When no items are selected, the **Deselect All** option is disabled by default.
-
-**NOT SURE IF THIS IS RELEVANT...**
-
-- On-hover these tags will display the full device ID.
+- Only use a selection bucket when the table spans multiple pages, or when the table includes more than 25 rows. A selection bucket should prevent the user from scrolling or navigating to see what they selected.
+- By default, the selection bucket can be collapsed or expanded by default, depending on the workflow. Collapsing provides more vertical space and a summary of the number of values selected, but hides the selected values.
+- Construct the selection bucket so that the **Deselect All** option launches a confirmation modal that asks the user to confirm their choice.
+- When no rows have been selected by the user, the **Deselect All** option is disabled by default.
 
 {% endcolumn %}
 
@@ -85,9 +82,9 @@ A selection bucket contains the following elements:
 - **Pill (required)**: When the user makes a selection in the table, a pill appears in the selection bucket. The user can deselect the value by removing the pill.
 - **Vertical expand (optional)**: The user can expand the selection bucket to see selected value, or collapse it to hide the selections.
 - **Scroll bar (optional)**: Add a scrollbar when the user can select more values than there is space to display the pills.
-- **Number selected (optional)**: The number selected show the number of objects selected in the table. For example, **3 Selected** means that out of 10 records displayed in the table, three of those records are currently selected by the user.
+- **Number selected (optional)**: The number selected show the number of objects selected in the table. For example, **3 Selected** means that out of 10 records displayed in the table, three of those records are currently selected by the user. If you include number selected, then also include the **Select All** option.
 - **Select All (optional)**: When the user clicks **Select All**, all records in the current page are selected.
-- **Deselect All (optional)**: The user can remove all current selections by clicking **Deselect All**.
+- **Deselect All (optional)**: The user can remove all current selections by clicking **Deselect All**. The **Deselect All** option is located inside the selection bucket container.
 
 {% endcolumn %}
 
