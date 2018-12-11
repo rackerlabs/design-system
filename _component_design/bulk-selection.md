@@ -4,11 +4,11 @@ parent: Tables
 layout: component
 category: Components
 usage: >
-  Bulk selection refers to the actions a user can perform to select multiple table rows. After rows are selected, the user can act on the group of objects. There are three types of bulk selection methods: keyboard, parent checkbox, and Select All and Deselect All.
+  Bulk selection refers to the ways a user can simultaneously select and deselect multiple table rows. After bulk selection, the user can act on the group of selected objects. There are three types of bulk selection: keyboard, parent checkbox, and Select All and Deselect All.
 preview-image: preview-images/tables-controls.svg
 status: stable
 resource: true
-last-modified: 2018-12-04
+last-modified: 2018-12-11
 helix-ui-css: false
 helix-ui-javascript: false
 ---
@@ -23,7 +23,7 @@ helix-ui-javascript: false
 
 ## When to use
 
-Add bulk selection to a table when you want users to be able to select (or deselect) all visible rows, and then perform an action on the group of selected rows. If the information you are presenting in a table is read-only, do not include bulk selection.
+Add bulk selection options to a table when you want users to be able to select (or deselect) all visible rows, and then perform an action on the group of selected rows. If the information you are presenting in a table is read-only, do not provide bulk selection.
 
 When compared to selecting checkboxes individually, bulk selection is a more convenient approach to selecting or deselecting all visible rows.
 
@@ -41,9 +41,9 @@ When compared to selecting checkboxes individually, bulk selection is a more con
 
 ## Best practices
 
-Consider the following best practices when add bulk selection to a table:
+Consider the following best practices when you add bulk selection to a table:
 
-- The table should support the keyboard shortcuts to selecting multiple objects. For example, after selecting a row, the user can hold down the **Shift** and select another row. This action selects all rows between the first and second selections.
+- The table should support the keyboard shortcuts to selecting multiple objects. For example, after selecting a row, the user can hold down the **Shift** key and select another row. This action selects all rows between the first and second selections.
 - xxxxxx.
 - xxxxxx.
 - xxcxxx.
