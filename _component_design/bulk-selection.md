@@ -44,6 +44,7 @@ When compared to selecting checkboxes individually, bulk selection is a more con
 Consider the following best practices when you add bulk selection to a table:
 
 - The table should support the keyboard shortcuts to selecting multiple objects. For example, after selecting a row, the user can hold down the **Shift** key and select another row. This action selects all rows between the first and second selections.
+- Construct the selection bucket so that the **Deselect All** option launches a confirmation modal that asks the user to confirm their choice.
 - xxxxxx.
 - xxxxxx.
 - xxcxxx.
