@@ -42,7 +42,7 @@ Use a selection bucket to help the user manage bulk selection across multiple pa
 Consider the following best practices when you construct a selection bucket:
 
 - Only use a selection bucket when the table spans multiple pages, or when the table includes more than 25 rows. A selection bucket should prevent the user from scrolling or navigating to see what they selected.
-- By default, the selection bucket can be collapsed or expanded by default, depending on the workflow. Collapsing provides more vertical space and a summary of the number of values selected, but hides the selected values.
+- By default, the selection bucket can be collapsed or expanded, depending on the workflow. Collapsing provides more vertical space and a summary of the number of values selected, but hides the selected values.
 - Construct the selection bucket so that the **Deselect All** option launches a confirmation modal that asks the user to confirm their choice.
 - When no rows have been selected by the user, the **Deselect All** option is disabled by default.
 
