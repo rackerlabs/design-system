@@ -4,11 +4,11 @@ parent: Tables
 layout: component
 category: Components
 usage: >
-  Bulk selection refers to the ways a user can simultaneously select and deselect multiple table rows. After bulk selection, the user can act on the group of selected objects. There are three types of bulk selection: keyboard, parent checkbox, and Select All and Deselect All.
+  Bulk selection refers to the ways a user can simultaneously select and deselect multiple table rows. After bulk selection, the user can act on the group of selected objects.
 preview-image: preview-images/tables-controls.svg
 status: stable
 resource: true
-last-modified: 2018-12-11
+last-modified: 2018-12-12
 helix-ui-css: false
 helix-ui-javascript: false
 ---
@@ -23,7 +23,7 @@ helix-ui-javascript: false
 
 ## When to use
 
-Add bulk selection options to a table when you want users to be able to select (or deselect) all visible rows, and then perform an action on the group of selected rows. If the information you are presenting in a table is read-only, do not provide bulk selection.
+Add bulk selection to a table when you want users to be able to select or deselect multiple rows, and then perform an action on the group of selected rows. If the information you are presenting in a table is read-only, do not provide bulk selection.
 
 When compared to selecting checkboxes individually, bulk selection is a more convenient approach to selecting or deselecting all visible rows.
 
@@ -41,13 +41,16 @@ When compared to selecting checkboxes individually, bulk selection is a more con
 
 ## Best practices
 
+Note to Bart and Chris:
+* Need to follow up on how to multi-select without checkboxes. For example, after selecting a row, the user can hold down the Shift key and select another row. This action selects all rows between the first and second selections.
+* Think about bulk select of file tiles and cards.
+
 Consider the following best practices when you add bulk selection to a table:
 
-- The table should support the keyboard shortcuts to selecting multiple objects. For example, after selecting a row, the user can hold down the **Shift** key and select another row. This action selects all rows between the first and second selections.
-- Construct the selection bucket so that the **Deselect All** option launches a confirmation modal that asks the user to confirm their choice.
-- xxxxxx.
-- xxxxxx.
-- xxcxxx.
+- The table should support keyboard accessibility shortcuts as a way for the user to select multiple objects.
+- If you include number selected feedback, add a **Select All** and **Deselect All** option so that the user doesn't need to select each row manually.
+- **Select All** and **Deselect All** only act on the visible set of rows; they do not apply to all table pages.
+- Use a selection bucket to help the user can manage multiple selections across pages.
 
 {% endcolumn %}
 
@@ -81,10 +84,8 @@ Use the following specifications when you construct bulk selection.
 
 Bulk selection contains the following elements:
 
-- **Parent checkbox (required)**: When the user selects the parent checkbox, all children checkboxes are selected. When the user deselects the parent checkbox, all children checkboxes are deselected.
-- **Select All (optional)**: When the user clicks **Select All**, all records on the current page are selected.
-- **Deselect All (optional)**: When the user click **Deselect All**, all records on the current page are deselected.
-- **Number selected (optional)**: The number selected shows the number of objects selected in the table. For example, **3 Selected** means that out of 10 records displayed in the table, three of those records are currently selected by the user. If you include number selected, then also include the **Select All** option.
+- **Parent checkbox (optional)**: When the user clicks the parent checkbox, all children checkboxes are selected. When the user clicks the parent checkbox, all children checkboxes are deselected.
+- **Number selected feedback (optional)**: The number selected feedback shows the number of objects selected in the table. For example, **3 Selected** means that out of 10 records displayed in the table, three of those records are currently selected by the user. If you include number selected feedback, then also include a **Select All** or **Deselect All** option, depending on your workflow.
 - **Selection bucket (optional)**: You can add a [selection bucket]({{site.baseurl}}/components/selection-bucket.html) to help the user manage table selections across multiple pages.
 
 {% endcolumn %}
@@ -159,11 +160,11 @@ Use these spacing guidelines when you construct bulk selection.
 
 Ensure that the bulk selection user interactions support the following behaviors:
 
-- When the user selects multiple (but not all) checkboxes individually, the parent checkbox changes to the indeterminate state and the **Select All** control becomes active.
-- When some checkboxes are selected and the user selects the parent checkbox, all children values become selected and the **Select All** control changes to the **Deselect All** control.
-- When all rows are selected, the user can deselect those rows by deselecting the parent checkbox or clicking **Deselect All**.
-- When all rows are selected and the user deselects one or more rows individually, the parent checkbox changes to the indeterminate state and the **Select All** control becomes active.
-- If a user selects all currently visible rows individually, the parent checkbox becomes selected and the **Select All** control changes to the **Deselect All** control.
+- When the user selects multiple (but not all) checkboxes individually, the parent checkbox changes to the indeterminate state. If you include the number selected feedback, then also include a **Select All** option.
+- When some checkboxes are selected and the user clicks the parent checkbox, all children values are deselected.
+- When all rows are selected, the parent checkbox is in a selected state. Clicking the parent checkbox deselects all rows.
+- When all rows are selected, and you have included the number selected feedback, then also include a **Deselect All** option.
+- When all rows are selected and the user deselects one or more rows individually, the parent checkbox changes to the indeterminate state. If you include the number selected feedback, then also include a **Select All** option.
 
 {% endcolumn %}
 
