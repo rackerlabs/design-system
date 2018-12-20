@@ -4,42 +4,65 @@ parent: Inputs and Controls
 layout: component
 category: Components
 usage: >
-  Choice tiles are an alternative selector pattern to radio buttons and checkboxes that provide a means of both displaying choices more visually and of providing a more detailed description of a choice.
+  A choice tile visually represents a selection that a user can make on a page. As an alternative to a radio button or checkbox, a choice tile contains an icon that graphically represents the choice and a description that provides more detail about the choice.
 preview-image: preview-images/choice-tile.svg
 status: stable
 resource: true
-last-modified: 2017-11-12
-helix-ui-css: true
-helix-ui-javascript: true
-pagelink: https://rackerlabs.github.io/helix-ui/components/choice-tiles/
+last-modified: 2018-12-19
+helix-ui-css: false
+helix-ui-javascript: false
 ---
 
 {% include toc.html %}
 
 <section class="static-section" markdown="1">
 
-## Introduction
-
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-### When to use
+## When to use
 
-- Use choices tiles when presenting a set of choices that are easily recognized by iconography.
-- Only use choice tiles when two or more selections are available.
-
-### Best practices
-
-- When using a description within a choice tile keep the text brief.
+Use choice tiles when you want to use iconography to present a set of choices to the user.
 
 {% endcolumn %}
 
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+</div>
 
-{% figure [caption:"The choice tile pattern"] [class:"image bg-light border"] %}
-<embed src="{{site.baseurl}}/assets/images/components/inputs-and-controls/choice-tiles/choice-tile-hero.png"/>
-{% endfigure %}
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+## Best practices
+
+Consider the following best practices when you construct choice tiles:
+
+- Only use choice tiles when there are two or more selections available. Do not provide more than nine choice tiles.
+- Choice tiles do not define specific iconography. Stay within brand guidelines and use iconography that supports the selection contained in a choice tile.
+- For more complex selections, add an optional description to medium or large choice tiles. Due to space constraints, do not add a description to small choice tiles.
+- Do not mix sizes in a set of choice tiles.
+- If you do not add a description, collapse the padding to the bottom-most padding.
+- Limit the description you include on a choice tile to no more than two lines of text.
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+## Specifications
+
+Use these specifications when you construct choice tiles.
 
 {% endcolumn %}
 
@@ -55,12 +78,12 @@ pagelink: https://rackerlabs.github.io/helix-ui/components/choice-tiles/
 
 ### Composition
 
-Cards are composed of the following:
+A choice tile contains the following elements:
 
-- **Choice tile**: the container that houses the choice tile selection.
-- **Icon**: an iconographic representation of the selection contained within a choice tile.
-- **Heading**: the title of the selection contained within a choice tile.
-- **Description** *(optional)*: A description briefly explains the choice tile selection to a user. Capitalize the first word in sentences.
+- **Container (required)**: The container holds the icon, heading, and the description.
+- **Icon (required)**: The icon visually represents the choice tile selection.
+- **Heading (required)**: The heading is the title of the selection contained in the choice tile.
+- **Description (optional)**: A description briefly explains the choice tile selection to a user.
 
 {% endcolumn %}
 
@@ -82,64 +105,9 @@ Cards are composed of the following:
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Layout options
+### Style
 
-- Choice tiles comes in small, medium, and large sizes. Do not use a mixture of sizes in the same choice tile set.
-- Do not offer more than nine options when using choice tiles.
-- Small tiles **do not** span more than 6 columns across (max 6 tiles in a row).
-- Medium tiles **do not** span more than 8 columns across (max 4 tiles in a row).
-- Large tiles **do not** span more than 9 columns across (max 3 tiles in a row).
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-{% figure [caption:"Choice tiles on a full-width grid with no right sidebar"] [class:"image bg-light border"] %}
-<embed src="{{site.baseurl}}/assets/images/components/inputs-and-controls/choice-tiles/choice-tile-layout.png"/>
-{% endfigure %}
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow" markdown="1">
-
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-10-md hxSpan-10-lg" %}
-
-### Responsive specifications
-
-Use the following column widths for the small, medium, and large choice tiles. Below each width, the rowmax value gives the maximum number of tiles for a corresponding screen size. Limit the amount of tiles in a row to reduce the complexity of the interface for the user, and give them chunks of information they can understand and work with. For pages with a left nav or a right sidebar, the 12 column grid spans the container between the sidebar.
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-12-md hxSpan-12-lg" %}
-
-{% figure [caption:"Choice tiles responsive options"] [class:"image bg-light border"] %}
-<embed src="{{site.baseurl}}/assets/images/components/inputs-and-controls/choice-tiles/choice-tile-responsive.png"/>
-{% endfigure %}
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-## Visual specifications
-
-<div class="hxRow" markdown="1">
-
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-- Small size choice tiles **cannot** have a description due to the smaller dimensions.
-- An optional description may be added medium and large size choice tiles. Its inclusion is recommended to inform more complex selections.
-- When a description is not used, collapse the padding down to the bottom most padding.
-- Choice tiles do not define specific iconography. Stay within brand guidelines and use iconography that supports the selection contained in a choice tile.
+Use the following specifications when you construct choice tiles.
 
 {% endcolumn %}
 
@@ -161,18 +129,16 @@ Use the following column widths for the small, medium, and large choice tiles. B
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Basic states
+### Spacing
 
-Choice tiles use most of the same styling that is used for components like radios and checkboxes, with the addition of the checkmark to indicate a selected tile. The user can click on any part of the tile to select it.
-
-For selected states, the iconography changes color to match the given state. In the event that we cannot adjust the color of an icon, be consistent with your color decision throughout your entire choice tile set, rather than have some icons change colors and others not. The strong recommendation is to change the icon color with the selected states unless otherwise impossible.
+Use these spacing guidelines when you construct choice tiles.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Choice tile states"] [class:"image bg-light border"] %}
-<embed src="{{site.baseurl}}/assets/images/components/inputs-and-controls/choice-tiles/choice-tile-states.png"/>
+{% figure [caption:"Small, medium, and large sized choice tiles"] [class:"image bg-light border"] %}
+<embed src="{{site.baseurl}}/assets/images/components/inputs-and-controls/choice-tiles/choice-tile-specs.png"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -183,13 +149,29 @@ For selected states, the iconography changes color to match the given state. In 
 
 <section class="static-section" markdown="1">
 
-## Interactions
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+### Behaviors
+
+Ensure that you construct choice tiles so that they conform to the following single- and multi-select behaviors.
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
 
 <div class="hxRow" markdown="1">
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Single-select interaction
+#### Single-select interactions
+
+A single-select interaction is one where the user .... XXX
 
 **Default Interaction**: Like with multi-select, when the user first views the choice tile selector, all tiles are presented in the default state unless a preferred choice is preselected.
 
@@ -217,7 +199,9 @@ For selected states, the iconography changes color to match the given state. In 
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Multi-select interaction
+#### Multi-select interactions
+
+A multi-select interaction is one where the user .... XXX
 
 **Default interaction**: When the user first views the choice tile selector, all tiles are presented in the default state unless a preferred choice is preselected.
 
@@ -239,7 +223,109 @@ For selected states, the iconography changes color to match the given state. In 
 
 <section class="static-section" markdown="1">
 
-## Handling errors
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+## Layout
+
+Use the following guidelines when you position choice tiles on a page.
+
+- Do not span small choice tiles across more than six columns, for a maximum of six tiles in a row.
+- Do not span medium choice tiles across more than eight columns, for a maximum of four tiles in a row.
+- Do not span large choice tiles across more than nine columns, for a maximum of three tiles in a row.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"Choice tiles on a full-width grid with no right sidebar"] [class:"image bg-light border"] %}
+<embed src="{{site.baseurl}}/assets/images/components/inputs-and-controls/choice-tiles/choice-tile-layout.png"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+### Responsive specifications
+
+Use these column widths for small, medium, and large choice tiles. Below each width, the rowmax value provides the maximum number of tiles for each screen size.
+
+To reduce the complexity of the interface, limit the number of tiles in a row. For pages with left navigation or a right sidebar, the 12-column grid spans the container between the sidebar.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"Choice tiles responsive options"] [class:"image bg-light border"] %}
+<embed src="{{site.baseurl}}/assets/images/components/inputs-and-controls/choice-tiles/choice-tile-responsive.png"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+## States
+
+Choice tiles use most of the same styling that is used for components like radios and checkboxes, with the addition of the checkmark to indicate a selected tile. The user can click on any part of the tile to select it.
+
+For selected states, the iconography changes color to match the given state. If the color of an icon cannot be changed, be consistent with the color throughout the set of choice tiles. Do not construct some choice tiles to change colors and others that do not change color.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"Choice tile states"] [class:"image bg-light border"] %}
+<embed src="{{site.baseurl}}/assets/images/components/inputs-and-controls/choice-tiles/choice-tile-states.png"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+### Required
+
+If a selection is required, add an 4px asterisk to the left of the title an overlap with the gutter. The asterisk inherits the font size of the type style to which it is attached.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"A selection is required on a group"] [class:"image bg-light border"] %}
+<embed src="{{site.baseurl}}/assets/images/components/inputs-and-controls/choice-tiles/choice-tile-required.png"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
 
 <div class="hxRow" markdown="1">
 
@@ -247,7 +333,7 @@ For selected states, the iconography changes color to match the given state. In 
 
 ### Single-select error
 
-If there is an error on a selection, change that item to errored state and display an error message below it.
+If there is an error on a selection, change the item to error state and display an error message below it.
 
 {% endcolumn %}
 
@@ -271,7 +357,7 @@ If there is an error on a selection, change that item to errored state and displ
 
 ### Group-select error
 
-If there is an error on the entire group, place the message above the group rather than changing the state of each item.
+If there is an error on the entire group, locate the message above the group. Do not change the state of each choice tile.
 
 {% endcolumn %}
 
@@ -279,30 +365,6 @@ If there is an error on the entire group, place the message above the group rath
 
 {% figure [caption:"A selection needs to be made within the group"] [class:"image bg-light border"] %}
 <embed src="{{site.baseurl}}/assets/images/components/inputs-and-controls/choice-tiles/choice-tile-group-error.png"/>
-{% endfigure %}
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow" markdown="1">
-
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-### Required
-
-If a selection is required, add an 4px asterisk to the left of the title, bleeding into the gutter. The asterisk inherits the font-size of the type style to which it is attached.
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-{% figure [caption:"A selection is required on a group"] [class:"image bg-light border"] %}
-<embed src="{{site.baseurl}}/assets/images/components/inputs-and-controls/choice-tiles/choice-tile-required.png"/>
 {% endfigure %}
 
 {% endcolumn %}
