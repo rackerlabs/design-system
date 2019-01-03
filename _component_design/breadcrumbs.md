@@ -4,11 +4,11 @@ parent: Navigation
 layout: component
 category: Components
 usage: >
-  Breadcrumbs are an inline visual representation of page relationships and hierarchy. They provide a user with visual reinforcement of the current location within the application hierarchy, and allow for quick movement up the hierarchy.
+  Breadcrumbs are a linear navigation scheme that shows the users' current location in a website or application. A user can click  breadcrumb elements to navigate up the site hierarchy to previously visited pages.
 preview-image: preview-images/breadcrumbs.svg
 status: stable
 resource: true
-last-modified: 2018-12-20
+last-modified: 2019-01-03
 helix-ui-css: true
 helix-ui-javascript: na
 pagelink: https://rackerlabs.github.io/helix-ui/components/breadcrumbs/
@@ -24,17 +24,7 @@ pagelink: https://rackerlabs.github.io/helix-ui/components/breadcrumbs/
 
 ## When to use
 
-When using breadcrumbs, keep the following in mind:
-
-- Keep the breadcrumbs brief and as minimal as possible.
-- Ensure the breadcrumbs go on the top of the page, above the header, and only show up on the second level of your app and deeper.
-
-Use breadcrumbs on Rackspace sub-pages to let the user know where they are in the page hierarchy. Do not use breadcrumbs on the first layer of any multi-layered module, only use breadcrumbs on the second level of nesting and deeper within a module.
-
-Breadcrumbs offer a way to articulate the platform architecture in a way the user can understand. Breadcrumbs also aims to improve way-finding and navigation.
-
-- __Where am I? Way-finding:__ Breadcrumbs explain where a user is in the hierarchy of an application.
-- __How can I go upstream? Navigation:__ Breadcrumbs show the architecture of the application so that a user can escape out of their current view easily.
+Use breadcrumbs when you want to improve web application way-finding and navigation. Breadcrumbs help the user understand their location within an application, and provide an easy way for the user to navigate out of their current view.
 
 {% endcolumn %}
 
@@ -52,9 +42,10 @@ Breadcrumbs offer a way to articulate the platform architecture in a way the use
 
 Consider the following best practices when you construct breadcrumbs:
 
-- Ensure the items in the breadcrumbs have the same name as the page it navigates to. If the page title is longer than necessary, use shortened variations of the title. For example, instead of `Billing overview`, use `Overview`.
-- xxxx
-- xxxx
+- Label the breadcrumb item to match the page title to which it navigates.
+- If the page title is too long, use a shortened variation of the page title. For example, instead of `Billing overview`, use `Overview`. Shorter labels conserve horizontal space.
+- Place the breadcrumbs at the top of the page, above the header.
+- Only use breadcrumbs on the second level and deeper of a multi-layered application. Do use breadcrumbs on the first layer of a multi-layered application.
 
 {% endcolumn %}
 
@@ -89,7 +80,7 @@ Use the following specifications when you construct breadcrumbs.
 Breadcrumbs contain the following elements:
 
 - **Container (required)**: The container holds the breadcrumb element.
-- **Breadcrumb element (required)**: xxxx
+- **Breadcrumb item (required)**: The breadcrumb item is a page within an application to which a user has navigated.
 
 {% endcolumn %}
 
@@ -142,11 +133,11 @@ Use these specifications when you construct breadcrumbs.
 
 Use these spacing guidelines when you construct breadcrumbs.
 
-**OLD CONTENT**
+**OLD CONTENT - KEEP FOR NOW**
 
-- __Placement:__ Keep breadcrumbs above the major heading of the page, 8px from the eyebrow. The container for breadcrumbs will always live on the top left corner of the page when it is present. Make sure the breadcrumb container is 16px above the content on the top of the page.
-- __Container & Spacing:__ The breadcrumbs container is 28px tall and full-page wide if it needs to be. We recommend shortening measures below. Breadcrumbs are in all caps with arrow icons in `gray 600` in-between.
-- __Alignment:__ Breadcrumbs should be left aligned to the left-most content on the page as noted in [Layout]({{site.baseurl}}/layout/page-layouts.html).
+- **Placement:** Keep breadcrumbs above the major heading of the page, 8px from the eyebrow. The container for breadcrumbs will always live on the top left corner of the page when it is present. Make sure the breadcrumb container is 16px above the content on the top of the page.
+- **Container & Spacing:** The breadcrumbs container is 28px tall and full-page wide if it needs to be. We recommend shortening measures below. Breadcrumbs are in all caps with arrow icons in `gray 600` in-between.
+- **Alignment:** Breadcrumbs should be left aligned to the left-most content on the page as noted in [Layout]({{site.baseurl}}/layout/page-layouts.html).
 
 {% endcolumn %}
 
@@ -172,8 +163,8 @@ Use these spacing guidelines when you construct breadcrumbs.
 
 ## States
 
-- __What to Keep:__ Keep the first item in the architecture so it is easy to navigate, re-orientate, and return to home. Keep the last three items in the architecture, including the current page. The ellipses are not clickable or expandable.
-- __Still too long?:__ We recommend only including the last two items in the architecture, inclusive of the current page.
+- **What to Keep:** Keep the first item in the architecture so it is easy to navigate, re-orientate, and return to home. Keep the last three items in the architecture, including the current page. The ellipses are not clickable or expandable.
+- **Still too long?:** We recommend only including the last two items in the architecture, inclusive of the current page.
 
 {% endcolumn %}
 
