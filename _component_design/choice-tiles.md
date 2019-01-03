@@ -4,11 +4,11 @@ parent: Inputs and Controls
 layout: component
 category: Components
 usage: >
-  A choice tile visually represents a selection that a user can make on a page. As an alternative to a radio button or checkbox, a choice tile contains an icon that graphically represents the choice and a description that provides more detail about the choice.
+  A choice tile represents a selection that a user can make on a page. As an alternative to a radio button or checkbox, a choice tile contains an icon that graphically represents the choice and a description that provides more detail about the choice.
 preview-image: preview-images/choice-tile.svg
 status: stable
 resource: true
-last-modified: 2018-12-19
+last-modified: 2019-01-03
 helix-ui-css: false
 helix-ui-javascript: false
 ---
