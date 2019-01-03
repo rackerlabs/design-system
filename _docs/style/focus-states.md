@@ -3,10 +3,10 @@ title: Focus States
 layout: docs
 category: Style
 usage: |
-  A focused state is a visual cue that indicates the user has clicked on or navigated to an element using the keyboard. Focus helps users identify what an elements is and what can be clicked. Focused states apply to all interactive elements.
+  Focus visually indicates that the user has clicked on or navigated to a user interface (UI) element. When a UI element is in focus, it is ready to receive input from the user. Focus applies to all interactive elements.
 resource: true
 status: complete
-last-modified: 2019-01-02
+last-modified: 2019-01-03
 ---
 
 {% include toc.html %}
@@ -19,7 +19,7 @@ last-modified: 2019-01-02
 
 ## When to use
 
-Focus is received by interactive components when the user clicks on them.  Focus is also applied to clickable elements when the user presses the tab key to traverse the UI using the keyboard.
+Apply focus to all interactive elements in a UI.
 
 {% endcolumn %}
 
@@ -38,7 +38,7 @@ Focus is received by interactive components when the user clicks on them.  Focus
 Consider the following best practices when you construct focus states:
 **CHECK WITH RYAN TO SEE IF ANY ACCESSIBILITY BEST PRACTICE NUGGETS MIGHT BE RELEVANT**
 
-- Apply focus state to any element that can be interacted with via mouse, keyboard, touch, or voice command.
+- Apply focus state to any element that can be interacted with using a mouse, keyboard, touch, or voice command.
 - xxxx.
 - xxxx.
 
@@ -56,7 +56,7 @@ Consider the following best practices when you construct focus states:
 
 ## Specifications
 
-Use the following specifications when you construct focus states.
+Use the following specifications when you construct a UI element that is in focus.
 
 {% endcolumn %}
 
@@ -72,10 +72,10 @@ Use the following specifications when you construct focus states.
 
 ### Composition
 
-A focused state component consists of the following elements:
+Focus consists of the following elements:
 
-- **Glow**: The glow is the ring that appears around the focused element.
-- **Border**: Apply a border only to elements that already have a border.
+- **Glow (required)**: The glow is the ring that appears around the focused element.
+- **Border (optional)**: Apply a border only to elements that already have a border.
 
 {% endcolumn %}
 
@@ -96,7 +96,7 @@ A focused state component consists of the following elements:
 
 ### Style
 
-Use these specifications when you apply a focus state to an element.
+Use these specifications when you apply focus to an element.
 
 {% endcolumn %}
 
@@ -142,11 +142,9 @@ The standard focus color is **#0e94a6 (Cyan 700)**
 
 #### Dark focus colors
 
-If the element's fill or border color are darker than 500, apply that color to the glow and border instead of the standard focus color.
+For borderless elements, if the focused element's fill color is darker than 500, use that color for the glow.
 
-**Borderless elements**: If the focused element's fill color is darker than 500, use that color for the glow.
-
-**Elements with a border**: If the focused element's border color is darker than 500, use that color for the glow and border.
+For elements with a border, if the focused element's border color is darker than 500, use that color for the glow and border.
 
 {% endcolumn %}
 
@@ -222,7 +220,7 @@ Apply the standard glow and a 2px corner radius to elements that do not have a v
 
 ## Focusable elements
 
-This section describes how to style user interface (UI) elements that can be in focus.
+This section describes how to style UI elements that can be in focus.
 
 {% endcolumn %}
 
@@ -414,7 +412,7 @@ The position of a switch changes when a user clicks it. Place the focus on the e
 
 ### Search filter
 
-The user can select criteria from the search menu, so treat the row as a button.
+Apply focus to search criteria that appear in the search menu. For focused search criteria, use the guidelines listed in [buttons](#buttons).
 
 {% endcolumn %}
 
@@ -438,7 +436,7 @@ The user can select criteria from the search menu, so treat the row as a button.
 
 ### Tabs
 
-When the user moves to a tab set using their keyboard, the first tab receives focus. The user can then navigate between tabs using the arrow keys.
+When the user navigates to a tab with their keyboard, the first tab receives focus. The user can then navigate between tabs using the arrow keys.
 
 {% endcolumn %}
 
@@ -462,7 +460,7 @@ When the user moves to a tab set using their keyboard, the first tab receives fo
 
 ### Beacon
 
-When a beacon receives focus, it's existing glow changes to Cyan 700.
+When a beacon receives focus, its existing glow changes to Cyan 700.
 
 {% endcolumn %}
 
@@ -487,7 +485,7 @@ When a beacon receives focus, it's existing glow changes to Cyan 700.
 
 ### Focusable containers
 
-Some elements, such as [choice tiles]({{site.baseurl}}/components/choice-tiles.html), feature a clickable container. Apply the focus tot he entire container according to standard focus guidelines.
+Some elements, such as [choice tiles]({{site.baseurl}}/components/choice-tiles.html), feature a clickable container. Apply the focus to the entire container according to standard focus guidelines.
 
 {% endcolumn %}
 
@@ -511,9 +509,9 @@ Some elements, such as [choice tiles]({{site.baseurl}}/components/choice-tiles.h
 
 ### Focusable child elements
 
-There are cases in which the user can focus on the child element and the parent does not lose focus.
+There are cases in which the user can focus on a child element and the parent does not lose focus.
 
-Using the search input as an example, the clear button (child) takes on a dotted, 2px rounded border with the standard Cyan 700 focus color.
+For example, with the search filter, the clear button (child) takes on a dotted, 2px rounded border with the standard Cyan 700 focus color.
 
 The focus color of the child element is independent of the focus color of its parent.
 
