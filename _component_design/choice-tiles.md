@@ -4,11 +4,11 @@ parent: Inputs and Controls
 layout: component
 category: Components
 usage: >
-  A choice tile represents a selection that a user can make on a page. As an alternative to a radio button or checkbox, a choice tile contains an icon that graphically represents the choice and a description that provides more detail about the choice.
+  A choice tile is a selectable component that graphically represents a choice a user can make on a page.
 preview-image: preview-images/choice-tile.svg
 status: stable
 resource: true
-last-modified: 2019-01-03
+last-modified: 2019-01-07
 helix-ui-css: false
 helix-ui-javascript: false
 ---
@@ -23,7 +23,7 @@ helix-ui-javascript: false
 
 ## When to use
 
-Use choice tiles when you want to use iconography to present a set of choices to the user.
+Like radios and checkboxes, choice tiles provide the user a means of making a decision and selecting from a group of options. Because choice tiles increase the selectable space of a choice, you can add an icon and description, which provides context and a richer information experience to the user. Choice tiles help decision making by to focusing the user's attention.
 
 {% endcolumn %}
 
@@ -41,12 +41,12 @@ Use choice tiles when you want to use iconography to present a set of choices to
 
 Consider the following best practices when you construct choice tiles:
 
-- Only use choice tiles when there are two or more selections available. Do not provide more than nine choice tiles.
-- Choice tiles do not define specific iconography. Stay within brand guidelines and use iconography that supports the selection contained in a choice tile.
-- For more complex selections, add an optional description to medium or large choice tiles. Due to space constraints, do not add a description to small choice tiles.
+- Only use as many choice tiles as you need. Too few choice tiles (for example, 2) can be visually confusing to the user while larger sets of choice tiles increase the user's information processing demands and can lead to *option paralysis*. The number of choice tiles is also a function of the choice tile size and the user's screen size. We recommend using choice tiles when there is more than one and a maximum of nine choices.
+- Construct a choice tile so that the user can click on any part of the tile to select it.
+- You can design your own icon as long as it conforms to the Rackspace brand. If there is an established meaning to an icon, don’t use it to mean something else. See [iconography]({{site.baseurl}}/style/iconography.html) for more information about icons.
+- For more complex information needs, add a description to medium or large choice tiles. Due to space constraints, do not add a description to small choice tiles.
 - Do not mix sizes in a set of choice tiles.
-- If you do not add a description, collapse the padding to the bottom-most padding.
-- Limit the description you include on a choice tile to no more than two lines of text.
+- Limit the description to 100 characters so that the text doesn't flow onto more than two lines. **Check with Ryan about max characters**
 
 {% endcolumn %}
 
@@ -81,8 +81,8 @@ Use these specifications when you construct choice tiles.
 A choice tile contains the following elements:
 
 - **Container (required)**: The container holds the icon, heading, and the description.
-- **Icon (required)**: The icon visually represents the choice tile selection.
-- **Heading (required)**: The heading is the title of the selection contained in the choice tile.
+- **Icon (optional)**: The icon visually represents the choice tile selection.
+- **Option label (required)**: The option label is the title of the selection contained in the choice tile.
 - **Description (optional)**: A description briefly explains the choice tile selection to a user.
 
 {% endcolumn %}
@@ -171,13 +171,13 @@ Ensure that you construct choice tiles so that they conform to the following sin
 
 #### Single-select interactions
 
-A single-select interaction is one where the user .... XXX
+A single-select interaction is analogous to radios where the user can only select one choice tile at a time.
 
-**Default Interaction**: Like with multi-select, when the user first views the choice tile selector, all tiles are presented in the default state unless a preferred choice is preselected.
+In the default state, the user can click any of the choice tiles. You can construct choices tiles so that one of the options is selected by default. The user can then make another selection, if necessary. When the user selects an option, the previously selected choice tile becomes deselected and all remaining tiles change to the subdued state. The subdued state reinforces that only one choice tile can be selected.
 
-**After Selection**: To illustrate that only one selection can be made at a time, the remaining tiles change to the subdued state after a selection is made.
+All unselected choice tiles change to the hover state as the user scrolls over the choice tile.
 
-**Change selection**: If a user wants to change their selection, the subdued state changes to the hover state on hover.
+Saved credit card payment information is a common single-select use case.
 
 {% endcolumn %}
 
@@ -201,11 +201,9 @@ A single-select interaction is one where the user .... XXX
 
 #### Multi-select interactions
 
-A multi-select interaction is one where the user .... XXX
+A multi-select interaction is analogous to checkboxes where the user can select multiple choice tiles at a time.
 
-**Default interaction**: When the user first views the choice tile selector, all tiles are presented in the default state unless a preferred choice is preselected.
-
-**After selection**: After a selection is made, the selected tile changes to the selected state and the other tiles remain in the default state.
+In the default state, the user can click any of the choice tiles. You can construct choices tiles so that one of the options is selected by default. The user can then make another selection, if necessary. When the user selects an option, the unselected choice tiles remain in the default state. The default state reinforces that multiple choice tiles can be selected.
 
 {% endcolumn %}
 
@@ -231,9 +229,9 @@ A multi-select interaction is one where the user .... XXX
 
 Use the following guidelines when you position choice tiles on a page.
 
-- Do not span small choice tiles across more than six columns, for a maximum of six tiles in a row.
-- Do not span medium choice tiles across more than eight columns, for a maximum of four tiles in a row.
-- Do not span large choice tiles across more than nine columns, for a maximum of three tiles in a row.
+- Do not span more than six small choice tiles across a page.
+- Do not span more than four medium choice tiles across a page.
+- Do not span more than three large choice tiles across a page.
 
 {% endcolumn %}
 
@@ -256,6 +254,8 @@ Use the following guidelines when you position choice tiles on a page.
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Responsive specifications
+
+**Check with Ryan about this section**
 
 Use these column widths for small, medium, and large choice tiles. Below each width, the rowmax value provides the maximum number of tiles for each screen size.
 
@@ -283,9 +283,9 @@ To reduce the complexity of the interface, limit the number of tiles in a row. F
 
 ## States
 
-Choice tiles use most of the same styling that is used for components like radios and checkboxes, with the addition of the checkmark to indicate a selected tile. The user can click on any part of the tile to select it.
+Choice tiles use most of the same styling that is used for components like radios and checkboxes, with the addition of the checkmark to indicate a selected tile.
 
-For selected states, the iconography changes color to match the given state. If the color of an icon cannot be changed, be consistent with the color throughout the set of choice tiles. Do not construct some choice tiles to change colors and others that do not change color.
+For selected states, the iconography changes color to match the given state.
 
 {% endcolumn %}
 
@@ -309,7 +309,7 @@ For selected states, the iconography changes color to match the given state. If 
 
 ### Required
 
-If a selection is required, add an 4px asterisk to the left of the title an overlap with the gutter. The asterisk inherits the font size of the type style to which it is attached.
+Use a red asterisk to designate that a choice tile selection is required. The asterisk floats to the left of the text in the margin and is vertically aligned with the text.
 
 {% endcolumn %}
 
