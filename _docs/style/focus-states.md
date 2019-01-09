@@ -6,7 +6,7 @@ usage: |
   Focus visually indicates that the user has clicked on or navigated to a user interface (UI) element. When a UI element is in focus, it is ready to receive input from the user. Focus applies to all interactive elements.
 resource: true
 status: complete
-last-modified: 2019-01-03
+last-modified: 2019-01-09
 ---
 
 {% include toc.html %}
@@ -36,6 +36,7 @@ Apply focus to all interactive elements in a UI.
 ## Best practices
 
 Consider the following best practices when you construct focus states:
+
 **CHECK WITH RYAN TO SEE IF ANY ACCESSIBILITY BEST PRACTICE NUGGETS MIGHT BE RELEVANT**
 
 - Apply focus state to any element that can be interacted with using a mouse, keyboard, touch, or voice command.
