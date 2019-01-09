@@ -6,7 +6,7 @@ usage: >
   The Helix spacing system provides a set of values you can use when you determine the amount of space between user interface (UI) components. By applying these spacing values consistently you adhere to accessibility guidelines and improve the readability of control panel pages.
 status: stable
 resource: true
-last-modified: 2019-01-08
+last-modified: 2019-01-09
 ---
 
 {% include toc.html %}
@@ -17,7 +17,7 @@ last-modified: 2019-01-08
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-12-md hxSpan-12-lg" %}
 
-The document provides guidelines you should use when deciding on spacing values between and among user interface components. Specific values are provided, with justification for we recommend certain spacing values.
+The document provides guidelines you should use when deciding on spacing values between and among user interface components. Specific values are provided, with justification for why we recommend certain spacing values.
 
 The Helix spacing system applies to three areas of a user interface (UI): container, content, and component.
 
@@ -37,11 +37,11 @@ The Helix spacing system applies to three areas of a user interface (UI): contai
 
 Consider the following best practices when you apply the Helix spacing system:
 
-- In most cases, use medium as the default size
+- In most cases, use medium spacing as the default.
 - If you intend to use a different spacing value, keep in mind that large spacing can result in too much whitespace, and small spacing can be too data dense and difficult for the user to parse.
-- Don't mix spacing sizes within the same component.
+- Don't mix spacing sizes within a component.
 
-% endcolumn %}
+{% endcolumn %}
 
 </div>
 
@@ -55,7 +55,7 @@ Consider the following best practices when you apply the Helix spacing system:
 
 ## Container
 
-Pages, cards, modals, panes, and choice tiles are containers that frame content within a UI. By default, a square inset of 20px is applied to the top, right, bottom, and left side of any container. The 20px spacing is medium, but you can use smaller or larger spacing, if required.
+Pages, cards, modals, panes, and choice tiles are containers that frame content within a UI. By default, apply a square inset of 20px to the top, right, bottom, and left side of the container. The 20px is the medium spacing value and you can use smaller or larger spacing, if required.
 
 {% figure [caption: "Container spacing of twenty pixels (square-inset)."][class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/style/spacing/spacing-system-rule-for-containers.png" width="893"/>
@@ -71,7 +71,7 @@ Pages, cards, modals, panes, and choice tiles are containers that frame content 
 
 ### Container spacing variants
 
-In some cases, a smaller or larger spacing value is required. Use the following spacing values to apply extra small through extra-extra-large spacing.
+In some cases you may be required to use smaller or larger spacing than the 20px default value. Use the following spacing values to apply extra-small through extra-extra-large spacing. Keep in mind that large spacing can result in too much whitespace while small spacing can lead to a data dense UI, which can be difficult for a user to process.
 
 - **Extra-small (XS) = 8px**
 - **Small (SM) = 12px**
@@ -101,13 +101,13 @@ In addition, some elements, such as a dashboard panel, requires no inset spacing
 
 {% column left:"hxCol hxSpan-12" %}
 
-<!-- BUG: a[href="content"] apparently is a specifically styled thing in HelixUI... -->
+## Container content
 
-## Content
+Content is any information displayed inside a container. Ensure that you conform to line height and bottom margin spacing values when you stack content components vertically. Bottom margins contain extra spacing that improves visually perceptible intervals, which is helpful for conveying hierarchy.
 
-Content is displayed inside the container and can be stacked vertically using line-heights and bottom margins (depending on type of content). Bottom margins add extra spacing that improves visually perceptible intervals, which is helpful for conveying hierarchy. Content contains:
+There are two types of container content:
 
-- **Headers**: Headers are the highest level of hierarchy for content and are used for page titles, section titles, sub-section titles, and  container titles.
+- **Headers**: Headers are the highest level of the content hierarchy and are used for page titles, section titles, sub-section titles, and  container titles.
 - **Leaf node**: A leaf node is located just below the header and consists of paragraphs, lists, forms, and tables.
 
 Apply a *stack* value to the space below a [header](#headers) (8px) and [leaf-nodes](#leaf-nodes) (4, 8, or 16px according to the content type).
@@ -120,9 +120,9 @@ Apply a *stack* value to the space below a [header](#headers) (8px) and [leaf-no
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-**Baseline value**: The Helix spacing system uses four as the baseline number on which all other spatial values are determined. For example, the font size for all headings is a multiple of four. A baseline value helps you build consistency into your layout.
+**Baseline value**: The Helix spacing system uses four as the baseline number on which all other spatial values are determined. For example, the font size value for all heading are mulltiples of four. This baseline value helps you build consistency into your layout.
 
-**Line-height ratio is 1.5**: The line-height ratio is taken from the WCAG SC 1.4.8 guideline which states that line spacing should be at least 1.5x the size of the font. This amount of spacing enables people of different abilities to more easily track and comprehend information.
+**1.5 line-height ratio**: The helix spacing system line-height ratio is taken from the WCAG SC 1.4.8 guideline which states that line spacing should be at least 1.5x the size of the font. This amount of spacing enables people of different abilities to more easily track and comprehend information.
 
 **Line height**: Apply the line-height ratio to all font sizes to create proportional spacing between content areas. Use this chart to determine the appropriate line height for each font size.
 
@@ -202,13 +202,17 @@ A leaf node includes any content that is not a header, including paragraphs, for
 
 </div>
 
+</section>
+
+<section class="static-section" markdown="1">
+
 <div class="hxRow"  markdown="1">
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 #### Table cells
 
-Tables are designed to show a lot of data in a small amount of space. When table data is spaced too closely, the user can have a difficult time reading a row and can become distracted by adjacent row data.
+Tables are designed to show a lot of data in a small space. When you space table data too closely, the user can have a difficult time reading a row and can become distracted by adjacent row data.
 
 To make tables more readable, add 8px between the table text and the table row border.
 
@@ -223,6 +227,10 @@ To make tables more readable, add 8px between the table text and the table row b
 {% endcolumn %}
 
 </div>
+
+</section>
+
+<section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
 
@@ -244,29 +252,33 @@ Use 4px spacing between list items.
 
 </div>
 
+</section>
+
+<section class="static-section" markdown="1">
+
 <div class="hxRow"  markdown="1">
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-#### Drop-down Selector options (formerly Full-width items in a bound container)
+#### Drop-down Selectors
 
-Place 4px of space between drop-down selector options.
-
-**OLD TEXT. IS ANY OF THIS RELEVANT?**
-
-A modification is made for list items that extend to the left and right edge of a visually bound container. The example is items in a drop-down menu.
-
-In cases like this the container does not receive a square inset. To move the first item away from the top edge of the container, the first item gets a top space of four pixels.
+Add 4px of space between the container and the first drop-down selector option. Add 4px of space between all drop-down selector options.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
 {% figure [caption: "Full-width items in a bound container"][class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/style/spacing/spacing-system-full-width-items-in-a-bound-container.png" width="536"/>
 {% endfigure %}
+
 {% endcolumn %}
 
 </div>
+
+</section>
+
+<section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
 
@@ -274,7 +286,7 @@ In cases like this the container does not receive a square inset. To move the fi
 
 #### Form elements
 
-We found that eight pixels of vertical space between consecutive, stacked inputs works best.  Eight pixels of space also applies to consecutive, horizontally inline inputs.
+Add 8px of space between consecutive, vertically or horizontally stacked inputs on a form.
 
 {% endcolumn %}
 
@@ -286,59 +298,73 @@ We found that eight pixels of vertical space between consecutive, stacked inputs
 
 </div>
 
+</section>
+
+<section class="static-section" markdown="1">
+
 <div class="hxRow"  markdown="1">
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 #### Paragraphs
 
-Paragraph line-height of twenty-four pixels was derived from visual explorations and validated using WCAG SC 1.4.8 guidelines, which recommends a line-height of at least 1.5 within paragraphs. Spacing below paragraphs is sixteen pixels.
+Use a line height of 24px for paragraphs that contain 16px font text. Add 16px spacing below a paragraph. Visual explorations and WCAG SC 1.4.8 guidelines helped to determine these values.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
 {% figure [caption: "Paragraph leaf-node spacing"][class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/style/spacing/spacing-system-paragraphs.png" width="512"/>
 {% endfigure %}
+
 {% endcolumn %}
 
 </div>
+
 </section>
 
 <section class="static-section" markdown="1">
+
 <div class="hxRow"  markdown="1">
 
 {% column left:"hxCol hxSpan-12" %}
 
 ## Component
 
-Components are buttons, input fields, icons, and so on. Components are often placed next to each other horizontally (inline). All components sizing and spacing is defined in multiples of four.
-
-
-“Inline” spacing values are applied to the space between components.  This rule uses 8px in most cases, and 4px for close proximity association.
+Components such as buttons, text inputs, and date pickers are often placed beside each other on a control panel page. The Helix spacing system uses multiples of 4px as the baseline spacing value.
 
 {% endcolumn %}
+
 </div>
 
-<div class="hxRow"  markdown="1">
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-#### Spacing inside components
+**Spacing inside components**: Inside a component, use 8px spacing for the left and right padding.
 
-For consistency, eight pixels was defined for left and right padding inside components.
+**Spacing between components**: Use 8px spacing between adjacent components. For a tighter association between components, use 4px.
 
-#### Spacing between components
+**Outstanding questions**
 
-We used a simple rule of eight pixels of space between any two adjacent components for the majority of applications. However, we decided to allow the use of four pixels to show a tighter association between components.
+- when would the 4px spacing be used? When is a tighter association needed?
+- Is there any other content that we should include?
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
 {% figure [caption: "Spacing inside components is shown in orange and external shown in green."][class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/style/spacing/spacing-system-rule-for-components.png" width="505"/>
 {% endfigure %}
+
 {% endcolumn %}
 
 </div>
+
 </section>
