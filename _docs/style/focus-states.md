@@ -6,7 +6,7 @@ usage: |
   Focus visually indicates that the user has clicked on or navigated to a user interface (UI) element. When a UI element is in focus, it is ready to receive input from the user. Focus applies to all interactive elements.
 resource: true
 status: complete
-last-modified: 2019-01-09
+last-modified: 2019-01-11
 ---
 
 {% include toc.html %}
@@ -21,27 +21,17 @@ last-modified: 2019-01-09
 
 Apply focus to all interactive elements in a UI.
 
-{% endcolumn %}
+Do not focus UI components that do not provide interaction feedback, including:
 
-</div>
+- [Popovers]({{site.baseurl}}/components/popovers.html)
+- [Modals]({{site.baseurl}}/components/modal.html)
+- [Pills]({{site.baseurl}}/components/pills.html)
+- [Key-value pairs]({{site.baseurl}}/components/key-value-pairs.html)
+- [Cards]({{site.baseurl}}/components/cards.html)
 
-</section>
+Interactive elements contained within these components can be focused.
 
-<section class="static-section" markdown="1">
-
-<div class="hxRow" markdown="1">
-
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-## Best practices
-
-Consider the following best practices when you construct focus states:
-
-**CHECK WITH RYAN TO SEE IF ANY ACCESSIBILITY BEST PRACTICE NUGGETS MIGHT BE RELEVANT**
-
-- Apply focus state to any element that can be interacted with using a mouse, keyboard, touch, or voice command.
-- xxxx.
-- xxxx.
+Do not focus disabled elements.
 
 {% endcolumn %}
 
@@ -91,18 +81,6 @@ Focus consists of the following elements:
 
 </div>
 
-<div class="hxRow" markdown="1">
-
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-### Style
-
-Use these specifications when you apply focus to an element.
-
-{% endcolumn %}
-
-</div>
-
 </section>
 
 <section class="static-section" markdown="1">
@@ -111,13 +89,11 @@ Use these specifications when you apply focus to an element.
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-#### Standard focus color
+### Focused element with light fill or border
 
-The standard focus color is **#0e94a6 (Cyan 700)**
+For elements without a border, if the element's fill color is 500 or lighter, use #0E94A6 (Cyan 700) for the glow color.
 
-**Borderless elements**: If the element's fill color is 500 or lighter, apply the glow using the standard focus color.
-
-**Elements with a border**: If the element's border color is 500 or lighter, apply the standard glow and change the border to standard focus color.
+For elements with a border, if the element's border color is 500 or lighter, use #0E94A6 (Cyan 700) for both the glow and the border color.
 
 {% endcolumn %}
 
@@ -141,9 +117,9 @@ The standard focus color is **#0e94a6 (Cyan 700)**
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-#### Dark focus colors
+### Focused element with dark fill or border
 
-For borderless elements, if the focused element's fill color is darker than 500, use that color for the glow.
+For elements without a border, if the focused element's fill color is darker than 500, use that color for the glow.
 
 For elements with a border, if the focused element's border color is darker than 500, use that color for the glow and border.
 
@@ -167,9 +143,9 @@ For elements with a border, if the focused element's border color is darker than
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-#### Dark backgrounds
+### Focused element is on a dark background
 
-If the focused element is contained in a background color that is 500 or darker, change the glow and border to **#ffffff (Gray 0)**.
+If the focused element is on a background color that is 500 or darker, change the glow and border to #FFFFFF (Gray 0).
 
 {% endcolumn %}
 
@@ -191,9 +167,9 @@ If the focused element is contained in a background color that is 500 or darker,
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-#### Irregular shapes
+### Focused element is an irregular shape
 
-Apply the standard glow and a 2px corner radius to elements that do not have a visible box shape, including:
+If the focused element is an irregular shape, use #0E94A6 (Cyan 700) for the glow color and add a 2px corner radius to elements that do not have a visible box shape, including:
 
 - [Tertiary buttons]({{site.baseurl}}\components\buttons.html)
 - Hyperlinks
@@ -219,9 +195,9 @@ Apply the standard glow and a 2px corner radius to elements that do not have a v
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-## Focusable elements
+## Examples
 
-This section describes how to style UI elements that can be in focus.
+This section describes how to style focused UI elements.
 
 {% endcolumn %}
 
@@ -522,29 +498,6 @@ The focus color of the child element is independent of the focus color of its pa
 {% figure [class:"image bg-light border"] %}
 <img src="{{site.url}}/assets/images/style/focus-states/focus-states-focusable-child-elements.png" width="504"/>
 {% endfigure %}
-{% endcolumn %}
-
-</div>
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow" markdown="1">
-
-{% column left:"hxCol hxSpan-8-xs hxSpan-8-sm hxSpan-8-md hxSpan-8-lg" %}
-
-## Non-focusable elements
-
-UI components that do not provide feedback when interacted with do not receive focus, including:
-
-- [Popovers]({{site.baseurl}}/components/popovers.html)
-- [Modals]({{site.baseurl}}/components/modal.html)
-- [Pills]({{site.baseurl}}/components/pills.html)
-- [Key-value pairs]({{site.baseurl}}/components/key-value-pairs.html)
-- [Cards]({{site.baseurl}}/components/cards.html)
-
-Interactive elements contained within these components can be focused.
-
 {% endcolumn %}
 
 </div>
