@@ -6,7 +6,7 @@ usage: >
   The Helix spacing system provides a set of values you can use when you determine the amount of space between user interface (UI) components. By applying these spacing values consistently you adhere to accessibility guidelines and improve the readability of control panel pages.
 status: stable
 resource: true
-last-modified: 2019-01-09
+last-modified: 2019-01-11
 ---
 
 {% include toc.html %}
@@ -17,7 +17,7 @@ last-modified: 2019-01-09
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-12-md hxSpan-12-lg" %}
 
-The document provides guidelines you should use when deciding on spacing values between and among user interface components. Specific values are provided, with justification for why we recommend certain spacing values.
+The document provides guidelines you should use when deciding on spacing values between and among user interface components. Specific values are provided, with justification for why we recommend them.
 
 The Helix spacing system applies to three areas of a user interface (UI): container, content, and component.
 
@@ -37,9 +37,10 @@ The Helix spacing system applies to three areas of a user interface (UI): contai
 
 Consider the following best practices when you apply the Helix spacing system:
 
-- In most cases, use medium spacing as the default.
+- In most cases, use medium spacing (20px) as the default.
+- When choosing spacing values for a new design, consider the user's needs and use case. Use small spacing when users prefer greater data density. Use large spacing to increase whitespace, which can help enhance user comprehension.
 - If you intend to use a different spacing value, keep in mind that large spacing can result in too much whitespace, and small spacing can be too data dense and difficult for the user to parse.
-- Don't mix spacing sizes within a component.
+- Avoid uneven spacing (padding) on containers. In the majority of cases, containers must use square Inset spacing, which means that the top, right, bottom, and left spacing values are equal inside the container.
 
 {% endcolumn %}
 
@@ -55,7 +56,7 @@ Consider the following best practices when you apply the Helix spacing system:
 
 ## Container
 
-Pages, cards, modals, panes, and choice tiles are containers that frame content within a UI. By default, apply a square inset of 20px to the top, right, bottom, and left side of the container. The 20px is the medium spacing value and you can use smaller or larger spacing, if required.
+Pages, cards, modals, panels, and choice tiles are examples of containers that frame content within a UI. By default, apply a square inset of 20px to the top, right, bottom, and left side of the container. The 20px is the medium spacing value and you can use smaller or larger spacing, if required.
 
 {% figure [caption: "Container spacing of twenty pixels (square-inset)."][class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/style/spacing/spacing-system-rule-for-containers.png" width="893"/>
@@ -348,12 +349,11 @@ Components such as buttons, text inputs, and date pickers are often placed besid
 
 **Spacing inside components**: Inside a component, use 8px spacing for the left and right padding.
 
-**Spacing between components**: Use 8px spacing between adjacent components. For a tighter association between components, use 4px.
+**Spacing between components**: In most cases, use 8px spacing between adjacent components.
 
-**Outstanding questions**
+Use 4px spacing when you want to show a tighter association between related components. For example, to more tightly associate a text input with related help documentation, place the **Help** icon 4px from the input. You should also use 4px spacing between highly related inputs. For example, if the UI requires the user to enter time in **Hours:Minutes:Seconds** (three separate, but related inputs), add 4px space between each input.
 
-- when would the 4px spacing be used? When is a tighter association needed?
-- Is there any other content that we should include?
+**MAKE SURE TO ADD THE 4PX SPACING CASE TO THE VISUAL**
 
 {% endcolumn %}
 
