@@ -21,7 +21,7 @@ last-modified: 2019-01-15
 
 Apply focus to all interactive elements in a UI.
 
-Do not focus disable element and non-interactive elements, including:
+Do not focus disabled elements and non-interactive elements, including:
 
 - [Popovers]({{site.baseurl}}/components/popovers.html)
 - [Modals]({{site.baseurl}}/components/modal.html)
