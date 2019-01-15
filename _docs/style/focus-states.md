@@ -6,7 +6,7 @@ usage: |
   Focus visually indicates that the user has clicked on or navigated to a user interface (UI) element. When a UI element is in focus, it is ready to receive input from the user. Focus applies to all interactive elements.
 resource: true
 status: complete
-last-modified: 2019-01-11
+last-modified: 2019-01-15
 ---
 
 {% include toc.html %}
@@ -21,7 +21,7 @@ last-modified: 2019-01-11
 
 Apply focus to all interactive elements in a UI.
 
-Do not focus UI components that do not provide interaction feedback, including:
+Do not focus non-interactive elements, including:
 
 - [Popovers]({{site.baseurl}}/components/popovers.html)
 - [Modals]({{site.baseurl}}/components/modal.html)
@@ -65,7 +65,7 @@ Use the following specifications when you construct a UI element that is in focu
 
 Focus consists of the following elements:
 
-- **Glow (required)**: The glow is the ring that appears around the focused element.
+- **Glow (required)**: The glow is the hazy ring that appears around the focused element.
 - **Border (optional)**: Apply a border only to elements that already have a border.
 
 {% endcolumn %}
