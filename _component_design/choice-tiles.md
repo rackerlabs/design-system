@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/choice-tile.svg
 status: stable
 resource: true
-last-modified: 2019-01-07
+last-modified: 2019-01-15
 helix-ui-css: false
 helix-ui-javascript: false
 ---
@@ -45,7 +45,8 @@ Consider the following best practices when you construct choice tiles:
 - Construct a choice tile so that the user can click on any part of the tile to select it.
 - You can design your own icon as long as it conforms to the Rackspace brand. If there is an established meaning to an icon, don’t use it to mean something else. See [iconography]({{site.baseurl}}/style/iconography.html) for more information about icons.
 - For more complex information needs, add a description to medium or large choice tiles. Due to space constraints, do not add a description to small choice tiles.
-- Do not mix sizes in a set of choice tiles.
+- Do not mix small, medium, and large size choice tiles in a choice tile set.
+- Within a choice tile set, ensure that choice tiles are all uniform in size.
 - Limit the description to 100 characters so that the text doesn't flow onto more than two lines. **Check with Ryan about max characters**
 
 {% endcolumn %}
@@ -211,62 +212,6 @@ In the default state, the user can click any of the choice tiles. You can constr
 
 {% figure [caption:"Group states for multi select interactions"] [class:"image bg-light border"] %}
 <embed src="{{site.baseurl}}/assets/images/components/inputs-and-controls/choice-tiles/choice-tile-multi-select.png"/>
-{% endfigure %}
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow" markdown="1">
-
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-## Layout
-
-Use the following guidelines when you position choice tiles on a page.
-
-- Do not span more than six small choice tiles across a page.
-- Do not span more than four medium choice tiles across a page.
-- Do not span more than three large choice tiles across a page.
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-{% figure [caption:"Choice tiles on a full-width grid with no right sidebar"] [class:"image bg-light border"] %}
-<embed src="{{site.baseurl}}/assets/images/components/inputs-and-controls/choice-tiles/choice-tile-layout.png"/>
-{% endfigure %}
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow" markdown="1">
-
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-### Responsive specifications
-
-**Check with Ryan about this section**
-
-Use these column widths for small, medium, and large choice tiles. Below each width, the rowmax value provides the maximum number of tiles for each screen size.
-
-To reduce the complexity of the interface, limit the number of tiles in a row. For pages with left navigation or a right sidebar, the 12-column grid spans the container between the sidebar.
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-{% figure [caption:"Choice tiles responsive options"] [class:"image bg-light border"] %}
-<embed src="{{site.baseurl}}/assets/images/components/inputs-and-controls/choice-tiles/choice-tile-responsive.png"/>
 {% endfigure %}
 
 {% endcolumn %}
