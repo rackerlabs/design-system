@@ -47,7 +47,7 @@ Consider the following best practices when you construct choice tiles:
 - For more complex information needs, add a description to medium or large choice tiles. Due to space constraints, do not add a description to small choice tiles.
 - Do not mix small, medium, and large size choice tiles in a choice tile set.
 - Within a choice tile set, ensure that choice tiles are all uniform in size.
-- Limit the description to 100 characters so that the text doesn't flow onto more than two lines. **Check with Ryan about max characters**
+- Limit the description to 80 characters total, which equates to 40 characters per line. A description should not be longer than two lines of text.
 
 {% endcolumn %}
 
