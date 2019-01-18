@@ -3,11 +3,11 @@ title: Date Picker
 parent: Inputs and Controls
 layout: component
 category: Components
-usage: Enable users to filter a list of events, or a report, by date ranges, or choose a single date for an event as they fill out a form.
+usage: The date picker input enables users to select a date or range of dates from a calendar.
 preview-image: preview-images/date-picker.svg
 status: stable
 resource: true
-last-modified: 2018-07-05
+last-modified: 2019-01-16
 helix-ui-css: false
 helix-ui-javascript: false
 ---
@@ -18,11 +18,45 @@ helix-ui-javascript: false
 
 <div class="hxRow"  markdown="1">
 
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+## Example
+
+The date picker consists of the following elements:
+
+**Month picker**: The user can navigate to and select the month that contains the date or dates of interest.
+
+**Date selector**: After the user selects the month, the user selects a single date or a range of dates.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/date-picker/date-picker-specifications.svg"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 ## When to use
 
-You can use the date picker to apply date range filters to lists of events, logs, or for filtering monitoring reports. You can also use it for advanced filtering in ticketing and billing by specifying dates or date ranges in the process of submitting a form.
+Use a date picker in the following scenarios:
+
+- When the user wants to browse for and select a date based on its day of the week. For example, use a date picker when the user wants to filter a list of events, logs, or a report to include last quarter's data, and the user does not know what the beginning and end dates are.
+- When you want to reduce date-related data entry errors.
+- When the application is used by an international audience and you want to standardize the date format. For example, 06/01/2018 is a valid date, but can be interpreted as either June 1, 2018 or January 6, 2018.  
+
+Do not use a date picker when a single date is known, for example, date of birth. In this scenario a date picker requires the user to scroll through many months or years to get to the correct value.
 
 {% endcolumn %}
 
@@ -36,10 +70,13 @@ You can use the date picker to apply date range filters to lists of events, logs
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-## Best practice
+## Best practices
 
-- Provide the range selection variation when a user needs to select both a start and an end date.
+Consider the following best practices when you construct a date picker:
+
+- Provide the date range selection variation when a user needs to select both a start and an end date.
 - Pair the date picker pattern with data sets that extend across a time period to allow users to select the currently viewed data.
+- When the user triggers the date picker, it should default to the current month and year.
 
 {% endcolumn %}
 
@@ -53,25 +90,9 @@ You can use the date picker to apply date range filters to lists of events, logs
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-## Date selection
+## Date selector specifications
 
-Intro text here...
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow"  markdown="1">
-
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-### Specifications
-
-Use these specifications when you construct a date picker.
+Use these specifications when you construct a date selector.
 
 {% endcolumn %}
 
@@ -85,17 +106,15 @@ Use these specifications when you construct a date picker.
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-#### Composition
+### Composition
 
-The date picker component is composed of multiple buttons with four primary functions:
+The date selector is composed of the following elements:
 
 - Move the element to the next month.
 - Move the element to the previous month.
 - Select a specific date.
 - Move between the month selector the date selector.
 
-When the date picker is first triggered, it should default to the current month and year.
-
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
@@ -116,7 +135,7 @@ When the date picker is first triggered, it should default to the current month 
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-#### Style
+### Style
 
 Use these specifications when you construct a date picker.
 
@@ -140,7 +159,7 @@ Use these specifications when you construct a date picker.
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-#### Spacing
+### Spacing
 
 The date picker element appears below the corresponding text input that controls it.
 
@@ -166,9 +185,11 @@ The date picker element appears below the corresponding text input that controls
 
 #### Behaviors
 
-Some kind of intro text here...
+Ensure that the date picker supports the following behaviors.
 
 ##### Single date selection
+
+When the user selects a single date on the date picker:
 
 - Keyboard tabbing onto the input field or clicking it automatically opens the date picker.
 - The date can be filled in by hand, according to the format expressed in the placeholder.
