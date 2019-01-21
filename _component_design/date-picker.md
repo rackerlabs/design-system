@@ -1,5 +1,5 @@
 ---
-title: Date Picker
+title: Date Picker (or Calendar picker?)
 parent: Inputs and Controls
 layout: component
 category: Components
@@ -7,7 +7,7 @@ usage: The date picker input enables users to select a date from a calendar.
 preview-image: preview-images/date-picker.svg
 status: stable
 resource: true
-last-modified: 2019-01-18
+last-modified: 2019-01-21
 helix-ui-css: false
 helix-ui-javascript: false
 ---
@@ -24,11 +24,10 @@ helix-ui-javascript: false
 
 Use a date picker in the following scenarios:
 
-- When the user wants to browse for and select a date based on its day of the week. For example, use a date picker when the user wants to filter a list of events, logs, or a report to include last quarter's data, and the user does not know what the beginning and end dates are.
+- When the date is close to the present time, for example, within a year. A date that is too far in the past or the future requires the user to scroll through many months or years to get to the correct value.
+- When the user knows the day of the week, but does not know the date.
 - When you want to reduce date-related data entry errors.
 - When the application is used by an international audience and you want to standardize the date format. For example, 06/01/2018 is a valid date, but can be interpreted as either June 1, 2018 or January 6, 2018.  
-
-Do not use a date picker when a single date is known, for example, date of birth. In this scenario a date picker requires the user to scroll through many months or years to get to the correct value.
 
 {% endcolumn %}
 
@@ -46,9 +45,9 @@ Do not use a date picker when a single date is known, for example, date of birth
 
 Consider the following best practices when you construct a date picker:
 
-- Provide the date range selection variation when a user needs to select both a start and an end date.
 - Pair the date picker pattern with data sets that extend across a time period to allow users to select the currently viewed data.
-- When the user triggers the date picker, it should default to the current month and year.
+- When the user triggers the date picker, it should default to the current month and year, and the current date should be highlighted.
+- After the user has selected a date, spell out the name of the month in the date field. For example, use 03-Jan-2019 and not 03/01/2019.
 
 {% endcolumn %}
 
@@ -64,7 +63,7 @@ Consider the following best practices when you construct a date picker:
 
 ## Month picker specifications
 
-Use these specifications when you construct a month picker.
+Use the following specifications when you construct a month picker.
 
 {% endcolumn %}
 
@@ -107,7 +106,7 @@ The month picker contains the following elements:
 
 ### Style
 
-Intro text here...
+Use these specifications when you construct a month picker.
 
 {% endcolumn %}
 
@@ -130,6 +129,10 @@ Intro text here...
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Spacing
+
+Use the following spacing guidelines when you construct a month picker.
+
+**OLD TEXT**
 
 The button text in the month picker is always horizontally and vertically centered and all uppercase.
 
@@ -157,11 +160,11 @@ The month picker state maintains the same spacing considerations from the date s
 
 ### Behaviors
 
-When the user clicks the month button in the center of the header, the month selector menu should slide down, covering the date selector.
+Ensure that the month picker supports the following user interaction behaviors:
 
-The month shown in the header should be selected by default in the picker.
-
-When the user makes a selection, or clicks on the header button again, the month picker slides back up using the same animation.
+- When the user clicks the header button, the month selector menu slides down and covers the date selector.
+- The month shown in the header should be selected by default in the picker. **(Not sure what this means)**
+- When the user makes a selection, or clicks the header button again, the month picker slides back up.
 
 {% endcolumn %}
 
@@ -185,7 +188,7 @@ When the user makes a selection, or clicks on the header button again, the month
 
 ## Month selector states
 
-text here for states.
+The month selector can exist in a **default**, **hover**, and **pressed** state.
 
 {% endcolumn %}
 
@@ -209,7 +212,7 @@ text here for states.
 
 ## Date selector specifications
 
-Intro text here...
+Use the following specifications when you construct a date selector.
 
 {% endcolumn %}
 
@@ -225,17 +228,11 @@ Intro text here...
 
 ### Composition
 
-The date picker is composed of the following elements:
+The date selector is composed of the following elements:
 
-- **xxxxx (required)**: xxxxx
-- **xxxxx (required)**: xxxxx
-- **xxxxx (required)**: xxxxx
-
-
-- Move the element to the next month.
-- Move the element to the previous month.
-- Select a specific date.
-- Move between the month selector the date selector.
+- **Month picker (required)**: The user can click the month picker to select a different month.
+- **Next and previous (required)**: The next and previous buttons move the date picker to the next or previous month.
+- **Day selector (required)**: The user clicks a date to select it.
 
 {% endcolumn %}
 
@@ -259,7 +256,7 @@ The date picker is composed of the following elements:
 
 ### Style
 
-Use these specifications when you construct a date picker.
+Use these specifications when you construct a date selector.
 
 {% endcolumn %}
 
@@ -283,7 +280,13 @@ Use these specifications when you construct a date picker.
 
 ### Spacing
 
+Use the following spacing guidelines when you construct a date selector.
+
+**OLD TEXT**
+
 The date picker element appears below the corresponding text input that controls it.
+
+Center text and icons vertically and horizontally.
 
 {% endcolumn %}
 
@@ -307,14 +310,14 @@ The date picker element appears below the corresponding text input that controls
 
 ### Behaviors
 
-Ensure that the date picker supports the following behaviors.
+Ensure that the date selector supports the following user interaction behaviors:
 
 When the user selects a single date on the date picker:
 
-- Keyboard tabbing onto the input field or clicking it automatically opens the date picker.
-- The date can be filled in by hand, according to the format expressed in the placeholder.
-- When the user must pick one date, the picker should have one field showing the expected date format in the placeholder.
+- The date picker opens when the user tabs onto or clicks the date input field.
+- The user can manually enter the date according to the placeholder format.
 - Each date in the picker has a hover state, but only one date can be selected.
+- To close the date picker the user clicks off of the date picker???
 
 {% endcolumn %}
 
@@ -338,7 +341,7 @@ When the user selects a single date on the date picker:
 
 ## Date selector states
 
-Center text and icons vertically and horizontally.
+Date selector dates can exist in a **default**, **muted**, **hover**, and **selected** state.
 
 {% endcolumn %}
 
