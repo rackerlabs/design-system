@@ -24,9 +24,9 @@ pagelink: https://rackerlabs.github.io/helix-ui/components/breadcrumbs/
 
 ## When to use
 
-Use breadcrumbs when you want to improve web application way-finding and navigation for sites that organize content hierarchically.
+Use breadcrumbs when you want to improve web application way-finding and navigation on sites that organize content hierarchically.
 
-Do not use breadcrumbs for single-level web applications that have no logical hierarchy or grouping.
+Do not use breadcrumbs on single-level web applications that have no logical hierarchy or grouping.
 
 {% endcolumn %}
 
@@ -46,7 +46,7 @@ Consider the following best practices when you construct breadcrumbs:
 
 - Place the breadcrumbs at the top of the page, above the header.
 - Only use breadcrumbs on the second level and deeper of a multi-layered application. Do use breadcrumbs on the first layer of a multi-layered application.
-- Label the breadcrumb item to match the page title to which it navigates.
+- Label the breadcrumb to match the page title to which it navigates.
 - Show a maximum of four breadcrumbs. If the application is more than four layers deep, then [truncate the breadcrumb path](#too-many).
 - Show the top hierarchical level as the first breadcrumb. Show the current location as the last breadcrumb. Use a middle breadcrumb to show one level above the current location.
 - If the page title is too long, use a shortened or [truncated]({{site.baseurl}}/style/text-conventions/punctuation.html#Ellipses) version of the page title. For example, instead of `Billing overview`, use `Overview`. Shorter labels conserve horizontal space.
@@ -221,9 +221,9 @@ If the application is more than four layers deep, complete the following steps t
 
 ### Too long
 
-If the trail of breadcrumbs is too long, shorten or truncate the breadcrumb labels. If the trail of breadcrumbs is still too long, remove the current +2 breadcrumb and include just the current +1 and current breadcrumbs.
+If the trail of breadcrumbs is too long, first try to shorten the breadcrumb label. For example, instead of **Fanatical Support for AWS Overview** use **Overview**.
 
-Visual to include: **Top > ... > Current +1 > Current**
+If you cannot shorten the breadcrumb label due to legal obligations, then truncate it. For example, the truncated version of **Fanatical Support for AWS Overview** is **Fanatical Supp...r AWS Overview**. See [Ellipses]({{site.baseurl}}\style\punctuation.html#ellipses) for more information on truncating text.
 
 {% endcolumn %}
 
