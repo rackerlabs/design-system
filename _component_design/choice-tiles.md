@@ -23,7 +23,7 @@ helix-ui-javascript: false
 
 ## When to use
 
-Like radios and checkboxes, choice tiles provide the user a means of making a decision and selecting from a group of options. Because choice tiles increase the selectable space of a choice, you can add an icon and description, which provides context and a richer information experience to the user. Choice tiles help decision making by to focusing the user's attention.
+Like radios and checkboxes, choice tiles provide the user a means of making a decision and selecting from a group of options. Because choice tiles increase the selectable space of a choice, you can add an icon and description, which provides context and a richer information experience to the user. Choice tiles help decision making by focusing the user's attention.
 
 {% endcolumn %}
 
@@ -91,7 +91,7 @@ A choice tile contains the following elements:
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Standard layout for a choice tile."] [class:"image bg-light border"] %}
-<embed src="{{site.baseurl}}/assets/images/components/inputs-and-controls/choice-tiles/choice-tile-default.png"/>
+<embed src="{{site.baseurl}}/assets/images/components/inputs-and-controls/choice-tiles/choicetiles-composition.png" width="356"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -115,7 +115,7 @@ Use the following specifications when you construct choice tiles.
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Small, medium, and large sized choice tiles"] [class:"image bg-light border"] %}
-<embed src="{{site.baseurl}}/assets/images/components/inputs-and-controls/choice-tiles/choice-tile-specs.png"/>
+<embed src="{{site.baseurl}}/assets/images/components/inputs-and-controls/choice-tiles/choicetiles-style.png" width="411"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -139,7 +139,7 @@ Use these spacing guidelines when you construct choice tiles.
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Small, medium, and large sized choice tiles"] [class:"image bg-light border"] %}
-<embed src="{{site.baseurl}}/assets/images/components/inputs-and-controls/choice-tiles/choice-tile-specs.png"/>
+<embed src="{{site.baseurl}}/assets/images/components/inputs-and-controls/choice-tiles/choicetiles-spacing.png" width="604"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -185,7 +185,7 @@ Saved credit card payment information is a common single-select use case.
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Group states for single select interactions"] [class:"image bg-light border"] %}
-<embed src="{{site.baseurl}}/assets/images/components/inputs-and-controls/choice-tiles/choice-tile-single-select.png"/>
+<embed src="{{site.baseurl}}/assets/images/components/inputs-and-controls/choice-tiles/choicetiles-behavior-single.png" width="460"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -204,15 +204,31 @@ Saved credit card payment information is a common single-select use case.
 
 A multi-select interaction is analogous to checkboxes where the user can select multiple choice tiles at a time.
 
-In the default state, the user can click any of the choice tiles. You can construct choices tiles so that one of the options is selected by default. The user can then make another selection, if necessary. When the user selects an option, the unselected choice tiles remain in the default state. The default state reinforces that multiple choice tiles can be selected.
+In the default state, the user can click any of the choice tiles. You can construct choice tiles so that one of the options is selected by default. The user can then make another selection, if necessary. When the user selects an option, the unselected choice tiles remain in the default state. The default state reinforces that multiple choice tiles can be selected.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Group states for multi select interactions"] [class:"image bg-light border"] %}
-<embed src="{{site.baseurl}}/assets/images/components/inputs-and-controls/choice-tiles/choice-tile-multi-select.png"/>
+<embed src="{{site.baseurl}}/assets/images/components/inputs-and-controls/choice-tiles/choicetiles-behavior-multi.png" width="460"/>
 {% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+## States
+
+Choice tiles can exist in an **enabled**, **disabled**, or **error** state.
 
 {% endcolumn %}
 
@@ -226,18 +242,18 @@ In the default state, the user can click any of the choice tiles. You can constr
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-## States
+### Enabled
 
 Choice tiles use most of the same styling that is used for components like radios and checkboxes, with the addition of the checkmark to indicate a selected tile.
 
-For selected states, the iconography changes color to match the given state.
+For selected states, the iconography changes color to match the given state. If you cannot adjust the color of an icon, be consistent with your color decision throughout the choice tile set. Do not have some icons that change color and others that do not change color. When possible, change the icon color with the selected states.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Choice tile states"] [class:"image bg-light border"] %}
-<embed src="{{site.baseurl}}/assets/images/components/inputs-and-controls/choice-tiles/choice-tile-states.png"/>
+<embed src="{{site.baseurl}}/assets/images/components/inputs-and-controls/choice-tiles/choicetiles-states-enabled.png" width="419"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -252,16 +268,18 @@ For selected states, the iconography changes color to match the given state.
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Required
+### Disabled
 
-Use a red asterisk to designate that a choice tile selection is required. The asterisk floats to the left of the text in the margin and is vertically aligned with the text.
+When possible, inform the user about why an option is not available. Consider adding a tooltip to a disabled choice tile explaining why it is disabled and how to enable it.
+
+When you cannot control the color of the icon, set the icon opacity to 30%.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"A selection is required on a group"] [class:"image bg-light border"] %}
-<embed src="{{site.baseurl}}/assets/images/components/inputs-and-controls/choice-tiles/choice-tile-required.png"/>
+{% figure [caption:"Choice tile states"] [class:"image bg-light border"] %}
+<embed src="{{site.baseurl}}/assets/images/components/inputs-and-controls/choice-tiles/choicetiles-states-enabled.png" width="419"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -285,7 +303,7 @@ If there is an error on a selection, change the item to error state and display 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"A selection produced an error"] [class:"image bg-light border"] %}
-<embed src="{{site.baseurl}}/assets/images/components/inputs-and-controls/choice-tiles/choice-tile-single-error.png"/>
+<embed src="{{site.baseurl}}/assets/images/components/inputs-and-controls/choice-tiles/choicetiles-states-error.png" width="472"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -302,14 +320,16 @@ If there is an error on a selection, change the item to error state and display 
 
 ### Group-select error
 
-If there is an error on the entire group, locate the message above the group. Do not change the state of each choice tile.
+An error state can occur when a choice tile selection is required but the user does not make a choice. Use a red asterisk to designate that a choice tile selection is required. The asterisk floats to the left of the text in the margin and is vertically aligned with the text.
+
+If an error occurs on a group, locate the message above the group. Do not change the state of each choice tile.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"A selection needs to be made within the group"] [class:"image bg-light border"] %}
-<embed src="{{site.baseurl}}/assets/images/components/inputs-and-controls/choice-tiles/choice-tile-group-error.png"/>
+<embed src="{{site.baseurl}}/assets/images/components/inputs-and-controls/choice-tiles/choicetiles-states-errorgroup.png" width="474"/>
 {% endfigure %}
 
 {% endcolumn %}
