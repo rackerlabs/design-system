@@ -43,7 +43,6 @@ Consider the following best practices when you apply the Helix spacing system:
 
 - In most cases, use medium spacing (20px) as the default.
 - When choosing spacing values for a new design, consider the user's needs and use case. Use small spacing when users prefer greater data density. Use large spacing to increase whitespace, which can help enhance user comprehension.
-- If you intend to use a different spacing value, keep in mind that large spacing can result in too much whitespace, and small spacing can be too data dense and difficult for the user to parse.
 - Avoid uneven spacing (padding) on containers. In the majority of cases, containers must use square Inset spacing, which means that the top, right, bottom, and left spacing values are equal inside the container.
 
 {% endcolumn %}
@@ -58,7 +57,7 @@ Consider the following best practices when you apply the Helix spacing system:
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-12-md hxSpan-12-lg" %}
 
-## Container
+## Container spacing
 
 Pages, cards, modals, panels, and choice tiles are examples of containers that frame content within a UI. By default, apply a square inset of 20px to the top, right, bottom, and left side of the container. The 20px is the medium spacing value and you can use smaller or larger spacing, if required.
 
@@ -111,16 +110,16 @@ In addition, some elements, such as a dashboard panel, requires no inset spacing
 
 {% column left:"hxCol hxSpan-12" %}
 
-## Container content
+## Content spacing
 
-Content is any information displayed inside a container. Ensure that you conform to line height and bottom margin spacing values when you stack content components vertically. Bottom margins contain extra spacing that improves visually perceptible intervals, which is helpful for conveying hierarchy.
+Content is any information displayed inside a container. Ensure that you conform to line height and bottom margin spacing values when you vertically stack content components. Bottom margins contain extra spacing that improves visually perceptible intervals, which is helpful for conveying hierarchy.
 
-There are two types of container content:
+There are two types of content:
 
 - **Headers**: Headers are the highest level of the content hierarchy and are used for page titles, section titles, sub-section titles, and  container titles.
-- **Body elements**: Body elements are located just below the header and consist list items, drop-down selectors, and paragraphs.
+- **Body elements**: Body elements are located just below the header and consist of list items, drop-down selectors, and paragraphs.
 
-Apply a *stack* value to the space below a [header](#headers) (8px) and [body elements](#body-elementgs) (4, 8, or 16px according to the content type).
+Apply a *stack* value to the space below a [header](#headers) (8px) and [body elements](#body-elements) (4, 8, or 16px according to the content type).
 
 {% endcolumn %}
 
@@ -134,16 +133,16 @@ Apply a *stack* value to the space below a [header](#headers) (8px) and [body el
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-**Baseline value**: The Helix spacing system uses four as the baseline number on which all other spatial values are determined. For example, the font size value for all headings are multiples of four. This baseline value helps you build consistency into your layout.
+**Baseline value**: The Helix spacing system uses four as the baseline number on which all other spatial values are calculated. For example, the font size value for all headings are multiples of four. The baseline value helps you build consistency into your layout.
 
-**1.5 line-height ratio**: The helix spacing system line-height ratio is taken from the WCAG SC 1.4.8 guideline which states that line spacing should be at least 1.5x the size of the font. This amount of spacing enables people of different abilities to more easily track and comprehend information.
+**1.5 line-height ratio**: The helix spacing system line-height ratio is taken from the WCAG SC 1.4.8 guidelines that state line spacing should be at least 1.5x the size of the font. This amount of spacing enables people of different abilities to more easily track and comprehend information.
 
 **Line height**: Apply the line-height ratio to all font sizes to create proportional spacing between content areas. Use this chart to determine the appropriate line height for each font size.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-{% figure [caption: Rounded to the nearest multiple of four"] [class:"image bg-light border"] %}
+{% figure [caption: "Rounded to the nearest multiple of four"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/style/spacing/spacing-content-calculations.png" width="548"/>
 {% endfigure %}
 
@@ -161,7 +160,7 @@ Apply a *stack* value to the space below a [header](#headers) (8px) and [body el
 
 ### Headers
 
-Applying line height values to vertically stacked content can result in overly dense layout. Helix user testing revealed that participants preferred adding an extra 8px between stacked elements.
+Applying line-height values to vertically stacked content can result in overly dense layout. Helix user testing revealed that participants preferred adding an extra 8px between stacked elements.
 
 {% endcolumn %}
 
@@ -185,7 +184,7 @@ Applying line height values to vertically stacked content can result in overly d
 
 ### Body elements
 
-A body element includes list items, drop-down selectors, and paragraphs. There is no single spacing value that can be used across all body element content.
+Body elements can include list items, drop-down selectors, and paragraphs. There is no single spacing value that can be used across all body element content.
 
 {% endcolumn %}
 
@@ -271,7 +270,7 @@ Use a 24px line height in paragraphs that contain 16px font text. Add 16px spaci
 
 {% column left:"hxCol hxSpan-12" %}
 
-## Component
+## Component spacing
 
 Components such as buttons, text inputs, and date pickers are often placed beside each other on a control panel page. The Helix spacing system uses multiples of 4px as the baseline spacing value.
 
@@ -315,7 +314,7 @@ Use 4px spacing when you want to show a tighter association between related comp
 
 ### Form elements
 
-Add 8px of space between consecutive, vertically or horizontally stacked inputs on a form.
+Add 4px of space between a label and the input. Add 8px of space between consecutive, vertically or horizontally stacked inputs on a form. Add 16px of space between form element groups.
 
 {% endcolumn %}
 
