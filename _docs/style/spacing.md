@@ -6,7 +6,7 @@ usage: >
   The Helix spacing system provides a set of values you can use when you determine the amount of space between user interface (UI) components. By applying these spacing values consistently you adhere to accessibility guidelines and improve the readability of control panel pages.
 status: stable
 resource: true
-last-modified: 2019-01-11
+last-modified: 2019-01-23
 ---
 
 {% include toc.html %}
@@ -20,6 +20,10 @@ last-modified: 2019-01-11
 The document provides guidelines you should use when deciding on spacing values between and among user interface components. Specific values are provided, with justification for why we recommend them.
 
 The Helix spacing system applies to three areas of a user interface (UI): container, content, and component.
+
+{% figure [caption: "Spacing system"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/style/spacing/spacing-hero.png" width="955"/>
+{% endfigure %}
 
 {% endcolumn %}
 
@@ -58,8 +62,8 @@ Consider the following best practices when you apply the Helix spacing system:
 
 Pages, cards, modals, panels, and choice tiles are examples of containers that frame content within a UI. By default, apply a square inset of 20px to the top, right, bottom, and left side of the container. The 20px is the medium spacing value and you can use smaller or larger spacing, if required.
 
-{% figure [caption: "Container spacing of twenty pixels (square-inset)."][class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/style/spacing/spacing-system-rule-for-containers.png" width="893"/>
+{% figure [caption: "Helix containers"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/style/spacing/spacing-container-types.png" width="635"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -87,13 +91,14 @@ In addition, some elements, such as a dashboard panel, requires no inset spacing
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption: "Container spacing sizes."][class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/style/spacing/spacing-system-container-spacing-variants.png" width="451"/>
+{% figure [caption: "Container spacing sizes"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/style/spacing/spacing-container-sizes.png" width="604"/>
 {% endfigure %}
 
 {% endcolumn %}
 
 </div>
+
 </section>
 
 <section class="static-section" markdown="1">
@@ -109,9 +114,9 @@ Content is any information displayed inside a container. Ensure that you conform
 There are two types of container content:
 
 - **Headers**: Headers are the highest level of the content hierarchy and are used for page titles, section titles, sub-section titles, and  container titles.
-- **Leaf node**: A leaf node is located just below the header and consists of paragraphs, lists, forms, and tables.
+- **Body elements**: Body elements are located just below the header and consist list items, drop-down selectors, and paragraphs.
 
-Apply a *stack* value to the space below a [header](#headers) (8px) and [leaf-nodes](#leaf-nodes) (4, 8, or 16px according to the content type).
+Apply a *stack* value to the space below a [header](#headers) (8px) and [body elements](#body-elementgs) (4, 8, or 16px according to the content type).
 
 {% endcolumn %}
 
@@ -121,7 +126,7 @@ Apply a *stack* value to the space below a [header](#headers) (8px) and [leaf-no
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-**Baseline value**: The Helix spacing system uses four as the baseline number on which all other spatial values are determined. For example, the font size value for all heading are mulltiples of four. This baseline value helps you build consistency into your layout.
+**Baseline value**: The Helix spacing system uses four as the baseline number on which all other spatial values are determined. For example, the font size value for all headings are multiples of four. This baseline value helps you build consistency into your layout.
 
 **1.5 line-height ratio**: The helix spacing system line-height ratio is taken from the WCAG SC 1.4.8 guideline which states that line spacing should be at least 1.5x the size of the font. This amount of spacing enables people of different abilities to more easily track and comprehend information.
 
@@ -130,30 +135,10 @@ Apply a *stack* value to the space below a [header](#headers) (8px) and [leaf-no
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-{% figure [caption: "\* Rounded to nearest multiple of four."][class:"image bg-light border"] %}
-<table class="hxTable hxTable--condensed" style="margin: 0;">
-  <thead>
-    <tr>
-      <th>Font Style</th>
-      <th class="hxRight">Size</th>
-      <th></th>
-      <th class="hxCenter">Ratio</th>
-      <th></th>
-      <th>line-height</th>
-    </tr>
-  </thead>
-  <tbody>
-    {% for style in site.data.typography-styles %}<tr>
-      <td>{{style.fontStyle}}</td>
-      <td class="hxRight">{{style.fontSize}}</td>
-      <td class="hxCenter">&times;</td>
-      <td class="hxCenter">1.5</td>
-      <td>=</td>
-      <td>{{style.lineHeight}}</td>
-    </tr>{% endfor %}
-  </tbody>
-</table>
+{% figure [caption: Rounded to the nearest multiple of four"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/style/spacing/spacing-content-calculations.png" width="548"/>
 {% endfigure %}
+
 {% endcolumn %}
 
 </div>
@@ -168,14 +153,14 @@ Apply a *stack* value to the space below a [header](#headers) (8px) and [leaf-no
 
 ### Headers
 
-Applying line height values to vertically stacked content can still result in overly dense layout. Helix user testing revealed that participants preferred adding an extra 8px between stacked elements.
+Applying line height values to vertically stacked content can result in overly dense layout. Helix user testing revealed that participants preferred adding an extra 8px between stacked elements.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption: "Header margin (magenta) is stacked below content box (blue)."][class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/style/spacing/spacing-system-header-margins.png" width="492"/>
+{% figure [caption: "Header spacing"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/style/spacing/spacing-content-headings.png" width="427"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -190,40 +175,9 @@ Applying line height values to vertically stacked content can still result in ov
 
 {% column left:"hxCol hxSpan-12" %}
 
-### Leaf nodes
+### Body elements
 
-A leaf node includes any content that is not a header, including paragraphs, form elements, list items, and table cells. There is no single spacing value that can be used across all leaf node content. Based on Helix user testing, we have determined the following spacing for leaf node content:
-
-- [Table cells](#table-cells): 8px
-- [List items](#list-items): 4px
-- [Form elements](#form-elements): 4, 8, or 16px, depending on the element
-- [Paragraphs](#paragraphs): 16px
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow"  markdown="1">
-
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-#### Table cells
-
-Tables are designed to show a lot of data in a small space. When you space table data too closely, the user can have a difficult time reading a row and can become distracted by adjacent row data.
-
-To make tables more readable, add 8px between the table text and the table row border.
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-{% figure [caption: "Table leaf-node spacing"][class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/style/spacing/spacing-system-leaf-node-margins.png" width="566"/>
-{% endfigure %}
+A body element includes list items, drop-down selectors, and paragraphs. There is no single spacing value that can be used across all body element content.
 
 {% endcolumn %}
 
@@ -239,15 +193,13 @@ To make tables more readable, add 8px between the table text and the table row b
 
 #### List items
 
-Use 4px spacing between list items.
-
-[Read more about Lists.]({{site.url}}/components/lists.html)
+Use 4px spacing between list items. Refer to [lists]({{site.url}}/components/lists.html) to see additional information about lists.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-{% figure [caption: "List leaf-node spacing"][class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/style/spacing/spacing-system-lists.png" width="531"/>
+{% figure [caption: "List item spacing"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/style/spacing/spacing-content-lists.png" width="240"/>
 {% endfigure %}
 {% endcolumn %}
 
@@ -269,32 +221,10 @@ Add 4px of space between the container and the first drop-down selector option. 
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption: "Full-width items in a bound container"][class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/style/spacing/spacing-system-full-width-items-in-a-bound-container.png" width="536"/>
+{% figure [caption: "Drop-down selector spacing"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/style/spacing/spacing-content-lists-dropdown.png" width="239"/>
 {% endfigure %}
 
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow"  markdown="1">
-
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-#### Form elements
-
-Add 8px of space between consecutive, vertically or horizontally stacked inputs on a form.
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-{% figure [caption: "Form element leaf-node spacing"][class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/style/spacing/spacing-system-forms.png" width="462"/>
-{% endfigure %}
 {% endcolumn %}
 
 </div>
@@ -309,14 +239,14 @@ Add 8px of space between consecutive, vertically or horizontally stacked inputs 
 
 #### Paragraphs
 
-Use a line height of 24px for paragraphs that contain 16px font text. Add 16px spacing below a paragraph. Visual explorations and WCAG SC 1.4.8 guidelines helped to determine these values.
+Use a 24px line height in paragraphs that contain 16px font text. Add 16px spacing below a paragraph. These values were determined through visual explorations and input from the WCAG SC 1.4.8 guidelines.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption: "Paragraph leaf-node spacing"][class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/style/spacing/spacing-system-paragraphs.png" width="512"/>
+{% figure [caption: "Paragraph spacing"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/style/spacing/spacing-content-paragraphs.png" width="550"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -347,20 +277,68 @@ Components such as buttons, text inputs, and date pickers are often placed besid
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-**Spacing inside components**: Inside a component, use 8px spacing for the left and right padding.
+**Spacing inside components**: Within a component, use 8px spacing for the left and right padding.
 
 **Spacing between components**: In most cases, use 8px spacing between adjacent components.
 
 Use 4px spacing when you want to show a tighter association between related components. For example, to more tightly associate a text input with related help documentation, place the **Help** icon 4px from the input. You should also use 4px spacing between highly related inputs. For example, if the UI requires the user to enter time in **Hours:Minutes:Seconds** (three separate, but related inputs), add 4px space between each input.
 
-**MAKE SURE TO ADD THE 4PX SPACING CASE TO THE VISUAL**
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption: "Spacing between and inside components"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/style/spacing/spacing-component-inside.png" width="200"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+### Form elements
+
+Add 8px of space between consecutive, vertically or horizontally stacked inputs on a form.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption: "Spacing inside components is shown in orange and external shown in green."][class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/style/spacing/spacing-system-rule-for-components.png" width="505"/>
+{% figure [caption: "Form element spacing"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/style/spacing/spacing-component-forms.png" width="288"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+### Table cells
+
+Tables are designed to show a lot of data in a small space. When you space table data too closely, the user can have a difficult time reading a row and can become distracted by adjacent row data.
+
+To make tables more readable, add 8px between the table text and the table row border.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption: "Table cell spacing"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/style/spacing/spacing-component-tables.png" width="529"/>
 {% endfigure %}
 
 {% endcolumn %}
