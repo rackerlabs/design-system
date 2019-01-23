@@ -70,6 +70,10 @@ Pages, cards, modals, panels, and choice tiles are examples of containers that f
 
 </div>
 
+</section>
+
+<section class="static-section" markdown="1">
+
 <div class="hxRow"  markdown="1">
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
@@ -121,6 +125,10 @@ Apply a *stack* value to the space below a [header](#headers) (8px) and [body el
 {% endcolumn %}
 
 </div>
+
+</section>
+
+<section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
 
@@ -198,9 +206,11 @@ Use 4px spacing between list items. Refer to [lists]({{site.url}}/components/lis
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
 {% figure [caption: "List item spacing"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/style/spacing/spacing-content-lists.png" width="240"/>
 {% endfigure %}
+
 {% endcolumn %}
 
 </div>
