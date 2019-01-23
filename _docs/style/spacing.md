@@ -314,7 +314,11 @@ Use 4px spacing when you want to show a tighter association between related comp
 
 ### Form elements
 
-Add 4px of space between a label and the input. Add 8px of space between consecutive, vertically or horizontally stacked inputs on a form. Add 16px of space between form element groups.
+Ensure form element spacing conforms to the following guidelines:
+
+- Add 4px of space between a label and the input.
+- Add 8px of space between consecutive, vertically or horizontally stacked inputs on a form.
+- Add 16px of space between form element groups.
 
 {% endcolumn %}
 
