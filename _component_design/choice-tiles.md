@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/choice-tile.svg
 status: stable
 resource: true
-last-modified: 2019-01-15
+last-modified: 2019-01-23
 helix-ui-css: false
 helix-ui-javascript: false
 ---
@@ -23,7 +23,7 @@ helix-ui-javascript: false
 
 ## When to use
 
-Like radios and checkboxes, choice tiles provide the user a means of making a decision and selecting from a group of options. Because choice tiles increase the selectable space of a choice, you can add an icon and description, which provides context and a richer information experience to the user. Choice tiles help decision making by focusing the user's attention.
+Like radios and checkboxes, choice tiles provide the user a means of selecting from a group of options. Because choice tiles increase the selectable space of a choice, you can add an icon and description, which provides context and a richer information experience to the user. Choice tiles help decision making by focusing the user's attention.
 
 {% endcolumn %}
 
@@ -43,10 +43,12 @@ Consider the following best practices when you construct choice tiles:
 
 - Only use as many choice tiles as you need. Too few choice tiles (for example, 2) can be visually confusing to the user while larger sets of choice tiles increase the user's information processing demands and can lead to *option paralysis*. The number of choice tiles is also a function of the choice tile size and the user's screen size. We recommend using choice tiles when there is more than one and a maximum of nine choices.
 - Construct a choice tile so that the user can click on any part of the tile to select it.
-- You can design your own icon as long as it conforms to the Rackspace brand. If there is an established meaning to an icon, don’t use it to mean something else. See [iconography]({{site.baseurl}}/style/iconography.html) for more information about icons.
+
+- When possible, use an existing Helix icon. If you need a new icon, design it to conform to the Helix icon construction guidelines and be consistent with the Rackspace brand. See [icon construction]({{site.baseurl}}/style/iconography.html#icon-construction) for guidelines about designing your own icon.
+- If there is an established meaning to an icon, don't use it to mean something else. See [iconography]({{site.baseurl}}/style/iconography.html) for more information about icons.
 - For more complex information needs, add a description to medium or large choice tiles. Due to space constraints, do not add a description to small choice tiles.
 - Do not mix small, medium, and large size choice tiles in a choice tile set.
-- Within a choice tile set, ensure that choice tiles are all uniform in size.
+- Within a choice tile set, ensure that choice tiles are all uniform in size both vertically and horizontally.
 - Limit the description to 80 characters total, which equates to 40 characters per line. A description should not be longer than two lines of text.
 
 {% endcolumn %}
@@ -82,8 +84,8 @@ Use these specifications when you construct choice tiles.
 A choice tile contains the following elements:
 
 - **Container (required)**: The container holds the icon, heading, and the description.
-- **Icon (optional)**: The icon visually represents the choice tile selection.
-- **Option label (required)**: The option label is the title of the selection contained in the choice tile.
+- **Icon (optional)**: The icon visually represents the option you can select with the choice tile.
+- **Option label (required)**: The option label is the title of the option you can select with the choice tile.
 - **Description (optional)**: A description briefly explains the choice tile selection to a user.
 
 {% endcolumn %}
@@ -246,7 +248,7 @@ Choice tiles can exist in an **enabled**, **disabled**, or **error** state.
 
 Choice tiles use most of the same styling that is used for components like radios and checkboxes, with the addition of the checkmark to indicate a selected tile.
 
-For selected states, the iconography changes color to match the given state. If you cannot adjust the color of an icon, be consistent with your color decision throughout the choice tile set. Do not have some icons that change color and others that do not change color. When possible, change the icon color with the selected states.
+When possible, change the icon color with the selected states. If you cannot adjust the color of an icon, be consistent with your color decision throughout the choice tile set. Do not have some icons that change color and others that do not change color.
 
 {% endcolumn %}
 
@@ -279,7 +281,7 @@ When you cannot control the color of the icon, set the icon opacity to 30%.
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Choice tile states"] [class:"image bg-light border"] %}
-<embed src="{{site.baseurl}}/assets/images/components/inputs-and-controls/choice-tiles/choicetiles-states-enabled.png" width="419"/>
+<embed src="{{site.baseurl}}/assets/images/components/inputs-and-controls/choice-tiles/choicetiles-states-disabled.png" width="426"/>
 {% endfigure %}
 
 {% endcolumn %}
