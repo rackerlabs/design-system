@@ -130,7 +130,7 @@ If the focused element is contained in a background color that is 500 or darker,
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Irregular shapes
-Apply the standard glow and a 2px corner radius to elements that do not have a visible box shape. 
+Apply the standard glow and a 2px corner radius to elements that do not have a visible box shape.
 
 Examples of this are tertiary buttons, hyperlinks, and button icons such as the cog or close button on alerts, toasts, and modals.
 
@@ -154,12 +154,12 @@ Examples of this are tertiary buttons, hyperlinks, and button icons such as the 
 
 ### Hyperlinks and text
 
-Hyperlinks and focusable text are styled using the standard glow, with a 2px corner radius. The height of the glow is determined by the line height of the text. 
+Hyperlinks and focusable text are styled using the standard glow, with a 2px corner radius. The height of the glow is determined by the line height of the text.
 
 #### Multi-line text focus
 If the text breaks across multiple lines, indicate continuation by using 0px corners at the end of the preceding line and the start of the subsequent line.
 
-#### Elements: 
+#### Elements:
 
 - [Links]({{site.baseurl}}/style/typography.html#link)
 - [Breadcrumbs]({{site.baseurl}}/components/breadcrumbs.html)
@@ -182,7 +182,7 @@ If the text breaks across multiple lines, indicate continuation by using 0px cor
 
 ### Buttons
 
-In addition to primary, secondary and tertiary buttons, the following are a few elements that are also treated as buttons: 
+In addition to primary, secondary and tertiary buttons, the following are a few elements that are also treated as buttons:
 
 * [Radio Buttons]({{site.baseurl}}/components/radio-buttons.html)
 * [Checkboxes]({{site.baseurl}}/components/checkboxes.html)
@@ -345,7 +345,7 @@ When the user traverses to a tabset via their keyboard, the first tab receives f
 
 ### Beacon
 
-The beacon comes with a glow baked in, so when it receives focus, the existing glow changes to the standard Cyan 700 color. 
+The beacon comes with a glow baked in, so when it receives focus, the existing glow changes to the standard Cyan 700 color.
 
 {% endcolumn %}
 
@@ -364,7 +364,7 @@ The beacon comes with a glow baked in, so when it receives focus, the existing g
 
 ### Focusable containers
 
-Some elements, such as [Choice Tiles]() feature a clickable container. In these cases, focus is applied to the entire container, according to normal focus rules.
+Some elements, such as [Option Tiles]() feature a clickable container. In these cases, focus is applied to the entire container, according to normal focus rules.
 
 {% endcolumn %}
 
@@ -408,7 +408,7 @@ The focus color of the child element is independent of the focus color of its pa
 
 
 
-Items that do not have feedback when interacted with via mouse are not focused. As a result, focus is unavailable on the following patterns: 
+Items that do not have feedback when interacted with via mouse are not focused. As a result, focus is unavailable on the following patterns:
 
 - [Popovers]({{site.baseurl}}/components/popovers.html)
 - [Modals]({{site.baseurl}}/components/modal.html)
@@ -422,5 +422,3 @@ Interactive elements contained within these patterns are still able to be focuse
 
 </div>
 </section>
-
-
