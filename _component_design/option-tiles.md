@@ -41,7 +41,7 @@ Like radios and checkboxes, option tiles provide the user a means of selecting f
 
 Consider the following best practices when you construct option tiles:
 
-- Only use as many option tiles as you need. Too few option tiles (for example, 2) can be visually confusing to the user while larger sets of option tiles increase the user's information processing demands and can lead to *option paralysis*. The number of option tiles is also a function of the option tile size and the user's screen size. We recommend using option tiles when there is more than one and a maximum of nine choices.
+- Only use as many option tiles as you need. Too few option tiles (for example, two option tiles) can be visually confusing to the user while larger sets of option tiles increase the user's information processing demands and can lead to *option paralysis*. The number of option tiles is also a function of the option tile size and the user's screen size. We recommend using option tiles when there is more than one and a maximum of nine choices.
 - Construct an option tile so that the user can click on any part of the tile to select it.
 - When possible, use an existing Helix icon. If you need a new icon, design it to conform to the Helix icon construction guidelines and be consistent with the Rackspace brand. See [icon construction]({{site.baseurl}}/style/iconography.html#icon-construction) for guidelines about designing your own icon.
 - If there is an established meaning to an icon, don't use it to mean something else. See [iconography]({{site.baseurl}}/style/iconography.html) for more information about icons.
@@ -272,8 +272,6 @@ When possible, change the icon color with the selected states. If you cannot adj
 ### Disabled
 
 When possible, inform the user about why an option is not available. Consider adding a tooltip to a disabled option tile explaining why it is disabled and how to enable it.
-
-When you cannot control the color of the icon, set the icon opacity to 30%.
 
 {% endcolumn %}
 
