@@ -6,7 +6,7 @@ usage: >
     The Helix spacing system provides a set of values that you can use to consistently space user interface (UI) components. By applying these spacing values consistently, you adhere to Helix accessibility guidelines and can improve the readability of control panel pages.
 status: stable
 resource: true
-last-modified: 2019-01-28
+last-modified: 2019-01-29
 ---
 
 {% include toc.html %}
@@ -20,7 +20,7 @@ last-modified: 2019-01-28
 The Helix spacing system applies to three areas of a user interface (UI): container, content, and component.
 
 {% figure [caption: "Spacing system"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/style/spacing/spacing-hero.png" width="955"/>
+<embed src="{{site.url}}/assets/images/style/spacing/spacing-hero.png" width="866"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -60,7 +60,7 @@ Consider the following best practices when you apply the Helix spacing system:
 Pages, cards, modals, panels, and option tiles are examples of containers that frame content within a UI. By default, apply a square inset of 20px to the top, right, bottom, and left side of the container. The 20px is the medium spacing value and you can use smaller or larger spacing, if required.
 
 {% figure [caption: "Helix containers"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/style/spacing/spacing-container-types.png" width="635"/>
+<embed src="{{site.url}}/assets/images/style/spacing/spacing-container-types.png" width="464"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -281,9 +281,33 @@ Components such as buttons, text inputs, and date pickers are often placed besid
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-**Spacing inside components**: Within a component, use 12px spacing for the left and right padding.
+### Spacing inside components
 
-**Spacing between components**: In most cases, use 8px spacing between adjacent components.
+Within a component, use 12px spacing for the left and right padding.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption: "Spacing between and inside components"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/style/spacing/spacing-component-inside.png" width="200"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+### Spacing between components
+
+In most cases, use 8px spacing between adjacent components.
 
 Use 4px spacing when you want to show a tighter association between related components. For example, to more tightly associate a text input with related help documentation, place the **Help** icon 4px from the input. You should also use 4px spacing between highly related inputs. For example, if the UI requires the user to enter time in **Hours:Minutes:Seconds** (three separate, but related inputs), add 4px space between each input.
 
@@ -292,7 +316,7 @@ Use 4px spacing when you want to show a tighter association between related comp
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption: "Spacing between and inside components"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/style/spacing/spacing-component-inside.png" width="200"/>
+<embed src="{{site.url}}/assets/images/style/spacing/spacing-component-between.png" width="280"/>
 {% endfigure %}
 
 {% endcolumn %}
