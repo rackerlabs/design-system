@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/breadcrumbs.svg
 status: stable
 resource: true
-last-modified: 2019-01-22
+last-modified: 2019-01-29
 helix-ui-css: true
 helix-ui-javascript: na
 pagelink: https://rackerlabs.github.io/helix-ui/components/breadcrumbs/
@@ -24,9 +24,13 @@ pagelink: https://rackerlabs.github.io/helix-ui/components/breadcrumbs/
 
 ## When to use
 
-Use breadcrumbs when you want to improve web application way-finding and navigation on sites that organize content hierarchically.
+Use breadcrumbs when you want to improve web application way-finding and navigation on sites that organize content hierarchically. For example, breadcrumbs help user better identify where they are in applications that use top navigation.
 
-Do not use breadcrumbs on single-level web applications that have no logical hierarchy or grouping.
+Do not use breadcrumbs:
+
+- On single-level web applications that have no logical hierarchy or grouping.
+- In dual panel layouts. However, use breadcrumbs if the current page has a hierarchy above it.
+
 
 {% endcolumn %}
 
