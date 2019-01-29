@@ -57,7 +57,7 @@ Consider the following best practices when you apply the Helix spacing system:
 
 ## Container spacing
 
-Pages, cards, modals, panels, and option tiles are examples of containers that frame content within a UI. By default, apply a square inset of 20px to the top, right, bottom, and left side of the container. The 20px is the medium spacing value and you can use smaller or larger spacing, if required.
+Pages, cards, modals, panels, and option tiles are examples of containers that frame content within a UI. By default, apply a square inset of 20px to the top, right, bottom, and left side of the container. The 20px value is the medium spacing value, and you can use smaller or larger spacing, if required.
 
 {% figure [caption: "Helix containers"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/style/spacing/spacing-container-types.png" width="464"/>
@@ -77,13 +77,13 @@ Pages, cards, modals, panels, and option tiles are examples of containers that f
 
 ### Container spacing variants
 
-In some cases you may be required to use smaller or larger spacing than the 20px default value. Keep in mind that large spacing can result in too much whitespace and small spacing can lead to a data dense UI, which can be difficult for a user to process.
+In some cases, you might be required to use smaller or larger spacing than the 20px default value. Keep in mind that large spacing can result in too much whitespace and small spacing can lead to a data dense UI, which can be difficult for a user to process.
 
 - **Small (SM) = 12px**
 - **Medium (MD) = 20px**
 - **Large (LG) = 32px**
 
-In addition, some elements, such as a dashboard panel, require no inset spacing when displaying edge-to-edge, body content.
+In addition, some elements, such as a dashboard panel, require no inset spacing when displaying edge-to-edge body content.
 
 {% endcolumn %}
 
@@ -107,11 +107,11 @@ In addition, some elements, such as a dashboard panel, require no inset spacing 
 
 ## Content spacing
 
-Content is any information displayed inside a container. Ensure that you conform to line height and bottom margin spacing values when you vertically stack content components. Bottom margins contain extra spacing that improves visually perceptible intervals, which is helpful for conveying hierarchy.
+Content is any information displayed inside a container. When you vertically stack content components, ensure that you conform to line height and bottom margin spacing values. Bottom margins contain extra spacing that improves visually perceptible intervals, which is helpful for conveying hierarchy.
 
 There are two types of content:
 
-- **Headers**: Headers are the highest level of the content hierarchy and are used for page titles, section titles, sub-section titles, and  container titles.
+- **Headers**: Headers are the highest level of the content hierarchy and are used for page titles, section titles, subsection titles, and  container titles.
 - **Body elements**: Body elements are located just below the header and consist of list items, drop-down selectors, and paragraphs.
 
 Apply a *stack* value to the space below a [header](#headers) (8px) and [body elements](#body-elements) (4, 8, or 16px according to the content type).
@@ -130,7 +130,7 @@ Apply a *stack* value to the space below a [header](#headers) (8px) and [body el
 
 **Baseline value**: The Helix spacing system uses 4 as the baseline number on which all other spatial values are calculated. For example, the font size value for all headings are multiples of 4. The baseline value helps you build consistency into your layout.
 
-**1.5 line-height ratio**: The helix spacing system line-height ratio is taken from the WCAG SC 1.4.8 guidelines that state line spacing should be at least 1.5x the size of the font. This amount of spacing enables people of different abilities to more easily track and comprehend information.
+**1.5 line-height ratio**: The Helix spacing system line-height ratio is taken from the WCAG SC 1.4.8 guidelines that state line spacing should be at least 1.5 times the size of the font. This amount of spacing enables people of different abilities to more easily track and comprehend information.
 
 **Line height**: Apply the line-height ratio to all font sizes to create proportional spacing between content areas. Use this chart to determine the appropriate line height for each font size.
 
@@ -217,7 +217,7 @@ Use 4px spacing between list items. Refer to [lists]({{site.url}}/components/lis
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-#### Drop-down Selectors
+#### Drop-down selectors
 
 Add 4px of space between the container and the first drop-down selector option. Add 4px of space between all drop-down selector options.
 
@@ -336,7 +336,7 @@ Use 4px spacing when you want to show a tighter association between related comp
 Ensure form element spacing conforms to the following guidelines:
 
 - Add 4px of space between a label and the input.
-- Add 8px of space between consecutive, vertically or horizontally stacked inputs on a form.
+- Add 8px of space between vertically or horizontally stacked inputs that are consecutive  on a form.
 - Add 16px of space between form element groups.
 
 {% endcolumn %}
