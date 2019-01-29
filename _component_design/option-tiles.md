@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/option-tile.svg
 status: stable
 resource: true
-last-modified: 2019-01-28
+last-modified: 2019-01-29
 helix-ui-css: false
 helix-ui-javascript: false
 ---
@@ -92,7 +92,7 @@ An option tile contains the following elements:
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Option tile composition"] [class:"image bg-light border"] %}
-<embed src="{{site.baseurl}}/assets/images/components/inputs-and-controls/option-tiles/choicetiles-composition.png" width="356"/>
+<embed src="{{site.baseurl}}/assets/images/components/inputs-and-controls/option-tiles/optiontiles-composition.png" width="356"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -116,7 +116,7 @@ Use the following specifications when you construct option tiles.
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Option tile style"] [class:"image bg-light border"] %}
-<embed src="{{site.baseurl}}/assets/images/components/inputs-and-controls/option-tiles/choicetiles-style.png" width="411"/>
+<embed src="{{site.baseurl}}/assets/images/components/inputs-and-controls/option-tiles/Optiontiles-style.png" width="411"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -140,7 +140,7 @@ Use these spacing guidelines when you construct option tiles.
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Option tile spacing"] [class:"image bg-light border"] %}
-<embed src="{{site.baseurl}}/assets/images/components/inputs-and-controls/option-tiles/choicetiles-spacing.png" width="604"/>
+<embed src="{{site.baseurl}}/assets/images/components/inputs-and-controls/option-tiles/optiontiles-spacing.png" width="604"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -186,7 +186,7 @@ Saved credit card payment information is a common single-select use case.
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Single-select option tile interactions"] [class:"image bg-light border"] %}
-<embed src="{{site.baseurl}}/assets/images/components/inputs-and-controls/option-tiles/choicetiles-behavior-single.png" width="460"/>
+<embed src="{{site.baseurl}}/assets/images/components/inputs-and-controls/option-tiles/optiontiles-behavior-single.png" width="460"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -212,7 +212,7 @@ In the default state, the user can click any of the option tiles. You can constr
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Multi-select option tile interactions"] [class:"image bg-light border"] %}
-<embed src="{{site.baseurl}}/assets/images/components/inputs-and-controls/option-tiles/choicetiles-behavior-multi.png" width="460"/>
+<embed src="{{site.baseurl}}/assets/images/components/inputs-and-controls/option-tiles/optiontiles-behavior-multi.png" width="460"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -254,7 +254,7 @@ When possible, change the icon color with the selected states. If you cannot adj
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Enabled option tile"] [class:"image bg-light border"] %}
-<embed src="{{site.baseurl}}/assets/images/components/inputs-and-controls/option-tiles/choicetiles-states-enabled.png" width="419"/>
+<embed src="{{site.baseurl}}/assets/images/components/inputs-and-controls/option-tiles/optiontiles-states-enabled.png" width="419"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -280,7 +280,7 @@ When you cannot control the color of the icon, set the icon opacity to 30%.
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Disabled option tile"] [class:"image bg-light border"] %}
-<embed src="{{site.baseurl}}/assets/images/components/inputs-and-controls/option-tiles/choicetiles-states-disabled.png" width="426"/>
+<embed src="{{site.baseurl}}/assets/images/components/inputs-and-controls/option-tiles/optiontiles-states-disabled.png" width="426"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -304,7 +304,7 @@ If there is an error on a selection, change the item to error state and display 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Single-select option tile error"] [class:"image bg-light border"] %}
-<embed src="{{site.baseurl}}/assets/images/components/inputs-and-controls/option-tiles/choicetiles-states-error.png" width="472"/>
+<embed src="{{site.baseurl}}/assets/images/components/inputs-and-controls/option-tiles/optiontiles-states-error.png" width="472"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -330,7 +330,7 @@ If an error occurs on a group, locate the message above the group. Do not change
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Group-select option tile error"] [class:"image bg-light border"] %}
-<embed src="{{site.baseurl}}/assets/images/components/inputs-and-controls/option-tiles/choicetiles-states-errorgroup.png" width="474"/>
+<embed src="{{site.baseurl}}/assets/images/components/inputs-and-controls/option-tiles/optiontiles-states-errorgroup.png" width="474"/>
 {% endfigure %}
 
 {% endcolumn %}
