@@ -3,10 +3,10 @@ title: Spacing
 layout: docs
 category: Style
 usage: >
-  The Helix spacing system provides a set of values you can use when you determine the amount of space between user interface (UI) components. By applying these spacing values consistently you adhere to accessibility guidelines and improve the readability of control panel pages.
+    The Helix spacing system provides a set of values that you can use to consistently space user interface (UI) components. By applying these spacing values consistently, you adhere to Helix accessibility guidelines and can improve the readability of control panel pages.
 status: stable
 resource: true
-last-modified: 2019-01-23
+last-modified: 2019-01-28
 ---
 
 {% include toc.html %}
@@ -16,8 +16,6 @@ last-modified: 2019-01-23
 <div class="hxRow" markdown="1">
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-12-md hxSpan-12-lg" %}
-
-The document provides guidelines you should use when deciding on spacing values between and among user interface components. Specific values are provided, with justification for why we recommend them.
 
 The Helix spacing system applies to three areas of a user interface (UI): container, content, and component.
 
@@ -43,7 +41,7 @@ Consider the following best practices when you apply the Helix spacing system:
 
 - In most cases, use medium spacing (20px) as the default.
 - When choosing spacing values for a new design, consider the user's needs and use case. Use small spacing when users prefer greater data density. Use large spacing to increase whitespace, which can help enhance user comprehension.
-- Avoid uneven spacing (padding) on containers. In the majority of cases, containers must use square Inset spacing, which means that the top, right, bottom, and left spacing values are equal inside the container.
+- Avoid uneven spacing (padding) on containers. In the majority of cases, containers must use square inset spacing, which means that the top, right, bottom, and left spacing values are equal inside the container.
 
 {% endcolumn %}
 
@@ -59,7 +57,7 @@ Consider the following best practices when you apply the Helix spacing system:
 
 ## Container spacing
 
-Pages, cards, modals, panels, and choice tiles are examples of containers that frame content within a UI. By default, apply a square inset of 20px to the top, right, bottom, and left side of the container. The 20px is the medium spacing value and you can use smaller or larger spacing, if required.
+Pages, cards, modals, panels, and option tiles are examples of containers that frame content within a UI. By default, apply a square inset of 20px to the top, right, bottom, and left side of the container. The 20px is the medium spacing value and you can use smaller or larger spacing, if required.
 
 {% figure [caption: "Helix containers"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/style/spacing/spacing-container-types.png" width="635"/>
@@ -79,16 +77,13 @@ Pages, cards, modals, panels, and choice tiles are examples of containers that f
 
 ### Container spacing variants
 
-In some cases you may be required to use smaller or larger spacing than the 20px default value. Use the following spacing values to apply extra-small through extra-extra-large spacing. Keep in mind that large spacing can result in too much whitespace while small spacing can lead to a data dense UI, which can be difficult for a user to process.
+In some cases you may be required to use smaller or larger spacing than the 20px default value. Keep in mind that large spacing can result in too much whitespace and small spacing can lead to a data dense UI, which can be difficult for a user to process.
 
-- **Extra-small (XS) = 8px**
 - **Small (SM) = 12px**
 - **Medium (MD) = 20px**
 - **Large (LG) = 32px**
-- **Extra-large (XL) = 48px**
-- **Extra-extra-large (XXL) = 72px**
 
-In addition, some elements, such as a dashboard panel, requires no inset spacing when displaying edge-to-edge, body content.
+In addition, some elements, such as a dashboard panel, require no inset spacing when displaying edge-to-edge, body content.
 
 {% endcolumn %}
 
@@ -133,7 +128,7 @@ Apply a *stack* value to the space below a [header](#headers) (8px) and [body el
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-**Baseline value**: The Helix spacing system uses four as the baseline number on which all other spatial values are calculated. For example, the font size value for all headings are multiples of four. The baseline value helps you build consistency into your layout.
+**Baseline value**: The Helix spacing system uses 4 as the baseline number on which all other spatial values are calculated. For example, the font size value for all headings are multiples of 4. The baseline value helps you build consistency into your layout.
 
 **1.5 line-height ratio**: The helix spacing system line-height ratio is taken from the WCAG SC 1.4.8 guidelines that state line spacing should be at least 1.5x the size of the font. This amount of spacing enables people of different abilities to more easily track and comprehend information.
 
@@ -286,7 +281,7 @@ Components such as buttons, text inputs, and date pickers are often placed besid
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-**Spacing inside components**: Within a component, use 8px spacing for the left and right padding.
+**Spacing inside components**: Within a component, use 12px spacing for the left and right padding.
 
 **Spacing between components**: In most cases, use 8px spacing between adjacent components.
 
