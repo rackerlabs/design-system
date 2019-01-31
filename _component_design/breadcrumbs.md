@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/breadcrumbs.svg
 status: stable
 resource: true
-last-modified: 2019-01-29
+last-modified: 2019-01-30
 helix-ui-css: true
 helix-ui-javascript: na
 pagelink: https://rackerlabs.github.io/helix-ui/components/breadcrumbs/
@@ -24,13 +24,12 @@ pagelink: https://rackerlabs.github.io/helix-ui/components/breadcrumbs/
 
 ## When to use
 
-Use breadcrumbs when you want to improve web application way-finding and navigation on sites that organize content hierarchically. For example, breadcrumbs help user better identify where they are in applications that use top navigation.
+Use breadcrumbs when you want to improve web application way-finding and navigation on sites that organize content hierarchically. For example, breadcrumbs help users better identify where they are. This is particularly true of sites that use top navigation.
 
 Do not use breadcrumbs:
 
 - On single-level web applications that have no logical hierarchy or grouping.
-- In dual panel layouts. However, use breadcrumbs if the current page has a hierarchy above it.
-
+- In dual panel layouts. You can use breadcrumbs if the current page has a hierarchy above it.
 
 {% endcolumn %}
 
@@ -49,11 +48,12 @@ Do not use breadcrumbs:
 Consider the following best practices when you construct breadcrumbs:
 
 - Place the breadcrumbs at the top of the page, above the header.
-- Only use breadcrumbs on the second level and deeper of a multi-layered application. Do use breadcrumbs on the first layer of a multi-layered application.
-- Label the breadcrumb to match the page title to which it navigates.
-- Show a maximum of four breadcrumbs. If the application is more than four layers deep, then [truncate the breadcrumb path](#too-many).
+- Only use breadcrumbs on the second level and deeper of a multi-layered application. Do use breadcrumbs on the top level of a multi-layered application.
+- Before you incorporate breadcrumbs, consider whether you should reserve space on the top-level page so that content does not jump around as the user navigates from page to page.
+- Label the breadcrumb to match the page title to which it navigates. Use title-case capitalization to label the breadcrumbs. For more information about page titles, see [Capitalization]({{site.baseurl}}\style\capitalization.html#title-style-capitalization).
+- Show a maximum of four breadcrumbs.
 - Show the top hierarchical level as the first breadcrumb. Show the current location as the last breadcrumb. Use a middle breadcrumb to show one level above the current location.
-- If the page title is too long, use a shortened or [truncated]({{site.baseurl}}/style/text-conventions/punctuation.html#Ellipses) version of the page title. For example, instead of `Billing overview`, use `Overview`. Shorter labels conserve horizontal space.
+- If the page title is too long, use a shortened or [truncated]({{site.baseurl}}/style/punctuation.html#ellipses) version of the page title. For example, instead of `Billing Overview`, use `Overview`. Shorter labels conserve horizontal space.
 
 {% endcolumn %}
 
@@ -169,8 +169,6 @@ Place breadcrumbs above the page header, 8px from the eyebrow. Add 8px space bet
 
 Breadcrumbs can exist in **default**, **hover**, or **current page** states.
 
-In addition, there are cases when you may have **too many** breadcrumbs, or breadcrumbs that are **too long**.
-
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
@@ -191,52 +189,13 @@ In addition, there are cases when you may have **too many** breadcrumbs, or brea
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-### Too many
-
-If the application is more than four layers deep, complete the following steps to truncate the trail of breadcrumbs:
-
-1. Represent the top level of the application with the root breadcrumb.
-2. Place an ellipses between the root breadcrumb and the grandparent breadcrumb. The ellipses are not clickable or expandable.
-3. Use the parent breadcrumb to represent one level up from the current location.
-4. Use the current breadcrumb to represent the current location.
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-{% figure [caption:"Too many breadcrumbs"] [class:"image bg-light border"] %}
-
-<embed src="{{site.baseurl}}/assets/images/components/navigation/breadcrumbs/breadcrumbs-states-toomany.png" width="323"/>
-{% endfigure %}
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow"  markdown="1">
-
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 ### Too long
 
-If the trail of breadcrumbs is too long, first try to shorten the breadcrumb label. For example, instead of **Fanatical Support for AWS Overview** use **Overview**.
+We recognize that there can be cases when the trail of breadcrumbs is too long and takes up too much horizontal space. However, a fully responsive solution is not yet available. We will update this documentation when a solution is available.
 
-If you cannot shorten the breadcrumb label due to legal obligations, then truncate it. For example, the truncated version of **Fanatical Support for AWS Overview** is **Fanatical Supp...r AWS Overview**. See [Ellipses]({{site.baseurl}}\style\punctuation.html#ellipses) for more information on truncating text.
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-{% figure [caption:"Too long breadcrumbs"] [class:"image bg-light border"] %}
-
-<embed src="{{site.baseurl}}/assets/images/components/navigation/breadcrumbs/breadcrumbs-states-toolong.png" width="304"/>
-{% endfigure %}
+In the meantime, you can shorten or truncate breadcrumb labels as a way to save space. See [Ellipses]({{site.baseurl}}/style/punctuation.html#ellipses) for guidance about truncating text.
 
 {% endcolumn %}
 
