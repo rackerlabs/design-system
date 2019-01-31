@@ -4,11 +4,11 @@ parent: Navigation
 layout: component
 category: Components
 usage: >
-  Breadcrumbs are a page navigation component that shows the user's current location within a web application. Breadcrumbs help with way-finding and provide an easy way for the user to navigate to pages located up the application hierarchy.
+  Breadcrumbs are a page navigation component that shows the user's current location within a web application. Breadcrumbs help with wayfinding and provide an easy way for the user to navigate to pages located up the application hierarchy.
 preview-image: preview-images/breadcrumbs.svg
 status: stable
 resource: true
-last-modified: 2019-01-30
+last-modified: 2019-01-31
 helix-ui-css: true
 helix-ui-javascript: na
 pagelink: https://rackerlabs.github.io/helix-ui/components/breadcrumbs/
@@ -24,9 +24,9 @@ pagelink: https://rackerlabs.github.io/helix-ui/components/breadcrumbs/
 
 ## When to use
 
-Use breadcrumbs when you want to improve web application way-finding and navigation on sites that organize content hierarchically. For example, breadcrumbs help users better identify where they are. This is particularly true of sites that use top navigation.
+Use breadcrumbs when you want to improve web application wayfinding and navigation on sites that organize content hierarchically. For example, breadcrumbs help users better identify where they are. This is particularly true of sites that use top navigation.
 
-Do not use breadcrumbs:
+Do not use breadcrumbs in the following cases:
 
 - On single-level web applications that have no logical hierarchy or grouping.
 - In dual panel layouts. You can use breadcrumbs if the current page has a hierarchy above it.
@@ -48,12 +48,12 @@ Do not use breadcrumbs:
 Consider the following best practices when you construct breadcrumbs:
 
 - Place the breadcrumbs at the top of the page, above the header.
-- Only use breadcrumbs on the second level and deeper of a multi-layered application. Do use breadcrumbs on the top level of a multi-layered application.
+- Only use breadcrumbs on the second level and lower of a multilayered application. Do use breadcrumbs on the top level of a multilayered application.
 - Before you incorporate breadcrumbs, consider whether you should reserve space on the top-level page so that content does not jump around as the user navigates from page to page.
 - Label the breadcrumb to match the page title to which it navigates. Use title-case capitalization to label the breadcrumbs. For more information about page titles, see [Capitalization]({{site.baseurl}}\style\capitalization.html#title-style-capitalization).
 - Show a maximum of four breadcrumbs.
 - Show the top hierarchical level as the first breadcrumb. Show the current location as the last breadcrumb. Use a middle breadcrumb to show one level above the current location.
-- If the page title is too long, use a shortened or [truncated]({{site.baseurl}}/style/punctuation.html#ellipses) version of the page title. For example, instead of `Billing Overview`, use `Overview`. Shorter labels conserve horizontal space.
+- If the page title is too long, use a shortened or [truncated]({{site.baseurl}}/style/punctuation.html#ellipses) version of the page title. For example, instead of **Billing Overview**, use **Overview**. Shorter labels conserve horizontal space.
 
 {% endcolumn %}
 
@@ -90,7 +90,7 @@ Breadcrumbs contain the following elements:
 - **Root (required)**: The breadcrumb that links to the top level of the application.
 - **Parent (required, if applicable)**: The breadcrumb that links to the page one level up from the user's current location.
 - **Current (required)**: The breadcrumb that shows the user's current location.
-- **Delimiter (required)**: The delimiter separates the breadcrumbs.
+- **Delimiter (required)**: The delimiter that separates the breadcrumbs.
 
 {% endcolumn %}
 
@@ -141,7 +141,7 @@ Use these specifications when you construct breadcrumbs.
 
 ### Spacing
 
-Place breadcrumbs above the page header, 8px from the eyebrow. Add 8px space between a breadcrumb item and the angle-right icon.
+Place breadcrumbs above the page header, 8px from the eyebrow. Add an 8px space between a breadcrumb item and the angle-right icon.
 
 {% endcolumn %}
 
