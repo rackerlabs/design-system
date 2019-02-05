@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/breadcrumbs.svg
 status: stable
 resource: true
-last-modified: 2019-01-31
+last-modified: 2019-02-05
 helix-ui-css: true
 helix-ui-javascript: na
 pagelink: https://rackerlabs.github.io/helix-ui/components/breadcrumbs/
@@ -50,7 +50,8 @@ Consider the following best practices when you construct breadcrumbs:
 - Place the breadcrumbs at the top of the page, above the header.
 - Only use breadcrumbs on the second level and lower of a multilayered application. Do use breadcrumbs on the top level of a multilayered application.
 - Before you incorporate breadcrumbs, consider whether you should reserve space on the top-level page so that content does not jump around as the user navigates from page to page.
-- Label the breadcrumb to match the page title to which it navigates. Use title-case capitalization to label the breadcrumbs. For more information about page titles, see [Capitalization]({{site.baseurl}}\style\capitalization.html#title-style-capitalization).
+- Label the breadcrumb to match the page title to which it navigates.
+- Use title-case capitalization to label the breadcrumbs. For more information about page titles, see [Capitalization]({{site.baseurl}}\style\capitalization.html#title-style-capitalization).
 - Show a maximum of four breadcrumbs.
 - Show the top hierarchical level as the first breadcrumb. Show the current location as the last breadcrumb. Use a middle breadcrumb to show one level above the current location.
 - If the page title is too long, use a shortened or [truncated]({{site.baseurl}}/style/punctuation.html#ellipses) version of the page title. For example, instead of **Billing Overview**, use **Overview**. Shorter labels conserve horizontal space.
@@ -89,7 +90,7 @@ Breadcrumbs contain the following elements:
 
 - **Root (required)**: The breadcrumb that links to the top level of the application.
 - **Parent (required, if applicable)**: The breadcrumb that links to the page one level up from the user's current location.
-- **Current (required)**: The breadcrumb that shows the user's current location.
+- **Child (required)**: The breadcrumb that shows the user's current location.
 - **Delimiter (required)**: The delimiter that separates the breadcrumbs.
 
 {% endcolumn %}
