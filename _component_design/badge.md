@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/badges.svg
 resource: true
 status: stable
-last-modified: 2018-12-04
+last-modified: 2019-02-01
 helix-ui-css: true
 helix-ui-javascript: na
 pagelink: https://rackerlabs.github.io/helix-ui/components/badges/
@@ -18,12 +18,11 @@ pagelink: https://rackerlabs.github.io/helix-ui/components/badges/
 
 <section class="static-section" markdown="1">
 
-## Introduction
-
 <div class="hxRow" markdown="1">
+
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### When to use
+## When to use
 
 Use notification badges in navigation menus, tabs, or the page body to signal a new notification, alert, message, chat, comment, or other type of change to an area of the site. Depending on the use case, there may or may not be a number of notifications written within the badge.
 
@@ -39,7 +38,7 @@ Studies of social apps report that notification badges can trigger dopamine rele
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-### Best Practices
+## Best Practices
 - Clicking on the badge takes the user into the section to which the badge is applied. Once the badge is clicked, remove the badge.
 - Never deviate from the color (`red 900`) of notifications used on the spec sheet, and try to avoid this color outside of badges and errors. Applying colors used on the spec sheet will help reserve the attention-grabbing red color for the highest priority items.
 - Keep the badge empty or use a number. If the number is higher than two digits (for example, 99), use a plus (+) sign to indicate more than that number shown. Neither words nor icons are used.
@@ -53,9 +52,52 @@ Studies of social apps report that notification badges can trigger dopamine rele
 
 <section class="static-section" markdown="1">
 
-## Implementations
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+## Specifications
+
+Intro text here...
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
 
 <div class="hxRow" markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+### Composition
+
+A badge contains the following elements:
+
+- xxxxx
+- xxxxx
+- xxxxx
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"Notification badges with icon"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/notifications/badges/badges-icon.png" width="533"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
+
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### With an icon
@@ -66,9 +108,11 @@ Use a 2px border on all sides between the number and the edge of the circle.
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
 {% figure [caption:"Notification badges with icon"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/notifications/badges/badges-icon.png" width="533"/>
 {% endfigure %}
+
 {% endcolumn %}
 
 </div>
