@@ -4,11 +4,11 @@ parent: Notifications
 layout: component
 category: Components
 usage: >
-  Use notification badges to alert the user that there is new activity they have not acknowledged yet. Use them to encourage the user to go to that section to see the details of the activity.
+  A badge is a small status descriptor that notifies a user that there is new activity that the user has yet to acknowledge. A badge draws the attention of the user to explore the details of the activity.
 preview-image: preview-images/badges.svg
 resource: true
 status: stable
-last-modified: 2019-02-01
+last-modified: 2019-02-05
 helix-ui-css: true
 helix-ui-javascript: na
 pagelink: https://rackerlabs.github.io/helix-ui/components/badges/
@@ -20,29 +20,35 @@ pagelink: https://rackerlabs.github.io/helix-ui/components/badges/
 
 <div class="hxRow" markdown="1">
 
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 ## When to use
 
-Use notification badges in navigation menus, tabs, or the page body to signal a new notification, alert, message, chat, comment, or other type of change to an area of the site. Depending on the use case, there may or may not be a number of notifications written within the badge.
+Use a badge when you want to signal to the user that a new notification, alert, message, chat, comment, or other type of change has taken place. A badge can appear in a navigation menu, tab, or the body of a control panel page.
 
-Studies of social apps report that notification badges can trigger dopamine releases due to social rewards, but overuse can make the user numb to them. So use badges wisely.
+Use tabs sparingly as overuse can lead to *notification fatigue* where the user fails to react to the badge.
 
 {% endcolumn %}
 
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-{% figure [caption:"The notification badge pattern"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/notifications/badges/badges-hero.png" width="1440"/>
-{% endfigure %}
-{% endcolumn %}
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 ## Best Practices
-- Clicking on the badge takes the user into the section to which the badge is applied. Once the badge is clicked, remove the badge.
-- Never deviate from the color (`red 900`) of notifications used on the spec sheet, and try to avoid this color outside of badges and errors. Applying colors used on the spec sheet will help reserve the attention-grabbing red color for the highest priority items.
-- Keep the badge empty or use a number. If the number is higher than two digits (for example, 99), use a plus (+) sign to indicate more than that number shown. Neither words nor icons are used.
-- Set a max number lower than 99 to avoid overwhelming the user. For example, rather than saying the user has 28 unread messages, set the badge to say 9+ instead to increase chances that the user will click into the message list.
+
+Consider the following best practices when you construct badges:
+
+- When the user clicks the badge, the user is taken to the section to which the badge is applied.
+- Remove the badge after the user clicks it.
+- Reserve `red 900` for badges and errors. Do not use `red 900` with any other user interface (UI) component.
+- A badge can be empty or can contain a number.
+- A badge can contain a maximum of three characters. If there are more than 99 notifications (for example, 101 unread email messages), add a plus sign (+) after `99` to indicate there are more than 99 unread messages.
 
 {% endcolumn %}
 
@@ -58,7 +64,7 @@ Studies of social apps report that notification badges can trigger dopamine rele
 
 ## Specifications
 
-Intro text here...
+Use the following specifications when you construct badges.
 
 {% endcolumn %}
 
@@ -76,15 +82,63 @@ Intro text here...
 
 A badge contains the following elements:
 
-- xxxxx
-- xxxxx
-- xxxxx
+- **Container?? (required)**: xxxxx
+- **Number (optional)**: xxxxx
+- **Icon (optional)**: xxxxx
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Notification badges with icon"] [class:"image bg-light border"] %}
+{% figure [caption:"Badge composition"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/notifications/badges/badges-icon.png" width="533"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+### Style
+
+Should this visual include **With an icon** and **In tabs** sections?.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"Badge style"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/notifications/badges/badges-icon.png" width="533"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+### Spacing
+
+Should this visual include **With an icon** and **In tabs** sections?.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"Badge spacing"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/notifications/badges/badges-icon.png" width="533"/>
 {% endfigure %}
 
