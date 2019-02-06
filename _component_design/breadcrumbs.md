@@ -4,7 +4,7 @@ parent: Navigation
 layout: component
 category: Components
 usage: >
-  Breadcrumbs are a page navigation component that shows the user's current location within a web application. Breadcrumbs help with wayfinding and provide an easy way for the user to navigate to pages located up the application hierarchy.
+  Breadcrumbs are a page navigation component that shows the user's current location within the hierarchy of a web. Breadcrumbs help with wayfinding and provide an easy way for the user to navigate to pages located up the application hierarchy.
 preview-image: preview-images/breadcrumbs.svg
 status: stable
 resource: true
@@ -24,7 +24,7 @@ pagelink: https://rackerlabs.github.io/helix-ui/components/breadcrumbs/
 
 ## When to use
 
-Use breadcrumbs when you want to improve web application wayfinding and navigation on sites that organize content hierarchically. For example, breadcrumbs help users better identify where they are. This is particularly true of sites that use top navigation.
+Use breadcrumbs when you want to improve web application wayfinding and navigation on sites that organize content hierarchically. This is particularly true of sites that use top navigation.
 
 Do not use breadcrumbs in the following cases:
 
