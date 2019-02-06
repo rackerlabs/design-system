@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/option-tile.svg
 status: stable
 resource: true
-last-modified: 2019-01-29
+last-modified: 2019-02-06
 helix-ui-css: false
 helix-ui-javascript: false
 ---
@@ -23,7 +23,7 @@ helix-ui-javascript: false
 
 ## When to use
 
-Like radios and checkboxes, option tiles provide the user a means of selecting from a group of options. Because option tiles increase the selectable space of a choice, you can add an icon and description, which provides context and a richer information experience to the user. Option tiles help decision making by focusing the user's attention.
+Option tiles, like radios and checkboxes, provide the user a means of selecting from a group of options. Because option tiles increase the selectable space of a choice, you can add an icon and description, which provides context and a richer information experience to the user. Option tiles help decision making by focusing the user's attention.
 
 {% endcolumn %}
 
@@ -41,7 +41,7 @@ Like radios and checkboxes, option tiles provide the user a means of selecting f
 
 Consider the following best practices when you construct option tiles:
 
-- Only use as many option tiles as you need. Too few option tiles (for example, two option tiles) can be visually confusing to the user while larger sets of option tiles increase the user's information processing demands and can lead to *option paralysis*. The number of option tiles is also a function of the option tile size and the user's screen size. We recommend using option tiles when there is more than one and a maximum of nine choices.
+- Only use as many option tiles as you need. We recommend between 2 and 9 option tiles to avoid visual confusion or option paralysis.
 - Construct an option tile so that the user can click on any part of the tile to select it.
 - When possible, use an existing Helix icon. If you need a new icon, design it to conform to the Helix icon construction guidelines and be consistent with the Rackspace brand. See [icon construction]({{site.baseurl}}/style/iconography.html#icon-construction) for guidelines about designing your own icon.
 - If there is an established meaning to an icon, don't use it to mean something else. See [iconography]({{site.baseurl}}/style/iconography.html) for more information about icons.
@@ -175,7 +175,7 @@ Ensure that you construct option tiles so that they conform to the following sin
 
 A single-select interaction is analogous to radios where the user can only select one option tile at a time.
 
-In the default state, the user can click any of the option tiles. You can construct option tiles so that one of the options is selected by default. The user can then make another selection, if necessary. When the user selects an option, the previously selected option tile becomes deselected and all remaining tiles change to the subdued state. The subdued state reinforces that only one option tile can be selected.
+When a user selects an option, the previously selected option tile becomes deselected and all remaining tiles change to the subdued state. The subdued state reinforces that only one option tile can be selected.
 
 All unselected option tiles change to the hover state as the user scrolls over the option tile.
 
@@ -205,7 +205,7 @@ Saved credit card payment information is a common single-select use case.
 
 A multi-select interaction is analogous to checkboxes where the user can select multiple option tiles at a time.
 
-In the default state, the user can click any of the option tiles. You can construct option tiles so that one of the options is selected by default. The user can then make another selection, if necessary. When the user selects an option, the unselected option tiles remain in the default state. The default state reinforces that multiple option tiles can be selected.
+When the user selects an option, the unselected option tiles remain in the default state. The default state reinforces that multiple option tiles can be selected.
 
 {% endcolumn %}
 
