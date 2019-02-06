@@ -6,7 +6,7 @@ usage: |
   Focus visually indicates that the user has clicked on or navigated to a user interface (UI) element. When a UI element is in focus, it is ready to receive input from the user. Focus applies to all interactive elements.
 resource: true
 status: complete
-last-modified: 2019-01-15
+last-modified: 2019-02-06
 ---
 
 {% include toc.html %}
@@ -72,7 +72,7 @@ Focus consists of the following elements:
 
 {% figure [caption:"Focus state composition"] [class:"image bg-light border"] %}
 
-<img src="{{site.url}}/assets/images/style/focus-states/focus-states-composition.png" width="137"/>
+<img src="{{site.url}}/assets/images/style/focus-states/focus-composition.png" width="213"/>
 
 {% endfigure %}
 
@@ -100,7 +100,7 @@ For elements with a border, if the element's border color is 500 or lighter, use
 
 {% figure [caption:"Element with light fill or border"] [class:"image bg-light border"] %}
 
-<img src="{{site.url}}/assets/images/style/focus-states/focus-states-standard-focus.png" width="400"/>
+<img src="{{site.url}}/assets/images/style/focus-states/focus-style-lightfillborder.png" width="402"/>
 
 {% endfigure %}
 
@@ -127,7 +127,7 @@ For elements with a border, if the focused element's border color is darker than
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Element with dark fill or border"] [class:"image bg-light border"] %}
-<img src="{{site.url}}/assets/images/style/focus-states/focus-states-adopted-focus-color.png" width="295"/>
+<img src="{{site.url}}/assets/images/style/focus-states/focus-style-darkfillborder.png" width="400"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -151,7 +151,7 @@ If the focused element is on a background color that is 500 or darker, change th
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Element is on a dark background"] [class:"image bg-light border"] %}
-<img src="{{site.url}}/assets/images/style/focus-states/focus-states-reversed-focus-color.png" width="249"/>
+<img src="{{site.url}}/assets/images/style/focus-states/focus-style-darkbround.png" width="377"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -179,7 +179,7 @@ If the focused element's boundary is not visible, use #0E94A6 (Cyan 700) for the
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Element without visible boundaries"] [class:"image bg-light border"] %}
-<img src="{{site.url}}/assets/images/style/focus-states/focus-states-irregular-shapes.png" width="283"/>
+<img src="{{site.url}}/assets/images/style/focus-states/focus-style-boundless.png" width="563"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -206,7 +206,7 @@ The focus color of the child element is independent and can be different than th
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Focusable child elements"] [class:"image bg-light border"] %}
-<img src="{{site.url}}/assets/images/style/focus-states/focus-states-focusable-child-elements.png" width="504"/>
+<img src="{{site.url}}/assets/images/style/focus-states/focus-style-childelements.png" width="445"/>
 {% endfigure %}
 {% endcolumn %}
 
@@ -228,7 +228,7 @@ If any focusable element experiences an error, apply either the border or border
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Focus error states"] [class:"image bg-light border"] %}
-<img src="{{site.url}}/assets/images/style/focus-states/focus-states-focusable-child-elements.png" width="504"/>
+<img src="{{site.url}}/assets/images/style/focus-states/focus-style-errorstate.png" width="398"/>
 {% endfigure %}
 {% endcolumn %}
 
