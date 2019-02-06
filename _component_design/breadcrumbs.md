@@ -98,7 +98,7 @@ Breadcrumbs contain the following elements:
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Breadcrumb composition"] [class:"image bg-light border"] %}
-<embed src="{{site.baseurl}}/assets/images/components/navigation/breadcrumbs/breadcrumbs-composition.png" width="318"/>
+<embed src="{{site.baseurl}}/assets/images/components/navigation/breadcrumbs/breadcrumbs-composition.png" width="301"/>
 
 {% endfigure %}
 
@@ -118,13 +118,15 @@ Breadcrumbs contain the following elements:
 
 Use these specifications when you construct breadcrumbs.
 
+For more information about styling links, refer to [Typography]({{site.baseurl}}/style/typography.html#link).
+
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Breadcrumb style"] [class:"image bg-light border"] %}
 
-<embed src="{{site.baseurl}}/assets/images/components/navigation/breadcrumbs/breadcrumbs-style.png" width="386"/>
+<embed src="{{site.baseurl}}/assets/images/components/navigation/breadcrumbs/breadcrumbs-style.png" width="390"/>
 
 {% endfigure %}
 
