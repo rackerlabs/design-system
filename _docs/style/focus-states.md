@@ -2,30 +2,35 @@
 title: Focus States
 layout: docs
 category: Style
-usage: |
-  Focused state allows the user to see what interactive element has been clicked on or navigated to using the keyboard. Only elements that can be interacted with can receive focus.
+usage: >
+  Focus visually indicates that the user has clicked on or navigated to a user interface (UI) element. When a UI element is in focus, it is ready to receive input from the user. Focus applies to all interactive elements.
 resource: true
 status: complete
-last-modified: 2018-05-10
+last-modified: 2019-02-07
 ---
 
 {% include toc.html %}
 
 <section class="static-section" markdown="1">
 
-## Introduction
-
 <div class="hxRow" markdown="1">
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-Focus is received by interactive components when the user clicks on them.  Focus is also applied to clickable elements when the user presses the tab key to traverse the UI using the keyboard.
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% endcolumn %}
+## When to use
 
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-{% figure [class:"image bg-light border"] %}
-<img src="{{site.url}}/assets/images/style/focus-states/focus-states-introduction.png" width="475"/>
-{% endfigure %}
+Apply focus to all interactive elements in a UI.
+
+Do not focus disabled elements and non-interactive elements, including:
+
+- [Popovers]({{site.baseurl}}/components/popovers.html)
+- [Modals]({{site.baseurl}}/components/modal.html)
+- [Pills]({{site.baseurl}}/components/pills.html)
+- [Key-value pairs]({{site.baseurl}}/components/key-value-pairs.html)
+- [Cards]({{site.baseurl}}/components/cards.html)
+
+Interactive elements contained within these components can be focused.
+
 {% endcolumn %}
 
 </div>
@@ -34,391 +39,199 @@ Focus is received by interactive components when the user clicks on them.  Focus
 
 <section class="static-section" markdown="1">
 
-## Composition
-
 <div class="hxRow" markdown="1">
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-Two visual features make up the focus indicator:
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-1. **The Glow** is always applied to the focused element.
-2. **The Border** is only applied to elements that already have a border.
+## Specifications
 
-{% endcolumn %}
+Use the following specifications when you construct a UI element that is in focus.
 
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-{% figure [class:"image bg-light border"] %}
-<img src="{{site.url}}/assets/images/style/focus-states/focus-states-composition.png" width="137"/>
-{% endfigure %}
 {% endcolumn %}
 
 </div>
-
-## Style
-
-<div class="hxRow" markdown="1">
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-### Standard focus color
-
-Standard focus color is **#0e94a6 (Cyan 700)**
-
-#### For borderless elements:
-If the element's fill color is 500 or lighter, apply the glow using the standard focus color.
-
-#### For elements with a border:
-If the element's border color is 500 or lighter, apply the standard glow and change the border to standard focus color.
-
-{% endcolumn %}
-
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-{% figure [class:"image bg-light border"] %}
-<img src="{{site.url}}/assets/images/style/focus-states/focus-states-standard-focus.png" width="400"/>
-{% endfigure %}
-{% endcolumn %}
-
-</div>
-
-<div class="hxRow" markdown="1">
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-### Darker focus colors
-
-If the element's fill or border color are darker than 500, apply that color to the glow and border instead of the standard focus color.
-
-#### For borderless elements:
-If the focused element's fill color is darker than 500, use that color for the glow.
-
-#### For elements with a border:
-If the focused element's border color is darker than 500, use that color for the glow and border.
-
-
-{% endcolumn %}
-
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-{% figure [class:"image bg-light border"] %}
-<img src="{{site.url}}/assets/images/style/focus-states/focus-states-adopted-focus-color.png" width="295"/>
-{% endfigure %}
-{% endcolumn %}
-</div>
-
-<div class="hxRow" markdown="1">
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-### Inside dark backgrounds
-
-If the focused element is contained in a background color that is 500 or darker, change the glow and border to **#ffffff (Gray 0)**.
-
-{% endcolumn %}
-
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-{% figure [class:"image bg-light border"] %}
-<img src="{{site.url}}/assets/images/style/focus-states/focus-states-reversed-focus-color.png" width="249"/>
-{% endfigure %}
-{% endcolumn %}
-</div>
-
 
 </section>
 
 <section class="static-section" markdown="1">
 
 <div class="hxRow" markdown="1">
+
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Irregular shapes
-Apply the standard glow and a 2px corner radius to elements that do not have a visible box shape.
+### Composition
 
-Examples of this are tertiary buttons, hyperlinks, and button icons such as the cog or close button on alerts, toasts, and modals.
+Focus consists of the following elements:
+
+- **Glow (required)**: The glow is the hazy ring that appears around the focused element.
+- **Border (optional)**: Apply a border only to elements that already have a border.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-{% figure [class:"image bg-light border"] %}
-<img src="{{site.url}}/assets/images/style/focus-states/focus-states-irregular-shapes.png" width="283"/>
+
+{% figure [caption:"Focus state composition"] [class:"image bg-light border"] %}
+
+<img src="{{site.url}}/assets/images/style/focus-states/focus-composition.png" width="213"/>
+
 {% endfigure %}
+
 {% endcolumn %}
 
 </div>
-</section>
 
-<section class="static-section" markdown="1">
-
-## Focusable elements
-
-<div class="hxRow" markdown="1">
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-### Hyperlinks and text
-
-Hyperlinks and focusable text are styled using the standard glow, with a 2px corner radius. The height of the glow is determined by the line height of the text.
-
-#### Multi-line text focus
-If the text breaks across multiple lines, indicate continuation by using 0px corners at the end of the preceding line and the start of the subsequent line.
-
-#### Elements:
-
-- [Links]({{site.baseurl}}/style/typography.html#link)
-- [Breadcrumbs]({{site.baseurl}}/components/breadcrumbs.html)
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-{% figure [class:"image bg-light border"] %}
-<img src="{{site.url}}/assets/images/style/focus-states/focus-states-hyperlinks-and-text.png" width="455"/>
-{% endfigure %}
-{% endcolumn %}
-
-</div>
 </section>
 
 <section class="static-section" markdown="1">
 
 <div class="hxRow" markdown="1">
+
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Buttons
+### Element with light fill or border
 
-In addition to primary, secondary and tertiary buttons, the following are a few elements that are also treated as buttons:
+For elements without a border, if the element's fill color is 500 or lighter, use `#0E94A6` (`cyan 700`) for the glow color.
 
-* [Radio Buttons]({{site.baseurl}}/components/radio-buttons.html)
-* [Checkboxes]({{site.baseurl}}/components/checkboxes.html)
-* [Actions Cog]({{site.baseurl}}/components/tables-controls.html#actions-cog)
+For elements with a border, if the element's border color is 500 or lighter, use `#0E94A6` (`cyan 700`) for both the glow and the border color.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-{% figure [class:"image bg-light border"] %}
-<img src="{{site.url}}/assets/images/style/focus-states/focus-states-buttons.png" width="449"/>
+
+{% figure [caption:"Element with light fill or border"] [class:"image bg-light border"] %}
+
+<img src="{{site.url}}/assets/images/style/focus-states/focus-style-lightfillborder.png" width="402"/>
+
 {% endfigure %}
+
 {% endcolumn %}
 
 </div>
+
 </section>
 
 <section class="static-section" markdown="1">
 
 <div class="hxRow" markdown="1">
+
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Actions menu items
-Buttons inside the actions menu do not use normal button padding, so they are focused like block-level hyperlinks.
+### Element with dark fill or border
+
+For elements without a border, if the focused element's fill color is darker than 500, use that color for the glow.
+
+For elements with a border, if the focused element's border color is darker than 500, use that color for the glow and border.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-{% figure [class:"image bg-light border"] %}
-<img src="{{site.url}}/assets/images/style/focus-states/focus-states-actions-menu-items.png" width="427"/>
+
+{% figure [caption:"Element with dark fill or border"] [class:"image bg-light border"] %}
+<img src="{{site.url}}/assets/images/style/focus-states/focus-style-darkfillborder.png" width="400"/>
 {% endfigure %}
+
 {% endcolumn %}
 
 </div>
+
 </section>
 
 <section class="static-section" markdown="1">
 
 <div class="hxRow" markdown="1">
+
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Date picker
-Several elements are shown in focused state in the example to the right.
+### Element is on a dark background
 
-The "13" button is borderless and receives the standard focus glow.
-
-The "8" button is darker than 500, so the focus glow adopts the darker color.
-
-The "10" button uses a fill color lighter than 500, so the standard Cyan 700 glow is applied.
-
+If the focused element is on a background color that is 500 or darker, change the glow and border to `#FFFFFF` (`gray 0`).
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-{% figure [class:"image bg-light border"] %}
-<img src="{{site.url}}/assets/images/style/focus-states/focus-states-date-picker.png" width="258"/>
+
+{% figure [caption:"Element is on a dark background"] [class:"image bg-light border"] %}
+<img src="{{site.url}}/assets/images/style/focus-states/focus-style-darkbround.png" width="377"/>
 {% endfigure %}
+
 {% endcolumn %}
 
 </div>
+
 </section>
 
 <section class="static-section" markdown="1">
 
 <div class="hxRow" markdown="1">
+
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Alert bar actions link
-Cyan 700 is not discernible against the Red 900 background, so the white glow and stroke are applied.
+### Element without visible boundaries
+
+If the focused element's boundary is not visible, use `#0E94A6` (`cyan 700`) for the glow color and add a 2px corner radius to elements that do not have a visible box shape, including:
+
+- [Tertiary buttons]({{site.baseurl}}\components\buttons.html)
+- [Hyperlinks]({{site.baseurl}}\style\typography.html#link)
+- [Icon buttons]({{site.baseurl}}\components\button-iconography.html)
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-{% figure [class:"image bg-light border"] %}
-<img src="{{site.url}}/assets/images/style/focus-states/focus-states-alert-bar.png" width="472"/>
+
+{% figure [caption:"Element without visible boundaries"] [class:"image bg-light border"] %}
+<img src="{{site.url}}/assets/images/style/focus-states/focus-style-boundless.png" width="563"/>
 {% endfigure %}
+
 {% endcolumn %}
 
 </div>
+
 </section>
 
 <section class="static-section" markdown="1">
+
 <div class="hxRow" markdown="1">
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Selector strips
-
-For items in a selector strip, the text is the action driving element and is focused according to the rule for [Hyperlinks and Text](#hyperlinks-and-text).
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-{% figure [class:"image bg-light border"] %}
-<img src="{{site.url}}/assets/images/style/focus-states/focus-states-selector-strips.png" width="335"/>
-{% endfigure %}
-{% endcolumn %}
-
-</div>
-</section>
-
-<section class="static-section" markdown="1">
-<div class="hxRow" markdown="1">
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-### Switches
-
-Clicking a switch anywhere changes its position. Therefore, we place the focus on the entire switch, rather than the circle or the fill space.
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-{% figure [class:"image bg-light border"] %}
-<img src="{{site.url}}/assets/images/style/focus-states/focus-states-switches.png" width="208"/>
-{% endfigure %}
-{% endcolumn %}
-
-</div>
-</section>
-
-<section class="static-section" markdown="1">
-<div class="hxRow" markdown="1">
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-### Search filter
-
-The user can select criteria from the search menu, so we treat the whole row as a button.
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-{% figure [class:"image bg-light border"] %}
-<img src="{{site.url}}/assets/images/style/focus-states/focus-states-search-filter.png" width="548"/>
-{% endfigure %}
-{% endcolumn %}
-
-</div>
-</section>
-
-<section class="static-section" markdown="1">
-<div class="hxRow" markdown="1">
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-### Tabs
-
-When the user traverses to a tabset via their keyboard, the first tab receives focus. The user can then navigate between tabs using the arrow keys.
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-{% figure [class:"image bg-light border"] %}
-<img src="{{site.url}}/assets/images/style/focus-states/focus-states-tabs.png" width="536"/>
-{% endfigure %}
-{% endcolumn %}
-
-</div>
-</section>
-
-<section class="static-section" markdown="1">
-<div class="hxRow" markdown="1">
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-### Beacon
-
-The beacon comes with a glow baked in, so when it receives focus, the existing glow changes to the standard Cyan 700 color.
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-{% figure [class:"image bg-light border"] %}
-<img src="{{site.url}}/assets/images/style/focus-states/focus-states-beacon.png" width="226"/>
-{% endfigure %}
-{% endcolumn %}
-
-</div>
-</section>
-
-<section class="static-section" markdown="1">
-<div class="hxRow" markdown="1">
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-### Focusable containers
-
-Some elements, such as [Option Tiles]() feature a clickable container. In these cases, focus is applied to the entire container, according to normal focus rules.
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-{% figure [class:"image bg-light border"] %}
-<img src="{{site.url}}/assets/images/style/focus-states/focus-states-focusable-containers.png" width="460"/>
-{% endfigure %}
-{% endcolumn %}
-
-</div>
-</section>
-
-<section class="static-section" markdown="1">
-<div class="hxRow" markdown="1">
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Focusable child elements
 
-There are some instances in which a user can set focus on the child element of a focusable parent element and that parent does not lose focus.
+There can be cases when both a parent element and a child element receive focus simultaneously. To visually distinguish between the parent and child focus, the child focus is styled differently.
 
-Using the search input as an example, the clear button (child) takes on a dotted, 2px rounded border with the standard Cyan 700 focus color.
+For example, with the search filter, the clear button (child) takes on a dotted, 2px rounded border with the standard `cyan 700` focus color.
 
-The focus color of the child element is independent of the focus color of its parent.
+The focus color of the child element is independent and can be different than the focus color of its parent.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-{% figure [class:"image bg-light border"] %}
-<img src="{{site.url}}/assets/images/style/focus-states/focus-states-focusable-child-elements.png" width="504"/>
+{% figure [caption:"Focusable child elements"] [class:"image bg-light border"] %}
+<img src="{{site.url}}/assets/images/style/focus-states/focus-style-childelements.png" width="445"/>
 {% endfigure %}
 {% endcolumn %}
 
 </div>
+
 </section>
 
 <section class="static-section" markdown="1">
-## Non-focusable elements
 
 <div class="hxRow" markdown="1">
-{% column left:"hxCol hxSpan-8-xs hxSpan-8-sm hxSpan-8-md hxSpan-8-lg" %}
 
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
+### Focus error states
 
-Items that do not have feedback when interacted with via mouse are not focused. As a result, focus is unavailable on the following patterns:
-
-- [Popovers]({{site.baseurl}}/components/popovers.html)
-- [Modals]({{site.baseurl}}/components/modal.html)
-- [Status pills]({{site.baseurl}}/components/pills.html)
-- [Key value pairs]({{site.baseurl}}/components/key-value-pairs.html)
-- [Cards]({{site.baseurl}}/components/cards.html)
-
-Interactive elements contained within these patterns are still able to be focused.
+If any focusable element experiences an error, apply either the border or borderless error state style.
 
 {% endcolumn %}
 
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+{% figure [caption:"Focus error states"] [class:"image bg-light border"] %}
+<img src="{{site.url}}/assets/images/style/focus-states/focus-style-errorstate.png" width="398"/>
+{% endfigure %}
+{% endcolumn %}
+
 </div>
+
 </section>
