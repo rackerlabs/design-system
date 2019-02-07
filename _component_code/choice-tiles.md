@@ -1,8 +1,8 @@
 ---
-title: Choice Tiles
+title: Option Tiles
 layout: code
 category: Components Code
-code: components/choice-tiles
+code: components/option-tiles
 ---
 
 {% include code-container.html %}
