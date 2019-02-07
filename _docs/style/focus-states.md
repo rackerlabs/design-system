@@ -2,11 +2,11 @@
 title: Focus States
 layout: docs
 category: Style
-usage: |
+usage: >
   Focus visually indicates that the user has clicked on or navigated to a user interface (UI) element. When a UI element is in focus, it is ready to receive input from the user. Focus applies to all interactive elements.
 resource: true
 status: complete
-last-modified: 2019-02-06
+last-modified: 2019-02-07
 ---
 
 {% include toc.html %}
@@ -90,9 +90,9 @@ Focus consists of the following elements:
 
 ### Element with light fill or border
 
-For elements without a border, if the element's fill color is 500 or lighter, use #0E94A6 (Cyan 700) for the glow color.
+For elements without a border, if the element's fill color is 500 or lighter, use `#0E94A6` (`cyan 700`) for the glow color.
 
-For elements with a border, if the element's border color is 500 or lighter, use #0E94A6 (Cyan 700) for both the glow and the border color.
+For elements with a border, if the element's border color is 500 or lighter, use `#0E94A6` (`cyan 700`) for both the glow and the border color.
 
 {% endcolumn %}
 
@@ -144,7 +144,7 @@ For elements with a border, if the focused element's border color is darker than
 
 ### Element is on a dark background
 
-If the focused element is on a background color that is 500 or darker, change the glow and border to #FFFFFF (Gray 0).
+If the focused element is on a background color that is 500 or darker, change the glow and border to `#FFFFFF` (`gray 0`).
 
 {% endcolumn %}
 
@@ -168,7 +168,7 @@ If the focused element is on a background color that is 500 or darker, change th
 
 ### Element without visible boundaries
 
-If the focused element's boundary is not visible, use #0E94A6 (Cyan 700) for the glow color and add a 2px corner radius to elements that do not have a visible box shape, including:
+If the focused element's boundary is not visible, use `#0E94A6` (`cyan 700`) for the glow color and add a 2px corner radius to elements that do not have a visible box shape, including:
 
 - [Tertiary buttons]({{site.baseurl}}\components\buttons.html)
 - [Hyperlinks]({{site.baseurl}}\style\typography.html#link)
@@ -198,7 +198,7 @@ If the focused element's boundary is not visible, use #0E94A6 (Cyan 700) for the
 
 There can be cases when both a parent element and a child element receive focus simultaneously. To visually distinguish between the parent and child focus, the child focus is styled differently.
 
-For example, with the search filter, the clear button (child) takes on a dotted, 2px rounded border with the standard Cyan 700 focus color.
+For example, with the search filter, the clear button (child) takes on a dotted, 2px rounded border with the standard `cyan 700` focus color.
 
 The focus color of the child element is independent and can be different than the focus color of its parent.
 
