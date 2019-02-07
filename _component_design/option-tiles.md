@@ -8,9 +8,9 @@ usage: >
 preview-image: preview-images/option-tile.svg
 status: stable
 resource: true
-last-modified: 2019-02-06
+last-modified: 2019-02-07
 helix-ui-css: false
-helix-ui-javascript: false
+helix-ui-javascript: true
 ---
 
 {% include toc.html %}
@@ -23,7 +23,7 @@ helix-ui-javascript: false
 
 ## When to use
 
-Option tiles, like radios and checkboxes, provide the user a means of selecting from a group of options. Because option tiles increase the selectable space of a choice, you can add an icon and description, which provides context and a richer information experience to the user. Option tiles help decision making by focusing the user's attention.
+Option tiles, like radios and checkboxes, provide the user a means of selecting from a group of options. Because option tiles increase the selectable space of an option, you can add an icon and description, which provides context and a richer information experience to the user. Option tiles help decision making by focusing the user's attention.
 
 {% endcolumn %}
 
