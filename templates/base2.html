@@ -19,12 +19,13 @@
     <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.url }}/feed.xml">
 
   </head>
-  <body class="hxVertical">
+  <body id="top" class="hxVertical">
     <div id="app" class="page-wrapper">
       <div id="stage">
         {%- include nav.html -%}
         <main id="content" class="page-content">
           {{ content }}
+          <a href="#top" class="back-to-top">Back to top</a>
         </main>
       </div>
     </div>
