@@ -26,8 +26,11 @@ usage: >
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-   <img class="demo-gif" src="{{site.url}}/assets/images/install-sketch-library/install-library.gif"/>
-
+<video controls loop autoplay>
+  <source src="{{site.url}}/assets/images/install-sketch-library/Install-library.mp4" type="video/mp4" codecs="avc1.42E01E, mp4a.40.2">
+  <source src="{{site.url}}/assets/images/install-sketch-library/Install-library.webm" type="video/webm" codecs="vp8, vorbis">
+  Your browser does not support HTML5 video.
+</video>
 
 {% endcolumn %}
 
