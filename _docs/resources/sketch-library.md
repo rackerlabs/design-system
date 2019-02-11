@@ -15,7 +15,7 @@ usage: >
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-1. After downloading the file, move it somewhere easy to remember such as your desktop.
+1. After you download the Sketch file, move it somewhere that you can remember, such as your desktop.
 2. Open Sketch and click **Sketch > Preferences**.
 3. On the **Preferences** dialog box, click **Libraries**, and then click **Add Library**.
 4. Go to **Desktop > helix-ui-components.sketch**.
