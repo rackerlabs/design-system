@@ -17,7 +17,9 @@ category: Resources
     <h4>Sketch Library</h4>
   </div>
     <p>The Sketch Library is the preferred method for creating high-fidelity design deliverables in the Helix language. It is installed directly via Sketch and brings high-fidelity Helix sketch objects into your sketch files.</p>
-    <a id="link" href="{{site.baseurl}}/resources/sketch-library.html">Install the Helix Sketch Library</a>
+    
+    <a class="hxBtn hxSecondary" href="{{site.cdn_url}}/sketch/helix-ui-components.sketch"><hx-icon type="download" style="margin-right:0.5rem;"></hx-icon> Download</a>
+    <a href="./sketch-library.html" style="margin-left: 0.75rem;" >How to Install</a>
 </div>
 
 {% endcolumn %}
@@ -28,8 +30,8 @@ category: Resources
   <div ><img src="{{site.baseurl}}/assets/images/lo-fi.svg" alt="low-fi icon"/>
     <h4>Low-fi Sticker sheet</h4>
   </div>
-    <p>We recommend using the low-fi sticker sheet to create initial designs for any project. This allows stakeholders and designers to focus on the higher-level experience without getting mired in the weeds of pixel-perfection. Download the file and then copy and paste low-fi elements into your designs to get started.</p>
-    <a id="link" href="{{site.cdn_url}}/sketch/low-fi_helix_stickersheet_v0.1.sketch">Download Low-fi Sticker Sheet</a>
+    <p>We recommend using the low-fi sticker sheet to create initial designs for any project. This allows stakeholders and designers to focus on the higher-level experience without getting mired in the weeds of pixel-perfection.</p>
+    <a class="hxBtn hxSecondary" href="{{site.cdn_url}}/sketch/low-fi_helix_stickersheet_v0.1.sketch"><hx-icon type="download" style="margin-right:0.5rem;"></hx-icon> Download</a>
 </div>
 
 {% endcolumn %}
