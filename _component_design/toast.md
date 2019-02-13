@@ -125,6 +125,8 @@ Clicking on the “X” closes the toast, but it will go away after approximatel
 
 Use these specifications when you construct toast.
 
+To the Style section, add a 2nd visual that styles out the color and icons for the Success, Error, and Informational toasts.
+
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
@@ -138,6 +140,32 @@ Use these specifications when you construct toast.
 </div>
 
 </section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+Intro to this visual.
+
+To this Style section, add a 2nd visual that styles out the color and icons for the Success, Error, and Informational toasts.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"Default toast notifications specifications"] [class:"image bg-light border"] %}
+<embed src="{{site.baseurl}}/assets/images/components/notifications/toasts/toast-wo-cta.svg"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+
 
 <section class="static-section" markdown="1">
 
@@ -187,56 +215,6 @@ Ensure that toast supports the following behaviors:
 
 {% figure [caption:"Placement, animation, and stacking of toast notifications in context"] [class:"image bg-light border"] %}
 <embed src="{{site.baseurl}}/assets/images/components/notifications/toasts/toast-behaviors.png"/>
-{% endfigure %}
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow" markdown="1">
-
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-## With a CTA
-
-Use only one CTA per toast.
-
-In the informational toast notification example here, the height of the toast increases to 96px to maintain the 8px spacing between the text and the CTA and the 12px spacing between the CTA and the bottom of the toast. The width **always** stays at 350px.
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-{% figure [caption:"Toast notifications with CTA"] [class:"image bg-light border"] %}
-<embed src="{{site.baseurl}}/assets/images/components/notifications/toasts/toast-w-cta.svg"/>
-{% endfigure %}
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow" markdown="1">
-
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-## Without a CTA
-
-Clicking on the “X” dismisses the toast notification. There are no other actions that can be taken on this type of toast notification.
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-{% figure [caption:"Toast notifications without CTA"] [class:"image bg-light border"] %}
-<embed src="{{site.baseurl}}/assets/images/components/notifications/toasts/toast-wo-cta.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
