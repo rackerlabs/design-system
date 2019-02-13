@@ -108,7 +108,12 @@ A badge contains the following elements:
 
 ### Style
 
-Should this visual include **With an icon** and **In tabs** sections?.
+This visual to include:
+
+- Regular badge
+- Small badge - to be used in highly compact context.
+- Double-digit badge
+- Over set limit badge
 
 {% endcolumn %}
 
@@ -132,7 +137,10 @@ Should this visual include **With an icon** and **In tabs** sections?.
 
 ### Spacing
 
-Should this visual include **With an icon** and **In tabs** sections?.
+This visual should include:
+
+- Regular badge spacing
+- Small badge spacing
 
 {% endcolumn %}
 
@@ -154,10 +162,16 @@ Should this visual include **With an icon** and **In tabs** sections?.
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
+## Variations
+
+Intro text here...
+
 ### With an icon
 The badge should overlap an icon by around 2px, but be sure you can still see what the icon represents. Notification badges should never have a “0” inside. In the event there are no notifications, a badge is not displayed. There is a character limit of 3 inside the badge: two numbers at most and a plus (+) sign.
 
 Use a 2px border on all sides between the number and the edge of the circle.
+
+**Visual to Show that the number aligns to the top and overlaps the icon by 2px**
 
 {% endcolumn %}
 
@@ -179,7 +193,7 @@ Use a 2px border on all sides between the number and the edge of the circle.
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### In tabs
+### In a tab
 
 Notification badges may be used in tabs to bring attention to new items in unselected tabs. Never use a notification badge on the selected tab because any new items in a tab section should have their own styling, such as bolded text, to indicate 'unread' or 'new' statuses.
 
