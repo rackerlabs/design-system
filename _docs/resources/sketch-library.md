@@ -15,10 +15,16 @@ usage: >
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
+<a class="hxBtn hxSecondary" style="margin-left:2rem;" href="{{site.cdn_url}}/sketch/helix-ui-components.sketch"><hx-icon type="download" style="margin-right:0.5rem;"></hx-icon> Download Library</a>
+
 1. After you download the Sketch file, move it somewhere that you can remember, such as your desktop.
+
 2. Open Sketch and click **Sketch > Preferences**.
+
 3. On the **Preferences** dialog box, click **Libraries**, and then click **Add Library**.
+
 4. Go to **Desktop > helix-ui-components.sketch**.
+
 5. Click **Open**.
 
 
