@@ -25,18 +25,18 @@ helix-ui-javascript: true
 
 Use a context drawer in the following scenarios:
 
-- To create items related to the item being viewed. For example, when the user troubleshoots a device, use the drawer to create a support ticket, so that the user can stay in the context of the device.
-- To view details of an associated item. For example, when managing server, use the drawer to view details of a specific ticket for that server, without taking the user out of the context of the server.
-- To update child items that belong to the item being managed. For example, when managing a firewall, use the drawer to update firewall policies.
+- To create items related to the item the user is viewing. For example, when the user troubleshoots a device, use the drawer to create a support ticket, so that the user can stay in the context of the device.
+- To view details of an associated item. For example, when a user is managing a server, use the drawer to see details of a specific ticket for that server, without taking the user out of the context of the server.
+- To update child items that belong to the item the user is managing. For example, when the user is managing a firewall, use the drawer for the user to update firewall policies.
 
 Do not use a context drawer in the following scenarios:
 
-- For highly complex workflows. For example, do not use the drawer to create a cloud server, load balancer, hadoop cluster, or other
-complex things. These types of objects require a standalone page to help the user feel more comfortable and focused when making configuration choices.
-- To create objects from a primary hub or list view of resources. For example, do not use the drawer to create a server from the main list of servers.
+- For highly complex workflows. For example, do not use the drawer to create a cloud server, load balancer, Hadoop® cluster, or other
+complex objects. These types of objects require a standalone page to help the user feel more comfortable and focused when making configuration choices.
+- To create objects from a primary hub or view a list resources. For example, do not use the drawer to create a server from the main list of servers.
 - Providing help content. At this time, we strongly recommend not using the drawer for injecting help content into the user interface (UI). Users might need access to help content while completing a form in the drawer, and switching between the help drawer and the form drawer was problematic in testing.
 - To display marketing materials.
-- For confirmations or acknowledgements. For example, do not use the drawer as a prompt for accepting a license agreement or to confirm the deletion of objects.
+- For confirmation or acknowledgement prompts. For example, do not use the drawer as a prompt to accept a license agreement or to confirm the deletion of objects.
 
 {% endcolumn %}
 
@@ -54,14 +54,14 @@ complex things. These types of objects require a standalone page to help the use
 
 Consider the following best practices when you construct a context drawer:
 
-- When the drawer is used to complete an action, such as creating a support ticket, match the drawer title with the action being taken.
-- Avoid using generic button labels, such as **Submit**, or **Save** for the submit button. The submit button label must always represent the completion of the action.
-- When the drawer is used to view details of an object, such as a ticket, the drawer title must reflect the object being viewed.
-- When truncation is needed, use middle-truncation to preserve the first and last characters of the string, since they are often the most important. Use standard end-truncation as a fallback. See [Text Coventions]({{site.baseurl}}/style/punctuation.html#ellipses) for more information about truncation.
+- When the drawer is used to complete an action, such as creating a support ticket, match the drawer title with the action the user is taking.
+- Avoid using generic button labels, such as **Submit**, or **Save**, for the submit button. The submit button label must always represent the completion of the action.
+- When the drawer is used to view details of an object, such as a ticket, the drawer title must reflect the object the user is viewing.
+- When truncation is needed, use middle-truncation to preserve the first and last characters of the string because they are often the most important. Use standard end-truncation as a fallback. See [Text Conventions]({{site.baseurl}}/style/punctuation.html#ellipses) for more information about truncation.
 - Choose the best drawer size for your content and test your implementation to ensure your content looks good at each breakpoint.
-- Be sure to consider the content that the drawer will cover up. If the drawer covers up the most meaningful content, consider using a smaller drawer, or a standalone form page.
+- Be sure to consider the content that the drawer will cover up. If the drawer covers up the most meaningful content, consider using a smaller drawer or a standalone form page.
 - Do not over-use the drawer, making it a catch-all, junk drawer. Sometimes, workflows need their own page, especially when they’re significantly complex.
-- When the drawer is on-screen, page content can be scrolled, but the scrollbar should not be visible. This allows the drawer body to scroll if needed, without confusing the user with two visible scroll bars.
+- When the drawer is on-screen, users can scroll page content, but the scrollbar should not be visible. This practice allows the drawer body to scroll if needed, without confusing the user with two visible scroll bars.
 
 {% endcolumn %}
 
@@ -165,9 +165,9 @@ Use the following spacing guidelines when you construct a context drawer.
 
 #### Container
 
-The context drawer header and footer feature 12px square inset spacing and the body has 20px square inset spacing by default.
+The context drawer header and footer feature has 12px square inset spacing, and the body has 20px square inset spacing.
 
-As with other containers in Helix, the drawer body square inset spacing can be set to zero when its main content is a table, so that the table rows can fill the width of the drawer.
+As with other containers in Helix, you can set the drawer body square inset spacing to zero when its main content is a table, so that the table rows can fill the width of the drawer.
 
 {% endcolumn %}
 
@@ -195,7 +195,7 @@ The top edge of the drawer must be flush with the bottom edge of the navigation 
 
 The right edge of the drawer must be flush with the right side of the browser window.
 
-The bottom edge of the drawer can overlay the footer when the footer is scrolled into view.
+The bottom edge of the drawer can overlay the footer when the footer scrolls into view.
 
 {% endcolumn %}
 
@@ -219,11 +219,11 @@ The bottom edge of the drawer can overlay the footer when the footer is scrolled
 
 #### Footer behavior
 
-The height of the drawer body is determined by the vertical height of the content.
+The vertical height of the content determines the height of the drawer body.
 
 If the drawer content pushes the drawer footer to the bottom edge of the screen, then the footer must be fixed there, and the drawer body must scroll.
 
-This alignment allows the submit controls to remain in close proximity to the form content for a more intuitive form interaction, while also accounting for shorter viewport heights.
+This alignment allows the submit controls to remain close to the form content for a more intuitive form interaction, while also accounting for shorter viewport heights.
 
 {% endcolumn %}
 
@@ -249,7 +249,7 @@ This alignment allows the submit controls to remain in close proximity to the fo
 
 The context drawer features three available widths. Choose the best drawer size for your content.
 
-The drawer is responsive and its width adjusts by increments of 2rem per breakpoint. At the smallest breakpoint, the drawer automatically fills 90% of the browser width, regardless of the drawer size.
+The drawer is responsive, and its width adjusts by increments of 2rem per breakpoint. At the smallest breakpoint, the drawer automatically fills 90% of the browser width, regardless of the drawer size.
 
 {% endcolumn %}
 
@@ -291,9 +291,9 @@ Use these animation guidelines when you construct a context drawer.
 
 The side drawer remains off-screen until triggered by an action initiated by the user from the main content area.
 
-When triggered, the drawer immediately starts loading its content, and animates into view.
+When triggered, the drawer immediately starts loading its contents and animates into view.
 
-When the drawer slides into view it uses ease-out animation, which means that the drawer comes in fast and slows down as it reaches its stopping point.
+When the drawer slides into view, it uses ease-out animation, which means that the drawer comes in fast and slows down as it reaches its stopping point.
 
 When the drawer slides out of view, it uses ease-in animation, which means that the drawer starts moving slowly and picks up speed as it moves off screen.
 
@@ -319,9 +319,9 @@ When the drawer slides out of view, it uses ease-in animation, which means that 
 
 #### Duration
 
-Duration is the amount of time for the drawer to animate from off-stage to on-stage, and from on-stage to off-stage.
+Duration is the amount of time the drawer takes to animate from off-stage to on-stage, and from on-stage to off-stage.
 
-Each drawer size has a unique animation duration, so that the visual weight and movement looks natural.
+Each drawer size has a unique animation duration so that the visual weight and movement looks natural.
 
 The drawer slides out twice as fast as it slides in because the closing animation requires less user focus than does the user’s next task.
 
@@ -335,7 +335,7 @@ For example: STILL NEED AN EXAMPLE FROM DREW
 
 **Animating out of view**
 
-The slide out animation duration is calculated as follows:
+The animation duration to slide out is calculated as follows:
 
 *SlideOutDuration = SlideInDuration/2*
 
@@ -384,7 +384,7 @@ In scenarios where the content of the drawer must be loaded, the drawer begins t
 
 Show the loading spinner centered horizontally and vertically within the body of the drawer.
 
-Hide the footer until the contents are loaded.
+Hide the footer until the contents loads.
 
 When the content has loaded, hide the spinner and show the footer if there is one.
 
@@ -440,9 +440,9 @@ Vertically and horizontally center the  error message and retry button within th
 
 Validation must occur when the user clicks the **Submit** button.
 
-When the form is submitted, disable the **Submit** button and show the loading indicator inside of it. This indicates to the user that processing is happening.
+When the form is submitted, disable the **Submit** button and show the loading indicator inside of it. The loading indicator indicates to the user that processing is happening.
 
-Do not slide the drawer out of view until validation is successfully completed and the back-end system has communicated receipt of the requested action. This allows the drawer to present any error messages.
+Do not slide the drawer out of view until validation is successfully completed and the back-end system has communicated receipt of the requested action. Waiting for this communication allows the drawer to present any error messages.
 
 {% endcolumn %}
 
@@ -466,9 +466,9 @@ Do not slide the drawer out of view until validation is successfully completed a
 
 ### Validation error
 
-Show the error alert bar in the drawer header, and not in the drawer body, so that the alert message can’t be scrolled out of view.
+Show the error alert bar in the drawer header, and not in the drawer body, so that the alert message does not scroll out of view.
 
-The alert bar must be flush against the left, right and bottom edges of the header container, with 8px of vertical space between the drawer title and the alert bar.
+The alert bar must be flush against the left, right, and bottom edges of the header container, with 8px of vertical space between the drawer title and the alert bar.
 
 Follow standard form error styles for any invalid inputs that exist in the drawer body.
 
@@ -494,11 +494,11 @@ Follow standard form error styles for any invalid inputs that exist in the drawe
 
 ### Application error
 
-When an error occurs in the application, show a brief error message in the footer of the drawer, above the submit controls. There must be 16px of vertical space between the error message and the top of the button set.
+When an error occurs in the application, show a brief error message in the footer of the drawer, above the submit controls. Use 16px of vertical space between the error message and the top of the button set.
 
-Do not use an alert bar message above the form in this scenario, since the error is connected to the submit action and not the form content.
+Do not use an alert bar message above the form in this scenario because the error connects to the submit action and not the form content.
 
-Close proximity of the error message to the submit controls increases comprehension and makes the user's next steps more clear.
+Close proximity of the error message to the submit controls increases comprehension and makes the user's next steps clearer.
 
 {% endcolumn %}
 
