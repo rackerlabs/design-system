@@ -331,7 +331,9 @@ To calculate animation duration for sliding the drawer into view, use the follow
 
 *SlideInDuration = (DrawerWidthPX * 0.8)/1000*
 
-For example: STILL NEED AN EXAMPLE FROM DREW
+For example, at the extra-large breakpoint, the medium width drawer is 512px wide. The slide in duration is calculated as:
+
+*(512 * 0.8)/1000 = 0.4096 seconds*
 
 **Animating out of view**
 
@@ -339,7 +341,9 @@ The animation duration to slide out is calculated as follows:
 
 *SlideOutDuration = SlideInDuration/2*
 
-For example: STILL NEED AN EXAMPLE FROM DREW
+For example, at the extra-large breakpoint, the medium width drawer is 512px wide. The slide out duration is calculated as:
+
+*((512 * 0.8)/1000)/2 = 0.2048 seconds*
 
 {% endcolumn %}
 
