@@ -6,7 +6,7 @@ usage: >
     The Helix spacing system provides a set of values that you can use to consistently space user interface (UI) components. By applying these spacing values consistently, you adhere to Helix accessibility guidelines and can improve the readability of control panel pages.
 status: stable
 resource: true
-last-modified: 2019-01-29
+last-modified: 2019-02-19
 ---
 
 {% include toc.html %}
@@ -281,16 +281,16 @@ Components such as buttons, text inputs, and date pickers are often placed besid
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Spacing inside components
+### Internal container spacing
 
-Within a component, use 12px spacing for the left and right padding.
+For consistency, unless you intentionally deviate from these guidelines, all inputs and selectors have 8px of space on top and bottom, and 12px of space on the left and the right.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption: "Spacing between and inside components"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/style/spacing/spacing-component-inside.png" width="200"/>
+<embed src="{{site.url}}/assets/images/style/spacing/spacing-component-inside.png" width="524"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -305,18 +305,44 @@ Within a component, use 12px spacing for the left and right padding.
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Spacing between components
+### Spacing between elements within a component
 
-In most cases, use 8px spacing between adjacent components.
+The standard spacing for unrelated elements within a component is 12px. If the elements are related to each other, for example **Search** and the search icon, the recommended distance is 8px.
 
-Use 4px spacing when you want to show a tighter association between related components. For example, to more tightly associate a text input with related help documentation, place the **Help** icon 4px from the input. You should also use 4px spacing between highly related inputs. For example, if the UI requires the user to enter time in **Hours:Minutes:Seconds** (three separate, but related inputs), add 4px space between each input.
+If elements within a component are *hyper-related*, which means that the elements require a very close association, you can use 4px of space.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption: "Spacing between and inside components"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/style/spacing/spacing-component-between.png" width="280"/>
+<embed src="{{site.url}}/assets/images/style/spacing/spacing-component-outside-between.png" width="284"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+### Spacing between individual components
+
+The standard spacing between unrelated elements is 12px. If the elements are related to each other, for example the buttons in a button set, the recommended distance is 8px.
+
+If the components are *hyper-related*, which means that the components require a very close association, you can use 4px of space. This use case is rare.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption: "Form element spacing"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/style/spacing/spacing-component-inside-between.png" width="526"/>
 {% endfigure %}
 
 {% endcolumn %}
