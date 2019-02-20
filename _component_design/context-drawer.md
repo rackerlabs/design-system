@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/context-drawer.svg
 status: stable
 resource: true
-last-modified: 2019-02-18
+last-modified: 2019-02-20
 helix-ui-css: false
 helix-ui-javascript: true
 ---
@@ -397,7 +397,7 @@ When the content has loaded, hide the spinner and show the footer if there is on
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Context drawer loading state"] [class:"image bg-light border"] %}
-<embed src="{{site.baseurl}}/assets/images/components/content-areas/context-drawer/context-drawer-states-loading.png" width="436"/>
+<embed src="{{site.baseurl}}/assets/images/components/content-areas/context-drawer/context-drawer-states-loading.png" width="464"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -425,7 +425,7 @@ Vertically and horizontally center the  error message and retry button within th
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Context drawer failure to load state"] [class:"image bg-light border"] %}
-<embed src="{{site.baseurl}}/assets/images/components/content-areas/context-drawer/context-drawer-states-failure-to-load.png" width="436"/>
+<embed src="{{site.baseurl}}/assets/images/components/content-areas/context-drawer/context-drawer-states-failure-to-load.png" width="464"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -453,7 +453,7 @@ Do not slide the drawer out of view until validation is successfully completed a
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Context drawer form submission state"] [class:"image bg-light border"] %}
-<embed src="{{site.baseurl}}/assets/images/components/content-areas/context-drawer/context-drawer-states-form-submission.png" width="436"/>
+<embed src="{{site.baseurl}}/assets/images/components/content-areas/context-drawer/context-drawer-states-form-submission.png" width="464"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -481,7 +481,7 @@ Follow standard form error styles for any invalid inputs that exist in the drawe
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Context drawer validation error"] [class:"image bg-light border"] %}
-<embed src="{{site.baseurl}}/assets/images/components/content-areas/context-drawer/context-drawer-states-validation-error.png" width="436"/>
+<embed src="{{site.baseurl}}/assets/images/components/content-areas/context-drawer/context-drawer-states-validation-error.png" width="464"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -509,7 +509,7 @@ Close proximity of the error message to the submit controls increases comprehens
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Context drawer application error"] [class:"image bg-light border"] %}
-<embed src="{{site.baseurl}}/assets/images/components/content-areas/context-drawer/context-drawer-states-application-error.png" width="436"/>
+<embed src="{{site.baseurl}}/assets/images/components/content-areas/context-drawer/context-drawer-states-application-error.png" width="464"/>
 {% endfigure %}
 
 {% endcolumn %}
