@@ -325,7 +325,7 @@ Each drawer size has a unique animation duration so that the visual weight and m
 
 The drawer slides out twice as fast as it slides in because the closing animation requires less user focus than does the user’s next task.
 
-**Animating into view**
+##### Animating into view
 
 To calculate animation duration for sliding the drawer into view, use the following formula:
 
@@ -335,7 +335,7 @@ For example, at the extra-large breakpoint, the medium width drawer is 512px wid
 
 *(512 * 0.8)/1000 = 0.4096 seconds*
 
-**Animating out of view**
+##### Animating out of view
 
 The animation duration to slide out is calculated as follows:
 
