@@ -6,7 +6,7 @@ usage: >
     The Helix spacing system provides a set of values that you can use to consistently space user interface (UI) components. By applying these spacing values consistently, you adhere to Helix accessibility guidelines and can improve the readability of control panel pages.
 status: stable
 resource: true
-last-modified: 2019-02-19
+last-modified: 2019-02-22
 ---
 
 {% include toc.html %}
@@ -39,6 +39,7 @@ The Helix spacing system applies to three areas of a user interface (UI): contai
 
 Consider the following best practices when you apply the Helix spacing system:
 
+- The Helix spacing system uses 4 as the baseline number on which all other spatial values are calculated. For example, the font size value for all headings are multiples of 4. The baseline value helps you build consistency into your layout.
 - In most cases, use medium spacing (20px) as the default.
 - When choosing spacing values for a new design, consider the user's needs and use case. Use small spacing when users prefer greater data density. Use large spacing to increase whitespace, which can help enhance user comprehension.
 - Avoid uneven spacing (padding) on containers. In the majority of cases, containers must use square inset spacing, which means that the top, right, bottom, and left spacing values are equal inside the container.
@@ -112,7 +113,7 @@ Content is any information displayed inside a container. When you vertically sta
 There are two types of content:
 
 - **Headers**: Headers are the highest level of the content hierarchy and are used for page titles, section titles, subsection titles, and  container titles.
-- **Body elements**: Body elements are located just below the header and consist of list items, drop-down selectors, and paragraphs.
+- **Body elements**: Body elements are located below the header and consist of a wide variety of components including body text, list items, form controls, and visualizations.
 
 Apply a *stack* value to the space below a [header](#headers) (8px) and [body elements](#body-elements) (4, 8, or 16px according to the content type).
 
@@ -127,8 +128,6 @@ Apply a *stack* value to the space below a [header](#headers) (8px) and [body el
 <div class="hxRow"  markdown="1">
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-**Baseline value**: The Helix spacing system uses 4 as the baseline number on which all other spatial values are calculated. For example, the font size value for all headings are multiples of 4. The baseline value helps you build consistency into your layout.
 
 **1.5 line-height ratio**: The Helix spacing system line-height ratio is taken from the WCAG SC 1.4.8 guidelines that state line spacing should be at least 1.5 times the size of the font. This amount of spacing enables people of different abilities to more easily track and comprehend information.
 
