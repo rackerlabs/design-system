@@ -207,7 +207,7 @@ The following icons should only be used for indicating keyboard commands. Avoid 
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-12-md hxSpan-12-lg" %}
 
-In addition to the icons provided by Helix, designers may also require access to Rackspace brand assets while creating an interface. These assets cannot be stored within a public GitHub repository for legal reasons. These assets instead will need to be sourced from their official CDN link.
+In addition to the icons provided by Helix, Rackspace designers may also require access to Rackspace brand assets while creating an interface. These assets cannot be stored within a public GitHub repository for legal reasons. These assets instead will need to be sourced from their official CDN link. For more information, [contact us on Slack]({{site.baseurl}}/contact-us#how-to-contact-us).
 
 Rackspace US, Inc., retains copyright and/or applicable rights to all text and graphic images supplied on the Rackspace websites. For additional information, see [Copyrights & Trademarks](https://www.rackspace.com/information/legal/copyrights_trademarks).
 
