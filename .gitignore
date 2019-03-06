@@ -27,3 +27,6 @@ design-system
 
 # rbenv
 .ruby-version
+
+#IDE
+.idea
