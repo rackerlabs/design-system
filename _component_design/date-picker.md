@@ -1,13 +1,14 @@
 ---
-title: Date Picker (or Calendar picker?)
+title: Date Picker
 parent: Inputs and Controls
 layout: component
 category: Components
-usage: The date picker input enables users to select a date from a calendar.
+usage: >
+  The date picker input enables users to select a date from a calendar.
 preview-image: preview-images/date-picker.svg
 status: stable
 resource: true
-last-modified: 2019-01-21
+last-modified: 2019-03-07
 helix-ui-css: false
 helix-ui-javascript: false
 ---
@@ -61,9 +62,9 @@ Consider the following best practices when you construct a date picker:
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-## Month picker specifications
+## Specifications
 
-Use the following specifications when you construct a month picker.
+Use the following specifications when you construct a date picker.
 
 {% endcolumn %}
 
@@ -81,121 +82,18 @@ Use the following specifications when you construct a month picker.
 
 The month picker contains the following elements:
 
-- **Header button (required)**: When the user clicks the header button, the month picker slides down.
-- **Months (required)**: The month picker enables the user to select a month, which is easier than clicking the back and next arrows to locate a month. When the user clicks a month, the month picker slides up.
+- **Month navigator (required)**: The user can click the month navigator to pick the next or previous month.
+- **Dialog header (required)**: The dialog header includes the name of the month currently in view and the month navigator.
+- **Days (required)**: Days represent the seven days of the week.
+- **Date (required)**: The user clicks a date to select it.
+- **Dialog body (required)**: The dialog body includes the days of the week and numbered dates.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"User chooses a month, and the picker slides up"] [class:"image bg-light border"] %}
+{% figure [caption:"Date picker composition"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/inputs-and-controls/date-picker/date-picker-month-picker-3.svg"/>
-{% endfigure %}
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow"  markdown="1">
-
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-### Style
-
-Use these specifications when you construct a month picker.
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-{% figure [caption:"Month picker header button"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/date-picker/date-picker-month-picker-button-specifications-1.svg"/>
-{% endfigure %}
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow"  markdown="1">
-
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-### Spacing
-
-Use the following spacing guidelines when you construct a month picker.
-
-**OLD TEXT**
-
-The button text in the month picker is always horizontally and vertically centered and all uppercase.
-
-The month picker state maintains the same spacing considerations from the date selector state, with slight modifications of color values.
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-{% figure [caption:"Month picker header button"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/date-picker/date-picker-month-picker-button-specifications-1.svg"/>
-{% endfigure %}
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow"  markdown="1">
-
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-### Behaviors
-
-Ensure that the month picker supports the following user interaction behaviors:
-
-- When the user clicks the header button, the month selector menu slides down and covers the date selector.
-- The month shown in the header should be selected by default in the picker. **(Not sure what this means)**
-- When the user makes a selection, or clicks the header button again, the month picker slides back up.
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-{% figure [caption:"Slide down to show selector, and back up when selection is made."] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/date-picker/date-picker-month-picker-animation.svg"/>
-{% endfigure %}
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow"  markdown="1">
-
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-## Month selector states
-
-The month selector can exist in a **default**, **hover**, and **pressed** state.
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-6-xs hxSpan-6-sm hxSpan-8-md hxSpan-8-lg" %}
-
-{% figure [caption:"Month picker button states"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/date-picker/date-picker-button-states-2.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -210,60 +108,32 @@ The month selector can exist in a **default**, **hover**, and **pressed** state.
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-## Date selector specifications
-
-Use the following specifications when you construct a date selector.
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow"  markdown="1">
-
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-### Composition
-
-The date selector is composed of the following elements:
-
-- **Month picker (required)**: The user can click the month picker to select a different month.
-- **Next and previous (required)**: The next and previous buttons move the date picker to the next or previous month.
-- **Day selector (required)**: The user clicks a date to select it.
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-{% figure [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/date-picker/date-picker-specifications.svg"/>
-{% endfigure %}
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow"  markdown="1">
-
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
 ### Style
 
-Use these specifications when you construct a date selector.
+Use the following header and body specifications when you construct a date picker.
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+#### Header
+
+Use these header specifications when you construct a date picker.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/date-picker/date-picker-specifications.svg"/>
+{% figure [caption:"Date picker header specifications"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/date-picker/date-picker-month-picker-button-specifications-1.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -271,6 +141,31 @@ Use these specifications when you construct a date selector.
 </div>
 
 </section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+#### Body
+
+Use these body specifications when you construct a date picker.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"Date picker body specifications"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/date-picker/date-picker-month-picker-button-specifications-1.svg"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
 
 <section class="static-section" markdown="1">
 
@@ -280,20 +175,16 @@ Use these specifications when you construct a date selector.
 
 ### Spacing
 
-Use the following spacing guidelines when you construct a date selector.
+The date picker element appears below the corresponding text input that controls it. Center text and icons vertically and horizontally.
 
-**OLD TEXT**
-
-The date picker element appears below the corresponding text input that controls it.
-
-Center text and icons vertically and horizontally.
+Use these spacing guidelines when you construct a date picker.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/date-picker/date-picker-spacing.svg"/>
+{% figure [caption:"Date picker spacing"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/date-picker/date-picker-month-picker-button-specifications-1.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -306,25 +197,34 @@ Center text and icons vertically and horizontally.
 
 <div class="hxRow"  markdown="1">
 
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 ### Behaviors
 
-Ensure that the date selector supports the following user interaction behaviors:
+Ensure that the date picker supports the following user interaction behaviors.
 
-When the user selects a single date on the date picker:
+{% endcolumn %}
 
-- The date picker opens when the user tabs onto or clicks the date input field.
-- The user can manually enter the date according to the placeholder format.
-- Each date in the picker has a hover state, but only one date can be selected.
-- To close the date picker the user clicks off of the date picker???
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+#### Default
+
+Construct the date picker so it defaults to today's date.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/date-picker/date-picker-single-date.svg"/>
+{% figure [caption:"Default date picker"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/date-picker/date-picker-month-picker-button-specifications-1.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -339,16 +239,102 @@ When the user selects a single date on the date picker:
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-## Date selector states
+#### Calendar spawn and hover
 
-Date selector dates can exist in a **default**, **muted**, **hover**, and **selected** state.
+The date picker opens when the user tabs onto or clicks the date input field.
+
+Use the hover state when the user hovers over a date or a month navigation arrow. Hovering over the arrows indicates that they user can go back in time or ahead in time. Each date in the picker has a hover state, but only one date can be selected.
+
+Subdue dates shown that belong to the previous or next months. The calendar switches to the next or previous month when the user clicks a subdued date, however, the date is not selected. The month must be active in order for the user to select it.
 
 {% endcolumn %}
 
-{% column right:"hxCol hxSpan-6-xs hxSpan-6-sm hxSpan-4-md hxSpan-4-lg" %}
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Date picker button states"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/date-picker/date-picker-button-states-1.svg"/>
+{% figure [caption:"Date picker calendar spawn and hover"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/date-picker/date-picker-month-picker-button-specifications-1.svg"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+#### Selection made
+
+The user can manually enter a date in the date text field, or select a date from the date picker. When the user selects a date, the date populates the date text field and the date picker closes.
+
+If the calendar includes an **End Date** field, populate the **End Date** with the **Start Date**. This action creates a mandatory minimum date.
+
+If the user selects an **End Date** that is prior to the **Start Date**, the **End Date** shows an error.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"Date picker selection"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/date-picker/date-picker-month-picker-button-specifications-1.svg"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+#### Edit selection
+
+To edit the date, the user can manually change the date in the date text field or select another date from the date picker. When the user clicks in the date text field, the date picker opens.
+
+The date picker closes when the user exists the date text field or selects a date from the date picker.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"Date picker edit selection"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/date-picker/date-picker-month-picker-button-specifications-1.svg"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+## States
+
+Dates can exist in an **unselected**, **current date**, **hover**, and **selected** state.
+
+Month navigation arrows can exist in an **unselected**, **hover**, and **pressed** state.
+
+Refer to [Focus States]({{site.baseurl}}/style/focus-states.html) for focus state construction guidelines.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-6-xs hxSpan-6-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"Date picker states"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/date-picker/date-picker-button-states-2.svg"/>
 {% endfigure %}
 
 {% endcolumn %}
