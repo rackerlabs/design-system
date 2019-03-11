@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/toggles.svg
 status: stable
 resource: true
-last-modified: 2019-03-04
+last-modified: 2019-03-11
 helix-ui-css: true
 helix-ui-javascript: true
 pagelink: https://rackerlabs.github.io/helix-ui/components/toogle/
@@ -26,7 +26,7 @@ pagelink: https://rackerlabs.github.io/helix-ui/components/toogle/
 
 Use a toggle when you want to provide the user control over how information is presented on a control panel page.
 
-For example, the user can use a toggle to switch the display of information from a card view, which displays information on a set of tiles, to a detailed list view.
+For example, the user can use a toggle to switch the display of information from a card view, which displays information on a set of tiles, to a list view.
 
 {% endcolumn %}
 
@@ -64,7 +64,7 @@ Consider the following best practices when you construct a toggle.
 
 ## Specifications
 
-Use these specifications when you construct a toggle.
+Use the following specifications when you construct a toggle.
 
 {% endcolumn %}
 
