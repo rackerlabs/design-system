@@ -26,7 +26,7 @@ pagelink: https://rackerlabs.github.io/helix-ui/components/toogle/
 
 Use a toggle when you want to provide the user control over how information is presented on a control panel page.
 
-For example, the user can use a toggle to switch the display of information from a card view, which displays each entry as a tile on a grid, to a list view, which displays each entry as an item in a list.
+For example, the user can use a toggle to switch the display of information from a card view that displays each entry as a tile on a grid, to a list view that displays each entry as an item in a list.
 
 {% endcolumn %}
 
@@ -42,14 +42,14 @@ For example, the user can use a toggle to switch the display of information from
 
 ## Best practices
 
-Consider the following best practices when you construct a toggle.
+Consider the following best practices when you construct a toggle:
 
 - A toggle set must include a minimum of two view options.
 - Do not provide more than five view options in a toggle set.
 - The user can select only one view option at a time.
 - One view option must always be selected.
-- Any of the view options can be configured as the default option.
-- Because text is not paired with the icon in a toggle, use tooltips to reveal what each option does.
+- You can configure any of the view options as the default option.
+- Because a toggle does not pair the text with the icon, use tooltips to reveal what each option does.
 
 {% endcolumn %}
 
@@ -85,7 +85,7 @@ A toggle is composed of the following elements:
 
 - **Control container (required)**: The control container holds the option container and the option icon.
 - **Option container (required)**: The option container holds the option icon.
-- **Option icon (required)**: The option icon corresponds to how information is displayed on a control panel page. For example, the card view icon displays information on a set of tiles. The list view icon formats the information in a list.
+- **Option icon (required)**: The option icon corresponds to how information displays on a control panel page. For example, the card view icon displays information on a set of tiles. The list view icon formats the information in a list.
 
 {% endcolumn %}
 
@@ -164,7 +164,7 @@ Construct toggle options so that they conform to the following states:
 - In the *selected state* the icon is depressed with full color.
 - In the *unselected state* the icon is active and colored cyan, with a transparent background.
 - In the *hover state* the icon takes on a lighter shade of cyan. Only unselected icons include a hover state.
-- The *focus state* applies to the entire toggle component and the icon is treated as a focusable child element. See [Focus States]({{site.baseurl}}/style/focus-states.html#focusable-child-elements) for more information.
+- The *focus state* applies to the entire toggle component and treats the icon as a focusable child element. See [Focus States]({{site.baseurl}}/style/focus-states.html#focusable-child-elements) for more information.
 
 {% endcolumn %}
 
