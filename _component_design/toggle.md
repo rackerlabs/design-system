@@ -4,11 +4,11 @@ parent: Inputs and Controls
 layout: component
 category: Components
 usage: >
-  A toggle controls how information is formatted on a control panel page.
+  A toggle controls the presentation format for information on a control panel page.
 preview-image: preview-images/toggles.svg
 status: stable
 resource: true
-last-modified: 2019-03-11
+last-modified: 2019-03-12
 helix-ui-css: true
 helix-ui-javascript: true
 pagelink: https://rackerlabs.github.io/helix-ui/components/toogle/
@@ -26,7 +26,7 @@ pagelink: https://rackerlabs.github.io/helix-ui/components/toogle/
 
 Use a toggle when you want to provide the user control over how information is presented on a control panel page.
 
-For example, the user can use a toggle to switch the display of information from a card view, which displays information on a set of tiles, to a list view.
+For example, the user can use a toggle to switch the display of information from a card view, which displays each entry as a tile on a grid, to a list view, which displays each entry as an item in a list.
 
 {% endcolumn %}
 
@@ -49,6 +49,7 @@ Consider the following best practices when you construct a toggle.
 - The user can select only one view option at a time.
 - One view option must always be selected.
 - Any of the view options can be configured as the default option.
+- Because text is not paired with the icon in a toggle, use tooltips to reveal what each option does.
 
 {% endcolumn %}
 
@@ -110,7 +111,7 @@ A toggle is composed of the following elements:
 
 Construct the control container so that it is 32px by 32px. Construct the option icon so that it is 16px by 16px.
 
-The images in this documentation include the card view icon and the list view icon. You are not limited to these icons. You can use any Rackspace icon to support your use case. If you need to create a new icon, follow the guidelines available in [Iconography]({{site.baseurl}}/style/iconography.html#icon-construction).
+The images in this documentation include the card view icon and the list view icon. You are not limited to these icons. If you need to create a new icon, follow the guidelines available in [Iconography]({{site.baseurl}}/style/iconography.html#icon-construction).
 
 {% endcolumn %}
 
@@ -134,7 +135,7 @@ The images in this documentation include the card view icon and the list view ic
 
 ### Spacing
 
-Add 8px of space on all sides of the option icon.
+Ensure there is 8px of space on all sides of the option icon.
 
 {% endcolumn %}
 
