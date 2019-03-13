@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/toggles.svg
 status: stable
 resource: true
-last-modified: 2019-03-12
+last-modified: 2019-03-13
 helix-ui-css: true
 helix-ui-javascript: true
 pagelink: https://rackerlabs.github.io/helix-ui/components/toogle/
@@ -109,7 +109,9 @@ A toggle is composed of the following elements:
 
 ### Style
 
-Construct the control container so that it is 32px by 32px. Construct the option icon so that it is 16px by 16px.
+Construct an option container so that is 32px by 32px. The control container holds all option containers and is 32px in height. Calculate the width of a control container by multiplying 32px by the number of options. For example, if there are two options, then the control container is 64px.
+
+Construct the option icon so that it is 16px by 16px.
 
 The images in this documentation include the card view icon and the list view icon. You are not limited to these icons. If you need to create a new icon, follow the guidelines available in [Iconography]({{site.baseurl}}/style/iconography.html#icon-construction).
 
@@ -161,8 +163,8 @@ Ensure there is 8px of space on all sides of the option icon.
 
 Construct toggle options so that they conform to the following states:
 
-- In the *selected state* the icon is depressed with full color.
-- In the *unselected state* the icon is active and colored cyan, with a transparent background.
+- In the *selected state* the icon appears with a full color background.
+- In the *unselected state* the icon is active and colored cyan, with a white background.
 - In the *hover state* the icon takes on a lighter shade of cyan. Only unselected icons include a hover state.
 - The *focus state* applies to the entire toggle component and treats the icon as a focusable child element. See [Focus States]({{site.baseurl}}/style/focus-states.html#focusable-child-elements) for more information.
 
