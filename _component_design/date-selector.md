@@ -216,14 +216,14 @@ Ensure that the date selector supports the following user interaction behaviors.
 
 #### Default
 
-Construct the date selector so it defaults to today's date.
+In the default state, the date selector is closed.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Default date selector"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/date-selector/date-selector-month-selector-button-specifications-1.svg"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/date-selector/date-selector-interactions-pre.png" width="281"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -240,7 +240,7 @@ Construct the date selector so it defaults to today's date.
 
 #### Calendar open and hover
 
-The date selector opens when the user tabs onto or clicks the date input field.
+The date selector opens when the user clicks the date input field.
 
 Use the hover state when the user hovers over a date or a month navigation arrow. Hovering over the arrows indicates that they user can go back in time or ahead in time. Each date in the selector has a hover state, but only one date can be selected.
 
@@ -333,7 +333,7 @@ Refer to [Focus States]({{site.baseurl}}/style/focus-states.html) for focus stat
 {% column right:"hxCol hxSpan-6-xs hxSpan-6-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Date selector states"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/date-selector/date-selector-button-states-2.svg"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/date-selector/date-selector-states.png" width="321"/>
 {% endfigure %}
 
 {% endcolumn %}
