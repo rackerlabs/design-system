@@ -6,7 +6,7 @@ category: Resources
 
 <section class="static-section" markdown="1">
 
-## Sketch Resources
+### Sketch Resources
 
 <div class="hxRow"  markdown="1">
 
@@ -16,8 +16,9 @@ category: Resources
   <div class="icon"><img src="{{site.baseurl}}/assets/images/sketch-library.svg" alt="sketch library icon"/>
     <h4>Sketch Library</h4>
   </div>
-    <p>The Sketch Library is the preferred method for creating high-fidelity design deliverables in the Helix language. It is installed directly via Sketch and brings high-fidelity Helix sketch objects into your sketch files.</p>
-    <a id="link" href="{{site.baseurl}}/resources/sketch-library.html">Install the Helix Sketch Library</a>
+    <p>The Sketch Library is the preferred method for creating high-fidelity design deliverables. It is installed via Sketch and brings high-fidelity Helix elements into your files. Read <a href="./sketch-library.html" >How to Install the Sketch Library</a>.</p>
+    <a class="hxBtn hxSecondary" href="{{site.cdn_url}}/sketch/helix-ui-components.sketch"><hx-icon type="download" style="margin-right:0.5rem;"></hx-icon> Download Sketch Library</a>
+
 </div>
 
 {% endcolumn %}
@@ -26,10 +27,10 @@ category: Resources
 
 <div class="resource-card">
   <div ><img src="{{site.baseurl}}/assets/images/lo-fi.svg" alt="low-fi icon"/>
-  	<h4>Low-fi Sticker sheet</h4>
+    <h4>Low-fi Sticker sheet</h4>
   </div>
-    <p>We recommend using the low-fi sticker sheet to create initial designs for any project. This allows stakeholders and designers to focus on the higher-level experience without getting mired in the weeds of pixel-perfection. Download the file and then copy and paste low-fi elements into your designs to get started.</p>
-    <a id="link" href="{{site.cdn_url}}/sketch/low-fi_helix_stickersheet_v0.1.sketch">Download Low-fi Sticker Sheet</a>
+    <p>We recommend using the low-fi sticker sheet to create initial designs for any project. This allows stakeholders and designers to focus on the higher-level experience without getting mired in pixel-perfection.</p>
+    <a class="hxBtn hxSecondary" href="{{site.cdn_url}}/sketch/low-fi_helix_stickersheet_v0.1.sketch"><hx-icon type="download" style="margin-right:0.5rem;"></hx-icon> Download Low-Fi Sticker Sheet</a>
 </div>
 
 {% endcolumn %}
@@ -40,7 +41,7 @@ category: Resources
 
 <section class="static-section" markdown="1">
 
-## Online Tools
+### Online Tools
 
 <div class="hxRow"  markdown="1">
 
@@ -73,7 +74,7 @@ category: Resources
 
 <section class="static-section" markdown="1">
 
-## GitHub Repositories
+### GitHub Repositories
 
 <div class="hxRow"  markdown="1">
 

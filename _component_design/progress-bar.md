@@ -9,8 +9,9 @@ preview-image: preview-images/progress-bar.svg
 resource: true
 status: stable
 last-modified: 2018-04-26
-helix-ui-css: false
-helix-ui-javascript: false
+helix-ui-css: true
+helix-ui-javascript: true
+pagelink: https://rackerlabs.github.io/helix-ui/components/loaders/#progress-bar
 ---
 
 {% include toc.html %}
@@ -29,7 +30,7 @@ The minimal progress bar provides the user with a simple visual to ascertain the
 
 ### When to use
 
-Use anytime you want to simply convey the progress of a process. 
+Use anytime you want to simply convey the progress of a process.
 
 ### Best practice
 
@@ -135,7 +136,7 @@ The minimal progress bar does not have state changes itself. When it appears, it
 
 - **Contextual changes:** While processing, subdue the opacity of the surrounding elements to 60%, such as icons and text, so the user understands processing elements are in a transient state. Any buttons or controls that cannot be acted on should be hidden (if hiding is not an option, subdue them) until they can be acted on. Buttons or controls that **can** be acted on should remain at full opacity.
 
-- **Error states:** If an item has trouble loading, the progress bar itself does not convert to error state, but the pattern that the progress bar is a part of does. That pattern should follow our [text fields]({{site.baseurl}}/components/text-fields#states-overview) error state guidelines, which include presenting an error message with an error icon. From that error message, the user may choose to retry or eliminate the item processing.
+- **Error states:** If an item has trouble loading, the progress bar itself does not convert to error state, but the pattern that the progress bar is a part of does. That pattern should follow our [text input error state guidelines]({{site.baseurl}}/components/text-input.html#error), which include presenting an error message with an error icon. From that error message, the user may choose to retry or eliminate the item processing.
 
 - **Focus state:** As there is no action that can be taken directly on the progress bar, there is no focus state. Controls for actions on the progress bar, including but not limited to pausing or removal, should be indicated in that specific pattern outside the scope of the progress bar itself.
 

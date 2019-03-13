@@ -8,9 +8,10 @@ usage: >
 resource: true
 status: stable
 preview-image: preview-images/modal.svg
-last-modified: 2018-05-15
-helix-ui-css: false
-helix-ui-javascript: false
+last-modified: 2019-02-11
+helix-ui-css: true
+helix-ui-javascript: true
+pagelink: https://rackerlabs.github.io/helix-ui/components/modals/
 ---
 
 {% include toc.html %}
@@ -28,7 +29,9 @@ Use modals when you want to **focus the attention of the user** by obstructing t
 - The user **action is irreversible**, such as deleting a server or resetting an API key.
 - You want the user to **enter required information** before continuing to work in an application.
 
-Modals come in many forms, including alerts, login forms, and contact forms. Confirmation, acknowledgment, and educational modals are commonly-used modals.
+Confirmation, acknowledgment, and educational modals are commonly-used modals.
+
+Do not use a modal when you want the user to perform limited create, read, update, and delete (CRUD) operations. For limited CRUD operations, consider using a [popover]({{site.baseurl}}/components/popovers.html).
 
 {% endcolumn %}
 

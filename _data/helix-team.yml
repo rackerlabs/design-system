@@ -1,0 +1,23 @@
+User Experience:
+  - title: Manager
+    name: Andrew Raiford
+  - title: Lead Designer
+    name: Bart Renner
+  - title: Developer
+    name: Laura Santamaria
+Engineering:
+  - title: Project Manager
+    name: Mia Chung
+  - title: Lead Developer
+    name: Ryan Johnson
+  - title: Developer
+    name: Cathy Siller
+  - title: Developer
+    name: James Thompson
+Small:
+  - Information Development:
+    - title: Lead Information Developer
+      name: Christopher Moyer
+  - Product:
+    - title: Product Manager
+      name: Richard Goodwin

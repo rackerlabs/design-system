@@ -1,5 +1,5 @@
 {
   "dependencies": {
-    "helix-ui": "^0.5.0"
+    "helix-ui": "^0.15.0"
   }
 }

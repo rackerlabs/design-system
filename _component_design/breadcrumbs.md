@@ -4,43 +4,32 @@ parent: Navigation
 layout: component
 category: Components
 usage: >
-  Breadcrumbs are an inline visual representation of page relationships and hierarchy. They provide a user with visual reinforcement of the current location within the application hierarchy, and allow for quick movement up the hierarchy.
+  Breadcrumbs are a page navigation component that shows the user's current location within the hierarchy of a web. Breadcrumbs help with wayfinding and provide an easy way for the user to navigate to pages located up the application hierarchy.
 preview-image: preview-images/breadcrumbs.svg
 status: stable
 resource: true
-last-modified: 2017-11-14
+last-modified: 2019-02-06
 helix-ui-css: true
-helix-ui-javascript: false
+helix-ui-javascript: na
+pagelink: https://rackerlabs.github.io/helix-ui/components/breadcrumbs/
 ---
 
 {% include toc.html %}
 
 <section class="static-section" markdown="1">
 
-Use breadcrumbs on Rackspace sub-pages to let the user know where they are in the page hierarchy. Do not use breadcrumbs on the first layer of any multi-layered module, only use breadcrumbs on the second level of nesting and deeper within a module.
-
-</section>
-
-<section class="static-section" markdown="1">
-
-## Introduction
-
 <div class="hxRow"  markdown="1">
+
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-### When to use
+## When to use
 
-When using breadcrumbs, keep the following in mind:
+Use breadcrumbs when you want to improve web application wayfinding and navigation on sites that organize content hierarchically. This is particularly true of sites that use top navigation.
 
-- Keep the breadcrumbs brief and as minimal as possible.
-- Ensure the breadcrumbs go on the top of the page, above the header, and only show up on the second level of your app and deeper.
+Do not use breadcrumbs in the following cases:
 
-### Problems being solved
-
-Breadcrumbs offer a way to articulate the platform architecture in a way the user can understand. Breadcrumbs also aims to improve way-finding and navigation.
-
-- __Where am I? Way-finding:__ Breadcrumbs explain where a user is in the hierarchy of an application.
-- __How can I go upstream? Navigation:__ Breadcrumbs show the architecture of the application so that a user can escape out of their current view easily.
+- On single-level web applications that have no logical hierarchy or grouping.
+- In dual panel layouts. You can use breadcrumbs if the current page has a hierarchy above it.
 
 {% endcolumn %}
 
@@ -50,24 +39,25 @@ Breadcrumbs offer a way to articulate the platform architecture in a way the use
 
 <section class="static-section" markdown="1">
 
-## Standard breadcrumbs
-
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Specifications
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-- __Placement:__ Keep breadcrumbs above the major heading of the page, 8px from the eyebrow. The container for breadcrumbs will always live on the top left corner of the page when it is present. Make sure the breadcrumb container is 16px above the content on the top of the page.
-- __Container & Spacing:__ The breadcrumbs container is 28px tall and full-page wide if it needs to be. We recommend shortening measures below. Breadcrumbs are in all caps with arrow icons in `gray 600` in-between.
-- __Alignment:__ Breadcrumbs should be left aligned to the left-most content on the page as noted in [Layout]({{site.baseurl}}/layout/page-layouts.html).
+## Best practices
+
+Consider the following best practices when you construct breadcrumbs:
+
+- Place the breadcrumbs at the top of the page, above the header.
+- Only use breadcrumbs on the second level and lower of a multilayered application. Do use breadcrumbs on the top level of a multilayered application.
+- Before you incorporate breadcrumbs, consider whether you should reserve space on the top-level page so that content does not jump around as the user navigates from page to page.
+- Label the breadcrumb to match the page title to which it navigates.
+- Use title-case capitalization to label the breadcrumbs. For more information about page titles, see [Capitalization]({{site.baseurl}}\style\capitalization.html#title-style-capitalization).
+- Show a maximum of four breadcrumbs.
+- Show the top hierarchical level as the first breadcrumb. Show the current location as the last breadcrumb. Use a middle breadcrumb to show one level above the current location.
+- If the page title is too long, use a shortened or [truncated]({{site.baseurl}}/style/punctuation.html#ellipses) version of the page title. For example, instead of **Billing Overview**, use **Overview**. Shorter labels conserve horizontal space.
 
 {% endcolumn %}
 
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-{% figure [caption:"Detailed specifications for breadcrumbs."] [class:"image bg-light border"] %}
-<embed src="{{site.baseurl}}/assets/images/components/navigation/bread-crumbs/standard-bc.svg"/>
-{% endfigure %}
-{% endcolumn %}
 </div>
 
 </section>
@@ -75,19 +65,15 @@ Breadcrumbs offer a way to articulate the platform architecture in a way the use
 <section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Naming and Abbreviations
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-- Ensure the items in the breadcrumbs have the same name as the page it navigates to. If the page title is longer than necessary, use shortened variations of the title. For example, instead of `Billing overview`, use `Overview`.
+## Specifications
+
+Use the following specifications when you construct breadcrumbs.
 
 {% endcolumn %}
 
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-{% figure [caption:"As depicted, limit your breadcrumb item name."] [class:"image bg-light border"] %}
-<embed src="{{site.baseurl}}/assets/images/components/navigation/bread-crumbs/name-abbrev.svg"/>
-{% endfigure %}
-{% endcolumn %}
 </div>
 
 </section>
@@ -95,20 +81,127 @@ Breadcrumbs offer a way to articulate the platform architecture in a way the use
 <section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
+
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Too many items
+### Composition
 
-- __What to Keep:__ Keep the first item in the architecture so it is easy to navigate, re-orientate, and return to home. Keep the last three items in the architecture, including the current page. The ellipses are not clickable or expandable.
-- __Still too long?:__ We recommend only including the last two items in the architecture, inclusive of the current page.
+Breadcrumbs contain the following elements:
+
+- **Root (required)**: The breadcrumb that links to the top level of the application.
+- **Parent (required, if applicable)**: The breadcrumb that links to the page one level up from the user's current location.
+- **Child (required)**: The breadcrumb that shows the user's current location.
+- **Delimiter (required)**: The delimiter that separates the breadcrumbs.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-{% figure [caption:"Jumping the Crumb. We put the ellipses here instead of an arrow, same spacing guidelines."] [class:"image bg-light border"] %}
-<embed src="{{site.baseurl}}/assets/images/components/navigation/bread-crumbs/to-many.svg"/>
+
+{% figure [caption:"Breadcrumb composition"] [class:"image bg-light border"] %}
+<embed src="{{site.baseurl}}/assets/images/components/navigation/breadcrumbs/breadcrumbs-composition.png" width="301"/>
+
 {% endfigure %}
+
 {% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+### Style
+
+Use these specifications when you construct breadcrumbs.
+
+For more information about styling links, refer to [Typography]({{site.baseurl}}/style/typography.html#link).
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"Breadcrumb style"] [class:"image bg-light border"] %}
+
+<embed src="{{site.baseurl}}/assets/images/components/navigation/breadcrumbs/breadcrumbs-style.png" width="390"/>
+
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+### Spacing
+
+Place breadcrumbs above the page header, 8px from the eyebrow. Add an 8px space between a breadcrumb item and the angle-right icon.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"Breadcrumb spacing"] [class:"image bg-light border"] %}
+
+<embed src="{{site.baseurl}}/assets/images/components/navigation/breadcrumbs/breadcrumbs-spacing.png" width="641"/>
+
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+## States
+
+Breadcrumbs can exist in **default**, **hover**, or **current page** states.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"Breadcrumb states"] [class:"image bg-light border"] %}
+
+<embed src="{{site.baseurl}}/assets/images/components/navigation/breadcrumbs/breadcrumbs-states.png" width="304"/>
+
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+### Too long
+
+We recognize that there can be cases when the trail of breadcrumbs is too long and takes up too much horizontal space. However, a fully responsive solution is not yet available. We will update this documentation when a solution is available.
+
+In the meantime, you can shorten or truncate breadcrumb labels as a way to save space. See [Ellipses]({{site.baseurl}}/style/punctuation.html#ellipses) for guidance about truncating text.
+
+{% endcolumn %}
+
 </div>
 
 </section>

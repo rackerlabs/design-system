@@ -10,7 +10,8 @@ resource: true
 status: stable
 last-modified: 2018-05-07
 helix-ui-css: true
-helix-ui-javascript: true
+helix-ui-javascript: na
+pagelink: https://rackerlabs.github.io/helix-ui/components/lists/#description-list
 ---
 
 {% include toc.html %}

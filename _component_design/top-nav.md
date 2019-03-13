@@ -8,8 +8,9 @@ usage: >
 preview-image: preview-images/top-nav.svg
 status: stable
 resource: true
-helix-ui-css: true
-helix-ui-javascript: true
+helix-ui-css: false
+helix-ui-javascript: false
+helix-ui-note: Implemented by Pilot
 last-modified: 2017-12-11
 ---
 
@@ -31,7 +32,7 @@ For additional flexibility, you can use top navigation elements. However, applic
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:""] [class:"image bg-light border"] %}
-<embed src="{{site.cdn_url}}/img/layout/navigation-top.svg"/>
+<embed src="{{site.url}}/assets/images/components/navigation/top-nav/top-nav.png"/>
 {% endfigure %}
 {% endcolumn %}
 </div>

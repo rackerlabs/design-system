@@ -2,12 +2,7 @@
 # yarn lockfile v1
 
 
-"@webcomponents/webcomponentsjs@^1.1.0":
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/@webcomponents/webcomponentsjs/-/webcomponentsjs-1.1.1.tgz#50caffdf8a901e5357532b7d85e776637a56446a"
-
-helix-ui@^0.5.0:
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/helix-ui/-/helix-ui-0.5.0.tgz#2a878bc24ae0aff2d77ac2a89dd28df401269c9f"
-  dependencies:
-    "@webcomponents/webcomponentsjs" "^1.1.0"
+helix-ui@^0.15.0:
+  version "0.15.0"
+  resolved "https://registry.yarnpkg.com/helix-ui/-/helix-ui-0.15.0.tgz#e2154cba6ead7852892428234e1eada413156f40"
+  integrity sha512-J5b9Ah2nCNuCf6yLhyoIj7+vnMmxvsI9T3SwG0SbNkjVsmPjJnleV+eAtB9hwbE/+9nlSC+s4OatMuo8CFIwUQ==

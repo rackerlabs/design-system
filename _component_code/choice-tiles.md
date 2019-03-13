@@ -1,8 +1,8 @@
 ---
-title: Choice Tiles
+title: Option Tiles
 layout: code
 category: Components Code
-code: null
+code: components/option-tiles
 ---
 
-{% include todo.html content="Set up code." %}
+{% include code-container.html %}

@@ -4,39 +4,154 @@ parent: Inputs and Controls
 layout: component
 category: Components
 usage: >
-  Checkboxes are used to change settings or bulk item selection. Checkboxes allow the user to select zero, one, or several items.
+  A checkbox is a square box on a control panel page that a user can select to indicate an answer to a question or to enable a setting. You can construct a checkbox group or a single checkbox.
 preview-image: preview-images/checkboxes.svg
 resource: true
 status: stable
 need: selectors
-last-modified: 2018-01-04
+last-modified: 2018-07-25
 helix-ui-css: true
 helix-ui-javascript: true
+pagelink: https://rackerlabs.github.io/helix-ui/components/checkboxes/
 ---
 
 {% include toc.html %}
 
 <section class="static-section" markdown="1">
 
-## Introduction
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+## When to use
+
+Use checkboxes in the following situations:
+
+- When the user needs to answer a question or wants to change a control panel setting. Do not use a checkbox to trigger another process or workflow.
+- When the user can select any number of choices, including zero, one, or several choices. If a user can only select one option, use a radio or a drop-down selector.
+- When the user can turn on or turn off a single option. For example, use a single checkbox when a user accepts the terms of an End User License Agreement (EULA).
+- When it is important for the user to compare all options simultaneously. If it is not important for the user to compare all options at the same time, consider using a drop-down selector. A drop-down selector uses less space than a checkbox group (but introduces greater cognitive load), and is more difficult to navigate for users who have difficulty making precise mouse movements.
+- When the user needs to select an object in a table row and then use a control to act on that item.
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+## Best practices
+
+Consider using the following best practices when you construct a checkbox group or single checkbox:
+
+- List checkbox options vertically, with one choice per line. If you must use a horizontal layout, consider using a selector strip.
+- Construct a checkbox input so that it is independent from all other inputs in the list. A selected checkbox does not deselect any other checkboxes.
+- When you want to enable the user to select or deselect all visible checkboxes in a list, use a header checkbox that, when selected, also selects all checkboxes in the list.
+- In most cases, there is no default checkbox selected. However, if Rackspace recommends an option, make that option the default selection.
+
+Consider the following best practices when you label a checkbox option:
+
+- Use positive and active wording for option labels. Avoid negations such as **Don't send me more email**. Negative option labels indicate that the user must select the checkbox in order for something *to not happen*.
+- Write an option label so that a user understands what happens when the checkbox is selected, and what will *not* happen if the checkbox is *not* selected. If you can't write a clear label, use two radios instead: one radio for turning the feature on and one radio for turning the feature off. Ensure that you write clear labels for each of the two cases.
+
+{% include note.html content="Allow users to select an option by clicking on the checkbox or the option label. A larger target is easier to click." %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+## Specifications
+
+Refer to the following specifications when you construct a checkbox.
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### When to use checkboxes
+### Composition
 
-- You can use checkable input to select any number of options, including zero, one, or several.
-- Use when selecting multiple items from a set, it is important for the user to view all options at once. If viewing items side by side is not important, consider a drop-down as it uses less space.
-- Use a stand-alone checkbox for single options that the user can turn on or off.
-- If there are multiple choices and only one option can be selected, use a radio button or drop-down list.
+A checkbox contains the following elements:
+
+- **Field name (optional)**: The field name represents the question being asked of the user, or a system setting that the user can configure. Use a field name to group checkboxes. A checkbox group contains pairs of checkboxes and option labels.
+- **Option label (required)**: The option label indicates the user's answer to the question asked or the setting the user is enabling.
+- **Help text (optional)**: Use help text to provide the user with information about a checkbox option.
+- **Checkbox (required)**: The user selects or deselects the checkbox.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [The checkbox component] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-hero.png" width="1440"/>
+{% figure [caption:"Checkbox composition"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkboxes-composition.png" width="259"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+### Style
+
+Use these specifications when you construct a checkbox.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"Checkbox style"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkboxes-style.png" width="366"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow"  markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+### Spacing
+
+Refer to these spacing guidelines when you construct a checkbox group or a single checkbox.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"Checkbox spacing"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkboxes-spacing.png" width="190"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -51,25 +166,9 @@ helix-ui-javascript: true
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-### Best practices for checkboxes
+## States
 
-- Each input is independent of all other input in the list, and checking one box does not uncheck the others.
-- Use singular input to enable or disable a feature, or use in place of two yes and no radio buttons.
-- Use checkboxes and radio buttons only to change settings, not as action buttons that trigger another process or workflow.
-- Typically, checkboxes default to having no options selected. However, if Rackspace recommends an option, make that the default.
-
-### Presentation for checkboxes
-
-If possible, use checkboxes rather than multi-select drop-down menus. Checkboxes have lower cognitive load and are easier to operate for users who have difficulty making precise mouse movements. Limited space can force you to violate this guideline, but do try to keep choices visible whenever possible.
-
-### Problems solved by checkboxes
-
-Checkboxes allow users to make selections in a form, as follows:
-
-- A checkbox list enables users to select one or more items while being able to visually compare them all at once.
-- A singular checkbox enables them to enable or disable a feature.
-
-When a user needs to manage a group of items, checkboxes may be added to a list to allow for bulk actions.
+A checkbox can exist in **enabled**, **disabled**, **error**, **group error**, and **group required** states.
 
 {% endcolumn %}
 
@@ -79,29 +178,22 @@ When a user needs to manage a group of items, checkboxes may be added to a list 
 
 <section class="static-section" markdown="1">
 
-## Specifications
-
 <div class="hxRow"  markdown="1">
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Default layout
+### Enabled
 
-A checkbox group consists of a section label followed by pairs of checkboxes and checkbox labels.
+A user can select or deselect a checkbox in the enabled state.
 
-#### Labeling checkboxes
-
-- Use positive and active wording for checkbox labels. Avoid negations such as "Don't send me more email". Negative labels on checkboxes would mean that the user would have to check the box in order for something not to happen.
-- Write checkbox labels so that users know both what will happen if they check a particular box and what will happen if they leave it unchecked. If you are unable to do this, we recommend using two radio buttons: one for having the feature on and one for having it off. Ensure you write clear labels for each of the two cases.
-
-{% include note.html content="Allow users to select an option by clicking on either the button, the box itself, or the label; a bigger target is faster to click." %}
+See [focus states]({{site.baseurl}}/style/focus-states.html) for guidance in constructing focused checkboxes in an enabled state.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Checkbox group composition and specifications"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-default.svg"/>
+{% figure [caption:"Enabled state"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkboxes-states-enabled.png" width="398"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -116,18 +208,16 @@ A checkbox group consists of a section label followed by pairs of checkboxes and
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Checkbox group specifications
+### Disabled
 
-- Visually present groups, and clearly separate the choices from other groups on the same page.
-- With sub-heads, users might misunderstand each sub-group as a separate set of options. With checkboxes, each box is an independent choice.
-- Lay out your lists vertically, with one choice per line. If you must use a horizontal layout, consider using a checkbox button group instead.
+A user can't select or deselect a checkbox in the disabled state. In the disabled state, the checkbox is locked and cannot be changed.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Checkbox group spacing"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-group-image.svg"/>
+{% figure [caption:"Disabled state"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkboxes-states-disabled.png" width="439"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -142,20 +232,18 @@ A checkbox group consists of a section label followed by pairs of checkboxes and
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### States
+### Error
 
-The checkbox component may be in the following states:
+An error state can apply to checkboxes when the user selects, deselects, and hovers over a checkbox.
 
-- Selected
-- Deselected
-- Indeterminate
+See [focus states]({{site.baseurl}}/style/focus-states.html) for guidance in constructing focused checkboxes in an error state.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Checkbox states"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-states-image.png"/>
+{% figure [caption:"Error state"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkboxes-states-error.png" width="432"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -170,16 +258,16 @@ The checkbox component may be in the following states:
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-#### Required group
+### Group checkbox error
 
-Use a red asterisk to designate that a selection is required for a group of checkboxes. The label should remain in vertical alignment. The asterisk floats to the left of the text in the margin and is vertically aligned with the text.
+In the case of a group checkbox error, include an error message below the checkbox group and highlight the input that the user must change. Don’t highlight all checkboxes in an error group.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Designating a required checkbox field"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-required-group-image.svg"/>
+{% figure [caption:"Group error state"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkboxes-states-error-group.png" width="432"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -194,16 +282,16 @@ Use a red asterisk to designate that a selection is required for a group of chec
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-#### Group with an error
+### Required group
 
-In the case of an error, always include an error message below the checkbox group. Only highlight the input that must be changed. For example, don’t highlight all checkboxes in an error group.
+Use a red asterisk to designate that a selection is required for a checkbox group. The asterisk floats to the left of the text in the margin and is vertically aligned with the text.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Error states"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-group-with-error-image.svg"/>
+{% figure [caption:"Group error state"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkboxes-states-error-required.png" width="328"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -218,17 +306,16 @@ In the case of an error, always include an error message below the checkbox grou
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-#### Indeterminate
+## Indeterminate checkboxes
 
-The indeterminate state is only used with bulk selections to indicate that one or more, but not all options, have been selected. Refer to the [tables]({{site.baseurl}}/components/tables.html) page for more information.
+Use an indeterminate state only in table header checkbox. An indeterminate checkbox indicates that the user has selected one or more, but not all, of the child checkboxes in the table. See  [tables]({{site.baseurl}}/components/tables.html) for more information about checkboxes in tables.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"When selecting multiple items from a table, an indeterminate
- checkbox may be used to show that several, but not all, items are selected."] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkbox-indeterminate-image.svg"/>
+{% figure [caption:"Indeterminate state"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/checkboxes/checkboxes-states-indeterminate.png" width="612"/>
 {% endfigure %}
 
 {% endcolumn %}
