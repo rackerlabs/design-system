@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/date-selector.svg
 status: stable
 resource: true
-last-modified: 2019-03-07
+last-modified: 2019-03-13
 helix-ui-css: false
 helix-ui-javascript: false
 ---
