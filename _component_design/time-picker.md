@@ -3,7 +3,7 @@ title: Time Picker
 parent: Inputs and Controls
 layout: component
 category: Components
-usage: The time picker enables users to select a specific time or window from a sequential list. The time picker is often accompanied by a date picker for the purpose of creating a date range filter.
+usage: The time picker enables users to select a specific time or window from a sequential list. The time picker is often accompanied by a date selector for the purpose of creating a date range filter.
 preview-image: preview-images/time-picker.svg
 resource: true
 status: stable
