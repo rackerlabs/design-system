@@ -28,7 +28,6 @@ Use a date selector in the following scenarios:
 - When the date is close to the present time, for example, within a year. A date that is too far in the past or the future requires the user to scroll through many months or years to get to the correct value.
 - When the user knows the day of the week, but does not know the date.
 - When you want to reduce date-related data entry errors.
-- When the application is used by an international audience and you want to standardize the date format. For example, 06/01/2018 is a valid date, but can be interpreted as either June 1, 2018 or January 6, 2018.  
 
 {% endcolumn %}
 
@@ -48,7 +47,7 @@ Consider the following best practices when you construct a date selector:
 
 - Pair the date selector pattern with data sets that extend across a time period to allow users to select the currently viewed data.
 - When the user triggers the date selector, it should default to the current month and year, and the current date should be highlighted.
-- After the user has selected a date, spell out the name of the month in the date field. For example, use 03-Jan-2019 and not 03/01/2019.
+- Use the ISO 8601 `yyyy-mm-dd` format to display the date. For example, display **November 10, 2019** as **2019-11-10**.
 
 {% endcolumn %}
 
