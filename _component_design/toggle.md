@@ -8,10 +8,9 @@ usage: >
 preview-image: preview-images/toggles.svg
 status: stable
 resource: true
-last-modified: 2019-03-13
-helix-ui-css: true
-helix-ui-javascript: true
-pagelink: https://rackerlabs.github.io/helix-ui/components/toogle/
+last-modified: 2019-03-14
+helix-ui-css: false
+helix-ui-javascript: false
 ---
 
 {% include toc.html %}
