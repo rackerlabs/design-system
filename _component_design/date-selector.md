@@ -201,6 +201,8 @@ Use these spacing guidelines when you construct a date selector.
 
 Ensure that the date selector supports the following user interaction behaviors.
 
+**Note**: The start date receives focus when the user tabs onto it. Complete keyboard accessibility guidelines are forthcoming.
+
 {% endcolumn %}
 
 </div>
