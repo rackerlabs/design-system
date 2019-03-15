@@ -266,7 +266,7 @@ Use a 24px line height in paragraphs that contain 16px font text. Add 16px spaci
 
 ## Component spacing
 
-Components such as buttons, text inputs, and date selector are often placed beside each other on a control panel page. The Helix spacing system uses multiples of 4px as the baseline spacing value.
+Components such as buttons, text inputs, and date selectors are often placed beside each other on a control panel page. The Helix spacing system uses multiples of 4px as the baseline spacing value.
 
 {% endcolumn %}
 

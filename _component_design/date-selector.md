@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/date-selector.svg
 status: stable
 resource: true
-last-modified: 2019-03-13
+last-modified: 2019-03-15
 helix-ui-css: false
 helix-ui-javascript: false
 ---
@@ -201,7 +201,7 @@ Use these spacing guidelines when you construct a date selector.
 
 Ensure that the date selector supports the following user interaction behaviors.
 
-**Note**: The start date receives focus when the user tabs onto it. Complete keyboard accessibility guidelines are forthcoming.
+**Note**: The start date receives focus when the user tabs onto it. Complete keyboard accessibility guidelines are coming soon.
 
 {% endcolumn %}
 
@@ -243,7 +243,7 @@ In the default state, the date selector is closed.
 
 The date selector opens when the user clicks the date input field.
 
-Use the hover state when the user hovers over a date or a month navigation arrow. Hovering over the arrows indicates that they user can go back in time or ahead in time. Each date in the selector has a hover state, but only one date can be selected.
+Use the hover state when the user hovers over a date or a month navigation arrow. Hovering over the arrows indicates that the user can go back in time or ahead in time. Each date in the selector has a hover state, but only one date can be selected.
 
 Subdue dates shown that belong to the previous or next months. The calendar switches to the next or previous month when the user clicks a subdued date, however, the date is not selected. The month must be active in order for the user to select it.
 
@@ -269,7 +269,7 @@ Subdue dates shown that belong to the previous or next months. The calendar swit
 
 #### Selection made
 
-The user can manually enter a date in the date text field, or select a date from the date selector. When the user selects a date, the date populates the date text field and the date selector closes.
+The user can manually enter a date in the date text field or select a date from the date selector. When the user selects a date, the date populates the date text field, and the date selector closes.
 
 If the calendar includes an **End Date** field, populate the **End Date** with the **Start Date**. This action creates a mandatory minimum date.
 

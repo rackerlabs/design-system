@@ -7,7 +7,7 @@ usage: The time picker enables users to select a specific time or window from a 
 preview-image: preview-images/time-picker.svg
 resource: true
 status: stable
-last-modified: 2017-10-24
+last-modified: 2019-03-15
 helix-ui-css: false
 helix-ui-javascript: false
 ---
@@ -24,13 +24,13 @@ helix-ui-javascript: false
 
 ### When to use
 
-Use the time picker if the list of times are sequential, such as 9 a.m., 10 a.m., 11 a.m., and so on.
+Use the time picker if the list of times are sequential, such as 9 AM, 10 AM, 11 AM, and so on.
 
-Do not use the time picker if there are gaps between time options. For example, if 9 a.m., 12 p.m., and 3 p.m. are the options, use radio buttons.
+Do not use the time picker if there are gaps between time options. For example, if 9 AM, 12 PM, and 3 PM are the options, use radio buttons.
 
 ### Best practices
 
-- Times in a list should be incremental, usually by every 30 minutes or 1 hour, but 10- or 15-minute increments may be used depending on the use case.
+- Times in a list should be incremental, usually by every 30 minutes or 1 hour, but 10- or 15-minute increments might be used depending on the use case.
 
 {% endcolumn %}
 
@@ -83,17 +83,17 @@ Do not use the time picker if there are gaps between time options. For example, 
 
 #### Predictive behavior
 
-- When the user enters a number on the keypad, the menu will jump to that number.
-- For example, if the user types “7”, 7:00 p.m. will be scrolled to the top of the menu.
+- When the user enters a number on the keypad, the menu jumps to that number.
+- For example, if the user types “7”, 7:00 PM scrolls to the top of the menu.
 
 #### Default time shown
 
-- The default times shown in the drop-down menu start at 12:00 p.m.
+- The default times shown in the drop-down menu start at 12:00 PM.
 - If specific times are available, the earliest one would show first, chronologically followed by later times.
 
 #### Default number of visible items
 
-- The number of items visible in the menu is four, unless the use case requires otherwise
+- The number of items visible in the menu is four, unless the use case requires otherwise.
 
 {% endcolumn %}
 
@@ -143,7 +143,7 @@ Do not use the time picker if there are gaps between time options. For example, 
 ### Idle and disabled
 
 - After the user has selected the time and shifted focus away, the time picker adopts its default state.
-- When disabled, the contents of the picker cannot be modified or triggered. Consider adding help text describing why the picker is disabled.
+- When disabled, the user cannot modify or trigger the contents of the picker. Consider adding help text describing why the picker is disabled.
 
 {% endcolumn %}
 
