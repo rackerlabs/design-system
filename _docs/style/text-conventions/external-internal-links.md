@@ -32,6 +32,8 @@ When a link opens a tab:
 - Use the external link icon to visually indicate to the user that a new tab opens.
 - Navigate the user to the new tab. Users should also be able to left-click a link and open a tab without directly navigating to that tab.
 
+See [Typography]({{site.baseurl}}/style/typography.html#link) for information about styling links.
+
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-6-md hxSpan-6-lg" %}
