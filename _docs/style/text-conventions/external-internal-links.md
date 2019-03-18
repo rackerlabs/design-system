@@ -7,7 +7,7 @@ usage: |
   Use these guidelines when you construct links to external or internal content.
 resource: false
 status: complete
-last-modified: 2019-03-15
+last-modified: 2019-03-18
 ---
 
 {% include toc.html %}
@@ -20,9 +20,9 @@ last-modified: 2019-03-15
 
 ## General guidelines
 
-When you add links from a control page to internal or external content, consider the user's context and information needs when deciding whether to open the contents of a link in the current tab, or in another tab.
+Use the [links style]({{site.baseurl}}/style/typography.html#link) for control panel page links. Use internal links for navigation. Consider the user's context and information needs when you decide how links should behave.
 
-We recommend that you not open a tab unless it is warranted. User experience is compromised when a new tab opens unnecessarily.
+We recommend that the link does not open a tab unless it is warranted. User experience is compromised when a new tab opens unnecessarily.
 
 - If a link provides supplemental information that is useful to the user in completing the current workflow, and the user expects to return to the current tab, consider opening the content in another tab. For example, open help documentation in another tab.
 - If the user wants to change contexts, then open the content in the current tab. For example, when the user wants to navigate to a different area of the application, open the link in the current tab.
@@ -32,7 +32,7 @@ When a link opens a tab:
 - Use the external link icon to visually indicate to the user that a new tab opens.
 - Navigate the user to the new tab. Users should also be able to left-click a link and open a tab without directly navigating to that tab.
 
-See [Typography]({{site.baseurl}}/style/typography.html#link) for information about styling links.
+**Note**: When the link navigates to a new domain, include an external link icon, even if the link opens in a new tab.
 
 {% endcolumn %}
 
