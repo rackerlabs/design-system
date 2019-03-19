@@ -22,14 +22,14 @@ last-modified: 2019-03-18
 
 Use the [links style]({{site.baseurl}}/style/typography.html#link) for control panel page links. Use internal links for navigation. Consider the user's context and information needs when you decide how links should behave.
 
-We recommend that the link does not open a tab unless it is warranted. User experience is compromised when a new tab opens unnecessarily.
+We recommend that the link does not open a tab unless it is warranted. Opening a new tab unnecessarily compromises user experience. The following examples might help you decide when to open a tab:
 
 - If a link provides supplemental information that is useful to the user in completing the current workflow, and the user expects to return to the current tab, consider opening the content in another tab. For example, open help documentation in another tab.
 - If the user wants to change contexts, then open the content in the current tab. For example, when the user wants to navigate to a different area of the application, open the link in the current tab.
 
-When a link opens a tab:
+When a link opens a tab, use the following actions to help the user:
 
-- Use the external link icon to visually indicate to the user that a new tab opens.
+- Use the external link icon to indicate visually to the user that a new tab opens.
 - Navigate the user to the new tab. Users should also be able to left-click a link and open a tab without directly navigating to that tab.
 
 **Note**: When the link navigates to a new domain, include an external link icon, even if the link opens in a new tab.
