@@ -24,9 +24,10 @@
           {%- endif -%}
         {%- endfor -%}
       {%- elsif currentNav == "components" -%}
-        {%- for famItem in site.data.families -%}
-          {%- assign currentFam = famItem.parent | slugify -%}
-          <a href="{{site.url}}/components/{{currentFam}}.html" {%- if currenturl contains currentFam -%} class="current"{%- elsif page.parent contains famItem.parent -%} class="current"{%- elsif itemparent contains famItem.parent -%} class="current"{%- endif -%} id="{{currentFam}}">{{famItem.display}}</a>
+        {%- for article in site.component_design -%}
+          {%- if article.resource -%}
+            <a href="{{site.url}}{{article.url}}.html" {%- if currenturl contains article.url -%} class="current" {%- endif -%}>{{article.title}}</a>
+          {%- endif -%}
         {%- endfor -%}
       {%- else -%}
         {%- for collection in site.collections -%}
