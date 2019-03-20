@@ -7,7 +7,7 @@ usage: |
   Use these guidelines when you construct links to external or internal content.
 resource: false
 status: complete
-last-modified: 2019-03-18
+last-modified: 2019-03-20
 ---
 
 {% include toc.html %}
@@ -20,12 +20,13 @@ last-modified: 2019-03-18
 
 ## General guidelines
 
-Use the [links style]({{site.baseurl}}/style/typography.html#link) for control panel page links. Use internal links for navigation. Consider the user's context and information needs when you decide how links should behave.
+Use the [links style]({{site.baseurl}}/style/typography.html#link) for control panel page links. Only use internal links for navigation. Consider the user's context and information needs when you decide whether a link should open in the current tab or a new tab.
 
-We recommend that the link does not open a tab unless it is warranted. Opening a new tab unnecessarily compromises user experience. The following examples might help you decide when to open a tab:
+We recommend that the link does not open a tab unless it is warranted. Opening a new tab forces a significant context switch which may unnecessarily compromise user experience. The following examples might help you decide when to open a tab:
 
-- If a link provides supplemental information that is useful to the user in completing the current workflow, and the user expects to return to the current tab, consider opening the content in another tab. For example, open help documentation in another tab.
+- If a link provides supplemental information that is useful to the user in completing the current workflow, and the user expects to return to the original tab to keep working, consider opening the content in another tab. For example, open help documentation in another tab.
 - If the user wants to change contexts, then open the content in the current tab. For example, when the user wants to navigate to a different area of the application, open the link in the current tab.
+- Use an external link icon when the user navigates to a different domain within the same tab.
 
 When a link opens a tab, use the following actions to help the user:
 
