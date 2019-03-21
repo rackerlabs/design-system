@@ -1,5 +1,5 @@
 ---
-title: Select filter
+title: Filters
 parent: Search and Filters
 layout: component
 category: Components
