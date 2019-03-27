@@ -5,7 +5,7 @@ parent: Text Conventions
 category: Style
 usage: |
   Use these guidelines when you construct links to external or internal content.
-resource: false
+resource: true
 status: complete
 last-modified: 2019-03-20
 ---
