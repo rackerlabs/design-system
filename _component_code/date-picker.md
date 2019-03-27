@@ -1,5 +1,5 @@
 ---
-title: Date Picker
+title: Date Selector
 layout: code
 category: Components Code
 code: null
