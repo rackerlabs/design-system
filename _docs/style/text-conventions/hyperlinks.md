@@ -1,11 +1,11 @@
 ---
-title: External and Internal Link Guidelines
+title: Hyperlinks
 layout: docs
 parent: Text Conventions
 category: Style
 usage: |
   Use these guidelines when you construct links to external or internal content.
-resource: true
+resource: false
 status: complete
 last-modified: 2019-03-20
 ---

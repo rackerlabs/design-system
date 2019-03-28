@@ -1,5 +1,5 @@
 ---
-title: Alert and Message Guidelines
+title: Alerts and Messages
 layout: docs
 parent: Text Conventions
 category: Style
