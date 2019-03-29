@@ -33,7 +33,7 @@ When a link opens a tab, use the following actions to help the user:
 - Use the external link icon to indicate visually to the user that a new tab opens.
 - Navigate the user to the new tab. Users should also be able to left-click a link and open a tab without directly navigating to that tab.
 
-**Note**: When the link navigates to a new domain, include an external link icon, even if the link opens in a new tab.
+**Note**: When the link navigates to a new domain, include an external link icon, regardless of whether the link opens in a new tab.
 
 {% endcolumn %}
 
