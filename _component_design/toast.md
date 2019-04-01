@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/toast.svg
 status: stable
 resource: true
-last-modified: 2019-02-08
+last-modified: 2019-04-01
 helix-ui-css: true
 helix-ui-javascript: true
 pagelink: https://rackerlabs.github.io/helix-ui/components/toasts/
