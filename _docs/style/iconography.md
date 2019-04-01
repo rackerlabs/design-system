@@ -207,66 +207,9 @@ The following icons should only be used for indicating keyboard commands. Avoid 
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-12-md hxSpan-12-lg" %}
 
-In addition to the icons provided by Helix, designers may also require access to Rackspace brand assets while creating an interface. These assets cannot be stored within a public github repository for legal reasons. These assets instead will need to be sourced from their official CDN link.
+In addition to the icons provided by Helix, Rackspace designers may also require access to Rackspace brand assets while creating an interface. These assets cannot be stored within a public GitHub repository for legal reasons. These assets instead will need to be sourced from their official CDN link. For more information, [contact us on Slack]({{site.baseurl}}/contact-us#how-to-contact-us).
 
-Rackspace US, Inc. retains copyright and/or applicable rights to all text and graphic images supplied on the Rackspace websites. For additional information see [Copyrights & Trademarks](https://www.rackspace.com/information/legal/copyrights_trademarks)
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section"  markdown="1">
-
-<div class="hxRow" markdown="1">
-
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-<!-- Do not use the embed tag on this image when we refactor SVGs -->
-{% figure [caption: "<a target='_blank' href='http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/fanatiguy-black.svg'>Fanatiguy - Black</a>"][class:"image bg-light border"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/fanatiguy-black.svg){:width="100px"}
-{% endfigure %}
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-<!-- Do not use the embed tag on this image when we refactor SVGs -->
-{% figure [caption: "<a target='_blank' href='http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/fanatiguy-color.svg'>Fanatiguy - Color</a>"][class:"image bg-light border"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/fanatiguy-color.svg){:width="100px"}
-{% endfigure %}
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-<!-- Do not use the embed tag on this image when we refactor SVGs -->
-{% figure [caption: "<a target='_blank' href='http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/fanatiguy-white.svg'>Fanatiguy - White</a>"][class:"image bg-dark border"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/fanatiguy-white.svg){:width="100px"}
-{% endfigure %}
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-<!-- Do not use the embed tag on this image when we refactor SVGs -->
-{% figure [caption:"<a target='_blank' href='http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/corporate-logo-black.svg'>Rackspace logo - Black</a>"][class:"image bg-light border"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/corporate-logo-black.svg){:width="286px"}
-{% endfigure %}
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-<!-- Do not use the embed tag on this image when we refactor SVGs -->
-{% figure [caption:"<a target='_blank' href='http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/corporate-logo-color.svg'>Rackspace logo - Color</a>"][class:"image bg-light border"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/corporate-logo-color.svg){:width="286px"}
-{% endfigure %}
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-<!-- Do not use the embed tag on this image when we refactor SVGs -->
-{% figure [caption:"<a target='_blank' href='http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/corporate-logo-white.svg'>Rackspace logo - White</a>"][class:"image bg-dark border"] %}
-![](http://c1ee333499ed5f44e56a-fa12562cfe810d69bedcc36a0ac289ef.r55.cf1.rackcdn.com/img/corporate-logo-white.svg){:width="286px"}
-{% endfigure %}
+Rackspace US, Inc., retains copyright and/or applicable rights to all text and graphic images supplied on the Rackspace websites. For additional information, see [Copyrights & Trademarks](https://www.rackspace.com/information/legal/copyrights_trademarks).
 
 {% endcolumn %}
 
