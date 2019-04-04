@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/badges.svg
 resource: true
 status: stable
-last-modified: 2019-02-05
+last-modified: 2019-04-04
 helix-ui-css: true
 helix-ui-javascript: na
 pagelink: https://rackerlabs.github.io/helix-ui/components/badges/
@@ -82,16 +82,15 @@ Use the following specifications when you construct badges.
 
 A badge contains the following elements:
 
-- **Container?? (required)**: xxxxx
-- **Number (optional)**: xxxxx
-- **Icon (optional)**: xxxxx
+- **Number (required)**: The number represents the amount of new items available for the user to acknowledge.
+- **Icon (optional)**: Use an icon when you want to visually indicate the type of activity the badge represents. For example, use a bell icon to represent alerts.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Badge composition"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/notifications/badges/badges-icon.png" width="533"/>
+<embed src="{{site.url}}/assets/images/components/notifications/badges/badges-composition.png" width="203"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -108,19 +107,16 @@ A badge contains the following elements:
 
 ### Style
 
-This visual to include:
+In most cases, use a standard size badge. Use a small badge in a highly compact context.
 
-- Regular badge
-- Small badge - to be used in highly compact context.
-- Double-digit badge
-- Over set limit badge
+Use these specifications when you construct badges.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Badge style"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/notifications/badges/badges-icon.png" width="533"/>
+<embed src="{{site.url}}/assets/images/components/notifications/badges/badges-style.png" width="277"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -137,17 +133,14 @@ This visual to include:
 
 ### Spacing
 
-This visual should include:
-
-- Regular badge spacing
-- Small badge spacing
+Refer to these spacing guidelines when you construct a badge.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Badge spacing"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/notifications/badges/badges-icon.png" width="533"/>
+<embed src="{{site.url}}/assets/images/components/notifications/badges/badges-spacing.png" width="238"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -164,47 +157,20 @@ This visual should include:
 
 ## Variations
 
-Intro text here...
+Considering the following guidelines when using icons and placing a badge on a tab:
 
-### With an icon
-The badge should overlap an icon by around 2px, but be sure you can still see what the icon represents. Notification badges should never have a “0” inside. In the event there are no notifications, a badge is not displayed. There is a character limit of 3 inside the badge: two numbers at most and a plus (+) sign.
+**With an icon**: Overlap the badge on the icon by 2px and ensure that the icon can still be seen clearly. A notification badge should not contain a **0**. If there are no notifications, do not display a badge.
 
-Use a 2px border on all sides between the number and the edge of the circle.
+- Limit the number of characters in a badge to three, including two numbers and a plus (+) sign. Use a 2px border on all sides between the number and the edge of the circle.
 
-**Visual to Show that the number aligns to the top and overlaps the icon by 2px**
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-{% figure [caption:"Notification badges with icon"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/notifications/badges/badges-icon.png" width="533"/>
-{% endfigure %}
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow" markdown="1">
-
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-### In a tab
-
-Notification badges may be used in tabs to bring attention to new items in unselected tabs. Never use a notification badge on the selected tab because any new items in a tab section should have their own styling, such as bolded text, to indicate 'unread' or 'new' statuses.
-
-The [tabs component]({{site.baseurl}}/components/tabset.html) states that there should be 24px in between tabs. In the case of a tab with a notification badge, start measuring the 24px after the badge as demonstrated in the "With Spacing Guidelines" image to the right.
+**On a tab**: Add a badge to a tab to bring attention to new items in unselected tabs. Do not use a badge on the selected tab because new items in a tab have their own styling, such as bolded text, to indicate **Unread** or **New** status.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Notification badges in tabs"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/notifications/badges/badges-tabs.png" width="463"/>
+{% figure [caption:"Badge variations"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/notifications/badges/badges-variations.png" width="443"/>
 {% endfigure %}
 
 {% endcolumn %}
