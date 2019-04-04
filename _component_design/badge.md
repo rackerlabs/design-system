@@ -44,7 +44,7 @@ Use badges sparingly as overuse can lead to *notification fatigue* where the use
 
 Consider the following best practices when you construct badges:
 
-- When the user clicks the badge, the user is taken to the section to which the badge is applied.
+- When the user clicks the badge, the user moves to the section to which the badge is applied.
 - Remove the badge after the user clicks it.
 - Reserve `red 900` for badges and errors. Do not use `red 900` with any other user interface (UI) component.
 - A badge can be empty or can contain a number.
@@ -82,8 +82,8 @@ Use the following specifications when you construct badges.
 
 A badge contains the following elements:
 
-- **Number (required)**: The number represents the amount of new items available for the user to acknowledge.
-- **Icon (optional)**: Use an icon when you want to visually indicate the type of activity the badge represents. For example, use a bell icon to represent alerts.
+- **Number (required)**: The number represents how many new items are available for the user to acknowledge.
+- **Icon (optional)**: Use an icon when you want to indicate visually the type of activity the badge represents. For example, use a bell icon to represent alerts.
 
 {% endcolumn %}
 
@@ -159,11 +159,11 @@ Refer to these spacing guidelines when you construct a badge.
 
 Considering the following guidelines when using icons and placing a badge on a tab:
 
-**With an icon**: Overlap the badge on the icon by 2px and ensure that the icon can still be seen clearly. A notification badge should not contain a **0**. If there are no notifications, do not display a badge.
+**With an icon**: Overlap the badge on the icon by 2px and ensure that the icon is still seen clearly. A notification badge should not contain a **0**. If there are no notifications, do not display a badge.
 
 - Limit the number of characters in a badge to three, including two numbers and a plus (+) sign. Use a 2px border on all sides between the number and the edge of the circle.
 
-**On a tab**: Add a badge to a tab to bring attention to new items in unselected tabs. Do not use a badge on the selected tab because new items in a tab have their own styling, such as bolded text, to indicate **Unread** or **New** status.
+**On a tab**: Add a badge to a tab to bring attention to new items in unselected tabs. Do not use a badge on the selected tab because new items in a tab have their own styling, such as bold text, to indicate **Unread** or **New** status.
 
 {% endcolumn %}
 
