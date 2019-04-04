@@ -26,7 +26,7 @@ pagelink: https://rackerlabs.github.io/helix-ui/components/badges/
 
 Use a badge when you want to signal to the user that a new notification, alert, message, chat, comment, or other type of change has taken place. A badge can appear in a navigation menu, tab, or the body of a control panel page.
 
-Use tabs sparingly as overuse can lead to *notification fatigue* where the user fails to react to the badge.
+Use badges sparingly as overuse can lead to *notification fatigue* where the user fails to react to the badge.
 
 {% endcolumn %}
 
