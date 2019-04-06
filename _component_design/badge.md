@@ -4,11 +4,11 @@ parent: Notifications
 layout: component
 category: Components
 usage: >
-  Use notification badges to alert the user that there is new activity they have not acknowledged yet. Use them to encourage the user to go to that section to see the details of the activity.
+  A badge is a small status descriptor that notifies a user that there is new activity that the user has yet to acknowledge. A badge draws the attention of the user to explore the details of the activity.
 preview-image: preview-images/badges.svg
 resource: true
 status: stable
-last-modified: 2018-12-04
+last-modified: 2019-04-04
 helix-ui-css: true
 helix-ui-javascript: na
 pagelink: https://rackerlabs.github.io/helix-ui/components/badges/
@@ -18,32 +18,15 @@ pagelink: https://rackerlabs.github.io/helix-ui/components/badges/
 
 <section class="static-section" markdown="1">
 
-## Introduction
-
 <div class="hxRow" markdown="1">
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-### When to use
-
-Use notification badges in navigation menus, tabs, or the page body to signal a new notification, alert, message, chat, comment, or other type of change to an area of the site. Depending on the use case, there may or may not be a number of notifications written within the badge.
-
-Studies of social apps report that notification badges can trigger dopamine releases due to social rewards, but overuse can make the user numb to them. So use badges wisely.
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-{% figure [caption:"The notification badge pattern"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/notifications/badges/badges-hero.png" width="1440"/>
-{% endfigure %}
-{% endcolumn %}
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-### Best Practices
-- Clicking on the badge takes the user into the section to which the badge is applied. Once the badge is clicked, remove the badge.
-- Never deviate from the color (`red 900`) of notifications used on the spec sheet, and try to avoid this color outside of badges and errors. Applying colors used on the spec sheet will help reserve the attention-grabbing red color for the highest priority items.
-- Keep the badge empty or use a number. If the number is higher than two digits (for example, 99), use a plus (+) sign to indicate more than that number shown. Neither words nor icons are used.
-- Set a max number lower than 99 to avoid overwhelming the user. For example, rather than saying the user has 28 unread messages, set the badge to say 9+ instead to increase chances that the user will click into the message list.
+## When to use
+
+Use a badge when you want to signal to the user that a new notification, alert, message, chat, comment, or other type of change has taken place. A badge can appear in a navigation menu, tab, or the body of a control panel page.
+
+Use badges sparingly as overuse can lead to *notification fatigue* where the user fails to react to the badge.
 
 {% endcolumn %}
 
@@ -53,22 +36,63 @@ Studies of social apps report that notification badges can trigger dopamine rele
 
 <section class="static-section" markdown="1">
 
-## Implementations
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+## Best Practices
+
+Consider the following best practices when you construct badges:
+
+- When the user clicks the badge, the user moves to the section to which the badge is applied.
+- Remove the badge after the user clicks it.
+- Reserve `red 900` for badges and errors. Do not use `red 900` with any other user interface (UI) component.
+- A badge can be empty or can contain a number.
+- A badge can contain a maximum of three characters. If there are more than 99 notifications (for example, 101 unread email messages), add a plus sign (+) after `99` to indicate there are more than 99 unread messages.
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
 
 <div class="hxRow" markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+## Specifications
+
+Use the following specifications when you construct badges.
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
+
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### With an icon
-The badge should overlap an icon by around 2px, but be sure you can still see what the icon represents. Notification badges should never have a “0” inside. In the event there are no notifications, a badge is not displayed. There is a character limit of 3 inside the badge: two numbers at most and a plus (+) sign.
+### Composition
 
-Use a 2px border on all sides between the number and the edge of the circle.
+A badge contains the following elements:
+
+- **Number (required)**: The number represents how many new items are available for the user to acknowledge.
+- **Icon (optional)**: Use an icon when you want to indicate visually the type of activity the badge represents. For example, use a bell icon to represent alerts.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-{% figure [caption:"Notification badges with icon"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/notifications/badges/badges-icon.png" width="533"/>
+
+{% figure [caption:"Badge composition"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/notifications/badges/badges-composition.png" width="203"/>
 {% endfigure %}
+
 {% endcolumn %}
 
 </div>
@@ -81,18 +105,72 @@ Use a 2px border on all sides between the number and the edge of the circle.
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### In tabs
+### Style
 
-Notification badges may be used in tabs to bring attention to new items in unselected tabs. Never use a notification badge on the selected tab because any new items in a tab section should have their own styling, such as bolded text, to indicate 'unread' or 'new' statuses.
+In most cases, use a standard size badge. Use a small badge in a highly compact context.
 
-The [tabs component]({{site.baseurl}}/components/tabset.html) states that there should be 24px in between tabs. In the case of a tab with a notification badge, start measuring the 24px after the badge as demonstrated in the "With Spacing Guidelines" image to the right.
+Use these specifications when you construct badges.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Notification badges in tabs"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/notifications/badges/badges-tabs.png" width="463"/>
+{% figure [caption:"Badge style"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/notifications/badges/badges-style.png" width="277"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+### Spacing
+
+Refer to these spacing guidelines when you construct a badge.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"Badge spacing"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/notifications/badges/badges-spacing.png" width="238"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+## Variations
+
+Considering the following guidelines when using icons and placing a badge on a tab:
+
+**With an icon**: Overlap the badge on the icon by 2px and ensure that the icon is still seen clearly. A notification badge should not contain a **0**. If there are no notifications, do not display a badge.
+
+- Limit the number of characters in a badge to three, including two numbers and a plus (+) sign. Use a 2px border on all sides between the number and the edge of the circle.
+
+**On a tab**: Add a badge to a tab to bring attention to new items in unselected tabs. Do not use a badge on the selected tab because new items in a tab have their own styling, such as bold text, to indicate **Unread** or **New** status.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"Badge variations"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/notifications/badges/badges-variations.png" width="443"/>
 {% endfigure %}
 
 {% endcolumn %}
