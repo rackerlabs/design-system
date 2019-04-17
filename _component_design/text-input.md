@@ -179,7 +179,7 @@ Consider the following guidelines when you construct an enabled text input:
 - A text input remains active until the user clicks outside of the field.
 - To indicate a required field, place an asterisk to the left of the label. To aid recognition, overhang the asterisk 4 pixels to the left of the label.
 
-See [focus states]({{site.baseurl}}/style/focus-states.html) for guidance in constructing focused text inputs in an enabled state.
+See [focus states]({{site.baseurl}}/components/focus-states.html) for guidance in constructing focused text inputs in an enabled state.
 
 {% endcolumn %}
 
