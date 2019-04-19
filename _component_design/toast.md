@@ -105,8 +105,8 @@ Clicking on the “X” closes the toast, but it will go away after approximatel
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Default toast notifications specifications"] [class:"image bg-light border"] %}
-<embed src="{{site.baseurl}}/assets/images/components/notifications/toasts/toast-specifications.svg"/>
+{% figure [caption:"Toast composition"] [class:"image bg-light border"] %}
+<embed src="{{site.baseurl}}/assets/images/components/notifications/toasts/toast-composition.png" width="556"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -131,8 +131,8 @@ To the Style section, add a 2nd visual that styles out the color and icons for t
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Default toast notifications specifications"] [class:"image bg-light border"] %}
-<embed src="{{site.baseurl}}/assets/images/components/notifications/toasts/toast-specifications.svg"/>
+{% figure [caption:"Toast style"] [class:"image bg-light border"] %}
+<embed src="{{site.baseurl}}/assets/images/components/notifications/toasts/toast-style.png" width="587"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -140,32 +140,6 @@ To the Style section, add a 2nd visual that styles out the color and icons for t
 </div>
 
 </section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow" markdown="1">
-
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-Intro to this visual.
-
-To this Style section, add a 2nd visual that styles out the color and icons for the Success, Error, and Informational toasts.
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-
-{% figure [caption:"Default toast notifications specifications"] [class:"image bg-light border"] %}
-<embed src="{{site.baseurl}}/assets/images/components/notifications/toasts/toast-wo-cta.svg"/>
-{% endfigure %}
-
-{% endcolumn %}
-
-</div>
-
-</section>
-
-
 
 <section class="static-section" markdown="1">
 
@@ -187,7 +161,7 @@ Icons are always centered vertically.
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Default toast notifications specifications"] [class:"image bg-light border"] %}
-<embed src="{{site.baseurl}}/assets/images/components/notifications/toasts/toast-specifications.svg"/>
+<embed src="{{site.baseurl}}/assets/images/components/notifications/toasts/toast-spacing.png" width="506"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -214,7 +188,29 @@ Ensure that toast supports the following behaviors:
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Placement, animation, and stacking of toast notifications in context"] [class:"image bg-light border"] %}
-<embed src="{{site.baseurl}}/assets/images/components/notifications/toasts/toast-behaviors.png"/>
+<embed src="{{site.baseurl}}/assets/images/components/notifications/toasts/toast-behaviors.png" width="498"/>
+{% endfigure %}
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
+
+## Variation
+
+xxxx.
+
+{% endcolumn %}
+
+{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
+{% figure [caption:"Placement, animation, and stacking of toast notifications in context"] [class:"image bg-light border"] %}
+<embed src="{{site.baseurl}}/assets/images/components/notifications/toasts/toast-variationwithfooter.png" width="511"/>
 {% endfigure %}
 
 {% endcolumn %}
