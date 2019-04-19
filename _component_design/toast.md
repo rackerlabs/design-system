@@ -4,11 +4,11 @@ parent: Notifications
 layout: component
 category: Components
 usage: >
-   A toast is a notification component that contains a short message about the status of a user action. Toasts appears on the screen for a few seconds and then disappears on its own.
+   A toast is a notification component that contains a short message about the status of a user action. Toasts appears on the screen for 10 seconds and then disappears on its own.
 preview-image: preview-images/toast.svg
 status: stable
 resource: true
-last-modified: 2019-04-01
+last-modified: 2019-04-19
 helix-ui-css: true
 helix-ui-javascript: true
 pagelink: https://rackerlabs.github.io/helix-ui/components/toasts/
@@ -91,15 +91,12 @@ Refer to the following specifications when you construct toast.
 
 Toast is comprised of the following elements:
 
-- **Container (required)**: xxxx
-- **Notification message (required)**: xxxx
-- **Close X (required)**: xxxx
-- **CTA (optional)**: xxxx
-
-**OLD CONTENT**
-There are three types of toast notifications: confirmation, error, and information.
-
-Clicking on the “X” closes the toast, but it will go away after approximately 10 seconds if no action is taken.
+- **Container (required)**: The container holds all elements of the toast notification.
+- **Notification message (required)**: The notification message explains the result of the action taken by the user.
+- **Accent border (required)**: The color of the accent border corresponds to the notification type.
+- **Notification type indicator (required)**: The notification icon corresponds to the notification type.
+- **Close X (required)**: The user can click Close X to close the notification. The notification automatically disappears after 10 seconds.
+- **Footer (optional)**: The footer can contain a link or a button call-to-action (CTA).
 
 {% endcolumn %}
 
@@ -123,9 +120,9 @@ Clicking on the “X” closes the toast, but it will go away after approximatel
 
 ### Style
 
-Use these specifications when you construct toast.
+There are three types of toast notifications: Success/Confirmation, Informational, and Error.
 
-To the Style section, add a 2nd visual that styles out the color and icons for the Success, Error, and Informational toasts.
+Use these specifications when you construct toast.
 
 {% endcolumn %}
 
@@ -149,12 +146,9 @@ To the Style section, add a 2nd visual that styles out the color and icons for t
 
 ### Spacing
 
+While the height of toasts is dependent on the length of the notification message, without including a footer, 56px is the minimum height. If you include a footer, the height of the toast notification can increase.
+
 Refer to these spacing specifications when you construct toast.
-
-**OLD TEXT**
-While the height of toasts is dependent on the amount of text, the minimum height is 56px without a CTA. If a CTA or more lines are needed the height can increase to accommodate.
-
-Icons are always centered vertically.
 
 {% endcolumn %}
 
@@ -180,8 +174,8 @@ Icons are always centered vertically.
 
 Ensure that toast supports the following behaviors:
 
- - **Placement and stacking**: Place toasts in the top-right corner of the page, 24px beneath the navigation bar. If more than one toast notifications are triggered simultaneously, vertically stack them 24px apart, with newer toasts placed on top.
- - **Animation and timing**: The toast fades into place over `400 ms`, remains in place for 8 seconds, and fades out over `400 ms`. If the user hovers over the toast while it is fading out, it immediately gains full opacity. Toasts persist indefinitely on cursor hover. When the cursor moves off the toast, the toast persists for three more seconds and then fades over the normal `400 ms`.
+ - **Placement and stacking**: Place toasts in the top-right corner of the page, 32px beneath the navigation bar. If more than one toast notifications are triggered simultaneously, vertically stack them 32px apart, with newer toasts placed on top.
+ - **Animation and timing**: The toast fades into place over `400 ms`, remains in place for 10 seconds, and fades out over `400 ms`. If the user hovers over the toast while it is fading out, it immediately gains full opacity. Toasts persist indefinitely on cursor hover. When the cursor moves off the toast, the toast persists for three more seconds, and then fades over the normal `400 ms`.
 
 {% endcolumn %}
 
@@ -201,9 +195,11 @@ Ensure that toast supports the following behaviors:
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-## Variation
+## Variations
 
-xxxx.
+You can use the footer to include a [hyperlink]({{site.baseurl}}/style/text-conventions.html) or a [tertiary]({{site.baseurl}}/components/buttons.html#tertiary-button-weight) button CTA.
+
+If you include a footer, use these spacing guidelines.
 
 {% endcolumn %}
 
