@@ -4,11 +4,11 @@ parent: Notifications
 layout: component
 category: Components
 usage: >
-   A toast is a notification component that contains a short message about the status of a user action. Toasts appears on the screen for 10 seconds and then disappears on its own.
+   A toast is a notification component that contains a short message about the status of a user action. Toasts appears on the screen for 10 seconds and then disappears.
 preview-image: preview-images/toast.svg
 status: stable
 resource: true
-last-modified: 2019-04-19
+last-modified: 2019-04-23
 helix-ui-css: true
 helix-ui-javascript: true
 pagelink: https://rackerlabs.github.io/helix-ui/components/toasts/
@@ -50,11 +50,10 @@ Do not use toast for actions that are in context to the page or region. For thos
 
 Consider the following best practices when you construct toast:
 
-- A toast can include an optional call-to-action (CTA) that navigates the user out of the current page.
+- A toast can include an optional call-to-action (CTA) that navigates the user out of the current page, or that triggers an action.
 - Only use one CTA for a toast. Do not include a **Dismiss** or **Close** CTA.
 - If there is an error and the user can take an action to correct, include a CTA.
-- Use complete sentences when you write the notification message.
-- If the notification message includes only one sentence, do not use a period. **This runs counter to our text conventions**. If there are two or more sentences, use periods.
+- Use human-friendly, complete sentences when you write the notification message. For more information about writing notification message, see [Alert and Message Guidelines]({{site.baseurl}}/style/alert-messages.html).
 - The notification message should not exceed more than four lines, excluding the CTA.
 - The user can click close **X** to close the toast.
 - The toast remains open when the user hovers over it and closes when the cursor moves off of it. Refer to [Behaviors]({{page.url}}#behaviors) for more information about toast timing.
@@ -174,8 +173,8 @@ Refer to these spacing specifications when you construct toast.
 
 Ensure that toast supports the following behaviors:
 
- - **Placement and stacking**: Place toasts in the top-right corner of the page, 32px beneath the navigation bar. If more than one toast notifications are triggered simultaneously, vertically stack them 32px apart, with newer toasts placed on top.
- - **Animation and timing**: The toast fades into place over `400 ms`, remains in place for 10 seconds, and fades out over `400 ms`. If the user hovers over the toast while it is fading out, it immediately gains full opacity. Toasts persist indefinitely on cursor hover. When the cursor moves off the toast, the toast persists for three more seconds, and then fades over the normal `400 ms`.
+ - **Placement and stacking**: Place toasts in the top-right corner of the page, 32px beneath the eyebrow. If more than one toast notifications are triggered simultaneously, vertically stack them 32px apart, with newer toasts placed on top. Refer to [Eyebrow]({{site.baseurl}}/components/eyebrow.html) for information about constructing an eyebrow.
+ - **Animation and timing**: The toast fades in over `400ms`, remains for 10 seconds, and then fades out over `400ms`. If the user hovers over the toast while it is fading out, it immediately gains full opacity. Toasts persist indefinitely on cursor hover. When the cursor moves off the toast, the toast persists for three more seconds, and then fades out over `400 ms`.
 
 {% endcolumn %}
 
@@ -195,9 +194,9 @@ Ensure that toast supports the following behaviors:
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-## Variations
+## Variation
 
-You can use the footer to include a [hyperlink]({{site.baseurl}}/style/text-conventions.html) or a [tertiary]({{site.baseurl}}/components/buttons.html#tertiary-button-weight) button CTA.
+You can use the footer to include a [hyperlink]({{site.baseurl}}/style/text-conventions.html) or a [tertiary button]({{site.baseurl}}/components/buttons.html#tertiary-button-weight) CTA.
 
 If you include a footer, use these spacing guidelines.
 
