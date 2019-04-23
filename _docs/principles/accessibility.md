@@ -3,10 +3,10 @@ title: Accessibility
 layout: docs
 category: Principles
 usage: >
-  Visual accessibility standards enable users with varied levels of color impairment to successfully navigate and use a Helix-based UI.
+  Accessibility standards promote the design of user interfaces (UI) so they can be used by people with the widest range of abilities within the widest range of situations.
 status: stable
 resource: true
-last-modified: 2019-04-17
+last-modified: 2019-04-22
 ---
 
 {% include toc.html %}
@@ -19,27 +19,35 @@ last-modified: 2019-04-17
 
 ## Understanding accessibility
 
-Describe what accessibility is - **add that there are times when you need to develop control panel in a certain way, and to use specific attributes, xref to WCAG guidelines**
+An accessible UI is designed so that it can be *accessed* and used by people who suffer from a permanent or a temporary impairment. While visual impairments such as color blindness and lack of sight are two of the most obvious impairments to consider, an impairment can also be auditory, physical, or cognitive. For example, a user who suffers from a concussion may experience difficulty processing information, so ensure that you write succinct on-page instructions and labels. A user who experiences hand tremors as a side effect to medication has difficulty operating a mouse, so design pointer targets so they are large enough.
 
-The kinds of impairments we need to consider: Visual impairment, auditory impairment, physical, cognitive
+Designing for accessibility is best practice because you consider all users and not just those with a permanent disability.
+
+The purpose of this document is to articulate guidelines that you can use when you design control panel page. The list of guidelines is not exhaustive. Refer to [Web Content Accessibility Guidelines 2.1]({{https://www.w3.org/TR/WCAG21/}}) for a complete list of guidelines.
 
 ### Why accessibility is important
 
-Offer some statistics on the need to provide accessible UIs
-
-OLD text
-
-Rackspace products must be made accessible for everyone&mdash;regardless of a person’s abilities. We can assume from the statistics that many of our users have some form of visual impairment. [Colour Blind Awareness](http://www.colourblindawareness.org/) estimates that:
+Accessibility is more than just good design. It's about the empathy for and inclusion of all people. Consider sight. [Colour Blind Awareness](http://www.colourblindawareness.org/) estimates that:
 
 - 4.5% of the global population experience color blindness (1 in 12 men and 1 in 200 women)
 - 4% suffer from low vision (1 in 30 people)
 - 0.6% are blind (1 in 188 people)
 
-By using the following best practices, you can help ensure that your design is accessible for the visually impaired.
+With a global population of just over 7.5 billion people, 9.1% of the world's population equates to over one-half billion visually-impaired user that cannot use an inaccessible product. After factoring in the myriad other forms of permanent and temporary impairments, designing inaccessible products can have a material and negative impact on a large percent of users.
+
+Not only can inaccessible design reflect poorly on our brand, it has the potential for legal ramifications. In 2018, there were at least 2258 lawsuits filed in federal court under Title III of the Americans with Disabilities Act (ADA), an increase of 177% of such lawsuits filed in 2017.
 
 ### How Helix supports accessibility
 
-Describe how the code and design specs are written to support accessibility. Make the point that Helix can get you some of the way there, but it's ultimately up to individual designers and developers to review these guidelines and implement accordingly. **How we support screen readers, alt text and tables as examples, proper use of headings** **Keyboard accessibility, if tremor then can control a mouse, for example focus states** **Strict adherence to color palette and hex codes ensures compliance, accessibility built in to color palette**
+The core Helix team has taken the following steps to help ensure that your UIs are accessible:
+
+- To increase the probability that a screen reader interprets a UI correctly, we have developed components that include the appropriate `aria-*` and `role` attributes, where necessary, and use semantic markup as much as possible. These efforts alone do not guarantee screen reader accessibility, as accessibility is mostly dependent on the UI being developed.
+- To the greatest extent possible, we follow the guidelines set forth by the [WAI-ARIA Authoring Practices 1.1](https://www.w3.org/TR/wai-aria-practices/) to ensure keyboard accessibility.
+- Accessibility is built into the Helix color palette and hex codes. If you adhere to the color palette, you will be in compliance.
+- We have designed the spacing system, focus states, and typography to conform to accessibility standards.
+- All design specifications we have written support accessibility.
+
+While the core Helix Team has worked to provide you with code and specifications that support accessibility, it is ultimately the responsibility of individual designers and developers to ensure that UIs are accessible.
 
 {% endcolumn %}
 
@@ -55,7 +63,7 @@ Describe how the code and design specs are written to support accessibility. Mak
 
 ## Color guidelines
 
-Intro text...like...Consider the following color guidelines when designing and developing an accessible application.
+Consider the following color guidelines when you construct an accessible UI.
 
 {% endcolumn %}
 
