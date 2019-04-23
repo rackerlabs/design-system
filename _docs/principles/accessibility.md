@@ -6,7 +6,7 @@ usage: >
   Accessibility standards promote the design of user interfaces (UI) so they can be used by people with the widest range of abilities within the widest range of situations.
 status: stable
 resource: true
-last-modified: 2019-04-22
+last-modified: 2019-04-23
 ---
 
 {% include toc.html %}
@@ -79,9 +79,11 @@ Consider the following color guidelines when you construct an accessible UI.
 
 ### Do not rely on color alone to convey meaning
 
-Color deficiency is a common issue that is faced in the design process. The most common form of color blindness is known as red and green color deficiency, and most color deficient people suffer from either Protanopia (less sensitivity to red light) or Deuteranopia (less sensitivity to green light). Red and green color deficiency can mean that those affected have troubles distinguishing certain hues of red and green. For example, an individual with red or green color deficiency can confuse blue and purple because they might not be able to distinguish the red element of purple.
+Color deficiency is a common issue that is faced in the design process. The most common form of color blindness is known as red and green color deficiency, and most color deficient people suffer from either Protanopia (less sensitivity to red light) or Deuteranopia (less sensitivity to green light). Red and green color deficiency can mean that those affected have trouble distinguishing certain hues of red and green. For example, an individual with red or green color deficiency can confuse blue and purple because they might not be able to distinguish the red element of purple.
 
-While color can be useful to convey information, color should not be the only way information is conveyed. When using color to differentiate elements, also provide additional identification that does not rely on color perception. There should always be a backup visual indicator for people with color blindness.
+While color can be useful to convey information, it should not be the only way to convey information. When you use color to differentiate elements, you should also provide additional identification that does not rely on color perception. For example, XXXX
+
+There should always be a backup visual indicator for people with color blindness.
 
 {% endcolumn %}
 
