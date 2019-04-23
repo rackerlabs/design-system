@@ -4,7 +4,7 @@ parent: Notifications
 layout: component
 category: Components
 usage: >
-   A toast is a notification component that contains a short message about the status of a user action. Toasts appears on the screen for 10 seconds and then disappears.
+   A toast is a notification component that contains a short message about the status of a user action. A toast appears on the screen for 10 seconds and then disappears.
 preview-image: preview-images/toast.svg
 status: stable
 resource: true
@@ -24,15 +24,15 @@ pagelink: https://rackerlabs.github.io/helix-ui/components/toasts/
 
 ## When to use
 
-Use toast when you want to notify the user that a system operation has occurred. For example, use toast when you want to:
+Use a toast when you want to notify the user that a system operation has occurred. For example, use a toast when you want to:
 
 - Notify the user that an operation was successful.
 - Notify the user that an operation resulted in an error.
 - Provide information to the user about an operation.
 
-Do not use toast to notify the user of promotional or marketing material, such as the announcement of a new feature.
+Do not use a toast to notify the user of promotional or marketing material, such as the announcement of a new feature.
 
-Do not use toast for actions that are in context to the page or region. For those cases, use an [alert bar]({{site.baseurl}}/components/alert-bar.html).
+Do not use a toast for actions that are in context to the page or region. For those cases, use an [alert bar]({{site.baseurl}}/components/alert-bar.html).
 
 {% endcolumn %}
 
@@ -46,7 +46,7 @@ Do not use toast for actions that are in context to the page or region. For thos
 
 {% column left:"hxCol hxSpan-8-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-## Best Practices
+## Best practices
 
 Consider the following best practices when you construct toast:
 
@@ -56,7 +56,7 @@ Consider the following best practices when you construct toast:
 - Use human-friendly, complete sentences when you write the notification message. For more information about writing notification message, see [Alert and Message Guidelines]({{site.baseurl}}/style/alert-messages.html).
 - The notification message should not exceed more than four lines, excluding the CTA.
 - The user can click close **X** to close the toast.
-- The toast remains open when the user hovers over it and closes when the cursor moves off of it. Refer to [Behaviors]({{page.url}}#behaviors) for more information about toast timing.
+- A toast remains open when the user hovers over it and closes when the cursor moves off of it. Refer to [Behaviors]({{page.url}}#behaviors) for more information about toast timing.
 
 {% endcolumn %}
 
@@ -72,7 +72,7 @@ Consider the following best practices when you construct toast:
 
 ## Specifications
 
-Refer to the following specifications when you construct toast.
+Refer to the following specifications when you construct a toast.
 
 {% endcolumn %}
 
@@ -88,7 +88,7 @@ Refer to the following specifications when you construct toast.
 
 ### Composition
 
-Toast is comprised of the following elements:
+A toast is comprised of the following elements:
 
 - **Container (required)**: The container holds all elements of the toast notification.
 - **Notification message (required)**: The notification message explains the result of the action taken by the user.
@@ -119,9 +119,9 @@ Toast is comprised of the following elements:
 
 ### Style
 
-There are three types of toast notifications: Success/Confirmation, Informational, and Error.
+The three types of toast notifications are Success/Confirmation, Informational, and Error.
 
-Use these specifications when you construct toast.
+Use these specifications when you construct a toast.
 
 {% endcolumn %}
 
@@ -145,9 +145,9 @@ Use these specifications when you construct toast.
 
 ### Spacing
 
-While the height of toasts is dependent on the length of the notification message, without including a footer, 56px is the minimum height. If you include a footer, the height of the toast notification can increase.
+While the height of a toast is dependent on the length of the notification message, without including a footer, 56px is the minimum height. If you include a footer, the height of the toast notification can increase.
 
-Refer to these spacing specifications when you construct toast.
+Refer to these spacing specifications when you construct a toast.
 
 {% endcolumn %}
 
@@ -171,10 +171,10 @@ Refer to these spacing specifications when you construct toast.
 
 ### Behaviors
 
-Ensure that toast supports the following behaviors:
+Ensure that a toast supports the following behaviors:
 
- - **Placement and stacking**: Place toasts in the top-right corner of the page, 32px beneath the eyebrow. If more than one toast notifications are triggered simultaneously, vertically stack them 32px apart, with newer toasts placed on top. Refer to [Eyebrow]({{site.baseurl}}/components/eyebrow.html) for information about constructing an eyebrow.
- - **Animation and timing**: The toast fades in over `400ms`, remains for 10 seconds, and then fades out over `400ms`. If the user hovers over the toast while it is fading out, it immediately gains full opacity. Toasts persist indefinitely on cursor hover. When the cursor moves off the toast, the toast persists for three more seconds, and then fades out over `400 ms`.
+ - **Placement and stacking**: Place toasts in the top-right corner of the page, 32px beneath the eyebrow. If more than one toast notification is triggered simultaneously, vertically stack them 32px apart, with newer toasts placed on top. Refer to [Eyebrow]({{site.baseurl}}/components/eyebrow.html) for information about constructing an eyebrow.
+ - **Animation and timing**: The toast fades in over `400ms`, remains for 10 seconds, and then fades out over `400ms`. If the user hovers over the toast while it is fading out, it immediately gains full opacity. A toast persists indefinitely on cursor hover. When the cursor moves off the toast, the toast persists for three more seconds, and then fades out over `400 ms`.
 
 {% endcolumn %}
 
