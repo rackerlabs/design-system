@@ -4,11 +4,11 @@ parent: Notifications
 layout: component
 category: Components
 usage: >
-   A toast is a notification component that contains a short message about the status of a user action. A toast appears on the screen for 10 seconds and then disappears.
+   A toast is a notification component that contains a short message about the status of a process triggered by the user. A toast appears on the screen for 10 seconds and then disappears.
 preview-image: preview-images/toast.svg
 status: stable
 resource: true
-last-modified: 2019-04-23
+last-modified: 2019-04-24
 helix-ui-css: true
 helix-ui-javascript: true
 pagelink: https://rackerlabs.github.io/helix-ui/components/toasts/
@@ -24,15 +24,22 @@ pagelink: https://rackerlabs.github.io/helix-ui/components/toasts/
 
 ## When to use
 
-Use a toast when you want to notify the user that a system operation has occurred. For example, use a toast when you want to:
+Users want to know if an action they initiated was successful or not successful. It a user action is not successful, they user wants to know why. Use a toast notification when you want to close the workflow feedback loop on a user action.
+
+For example, use a toast when you want to:
 
 - Notify the user that an operation was successful.
 - Notify the user that an operation resulted in an error.
 - Provide information to the user about an operation.
 
-Do not use a toast to notify the user of promotional or marketing material, such as the announcement of a new feature.
+To determine whether a toast is the appropriate notification method, consider how the workflow begins and ends. A toast notification is most appropriate for workflows initiated and completed when the user clicks a button.
 
-Do not use a toast for actions that are in context to the page or region. For those cases, use an [alert bar]({{site.baseurl}}/components/alert-bar.html).
+Do not use a toast in the follow situations:
+
+- To notify the user of promotional or marketing material, such as the announcement of a new feature.
+- For actions that are in context to the page or region. For those cases, use an [alert bar]({{site.baseurl}}/components/alert-bar.html).
+- For form validation.
+- If the user's acknowledgement of the notification message is required.
 
 {% endcolumn %}
 
@@ -50,6 +57,7 @@ Do not use a toast for actions that are in context to the page or region. For th
 
 Consider the following best practices when you construct toast:
 
+- Construct the toast so that the user can navigate away and still be notified in their current context when the user-initiated process completes or fails.
 - A toast can include an optional call-to-action (CTA) that navigates the user out of the current page, or that triggers an action.
 - Only use one CTA for a toast. Do not include a **Dismiss** or **Close** CTA.
 - If there is an error and the user can take an action to correct, include a CTA.
@@ -197,6 +205,11 @@ Ensure that a toast supports the following behaviors:
 ## Variation
 
 You can use the footer to include a [hyperlink]({{site.baseurl}}/style/text-conventions.html) or a [tertiary button]({{site.baseurl}}/components/buttons.html#tertiary-button-weight) CTA.
+
+While most toasts do not need a CTA, you may want to include a CTA for the following reasons:
+
+- The user has navigated away from the page where they initiated the process and needs to quickly navigate back. For example, the user creates a user, navigates away, and they want to navigate back to that user to configure their permission settings. In this scenario, a link that navigates the user to the details page is useful.
+- If a process fails, it might be helpful to include a CTA so the user can retry the process.
 
 If you include a footer, use these spacing guidelines.
 
