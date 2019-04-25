@@ -8,7 +8,7 @@ usage: >
 preview-image: preview-images/toast.svg
 status: stable
 resource: true
-last-modified: 2019-04-24
+last-modified: 2019-04-25
 helix-ui-css: true
 helix-ui-javascript: true
 pagelink: https://rackerlabs.github.io/helix-ui/components/toasts/
@@ -24,7 +24,7 @@ pagelink: https://rackerlabs.github.io/helix-ui/components/toasts/
 
 ## When to use
 
-Users want to know if an action they initiated was successful or not successful. It a user action is not successful, they user wants to know why. Use a toast notification when you want to close the workflow feedback loop on a user action.
+Users want to know if an action they initiated was successful or not successful. If a user action is not successful, the user wants to know why. Use a toast notification when you want to close the workflow feedback loop on a user action.
 
 For example, use a toast when you want to:
 
@@ -64,7 +64,7 @@ Consider the following best practices when you construct toast:
 - Use human-friendly, complete sentences when you write the notification message. For more information about writing notification message, see [Alert and Message Guidelines]({{site.baseurl}}/style/alert-messages.html).
 - The notification message should not exceed more than four lines, excluding the CTA.
 - The user can click close **X** to close the toast.
-- A toast remains open when the user hovers over it and closes when the cursor moves off of it. Refer to [Behaviors]({{page.url}}#behaviors) for more information about toast timing.
+- A toast remains open when the user hovers over it and closes when the cursor moves off of it, provided that the full 10 seconds has elapsed. Refer to [Behaviors]({{page.url}}#behaviors) for more information about toast timing.
 
 {% endcolumn %}
 
