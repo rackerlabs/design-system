@@ -6,7 +6,7 @@ usage: >
   Accessibility standards promote the design of user interfaces (UI) so they can be used by people with the widest range of abilities within the widest range of situations.
 status: stable
 resource: true
-last-modified: 2019-04-23
+last-modified: 2019-04-25
 ---
 
 {% include toc.html %}
@@ -23,7 +23,7 @@ An accessible UI is designed so that it can be *accessed* and used by people who
 
 Designing for accessibility is best practice because you consider all users and not just those with a permanent disability.
 
-The purpose of this document is to articulate guidelines that you can use when you design control panel page. The list of guidelines is not exhaustive. Refer to [Web Content Accessibility Guidelines 2.1]({{https://www.w3.org/TR/WCAG21/}}) for a complete list of guidelines.
+The purpose of this document is to articulate guidelines that you can use when you design control panel page. The list of guidelines is not exhaustive. Refer to [Web Content Accessibility Guidelines 2.1 (WCAG)](https://www.w3.org/TR/WCAG21/) for a complete list of guidelines.
 
 ### Why accessibility is important
 
@@ -81,9 +81,7 @@ Consider the following color guidelines when you construct an accessible UI.
 
 Color deficiency is a common issue that is faced in the design process. The most common form of color blindness is known as red and green color deficiency, and most color deficient people suffer from either Protanopia (less sensitivity to red light) or Deuteranopia (less sensitivity to green light). Red and green color deficiency can mean that those affected have trouble distinguishing certain hues of red and green. For example, an individual with red or green color deficiency can confuse blue and purple because they might not be able to distinguish the red element of purple.
 
-While color can be useful to convey information, it should not be the only way to convey information. When you use color to differentiate elements, you should also provide additional identification that does not rely on color perception. For example, XXXX
-
-There should always be a backup visual indicator for people with color blindness.
+While color can be useful to convey information, it should not be the only way to convey information. When you use color to differentiate elements, you should also provide additional identification that does not rely on color perception.
 
 {% endcolumn %}
 
@@ -93,19 +91,13 @@ There should always be a backup visual indicator for people with color blindness
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-Alert bars are a great example of how multiple indicators can be used. If you are indicating an error alert (for example, making it red), always include a status icon and alert description so that someone who is color blind can still see the problem.
-
-Other optional indicators to consider are the following elements:
-
-- **Alert type:** An optional alert title descriptor.
-- **Alert action link:** Provides a user with the next step of a process.
-- **Close action:** Closes the alert.
+Alert bars are a great example of how you can use multiple indicators to convey information. When you use the color red to indicate an error, you should also include a status icon and alert description so that a color blind user can understand the severity of the problem.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [class:"image bg-light border"] %}
+{% figure [caption: "Do not use color alone to convey meaning"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/overview/accessibility/accessibility-alerts.png" width="598"/>
 {% endfigure %}
 
@@ -123,21 +115,18 @@ Other optional indicators to consider are the following elements:
 
 ### Ensure that there is sufficient contrast between text and its background
 
-Readability requires sufficient contrast between the text and its background. Low contrast is especially problematic for users with low vision who also often have contrast sensitivity.
+The readability of a document is impacted by the contrast between text and its background. Low contrast between text and the background is difficult to read for users with low vision or contrast sensitivity.
 
-To ensure text is readable, Helix adheres to the accessibility standards defined by [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG21/). These standards are based on contrast ratios calculated from text size, text color, and background color.
-
-Helix minimum contrast standards require the following elements:
+To ensure that text is readable, Helix adheres to the accessibility standards defined by [WCAG](https://www.w3.org/TR/WCAG21/). These standards are based on contrast ratios calculated from text size, text color, and background color.
 
 - Small text should have a contrast ratio of at least 4.5:1 against its background color.
-- Large text (at 14px bold or 18px regular and up) should have a contrast ratio of at least 3:1.
-- We recommend using the contrast ratios for icons or other critical elements.
+- Large text, which is considered 14px bold text or 18px regular text and higher, should have a contrast ratio of at least 3:1.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption: "Helix typography styles with their corresponding contrast ratios. All ratios were calculated using a `#fafafa` (`gray 25`) background color."] [class:"image bg-light border"] %}
+{% figure [caption: "Helix typography styles and contrast ratios"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/overview/accessibility/accessibility-typography.png" width="598"/>
 {% endfigure %}
 
@@ -171,9 +160,7 @@ Provide feedback for interactions, such as confirming form submission, alerting 
 
 ### Failed text inputs
 
-There are many acceptable ways to make text inputs visually accessible. If you're indicating a failed text input, make sure to include multiple visual indicators. For example, in addition to the error message, the border color turns red to draw the eye and doubles in thickness from 1px to 2px to provide another distinguishable visual cue that is not reliant on color.
-
-It is important to reserve the prominent border at 2px for failed text input as an additional visual indicator for error an state.
+When you indicate that a text input has failed, in addition to the error message, change the text field's border to red and double the thickness from 1px to 2px. These additional visual cues help communicate that there is an error.
 
 {% endcolumn %}
 
@@ -195,15 +182,17 @@ It is important to reserve the prominent border at 2px for failed text input as 
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Focus for Input Field
+### Use focus state
 
-In this example, we provide a clear visual feedback that the focus has moved to the input field by changing the border color and adding a highlight to give the user clear indication of where they’re currently taking action.
+Use focus state to provide clear visual feedback that the user's cursor has moved to an input field or control and that the user can take action.
+
+Refer to [Focus States]({{site.baseURL}}/style/focus-states.html) for more information on constructing focus states.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-{% figure [caption:"Default state"][class:"image bg-light border"] %}
+{% figure [caption:"Default state"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/overview/accessibility/accessibility-inputs-3.svg"/>
 {% endfigure %}
 
@@ -229,7 +218,7 @@ In this example, we provide a clear visual feedback that the focus has moved to 
 
 ## Page layout guidelines
 
-Intro text here...
+Consider the following page layout guidelines when you construct an accessible UI.
 
 {% endcolumn %}
 
@@ -245,7 +234,7 @@ Intro text here...
 
 ### Be consistent with headings
 
-Users that use screen readers can listen to all of the headings on a page and then choose which content area they want to explore. Because screen readers read header tags in the order they appear, it is important that you not skip header levels. The structure of a page hierarchy should be logical. For example, don't skip from a Header 1 to a Header 3, and then back to a Header 2.
+Some screen readers allow users to listen to all of the headings on a page and then choose which content area they want to explore. Because screen readers read header tags in the order they appear, it is important that you not skip header levels. The structure of a page hierarchy should be logical. For example, don't skip from a Header 1 to a Header 3, and then back to a Header 2.
 
 {% endcolumn %}
 
@@ -263,7 +252,7 @@ Users that use screen readers can listen to all of the headings on a page and th
 
 The use of space in visual design provides for designs that are both clear and pleasing to the eyes. Space creates relationships, defines hierarchies, and emphasizes content. Always keep these in mind when considering how to reduce visual noise and create visual flow in your design.
 
-Some people with cognitive disabilities find it difficult to read text when the lines are close together. Providing extra space between lines and paragraphs allows them to better track the next line and to recognize when they have reached the end of a paragraph. The [WCAG](https://www.w3.org/TR/WCAG20/) prescribes that line spacing (leading) is at least space-and-a-half within paragraphs, and paragraph spacing is at least 1.5 times larger than the line spacing.
+Some people with cognitive disabilities have difficultly reading text when the lines are close together. Providing extra space between lines and paragraphs allows them to better track the next line and to recognize when they have reached the end of a paragraph. The [WCAG](https://www.w3.org/TR/WCAG21/) prescribes that line spacing (leading) is at least space-and-a-half within paragraphs, and paragraph spacing is at least 1.5 times larger than the line spacing.
 
 {% endcolumn %}
 
@@ -314,7 +303,7 @@ Helix minimum spacing standards require: 
 
 ### Don't use tables for layout
 
-A screen readers is capable of reading the contents of tables, but don't use tables for anything other than data presentation. Because a screen reader reads every row and column of a table, including secondary text or data in additional rows can be annoying to the user.
+Do not use tables for formatting content or for anything other than presenting data. Because a screen reader reads every row and column of a table, including secondary text or data in additional nested rows can make interpreting the contents of a table difficult for the user.
 
 {% endcolumn %}
 
@@ -330,19 +319,19 @@ A screen readers is capable of reading the contents of tables, but don't use tab
 
 ## Interactivity guidelines
 
-Intro text here...
+Consider the following page layout guidelines when you construct an accessible UI.
 
 ### Ensure that pointer targets are large enough
 
-Pointer targets that are activated by a mouse, trackball, or stylus should be at least 44 dp x 44 dp in size. Large pointer targets can be helpful to users who have difficulty with fine motor skills.
+Pointer targets that are activated by a mouse, trackball, or stylus should be at least **Do we have a size?**. Large pointer targets can be helpful to users who have difficulty with fine motor skills.
 
 ### Don't make users hover to find hidden controls
 
-Users that use screen readers or the keyboard to navigate to and select components rely on them to be visible. Don't hide components as a way to reduce visual clutter. If a control cannot be seen, it cannot be verbally selected.
+Users that use screen readers or the keyboard to navigate to and select components rely on those components to be visible. Don't hide components as a way to reduce visual clutter. If a control cannot be seen, it cannot be verbally selected.
 
 ### Write meaningful alternative text for images
 
-Screen readers read the text you enter in the <alt> tag that you associate with an image. If an image provides important contextual information, then use the <alt> tag to describe what is happening in the picture. If the image is decorative, then add an empty <alt> tag, otherwise the screen reader might read the name of the image file, which results in a terrible user experience.
+Screen readers read the text you enter in the `<alt>` tag that you associate with an image. If an image provides important contextual information, then use the `<alt>` tag to describe what is happening in the picture. If the image is decorative and does not provide important information, then add an empty `<alt>` tag. If you do not add an `<alt>` tag, some screen readers read the name of the image file, which results in a terrible user experience.
 
 {% endcolumn %}
 
@@ -358,7 +347,7 @@ Screen readers read the text you enter in the <alt> tag that you associate with 
 
 ## Text guidelines
 
-Intro text here...
+Consider the following text guidelines when you construct an accessible UI.
 
 ### Be succinct
 
@@ -366,11 +355,11 @@ Write short labels and be concise when writing helper text. Listening to length
 
 ### Identify required fields
 
-Use the HTML 5 required attribute to distinguish between required and not required fields. Screen reader cannot interpret an asterisk (``*``), which is the convention used to visually identify required fields.
+Use the HTML5 `required` attribute to distinguish between required and optional fields. Screen readers cannot interpret an asterisk (``*``), which is the convention used to visually identify required fields.
 
 ### Link text should convey what happens when clicked
 
-Sentences that include links should include a text description before the link and then a unique name for the link. Do not use Click Here as a link naming convention. For example, use 'Visit the About page to learn more about our process' and not 'Click here to learn more about our process'.
+Sentences that include links should include a text description before the link and then a unique name for the link. Do not use **Click Here** as a link naming convention. For example, use 'Visit the [Professional Services](http:www) page to learn more about how we can help transform your IT infrastructure'. Do not use 'Click [here](http:www) to learn more about how we can help transform your IT infrastructure'.
 
 {% endcolumn %}
 
@@ -386,13 +375,13 @@ Sentences that include links should include a text description before the link a
 
 ## Resources
 
-These accessibility guidelines are not exhaustive, and they are not necessarily applicable to every situation. However, they do cover the major areas of concern when you incorporate accessibility into your design. Improving accessibility benefits all users by providing greater ease of use to everyone.
+These accessibility guidelines are not exhaustive, and they might not be applicable to every situation. However, they do cover the major areas of concern when you incorporate accessibility into your design. Improving accessibility benefits all users by providing greater ease of use to everyone.
 
 Consult the following resources as necessary:
 
 - [WebAim’s color contrast checker](https://webaim.org/resources/contrastchecker/): Insert foreground and background colors to know if they pass accessibility guidelines.
-- [Toggle Grayscale](https://goo.gl/aFn2h4): Plug-in built by the Helix development team to quickly view prototypes published to the web in grayscale within the Chrome browser.
-- [I want to see like the color blind](https://chrome.google.com/webstore/detail/i-want-to-see-like-the-co/jebeedfnielkcjlcokhiobodkjjpbjia?hl=en-GB): Plug-in built to apply filters specific to color deficiencies. Usable only for Chrome.
+- [Toggle Grayscale](https://goo.gl/aFn2h4): Plug-in built by the Helix development team so you can quickly view prototypes published to the web in grayscale within the Chrome browser.
+- [I want to see like the color blind](https://chrome.google.com/webstore/detail/i-want-to-see-like-the-co/jebeedfnielkcjlcokhiobodkjjpbjia?hl=en-GB): Chrome plug-in built to apply filters specific to color deficiencies.
 - [How to convert a whole design to grayscale](http://www.sketchtips.info/articles/how-to-convert-a-whole-design-to-grayscale): Guide to quickly apply grayscale to designs from within Sketch.
 
 {% endcolumn %}
