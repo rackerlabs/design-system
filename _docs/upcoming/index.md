@@ -18,7 +18,7 @@ Components:
 - Statistic
 - Line Chart
 - Time Picker
-- Date Picker
+- Date Selector
 
 ### Component Batch 3
 

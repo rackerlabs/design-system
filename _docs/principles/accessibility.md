@@ -127,7 +127,7 @@ Other optional indicators to consider are the following elements:
 
 Readability requires sufficient contrast between the text and its background. Low contrast is especially problematic for users with low vision who also often have contrast sensitivity.
 
-To ensure text is readable, Helix adheres to the accessibility standards defined by [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG21/). These standards are based on contrast ratios calculated from text size, text color, and background color. 
+To ensure text is readable, Helix adheres to the accessibility standards defined by [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/TR/WCAG21/). These standards are based on contrast ratios calculated from text size, text color, and background color.
 
 Helix minimum contrast standards require the following elements:
 
