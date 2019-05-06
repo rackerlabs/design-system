@@ -6,7 +6,7 @@ usage: >
   Accessibility standards promote the design of user interfaces (UI) so they can be used by people with the widest range of abilities within the widest range of situations.
 status: stable
 resource: true
-last-modified: 2019-04-25
+last-modified: 2019-05-06
 ---
 
 {% include toc.html %}
@@ -19,9 +19,11 @@ last-modified: 2019-04-25
 
 ## Understanding accessibility
 
-An accessible UI is designed so that it can be *accessed* and used by people who suffer from a permanent or a temporary impairment. While visual impairments such as color blindness and lack of sight are two of the most obvious impairments to consider, an impairment can also be auditory, physical, or cognitive. For example, a user who suffers from a concussion may experience difficulty processing information, so ensure that you write succinct on-page instructions and labels. A user who experiences hand tremors as a side effect to medication has difficulty operating a mouse, so design pointer targets so they are large enough.
+An accessible UI is designed so that it can be *accessed* and used by people who experience a permanent or a temporary impairment. An impairment can be visual, auditory, physical, or cognitive.
 
-Designing for accessibility is best practice because you consider all users and not just those with a permanent disability.
+For example, a user who suffers from a concussion may experience difficulty processing information, so ensure that you write succinct on-page instructions and labels. A user who experiences hand tremors as a side effect to medication has difficulty operating a mouse, so design pointer targets so they are large enough.
+
+Designing for accessibility is a best practice when using Helix because your designs will be usable by everyone regardless of whether they have any impairments.
 
 The purpose of this document is to articulate guidelines that you can use when you design control panel page. The list of guidelines is not exhaustive. Refer to [Web Content Accessibility Guidelines 2.1 (WCAG)](https://www.w3.org/TR/WCAG21/) for a complete list of guidelines.
 
@@ -33,7 +35,7 @@ Accessibility is more than just good design. It's about the empathy for and incl
 - 4% suffer from low vision (1 in 30 people)
 - 0.6% are blind (1 in 188 people)
 
-With a global population of just over 7.5 billion people, 9.1% of the world's population equates to over one-half billion visually-impaired user that cannot use an inaccessible product. After factoring in the myriad other forms of permanent and temporary impairments, designing inaccessible products can have a material and negative impact on a large percent of users.
+With a global population of just over 7.5 billion people, 9.1% of the world's population equates to over one-half billion visually-impaired users that cannot use an inaccessible product. Inaccessible products can have a negative impact on a large percent of users.
 
 Not only can inaccessible design reflect poorly on our brand, it has the potential for legal ramifications. In 2018, there were at least 2258 lawsuits filed in federal court under Title III of the Americans with Disabilities Act (ADA), an increase of 177% of such lawsuits filed in 2017.
 
@@ -303,7 +305,7 @@ Helix minimum spacing standards require: 
 
 ### Don't use tables for layout
 
-Do not use tables for formatting content or for anything other than presenting data. Because a screen reader reads every row and column of a table, including secondary text or data in additional nested rows can make interpreting the contents of a table difficult for the user.
+Do not use tables to format content or for anything other than presenting tabular data. A screen reader reads every row and column of a table which makes tables with nested rows difficult for the user to interpret.
 
 {% endcolumn %}
 
@@ -323,7 +325,7 @@ Consider the following page layout guidelines when you construct an accessible U
 
 ### Ensure that pointer targets are large enough
 
-Pointer targets that are activated by a mouse, trackball, or stylus should be at least **Do we have a size?**. Large pointer targets can be helpful to users who have difficulty with fine motor skills.
+Pointer targets that are activated by a mouse, trackball, or stylus should be at least 44px x 44px. Large pointer targets can be helpful to users who have difficulty with fine motor skills.
 
 ### Don't make users hover to find hidden controls
 
@@ -331,7 +333,7 @@ Users that use screen readers or the keyboard to navigate to and select componen
 
 ### Write meaningful alternative text for images
 
-Screen readers read the text you enter in the `<alt>` tag that you associate with an image. If an image provides important contextual information, then use the `<alt>` tag to describe what is happening in the picture. If the image is decorative and does not provide important information, then add an empty `<alt>` tag. If you do not add an `<alt>` tag, some screen readers read the name of the image file, which results in a terrible user experience.
+Screen readers read the text you enter in the `<alt>` tag that you associate with an image. If an image provides important contextual information, then use the `<alt>` tag to describe what is happening in the picture. If the image is decorative and does not provide important information, then add an empty `<alt>` tag. If you do not add an `<alt>` tag, some screen readers read the name of the image file, which introduces unnecessary confusion and results in a poor user experience.
 
 {% endcolumn %}
 
