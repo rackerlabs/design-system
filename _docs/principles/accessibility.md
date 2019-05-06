@@ -3,7 +3,7 @@ title: Accessibility
 layout: docs
 category: Principles
 usage: >
-  Accessibility standards promote the design of user interfaces (UI) so they can be used by people with the widest range of abilities within the widest range of situations.
+  Accessibility standards promote the design of user interfaces (UIs) so that people with the widest range of abilities within the widest range of situations can use them.
 status: stable
 resource: true
 last-modified: 2019-05-06
@@ -19,17 +19,21 @@ last-modified: 2019-05-06
 
 ## Understanding accessibility
 
-An accessible UI is designed so that it can be *accessed* and used by people who experience a permanent or a temporary impairment. An impairment can be visual, auditory, physical, or cognitive.
+An accessible UI can be *accessed* and used by people who experience a permanent or a temporary impairment. An impairment can be visual, auditory, physical, or cognitive.
 
-For example, a user who suffers from a concussion may experience difficulty processing information, so ensure that you write succinct on-page instructions and labels. A user who experiences hand tremors as a side effect to medication has difficulty operating a mouse, so design pointer targets so they are large enough.
+For example, a user who suffers from a concussion might experience difficulty processing information, so ensure that you write succinct, on-page instructions and labels. A user who experiences hand tremors as a side effect of medication has difficulty operating a mouse, so design pointer targets so they are large enough.
 
 Designing for accessibility is a best practice when using Helix because your designs will be usable by everyone regardless of whether they have any impairments.
 
-The purpose of this document is to articulate guidelines that you can use when you design control panel page. The list of guidelines is not exhaustive. Refer to [Web Content Accessibility Guidelines 2.1 (WCAG)](https://www.w3.org/TR/WCAG21/) for a complete list of guidelines.
+The purpose of this document is to articulate guidelines that you can use when you design a control panel page. The list of guidelines is not exhaustive. Refer to [Web Content Accessibility Guidelines 2.1 (WCAG)](https://www.w3.org/TR/WCAG21/) for a complete list of guidelines.
 
 ### Why accessibility is important
 
-Accessibility is more than just good design. It's about the empathy for and inclusion of all people. Consider sight. [Colour Blind Awareness](http://www.colourblindawareness.org/) estimates that:
+Accessibility is more than just good design. It's about the empathy for and inclusion of all people. In fact, the United Nations estimates that over 1 billion people in the world live with a disability.
+
+Consider sight. Because many jobs require workers to interact with a visual display of some sort, people who experience color blindness, low sight, or no sight are particularly disadvantaged in the workplace.
+
+[The Colour Blind Awareness site](http://www.colourblindawareness.org/) estimates that:
 
 - 4.5% of the global population experience color blindness (1 in 12 men and 1 in 200 women)
 - 4% suffer from low vision (1 in 30 people)
@@ -41,11 +45,9 @@ Not only can inaccessible design reflect poorly on our brand, it has the potenti
 
 ### How Helix supports accessibility
 
-The core Helix team has taken the following steps to help ensure that your UIs are accessible:
+The core Helix team has taken the following steps to help you design accessible UIs:
 
 - To increase the probability that a screen reader interprets a UI correctly, we have developed components that include the appropriate `aria-*` and `role` attributes, where necessary, and use semantic markup as much as possible. These efforts alone do not guarantee screen reader accessibility, as accessibility is mostly dependent on the UI being developed.
-- To the greatest extent possible, we follow the guidelines set forth by the [WAI-ARIA Authoring Practices 1.1](https://www.w3.org/TR/wai-aria-practices/) to ensure keyboard accessibility.
-- Accessibility is built into the Helix color palette and hex codes. If you adhere to the color palette, you will be in compliance.
 - We have designed the spacing system, focus states, and typography to conform to accessibility standards.
 - All design specifications we have written support accessibility.
 
@@ -327,13 +329,17 @@ Consider the following page layout guidelines when you construct an accessible U
 
 Pointer targets that are activated by a mouse, trackball, or stylus should be at least 44px x 44px. Large pointer targets can be helpful to users who have difficulty with fine motor skills.
 
-### Don't make users hover to find hidden controls
+### Avoid revealing content on hover
 
-Users that use screen readers or the keyboard to navigate to and select components rely on those components to be visible. Don't hide components as a way to reduce visual clutter. If a control cannot be seen, it cannot be verbally selected.
+Users that rely on screen readers or a keyboard to navigate the control panel cannot interact with elements that can only be revealed by using a mouse.
 
 ### Write meaningful alternative text for images
 
-Screen readers read the text you enter in the `<alt>` tag that you associate with an image. If an image provides important contextual information, then use the `<alt>` tag to describe what is happening in the picture. If the image is decorative and does not provide important information, then add an empty `<alt>` tag. If you do not add an `<alt>` tag, some screen readers read the name of the image file, which introduces unnecessary confusion and results in a poor user experience.
+Screen readers read the text you enter in the `alt` attribute that you associate with an image. If an image provides important contextual information, then use the `alt` attribute to describe what is happening in the picture. If you do not add an `<alt>` tag, some screen readers read the name of the image file, which introduces unnecessary confusion and results in a poor user experience.
+
+If an image is purely decorative, use `aria-hidden="true"`. Do not use an empty `alt` attribute.
+
+The `aria-hidden="true"` also applies to SVG inline images such as icons. Inline images require you to add other elements, for example `<title>` and `<description>`, to make them accessible. For more information about SVGs, see [Accessible SVGs](https://css-tricks.com/accessible-svgs/).
 
 {% endcolumn %}
 
@@ -355,13 +361,13 @@ Consider the following text guidelines when you construct an accessible UI.
 
 Write short labels and be concise when writing helper text. Listening to lengthy field names and links can be cumbersome for users that use screen readers. The shorter the label, the more quickly a screen reader can work through the content.
 
-### Identify required fields
+### Identify required inputs
 
-Use the HTML5 `required` attribute to distinguish between required and optional fields. Screen readers cannot interpret an asterisk (``*``), which is the convention used to visually identify required fields.
+Use the HTML5 `required` attribute to distinguish between required and optional inputs. Screen readers cannot interpret an asterisk (``*``), which is the convention used to visually identify required inputs.
 
 ### Link text should convey what happens when clicked
 
-Sentences that include links should include a text description before the link and then a unique name for the link. Do not use **Click Here** as a link naming convention. For example, use 'Visit the [Professional Services](http:www) page to learn more about how we can help transform your IT infrastructure'. Do not use 'Click [here](http:www) to learn more about how we can help transform your IT infrastructure'.
+Sentences that include links should include a text description before the link and then a unique name for the link. Do not use **Click Here** as a link naming convention. For example, use 'Visit the [Professional Services](https://www.rackspace.com/professional-services) page to learn more about how we can help transform your IT infrastructure'. Do not use 'Click [here](https://www.rackspace.com/professional-services) to learn more about how we can help transform your IT infrastructure'.
 
 {% endcolumn %}
 
@@ -377,14 +383,15 @@ Sentences that include links should include a text description before the link a
 
 ## Resources
 
-These accessibility guidelines are not exhaustive, and they might not be applicable to every situation. However, they do cover the major areas of concern when you incorporate accessibility into your design. Improving accessibility benefits all users by providing greater ease of use to everyone.
+These accessibility guidelines are not exhaustive, and they might not apply to every situation. However, they do cover the major areas of concern when you incorporate accessibility into your design. Improving accessibility benefits all users by providing greater ease of use to everyone.
 
 Consult the following resources as necessary:
 
-- [WebAim’s color contrast checker](https://webaim.org/resources/contrastchecker/): Insert foreground and background colors to know if they pass accessibility guidelines.
-- [Toggle Grayscale](https://goo.gl/aFn2h4): Plug-in built by the Helix development team so you can quickly view prototypes published to the web in grayscale within the Chrome browser.
-- [I want to see like the color blind](https://chrome.google.com/webstore/detail/i-want-to-see-like-the-co/jebeedfnielkcjlcokhiobodkjjpbjia?hl=en-GB): Chrome plug-in built to apply filters specific to color deficiencies.
-- [How to convert a whole design to grayscale](http://www.sketchtips.info/articles/how-to-convert-a-whole-design-to-grayscale): Guide to quickly apply grayscale to designs from within Sketch.
+- [How to Meet WCAG 2 (Quick Reference)](https://www.w3.org/WAI/WCAG21/quickref/): A quick reference guide that contains accessibility requirements success criteria and techniques.
+- [WebAim's color contrast checker](https://webaim.org/resources/contrastchecker/): Insert foreground and background colors to know if they pass accessibility guidelines.
+- [Toggle Grayscale](https://goo.gl/aFn2h4): A plug-in built by the Helix development team so you can quickly view prototypes published to the web in grayscale within the Chrome browser.
+- [I want to see like the color blind](https://chrome.google.com/webstore/detail/i-want-to-see-like-the-co/jebeedfnielkcjlcokhiobodkjjpbjia?hl=en-GB): A Chrome plug-in built to apply filters specific to color deficiencies.
+- [How to convert a whole design to grayscale](http://www.sketchtips.info/articles/how-to-convert-a-whole-design-to-grayscale): A guide to quickly apply grayscale to designs from within Sketch.
 
 {% endcolumn %}
 
