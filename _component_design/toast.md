@@ -55,15 +55,15 @@ Do not use a toast in the follow situations:
 
 ## Best practices
 
-Consider the following best practices when you construct toast:
+Consider the following best practices when you construct a toast:
 
 - Construct the toast so that the user can navigate away and still be notified in their current context when the user-initiated process completes or fails.
 - A toast can include an optional call-to-action (CTA) that navigates the user out of the current page, or that triggers an action.
 - Only use one CTA for a toast. Do not include a **Dismiss** or **Close** CTA.
-- If there is an error and the user can take an action to correct, include a CTA.
+- If there is an error and the user can take an action to correct it, include a CTA.
 - Use human-friendly, complete sentences when you write the notification message. For more information about writing notification message, see [Alert and Message Guidelines]({{site.baseurl}}/style/alert-messages.html).
 - The notification message should not exceed more than four lines, excluding the CTA.
-- The user can click close **X** to close the toast.
+- The user can click **Close X** to close the toast.
 - A toast remains open when the user hovers over it and closes when the cursor moves off of it, provided that the full 10 seconds has elapsed. Refer to [Behaviors]({{page.url}}#behaviors) for more information about toast timing.
 
 {% endcolumn %}
@@ -102,7 +102,7 @@ A toast is comprised of the following elements:
 - **Notification message (required)**: The notification message explains the result of the action taken by the user.
 - **Accent border (required)**: The color of the accent border corresponds to the notification type.
 - **Notification type indicator (required)**: The notification icon corresponds to the notification type.
-- **Close X (required)**: The user can click Close X to close the notification. The notification automatically disappears after 10 seconds.
+- **Close X (required)**: The user can click **Close X** to close the notification. The notification automatically disappears after 10 seconds.
 - **Footer (optional)**: The footer can contain a link or a button call-to-action (CTA).
 
 {% endcolumn %}
