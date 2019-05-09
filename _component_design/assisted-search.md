@@ -287,3 +287,5 @@ Use backspace to delete a single character and not the entire query or search pi
 
 </section>
 -->
+
+<!--- No Usage details --->

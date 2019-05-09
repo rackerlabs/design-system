@@ -52,6 +52,8 @@ Use anytime you want to simply convey the progress of a process.
 
 </section>
 
+<!--- End of Usage section --->
+
 <section class="static-section" markdown="1">
 
 <div class="hxRow" markdown="1">

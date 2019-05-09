@@ -48,6 +48,8 @@ Ensure that pills are uniform in size and shape.
 
 </section>
 
+<!--- End of Usage section --->
+
 <section class="static-section" markdown="1">
 
 <div class="hxRow" markdown="1">

@@ -46,6 +46,8 @@ last-modified: 2017-08-30
 
 </section>
 
+<!--- End of Usage section --->
+
 <section class="static-section" markdown="1">
 
 ## Nav bar

@@ -49,6 +49,9 @@ When an app supports large amounts of information, users can quickly locate cont
 
 </section>
 
+<!--- End of Usage section --->
+
+
 <section class="static-section" markdown="1">
 
 ## Specifications

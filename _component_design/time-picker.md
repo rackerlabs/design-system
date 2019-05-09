@@ -46,6 +46,8 @@ Do not use the time picker if there are gaps between time options. For example, 
 
 </section>
 
+<!--- End of Usage section --->
+
 <section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">

@@ -35,6 +35,8 @@ Use a drop-down selector in the following situations:
 
 </section>
 
+<!--- End of Usage section --->
+
 <section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">

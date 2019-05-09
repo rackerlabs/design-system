@@ -46,6 +46,8 @@ helix-ui-note: Implemented by Pilot
 
 </section>
 
+<!--- End of Usage section --->
+
 <section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">
