@@ -2,7 +2,7 @@
 title: Pills
 layout: code
 category: Components Code
-code: components/pills
+code: components/pill
 ---
 
 {% include code-container.html %}

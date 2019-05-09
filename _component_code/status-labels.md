@@ -2,7 +2,7 @@
 title: Status Labels
 layout: code
 category: Components Code
-code: components/pills/
+code: components/pill
 part: status-pill
 ---
 

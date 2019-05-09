@@ -11,7 +11,7 @@ status: stable
 last-modified: 2017-10-24
 helix-ui-css: true
 helix-ui-javascript: true
-pagelink: https://rackerlabs.github.io/helix-ui/components/loaders/#busy
+pagelink: https://rackerlabs.github.io/helix-ui/components/loader/#busy
 ---
 
 {% include toc.html %}

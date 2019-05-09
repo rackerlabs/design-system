@@ -2,7 +2,7 @@
 title: Footer
 layout: code
 category: Components Code
-code: components/layouts
+code: components/layout
 ---
 
 {% include code-container.html %}

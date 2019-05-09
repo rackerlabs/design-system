@@ -2,7 +2,7 @@
 title: Vertical Stepper
 layout: code
 category: Components Code
-code: components/accordions
+code: components/accordion
 ---
 
 {% include code-container.html %}

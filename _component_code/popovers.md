@@ -2,7 +2,7 @@
 title: Popovers
 layout: code
 category: Components Code
-code: components/popovers
+code: components/popover
 ---
 
 {% include code-container.html %}

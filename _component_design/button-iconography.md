@@ -11,7 +11,7 @@ resource: true
 last-modified: 2018-10-11
 helix-ui-css: true
 helix-ui-javascript: na
-pagelink: https://rackerlabs.github.io/helix-ui/components/menus/
+pagelink: https://rackerlabs.github.io/helix-ui/components/menu/
 ---
 
 {% include toc.html %}
@@ -290,7 +290,7 @@ This section includes examples of common icon buttons that you can use when cons
 
 ### Common icon buttons
 
-Choose from a variety of standard icon buttons. See the [Helix Toolkit](https://rackerlabs.github.io/helix-ui/components/icons/) for more information about icons.
+Choose from a variety of standard icon buttons. See the [Helix Toolkit](https://rackerlabs.github.io/helix-ui/components/icon/) for more information about icons.
 
 {% endcolumn %}
 

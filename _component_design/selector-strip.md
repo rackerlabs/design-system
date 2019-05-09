@@ -12,7 +12,7 @@ resource: true
 last-modified: 2018-09-28
 helix-ui-css: true
 helix-ui-javascript: true
-pagelink: https://rackerlabs.github.io/helix-ui/components/selector-strips/
+pagelink: https://rackerlabs.github.io/helix-ui/components/selector-strip/
 ---
 
 {% include toc.html %}
