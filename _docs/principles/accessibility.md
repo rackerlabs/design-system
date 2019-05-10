@@ -48,8 +48,7 @@ Not only can inaccessible design reflect poorly on our brand, but it also has th
 The Helix team has taken the following steps to help you design accessible UIs:
 
 - To increase the probability that a screen reader interprets a UI correctly, we have developed components that include the appropriate `aria-*` and `role` attributes, where necessary, and use semantic markup as much as possible. These efforts alone do not guarantee accessibility, because strategies to enable accessibility are highly dependent on the UI being developed.
-- We have designed the spacing system, focus states, and typography to conform to accessibility standards.
-- All design specifications we have written support accessibility.
+- We strive to design for the best accessibility in all of our design specifications.
 
 While the Helix team has worked to provide you with code and specifications that support accessibility, it is ultimately the responsibility of individual designers and developers to ensure that UIs are accessible.
 
@@ -121,10 +120,11 @@ Alert bars are a great example of how you can use multiple indicators to convey 
 
 The contrast between text and its background impacts the readability of a document. If the color contrast is too low, users with low vision or contrast sensitivity have difficulty reading the text.
 
-To ensure that text is readable, Helix adheres to the accessibility standards defined by [WCAG](https://www.w3.org/TR/WCAG21/). These standards are based on contrast ratios calculated from text size, text color, and background color.
+To ensure that text is readable, Helix adheres to the [WCAG 2.1 accessibility standards](https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=143#contrast-minimum) for color contrast.. These standards are based on contrast ratios calculated from text size, text color, and background color.
 
 - Small text should have a contrast ratio of at least 4.5:1 against its background color.
-- Large text, which is considered 14px bold text or, at a minimum, 18px regular text, should have a contrast ratio of at least 3:1.
+- Large text, which is considered 14px bold or 18px regular (at minimum), should have a contrast ratio of at least 3:1.
+
 
 {% endcolumn %}
 
@@ -238,15 +238,7 @@ Consider the following page layout guidelines when you construct an accessible U
 
 ### Be consistent with headings
 
-**Alternate text**
-
-Screen readers read headings in the order you define them in the document, and not in the order they appear on the screen. For example, a Heading 1 and a Heading 2 can appear in that order on the screen, but you can define them in the document so that Heading 2 is read before Heading 1.
-
-Ensure that you are consistent with the order the headings appear on the screen and the order you define the headings in the document.
-
-**End alternate text**
-
-Some screen readers allow users to listen to all of the headings on a page and then choose which content area they want to explore. Because screen readers read heading tags in the order they appear, it is important that you . The structure of a page hierarchy should be logical. For example, don't skip from a Heading 1 to a Heading 3, and then back to a Heading 2.
+Screen readers use page headings as an outline that defines the structure of a page. Incorrect heading levels create an inconsistency in the page structure and can cause confusion for screen reader users. For example, don't skip from a Heading 1 to a Heading 3, and then back to a Heading 2. The structure of a page hierarchy should be logical.
 
 {% endcolumn %}
 
@@ -264,7 +256,7 @@ Some screen readers allow users to listen to all of the headings on a page and t
 
 The use of space in visual design provides for designs that are both clear and pleasing to the eyes. Space creates relationships, defines hierarchies, and emphasizes content. Always keep these in mind when considering how to reduce visual noise and create visual flow in your design.
 
-Some people with cognitive disabilities have difficulty reading text when lines are too close to one another. Providing extra space between lines and paragraphs allows the user to better track the next line and to recognize when they have reached the end of a paragraph. The [WCAG](https://www.w3.org/TR/WCAG21/) prescribes that line spacing (leading) is at least space-and-a-half within paragraphs, and paragraph spacing is at least 1.5 times larger than the line spacing.
+Some people with cognitive disabilities have difficulty reading text when lines are too close to one another. Providing extra space between lines and paragraphs allows the user to better track the next line and to recognize when they have reached the end of a paragraph. [WCAG 2.1 Text Spacing](https://www.w3.org/WAI/WCAG21/quickref/#text-spacing) prescribes that line spacing (leading) is at least space-and-a-half within paragraphs, and paragraph spacing is at least 1.5 times larger than the line spacing.
 
 {% endcolumn %}
 
