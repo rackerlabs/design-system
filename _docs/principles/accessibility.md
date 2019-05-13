@@ -6,7 +6,7 @@ usage: >
   Accessibility standards promote the design of user interfaces (UIs) so that people with the widest range of abilities within the widest range of situations can use them.
 status: stable
 resource: true
-last-modified: 2019-05-09
+last-modified: 2019-05-13
 ---
 
 {% include toc.html %}
@@ -120,7 +120,7 @@ Alert bars are a great example of how you can use multiple indicators to convey 
 
 The contrast between text and its background impacts the readability of a document. If the color contrast is too low, users with low vision or contrast sensitivity have difficulty reading the text.
 
-To ensure that text is readable, Helix adheres to the [WCAG 2.1 accessibility standards](https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=143#contrast-minimum) for color contrast.. These standards are based on contrast ratios calculated from text size, text color, and background color.
+To ensure that text is readable, Helix adheres to the [WCAG 2.1 accessibility standards](https://www.w3.org/WAI/WCAG21/quickref/?showtechniques=143#contrast-minimum) for color contrast. These standards are based on contrast ratios calculated from text size, text color, and background color.
 
 - Small text should have a contrast ratio of at least 4.5:1 against its background color.
 - Large text, which is considered 14px bold or 18px regular (at minimum), should have a contrast ratio of at least 3:1.
@@ -327,7 +327,7 @@ Consider the following page layout guidelines when you construct an accessible U
 
 ### Ensure that pointer targets are large enough
 
-Pointer targets that are activated by a mouse, trackball, or stylus should be at least 44px x 44px. Large pointer targets can be helpful to users who have difficulty with fine motor skills.
+Pointer targets that are activated by touch, mouse, trackball, or stylus should be at least 44px x 44px. Large pointer targets can be helpful to users who have difficulty with fine motor skills.
 
 ### Avoid revealing content on hover
 
