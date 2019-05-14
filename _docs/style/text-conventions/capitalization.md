@@ -7,7 +7,7 @@ usage: |
   User interface (UI) elements use a combination of title-style, sentence-style, and uppercase capitalization. When you use different capitalization styles for different types of content, you can improve scannability, organize information, and guide users to key actions. It is important to apply these capitalization guidelines consistently to make the UI clear and succinct.
 resource: false
 status: complete
-last-modified: 2018-06-28
+last-modified: 2019-05-14
 ---
 
 {% include toc.html %}
@@ -118,9 +118,9 @@ The following elements use sentence-style capitalization:
 
 ## Uppercase capitalization
 
-In rare cases, uppercase capitalization might be used to visually distinguish a secondary text element, such as, **GENERAL** as a menu heading.
+In some cases, uppercase can be used to visually distinguish a text element from the text around it. Uppercase text style is difficult to read, so use it sparingly. Limit uppercase to no more than three words.
 
-The following elements use uppercase capitalization:
+The following elements use uppercase:
 
 - Header 5
 - Table column headers
