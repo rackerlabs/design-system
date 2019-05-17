@@ -6,7 +6,7 @@ usage: >
   Accessibility standards promote the design of user interfaces (UIs) so that people with the widest range of abilities within the widest range of situations can use them.
 status: stable
 resource: true
-last-modified: 2019-05-13
+last-modified: 2019-05-17
 ---
 
 {% include toc.html %}
@@ -19,6 +19,8 @@ last-modified: 2019-05-13
 
 ## Understanding accessibility
 
+Accessibility is more than just good design. It's about the empathy for and inclusion of all people. The United Nations estimates that over 1 billion people in the world live with a disability.
+
 An accessible UI can be *accessed* and used by people who experience a permanent or a temporary impairment. An impairment can be visual, auditory, physical, or cognitive.
 
 For example, a user who suffers from a concussion might experience difficulty processing information, so ensure that you write succinct, on-page instructions and labels. A user who experiences hand tremors as a side effect of medication has difficulty operating a mouse, so design pointer targets so they are large enough.
@@ -29,19 +31,9 @@ The purpose of this document is to articulate guidelines that you can use when y
 
 ### Why accessibility is important
 
-Accessibility is more than just good design. It's about the empathy for and inclusion of all people. In fact, the United Nations estimates that over 1 billion people in the world live with a disability.
+Not designing to support users with an impairment means that those users might not be able to complete their tasks and can't do their job. For Helix, accessibility is not considered an edge case, it is considered table stakes.
 
-Consider sight. Because many jobs require workers to interact with a visual display of some sort, people who experience color blindness, low sight, or no sight are particularly disadvantaged in the workplace.
-
-[The Colour Blind Awareness site](http://www.colourblindawareness.org/) estimates that:
-
-- 4.5% of the global population experience color blindness (1 in 12 men and 1 in 200 women)
-- 4% suffer from low vision (1 in 30 people)
-- 0.6% are blind (1 in 188 people)
-
-With a global population of just over 7.5 billion people, 9.1% of the world's population equates to over one-half billion visually-impaired users that cannot use an inaccessible product. Inaccessible products can have a negative impact on a large percent of users.
-
-Not only can inaccessible design reflect poorly on our brand, but it also has the potential for legal ramifications. In 2018, at least 2258 lawsuits were filed in federal court under Title III of the Americans with Disabilities Act (ADA), an increase of 177% of such lawsuits filed in 2017.
+Not only can inaccessible design reflect poorly on our brand, it also has the potential for legal ramifications. In 2018, at least 2258 lawsuits were filed in federal court under Title III of the Americans with Disabilities Act (ADA), an increase of 177% of such lawsuits filed in 2017.
 
 ### How Helix supports accessibility
 
@@ -50,7 +42,7 @@ The Helix team has taken the following steps to help you design accessible UIs:
 - To increase the probability that a screen reader interprets a UI correctly, we have developed components that include the appropriate `aria-*` and `role` attributes, where necessary, and use semantic markup as much as possible. These efforts alone do not guarantee accessibility, because strategies to enable accessibility are highly dependent on the UI being developed.
 - We strive to design for the best accessibility in all of our design specifications.
 
-While the Helix team has worked to provide you with code and specifications that support accessibility, it is ultimately the responsibility of individual designers and developers to ensure that UIs are accessible.
+While the Helix team has worked to provide you with code and specifications that support accessibility, it is ultimately the responsibility of individual designers and developers to ensure that UIs are accessible. If you have questions about accessibility, [contact the Helix team]({{site.baseurl}}/contact-us/index.html).
 
 {% endcolumn %}
 
@@ -82,7 +74,7 @@ Consider the following color guidelines when you construct an accessible UI.
 
 ### Do not rely on color alone to convey meaning
 
-Color deficiency is a common issue faced in the design process. The most common form of color blindness is known as red-green color deficiency, and those affected have trouble distinguishing certain hues of red and green. For example, an individual with red-green color deficiency can confuse blue and purple because they might not be able to distinguish the red element of purple.
+Because it affects 4.5% of the world's population, color blindness is a common issue faced by users. The most common form of color blindness is known as red-green color deficiency, and those affected have trouble distinguishing certain hues of red and green. For example, an individual with red-green color deficiency can confuse blue and purple because they might not be able to distinguish the red element of purple.
 
 While color can be useful to convey information, it should not be the *only* way to convey information. When you use color to differentiate elements, you should also provide additional identification that does not rely on color perception.
 
@@ -124,7 +116,6 @@ To ensure that text is readable, Helix adheres to the [WCAG 2.1 accessibility st
 
 - Small text should have a contrast ratio of at least 4.5:1 against its background color.
 - Large text, which is considered 14px bold or 18px regular (at minimum), should have a contrast ratio of at least 3:1.
-
 
 {% endcolumn %}
 
@@ -272,7 +263,7 @@ Some people with cognitive disabilities have difficulty reading text when lines 
 
 Helix minimum spacing standards require the following specifications: 
 
-- Line spacing for Roboto Regular 16px is 24px.
+- By default, Helix line spacing is 1.5 which means that Roboto 16px has a line height of 24px, unless the text can never wrap.
 - Spacing below paragraphs is 16px.
 - Use whitespace and proximity to make relationships between content more apparent.
 - Style headings group content, reduce clutter, and make it easier to scan and understand.
