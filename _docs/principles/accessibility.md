@@ -6,7 +6,7 @@ usage: >
   Accessibility standards promote the design of user interfaces (UIs) so that people with the widest range of abilities within the widest range of situations can use them.
 status: stable
 resource: true
-last-modified: 2019-05-17
+last-modified: 2019-05-24
 ---
 
 {% include toc.html %}
@@ -19,9 +19,9 @@ last-modified: 2019-05-17
 
 ## Understanding accessibility
 
-Accessibility is more than just good design. It's about the empathy for and inclusion of all people. The United Nations estimates that over 1 billion people in the world live with a disability.
-
 An accessible UI can be *accessed* and used by people who experience a permanent or a temporary impairment. An impairment can be visual, auditory, physical, or cognitive.
+
+Accessibility is more than just good design. It's about the empathy for and inclusion of all people. The United Nations estimates that over 1 billion people in the world live with a disability.
 
 For example, a user who suffers from a concussion might experience difficulty processing information, so ensure that you write succinct, on-page instructions and labels. A user who experiences hand tremors as a side effect of medication has difficulty operating a mouse, so design pointer targets so they are large enough.
 
