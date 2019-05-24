@@ -181,7 +181,7 @@ When you indicate an invalid input, in addition to the error message, change the
 
 Use focus state to provide clear visual feedback that the focused element can receive keyboard input from the user.
 
-Refer to [Focus States]({{site.baseURL}}/style/focus-states.html) for more information on constructing focus states.
+Refer to [Focus States]({{site.baseurl}}/style/focus-states.html) for more information on constructing focus states.
 
 {% endcolumn %}
 
@@ -358,7 +358,7 @@ Use the HTML5 `required` attribute to distinguish between required and optional 
 
 ### Link text should convey what happens when clicked
 
-Sentences that include links should include a text description before the link and then a unique name for the link. Do not use **Click Here** as a link naming convention. For example, use 'Visit the [Professional Services](https://www.rackspace.com/professional-services) page to learn more about how we can help transform your IT infrastructure'. Do not use 'Click [here](https://www.rackspace.com/professional-services) to learn more about how we can help transform your IT infrastructure'.
+Sentences that include links should include a text description before the link and then a unique name for the link. Do not use **Click Here** as a link naming convention. For example, use 'Visit the [Professional Services]() page to learn more about how we can help transform your IT infrastructure'. Do not use 'Click [here]() to learn more about how we can help transform your IT infrastructure'.
 
 {% endcolumn %}
 
