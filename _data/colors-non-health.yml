@@ -1,0 +1,7 @@
+ 1:
+  name: "Orange"
+  colors:
+   A:
+    number: 500
+    value: "#ef6c2f"
+    type: "light"

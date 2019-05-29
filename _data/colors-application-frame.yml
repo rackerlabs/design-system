@@ -1,0 +1,38 @@
+ 1:
+  name: "Steel"
+  colors:
+   A:
+    number: 900
+    value: "#172433"
+    type: "light"
+   B:
+    number: 700
+    value: "#354659"
+    type: "light"
+   C:
+    number: 600
+    value: "#485e78"
+    type: "light"
+   D:
+    number: 500
+    value: "#5a7697"
+    type: "light"
+   E:
+    number: 100
+    value: "#e3eaf2"
+    type: "dark"
+ 2:
+  name: "Gray"
+  colors:
+   A:
+    number: 300
+    value: "#b2b2b2"
+    type: "dark"
+   B:
+    number: 25
+    value: "#fcfcfc"
+    type: "dark"
+   C:
+    number: 0
+    value: "#ffffff"
+    type: "dark"
