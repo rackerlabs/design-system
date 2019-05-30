@@ -60,7 +60,7 @@ An interactive state is comprised of the following elements:
 - **Control**: The control is the container of the UI component to which you apply the interactive state.
 - **Emphasis color**: Apply the emphasis color to a primary child element within a control.
 
-The following list is some of the elements receive emphasis color:
+The following list of elements receive emphasis color:
 
 - Checks in checkboxes
 - Circles in radios
@@ -117,11 +117,11 @@ Unless otherwise specified, all inputs and controls have a border radius of 2px.
 
 ### Unselected styles
 
-In most cases, you apply unselected styles to controls that can selected, such as option tiles, checkboxes, and radios. In some cases you apply unselected styles to general controls such as text input and drop-down selectors.
+In most cases, you apply unselected styles to controls that the user selects, such as option tiles, checkboxes, and radios. In some cases you apply unselected styles to general controls such as text input and drop-down selectors.
 
-You are not required to apply all unselected styles to an input or control. For example, in the default state, a text input receives only the Unselected Idle style. Do not apply any of the other three unselected styles to a text input.
+You are not required to apply all unselected styles to an input or control. For example, in the default state, a text input receives only the unselected idle style. Do not apply any of the other three unselected styles to a text input.
 
-Only multi-select controls, like checkboxes, use the Unselected Focused state. Single- select controls, such as radio buttons, do not have an Unselected Focused state, because they are automatically selected when focused.
+Only multi-select controls, like checkboxes, use the unselected focused state. Single-select controls such as radios, do not have an unselected focused state, because they are automatically selected when focused.
 
 {% endcolumn %}
 
@@ -147,9 +147,9 @@ Only multi-select controls, like checkboxes, use the Unselected Focused state. S
 
 ### Selected styles
 
-Selected styles are most often used for selectable controls, like Checkboxes. However, some selected styles can also be used for other controls like text inputs or dropdowns.
+Selected styles are most often used for selectable controls, like checkboxes. However, some selected styles can also be used for other controls like text inputs or drop-down selectors.
 
-Not all state styles have to be applied. For example, text inputs use the Selected Focused style for their focused state, but they do not use any of the other three styles..
+You are not required to apply all selected styles to an input or control. For example, text inputs use the selected focused style for the focused state, but they do not use any of the other three styles.
 
 {% endcolumn %}
 
@@ -175,9 +175,9 @@ Not all state styles have to be applied. For example, text inputs use the Select
 
 #### Selected with fill
 
-Use selected fills for elements which benefit from a more apparent selected state. This includes elements such as checkboxes, radios, switches, toggles, and so on.
+Apply selected fill styles to elements that benefit from a more apparent selected state, including checkboxes, radios, switches, and toggles.
 
-Use the settings to the right when applying a fill color to selected control states.
+Use these settings when you apply a fill color to selected control states.
 
 {% endcolumn %}
 
@@ -203,9 +203,9 @@ Use the settings to the right when applying a fill color to selected control sta
 
 ### Errored styles
 
-Use the styles to the right when constructing error states for inputs and controls.
+Use these styles when you construct error states for inputs and controls.
 
-Generally, only selectable controls use the hovered states. For example, checkboxes and radios have a hover state, but text inputs do not.
+In general, apply hovered states to selectable controls. For example, checkboxes and radios have a hover state, but text inputs do not.
 
 {% endcolumn %}
 
@@ -231,11 +231,11 @@ Generally, only selectable controls use the hovered states. For example, checkbo
 
 #### Errored and selected with fill
 
-For the most part, it should be nearly impossible to have a selectable control that is selected and errored. However, some severe edge cases do exist.
+It is nearly impossible for a selectable control to be selected *and* errored. However, some edge cases do exist.
 
-These styles primarily apply to controls with unique interactive patterns such as selector strips, toggles, and switches.
+The error and selected with fill styles primarily apply to controls with unique interactive patterns such as selector strips, toggles, and switches.
 
-Note that in the example the container still receives the standard red stroke and the selected option gets the fill. This is common for controls that use this style for indicating errors.
+**Note**: In this example, the container still receives the standard red stroke and the selected option is filled. This combination is common for controls that use this style for indicating errors.
 
 {% endcolumn %}
 
@@ -261,9 +261,9 @@ Note that in the example the container still receives the standard red stroke an
 
 ### Disabled styles
 
-Use the specifications in the figure to the right when constructing disabled styles for inputs and controls.
+Use these specifications when you construct disabled styles for inputs and controls.
 
-Disabled controls generally cannot receive focus. However, the disabled focused style does occur in edge cases where an input gets disabled on click. In that scenario, the control technically has focus even though it’s disabled.
+Disabled controls generally cannot receive focus, although there are cases where an input becomes disabled on click. In that scenario, the control receives focus even though it is disabled.
 
 {% endcolumn %}
 
@@ -289,7 +289,9 @@ Disabled controls generally cannot receive focus. However, the disabled focused 
 
 #### Disabled and selected with fill
 
-Disabled and selected is an edge case state that occurs when a selectable control is selected and disabled by default, or due to a previous choice that requires this input to be selected and disabled.
+Disabled and selected with fill is an uncommon state that occurs when a selectable control is selected and disabled by default. This state can occur when a user makes a previous choice that requires this input to be selected and disabled.
+
+**For example, ....**
 
 {% endcolumn %}
 
@@ -315,7 +317,7 @@ Disabled and selected is an edge case state that occurs when a selectable contro
 
 ### Focus glow styles
 
-The focus glow helps users to see which interactive element has focus.
+The focus glow style helps users identify which interactive element has focus.
 
 Use the specifications to the right when building focus glow styles.
 
