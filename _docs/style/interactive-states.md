@@ -35,6 +35,22 @@ xxxxx.
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
+## Best practices
+
+xxxxx.
+
+{% endcolumn %}
+
+</div>
+
+</section>
+
+<section class="static-section" markdown="1">
+
+<div class="hxRow" markdown="1">
+
+{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
+
 ## Specifications
 
 Use the following specifications when you construct an interactive UI element.
@@ -177,8 +193,6 @@ You are not required to apply all selected styles to an input or control. For ex
 
 Apply selected fill styles to elements that benefit from a more apparent selected state, including checkboxes, radios, switches, and toggles.
 
-Use these settings when you apply a fill color to selected control states.
-
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
@@ -202,8 +216,6 @@ Use these settings when you apply a fill color to selected control states.
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### Errored styles
-
-Use these styles when you construct error states for inputs and controls.
 
 In general, apply hovered states to selectable controls. For example, checkboxes and radios have a hover state, but text inputs do not.
 
@@ -261,8 +273,6 @@ The error and selected with fill styles primarily apply to controls with unique 
 
 ### Disabled styles
 
-Use these specifications when you construct disabled styles for inputs and controls.
-
 Disabled controls generally cannot receive focus, although there are cases where an input becomes disabled on click. In that scenario, the control receives focus even though it is disabled.
 
 {% endcolumn %}
@@ -317,19 +327,9 @@ Disabled and selected with fill is an uncommon state that occurs when a selectab
 
 ### Focus glow styles
 
-<<<<<<< Updated upstream
-The focus glow style helps users identify which interactive element has focus.
-
-Use the specifications to the right when building focus glow styles.
-
-Use the Child Focus Border for focusable child elements, such as the clear button on a search input.
-=======
-Use these specifications when you construct focus glow styles.
-
 The focus glow style identifies which interactive element has focus.
 
 Use the child focus border for focusable child elements, such as the clear button on a search input.
->>>>>>> Stashed changes
 
 {% endcolumn %}
 
