@@ -317,11 +317,19 @@ Disabled and selected with fill is an uncommon state that occurs when a selectab
 
 ### Focus glow styles
 
+<<<<<<< Updated upstream
 The focus glow style helps users identify which interactive element has focus.
 
 Use the specifications to the right when building focus glow styles.
 
 Use the Child Focus Border for focusable child elements, such as the clear button on a search input.
+=======
+Use these specifications when you construct focus glow styles.
+
+The focus glow style identifies which interactive element has focus.
+
+Use the child focus border for focusable child elements, such as the clear button on a search input.
+>>>>>>> Stashed changes
 
 {% endcolumn %}
 
