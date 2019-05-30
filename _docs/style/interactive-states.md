@@ -8,7 +8,7 @@ usage: >
   All controls that live in the application body strictly adhere to subsets of the specifications in this document, unless otherwise noted in their individual design docs.
 resource: true
 status: complete
-last-modified: 2019-05-24
+last-modified: 2019-05-29
 ---
 
 {% include toc.html %}
@@ -53,11 +53,19 @@ Use the following specifications when you construct an interactive UI element.
 
 ### Composition
 
-In this document, state styles are represented by a square containing a circle.
+In this document, a circle within a square represents a state style.
 
-Emphasis color can be applied to a primary child element within a control.
+An interactive state is comprised of the following elements:
 
-Examples of elements that receive emphasis color are checks in checkboxes, circles in radios, icons in option tiles, labels in selector strips, and so on.
+- **Control**: The control is the container of the UI component to which you apply the interactive state.
+- **Emphasis color**: Apply the emphasis color to a primary child element within a control.
+
+The following list is some of the elements receive emphasis color:
+
+- Checks in checkboxes
+- Circles in radios
+- Icons in option tiles
+- Labels in selector strips
 
 {% endcolumn %}
 
@@ -109,11 +117,9 @@ Unless otherwise specified, all inputs and controls have a border radius of 2px.
 
 ### Unselected styles
 
-Unselected styles are most often used for controls that can be selected, such as Option Tiles, checkboxes, and radios.
+In most cases, you apply unselected styles to controls that can selected, such as option tiles, checkboxes, and radios. In some cases you apply unselected styles to general controls such as text input and drop-down selectors.
 
-However, some unselected styles are used for general controls like text inputs or dropdowns.
-
-Not all state styles have to be applied. For example, text inputs use Unselected Idle for their default state, but they do not use any of the other three styles.
+You are not required to apply all unselected styles to an input or control. For example, in the default state, a text input receives only the Unselected Idle style. Do not apply any of the other three unselected styles to a text input.
 
 Only multi-select controls, like checkboxes, use the Unselected Focused state. Single- select controls, such as radio buttons, do not have an Unselected Focused state, because they are automatically selected when focused.
 
