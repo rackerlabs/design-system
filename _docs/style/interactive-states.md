@@ -5,7 +5,7 @@ category: Style
 usage: >
   The system of interactive states ensures consistent styles for the states of controls in Helix. This system accounts for multiple types of controls, with various interactive patterns, and defines commonalities and standards across all of them.
 
-  All controls that live in the application body strictly adhere to subsets of the specifications in this document, unless otherwise noted in their individual design docs.
+  Unless otherwise noted in their individual design docs, all controls that live in the application body strictly adhere to subsets of the specifications in this document.
 resource: true
 status: complete
 last-modified: 2019-06-03
@@ -21,7 +21,7 @@ last-modified: 2019-06-03
 
 ## When to use
 
-Use the interactive states styles when you design a control or input that you place within the body of the application. Consistent use of interactive state styles ensure that your design is aligned and consistent with Helix.
+Use the styles for the interactive states when you design a control or input that you place within the body of the application. Consistent use of interactive state styles ensure that your design is aligned and consistent with Helix.
 
 {% endcolumn %}
 
@@ -40,7 +40,7 @@ Use the interactive states styles when you design a control or input that you pl
 Consider the following best practices when you construct interactive states:
 
 - In general, only apply hovered states to selectable controls. For example, checkboxes and radios have a hover state, but text inputs do not.
-- Do not apply all states styles to your inputs or controls.
+- Do not apply all state styles to your inputs or controls.
 - When you design a new control, consult other similar controls to understand which interactive states apply.
 - Avoid using selected filled styles for large controls, such as tiles or cards.
 - If you have an input or control that is selected and errored, consider if there is a better interaction design that prevents the user from getting into that state.
@@ -251,9 +251,9 @@ Use these specifications when you construct an input or control in an errored st
 
 It is nearly impossible for a selectable control to be selected *and* errored. However, some edge cases do exist.
 
-The error and selected with fill styles primarily apply to controls with unique interactive patterns such as selector strips, toggles, and switches.
+The error and selected-with-fill styles primarily apply to controls with unique interactive patterns such as selector strips, toggles, and switches.
 
-**Note**: In this example, the container still receives the standard red stroke and the selected option is filled. This combination is common for controls that use this style for indicating errors.
+**Note**: In this example, the container still receives the standard red stroke, and the selected option is filled. This combination is common for controls that use this style for indicating errors.
 
 {% endcolumn %}
 
