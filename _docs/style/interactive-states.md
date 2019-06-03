@@ -8,7 +8,7 @@ usage: >
   All controls that live in the application body strictly adhere to subsets of the specifications in this document, unless otherwise noted in their individual design docs.
 resource: true
 status: complete
-last-modified: 2019-05-29
+last-modified: 2019-06-03
 ---
 
 {% include toc.html %}
@@ -21,7 +21,7 @@ last-modified: 2019-05-29
 
 ## When to use
 
-xxxxx.
+Use the interactive states styles when you design a control or input that you place within the body of the application. Consistent use of interactive state styles ensure that your design is aligned and consistent with Helix.
 
 {% endcolumn %}
 
@@ -37,7 +37,13 @@ xxxxx.
 
 ## Best practices
 
-xxxxx.
+Consider the following best practices when you construct interactive states:
+
+- In general, only apply hovered states to selectable controls. For example, checkboxes and radios have a hover state, but text inputs do not.
+- Do not apply all states styles to your inputs or controls.
+- When you design a new control, consult other similar controls to understand which interactive states apply.
+- Avoid using selected filled styles for large controls, such as tiles or cards.
+- If you have an input or control that is selected and errored, consider if there is a better interaction design that prevents the user from getting into that state.
 
 {% endcolumn %}
 
@@ -87,7 +93,7 @@ The following list of elements receive emphasis color:
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Focus state composition"] [class:"image bg-light border"] %}
+{% figure [caption:"Interactive states composition"] [class:"image bg-light border"] %}
 
 <img src="{{site.url}}/assets/images/style/interactive-states/interactive-states-composition.png" width="380"/>
 
@@ -113,7 +119,7 @@ Unless otherwise specified, all inputs and controls have a border radius of 2px.
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Focus state composition"] [class:"image bg-light border"] %}
+{% figure [caption:"Interactive states composition"] [class:"image bg-light border"] %}
 
 <img src="{{site.url}}/assets/images/style/interactive-states/interactive-states-style.png" width="195"/>
 
@@ -143,7 +149,7 @@ Only multi-select controls, like checkboxes, use the unselected focused state. S
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Focus state composition"] [class:"image bg-light border"] %}
+{% figure [caption:"Unselected styles"] [class:"image bg-light border"] %}
 
 <img src="{{site.url}}/assets/images/style/interactive-states/interactive-states-unselected-styles.png" width="539"/>
 
@@ -171,7 +177,7 @@ You are not required to apply all selected styles to an input or control. For ex
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Focus state composition"] [class:"image bg-light border"] %}
+{% figure [caption:"Selected styles"] [class:"image bg-light border"] %}
 
 <img src="{{site.url}}/assets/images/style/interactive-states/interactive-states-selected-styles.png" width="538"/>
 
@@ -197,7 +203,7 @@ Apply selected fill styles to elements that benefit from a more apparent selecte
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Focus state composition"] [class:"image bg-light border"] %}
+{% figure [caption:"Selected styles with fill"] [class:"image bg-light border"] %}
 
 <img src="{{site.url}}/assets/images/style/interactive-states/interactive-states-selected-with-fill.png" width="519"/>
 
@@ -217,13 +223,13 @@ Apply selected fill styles to elements that benefit from a more apparent selecte
 
 ### Errored styles
 
-In general, apply hovered states to selectable controls. For example, checkboxes and radios have a hover state, but text inputs do not.
+Use these specifications when you construct an input or control in an errored state.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Focus state composition"] [class:"image bg-light border"] %}
+{% figure [caption:"Errored styles"] [class:"image bg-light border"] %}
 
 <img src="{{site.url}}/assets/images/style/interactive-states/interactive-states-errored-styles.png" width="536"/>
 
@@ -253,7 +259,7 @@ The error and selected with fill styles primarily apply to controls with unique 
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Focus state composition"] [class:"image bg-light border"] %}
+{% figure [caption:"Errored and selected styles with fill"] [class:"image bg-light border"] %}
 
 <img src="{{site.url}}/assets/images/style/interactive-states/interactive-states-errored-selected-with-fill.png" width="543"/>
 
@@ -279,7 +285,7 @@ Disabled controls generally cannot receive focus, although there are cases where
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Focus state composition"] [class:"image bg-light border"] %}
+{% figure [caption:"Disabled styles"] [class:"image bg-light border"] %}
 
 <img src="{{site.url}}/assets/images/style/interactive-states/interactive-states-disabled-styles.png" width="535"/>
 
@@ -301,13 +307,11 @@ Disabled controls generally cannot receive focus, although there are cases where
 
 Disabled and selected with fill is an uncommon state that occurs when a selectable control is selected and disabled by default. This state can occur when a user makes a previous choice that requires this input to be selected and disabled.
 
-**For example, ....**
-
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Focus state composition"] [class:"image bg-light border"] %}
+{% figure [caption:"Disabled and selected styles with fill"] [class:"image bg-light border"] %}
 
 <img src="{{site.url}}/assets/images/style/interactive-states/interactive-states-disabled-selected-with-fill.png" width="223"/>
 
@@ -335,7 +339,7 @@ Use the child focus border for focusable child elements, such as the clear butto
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Focus state composition"] [class:"image bg-light border"] %}
+{% figure [caption:"Focus glow styles"] [class:"image bg-light border"] %}
 
 <img src="{{site.url}}/assets/images/style/interactive-states/interactive-states-focus-glow-styles.png" width="264"/>
 
