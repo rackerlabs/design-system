@@ -210,6 +210,8 @@ Refer to [Interactive States]({{site.baseurl}}/style/interactive-states.html) fo
     </div>
   {%endfor%}
 
+</div>
+
   {% endcolumn %}
 
 </div>
@@ -253,6 +255,8 @@ In general:
       {%endfor%}
     </div>
   {%endfor%}
+
+</div>
 
   {% endcolumn %}
 
