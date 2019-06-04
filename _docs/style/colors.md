@@ -171,7 +171,7 @@ Refer to Status Labels for construction guidelines.
       {%endfor%}
     </div>
   {%endfor%}
-
+</div>
   {% endcolumn %}
 
 </div>
