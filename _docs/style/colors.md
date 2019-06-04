@@ -132,7 +132,7 @@ Sometimes it is important to communicate the status of an entity, without also c
 </div>
     {% endcolumn %}
 
-    </div>
+</div>
 
     </section>
 
