@@ -134,7 +134,7 @@ Sometimes it is important to communicate the status of an entity, without also c
 
 </div>
 
-    </section>
+</section>
 
     <section class="static-section" markdown="1">
 
