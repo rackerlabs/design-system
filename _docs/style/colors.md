@@ -92,7 +92,7 @@ apply to components such as the table heartbeat and an [Alert Banner]({{site.bas
         {%endfor%}
       </div>
     {%endfor%}
-
+</div>
     {% endcolumn %}
 
 </div>
