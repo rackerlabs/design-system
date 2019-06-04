@@ -47,7 +47,6 @@ The image below contains all colors in the Helix color palette.
       {%endfor%}
     </div>
   {%endfor%}
-  {% endcolumn %}
 
 </div>
 
@@ -132,6 +131,14 @@ Sometimes it is important to communicate the status of an entity, without also c
     {%endfor%}
 
     {% endcolumn %}
+
+    </div>
+
+    </section>
+
+    <section class="static-section" markdown="1">
+
+    <div class="hxRow" markdown="1">
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
