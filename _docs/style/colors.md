@@ -172,7 +172,7 @@ Refer to Status Labels for construction guidelines.
     </div>
   {%endfor%}
 </div>
-  {% endcolumn %}
+{% endcolumn %}
 
 </div>
 
