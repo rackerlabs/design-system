@@ -130,7 +130,7 @@ Sometimes it is important to communicate the status of an entity, without also c
       </div>
     {%endfor%}
 </div>
-    {% endcolumn %}
+{% endcolumn %}
 
 </div>
 
