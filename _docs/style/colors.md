@@ -219,7 +219,7 @@ Refer to [Interactive States]({{site.baseurl}}/style/interactive-states.html) fo
 
 </div>
 
-  {% endcolumn %}
+{% endcolumn %}
 
 </div>
 
