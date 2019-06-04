@@ -30,28 +30,6 @@ The image below contains all colors in the Helix color palette.
 
 </section>
 
-<!---
-<div class="hxRow">
-  {%for color_hash in site.data.colors-all-colors%}
-    {%assign color6=color_hash[1]%}
-    <div class="hxCol hxSpan-12-xs hxSpan-4-sm hxSpan-2-md">
-    <h4>{{color6.name}}</h4>
-      {%for value_hash in color6.colors%}
-      {%assign value6=value_hash[1]%}
-      <div class="lesser-swatch" style="background-color:{{value6.value}}">
-        <div class="{{value6.type}}-type">
-          {{value6.number}}<br>
-          <span class="smaller-color-type">{{value6.value}}</span>
-        </div>
-      </div>
-      {%endfor%}
-    </div>
-  {%endfor%}
-
-</div>
-
---->
-
 <section class="static-section"  markdown="1">
 
 <div class="hxRow" markdown="1">
