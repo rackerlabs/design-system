@@ -136,7 +136,7 @@ Sometimes it is important to communicate the status of an entity, without also c
 
 </section>
 
-    <section class="static-section" markdown="1">
+<section class="static-section" markdown="1">
 
     <div class="hxRow" markdown="1">
 
