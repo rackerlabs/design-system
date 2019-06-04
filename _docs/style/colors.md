@@ -138,7 +138,7 @@ Sometimes it is important to communicate the status of an entity, without also c
 
 <section class="static-section" markdown="1">
 
-    <div class="hxRow" markdown="1">
+<div class="hxRow" markdown="1">
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
