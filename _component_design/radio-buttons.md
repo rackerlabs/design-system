@@ -62,6 +62,8 @@ Consider the following best practices when you label a radio option:
 
 </section>
 
+<!--- End of Usage section --->
+
 <section class="static-section" markdown="1">
 
 ## Specifications

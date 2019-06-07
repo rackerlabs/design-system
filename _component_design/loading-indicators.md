@@ -60,6 +60,8 @@ Use loading indicators when you need to provide further visual feedback, such as
 
 </section>
 
+<!--- End of Usage section --->
+
 <section class="static-section" markdown="1">
 
 ## Types of indicators

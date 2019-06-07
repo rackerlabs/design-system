@@ -63,6 +63,8 @@ Consider the following best practices when you construct a beacon.
 
 </section>
 
+<!--- End of Usage section --->
+
 <section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">

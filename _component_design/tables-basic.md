@@ -50,6 +50,8 @@ Tables are the bread-and-butter component for displaying complex objects in a ne
 
 </section>
 
+<!--- End of Usage section --->
+
 <section class="static-section" markdown="1">
 
 ## Default layout

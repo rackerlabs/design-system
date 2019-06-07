@@ -51,6 +51,8 @@ In addition to the best practices outlined in [buttons]({{site.baseurl}}/compone
 
 </section>
 
+<!--- End of Usage section --->
+
 <section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">

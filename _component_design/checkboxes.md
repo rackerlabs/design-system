@@ -67,6 +67,8 @@ Consider the following best practices when you label a checkbox option:
 
 </section>
 
+<!--- End of Usage section --->
+
 <section class="static-section" markdown="1">
 
 <div class="hxRow"  markdown="1">

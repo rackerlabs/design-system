@@ -47,6 +47,8 @@ Do not use a toast in the follow situations:
 
 </section>
 
+<!--- End of Usage section --->
+
 <section class="static-section" markdown="1">
 
 <div class="hxRow" markdown="1">

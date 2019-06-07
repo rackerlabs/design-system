@@ -49,6 +49,8 @@ An alert bar can extend across the entirety of the content area (page level scop
 
 <section class="static-section" markdown="1">
 
+<!--- End of Usage section --->
+
 ## Design Specs
 
 <div class="hxRow"  markdown="1">

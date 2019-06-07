@@ -61,6 +61,8 @@ Nested tables allow the nesting of additional levels of data within a table.
 
 </section>
 
+<!--- End of Usage section --->
+
 <section class="static-section" markdown="1">
 
 ## Variations

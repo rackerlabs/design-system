@@ -39,6 +39,8 @@ For additional flexibility, you can use top navigation elements. However, applic
 
 </section>
 
+<!--- End of Usage section --->
+
 <section class="static-section" markdown="1">
 
 ## Specifications

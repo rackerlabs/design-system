@@ -45,6 +45,8 @@ Use status labels to communicate the current state of an object or process. For 
 
 </section>
 
+<!--- End of Usage section --->
+
 ## Specifications
 
 <section class="static-section" markdown="1">
