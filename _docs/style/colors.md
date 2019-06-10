@@ -38,11 +38,13 @@ The Helix color palette consists of deep modern hues juxtaposed with simple mono
 
 ## Guidelines
 
-Consider the following guidelines when you choose colors from the color palette:
+We have designed the Helix color palette very intentionally so that it:
 
-- xxxxx.
-- xxxxx.
-- xxxxx.
+- **Communicates meaning**: We use color to communicate meaning so that the user can make sense of all of the data presented to them.
+- **Draws the attention of the user**: We use color to draw either more or less of the user's attention to areas of the page that require attention.
+- **Orients the user**: We use color to enhance way-finding to that user don't become confused about location.
+
+Any deviation from the predefined colors introduces an inconsistency that can be confusing to the user. Strict adherence to the color palette and its families is important so that we can successfully communicate meaning, draw attention, and orient the user.
 
 {% endcolumn %}
 
@@ -58,11 +60,12 @@ Consider the following guidelines when you choose colors from the color palette:
 
 ## Best practices
 
-Consider the following best practices when you choose colors from the color palette:
+Consider the following best practices when you work with the color palette:
 
-- xxxxx.
-- xxxxx.
-- xxxxx.
+- Do not add colors to the color palette or to color families.
+- Be intentional about using color families. Don't use colors outside of a color family for a component that belongs to the family.
+- When you apply a color to an object, consider all of the other colors used on the page. Because color commands the attention of the user, ensure that the colors you use command the right amount of attention.
+- Use all of the interactive states for an interactive object. Do not use just some of the interactive states.
 
 {% endcolumn %}
 
@@ -94,18 +97,16 @@ The colors you select when you construct a user interface (UI) have a large impa
 
 ## Helix color families
 
-Helix provides color families for specific user interface (UI) design use cases. Make every attempt to choose colors appropriate for your situation.
+Helix color families streamline the large number of colors into groups that you use for specific purposes. For example, when you want to draw the attention of the user to an object, use the health status or object status colors. When you want to communicate location, use the application frame family.
 
-Helix provides color families that you can use to:
+Color families also provide a predetermined set of colors that you can use when you design a new component. For example, if you create an interactive element, use the interactive states color family.
 
-- [Communicate health status](#health-status)
-- [Communicate object status](#object-status)
-- [Construct interactive states](#interactive-states)
-- [Construct the application frame](#application-frame)
+Helix provides the following color families:
 
-{% figure [caption:"Helix Color Palette"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/style/color-palette/color-palette.png" width="1900"/>
-{% endfigure %}
+- [Health status](#health-status)
+- [Object status](#object-status)
+- [Interactive states](#interactive-states)
+- [Application frame](#application-frame)
 
 {% endcolumn %}
 
