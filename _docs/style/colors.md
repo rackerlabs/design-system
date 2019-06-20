@@ -3,7 +3,8 @@ title: Color Palette
 layout: docs
 category: Style
 usage: |
-  The Helix color palette consists of deep modern hues juxtaposed with simple monochromatic environments. Our color palette has been selected to enhance usability while adhering to accessibility criteria. Guidelines for color usage are outlined for individual components.
+  The Helix color palette consists of deep modern hues with dichromatic steel and gray families. Our color palette has been selected to enhance usability while adhering to accessibility criteria. The guidelines outline color usage for individual components.
+
 resource: true
 status: complete
 ---
@@ -18,7 +19,7 @@ status: complete
 
 ## The Helix color palette
 
-The Helix color palette consists of deep modern hues juxtaposed with simple monochromatic environments. Our color palette has been selected to enhance usability while adhering to accessibility criteria. Guidelines for color usage are outlined for individual components.
+The Helix color palette consists of deep modern hues juxtaposed with dichromatic steel and gray families. Our color palette has been selected to enhance usability while adhering to accessibility criteria. The guidelines outline color usage for individual components.
 
 {% figure [caption:"Helix Color Palette"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/style/color-palette/color-palette.png" width="1900"/>
@@ -38,11 +39,11 @@ The Helix color palette consists of deep modern hues juxtaposed with simple mono
 
 ## Guidelines
 
-We have designed the Helix color palette very intentionally so that it:
+We have designed the Helix color palette intentionally so that it:
 
 - **Communicates meaning**: We use color to communicate meaning so that the user can make sense of all of the data presented to them.
-- **Draws the attention of the user**: We use color to draw either more or less of the user's attention to areas of the page that require attention.
-- **Orients the user**: We use color to enhance way-finding to that user don't become confused about location.
+- **Draws the attention of the user**: We use color to the draw user's attention to the content that is most requires attention and away from areas that require less attention.
+- **Orients the user**: We use color to enhance way-finding so that users don't become confused about location.
 
 Any deviation from the predefined colors introduces an inconsistency that can be confusing to the user. Strict adherence to the color palette and its families is important so that we can successfully communicate meaning, draw attention, and orient the user.
 
@@ -62,10 +63,19 @@ Any deviation from the predefined colors introduces an inconsistency that can be
 
 Consider the following best practices when you work with the color palette:
 
-- Do not add colors to the color palette or to color families.
+- Do not add colors to the color palette or the color families.
 - Be intentional about using color families. Don't use colors outside of a color family for a component that belongs to the family.
-- When you apply a color to an object, consider all of the other colors used on the page. Because color commands the attention of the user, ensure that the colors you use command the right amount of attention.
+- When you apply a color to an object, consider all of the other colors used on the page. Because color commands the attention of the user, ensure that the colors you use get the right amount of attention, regardless of the data set, device type, or permission setting.
+- Ensure that you construct interactive states for interactive objects.
 - Use all of the interactive states for an interactive object. Do not use just some of the interactive states.
+
+<!---
+
+- Do not use multiple color families in data visualizations.
+
+--->
+
+
 
 {% endcolumn %}
 
@@ -97,7 +107,7 @@ The colors you select when you construct a user interface (UI) have a large impa
 
 ## Helix color families
 
-Helix color families streamline the large number of colors into groups that you use for specific purposes. For example, when you want to draw the attention of the user to an object, use the health status or object status colors. When you want to communicate location, use the application frame family.
+Helix color families streamline the large number of colors into groups that you use for specific purposes. For example, when you want to draw the attention of the user to an object, use the health status or object status colors.
 
 Color families also provide a predetermined set of colors that you can use when you design a new component. For example, if you create an interactive element, use the interactive states color family.
 
@@ -133,7 +143,7 @@ The health status color family has strict usage guidelines.
 
 Refer to [Iconography]({{site.baseurl}}/style/iconography) for guidelines about constructing default and hover state health status icons.
 
-- Use the 100 hue (red, yellow, green) for background colors that you can apply to components such as the table heartbeat and an [Message Banner]({{site.baseurl}}/components/alert-bar.html).
+- Use the 100 hue (red, yellow, green) for background colors that you can apply to components such as the table heartbeat and a [Message Banner]({{site.baseurl}}/components/message-banner.html).
 
 {% endcolumn %}
 
@@ -214,7 +224,11 @@ Review your system of statuses to determine which label to use.
 - Use gray 800 to communicate emphasis.
 - Use indigo 800 to communicate extra emphasis.
 
+<!---
+
 Refer to Status Labels for more detailed usage and construction guidelines.
+
+--->
 
 {% endcolumn %}
 
@@ -336,6 +350,8 @@ In general:
 
 </section>
 
+<!---
+
 <section class="static-section"  markdown="1">
 
 <div class="hxRow" markdown="1">
@@ -344,10 +360,12 @@ In general:
 
 ## Helix contrast tool
 
-Use the [Helix Contrast Tool](https://palette-contrast.citguy.com/) to ensure that the contrast ratios for text on a background color meet the double-A (AA) minimum guidelines set forth in [WCAG 2.1](https://www.w3.org/TR/WCAG21/)
+Use the [Helix Contrast Tool](https://palette-contrast.citguy.com/) to ensure that the contrast ratios for text on a background color meet the double-A (AA) minimum guidelines outlined in [WCAG 2.1](https://www.w3.org/TR/WCAG21/)
 
 {% endcolumn %}
 
 </div>
 
 </section>
+
+--->
