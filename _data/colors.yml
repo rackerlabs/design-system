@@ -1,140 +1,45 @@
  1:
-  name: "Cyan"
+  name: "Red"
   colors:
    A:
-    number: 900
-    value: "#0C7C84"
-    class: "top"
+    number: 700
+    value: "#721d16"
     type: "light"
    B:
-    number: 700
-    value: "#0E94A6"
-    class: "lesser"
+    number: 500
+    value: "#be3025"
     type: "light"
    C:
-    number: 500
-    value: "#16B9D4"
-    class: "lesser"
-    type: "light"
-   D:
     number: 100
-    value: "#B6E3EB"
-    class: "lesser"
-    type: "dark"
-   E:
-    number: 50
-    value: "#E4F9F9"
-    class: "lesser"
+    value: "#ffcfc9"
     type: "dark"
  2:
-  name: "Blue"
+  name: "Yellow"
   colors:
    A:
-    number: 900
-    value: "#0D47A1"
-    class: "top"
+    number: 700
+    value: "#8c7426"
     type: "light"
    B:
-    number: 700
-    value: "#0D74D1"
-    class: "lesser"
+    number: 500
+    value: "#e3b727"
     type: "light"
    C:
-    number: 500
-    value: "#3391FF"
-    class: "lesser"
-    type: "light"
-   D:
     number: 100
-    value: "#BBDEFB"
-    class: "lesser"
-    type: "dark"
-   E:
-    number: 50
-    value: "#E1EEF9"
-    class: "lesser"
+    value: "#f7eec8"
     type: "dark"
  3:
-  name: "Magenta"
+  name: "Green"
   colors:
    A:
-    number: 900
-    value: "#A5134E"
-    class: "top"
+    number: 700
+    value: "#2b722b"
     type: "light"
    B:
-    number: 700
-    value: "#C2185B"
-    class: "lesser"
+    number: 500
+    value: "#39a339"
     type: "light"
    C:
-    number: 500
-    value: "#EC407A"
-    class: "lesser"
-    type: "light"
-   D:
     number: 100
-    value: "#F8BBD0"
-    class: "lesser"
-    type: "dark"
-   E:
-    number: 50
-    value: "#FCE0EB"
-    class: "lesser"
-    type: "dark"
- 4:
-  name: "Purple"
-  colors:
-   A:
-    number: 900
-    value: "#232968"
-    class: "top"
-    type: "light"
-   B:
-    number: 700
-    value: "#2E3187"
-    class: "lesser"
-    type: "light"
-   C:
-    number: 500
-    value: "#3B44A9"
-    class: "lesser"
-    type: "light"
-   D:
-    number: 100
-    value: "#6676BC"
-    class: "lesser"
-    type: "light"
-   E:
-    number: 50
-    value: "#ADB7DD"
-    class: "lesser"
-    type: "dark"
- 5:
-  name: "Orange"
-  colors:
-   A:
-    number: 900
-    value: "#C15206"
-    class: "top"
-    type: "light"
-   B:
-    number: 700
-    value: "#DD6105"
-    class: "lesser"
-    type: "light"
-   C:
-    number: 500
-    value: "#F57C00"
-    class: "lesser"
-    type: "light"
-   D:
-    number: 100
-    value: "#FDD179"
-    class: "lesser"
-    type: "dark"
-   E:
-    number: 50
-    value: "#F8E1BB"
-    class: "lesser"
+    value: "#d1edd1"
     type: "dark"

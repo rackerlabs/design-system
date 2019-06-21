@@ -1,0 +1,61 @@
+ 1:
+  name: "Steel"
+  colors:
+   A:
+    number: 700
+    value: "#354659"
+    type: "light"
+   B:
+    number: 600
+    value: "#485e78"
+    type: "light"
+   C:
+    number: 500
+    value: "#5a7697"
+    type: "light"
+   D:
+    number: 300
+    value: "#93a7bf"
+    type: "dark"
+   E:
+    number: 200
+    value: "#b8c7d9"
+    type: "dark"
+   F:
+    number: 50
+    value: "#F1F4F9"
+    type: "dark"
+ 2:
+  name: "Gray"
+  colors:
+   A:
+    number: 400
+    value: "#999999"
+    type: "dark"
+   B:
+    number: 300
+    value: "#b2b2b2"
+    type: "dark"
+   C:
+    number: 50
+    value: "#eeeeee"
+    type: "dark"
+   D:
+    number: 0
+    value: "#ffffff"
+    type: "dark"
+ 3:
+  name: "Red"
+  colors:
+   A:
+    number: 700
+    value: "#721d16"
+    type: "light"
+   B:
+    number: 500
+    value: "#be3025"
+    type: "light"
+   C:
+    number: 200
+    value: "#e5a19c"
+    type: "dark"
