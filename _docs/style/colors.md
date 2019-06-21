@@ -3,7 +3,7 @@ title: Color Palette
 layout: docs
 category: Style
 usage: |
-  The Helix color palette consists of deep modern hues with dichromatic steel and gray families. Our color palette has been selected to enhance usability while adhering to accessibility criteria. The guidelines outline color usage for individual components.
+  The Helix color palette is designed to feel modern while enhancing user interface (UI) usability and visual accessibility. In Helix color is used to communicate meaning, directs users' attention appropriately, and supports way-finding. The color palette is divided into color families that help you build more consistent, usable, and delightful UI experiences. These guidelines outline color usage in Helix.
 
 resource: true
 status: complete
@@ -19,7 +19,7 @@ status: complete
 
 ## The Helix color palette
 
-The Helix color palette consists of deep modern hues juxtaposed with dichromatic steel and gray families. Our color palette has been selected to enhance usability while adhering to accessibility criteria. The guidelines outline color usage for individual components.
+The Helix color palette is designed to feel modern while enhancing user interface (UI) usability and visual accessibility. In Helix color is used to communicate meaning, directs users' attention appropriately, and supports way-finding. The color palette is divided into color families that help you build more consistent, usable, and delightful UI experiences. These guidelines outline color usage in Helix.
 
 {% figure [caption:"Helix Color Palette"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/style/color-palette/color-palette.png" width="1900"/>
@@ -66,16 +66,13 @@ Consider the following best practices when you work with the color palette:
 - Do not add colors to the color palette or the color families.
 - Be intentional about using color families. Don't use colors outside of a color family for a component that belongs to the family.
 - When you apply a color to an object, consider all of the other colors used on the page. Because color commands the attention of the user, ensure that the colors you use get the right amount of attention, regardless of the data set, device type, or permission setting.
-- Ensure that you construct interactive states for interactive objects.
-- Use all of the interactive states for an interactive object. Do not use just some of the interactive states.
+- Use all of the interactive states for an interactive object.
 
 <!---
 
 - Do not use multiple color families in data visualizations.
 
 --->
-
-
 
 {% endcolumn %}
 
@@ -222,7 +219,7 @@ Review your system of statuses to determine which label to use.
 - Use gray 400 for a subdued status label.
 - Use gray 650 as the default status label.
 - Use gray 800 to communicate emphasis.
-- Use indigo 800 to communicate extra emphasis.
+- Use indigo 500 to communicate extra emphasis.
 
 <!---
 
