@@ -2,7 +2,7 @@
 title: Badges
 layout: code
 category: Components Code
-code: components/badges
+code: components/badge
 ---
 
 {% include code-container.html %}

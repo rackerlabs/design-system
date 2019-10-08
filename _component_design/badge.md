@@ -11,7 +11,7 @@ status: stable
 last-modified: 2019-04-04
 helix-ui-css: true
 helix-ui-javascript: na
-pagelink: https://rackerlabs.github.io/helix-ui/components/badges/
+pagelink: https://rackerlabs.github.io/helix-ui/components/badge/
 ---
 
 {% include toc.html %}

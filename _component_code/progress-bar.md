@@ -2,7 +2,7 @@
 title: Progress Bar
 layout: code
 category: Components Code
-code: components/loaders/
+code: components/loader
 part: progress-bar
 ---
 

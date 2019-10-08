@@ -12,7 +12,7 @@ need: selectors
 last-modified: 2018-09-14
 helix-ui-css: true
 helix-ui-javascript: true
-pagelink: https://rackerlabs.github.io/helix-ui/components/files/#file-tile
+pagelink: https://rackerlabs.github.io/helix-ui/components/file/#file-tile
 ---
 
 {% include toc.html %}
@@ -45,7 +45,7 @@ Use a file tile when you want to make the file more visually prominent. A file t
 
 Consider the following best practices when you construct a file tile:
 
-- Include an icon in the file tile to represent the file format. Use only icons available in the [Helix Toolkit](https://rackerlabs.github.io/helix-ui/components/icons/#available-icons).
+- Include an icon in the file tile to represent the file format. Use only icons available in the [Helix Toolkit](https://rackerlabs.github.io/helix-ui/components/icon/#available-icons).
 - Do not use branded icons.
 - Consider where you place file tiles in a view. Avoid making the user scroll down a long list of file tiles to see important information.
 - Only the user who uploaded the file can remove it. A file tile should be read-only for all other users.

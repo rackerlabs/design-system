@@ -2,7 +2,7 @@
 title: Breadcrumbs
 layout: code
 category: Components Code
-code: components/breadcrumbs
+code: components/breadcrumb
 ---
 
 {% include code-container.html %}

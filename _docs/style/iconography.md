@@ -10,7 +10,7 @@ code-element: true
 status: stable
 helix-ui-css: true
 helix-ui-javascript: true
-pagelink: https://rackerlabs.github.io/helix-ui/components/icons/
+pagelink: https://rackerlabs.github.io/helix-ui/components/icon/
 ---
 
 {% include toc.html %}

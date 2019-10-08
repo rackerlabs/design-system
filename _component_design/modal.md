@@ -11,7 +11,7 @@ preview-image: preview-images/modal.svg
 last-modified: 2019-02-11
 helix-ui-css: true
 helix-ui-javascript: true
-pagelink: https://rackerlabs.github.io/helix-ui/components/modals/
+pagelink: https://rackerlabs.github.io/helix-ui/components/modal/
 ---
 
 {% include toc.html %}

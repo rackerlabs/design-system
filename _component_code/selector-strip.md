@@ -2,7 +2,7 @@
 title: Selector Strip
 layout: code
 category: Components Code
-code: components/selector-strips
+code: components/selector-strip
 ---
 
 {% include code-container.html %}

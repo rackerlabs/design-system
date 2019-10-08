@@ -11,7 +11,7 @@ status: stable
 last-modified: 2018-05-08
 helix-ui-css: true
 helix-ui-javascript: true
-pagelink: https://rackerlabs.github.io/helix-ui/components/tabs/
+pagelink: https://rackerlabs.github.io/helix-ui/components/tabset/
 ---
 
 {% include toc.html %}

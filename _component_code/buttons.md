@@ -2,7 +2,7 @@
 title: Buttons
 layout: code
 category: Components Code
-code: components/buttons
+code: components/button
 ---
 
 {% include code-container.html %}

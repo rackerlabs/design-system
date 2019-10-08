@@ -2,7 +2,7 @@
 title: File Tiles
 layout: code
 category: Components Code
-code: components/files
+code: components/file
 ---
 
 {% include code-container.html %}
