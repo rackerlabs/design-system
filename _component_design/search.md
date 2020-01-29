@@ -6,12 +6,12 @@ category: Components
 usage: >
   By using the Helix search pattern, users can see the available facets or filters within the search field and construct their own search criteria.
 preview-image: preview-images/assisted-search.svg
-resource: true
+resource: false
 status: stable
 helix-ui-css: true
 helix-ui-javascript: true
 last-modified: 2018-04-06
-pagelink: https://rackerlabs.github.io/helix-ui/components/search/#search-assistance
+pagelink: components/search/
 ---
 
 {% include toc.html %}
@@ -178,112 +178,3 @@ Clicking on a keyword in the menu fills the search input with the keyword and co
 </div>
 
 </section>
-
-<!-- Commented out because search pills were put on hold for this pattern. 2/6/18-EN
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow" markdown="1">
-
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-### Hover and focus
-
-The user can click on a search result or use their up and down arrow keys to traverse items in the drop-down list.
-
-Clicking on a search result item, or pressing the enter key when a result item has focus will close the drop-down menu and execute the search using the selected item.
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-{% figure [caption:"Assisted search results specifications"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/search-and-filters/search-assisted/assisted-search-hover-and-focus.png" width="548"/>
-{% endfigure %}
-{% endcolumn %}
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow" markdown="1">
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-### Active keyword
-
-When a keyword is in active use, but the query has not been completed with search criteria.
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-{% figure [caption:"Assisted search results - active state"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/search-and-filters/search-assisted/assisted-search-active-keyword.png" width="548/>
-{% endfigure %}
-{% endcolumn %}
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow" markdown="1">
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-### Active keyword + no terms
-
-Do not apply the gray background color if keyed entries have not formed a complete query string.
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-{% figure [caption:"Cyan search pills are used to display the active state."] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/search-and-filters/search-assisted/assisted-search-active-and-entering-terms.png" width="548"/>
-{% endfigure %}
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow" markdown="1">
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-### Completed search
-
-When the user has typed the key and term and pressed enter, the search is completed and the gray pill shape surrounds the query.
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-{% figure [caption:"Gray search pills are used to display the complete state."] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/search-and-filters/search-assisted/assisted-search-completed-search.png" width="548"/>
-{% endfigure %}
-{% endcolumn %}
-
-</div>
-
-</section>
-
-<section class="static-section" markdown="1">
-
-<div class="hxRow" markdown="1">
-{% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
-
-### Deleting terms
-
-Use backspace to delete a single character and not the entire query or search pill.
-
-{% endcolumn %}
-
-{% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-{% figure [caption:"Backspace deletes single characters, and not the entire set."] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/search-and-filters/search-assisted/assisted-search-deleting-terms.png" width="548"/>
-{% endfigure %}
-{% endcolumn %}
-
-</div>
-
-</section>
--->

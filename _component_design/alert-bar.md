@@ -11,7 +11,7 @@ resource: true
 last-modified: 2017-08-17
 helix-ui-css: true
 helix-ui-javascript: true
-pagelink: https://rackerlabs.github.io/helix-ui/components/alerts/
+pagelink: components/alert/
 ---
 
 {% include toc.html %}

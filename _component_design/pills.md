@@ -11,7 +11,7 @@ status: Stable
 last-modified: 2018-08-08
 helix-ui-css: true
 helix-ui-javascript: true
-pagelink: https://rackerlabs.github.io/helix-ui/components/pills/
+pagelink: components/pill/
 ---
 
 {% include toc.html %}

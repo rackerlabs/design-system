@@ -11,6 +11,7 @@ resource: true
 last-modified: 2019-02-07
 helix-ui-css: false
 helix-ui-javascript: true
+pagelink: components/choice-tile/
 ---
 
 {% include toc.html %}

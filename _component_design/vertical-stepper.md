@@ -11,7 +11,7 @@ status: stable
 last-modified: 2018-08-21
 helix-ui-css: true
 helix-ui-javascript: true
-pagelink: https://rackerlabs.github.io/helix-ui/components/accordions/
+pagelink: components/accordion/
 ---
 
 {% include toc.html %}

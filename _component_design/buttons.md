@@ -11,7 +11,7 @@ resource: true
 last-modified: 2018-10-03
 helix-ui-css: true
 helix-ui-javascript: na
-pagelink: https://rackerlabs.github.io/helix-ui/components/buttons/#basic-button
+pagelink: components/button/
 ---
 
 {% include toc.html %}
@@ -378,7 +378,7 @@ Consider the following best practices when you construct a button set:
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
 {% figure [caption:"Button sets"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-variations-buttonsets.png" width="317"/>
+<embed src="{{site.url}}/assets/images/components/inputs-and-controls/buttons/buttons-variations-buttonsets.png" width="334"/>
 {% endfigure %}
 
 {% endcolumn %}
