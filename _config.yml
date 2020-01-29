@@ -17,7 +17,7 @@ exclude: ['Gemfile', 'Gemfile.lock','README.md', 'vendor', '_site', 'build-me.sh
 
 # PATHING FOR WEBSITE AND DESIGN-SYSTEM
 websiteAssets: '/assets/'
-
+helixUIURL: "https://helixdesignsystem.github.io/helix-ui"
 # Layouts
 layouts_dir: '/templates/'
 includes_dir: '/templates/_includes/'
