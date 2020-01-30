@@ -26,7 +26,7 @@
       {%- elsif currentNav == "components" -%}
         {%- for article in site.component_design -%}
           {%- if article.resource -%}
-            <a href="{{site.url}}{{article.url}}.html" {%- if currenturl contains article.url -%} class="current" {%- endif -%}>{{article.title}}</a>
+            <a href="{{site.url}}{{article.url}}.html" {%- if currenturl == article.url -%} class="current" {%- endif -%}>{{article.title}}</a>
           {%- endif -%}
         {%- endfor -%}
       {%- else -%}
