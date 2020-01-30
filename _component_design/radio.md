@@ -1,5 +1,5 @@
 ---
-title: Radios
+title: Radio
 parent: Inputs and Controls
 layout: component
 category: Components

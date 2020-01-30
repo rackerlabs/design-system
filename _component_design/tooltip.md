@@ -11,7 +11,7 @@ resource: true
 last-modified: 2018-08-02
 helix-ui-css: true
 helix-ui-javascript: true
-pagelink: components/tooltip/
+pageLink: components/tooltip/
 ---
 
 {% include toc.html %}

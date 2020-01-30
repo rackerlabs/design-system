@@ -1,5 +1,5 @@
 ---
-title: Pills
+title: Pill
 parent: Content Areas
 layout: component
 category: Components

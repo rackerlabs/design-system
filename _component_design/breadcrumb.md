@@ -1,5 +1,5 @@
 ---
-title: Breadcrumbs
+title: Breadcrumb
 parent: Navigation
 layout: component
 category: Components

@@ -1,5 +1,5 @@
 ---
-title: Filters
+title: Filter
 parent: Search and Filters
 layout: component
 category: Components

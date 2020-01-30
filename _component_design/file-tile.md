@@ -12,7 +12,7 @@ need: selectors
 last-modified: 2018-09-14
 helix-ui-css: true
 helix-ui-javascript: true
-pagelink: components/file/
+pageLink: components/file/#file-tile
 ---
 
 {% include toc.html %}

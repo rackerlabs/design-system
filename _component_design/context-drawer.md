@@ -11,7 +11,7 @@ resource: true
 last-modified: 2019-02-20
 helix-ui-css: false
 helix-ui-javascript: true
-pagelink: components/drawer/
+pageLink: components/drawer/
 ---
 
 {% include toc.html %}

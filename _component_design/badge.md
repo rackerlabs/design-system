@@ -1,5 +1,5 @@
 ---
-title: Badges
+title: Badge
 parent: Notifications
 layout: component
 category: Components
@@ -11,7 +11,7 @@ status: stable
 last-modified: 2019-04-04
 helix-ui-css: true
 helix-ui-javascript: na
-pagelink: components/badge/
+pageLink: components/badge/
 ---
 
 {% include toc.html %}

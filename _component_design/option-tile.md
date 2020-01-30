@@ -1,5 +1,5 @@
 ---
-title: Option Tiles
+title: Option Tile
 parent: Inputs and Controls
 layout: component
 category: Components

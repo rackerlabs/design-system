@@ -1,5 +1,5 @@
 ---
-title: Button Bars
+title: Button Bar
 parent: Inputs and Controls
 layout: component
 category: Components

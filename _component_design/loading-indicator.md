@@ -1,5 +1,5 @@
 ---
-title: Loading Indicators
+title: Loading Indicator
 parent: Processing
 layout: component
 category: Components

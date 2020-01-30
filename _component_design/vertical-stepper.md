@@ -11,7 +11,7 @@ status: stable
 last-modified: 2018-08-21
 helix-ui-css: true
 helix-ui-javascript: true
-pagelink: components/accordion/
+pageLink: components/accordion/
 ---
 
 {% include toc.html %}

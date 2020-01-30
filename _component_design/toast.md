@@ -11,7 +11,7 @@ resource: true
 last-modified: 2019-04-25
 helix-ui-css: true
 helix-ui-javascript: true
-pagelink: components/toast/
+pageLink: components/toast/
 ---
 
 {% include toc.html %}

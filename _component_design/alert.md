@@ -1,10 +1,10 @@
 ---
-title: Alert Bar
+title: Alert
 parent: Notifications
 layout: component
 category: Components
 usage: >
-  A notification bar extends fully across the top of an content container within a Helix interface in order to provide the user with feedback relating to the status of the item. It can be scoped across the entirety of the content area (page level scoping) or scoped to extend across a singular section of the content area (element level scoping).
+  An alert extends fully across the top of an content container within a Helix interface in order to provide the user with feedback relating to the status of the item. It can be scoped across the entirety of the content area (page level scoping) or scoped to extend across a singular section of the content area (element level scoping).
 preview-image: preview-images/alert-bar.svg
 status: stable
 resource: true
@@ -23,7 +23,7 @@ pageLink: components/alert/
 <div class="hxRow"  markdown="1">
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-An alert bar can extend across the entirety of the content area (page level scoping) or across a singular section of the content area (element level scoping).
+An alert can extend across the entirety of the content area (page level scoping) or across a singular section of the content area (element level scoping).
 
 ### When to Use
 
@@ -34,7 +34,7 @@ An alert bar can extend across the entirety of the content area (page level scop
 
 - Ensure notification bars have implicit priority based on the alert type from most to least severity level: Error > Warning > Success > Informational
 - Ensure notification bars are used sparingly and limited to one per page.
-- For multiple alert bars, stack them in order of criticality, high-to-low, top-to-bottom.
+- For multiple alerts, stack them in order of criticality, high-to-low, top-to-bottom.
 
 {% endcolumn %}
 
@@ -56,12 +56,12 @@ An alert bar can extend across the entirety of the content area (page level scop
 
 ### Composition
 
-The alert bar pattern is comprised of six parts. Three required, three
+The alert pattern is comprised of six parts. Three required, three
 optional:
 
 - Alert bar containing element (required) — Holds all other elements and displays the status color.
 - Status icon (required) — Acts as supporting information to the status color.
-- Alert description (required) — Describes to the user why the alert bar exists.
+- Alert description (required) — Describes to the user why the alert exists.
 - Alert type (optional) — An optional alert title descriptor.
 - Alert action link (optional) — Provides a user with the next step of a process.
 - Close action (optional) — Closes the alert.
@@ -108,7 +108,7 @@ Alert messages should be as concise and clear as possible. We recommend keeping 
 
 ### Status types
 
-The alert bar pattern enables users to assess status of a given section at a glance. This pattern supports four statuses:
+The alert pattern enables users to assess status of a given section at a glance. This pattern supports four statuses:
 
 {% endcolumn %}
 

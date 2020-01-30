@@ -11,7 +11,7 @@ status: stable
 last-modified: 2018-10-26
 helix-ui-css: true
 helix-ui-javascript: na
-pagelink: components/text-input/
+pageLink: components/text-input/
 ---
 
 {% include toc.html %}

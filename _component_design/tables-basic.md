@@ -11,7 +11,7 @@ resource: true
 last-modified: 2017-11-16
 helix-ui-css: true
 helix-ui-javascript: na
-pagelink: components/table/
+pageLink: components/table/
 ---
 
 {% include toc.html %}

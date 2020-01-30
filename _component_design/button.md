@@ -1,5 +1,5 @@
 ---
-title: Buttons
+title: Button
 parent: Inputs and Controls
 layout: component
 category: Components

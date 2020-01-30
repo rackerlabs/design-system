@@ -1,10 +1,10 @@
 ---
-title: Chips
+title: Chip
 parent: Content Areas
 layout: component
 category: Components
 usage: >
-  Chips represent a unit of information, such as a contact, a device, a filter term, or metadata. Chips provide the user with a visual understanding of the information and the ability to interact with it.
+  A chip represents a unit of information, such as a contact, a device, a filter term, or metadata. Chips provide the user with a visual understanding of the information and the ability to interact with it.
 preview-image: preview-images/chip.svg
 resource: true
 status: stable

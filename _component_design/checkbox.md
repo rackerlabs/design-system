@@ -1,5 +1,5 @@
 ---
-title: Checkboxes
+title: Checkbox
 parent: Inputs and Controls
 layout: component
 category: Components

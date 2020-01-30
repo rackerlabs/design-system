@@ -1,5 +1,5 @@
 ---
-title: Lists
+title: List
 parent: Content Areas
 layout: component
 category: Components
