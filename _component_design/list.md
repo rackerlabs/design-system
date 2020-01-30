@@ -10,7 +10,7 @@ resource: true
 status: stable
 helix-ui-css: true
 helix-ui-javascript: na
-pagelink: components/list/#unordered-list
+pageLink: components/list/#unordered-list
 last-modified: 2017-02-12
 ---
 

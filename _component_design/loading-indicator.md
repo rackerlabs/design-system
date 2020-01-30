@@ -11,7 +11,7 @@ status: stable
 last-modified: 2017-10-24
 helix-ui-css: true
 helix-ui-javascript: true
-pagelink: elements/hx-busy/
+pageLink: elements/hx-busy/
 ---
 
 {% include toc.html %}

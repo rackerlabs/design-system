@@ -11,7 +11,7 @@ status: stable
 last-modified: 2018-08-02
 helix-ui-css: true
 helix-ui-javascript: true
-pagelink: components/popover/
+pageLink: components/popover/
 ---
 
 {% include toc.html %}

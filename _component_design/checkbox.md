@@ -12,7 +12,7 @@ need: selectors
 last-modified: 2018-07-25
 helix-ui-css: true
 helix-ui-javascript: true
-pagelink: components/checkbox/
+pageLink: components/checkbox/
 ---
 
 {% include toc.html %}

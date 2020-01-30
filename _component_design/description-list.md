@@ -1,17 +1,17 @@
 ---
-title: Key-value List
+title: Description List
 parent: Content Areas
 layout: component
 category: Components
 usage: >
-   A key-value pair is a group of two related data items. Key-value pairs display a label (the key) with the corresponding data (the value). Color and alignment of key-value pairs enable the user to scan the page quickly for relevant data.
-preview-image: preview-images/key-value.svg
+   A description list is a group of two related data items. Description lists display a label (the key) with the corresponding data (the value). Color and alignment of description lists enable the user to scan the page quickly for relevant data.
+preview-image: preview-images/description.svg
 resource: true
 status: stable
 last-modified: 2018-05-07
 helix-ui-css: true
 helix-ui-javascript: na
-pagelink: components/list/
+pageLink: components/list/
 ---
 
 {% include toc.html %}
@@ -24,7 +24,7 @@ pagelink: components/list/
 
 ## When to use
 
-Use a key-value pair to represent a single row's worth of data, where the key represents a column header and the value represents a corresponding cell. Key-value pairs are used to present identifying information.
+Use a description list to represent a single row's worth of data, where the key represents a column header and the value represents a corresponding cell. Description lists are used to present identifying information.
 
 {% endcolumn %}
 
@@ -40,17 +40,17 @@ Use a key-value pair to represent a single row's worth of data, where the key re
 
 ## Best practices
 
-Consider the following best practices when you design key-value pairs:
+Consider the following best practices when you design description lists:
 
-- Do not use key-value pairs to represent multiple rows or columns of data.
-- Use horizontal key-value pairs when you have tight vertical constraints.
-- Use vertical key-value pairs when you have tight horizontal constraints, are developing for a mobile device, or are viewing data inside an expanded table row.
-- Do not place more than three vertical key-value pairs on a page.
+- Do not use description lists to represent multiple rows or columns of data.
+- Use horizontal description lists when you have tight vertical constraints.
+- Use vertical description lists when you have tight horizontal constraints, are developing for a mobile device, or are viewing data inside an expanded table row.
+- Do not place more than three vertical description lists on a page.
 - Ensure that the key (label) corresponds with the value (data).
-- If possible, limit key-value pairs to one line.
+- If possible, limit description lists to one line.
 - Follow the Helix grid guidelines for spacing and placement.
 - Use icons sparingly.
-- For more than five sets of key-value pairs, consider dividing pairs into subgroups.
+- For more than five sets of description lists, consider dividing lists into subgroups.
 
 {% endcolumn %}
 
@@ -66,7 +66,7 @@ Consider the following best practices when you design key-value pairs:
 
 ## Horizontal layout
 
-Use the following specifications when you construct horizontal key-value pairs.
+Use the following specifications when you construct horizontal description lists.
 
 {% endcolumn %}
 
@@ -82,14 +82,14 @@ Use the following specifications when you construct horizontal key-value pairs.
 
 ### Composition
 
-By default, key-value pairs appear in the body of a page. Key labels display right-aligned on the left side. Data values display left-aligned on the right side.
+By default, description lists appear in the body of a page. Key labels display right-aligned on the left side. Data values display left-aligned on the right side.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Horizontal key-value pairs composition"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/key-pairs/keyvalue-horizontal-composition.png" width="264px"/>
+{% figure [caption:"Horizontal description lists composition"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/content-areas/description-lists/description-list-horizontal-composition.png" width="264px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -106,14 +106,14 @@ By default, key-value pairs appear in the body of a page. Key labels display rig
 
 ### Style
 
-To determine the indentation of key-value pairs, use two columns on the Helix grid for key labels and four columns for data values. Space between the key labels and data values must align with the grid gutter between the second and third columns.
+To determine the indentation of description lists, use two columns on the Helix grid for key labels and four columns for data values. Space between the key labels and data values must align with the grid gutter between the second and third columns.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Horizontal key-value pairs style"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/key-pairs/keyvalue-horizontal-style.png" width="448px"/>
+{% figure [caption:"Horizontal description lists style"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/content-areas/description-lists/description-list-horizontal-style.png" width="448px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -136,8 +136,8 @@ Restrict text wrapping to two columns for key labels and four columns for data v
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Key-value pairs wrapped text"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/key-pairs/keyvalue-horizontal-textwrapping.png" width="330px"/>
+{% figure [caption:"Description lists wrapped text"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/content-areas/description-lists/description-list-horizontal-textwrapping.png" width="330px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -152,14 +152,14 @@ Restrict text wrapping to two columns for key labels and four columns for data v
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-Use these spacing guidelines for single-line key-value pairs.
+Use these spacing guidelines for single-line description lists.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Single line key-value pairs"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/key-pairs/keyvalue-horizontal-spacing.png" width="310px"/>
+{% figure [caption:"Single line description lists"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/content-areas/description-lists/description-list-horizontal-spacing.png" width="310px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -176,9 +176,9 @@ Use these spacing guidelines for single-line key-value pairs.
 
 ### Other elements
 
-You can use icons, compact tertiary buttons, and text links in key-value pairs.
+You can use icons, compact tertiary buttons, and text links in description lists.
 
-- Use icons to make the key value pairs easier to scan.
+- Use icons to make the key value lists easier to scan.
 - Use compact tertiary buttons when you want users to trigger an action.
 - Use a link when you want users to navigate.
 
@@ -186,8 +186,8 @@ You can use icons, compact tertiary buttons, and text links in key-value pairs.
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Key-value pairs with icons, buttons, and text links"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/key-pairs/keyvalue-horizontal-otherelements.png" width="431px"/>
+{% figure [caption:"Description lists with icons, buttons, and text links"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/content-areas/description-lists/description-list-horizontal-otherelements.png" width="431px"/>
 {% endfigure %}
 
 {% endcolumn %}
@@ -204,7 +204,7 @@ You can use icons, compact tertiary buttons, and text links in key-value pairs.
 
 ## Vertical layout
 
-Use vertical key-value pairs when you position multiple pairs beside each other on the body of a page.
+Use vertical description lists when you position multiple lists beside each other on the body of a page.
 
 {% endcolumn %}
 
@@ -220,7 +220,7 @@ Use vertical key-value pairs when you position multiple pairs beside each other 
 
 ### Composition
 
-Vertical key-value pairs list the key label above the data value at a maximum width of four columns on the Helix grid.
+Vertical description lists list the key label above the data value at a maximum width of four columns on the Helix grid.
 
 Key labels and data values display left-aligned on the left.
 
@@ -228,8 +228,8 @@ Key labels and data values display left-aligned on the left.
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Vertical key-value pair composition"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/key-pairs/keyvalue-vertical-composition.png"
+{% figure [caption:"Vertical description list composition"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/content-areas/description-lists/description-list-vertical-composition.png"
  width="472px"/>
 {% endfigure %}
 
@@ -247,14 +247,14 @@ Key labels and data values display left-aligned on the left.
 
 ### Style
 
-Use these specifications when you construct key-value pairs in a vertical layout.
+Use these specifications when you construct description lists in a vertical layout.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Vertical key-value pair style"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/key-pairs/keyvalue-vertical-style.png"
+{% figure [caption:"Vertical description list style"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/content-areas/description-lists/description-list-vertical-style.png"
  width="410px"/>
 {% endfigure %}
 
@@ -272,14 +272,14 @@ Use these specifications when you construct key-value pairs in a vertical layout
 
 ### Spacing
 
-Use these spacing guidelines when you construct vertical key-value pairs.
+Use these spacing guidelines when you construct vertical description lists.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Vertical key-value pair spacing"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/key-pairs/keyvalue-vertical-spacing.png"
+{% figure [caption:"Vertical description list spacing"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/content-areas/description-lists/description-list-vertical-spacing.png"
  width="612px"/>
 {% endfigure %}
 
@@ -303,8 +303,8 @@ When a data value loads, the system should display the key label and the word **
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Horizontal key-value pairs loading state"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/key-pairs/keyvalue-loading1.png"
+{% figure [caption:"Horizontal description lists loading state"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/content-areas/description-lists/description-list-loading1.png"
  width="431px"/>
 {% endfigure %}
 
@@ -320,14 +320,14 @@ When a data value loads, the system should display the key label and the word **
 
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-When vertical key values load, they take the same loading pattern as the horizontal key values by populating the value with **Loading…**, styled in body font, Roboto Regular, `#424242`.
+When vertical description lists load, they take the same loading pattern as the horizontal description lists by populating the value with **Loading…**, styled in body font, Roboto Regular, `#424242`.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Vertical key-value pairs loading state"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/content-areas/key-pairs/keyvalue-loading2.png"
+{% figure [caption:"Vertical description lists loading state"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/content-areas/description-lists/description-list-loading2.png"
  width="362px"/>
 {% endfigure %}
 

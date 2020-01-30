@@ -11,7 +11,7 @@ status: stable
 last-modified: 2018-08-21
 helix-ui-css: false
 helix-ui-javascript: false
-pageLink: none
+pageLink: components/dropdown-select/
 ---
 
 {% include toc.html %}

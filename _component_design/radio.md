@@ -11,7 +11,7 @@ status: stable
 last-modified: 2018-07-26
 helix-ui-css: false
 helix-ui-javascript: true
-pagelink: components/radio/
+pageLink: components/radio/
 ---
 
 {% include toc.html %}

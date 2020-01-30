@@ -11,7 +11,7 @@ resource: true
 last-modified: 2018-09-20
 helix-ui-css: true
 helix-ui-javascript: na
-pagelink: components/button/#button-group
+pageLink: components/button/#button-group
 ---
 
 {% include toc.html %}

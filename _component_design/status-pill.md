@@ -1,5 +1,5 @@
 ---
-title: Status Labels
+title: Status Pill
 parent: Notifications
 layout: component
 category: Components
@@ -11,7 +11,7 @@ preview-image: preview-images/status-labels.svg
 last-modified: 2017-12-01
 helix-ui-css: true
 helix-ui-javascript: true
-pagelink: components/pill/#status-pill
+pageLink: components/pill/#status-pill
 ---
 
 {% include toc.html %}

@@ -11,7 +11,7 @@ resource: true
 last-modified: 2019-02-06
 helix-ui-css: true
 helix-ui-javascript: na
-pagelink: components/breadcrumb/
+pageLink: components/breadcrumb/
 ---
 
 {% include toc.html %}

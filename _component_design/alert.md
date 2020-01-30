@@ -11,7 +11,7 @@ resource: true
 last-modified: 2017-08-17
 helix-ui-css: true
 helix-ui-javascript: true
-pagelink: components/alert/
+pageLink: components/alert/
 ---
 
 {% include toc.html %}
