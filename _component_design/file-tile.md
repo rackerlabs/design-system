@@ -1,5 +1,5 @@
 ---
-title: File Tiles
+title: File Tile
 parent: Content Areas
 layout: component
 category: Components
