@@ -11,7 +11,7 @@ status: stable
 last-modified: 2018-04-26
 helix-ui-css: true
 helix-ui-javascript: true
-pageLink: none
+pageLink: components/loader/#progress-bar
 ---
 
 {% include toc.html %}
