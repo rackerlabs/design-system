@@ -7,7 +7,7 @@ usage: >
   A card contains summary information and provides users the option to navigate to more detailed information. In contrast to tables, cards allow the user to visually distinguish between sets of information. A card is a substitute for a single row of tabular data.
 preview-image: preview-images/cards.svg
 status: in-progress
-resource: true
+resource: false
 last-modified: 2018-08-02
 helix-ui-css: false
 helix-ui-javascript: false

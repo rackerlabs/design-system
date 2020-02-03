@@ -1,5 +1,5 @@
 ---
-title: Option Tiles
+title: Option Tile
 parent: Inputs and Controls
 layout: component
 category: Components
@@ -11,6 +11,7 @@ resource: true
 last-modified: 2019-02-07
 helix-ui-css: false
 helix-ui-javascript: true
+pageLink: components/choice-tile/
 ---
 
 {% include toc.html %}

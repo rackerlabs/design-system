@@ -1,5 +1,5 @@
 ---
-title: Popovers
+title: Popover
 parent: Content Areas
 layout: component
 category: Components
@@ -11,7 +11,7 @@ status: stable
 last-modified: 2018-08-02
 helix-ui-css: true
 helix-ui-javascript: true
-pagelink: https://rackerlabs.github.io/helix-ui/components/popovers/
+pageLink: components/popover/
 ---
 
 {% include toc.html %}

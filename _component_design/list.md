@@ -1,5 +1,5 @@
 ---
-title: Lists
+title: List
 parent: Content Areas
 layout: component
 category: Components
@@ -10,7 +10,7 @@ resource: true
 status: stable
 helix-ui-css: true
 helix-ui-javascript: na
-pagelink: https://rackerlabs.github.io/helix-ui/components/lists/
+pageLink: components/list/#unordered-list
 last-modified: 2017-02-12
 ---
 

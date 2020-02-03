@@ -1,5 +1,5 @@
 ---
-title: Radios
+title: Radio
 parent: Inputs and Controls
 layout: component
 category: Components
@@ -10,7 +10,8 @@ resource: true
 status: stable
 last-modified: 2018-07-26
 helix-ui-css: false
-helix-ui-javascript: false
+helix-ui-javascript: true
+pageLink: components/radio/
 ---
 
 {% include toc.html %}

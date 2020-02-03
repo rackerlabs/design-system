@@ -27,9 +27,9 @@ customers happy.
     <p>Use these resources to implement Helix code.</p>
     <div class="card-bottom">
       <ul>
-        <li><a href="https://github.com/rackerlabs/helix-ui/">Code Repository <hx-icon type="external-link"></hx-icon></a></li>
-        <li><a href="https://rackerlabs.github.io/helix-ui/guides/getting-started/" target="_blank">Installation Guide <hx-icon type="external-link"></hx-icon></a></li>
-        <li><a href="https://rackerlabs.github.io/helix-ui/" target="_blank">Component Explorer <hx-icon type="external-link"></hx-icon></a></li>
+        <li><a href="https://helixdesignsystem.github.io/helix-ui/">Code Repository <hx-icon type="external-link"></hx-icon></a></li>
+        <li><a href="https://helixdesignsystem.github.io/helix-ui/guides/getting-started/" target="_blank">Installation Guide <hx-icon type="external-link"></hx-icon></a></li>
+        <li><a href="https://helixdesignsystem.github.io/helix-ui/guides/faq/" target="_blank">Dev FAQ <hx-icon type="external-link"></hx-icon></a></li>
       </ul>
     </div>
   </div>

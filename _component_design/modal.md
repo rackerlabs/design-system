@@ -1,5 +1,5 @@
 ---
-title: Modals
+title: Modal
 parent: Content Areas
 layout: component
 category: Components
@@ -11,7 +11,7 @@ preview-image: preview-images/modal.svg
 last-modified: 2019-02-11
 helix-ui-css: true
 helix-ui-javascript: true
-pagelink: https://rackerlabs.github.io/helix-ui/components/modals/
+pageLink: components/modal/
 ---
 
 {% include toc.html %}

@@ -1,17 +1,17 @@
 ---
-title: Buttons Drop-down
+title: Button Menu
 parent: Inputs and Controls
 layout: component
 category: Components
 usage: >
-  A drop-down button is an element that, when clicked, reveals additional options to launch a process or initiate an action.
+  A button menu is an element that, when clicked, reveals additional options to launch a process or initiate an action.
 preview-image: preview-images/buttons-dropdown-thumbnail.svg
 status: stable
 resource: true
 last-modified: 2018-09-06
 helix-ui-css: true
 helix-ui-javascript: na
-pagelink: https://rackerlabs.github.io/helix-ui/components/menus/#grouped-menu
+pageLink: components/menu/
 ---
 
 {% include toc.html %}
@@ -24,7 +24,7 @@ pagelink: https://rackerlabs.github.io/helix-ui/components/menus/#grouped-menu
 
 ## When to use
 
-Use a drop-down button when there are multiple actions associated with a button but no primary action is designated. When the user clicks a drop-down button, all actions appear in a menu.
+Use a button menu when there are multiple actions associated with a button but no primary action is designated. When the user clicks a button menu, all actions appear in a menu.
 
 {% endcolumn %}
 
@@ -40,10 +40,10 @@ Use a drop-down button when there are multiple actions associated with a button 
 
 ## Best practices
 
-In addition to the best practices outlined in [buttons]({{site.baseurl}}/components/buttons.html), consider the following best practices when you construct a drop-down button:
+In addition to the best practices outlined in [buttons]({{site.baseurl}}/components/buttons.html), consider the following best practices when you construct a button menu:
 
-- Ensure that you label a drop-down button accurately. The user should be able to predict the options that are available in the drop-down menu.
-- While a drop-down button reduces the clutter on a page, drop-down buttons conceal user options. Consider listing all options as an alternative to concealing options within a button.
+- Ensure that you label a button menu accurately. The user should be able to predict the options that are available in the drop-down menu.
+- While a button menu reduces the clutter on a page, button menus conceal user options. Consider listing all options as an alternative to concealing options within a button.
 
 {% endcolumn %}
 
@@ -59,7 +59,7 @@ In addition to the best practices outlined in [buttons]({{site.baseurl}}/compone
 
 ## Specifications
 
-Use the following specifications when you construct a drop-down button.
+Use the following specifications when you construct a button menu.
 
 {% endcolumn %}
 
@@ -75,7 +75,7 @@ Use the following specifications when you construct a drop-down button.
 
 ### Composition
 
-A drop-down button contains the following elements:
+A button menu contains the following elements:
 
 - **Button (required)**: Refer to [buttons]({{site.baseurl}}/components/buttons.html) for more information about constructing a button.
 - **Angle-down icon (required)**: The drop-down menu appears when the user clicks the angle-down icon. See the [Icons](https://rackerlabs.github.io/helix-ui/components/icons/) page of the Helix Toolkit for information about the angle-down icon.
@@ -87,7 +87,7 @@ A drop-down button contains the following elements:
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Drop-down button composition"] [class:"image bg-light border"] %}
+{% figure [caption:"Button menu composition"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/inputs-and-controls/drop-down-buttons/buttons-dropdown-composition.png" width="314"/>
 {% endfigure %}
 
@@ -105,13 +105,13 @@ A drop-down button contains the following elements:
 
 ### Style
 
-Use these specifications when you construct a drop-down button.
+Use these specifications when you construct a button menu.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Drop-down button style"] [class:"image bg-light border"] %}
+{% figure [caption:"Button menu style"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/inputs-and-controls/drop-down-buttons/buttons-dropdown-style.png" width="360"/>
 {% endfigure %}
 
@@ -129,13 +129,13 @@ Use these specifications when you construct a drop-down button.
 
 ### Spacing
 
-In addition to the spacing specifications documented in [Buttons]({{site.baseurl}}/components/buttons.html), use these spacing guidelines when you construct a drop-down button.
+In addition to the spacing specifications documented in [Buttons]({{site.baseurl}}/components/buttons.html), use these spacing guidelines when you construct a button menu.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 
-{% figure [caption:"Drop-down button spacing"] [class:"image bg-light border"] %}
+{% figure [caption:"Button menu spacing"] [class:"image bg-light border"] %}
 <embed src="{{site.url}}/assets/images/components/inputs-and-controls/drop-down-buttons/buttons-dropdown-spacing.png" width="260"/>
 {% endfigure %}
 

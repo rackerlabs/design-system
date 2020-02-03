@@ -1,5 +1,5 @@
 ---
-title: Select filter
+title: Filter
 parent: Search and Filters
 layout: component
 category: Components
@@ -11,6 +11,7 @@ status: stable
 last-modified: 2018-05-22
 helix-ui-css: false
 helix-ui-javascript: false
+pageLink: none
 ---
 
 {% include toc.html %}
