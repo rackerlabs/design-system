@@ -1,5 +1,5 @@
 ---
-title: Button Bars
+title: Button Bar
 parent: Inputs and Controls
 layout: component
 category: Components
@@ -11,7 +11,7 @@ resource: true
 last-modified: 2018-09-20
 helix-ui-css: true
 helix-ui-javascript: na
-pagelink: https://rackerlabs.github.io/helix-ui/components/menus/#split-menu
+pageLink: components/button/#button-group
 ---
 
 {% include toc.html %}

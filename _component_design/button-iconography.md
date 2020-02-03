@@ -11,7 +11,7 @@ resource: true
 last-modified: 2018-10-11
 helix-ui-css: true
 helix-ui-javascript: na
-pagelink: https://rackerlabs.github.io/helix-ui/components/menus/
+pageLink: none
 ---
 
 {% include toc.html %}

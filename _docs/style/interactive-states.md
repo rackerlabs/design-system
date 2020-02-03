@@ -6,7 +6,7 @@ usage: >
   The system of interactive states ensures consistent styles for the states of controls in Helix. This system accounts for multiple types of controls, with various interactive patterns, and defines commonalities and standards across all of them.
 
   Unless otherwise noted in their individual design docs, all controls that live in the application body strictly adhere to subsets of the specifications in this document.
-resource: true
+resource: false
 status: complete
 last-modified: 2019-06-03
 ---

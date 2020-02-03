@@ -30,12 +30,6 @@
                 <nav class="hxBreadcrumb">
                   <a style="cursor:default;">{{page.category}}</a>
                   <hx-icon class="delimiter" type="angle-right"></hx-icon>
-                    {%- for item in site.component_design -%}
-                      {%- if page.title == item.title -%}
-                        <a id="breadcrumbLink">{{item.parent}}</a>
-                      {%- endif -%}
-                    {%- endfor -%}
-                  <hx-icon class="delimiter" type="angle-right"></hx-icon>
                   <a href="{{page.url}}">{{page.title}}</a>
                 </nav>
               </div>

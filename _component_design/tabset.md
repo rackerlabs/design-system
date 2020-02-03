@@ -1,17 +1,17 @@
 ---
-title: Tabs
+title: Tabset
 parent: Content Areas
 layout: component
 category: Components
 usage: >
-  A tab is a hidden section of content on a page. Tabs enable users to easily switch between multiple sections of a page without losing context. Tabs help organize content at a high level, such as switching between views, data sets, or the functional aspects of an application.
+  A tab is a hidden section of content on a page. Tabsets enable users to easily switch between multiple sections of a page without losing context. Tabs help organize content at a high level, such as switching between views, data sets, or the functional aspects of an application.
 preview-image: preview-images/tabs.svg
 resource: true
 status: stable
 last-modified: 2018-05-08
 helix-ui-css: true
 helix-ui-javascript: true
-pagelink: https://rackerlabs.github.io/helix-ui/components/tabs/
+pageLink: components/tabset/
 ---
 
 {% include toc.html %}
@@ -27,13 +27,13 @@ pagelink: https://rackerlabs.github.io/helix-ui/components/tabs/
 Use tabs in the following situations:
 
 - Users need to alternate between different views, while the context remains constant.
-- You want the content of a page to be scannable and easy to navigate. Tabs help users quickly find what they need.
-- You do not need to create a single, unified experience for the user. Tabs eliminate the need for the user to scroll through long pages to find the right section.
+- You want the content of a page to be scannable and easy to navigate. Tabsets help users quickly find what they need.
+- You do not need to create a single, unified experience for the user. Tabsets eliminate the need for the user to scroll through long pages to find the right section.
 
-Do not use tabs for the following situations:
+Do not use tabsets for the following situations:
 
-- Tabs are not suited for use as primary navigation for an entire page.
-- Tabs are not viable when users need to view content from multiple tabs simultaneously.
+- Tabsets are not suited for use as primary navigation for an entire page.
+- Tabsets are not viable when users need to view content from multiple tabs simultaneously.
 
 {% endcolumn %}
 
@@ -123,7 +123,7 @@ A tab consists of the following elements:
 
 ### Style
 
-Construct tabs so that the left-most tab is selected by default. In this example, **Notes** is the default tab.
+Construct tabsets so that the left-most tab is selected by default. In this example, **Notes** is the default tab.
 
 Place tabs on a transparent canvas so that the tab and the tab content area are the same color as the content behind it.
 

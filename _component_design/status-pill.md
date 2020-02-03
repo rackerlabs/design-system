@@ -1,5 +1,5 @@
 ---
-title: Status Labels
+title: Status Pill
 parent: Notifications
 layout: component
 category: Components
@@ -11,7 +11,7 @@ preview-image: preview-images/status-labels.svg
 last-modified: 2017-12-01
 helix-ui-css: true
 helix-ui-javascript: true
-pagelink: https://rackerlabs.github.io/helix-ui/components/pills/#status-pill
+pageLink: components/pill/#status-pill
 ---
 
 {% include toc.html %}
@@ -24,7 +24,7 @@ pagelink: https://rackerlabs.github.io/helix-ui/components/pills/#status-pill
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
 ### When to use
-Use status labels to communicate the current state of an object or process. For example, when expressing the status of a support ticket.
+Use status pills to communicate the current state of an object or process. For example, when expressing the status of a support ticket.
 
 ### Best Practices
 
@@ -37,8 +37,8 @@ Use status labels to communicate the current state of an object or process. For 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-{% figure [caption:"Status label used to displayed a ticket status"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/notifications/status-labels/status-labels-hero.png" width="1440"/>
+{% figure [caption:"Status pill used to displayed a ticket status"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/notifications/status-pills/status-pills-hero.png" width="1440"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -54,13 +54,13 @@ Use status labels to communicate the current state of an object or process. For 
 
 ### Default layout
 
-Status labels use a 100% rounded border radius and a neutral or alert color strategy, which differs from default buttons and links.
+Status pills use a 100% rounded border radius and a neutral or alert color strategy, which differs from default buttons and links.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
-{% figure [caption:"A default status label specification"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/notifications/status-labels/status-labels-default.png" width="499"/>
+{% figure [caption:"A default status pill specification"] [class:"image bg-light border"] %}
+<embed src="{{site.url}}/assets/images/components/notifications/status-pills/status-pills-default.png" width="499"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -74,27 +74,27 @@ Status labels use a 100% rounded border radius and a neutral or alert color stra
 
 ### Emphasis
 
-You can emphasize or de-emphasize status data by modifying color and choosing stroke or fill on status labels.
+You can emphasize or de-emphasize status data by modifying color and choosing stroke or fill on status pills.
 
 #### Stroke versus fill
 
 - Use outlined style to de-emphasizes the content and use fill to emphasize it.
 - Use outlined style when the information contained within is not the most important information on the screen.
-- Use filled style status labels when the information is of high importance.
+- Use filled style status pills when the information is of high importance.
 
 
 #### Color
 
 - Only use emphasis gray to highlight important, but not critical, statuses.
 - Only use emphasis purple for a status that is critical for a user to notice.
-- Do not modify the color values for status labels.
+- Do not modify the color values for status pills.
 - On dark backgrounds, lighter or subdued colors will draw more attention than darker colors.
 
 {% endcolumn %}
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Emphasize and de-emphasize statuses within your system using stroke versus fill and color."] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/notifications/status-labels/status-labels-variations.png" width="499"/>
+<embed src="{{site.url}}/assets/images/components/notifications/status-pills/status-pills-variations.png" width="499"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -110,7 +110,7 @@ You can emphasize or de-emphasize status data by modifying color and choosing st
 <div class="hxRow"  markdown="1">
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Health status labels
+### Health status pills
 
 Use Health Status Labels when describing the health of a system or device or when communicating a discrete severity level.
 not meet the following criteria, do not use Health Status Labels.
@@ -119,7 +119,7 @@ not meet the following criteria, do not use Health Status Labels.
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Example: Monitoring Status Labels could be used within Encore for 3rd party cloud"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/notifications/status-labels/status-labels-variations.png" width="499"/>
+<embed src="{{site.url}}/assets/images/components/notifications/status-pills/status-pills-variations.png" width="499"/>
 {% endfigure %}
 {% endcolumn %}
 </div>
@@ -131,7 +131,7 @@ not meet the following criteria, do not use Health Status Labels.
 <div class="hxRow"  markdown="1">
 {% column left:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg" %}
 
-### Alternate status labels
+### Alternate status pills
 
 Alternatively, use Status Labels that include dot monitoring indicators with legacy and dark interfaces where this might be more appropriate.
 
@@ -139,7 +139,7 @@ Alternatively, use Status Labels that include dot monitoring indicators with leg
 
 {% column right:"hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-8-md hxSpan-8-lg" %}
 {% figure [caption:"Example: Monitoring Status Labels could be used within Encore for 3rd party cloud"] [class:"image bg-light border"] %}
-<embed src="{{site.url}}/assets/images/components/notifications/status-labels/status-labels-variations.png" width="499"/>
+<embed src="{{site.url}}/assets/images/components/notifications/status-pills/status-pills-variations.png" width="499"/>
 {% endfigure %}
 {% endcolumn %}
 </div>

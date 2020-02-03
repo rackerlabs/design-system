@@ -9,5 +9,8 @@ $(document).ready(function() {
       $(this).attr('aria-expanded','false');
     });
   });
-
+  var currentNav = $('#nav').find('.current');
+  var navHeight = $('#nav').height();
+  var itemHeight = currentNav.height();
+  $('#nav').scrollTop(currentNav.position().top-(navHeight/2)+itemHeight);
 });

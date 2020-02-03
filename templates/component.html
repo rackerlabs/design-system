@@ -10,6 +10,9 @@ layout: base
                   <a class="issue hxBtn pull-right" href="https://github.com/rackerlabs/design-system/issues/new?title=Issue%20Regarding%20-%20{{page.url}}">Submit Issue</a>
                 </div>
                 <div class="component-blurb">{{page.usage}}</div>
+                {% if page.pageLink != 'none' %}
+                <a href="{{site.helixUIURL}}/{{page.pageLink}}" target="_blank" class="component-code-link">View component code <hx-icon type="external-link"></hx-icon></a>
+                {% endif %}
             </div>
             <div class="hxCol hxSpan-12-xs hxSpan-12-sm hxSpan-4-md hxSpan-4-lg hxSpan-4-xl">
                 <img class="hero-image" src="{{site.url}}/assets/images/{{page.preview-image}}" />
@@ -20,14 +23,6 @@ layout: base
 
 
   <article class="content-wrapper">
-    <div class="com-code">
-      <a href="#">Design Guidelines</a>
-      {%- for item in site.component_code -%}
-        {%- if page.title == item.title and item.code != null -%}
-          &nbsp;|&nbsp;<a href="{{site.url}}{{item.url}}.html">Code &amp; Examples</a>
-        {%- endif -%}
-      {%- endfor -%}
-    </div>
     <div class="component-content">
     {{content}}
     </div>
