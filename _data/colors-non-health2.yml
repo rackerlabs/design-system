@@ -1,0 +1,22 @@
+ 1:
+  name: "Gray"
+  colors:
+   A:
+    number: 400
+    value: "#999999"
+    type: "light"
+   B:
+    number: 650
+    value: "#666666"
+    type: "light"
+   C:
+    number: 800
+    value: "#2e2e2e"
+    type: "light"
+ 2:
+  name: "Indigo"
+  colors:
+   A:
+    number: 500
+    value: "#243a82"
+    type: "light"

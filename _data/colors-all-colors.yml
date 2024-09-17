@@ -1,0 +1,656 @@
+ 1:
+  name: "Steel"
+  colors:
+   A:
+    number: 900
+    value: "#172433"
+    type: "light"
+   B:
+    number: 800
+    value: "#263546"
+    type: "light"
+   C:
+    number: 700
+    value: "#354659"
+    type: "light"
+   D:
+    number: 600
+    value: "#485e78"
+    type: "light"
+   E:
+    number: 500
+    value: "#5a7697"
+    type: "dark"
+   F:
+    number: 400
+    value: "#788da6"
+    type: "dark"
+   G:
+    number: 300
+    value: "#93a7bf"
+    type: "dark"
+   H:
+    number: 200
+    value: "#b8c7d9"
+    type: "dark"
+   I:
+    number: 100
+    value: "#e3eaf2"
+    type: "dark"
+   J:
+    number: 25
+    value: "#F1F4F9"
+    type: "dark"
+ 2:
+  name: "Gray"
+  colors:
+   A:
+    number: 1000
+    value: "#000000"
+    type: "light"
+   B:
+    number: 975
+    value: "#090909"
+    type: "light"
+   C:
+    number: 950
+    value: "#111111"
+    type: "light"
+   D:
+    number: 900
+    value: "#1a1a1a"
+    type: "light"
+   E:
+    number: 800
+    value: "#2e2e2e"
+    type: "light"
+   F:
+    number: 700
+    value: "#4d4d4d"
+    type: "light"
+   G:
+    number: 650
+    value: "#666666"
+    type: "light"
+   H:
+    number: 600
+    value: "#737373"
+    type: "light"
+   I:
+    number: 500
+    value: "#808080"
+    type: "light"
+   J:
+    number: 400
+    value: "#999999"
+    type: "dark"
+   K:
+    number: 300
+    value: "#b2b2b2"
+    type: "dark"
+   L:
+    number: 200
+    value: "#cccccc"
+    type: "dark"
+   M:
+    number: 100
+    value: "#e5e5e5"
+    type: "dark"
+   N:
+    number: 50
+    value: "#eeeeee"
+    type: "dark"
+   O:
+    number: 25
+    value: "#fcfcfc"
+    type: "dark"
+   P:
+    number: 0
+    value: "#ffffff"
+    type: "dark"
+ 3:
+  name: "Crimson"
+  colors:
+   A:
+    number: 900
+    value: "#380916"
+    type: "light"
+   B:
+    number: 800
+    value: "#4d1323"
+    type: "light"
+   C:
+    number: 700
+    value: "#631c31"
+    type: "light"
+   D:
+    number: 600
+    value: "#7d2641"
+    type: "light"
+   E:
+    number: 500
+    value: "#923753"
+    type: "light"
+   F:
+    number: 400
+    value: "#ad556f"
+    type: "light"
+   G:
+    number: 300
+    value: "#cc728e"
+    type: "light"
+   H:
+    number: 200
+    value: "#e698b2"
+    type: "light"
+   I:
+    number: 100
+    value: "#f7c4d3"
+    type: "light"
+ 4:
+  name: "Violet"
+  colors:
+   A:
+    number: 900
+    value: "#271733"
+    type: "light"
+   B:
+    number: 800
+    value: "#351f45"
+    type: "light"
+   C:
+    number: 700
+    value: "#49295e"
+    type: "light"
+   D:
+    number: 600
+    value: "#573170"
+    type: "light"
+   E:
+    number: 500
+    value: "#653d80"
+    type: "light"
+   F:
+    number: 400
+    value: "#7e5699"
+    type: "light"
+   G:
+    number: 300
+    value: "#9b74b3"
+    type: "light"
+   H:
+    number: 200
+    value: "#b89bc9"
+    type: "light"
+   I:
+    number: 100
+    value: "#d6bee6"
+    type: "light"
+ 5:
+  name: "Purple"
+  colors:
+   A:
+    number: 900
+    value: "#1a143b"
+    type: "light"
+   B:
+    number: 800
+    value: "#231d4f"
+    type: "light"
+   C:
+    number: 700
+    value: "#2e285c"
+    type: "light"
+   D:
+    number: 600
+    value: "#383169"
+    type: "light"
+   E:
+    number: 500
+    value: "#453c81"
+    type: "light"
+   F:
+    number: 400
+    value: "#625899"
+    type: "light"
+   G:
+    number: 300
+    value: "#7e73bf"
+    type: "light"
+   H:
+    number: 200
+    value: "#9d93cf"
+    type: "light"
+   I:
+    number: 100
+    value: "#bfb9e8"
+    type: "light"
+ 6:
+  name: "Indigo"
+  colors:
+   A:
+    number: 900
+    value: "#101a3b"
+    type: "light"
+   B:
+    number: 800
+    value: "#162552"
+    type: "light"
+   C:
+    number: 700
+    value: "#192a5c"
+    type: "light"
+   D:
+    number: 600
+    value: "#1e316b"
+    type: "light"
+   E:
+    number: 500
+    value: "#243a82"
+    type: "light"
+   F:
+    number: 400
+    value: "#4a61a8"
+    type: "light"
+   G:
+    number: 300
+    value: "#647ec7"
+    type: "light"
+   H:
+    number: 200
+    value: "#8599de"
+    type: "light"
+   I:
+    number: 100
+    value: "#acbaeb"
+    type: "light"
+ 7:
+  name: "Azure"
+  colors:
+   A:
+    number: 900
+    value: "#082542"
+    type: "light"
+   B:
+    number: 800
+    value: "#0b345e"
+    type: "light"
+   C:
+    number: 700
+    value: "#0e4278"
+    type: "light"
+   D:
+    number: 600
+    value: "#104d8c"
+    type: "light"
+   E:
+    number: 500
+    value: "#185ba0"
+    type: "light"
+   F:
+    number: 400
+    value: "#3a7dc2"
+    type: "light"
+   G:
+    number: 300
+    value: "#639bd4"
+    type: "light"
+   H:
+    number: 200
+    value: "#82b2e3"
+    type: "dark"
+   I:
+    number: 100
+    value: "#afceed"
+    type: "dark"
+ 8:
+  name: "Blue"
+  colors:
+   A:
+    number: 900
+    value: "#08314a"
+    type: "light"
+   B:
+    number: 800
+    value: "#064266"
+    type: "light"
+   C:
+    number: 700
+    value: "#055687"
+    type: "light"
+   D:
+    number: 600
+    value: "#0065a1"
+    type: "light"
+   E:
+    number: 500
+    value: "#0077bf"
+    type: "light"
+   F:
+    number: 400
+    value: "#4599cc"
+    type: "light"
+   G:
+    number: 300
+    value: "#62aede"
+    type: "light"
+   H:
+    number: 200
+    value: "#8ec6e8"
+    type: "dark"
+   I:
+    number: 100
+    value: "#b4d9f0"
+    type: "dark"
+ 9:
+  name: "Teal"
+  colors:
+   A:
+    number: 900
+    value: "#103b31"
+    type: "light"
+   B:
+    number: 800
+    value: "#155044"
+    type: "light"
+   C:
+    number: 700
+    value: "#1a6556"
+    type: "light"
+   D:
+    number: 600
+    value: "#1e7a69"
+    type: "light"
+   E:
+    number: 500
+    value: "#238f7b"
+    type: "light"
+   F:
+    number: 400
+    value: "#49a694"
+    type: "light"
+   G:
+    number: 300
+    value: "#6fbcae"
+    type: "dark"
+   H:
+    number: 200
+    value: "#94d3c7"
+    type: "dark"
+   I:
+    number: 100
+    value: "#bae9e0"
+    type: "dark"
+ 10:
+  name: "Green"
+  colors:
+   A:
+    number: 900
+    value: "#1c421c"
+    type: "light"
+   B:
+    number: 800
+    value: "#235a23"
+    type: "light"
+   C:
+    number: 700
+    value: "#2b722b"
+    type: "light"
+   D:
+    number: 600
+    value: "#328b32"
+    type: "light"
+   E:
+    number: 500
+    value: "#39a339"
+    type: "light"
+   F:
+    number: 400
+    value: "#5fb55f"
+    type: "light"
+   G:
+    number: 300
+    value: "#85c885"
+    type: "dark"
+   H:
+    number: 200
+    value: "#abdbab"
+    type: "dark"
+   I:
+    number: 100
+    value: "#d1edd1"
+    type: "dark"
+ 11:
+  name: "Chartreuse"
+  colors:
+   A:
+    number: 900
+    value: "#313b0f"
+    type: "light"
+   B:
+    number: 800
+    value: "#485817"
+    type: "light"
+   C:
+    number: 700
+    value: "#607420"
+    type: "light"
+   D:
+    number: 600
+    value: "#779128"
+    type: "light"
+   E:
+    number: 500
+    value: "#8ead30"
+    type: "light"
+   F:
+    number: 400
+    value: "#a4be56"
+    type: "dark"
+   G:
+    number: 300
+    value: "#b9ce7b"
+    type: "dark"
+   H:
+    number: 200
+    value: "#cfdfa1"
+    type: "dark"
+   I:
+    number: 100
+    value: "#e4efc6"
+    type: "dark"
+ 12:
+  name: "Yellow"
+  colors:
+   A:
+    number: 900
+    value: "#3d320f"
+    type: "light"
+   B:
+    number: 800
+    value: "#665314"
+    type: "light"
+   C:
+    number: 700
+    value: "#8c7426"
+    type: "light"
+   D:
+    number: 600
+    value: "#bb9b32"
+    type: "light"
+   E:
+    number: 500
+    value: "#e3b727"
+    type: "light"
+   F:
+    number: 400
+    value: "#e8c966"
+    type: "dark"
+   G:
+    number: 300
+    value: "#f0d78b"
+    type: "dark"
+   H:
+    number: 200
+    value: "#f6e3a0"
+    type: "dark"
+   I:
+    number: 100
+    value: "#f7eec8"
+    type: "dark"
+ 13:
+  name: "Amber"
+  colors:
+   A:
+    number: 900
+    value: "#452811"
+    type: "light"
+   B:
+    number: 800
+    value: "#6b3e1a"
+    type: "light"
+   C:
+    number: 700
+    value: "#8e5323"
+    type: "light"
+   D:
+    number: 600
+    value: "#be6f2d"
+    type: "light"
+   E:
+    number: 500
+    value: "#ed8b39"
+    type: "light"
+   F:
+    number: 400
+    value: "#f1a261"
+    type: "dark"
+   G:
+    number: 300
+    value: "#f4b989"
+    type: "dark"
+   H:
+    number: 200
+    value: "#f8d1b0"
+    type: "dark"
+   I:
+    number: 100
+    value: "#f7e5c8"
+    type: "dark"
+ 14:
+  name: "Orange"
+  colors:
+   A:
+    number: 900
+    value: "#451f0e"
+    type: "light"
+   B:
+    number: 800
+    value: "#692f16"
+    type: "light"
+   C:
+    number: 700
+    value: "#8f411c"
+    type: "light"
+   D:
+    number: 600
+    value: "#bf5626"
+    type: "light"
+   E:
+    number: 500
+    value: "#ef6c2f"
+    type: "light"
+   F:
+    number: 400
+    value: "#f28959"
+    type: "light"
+   G:
+    number: 300
+    value: "#f5a782"
+    type: "dark"
+   H:
+    number: 200
+    value: "#f9c4ac"
+    type: "dark"
+   I:
+    number: 100
+    value: "#fadfc6"
+    type: "dark"
+ 15:
+  name: "Vermillion"
+  colors:
+   A:
+    number: 900
+    value: "#3b160c"
+    type: "light"
+   B:
+    number: 800
+    value: "#5c2212"
+    type: "light"
+   C:
+    number: 700
+    value: "#812f1a"
+    type: "light"
+   D:
+    number: 600
+    value: "#ac3f22"
+    type: "light"
+   E:
+    number: 500
+    value: "#cf4513"
+    type: "light"
+   F:
+    number: 400
+    value: "#df7255"
+    type: "light"
+   G:
+    number: 300
+    value: "#e7957f"
+    type: "dark"
+   H:
+    number: 200
+    value: "#efb9aa"
+    type: "dark"
+   I:
+    number: 100
+    value: "#f7dcd4"
+    type: "dark"
+ 16:
+  name: "Red"
+  colors:
+   A:
+    number: 900
+    value: "#300d0a"
+    type: "light"
+   B:
+    number: 800
+    value: "#4c140f"
+    type: "light"
+   C:
+    number: 700
+    value: "#721d16"
+    type: "light"
+   D:
+    number: 600
+    value: "#98261e"
+    type: "light"
+   E:
+    number: 500
+    value: "#be3025"
+    type: "light"
+   F:
+    number: 400
+    value: "#cb5951"
+    type: "light"
+   G:
+    number: 300
+    value: "#d87870"
+    type: "light"
+   H:
+    number: 200
+    value: "#e5a19c"
+    type: "dark"
+   I:
+    number: 100
+    value: "#ffcfc9"
+    type: "dark"
